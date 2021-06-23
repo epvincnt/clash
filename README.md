@@ -5,534 +5,543 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美国() 3, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶PetaExpress 4, server: 198.2.200.218, port: 443, type: vmess, uuid: 2a23dbd5-09cf-4aa8-a835-3230728c4973, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.48168443.xyz}}
-  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 5, server: 23.224.30.70, port: 443, type: vmess, uuid: 688f4b5d-ce9a-4729-abe5-b66ca96b2ee9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.36773818.xyz}}
-  - {name: adsad, server: 54.215.234.182, port: 14924, type: vmess, uuid: d099824d-8259-4c45-f6ab-c1896f741393, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 HK4(Direct) - 香港直连专线, server: hk4.direct.iplc.pro, port: 52000, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇭🇰 HK3(IEPL) - 深港国际专线, server: cn1.relay.iplc.pro, port: 52002, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇭🇰 HK3(Direct) - 香港直连专线, server: hk3.direct.iplc.pro, port: 52000, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇭🇰 HK4(IEPL) - 深港国际专线, server: cn1.relay.iplc.pro, port: 52003, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇭🇰 HK2(IEPL) - 深港国际专线, server: cn1.relay.iplc.pro, port: 52001, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇰🇷 KR1(Direct) - 韩国直连专线, server: kr1.direct.iplc.pro, port: 52000, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇭🇰 IPLC香港国际专线, server: vpscloudhk2.yasuoa.xyz, port: 443, type: vmess, uuid: 4e6267f9-0e7e-4d9a-88c7-584d2a6c7a90, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vpscloudhk2.yasuoa.xyz}}
+  - {name: 🇯🇵 JP1(IEPL) - 深日国际专线, server: cn1.relay.iplc.pro, port: 52006, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇭🇰 HK1(IEPL) - 沪港国际专线, server: cn2.relay.iplc.pro, port: 52000, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇯🇵 JP1(IEPL) - 沪日国际专线, server: cn2.relay.iplc.pro, port: 52002, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 智能优选专线, server: auto.iplc.pro, port: 52000, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇬🇧 英国, server: zz.akjf3.com, port: 39207, type: vmess, uuid: 41865d1a-1c4a-3e92-88d1-e3352dba3ded, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: zz.akjf3.com}}
+  - {name: 🇬🇧 英国 2, server: zz.akjf3.com, port: 39209, type: vmess, uuid: 9ea05948-57e9-34fa-9c04-9b94fe01164b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: zz.akjf3.com}}
+  - {name: 🇺🇸 美国 ☆☆ 06 ☆NTT☆   1.2x, server: vip9-3.lounge.workers.dev, port: 443, type: vmess, uuid: f5121518-a614-4a16-b1f1-8dbc0c502854, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vip9-3.lounge.workers.dev}}
   - {name: 🇯🇵 日本((Youtube频道：工具大师！)), server: 172.67.186.204, port: 443, type: vmess, uuid: f299184b-19e0-41a4-9b4b-65fa8f0e691c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-jp1.ooxc.cc}}
-  - {name: YouTube-阿伟科技, server: sg.rapeamazon.ml, port: 443, type: vmess, uuid: 78405ab3-fe5a-4743-978a-078034b3790a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /bdff, ws-headers: {Host: sg.rapeamazon.ml}}
-  - {name: YouTube-阿伟科技 2, server: 46.182.107.36, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f68, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.28735975.xyz}}
-  - {name: YouTube-阿伟科技 3, server: 46.182.107.46, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-8221ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.27430248.xyz}}
-  - {name: 🇩🇪 德国, server: 193.29.106.197, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君), server: 52.255.146.242, port: 28380, type: vmess, uuid: a232e331-bff8-48d4-f9a6-2436cf41aa26, alterId: 64, cipher: auto, tls: false}
-  - {name: 波兰, server: 95.214.55.119, port: 16408, type: vmess, uuid: 4e49e7c6-b7cd-4c74-c022-2add80a19556, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国, server: 23.224.30.70, port: 443, type: vmess, uuid: 688f4b5d-ce9a-4729-abe5-b66ca96b2ee9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.36773818.xyz}}
+  - {name: 🇨🇳 TW1(IEPL) - 沪台国际专线, server: cn2.relay.iplc.pro, port: 52001, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇬🇧 英国 3, server: zz.akjf3.com, port: 39209, type: vmess, uuid: 41865d1a-1c4a-3e92-88d1-e3352dba3ded, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: zz.akjf3.com}}
+  - {name: 🇷🇺 RU1(IEPL) - 沪俄国际专线, server: cn2.relay.iplc.pro, port: 52004, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇺🇸 美国 2, server: 23.225.125.195, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/301109172001, ws-headers: {Host: www.91370744.xyz}}
+  - {name: 🇬🇧 英国 4, server: zz.akjf3.com, port: 39210, type: vmess, uuid: 41865d1a-1c4a-3e92-88d1-e3352dba3ded, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: zz.akjf3.com}}
+  - {name: 🇺🇸 美国 3, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
+  - {name: 🇯🇵 日本() 7, server: 104.21.19.155, port: 443, type: vmess, uuid: f299184b-19e0-41a4-9b4b-65fa8f0e691c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-jp1.ooxc.cc}}
+  - {name: 罗马(欢迎订阅Youtube破解资源君), server: 91.90.121.187, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇦🇺 m|🇦🇺 AU_438 |20.68Mb, server: 1.1.1.1, port: 80, type: vmess, uuid: a20ffefe-e575-4ca8-d0d9-608df76552e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /stream, ws-headers: {Host: streampipe2.us-west2.cphxte9xxqgdrn3z.tk}}
+  - {name: 🇺🇸 美国 4, server: 198.2.200.218, port: 443, type: vmess, uuid: 2a23dbd5-09cf-4aa8-a835-3230728c4973, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.48168443.xyz}}
+  - {name: 🇺🇸 美国() 3, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 美国 5, server: 198.211.3.154, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇮🇹 意大利(欢迎订阅Youtube破解资源君), server: 82.102.26.117, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇯🇵 m|🇯🇵 JP_3366 |18.18Mb, server: jp.rapeamazon.ml, port: 443, type: vmess, uuid: 7a2592e8-28d9-4972-8788-4601e09f27c4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ewfd, ws-headers: {Host: jp.rapeamazon.ml}}
+  - {name: 🇮🇹 意大利 顺丰资源Youtube, server: 82.102.26.117, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸 github.com/freefq - 美国Amazon EC2服务器 39, server: 3.66.221.175, port: 31186, type: vmess, uuid: 3ebad99a-4470-4998-94be-43046d0b4986, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 4 2, server: 212.102.44.81, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇭🇰 HK2(Direct) - 香港直连专线, server: hk2.direct.iplc.pro, port: 52000, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇨🇦 加拿大, server: 208.78.41.198, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国 6, server: 23.224.30.69, port: 443, type: vmess, uuid: 688f4b5d-ce9a-4729-abe5-b66ca96b2ee9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.36773818.xyz}}
+  - {name: 🇮🇹 意大利, server: 82.102.26.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇮🇹 意大利 2, server: 82.102.26.117, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: meiguov1, server: 193.42.96.98, port: 30104, type: vmess, uuid: c7d03e59-8fff-463e-9589-9f8099d3e366, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 7, server: 154.84.1.106, port: 443, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.63681459.xyz}}
+  - {name: 🇳🇱 荷兰, server: 46.182.107.147, port: 443, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a539467bc7a7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73207635.xyz}}
+  - {name: 🇮🇹 意大利 3, server: 82.102.26.117, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 IPLC美国游戏专线, server: vpscloudus.yasuoa.xyz, port: 443, type: vmess, uuid: 66f0b61a-5c2a-42ee-955e-bc3dd61d3c61, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vpscloudus.yasuoa.xyz}}
   - {name: adi|0527 - 🇺🇸, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇺🇸 US, server: 148.72.169.213, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇬🇧 英国（）, server: 35.178.68.152, port: 47611, type: vmess, uuid: 97a4d167-b361-48b8-b004-8bc45669e334, alterId: 64, cipher: auto, tls: false}
-  - {name: YouTube-阿伟科技 4, server: 23.224.8.92, port: 443, type: vmess, uuid: bef6f470-d961-4419-a0df-d9c2dcafaefa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.10925848.xyz}}
-  - {name: 58756, server: 95.214.55.120, port: 42280, type: vmess, uuid: ac56c78b-bc3e-45ce-bd20-254339688d17, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇩🇪 m|Relay_🇺🇸US-🇩🇪DE_68 |107.21Mb, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇳🇱 荷兰, server: 212.102.35.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇬🇧 英国, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: m|_1387, server: 95.214.55.118, port: 50825, type: vmess, uuid: 0cfb1063-051e-4a56-ccac-27947710ea0e, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 m|🇳🇱 NL_3757 |30.03Mb, server: 154.84.1.14, port: 443, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.51334583.xyz}}
-  - {name: 🇳🇱 m|Pool_🇳🇱NL_3908, server: 46.182.107.146, port: 443, type: vmess, uuid: acedd8e0-e654-4a40-935d-5594c6c114bd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 195.47.194.42, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇰🇷 韩国（）, server: 104.16.149.48, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 22, server: 198.211.3.154, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
-  - {name: 🇬🇧 英国 2, server: 185.38.150.124, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 塞浦路斯, server: 195.47.194.42, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇮🇹 意大利, server: 82.102.26.117, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: 🇮🇹 意大利 2, server: 82.102.26.117, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇩🇪 德国 2, server: 18.157.179.71, port: 443, type: vmess, uuid: 81dd574d-8d47-4b31-9f5a-3f638b427842, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国() 5, server: 143.244.42.71, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: YouTube-阿伟科技 5, server: 138.201.150.52, port: 33957, type: vmess, uuid: 89cee221-b06c-46c5-f0d7-4fd3f4740b97, alterId: 64, cipher: auto, tls: false}
-  - {name: 以色列, server: 195.47.194.42, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 塞浦路斯 2, server: 195.47.194.42, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇬🇧 英国 3, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 立陶宛 🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 194.41.112.14, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇮🇹 意大利 3, server: 82.102.26.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 91.90.123.155:31572, server: 91.90.123.155, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 塞浦路斯 3, server: 195.47.194.42, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 塞浦路斯 4, server: 195.47.194.42, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇮🇹 意大利 4, server: 82.102.26.117, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇮🇹 意大利 5, server: 82.102.26.117, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇺🇸 美国, server: 172.67.150.130, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: 🇮🇹 意大利 米兰（） 12, server: 82.102.26.117, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇳🇱 m|🇳🇱 NL_3729 |30.05Mb, server: 46.182.107.45, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-8221ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.27430248.xyz}}
-  - {name: 🇬🇧 英国 4, server: 185.44.76.188, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇬🇧 英国 5, server: 185.44.76.188, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: a, server: 82.102.26.117, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇮🇹 意大利 6, server: 82.102.26.117, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: www www 13, server: 198.147.22.87, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: 🇮🇹 意大利 顺丰资源Youtube, server: 82.102.26.117, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 顺丰资源Youtube, server: 91.90.123.115, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇮🇹 意大利(欢迎订阅Youtube破解资源君), server: 82.102.26.117, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 顺丰资源Youtube 2, server: 82.102.26.117, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: a 2, server: 82.102.26.117, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇮🇹 意大利 7, server: 82.102.26.117, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 🇳🇱 m|🇳🇱 NL_3750 |30.13Mb, server: 154.84.1.15, port: 443, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.51334583.xyz}}
-  - {name: 🇮🇹 意大利 8, server: 82.102.26.117, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: YouTube-阿伟科技 6, server: 23.225.125.195, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/301109172001, ws-headers: {Host: www.91370744.xyz}}
-  - {name: a 3, server: 82.102.26.117, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇮🇹 意大利 9, server: 82.102.26.117, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇳🇱 荷兰 2, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2, server: 198.147.22.87, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇮🇹 意大利 顺丰资源Youtube 2, server: 82.102.26.117, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 🇮🇹 意大利 10, server: 82.102.26.117, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 390, server: 46.182.107.39, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b67947, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.49696760.xyz}}
+  - {name: 🇺🇸 美国 8, server: 84.17.35.86, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 欧洲() 17, server: 176.227.241.24, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇮🇹 意大利 11, server: 82.102.26.117, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 罗马(欢迎订阅Youtube破解资源君), server: 91.90.123.115, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇰🇷 KR1(IEPL) - 沪韩国际专线, server: cn2.relay.iplc.pro, port: 52003, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 58756, server: 95.214.55.120, port: 42280, type: vmess, uuid: ac56c78b-bc3e-45ce-bd20-254339688d17, alterId: 64, cipher: auto, tls: false}
+  - {name: m|_1387, server: 95.214.55.118, port: 50825, type: vmess, uuid: 0cfb1063-051e-4a56-ccac-27947710ea0e, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇩🇪 德国, server: 193.29.106.197, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 美国 9, server: 154.84.1.15, port: 443, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.51334583.xyz}}
+  - {name: 🇰🇷 KR1(IEPL) - 深韩国际专线, server: cn1.relay.iplc.pro, port: 52007, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇳🇱 荷兰 2, server: 46.182.107.3, port: 443, type: vmess, uuid: bcca23ea-be73-4caf-b143-cbab2be93145, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.33960870.xyz}}
+  - {name: 🇬🇧 英国 6, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 91.90.123.155:31572, server: 91.90.123.155, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇮🇹 意大利 顺丰资源Youtube 2, server: 82.102.26.117, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
   - {name: 🇮🇹 意大利 a, server: 82.102.26.117, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇺🇸 github.com/freefq - 美国Amazon EC2服务器 39, server: 3.66.221.175, port: 31186, type: vmess, uuid: 3ebad99a-4470-4998-94be-43046d0b4986, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 顺丰资源Youtube, server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 美国 10, server: 52.255.146.242, port: 28380, type: vmess, uuid: a232e331-bff8-48d4-f9a6-2436cf41aa26, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰优质线路, server: 46.182.107.153, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26111a061f9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.53103739.xyz}}
+  - {name: 🇮🇹 意大利 4, server: 82.102.26.117, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: a 2, server: 82.102.26.117, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇳🇱 荷兰 3, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国 11, server: 154.84.1.14, port: 443, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.51334583.xyz}}
+  - {name: 🇮🇹 意大利 5, server: 82.102.26.117, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: 🇺🇸 美国() 5, server: 143.244.42.71, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国() 3
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶PetaExpress 4
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 5
-      - adsad
+      - 🇭🇰 HK4(Direct) - 香港直连专线
+      - 🇭🇰 HK3(IEPL) - 深港国际专线
+      - 🇭🇰 HK3(Direct) - 香港直连专线
+      - 🇭🇰 HK4(IEPL) - 深港国际专线
+      - 🇭🇰 HK2(IEPL) - 深港国际专线
+      - 🇰🇷 KR1(Direct) - 韩国直连专线
+      - 🇭🇰 IPLC香港国际专线
+      - 🇯🇵 JP1(IEPL) - 深日国际专线
+      - 🇭🇰 HK1(IEPL) - 沪港国际专线
+      - 🇯🇵 JP1(IEPL) - 沪日国际专线
+      - 智能优选专线
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇺🇸 美国 ☆☆ 06 ☆NTT☆   1.2x
       - 🇯🇵 日本((Youtube频道：工具大师！))
-      - YouTube-阿伟科技
-      - YouTube-阿伟科技 2
-      - YouTube-阿伟科技 3
-      - 🇩🇪 德国
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 波兰
+      - 🇺🇸 美国
+      - 🇨🇳 TW1(IEPL) - 沪台国际专线
+      - 🇬🇧 英国 3
+      - 🇷🇺 RU1(IEPL) - 沪俄国际专线
+      - 🇺🇸 美国 2
+      - 🇬🇧 英国 4
+      - 🇺🇸 美国 3
+      - 🇯🇵 日本() 7
+      - 罗马(欢迎订阅Youtube破解资源君)
+      - 🇦🇺 m|🇦🇺 AU_438 |20.68Mb
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国() 3
+      - 🇺🇸 美国 5
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
+      - 🇯🇵 m|🇯🇵 JP_3366 |18.18Mb
+      - 🇮🇹 意大利 顺丰资源Youtube
+      - 🇺🇸 github.com/freefq - 美国Amazon EC2服务器 39
+      - 🇺🇸 美国 4 2
+      - 🇭🇰 HK2(Direct) - 香港直连专线
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 6
+      - 🇮🇹 意大利
+      - 🇮🇹 意大利 2
+      - meiguov1
+      - 🇺🇸 美国 7
+      - 🇳🇱 荷兰
+      - 🇮🇹 意大利 3
+      - 🇺🇸 IPLC美国游戏专线
       - adi|0527 - 🇺🇸
       - 🇺🇸 US
       - 🇬🇧 英国（）
-      - YouTube-阿伟科技 4
-      - 58756
-      - 🇩🇪 m|Relay_🇺🇸US-🇩🇪DE_68 |107.21Mb
-      - 🇳🇱 荷兰
-      - 🇬🇧 英国
-      - m|_1387
-      - 🇳🇱 m|🇳🇱 NL_3757 |30.03Mb
-      - 🇳🇱 m|Pool_🇳🇱NL_3908
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇰🇷 韩国（）
-      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 22
-      - 🇬🇧 英国 2
-      - 塞浦路斯
-      - 🇮🇹 意大利
-      - 🇮🇹 意大利 2
-      - 🇩🇪 德国 2
-      - 🇺🇸 美国() 5
-      - YouTube-阿伟科技 5
-      - 以色列
-      - 塞浦路斯 2
-      - 🇬🇧 英国 3
-      - 立陶宛 🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇮🇹 意大利 3
-      - 91.90.123.155:31572
-      - 塞浦路斯 3
-      - 塞浦路斯 4
-      - 🇮🇹 意大利 4
-      - 🇮🇹 意大利 5
-      - 🇺🇸 美国
-      - 🇮🇹 意大利 米兰（） 12
-      - 🇳🇱 m|🇳🇱 NL_3729 |30.05Mb
-      - 🇬🇧 英国 4
+      - 🇬🇧 英国 5
       - a
-      - 🇮🇹 意大利 6
-      - www www 13
-      - 🇮🇹 意大利 顺丰资源Youtube
-      - 顺丰资源Youtube
-      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
-      - 顺丰资源Youtube 2
-      - a 2
-      - 🇮🇹 意大利 7
-      - 🇳🇱 m|🇳🇱 NL_3750 |30.13Mb
-      - 🇮🇹 意大利 8
-      - YouTube-阿伟科技 6
-      - a 3
-      - 🇮🇹 意大利 9
-      - 🇳🇱 荷兰 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇮🇹 意大利 顺丰资源Youtube 2
-      - 🇮🇹 意大利 10
+      - 390
+      - 🇺🇸 美国 8
       - 欧洲() 17
-      - 🇮🇹 意大利 11
-      - 罗马(欢迎订阅Youtube破解资源君)
+      - 🇰🇷 KR1(IEPL) - 沪韩国际专线
+      - 58756
+      - m|_1387
+      - 🇩🇪 德国
+      - 🇺🇸 美国 9
+      - 🇰🇷 KR1(IEPL) - 深韩国际专线
+      - 🇳🇱 荷兰 2
+      - 🇬🇧 英国 6
+      - 91.90.123.155:31572
+      - 🇮🇹 意大利 顺丰资源Youtube 2
       - 🇮🇹 意大利 a
-      - 🇺🇸 github.com/freefq - 美国Amazon EC2服务器 39
-      - 🇺🇸 美国 顺丰资源Youtube
+      - 🇺🇸 美国 10
+      - 🇳🇱 荷兰优质线路
+      - 🇮🇹 意大利 4
+      - a 2
+      - 🇳🇱 荷兰 3
+      - 🇺🇸 美国 11
+      - 🇮🇹 意大利 5
+      - 🇺🇸 美国() 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国() 3
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶PetaExpress 4
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 5
-      - adsad
+      - 🇭🇰 HK4(Direct) - 香港直连专线
+      - 🇭🇰 HK3(IEPL) - 深港国际专线
+      - 🇭🇰 HK3(Direct) - 香港直连专线
+      - 🇭🇰 HK4(IEPL) - 深港国际专线
+      - 🇭🇰 HK2(IEPL) - 深港国际专线
+      - 🇰🇷 KR1(Direct) - 韩国直连专线
+      - 🇭🇰 IPLC香港国际专线
+      - 🇯🇵 JP1(IEPL) - 深日国际专线
+      - 🇭🇰 HK1(IEPL) - 沪港国际专线
+      - 🇯🇵 JP1(IEPL) - 沪日国际专线
+      - 智能优选专线
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇺🇸 美国 ☆☆ 06 ☆NTT☆   1.2x
       - 🇯🇵 日本((Youtube频道：工具大师！))
-      - YouTube-阿伟科技
-      - YouTube-阿伟科技 2
-      - YouTube-阿伟科技 3
-      - 🇩🇪 德国
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 波兰
+      - 🇺🇸 美国
+      - 🇨🇳 TW1(IEPL) - 沪台国际专线
+      - 🇬🇧 英国 3
+      - 🇷🇺 RU1(IEPL) - 沪俄国际专线
+      - 🇺🇸 美国 2
+      - 🇬🇧 英国 4
+      - 🇺🇸 美国 3
+      - 🇯🇵 日本() 7
+      - 罗马(欢迎订阅Youtube破解资源君)
+      - 🇦🇺 m|🇦🇺 AU_438 |20.68Mb
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国() 3
+      - 🇺🇸 美国 5
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
+      - 🇯🇵 m|🇯🇵 JP_3366 |18.18Mb
+      - 🇮🇹 意大利 顺丰资源Youtube
+      - 🇺🇸 github.com/freefq - 美国Amazon EC2服务器 39
+      - 🇺🇸 美国 4 2
+      - 🇭🇰 HK2(Direct) - 香港直连专线
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 6
+      - 🇮🇹 意大利
+      - 🇮🇹 意大利 2
+      - meiguov1
+      - 🇺🇸 美国 7
+      - 🇳🇱 荷兰
+      - 🇮🇹 意大利 3
+      - 🇺🇸 IPLC美国游戏专线
       - adi|0527 - 🇺🇸
       - 🇺🇸 US
       - 🇬🇧 英国（）
-      - YouTube-阿伟科技 4
-      - 58756
-      - 🇩🇪 m|Relay_🇺🇸US-🇩🇪DE_68 |107.21Mb
-      - 🇳🇱 荷兰
-      - 🇬🇧 英国
-      - m|_1387
-      - 🇳🇱 m|🇳🇱 NL_3757 |30.03Mb
-      - 🇳🇱 m|Pool_🇳🇱NL_3908
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇰🇷 韩国（）
-      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 22
-      - 🇬🇧 英国 2
-      - 塞浦路斯
-      - 🇮🇹 意大利
-      - 🇮🇹 意大利 2
-      - 🇩🇪 德国 2
-      - 🇺🇸 美国() 5
-      - YouTube-阿伟科技 5
-      - 以色列
-      - 塞浦路斯 2
-      - 🇬🇧 英国 3
-      - 立陶宛 🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇮🇹 意大利 3
-      - 91.90.123.155:31572
-      - 塞浦路斯 3
-      - 塞浦路斯 4
-      - 🇮🇹 意大利 4
-      - 🇮🇹 意大利 5
-      - 🇺🇸 美国
-      - 🇮🇹 意大利 米兰（） 12
-      - 🇳🇱 m|🇳🇱 NL_3729 |30.05Mb
-      - 🇬🇧 英国 4
+      - 🇬🇧 英国 5
       - a
-      - 🇮🇹 意大利 6
-      - www www 13
-      - 🇮🇹 意大利 顺丰资源Youtube
-      - 顺丰资源Youtube
-      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
-      - 顺丰资源Youtube 2
-      - a 2
-      - 🇮🇹 意大利 7
-      - 🇳🇱 m|🇳🇱 NL_3750 |30.13Mb
-      - 🇮🇹 意大利 8
-      - YouTube-阿伟科技 6
-      - a 3
-      - 🇮🇹 意大利 9
-      - 🇳🇱 荷兰 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇮🇹 意大利 顺丰资源Youtube 2
-      - 🇮🇹 意大利 10
+      - 390
+      - 🇺🇸 美国 8
       - 欧洲() 17
-      - 🇮🇹 意大利 11
-      - 罗马(欢迎订阅Youtube破解资源君)
+      - 🇰🇷 KR1(IEPL) - 沪韩国际专线
+      - 58756
+      - m|_1387
+      - 🇩🇪 德国
+      - 🇺🇸 美国 9
+      - 🇰🇷 KR1(IEPL) - 深韩国际专线
+      - 🇳🇱 荷兰 2
+      - 🇬🇧 英国 6
+      - 91.90.123.155:31572
+      - 🇮🇹 意大利 顺丰资源Youtube 2
       - 🇮🇹 意大利 a
-      - 🇺🇸 github.com/freefq - 美国Amazon EC2服务器 39
-      - 🇺🇸 美国 顺丰资源Youtube
+      - 🇺🇸 美国 10
+      - 🇳🇱 荷兰优质线路
+      - 🇮🇹 意大利 4
+      - a 2
+      - 🇳🇱 荷兰 3
+      - 🇺🇸 美国 11
+      - 🇮🇹 意大利 5
+      - 🇺🇸 美国() 5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国() 3
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶PetaExpress 4
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 5
-      - adsad
+      - 🇭🇰 HK4(Direct) - 香港直连专线
+      - 🇭🇰 HK3(IEPL) - 深港国际专线
+      - 🇭🇰 HK3(Direct) - 香港直连专线
+      - 🇭🇰 HK4(IEPL) - 深港国际专线
+      - 🇭🇰 HK2(IEPL) - 深港国际专线
+      - 🇰🇷 KR1(Direct) - 韩国直连专线
+      - 🇭🇰 IPLC香港国际专线
+      - 🇯🇵 JP1(IEPL) - 深日国际专线
+      - 🇭🇰 HK1(IEPL) - 沪港国际专线
+      - 🇯🇵 JP1(IEPL) - 沪日国际专线
+      - 智能优选专线
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇺🇸 美国 ☆☆ 06 ☆NTT☆   1.2x
       - 🇯🇵 日本((Youtube频道：工具大师！))
-      - YouTube-阿伟科技
-      - YouTube-阿伟科技 2
-      - YouTube-阿伟科技 3
-      - 🇩🇪 德国
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 波兰
+      - 🇺🇸 美国
+      - 🇨🇳 TW1(IEPL) - 沪台国际专线
+      - 🇬🇧 英国 3
+      - 🇷🇺 RU1(IEPL) - 沪俄国际专线
+      - 🇺🇸 美国 2
+      - 🇬🇧 英国 4
+      - 🇺🇸 美国 3
+      - 🇯🇵 日本() 7
+      - 罗马(欢迎订阅Youtube破解资源君)
+      - 🇦🇺 m|🇦🇺 AU_438 |20.68Mb
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国() 3
+      - 🇺🇸 美国 5
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
+      - 🇯🇵 m|🇯🇵 JP_3366 |18.18Mb
+      - 🇮🇹 意大利 顺丰资源Youtube
+      - 🇺🇸 github.com/freefq - 美国Amazon EC2服务器 39
+      - 🇺🇸 美国 4 2
+      - 🇭🇰 HK2(Direct) - 香港直连专线
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 6
+      - 🇮🇹 意大利
+      - 🇮🇹 意大利 2
+      - meiguov1
+      - 🇺🇸 美国 7
+      - 🇳🇱 荷兰
+      - 🇮🇹 意大利 3
+      - 🇺🇸 IPLC美国游戏专线
       - adi|0527 - 🇺🇸
       - 🇺🇸 US
       - 🇬🇧 英国（）
-      - YouTube-阿伟科技 4
-      - 58756
-      - 🇩🇪 m|Relay_🇺🇸US-🇩🇪DE_68 |107.21Mb
-      - 🇳🇱 荷兰
-      - 🇬🇧 英国
-      - m|_1387
-      - 🇳🇱 m|🇳🇱 NL_3757 |30.03Mb
-      - 🇳🇱 m|Pool_🇳🇱NL_3908
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇰🇷 韩国（）
-      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 22
-      - 🇬🇧 英国 2
-      - 塞浦路斯
-      - 🇮🇹 意大利
-      - 🇮🇹 意大利 2
-      - 🇩🇪 德国 2
-      - 🇺🇸 美国() 5
-      - YouTube-阿伟科技 5
-      - 以色列
-      - 塞浦路斯 2
-      - 🇬🇧 英国 3
-      - 立陶宛 🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇮🇹 意大利 3
-      - 91.90.123.155:31572
-      - 塞浦路斯 3
-      - 塞浦路斯 4
-      - 🇮🇹 意大利 4
-      - 🇮🇹 意大利 5
-      - 🇺🇸 美国
-      - 🇮🇹 意大利 米兰（） 12
-      - 🇳🇱 m|🇳🇱 NL_3729 |30.05Mb
-      - 🇬🇧 英国 4
+      - 🇬🇧 英国 5
       - a
-      - 🇮🇹 意大利 6
-      - www www 13
-      - 🇮🇹 意大利 顺丰资源Youtube
-      - 顺丰资源Youtube
-      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
-      - 顺丰资源Youtube 2
-      - a 2
-      - 🇮🇹 意大利 7
-      - 🇳🇱 m|🇳🇱 NL_3750 |30.13Mb
-      - 🇮🇹 意大利 8
-      - YouTube-阿伟科技 6
-      - a 3
-      - 🇮🇹 意大利 9
-      - 🇳🇱 荷兰 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇮🇹 意大利 顺丰资源Youtube 2
-      - 🇮🇹 意大利 10
+      - 390
+      - 🇺🇸 美国 8
       - 欧洲() 17
-      - 🇮🇹 意大利 11
-      - 罗马(欢迎订阅Youtube破解资源君)
+      - 🇰🇷 KR1(IEPL) - 沪韩国际专线
+      - 58756
+      - m|_1387
+      - 🇩🇪 德国
+      - 🇺🇸 美国 9
+      - 🇰🇷 KR1(IEPL) - 深韩国际专线
+      - 🇳🇱 荷兰 2
+      - 🇬🇧 英国 6
+      - 91.90.123.155:31572
+      - 🇮🇹 意大利 顺丰资源Youtube 2
       - 🇮🇹 意大利 a
-      - 🇺🇸 github.com/freefq - 美国Amazon EC2服务器 39
-      - 🇺🇸 美国 顺丰资源Youtube
+      - 🇺🇸 美国 10
+      - 🇳🇱 荷兰优质线路
+      - 🇮🇹 意大利 4
+      - a 2
+      - 🇳🇱 荷兰 3
+      - 🇺🇸 美国 11
+      - 🇮🇹 意大利 5
+      - 🇺🇸 美国() 5
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 HK4(Direct) - 香港直连专线
+      - 🇭🇰 HK3(IEPL) - 深港国际专线
+      - 🇭🇰 HK3(Direct) - 香港直连专线
+      - 🇭🇰 HK4(IEPL) - 深港国际专线
+      - 🇭🇰 HK2(IEPL) - 深港国际专线
+      - 🇭🇰 IPLC香港国际专线
+      - 🇭🇰 HK1(IEPL) - 沪港国际专线
+      - 🇨🇳 TW1(IEPL) - 沪台国际专线
+      - 🇭🇰 HK2(Direct) - 香港直连专线
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国() 3
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶PetaExpress 4
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 5
-      - adsad
+      - 🇭🇰 HK4(Direct) - 香港直连专线
+      - 🇭🇰 HK3(IEPL) - 深港国际专线
+      - 🇭🇰 HK3(Direct) - 香港直连专线
+      - 🇭🇰 HK4(IEPL) - 深港国际专线
+      - 🇭🇰 HK2(IEPL) - 深港国际专线
+      - 🇰🇷 KR1(Direct) - 韩国直连专线
+      - 🇭🇰 IPLC香港国际专线
+      - 🇯🇵 JP1(IEPL) - 深日国际专线
+      - 🇭🇰 HK1(IEPL) - 沪港国际专线
+      - 🇯🇵 JP1(IEPL) - 沪日国际专线
+      - 智能优选专线
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇺🇸 美国 ☆☆ 06 ☆NTT☆   1.2x
       - 🇯🇵 日本((Youtube频道：工具大师！))
-      - YouTube-阿伟科技
-      - YouTube-阿伟科技 2
-      - YouTube-阿伟科技 3
-      - 🇩🇪 德国
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 波兰
+      - 🇺🇸 美国
+      - 🇨🇳 TW1(IEPL) - 沪台国际专线
+      - 🇬🇧 英国 3
+      - 🇷🇺 RU1(IEPL) - 沪俄国际专线
+      - 🇺🇸 美国 2
+      - 🇬🇧 英国 4
+      - 🇺🇸 美国 3
+      - 🇯🇵 日本() 7
+      - 罗马(欢迎订阅Youtube破解资源君)
+      - 🇦🇺 m|🇦🇺 AU_438 |20.68Mb
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国() 3
+      - 🇺🇸 美国 5
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
+      - 🇯🇵 m|🇯🇵 JP_3366 |18.18Mb
+      - 🇮🇹 意大利 顺丰资源Youtube
+      - 🇺🇸 github.com/freefq - 美国Amazon EC2服务器 39
+      - 🇺🇸 美国 4 2
+      - 🇭🇰 HK2(Direct) - 香港直连专线
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 6
+      - 🇮🇹 意大利
+      - 🇮🇹 意大利 2
+      - meiguov1
+      - 🇺🇸 美国 7
+      - 🇳🇱 荷兰
+      - 🇮🇹 意大利 3
+      - 🇺🇸 IPLC美国游戏专线
       - adi|0527 - 🇺🇸
       - 🇺🇸 US
       - 🇬🇧 英国（）
-      - YouTube-阿伟科技 4
-      - 58756
-      - 🇩🇪 m|Relay_🇺🇸US-🇩🇪DE_68 |107.21Mb
-      - 🇳🇱 荷兰
-      - 🇬🇧 英国
-      - m|_1387
-      - 🇳🇱 m|🇳🇱 NL_3757 |30.03Mb
-      - 🇳🇱 m|Pool_🇳🇱NL_3908
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇰🇷 韩国（）
-      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 22
-      - 🇬🇧 英国 2
-      - 塞浦路斯
-      - 🇮🇹 意大利
-      - 🇮🇹 意大利 2
-      - 🇩🇪 德国 2
-      - 🇺🇸 美国() 5
-      - YouTube-阿伟科技 5
-      - 以色列
-      - 塞浦路斯 2
-      - 🇬🇧 英国 3
-      - 立陶宛 🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇮🇹 意大利 3
-      - 91.90.123.155:31572
-      - 塞浦路斯 3
-      - 塞浦路斯 4
-      - 🇮🇹 意大利 4
-      - 🇮🇹 意大利 5
-      - 🇺🇸 美国
-      - 🇮🇹 意大利 米兰（） 12
-      - 🇳🇱 m|🇳🇱 NL_3729 |30.05Mb
-      - 🇬🇧 英国 4
+      - 🇬🇧 英国 5
       - a
-      - 🇮🇹 意大利 6
-      - www www 13
-      - 🇮🇹 意大利 顺丰资源Youtube
-      - 顺丰资源Youtube
-      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
-      - 顺丰资源Youtube 2
-      - a 2
-      - 🇮🇹 意大利 7
-      - 🇳🇱 m|🇳🇱 NL_3750 |30.13Mb
-      - 🇮🇹 意大利 8
-      - YouTube-阿伟科技 6
-      - a 3
-      - 🇮🇹 意大利 9
-      - 🇳🇱 荷兰 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇮🇹 意大利 顺丰资源Youtube 2
-      - 🇮🇹 意大利 10
+      - 390
+      - 🇺🇸 美国 8
       - 欧洲() 17
-      - 🇮🇹 意大利 11
-      - 罗马(欢迎订阅Youtube破解资源君)
+      - 🇰🇷 KR1(IEPL) - 沪韩国际专线
+      - 58756
+      - m|_1387
+      - 🇩🇪 德国
+      - 🇺🇸 美国 9
+      - 🇰🇷 KR1(IEPL) - 深韩国际专线
+      - 🇳🇱 荷兰 2
+      - 🇬🇧 英国 6
+      - 91.90.123.155:31572
+      - 🇮🇹 意大利 顺丰资源Youtube 2
       - 🇮🇹 意大利 a
-      - 🇺🇸 github.com/freefq - 美国Amazon EC2服务器 39
-      - 🇺🇸 美国 顺丰资源Youtube
+      - 🇺🇸 美国 10
+      - 🇳🇱 荷兰优质线路
+      - 🇮🇹 意大利 4
+      - a 2
+      - 🇳🇱 荷兰 3
+      - 🇺🇸 美国 11
+      - 🇮🇹 意大利 5
+      - 🇺🇸 美国() 5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国() 3
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶PetaExpress 4
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 5
-      - adsad
+      - 🇭🇰 HK4(Direct) - 香港直连专线
+      - 🇭🇰 HK3(IEPL) - 深港国际专线
+      - 🇭🇰 HK3(Direct) - 香港直连专线
+      - 🇭🇰 HK4(IEPL) - 深港国际专线
+      - 🇭🇰 HK2(IEPL) - 深港国际专线
+      - 🇰🇷 KR1(Direct) - 韩国直连专线
+      - 🇭🇰 IPLC香港国际专线
+      - 🇯🇵 JP1(IEPL) - 深日国际专线
+      - 🇭🇰 HK1(IEPL) - 沪港国际专线
+      - 🇯🇵 JP1(IEPL) - 沪日国际专线
+      - 智能优选专线
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇺🇸 美国 ☆☆ 06 ☆NTT☆   1.2x
       - 🇯🇵 日本((Youtube频道：工具大师！))
-      - YouTube-阿伟科技
-      - YouTube-阿伟科技 2
-      - YouTube-阿伟科技 3
-      - 🇩🇪 德国
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 波兰
+      - 🇺🇸 美国
+      - 🇨🇳 TW1(IEPL) - 沪台国际专线
+      - 🇬🇧 英国 3
+      - 🇷🇺 RU1(IEPL) - 沪俄国际专线
+      - 🇺🇸 美国 2
+      - 🇬🇧 英国 4
+      - 🇺🇸 美国 3
+      - 🇯🇵 日本() 7
+      - 罗马(欢迎订阅Youtube破解资源君)
+      - 🇦🇺 m|🇦🇺 AU_438 |20.68Mb
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国() 3
+      - 🇺🇸 美国 5
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
+      - 🇯🇵 m|🇯🇵 JP_3366 |18.18Mb
+      - 🇮🇹 意大利 顺丰资源Youtube
+      - 🇺🇸 github.com/freefq - 美国Amazon EC2服务器 39
+      - 🇺🇸 美国 4 2
+      - 🇭🇰 HK2(Direct) - 香港直连专线
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 6
+      - 🇮🇹 意大利
+      - 🇮🇹 意大利 2
+      - meiguov1
+      - 🇺🇸 美国 7
+      - 🇳🇱 荷兰
+      - 🇮🇹 意大利 3
+      - 🇺🇸 IPLC美国游戏专线
       - adi|0527 - 🇺🇸
       - 🇺🇸 US
       - 🇬🇧 英国（）
-      - YouTube-阿伟科技 4
-      - 58756
-      - 🇩🇪 m|Relay_🇺🇸US-🇩🇪DE_68 |107.21Mb
-      - 🇳🇱 荷兰
-      - 🇬🇧 英国
-      - m|_1387
-      - 🇳🇱 m|🇳🇱 NL_3757 |30.03Mb
-      - 🇳🇱 m|Pool_🇳🇱NL_3908
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇰🇷 韩国（）
-      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 22
-      - 🇬🇧 英国 2
-      - 塞浦路斯
-      - 🇮🇹 意大利
-      - 🇮🇹 意大利 2
-      - 🇩🇪 德国 2
-      - 🇺🇸 美国() 5
-      - YouTube-阿伟科技 5
-      - 以色列
-      - 塞浦路斯 2
-      - 🇬🇧 英国 3
-      - 立陶宛 🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇮🇹 意大利 3
-      - 91.90.123.155:31572
-      - 塞浦路斯 3
-      - 塞浦路斯 4
-      - 🇮🇹 意大利 4
-      - 🇮🇹 意大利 5
-      - 🇺🇸 美国
-      - 🇮🇹 意大利 米兰（） 12
-      - 🇳🇱 m|🇳🇱 NL_3729 |30.05Mb
-      - 🇬🇧 英国 4
+      - 🇬🇧 英国 5
       - a
-      - 🇮🇹 意大利 6
-      - www www 13
-      - 🇮🇹 意大利 顺丰资源Youtube
-      - 顺丰资源Youtube
-      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
-      - 顺丰资源Youtube 2
-      - a 2
-      - 🇮🇹 意大利 7
-      - 🇳🇱 m|🇳🇱 NL_3750 |30.13Mb
-      - 🇮🇹 意大利 8
-      - YouTube-阿伟科技 6
-      - a 3
-      - 🇮🇹 意大利 9
-      - 🇳🇱 荷兰 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇮🇹 意大利 顺丰资源Youtube 2
-      - 🇮🇹 意大利 10
+      - 390
+      - 🇺🇸 美国 8
       - 欧洲() 17
-      - 🇮🇹 意大利 11
-      - 罗马(欢迎订阅Youtube破解资源君)
+      - 🇰🇷 KR1(IEPL) - 沪韩国际专线
+      - 58756
+      - m|_1387
+      - 🇩🇪 德国
+      - 🇺🇸 美国 9
+      - 🇰🇷 KR1(IEPL) - 深韩国际专线
+      - 🇳🇱 荷兰 2
+      - 🇬🇧 英国 6
+      - 91.90.123.155:31572
+      - 🇮🇹 意大利 顺丰资源Youtube 2
       - 🇮🇹 意大利 a
-      - 🇺🇸 github.com/freefq - 美国Amazon EC2服务器 39
-      - 🇺🇸 美国 顺丰资源Youtube
+      - 🇺🇸 美国 10
+      - 🇳🇱 荷兰优质线路
+      - 🇮🇹 意大利 4
+      - a 2
+      - 🇳🇱 荷兰 3
+      - 🇺🇸 美国 11
+      - 🇮🇹 意大利 5
+      - 🇺🇸 美国() 5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国() 3
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶PetaExpress 4
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 5
-      - adsad
+      - 🇭🇰 HK4(Direct) - 香港直连专线
+      - 🇭🇰 HK3(IEPL) - 深港国际专线
+      - 🇭🇰 HK3(Direct) - 香港直连专线
+      - 🇭🇰 HK4(IEPL) - 深港国际专线
+      - 🇭🇰 HK2(IEPL) - 深港国际专线
+      - 🇰🇷 KR1(Direct) - 韩国直连专线
+      - 🇭🇰 IPLC香港国际专线
+      - 🇯🇵 JP1(IEPL) - 深日国际专线
+      - 🇭🇰 HK1(IEPL) - 沪港国际专线
+      - 🇯🇵 JP1(IEPL) - 沪日国际专线
+      - 智能优选专线
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇺🇸 美国 ☆☆ 06 ☆NTT☆   1.2x
       - 🇯🇵 日本((Youtube频道：工具大师！))
-      - YouTube-阿伟科技
-      - YouTube-阿伟科技 2
-      - YouTube-阿伟科技 3
-      - 🇩🇪 德国
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 波兰
+      - 🇺🇸 美国
+      - 🇨🇳 TW1(IEPL) - 沪台国际专线
+      - 🇬🇧 英国 3
+      - 🇷🇺 RU1(IEPL) - 沪俄国际专线
+      - 🇺🇸 美国 2
+      - 🇬🇧 英国 4
+      - 🇺🇸 美国 3
+      - 🇯🇵 日本() 7
+      - 罗马(欢迎订阅Youtube破解资源君)
+      - 🇦🇺 m|🇦🇺 AU_438 |20.68Mb
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国() 3
+      - 🇺🇸 美国 5
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
+      - 🇯🇵 m|🇯🇵 JP_3366 |18.18Mb
+      - 🇮🇹 意大利 顺丰资源Youtube
+      - 🇺🇸 github.com/freefq - 美国Amazon EC2服务器 39
+      - 🇺🇸 美国 4 2
+      - 🇭🇰 HK2(Direct) - 香港直连专线
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 6
+      - 🇮🇹 意大利
+      - 🇮🇹 意大利 2
+      - meiguov1
+      - 🇺🇸 美国 7
+      - 🇳🇱 荷兰
+      - 🇮🇹 意大利 3
+      - 🇺🇸 IPLC美国游戏专线
       - adi|0527 - 🇺🇸
       - 🇺🇸 US
       - 🇬🇧 英国（）
-      - YouTube-阿伟科技 4
-      - 58756
-      - 🇩🇪 m|Relay_🇺🇸US-🇩🇪DE_68 |107.21Mb
-      - 🇳🇱 荷兰
-      - 🇬🇧 英国
-      - m|_1387
-      - 🇳🇱 m|🇳🇱 NL_3757 |30.03Mb
-      - 🇳🇱 m|Pool_🇳🇱NL_3908
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇰🇷 韩国（）
-      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 22
-      - 🇬🇧 英国 2
-      - 塞浦路斯
-      - 🇮🇹 意大利
-      - 🇮🇹 意大利 2
-      - 🇩🇪 德国 2
-      - 🇺🇸 美国() 5
-      - YouTube-阿伟科技 5
-      - 以色列
-      - 塞浦路斯 2
-      - 🇬🇧 英国 3
-      - 立陶宛 🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇮🇹 意大利 3
-      - 91.90.123.155:31572
-      - 塞浦路斯 3
-      - 塞浦路斯 4
-      - 🇮🇹 意大利 4
-      - 🇮🇹 意大利 5
-      - 🇺🇸 美国
-      - 🇮🇹 意大利 米兰（） 12
-      - 🇳🇱 m|🇳🇱 NL_3729 |30.05Mb
-      - 🇬🇧 英国 4
+      - 🇬🇧 英国 5
       - a
-      - 🇮🇹 意大利 6
-      - www www 13
-      - 🇮🇹 意大利 顺丰资源Youtube
-      - 顺丰资源Youtube
-      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
-      - 顺丰资源Youtube 2
-      - a 2
-      - 🇮🇹 意大利 7
-      - 🇳🇱 m|🇳🇱 NL_3750 |30.13Mb
-      - 🇮🇹 意大利 8
-      - YouTube-阿伟科技 6
-      - a 3
-      - 🇮🇹 意大利 9
-      - 🇳🇱 荷兰 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇮🇹 意大利 顺丰资源Youtube 2
-      - 🇮🇹 意大利 10
+      - 390
+      - 🇺🇸 美国 8
       - 欧洲() 17
-      - 🇮🇹 意大利 11
-      - 罗马(欢迎订阅Youtube破解资源君)
+      - 🇰🇷 KR1(IEPL) - 沪韩国际专线
+      - 58756
+      - m|_1387
+      - 🇩🇪 德国
+      - 🇺🇸 美国 9
+      - 🇰🇷 KR1(IEPL) - 深韩国际专线
+      - 🇳🇱 荷兰 2
+      - 🇬🇧 英国 6
+      - 91.90.123.155:31572
+      - 🇮🇹 意大利 顺丰资源Youtube 2
       - 🇮🇹 意大利 a
-      - 🇺🇸 github.com/freefq - 美国Amazon EC2服务器 39
-      - 🇺🇸 美国 顺丰资源Youtube
+      - 🇺🇸 美国 10
+      - 🇳🇱 荷兰优质线路
+      - 🇮🇹 意大利 4
+      - a 2
+      - 🇳🇱 荷兰 3
+      - 🇺🇸 美国 11
+      - 🇮🇹 意大利 5
+      - 🇺🇸 美国() 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -548,76 +557,76 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国() 3
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶PetaExpress 4
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 5
-      - adsad
+      - 🇭🇰 HK4(Direct) - 香港直连专线
+      - 🇭🇰 HK3(IEPL) - 深港国际专线
+      - 🇭🇰 HK3(Direct) - 香港直连专线
+      - 🇭🇰 HK4(IEPL) - 深港国际专线
+      - 🇭🇰 HK2(IEPL) - 深港国际专线
+      - 🇰🇷 KR1(Direct) - 韩国直连专线
+      - 🇭🇰 IPLC香港国际专线
+      - 🇯🇵 JP1(IEPL) - 深日国际专线
+      - 🇭🇰 HK1(IEPL) - 沪港国际专线
+      - 🇯🇵 JP1(IEPL) - 沪日国际专线
+      - 智能优选专线
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇺🇸 美国 ☆☆ 06 ☆NTT☆   1.2x
       - 🇯🇵 日本((Youtube频道：工具大师！))
-      - YouTube-阿伟科技
-      - YouTube-阿伟科技 2
-      - YouTube-阿伟科技 3
-      - 🇩🇪 德国
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 波兰
+      - 🇺🇸 美国
+      - 🇨🇳 TW1(IEPL) - 沪台国际专线
+      - 🇬🇧 英国 3
+      - 🇷🇺 RU1(IEPL) - 沪俄国际专线
+      - 🇺🇸 美国 2
+      - 🇬🇧 英国 4
+      - 🇺🇸 美国 3
+      - 🇯🇵 日本() 7
+      - 罗马(欢迎订阅Youtube破解资源君)
+      - 🇦🇺 m|🇦🇺 AU_438 |20.68Mb
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国() 3
+      - 🇺🇸 美国 5
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
+      - 🇯🇵 m|🇯🇵 JP_3366 |18.18Mb
+      - 🇮🇹 意大利 顺丰资源Youtube
+      - 🇺🇸 github.com/freefq - 美国Amazon EC2服务器 39
+      - 🇺🇸 美国 4 2
+      - 🇭🇰 HK2(Direct) - 香港直连专线
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 6
+      - 🇮🇹 意大利
+      - 🇮🇹 意大利 2
+      - meiguov1
+      - 🇺🇸 美国 7
+      - 🇳🇱 荷兰
+      - 🇮🇹 意大利 3
+      - 🇺🇸 IPLC美国游戏专线
       - adi|0527 - 🇺🇸
       - 🇺🇸 US
       - 🇬🇧 英国（）
-      - YouTube-阿伟科技 4
-      - 58756
-      - 🇩🇪 m|Relay_🇺🇸US-🇩🇪DE_68 |107.21Mb
-      - 🇳🇱 荷兰
-      - 🇬🇧 英国
-      - m|_1387
-      - 🇳🇱 m|🇳🇱 NL_3757 |30.03Mb
-      - 🇳🇱 m|Pool_🇳🇱NL_3908
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇰🇷 韩国（）
-      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 22
-      - 🇬🇧 英国 2
-      - 塞浦路斯
-      - 🇮🇹 意大利
-      - 🇮🇹 意大利 2
-      - 🇩🇪 德国 2
-      - 🇺🇸 美国() 5
-      - YouTube-阿伟科技 5
-      - 以色列
-      - 塞浦路斯 2
-      - 🇬🇧 英国 3
-      - 立陶宛 🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇮🇹 意大利 3
-      - 91.90.123.155:31572
-      - 塞浦路斯 3
-      - 塞浦路斯 4
-      - 🇮🇹 意大利 4
-      - 🇮🇹 意大利 5
-      - 🇺🇸 美国
-      - 🇮🇹 意大利 米兰（） 12
-      - 🇳🇱 m|🇳🇱 NL_3729 |30.05Mb
-      - 🇬🇧 英国 4
+      - 🇬🇧 英国 5
       - a
-      - 🇮🇹 意大利 6
-      - www www 13
-      - 🇮🇹 意大利 顺丰资源Youtube
-      - 顺丰资源Youtube
-      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
-      - 顺丰资源Youtube 2
-      - a 2
-      - 🇮🇹 意大利 7
-      - 🇳🇱 m|🇳🇱 NL_3750 |30.13Mb
-      - 🇮🇹 意大利 8
-      - YouTube-阿伟科技 6
-      - a 3
-      - 🇮🇹 意大利 9
-      - 🇳🇱 荷兰 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇮🇹 意大利 顺丰资源Youtube 2
-      - 🇮🇹 意大利 10
+      - 390
+      - 🇺🇸 美国 8
       - 欧洲() 17
-      - 🇮🇹 意大利 11
-      - 罗马(欢迎订阅Youtube破解资源君)
+      - 🇰🇷 KR1(IEPL) - 沪韩国际专线
+      - 58756
+      - m|_1387
+      - 🇩🇪 德国
+      - 🇺🇸 美国 9
+      - 🇰🇷 KR1(IEPL) - 深韩国际专线
+      - 🇳🇱 荷兰 2
+      - 🇬🇧 英国 6
+      - 91.90.123.155:31572
+      - 🇮🇹 意大利 顺丰资源Youtube 2
       - 🇮🇹 意大利 a
-      - 🇺🇸 github.com/freefq - 美国Amazon EC2服务器 39
-      - 🇺🇸 美国 顺丰资源Youtube
+      - 🇺🇸 美国 10
+      - 🇳🇱 荷兰优质线路
+      - 🇮🇹 意大利 4
+      - a 2
+      - 🇳🇱 荷兰 3
+      - 🇺🇸 美国 11
+      - 🇮🇹 意大利 5
+      - 🇺🇸 美国() 5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
