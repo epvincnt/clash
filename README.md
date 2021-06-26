@@ -5,299 +5,303 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 github.com/freefq - 北京市Amazon数据中心 2, server: 52.81.94.63, port: 49663, type: vmess, uuid: 143ee500-5826-43ec-bc14-b026bb37665f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.81.94.63}}
-  - {name: bulink 网友分享线路 7 三网, server: la10.bulink.xyz.fobzs.com, port: 443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 12, server: 23.224.69.22, port: 443, type: vmess, uuid: 946ba5df-5771-4873-a3cb-892378526147, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.76126449.xyz}}
-  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 15, server: 23.224.101.101, port: 443, type: vmess, uuid: 946ba5df-5771-4873-a3cb-892378526147, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.76126449.xyz}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7463, server: 152.67.254.98, port: 80, type: vmess, uuid: 6e1e7c27-1839-43d3-b65c-75e5d2c35867, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: x-vali.cp31.ott.cibntv.net}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 27, server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: Pool_馃嚚馃嚳CZ_818, server: 217.138.220.147, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool_馃嚚馃嚳CZ_824, server: 217.138.220.165, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool_馃嚚馃嚳CZ_810, server: 217.138.199.181, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool_馃嚚馃嚳CZ_816, server: 217.138.220.141, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国 a, server: 198.147.22.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇨🇭 瑞士, server: 84.39.114.157, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 58756, server: 95.214.55.120, port: 42280, type: vmess, uuid: ac56c78b-bc3e-45ce-bd20-254339688d17, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇦 Y：加拿大 2, server: dld02.xqkj.cloud, port: 1072, type: vmess, uuid: b5bc488d-f540-4588-9cad-2b9f720350dd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dld02.xqkj.cloud}}
-  - {name: 🇨🇦 Y：加拿大 3, server: dld03.xqkj.cloud, port: 1073, type: vmess, uuid: b5bc488d-f540-4588-9cad-2b9f720350dd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dld03.xqkj.cloud}}
-  - {name: 🇨🇦 Y：加拿大, server: dld01.xqkj.cloud, port: 1071, type: vmess, uuid: b5bc488d-f540-4588-9cad-2b9f720350dd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dld01.xqkj.cloud}}
-  - {name: 🇩🇪 德国, server: 45.87.212.183, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 35, server: 172.67.154.85, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇬🇧 Y：伦敦, server: ld01.xqkj.cloud, port: 1061, type: vmess, uuid: b5bc488d-f540-4588-9cad-2b9f720350dd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ld01.xqkj.cloud}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7488, server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: github.com/freefq - 波兰  45, server: 95.214.55.119, port: 16408, type: vmess, uuid: 4e49e7c6-b7cd-4c74-c022-2add80a19556, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国gg, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇩🇪 德国 2, server: 193.176.86.131, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 30, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇩🇪 德国 3, server: 193.176.86.171, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 28, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 美国 gg 9, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇳🇱 荷兰, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 41, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 29, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 阿塞拜疆, server: 94.20.154.61, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 23.81.179.82, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool_馃嚚馃嚳CZ_813, server: 217.138.220.133, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 195.181.171.247, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇩🇪 德国 4, server: 45.87.212.181, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 阿塞拜疆 2, server: 62.212.239.69, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 西班牙, server: 185.188.61.57, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool_馃嚚馃嚲CY_770, server: 195.47.194.101, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 阿塞拜疆 3, server: 62.212.239.51, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 阿塞拜疆 4, server: 62.212.239.67, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 阿塞拜疆 5, server: 62.212.239.43, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇮🇹 意大利(欢迎订阅Youtube破解资源君), server: 84.17.58.134, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 3432, server: 138.201.150.52, port: 33957, type: vmess, uuid: 89cee221-b06c-46c5-f0d7-4fd3f4740b97, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇮🇳 Y：印度 2, server: ind02.xqkj.cloud, port: 1052, type: vmess, uuid: b5bc488d-f540-4588-9cad-2b9f720350dd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ind02.xqkj.cloud}}
-  - {name: 阿塞拜疆 6, server: 94.20.154.59, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool_馃嚚馃嚲CY_773, server: 195.47.194.42, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 塞浦路斯, server: 195.47.194.95, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国, server: 84.17.35.78, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 塞浦路斯 2, server: 195.47.194.81, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 西班牙 2, server: 185.188.61.65, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇮🇳 github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 26, server: ind02.xqkj.cloud, port: 1052, type: vmess, uuid: b5bc488d-f540-4588-9cad-2b9f720350dd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ind02.xqkj.cloud}}
-  - {name: 塞浦路斯 3, server: 195.47.194.93, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 欧洲() 21, server: 84.17.35.86, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_馃嚚馃嚲CY_780, server: 195.47.194.97, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 32, server: t6.ssrsub.one, port: 443, type: trojan, password: MdIckp8G, sni: t6.ssrsub.one}
-  - {name: 西班牙 3, server: 82.102.26.157, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 Y：美国 16, server: us07.xqkj.cloud, port: 1037, type: vmess, uuid: b5bc488d-f540-4588-9cad-2b9f720350dd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us07.xqkj.cloud}}
-  - {name: bulink 网友分享线路 10 移动, server: nj2.bulink.xyz.fobzs.com, port: 443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
-  - {name: bulink 网友分享线路 1 三网, server: la1.bulink.xyz.apkook.com, port: 443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
-  - {name: 西班牙 4, server: 82.102.26.173, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国 2, server: 212.102.44.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君), server: 143.244.42.71, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 西班牙 5, server: 82.102.26.155, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 西班牙 6, server: 185.216.32.59, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2, server: 207.244.67.149, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: bulink 网友分享线路 14 三网, server: or1.bulink.xyz.apkook.com, port: 8443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 heroepvcnt, server: 104.18.231.9, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: little-dawn-3747.epvincnt.workers.dev}}
+  - {name: 🇰🇷 韩国-15@1Gbpsw, server: 104.22.4.180, port: 443, type: vmess, uuid: a9cd126a-7c05-41af-ad0e-a185eabc89c8, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson.cf}}
+  - {name: 欧洲() 34, server: 23.81.179.82, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇺🇸 github.com/freefq - 美国3COM公司企业网 3, server: 152.67.254.98, port: 80, type: vmess, uuid: 6e1e7c27-1839-43d3-b65c-75e5d2c35867, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: x-vali.cp31.ott.cibntv.net}}
-  - {name: bulink 网友分享线路 6 移动, server: nj1.bulink.xyz.fobzs.com, port: 443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
-  - {name: Pool_ | 8.76Mb, server: 91.90.123.115, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: bulink 网友分享线路 14 三网, server: or1.bulink.xyz.apkook.com, port: 8443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 Vultr日本东京2-80端口免流TCP默认联通手厅随时有可能被墙, server: 198.13.58.72, port: 80, type: vmess, uuid: f2cad5c1-99e1-436f-f1b2-b32cf4b7de3f, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国, server: 212.102.44.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 欧洲() 32, server: 23.108.108.84, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 欧洲() 17, server: 89.44.201.179, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: bulink 网友分享线路 7 三网, server: la10.bulink.xyz.fobzs.com, port: 443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
+  - {name: 馃嚚馃嚘CA_2312, server: 86.106.90.27, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 罗马() 9, server: 91.245.254.75, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 欧洲() 16, server: 37.120.233.59, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇩🇪 德国, server: 193.176.86.131, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇨🇦 Y：加拿大 3, server: dld03.xqkj.cloud, port: 1073, type: vmess, uuid: b5bc488d-f540-4588-9cad-2b9f720350dd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dld03.xqkj.cloud}}
+  - {name: 西班牙, server: 82.102.26.155, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 欧洲() 31, server: 66.115.182.109, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 Y：美国 16, server: us07.xqkj.cloud, port: 1037, type: vmess, uuid: b5bc488d-f540-4588-9cad-2b9f720350dd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us07.xqkj.cloud}}
+  - {name: 欧洲() 22, server: 212.102.54.175, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 罗马() 11, server: 193.29.106.141, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇨🇦 Y：加拿大 2, server: dld02.xqkj.cloud, port: 1072, type: vmess, uuid: b5bc488d-f540-4588-9cad-2b9f720350dd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dld02.xqkj.cloud}}
+  - {name: 欧洲() 15, server: 194.37.96.243, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇬🇧 英国() 8, server: 89.46.223.56, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: y 18, server: 81.19.208.91, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: y 26, server: 89.46.223.70, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: w, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇦 Y：加拿大, server: dld01.xqkj.cloud, port: 1071, type: vmess, uuid: b5bc488d-f540-4588-9cad-2b9f720350dd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dld01.xqkj.cloud}}
+  - {name: w 2, server: 89.46.223.54, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇬🇧 英国() 16, server: 217.146.82.240, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 欧洲() 12, server: 143.244.42.81, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: y 13, server: 81.19.208.93, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: w 3, server: 84.17.58.197, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇬🇧 英国() 5, server: 89.46.223.66, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 欧洲() 23, server: 212.102.35.214, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇨🇳 epvincnt, server: 129.146.83.67, port: 47501, type: vmess, uuid: 8843ed45-909a-4f7f-bab5-c584ecab433f, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇬🇧 英国() 9, server: 89.46.223.68, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: w 4, server: 138.199.16.137, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: y 5, server: 185.252.223.85, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: w 5, server: 89.46.223.185, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇬🇧 英国() 21, server: 217.146.83.65, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: w 6, server: 86.106.157.230, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇬🇧 英国() 22, server: 217.146.82.236, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 欧洲() 26, server: 185.44.77.60, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇬🇧 英国() 15, server: 217.146.83.69, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇮🇹 意大利(w), server: 84.17.58.134, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 阿塞拜疆, server: 62.212.239.43, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: w 7, server: 185.134.22.232, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇬🇧 英国() 11, server: 89.46.223.64, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: w 8, server: 193.29.107.205, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇬🇧 英国() 10, server: 89.46.223.62, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: w 9, server: 89.46.223.52, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 欧洲() 25, server: 185.44.76.72, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇩🇪 德国 2, server: det-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-vpncommunity77, sni: det-1.opensvr.net}
+  - {name: 🇺🇸 美国(w) 3, server: 143.244.42.96, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: w 10, server: 212.102.54.137, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 欧洲() 3, server: 138.199.16.147, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: y 9, server: 185.252.223.83, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 阿塞拜疆 2, server: 62.212.239.51, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇩🇪 德国 3, server: 138.201.150.52, port: 33957, type: vmess, uuid: 89cee221-b06c-46c5-f0d7-4fd3f4740b97, alterId: 64, cipher: auto, tls: false}
+  - {name: y 7, server: 185.252.222.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x, server: egg.mooncloud.top, port: 8080, type: vmess, uuid: 00a356fc-71c7-4837-85ef-66a074a39530, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: egg.mooncloud.top}}
+  - {name: 🇬🇧 Y：伦敦, server: ld01.xqkj.cloud, port: 1061, type: vmess, uuid: b5bc488d-f540-4588-9cad-2b9f720350dd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ld01.xqkj.cloud}}
+  - {name: 欧洲() 19, server: 195.47.194.101, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 美国 2, server: 84.17.35.86, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇪 馃嚛馃嚜 DE_09, server: 138.201.150.52, port: 33957, type: vmess, uuid: 89cee221-b06c-46c5-f0d7-4fd3f4740b97, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 6, server: 54.215.234.182, port: 14924, type: vmess, uuid: d099824d-8259-4c45-f6ab-c1896f741393, alterId: 64, cipher: auto, tls: false}
+  - {name: 塞浦路斯, server: 195.47.194.93, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 阿塞拜疆 3, server: 94.20.154.59, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇩🇪 Pool_馃嚛馃嚜DE_2685, server: 78.47.219.86, port: 35139, type: ss, cipher: aes-256-gcm, password: vcFINAQlgqZZ}
+  - {name: 塞浦路斯 2, server: 195.47.194.81, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 github.com/freefq - 北京市Amazon数据中心 2
-      - bulink 网友分享线路 7 三网
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 12
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 15
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7463
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 27
-      - Pool_馃嚚馃嚳CZ_818
-      - Pool_馃嚚馃嚳CZ_824
-      - Pool_馃嚚馃嚳CZ_810
-      - Pool_馃嚚馃嚳CZ_816
-      - 🇺🇸 美国 a
-      - 🇨🇭 瑞士
-      - 58756
-      - 🇨🇦 Y：加拿大 2
-      - 🇨🇦 Y：加拿大 3
-      - 🇨🇦 Y：加拿大
-      - 🇩🇪 德国
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 35
-      - 🇬🇧 Y：伦敦
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7488
-      - github.com/freefq - 波兰  45
-      - 🇺🇸 美国gg
-      - 🇩🇪 德国 2
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 30
-      - 🇩🇪 德国 3
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 28
-      - 🇺🇸 美国 gg 9
-      - 🇳🇱 荷兰
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 41
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 29
-      - 阿塞拜疆
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Pool_馃嚚馃嚳CZ_813
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 🇩🇪 德国 4
-      - 阿塞拜疆 2
-      - 西班牙
-      - Pool_馃嚚馃嚲CY_770
-      - 阿塞拜疆 3
-      - 阿塞拜疆 4
-      - 阿塞拜疆 5
-      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
-      - 3432
-      - 🇮🇳 Y：印度 2
-      - 阿塞拜疆 6
-      - Pool_馃嚚馃嚲CY_773
-      - 塞浦路斯
-      - 🇺🇸 美国
-      - 塞浦路斯 2
-      - 西班牙 2
-      - 🇮🇳 github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 26
-      - 塞浦路斯 3
-      - 欧洲() 21
-      - Pool_馃嚚馃嚲CY_780
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 32
-      - 西班牙 3
-      - 🇺🇸 Y：美国 16
-      - bulink 网友分享线路 10 移动
-      - bulink 网友分享线路 1 三网
-      - 西班牙 4
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 西班牙 5
-      - 西班牙 6
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - bulink 网友分享线路 14 三网
+      - 🇨🇳 heroepvcnt
+      - 🇰🇷 韩国-15@1Gbpsw
+      - 欧洲() 34
       - 🇺🇸 github.com/freefq - 美国3COM公司企业网 3
-      - bulink 网友分享线路 6 移动
-      - Pool_ | 8.76Mb
+      - bulink 网友分享线路 14 三网
+      - 🇯🇵 Vultr日本东京2-80端口免流TCP默认联通手厅随时有可能被墙
+      - 🇺🇸 美国
+      - 欧洲() 32
+      - 欧洲() 17
+      - bulink 网友分享线路 7 三网
+      - 馃嚚馃嚘CA_2312
+      - 罗马() 9
+      - 欧洲() 16
+      - 🇩🇪 德国
+      - 🇨🇦 Y：加拿大 3
+      - 西班牙
+      - 欧洲() 31
+      - 🇺🇸 Y：美国 16
+      - 欧洲() 22
+      - 罗马() 11
+      - 🇨🇦 Y：加拿大 2
+      - 欧洲() 15
+      - 🇬🇧 英国() 8
+      - y 18
+      - y 26
+      - w
+      - 🇨🇦 Y：加拿大
+      - w 2
+      - 🇬🇧 英国() 16
+      - 欧洲() 12
+      - y 13
+      - w 3
+      - 🇬🇧 英国() 5
+      - 欧洲() 23
+      - 🇨🇳 epvincnt
+      - 🇬🇧 英国() 9
+      - w 4
+      - y 5
+      - w 5
+      - 🇬🇧 英国() 21
+      - w 6
+      - 🇬🇧 英国() 22
+      - 欧洲() 26
+      - 🇬🇧 英国() 15
+      - 🇮🇹 意大利(w)
+      - 阿塞拜疆
+      - w 7
+      - 🇬🇧 英国() 11
+      - w 8
+      - 🇬🇧 英国() 10
+      - w 9
+      - 欧洲() 25
+      - 🇩🇪 德国 2
+      - 🇺🇸 美国(w) 3
+      - w 10
+      - 欧洲() 3
+      - y 9
+      - 阿塞拜疆 2
+      - 🇩🇪 德国 3
+      - y 7
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇬🇧 Y：伦敦
+      - 欧洲() 19
+      - 🇺🇸 美国 2
+      - 🇩🇪 馃嚛馃嚜 DE_09
+      - 🇺🇸 美国 6
+      - 塞浦路斯
+      - 阿塞拜疆 3
+      - 🇩🇪 Pool_馃嚛馃嚜DE_2685
+      - 塞浦路斯 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 github.com/freefq - 北京市Amazon数据中心 2
-      - bulink 网友分享线路 7 三网
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 12
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 15
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7463
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 27
-      - Pool_馃嚚馃嚳CZ_818
-      - Pool_馃嚚馃嚳CZ_824
-      - Pool_馃嚚馃嚳CZ_810
-      - Pool_馃嚚馃嚳CZ_816
-      - 🇺🇸 美国 a
-      - 🇨🇭 瑞士
-      - 58756
-      - 🇨🇦 Y：加拿大 2
-      - 🇨🇦 Y：加拿大 3
-      - 🇨🇦 Y：加拿大
-      - 🇩🇪 德国
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 35
-      - 🇬🇧 Y：伦敦
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7488
-      - github.com/freefq - 波兰  45
-      - 🇺🇸 美国gg
-      - 🇩🇪 德国 2
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 30
-      - 🇩🇪 德国 3
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 28
-      - 🇺🇸 美国 gg 9
-      - 🇳🇱 荷兰
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 41
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 29
-      - 阿塞拜疆
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Pool_馃嚚馃嚳CZ_813
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 🇩🇪 德国 4
-      - 阿塞拜疆 2
-      - 西班牙
-      - Pool_馃嚚馃嚲CY_770
-      - 阿塞拜疆 3
-      - 阿塞拜疆 4
-      - 阿塞拜疆 5
-      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
-      - 3432
-      - 🇮🇳 Y：印度 2
-      - 阿塞拜疆 6
-      - Pool_馃嚚馃嚲CY_773
-      - 塞浦路斯
-      - 🇺🇸 美国
-      - 塞浦路斯 2
-      - 西班牙 2
-      - 🇮🇳 github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 26
-      - 塞浦路斯 3
-      - 欧洲() 21
-      - Pool_馃嚚馃嚲CY_780
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 32
-      - 西班牙 3
-      - 🇺🇸 Y：美国 16
-      - bulink 网友分享线路 10 移动
-      - bulink 网友分享线路 1 三网
-      - 西班牙 4
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 西班牙 5
-      - 西班牙 6
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - bulink 网友分享线路 14 三网
+      - 🇨🇳 heroepvcnt
+      - 🇰🇷 韩国-15@1Gbpsw
+      - 欧洲() 34
       - 🇺🇸 github.com/freefq - 美国3COM公司企业网 3
-      - bulink 网友分享线路 6 移动
-      - Pool_ | 8.76Mb
+      - bulink 网友分享线路 14 三网
+      - 🇯🇵 Vultr日本东京2-80端口免流TCP默认联通手厅随时有可能被墙
+      - 🇺🇸 美国
+      - 欧洲() 32
+      - 欧洲() 17
+      - bulink 网友分享线路 7 三网
+      - 馃嚚馃嚘CA_2312
+      - 罗马() 9
+      - 欧洲() 16
+      - 🇩🇪 德国
+      - 🇨🇦 Y：加拿大 3
+      - 西班牙
+      - 欧洲() 31
+      - 🇺🇸 Y：美国 16
+      - 欧洲() 22
+      - 罗马() 11
+      - 🇨🇦 Y：加拿大 2
+      - 欧洲() 15
+      - 🇬🇧 英国() 8
+      - y 18
+      - y 26
+      - w
+      - 🇨🇦 Y：加拿大
+      - w 2
+      - 🇬🇧 英国() 16
+      - 欧洲() 12
+      - y 13
+      - w 3
+      - 🇬🇧 英国() 5
+      - 欧洲() 23
+      - 🇨🇳 epvincnt
+      - 🇬🇧 英国() 9
+      - w 4
+      - y 5
+      - w 5
+      - 🇬🇧 英国() 21
+      - w 6
+      - 🇬🇧 英国() 22
+      - 欧洲() 26
+      - 🇬🇧 英国() 15
+      - 🇮🇹 意大利(w)
+      - 阿塞拜疆
+      - w 7
+      - 🇬🇧 英国() 11
+      - w 8
+      - 🇬🇧 英国() 10
+      - w 9
+      - 欧洲() 25
+      - 🇩🇪 德国 2
+      - 🇺🇸 美国(w) 3
+      - w 10
+      - 欧洲() 3
+      - y 9
+      - 阿塞拜疆 2
+      - 🇩🇪 德国 3
+      - y 7
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇬🇧 Y：伦敦
+      - 欧洲() 19
+      - 🇺🇸 美国 2
+      - 🇩🇪 馃嚛馃嚜 DE_09
+      - 🇺🇸 美国 6
+      - 塞浦路斯
+      - 阿塞拜疆 3
+      - 🇩🇪 Pool_馃嚛馃嚜DE_2685
+      - 塞浦路斯 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 github.com/freefq - 北京市Amazon数据中心 2
-      - bulink 网友分享线路 7 三网
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 12
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 15
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7463
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 27
-      - Pool_馃嚚馃嚳CZ_818
-      - Pool_馃嚚馃嚳CZ_824
-      - Pool_馃嚚馃嚳CZ_810
-      - Pool_馃嚚馃嚳CZ_816
-      - 🇺🇸 美国 a
-      - 🇨🇭 瑞士
-      - 58756
-      - 🇨🇦 Y：加拿大 2
-      - 🇨🇦 Y：加拿大 3
-      - 🇨🇦 Y：加拿大
-      - 🇩🇪 德国
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 35
-      - 🇬🇧 Y：伦敦
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7488
-      - github.com/freefq - 波兰  45
-      - 🇺🇸 美国gg
-      - 🇩🇪 德国 2
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 30
-      - 🇩🇪 德国 3
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 28
-      - 🇺🇸 美国 gg 9
-      - 🇳🇱 荷兰
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 41
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 29
-      - 阿塞拜疆
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Pool_馃嚚馃嚳CZ_813
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 🇩🇪 德国 4
-      - 阿塞拜疆 2
-      - 西班牙
-      - Pool_馃嚚馃嚲CY_770
-      - 阿塞拜疆 3
-      - 阿塞拜疆 4
-      - 阿塞拜疆 5
-      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
-      - 3432
-      - 🇮🇳 Y：印度 2
-      - 阿塞拜疆 6
-      - Pool_馃嚚馃嚲CY_773
-      - 塞浦路斯
-      - 🇺🇸 美国
-      - 塞浦路斯 2
-      - 西班牙 2
-      - 🇮🇳 github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 26
-      - 塞浦路斯 3
-      - 欧洲() 21
-      - Pool_馃嚚馃嚲CY_780
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 32
-      - 西班牙 3
-      - 🇺🇸 Y：美国 16
-      - bulink 网友分享线路 10 移动
-      - bulink 网友分享线路 1 三网
-      - 西班牙 4
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 西班牙 5
-      - 西班牙 6
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - bulink 网友分享线路 14 三网
+      - 🇨🇳 heroepvcnt
+      - 🇰🇷 韩国-15@1Gbpsw
+      - 欧洲() 34
       - 🇺🇸 github.com/freefq - 美国3COM公司企业网 3
-      - bulink 网友分享线路 6 移动
-      - Pool_ | 8.76Mb
+      - bulink 网友分享线路 14 三网
+      - 🇯🇵 Vultr日本东京2-80端口免流TCP默认联通手厅随时有可能被墙
+      - 🇺🇸 美国
+      - 欧洲() 32
+      - 欧洲() 17
+      - bulink 网友分享线路 7 三网
+      - 馃嚚馃嚘CA_2312
+      - 罗马() 9
+      - 欧洲() 16
+      - 🇩🇪 德国
+      - 🇨🇦 Y：加拿大 3
+      - 西班牙
+      - 欧洲() 31
+      - 🇺🇸 Y：美国 16
+      - 欧洲() 22
+      - 罗马() 11
+      - 🇨🇦 Y：加拿大 2
+      - 欧洲() 15
+      - 🇬🇧 英国() 8
+      - y 18
+      - y 26
+      - w
+      - 🇨🇦 Y：加拿大
+      - w 2
+      - 🇬🇧 英国() 16
+      - 欧洲() 12
+      - y 13
+      - w 3
+      - 🇬🇧 英国() 5
+      - 欧洲() 23
+      - 🇨🇳 epvincnt
+      - 🇬🇧 英国() 9
+      - w 4
+      - y 5
+      - w 5
+      - 🇬🇧 英国() 21
+      - w 6
+      - 🇬🇧 英国() 22
+      - 欧洲() 26
+      - 🇬🇧 英国() 15
+      - 🇮🇹 意大利(w)
+      - 阿塞拜疆
+      - w 7
+      - 🇬🇧 英国() 11
+      - w 8
+      - 🇬🇧 英国() 10
+      - w 9
+      - 欧洲() 25
+      - 🇩🇪 德国 2
+      - 🇺🇸 美国(w) 3
+      - w 10
+      - 欧洲() 3
+      - y 9
+      - 阿塞拜疆 2
+      - 🇩🇪 德国 3
+      - y 7
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇬🇧 Y：伦敦
+      - 欧洲() 19
+      - 🇺🇸 美国 2
+      - 🇩🇪 馃嚛馃嚜 DE_09
+      - 🇺🇸 美国 6
+      - 塞浦路斯
+      - 阿塞拜疆 3
+      - 🇩🇪 Pool_馃嚛馃嚜DE_2685
+      - 塞浦路斯 2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -308,224 +312,227 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳 github.com/freefq - 北京市Amazon数据中心 2
-      - bulink 网友分享线路 7 三网
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 12
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 15
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7463
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 27
-      - Pool_馃嚚馃嚳CZ_818
-      - Pool_馃嚚馃嚳CZ_824
-      - Pool_馃嚚馃嚳CZ_810
-      - Pool_馃嚚馃嚳CZ_816
-      - 🇺🇸 美国 a
-      - 🇨🇭 瑞士
-      - 58756
-      - 🇨🇦 Y：加拿大 2
-      - 🇨🇦 Y：加拿大 3
-      - 🇨🇦 Y：加拿大
-      - 🇩🇪 德国
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 35
-      - 🇬🇧 Y：伦敦
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7488
-      - github.com/freefq - 波兰  45
-      - 🇺🇸 美国gg
-      - 🇩🇪 德国 2
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 30
-      - 🇩🇪 德国 3
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 28
-      - 🇺🇸 美国 gg 9
-      - 🇳🇱 荷兰
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 41
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 29
-      - 阿塞拜疆
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Pool_馃嚚馃嚳CZ_813
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 🇩🇪 德国 4
-      - 阿塞拜疆 2
-      - 西班牙
-      - Pool_馃嚚馃嚲CY_770
-      - 阿塞拜疆 3
-      - 阿塞拜疆 4
-      - 阿塞拜疆 5
-      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
-      - 3432
-      - 🇮🇳 Y：印度 2
-      - 阿塞拜疆 6
-      - Pool_馃嚚馃嚲CY_773
-      - 塞浦路斯
-      - 🇺🇸 美国
-      - 塞浦路斯 2
-      - 西班牙 2
-      - 🇮🇳 github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 26
-      - 塞浦路斯 3
-      - 欧洲() 21
-      - Pool_馃嚚馃嚲CY_780
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 32
-      - 西班牙 3
-      - 🇺🇸 Y：美国 16
-      - bulink 网友分享线路 10 移动
-      - bulink 网友分享线路 1 三网
-      - 西班牙 4
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 西班牙 5
-      - 西班牙 6
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - bulink 网友分享线路 14 三网
+      - 🇨🇳 heroepvcnt
+      - 🇰🇷 韩国-15@1Gbpsw
+      - 欧洲() 34
       - 🇺🇸 github.com/freefq - 美国3COM公司企业网 3
-      - bulink 网友分享线路 6 移动
-      - Pool_ | 8.76Mb
+      - bulink 网友分享线路 14 三网
+      - 🇯🇵 Vultr日本东京2-80端口免流TCP默认联通手厅随时有可能被墙
+      - 🇺🇸 美国
+      - 欧洲() 32
+      - 欧洲() 17
+      - bulink 网友分享线路 7 三网
+      - 馃嚚馃嚘CA_2312
+      - 罗马() 9
+      - 欧洲() 16
+      - 🇩🇪 德国
+      - 🇨🇦 Y：加拿大 3
+      - 西班牙
+      - 欧洲() 31
+      - 🇺🇸 Y：美国 16
+      - 欧洲() 22
+      - 罗马() 11
+      - 🇨🇦 Y：加拿大 2
+      - 欧洲() 15
+      - 🇬🇧 英国() 8
+      - y 18
+      - y 26
+      - w
+      - 🇨🇦 Y：加拿大
+      - w 2
+      - 🇬🇧 英国() 16
+      - 欧洲() 12
+      - y 13
+      - w 3
+      - 🇬🇧 英国() 5
+      - 欧洲() 23
+      - 🇨🇳 epvincnt
+      - 🇬🇧 英国() 9
+      - w 4
+      - y 5
+      - w 5
+      - 🇬🇧 英国() 21
+      - w 6
+      - 🇬🇧 英国() 22
+      - 欧洲() 26
+      - 🇬🇧 英国() 15
+      - 🇮🇹 意大利(w)
+      - 阿塞拜疆
+      - w 7
+      - 🇬🇧 英国() 11
+      - w 8
+      - 🇬🇧 英国() 10
+      - w 9
+      - 欧洲() 25
+      - 🇩🇪 德国 2
+      - 🇺🇸 美国(w) 3
+      - w 10
+      - 欧洲() 3
+      - y 9
+      - 阿塞拜疆 2
+      - 🇩🇪 德国 3
+      - y 7
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇬🇧 Y：伦敦
+      - 欧洲() 19
+      - 🇺🇸 美国 2
+      - 🇩🇪 馃嚛馃嚜 DE_09
+      - 🇺🇸 美国 6
+      - 塞浦路斯
+      - 阿塞拜疆 3
+      - 🇩🇪 Pool_馃嚛馃嚜DE_2685
+      - 塞浦路斯 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳 github.com/freefq - 北京市Amazon数据中心 2
-      - bulink 网友分享线路 7 三网
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 12
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 15
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7463
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 27
-      - Pool_馃嚚馃嚳CZ_818
-      - Pool_馃嚚馃嚳CZ_824
-      - Pool_馃嚚馃嚳CZ_810
-      - Pool_馃嚚馃嚳CZ_816
-      - 🇺🇸 美国 a
-      - 🇨🇭 瑞士
-      - 58756
-      - 🇨🇦 Y：加拿大 2
-      - 🇨🇦 Y：加拿大 3
-      - 🇨🇦 Y：加拿大
-      - 🇩🇪 德国
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 35
-      - 🇬🇧 Y：伦敦
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7488
-      - github.com/freefq - 波兰  45
-      - 🇺🇸 美国gg
-      - 🇩🇪 德国 2
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 30
-      - 🇩🇪 德国 3
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 28
-      - 🇺🇸 美国 gg 9
-      - 🇳🇱 荷兰
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 41
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 29
-      - 阿塞拜疆
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Pool_馃嚚馃嚳CZ_813
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 🇩🇪 德国 4
-      - 阿塞拜疆 2
-      - 西班牙
-      - Pool_馃嚚馃嚲CY_770
-      - 阿塞拜疆 3
-      - 阿塞拜疆 4
-      - 阿塞拜疆 5
-      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
-      - 3432
-      - 🇮🇳 Y：印度 2
-      - 阿塞拜疆 6
-      - Pool_馃嚚馃嚲CY_773
-      - 塞浦路斯
-      - 🇺🇸 美国
-      - 塞浦路斯 2
-      - 西班牙 2
-      - 🇮🇳 github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 26
-      - 塞浦路斯 3
-      - 欧洲() 21
-      - Pool_馃嚚馃嚲CY_780
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 32
-      - 西班牙 3
-      - 🇺🇸 Y：美国 16
-      - bulink 网友分享线路 10 移动
-      - bulink 网友分享线路 1 三网
-      - 西班牙 4
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 西班牙 5
-      - 西班牙 6
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - bulink 网友分享线路 14 三网
+      - 🇨🇳 heroepvcnt
+      - 🇰🇷 韩国-15@1Gbpsw
+      - 欧洲() 34
       - 🇺🇸 github.com/freefq - 美国3COM公司企业网 3
-      - bulink 网友分享线路 6 移动
-      - Pool_ | 8.76Mb
+      - bulink 网友分享线路 14 三网
+      - 🇯🇵 Vultr日本东京2-80端口免流TCP默认联通手厅随时有可能被墙
+      - 🇺🇸 美国
+      - 欧洲() 32
+      - 欧洲() 17
+      - bulink 网友分享线路 7 三网
+      - 馃嚚馃嚘CA_2312
+      - 罗马() 9
+      - 欧洲() 16
+      - 🇩🇪 德国
+      - 🇨🇦 Y：加拿大 3
+      - 西班牙
+      - 欧洲() 31
+      - 🇺🇸 Y：美国 16
+      - 欧洲() 22
+      - 罗马() 11
+      - 🇨🇦 Y：加拿大 2
+      - 欧洲() 15
+      - 🇬🇧 英国() 8
+      - y 18
+      - y 26
+      - w
+      - 🇨🇦 Y：加拿大
+      - w 2
+      - 🇬🇧 英国() 16
+      - 欧洲() 12
+      - y 13
+      - w 3
+      - 🇬🇧 英国() 5
+      - 欧洲() 23
+      - 🇨🇳 epvincnt
+      - 🇬🇧 英国() 9
+      - w 4
+      - y 5
+      - w 5
+      - 🇬🇧 英国() 21
+      - w 6
+      - 🇬🇧 英国() 22
+      - 欧洲() 26
+      - 🇬🇧 英国() 15
+      - 🇮🇹 意大利(w)
+      - 阿塞拜疆
+      - w 7
+      - 🇬🇧 英国() 11
+      - w 8
+      - 🇬🇧 英国() 10
+      - w 9
+      - 欧洲() 25
+      - 🇩🇪 德国 2
+      - 🇺🇸 美国(w) 3
+      - w 10
+      - 欧洲() 3
+      - y 9
+      - 阿塞拜疆 2
+      - 🇩🇪 德国 3
+      - y 7
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇬🇧 Y：伦敦
+      - 欧洲() 19
+      - 🇺🇸 美国 2
+      - 🇩🇪 馃嚛馃嚜 DE_09
+      - 🇺🇸 美国 6
+      - 塞浦路斯
+      - 阿塞拜疆 3
+      - 🇩🇪 Pool_馃嚛馃嚜DE_2685
+      - 塞浦路斯 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 github.com/freefq - 北京市Amazon数据中心 2
-      - bulink 网友分享线路 7 三网
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 12
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 15
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7463
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 27
-      - Pool_馃嚚馃嚳CZ_818
-      - Pool_馃嚚馃嚳CZ_824
-      - Pool_馃嚚馃嚳CZ_810
-      - Pool_馃嚚馃嚳CZ_816
-      - 🇺🇸 美国 a
-      - 🇨🇭 瑞士
-      - 58756
-      - 🇨🇦 Y：加拿大 2
-      - 🇨🇦 Y：加拿大 3
-      - 🇨🇦 Y：加拿大
-      - 🇩🇪 德国
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 35
-      - 🇬🇧 Y：伦敦
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7488
-      - github.com/freefq - 波兰  45
-      - 🇺🇸 美国gg
-      - 🇩🇪 德国 2
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 30
-      - 🇩🇪 德国 3
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 28
-      - 🇺🇸 美国 gg 9
-      - 🇳🇱 荷兰
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 41
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 29
-      - 阿塞拜疆
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Pool_馃嚚馃嚳CZ_813
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 🇩🇪 德国 4
-      - 阿塞拜疆 2
-      - 西班牙
-      - Pool_馃嚚馃嚲CY_770
-      - 阿塞拜疆 3
-      - 阿塞拜疆 4
-      - 阿塞拜疆 5
-      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
-      - 3432
-      - 🇮🇳 Y：印度 2
-      - 阿塞拜疆 6
-      - Pool_馃嚚馃嚲CY_773
-      - 塞浦路斯
-      - 🇺🇸 美国
-      - 塞浦路斯 2
-      - 西班牙 2
-      - 🇮🇳 github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 26
-      - 塞浦路斯 3
-      - 欧洲() 21
-      - Pool_馃嚚馃嚲CY_780
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 32
-      - 西班牙 3
-      - 🇺🇸 Y：美国 16
-      - bulink 网友分享线路 10 移动
-      - bulink 网友分享线路 1 三网
-      - 西班牙 4
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 西班牙 5
-      - 西班牙 6
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - bulink 网友分享线路 14 三网
+      - 🇨🇳 heroepvcnt
+      - 🇰🇷 韩国-15@1Gbpsw
+      - 欧洲() 34
       - 🇺🇸 github.com/freefq - 美国3COM公司企业网 3
-      - bulink 网友分享线路 6 移动
-      - Pool_ | 8.76Mb
+      - bulink 网友分享线路 14 三网
+      - 🇯🇵 Vultr日本东京2-80端口免流TCP默认联通手厅随时有可能被墙
+      - 🇺🇸 美国
+      - 欧洲() 32
+      - 欧洲() 17
+      - bulink 网友分享线路 7 三网
+      - 馃嚚馃嚘CA_2312
+      - 罗马() 9
+      - 欧洲() 16
+      - 🇩🇪 德国
+      - 🇨🇦 Y：加拿大 3
+      - 西班牙
+      - 欧洲() 31
+      - 🇺🇸 Y：美国 16
+      - 欧洲() 22
+      - 罗马() 11
+      - 🇨🇦 Y：加拿大 2
+      - 欧洲() 15
+      - 🇬🇧 英国() 8
+      - y 18
+      - y 26
+      - w
+      - 🇨🇦 Y：加拿大
+      - w 2
+      - 🇬🇧 英国() 16
+      - 欧洲() 12
+      - y 13
+      - w 3
+      - 🇬🇧 英国() 5
+      - 欧洲() 23
+      - 🇨🇳 epvincnt
+      - 🇬🇧 英国() 9
+      - w 4
+      - y 5
+      - w 5
+      - 🇬🇧 英国() 21
+      - w 6
+      - 🇬🇧 英国() 22
+      - 欧洲() 26
+      - 🇬🇧 英国() 15
+      - 🇮🇹 意大利(w)
+      - 阿塞拜疆
+      - w 7
+      - 🇬🇧 英国() 11
+      - w 8
+      - 🇬🇧 英国() 10
+      - w 9
+      - 欧洲() 25
+      - 🇩🇪 德国 2
+      - 🇺🇸 美国(w) 3
+      - w 10
+      - 欧洲() 3
+      - y 9
+      - 阿塞拜疆 2
+      - 🇩🇪 德国 3
+      - y 7
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇬🇧 Y：伦敦
+      - 欧洲() 19
+      - 🇺🇸 美国 2
+      - 🇩🇪 馃嚛馃嚜 DE_09
+      - 🇺🇸 美国 6
+      - 塞浦路斯
+      - 阿塞拜疆 3
+      - 🇩🇪 Pool_馃嚛馃嚜DE_2685
+      - 塞浦路斯 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -541,75 +548,76 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 github.com/freefq - 北京市Amazon数据中心 2
-      - bulink 网友分享线路 7 三网
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 12
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 15
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7463
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 27
-      - Pool_馃嚚馃嚳CZ_818
-      - Pool_馃嚚馃嚳CZ_824
-      - Pool_馃嚚馃嚳CZ_810
-      - Pool_馃嚚馃嚳CZ_816
-      - 🇺🇸 美国 a
-      - 🇨🇭 瑞士
-      - 58756
-      - 🇨🇦 Y：加拿大 2
-      - 🇨🇦 Y：加拿大 3
-      - 🇨🇦 Y：加拿大
-      - 🇩🇪 德国
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 35
-      - 🇬🇧 Y：伦敦
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7488
-      - github.com/freefq - 波兰  45
-      - 🇺🇸 美国gg
-      - 🇩🇪 德国 2
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 30
-      - 🇩🇪 德国 3
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 28
-      - 🇺🇸 美国 gg 9
-      - 🇳🇱 荷兰
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 41
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 29
-      - 阿塞拜疆
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Pool_馃嚚馃嚳CZ_813
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 🇩🇪 德国 4
-      - 阿塞拜疆 2
-      - 西班牙
-      - Pool_馃嚚馃嚲CY_770
-      - 阿塞拜疆 3
-      - 阿塞拜疆 4
-      - 阿塞拜疆 5
-      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
-      - 3432
-      - 🇮🇳 Y：印度 2
-      - 阿塞拜疆 6
-      - Pool_馃嚚馃嚲CY_773
-      - 塞浦路斯
-      - 🇺🇸 美国
-      - 塞浦路斯 2
-      - 西班牙 2
-      - 🇮🇳 github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 26
-      - 塞浦路斯 3
-      - 欧洲() 21
-      - Pool_馃嚚馃嚲CY_780
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 32
-      - 西班牙 3
-      - 🇺🇸 Y：美国 16
-      - bulink 网友分享线路 10 移动
-      - bulink 网友分享线路 1 三网
-      - 西班牙 4
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 西班牙 5
-      - 西班牙 6
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - bulink 网友分享线路 14 三网
+      - 🇨🇳 heroepvcnt
+      - 🇰🇷 韩国-15@1Gbpsw
+      - 欧洲() 34
       - 🇺🇸 github.com/freefq - 美国3COM公司企业网 3
-      - bulink 网友分享线路 6 移动
-      - Pool_ | 8.76Mb
+      - bulink 网友分享线路 14 三网
+      - 🇯🇵 Vultr日本东京2-80端口免流TCP默认联通手厅随时有可能被墙
+      - 🇺🇸 美国
+      - 欧洲() 32
+      - 欧洲() 17
+      - bulink 网友分享线路 7 三网
+      - 馃嚚馃嚘CA_2312
+      - 罗马() 9
+      - 欧洲() 16
+      - 🇩🇪 德国
+      - 🇨🇦 Y：加拿大 3
+      - 西班牙
+      - 欧洲() 31
+      - 🇺🇸 Y：美国 16
+      - 欧洲() 22
+      - 罗马() 11
+      - 🇨🇦 Y：加拿大 2
+      - 欧洲() 15
+      - 🇬🇧 英国() 8
+      - y 18
+      - y 26
+      - w
+      - 🇨🇦 Y：加拿大
+      - w 2
+      - 🇬🇧 英国() 16
+      - 欧洲() 12
+      - y 13
+      - w 3
+      - 🇬🇧 英国() 5
+      - 欧洲() 23
+      - 🇨🇳 epvincnt
+      - 🇬🇧 英国() 9
+      - w 4
+      - y 5
+      - w 5
+      - 🇬🇧 英国() 21
+      - w 6
+      - 🇬🇧 英国() 22
+      - 欧洲() 26
+      - 🇬🇧 英国() 15
+      - 🇮🇹 意大利(w)
+      - 阿塞拜疆
+      - w 7
+      - 🇬🇧 英国() 11
+      - w 8
+      - 🇬🇧 英国() 10
+      - w 9
+      - 欧洲() 25
+      - 🇩🇪 德国 2
+      - 🇺🇸 美国(w) 3
+      - w 10
+      - 欧洲() 3
+      - y 9
+      - 阿塞拜疆 2
+      - 🇩🇪 德国 3
+      - y 7
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇬🇧 Y：伦敦
+      - 欧洲() 19
+      - 🇺🇸 美国 2
+      - 🇩🇪 馃嚛馃嚜 DE_09
+      - 🇺🇸 美国 6
+      - 塞浦路斯
+      - 阿塞拜疆 3
+      - 🇩🇪 Pool_馃嚛馃嚜DE_2685
+      - 塞浦路斯 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
