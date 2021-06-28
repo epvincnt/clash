@@ -5,534 +5,465 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 heroepvcnt, server: 104.18.231.9, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: little-dawn-3747.epvincnt.workers.dev}}
-  - {name: 🇰🇷 韩国-15@1Gbpsw, server: 104.22.4.180, port: 443, type: vmess, uuid: a9cd126a-7c05-41af-ad0e-a185eabc89c8, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson.cf}}
-  - {name: 欧洲() 34, server: 23.81.179.82, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 github.com/freefq - 美国3COM公司企业网 3, server: 152.67.254.98, port: 80, type: vmess, uuid: 6e1e7c27-1839-43d3-b65c-75e5d2c35867, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: x-vali.cp31.ott.cibntv.net}}
+  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君), server: vtwonet-hk-a.qjnodeip.xyz, port: 23333, type: vmess, uuid: 55D1D690-B0C1-58CA-918B-8C4783AE88BD, alterId: 0, cipher: auto, tls: false}
   - {name: bulink 网友分享线路 14 三网, server: or1.bulink.xyz.apkook.com, port: 8443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 heroepvcntip, server: 1.0.0.120, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: old-resonance-cedc.epvincnt.workers.dev}}
+  - {name: bulink 网友分享线路 1 三网, server: la1.bulink.xyz.apkook.com, port: 443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 heroepvcnt, server: 104.18.231.9, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: little-dawn-3747.epvincnt.workers.dev}}
   - {name: 🇯🇵 Vultr日本东京2-80端口免流TCP默认联通手厅随时有可能被墙, server: 198.13.58.72, port: 80, type: vmess, uuid: f2cad5c1-99e1-436f-f1b2-b32cf4b7de3f, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国, server: 212.102.44.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 欧洲() 32, server: 23.108.108.84, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 欧洲() 17, server: 89.44.201.179, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: bulink 网友分享线路 7 三网, server: la10.bulink.xyz.fobzs.com, port: 443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
-  - {name: 馃嚚馃嚘CA_2312, server: 86.106.90.27, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 罗马() 9, server: 91.245.254.75, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 欧洲() 16, server: 37.120.233.59, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇩🇪 德国, server: 193.176.86.131, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇨🇦 Y：加拿大 3, server: dld03.xqkj.cloud, port: 1073, type: vmess, uuid: b5bc488d-f540-4588-9cad-2b9f720350dd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dld03.xqkj.cloud}}
-  - {name: 西班牙, server: 82.102.26.155, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 欧洲() 31, server: 66.115.182.109, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 Y：美国 16, server: us07.xqkj.cloud, port: 1037, type: vmess, uuid: b5bc488d-f540-4588-9cad-2b9f720350dd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us07.xqkj.cloud}}
-  - {name: 欧洲() 22, server: 212.102.54.175, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 罗马() 11, server: 193.29.106.141, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇨🇦 Y：加拿大 2, server: dld02.xqkj.cloud, port: 1072, type: vmess, uuid: b5bc488d-f540-4588-9cad-2b9f720350dd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dld02.xqkj.cloud}}
-  - {name: 欧洲() 15, server: 194.37.96.243, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇬🇧 英国() 8, server: 89.46.223.56, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: y 18, server: 81.19.208.91, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: y 26, server: 89.46.223.70, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: w, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇦 Y：加拿大, server: dld01.xqkj.cloud, port: 1071, type: vmess, uuid: b5bc488d-f540-4588-9cad-2b9f720350dd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dld01.xqkj.cloud}}
-  - {name: w 2, server: 89.46.223.54, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇬🇧 英国() 16, server: 217.146.82.240, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 欧洲() 12, server: 143.244.42.81, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: y 13, server: 81.19.208.93, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: w 3, server: 84.17.58.197, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇬🇧 英国() 5, server: 89.46.223.66, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 欧洲() 23, server: 212.102.35.214, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 乌克兰(欢迎订阅Youtube破解资源君), server: 37.19.211.72, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇳🇱 荷兰(欢迎订阅Youtube破解资源君), server: 46.182.107.97, port: 443, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f077621b, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.08538470.xyz}}
+  - {name: 🇳🇱 荷兰(欢迎订阅Youtube破解资源君) 2, server: 46.182.107.37, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f68, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.32811341.xyz}}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 37.19.211.77, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇳🇱 荷兰, server: 46.182.107.37, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f68, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.32811341.xyz}}
+  - {name: 🇳🇱 https://www.mattkaydiary.com|🇳🇱 NL_4032, server: 154.84.1.156, port: 443, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.51334583.xyz}}
+  - {name: 🇺🇸 美国, server: 154.84.1.156, port: 443, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.51334583.xyz}}
+  - {name: 🇺🇸 美国 2, server: 46.182.107.145, port: 443, type: vmess, uuid: acedd8e0-e654-4a40-935d-5594c6c114bd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
+  - {name: 🇺🇸 美国 3, server: 46.182.107.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26111a061f9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.53103739.xyz}}
   - {name: 🇨🇳 epvincnt, server: 129.146.83.67, port: 47501, type: vmess, uuid: 8843ed45-909a-4f7f-bab5-c584ecab433f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 英国() 9, server: 89.46.223.68, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: w 4, server: 138.199.16.137, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: y 5, server: 185.252.223.85, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: w 5, server: 89.46.223.185, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇬🇧 英国() 21, server: 217.146.83.65, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: w 6, server: 86.106.157.230, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇬🇧 英国() 22, server: 217.146.82.236, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 欧洲() 26, server: 185.44.77.60, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇬🇧 英国() 15, server: 217.146.83.69, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 乌克兰(欢迎订阅Youtube破解资源君) 2, server: 37.19.211.32, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 乌克兰(欢迎订阅Youtube破解资源君) 3, server: 37.19.211.12, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 乌克兰(欢迎订阅Youtube破解资源君) 4, server: 37.19.211.52, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇮🇹 意大利, server: 82.102.26.117, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
   - {name: 🇮🇹 意大利(w), server: 84.17.58.134, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 阿塞拜疆, server: 62.212.239.43, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: w 7, server: 185.134.22.232, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇬🇧 英国() 11, server: 89.46.223.64, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: w 8, server: 193.29.107.205, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇬🇧 英国() 10, server: 89.46.223.62, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: w 9, server: 89.46.223.52, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 欧洲() 25, server: 185.44.76.72, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇩🇪 德国 2, server: det-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-vpncommunity77, sni: det-1.opensvr.net}
-  - {name: 🇺🇸 美国(w) 3, server: 143.244.42.96, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: w 10, server: 212.102.54.137, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 欧洲() 3, server: 138.199.16.147, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: y 9, server: 185.252.223.83, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 阿塞拜疆 2, server: 62.212.239.51, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇩🇪 德国 3, server: 138.201.150.52, port: 33957, type: vmess, uuid: 89cee221-b06c-46c5-f0d7-4fd3f4740b97, alterId: 64, cipher: auto, tls: false}
-  - {name: y 7, server: 185.252.222.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x, server: egg.mooncloud.top, port: 8080, type: vmess, uuid: 00a356fc-71c7-4837-85ef-66a074a39530, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: egg.mooncloud.top}}
-  - {name: 🇬🇧 Y：伦敦, server: ld01.xqkj.cloud, port: 1061, type: vmess, uuid: b5bc488d-f540-4588-9cad-2b9f720350dd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ld01.xqkj.cloud}}
-  - {name: 欧洲() 19, server: 195.47.194.101, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国 2, server: 84.17.35.86, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇪 馃嚛馃嚜 DE_09, server: 138.201.150.52, port: 33957, type: vmess, uuid: 89cee221-b06c-46c5-f0d7-4fd3f4740b97, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 6, server: 54.215.234.182, port: 14924, type: vmess, uuid: d099824d-8259-4c45-f6ab-c1896f741393, alterId: 64, cipher: auto, tls: false}
-  - {name: 塞浦路斯, server: 195.47.194.93, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 阿塞拜疆 3, server: 94.20.154.59, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇩🇪 Pool_馃嚛馃嚜DE_2685, server: 78.47.219.86, port: 35139, type: ss, cipher: aes-256-gcm, password: vcFINAQlgqZZ}
-  - {name: 塞浦路斯 2, server: 195.47.194.81, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 欧洲() 22, server: 212.102.54.175, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 美国 4, server: 138.199.16.137, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 美国 5, server: 138.199.16.147, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇳🇱 https://www.mattkaydiary.com|🇳🇱 NL_4012, server: 46.182.107.94, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-96dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.79570456.xyz}}
+  - {name: 🇺🇸 m|🇺🇸 US_7424 |29.75Mb, server: 3.36.76.192, port: 31812, type: vmess, uuid: a1371d43-f0fe-43cf-b826-d900a1c8de49, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2743, server: vtwonet-hk-a.qjnodeip.xyz, port: 23333, type: vmess, uuid: 55D1D690-B0C1-58CA-918B-8C4783AE88BD, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 (已坚挺2天)荷兰【分享来自Youtube不良林】, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://www.mattkaydiary.com|欧盟, server: 45.88.179.35, port: 35497, type: vmess, uuid: 085e6815-e476-411a-a9a6-4e5306a1b875, alterId: 0, cipher: auto, tls: false}
+  - {name: 欧洲(), server: 138.199.42.157, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: bulink 网友分享线路 6 移动, server: nj1.bulink.xyz.fobzs.com, port: 443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇮🇹 意大利(欢迎订阅Youtube破解资源君), server: 84.17.58.134, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇮🇹 意大利(欢迎订阅Youtube破解资源君) 2, server: 82.102.26.117, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 乌克兰(欢迎订阅Youtube破解资源君) 5, server: 37.19.211.112, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 138.199.16.137, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇳🇱 荷兰(欢迎订阅Youtube破解资源君) 3, server: 46.182.107.144, port: 443, type: vmess, uuid: acedd8e0-e654-4a40-935d-5594c6c114bd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
+  - {name: 🇳🇱 荷兰 2, server: 46.182.107.144, port: 443, type: vmess, uuid: acedd8e0-e654-4a40-935d-5594c6c114bd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
+  - {name: 老杨爱分享YouTube频道, server: 138.199.16.137, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇷🇺 俄罗斯() 4, server: free-russian01-cdn.xiaohouzi.club, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: 🇺🇸 美国 8, server: 207.244.67.149, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7433, server: 104.19.42.20, port: 443, type: vmess, uuid: aa209e52-9bfa-4c05-96b0-e962da2cb457, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /xrayvws, ws-headers: {Host: c.1808.cf}}
+  - {name: 欧洲() 18, server: 172.67.150.130, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: 罗马(欢迎订阅Youtube破解资源君), server: 91.90.123.115, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 罗马() 16, server: 91.90.123.115, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: Pool_ |10.78Mb, server: 91.90.123.115, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇮🇹 意大利(欢迎订阅Youtube破解资源君) 3, server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 克罗地亚, server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 罗马(欢迎订阅Youtube破解资源君) 2, server: 91.90.123.115, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 罗马(欢迎订阅Youtube破解资源君) 3, server: 91.90.123.115, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 罗马(欢迎订阅Youtube破解资源君) 4, server: 91.90.123.115, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 欧洲() 20, server: 91.90.123.115, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 顺丰资源Youtube, server: 91.90.123.115, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: w, server: 91.90.123.115, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: w 2, server: 91.90.123.115, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 罗马(欢迎订阅Youtube破解资源君) 5, server: 91.90.123.115, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 老杨爱分享YouTube频道 2, server: 172.67.209.58, port: 443, type: vmess, uuid: a9cd126a-7c05-41af-ad0e-a185eabc89c8, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson.cf}}
+  - {name: 罗马(欢迎订阅Youtube破解资源君) 6, server: 91.90.123.115, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 罗马(欢迎订阅Youtube破解资源君) 7, server: 91.90.123.115, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 罗马(欢迎订阅Youtube破解资源君) 8, server: 91.90.123.115, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 heroepvcnt
-      - 🇰🇷 韩国-15@1Gbpsw
-      - 欧洲() 34
-      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
       - bulink 网友分享线路 14 三网
+      - 🇨🇳 heroepvcntip
+      - bulink 网友分享线路 1 三网
+      - 🇨🇳 heroepvcnt
       - 🇯🇵 Vultr日本东京2-80端口免流TCP默认联通手厅随时有可能被墙
+      - 乌克兰(欢迎订阅Youtube破解资源君)
+      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君)
+      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇳🇱 荷兰
+      - 🇳🇱 https://www.mattkaydiary.com|🇳🇱 NL_4032
       - 🇺🇸 美国
-      - 欧洲() 32
-      - 欧洲() 17
-      - bulink 网友分享线路 7 三网
-      - 馃嚚馃嚘CA_2312
-      - 罗马() 9
-      - 欧洲() 16
-      - 🇩🇪 德国
-      - 🇨🇦 Y：加拿大 3
-      - 西班牙
-      - 欧洲() 31
-      - 🇺🇸 Y：美国 16
-      - 欧洲() 22
-      - 罗马() 11
-      - 🇨🇦 Y：加拿大 2
-      - 欧洲() 15
-      - 🇬🇧 英国() 8
-      - y 18
-      - y 26
-      - w
-      - 🇨🇦 Y：加拿大
-      - w 2
-      - 🇬🇧 英国() 16
-      - 欧洲() 12
-      - y 13
-      - w 3
-      - 🇬🇧 英国() 5
-      - 欧洲() 23
-      - 🇨🇳 epvincnt
-      - 🇬🇧 英国() 9
-      - w 4
-      - y 5
-      - w 5
-      - 🇬🇧 英国() 21
-      - w 6
-      - 🇬🇧 英国() 22
-      - 欧洲() 26
-      - 🇬🇧 英国() 15
-      - 🇮🇹 意大利(w)
-      - 阿塞拜疆
-      - w 7
-      - 🇬🇧 英国() 11
-      - w 8
-      - 🇬🇧 英国() 10
-      - w 9
-      - 欧洲() 25
-      - 🇩🇪 德国 2
-      - 🇺🇸 美国(w) 3
-      - w 10
-      - 欧洲() 3
-      - y 9
-      - 阿塞拜疆 2
-      - 🇩🇪 德国 3
-      - y 7
-      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
-      - 🇬🇧 Y：伦敦
-      - 欧洲() 19
       - 🇺🇸 美国 2
-      - 🇩🇪 馃嚛馃嚜 DE_09
-      - 🇺🇸 美国 6
-      - 塞浦路斯
-      - 阿塞拜疆 3
-      - 🇩🇪 Pool_馃嚛馃嚜DE_2685
-      - 塞浦路斯 2
+      - 🇺🇸 美国 3
+      - 🇨🇳 epvincnt
+      - 乌克兰(欢迎订阅Youtube破解资源君) 2
+      - 乌克兰(欢迎订阅Youtube破解资源君) 3
+      - 乌克兰(欢迎订阅Youtube破解资源君) 4
+      - 🇮🇹 意大利
+      - 🇮🇹 意大利(w)
+      - 欧洲() 22
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇳🇱 https://www.mattkaydiary.com|🇳🇱 NL_4012
+      - 🇺🇸 m|🇺🇸 US_7424 |29.75Mb
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2743
+      - 🇳🇱 (已坚挺2天)荷兰【分享来自Youtube不良林】
+      - https://www.mattkaydiary.com|欧盟
+      - 欧洲()
+      - bulink 网友分享线路 6 移动
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君) 2
+      - 乌克兰(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君) 3
+      - 🇳🇱 荷兰 2
+      - 老杨爱分享YouTube频道
+      - 🇷🇺 俄罗斯() 4
+      - 🇺🇸 美国 8
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7433
+      - 欧洲() 18
+      - 罗马(欢迎订阅Youtube破解资源君)
+      - 罗马() 16
+      - Pool_ |10.78Mb
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君) 3
+      - 克罗地亚
+      - 罗马(欢迎订阅Youtube破解资源君) 2
+      - 罗马(欢迎订阅Youtube破解资源君) 3
+      - 罗马(欢迎订阅Youtube破解资源君) 4
+      - 欧洲() 20
+      - 顺丰资源Youtube
+      - w
+      - w 2
+      - 罗马(欢迎订阅Youtube破解资源君) 5
+      - 老杨爱分享YouTube频道 2
+      - 罗马(欢迎订阅Youtube破解资源君) 6
+      - 罗马(欢迎订阅Youtube破解资源君) 7
+      - 罗马(欢迎订阅Youtube破解资源君) 8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 heroepvcnt
-      - 🇰🇷 韩国-15@1Gbpsw
-      - 欧洲() 34
-      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
       - bulink 网友分享线路 14 三网
+      - 🇨🇳 heroepvcntip
+      - bulink 网友分享线路 1 三网
+      - 🇨🇳 heroepvcnt
       - 🇯🇵 Vultr日本东京2-80端口免流TCP默认联通手厅随时有可能被墙
+      - 乌克兰(欢迎订阅Youtube破解资源君)
+      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君)
+      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇳🇱 荷兰
+      - 🇳🇱 https://www.mattkaydiary.com|🇳🇱 NL_4032
       - 🇺🇸 美国
-      - 欧洲() 32
-      - 欧洲() 17
-      - bulink 网友分享线路 7 三网
-      - 馃嚚馃嚘CA_2312
-      - 罗马() 9
-      - 欧洲() 16
-      - 🇩🇪 德国
-      - 🇨🇦 Y：加拿大 3
-      - 西班牙
-      - 欧洲() 31
-      - 🇺🇸 Y：美国 16
-      - 欧洲() 22
-      - 罗马() 11
-      - 🇨🇦 Y：加拿大 2
-      - 欧洲() 15
-      - 🇬🇧 英国() 8
-      - y 18
-      - y 26
-      - w
-      - 🇨🇦 Y：加拿大
-      - w 2
-      - 🇬🇧 英国() 16
-      - 欧洲() 12
-      - y 13
-      - w 3
-      - 🇬🇧 英国() 5
-      - 欧洲() 23
-      - 🇨🇳 epvincnt
-      - 🇬🇧 英国() 9
-      - w 4
-      - y 5
-      - w 5
-      - 🇬🇧 英国() 21
-      - w 6
-      - 🇬🇧 英国() 22
-      - 欧洲() 26
-      - 🇬🇧 英国() 15
-      - 🇮🇹 意大利(w)
-      - 阿塞拜疆
-      - w 7
-      - 🇬🇧 英国() 11
-      - w 8
-      - 🇬🇧 英国() 10
-      - w 9
-      - 欧洲() 25
-      - 🇩🇪 德国 2
-      - 🇺🇸 美国(w) 3
-      - w 10
-      - 欧洲() 3
-      - y 9
-      - 阿塞拜疆 2
-      - 🇩🇪 德国 3
-      - y 7
-      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
-      - 🇬🇧 Y：伦敦
-      - 欧洲() 19
       - 🇺🇸 美国 2
-      - 🇩🇪 馃嚛馃嚜 DE_09
-      - 🇺🇸 美国 6
-      - 塞浦路斯
-      - 阿塞拜疆 3
-      - 🇩🇪 Pool_馃嚛馃嚜DE_2685
-      - 塞浦路斯 2
+      - 🇺🇸 美国 3
+      - 🇨🇳 epvincnt
+      - 乌克兰(欢迎订阅Youtube破解资源君) 2
+      - 乌克兰(欢迎订阅Youtube破解资源君) 3
+      - 乌克兰(欢迎订阅Youtube破解资源君) 4
+      - 🇮🇹 意大利
+      - 🇮🇹 意大利(w)
+      - 欧洲() 22
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇳🇱 https://www.mattkaydiary.com|🇳🇱 NL_4012
+      - 🇺🇸 m|🇺🇸 US_7424 |29.75Mb
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2743
+      - 🇳🇱 (已坚挺2天)荷兰【分享来自Youtube不良林】
+      - https://www.mattkaydiary.com|欧盟
+      - 欧洲()
+      - bulink 网友分享线路 6 移动
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君) 2
+      - 乌克兰(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君) 3
+      - 🇳🇱 荷兰 2
+      - 老杨爱分享YouTube频道
+      - 🇷🇺 俄罗斯() 4
+      - 🇺🇸 美国 8
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7433
+      - 欧洲() 18
+      - 罗马(欢迎订阅Youtube破解资源君)
+      - 罗马() 16
+      - Pool_ |10.78Mb
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君) 3
+      - 克罗地亚
+      - 罗马(欢迎订阅Youtube破解资源君) 2
+      - 罗马(欢迎订阅Youtube破解资源君) 3
+      - 罗马(欢迎订阅Youtube破解资源君) 4
+      - 欧洲() 20
+      - 顺丰资源Youtube
+      - w
+      - w 2
+      - 罗马(欢迎订阅Youtube破解资源君) 5
+      - 老杨爱分享YouTube频道 2
+      - 罗马(欢迎订阅Youtube破解资源君) 6
+      - 罗马(欢迎订阅Youtube破解资源君) 7
+      - 罗马(欢迎订阅Youtube破解资源君) 8
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 heroepvcnt
-      - 🇰🇷 韩国-15@1Gbpsw
-      - 欧洲() 34
-      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
       - bulink 网友分享线路 14 三网
+      - 🇨🇳 heroepvcntip
+      - bulink 网友分享线路 1 三网
+      - 🇨🇳 heroepvcnt
       - 🇯🇵 Vultr日本东京2-80端口免流TCP默认联通手厅随时有可能被墙
+      - 乌克兰(欢迎订阅Youtube破解资源君)
+      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君)
+      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇳🇱 荷兰
+      - 🇳🇱 https://www.mattkaydiary.com|🇳🇱 NL_4032
       - 🇺🇸 美国
-      - 欧洲() 32
-      - 欧洲() 17
-      - bulink 网友分享线路 7 三网
-      - 馃嚚馃嚘CA_2312
-      - 罗马() 9
-      - 欧洲() 16
-      - 🇩🇪 德国
-      - 🇨🇦 Y：加拿大 3
-      - 西班牙
-      - 欧洲() 31
-      - 🇺🇸 Y：美国 16
-      - 欧洲() 22
-      - 罗马() 11
-      - 🇨🇦 Y：加拿大 2
-      - 欧洲() 15
-      - 🇬🇧 英国() 8
-      - y 18
-      - y 26
-      - w
-      - 🇨🇦 Y：加拿大
-      - w 2
-      - 🇬🇧 英国() 16
-      - 欧洲() 12
-      - y 13
-      - w 3
-      - 🇬🇧 英国() 5
-      - 欧洲() 23
-      - 🇨🇳 epvincnt
-      - 🇬🇧 英国() 9
-      - w 4
-      - y 5
-      - w 5
-      - 🇬🇧 英国() 21
-      - w 6
-      - 🇬🇧 英国() 22
-      - 欧洲() 26
-      - 🇬🇧 英国() 15
-      - 🇮🇹 意大利(w)
-      - 阿塞拜疆
-      - w 7
-      - 🇬🇧 英国() 11
-      - w 8
-      - 🇬🇧 英国() 10
-      - w 9
-      - 欧洲() 25
-      - 🇩🇪 德国 2
-      - 🇺🇸 美国(w) 3
-      - w 10
-      - 欧洲() 3
-      - y 9
-      - 阿塞拜疆 2
-      - 🇩🇪 德国 3
-      - y 7
-      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
-      - 🇬🇧 Y：伦敦
-      - 欧洲() 19
       - 🇺🇸 美国 2
-      - 🇩🇪 馃嚛馃嚜 DE_09
-      - 🇺🇸 美国 6
-      - 塞浦路斯
-      - 阿塞拜疆 3
-      - 🇩🇪 Pool_馃嚛馃嚜DE_2685
-      - 塞浦路斯 2
+      - 🇺🇸 美国 3
+      - 🇨🇳 epvincnt
+      - 乌克兰(欢迎订阅Youtube破解资源君) 2
+      - 乌克兰(欢迎订阅Youtube破解资源君) 3
+      - 乌克兰(欢迎订阅Youtube破解资源君) 4
+      - 🇮🇹 意大利
+      - 🇮🇹 意大利(w)
+      - 欧洲() 22
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇳🇱 https://www.mattkaydiary.com|🇳🇱 NL_4012
+      - 🇺🇸 m|🇺🇸 US_7424 |29.75Mb
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2743
+      - 🇳🇱 (已坚挺2天)荷兰【分享来自Youtube不良林】
+      - https://www.mattkaydiary.com|欧盟
+      - 欧洲()
+      - bulink 网友分享线路 6 移动
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君) 2
+      - 乌克兰(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君) 3
+      - 🇳🇱 荷兰 2
+      - 老杨爱分享YouTube频道
+      - 🇷🇺 俄罗斯() 4
+      - 🇺🇸 美国 8
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7433
+      - 欧洲() 18
+      - 罗马(欢迎订阅Youtube破解资源君)
+      - 罗马() 16
+      - Pool_ |10.78Mb
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君) 3
+      - 克罗地亚
+      - 罗马(欢迎订阅Youtube破解资源君) 2
+      - 罗马(欢迎订阅Youtube破解资源君) 3
+      - 罗马(欢迎订阅Youtube破解资源君) 4
+      - 欧洲() 20
+      - 顺丰资源Youtube
+      - w
+      - w 2
+      - 罗马(欢迎订阅Youtube破解资源君) 5
+      - 老杨爱分享YouTube频道 2
+      - 罗马(欢迎订阅Youtube破解资源君) 6
+      - 罗马(欢迎订阅Youtube破解资源君) 7
+      - 罗马(欢迎订阅Youtube破解资源君) 8
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳 heroepvcnt
-      - 🇰🇷 韩国-15@1Gbpsw
-      - 欧洲() 34
-      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
       - bulink 网友分享线路 14 三网
+      - 🇨🇳 heroepvcntip
+      - bulink 网友分享线路 1 三网
+      - 🇨🇳 heroepvcnt
       - 🇯🇵 Vultr日本东京2-80端口免流TCP默认联通手厅随时有可能被墙
+      - 乌克兰(欢迎订阅Youtube破解资源君)
+      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君)
+      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇳🇱 荷兰
+      - 🇳🇱 https://www.mattkaydiary.com|🇳🇱 NL_4032
       - 🇺🇸 美国
-      - 欧洲() 32
-      - 欧洲() 17
-      - bulink 网友分享线路 7 三网
-      - 馃嚚馃嚘CA_2312
-      - 罗马() 9
-      - 欧洲() 16
-      - 🇩🇪 德国
-      - 🇨🇦 Y：加拿大 3
-      - 西班牙
-      - 欧洲() 31
-      - 🇺🇸 Y：美国 16
-      - 欧洲() 22
-      - 罗马() 11
-      - 🇨🇦 Y：加拿大 2
-      - 欧洲() 15
-      - 🇬🇧 英国() 8
-      - y 18
-      - y 26
-      - w
-      - 🇨🇦 Y：加拿大
-      - w 2
-      - 🇬🇧 英国() 16
-      - 欧洲() 12
-      - y 13
-      - w 3
-      - 🇬🇧 英国() 5
-      - 欧洲() 23
-      - 🇨🇳 epvincnt
-      - 🇬🇧 英国() 9
-      - w 4
-      - y 5
-      - w 5
-      - 🇬🇧 英国() 21
-      - w 6
-      - 🇬🇧 英国() 22
-      - 欧洲() 26
-      - 🇬🇧 英国() 15
-      - 🇮🇹 意大利(w)
-      - 阿塞拜疆
-      - w 7
-      - 🇬🇧 英国() 11
-      - w 8
-      - 🇬🇧 英国() 10
-      - w 9
-      - 欧洲() 25
-      - 🇩🇪 德国 2
-      - 🇺🇸 美国(w) 3
-      - w 10
-      - 欧洲() 3
-      - y 9
-      - 阿塞拜疆 2
-      - 🇩🇪 德国 3
-      - y 7
-      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
-      - 🇬🇧 Y：伦敦
-      - 欧洲() 19
       - 🇺🇸 美国 2
-      - 🇩🇪 馃嚛馃嚜 DE_09
-      - 🇺🇸 美国 6
-      - 塞浦路斯
-      - 阿塞拜疆 3
-      - 🇩🇪 Pool_馃嚛馃嚜DE_2685
-      - 塞浦路斯 2
+      - 🇺🇸 美国 3
+      - 🇨🇳 epvincnt
+      - 乌克兰(欢迎订阅Youtube破解资源君) 2
+      - 乌克兰(欢迎订阅Youtube破解资源君) 3
+      - 乌克兰(欢迎订阅Youtube破解资源君) 4
+      - 🇮🇹 意大利
+      - 🇮🇹 意大利(w)
+      - 欧洲() 22
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇳🇱 https://www.mattkaydiary.com|🇳🇱 NL_4012
+      - 🇺🇸 m|🇺🇸 US_7424 |29.75Mb
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2743
+      - 🇳🇱 (已坚挺2天)荷兰【分享来自Youtube不良林】
+      - https://www.mattkaydiary.com|欧盟
+      - 欧洲()
+      - bulink 网友分享线路 6 移动
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君) 2
+      - 乌克兰(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君) 3
+      - 🇳🇱 荷兰 2
+      - 老杨爱分享YouTube频道
+      - 🇷🇺 俄罗斯() 4
+      - 🇺🇸 美国 8
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7433
+      - 欧洲() 18
+      - 罗马(欢迎订阅Youtube破解资源君)
+      - 罗马() 16
+      - Pool_ |10.78Mb
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君) 3
+      - 克罗地亚
+      - 罗马(欢迎订阅Youtube破解资源君) 2
+      - 罗马(欢迎订阅Youtube破解资源君) 3
+      - 罗马(欢迎订阅Youtube破解资源君) 4
+      - 欧洲() 20
+      - 顺丰资源Youtube
+      - w
+      - w 2
+      - 罗马(欢迎订阅Youtube破解资源君) 5
+      - 老杨爱分享YouTube频道 2
+      - 罗马(欢迎订阅Youtube破解资源君) 6
+      - 罗马(欢迎订阅Youtube破解资源君) 7
+      - 罗马(欢迎订阅Youtube破解资源君) 8
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳 heroepvcnt
-      - 🇰🇷 韩国-15@1Gbpsw
-      - 欧洲() 34
-      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
       - bulink 网友分享线路 14 三网
+      - 🇨🇳 heroepvcntip
+      - bulink 网友分享线路 1 三网
+      - 🇨🇳 heroepvcnt
       - 🇯🇵 Vultr日本东京2-80端口免流TCP默认联通手厅随时有可能被墙
+      - 乌克兰(欢迎订阅Youtube破解资源君)
+      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君)
+      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇳🇱 荷兰
+      - 🇳🇱 https://www.mattkaydiary.com|🇳🇱 NL_4032
       - 🇺🇸 美国
-      - 欧洲() 32
-      - 欧洲() 17
-      - bulink 网友分享线路 7 三网
-      - 馃嚚馃嚘CA_2312
-      - 罗马() 9
-      - 欧洲() 16
-      - 🇩🇪 德国
-      - 🇨🇦 Y：加拿大 3
-      - 西班牙
-      - 欧洲() 31
-      - 🇺🇸 Y：美国 16
-      - 欧洲() 22
-      - 罗马() 11
-      - 🇨🇦 Y：加拿大 2
-      - 欧洲() 15
-      - 🇬🇧 英国() 8
-      - y 18
-      - y 26
-      - w
-      - 🇨🇦 Y：加拿大
-      - w 2
-      - 🇬🇧 英国() 16
-      - 欧洲() 12
-      - y 13
-      - w 3
-      - 🇬🇧 英国() 5
-      - 欧洲() 23
-      - 🇨🇳 epvincnt
-      - 🇬🇧 英国() 9
-      - w 4
-      - y 5
-      - w 5
-      - 🇬🇧 英国() 21
-      - w 6
-      - 🇬🇧 英国() 22
-      - 欧洲() 26
-      - 🇬🇧 英国() 15
-      - 🇮🇹 意大利(w)
-      - 阿塞拜疆
-      - w 7
-      - 🇬🇧 英国() 11
-      - w 8
-      - 🇬🇧 英国() 10
-      - w 9
-      - 欧洲() 25
-      - 🇩🇪 德国 2
-      - 🇺🇸 美国(w) 3
-      - w 10
-      - 欧洲() 3
-      - y 9
-      - 阿塞拜疆 2
-      - 🇩🇪 德国 3
-      - y 7
-      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
-      - 🇬🇧 Y：伦敦
-      - 欧洲() 19
       - 🇺🇸 美国 2
-      - 🇩🇪 馃嚛馃嚜 DE_09
-      - 🇺🇸 美国 6
-      - 塞浦路斯
-      - 阿塞拜疆 3
-      - 🇩🇪 Pool_馃嚛馃嚜DE_2685
-      - 塞浦路斯 2
+      - 🇺🇸 美国 3
+      - 🇨🇳 epvincnt
+      - 乌克兰(欢迎订阅Youtube破解资源君) 2
+      - 乌克兰(欢迎订阅Youtube破解资源君) 3
+      - 乌克兰(欢迎订阅Youtube破解资源君) 4
+      - 🇮🇹 意大利
+      - 🇮🇹 意大利(w)
+      - 欧洲() 22
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇳🇱 https://www.mattkaydiary.com|🇳🇱 NL_4012
+      - 🇺🇸 m|🇺🇸 US_7424 |29.75Mb
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2743
+      - 🇳🇱 (已坚挺2天)荷兰【分享来自Youtube不良林】
+      - https://www.mattkaydiary.com|欧盟
+      - 欧洲()
+      - bulink 网友分享线路 6 移动
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君) 2
+      - 乌克兰(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君) 3
+      - 🇳🇱 荷兰 2
+      - 老杨爱分享YouTube频道
+      - 🇷🇺 俄罗斯() 4
+      - 🇺🇸 美国 8
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7433
+      - 欧洲() 18
+      - 罗马(欢迎订阅Youtube破解资源君)
+      - 罗马() 16
+      - Pool_ |10.78Mb
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君) 3
+      - 克罗地亚
+      - 罗马(欢迎订阅Youtube破解资源君) 2
+      - 罗马(欢迎订阅Youtube破解资源君) 3
+      - 罗马(欢迎订阅Youtube破解资源君) 4
+      - 欧洲() 20
+      - 顺丰资源Youtube
+      - w
+      - w 2
+      - 罗马(欢迎订阅Youtube破解资源君) 5
+      - 老杨爱分享YouTube频道 2
+      - 罗马(欢迎订阅Youtube破解资源君) 6
+      - 罗马(欢迎订阅Youtube破解资源君) 7
+      - 罗马(欢迎订阅Youtube破解资源君) 8
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 heroepvcnt
-      - 🇰🇷 韩国-15@1Gbpsw
-      - 欧洲() 34
-      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
       - bulink 网友分享线路 14 三网
+      - 🇨🇳 heroepvcntip
+      - bulink 网友分享线路 1 三网
+      - 🇨🇳 heroepvcnt
       - 🇯🇵 Vultr日本东京2-80端口免流TCP默认联通手厅随时有可能被墙
+      - 乌克兰(欢迎订阅Youtube破解资源君)
+      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君)
+      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇳🇱 荷兰
+      - 🇳🇱 https://www.mattkaydiary.com|🇳🇱 NL_4032
       - 🇺🇸 美国
-      - 欧洲() 32
-      - 欧洲() 17
-      - bulink 网友分享线路 7 三网
-      - 馃嚚馃嚘CA_2312
-      - 罗马() 9
-      - 欧洲() 16
-      - 🇩🇪 德国
-      - 🇨🇦 Y：加拿大 3
-      - 西班牙
-      - 欧洲() 31
-      - 🇺🇸 Y：美国 16
-      - 欧洲() 22
-      - 罗马() 11
-      - 🇨🇦 Y：加拿大 2
-      - 欧洲() 15
-      - 🇬🇧 英国() 8
-      - y 18
-      - y 26
-      - w
-      - 🇨🇦 Y：加拿大
-      - w 2
-      - 🇬🇧 英国() 16
-      - 欧洲() 12
-      - y 13
-      - w 3
-      - 🇬🇧 英国() 5
-      - 欧洲() 23
-      - 🇨🇳 epvincnt
-      - 🇬🇧 英国() 9
-      - w 4
-      - y 5
-      - w 5
-      - 🇬🇧 英国() 21
-      - w 6
-      - 🇬🇧 英国() 22
-      - 欧洲() 26
-      - 🇬🇧 英国() 15
-      - 🇮🇹 意大利(w)
-      - 阿塞拜疆
-      - w 7
-      - 🇬🇧 英国() 11
-      - w 8
-      - 🇬🇧 英国() 10
-      - w 9
-      - 欧洲() 25
-      - 🇩🇪 德国 2
-      - 🇺🇸 美国(w) 3
-      - w 10
-      - 欧洲() 3
-      - y 9
-      - 阿塞拜疆 2
-      - 🇩🇪 德国 3
-      - y 7
-      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
-      - 🇬🇧 Y：伦敦
-      - 欧洲() 19
       - 🇺🇸 美国 2
-      - 🇩🇪 馃嚛馃嚜 DE_09
-      - 🇺🇸 美国 6
-      - 塞浦路斯
-      - 阿塞拜疆 3
-      - 🇩🇪 Pool_馃嚛馃嚜DE_2685
-      - 塞浦路斯 2
+      - 🇺🇸 美国 3
+      - 🇨🇳 epvincnt
+      - 乌克兰(欢迎订阅Youtube破解资源君) 2
+      - 乌克兰(欢迎订阅Youtube破解资源君) 3
+      - 乌克兰(欢迎订阅Youtube破解资源君) 4
+      - 🇮🇹 意大利
+      - 🇮🇹 意大利(w)
+      - 欧洲() 22
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇳🇱 https://www.mattkaydiary.com|🇳🇱 NL_4012
+      - 🇺🇸 m|🇺🇸 US_7424 |29.75Mb
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2743
+      - 🇳🇱 (已坚挺2天)荷兰【分享来自Youtube不良林】
+      - https://www.mattkaydiary.com|欧盟
+      - 欧洲()
+      - bulink 网友分享线路 6 移动
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君) 2
+      - 乌克兰(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君) 3
+      - 🇳🇱 荷兰 2
+      - 老杨爱分享YouTube频道
+      - 🇷🇺 俄罗斯() 4
+      - 🇺🇸 美国 8
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7433
+      - 欧洲() 18
+      - 罗马(欢迎订阅Youtube破解资源君)
+      - 罗马() 16
+      - Pool_ |10.78Mb
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君) 3
+      - 克罗地亚
+      - 罗马(欢迎订阅Youtube破解资源君) 2
+      - 罗马(欢迎订阅Youtube破解资源君) 3
+      - 罗马(欢迎订阅Youtube破解资源君) 4
+      - 欧洲() 20
+      - 顺丰资源Youtube
+      - w
+      - w 2
+      - 罗马(欢迎订阅Youtube破解资源君) 5
+      - 老杨爱分享YouTube频道 2
+      - 罗马(欢迎订阅Youtube破解资源君) 6
+      - 罗马(欢迎订阅Youtube破解资源君) 7
+      - 罗马(欢迎订阅Youtube破解资源君) 8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -548,76 +479,66 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 heroepvcnt
-      - 🇰🇷 韩国-15@1Gbpsw
-      - 欧洲() 34
-      - 🇺🇸 github.com/freefq - 美国3COM公司企业网 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
       - bulink 网友分享线路 14 三网
+      - 🇨🇳 heroepvcntip
+      - bulink 网友分享线路 1 三网
+      - 🇨🇳 heroepvcnt
       - 🇯🇵 Vultr日本东京2-80端口免流TCP默认联通手厅随时有可能被墙
+      - 乌克兰(欢迎订阅Youtube破解资源君)
+      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君)
+      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇳🇱 荷兰
+      - 🇳🇱 https://www.mattkaydiary.com|🇳🇱 NL_4032
       - 🇺🇸 美国
-      - 欧洲() 32
-      - 欧洲() 17
-      - bulink 网友分享线路 7 三网
-      - 馃嚚馃嚘CA_2312
-      - 罗马() 9
-      - 欧洲() 16
-      - 🇩🇪 德国
-      - 🇨🇦 Y：加拿大 3
-      - 西班牙
-      - 欧洲() 31
-      - 🇺🇸 Y：美国 16
-      - 欧洲() 22
-      - 罗马() 11
-      - 🇨🇦 Y：加拿大 2
-      - 欧洲() 15
-      - 🇬🇧 英国() 8
-      - y 18
-      - y 26
-      - w
-      - 🇨🇦 Y：加拿大
-      - w 2
-      - 🇬🇧 英国() 16
-      - 欧洲() 12
-      - y 13
-      - w 3
-      - 🇬🇧 英国() 5
-      - 欧洲() 23
-      - 🇨🇳 epvincnt
-      - 🇬🇧 英国() 9
-      - w 4
-      - y 5
-      - w 5
-      - 🇬🇧 英国() 21
-      - w 6
-      - 🇬🇧 英国() 22
-      - 欧洲() 26
-      - 🇬🇧 英国() 15
-      - 🇮🇹 意大利(w)
-      - 阿塞拜疆
-      - w 7
-      - 🇬🇧 英国() 11
-      - w 8
-      - 🇬🇧 英国() 10
-      - w 9
-      - 欧洲() 25
-      - 🇩🇪 德国 2
-      - 🇺🇸 美国(w) 3
-      - w 10
-      - 欧洲() 3
-      - y 9
-      - 阿塞拜疆 2
-      - 🇩🇪 德国 3
-      - y 7
-      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
-      - 🇬🇧 Y：伦敦
-      - 欧洲() 19
       - 🇺🇸 美国 2
-      - 🇩🇪 馃嚛馃嚜 DE_09
-      - 🇺🇸 美国 6
-      - 塞浦路斯
-      - 阿塞拜疆 3
-      - 🇩🇪 Pool_馃嚛馃嚜DE_2685
-      - 塞浦路斯 2
+      - 🇺🇸 美国 3
+      - 🇨🇳 epvincnt
+      - 乌克兰(欢迎订阅Youtube破解资源君) 2
+      - 乌克兰(欢迎订阅Youtube破解资源君) 3
+      - 乌克兰(欢迎订阅Youtube破解资源君) 4
+      - 🇮🇹 意大利
+      - 🇮🇹 意大利(w)
+      - 欧洲() 22
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇳🇱 https://www.mattkaydiary.com|🇳🇱 NL_4012
+      - 🇺🇸 m|🇺🇸 US_7424 |29.75Mb
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_2743
+      - 🇳🇱 (已坚挺2天)荷兰【分享来自Youtube不良林】
+      - https://www.mattkaydiary.com|欧盟
+      - 欧洲()
+      - bulink 网友分享线路 6 移动
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君)
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君) 2
+      - 乌克兰(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君) 3
+      - 🇳🇱 荷兰 2
+      - 老杨爱分享YouTube频道
+      - 🇷🇺 俄罗斯() 4
+      - 🇺🇸 美国 8
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_7433
+      - 欧洲() 18
+      - 罗马(欢迎订阅Youtube破解资源君)
+      - 罗马() 16
+      - Pool_ |10.78Mb
+      - 🇮🇹 意大利(欢迎订阅Youtube破解资源君) 3
+      - 克罗地亚
+      - 罗马(欢迎订阅Youtube破解资源君) 2
+      - 罗马(欢迎订阅Youtube破解资源君) 3
+      - 罗马(欢迎订阅Youtube破解资源君) 4
+      - 欧洲() 20
+      - 顺丰资源Youtube
+      - w
+      - w 2
+      - 罗马(欢迎订阅Youtube破解资源君) 5
+      - 老杨爱分享YouTube频道 2
+      - 罗马(欢迎订阅Youtube破解资源君) 6
+      - 罗马(欢迎订阅Youtube破解资源君) 7
+      - 罗马(欢迎订阅Youtube破解资源君) 8
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
