@@ -5,286 +5,437 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港, server: hk033.bp666.xyz, port: 30013, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk003.bp666.xyz}}
-  - {name: 🇨🇳 heroepvcntip, server: 1.0.0.120, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: old-resonance-cedc.epvincnt.workers.dev}}
-  - {name: 🇰🇷 韩国, server: hk048.bp666.xyz, port: 30028, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk018.bp666.xyz}}
-  - {name: 🇺🇸 美国, server: hk037.bp666.xyz, port: 30017, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk007.bp666.xyz}}
-  - {name: bulink 网友分享线路 14 三网, server: or1.bulink.xyz.apkook.com, port: 8443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国 2, server: hk047.bp666.xyz, port: 30027, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk017.bp666.xyz}}
-  - {name: KingFu景福@YouTuBe请订阅, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇨🇳 台湾, server: cu-sy.okvpn.cc, port: 50004, type: vmess, uuid: 18b61e56-ecc2-41fb-b7f0-a13507d59487, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-sy.okvpn.cc}}
-  - {name: 🇳🇱 荷兰, server: 46.182.107.37, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f68, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.32811341.xyz}}
-  - {name: 🇭🇰 香港 2, server: hk032.bp666.xyz, port: 30012, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk002.bp666.xyz}}
-  - {name: 🇳🇱 荷兰 2, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国 2, server: 143.244.60.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 1, server: 13.212.76.43, port: 15068, type: vmess, uuid: 7a006e11-72df-4497-947a-54b4ef9cd229, alterId: 64, cipher: auto, tls: false}
   - {name: 🇨🇳 heroepvcnt, server: 104.18.231.9, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: little-dawn-3747.epvincnt.workers.dev}}
-  - {name: https://www.mattkaydiary.com|Relay_ | 6.37Mb, server: c39s3.jamjams.net, port: 61535, type: vmess, uuid: eacf6911-b896-42ba-8340-298083d7b2e4, alterId: 8, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国 3, server: hk039.bp666.xyz, port: 30019, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk009.bp666.xyz}}
-  - {name: bulink 网友分享线路 1 三网, server: la1.bulink.xyz.apkook.com, port: 443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 3, server: hk035.bp666.xyz, port: 30015, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk005.bp666.xyz}}
-  - {name: 🇰🇷 韩国 4, server: hk050.bp666.xyz, port: 30030, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk020.bp666.xyz}}
-  - {name: 🇺🇸 美国 3, server: 143.244.60.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 顺丰资源Youtube, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇨🇳 台湾, server: cu-sy.okvpn.cc, port: 50004, type: vmess, uuid: 18b61e56-ecc2-41fb-b7f0-a13507d59487, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-sy.okvpn.cc}}
+  - {name: bulink 网友分享线路 14 三网, server: or1.bulink.xyz.apkook.com, port: 8443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
+  - {name: KingFu景福@YouTuBe请订阅, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇳🇱 荷兰, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇳 heroepvcntip, server: 1.0.0.120, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: old-resonance-cedc.epvincnt.workers.dev}}
   - {name: 🇨🇳 epvincnt, server: 129.146.83.67, port: 47501, type: vmess, uuid: 8843ed45-909a-4f7f-bab5-c584ecab433f, alterId: 0, cipher: auto, tls: false}
+  - {name: 顺丰资源Youtube 2, server: 143.244.60.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 github.com/freefq - 美国  4, server: 143.244.60.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: bulink 网友分享线路 1 三网, server: la1.bulink.xyz.apkook.com, port: 443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
+  - {name: bulink 网友分享线路 6 移动, server: nj1.bulink.xyz.fobzs.com, port: 443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国, server: 143.244.60.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇨🇳 https://www.mattkaydiary.com|🇨🇳 CN_833, server: 54.223.185.171, port: 8002, type: vmess, uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.185.171}}
   - {name: Relay_ | 7.13Mb, server: euserv10p.ezddns.tk, port: 80, type: vmess, uuid: 4323a38e-29dc-4c6d-f436-b15114e57a75, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.zip, ws-headers: {Host: euserv10p.ezddns.tk}}
-  - {name: 🇯🇵 日本, server: hk044.bp666.xyz, port: 30024, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk014.bp666.xyz}}
-  - {name: Pool_ |13.47Mb, server: 23.82.11.49, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇰🇷 韩国 5, server: hk038.bp666.xyz, port: 30018, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk008.bp666.xyz}}
-  - {name: 🇺🇸 美国 4, server: 207.244.67.149, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国 5, server: euserv10p.ezddns.tk, port: 80, type: vmess, uuid: 4323a38e-29dc-4c6d-f436-b15114e57a75, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.zip, ws-headers: {Host: euserv10p.ezddns.tk}}
+  - {name: 老杨爱分享YouTube频道, server: 143.244.60.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 罗马 顺丰资源Youtube, server: 91.90.123.115, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 罗马 顺丰资源Youtube 2, server: 91.90.123.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 顺丰资源Youtube 3, server: 207.244.67.149, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 美国 2, server: 143.244.60.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 美国 顺丰资源Youtube, server: euserv13p.ezddns.tk, port: 80, type: vmess, uuid: ced80260-a5b1-427b-db09-5a46b69ac9e2, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv13p.ezddns.tk}}
+  - {name: 老杨爱分享, server: 91.90.123.115, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 老杨爱分享 2, server: 91.90.123.115, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 老杨爱分享 3, server: 91.90.123.115, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 罗马 顺丰资源Youtube 3, server: 91.90.123.115, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 7, server: 23.82.11.49, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 美国 3, server: 207.244.67.149, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: Pool_ | 8.76Mb, server: 91.90.123.115, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: bulink 网友分享线路 6 移动, server: nj1.bulink.xyz.fobzs.com, port: 443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
+  - {name: 老杨爱分享 4, server: 91.90.123.115, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 罗马 顺丰资源Youtube 4, server: 91.90.123.115, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 老杨爱分享YouTube频道 2, server: 91.90.123.115, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: Pool_ |13.47Mb, server: 23.82.11.49, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 罗马 顺丰资源Youtube 5, server: 91.90.123.115, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 罗马 顺丰资源Youtube 6, server: 91.90.123.115, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 老杨爱分享 5, server: 91.90.123.115, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 老杨爱分享YouTube频道 3, server: 91.90.123.115, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 罗马 顺丰资源Youtube 7, server: 91.90.123.115, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 老杨爱分享 6, server: 91.90.123.115, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 顺丰资源Youtube 4, server: 91.90.123.115, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
   - {name: 🇷🇴 罗马尼亚, server: 91.90.123.115, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 🇷🇴 罗马尼亚 2, server: 91.90.123.115, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 老杨爱分享YouTube频道 4, server: 91.90.123.115, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 老杨爱分享YouTube频道 5, server: 207.244.67.149, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 罗马 顺丰资源Youtube 8, server: 91.90.123.115, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
   - {name: Pool__567 | 3.39Mb, server: 91.90.123.115, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇺🇸 美国 6, server: 23.225.28.174, port: 443, type: vmess, uuid: 5ac3d610-1802-491b-ab06-dad9bbd83ff1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.10855945.xyz}}
-  - {name: 🇺🇸 US_2805, server: euserv18p.ezddns.tk, port: 80, type: vmess, uuid: 344c0b7d-2c35-4c95-8481-e2fc3c456a06, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.mp3, ws-headers: {Host: euserv18p.ezddns.tk}}
+  - {name: 老杨爱分享YouTube频道 6, server: 91.90.123.115, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 老杨爱分享 7, server: 91.90.123.115, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 🇷🇴 罗马尼亚 2, server: 91.90.123.115, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 罗马 顺丰资源Youtube 9, server: 91.90.123.115, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 罗马 顺丰资源Youtube 10, server: 91.90.123.115, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 罗马 顺丰资源Youtube 11, server: 91.90.123.115, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 老杨爱分享YouTube频道 7, server: 3.36.76.192, port: 31812, type: vmess, uuid: a1371d43-f0fe-43cf-b826-d900a1c8de49, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 顺丰资源Youtube 2, server: 3.36.76.192, port: 31812, type: vmess, uuid: a1371d43-f0fe-43cf-b826-d900a1c8de49, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 4, server: euserv10p.ezddns.tk, port: 80, type: vmess, uuid: 4323a38e-29dc-4c6d-f436-b15114e57a75, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.zip, ws-headers: {Host: euserv10p.ezddns.tk}}
+  - {name: 顺丰资源Youtube 5, server: 3.36.76.192, port: 31812, type: vmess, uuid: a1371d43-f0fe-43cf-b826-d900a1c8de49, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 5, server: 23.225.28.174, port: 443, type: vmess, uuid: 5ac3d610-1802-491b-ab06-dad9bbd83ff1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.10855945.xyz}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港
-      - 🇨🇳 heroepvcntip
-      - 🇰🇷 韩国
-      - 🇺🇸 美国
-      - bulink 网友分享线路 14 三网
-      - 🇰🇷 韩国 2
-      - KingFu景福@YouTuBe请订阅
-      - 🇨🇳 台湾
-      - 🇳🇱 荷兰
-      - 🇭🇰 香港 2
-      - 🇳🇱 荷兰 2
-      - 🇺🇸 美国 2
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 1
       - 🇨🇳 heroepvcnt
-      - https://www.mattkaydiary.com|Relay_ | 6.37Mb
-      - 🇰🇷 韩国 3
-      - bulink 网友分享线路 1 三网
-      - 🇭🇰 香港 3
-      - 🇰🇷 韩国 4
-      - 🇺🇸 美国 3
+      - 顺丰资源Youtube
+      - 🇨🇳 台湾
+      - bulink 网友分享线路 14 三网
+      - KingFu景福@YouTuBe请订阅
+      - 🇳🇱 荷兰
+      - 🇨🇳 heroepvcntip
       - 🇨🇳 epvincnt
+      - 顺丰资源Youtube 2
+      - 🇺🇸 github.com/freefq - 美国  4
+      - bulink 网友分享线路 1 三网
+      - bulink 网友分享线路 6 移动
+      - 🇺🇸 美国
       - 🇨🇳 https://www.mattkaydiary.com|🇨🇳 CN_833
       - Relay_ | 7.13Mb
-      - 🇯🇵 日本
-      - Pool_ |13.47Mb
-      - 🇰🇷 韩国 5
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
+      - 老杨爱分享YouTube频道
+      - 罗马 顺丰资源Youtube
+      - 罗马 顺丰资源Youtube 2
+      - 顺丰资源Youtube 3
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 顺丰资源Youtube
+      - 老杨爱分享
+      - 老杨爱分享 2
+      - 老杨爱分享 3
+      - 罗马 顺丰资源Youtube 3
+      - 🇺🇸 github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 7
+      - 🇺🇸 美国 3
       - Pool_ | 8.76Mb
-      - bulink 网友分享线路 6 移动
+      - 老杨爱分享 4
+      - 罗马 顺丰资源Youtube 4
+      - 老杨爱分享YouTube频道 2
+      - Pool_ |13.47Mb
+      - 罗马 顺丰资源Youtube 5
+      - 罗马 顺丰资源Youtube 6
+      - 老杨爱分享 5
+      - 老杨爱分享YouTube频道 3
+      - 罗马 顺丰资源Youtube 7
+      - 老杨爱分享 6
+      - 顺丰资源Youtube 4
       - 🇷🇴 罗马尼亚
-      - 🇷🇴 罗马尼亚 2
+      - 老杨爱分享YouTube频道 4
+      - 老杨爱分享YouTube频道 5
+      - 罗马 顺丰资源Youtube 8
       - Pool__567 | 3.39Mb
-      - 🇺🇸 美国 6
-      - 🇺🇸 US_2805
+      - 老杨爱分享YouTube频道 6
+      - 老杨爱分享 7
+      - 🇷🇴 罗马尼亚 2
+      - 罗马 顺丰资源Youtube 9
+      - 罗马 顺丰资源Youtube 10
+      - 罗马 顺丰资源Youtube 11
+      - 老杨爱分享YouTube频道 7
+      - 🇺🇸 美国 顺丰资源Youtube 2
+      - 🇺🇸 美国 4
+      - 顺丰资源Youtube 5
+      - 🇺🇸 美国 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港
-      - 🇨🇳 heroepvcntip
-      - 🇰🇷 韩国
-      - 🇺🇸 美国
-      - bulink 网友分享线路 14 三网
-      - 🇰🇷 韩国 2
-      - KingFu景福@YouTuBe请订阅
-      - 🇨🇳 台湾
-      - 🇳🇱 荷兰
-      - 🇭🇰 香港 2
-      - 🇳🇱 荷兰 2
-      - 🇺🇸 美国 2
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 1
       - 🇨🇳 heroepvcnt
-      - https://www.mattkaydiary.com|Relay_ | 6.37Mb
-      - 🇰🇷 韩国 3
-      - bulink 网友分享线路 1 三网
-      - 🇭🇰 香港 3
-      - 🇰🇷 韩国 4
-      - 🇺🇸 美国 3
+      - 顺丰资源Youtube
+      - 🇨🇳 台湾
+      - bulink 网友分享线路 14 三网
+      - KingFu景福@YouTuBe请订阅
+      - 🇳🇱 荷兰
+      - 🇨🇳 heroepvcntip
       - 🇨🇳 epvincnt
+      - 顺丰资源Youtube 2
+      - 🇺🇸 github.com/freefq - 美国  4
+      - bulink 网友分享线路 1 三网
+      - bulink 网友分享线路 6 移动
+      - 🇺🇸 美国
       - 🇨🇳 https://www.mattkaydiary.com|🇨🇳 CN_833
       - Relay_ | 7.13Mb
-      - 🇯🇵 日本
-      - Pool_ |13.47Mb
-      - 🇰🇷 韩国 5
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
+      - 老杨爱分享YouTube频道
+      - 罗马 顺丰资源Youtube
+      - 罗马 顺丰资源Youtube 2
+      - 顺丰资源Youtube 3
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 顺丰资源Youtube
+      - 老杨爱分享
+      - 老杨爱分享 2
+      - 老杨爱分享 3
+      - 罗马 顺丰资源Youtube 3
+      - 🇺🇸 github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 7
+      - 🇺🇸 美国 3
       - Pool_ | 8.76Mb
-      - bulink 网友分享线路 6 移动
+      - 老杨爱分享 4
+      - 罗马 顺丰资源Youtube 4
+      - 老杨爱分享YouTube频道 2
+      - Pool_ |13.47Mb
+      - 罗马 顺丰资源Youtube 5
+      - 罗马 顺丰资源Youtube 6
+      - 老杨爱分享 5
+      - 老杨爱分享YouTube频道 3
+      - 罗马 顺丰资源Youtube 7
+      - 老杨爱分享 6
+      - 顺丰资源Youtube 4
       - 🇷🇴 罗马尼亚
-      - 🇷🇴 罗马尼亚 2
+      - 老杨爱分享YouTube频道 4
+      - 老杨爱分享YouTube频道 5
+      - 罗马 顺丰资源Youtube 8
       - Pool__567 | 3.39Mb
-      - 🇺🇸 美国 6
-      - 🇺🇸 US_2805
+      - 老杨爱分享YouTube频道 6
+      - 老杨爱分享 7
+      - 🇷🇴 罗马尼亚 2
+      - 罗马 顺丰资源Youtube 9
+      - 罗马 顺丰资源Youtube 10
+      - 罗马 顺丰资源Youtube 11
+      - 老杨爱分享YouTube频道 7
+      - 🇺🇸 美国 顺丰资源Youtube 2
+      - 🇺🇸 美国 4
+      - 顺丰资源Youtube 5
+      - 🇺🇸 美国 5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港
-      - 🇨🇳 heroepvcntip
-      - 🇰🇷 韩国
-      - 🇺🇸 美国
-      - bulink 网友分享线路 14 三网
-      - 🇰🇷 韩国 2
-      - KingFu景福@YouTuBe请订阅
-      - 🇨🇳 台湾
-      - 🇳🇱 荷兰
-      - 🇭🇰 香港 2
-      - 🇳🇱 荷兰 2
-      - 🇺🇸 美国 2
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 1
       - 🇨🇳 heroepvcnt
-      - https://www.mattkaydiary.com|Relay_ | 6.37Mb
-      - 🇰🇷 韩国 3
-      - bulink 网友分享线路 1 三网
-      - 🇭🇰 香港 3
-      - 🇰🇷 韩国 4
-      - 🇺🇸 美国 3
+      - 顺丰资源Youtube
+      - 🇨🇳 台湾
+      - bulink 网友分享线路 14 三网
+      - KingFu景福@YouTuBe请订阅
+      - 🇳🇱 荷兰
+      - 🇨🇳 heroepvcntip
       - 🇨🇳 epvincnt
+      - 顺丰资源Youtube 2
+      - 🇺🇸 github.com/freefq - 美国  4
+      - bulink 网友分享线路 1 三网
+      - bulink 网友分享线路 6 移动
+      - 🇺🇸 美国
       - 🇨🇳 https://www.mattkaydiary.com|🇨🇳 CN_833
       - Relay_ | 7.13Mb
-      - 🇯🇵 日本
-      - Pool_ |13.47Mb
-      - 🇰🇷 韩国 5
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
+      - 老杨爱分享YouTube频道
+      - 罗马 顺丰资源Youtube
+      - 罗马 顺丰资源Youtube 2
+      - 顺丰资源Youtube 3
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 顺丰资源Youtube
+      - 老杨爱分享
+      - 老杨爱分享 2
+      - 老杨爱分享 3
+      - 罗马 顺丰资源Youtube 3
+      - 🇺🇸 github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 7
+      - 🇺🇸 美国 3
       - Pool_ | 8.76Mb
-      - bulink 网友分享线路 6 移动
+      - 老杨爱分享 4
+      - 罗马 顺丰资源Youtube 4
+      - 老杨爱分享YouTube频道 2
+      - Pool_ |13.47Mb
+      - 罗马 顺丰资源Youtube 5
+      - 罗马 顺丰资源Youtube 6
+      - 老杨爱分享 5
+      - 老杨爱分享YouTube频道 3
+      - 罗马 顺丰资源Youtube 7
+      - 老杨爱分享 6
+      - 顺丰资源Youtube 4
       - 🇷🇴 罗马尼亚
-      - 🇷🇴 罗马尼亚 2
+      - 老杨爱分享YouTube频道 4
+      - 老杨爱分享YouTube频道 5
+      - 罗马 顺丰资源Youtube 8
       - Pool__567 | 3.39Mb
-      - 🇺🇸 美国 6
-      - 🇺🇸 US_2805
+      - 老杨爱分享YouTube频道 6
+      - 老杨爱分享 7
+      - 🇷🇴 罗马尼亚 2
+      - 罗马 顺丰资源Youtube 9
+      - 罗马 顺丰资源Youtube 10
+      - 罗马 顺丰资源Youtube 11
+      - 老杨爱分享YouTube频道 7
+      - 🇺🇸 美国 顺丰资源Youtube 2
+      - 🇺🇸 美国 4
+      - 顺丰资源Youtube 5
+      - 🇺🇸 美国 5
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港
       - 🇨🇳 台湾
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港
-      - 🇨🇳 heroepvcntip
-      - 🇰🇷 韩国
-      - 🇺🇸 美国
-      - bulink 网友分享线路 14 三网
-      - 🇰🇷 韩国 2
-      - KingFu景福@YouTuBe请订阅
-      - 🇨🇳 台湾
-      - 🇳🇱 荷兰
-      - 🇭🇰 香港 2
-      - 🇳🇱 荷兰 2
-      - 🇺🇸 美国 2
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 1
       - 🇨🇳 heroepvcnt
-      - https://www.mattkaydiary.com|Relay_ | 6.37Mb
-      - 🇰🇷 韩国 3
-      - bulink 网友分享线路 1 三网
-      - 🇭🇰 香港 3
-      - 🇰🇷 韩国 4
-      - 🇺🇸 美国 3
+      - 顺丰资源Youtube
+      - 🇨🇳 台湾
+      - bulink 网友分享线路 14 三网
+      - KingFu景福@YouTuBe请订阅
+      - 🇳🇱 荷兰
+      - 🇨🇳 heroepvcntip
       - 🇨🇳 epvincnt
+      - 顺丰资源Youtube 2
+      - 🇺🇸 github.com/freefq - 美国  4
+      - bulink 网友分享线路 1 三网
+      - bulink 网友分享线路 6 移动
+      - 🇺🇸 美国
       - 🇨🇳 https://www.mattkaydiary.com|🇨🇳 CN_833
       - Relay_ | 7.13Mb
-      - 🇯🇵 日本
-      - Pool_ |13.47Mb
-      - 🇰🇷 韩国 5
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
+      - 老杨爱分享YouTube频道
+      - 罗马 顺丰资源Youtube
+      - 罗马 顺丰资源Youtube 2
+      - 顺丰资源Youtube 3
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 顺丰资源Youtube
+      - 老杨爱分享
+      - 老杨爱分享 2
+      - 老杨爱分享 3
+      - 罗马 顺丰资源Youtube 3
+      - 🇺🇸 github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 7
+      - 🇺🇸 美国 3
       - Pool_ | 8.76Mb
-      - bulink 网友分享线路 6 移动
+      - 老杨爱分享 4
+      - 罗马 顺丰资源Youtube 4
+      - 老杨爱分享YouTube频道 2
+      - Pool_ |13.47Mb
+      - 罗马 顺丰资源Youtube 5
+      - 罗马 顺丰资源Youtube 6
+      - 老杨爱分享 5
+      - 老杨爱分享YouTube频道 3
+      - 罗马 顺丰资源Youtube 7
+      - 老杨爱分享 6
+      - 顺丰资源Youtube 4
       - 🇷🇴 罗马尼亚
-      - 🇷🇴 罗马尼亚 2
+      - 老杨爱分享YouTube频道 4
+      - 老杨爱分享YouTube频道 5
+      - 罗马 顺丰资源Youtube 8
       - Pool__567 | 3.39Mb
-      - 🇺🇸 美国 6
-      - 🇺🇸 US_2805
+      - 老杨爱分享YouTube频道 6
+      - 老杨爱分享 7
+      - 🇷🇴 罗马尼亚 2
+      - 罗马 顺丰资源Youtube 9
+      - 罗马 顺丰资源Youtube 10
+      - 罗马 顺丰资源Youtube 11
+      - 老杨爱分享YouTube频道 7
+      - 🇺🇸 美国 顺丰资源Youtube 2
+      - 🇺🇸 美国 4
+      - 顺丰资源Youtube 5
+      - 🇺🇸 美国 5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港
-      - 🇨🇳 heroepvcntip
-      - 🇰🇷 韩国
-      - 🇺🇸 美国
-      - bulink 网友分享线路 14 三网
-      - 🇰🇷 韩国 2
-      - KingFu景福@YouTuBe请订阅
-      - 🇨🇳 台湾
-      - 🇳🇱 荷兰
-      - 🇭🇰 香港 2
-      - 🇳🇱 荷兰 2
-      - 🇺🇸 美国 2
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 1
       - 🇨🇳 heroepvcnt
-      - https://www.mattkaydiary.com|Relay_ | 6.37Mb
-      - 🇰🇷 韩国 3
-      - bulink 网友分享线路 1 三网
-      - 🇭🇰 香港 3
-      - 🇰🇷 韩国 4
-      - 🇺🇸 美国 3
+      - 顺丰资源Youtube
+      - 🇨🇳 台湾
+      - bulink 网友分享线路 14 三网
+      - KingFu景福@YouTuBe请订阅
+      - 🇳🇱 荷兰
+      - 🇨🇳 heroepvcntip
       - 🇨🇳 epvincnt
+      - 顺丰资源Youtube 2
+      - 🇺🇸 github.com/freefq - 美国  4
+      - bulink 网友分享线路 1 三网
+      - bulink 网友分享线路 6 移动
+      - 🇺🇸 美国
       - 🇨🇳 https://www.mattkaydiary.com|🇨🇳 CN_833
       - Relay_ | 7.13Mb
-      - 🇯🇵 日本
-      - Pool_ |13.47Mb
-      - 🇰🇷 韩国 5
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
+      - 老杨爱分享YouTube频道
+      - 罗马 顺丰资源Youtube
+      - 罗马 顺丰资源Youtube 2
+      - 顺丰资源Youtube 3
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 顺丰资源Youtube
+      - 老杨爱分享
+      - 老杨爱分享 2
+      - 老杨爱分享 3
+      - 罗马 顺丰资源Youtube 3
+      - 🇺🇸 github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 7
+      - 🇺🇸 美国 3
       - Pool_ | 8.76Mb
-      - bulink 网友分享线路 6 移动
+      - 老杨爱分享 4
+      - 罗马 顺丰资源Youtube 4
+      - 老杨爱分享YouTube频道 2
+      - Pool_ |13.47Mb
+      - 罗马 顺丰资源Youtube 5
+      - 罗马 顺丰资源Youtube 6
+      - 老杨爱分享 5
+      - 老杨爱分享YouTube频道 3
+      - 罗马 顺丰资源Youtube 7
+      - 老杨爱分享 6
+      - 顺丰资源Youtube 4
       - 🇷🇴 罗马尼亚
-      - 🇷🇴 罗马尼亚 2
+      - 老杨爱分享YouTube频道 4
+      - 老杨爱分享YouTube频道 5
+      - 罗马 顺丰资源Youtube 8
       - Pool__567 | 3.39Mb
-      - 🇺🇸 美国 6
-      - 🇺🇸 US_2805
+      - 老杨爱分享YouTube频道 6
+      - 老杨爱分享 7
+      - 🇷🇴 罗马尼亚 2
+      - 罗马 顺丰资源Youtube 9
+      - 罗马 顺丰资源Youtube 10
+      - 罗马 顺丰资源Youtube 11
+      - 老杨爱分享YouTube频道 7
+      - 🇺🇸 美国 顺丰资源Youtube 2
+      - 🇺🇸 美国 4
+      - 顺丰资源Youtube 5
+      - 🇺🇸 美国 5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港
-      - 🇨🇳 heroepvcntip
-      - 🇰🇷 韩国
-      - 🇺🇸 美国
-      - bulink 网友分享线路 14 三网
-      - 🇰🇷 韩国 2
-      - KingFu景福@YouTuBe请订阅
-      - 🇨🇳 台湾
-      - 🇳🇱 荷兰
-      - 🇭🇰 香港 2
-      - 🇳🇱 荷兰 2
-      - 🇺🇸 美国 2
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 1
       - 🇨🇳 heroepvcnt
-      - https://www.mattkaydiary.com|Relay_ | 6.37Mb
-      - 🇰🇷 韩国 3
-      - bulink 网友分享线路 1 三网
-      - 🇭🇰 香港 3
-      - 🇰🇷 韩国 4
-      - 🇺🇸 美国 3
+      - 顺丰资源Youtube
+      - 🇨🇳 台湾
+      - bulink 网友分享线路 14 三网
+      - KingFu景福@YouTuBe请订阅
+      - 🇳🇱 荷兰
+      - 🇨🇳 heroepvcntip
       - 🇨🇳 epvincnt
+      - 顺丰资源Youtube 2
+      - 🇺🇸 github.com/freefq - 美国  4
+      - bulink 网友分享线路 1 三网
+      - bulink 网友分享线路 6 移动
+      - 🇺🇸 美国
       - 🇨🇳 https://www.mattkaydiary.com|🇨🇳 CN_833
       - Relay_ | 7.13Mb
-      - 🇯🇵 日本
-      - Pool_ |13.47Mb
-      - 🇰🇷 韩国 5
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
+      - 老杨爱分享YouTube频道
+      - 罗马 顺丰资源Youtube
+      - 罗马 顺丰资源Youtube 2
+      - 顺丰资源Youtube 3
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 顺丰资源Youtube
+      - 老杨爱分享
+      - 老杨爱分享 2
+      - 老杨爱分享 3
+      - 罗马 顺丰资源Youtube 3
+      - 🇺🇸 github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 7
+      - 🇺🇸 美国 3
       - Pool_ | 8.76Mb
-      - bulink 网友分享线路 6 移动
+      - 老杨爱分享 4
+      - 罗马 顺丰资源Youtube 4
+      - 老杨爱分享YouTube频道 2
+      - Pool_ |13.47Mb
+      - 罗马 顺丰资源Youtube 5
+      - 罗马 顺丰资源Youtube 6
+      - 老杨爱分享 5
+      - 老杨爱分享YouTube频道 3
+      - 罗马 顺丰资源Youtube 7
+      - 老杨爱分享 6
+      - 顺丰资源Youtube 4
       - 🇷🇴 罗马尼亚
-      - 🇷🇴 罗马尼亚 2
+      - 老杨爱分享YouTube频道 4
+      - 老杨爱分享YouTube频道 5
+      - 罗马 顺丰资源Youtube 8
       - Pool__567 | 3.39Mb
-      - 🇺🇸 美国 6
-      - 🇺🇸 US_2805
+      - 老杨爱分享YouTube频道 6
+      - 老杨爱分享 7
+      - 🇷🇴 罗马尼亚 2
+      - 罗马 顺丰资源Youtube 9
+      - 罗马 顺丰资源Youtube 10
+      - 罗马 顺丰资源Youtube 11
+      - 老杨爱分享YouTube频道 7
+      - 🇺🇸 美国 顺丰资源Youtube 2
+      - 🇺🇸 美国 4
+      - 顺丰资源Youtube 5
+      - 🇺🇸 美国 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -300,40 +451,62 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港
-      - 🇨🇳 heroepvcntip
-      - 🇰🇷 韩国
-      - 🇺🇸 美国
-      - bulink 网友分享线路 14 三网
-      - 🇰🇷 韩国 2
-      - KingFu景福@YouTuBe请订阅
-      - 🇨🇳 台湾
-      - 🇳🇱 荷兰
-      - 🇭🇰 香港 2
-      - 🇳🇱 荷兰 2
-      - 🇺🇸 美国 2
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 1
       - 🇨🇳 heroepvcnt
-      - https://www.mattkaydiary.com|Relay_ | 6.37Mb
-      - 🇰🇷 韩国 3
-      - bulink 网友分享线路 1 三网
-      - 🇭🇰 香港 3
-      - 🇰🇷 韩国 4
-      - 🇺🇸 美国 3
+      - 顺丰资源Youtube
+      - 🇨🇳 台湾
+      - bulink 网友分享线路 14 三网
+      - KingFu景福@YouTuBe请订阅
+      - 🇳🇱 荷兰
+      - 🇨🇳 heroepvcntip
       - 🇨🇳 epvincnt
+      - 顺丰资源Youtube 2
+      - 🇺🇸 github.com/freefq - 美国  4
+      - bulink 网友分享线路 1 三网
+      - bulink 网友分享线路 6 移动
+      - 🇺🇸 美国
       - 🇨🇳 https://www.mattkaydiary.com|🇨🇳 CN_833
       - Relay_ | 7.13Mb
-      - 🇯🇵 日本
-      - Pool_ |13.47Mb
-      - 🇰🇷 韩国 5
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
+      - 老杨爱分享YouTube频道
+      - 罗马 顺丰资源Youtube
+      - 罗马 顺丰资源Youtube 2
+      - 顺丰资源Youtube 3
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 顺丰资源Youtube
+      - 老杨爱分享
+      - 老杨爱分享 2
+      - 老杨爱分享 3
+      - 罗马 顺丰资源Youtube 3
+      - 🇺🇸 github.com/freefq - 美国亚利桑那州马里科帕县菲尼克斯市Nobis技术集团有限公司 7
+      - 🇺🇸 美国 3
       - Pool_ | 8.76Mb
-      - bulink 网友分享线路 6 移动
+      - 老杨爱分享 4
+      - 罗马 顺丰资源Youtube 4
+      - 老杨爱分享YouTube频道 2
+      - Pool_ |13.47Mb
+      - 罗马 顺丰资源Youtube 5
+      - 罗马 顺丰资源Youtube 6
+      - 老杨爱分享 5
+      - 老杨爱分享YouTube频道 3
+      - 罗马 顺丰资源Youtube 7
+      - 老杨爱分享 6
+      - 顺丰资源Youtube 4
       - 🇷🇴 罗马尼亚
-      - 🇷🇴 罗马尼亚 2
+      - 老杨爱分享YouTube频道 4
+      - 老杨爱分享YouTube频道 5
+      - 罗马 顺丰资源Youtube 8
       - Pool__567 | 3.39Mb
-      - 🇺🇸 美国 6
-      - 🇺🇸 US_2805
+      - 老杨爱分享YouTube频道 6
+      - 老杨爱分享 7
+      - 🇷🇴 罗马尼亚 2
+      - 罗马 顺丰资源Youtube 9
+      - 罗马 顺丰资源Youtube 10
+      - 罗马 顺丰资源Youtube 11
+      - 老杨爱分享YouTube频道 7
+      - 🇺🇸 美国 顺丰资源Youtube 2
+      - 🇺🇸 美国 4
+      - 顺丰资源Youtube 5
+      - 🇺🇸 美国 5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
