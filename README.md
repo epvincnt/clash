@@ -5,356 +5,157 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: t.me/samuraivpn, server: 13.70.28.145, port: 34323, type: vmess, uuid: 5a2056b9-61c5-4737-b153-b2775ec8bad9, alterId: 64, cipher: auto, tls: false}
-  - {name: adsad, server: 54.215.234.182, port: 14924, type: vmess, uuid: d099824d-8259-4c45-f6ab-c1896f741393, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港, server: anycast01.v2cy.com, port: 80, type: vmess, uuid: 586fb889-61ee-42d9-b374-c1440b0a0664, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dn-pd2hiel8.cn2.run.gxu.edu.cn}}
-  - {name: 🇮🇹 意大利, server: 82.102.26.117, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇨🇳 epvincnt, server: 129.146.83.67, port: 47501, type: vmess, uuid: 8843ed45-909a-4f7f-bab5-c584ecab433f, alterId: 0, cipher: auto, tls: false}
-  - {name: 顺丰资源Youtube, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 顺丰资源Youtube 2, server: 82.102.26.117, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: KingFu景福@YouTuBe请订阅, server: 178.239.172.111, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 3432, server: 138.201.150.52, port: 33957, type: vmess, uuid: 89cee221-b06c-46c5-f0d7-4fd3f4740b97, alterId: 64, cipher: auto, tls: false}
-  - {name: bulink 网友分享线路 1 三网, server: la1.bulink.xyz.apkook.com, port: 443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
-  - {name: KingFu景福@YouTuBe请订阅 2, server: 103.108.117.118, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇳🇱 荷兰, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: bulink 网友分享线路 6 移动, server: nj1.bulink.xyz.fobzs.com, port: 443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国, server: euserv12p.ezddns.tk, port: 80, type: vmess, uuid: c0304bc1-f8ff-4108-9bc6-3415d16ae5e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv12p.ezddns.tk}}
-  - {name: 顺丰资源Youtube 3, server: 207.244.67.149, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇭🇰 香港 2, server: a83679f.ga.gladns.com, port: 3204, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /t, ws-headers: {Host: a83679f.ga.gladns.com}}
-  - {name: 🇭🇰 香港 3, server: wtt.tcpbbr.net, port: 443, type: vmess, uuid: a3b1e970-8696-11eb-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: true}
-  - {name: 🇸🇬 新加坡, server: a83679f.ga.gladns.com, port: 3205, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /t, ws-headers: {Host: a83679f.ga.gladns.com}}
-  - {name: 🇺🇸 美国 2, server: euserv5p.ezddns.tk, port: 80, type: vmess, uuid: 60b738e2-3aa4-4cde-c270-20f8cc1ab16a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv5p.ezddns.tk}}
-  - {name: bulink 网友分享线路 14 三网, server: or1.bulink.xyz.apkook.com, port: 8443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 heroepvcnt, server: 104.18.231.9, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: little-dawn-3747.epvincnt.workers.dev}}
-  - {name: 🇺🇸 美国 3, server: euserv17p.ezddns.tk, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
-  - {name: KingFu景福@YouTuBe请订阅 3, server: euserv4p.ezddns.tk, port: 443, type: vmess, uuid: d2da3dcb-b08a-4561-83de-b73e7b8c0288, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /stream, ws-headers: {Host: euserv4p.ezddns.tk}}
-  - {name: 克罗地亚, server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇸🇬 新加坡 2, server: a83679f.gd.gladns.com, port: 3205, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /t, ws-headers: {Host: a83679f.gd.gladns.com}}
-  - {name: 🇨🇳 heroepvcntip, server: 1.0.0.120, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: old-resonance-cedc.epvincnt.workers.dev}}
-  - {name: KingFu景福@YouTuBe请订阅 4, server: 91.90.123.115, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇭🇰 香港 4, server: a83679f.gd.gladns.com, port: 3204, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /t, ws-headers: {Host: a83679f.gd.gladns.com}}
-  - {name: 🇨🇳 https://www.mattkaydiary.com|🇨🇳 CN_833, server: 54.223.185.171, port: 8002, type: vmess, uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.185.171}}
-  - {name: KingFu景福@YouTuBe请订阅 5, server: 54.223.185.171, port: 8001, type: vmess, uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.185.171}}
-  - {name: KingFu景福@YouTuBe请订阅 6, server: 91.90.123.115, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: Pool_ |10.78Mb, server: 91.90.123.115, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: Relay_ | 7.13Mb, server: euserv10p.ezddns.tk, port: 80, type: vmess, uuid: 4323a38e-29dc-4c6d-f436-b15114e57a75, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.zip, ws-headers: {Host: euserv10p.ezddns.tk}}
-  - {name: 🇺🇸 美国 顺丰资源Youtube, server: euserv13p.ezddns.tk, port: 80, type: vmess, uuid: ced80260-a5b1-427b-db09-5a46b69ac9e2, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv13p.ezddns.tk}}
-  - {name: 老杨爱分享, server: 91.90.123.115, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 🇺🇸 美国 4, server: 23.225.28.174, port: 443, type: vmess, uuid: 5ac3d610-1802-491b-ab06-dad9bbd83ff1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.10855945.xyz}}
-  - {name: 罗马 顺丰资源Youtube, server: 91.90.123.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 顺丰资源Youtube 4, server: 91.90.123.115, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 老杨爱分享YouTube频道, server: 91.90.123.115, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 罗马 顺丰资源Youtube 2, server: 91.90.123.115, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 罗马 顺丰资源Youtube 3, server: 91.90.123.115, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇺🇸 美国 5, server: euserv18p.ezddns.tk, port: 80, type: vmess, uuid: 344c0b7d-2c35-4c95-8481-e2fc3c456a06, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.mp3, ws-headers: {Host: euserv18p.ezddns.tk}}
-  - {name: 顺丰资源Youtube 5, server: 91.90.123.115, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（） 23, server: 91.90.123.115, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇷🇺 github.com/freefq - 俄罗斯鞑靼斯坦喀山justhost 1, server: 46.17.44.190, port: 59032, type: vmess, uuid: 4b407687-513f-475e-aa76-71d5fb5149e4, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 2, server: 5.183.101.200, port: 35374, type: vmess, uuid: 62836733-0014-4014-e0e3-908eea2f3063, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 3, server: 23.225.28.172, port: 443, type: vmess, uuid: 5ac3d610-1802-491b-ab06-dad9bbd83ff1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.10855945.xyz}}
+  - {name: 🇺🇸 github.com/freefq - 美国  4, server: 135.125.207.34, port: 80, type: vmess, uuid: e2816152-6326-4cf9-aa95-34b0f9a8c666, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /sshocean, ws-headers: {Host: 135.125.207.34}}
+  - {name: 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 5, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: github.com/freefq - 波兰  6, server: 95.214.55.119, port: 16408, type: vmess, uuid: 4e49e7c6-b7cd-4c74-c022-2add80a19556, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 7, server: ac2077.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess, ws-headers: {Host: ac2077.herokuapp.com}}
+  - {name: 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 8, server: 54.223.185.171, port: 8001, type: vmess, uuid: bb511347-6ed5-475c-9ffe-ac7268fdf351, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: baidu.com}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9, server: anycast02.v2cy.com, port: 80, type: vmess, uuid: 586fb889-61ee-42d9-b374-c1440b0a0664, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dn-o0f42gbt.cn2.run.gxu.edu.cn}}
+  - {name: 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 10, server: 54.223.185.171, port: 8003, type: vmess, uuid: e854d8f1-f0f7-40fe-a77d-345cf7a78e05, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.185.171}}
+  - {name: 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 11, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
+  - {name: github.com/freefq - 欧洲  12, server: 154.16.108.85, port: 34820, type: vmess, uuid: 1cb0db86-04b2-4672-bf83-71125b274ba4, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 13, server: v2.linn.ink, port: 30070, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
+  - {name: 🇮🇳 github.com/freefq - 印度  14, server: 137.59.52.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 15, server: 5.183.101.204, port: 59857, type: vmess, uuid: 4c35d374-dbf2-4e5f-c731-dfa49191825a, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 16, server: 13.228.29.76, port: 3360, type: vmess, uuid: d9fcc8c6-7795-3f0e-8398-cf2fbc9bc5d6, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v34ioachelp, ws-headers: {Host: 13.228.29.76}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - t.me/samuraivpn
-      - adsad
-      - 🇭🇰 香港
-      - 🇮🇹 意大利
-      - 🇨🇳 epvincnt
-      - 顺丰资源Youtube
-      - 顺丰资源Youtube 2
-      - KingFu景福@YouTuBe请订阅
-      - 3432
-      - bulink 网友分享线路 1 三网
-      - KingFu景福@YouTuBe请订阅 2
-      - 🇳🇱 荷兰
-      - bulink 网友分享线路 6 移动
-      - 🇺🇸 美国
-      - 顺丰资源Youtube 3
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 2
-      - bulink 网友分享线路 14 三网
-      - 🇨🇳 heroepvcnt
-      - 🇺🇸 美国 3
-      - KingFu景福@YouTuBe请订阅 3
-      - 克罗地亚
-      - 🇸🇬 新加坡 2
-      - 🇨🇳 heroepvcntip
-      - KingFu景福@YouTuBe请订阅 4
-      - 🇭🇰 香港 4
-      - 🇨🇳 https://www.mattkaydiary.com|🇨🇳 CN_833
-      - KingFu景福@YouTuBe请订阅 5
-      - KingFu景福@YouTuBe请订阅 6
-      - Pool_ |10.78Mb
-      - Relay_ | 7.13Mb
-      - 🇺🇸 美国 顺丰资源Youtube
-      - 老杨爱分享
-      - 🇺🇸 美国 4
-      - 罗马 顺丰资源Youtube
-      - 顺丰资源Youtube 4
-      - 老杨爱分享YouTube频道
-      - 罗马 顺丰资源Youtube 2
-      - 罗马 顺丰资源Youtube 3
-      - 🇺🇸 美国 5
-      - 顺丰资源Youtube 5
-      - 🇷🇴 罗马尼亚 布加勒斯特（） 23
+      - 🇷🇺 github.com/freefq - 俄罗斯鞑靼斯坦喀山justhost 1
+      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 2
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 3
+      - 🇺🇸 github.com/freefq - 美国  4
+      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 5
+      - github.com/freefq - 波兰  6
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 7
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 8
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 10
+      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 11
+      - github.com/freefq - 欧洲  12
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 13
+      - 🇮🇳 github.com/freefq - 印度  14
+      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 15
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 16
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - t.me/samuraivpn
-      - adsad
-      - 🇭🇰 香港
-      - 🇮🇹 意大利
-      - 🇨🇳 epvincnt
-      - 顺丰资源Youtube
-      - 顺丰资源Youtube 2
-      - KingFu景福@YouTuBe请订阅
-      - 3432
-      - bulink 网友分享线路 1 三网
-      - KingFu景福@YouTuBe请订阅 2
-      - 🇳🇱 荷兰
-      - bulink 网友分享线路 6 移动
-      - 🇺🇸 美国
-      - 顺丰资源Youtube 3
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 2
-      - bulink 网友分享线路 14 三网
-      - 🇨🇳 heroepvcnt
-      - 🇺🇸 美国 3
-      - KingFu景福@YouTuBe请订阅 3
-      - 克罗地亚
-      - 🇸🇬 新加坡 2
-      - 🇨🇳 heroepvcntip
-      - KingFu景福@YouTuBe请订阅 4
-      - 🇭🇰 香港 4
-      - 🇨🇳 https://www.mattkaydiary.com|🇨🇳 CN_833
-      - KingFu景福@YouTuBe请订阅 5
-      - KingFu景福@YouTuBe请订阅 6
-      - Pool_ |10.78Mb
-      - Relay_ | 7.13Mb
-      - 🇺🇸 美国 顺丰资源Youtube
-      - 老杨爱分享
-      - 🇺🇸 美国 4
-      - 罗马 顺丰资源Youtube
-      - 顺丰资源Youtube 4
-      - 老杨爱分享YouTube频道
-      - 罗马 顺丰资源Youtube 2
-      - 罗马 顺丰资源Youtube 3
-      - 🇺🇸 美国 5
-      - 顺丰资源Youtube 5
-      - 🇷🇴 罗马尼亚 布加勒斯特（） 23
+      - 🇷🇺 github.com/freefq - 俄罗斯鞑靼斯坦喀山justhost 1
+      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 2
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 3
+      - 🇺🇸 github.com/freefq - 美国  4
+      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 5
+      - github.com/freefq - 波兰  6
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 7
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 8
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 10
+      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 11
+      - github.com/freefq - 欧洲  12
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 13
+      - 🇮🇳 github.com/freefq - 印度  14
+      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 15
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 16
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - t.me/samuraivpn
-      - adsad
-      - 🇭🇰 香港
-      - 🇮🇹 意大利
-      - 🇨🇳 epvincnt
-      - 顺丰资源Youtube
-      - 顺丰资源Youtube 2
-      - KingFu景福@YouTuBe请订阅
-      - 3432
-      - bulink 网友分享线路 1 三网
-      - KingFu景福@YouTuBe请订阅 2
-      - 🇳🇱 荷兰
-      - bulink 网友分享线路 6 移动
-      - 🇺🇸 美国
-      - 顺丰资源Youtube 3
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 2
-      - bulink 网友分享线路 14 三网
-      - 🇨🇳 heroepvcnt
-      - 🇺🇸 美国 3
-      - KingFu景福@YouTuBe请订阅 3
-      - 克罗地亚
-      - 🇸🇬 新加坡 2
-      - 🇨🇳 heroepvcntip
-      - KingFu景福@YouTuBe请订阅 4
-      - 🇭🇰 香港 4
-      - 🇨🇳 https://www.mattkaydiary.com|🇨🇳 CN_833
-      - KingFu景福@YouTuBe请订阅 5
-      - KingFu景福@YouTuBe请订阅 6
-      - Pool_ |10.78Mb
-      - Relay_ | 7.13Mb
-      - 🇺🇸 美国 顺丰资源Youtube
-      - 老杨爱分享
-      - 🇺🇸 美国 4
-      - 罗马 顺丰资源Youtube
-      - 顺丰资源Youtube 4
-      - 老杨爱分享YouTube频道
-      - 罗马 顺丰资源Youtube 2
-      - 罗马 顺丰资源Youtube 3
-      - 🇺🇸 美国 5
-      - 顺丰资源Youtube 5
-      - 🇷🇴 罗马尼亚 布加勒斯特（） 23
+      - 🇷🇺 github.com/freefq - 俄罗斯鞑靼斯坦喀山justhost 1
+      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 2
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 3
+      - 🇺🇸 github.com/freefq - 美国  4
+      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 5
+      - github.com/freefq - 波兰  6
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 7
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 8
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 10
+      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 11
+      - github.com/freefq - 欧洲  12
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 13
+      - 🇮🇳 github.com/freefq - 印度  14
+      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 15
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 16
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
+      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 11
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - t.me/samuraivpn
-      - adsad
-      - 🇭🇰 香港
-      - 🇮🇹 意大利
-      - 🇨🇳 epvincnt
-      - 顺丰资源Youtube
-      - 顺丰资源Youtube 2
-      - KingFu景福@YouTuBe请订阅
-      - 3432
-      - bulink 网友分享线路 1 三网
-      - KingFu景福@YouTuBe请订阅 2
-      - 🇳🇱 荷兰
-      - bulink 网友分享线路 6 移动
-      - 🇺🇸 美国
-      - 顺丰资源Youtube 3
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 2
-      - bulink 网友分享线路 14 三网
-      - 🇨🇳 heroepvcnt
-      - 🇺🇸 美国 3
-      - KingFu景福@YouTuBe请订阅 3
-      - 克罗地亚
-      - 🇸🇬 新加坡 2
-      - 🇨🇳 heroepvcntip
-      - KingFu景福@YouTuBe请订阅 4
-      - 🇭🇰 香港 4
-      - 🇨🇳 https://www.mattkaydiary.com|🇨🇳 CN_833
-      - KingFu景福@YouTuBe请订阅 5
-      - KingFu景福@YouTuBe请订阅 6
-      - Pool_ |10.78Mb
-      - Relay_ | 7.13Mb
-      - 🇺🇸 美国 顺丰资源Youtube
-      - 老杨爱分享
-      - 🇺🇸 美国 4
-      - 罗马 顺丰资源Youtube
-      - 顺丰资源Youtube 4
-      - 老杨爱分享YouTube频道
-      - 罗马 顺丰资源Youtube 2
-      - 罗马 顺丰资源Youtube 3
-      - 🇺🇸 美国 5
-      - 顺丰资源Youtube 5
-      - 🇷🇴 罗马尼亚 布加勒斯特（） 23
+      - 🇷🇺 github.com/freefq - 俄罗斯鞑靼斯坦喀山justhost 1
+      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 2
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 3
+      - 🇺🇸 github.com/freefq - 美国  4
+      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 5
+      - github.com/freefq - 波兰  6
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 7
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 8
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 10
+      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 11
+      - github.com/freefq - 欧洲  12
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 13
+      - 🇮🇳 github.com/freefq - 印度  14
+      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 15
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 16
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - t.me/samuraivpn
-      - adsad
-      - 🇭🇰 香港
-      - 🇮🇹 意大利
-      - 🇨🇳 epvincnt
-      - 顺丰资源Youtube
-      - 顺丰资源Youtube 2
-      - KingFu景福@YouTuBe请订阅
-      - 3432
-      - bulink 网友分享线路 1 三网
-      - KingFu景福@YouTuBe请订阅 2
-      - 🇳🇱 荷兰
-      - bulink 网友分享线路 6 移动
-      - 🇺🇸 美国
-      - 顺丰资源Youtube 3
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 2
-      - bulink 网友分享线路 14 三网
-      - 🇨🇳 heroepvcnt
-      - 🇺🇸 美国 3
-      - KingFu景福@YouTuBe请订阅 3
-      - 克罗地亚
-      - 🇸🇬 新加坡 2
-      - 🇨🇳 heroepvcntip
-      - KingFu景福@YouTuBe请订阅 4
-      - 🇭🇰 香港 4
-      - 🇨🇳 https://www.mattkaydiary.com|🇨🇳 CN_833
-      - KingFu景福@YouTuBe请订阅 5
-      - KingFu景福@YouTuBe请订阅 6
-      - Pool_ |10.78Mb
-      - Relay_ | 7.13Mb
-      - 🇺🇸 美国 顺丰资源Youtube
-      - 老杨爱分享
-      - 🇺🇸 美国 4
-      - 罗马 顺丰资源Youtube
-      - 顺丰资源Youtube 4
-      - 老杨爱分享YouTube频道
-      - 罗马 顺丰资源Youtube 2
-      - 罗马 顺丰资源Youtube 3
-      - 🇺🇸 美国 5
-      - 顺丰资源Youtube 5
-      - 🇷🇴 罗马尼亚 布加勒斯特（） 23
+      - 🇷🇺 github.com/freefq - 俄罗斯鞑靼斯坦喀山justhost 1
+      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 2
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 3
+      - 🇺🇸 github.com/freefq - 美国  4
+      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 5
+      - github.com/freefq - 波兰  6
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 7
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 8
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 10
+      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 11
+      - github.com/freefq - 欧洲  12
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 13
+      - 🇮🇳 github.com/freefq - 印度  14
+      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 15
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 16
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - t.me/samuraivpn
-      - adsad
-      - 🇭🇰 香港
-      - 🇮🇹 意大利
-      - 🇨🇳 epvincnt
-      - 顺丰资源Youtube
-      - 顺丰资源Youtube 2
-      - KingFu景福@YouTuBe请订阅
-      - 3432
-      - bulink 网友分享线路 1 三网
-      - KingFu景福@YouTuBe请订阅 2
-      - 🇳🇱 荷兰
-      - bulink 网友分享线路 6 移动
-      - 🇺🇸 美国
-      - 顺丰资源Youtube 3
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 2
-      - bulink 网友分享线路 14 三网
-      - 🇨🇳 heroepvcnt
-      - 🇺🇸 美国 3
-      - KingFu景福@YouTuBe请订阅 3
-      - 克罗地亚
-      - 🇸🇬 新加坡 2
-      - 🇨🇳 heroepvcntip
-      - KingFu景福@YouTuBe请订阅 4
-      - 🇭🇰 香港 4
-      - 🇨🇳 https://www.mattkaydiary.com|🇨🇳 CN_833
-      - KingFu景福@YouTuBe请订阅 5
-      - KingFu景福@YouTuBe请订阅 6
-      - Pool_ |10.78Mb
-      - Relay_ | 7.13Mb
-      - 🇺🇸 美国 顺丰资源Youtube
-      - 老杨爱分享
-      - 🇺🇸 美国 4
-      - 罗马 顺丰资源Youtube
-      - 顺丰资源Youtube 4
-      - 老杨爱分享YouTube频道
-      - 罗马 顺丰资源Youtube 2
-      - 罗马 顺丰资源Youtube 3
-      - 🇺🇸 美国 5
-      - 顺丰资源Youtube 5
-      - 🇷🇴 罗马尼亚 布加勒斯特（） 23
+      - 🇷🇺 github.com/freefq - 俄罗斯鞑靼斯坦喀山justhost 1
+      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 2
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 3
+      - 🇺🇸 github.com/freefq - 美国  4
+      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 5
+      - github.com/freefq - 波兰  6
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 7
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 8
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 10
+      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 11
+      - github.com/freefq - 欧洲  12
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 13
+      - 🇮🇳 github.com/freefq - 印度  14
+      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 15
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 16
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -370,50 +171,22 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - t.me/samuraivpn
-      - adsad
-      - 🇭🇰 香港
-      - 🇮🇹 意大利
-      - 🇨🇳 epvincnt
-      - 顺丰资源Youtube
-      - 顺丰资源Youtube 2
-      - KingFu景福@YouTuBe请订阅
-      - 3432
-      - bulink 网友分享线路 1 三网
-      - KingFu景福@YouTuBe请订阅 2
-      - 🇳🇱 荷兰
-      - bulink 网友分享线路 6 移动
-      - 🇺🇸 美国
-      - 顺丰资源Youtube 3
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 2
-      - bulink 网友分享线路 14 三网
-      - 🇨🇳 heroepvcnt
-      - 🇺🇸 美国 3
-      - KingFu景福@YouTuBe请订阅 3
-      - 克罗地亚
-      - 🇸🇬 新加坡 2
-      - 🇨🇳 heroepvcntip
-      - KingFu景福@YouTuBe请订阅 4
-      - 🇭🇰 香港 4
-      - 🇨🇳 https://www.mattkaydiary.com|🇨🇳 CN_833
-      - KingFu景福@YouTuBe请订阅 5
-      - KingFu景福@YouTuBe请订阅 6
-      - Pool_ |10.78Mb
-      - Relay_ | 7.13Mb
-      - 🇺🇸 美国 顺丰资源Youtube
-      - 老杨爱分享
-      - 🇺🇸 美国 4
-      - 罗马 顺丰资源Youtube
-      - 顺丰资源Youtube 4
-      - 老杨爱分享YouTube频道
-      - 罗马 顺丰资源Youtube 2
-      - 罗马 顺丰资源Youtube 3
-      - 🇺🇸 美国 5
-      - 顺丰资源Youtube 5
-      - 🇷🇴 罗马尼亚 布加勒斯特（） 23
+      - 🇷🇺 github.com/freefq - 俄罗斯鞑靼斯坦喀山justhost 1
+      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 2
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 3
+      - 🇺🇸 github.com/freefq - 美国  4
+      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 5
+      - github.com/freefq - 波兰  6
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 7
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 8
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 10
+      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 11
+      - github.com/freefq - 欧洲  12
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 13
+      - 🇮🇳 github.com/freefq - 印度  14
+      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 15
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 16
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
