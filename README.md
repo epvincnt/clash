@@ -14,21 +14,25 @@ proxies:
   - {name: 🇺🇸 m|🇺🇸 US_68, server: 104.17.21.243, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /y475, ws-headers: {Host: free.frli.xyz}}
   - {name: 🇨🇳 台湾, server: 82.102.26.117, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
   - {name: 🇩🇪 德国 2, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 美国洛杉矶, server: 154.17.2.112, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: N0KSFR6alSxjgp7T8Aa9Ce8DnCaAOYqz5lFZxe3O2I3uycYZXEDp3S34RyCDwB}
   - {name: 🇮🇪 爱尔兰, server: 172.64.67.46, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: icy-band-fd02.zjjcool.workers.dev}}
   - {name: 🇺🇸 美国🚀w 10, server: 143.244.60.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇺🇸 美国 3, server: 104.19.8.188, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: solitary-sound-6b44.zjjcool.workers.dev}}
   - {name: 🇺🇸 m|🇺🇸 US_60, server: 104.16.35.88, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /y475, ws-headers: {Host: free.frli.xyz}}
   - {name: 🇺🇸 g-美国CloudFlare公司CDN节点 11, server: 104.26.2.20, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /y475, ws-headers: {Host: free.frli.xyz}}
+  - {name: 🇨🇦 加拿大, server: dld04.xqkj.cloud, port: 1074, type: vmess, uuid: 194f9087-0bbe-4e03-9d25-4d87dfa577b7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dld04.xqkj.cloud}}
   - {name: 顺丰资源Youtube 7, server: 212.102.54.160, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
   - {name: 🇳🇱 荷兰, server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇨🇳 epvincnt, server: 129.146.83.67, port: 47501, type: vmess, uuid: 8843ed45-909a-4f7f-bab5-c584ecab433f, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 m|🇹🇼TW_3307, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
   - {name: 🇺🇸 m|🇺🇸 US_70, server: 104.19.110.34, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /y475, ws-headers: {Host: free.frli.xyz}}
   - {name: bulink 网友分享线路 1 三网, server: la1.bulink.xyz.apkook.com, port: 443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 印度, server: ind01.xqkj.cloud, port: 1051, type: vmess, uuid: 194f9087-0bbe-4e03-9d25-4d87dfa577b7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ind01.xqkj.cloud}}
   - {name: 🇺🇸 美国🚀w 13, server: 23.82.11.49, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇺🇸 美国🚀w 24, server: euserv17p.ezddns.tk, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
   - {name: 🇩🇪 德国 3, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
   - {name: w 22, server: 207.244.67.149, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇨🇳 台湾 2, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
   - {name: 顺丰资源Youtube 3, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
   - {name: 欧洲, server: 207.244.67.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇺🇸 美国 20, server: euserv12p.ezddns.tk, port: 80, type: vmess, uuid: c0304bc1-f8ff-4108-9bc6-3415d16ae5e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv12p.ezddns.tk}}
@@ -41,25 +45,27 @@ proxies:
   - {name: 🇺🇸 美国 5, server: euserv4p.ezddns.tk, port: 443, type: vmess, uuid: d2da3dcb-b08a-4561-83de-b73e7b8c0288, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /stream, ws-headers: {Host: euserv4p.ezddns.tk}}
   - {name: YouTube-阿伟科技 2, server: tchk3.fxyjs.xyz, port: 23656, type: vmess, uuid: 6ed571d1-4869-4212-8f25-1748cb6067a3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /v1, ws-headers: {Host: meeting.speednetwork.xyz}}
   - {name: 🇺🇸 美国 21, server: euserv4p.ezddns.tk, port: 443, type: vmess, uuid: d2da3dcb-b08a-4561-83de-b73e7b8c0288, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /stream, ws-headers: {Host: euserv4p.ezddns.tk}}
+  - {name: 🇺🇸 美国 6, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: 🇺🇸 美国洛杉矶 2, server: 154.17.1.245, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: 🇺🇸 m|🇺🇸 US_66, server: 104.25.52.187, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /y475, ws-headers: {Host: free.frli.xyz}}
-  - {name: 🇨🇳 台湾 2, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
   - {name: 罗马 顺丰资源Youtube 5, server: 91.90.123.115, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
   - {name: 🇷🇴 罗马尼亚 2, server: 91.90.123.115, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
   - {name: 91.90.123.115:34815, server: 91.90.123.115, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
   - {name: 🇩🇪 德国((www)) 3, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇺🇸 美国 6, server: euserv12p.ezddns.tk, port: 80, type: vmess, uuid: c0304bc1-f8ff-4108-9bc6-3415d16ae5e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv12p.ezddns.tk}}
-  - {name: 🇺🇸 美国 7, server: euserv7p.ezddns.tk, port: 80, type: vmess, uuid: 0b5aeb7c-e477-484f-8999-61772c43b43c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv7p.ezddns.tk}}
+  - {name: 🇺🇸 美国 7, server: euserv12p.ezddns.tk, port: 80, type: vmess, uuid: c0304bc1-f8ff-4108-9bc6-3415d16ae5e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv12p.ezddns.tk}}
+  - {name: 🇺🇸 美国 8, server: euserv7p.ezddns.tk, port: 80, type: vmess, uuid: 0b5aeb7c-e477-484f-8999-61772c43b43c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv7p.ezddns.tk}}
   - {name: 91.90.123.115:33992, server: 91.90.123.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇷🇴 罗马尼亚, server: 91.90.123.115, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
   - {name: 91.90.123.115:49339, server: 91.90.123.115, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
   - {name: 🇫🇷 法国, server: bimbel.ruangguru.com, port: 80, type: vmess, uuid: b22b990f-b6dd-4b57-a0e1-ee3f829d413f, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /sshkit, ws-headers: {Host: eu-sshkit.v2-ray.cf}}
+  - {name: 🇺🇸 美国洛杉矶 3, server: 154.17.2.211, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: ZECSlaTZea5jFO736FA3Ry3DaXRA2qNx0pceYDzKCuYS8gl3B4p8InwyDCOSx9}
   - {name: 91.90.123.115:49126, server: 91.90.123.115, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
   - {name: 91.90.123.115:38742, server: 91.90.123.115, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
   - {name: 罗马 顺丰资源Youtube 9, server: 91.90.123.115, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
   - {name: 🇨🇳 台湾 3, server: 91.90.123.115, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
   - {name: YouTube-阿伟科技 3, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
   - {name: 🇺🇸 美国() 5, server: euserv13p.ezddns.tk, port: 80, type: vmess, uuid: ced80260-a5b1-427b-db09-5a46b69ac9e2, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv13p.ezddns.tk}}
-  - {name: 🇺🇸 美国 8, server: euserv17p.ezddns.tk, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
+  - {name: 🇺🇸 美国 9, server: euserv17p.ezddns.tk, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
   - {name: 🇺🇸 m|🇺🇸 US_63, server: 104.19.7.84, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /y475, ws-headers: {Host: free.frli.xyz}}
   - {name: 🇭🇰 香港 顺丰资源Youtube 13, server: 54.223.185.171, port: 8003, type: vmess, uuid: e854d8f1-f0f7-40fe-a77d-345cf7a78e05, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.185.171}}
   - {name: 🇭🇰 香港, server: 54.223.185.171, port: 8003, type: vmess, uuid: e854d8f1-f0f7-40fe-a77d-345cf7a78e05, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.185.171}}
@@ -79,21 +85,25 @@ proxy-groups:
       - 🇺🇸 m|🇺🇸 US_68
       - 🇨🇳 台湾
       - 🇩🇪 德国 2
+      - 🇺🇸 美国洛杉矶
       - 🇮🇪 爱尔兰
       - 🇺🇸 美国🚀w 10
       - 🇺🇸 美国 3
       - 🇺🇸 m|🇺🇸 US_60
       - 🇺🇸 g-美国CloudFlare公司CDN节点 11
+      - 🇨🇦 加拿大
       - 顺丰资源Youtube 7
       - 🇳🇱 荷兰
       - 🇨🇳 epvincnt
       - 🇨🇳 m|🇹🇼TW_3307
       - 🇺🇸 m|🇺🇸 US_70
       - bulink 网友分享线路 1 三网
+      - 🇮🇳 印度
       - 🇺🇸 美国🚀w 13
       - 🇺🇸 美国🚀w 24
       - 🇩🇪 德国 3
       - w 22
+      - 🇨🇳 台湾 2
       - 顺丰资源Youtube 3
       - 欧洲
       - 🇺🇸 美国 20
@@ -106,25 +116,27 @@ proxy-groups:
       - 🇺🇸 美国 5
       - YouTube-阿伟科技 2
       - 🇺🇸 美国 21
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国洛杉矶 2
       - 🇺🇸 m|🇺🇸 US_66
-      - 🇨🇳 台湾 2
       - 罗马 顺丰资源Youtube 5
       - 🇷🇴 罗马尼亚 2
       - 91.90.123.115:34815
       - 🇩🇪 德国((www)) 3
-      - 🇺🇸 美国 6
       - 🇺🇸 美国 7
+      - 🇺🇸 美国 8
       - 91.90.123.115:33992
       - 🇷🇴 罗马尼亚
       - 91.90.123.115:49339
       - 🇫🇷 法国
+      - 🇺🇸 美国洛杉矶 3
       - 91.90.123.115:49126
       - 91.90.123.115:38742
       - 罗马 顺丰资源Youtube 9
       - 🇨🇳 台湾 3
       - YouTube-阿伟科技 3
       - 🇺🇸 美国() 5
-      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
       - 🇺🇸 m|🇺🇸 US_63
       - 🇭🇰 香港 顺丰资源Youtube 13
       - 🇭🇰 香港
@@ -143,21 +155,25 @@ proxy-groups:
       - 🇺🇸 m|🇺🇸 US_68
       - 🇨🇳 台湾
       - 🇩🇪 德国 2
+      - 🇺🇸 美国洛杉矶
       - 🇮🇪 爱尔兰
       - 🇺🇸 美国🚀w 10
       - 🇺🇸 美国 3
       - 🇺🇸 m|🇺🇸 US_60
       - 🇺🇸 g-美国CloudFlare公司CDN节点 11
+      - 🇨🇦 加拿大
       - 顺丰资源Youtube 7
       - 🇳🇱 荷兰
       - 🇨🇳 epvincnt
       - 🇨🇳 m|🇹🇼TW_3307
       - 🇺🇸 m|🇺🇸 US_70
       - bulink 网友分享线路 1 三网
+      - 🇮🇳 印度
       - 🇺🇸 美国🚀w 13
       - 🇺🇸 美国🚀w 24
       - 🇩🇪 德国 3
       - w 22
+      - 🇨🇳 台湾 2
       - 顺丰资源Youtube 3
       - 欧洲
       - 🇺🇸 美国 20
@@ -170,25 +186,27 @@ proxy-groups:
       - 🇺🇸 美国 5
       - YouTube-阿伟科技 2
       - 🇺🇸 美国 21
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国洛杉矶 2
       - 🇺🇸 m|🇺🇸 US_66
-      - 🇨🇳 台湾 2
       - 罗马 顺丰资源Youtube 5
       - 🇷🇴 罗马尼亚 2
       - 91.90.123.115:34815
       - 🇩🇪 德国((www)) 3
-      - 🇺🇸 美国 6
       - 🇺🇸 美国 7
+      - 🇺🇸 美国 8
       - 91.90.123.115:33992
       - 🇷🇴 罗马尼亚
       - 91.90.123.115:49339
       - 🇫🇷 法国
+      - 🇺🇸 美国洛杉矶 3
       - 91.90.123.115:49126
       - 91.90.123.115:38742
       - 罗马 顺丰资源Youtube 9
       - 🇨🇳 台湾 3
       - YouTube-阿伟科技 3
       - 🇺🇸 美国() 5
-      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
       - 🇺🇸 m|🇺🇸 US_63
       - 🇭🇰 香港 顺丰资源Youtube 13
       - 🇭🇰 香港
@@ -208,21 +226,25 @@ proxy-groups:
       - 🇺🇸 m|🇺🇸 US_68
       - 🇨🇳 台湾
       - 🇩🇪 德国 2
+      - 🇺🇸 美国洛杉矶
       - 🇮🇪 爱尔兰
       - 🇺🇸 美国🚀w 10
       - 🇺🇸 美国 3
       - 🇺🇸 m|🇺🇸 US_60
       - 🇺🇸 g-美国CloudFlare公司CDN节点 11
+      - 🇨🇦 加拿大
       - 顺丰资源Youtube 7
       - 🇳🇱 荷兰
       - 🇨🇳 epvincnt
       - 🇨🇳 m|🇹🇼TW_3307
       - 🇺🇸 m|🇺🇸 US_70
       - bulink 网友分享线路 1 三网
+      - 🇮🇳 印度
       - 🇺🇸 美国🚀w 13
       - 🇺🇸 美国🚀w 24
       - 🇩🇪 德国 3
       - w 22
+      - 🇨🇳 台湾 2
       - 顺丰资源Youtube 3
       - 欧洲
       - 🇺🇸 美国 20
@@ -235,25 +257,27 @@ proxy-groups:
       - 🇺🇸 美国 5
       - YouTube-阿伟科技 2
       - 🇺🇸 美国 21
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国洛杉矶 2
       - 🇺🇸 m|🇺🇸 US_66
-      - 🇨🇳 台湾 2
       - 罗马 顺丰资源Youtube 5
       - 🇷🇴 罗马尼亚 2
       - 91.90.123.115:34815
       - 🇩🇪 德国((www)) 3
-      - 🇺🇸 美国 6
       - 🇺🇸 美国 7
+      - 🇺🇸 美国 8
       - 91.90.123.115:33992
       - 🇷🇴 罗马尼亚
       - 91.90.123.115:49339
       - 🇫🇷 法国
+      - 🇺🇸 美国洛杉矶 3
       - 91.90.123.115:49126
       - 91.90.123.115:38742
       - 罗马 顺丰资源Youtube 9
       - 🇨🇳 台湾 3
       - YouTube-阿伟科技 3
       - 🇺🇸 美国() 5
-      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
       - 🇺🇸 m|🇺🇸 US_63
       - 🇭🇰 香港 顺丰资源Youtube 13
       - 🇭🇰 香港
@@ -282,21 +306,25 @@ proxy-groups:
       - 🇺🇸 m|🇺🇸 US_68
       - 🇨🇳 台湾
       - 🇩🇪 德国 2
+      - 🇺🇸 美国洛杉矶
       - 🇮🇪 爱尔兰
       - 🇺🇸 美国🚀w 10
       - 🇺🇸 美国 3
       - 🇺🇸 m|🇺🇸 US_60
       - 🇺🇸 g-美国CloudFlare公司CDN节点 11
+      - 🇨🇦 加拿大
       - 顺丰资源Youtube 7
       - 🇳🇱 荷兰
       - 🇨🇳 epvincnt
       - 🇨🇳 m|🇹🇼TW_3307
       - 🇺🇸 m|🇺🇸 US_70
       - bulink 网友分享线路 1 三网
+      - 🇮🇳 印度
       - 🇺🇸 美国🚀w 13
       - 🇺🇸 美国🚀w 24
       - 🇩🇪 德国 3
       - w 22
+      - 🇨🇳 台湾 2
       - 顺丰资源Youtube 3
       - 欧洲
       - 🇺🇸 美国 20
@@ -309,25 +337,27 @@ proxy-groups:
       - 🇺🇸 美国 5
       - YouTube-阿伟科技 2
       - 🇺🇸 美国 21
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国洛杉矶 2
       - 🇺🇸 m|🇺🇸 US_66
-      - 🇨🇳 台湾 2
       - 罗马 顺丰资源Youtube 5
       - 🇷🇴 罗马尼亚 2
       - 91.90.123.115:34815
       - 🇩🇪 德国((www)) 3
-      - 🇺🇸 美国 6
       - 🇺🇸 美国 7
+      - 🇺🇸 美国 8
       - 91.90.123.115:33992
       - 🇷🇴 罗马尼亚
       - 91.90.123.115:49339
       - 🇫🇷 法国
+      - 🇺🇸 美国洛杉矶 3
       - 91.90.123.115:49126
       - 91.90.123.115:38742
       - 罗马 顺丰资源Youtube 9
       - 🇨🇳 台湾 3
       - YouTube-阿伟科技 3
       - 🇺🇸 美国() 5
-      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
       - 🇺🇸 m|🇺🇸 US_63
       - 🇭🇰 香港 顺丰资源Youtube 13
       - 🇭🇰 香港
@@ -346,21 +376,25 @@ proxy-groups:
       - 🇺🇸 m|🇺🇸 US_68
       - 🇨🇳 台湾
       - 🇩🇪 德国 2
+      - 🇺🇸 美国洛杉矶
       - 🇮🇪 爱尔兰
       - 🇺🇸 美国🚀w 10
       - 🇺🇸 美国 3
       - 🇺🇸 m|🇺🇸 US_60
       - 🇺🇸 g-美国CloudFlare公司CDN节点 11
+      - 🇨🇦 加拿大
       - 顺丰资源Youtube 7
       - 🇳🇱 荷兰
       - 🇨🇳 epvincnt
       - 🇨🇳 m|🇹🇼TW_3307
       - 🇺🇸 m|🇺🇸 US_70
       - bulink 网友分享线路 1 三网
+      - 🇮🇳 印度
       - 🇺🇸 美国🚀w 13
       - 🇺🇸 美国🚀w 24
       - 🇩🇪 德国 3
       - w 22
+      - 🇨🇳 台湾 2
       - 顺丰资源Youtube 3
       - 欧洲
       - 🇺🇸 美国 20
@@ -373,25 +407,27 @@ proxy-groups:
       - 🇺🇸 美国 5
       - YouTube-阿伟科技 2
       - 🇺🇸 美国 21
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国洛杉矶 2
       - 🇺🇸 m|🇺🇸 US_66
-      - 🇨🇳 台湾 2
       - 罗马 顺丰资源Youtube 5
       - 🇷🇴 罗马尼亚 2
       - 91.90.123.115:34815
       - 🇩🇪 德国((www)) 3
-      - 🇺🇸 美国 6
       - 🇺🇸 美国 7
+      - 🇺🇸 美国 8
       - 91.90.123.115:33992
       - 🇷🇴 罗马尼亚
       - 91.90.123.115:49339
       - 🇫🇷 法国
+      - 🇺🇸 美国洛杉矶 3
       - 91.90.123.115:49126
       - 91.90.123.115:38742
       - 罗马 顺丰资源Youtube 9
       - 🇨🇳 台湾 3
       - YouTube-阿伟科技 3
       - 🇺🇸 美国() 5
-      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
       - 🇺🇸 m|🇺🇸 US_63
       - 🇭🇰 香港 顺丰资源Youtube 13
       - 🇭🇰 香港
@@ -411,21 +447,25 @@ proxy-groups:
       - 🇺🇸 m|🇺🇸 US_68
       - 🇨🇳 台湾
       - 🇩🇪 德国 2
+      - 🇺🇸 美国洛杉矶
       - 🇮🇪 爱尔兰
       - 🇺🇸 美国🚀w 10
       - 🇺🇸 美国 3
       - 🇺🇸 m|🇺🇸 US_60
       - 🇺🇸 g-美国CloudFlare公司CDN节点 11
+      - 🇨🇦 加拿大
       - 顺丰资源Youtube 7
       - 🇳🇱 荷兰
       - 🇨🇳 epvincnt
       - 🇨🇳 m|🇹🇼TW_3307
       - 🇺🇸 m|🇺🇸 US_70
       - bulink 网友分享线路 1 三网
+      - 🇮🇳 印度
       - 🇺🇸 美国🚀w 13
       - 🇺🇸 美国🚀w 24
       - 🇩🇪 德国 3
       - w 22
+      - 🇨🇳 台湾 2
       - 顺丰资源Youtube 3
       - 欧洲
       - 🇺🇸 美国 20
@@ -438,25 +478,27 @@ proxy-groups:
       - 🇺🇸 美国 5
       - YouTube-阿伟科技 2
       - 🇺🇸 美国 21
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国洛杉矶 2
       - 🇺🇸 m|🇺🇸 US_66
-      - 🇨🇳 台湾 2
       - 罗马 顺丰资源Youtube 5
       - 🇷🇴 罗马尼亚 2
       - 91.90.123.115:34815
       - 🇩🇪 德国((www)) 3
-      - 🇺🇸 美国 6
       - 🇺🇸 美国 7
+      - 🇺🇸 美国 8
       - 91.90.123.115:33992
       - 🇷🇴 罗马尼亚
       - 91.90.123.115:49339
       - 🇫🇷 法国
+      - 🇺🇸 美国洛杉矶 3
       - 91.90.123.115:49126
       - 91.90.123.115:38742
       - 罗马 顺丰资源Youtube 9
       - 🇨🇳 台湾 3
       - YouTube-阿伟科技 3
       - 🇺🇸 美国() 5
-      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
       - 🇺🇸 m|🇺🇸 US_63
       - 🇭🇰 香港 顺丰资源Youtube 13
       - 🇭🇰 香港
@@ -485,21 +527,25 @@ proxy-groups:
       - 🇺🇸 m|🇺🇸 US_68
       - 🇨🇳 台湾
       - 🇩🇪 德国 2
+      - 🇺🇸 美国洛杉矶
       - 🇮🇪 爱尔兰
       - 🇺🇸 美国🚀w 10
       - 🇺🇸 美国 3
       - 🇺🇸 m|🇺🇸 US_60
       - 🇺🇸 g-美国CloudFlare公司CDN节点 11
+      - 🇨🇦 加拿大
       - 顺丰资源Youtube 7
       - 🇳🇱 荷兰
       - 🇨🇳 epvincnt
       - 🇨🇳 m|🇹🇼TW_3307
       - 🇺🇸 m|🇺🇸 US_70
       - bulink 网友分享线路 1 三网
+      - 🇮🇳 印度
       - 🇺🇸 美国🚀w 13
       - 🇺🇸 美国🚀w 24
       - 🇩🇪 德国 3
       - w 22
+      - 🇨🇳 台湾 2
       - 顺丰资源Youtube 3
       - 欧洲
       - 🇺🇸 美国 20
@@ -512,25 +558,27 @@ proxy-groups:
       - 🇺🇸 美国 5
       - YouTube-阿伟科技 2
       - 🇺🇸 美国 21
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国洛杉矶 2
       - 🇺🇸 m|🇺🇸 US_66
-      - 🇨🇳 台湾 2
       - 罗马 顺丰资源Youtube 5
       - 🇷🇴 罗马尼亚 2
       - 91.90.123.115:34815
       - 🇩🇪 德国((www)) 3
-      - 🇺🇸 美国 6
       - 🇺🇸 美国 7
+      - 🇺🇸 美国 8
       - 91.90.123.115:33992
       - 🇷🇴 罗马尼亚
       - 91.90.123.115:49339
       - 🇫🇷 法国
+      - 🇺🇸 美国洛杉矶 3
       - 91.90.123.115:49126
       - 91.90.123.115:38742
       - 罗马 顺丰资源Youtube 9
       - 🇨🇳 台湾 3
       - YouTube-阿伟科技 3
       - 🇺🇸 美国() 5
-      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
       - 🇺🇸 m|🇺🇸 US_63
       - 🇭🇰 香港 顺丰资源Youtube 13
       - 🇭🇰 香港
