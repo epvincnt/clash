@@ -5,340 +5,536 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 github.com/freefq - 美国  27, server: 66.115.175.37, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 19, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
-  - {name: 🇭🇰 github.com/freefq - 香港特别行政区 36, server: 154.208.10.121, port: 25561, type: vmess, uuid: aa8adc47-2f6c-32d9-9b54-75c3651826af, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇮🇹 意大利(欢迎订阅YouTube破解资源君), server: 82.102.26.117, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: isx.yt-02, server: v2us02.isxa.top, port: 443, type: vmess, uuid: 1bbc5290-00a9-4cf8-9671-88ada64f5f37, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: v2us02.isxa.top}}
-  - {name: 🇺🇸 github.com/freefq - 美国  15, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
-  - {name: 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 12, server: 82.102.26.117, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国(欢迎订阅YouTube破解资源君) 7, server: 198.147.22.87, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: 🇺🇸 美国(欢迎订阅YouTube破解资源君) 4, server: 195.47.194.42, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇺🇸 美国(欢迎订阅YouTube破解资源君) 5, server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: "", server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
-  - {name: " 2", server: 23.83.227.198, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国(欢迎订阅YouTube破解资源君) 3, server: 195.47.194.42, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 美国(欢迎订阅YouTube破解资源君) 2, server: 195.47.194.42, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: isx.yt-01, server: v2us01.isxa.top, port: 443, type: vmess, uuid: 5b12033f-7e28-4ff9-8e47-762064fffdea, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: v2us01.isxa.top}}
-  - {name: 🇳🇱 github.com/freefq - 荷兰  21, server: 46.182.107.25, port: 443, type: vmess, uuid: 0a1ab3bd-0431-4da8-ad8a-238367ce4efc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.11300814.xyz}}
-  - {name: 🇩🇪 github.com/freefq - 德国Hetzner 29, server: 138.201.150.52, port: 33957, type: vmess, uuid: 89cee221-b06c-46c5-f0d7-4fd3f4740b97, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 8, server: 82.102.26.117, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 10, server: 82.102.26.117, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇺🇸 美国(欢迎订阅YouTube破解资源君) 6, server: 198.147.22.87, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a, server: 18.162.169.34, port: 80, type: vmess, uuid: b36cafcc-17d0-3c7e-9a06-366041e395a4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /download/233yun/78xifnxlz11wd8p2vanmg25mvvp1n61vezexpq465goyjltxblxjjujfkrnj5dyl2wrfks3vvwz32ssxacvi9ujf1rkpp4cxant, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 2, server: 203.186.25.20, port: 80, type: vmess, uuid: b36cafcc-17d0-3c7e-9a06-366041e395a4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /download/233yun/78xifnxlz11wd8p2vanmg25mvvp1n61vezexpq465goyjltxblxjjujfkrnj5dyl2wrfks3vvwz32ssxacvi9ujf1rkpp4cxant, ws-headers: {Host: hk07.1.08x5u.node.233yun.in}}
+  - {name: 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.19.45.117, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇸🇬 kr2-29@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.23.24, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.23.24, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a-clone, server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
   - {name: 🇯🇵 日本(欢迎订阅YouTube破解资源君) 2, server: 54.223.185.171, port: 8002, type: vmess, uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.185.171}}
-  - {name: isx.yt-03, server: v2us03.isxa.top, port: 443, type: vmess, uuid: da0700de-e3b9-4f5c-86d5-da8cc7a11a83, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: v2us03.isxa.top}}
-  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 8, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
-  - {name: 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32, server: 54.223.185.171, port: 8001, type: vmess, uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.185.171}}
-  - {name: 🇺🇸 Relay_-🇺🇸US_1688, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
-  - {name: 🇷🇺 github.com/freefq - 俄罗斯  31, server: 194.87.48.153, port: 57411, type: vmess, uuid: edd2a9d7-e125-4228-bcbe-6f5d29470e24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34, server: 54.223.185.171, port: 8002, type: vmess, uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.185.171}}
-  - {name: github.com/freefq - 匈牙利  35, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323, server: 46.182.107.45, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}}
-  - {name: " 3", server: 96.43.91.58, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
-  - {name: 🇨🇳 heroepvcntip, server: 104.19.0.102, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: old-resonance-cedc.epvincnt.workers.dev}}
-  - {name: 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 17, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
-  - {name: 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312, server: 46.182.107.165, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.07890885.xyz}}
-  - {name: " 4", server: 13.57.246.196, port: 80, type: vmess, uuid: b36cafcc-17d0-3c7e-9a06-366041e395a4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /download/233yun/78xifnxlz11wd8p2vanmg25mvvp1n61vezexpq465goyjltxblxjjujfkrnj5dyl2wrfks3vvwz32ssxacvi9ujf1rkpp4cxant, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 🇺🇸 美国, server: 198.8.92.84, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 🇨🇳 epvincnt, server: 129.146.83.67, port: 47501, type: vmess, uuid: 8843ed45-909a-4f7f-bab5-c584ecab433f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 heroepvcnt, server: 104.19.0.102, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: little-dawn-3747.epvincnt.workers.dev}}
   - {name: 🇺🇸 美国 (Y) 2, server: 54.223.185.171, port: 8001, type: vmess, uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.185.171}}
-  - {name: "[free-ss.site]www.kernels.bid", server: www.kernels.bid, port: 80, type: vmess, uuid: d10fa221-2f49-ce96-f592-3e13f7b267dc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /ws, ws-headers: {Host: www.kernels.bid}}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 3, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 4, server: dreet.dfiiopopiwsdadsda.tk, port: 443, type: vmess, uuid: cdec276f-bb6c-4da2-972a-2174728ac2c5, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /c12a/, ws-headers: {Host: dreet.dfiiopopiwsdadsda.tk}}
+  - {name: 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32, server: 54.223.185.171, port: 8001, type: vmess, uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.185.171}}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 5, server: qdse.dfiiopopiwfefefsf.ml, port: 443, type: vmess, uuid: 9f0b20d5-5cf7-43f0-b9b0-af08057400f0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /3980cf6/, ws-headers: {Host: qdse.dfiiopopiwfefefsf.ml}}
+  - {name: 🇸🇬 kr2-25@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.17.188.91, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇩🇪 DE-28@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.148.48, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 DE-23@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.149.48, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 6, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
+  - {name: 🇩🇪 DE-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s, server: 104.16.167.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 DE-10@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.110.238, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇨🇳 heroepvcntip, server: 104.19.0.101, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: old-resonance-cedc.epvincnt.workers.dev}}
+  - {name: 🇩🇪 DE-25@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.17.188.91, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34, server: 54.223.185.171, port: 8002, type: vmess, uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.185.171}}
+  - {name: 🇨🇳 heroepvcnt, server: 104.19.0.102, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: little-dawn-3747.epvincnt.workers.dev}}
+  - {name: 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.21.239.147, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇩🇪 DE-13@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.21.239.147, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇸🇬 kr2-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a, server: www.digitalocean.com, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 🇩🇪 DE-34 联通100M+4K, server: 104.18.27.64, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 7, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇬🇧 英国, server: 198.8.92.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 8, server: 198.8.92.84, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 9, server: 154.17.2.162, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 github.com/freefq - 美国  15, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: "", server: 96.43.91.58, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇺🇸 美国, server: 198.8.92.84, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇩🇪 DE-3@1Gbps节点更新https://bit.ly/3uWuS7a, server: icook.tw, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇸🇬 kr2-3@1Gbps节点更新https://bit.ly/3uWuS7a, server: icook.tw, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇩🇪 DE-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a, server: www.digitalocean.com, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 10, server: 35.167.66.20, port: 21805, type: vmess, uuid: 14552e4a-6eba-46f1-8b83-a59f4df3b644, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 35.167.66.20}}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 11, server: 51.195.62.220, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 12, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
+  - {name: " 2", server: 23.83.227.198, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
+  - {name: 🇭🇰 github.com/freefq - 香港特别行政区 36, server: 154.208.10.121, port: 25561, type: vmess, uuid: aa8adc47-2f6c-32d9-9b54-75c3651826af, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 13, server: dtda.dfiiopopiwsdadsda.ga, port: 443, type: vmess, uuid: 9e7d1dea-b240-4b0e-abe8-82dde00394f1, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /7ed5849/, ws-headers: {Host: dtda.dfiiopopiwsdadsda.ga}}
+  - {name: 比利时, server: 91.90.123.115, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇩🇪 德国, server: 51.89.99.59, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 14, server: 51.195.62.220, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 github.com/freefq - 德国Hetzner 29, server: 138.201.150.52, port: 33957, type: vmess, uuid: 89cee221-b06c-46c5-f0d7-4fd3f4740b97, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323, server: 46.182.107.45, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}}
+  - {name: 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312, server: 46.182.107.165, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.07890885.xyz}}
+  - {name: " 3", server: 13.57.246.196, port: 80, type: vmess, uuid: b36cafcc-17d0-3c7e-9a06-366041e395a4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /download/233yun/78xifnxlz11wd8p2vanmg25mvvp1n61vezexpq465goyjltxblxjjujfkrnj5dyl2wrfks3vvwz32ssxacvi9ujf1rkpp4cxant, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇨🇳 epvincnt, server: 129.146.83.67, port: 47501, type: vmess, uuid: 8843ed45-909a-4f7f-bab5-c584ecab433f, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 7, server: 23.224.30.37, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 15, server: 5.183.101.204, port: 59857, type: vmess, uuid: 4c35d374-dbf2-4e5f-c731-dfa49191825a, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 16, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇷🇴 罗马尼亚, server: 91.90.123.115, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 比利时 2, server: 91.90.123.115, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 665, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 17, server: 66.55.148.42, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3, server: 198.147.22.87, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 18, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: github.com/freefq - 匈牙利  35, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 github.com/freefq - 荷兰  12, server: 46.182.107.39, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.07890885.xyz}}
+  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
+  - {name: 🇺🇸 github.com/freefq - 美国  27, server: 66.115.175.37, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇩🇪 德国 2, server: 85.10.50.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇮🇳 印度🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 137.59.52.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2, server: 23.82.11.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 github.com/freefq - 美国  27
-      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 19
-      - 🇭🇰 github.com/freefq - 香港特别行政区 36
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君)
-      - isx.yt-02
-      - 🇺🇸 github.com/freefq - 美国  15
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 12
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 7
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 4
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 5
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - ""
-      - " 2"
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 3
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 2
-      - isx.yt-01
-      - 🇳🇱 github.com/freefq - 荷兰  21
-      - 🇩🇪 github.com/freefq - 德国Hetzner 29
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 8
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 10
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a-clone
       - 🇯🇵 日本(欢迎订阅YouTube破解资源君) 2
-      - isx.yt-03
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 8
-      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32
-      - 🇺🇸 Relay_-🇺🇸US_1688
-      - 🇷🇺 github.com/freefq - 俄罗斯  31
-      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34
-      - github.com/freefq - 匈牙利  35
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323
-      - " 3"
-      - 🇨🇳 heroepvcntip
-      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 17
-      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312
-      - " 4"
-      - 🇺🇸 美国
-      - 🇨🇳 epvincnt
-      - 🇨🇳 heroepvcnt
       - 🇺🇸 美国 (Y) 2
-      - "[free-ss.site]www.kernels.bid"
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - 🇸🇬 kr2-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇩🇪 DE-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇩🇪 DE-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇨🇳 heroepvcntip
+      - 🇩🇪 DE-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34
+      - 🇨🇳 heroepvcnt
+      - 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18
+      - 🇩🇪 DE-34 联通100M+4K
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
+      - 🇬🇧 英国
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
+      - 🇺🇸 github.com/freefq - 美国  15
+      - ""
+      - 🇺🇸 美国
+      - 🇩🇪 DE-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 10
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 11
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 12
+      - " 2"
+      - 🇭🇰 github.com/freefq - 香港特别行政区 36
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 13
+      - 比利时
+      - 🇩🇪 德国
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 14
+      - 🇩🇪 github.com/freefq - 德国Hetzner 29
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312
+      - " 3"
+      - 🇨🇳 epvincnt
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 7
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 16
+      - 🇷🇴 罗马尼亚
+      - 比利时 2
+      - 665
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 17
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 18
+      - github.com/freefq - 匈牙利  35
+      - 🇳🇱 github.com/freefq - 荷兰  12
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 github.com/freefq - 美国  27
+      - 🇩🇪 德国 2
+      - 🇮🇳 印度🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 github.com/freefq - 美国  27
-      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 19
-      - 🇭🇰 github.com/freefq - 香港特别行政区 36
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君)
-      - isx.yt-02
-      - 🇺🇸 github.com/freefq - 美国  15
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 12
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 7
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 4
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 5
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - ""
-      - " 2"
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 3
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 2
-      - isx.yt-01
-      - 🇳🇱 github.com/freefq - 荷兰  21
-      - 🇩🇪 github.com/freefq - 德国Hetzner 29
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 8
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 10
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a-clone
       - 🇯🇵 日本(欢迎订阅YouTube破解资源君) 2
-      - isx.yt-03
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 8
-      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32
-      - 🇺🇸 Relay_-🇺🇸US_1688
-      - 🇷🇺 github.com/freefq - 俄罗斯  31
-      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34
-      - github.com/freefq - 匈牙利  35
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323
-      - " 3"
-      - 🇨🇳 heroepvcntip
-      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 17
-      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312
-      - " 4"
-      - 🇺🇸 美国
-      - 🇨🇳 epvincnt
-      - 🇨🇳 heroepvcnt
       - 🇺🇸 美国 (Y) 2
-      - "[free-ss.site]www.kernels.bid"
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - 🇸🇬 kr2-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇩🇪 DE-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇩🇪 DE-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇨🇳 heroepvcntip
+      - 🇩🇪 DE-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34
+      - 🇨🇳 heroepvcnt
+      - 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18
+      - 🇩🇪 DE-34 联通100M+4K
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
+      - 🇬🇧 英国
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
+      - 🇺🇸 github.com/freefq - 美国  15
+      - ""
+      - 🇺🇸 美国
+      - 🇩🇪 DE-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 10
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 11
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 12
+      - " 2"
+      - 🇭🇰 github.com/freefq - 香港特别行政区 36
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 13
+      - 比利时
+      - 🇩🇪 德国
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 14
+      - 🇩🇪 github.com/freefq - 德国Hetzner 29
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312
+      - " 3"
+      - 🇨🇳 epvincnt
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 7
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 16
+      - 🇷🇴 罗马尼亚
+      - 比利时 2
+      - 665
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 17
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 18
+      - github.com/freefq - 匈牙利  35
+      - 🇳🇱 github.com/freefq - 荷兰  12
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 github.com/freefq - 美国  27
+      - 🇩🇪 德国 2
+      - 🇮🇳 印度🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 github.com/freefq - 美国  27
-      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 19
-      - 🇭🇰 github.com/freefq - 香港特别行政区 36
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君)
-      - isx.yt-02
-      - 🇺🇸 github.com/freefq - 美国  15
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 12
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 7
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 4
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 5
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - ""
-      - " 2"
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 3
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 2
-      - isx.yt-01
-      - 🇳🇱 github.com/freefq - 荷兰  21
-      - 🇩🇪 github.com/freefq - 德国Hetzner 29
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 8
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 10
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a-clone
       - 🇯🇵 日本(欢迎订阅YouTube破解资源君) 2
-      - isx.yt-03
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 8
-      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32
-      - 🇺🇸 Relay_-🇺🇸US_1688
-      - 🇷🇺 github.com/freefq - 俄罗斯  31
-      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34
-      - github.com/freefq - 匈牙利  35
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323
-      - " 3"
-      - 🇨🇳 heroepvcntip
-      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 17
-      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312
-      - " 4"
-      - 🇺🇸 美国
-      - 🇨🇳 epvincnt
-      - 🇨🇳 heroepvcnt
       - 🇺🇸 美国 (Y) 2
-      - "[free-ss.site]www.kernels.bid"
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - 🇸🇬 kr2-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇩🇪 DE-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇩🇪 DE-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇨🇳 heroepvcntip
+      - 🇩🇪 DE-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34
+      - 🇨🇳 heroepvcnt
+      - 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18
+      - 🇩🇪 DE-34 联通100M+4K
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
+      - 🇬🇧 英国
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
+      - 🇺🇸 github.com/freefq - 美国  15
+      - ""
+      - 🇺🇸 美国
+      - 🇩🇪 DE-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 10
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 11
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 12
+      - " 2"
+      - 🇭🇰 github.com/freefq - 香港特别行政区 36
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 13
+      - 比利时
+      - 🇩🇪 德国
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 14
+      - 🇩🇪 github.com/freefq - 德国Hetzner 29
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312
+      - " 3"
+      - 🇨🇳 epvincnt
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 7
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 16
+      - 🇷🇴 罗马尼亚
+      - 比利时 2
+      - 665
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 17
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 18
+      - github.com/freefq - 匈牙利  35
+      - 🇳🇱 github.com/freefq - 荷兰  12
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 github.com/freefq - 美国  27
+      - 🇩🇪 德国 2
+      - 🇮🇳 印度🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
       - 🇭🇰 github.com/freefq - 香港特别行政区 36
-      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 17
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 github.com/freefq - 美国  27
-      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 19
-      - 🇭🇰 github.com/freefq - 香港特别行政区 36
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君)
-      - isx.yt-02
-      - 🇺🇸 github.com/freefq - 美国  15
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 12
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 7
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 4
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 5
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - ""
-      - " 2"
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 3
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 2
-      - isx.yt-01
-      - 🇳🇱 github.com/freefq - 荷兰  21
-      - 🇩🇪 github.com/freefq - 德国Hetzner 29
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 8
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 10
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a-clone
       - 🇯🇵 日本(欢迎订阅YouTube破解资源君) 2
-      - isx.yt-03
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 8
-      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32
-      - 🇺🇸 Relay_-🇺🇸US_1688
-      - 🇷🇺 github.com/freefq - 俄罗斯  31
-      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34
-      - github.com/freefq - 匈牙利  35
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323
-      - " 3"
-      - 🇨🇳 heroepvcntip
-      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 17
-      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312
-      - " 4"
-      - 🇺🇸 美国
-      - 🇨🇳 epvincnt
-      - 🇨🇳 heroepvcnt
       - 🇺🇸 美国 (Y) 2
-      - "[free-ss.site]www.kernels.bid"
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - 🇸🇬 kr2-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇩🇪 DE-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇩🇪 DE-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇨🇳 heroepvcntip
+      - 🇩🇪 DE-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34
+      - 🇨🇳 heroepvcnt
+      - 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18
+      - 🇩🇪 DE-34 联通100M+4K
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
+      - 🇬🇧 英国
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
+      - 🇺🇸 github.com/freefq - 美国  15
+      - ""
+      - 🇺🇸 美国
+      - 🇩🇪 DE-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 10
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 11
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 12
+      - " 2"
+      - 🇭🇰 github.com/freefq - 香港特别行政区 36
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 13
+      - 比利时
+      - 🇩🇪 德国
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 14
+      - 🇩🇪 github.com/freefq - 德国Hetzner 29
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312
+      - " 3"
+      - 🇨🇳 epvincnt
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 7
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 16
+      - 🇷🇴 罗马尼亚
+      - 比利时 2
+      - 665
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 17
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 18
+      - github.com/freefq - 匈牙利  35
+      - 🇳🇱 github.com/freefq - 荷兰  12
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 github.com/freefq - 美国  27
+      - 🇩🇪 德国 2
+      - 🇮🇳 印度🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 github.com/freefq - 美国  27
-      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 19
-      - 🇭🇰 github.com/freefq - 香港特别行政区 36
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君)
-      - isx.yt-02
-      - 🇺🇸 github.com/freefq - 美国  15
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 12
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 7
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 4
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 5
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - ""
-      - " 2"
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 3
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 2
-      - isx.yt-01
-      - 🇳🇱 github.com/freefq - 荷兰  21
-      - 🇩🇪 github.com/freefq - 德国Hetzner 29
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 8
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 10
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a-clone
       - 🇯🇵 日本(欢迎订阅YouTube破解资源君) 2
-      - isx.yt-03
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 8
-      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32
-      - 🇺🇸 Relay_-🇺🇸US_1688
-      - 🇷🇺 github.com/freefq - 俄罗斯  31
-      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34
-      - github.com/freefq - 匈牙利  35
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323
-      - " 3"
-      - 🇨🇳 heroepvcntip
-      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 17
-      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312
-      - " 4"
-      - 🇺🇸 美国
-      - 🇨🇳 epvincnt
-      - 🇨🇳 heroepvcnt
       - 🇺🇸 美国 (Y) 2
-      - "[free-ss.site]www.kernels.bid"
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - 🇸🇬 kr2-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇩🇪 DE-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇩🇪 DE-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇨🇳 heroepvcntip
+      - 🇩🇪 DE-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34
+      - 🇨🇳 heroepvcnt
+      - 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18
+      - 🇩🇪 DE-34 联通100M+4K
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
+      - 🇬🇧 英国
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
+      - 🇺🇸 github.com/freefq - 美国  15
+      - ""
+      - 🇺🇸 美国
+      - 🇩🇪 DE-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 10
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 11
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 12
+      - " 2"
+      - 🇭🇰 github.com/freefq - 香港特别行政区 36
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 13
+      - 比利时
+      - 🇩🇪 德国
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 14
+      - 🇩🇪 github.com/freefq - 德国Hetzner 29
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312
+      - " 3"
+      - 🇨🇳 epvincnt
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 7
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 16
+      - 🇷🇴 罗马尼亚
+      - 比利时 2
+      - 665
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 17
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 18
+      - github.com/freefq - 匈牙利  35
+      - 🇳🇱 github.com/freefq - 荷兰  12
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 github.com/freefq - 美国  27
+      - 🇩🇪 德国 2
+      - 🇮🇳 印度🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 github.com/freefq - 美国  27
-      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 19
-      - 🇭🇰 github.com/freefq - 香港特别行政区 36
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君)
-      - isx.yt-02
-      - 🇺🇸 github.com/freefq - 美国  15
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 12
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 7
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 4
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 5
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - ""
-      - " 2"
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 3
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 2
-      - isx.yt-01
-      - 🇳🇱 github.com/freefq - 荷兰  21
-      - 🇩🇪 github.com/freefq - 德国Hetzner 29
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 8
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 10
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a-clone
       - 🇯🇵 日本(欢迎订阅YouTube破解资源君) 2
-      - isx.yt-03
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 8
-      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32
-      - 🇺🇸 Relay_-🇺🇸US_1688
-      - 🇷🇺 github.com/freefq - 俄罗斯  31
-      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34
-      - github.com/freefq - 匈牙利  35
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323
-      - " 3"
-      - 🇨🇳 heroepvcntip
-      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 17
-      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312
-      - " 4"
-      - 🇺🇸 美国
-      - 🇨🇳 epvincnt
-      - 🇨🇳 heroepvcnt
       - 🇺🇸 美国 (Y) 2
-      - "[free-ss.site]www.kernels.bid"
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - 🇸🇬 kr2-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇩🇪 DE-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇩🇪 DE-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇨🇳 heroepvcntip
+      - 🇩🇪 DE-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34
+      - 🇨🇳 heroepvcnt
+      - 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18
+      - 🇩🇪 DE-34 联通100M+4K
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
+      - 🇬🇧 英国
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
+      - 🇺🇸 github.com/freefq - 美国  15
+      - ""
+      - 🇺🇸 美国
+      - 🇩🇪 DE-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 10
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 11
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 12
+      - " 2"
+      - 🇭🇰 github.com/freefq - 香港特别行政区 36
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 13
+      - 比利时
+      - 🇩🇪 德国
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 14
+      - 🇩🇪 github.com/freefq - 德国Hetzner 29
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312
+      - " 3"
+      - 🇨🇳 epvincnt
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 7
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 16
+      - 🇷🇴 罗马尼亚
+      - 比利时 2
+      - 665
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 17
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 18
+      - github.com/freefq - 匈牙利  35
+      - 🇳🇱 github.com/freefq - 荷兰  12
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 github.com/freefq - 美国  27
+      - 🇩🇪 德国 2
+      - 🇮🇳 印度🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -354,48 +550,76 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 github.com/freefq - 美国  27
-      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 19
-      - 🇭🇰 github.com/freefq - 香港特别行政区 36
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君)
-      - isx.yt-02
-      - 🇺🇸 github.com/freefq - 美国  15
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 12
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 7
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 4
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 5
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - ""
-      - " 2"
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 3
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 2
-      - isx.yt-01
-      - 🇳🇱 github.com/freefq - 荷兰  21
-      - 🇩🇪 github.com/freefq - 德国Hetzner 29
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 8
-      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 10
-      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a-clone
       - 🇯🇵 日本(欢迎订阅YouTube破解资源君) 2
-      - isx.yt-03
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 8
-      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32
-      - 🇺🇸 Relay_-🇺🇸US_1688
-      - 🇷🇺 github.com/freefq - 俄罗斯  31
-      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34
-      - github.com/freefq - 匈牙利  35
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323
-      - " 3"
-      - 🇨🇳 heroepvcntip
-      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 17
-      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312
-      - " 4"
-      - 🇺🇸 美国
-      - 🇨🇳 epvincnt
-      - 🇨🇳 heroepvcnt
       - 🇺🇸 美国 (Y) 2
-      - "[free-ss.site]www.kernels.bid"
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - 🇸🇬 kr2-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇨🇳 台湾🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇩🇪 DE-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇩🇪 DE-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇨🇳 heroepvcntip
+      - 🇩🇪 DE-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34
+      - 🇨🇳 heroepvcnt
+      - 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18
+      - 🇩🇪 DE-34 联通100M+4K
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
+      - 🇬🇧 英国
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
+      - 🇺🇸 github.com/freefq - 美国  15
+      - ""
+      - 🇺🇸 美国
+      - 🇩🇪 DE-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 10
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 11
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 12
+      - " 2"
+      - 🇭🇰 github.com/freefq - 香港特别行政区 36
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 13
+      - 比利时
+      - 🇩🇪 德国
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 14
+      - 🇩🇪 github.com/freefq - 德国Hetzner 29
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312
+      - " 3"
+      - 🇨🇳 epvincnt
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 7
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 16
+      - 🇷🇴 罗马尼亚
+      - 比利时 2
+      - 665
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 17
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 18
+      - github.com/freefq - 匈牙利  35
+      - 🇳🇱 github.com/freefq - 荷兰  12
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 github.com/freefq - 美国  27
+      - 🇩🇪 德国 2
+      - 🇮🇳 印度🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
