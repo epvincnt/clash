@@ -5,534 +5,340 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 heroepvcntip, server: 104.20.58.100, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: old-resonance-cedc.epvincnt.workers.dev}}
-  - {name: 🇨🇳 heroepvcnt, server: 104.20.58.0, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: little-dawn-3747.epvincnt.workers.dev}}
-  - {name: 🇩🇪 德国, server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇩🇪 德国 2, server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 美国, server: 104.20.58.100, port: 443, type: vmess, uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /111111.online, ws-headers: {Host: by.6111.online}}
-  - {name: 🇩🇪 德国 3, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 美国 2, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 154.17.2.31:18333, server: 154.17.2.31, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇩🇪 德国 4, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 美国 3, server: 198.8.92.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇺🇸 美国 4, server: 198.8.92.84, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇬🇧 英国, server: 198.8.92.84, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: bulink 网友分享线路 1 三网, server: la1.bulink.xyz.apkook.com, port: 443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 5, server: 198.8.92.84, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇺🇸 美国 6, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 美国 7, server: 198.8.92.84, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 🇨🇦 加拿大, server: 138.197.174.245, port: 56443, type: ss, cipher: chacha20-ietf-poly1305, password: yuMqkGIx6Ia0}
-  - {name: 🇨🇦 加拿大 2, server: dld04.xqkj.cloud, port: 1074, type: vmess, uuid: 194f9087-0bbe-4e03-9d25-4d87dfa577b7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dld04.xqkj.cloud}}
-  - {name: 🇫🇷 法国, server: 51.195.62.220, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇩🇪 德国 5, server: 164.90.234.85, port: 18492, type: ss, cipher: chacha20-ietf-poly1305, password: fdRAl4scWDTg}
-  - {name: 🇨🇦 加拿大 3, server: 138.197.174.245, port: 56443, type: ss, cipher: chacha20-ietf-poly1305, password: yuMqkGIx6Ia0}
-  - {name: 🇩🇪 德国((www)) 3, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇮🇹 意大利, server: 82.102.26.117, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 美国 顺丰资源Youtube, server: 154.17.2.95, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 github.com/freefq - 美国  27, server: 66.115.175.37, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 19, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇭🇰 github.com/freefq - 香港特别行政区 36, server: 154.208.10.121, port: 25561, type: vmess, uuid: aa8adc47-2f6c-32d9-9b54-75c3651826af, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇮🇹 意大利(欢迎订阅YouTube破解资源君), server: 82.102.26.117, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: isx.yt-02, server: v2us02.isxa.top, port: 443, type: vmess, uuid: 1bbc5290-00a9-4cf8-9671-88ada64f5f37, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: v2us02.isxa.top}}
+  - {name: 🇺🇸 github.com/freefq - 美国  15, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 12, server: 82.102.26.117, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 美国(欢迎订阅YouTube破解资源君) 7, server: 198.147.22.87, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 🇺🇸 美国(欢迎订阅YouTube破解资源君) 4, server: 195.47.194.42, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇺🇸 美国(欢迎订阅YouTube破解资源君) 5, server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: "", server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
+  - {name: " 2", server: 23.83.227.198, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国(欢迎订阅YouTube破解资源君) 3, server: 195.47.194.42, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 美国(欢迎订阅YouTube破解资源君) 2, server: 195.47.194.42, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: isx.yt-01, server: v2us01.isxa.top, port: 443, type: vmess, uuid: 5b12033f-7e28-4ff9-8e47-762064fffdea, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: v2us01.isxa.top}}
+  - {name: 🇳🇱 github.com/freefq - 荷兰  21, server: 46.182.107.25, port: 443, type: vmess, uuid: 0a1ab3bd-0431-4da8-ad8a-238367ce4efc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.11300814.xyz}}
+  - {name: 🇩🇪 github.com/freefq - 德国Hetzner 29, server: 138.201.150.52, port: 33957, type: vmess, uuid: 89cee221-b06c-46c5-f0d7-4fd3f4740b97, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 8, server: 82.102.26.117, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 10, server: 82.102.26.117, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇸 美国(欢迎订阅YouTube破解资源君) 6, server: 198.147.22.87, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇯🇵 日本(欢迎订阅YouTube破解资源君) 2, server: 54.223.185.171, port: 8002, type: vmess, uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.185.171}}
+  - {name: isx.yt-03, server: v2us03.isxa.top, port: 443, type: vmess, uuid: da0700de-e3b9-4f5c-86d5-da8cc7a11a83, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: v2us03.isxa.top}}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 8, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
+  - {name: 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32, server: 54.223.185.171, port: 8001, type: vmess, uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.185.171}}
+  - {name: 🇺🇸 Relay_-🇺🇸US_1688, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
+  - {name: 🇷🇺 github.com/freefq - 俄罗斯  31, server: 194.87.48.153, port: 57411, type: vmess, uuid: edd2a9d7-e125-4228-bcbe-6f5d29470e24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34, server: 54.223.185.171, port: 8002, type: vmess, uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.185.171}}
+  - {name: github.com/freefq - 匈牙利  35, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323, server: 46.182.107.45, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}}
+  - {name: " 3", server: 96.43.91.58, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇨🇳 heroepvcntip, server: 104.19.0.102, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: old-resonance-cedc.epvincnt.workers.dev}}
+  - {name: 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 17, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
+  - {name: 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312, server: 46.182.107.165, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.07890885.xyz}}
+  - {name: " 4", server: 13.57.246.196, port: 80, type: vmess, uuid: b36cafcc-17d0-3c7e-9a06-366041e395a4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /download/233yun/78xifnxlz11wd8p2vanmg25mvvp1n61vezexpq465goyjltxblxjjujfkrnj5dyl2wrfks3vvwz32ssxacvi9ujf1rkpp4cxant, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇺🇸 美国, server: 198.8.92.84, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
   - {name: 🇨🇳 epvincnt, server: 129.146.83.67, port: 47501, type: vmess, uuid: 8843ed45-909a-4f7f-bab5-c584ecab433f, alterId: 0, cipher: auto, tls: false}
-  - {name: 185.44.76.188:31572, server: 185.44.76.188, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 欧洲, server: 207.244.67.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇳🇱 荷兰, server: 193.32.210.230, port: 35870, type: ss, cipher: aes-256-gcm, password: VFqcjsifsjyC}
-  - {name: 🇮🇹 意大利 2, server: 82.102.26.117, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇳🇱 荷兰 2, server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇮🇹 意大利 3, server: 82.102.26.117, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: 🇩🇪 德国 6, server: 78.47.219.86, port: 35139, type: ss, cipher: aes-256-gcm, password: vcFINAQlgqZZ}
-  - {name: 🇷🇴 罗马尼亚, server: 37.120.233.61, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇳🇱 荷兰 3, server: 193.32.210.230, port: 35870, type: ss, cipher: aes-256-gcm, password: VFqcjsifsjyC}
-  - {name: 🇺🇸 美国 顺丰资源Youtube 2, server: 154.17.2.109, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: l3Y9yKCBaT5SnpFFOe834yqIaXwSpRxz3l7D3Aua82ZgcSNZDCO6AexYDCE0Rj}
-  - {name: 🇺🇸 美国 8, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 🇺🇸 美国 9, server: 23.82.11.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: w 22, server: 207.244.67.149, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇮🇹 意大利 4, server: 82.102.26.117, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇫🇷 法国 2, server: 51.195.62.220, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇩🇪 德国 7, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 美国 10, server: 198.147.22.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 顺丰资源Youtube, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: bulink 网友分享线路 6 移动, server: nj1.bulink.xyz.fobzs.com, port: 443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 11, server: 207.244.67.149, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇮🇹 意大利 5, server: 82.102.26.117, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 塞浦路斯, server: 195.47.194.42, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 塞浦路斯 2, server: 195.47.194.42, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇮🇹 意大利 6, server: 82.102.26.117, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇮🇹 意大利 7, server: 82.102.26.117, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 198.147.22.87:33998, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 美国 12, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: 🇮🇹 意大利 8, server: 82.102.26.117, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇮🇹 意大利 9, server: 82.102.26.117, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 198.147.22.87:31572, server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 美国 顺丰资源Youtube 3, server: 154.17.5.184, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 美国 13, server: 66.115.175.37, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国 14, server: 66.115.175.37, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国洛杉矶, server: 154.17.1.245, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇦🇹 奥地利, server: 195.47.194.42, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 塞浦路斯 3, server: 195.47.194.42, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 塞浦路斯 4, server: 195.47.194.42, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇨🇦 加拿大 4, server: 165.154.234.152, port: 50680, type: vmess, uuid: 7d45212a-d98f-4b98-9b44-bbe81cb72acb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 顺丰资源Youtube 4, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 比利时, server: 91.90.123.115, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 比利时 2, server: 91.90.123.115, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 比利时 3, server: 91.90.123.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 比利时 4, server: 91.90.123.115, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 比利时 5, server: 91.90.123.115, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 比利时 6, server: 91.90.123.115, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇨🇳 heroepvcnt, server: 104.19.0.102, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: little-dawn-3747.epvincnt.workers.dev}}
+  - {name: 🇺🇸 美国 (Y) 2, server: 54.223.185.171, port: 8001, type: vmess, uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.185.171}}
+  - {name: "[free-ss.site]www.kernels.bid", server: www.kernels.bid, port: 80, type: vmess, uuid: d10fa221-2f49-ce96-f592-3e13f7b267dc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /ws, ws-headers: {Host: www.kernels.bid}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇺🇸 github.com/freefq - 美国  27
+      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 19
+      - 🇭🇰 github.com/freefq - 香港特别行政区 36
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君)
+      - isx.yt-02
+      - 🇺🇸 github.com/freefq - 美国  15
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 12
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 7
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 4
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 5
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - ""
+      - " 2"
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 3
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 2
+      - isx.yt-01
+      - 🇳🇱 github.com/freefq - 荷兰  21
+      - 🇩🇪 github.com/freefq - 德国Hetzner 29
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 8
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 10
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 6
+      - 🇯🇵 日本(欢迎订阅YouTube破解资源君) 2
+      - isx.yt-03
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 8
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32
+      - 🇺🇸 Relay_-🇺🇸US_1688
+      - 🇷🇺 github.com/freefq - 俄罗斯  31
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34
+      - github.com/freefq - 匈牙利  35
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323
+      - " 3"
       - 🇨🇳 heroepvcntip
-      - 🇨🇳 heroepvcnt
-      - 🇩🇪 德国
-      - 🇩🇪 德国 2
+      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 17
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312
+      - " 4"
       - 🇺🇸 美国
-      - 🇩🇪 德国 3
-      - 🇺🇸 美国 2
-      - 154.17.2.31:18333
-      - 🇩🇪 德国 4
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇬🇧 英国
-      - bulink 网友分享线路 1 三网
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇫🇷 法国
-      - 🇩🇪 德国 5
-      - 🇨🇦 加拿大 3
-      - 🇩🇪 德国((www)) 3
-      - 🇮🇹 意大利
-      - 🇺🇸 美国 顺丰资源Youtube
       - 🇨🇳 epvincnt
-      - 185.44.76.188:31572
-      - 欧洲
-      - 🇳🇱 荷兰
-      - 🇮🇹 意大利 2
-      - 🇳🇱 荷兰 2
-      - 🇮🇹 意大利 3
-      - 🇩🇪 德国 6
-      - 🇷🇴 罗马尼亚
-      - 🇳🇱 荷兰 3
-      - 🇺🇸 美国 顺丰资源Youtube 2
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - w 22
-      - 🇮🇹 意大利 4
-      - 🇫🇷 法国 2
-      - 🇩🇪 德国 7
-      - 🇺🇸 美国 10
-      - 顺丰资源Youtube
-      - bulink 网友分享线路 6 移动
-      - 🇺🇸 美国 11
-      - 🇮🇹 意大利 5
-      - 塞浦路斯
-      - 塞浦路斯 2
-      - 🇮🇹 意大利 6
-      - 🇮🇹 意大利 7
-      - 198.147.22.87:33998
-      - 🇺🇸 美国 12
-      - 🇮🇹 意大利 8
-      - 🇮🇹 意大利 9
-      - 198.147.22.87:31572
-      - 🇺🇸 美国 顺丰资源Youtube 3
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国洛杉矶
-      - 🇦🇹 奥地利
-      - 塞浦路斯 3
-      - 塞浦路斯 4
-      - 🇨🇦 加拿大 4
-      - 🇺🇸 美国 顺丰资源Youtube 4
-      - 比利时
-      - 比利时 2
-      - 比利时 3
-      - 比利时 4
-      - 比利时 5
-      - 比利时 6
+      - 🇨🇳 heroepvcnt
+      - 🇺🇸 美国 (Y) 2
+      - "[free-ss.site]www.kernels.bid"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇺🇸 github.com/freefq - 美国  27
+      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 19
+      - 🇭🇰 github.com/freefq - 香港特别行政区 36
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君)
+      - isx.yt-02
+      - 🇺🇸 github.com/freefq - 美国  15
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 12
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 7
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 4
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 5
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - ""
+      - " 2"
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 3
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 2
+      - isx.yt-01
+      - 🇳🇱 github.com/freefq - 荷兰  21
+      - 🇩🇪 github.com/freefq - 德国Hetzner 29
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 8
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 10
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 6
+      - 🇯🇵 日本(欢迎订阅YouTube破解资源君) 2
+      - isx.yt-03
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 8
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32
+      - 🇺🇸 Relay_-🇺🇸US_1688
+      - 🇷🇺 github.com/freefq - 俄罗斯  31
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34
+      - github.com/freefq - 匈牙利  35
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323
+      - " 3"
       - 🇨🇳 heroepvcntip
-      - 🇨🇳 heroepvcnt
-      - 🇩🇪 德国
-      - 🇩🇪 德国 2
+      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 17
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312
+      - " 4"
       - 🇺🇸 美国
-      - 🇩🇪 德国 3
-      - 🇺🇸 美国 2
-      - 154.17.2.31:18333
-      - 🇩🇪 德国 4
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇬🇧 英国
-      - bulink 网友分享线路 1 三网
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇫🇷 法国
-      - 🇩🇪 德国 5
-      - 🇨🇦 加拿大 3
-      - 🇩🇪 德国((www)) 3
-      - 🇮🇹 意大利
-      - 🇺🇸 美国 顺丰资源Youtube
       - 🇨🇳 epvincnt
-      - 185.44.76.188:31572
-      - 欧洲
-      - 🇳🇱 荷兰
-      - 🇮🇹 意大利 2
-      - 🇳🇱 荷兰 2
-      - 🇮🇹 意大利 3
-      - 🇩🇪 德国 6
-      - 🇷🇴 罗马尼亚
-      - 🇳🇱 荷兰 3
-      - 🇺🇸 美国 顺丰资源Youtube 2
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - w 22
-      - 🇮🇹 意大利 4
-      - 🇫🇷 法国 2
-      - 🇩🇪 德国 7
-      - 🇺🇸 美国 10
-      - 顺丰资源Youtube
-      - bulink 网友分享线路 6 移动
-      - 🇺🇸 美国 11
-      - 🇮🇹 意大利 5
-      - 塞浦路斯
-      - 塞浦路斯 2
-      - 🇮🇹 意大利 6
-      - 🇮🇹 意大利 7
-      - 198.147.22.87:33998
-      - 🇺🇸 美国 12
-      - 🇮🇹 意大利 8
-      - 🇮🇹 意大利 9
-      - 198.147.22.87:31572
-      - 🇺🇸 美国 顺丰资源Youtube 3
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国洛杉矶
-      - 🇦🇹 奥地利
-      - 塞浦路斯 3
-      - 塞浦路斯 4
-      - 🇨🇦 加拿大 4
-      - 🇺🇸 美国 顺丰资源Youtube 4
-      - 比利时
-      - 比利时 2
-      - 比利时 3
-      - 比利时 4
-      - 比利时 5
-      - 比利时 6
+      - 🇨🇳 heroepvcnt
+      - 🇺🇸 美国 (Y) 2
+      - "[free-ss.site]www.kernels.bid"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇺🇸 github.com/freefq - 美国  27
+      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 19
+      - 🇭🇰 github.com/freefq - 香港特别行政区 36
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君)
+      - isx.yt-02
+      - 🇺🇸 github.com/freefq - 美国  15
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 12
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 7
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 4
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 5
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - ""
+      - " 2"
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 3
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 2
+      - isx.yt-01
+      - 🇳🇱 github.com/freefq - 荷兰  21
+      - 🇩🇪 github.com/freefq - 德国Hetzner 29
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 8
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 10
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 6
+      - 🇯🇵 日本(欢迎订阅YouTube破解资源君) 2
+      - isx.yt-03
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 8
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32
+      - 🇺🇸 Relay_-🇺🇸US_1688
+      - 🇷🇺 github.com/freefq - 俄罗斯  31
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34
+      - github.com/freefq - 匈牙利  35
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323
+      - " 3"
       - 🇨🇳 heroepvcntip
-      - 🇨🇳 heroepvcnt
-      - 🇩🇪 德国
-      - 🇩🇪 德国 2
+      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 17
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312
+      - " 4"
       - 🇺🇸 美国
-      - 🇩🇪 德国 3
-      - 🇺🇸 美国 2
-      - 154.17.2.31:18333
-      - 🇩🇪 德国 4
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇬🇧 英国
-      - bulink 网友分享线路 1 三网
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇫🇷 法国
-      - 🇩🇪 德国 5
-      - 🇨🇦 加拿大 3
-      - 🇩🇪 德国((www)) 3
-      - 🇮🇹 意大利
-      - 🇺🇸 美国 顺丰资源Youtube
       - 🇨🇳 epvincnt
-      - 185.44.76.188:31572
-      - 欧洲
-      - 🇳🇱 荷兰
-      - 🇮🇹 意大利 2
-      - 🇳🇱 荷兰 2
-      - 🇮🇹 意大利 3
-      - 🇩🇪 德国 6
-      - 🇷🇴 罗马尼亚
-      - 🇳🇱 荷兰 3
-      - 🇺🇸 美国 顺丰资源Youtube 2
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - w 22
-      - 🇮🇹 意大利 4
-      - 🇫🇷 法国 2
-      - 🇩🇪 德国 7
-      - 🇺🇸 美国 10
-      - 顺丰资源Youtube
-      - bulink 网友分享线路 6 移动
-      - 🇺🇸 美国 11
-      - 🇮🇹 意大利 5
-      - 塞浦路斯
-      - 塞浦路斯 2
-      - 🇮🇹 意大利 6
-      - 🇮🇹 意大利 7
-      - 198.147.22.87:33998
-      - 🇺🇸 美国 12
-      - 🇮🇹 意大利 8
-      - 🇮🇹 意大利 9
-      - 198.147.22.87:31572
-      - 🇺🇸 美国 顺丰资源Youtube 3
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国洛杉矶
-      - 🇦🇹 奥地利
-      - 塞浦路斯 3
-      - 塞浦路斯 4
-      - 🇨🇦 加拿大 4
-      - 🇺🇸 美国 顺丰资源Youtube 4
-      - 比利时
-      - 比利时 2
-      - 比利时 3
-      - 比利时 4
-      - 比利时 5
-      - 比利时 6
+      - 🇨🇳 heroepvcnt
+      - 🇺🇸 美国 (Y) 2
+      - "[free-ss.site]www.kernels.bid"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 github.com/freefq - 香港特别行政区 36
+      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 17
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇺🇸 github.com/freefq - 美国  27
+      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 19
+      - 🇭🇰 github.com/freefq - 香港特别行政区 36
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君)
+      - isx.yt-02
+      - 🇺🇸 github.com/freefq - 美国  15
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 12
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 7
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 4
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 5
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - ""
+      - " 2"
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 3
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 2
+      - isx.yt-01
+      - 🇳🇱 github.com/freefq - 荷兰  21
+      - 🇩🇪 github.com/freefq - 德国Hetzner 29
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 8
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 10
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 6
+      - 🇯🇵 日本(欢迎订阅YouTube破解资源君) 2
+      - isx.yt-03
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 8
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32
+      - 🇺🇸 Relay_-🇺🇸US_1688
+      - 🇷🇺 github.com/freefq - 俄罗斯  31
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34
+      - github.com/freefq - 匈牙利  35
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323
+      - " 3"
       - 🇨🇳 heroepvcntip
-      - 🇨🇳 heroepvcnt
-      - 🇩🇪 德国
-      - 🇩🇪 德国 2
+      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 17
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312
+      - " 4"
       - 🇺🇸 美国
-      - 🇩🇪 德国 3
-      - 🇺🇸 美国 2
-      - 154.17.2.31:18333
-      - 🇩🇪 德国 4
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇬🇧 英国
-      - bulink 网友分享线路 1 三网
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇫🇷 法国
-      - 🇩🇪 德国 5
-      - 🇨🇦 加拿大 3
-      - 🇩🇪 德国((www)) 3
-      - 🇮🇹 意大利
-      - 🇺🇸 美国 顺丰资源Youtube
       - 🇨🇳 epvincnt
-      - 185.44.76.188:31572
-      - 欧洲
-      - 🇳🇱 荷兰
-      - 🇮🇹 意大利 2
-      - 🇳🇱 荷兰 2
-      - 🇮🇹 意大利 3
-      - 🇩🇪 德国 6
-      - 🇷🇴 罗马尼亚
-      - 🇳🇱 荷兰 3
-      - 🇺🇸 美国 顺丰资源Youtube 2
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - w 22
-      - 🇮🇹 意大利 4
-      - 🇫🇷 法国 2
-      - 🇩🇪 德国 7
-      - 🇺🇸 美国 10
-      - 顺丰资源Youtube
-      - bulink 网友分享线路 6 移动
-      - 🇺🇸 美国 11
-      - 🇮🇹 意大利 5
-      - 塞浦路斯
-      - 塞浦路斯 2
-      - 🇮🇹 意大利 6
-      - 🇮🇹 意大利 7
-      - 198.147.22.87:33998
-      - 🇺🇸 美国 12
-      - 🇮🇹 意大利 8
-      - 🇮🇹 意大利 9
-      - 198.147.22.87:31572
-      - 🇺🇸 美国 顺丰资源Youtube 3
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国洛杉矶
-      - 🇦🇹 奥地利
-      - 塞浦路斯 3
-      - 塞浦路斯 4
-      - 🇨🇦 加拿大 4
-      - 🇺🇸 美国 顺丰资源Youtube 4
-      - 比利时
-      - 比利时 2
-      - 比利时 3
-      - 比利时 4
-      - 比利时 5
-      - 比利时 6
+      - 🇨🇳 heroepvcnt
+      - 🇺🇸 美国 (Y) 2
+      - "[free-ss.site]www.kernels.bid"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇺🇸 github.com/freefq - 美国  27
+      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 19
+      - 🇭🇰 github.com/freefq - 香港特别行政区 36
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君)
+      - isx.yt-02
+      - 🇺🇸 github.com/freefq - 美国  15
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 12
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 7
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 4
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 5
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - ""
+      - " 2"
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 3
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 2
+      - isx.yt-01
+      - 🇳🇱 github.com/freefq - 荷兰  21
+      - 🇩🇪 github.com/freefq - 德国Hetzner 29
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 8
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 10
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 6
+      - 🇯🇵 日本(欢迎订阅YouTube破解资源君) 2
+      - isx.yt-03
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 8
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32
+      - 🇺🇸 Relay_-🇺🇸US_1688
+      - 🇷🇺 github.com/freefq - 俄罗斯  31
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34
+      - github.com/freefq - 匈牙利  35
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323
+      - " 3"
       - 🇨🇳 heroepvcntip
-      - 🇨🇳 heroepvcnt
-      - 🇩🇪 德国
-      - 🇩🇪 德国 2
+      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 17
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312
+      - " 4"
       - 🇺🇸 美国
-      - 🇩🇪 德国 3
-      - 🇺🇸 美国 2
-      - 154.17.2.31:18333
-      - 🇩🇪 德国 4
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇬🇧 英国
-      - bulink 网友分享线路 1 三网
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇫🇷 法国
-      - 🇩🇪 德国 5
-      - 🇨🇦 加拿大 3
-      - 🇩🇪 德国((www)) 3
-      - 🇮🇹 意大利
-      - 🇺🇸 美国 顺丰资源Youtube
       - 🇨🇳 epvincnt
-      - 185.44.76.188:31572
-      - 欧洲
-      - 🇳🇱 荷兰
-      - 🇮🇹 意大利 2
-      - 🇳🇱 荷兰 2
-      - 🇮🇹 意大利 3
-      - 🇩🇪 德国 6
-      - 🇷🇴 罗马尼亚
-      - 🇳🇱 荷兰 3
-      - 🇺🇸 美国 顺丰资源Youtube 2
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - w 22
-      - 🇮🇹 意大利 4
-      - 🇫🇷 法国 2
-      - 🇩🇪 德国 7
-      - 🇺🇸 美国 10
-      - 顺丰资源Youtube
-      - bulink 网友分享线路 6 移动
-      - 🇺🇸 美国 11
-      - 🇮🇹 意大利 5
-      - 塞浦路斯
-      - 塞浦路斯 2
-      - 🇮🇹 意大利 6
-      - 🇮🇹 意大利 7
-      - 198.147.22.87:33998
-      - 🇺🇸 美国 12
-      - 🇮🇹 意大利 8
-      - 🇮🇹 意大利 9
-      - 198.147.22.87:31572
-      - 🇺🇸 美国 顺丰资源Youtube 3
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国洛杉矶
-      - 🇦🇹 奥地利
-      - 塞浦路斯 3
-      - 塞浦路斯 4
-      - 🇨🇦 加拿大 4
-      - 🇺🇸 美国 顺丰资源Youtube 4
-      - 比利时
-      - 比利时 2
-      - 比利时 3
-      - 比利时 4
-      - 比利时 5
-      - 比利时 6
+      - 🇨🇳 heroepvcnt
+      - 🇺🇸 美国 (Y) 2
+      - "[free-ss.site]www.kernels.bid"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇸 github.com/freefq - 美国  27
+      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 19
+      - 🇭🇰 github.com/freefq - 香港特别行政区 36
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君)
+      - isx.yt-02
+      - 🇺🇸 github.com/freefq - 美国  15
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 12
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 7
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 4
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 5
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - ""
+      - " 2"
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 3
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 2
+      - isx.yt-01
+      - 🇳🇱 github.com/freefq - 荷兰  21
+      - 🇩🇪 github.com/freefq - 德国Hetzner 29
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 8
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 10
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 6
+      - 🇯🇵 日本(欢迎订阅YouTube破解资源君) 2
+      - isx.yt-03
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 8
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32
+      - 🇺🇸 Relay_-🇺🇸US_1688
+      - 🇷🇺 github.com/freefq - 俄罗斯  31
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34
+      - github.com/freefq - 匈牙利  35
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323
+      - " 3"
       - 🇨🇳 heroepvcntip
-      - 🇨🇳 heroepvcnt
-      - 🇩🇪 德国
-      - 🇩🇪 德国 2
+      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 17
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312
+      - " 4"
       - 🇺🇸 美国
-      - 🇩🇪 德国 3
-      - 🇺🇸 美国 2
-      - 154.17.2.31:18333
-      - 🇩🇪 德国 4
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇬🇧 英国
-      - bulink 网友分享线路 1 三网
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇫🇷 法国
-      - 🇩🇪 德国 5
-      - 🇨🇦 加拿大 3
-      - 🇩🇪 德国((www)) 3
-      - 🇮🇹 意大利
-      - 🇺🇸 美国 顺丰资源Youtube
       - 🇨🇳 epvincnt
-      - 185.44.76.188:31572
-      - 欧洲
-      - 🇳🇱 荷兰
-      - 🇮🇹 意大利 2
-      - 🇳🇱 荷兰 2
-      - 🇮🇹 意大利 3
-      - 🇩🇪 德国 6
-      - 🇷🇴 罗马尼亚
-      - 🇳🇱 荷兰 3
-      - 🇺🇸 美国 顺丰资源Youtube 2
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - w 22
-      - 🇮🇹 意大利 4
-      - 🇫🇷 法国 2
-      - 🇩🇪 德国 7
-      - 🇺🇸 美国 10
-      - 顺丰资源Youtube
-      - bulink 网友分享线路 6 移动
-      - 🇺🇸 美国 11
-      - 🇮🇹 意大利 5
-      - 塞浦路斯
-      - 塞浦路斯 2
-      - 🇮🇹 意大利 6
-      - 🇮🇹 意大利 7
-      - 198.147.22.87:33998
-      - 🇺🇸 美国 12
-      - 🇮🇹 意大利 8
-      - 🇮🇹 意大利 9
-      - 198.147.22.87:31572
-      - 🇺🇸 美国 顺丰资源Youtube 3
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国洛杉矶
-      - 🇦🇹 奥地利
-      - 塞浦路斯 3
-      - 塞浦路斯 4
-      - 🇨🇦 加拿大 4
-      - 🇺🇸 美国 顺丰资源Youtube 4
-      - 比利时
-      - 比利时 2
-      - 比利时 3
-      - 比利时 4
-      - 比利时 5
-      - 比利时 6
+      - 🇨🇳 heroepvcnt
+      - 🇺🇸 美国 (Y) 2
+      - "[free-ss.site]www.kernels.bid"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -548,76 +354,48 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇸 github.com/freefq - 美国  27
+      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 19
+      - 🇭🇰 github.com/freefq - 香港特别行政区 36
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君)
+      - isx.yt-02
+      - 🇺🇸 github.com/freefq - 美国  15
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 18
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 12
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 7
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 4
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 5
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - ""
+      - " 2"
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 3
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 2
+      - isx.yt-01
+      - 🇳🇱 github.com/freefq - 荷兰  21
+      - 🇩🇪 github.com/freefq - 德国Hetzner 29
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 8
+      - 🇮🇹 意大利(欢迎订阅YouTube破解资源君) 10
+      - 🇺🇸 美国(欢迎订阅YouTube破解资源君) 6
+      - 🇯🇵 日本(欢迎订阅YouTube破解资源君) 2
+      - isx.yt-03
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 8
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 32
+      - 🇺🇸 Relay_-🇺🇸US_1688
+      - 🇷🇺 github.com/freefq - 俄罗斯  31
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 34
+      - github.com/freefq - 匈牙利  35
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4323
+      - " 3"
       - 🇨🇳 heroepvcntip
-      - 🇨🇳 heroepvcnt
-      - 🇩🇪 德国
-      - 🇩🇪 德国 2
+      - 🇨🇳 github.com/freefq - 台湾省中华电信(HiNet)数据中心 17
+      - 🇳🇱 Relay_🇳🇱 NL-🇳🇱NL_4312
+      - " 4"
       - 🇺🇸 美国
-      - 🇩🇪 德国 3
-      - 🇺🇸 美国 2
-      - 154.17.2.31:18333
-      - 🇩🇪 德国 4
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇬🇧 英国
-      - bulink 网友分享线路 1 三网
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇫🇷 法国
-      - 🇩🇪 德国 5
-      - 🇨🇦 加拿大 3
-      - 🇩🇪 德国((www)) 3
-      - 🇮🇹 意大利
-      - 🇺🇸 美国 顺丰资源Youtube
       - 🇨🇳 epvincnt
-      - 185.44.76.188:31572
-      - 欧洲
-      - 🇳🇱 荷兰
-      - 🇮🇹 意大利 2
-      - 🇳🇱 荷兰 2
-      - 🇮🇹 意大利 3
-      - 🇩🇪 德国 6
-      - 🇷🇴 罗马尼亚
-      - 🇳🇱 荷兰 3
-      - 🇺🇸 美国 顺丰资源Youtube 2
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - w 22
-      - 🇮🇹 意大利 4
-      - 🇫🇷 法国 2
-      - 🇩🇪 德国 7
-      - 🇺🇸 美国 10
-      - 顺丰资源Youtube
-      - bulink 网友分享线路 6 移动
-      - 🇺🇸 美国 11
-      - 🇮🇹 意大利 5
-      - 塞浦路斯
-      - 塞浦路斯 2
-      - 🇮🇹 意大利 6
-      - 🇮🇹 意大利 7
-      - 198.147.22.87:33998
-      - 🇺🇸 美国 12
-      - 🇮🇹 意大利 8
-      - 🇮🇹 意大利 9
-      - 198.147.22.87:31572
-      - 🇺🇸 美国 顺丰资源Youtube 3
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国洛杉矶
-      - 🇦🇹 奥地利
-      - 塞浦路斯 3
-      - 塞浦路斯 4
-      - 🇨🇦 加拿大 4
-      - 🇺🇸 美国 顺丰资源Youtube 4
-      - 比利时
-      - 比利时 2
-      - 比利时 3
-      - 比利时 4
-      - 比利时 5
-      - 比利时 6
+      - 🇨🇳 heroepvcnt
+      - 🇺🇸 美国 (Y) 2
+      - "[free-ss.site]www.kernels.bid"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
