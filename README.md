@@ -5,503 +5,588 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇭🇰 香港 6M, server: 53.ssrj.xyz, port: 61153, type: vmess, uuid: cf94e751-aa4d-3c1a-b449-44a78538e547, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 6M 2, server: 44.ssrj.xyz, port: 61144, type: vmess, uuid: aa2db8fd-fdfe-3b01-86c3-36859ae4ed02, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国 ⑤M, server: 51.ssrj.xyz, port: 65151, type: vmess, uuid: 91ddce0f-f825-3977-8846-ba4b3a63233e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国 ⑤ M, server: 51.ssrj.xyz, port: 65151, type: vmess, uuid: aa2db8fd-fdfe-3b01-86c3-36859ae4ed02, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 5.5M, server: 44.ssrj.xyz, port: 61144, type: vmess, uuid: b83f2dc3-dfc2-3c1f-af1f-8d867d9c6091, alterId: 2, cipher: auto, tls: false}
   - {name: 🇭🇰 香港1 5.3M, server: 118.107.244.114, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇭🇰 香港 5.3M, server: 56.ssrj.xyz, port: 61156, type: vmess, uuid: aa2db8fd-fdfe-3b01-86c3-36859ae4ed02, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国 5.3M, server: 51.ssrj.xyz, port: 65151, type: vmess, uuid: cf94e751-aa4d-3c1a-b449-44a78538e547, alterId: 2, cipher: auto, tls: false}
   - {name: node0710_5M, server: 18.162.169.34, port: 80, type: vmess, uuid: b36cafcc-17d0-3c7e-9a06-366041e395a4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /download/233yun/78xifnxlz11wd8p2vanmg25mvvp1n61vezexpq465goyjltxblxjjujfkrnj5dyl2wrfks3vvwz32ssxacvi9ujf1rkpp4cxant, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇭🇰 香港5.1M, server: 54.ssrj.xyz, port: 61154, type: vmess, uuid: aa2db8fd-fdfe-3b01-86c3-36859ae4ed02, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡5.1M, server: 52.ssrj.xyz, port: 65152, type: vmess, uuid: 91ddce0f-f825-3977-8846-ba4b3a63233e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港5M, server: 44.ssrj.xyz, port: 61144, type: vmess, uuid: 91ddce0f-f825-3977-8846-ba4b3a63233e, alterId: 2, cipher: auto, tls: false}
   - {name: 🇭🇰 香港2_5M, server: 118.107.244.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇸🇬 新加坡4.9M, server: 64.ssrj.xyz, port: 65164, type: vmess, uuid: aa2db8fd-fdfe-3b01-86c3-36859ae4ed02, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港4.9M, server: 49.ssrj.xyz, port: 61149, type: vmess, uuid: cf94e751-aa4d-3c1a-b449-44a78538e547, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港4.9M 2, server: 55.ssrj.xyz, port: 61155, type: vmess, uuid: aa2db8fd-fdfe-3b01-86c3-36859ae4ed02, alterId: 2, cipher: auto, tls: false}
   - {name: node0710_4.8M, server: 104.19.45.117, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇭🇰 香港4.8M, server: 53.ssrj.xyz, port: 61153, type: vmess, uuid: 91ddce0f-f825-3977-8846-ba4b3a63233e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 4.8M, server: 56.ssrj.xyz, port: 61156, type: vmess, uuid: cf94e751-aa4d-3c1a-b449-44a78538e547, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港4.8M 2, server: 54.ssrj.xyz, port: 61154, type: vmess, uuid: 91ddce0f-f825-3977-8846-ba4b3a63233e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港4.5M, server: 56.ssrj.xyz, port: 61156, type: vmess, uuid: 91ddce0f-f825-3977-8846-ba4b3a63233e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港4.5M 2, server: 57.ssrj.xyz, port: 61157, type: vmess, uuid: cf94e751-aa4d-3c1a-b449-44a78538e547, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港4.3M, server: 49.ssrj.xyz, port: 61149, type: vmess, uuid: b83f2dc3-dfc2-3c1f-af1f-8d867d9c6091, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港4.2M, server: 45.ssrj.xyz, port: 61145, type: vmess, uuid: b83f2dc3-dfc2-3c1f-af1f-8d867d9c6091, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港4M, server: 45.ssrj.xyz, port: 61145, type: vmess, uuid: aa2db8fd-fdfe-3b01-86c3-36859ae4ed02, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡4M, server: 64.ssrj.xyz, port: 65164, type: vmess, uuid: 91ddce0f-f825-3977-8846-ba4b3a63233e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港4M 2, server: 66.ssrj.xyz, port: 65166, type: vmess, uuid: aa2db8fd-fdfe-3b01-86c3-36859ae4ed02, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本4M, server: 48.ssrj.xyz, port: 65148, type: vmess, uuid: aa2db8fd-fdfe-3b01-86c3-36859ae4ed02, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国4M, server: 63.ssrj.xyz, port: 65163, type: vmess, uuid: aa2db8fd-fdfe-3b01-86c3-36859ae4ed02, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国4M 2, server: 63.ssrj.xyz, port: 65163, type: vmess, uuid: cf94e751-aa4d-3c1a-b449-44a78538e547, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡4M 2, server: 64.ssrj.xyz, port: 65164, type: vmess, uuid: cf94e751-aa4d-3c1a-b449-44a78538e547, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国⑬ 4M, server: 63.ssrj.xyz, port: 65163, type: vmess, uuid: b83f2dc3-dfc2-3c1f-af1f-8d867d9c6091, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 4M, server: 53.ssrj.xyz, port: 61153, type: vmess, uuid: aa2db8fd-fdfe-3b01-86c3-36859ae4ed02, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 3.9M, server: 57.ssrj.xyz, port: 61157, type: vmess, uuid: aa2db8fd-fdfe-3b01-86c3-36859ae4ed02, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 3.9M 2, server: 55.ssrj.xyz, port: 61155, type: vmess, uuid: 91ddce0f-f825-3977-8846-ba4b3a63233e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港3.9M, server: 44.ssrj.xyz, port: 61144, type: vmess, uuid: cf94e751-aa4d-3c1a-b449-44a78538e547, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 3.9M 3, server: 55.ssrj.xyz, port: 61155, type: vmess, uuid: cf94e751-aa4d-3c1a-b449-44a78538e547, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 3.7, server: 57.ssrj.xyz, port: 61157, type: vmess, uuid: 91ddce0f-f825-3977-8846-ba4b3a63233e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 3.7M, server: 58.ssrj.xyz, port: 61158, type: vmess, uuid: aa2db8fd-fdfe-3b01-86c3-36859ae4ed02, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 3.7M 2, server: 58.ssrj.xyz, port: 61158, type: vmess, uuid: b83f2dc3-dfc2-3c1f-af1f-8d867d9c6091, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 3.7M 3, server: 67.ssrj.xyz, port: 65167, type: vmess, uuid: 91ddce0f-f825-3977-8846-ba4b3a63233e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 3.6M, server: 67.ssrj.xyz, port: 65167, type: vmess, uuid: cf94e751-aa4d-3c1a-b449-44a78538e547, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 3.6M 2, server: 65.ssrj.xyz, port: 65165, type: vmess, uuid: b83f2dc3-dfc2-3c1f-af1f-8d867d9c6091, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国 3.6M, server: 51.ssrj.xyz, port: 65151, type: vmess, uuid: b83f2dc3-dfc2-3c1f-af1f-8d867d9c6091, alterId: 2, cipher: auto, tls: false}
   - {name: 🇭🇰 香港3_3.5M, server: 118.107.244.113, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇭🇰 香港 3.5M, server: 67.ssrj.xyz, port: 65167, type: vmess, uuid: aa2db8fd-fdfe-3b01-86c3-36859ae4ed02, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡3.5M, server: 52.ssrj.xyz, port: 65152, type: vmess, uuid: aa2db8fd-fdfe-3b01-86c3-36859ae4ed02, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港3.4M, server: 65.ssrj.xyz, port: 65165, type: vmess, uuid: 91ddce0f-f825-3977-8846-ba4b3a63233e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港3.4M 2, server: 118.107.244.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇭🇰 香港 3.4M, server: 45.ssrj.xyz, port: 61145, type: vmess, uuid: cf94e751-aa4d-3c1a-b449-44a78538e547, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 3.3M, server: 49.ssrj.xyz, port: 61149, type: vmess, uuid: aa2db8fd-fdfe-3b01-86c3-36859ae4ed02, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本 3.3M, server: 48.ssrj.xyz, port: 65148, type: vmess, uuid: cf94e751-aa4d-3c1a-b449-44a78538e547, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本3.3M, server: 48.ssrj.xyz, port: 65148, type: vmess, uuid: 91ddce0f-f825-3977-8846-ba4b3a63233e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本 3.3M 2, server: 48.ssrj.xyz, port: 65148, type: vmess, uuid: b83f2dc3-dfc2-3c1f-af1f-8d867d9c6091, alterId: 2, cipher: auto, tls: false}
   - {name: node0710_3.5M, server: 62.216.92.169, port: 13139, type: vmess, uuid: 6bf86057-ee49-49ef-a396-48e4527770be, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 3M, server: 53.ssrj.xyz, port: 61153, type: vmess, uuid: b83f2dc3-dfc2-3c1f-af1f-8d867d9c6091, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 ⑮ 3M, server: 65.ssrj.xyz, port: 65165, type: vmess, uuid: cf94e751-aa4d-3c1a-b449-44a78538e547, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港  ⑯ 3M, server: 66.ssrj.xyz, port: 65166, type: vmess, uuid: b83f2dc3-dfc2-3c1f-af1f-8d867d9c6091, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港  ⑧ 3M, server: 54.ssrj.xyz, port: 61154, type: vmess, uuid: cf94e751-aa4d-3c1a-b449-44a78538e547, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港  ⑧3M, server: 54.ssrj.xyz, port: 61154, type: vmess, uuid: b83f2dc3-dfc2-3c1f-af1f-8d867d9c6091, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港3M, server: 118.107.244.113, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇭🇰 香港  ⑯ 3M 2, server: 66.ssrj.xyz, port: 65166, type: vmess, uuid: cf94e751-aa4d-3c1a-b449-44a78538e547, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡⑭3M, server: 64.ssrj.xyz, port: 65164, type: vmess, uuid: b83f2dc3-dfc2-3c1f-af1f-8d867d9c6091, alterId: 2, cipher: auto, tls: false}
   - {name: node0710_2.8M, server: 194.156.230.203, port: 33342, type: vmess, uuid: 31d634a4-e223-4287-a4df-0db3e33b66bf, alterId: 0, cipher: auto, tls: false}
   - {name: node0710_2.7M, server: 62.216.92.166, port: 37943, type: vmess, uuid: b95f25e6-2dbe-4382-9fde-c854479c0f7a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 ⑮ 2.7M, server: 65.ssrj.xyz, port: 65165, type: vmess, uuid: aa2db8fd-fdfe-3b01-86c3-36859ae4ed02, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港  ⑨2.7M, server: 55.ssrj.xyz, port: 61155, type: vmess, uuid: b83f2dc3-dfc2-3c1f-af1f-8d867d9c6091, alterId: 2, cipher: auto, tls: false}
   - {name: node0710_2.6M, server: 152.70.102.66, port: 19999, type: vmess, uuid: ce6c472b-b5c6-43c9-82f5-421a7a1c5c6b, alterId: 8, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 152.70.102.66}}
   - {name: node0710_2.6M 2, server: qdse.dfiiopopiwfefefsf.ml, port: 443, type: vmess, uuid: 9f0b20d5-5cf7-43f0-b9b0-af08057400f0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /3980cf6/, ws-headers: {Host: qdse.dfiiopopiwfefefsf.ml}}
-  - {name: node0710_1.9M, server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 美国1.4M, server: qn-a-01.joker007.top, port: 443, type: vmess, uuid: e90c4ab7-c3f0-43b0-80f8-48b4fffec448, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: qn-a-01.joker007.top}}
-  - {name: 198.8.92.84:38742  1.3M, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: w1.2M, server: 198.8.92.84, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 公益节点joker007.top 美国1.2M, server: mc-a-01.joker007.top, port: 80, type: vmess, uuid: e90c4ab7-c3f0-43b0-80f8-48b4fffec448, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: mc-a-01.joker007.top}}
-  - {name: 🇺🇸 美国1.2M, server: 198.8.92.84, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: w 1.1M, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 198.8.92.84:40093_1.1M, server: 198.8.92.84, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇬🇧 英国1.1m, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 1.1M, server: dtda.dfiiopopiwsdadsda.ga, port: 443, type: vmess, uuid: 9e7d1dea-b240-4b0e-abe8-82dde00394f1, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /7ed5849/, ws-headers: {Host: dtda.dfiiopopiwsdadsda.ga}}
-  - {name: w1.1M, server: 185.44.76.188, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 51.195.62.220:811_1.1M, server: 51.195.62.220, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇮🇹 意大利1.1M, server: 82.102.26.117, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: node0710_1M, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
-  - {name: 🇯🇵 日本 1M, server: 54.223.185.171, port: 8001, type: vmess, uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.185.171}}
-  - {name: 🇬🇧 英国1M, server: 185.44.76.188, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 51.195.62.220:808_1M, server: 51.195.62.220, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇺🇸 美国1M, server: 66.115.175.37, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: w1M, server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: YouTube-阿伟科技1M, server: 18.157.179.71, port: 443, type: vmess, uuid: 81dd574d-8d47-4b31-9f5a-3f638b427842, alterId: 64, cipher: auto, tls: false}
-  - {name: 198.147.22.87:33998_.9M, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇩🇪 德国.9M, server: 51.89.99.59, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: ww 7, server: 82.102.26.117, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 罗马(w) 9, server: 91.90.123.115, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇩🇪 德国, server: 85.10.50.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: g 6, server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 195.47.194.42:35294, server: 195.47.194.42, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 207.244.67.149:50168, server: 207.244.67.149, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a, server: 195.47.194.42, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 罗马(w) 6, server: 91.90.123.115, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇭🇰 香港4, server: 54.223.185.171, port: 8001, type: vmess, uuid: 83c18473-68f5-4c6e-8f3b-728abd2f04df, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.185.171}}
-  - {name: node0710, server: qn-a-01.joker007.top, port: 443, type: vmess, uuid: e90c4ab7-c3f0-43b0-80f8-48b4fffec448, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: qn-a-01.joker007.top}}
-  - {name: 🇺🇸 美国, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 195.47.194.42, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 罗马(w) 18, server: 91.90.123.115, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 美国w 18, server: 198.8.92.84, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 罗马(w) 10, server: 91.90.123.115, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇷🇺 俄罗斯, server: ru-a-01.joker007.top, port: 80, type: vmess, uuid: e90c4ab7-c3f0-43b0-80f8-48b4fffec448, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇩🇪 DE-34 联通100M+4K, server: 104.18.27.64, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 罗马(w) 20, server: 91.90.123.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国 2, server: 198.147.22.87, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: w, server: 198.147.22.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 罗马(w) 21, server: 91.90.123.115, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
-  - {name: 罗马(w) 11, server: 91.90.123.115, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 2, server: ru-a-01.joker007.top, port: 80, type: vmess, uuid: e90c4ab7-c3f0-43b0-80f8-48b4fffec448, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇩🇪 DE-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s, server: 104.16.207.196, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 美国 3, server: 137.59.52.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 罗马(w) 7, server: 91.90.123.115, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇳🇱 github.com/freefq - 荷兰  12, server: 46.182.107.39, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.07890885.xyz}}
-  - {name: node0710 2, server: 23.224.30.37, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
-  - {name: github.com/freefq - 匈牙利  35, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false}
-  - {name: g 2, server: 195.47.194.42, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇳🇱 荷兰🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 46.182.107.25, port: 443, type: vmess, uuid: 0a1ab3bd-0431-4da8-ad8a-238367ce4efc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.11300814.xyz}}
-  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2, server: 198.8.92.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇭🇰 香港 ⑫2.5M, server: 58.ssrj.xyz, port: 61158, type: vmess, uuid: cf94e751-aa4d-3c1a-b449-44a78538e547, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 ⑰2.5M, server: 67.ssrj.xyz, port: 65167, type: vmess, uuid: b83f2dc3-dfc2-3c1f-af1f-8d867d9c6091, alterId: 2, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 香港 6M
+      - 🇭🇰 香港 6M 2
+      - 🇫🇷 法国 ⑤M
+      - 🇫🇷 法国 ⑤ M
+      - 🇭🇰 香港 5.5M
       - 🇭🇰 香港1 5.3M
+      - 🇭🇰 香港 5.3M
+      - 🇫🇷 法国 5.3M
       - node0710_5M
+      - 🇭🇰 香港5.1M
+      - 🇸🇬 新加坡5.1M
+      - 🇭🇰 香港5M
       - 🇭🇰 香港2_5M
+      - 🇸🇬 新加坡4.9M
+      - 🇭🇰 香港4.9M
+      - 🇭🇰 香港4.9M 2
       - node0710_4.8M
+      - 🇭🇰 香港4.8M
+      - 🇭🇰 香港 4.8M
+      - 🇭🇰 香港4.8M 2
+      - 🇭🇰 香港4.5M
+      - 🇭🇰 香港4.5M 2
+      - 🇭🇰 香港4.3M
+      - 🇭🇰 香港4.2M
+      - 🇭🇰 香港4M
+      - 🇸🇬 新加坡4M
+      - 🇭🇰 香港4M 2
+      - 🇯🇵 日本4M
+      - 🇺🇸 美国4M
+      - 🇺🇸 美国4M 2
+      - 🇸🇬 新加坡4M 2
+      - 🇺🇸 美国⑬ 4M
+      - 🇭🇰 香港 4M
+      - 🇭🇰 香港 3.9M
+      - 🇭🇰 香港 3.9M 2
+      - 🇭🇰 香港3.9M
+      - 🇭🇰 香港 3.9M 3
+      - 🇭🇰 香港 3.7
+      - 🇭🇰 香港 3.7M
+      - 🇭🇰 香港 3.7M 2
+      - 🇭🇰 香港 3.7M 3
+      - 🇭🇰 香港 3.6M
+      - 🇭🇰 香港 3.6M 2
+      - 🇫🇷 法国 3.6M
       - 🇭🇰 香港3_3.5M
+      - 🇭🇰 香港 3.5M
+      - 🇸🇬 新加坡3.5M
+      - 🇭🇰 香港3.4M
+      - 🇭🇰 香港3.4M 2
+      - 🇭🇰 香港 3.4M
+      - 🇭🇰 香港 3.3M
+      - 🇯🇵 日本 3.3M
+      - 🇯🇵 日本3.3M
+      - 🇯🇵 日本 3.3M 2
       - node0710_3.5M
+      - 🇭🇰 香港 3M
+      - 🇭🇰 香港 ⑮ 3M
+      - 🇭🇰 香港  ⑯ 3M
+      - 🇭🇰 香港  ⑧ 3M
+      - 🇭🇰 香港  ⑧3M
+      - 🇭🇰 香港3M
+      - 🇭🇰 香港  ⑯ 3M 2
+      - 🇸🇬 新加坡⑭3M
       - node0710_2.8M
       - node0710_2.7M
+      - 🇭🇰 香港 ⑮ 2.7M
+      - 🇭🇰 香港  ⑨2.7M
       - node0710_2.6M
       - node0710_2.6M 2
-      - node0710_1.9M
-      - 🇺🇸 美国1.4M
-      - 198.8.92.84:38742  1.3M
-      - w1.2M
-      - 🇺🇸 公益节点joker007.top 美国1.2M
-      - 🇺🇸 美国1.2M
-      - w 1.1M
-      - 198.8.92.84:40093_1.1M
-      - 🇬🇧 英国1.1m
-      - 1.1M
-      - w1.1M
-      - 51.195.62.220:811_1.1M
-      - 🇮🇹 意大利1.1M
-      - node0710_1M
-      - 🇯🇵 日本 1M
-      - 🇬🇧 英国1M
-      - 51.195.62.220:808_1M
-      - 🇺🇸 美国1M
-      - w1M
-      - YouTube-阿伟科技1M
-      - 198.147.22.87:33998_.9M
-      - 🇩🇪 德国.9M
-      - ww 7
-      - 罗马(w) 9
-      - 🇩🇪 德国
-      - g 6
-      - 195.47.194.42:35294
-      - 207.244.67.149:50168
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 罗马(w) 6
-      - 🇭🇰 香港4
-      - node0710
-      - 🇺🇸 美国
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 罗马(w) 18
-      - 🇺🇸 美国w 18
-      - 罗马(w) 10
-      - 🇷🇺 俄罗斯
-      - 🇩🇪 DE-34 联通100M+4K
-      - 罗马(w) 20
-      - 🇺🇸 美国 2
-      - w
-      - 罗马(w) 21
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 罗马(w) 11
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇩🇪 DE-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 美国 3
-      - 罗马(w) 7
-      - 🇳🇱 github.com/freefq - 荷兰  12
-      - node0710 2
-      - github.com/freefq - 匈牙利  35
-      - g 2
-      - 🇳🇱 荷兰🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇭🇰 香港 ⑫2.5M
+      - 🇭🇰 香港 ⑰2.5M
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇭🇰 香港 6M
+      - 🇭🇰 香港 6M 2
+      - 🇫🇷 法国 ⑤M
+      - 🇫🇷 法国 ⑤ M
+      - 🇭🇰 香港 5.5M
       - 🇭🇰 香港1 5.3M
+      - 🇭🇰 香港 5.3M
+      - 🇫🇷 法国 5.3M
       - node0710_5M
+      - 🇭🇰 香港5.1M
+      - 🇸🇬 新加坡5.1M
+      - 🇭🇰 香港5M
       - 🇭🇰 香港2_5M
+      - 🇸🇬 新加坡4.9M
+      - 🇭🇰 香港4.9M
+      - 🇭🇰 香港4.9M 2
       - node0710_4.8M
+      - 🇭🇰 香港4.8M
+      - 🇭🇰 香港 4.8M
+      - 🇭🇰 香港4.8M 2
+      - 🇭🇰 香港4.5M
+      - 🇭🇰 香港4.5M 2
+      - 🇭🇰 香港4.3M
+      - 🇭🇰 香港4.2M
+      - 🇭🇰 香港4M
+      - 🇸🇬 新加坡4M
+      - 🇭🇰 香港4M 2
+      - 🇯🇵 日本4M
+      - 🇺🇸 美国4M
+      - 🇺🇸 美国4M 2
+      - 🇸🇬 新加坡4M 2
+      - 🇺🇸 美国⑬ 4M
+      - 🇭🇰 香港 4M
+      - 🇭🇰 香港 3.9M
+      - 🇭🇰 香港 3.9M 2
+      - 🇭🇰 香港3.9M
+      - 🇭🇰 香港 3.9M 3
+      - 🇭🇰 香港 3.7
+      - 🇭🇰 香港 3.7M
+      - 🇭🇰 香港 3.7M 2
+      - 🇭🇰 香港 3.7M 3
+      - 🇭🇰 香港 3.6M
+      - 🇭🇰 香港 3.6M 2
+      - 🇫🇷 法国 3.6M
       - 🇭🇰 香港3_3.5M
+      - 🇭🇰 香港 3.5M
+      - 🇸🇬 新加坡3.5M
+      - 🇭🇰 香港3.4M
+      - 🇭🇰 香港3.4M 2
+      - 🇭🇰 香港 3.4M
+      - 🇭🇰 香港 3.3M
+      - 🇯🇵 日本 3.3M
+      - 🇯🇵 日本3.3M
+      - 🇯🇵 日本 3.3M 2
       - node0710_3.5M
+      - 🇭🇰 香港 3M
+      - 🇭🇰 香港 ⑮ 3M
+      - 🇭🇰 香港  ⑯ 3M
+      - 🇭🇰 香港  ⑧ 3M
+      - 🇭🇰 香港  ⑧3M
+      - 🇭🇰 香港3M
+      - 🇭🇰 香港  ⑯ 3M 2
+      - 🇸🇬 新加坡⑭3M
       - node0710_2.8M
       - node0710_2.7M
+      - 🇭🇰 香港 ⑮ 2.7M
+      - 🇭🇰 香港  ⑨2.7M
       - node0710_2.6M
       - node0710_2.6M 2
-      - node0710_1.9M
-      - 🇺🇸 美国1.4M
-      - 198.8.92.84:38742  1.3M
-      - w1.2M
-      - 🇺🇸 公益节点joker007.top 美国1.2M
-      - 🇺🇸 美国1.2M
-      - w 1.1M
-      - 198.8.92.84:40093_1.1M
-      - 🇬🇧 英国1.1m
-      - 1.1M
-      - w1.1M
-      - 51.195.62.220:811_1.1M
-      - 🇮🇹 意大利1.1M
-      - node0710_1M
-      - 🇯🇵 日本 1M
-      - 🇬🇧 英国1M
-      - 51.195.62.220:808_1M
-      - 🇺🇸 美国1M
-      - w1M
-      - YouTube-阿伟科技1M
-      - 198.147.22.87:33998_.9M
-      - 🇩🇪 德国.9M
-      - ww 7
-      - 罗马(w) 9
-      - 🇩🇪 德国
-      - g 6
-      - 195.47.194.42:35294
-      - 207.244.67.149:50168
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 罗马(w) 6
-      - 🇭🇰 香港4
-      - node0710
-      - 🇺🇸 美国
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 罗马(w) 18
-      - 🇺🇸 美国w 18
-      - 罗马(w) 10
-      - 🇷🇺 俄罗斯
-      - 🇩🇪 DE-34 联通100M+4K
-      - 罗马(w) 20
-      - 🇺🇸 美国 2
-      - w
-      - 罗马(w) 21
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 罗马(w) 11
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇩🇪 DE-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 美国 3
-      - 罗马(w) 7
-      - 🇳🇱 github.com/freefq - 荷兰  12
-      - node0710 2
-      - github.com/freefq - 匈牙利  35
-      - g 2
-      - 🇳🇱 荷兰🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇭🇰 香港 ⑫2.5M
+      - 🇭🇰 香港 ⑰2.5M
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 香港 6M
+      - 🇭🇰 香港 6M 2
+      - 🇫🇷 法国 ⑤M
+      - 🇫🇷 法国 ⑤ M
+      - 🇭🇰 香港 5.5M
       - 🇭🇰 香港1 5.3M
+      - 🇭🇰 香港 5.3M
+      - 🇫🇷 法国 5.3M
       - node0710_5M
+      - 🇭🇰 香港5.1M
+      - 🇸🇬 新加坡5.1M
+      - 🇭🇰 香港5M
       - 🇭🇰 香港2_5M
+      - 🇸🇬 新加坡4.9M
+      - 🇭🇰 香港4.9M
+      - 🇭🇰 香港4.9M 2
       - node0710_4.8M
+      - 🇭🇰 香港4.8M
+      - 🇭🇰 香港 4.8M
+      - 🇭🇰 香港4.8M 2
+      - 🇭🇰 香港4.5M
+      - 🇭🇰 香港4.5M 2
+      - 🇭🇰 香港4.3M
+      - 🇭🇰 香港4.2M
+      - 🇭🇰 香港4M
+      - 🇸🇬 新加坡4M
+      - 🇭🇰 香港4M 2
+      - 🇯🇵 日本4M
+      - 🇺🇸 美国4M
+      - 🇺🇸 美国4M 2
+      - 🇸🇬 新加坡4M 2
+      - 🇺🇸 美国⑬ 4M
+      - 🇭🇰 香港 4M
+      - 🇭🇰 香港 3.9M
+      - 🇭🇰 香港 3.9M 2
+      - 🇭🇰 香港3.9M
+      - 🇭🇰 香港 3.9M 3
+      - 🇭🇰 香港 3.7
+      - 🇭🇰 香港 3.7M
+      - 🇭🇰 香港 3.7M 2
+      - 🇭🇰 香港 3.7M 3
+      - 🇭🇰 香港 3.6M
+      - 🇭🇰 香港 3.6M 2
+      - 🇫🇷 法国 3.6M
       - 🇭🇰 香港3_3.5M
+      - 🇭🇰 香港 3.5M
+      - 🇸🇬 新加坡3.5M
+      - 🇭🇰 香港3.4M
+      - 🇭🇰 香港3.4M 2
+      - 🇭🇰 香港 3.4M
+      - 🇭🇰 香港 3.3M
+      - 🇯🇵 日本 3.3M
+      - 🇯🇵 日本3.3M
+      - 🇯🇵 日本 3.3M 2
       - node0710_3.5M
+      - 🇭🇰 香港 3M
+      - 🇭🇰 香港 ⑮ 3M
+      - 🇭🇰 香港  ⑯ 3M
+      - 🇭🇰 香港  ⑧ 3M
+      - 🇭🇰 香港  ⑧3M
+      - 🇭🇰 香港3M
+      - 🇭🇰 香港  ⑯ 3M 2
+      - 🇸🇬 新加坡⑭3M
       - node0710_2.8M
       - node0710_2.7M
+      - 🇭🇰 香港 ⑮ 2.7M
+      - 🇭🇰 香港  ⑨2.7M
       - node0710_2.6M
       - node0710_2.6M 2
-      - node0710_1.9M
-      - 🇺🇸 美国1.4M
-      - 198.8.92.84:38742  1.3M
-      - w1.2M
-      - 🇺🇸 公益节点joker007.top 美国1.2M
-      - 🇺🇸 美国1.2M
-      - w 1.1M
-      - 198.8.92.84:40093_1.1M
-      - 🇬🇧 英国1.1m
-      - 1.1M
-      - w1.1M
-      - 51.195.62.220:811_1.1M
-      - 🇮🇹 意大利1.1M
-      - node0710_1M
-      - 🇯🇵 日本 1M
-      - 🇬🇧 英国1M
-      - 51.195.62.220:808_1M
-      - 🇺🇸 美国1M
-      - w1M
-      - YouTube-阿伟科技1M
-      - 198.147.22.87:33998_.9M
-      - 🇩🇪 德国.9M
-      - ww 7
-      - 罗马(w) 9
-      - 🇩🇪 德国
-      - g 6
-      - 195.47.194.42:35294
-      - 207.244.67.149:50168
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 罗马(w) 6
-      - 🇭🇰 香港4
-      - node0710
-      - 🇺🇸 美国
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 罗马(w) 18
-      - 🇺🇸 美国w 18
-      - 罗马(w) 10
-      - 🇷🇺 俄罗斯
-      - 🇩🇪 DE-34 联通100M+4K
-      - 罗马(w) 20
-      - 🇺🇸 美国 2
-      - w
-      - 罗马(w) 21
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 罗马(w) 11
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇩🇪 DE-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 美国 3
-      - 罗马(w) 7
-      - 🇳🇱 github.com/freefq - 荷兰  12
-      - node0710 2
-      - github.com/freefq - 匈牙利  35
-      - g 2
-      - 🇳🇱 荷兰🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇭🇰 香港 ⑫2.5M
+      - 🇭🇰 香港 ⑰2.5M
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港 6M
+      - 🇭🇰 香港 6M 2
+      - 🇭🇰 香港 5.5M
       - 🇭🇰 香港1 5.3M
+      - 🇭🇰 香港 5.3M
+      - 🇭🇰 香港5.1M
+      - 🇭🇰 香港5M
       - 🇭🇰 香港2_5M
+      - 🇭🇰 香港4.9M
+      - 🇭🇰 香港4.9M 2
+      - 🇭🇰 香港4.8M
+      - 🇭🇰 香港 4.8M
+      - 🇭🇰 香港4.8M 2
+      - 🇭🇰 香港4.5M
+      - 🇭🇰 香港4.5M 2
+      - 🇭🇰 香港4.3M
+      - 🇭🇰 香港4.2M
+      - 🇭🇰 香港4M
+      - 🇭🇰 香港4M 2
+      - 🇭🇰 香港 4M
+      - 🇭🇰 香港 3.9M
+      - 🇭🇰 香港 3.9M 2
+      - 🇭🇰 香港3.9M
+      - 🇭🇰 香港 3.9M 3
+      - 🇭🇰 香港 3.7
+      - 🇭🇰 香港 3.7M
+      - 🇭🇰 香港 3.7M 2
+      - 🇭🇰 香港 3.7M 3
+      - 🇭🇰 香港 3.6M
+      - 🇭🇰 香港 3.6M 2
       - 🇭🇰 香港3_3.5M
-      - 🇭🇰 香港4
+      - 🇭🇰 香港 3.5M
+      - 🇭🇰 香港3.4M
+      - 🇭🇰 香港3.4M 2
+      - 🇭🇰 香港 3.4M
+      - 🇭🇰 香港 3.3M
+      - 🇭🇰 香港 3M
+      - 🇭🇰 香港 ⑮ 3M
+      - 🇭🇰 香港  ⑯ 3M
+      - 🇭🇰 香港  ⑧ 3M
+      - 🇭🇰 香港  ⑧3M
+      - 🇭🇰 香港3M
+      - 🇭🇰 香港  ⑯ 3M 2
+      - 🇭🇰 香港 ⑮ 2.7M
+      - 🇭🇰 香港  ⑨2.7M
+      - 🇭🇰 香港 ⑫2.5M
+      - 🇭🇰 香港 ⑰2.5M
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇭🇰 香港 6M
+      - 🇭🇰 香港 6M 2
+      - 🇫🇷 法国 ⑤M
+      - 🇫🇷 法国 ⑤ M
+      - 🇭🇰 香港 5.5M
       - 🇭🇰 香港1 5.3M
+      - 🇭🇰 香港 5.3M
+      - 🇫🇷 法国 5.3M
       - node0710_5M
+      - 🇭🇰 香港5.1M
+      - 🇸🇬 新加坡5.1M
+      - 🇭🇰 香港5M
       - 🇭🇰 香港2_5M
+      - 🇸🇬 新加坡4.9M
+      - 🇭🇰 香港4.9M
+      - 🇭🇰 香港4.9M 2
       - node0710_4.8M
+      - 🇭🇰 香港4.8M
+      - 🇭🇰 香港 4.8M
+      - 🇭🇰 香港4.8M 2
+      - 🇭🇰 香港4.5M
+      - 🇭🇰 香港4.5M 2
+      - 🇭🇰 香港4.3M
+      - 🇭🇰 香港4.2M
+      - 🇭🇰 香港4M
+      - 🇸🇬 新加坡4M
+      - 🇭🇰 香港4M 2
+      - 🇯🇵 日本4M
+      - 🇺🇸 美国4M
+      - 🇺🇸 美国4M 2
+      - 🇸🇬 新加坡4M 2
+      - 🇺🇸 美国⑬ 4M
+      - 🇭🇰 香港 4M
+      - 🇭🇰 香港 3.9M
+      - 🇭🇰 香港 3.9M 2
+      - 🇭🇰 香港3.9M
+      - 🇭🇰 香港 3.9M 3
+      - 🇭🇰 香港 3.7
+      - 🇭🇰 香港 3.7M
+      - 🇭🇰 香港 3.7M 2
+      - 🇭🇰 香港 3.7M 3
+      - 🇭🇰 香港 3.6M
+      - 🇭🇰 香港 3.6M 2
+      - 🇫🇷 法国 3.6M
       - 🇭🇰 香港3_3.5M
+      - 🇭🇰 香港 3.5M
+      - 🇸🇬 新加坡3.5M
+      - 🇭🇰 香港3.4M
+      - 🇭🇰 香港3.4M 2
+      - 🇭🇰 香港 3.4M
+      - 🇭🇰 香港 3.3M
+      - 🇯🇵 日本 3.3M
+      - 🇯🇵 日本3.3M
+      - 🇯🇵 日本 3.3M 2
       - node0710_3.5M
+      - 🇭🇰 香港 3M
+      - 🇭🇰 香港 ⑮ 3M
+      - 🇭🇰 香港  ⑯ 3M
+      - 🇭🇰 香港  ⑧ 3M
+      - 🇭🇰 香港  ⑧3M
+      - 🇭🇰 香港3M
+      - 🇭🇰 香港  ⑯ 3M 2
+      - 🇸🇬 新加坡⑭3M
       - node0710_2.8M
       - node0710_2.7M
+      - 🇭🇰 香港 ⑮ 2.7M
+      - 🇭🇰 香港  ⑨2.7M
       - node0710_2.6M
       - node0710_2.6M 2
-      - node0710_1.9M
-      - 🇺🇸 美国1.4M
-      - 198.8.92.84:38742  1.3M
-      - w1.2M
-      - 🇺🇸 公益节点joker007.top 美国1.2M
-      - 🇺🇸 美国1.2M
-      - w 1.1M
-      - 198.8.92.84:40093_1.1M
-      - 🇬🇧 英国1.1m
-      - 1.1M
-      - w1.1M
-      - 51.195.62.220:811_1.1M
-      - 🇮🇹 意大利1.1M
-      - node0710_1M
-      - 🇯🇵 日本 1M
-      - 🇬🇧 英国1M
-      - 51.195.62.220:808_1M
-      - 🇺🇸 美国1M
-      - w1M
-      - YouTube-阿伟科技1M
-      - 198.147.22.87:33998_.9M
-      - 🇩🇪 德国.9M
-      - ww 7
-      - 罗马(w) 9
-      - 🇩🇪 德国
-      - g 6
-      - 195.47.194.42:35294
-      - 207.244.67.149:50168
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 罗马(w) 6
-      - 🇭🇰 香港4
-      - node0710
-      - 🇺🇸 美国
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 罗马(w) 18
-      - 🇺🇸 美国w 18
-      - 罗马(w) 10
-      - 🇷🇺 俄罗斯
-      - 🇩🇪 DE-34 联通100M+4K
-      - 罗马(w) 20
-      - 🇺🇸 美国 2
-      - w
-      - 罗马(w) 21
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 罗马(w) 11
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇩🇪 DE-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 美国 3
-      - 罗马(w) 7
-      - 🇳🇱 github.com/freefq - 荷兰  12
-      - node0710 2
-      - github.com/freefq - 匈牙利  35
-      - g 2
-      - 🇳🇱 荷兰🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇭🇰 香港 ⑫2.5M
+      - 🇭🇰 香港 ⑰2.5M
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇭🇰 香港 6M
+      - 🇭🇰 香港 6M 2
+      - 🇫🇷 法国 ⑤M
+      - 🇫🇷 法国 ⑤ M
+      - 🇭🇰 香港 5.5M
       - 🇭🇰 香港1 5.3M
+      - 🇭🇰 香港 5.3M
+      - 🇫🇷 法国 5.3M
       - node0710_5M
+      - 🇭🇰 香港5.1M
+      - 🇸🇬 新加坡5.1M
+      - 🇭🇰 香港5M
       - 🇭🇰 香港2_5M
+      - 🇸🇬 新加坡4.9M
+      - 🇭🇰 香港4.9M
+      - 🇭🇰 香港4.9M 2
       - node0710_4.8M
+      - 🇭🇰 香港4.8M
+      - 🇭🇰 香港 4.8M
+      - 🇭🇰 香港4.8M 2
+      - 🇭🇰 香港4.5M
+      - 🇭🇰 香港4.5M 2
+      - 🇭🇰 香港4.3M
+      - 🇭🇰 香港4.2M
+      - 🇭🇰 香港4M
+      - 🇸🇬 新加坡4M
+      - 🇭🇰 香港4M 2
+      - 🇯🇵 日本4M
+      - 🇺🇸 美国4M
+      - 🇺🇸 美国4M 2
+      - 🇸🇬 新加坡4M 2
+      - 🇺🇸 美国⑬ 4M
+      - 🇭🇰 香港 4M
+      - 🇭🇰 香港 3.9M
+      - 🇭🇰 香港 3.9M 2
+      - 🇭🇰 香港3.9M
+      - 🇭🇰 香港 3.9M 3
+      - 🇭🇰 香港 3.7
+      - 🇭🇰 香港 3.7M
+      - 🇭🇰 香港 3.7M 2
+      - 🇭🇰 香港 3.7M 3
+      - 🇭🇰 香港 3.6M
+      - 🇭🇰 香港 3.6M 2
+      - 🇫🇷 法国 3.6M
       - 🇭🇰 香港3_3.5M
+      - 🇭🇰 香港 3.5M
+      - 🇸🇬 新加坡3.5M
+      - 🇭🇰 香港3.4M
+      - 🇭🇰 香港3.4M 2
+      - 🇭🇰 香港 3.4M
+      - 🇭🇰 香港 3.3M
+      - 🇯🇵 日本 3.3M
+      - 🇯🇵 日本3.3M
+      - 🇯🇵 日本 3.3M 2
       - node0710_3.5M
+      - 🇭🇰 香港 3M
+      - 🇭🇰 香港 ⑮ 3M
+      - 🇭🇰 香港  ⑯ 3M
+      - 🇭🇰 香港  ⑧ 3M
+      - 🇭🇰 香港  ⑧3M
+      - 🇭🇰 香港3M
+      - 🇭🇰 香港  ⑯ 3M 2
+      - 🇸🇬 新加坡⑭3M
       - node0710_2.8M
       - node0710_2.7M
+      - 🇭🇰 香港 ⑮ 2.7M
+      - 🇭🇰 香港  ⑨2.7M
       - node0710_2.6M
       - node0710_2.6M 2
-      - node0710_1.9M
-      - 🇺🇸 美国1.4M
-      - 198.8.92.84:38742  1.3M
-      - w1.2M
-      - 🇺🇸 公益节点joker007.top 美国1.2M
-      - 🇺🇸 美国1.2M
-      - w 1.1M
-      - 198.8.92.84:40093_1.1M
-      - 🇬🇧 英国1.1m
-      - 1.1M
-      - w1.1M
-      - 51.195.62.220:811_1.1M
-      - 🇮🇹 意大利1.1M
-      - node0710_1M
-      - 🇯🇵 日本 1M
-      - 🇬🇧 英国1M
-      - 51.195.62.220:808_1M
-      - 🇺🇸 美国1M
-      - w1M
-      - YouTube-阿伟科技1M
-      - 198.147.22.87:33998_.9M
-      - 🇩🇪 德国.9M
-      - ww 7
-      - 罗马(w) 9
-      - 🇩🇪 德国
-      - g 6
-      - 195.47.194.42:35294
-      - 207.244.67.149:50168
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 罗马(w) 6
-      - 🇭🇰 香港4
-      - node0710
-      - 🇺🇸 美国
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 罗马(w) 18
-      - 🇺🇸 美国w 18
-      - 罗马(w) 10
-      - 🇷🇺 俄罗斯
-      - 🇩🇪 DE-34 联通100M+4K
-      - 罗马(w) 20
-      - 🇺🇸 美国 2
-      - w
-      - 罗马(w) 21
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 罗马(w) 11
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇩🇪 DE-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 美国 3
-      - 罗马(w) 7
-      - 🇳🇱 github.com/freefq - 荷兰  12
-      - node0710 2
-      - github.com/freefq - 匈牙利  35
-      - g 2
-      - 🇳🇱 荷兰🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇭🇰 香港 ⑫2.5M
+      - 🇭🇰 香港 ⑰2.5M
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 香港 6M
+      - 🇭🇰 香港 6M 2
+      - 🇫🇷 法国 ⑤M
+      - 🇫🇷 法国 ⑤ M
+      - 🇭🇰 香港 5.5M
       - 🇭🇰 香港1 5.3M
+      - 🇭🇰 香港 5.3M
+      - 🇫🇷 法国 5.3M
       - node0710_5M
+      - 🇭🇰 香港5.1M
+      - 🇸🇬 新加坡5.1M
+      - 🇭🇰 香港5M
       - 🇭🇰 香港2_5M
+      - 🇸🇬 新加坡4.9M
+      - 🇭🇰 香港4.9M
+      - 🇭🇰 香港4.9M 2
       - node0710_4.8M
+      - 🇭🇰 香港4.8M
+      - 🇭🇰 香港 4.8M
+      - 🇭🇰 香港4.8M 2
+      - 🇭🇰 香港4.5M
+      - 🇭🇰 香港4.5M 2
+      - 🇭🇰 香港4.3M
+      - 🇭🇰 香港4.2M
+      - 🇭🇰 香港4M
+      - 🇸🇬 新加坡4M
+      - 🇭🇰 香港4M 2
+      - 🇯🇵 日本4M
+      - 🇺🇸 美国4M
+      - 🇺🇸 美国4M 2
+      - 🇸🇬 新加坡4M 2
+      - 🇺🇸 美国⑬ 4M
+      - 🇭🇰 香港 4M
+      - 🇭🇰 香港 3.9M
+      - 🇭🇰 香港 3.9M 2
+      - 🇭🇰 香港3.9M
+      - 🇭🇰 香港 3.9M 3
+      - 🇭🇰 香港 3.7
+      - 🇭🇰 香港 3.7M
+      - 🇭🇰 香港 3.7M 2
+      - 🇭🇰 香港 3.7M 3
+      - 🇭🇰 香港 3.6M
+      - 🇭🇰 香港 3.6M 2
+      - 🇫🇷 法国 3.6M
       - 🇭🇰 香港3_3.5M
+      - 🇭🇰 香港 3.5M
+      - 🇸🇬 新加坡3.5M
+      - 🇭🇰 香港3.4M
+      - 🇭🇰 香港3.4M 2
+      - 🇭🇰 香港 3.4M
+      - 🇭🇰 香港 3.3M
+      - 🇯🇵 日本 3.3M
+      - 🇯🇵 日本3.3M
+      - 🇯🇵 日本 3.3M 2
       - node0710_3.5M
+      - 🇭🇰 香港 3M
+      - 🇭🇰 香港 ⑮ 3M
+      - 🇭🇰 香港  ⑯ 3M
+      - 🇭🇰 香港  ⑧ 3M
+      - 🇭🇰 香港  ⑧3M
+      - 🇭🇰 香港3M
+      - 🇭🇰 香港  ⑯ 3M 2
+      - 🇸🇬 新加坡⑭3M
       - node0710_2.8M
       - node0710_2.7M
+      - 🇭🇰 香港 ⑮ 2.7M
+      - 🇭🇰 香港  ⑨2.7M
       - node0710_2.6M
       - node0710_2.6M 2
-      - node0710_1.9M
-      - 🇺🇸 美国1.4M
-      - 198.8.92.84:38742  1.3M
-      - w1.2M
-      - 🇺🇸 公益节点joker007.top 美国1.2M
-      - 🇺🇸 美国1.2M
-      - w 1.1M
-      - 198.8.92.84:40093_1.1M
-      - 🇬🇧 英国1.1m
-      - 1.1M
-      - w1.1M
-      - 51.195.62.220:811_1.1M
-      - 🇮🇹 意大利1.1M
-      - node0710_1M
-      - 🇯🇵 日本 1M
-      - 🇬🇧 英国1M
-      - 51.195.62.220:808_1M
-      - 🇺🇸 美国1M
-      - w1M
-      - YouTube-阿伟科技1M
-      - 198.147.22.87:33998_.9M
-      - 🇩🇪 德国.9M
-      - ww 7
-      - 罗马(w) 9
-      - 🇩🇪 德国
-      - g 6
-      - 195.47.194.42:35294
-      - 207.244.67.149:50168
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 罗马(w) 6
-      - 🇭🇰 香港4
-      - node0710
-      - 🇺🇸 美国
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 罗马(w) 18
-      - 🇺🇸 美国w 18
-      - 罗马(w) 10
-      - 🇷🇺 俄罗斯
-      - 🇩🇪 DE-34 联通100M+4K
-      - 罗马(w) 20
-      - 🇺🇸 美国 2
-      - w
-      - 罗马(w) 21
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 罗马(w) 11
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇩🇪 DE-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 美国 3
-      - 罗马(w) 7
-      - 🇳🇱 github.com/freefq - 荷兰  12
-      - node0710 2
-      - github.com/freefq - 匈牙利  35
-      - g 2
-      - 🇳🇱 荷兰🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇭🇰 香港 ⑫2.5M
+      - 🇭🇰 香港 ⑰2.5M
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -517,71 +602,77 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 香港 6M
+      - 🇭🇰 香港 6M 2
+      - 🇫🇷 法国 ⑤M
+      - 🇫🇷 法国 ⑤ M
+      - 🇭🇰 香港 5.5M
       - 🇭🇰 香港1 5.3M
+      - 🇭🇰 香港 5.3M
+      - 🇫🇷 法国 5.3M
       - node0710_5M
+      - 🇭🇰 香港5.1M
+      - 🇸🇬 新加坡5.1M
+      - 🇭🇰 香港5M
       - 🇭🇰 香港2_5M
+      - 🇸🇬 新加坡4.9M
+      - 🇭🇰 香港4.9M
+      - 🇭🇰 香港4.9M 2
       - node0710_4.8M
+      - 🇭🇰 香港4.8M
+      - 🇭🇰 香港 4.8M
+      - 🇭🇰 香港4.8M 2
+      - 🇭🇰 香港4.5M
+      - 🇭🇰 香港4.5M 2
+      - 🇭🇰 香港4.3M
+      - 🇭🇰 香港4.2M
+      - 🇭🇰 香港4M
+      - 🇸🇬 新加坡4M
+      - 🇭🇰 香港4M 2
+      - 🇯🇵 日本4M
+      - 🇺🇸 美国4M
+      - 🇺🇸 美国4M 2
+      - 🇸🇬 新加坡4M 2
+      - 🇺🇸 美国⑬ 4M
+      - 🇭🇰 香港 4M
+      - 🇭🇰 香港 3.9M
+      - 🇭🇰 香港 3.9M 2
+      - 🇭🇰 香港3.9M
+      - 🇭🇰 香港 3.9M 3
+      - 🇭🇰 香港 3.7
+      - 🇭🇰 香港 3.7M
+      - 🇭🇰 香港 3.7M 2
+      - 🇭🇰 香港 3.7M 3
+      - 🇭🇰 香港 3.6M
+      - 🇭🇰 香港 3.6M 2
+      - 🇫🇷 法国 3.6M
       - 🇭🇰 香港3_3.5M
+      - 🇭🇰 香港 3.5M
+      - 🇸🇬 新加坡3.5M
+      - 🇭🇰 香港3.4M
+      - 🇭🇰 香港3.4M 2
+      - 🇭🇰 香港 3.4M
+      - 🇭🇰 香港 3.3M
+      - 🇯🇵 日本 3.3M
+      - 🇯🇵 日本3.3M
+      - 🇯🇵 日本 3.3M 2
       - node0710_3.5M
+      - 🇭🇰 香港 3M
+      - 🇭🇰 香港 ⑮ 3M
+      - 🇭🇰 香港  ⑯ 3M
+      - 🇭🇰 香港  ⑧ 3M
+      - 🇭🇰 香港  ⑧3M
+      - 🇭🇰 香港3M
+      - 🇭🇰 香港  ⑯ 3M 2
+      - 🇸🇬 新加坡⑭3M
       - node0710_2.8M
       - node0710_2.7M
+      - 🇭🇰 香港 ⑮ 2.7M
+      - 🇭🇰 香港  ⑨2.7M
       - node0710_2.6M
       - node0710_2.6M 2
-      - node0710_1.9M
-      - 🇺🇸 美国1.4M
-      - 198.8.92.84:38742  1.3M
-      - w1.2M
-      - 🇺🇸 公益节点joker007.top 美国1.2M
-      - 🇺🇸 美国1.2M
-      - w 1.1M
-      - 198.8.92.84:40093_1.1M
-      - 🇬🇧 英国1.1m
-      - 1.1M
-      - w1.1M
-      - 51.195.62.220:811_1.1M
-      - 🇮🇹 意大利1.1M
-      - node0710_1M
-      - 🇯🇵 日本 1M
-      - 🇬🇧 英国1M
-      - 51.195.62.220:808_1M
-      - 🇺🇸 美国1M
-      - w1M
-      - YouTube-阿伟科技1M
-      - 198.147.22.87:33998_.9M
-      - 🇩🇪 德国.9M
-      - ww 7
-      - 罗马(w) 9
-      - 🇩🇪 德国
-      - g 6
-      - 195.47.194.42:35294
-      - 207.244.67.149:50168
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 罗马(w) 6
-      - 🇭🇰 香港4
-      - node0710
-      - 🇺🇸 美国
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 罗马(w) 18
-      - 🇺🇸 美国w 18
-      - 罗马(w) 10
-      - 🇷🇺 俄罗斯
-      - 🇩🇪 DE-34 联通100M+4K
-      - 罗马(w) 20
-      - 🇺🇸 美国 2
-      - w
-      - 罗马(w) 21
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 罗马(w) 11
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇩🇪 DE-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 美国 3
-      - 罗马(w) 7
-      - 🇳🇱 github.com/freefq - 荷兰  12
-      - node0710 2
-      - github.com/freefq - 匈牙利  35
-      - g 2
-      - 🇳🇱 荷兰🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇭🇰 香港 ⑫2.5M
+      - 🇭🇰 香港 ⑰2.5M
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
