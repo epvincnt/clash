@@ -5,543 +5,543 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港  ⑧ 2, server: 54.ssrj.xyz, port: 61154, type: vmess, uuid: fb8a1b6c-6eba-3558-912e-63333da65fac, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国 ⑤, server: 51.ssrj.xyz, port: 65151, type: vmess, uuid: d4b6a11c-3343-3231-b9a4-12c09414d391, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港  ⑪ 3, server: 57.ssrj.xyz, port: 61157, type: vmess, uuid: 44eebd44-42ff-3f8f-9fc1-6c441cbe19a2, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港4.6m, server: 118.107.244.113, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇸🇬 kr2-24@1Gbps节点更新g3.9m, server: 104.19.24.52, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇭🇰 香港3.8m, server: 57.ssrj.xyz, port: 61157, type: vmess, uuid: dacba181-0f98-36eb-90a5-90b704aae5f2, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港3.7m, server: 45.ssrj.xyz, port: 61145, type: vmess, uuid: 6a2637b0-085b-3865-84d6-c38173cd7c57, alterId: 2, cipher: auto, tls: false}
   - {name: 🇭🇰 香港, server: 18.167.90.100, port: 20430, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港3_3.5M, server: 118.107.244.113, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇭🇰 香港 ⑮ 3, server: 65.ssrj.xyz, port: 65165, type: vmess, uuid: 44eebd44-42ff-3f8f-9fc1-6c441cbe19a2, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港  ⑨ 4, server: 55.ssrj.xyz, port: 61155, type: vmess, uuid: dbb7db07-d63f-3e7a-9ded-fce402d07b10, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国⑬ 4, server: 63.ssrj.xyz, port: 65163, type: vmess, uuid: dbb7db07-d63f-3e7a-9ded-fce402d07b10, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡⑥ 4, server: 52.ssrj.xyz, port: 65152, type: vmess, uuid: dbb7db07-d63f-3e7a-9ded-fce402d07b10, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港2_5M, server: 118.107.244.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: node0710_2.6M, server: qdse.dfiiopopiwfefefsf.ml, port: 443, type: vmess, uuid: 9f0b20d5-5cf7-43f0-b9b0-af08057400f0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /3980cf6/, ws-headers: {Host: qdse.dfiiopopiwfefefsf.ml}}
-  - {name: 🇸🇬 kr2-24@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇸🇬 kr2-19@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: node0710_4.8M, server: 104.19.45.117, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇸🇬 kr2-27@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇸🇬 kr2-18@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇸🇬 kr2-15@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: node0710_3.5M, server: 62.216.92.169, port: 13139, type: vmess, uuid: 6bf86057-ee49-49ef-a396-48e4527770be, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 节点更新g 2, server: 104.19.24.52, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: kr2-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s, server: 104.19.24.52, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇭🇰 kr2-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG, server: 104.19.24.52, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇸🇬 kr2-25@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇸🇬 kr2-17@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: node0710_1.9M, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇸🇬 kr2-13@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇩🇪 DE-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇩🇪 DE-13@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇩🇪 DE-11@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇩🇪 DE-19@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇩🇪 DE-35 联通100M+4K -2, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇨🇦 加拿大, server: c39s4.jamjams.net, port: 10606, type: vmess, uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2, alterId: 8, cipher: auto, tls: false}
-  - {name: 🇩🇪 DE-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇸🇬 kr2-5@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇺🇸 美国, server: 104.19.24.52, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}}
-  - {name: 🇩🇪 德国 3, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: node0710_2.7M, server: 62.216.92.166, port: 37943, type: vmess, uuid: b95f25e6-2dbe-4382-9fde-c854479c0f7a, alterId: 0, cipher: auto, tls: false}
-  - {name: node0710_2.6M 2, server: 152.70.102.66, port: 19999, type: vmess, uuid: ce6c472b-b5c6-43c9-82f5-421a7a1c5c6b, alterId: 8, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 152.70.102.66}}
-  - {name: 🇩🇪 DE-28@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇩🇪 DE-5@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇩🇪 DE-27@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇩🇪 DE-29@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇩🇪 DE-24@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇸🇬 kr2-28@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇸🇬 kr2-29@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇩🇪 DE-25@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇸🇬 kr2-3@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇺🇸 美国 2, server: 104.19.24.52, port: 80, type: vmess, uuid: 344c0b7d-2c35-4c95-8481-e2fc3c456a06, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.mp3, ws-headers: {Host: euserv18p.ezddns.tk}}
-  - {name: 🇸🇬 kr2-21联通@1Gbps 节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇩🇪 DE-8@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 g-美国CloudFlare公司CDN节点 8, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 美国(w) 25, server: 104.19.1.1, port: 2053, type: vmess, uuid: 8bb15a90-0f6c-4d0c-dada-5c35cdfc9d9f, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: e.fovi.tk}}
+  - {name: 🇭🇰 香港 2, server: 118.107.244.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇭🇰 香港 3, server: 118.107.244.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国, server: 104.19.24.52, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
+  - {name: 🇺🇸 美国 2, server: 104.19.24.52, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}}
   - {name: Relay_ |77.31Mb, server: 104.19.24.52, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: 🇭🇰 香港智能优选线路, server: 62.216.92.166, port: 37943, type: vmess, uuid: b95f25e6-2dbe-4382-9fde-c854479c0f7a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国(w) 25, server: 104.19.1.1, port: 2053, type: vmess, uuid: 8bb15a90-0f6c-4d0c-dada-5c35cdfc9d9f, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: e.fovi.tk}}
+  - {name: 🇭🇰 香港智能优选线路(如节点无效手动更新订阅), server: 62.216.92.169, port: 13139, type: vmess, uuid: 6bf86057-ee49-49ef-a396-48e4527770be, alterId: 0, cipher: auto, tls: false}
   - {name: m|Relay_ |59.00Mb, server: 104.19.24.52, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
-  - {name: 🇩🇪 DE-12@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇩🇪 DE-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 g-美国CloudFlare公司CDN节点 11, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 美国 3, server: 152.70.102.66, port: 19999, type: vmess, uuid: ce6c472b-b5c6-43c9-82f5-421a7a1c5c6b, alterId: 8, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 152.70.102.66}}
+  - {name: node0710_2.6M, server: qdse.dfiiopopiwfefefsf.ml, port: 443, type: vmess, uuid: 9f0b20d5-5cf7-43f0-b9b0-af08057400f0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /3980cf6/, ws-headers: {Host: qdse.dfiiopopiwfefefsf.ml}}
+  - {name: node0710_1.9M, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 美国 4, server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 USA, server: 104.20.55.13, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: f 45, server: 172.67.32.246, port: 80, type: vmess, uuid: c0304bc1-f8ff-4108-9bc6-3415d16ae5e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv12p.ezddns.tk}}
+  - {name: 🇺🇸 美国w 22, server: 104.20.55.13, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇯🇵 日本智能优选线路(节点1-2天更新一次), server: 194.156.230.203, port: 33342, type: vmess, uuid: 31d634a4-e223-4287-a4df-0db3e33b66bf, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 5, server: 104.20.51.109, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
+  - {name: 🇺🇸 美国 6, server: 104.20.55.13, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
+  - {name: 🇺🇸 美国 7, server: 104.20.55.13, port: 80, type: vmess, uuid: 60b738e2-3aa4-4cde-c270-20f8cc1ab16a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv5p.ezddns.tk}}
+  - {name: 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x, server: 172.67.32.246, port: 443, type: vmess, uuid: 97018aac-0985-4d4b-8283-f774c9fe9418, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /v2ray/fc671c24/, ws-headers: {Host: t6.ssrsub.one}}
+  - {name: 🇺🇸 美国 8, server: 104.20.55.13, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 美国 9, server: 104.20.55.13, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}}
+  - {name: 🇷🇺 俄罗斯, server: 104.20.55.13, port: 443, type: vmess, uuid: fa0e6606-e152-11eb-8b15-00155d0861b5, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /6Qg4t3Ac/, ws-headers: {Host: a9.ssrsub.one}}
+  - {name: 🇷🇺 俄罗斯 2, server: 104.16.52.235, port: 80, type: vmess, uuid: e90c4ab7-c3f0-43b0-80f8-48b4fffec448, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ru-a-01.joker007.top}}
   - {name: 🇺🇸 美国1.4M, server: qn-a-01.joker007.top, port: 443, type: vmess, uuid: e90c4ab7-c3f0-43b0-80f8-48b4fffec448, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: qn-a-01.joker007.top}}
-  - {name: 🇩🇪 DE-9@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇩🇪 DE-14@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇸🇬 kr2-23@1Gbps节点更新g, server: 104.19.24.52, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: node0710, server: 23.224.30.37, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
-  - {name: 1.1M, server: dtda.dfiiopopiwsdadsda.ga, port: 443, type: vmess, uuid: 9e7d1dea-b240-4b0e-abe8-82dde00394f1, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /7ed5849/, ws-headers: {Host: dtda.dfiiopopiwsdadsda.ga}}
+  - {name: 🇺🇸 美国 10, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇺🇸 美国 11, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 美国 12, server: t8.ssrsub.one, port: 8443, type: trojan, password: vYlunUWk, sni: t8.ssrsub.one}
   - {name: 🇺🇸 公益节点joker007.top 美国3 2, server: mc-a-01.joker007.top, port: 80, type: vmess, uuid: e90c4ab7-c3f0-43b0-80f8-48b4fffec448, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: mc-a-01.joker007.top}}
-  - {name: 🇭🇰 香港 ① 4, server: 44.ssrj.xyz, port: 61144, type: vmess, uuid: dbb7db07-d63f-3e7a-9ded-fce402d07b10, alterId: 2, cipher: auto, tls: false}
+  - {name: node0710_4.8M, server: 104.19.45.117, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇨🇦 加拿大, server: c39s4.jamjams.net, port: 10606, type: vmess, uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2, alterId: 8, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 13, server: 198.8.92.84, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇫🇷 法国, server: 51.195.62.220, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 法国 2, server: 51.195.62.220, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 1.1M, server: dtda.dfiiopopiwsdadsda.ga, port: 443, type: vmess, uuid: 9e7d1dea-b240-4b0e-abe8-82dde00394f1, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /7ed5849/, ws-headers: {Host: dtda.dfiiopopiwsdadsda.ga}}
+  - {name: 🇬🇧 英国, server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇬🇧 英国1M, server: 185.44.76.188, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 美国 14, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇳🇱 荷兰, server: 46.182.107.37, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.09462550.xyz}}
+  - {name: 🇳🇱 荷兰 2, server: 89.46.223.239, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇬🇧 英国 2, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: w1.1M, server: 185.44.76.188, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇸🇬 节点更新g 99, server: 136.243.158.13, port: 4040, type: ss, cipher: aes-256-gcm, password: BsNmpzet3AnY}
+  - {name: 🇨🇳 台湾省, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
+  - {name: 🇷🇺 俄罗斯 3, server: ru-a-01.joker007.top, port: 80, type: vmess, uuid: e90c4ab7-c3f0-43b0-80f8-48b4fffec448, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇮🇳 印度, server: 137.59.52.107, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国 15, server: 104.200.131.165, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 195.47.194.42:35294, server: 195.47.194.42, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 美国 16, server: 66.55.148.42, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇳🇱 荷兰 3, server: 46.182.107.25, port: 443, type: vmess, uuid: 0a1ab3bd-0431-4da8-ad8a-238367ce4efc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.11300814.xyz}}
+  - {name: 🇺🇸 美国智能优选线路, server: 45.144.241.138, port: 47582, type: vmess, uuid: dc6cecd8-239c-4695-b70b-9a5fe684274a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国 3, server: 51.89.99.59, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇬🇧 英国 3, server: 5.183.101.200, port: 35374, type: vmess, uuid: 62836733-0014-4014-e0e3-908eea2f3063, alterId: 64, cipher: auto, tls: false}
+  - {name: 塞浦路斯, server: 195.47.194.42, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇺🇸 美国 17, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 91.90.123.115:44820, server: 91.90.123.115, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: w 27, server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇩🇪 德国.9M, server: 51.89.99.59, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 比利时 11, server: 91.90.123.115, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 🇺🇸 g-美国CloudFlare公司CDN节点 9, server: 104.19.24.52, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇭🇰 香港  ⑧ 4, server: 54.ssrj.xyz, port: 61154, type: vmess, uuid: dbb7db07-d63f-3e7a-9ded-fce402d07b10, alterId: 2, cipher: auto, tls: false}
+  - {name: w 9, server: 82.102.26.117, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 罗马(w) 12, server: 91.90.123.115, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 克罗地亚, server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇮🇹 意大利 16, server: 82.102.26.117, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 91.90.123.115:41676, server: 91.90.123.115, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 罗马(w) 9, server: 91.90.123.115, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 195.47.194.42:50168, server: 195.47.194.42, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 比利时, server: 91.90.123.115, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港  ⑧ 2
-      - 🇫🇷 法国 ⑤
-      - 🇭🇰 香港  ⑪ 3
+      - 🇭🇰 香港4.6m
+      - 🇸🇬 kr2-24@1Gbps节点更新g3.9m
+      - 🇭🇰 香港3.8m
+      - 🇭🇰 香港3.7m
       - 🇭🇰 香港
-      - 🇭🇰 香港3_3.5M
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑨ 4
-      - 🇺🇸 美国⑬ 4
-      - 🇸🇬 新加坡⑥ 4
-      - 🇭🇰 香港2_5M
-      - node0710_2.6M
-      - 🇸🇬 kr2-24@1Gbps节点更新g
-      - 🇸🇬 kr2-19@1Gbps节点更新g
-      - node0710_4.8M
-      - 🇸🇬 kr2-27@1Gbps节点更新g
-      - 🇸🇬 kr2-18@1Gbps节点更新g
-      - 🇸🇬 kr2-15@1Gbps节点更新g
-      - node0710_3.5M
-      - 🇸🇬 节点更新g 2
-      - kr2-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇭🇰 kr2-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇸🇬 kr2-25@1Gbps节点更新g
-      - 🇸🇬 kr2-17@1Gbps节点更新g
-      - node0710_1.9M
-      - 🇸🇬 kr2-13@1Gbps节点更新g
-      - 🇩🇪 DE-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇩🇪 DE-13@1Gbps节点更新g
-      - 🇩🇪 DE-11@1Gbps节点更新g
-      - 🇩🇪 DE-19@1Gbps节点更新g
-      - 🇩🇪 DE-35 联通100M+4K -2
-      - 🇨🇦 加拿大
-      - 🇩🇪 DE-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 kr2-5@1Gbps节点更新g
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
       - 🇺🇸 美国
-      - 🇩🇪 德国 3
-      - node0710_2.7M
-      - node0710_2.6M 2
-      - 🇩🇪 DE-28@1Gbps节点更新g
-      - 🇩🇪 DE-5@1Gbps节点更新g
-      - 🇩🇪 DE-27@1Gbps节点更新g
-      - 🇩🇪 DE-29@1Gbps节点更新g
-      - 🇩🇪 DE-24@1Gbps节点更新g
-      - 🇸🇬 kr2-28@1Gbps节点更新g
-      - 🇸🇬 kr2-29@1Gbps节点更新g
-      - 🇩🇪 DE-25@1Gbps节点更新g
-      - 🇸🇬 kr2-3@1Gbps节点更新g
       - 🇺🇸 美国 2
-      - 🇸🇬 kr2-21联通@1Gbps 节点更新g
-      - 🇩🇪 DE-8@1Gbps节点更新g
-      - 🇺🇸 g-美国CloudFlare公司CDN节点 8
-      - 🇺🇸 美国(w) 25
       - Relay_ |77.31Mb
+      - 🇭🇰 香港智能优选线路
+      - 🇺🇸 美国(w) 25
+      - 🇭🇰 香港智能优选线路(如节点无效手动更新订阅)
       - m|Relay_ |59.00Mb
-      - 🇩🇪 DE-12@1Gbps节点更新g
-      - 🇩🇪 DE-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 g-美国CloudFlare公司CDN节点 11
+      - 🇺🇸 美国 3
+      - node0710_2.6M
+      - node0710_1.9M
+      - 🇺🇸 美国 4
+      - 🇺🇸 USA
+      - f 45
+      - 🇺🇸 美国w 22
+      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国 7
+      - 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
+      - 🇷🇺 俄罗斯
+      - 🇷🇺 俄罗斯 2
       - 🇺🇸 美国1.4M
-      - 🇩🇪 DE-9@1Gbps节点更新g
-      - 🇩🇪 DE-14@1Gbps节点更新g
-      - 🇸🇬 kr2-23@1Gbps节点更新g
-      - node0710
-      - 1.1M
+      - 🇺🇸 美国 10
+      - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
       - 🇺🇸 公益节点joker007.top 美国3 2
-      - 🇭🇰 香港 ① 4
+      - node0710_4.8M
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 13
+      - 🇫🇷 法国
+      - 🇫🇷 法国 2
+      - 1.1M
+      - 🇬🇧 英国
+      - 🇬🇧 英国1M
+      - 🇺🇸 美国 14
+      - 🇳🇱 荷兰
+      - 🇳🇱 荷兰 2
+      - 🇬🇧 英国 2
+      - w1.1M
+      - 🇸🇬 节点更新g 99
+      - 🇨🇳 台湾省
+      - 🇷🇺 俄罗斯 3
+      - 🇮🇳 印度
+      - 🇺🇸 美国 15
+      - 195.47.194.42:35294
+      - 🇺🇸 美国 16
+      - 🇳🇱 荷兰 3
+      - 🇺🇸 美国智能优选线路
+      - 🇫🇷 法国 3
+      - 🇬🇧 英国 3
+      - 塞浦路斯
+      - 🇺🇸 美国 17
       - 91.90.123.115:44820
-      - w 27
-      - 🇩🇪 德国.9M
-      - 比利时 11
-      - 🇺🇸 g-美国CloudFlare公司CDN节点 9
-      - 🇭🇰 香港  ⑧ 4
+      - w 9
+      - 罗马(w) 12
+      - 克罗地亚
+      - 🇮🇹 意大利 16
+      - 91.90.123.115:41676
+      - 罗马(w) 9
+      - 195.47.194.42:50168
+      - 比利时
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港  ⑧ 2
-      - 🇫🇷 法国 ⑤
-      - 🇭🇰 香港  ⑪ 3
+      - 🇭🇰 香港4.6m
+      - 🇸🇬 kr2-24@1Gbps节点更新g3.9m
+      - 🇭🇰 香港3.8m
+      - 🇭🇰 香港3.7m
       - 🇭🇰 香港
-      - 🇭🇰 香港3_3.5M
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑨ 4
-      - 🇺🇸 美国⑬ 4
-      - 🇸🇬 新加坡⑥ 4
-      - 🇭🇰 香港2_5M
-      - node0710_2.6M
-      - 🇸🇬 kr2-24@1Gbps节点更新g
-      - 🇸🇬 kr2-19@1Gbps节点更新g
-      - node0710_4.8M
-      - 🇸🇬 kr2-27@1Gbps节点更新g
-      - 🇸🇬 kr2-18@1Gbps节点更新g
-      - 🇸🇬 kr2-15@1Gbps节点更新g
-      - node0710_3.5M
-      - 🇸🇬 节点更新g 2
-      - kr2-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇭🇰 kr2-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇸🇬 kr2-25@1Gbps节点更新g
-      - 🇸🇬 kr2-17@1Gbps节点更新g
-      - node0710_1.9M
-      - 🇸🇬 kr2-13@1Gbps节点更新g
-      - 🇩🇪 DE-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇩🇪 DE-13@1Gbps节点更新g
-      - 🇩🇪 DE-11@1Gbps节点更新g
-      - 🇩🇪 DE-19@1Gbps节点更新g
-      - 🇩🇪 DE-35 联通100M+4K -2
-      - 🇨🇦 加拿大
-      - 🇩🇪 DE-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 kr2-5@1Gbps节点更新g
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
       - 🇺🇸 美国
-      - 🇩🇪 德国 3
-      - node0710_2.7M
-      - node0710_2.6M 2
-      - 🇩🇪 DE-28@1Gbps节点更新g
-      - 🇩🇪 DE-5@1Gbps节点更新g
-      - 🇩🇪 DE-27@1Gbps节点更新g
-      - 🇩🇪 DE-29@1Gbps节点更新g
-      - 🇩🇪 DE-24@1Gbps节点更新g
-      - 🇸🇬 kr2-28@1Gbps节点更新g
-      - 🇸🇬 kr2-29@1Gbps节点更新g
-      - 🇩🇪 DE-25@1Gbps节点更新g
-      - 🇸🇬 kr2-3@1Gbps节点更新g
       - 🇺🇸 美国 2
-      - 🇸🇬 kr2-21联通@1Gbps 节点更新g
-      - 🇩🇪 DE-8@1Gbps节点更新g
-      - 🇺🇸 g-美国CloudFlare公司CDN节点 8
-      - 🇺🇸 美国(w) 25
       - Relay_ |77.31Mb
+      - 🇭🇰 香港智能优选线路
+      - 🇺🇸 美国(w) 25
+      - 🇭🇰 香港智能优选线路(如节点无效手动更新订阅)
       - m|Relay_ |59.00Mb
-      - 🇩🇪 DE-12@1Gbps节点更新g
-      - 🇩🇪 DE-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 g-美国CloudFlare公司CDN节点 11
+      - 🇺🇸 美国 3
+      - node0710_2.6M
+      - node0710_1.9M
+      - 🇺🇸 美国 4
+      - 🇺🇸 USA
+      - f 45
+      - 🇺🇸 美国w 22
+      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国 7
+      - 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
+      - 🇷🇺 俄罗斯
+      - 🇷🇺 俄罗斯 2
       - 🇺🇸 美国1.4M
-      - 🇩🇪 DE-9@1Gbps节点更新g
-      - 🇩🇪 DE-14@1Gbps节点更新g
-      - 🇸🇬 kr2-23@1Gbps节点更新g
-      - node0710
-      - 1.1M
+      - 🇺🇸 美国 10
+      - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
       - 🇺🇸 公益节点joker007.top 美国3 2
-      - 🇭🇰 香港 ① 4
+      - node0710_4.8M
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 13
+      - 🇫🇷 法国
+      - 🇫🇷 法国 2
+      - 1.1M
+      - 🇬🇧 英国
+      - 🇬🇧 英国1M
+      - 🇺🇸 美国 14
+      - 🇳🇱 荷兰
+      - 🇳🇱 荷兰 2
+      - 🇬🇧 英国 2
+      - w1.1M
+      - 🇸🇬 节点更新g 99
+      - 🇨🇳 台湾省
+      - 🇷🇺 俄罗斯 3
+      - 🇮🇳 印度
+      - 🇺🇸 美国 15
+      - 195.47.194.42:35294
+      - 🇺🇸 美国 16
+      - 🇳🇱 荷兰 3
+      - 🇺🇸 美国智能优选线路
+      - 🇫🇷 法国 3
+      - 🇬🇧 英国 3
+      - 塞浦路斯
+      - 🇺🇸 美国 17
       - 91.90.123.115:44820
-      - w 27
-      - 🇩🇪 德国.9M
-      - 比利时 11
-      - 🇺🇸 g-美国CloudFlare公司CDN节点 9
-      - 🇭🇰 香港  ⑧ 4
+      - w 9
+      - 罗马(w) 12
+      - 克罗地亚
+      - 🇮🇹 意大利 16
+      - 91.90.123.115:41676
+      - 罗马(w) 9
+      - 195.47.194.42:50168
+      - 比利时
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港  ⑧ 2
-      - 🇫🇷 法国 ⑤
-      - 🇭🇰 香港  ⑪ 3
+      - 🇭🇰 香港4.6m
+      - 🇸🇬 kr2-24@1Gbps节点更新g3.9m
+      - 🇭🇰 香港3.8m
+      - 🇭🇰 香港3.7m
       - 🇭🇰 香港
-      - 🇭🇰 香港3_3.5M
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑨ 4
-      - 🇺🇸 美国⑬ 4
-      - 🇸🇬 新加坡⑥ 4
-      - 🇭🇰 香港2_5M
-      - node0710_2.6M
-      - 🇸🇬 kr2-24@1Gbps节点更新g
-      - 🇸🇬 kr2-19@1Gbps节点更新g
-      - node0710_4.8M
-      - 🇸🇬 kr2-27@1Gbps节点更新g
-      - 🇸🇬 kr2-18@1Gbps节点更新g
-      - 🇸🇬 kr2-15@1Gbps节点更新g
-      - node0710_3.5M
-      - 🇸🇬 节点更新g 2
-      - kr2-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇭🇰 kr2-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇸🇬 kr2-25@1Gbps节点更新g
-      - 🇸🇬 kr2-17@1Gbps节点更新g
-      - node0710_1.9M
-      - 🇸🇬 kr2-13@1Gbps节点更新g
-      - 🇩🇪 DE-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇩🇪 DE-13@1Gbps节点更新g
-      - 🇩🇪 DE-11@1Gbps节点更新g
-      - 🇩🇪 DE-19@1Gbps节点更新g
-      - 🇩🇪 DE-35 联通100M+4K -2
-      - 🇨🇦 加拿大
-      - 🇩🇪 DE-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 kr2-5@1Gbps节点更新g
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
       - 🇺🇸 美国
-      - 🇩🇪 德国 3
-      - node0710_2.7M
-      - node0710_2.6M 2
-      - 🇩🇪 DE-28@1Gbps节点更新g
-      - 🇩🇪 DE-5@1Gbps节点更新g
-      - 🇩🇪 DE-27@1Gbps节点更新g
-      - 🇩🇪 DE-29@1Gbps节点更新g
-      - 🇩🇪 DE-24@1Gbps节点更新g
-      - 🇸🇬 kr2-28@1Gbps节点更新g
-      - 🇸🇬 kr2-29@1Gbps节点更新g
-      - 🇩🇪 DE-25@1Gbps节点更新g
-      - 🇸🇬 kr2-3@1Gbps节点更新g
       - 🇺🇸 美国 2
-      - 🇸🇬 kr2-21联通@1Gbps 节点更新g
-      - 🇩🇪 DE-8@1Gbps节点更新g
-      - 🇺🇸 g-美国CloudFlare公司CDN节点 8
-      - 🇺🇸 美国(w) 25
       - Relay_ |77.31Mb
+      - 🇭🇰 香港智能优选线路
+      - 🇺🇸 美国(w) 25
+      - 🇭🇰 香港智能优选线路(如节点无效手动更新订阅)
       - m|Relay_ |59.00Mb
-      - 🇩🇪 DE-12@1Gbps节点更新g
-      - 🇩🇪 DE-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 g-美国CloudFlare公司CDN节点 11
+      - 🇺🇸 美国 3
+      - node0710_2.6M
+      - node0710_1.9M
+      - 🇺🇸 美国 4
+      - 🇺🇸 USA
+      - f 45
+      - 🇺🇸 美国w 22
+      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国 7
+      - 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
+      - 🇷🇺 俄罗斯
+      - 🇷🇺 俄罗斯 2
       - 🇺🇸 美国1.4M
-      - 🇩🇪 DE-9@1Gbps节点更新g
-      - 🇩🇪 DE-14@1Gbps节点更新g
-      - 🇸🇬 kr2-23@1Gbps节点更新g
-      - node0710
-      - 1.1M
+      - 🇺🇸 美国 10
+      - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
       - 🇺🇸 公益节点joker007.top 美国3 2
-      - 🇭🇰 香港 ① 4
+      - node0710_4.8M
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 13
+      - 🇫🇷 法国
+      - 🇫🇷 法国 2
+      - 1.1M
+      - 🇬🇧 英国
+      - 🇬🇧 英国1M
+      - 🇺🇸 美国 14
+      - 🇳🇱 荷兰
+      - 🇳🇱 荷兰 2
+      - 🇬🇧 英国 2
+      - w1.1M
+      - 🇸🇬 节点更新g 99
+      - 🇨🇳 台湾省
+      - 🇷🇺 俄罗斯 3
+      - 🇮🇳 印度
+      - 🇺🇸 美国 15
+      - 195.47.194.42:35294
+      - 🇺🇸 美国 16
+      - 🇳🇱 荷兰 3
+      - 🇺🇸 美国智能优选线路
+      - 🇫🇷 法国 3
+      - 🇬🇧 英国 3
+      - 塞浦路斯
+      - 🇺🇸 美国 17
       - 91.90.123.115:44820
-      - w 27
-      - 🇩🇪 德国.9M
-      - 比利时 11
-      - 🇺🇸 g-美国CloudFlare公司CDN节点 9
-      - 🇭🇰 香港  ⑧ 4
+      - w 9
+      - 罗马(w) 12
+      - 克罗地亚
+      - 🇮🇹 意大利 16
+      - 91.90.123.115:41676
+      - 罗马(w) 9
+      - 195.47.194.42:50168
+      - 比利时
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港  ⑧ 2
-      - 🇭🇰 香港  ⑪ 3
+      - 🇭🇰 香港4.6m
+      - 🇭🇰 香港3.8m
+      - 🇭🇰 香港3.7m
       - 🇭🇰 香港
-      - 🇭🇰 香港3_3.5M
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑨ 4
-      - 🇭🇰 香港2_5M
-      - 🇭🇰 香港 ① 4
-      - 🇭🇰 香港  ⑧ 4
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港智能优选线路
+      - 🇭🇰 香港智能优选线路(如节点无效手动更新订阅)
+      - 🇨🇳 台湾省
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港  ⑧ 2
-      - 🇫🇷 法国 ⑤
-      - 🇭🇰 香港  ⑪ 3
+      - 🇭🇰 香港4.6m
+      - 🇸🇬 kr2-24@1Gbps节点更新g3.9m
+      - 🇭🇰 香港3.8m
+      - 🇭🇰 香港3.7m
       - 🇭🇰 香港
-      - 🇭🇰 香港3_3.5M
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑨ 4
-      - 🇺🇸 美国⑬ 4
-      - 🇸🇬 新加坡⑥ 4
-      - 🇭🇰 香港2_5M
-      - node0710_2.6M
-      - 🇸🇬 kr2-24@1Gbps节点更新g
-      - 🇸🇬 kr2-19@1Gbps节点更新g
-      - node0710_4.8M
-      - 🇸🇬 kr2-27@1Gbps节点更新g
-      - 🇸🇬 kr2-18@1Gbps节点更新g
-      - 🇸🇬 kr2-15@1Gbps节点更新g
-      - node0710_3.5M
-      - 🇸🇬 节点更新g 2
-      - kr2-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇭🇰 kr2-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇸🇬 kr2-25@1Gbps节点更新g
-      - 🇸🇬 kr2-17@1Gbps节点更新g
-      - node0710_1.9M
-      - 🇸🇬 kr2-13@1Gbps节点更新g
-      - 🇩🇪 DE-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇩🇪 DE-13@1Gbps节点更新g
-      - 🇩🇪 DE-11@1Gbps节点更新g
-      - 🇩🇪 DE-19@1Gbps节点更新g
-      - 🇩🇪 DE-35 联通100M+4K -2
-      - 🇨🇦 加拿大
-      - 🇩🇪 DE-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 kr2-5@1Gbps节点更新g
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
       - 🇺🇸 美国
-      - 🇩🇪 德国 3
-      - node0710_2.7M
-      - node0710_2.6M 2
-      - 🇩🇪 DE-28@1Gbps节点更新g
-      - 🇩🇪 DE-5@1Gbps节点更新g
-      - 🇩🇪 DE-27@1Gbps节点更新g
-      - 🇩🇪 DE-29@1Gbps节点更新g
-      - 🇩🇪 DE-24@1Gbps节点更新g
-      - 🇸🇬 kr2-28@1Gbps节点更新g
-      - 🇸🇬 kr2-29@1Gbps节点更新g
-      - 🇩🇪 DE-25@1Gbps节点更新g
-      - 🇸🇬 kr2-3@1Gbps节点更新g
       - 🇺🇸 美国 2
-      - 🇸🇬 kr2-21联通@1Gbps 节点更新g
-      - 🇩🇪 DE-8@1Gbps节点更新g
-      - 🇺🇸 g-美国CloudFlare公司CDN节点 8
-      - 🇺🇸 美国(w) 25
       - Relay_ |77.31Mb
+      - 🇭🇰 香港智能优选线路
+      - 🇺🇸 美国(w) 25
+      - 🇭🇰 香港智能优选线路(如节点无效手动更新订阅)
       - m|Relay_ |59.00Mb
-      - 🇩🇪 DE-12@1Gbps节点更新g
-      - 🇩🇪 DE-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 g-美国CloudFlare公司CDN节点 11
+      - 🇺🇸 美国 3
+      - node0710_2.6M
+      - node0710_1.9M
+      - 🇺🇸 美国 4
+      - 🇺🇸 USA
+      - f 45
+      - 🇺🇸 美国w 22
+      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国 7
+      - 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
+      - 🇷🇺 俄罗斯
+      - 🇷🇺 俄罗斯 2
       - 🇺🇸 美国1.4M
-      - 🇩🇪 DE-9@1Gbps节点更新g
-      - 🇩🇪 DE-14@1Gbps节点更新g
-      - 🇸🇬 kr2-23@1Gbps节点更新g
-      - node0710
-      - 1.1M
+      - 🇺🇸 美国 10
+      - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
       - 🇺🇸 公益节点joker007.top 美国3 2
-      - 🇭🇰 香港 ① 4
+      - node0710_4.8M
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 13
+      - 🇫🇷 法国
+      - 🇫🇷 法国 2
+      - 1.1M
+      - 🇬🇧 英国
+      - 🇬🇧 英国1M
+      - 🇺🇸 美国 14
+      - 🇳🇱 荷兰
+      - 🇳🇱 荷兰 2
+      - 🇬🇧 英国 2
+      - w1.1M
+      - 🇸🇬 节点更新g 99
+      - 🇨🇳 台湾省
+      - 🇷🇺 俄罗斯 3
+      - 🇮🇳 印度
+      - 🇺🇸 美国 15
+      - 195.47.194.42:35294
+      - 🇺🇸 美国 16
+      - 🇳🇱 荷兰 3
+      - 🇺🇸 美国智能优选线路
+      - 🇫🇷 法国 3
+      - 🇬🇧 英国 3
+      - 塞浦路斯
+      - 🇺🇸 美国 17
       - 91.90.123.115:44820
-      - w 27
-      - 🇩🇪 德国.9M
-      - 比利时 11
-      - 🇺🇸 g-美国CloudFlare公司CDN节点 9
-      - 🇭🇰 香港  ⑧ 4
+      - w 9
+      - 罗马(w) 12
+      - 克罗地亚
+      - 🇮🇹 意大利 16
+      - 91.90.123.115:41676
+      - 罗马(w) 9
+      - 195.47.194.42:50168
+      - 比利时
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港  ⑧ 2
-      - 🇫🇷 法国 ⑤
-      - 🇭🇰 香港  ⑪ 3
+      - 🇭🇰 香港4.6m
+      - 🇸🇬 kr2-24@1Gbps节点更新g3.9m
+      - 🇭🇰 香港3.8m
+      - 🇭🇰 香港3.7m
       - 🇭🇰 香港
-      - 🇭🇰 香港3_3.5M
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑨ 4
-      - 🇺🇸 美国⑬ 4
-      - 🇸🇬 新加坡⑥ 4
-      - 🇭🇰 香港2_5M
-      - node0710_2.6M
-      - 🇸🇬 kr2-24@1Gbps节点更新g
-      - 🇸🇬 kr2-19@1Gbps节点更新g
-      - node0710_4.8M
-      - 🇸🇬 kr2-27@1Gbps节点更新g
-      - 🇸🇬 kr2-18@1Gbps节点更新g
-      - 🇸🇬 kr2-15@1Gbps节点更新g
-      - node0710_3.5M
-      - 🇸🇬 节点更新g 2
-      - kr2-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇭🇰 kr2-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇸🇬 kr2-25@1Gbps节点更新g
-      - 🇸🇬 kr2-17@1Gbps节点更新g
-      - node0710_1.9M
-      - 🇸🇬 kr2-13@1Gbps节点更新g
-      - 🇩🇪 DE-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇩🇪 DE-13@1Gbps节点更新g
-      - 🇩🇪 DE-11@1Gbps节点更新g
-      - 🇩🇪 DE-19@1Gbps节点更新g
-      - 🇩🇪 DE-35 联通100M+4K -2
-      - 🇨🇦 加拿大
-      - 🇩🇪 DE-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 kr2-5@1Gbps节点更新g
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
       - 🇺🇸 美国
-      - 🇩🇪 德国 3
-      - node0710_2.7M
-      - node0710_2.6M 2
-      - 🇩🇪 DE-28@1Gbps节点更新g
-      - 🇩🇪 DE-5@1Gbps节点更新g
-      - 🇩🇪 DE-27@1Gbps节点更新g
-      - 🇩🇪 DE-29@1Gbps节点更新g
-      - 🇩🇪 DE-24@1Gbps节点更新g
-      - 🇸🇬 kr2-28@1Gbps节点更新g
-      - 🇸🇬 kr2-29@1Gbps节点更新g
-      - 🇩🇪 DE-25@1Gbps节点更新g
-      - 🇸🇬 kr2-3@1Gbps节点更新g
       - 🇺🇸 美国 2
-      - 🇸🇬 kr2-21联通@1Gbps 节点更新g
-      - 🇩🇪 DE-8@1Gbps节点更新g
-      - 🇺🇸 g-美国CloudFlare公司CDN节点 8
-      - 🇺🇸 美国(w) 25
       - Relay_ |77.31Mb
+      - 🇭🇰 香港智能优选线路
+      - 🇺🇸 美国(w) 25
+      - 🇭🇰 香港智能优选线路(如节点无效手动更新订阅)
       - m|Relay_ |59.00Mb
-      - 🇩🇪 DE-12@1Gbps节点更新g
-      - 🇩🇪 DE-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 g-美国CloudFlare公司CDN节点 11
+      - 🇺🇸 美国 3
+      - node0710_2.6M
+      - node0710_1.9M
+      - 🇺🇸 美国 4
+      - 🇺🇸 USA
+      - f 45
+      - 🇺🇸 美国w 22
+      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国 7
+      - 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
+      - 🇷🇺 俄罗斯
+      - 🇷🇺 俄罗斯 2
       - 🇺🇸 美国1.4M
-      - 🇩🇪 DE-9@1Gbps节点更新g
-      - 🇩🇪 DE-14@1Gbps节点更新g
-      - 🇸🇬 kr2-23@1Gbps节点更新g
-      - node0710
-      - 1.1M
+      - 🇺🇸 美国 10
+      - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
       - 🇺🇸 公益节点joker007.top 美国3 2
-      - 🇭🇰 香港 ① 4
+      - node0710_4.8M
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 13
+      - 🇫🇷 法国
+      - 🇫🇷 法国 2
+      - 1.1M
+      - 🇬🇧 英国
+      - 🇬🇧 英国1M
+      - 🇺🇸 美国 14
+      - 🇳🇱 荷兰
+      - 🇳🇱 荷兰 2
+      - 🇬🇧 英国 2
+      - w1.1M
+      - 🇸🇬 节点更新g 99
+      - 🇨🇳 台湾省
+      - 🇷🇺 俄罗斯 3
+      - 🇮🇳 印度
+      - 🇺🇸 美国 15
+      - 195.47.194.42:35294
+      - 🇺🇸 美国 16
+      - 🇳🇱 荷兰 3
+      - 🇺🇸 美国智能优选线路
+      - 🇫🇷 法国 3
+      - 🇬🇧 英国 3
+      - 塞浦路斯
+      - 🇺🇸 美国 17
       - 91.90.123.115:44820
-      - w 27
-      - 🇩🇪 德国.9M
-      - 比利时 11
-      - 🇺🇸 g-美国CloudFlare公司CDN节点 9
-      - 🇭🇰 香港  ⑧ 4
+      - w 9
+      - 罗马(w) 12
+      - 克罗地亚
+      - 🇮🇹 意大利 16
+      - 91.90.123.115:41676
+      - 罗马(w) 9
+      - 195.47.194.42:50168
+      - 比利时
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港  ⑧ 2
-      - 🇫🇷 法国 ⑤
-      - 🇭🇰 香港  ⑪ 3
+      - 🇭🇰 香港4.6m
+      - 🇸🇬 kr2-24@1Gbps节点更新g3.9m
+      - 🇭🇰 香港3.8m
+      - 🇭🇰 香港3.7m
       - 🇭🇰 香港
-      - 🇭🇰 香港3_3.5M
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑨ 4
-      - 🇺🇸 美国⑬ 4
-      - 🇸🇬 新加坡⑥ 4
-      - 🇭🇰 香港2_5M
-      - node0710_2.6M
-      - 🇸🇬 kr2-24@1Gbps节点更新g
-      - 🇸🇬 kr2-19@1Gbps节点更新g
-      - node0710_4.8M
-      - 🇸🇬 kr2-27@1Gbps节点更新g
-      - 🇸🇬 kr2-18@1Gbps节点更新g
-      - 🇸🇬 kr2-15@1Gbps节点更新g
-      - node0710_3.5M
-      - 🇸🇬 节点更新g 2
-      - kr2-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇭🇰 kr2-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇸🇬 kr2-25@1Gbps节点更新g
-      - 🇸🇬 kr2-17@1Gbps节点更新g
-      - node0710_1.9M
-      - 🇸🇬 kr2-13@1Gbps节点更新g
-      - 🇩🇪 DE-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇩🇪 DE-13@1Gbps节点更新g
-      - 🇩🇪 DE-11@1Gbps节点更新g
-      - 🇩🇪 DE-19@1Gbps节点更新g
-      - 🇩🇪 DE-35 联通100M+4K -2
-      - 🇨🇦 加拿大
-      - 🇩🇪 DE-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 kr2-5@1Gbps节点更新g
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
       - 🇺🇸 美国
-      - 🇩🇪 德国 3
-      - node0710_2.7M
-      - node0710_2.6M 2
-      - 🇩🇪 DE-28@1Gbps节点更新g
-      - 🇩🇪 DE-5@1Gbps节点更新g
-      - 🇩🇪 DE-27@1Gbps节点更新g
-      - 🇩🇪 DE-29@1Gbps节点更新g
-      - 🇩🇪 DE-24@1Gbps节点更新g
-      - 🇸🇬 kr2-28@1Gbps节点更新g
-      - 🇸🇬 kr2-29@1Gbps节点更新g
-      - 🇩🇪 DE-25@1Gbps节点更新g
-      - 🇸🇬 kr2-3@1Gbps节点更新g
       - 🇺🇸 美国 2
-      - 🇸🇬 kr2-21联通@1Gbps 节点更新g
-      - 🇩🇪 DE-8@1Gbps节点更新g
-      - 🇺🇸 g-美国CloudFlare公司CDN节点 8
-      - 🇺🇸 美国(w) 25
       - Relay_ |77.31Mb
+      - 🇭🇰 香港智能优选线路
+      - 🇺🇸 美国(w) 25
+      - 🇭🇰 香港智能优选线路(如节点无效手动更新订阅)
       - m|Relay_ |59.00Mb
-      - 🇩🇪 DE-12@1Gbps节点更新g
-      - 🇩🇪 DE-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 g-美国CloudFlare公司CDN节点 11
+      - 🇺🇸 美国 3
+      - node0710_2.6M
+      - node0710_1.9M
+      - 🇺🇸 美国 4
+      - 🇺🇸 USA
+      - f 45
+      - 🇺🇸 美国w 22
+      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国 7
+      - 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
+      - 🇷🇺 俄罗斯
+      - 🇷🇺 俄罗斯 2
       - 🇺🇸 美国1.4M
-      - 🇩🇪 DE-9@1Gbps节点更新g
-      - 🇩🇪 DE-14@1Gbps节点更新g
-      - 🇸🇬 kr2-23@1Gbps节点更新g
-      - node0710
-      - 1.1M
+      - 🇺🇸 美国 10
+      - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
       - 🇺🇸 公益节点joker007.top 美国3 2
-      - 🇭🇰 香港 ① 4
+      - node0710_4.8M
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 13
+      - 🇫🇷 法国
+      - 🇫🇷 法国 2
+      - 1.1M
+      - 🇬🇧 英国
+      - 🇬🇧 英国1M
+      - 🇺🇸 美国 14
+      - 🇳🇱 荷兰
+      - 🇳🇱 荷兰 2
+      - 🇬🇧 英国 2
+      - w1.1M
+      - 🇸🇬 节点更新g 99
+      - 🇨🇳 台湾省
+      - 🇷🇺 俄罗斯 3
+      - 🇮🇳 印度
+      - 🇺🇸 美国 15
+      - 195.47.194.42:35294
+      - 🇺🇸 美国 16
+      - 🇳🇱 荷兰 3
+      - 🇺🇸 美国智能优选线路
+      - 🇫🇷 法国 3
+      - 🇬🇧 英国 3
+      - 塞浦路斯
+      - 🇺🇸 美国 17
       - 91.90.123.115:44820
-      - w 27
-      - 🇩🇪 德国.9M
-      - 比利时 11
-      - 🇺🇸 g-美国CloudFlare公司CDN节点 9
-      - 🇭🇰 香港  ⑧ 4
+      - w 9
+      - 罗马(w) 12
+      - 克罗地亚
+      - 🇮🇹 意大利 16
+      - 91.90.123.115:41676
+      - 罗马(w) 9
+      - 195.47.194.42:50168
+      - 比利时
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -557,76 +557,76 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港  ⑧ 2
-      - 🇫🇷 法国 ⑤
-      - 🇭🇰 香港  ⑪ 3
+      - 🇭🇰 香港4.6m
+      - 🇸🇬 kr2-24@1Gbps节点更新g3.9m
+      - 🇭🇰 香港3.8m
+      - 🇭🇰 香港3.7m
       - 🇭🇰 香港
-      - 🇭🇰 香港3_3.5M
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑨ 4
-      - 🇺🇸 美国⑬ 4
-      - 🇸🇬 新加坡⑥ 4
-      - 🇭🇰 香港2_5M
-      - node0710_2.6M
-      - 🇸🇬 kr2-24@1Gbps节点更新g
-      - 🇸🇬 kr2-19@1Gbps节点更新g
-      - node0710_4.8M
-      - 🇸🇬 kr2-27@1Gbps节点更新g
-      - 🇸🇬 kr2-18@1Gbps节点更新g
-      - 🇸🇬 kr2-15@1Gbps节点更新g
-      - node0710_3.5M
-      - 🇸🇬 节点更新g 2
-      - kr2-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇭🇰 kr2-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇸🇬 kr2-25@1Gbps节点更新g
-      - 🇸🇬 kr2-17@1Gbps节点更新g
-      - node0710_1.9M
-      - 🇸🇬 kr2-13@1Gbps节点更新g
-      - 🇩🇪 DE-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇩🇪 DE-13@1Gbps节点更新g
-      - 🇩🇪 DE-11@1Gbps节点更新g
-      - 🇩🇪 DE-19@1Gbps节点更新g
-      - 🇩🇪 DE-35 联通100M+4K -2
-      - 🇨🇦 加拿大
-      - 🇩🇪 DE-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 kr2-5@1Gbps节点更新g
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
       - 🇺🇸 美国
-      - 🇩🇪 德国 3
-      - node0710_2.7M
-      - node0710_2.6M 2
-      - 🇩🇪 DE-28@1Gbps节点更新g
-      - 🇩🇪 DE-5@1Gbps节点更新g
-      - 🇩🇪 DE-27@1Gbps节点更新g
-      - 🇩🇪 DE-29@1Gbps节点更新g
-      - 🇩🇪 DE-24@1Gbps节点更新g
-      - 🇸🇬 kr2-28@1Gbps节点更新g
-      - 🇸🇬 kr2-29@1Gbps节点更新g
-      - 🇩🇪 DE-25@1Gbps节点更新g
-      - 🇸🇬 kr2-3@1Gbps节点更新g
       - 🇺🇸 美国 2
-      - 🇸🇬 kr2-21联通@1Gbps 节点更新g
-      - 🇩🇪 DE-8@1Gbps节点更新g
-      - 🇺🇸 g-美国CloudFlare公司CDN节点 8
-      - 🇺🇸 美国(w) 25
       - Relay_ |77.31Mb
+      - 🇭🇰 香港智能优选线路
+      - 🇺🇸 美国(w) 25
+      - 🇭🇰 香港智能优选线路(如节点无效手动更新订阅)
       - m|Relay_ |59.00Mb
-      - 🇩🇪 DE-12@1Gbps节点更新g
-      - 🇩🇪 DE-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 g-美国CloudFlare公司CDN节点 11
+      - 🇺🇸 美国 3
+      - node0710_2.6M
+      - node0710_1.9M
+      - 🇺🇸 美国 4
+      - 🇺🇸 USA
+      - f 45
+      - 🇺🇸 美国w 22
+      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国 7
+      - 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
+      - 🇷🇺 俄罗斯
+      - 🇷🇺 俄罗斯 2
       - 🇺🇸 美国1.4M
-      - 🇩🇪 DE-9@1Gbps节点更新g
-      - 🇩🇪 DE-14@1Gbps节点更新g
-      - 🇸🇬 kr2-23@1Gbps节点更新g
-      - node0710
-      - 1.1M
+      - 🇺🇸 美国 10
+      - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
       - 🇺🇸 公益节点joker007.top 美国3 2
-      - 🇭🇰 香港 ① 4
+      - node0710_4.8M
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 13
+      - 🇫🇷 法国
+      - 🇫🇷 法国 2
+      - 1.1M
+      - 🇬🇧 英国
+      - 🇬🇧 英国1M
+      - 🇺🇸 美国 14
+      - 🇳🇱 荷兰
+      - 🇳🇱 荷兰 2
+      - 🇬🇧 英国 2
+      - w1.1M
+      - 🇸🇬 节点更新g 99
+      - 🇨🇳 台湾省
+      - 🇷🇺 俄罗斯 3
+      - 🇮🇳 印度
+      - 🇺🇸 美国 15
+      - 195.47.194.42:35294
+      - 🇺🇸 美国 16
+      - 🇳🇱 荷兰 3
+      - 🇺🇸 美国智能优选线路
+      - 🇫🇷 法国 3
+      - 🇬🇧 英国 3
+      - 塞浦路斯
+      - 🇺🇸 美国 17
       - 91.90.123.115:44820
-      - w 27
-      - 🇩🇪 德国.9M
-      - 比利时 11
-      - 🇺🇸 g-美国CloudFlare公司CDN节点 9
-      - 🇭🇰 香港  ⑧ 4
+      - w 9
+      - 罗马(w) 12
+      - 克罗地亚
+      - 🇮🇹 意大利 16
+      - 91.90.123.115:41676
+      - 罗马(w) 9
+      - 195.47.194.42:50168
+      - 比利时
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
