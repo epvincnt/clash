@@ -5,539 +5,536 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a, server: 104.19.110.10, port: 80, type: vmess, uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇭🇰 香港, server: 44.ssrj.xyz, port: 61144, type: vmess, uuid: 1bbaaa5b-02a1-3f80-a14a-f132076b64ec, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a, server: 104.19.111.39, port: 80, type: vmess, uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇭🇰 西安电信-HKhttps://bit.ly/3uWuS7a, server: 104.19.110.10, port: 80, type: vmess, uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇭🇰 香港 2, server: 45.ssrj.xyz, port: 61145, type: vmess, uuid: 1bbaaa5b-02a1-3f80-a14a-f132076b64ec, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 重庆联通-HKhttps://bit.ly/3uWuS7a, server: 113.207.102.30, port: 80, type: vmess, uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇺🇸 西安电信-TWhttps://bit.ly/3uWuS7a, server: 104.19.110.10, port: 80, type: vmess, uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 004.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇭🇰 香港智能优选线路, server: 62.216.92.166, port: 37943, type: vmess, uuid: b95f25e6-2dbe-4382-9fde-c854479c0f7a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a, server: 104.19.23.24, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: Relay_ |77.31Mb, server: 104.19.110.10, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a, server: 42.81.8.30, port: 80, type: vmess, uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
-  - {name: sg-OVH Hosting-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s, server: 104.19.110.10, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a 2, server: 119.188.97.1, port: 80, type: vmess, uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇭🇰 香港负载均衡, server: relay.xxl123.fun, port: 20022, type: vmess, uuid: 235e8dce-80ac-41cb-98f6-89f3d76a2628, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /f932c3d98981b, ws-headers: {Host: f932c3d98981b.download.microsoft.com}}
-  - {name: 🇺🇸 天津电信-TWhttps://bit.ly/3uWuS7a, server: 104.19.110.10, port: 80, type: vmess, uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 004.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇺🇸 苏州电信-TWhttps://bit.ly/3uWuS7a, server: 104.19.110.10, port: 80, type: vmess, uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 004.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.111.39, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇺🇸 济南联通-TWhttps://bit.ly/3uWuS7a, server: 104.19.110.10, port: 80, type: vmess, uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 004.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇺🇸 USA, server: 104.20.55.13, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 2, server: 104.19.111.39, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇸🇬 US-2@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.110.10, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
-  - {name: YouTube-阿伟科技5, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a7436b35-0daf-3eac-9a0b-356b8a3cc63b, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
+  - {name: 🇭🇰 重庆联通-HKhttps://bit.ly/3uWuS7a, server: 104.20.51.108, port: 80, type: vmess, uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇭🇰 重庆联通-HKhttps://bit.ly/3uWuS7a 2, server: 113.207.102.1, port: 80, type: vmess, uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇭🇰 天津移动-HKhttps://bit.ly/3uWuS7a, server: 111.32.136.1, port: 80, type: vmess, uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇭🇰 郑州联通-HKhttps://bit.ly/3uWuS7a, server: 104.20.51.108, port: 80, type: vmess, uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
   - {name: 🇯🇵 日本02 | 中转AZ x0.5, server: relay.xxl123.fun, port: 20088, type: vmess, uuid: 235e8dce-80ac-41cb-98f6-89f3d76a2628, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /path, ws-headers: {Host: "http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com"}}
-  - {name: 🇺🇸 USA  🇺, server: 104.19.110.10, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: 🇺🇸 美国, server: 104.19.24.52, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}}
-  - {name: 🇸🇬 kr2-23@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.111.39, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇺🇸 美国 2, server: 104.20.55.13, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}}
-  - {name: kr2-34 联通100M+4K, server: 104.19.111.39, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇸🇬 kr2-25@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.111.39, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇸🇬 kr2-5@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.111.39, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇸🇬 kr2-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.19.111.39, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇸🇬 US-15@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.111.39, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
-  - {name: YouTube-阿伟科技5 2, server: gya.cloudddns.icu, port: 819, type: vmess, uuid: a7436b35-0daf-3eac-9a0b-356b8a3cc63b, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gya.cloudddns.icu}}
-  - {name: 🇸🇬 sg-OVH Hosting-20@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.111.39, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: 🇸🇬 US-23@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.111.39, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
-  - {name: 🇺🇸 US-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s, server: 104.19.108.149, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
-  - {name: 🇺🇸 美国 3, server: 104.19.110.10, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
-  - {name: 🇺🇸 美国 4, server: 104.19.110.10, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
+  - {name: 🇸🇬 kr2-15@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇭🇰 香港智能优选线路, server: 62.216.92.166, port: 37943, type: vmess, uuid: b95f25e6-2dbe-4382-9fde-c854479c0f7a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国04 | 中转AZ | 流媒体 x0.5, server: relay.xxl123.fun, port: 10004, type: vmess, uuid: 235e8dce-80ac-41cb-98f6-89f3d76a2628, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /path, ws-headers: {Host: "http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com"}}
+  - {name: 🇸🇬 kr2-20@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇸🇬 kr2-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a, server: 104.20.51.108, port: 80, type: vmess, uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇸🇬 kr2-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a 2, server: 42.81.8.1, port: 80, type: vmess, uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇸🇬 kr2-7@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇸🇬 sg-OVH Hosting-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: 🇸🇬 sg-OVH Hosting-8@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: 🇸🇬 sg-OVH Hosting-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: 🇸🇬 kr2-23@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a, server: 119.188.97.30, port: 80, type: vmess, uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇸🇬 kr2-27@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇺🇸 美国, server: 104.19.89.166, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
+  - {name: 🇸🇬 kr2-11@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇸🇬 sg-OVH Hosting-6@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: 🇸🇬 sg-OVH Hosting-16@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.110.10, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: kr35  联通100M+4K -2, server: 104.20.51.108, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
   - {name: 🇯🇵 日本智能优选线路(节点1-2天更新一次), server: 194.156.230.203, port: 33342, type: vmess, uuid: 31d634a4-e223-4287-a4df-0db3e33b66bf, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 104.20.55.13, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇸🇬 US-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.19.111.39, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
-  - {name: 🇸🇬 US-28@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.108.149, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
-  - {name: kr2-33, server: 104.19.110.10, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇺🇸 美国 5, server: 104.19.110.10, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}}
-  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2, server: 104.19.110.10, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
-  - {name: 🇸🇬 kr2-12@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.111.39, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 3, server: 104.19.111.39, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
-  - {name: 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.19.111.39, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇸🇬 sg-OVH Hosting-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.19.45.117, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: 🇸🇬 sg-OVH Hosting-17@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.111.39, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: 🇸🇬 US-9@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.111.39, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
-  - {name: 🇸🇬 kr2-16@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.105.77, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: m|Relay_ |59.00Mb, server: 104.19.24.52, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
-  - {name: 🇸🇬 US-4@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.111.39, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
-  - {name: sg-OVH Hosting-34 联通100M+4K, server: 104.19.111.39, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: 🇸🇬 US-29@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.23.24, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
-  - {name: 53453, server: 104.19.110.10, port: 443, type: vmess, uuid: d2da3dcb-b08a-4561-83de-b73e7b8c0288, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /stream, ws-headers: {Host: euserv4p.ezddns.tk}}
-  - {name: 🇺🇸 美国 6, server: 104.19.24.52, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
+  - {name: kr2-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s, server: 104.20.51.108, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: m|Relay_ |59.00Mb, server: 104.19.89.166, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
+  - {name: 🇺🇸 美国 2, server: 104.19.89.166, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
+  - {name: 🇭🇰 天津移动-HKhttps://bit.ly/3uWuS7a 2, server: 111.32.136.1, port: 80, type: vmess, uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
   - {name: 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x, server: 172.67.32.246, port: 443, type: vmess, uuid: 478055cc-fdb8-404e-b730-c32faa2c7ca1, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /asdfasdf, ws-headers: {Host: qq1-cloud13.feiclouddd.me}}
-  - {name: 🇸🇬 sg-OVH Hosting-28@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.110.10, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x, server: 104.19.110.10, port: 443, type: vmess, uuid: 97018aac-0985-4d4b-8283-f774c9fe9418, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /v2ray/fc671c24/, ws-headers: {Host: t6.ssrsub.one}}
-  - {name: 🇺🇸 美国 7, server: 104.19.110.10, port: 443, type: vmess, uuid: f802a64c-e152-11eb-9adc-0016909b35da, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /Bnmt9OqM/, ws-headers: {Host: a7.ssrsub.one}}
-  - {name: 🇺🇸 美国 8, server: 104.19.110.10, port: 80, type: vmess, uuid: 60b738e2-3aa4-4cde-c270-20f8cc1ab16a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv5p.ezddns.tk}}
-  - {name: 🇺🇸 美国 9, server: 104.19.111.39, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 美国 10, server: 104.19.110.10, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 424, server: 104.19.110.10, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
-  - {name: 🇺🇸 美国 11, server: 104.19.110.10, port: 443, type: vmess, uuid: f802a64c-e152-11eb-9adc-0016909b35da, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /Bnmt9OqM/, ws-headers: {Host: a7.ssrsub.one}}
-  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3, server: 104.20.55.13, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: 🇭🇰 郑州联通-HKhttps://bit.ly/3uWuS7a, server: 104.19.111.39, port: 80, type: vmess, uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}}
-  - {name: 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 18.162.50.178, port: 20430, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 478055cc-fdb8-404e-b730-c32faa2c7ca1, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /asdfasdf, ws-headers: {Host: qq1-cloud13.feiclouddd.me}}
+  - {name: 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a, server: 112.25.91.30, port: 80, type: vmess, uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 2, server: 104.20.51.108, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /233blog, ws-headers: {Host: rn.ddns1312.top}}
+  - {name: 🇩🇪 DE-7@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 DE-8@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 美国 3, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 DE-4@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a 2, server: 112.25.91.1, port: 80, type: vmess, uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 002.cdn.8x.cx.hit.edu.cn}}
+  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 104.20.55.13, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 DE-5@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: node0710_1.9M, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 DE-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 DE-11@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 美国 4, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 美国 5, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 DE-17@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: f 45, server: 172.67.32.246, port: 80, type: vmess, uuid: c0304bc1-f8ff-4108-9bc6-3415d16ae5e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv12p.ezddns.tk}}
+  - {name: 🇩🇪 DE-18@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 DE-15@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 DE-9@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 DE-10@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 DE-33, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2, server: 104.20.55.13, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: 🇩🇪 DE-20@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.19.45.117, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇩🇪 DE-34 联通100M+4K, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 DE-27@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 美国 6, server: 104.19.110.10, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}}
+  - {name: 🇸🇬 sg-OVH Hosting-29@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.23.24, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: 🇩🇪 DE-14@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 美国 7, server: 104.19.24.52, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 3, server: 104.19.23.24, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 4, server: zr.zzzr.ltd, port: 8443, type: vmess, uuid: 4e685866-d815-11eb-9302-ebc19f604312, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /SmjU0bHk/, ws-headers: {Host: zr.zzzr.ltd}}
+  - {name: 🇨🇳 台湾省, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
+  - {name: YouTube-阿伟科技5, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a7436b35-0daf-3eac-9a0b-356b8a3cc63b, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港
-      - 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 西安电信-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港 2
       - 🇭🇰 重庆联通-HKhttps://bit.ly/3uWuS7a
-      - 🇺🇸 西安电信-TWhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港智能优选线路
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - Relay_ |77.31Mb
-      - 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a
-      - sg-OVH Hosting-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a 2
-      - 🇭🇰 香港负载均衡
-      - 🇺🇸 天津电信-TWhttps://bit.ly/3uWuS7a
-      - 🇺🇸 苏州电信-TWhttps://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 济南联通-TWhttps://bit.ly/3uWuS7a
-      - 🇺🇸 USA
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇸🇬 US-2@1Gbps节点更新https://bit.ly/3uWuS7a
-      - YouTube-阿伟科技5
-      - 🇯🇵 日本02 | 中转AZ x0.5
-      - 🇺🇸 USA  🇺
-      - 🇺🇸 美国
-      - 🇸🇬 kr2-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国 2
-      - kr2-34 联通100M+4K
-      - 🇸🇬 kr2-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-15@1Gbps节点更新https://bit.ly/3uWuS7a
-      - YouTube-阿伟科技5 2
-      - 🇸🇬 sg-OVH Hosting-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 US-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇸🇬 US-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - kr2-33
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇸🇬 kr2-12@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-17@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-16@1Gbps节点更新https://bit.ly/3uWuS7a
-      - m|Relay_ |59.00Mb
-      - 🇸🇬 US-4@1Gbps节点更新https://bit.ly/3uWuS7a
-      - sg-OVH Hosting-34 联通100M+4K
-      - 🇸🇬 US-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 53453
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
-      - 🇸🇬 sg-OVH Hosting-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 424
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
+      - 🇭🇰 重庆联通-HKhttps://bit.ly/3uWuS7a 2
+      - 🇭🇰 天津移动-HKhttps://bit.ly/3uWuS7a
       - 🇭🇰 郑州联通-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇯🇵 日本02 | 中转AZ x0.5
+      - 🇸🇬 kr2-15@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 香港智能优选线路
+      - 🇺🇸 美国04 | 中转AZ | 流媒体 x0.5
+      - 🇸🇬 kr2-20@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a 2
+      - 🇸🇬 kr2-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-8@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-27@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国
+      - 🇸🇬 kr2-11@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-6@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-16@1Gbps节点更新https://bit.ly/3uWuS7a
+      - kr35  联通100M+4K -2
+      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
+      - kr2-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
+      - m|Relay_ |59.00Mb
+      - 🇺🇸 美国 2
+      - 🇭🇰 天津移动-HKhttps://bit.ly/3uWuS7a 2
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a
+      - 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - 🇩🇪 DE-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-8@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 3
+      - 🇩🇪 DE-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a 2
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇩🇪 DE-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - node0710_1.9M
+      - 🇩🇪 DE-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-11@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇩🇪 DE-17@1Gbps节点更新https://bit.ly/3uWuS7a
+      - f 45
+      - 🇩🇪 DE-18@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-15@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-33
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇩🇪 DE-20@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-34 联通100M+4K
+      - 🇩🇪 DE-27@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 6
+      - 🇸🇬 sg-OVH Hosting-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-14@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 7
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇨🇳 台湾省
+      - YouTube-阿伟科技5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港
-      - 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 西安电信-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港 2
       - 🇭🇰 重庆联通-HKhttps://bit.ly/3uWuS7a
-      - 🇺🇸 西安电信-TWhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港智能优选线路
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - Relay_ |77.31Mb
-      - 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a
-      - sg-OVH Hosting-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a 2
-      - 🇭🇰 香港负载均衡
-      - 🇺🇸 天津电信-TWhttps://bit.ly/3uWuS7a
-      - 🇺🇸 苏州电信-TWhttps://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 济南联通-TWhttps://bit.ly/3uWuS7a
-      - 🇺🇸 USA
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇸🇬 US-2@1Gbps节点更新https://bit.ly/3uWuS7a
-      - YouTube-阿伟科技5
-      - 🇯🇵 日本02 | 中转AZ x0.5
-      - 🇺🇸 USA  🇺
-      - 🇺🇸 美国
-      - 🇸🇬 kr2-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国 2
-      - kr2-34 联通100M+4K
-      - 🇸🇬 kr2-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-15@1Gbps节点更新https://bit.ly/3uWuS7a
-      - YouTube-阿伟科技5 2
-      - 🇸🇬 sg-OVH Hosting-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 US-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇸🇬 US-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - kr2-33
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇸🇬 kr2-12@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-17@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-16@1Gbps节点更新https://bit.ly/3uWuS7a
-      - m|Relay_ |59.00Mb
-      - 🇸🇬 US-4@1Gbps节点更新https://bit.ly/3uWuS7a
-      - sg-OVH Hosting-34 联通100M+4K
-      - 🇸🇬 US-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 53453
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
-      - 🇸🇬 sg-OVH Hosting-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 424
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
+      - 🇭🇰 重庆联通-HKhttps://bit.ly/3uWuS7a 2
+      - 🇭🇰 天津移动-HKhttps://bit.ly/3uWuS7a
       - 🇭🇰 郑州联通-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇯🇵 日本02 | 中转AZ x0.5
+      - 🇸🇬 kr2-15@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 香港智能优选线路
+      - 🇺🇸 美国04 | 中转AZ | 流媒体 x0.5
+      - 🇸🇬 kr2-20@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a 2
+      - 🇸🇬 kr2-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-8@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-27@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国
+      - 🇸🇬 kr2-11@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-6@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-16@1Gbps节点更新https://bit.ly/3uWuS7a
+      - kr35  联通100M+4K -2
+      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
+      - kr2-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
+      - m|Relay_ |59.00Mb
+      - 🇺🇸 美国 2
+      - 🇭🇰 天津移动-HKhttps://bit.ly/3uWuS7a 2
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a
+      - 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - 🇩🇪 DE-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-8@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 3
+      - 🇩🇪 DE-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a 2
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇩🇪 DE-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - node0710_1.9M
+      - 🇩🇪 DE-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-11@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇩🇪 DE-17@1Gbps节点更新https://bit.ly/3uWuS7a
+      - f 45
+      - 🇩🇪 DE-18@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-15@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-33
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇩🇪 DE-20@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-34 联通100M+4K
+      - 🇩🇪 DE-27@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 6
+      - 🇸🇬 sg-OVH Hosting-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-14@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 7
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇨🇳 台湾省
+      - YouTube-阿伟科技5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港
-      - 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 西安电信-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港 2
       - 🇭🇰 重庆联通-HKhttps://bit.ly/3uWuS7a
-      - 🇺🇸 西安电信-TWhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港智能优选线路
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - Relay_ |77.31Mb
-      - 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a
-      - sg-OVH Hosting-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a 2
-      - 🇭🇰 香港负载均衡
-      - 🇺🇸 天津电信-TWhttps://bit.ly/3uWuS7a
-      - 🇺🇸 苏州电信-TWhttps://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 济南联通-TWhttps://bit.ly/3uWuS7a
-      - 🇺🇸 USA
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇸🇬 US-2@1Gbps节点更新https://bit.ly/3uWuS7a
-      - YouTube-阿伟科技5
-      - 🇯🇵 日本02 | 中转AZ x0.5
-      - 🇺🇸 USA  🇺
-      - 🇺🇸 美国
-      - 🇸🇬 kr2-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国 2
-      - kr2-34 联通100M+4K
-      - 🇸🇬 kr2-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-15@1Gbps节点更新https://bit.ly/3uWuS7a
-      - YouTube-阿伟科技5 2
-      - 🇸🇬 sg-OVH Hosting-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 US-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇸🇬 US-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - kr2-33
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇸🇬 kr2-12@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-17@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-16@1Gbps节点更新https://bit.ly/3uWuS7a
-      - m|Relay_ |59.00Mb
-      - 🇸🇬 US-4@1Gbps节点更新https://bit.ly/3uWuS7a
-      - sg-OVH Hosting-34 联通100M+4K
-      - 🇸🇬 US-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 53453
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
-      - 🇸🇬 sg-OVH Hosting-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 424
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
+      - 🇭🇰 重庆联通-HKhttps://bit.ly/3uWuS7a 2
+      - 🇭🇰 天津移动-HKhttps://bit.ly/3uWuS7a
       - 🇭🇰 郑州联通-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇯🇵 日本02 | 中转AZ x0.5
+      - 🇸🇬 kr2-15@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 香港智能优选线路
+      - 🇺🇸 美国04 | 中转AZ | 流媒体 x0.5
+      - 🇸🇬 kr2-20@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a 2
+      - 🇸🇬 kr2-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-8@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-27@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国
+      - 🇸🇬 kr2-11@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-6@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-16@1Gbps节点更新https://bit.ly/3uWuS7a
+      - kr35  联通100M+4K -2
+      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
+      - kr2-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
+      - m|Relay_ |59.00Mb
+      - 🇺🇸 美国 2
+      - 🇭🇰 天津移动-HKhttps://bit.ly/3uWuS7a 2
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a
+      - 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - 🇩🇪 DE-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-8@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 3
+      - 🇩🇪 DE-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a 2
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇩🇪 DE-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - node0710_1.9M
+      - 🇩🇪 DE-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-11@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇩🇪 DE-17@1Gbps节点更新https://bit.ly/3uWuS7a
+      - f 45
+      - 🇩🇪 DE-18@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-15@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-33
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇩🇪 DE-20@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-34 联通100M+4K
+      - 🇩🇪 DE-27@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 6
+      - 🇸🇬 sg-OVH Hosting-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-14@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 7
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇨🇳 台湾省
+      - YouTube-阿伟科技5
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
       - 🇭🇰 香港智能优选线路
-      - 🇭🇰 香港负载均衡
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇨🇳 台湾省
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港
-      - 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 西安电信-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港 2
       - 🇭🇰 重庆联通-HKhttps://bit.ly/3uWuS7a
-      - 🇺🇸 西安电信-TWhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港智能优选线路
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - Relay_ |77.31Mb
-      - 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a
-      - sg-OVH Hosting-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a 2
-      - 🇭🇰 香港负载均衡
-      - 🇺🇸 天津电信-TWhttps://bit.ly/3uWuS7a
-      - 🇺🇸 苏州电信-TWhttps://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 济南联通-TWhttps://bit.ly/3uWuS7a
-      - 🇺🇸 USA
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇸🇬 US-2@1Gbps节点更新https://bit.ly/3uWuS7a
-      - YouTube-阿伟科技5
-      - 🇯🇵 日本02 | 中转AZ x0.5
-      - 🇺🇸 USA  🇺
-      - 🇺🇸 美国
-      - 🇸🇬 kr2-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国 2
-      - kr2-34 联通100M+4K
-      - 🇸🇬 kr2-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-15@1Gbps节点更新https://bit.ly/3uWuS7a
-      - YouTube-阿伟科技5 2
-      - 🇸🇬 sg-OVH Hosting-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 US-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇸🇬 US-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - kr2-33
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇸🇬 kr2-12@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-17@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-16@1Gbps节点更新https://bit.ly/3uWuS7a
-      - m|Relay_ |59.00Mb
-      - 🇸🇬 US-4@1Gbps节点更新https://bit.ly/3uWuS7a
-      - sg-OVH Hosting-34 联通100M+4K
-      - 🇸🇬 US-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 53453
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
-      - 🇸🇬 sg-OVH Hosting-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 424
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
+      - 🇭🇰 重庆联通-HKhttps://bit.ly/3uWuS7a 2
+      - 🇭🇰 天津移动-HKhttps://bit.ly/3uWuS7a
       - 🇭🇰 郑州联通-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇯🇵 日本02 | 中转AZ x0.5
+      - 🇸🇬 kr2-15@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 香港智能优选线路
+      - 🇺🇸 美国04 | 中转AZ | 流媒体 x0.5
+      - 🇸🇬 kr2-20@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a 2
+      - 🇸🇬 kr2-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-8@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-27@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国
+      - 🇸🇬 kr2-11@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-6@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-16@1Gbps节点更新https://bit.ly/3uWuS7a
+      - kr35  联通100M+4K -2
+      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
+      - kr2-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
+      - m|Relay_ |59.00Mb
+      - 🇺🇸 美国 2
+      - 🇭🇰 天津移动-HKhttps://bit.ly/3uWuS7a 2
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a
+      - 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - 🇩🇪 DE-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-8@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 3
+      - 🇩🇪 DE-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a 2
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇩🇪 DE-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - node0710_1.9M
+      - 🇩🇪 DE-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-11@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇩🇪 DE-17@1Gbps节点更新https://bit.ly/3uWuS7a
+      - f 45
+      - 🇩🇪 DE-18@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-15@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-33
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇩🇪 DE-20@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-34 联通100M+4K
+      - 🇩🇪 DE-27@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 6
+      - 🇸🇬 sg-OVH Hosting-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-14@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 7
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇨🇳 台湾省
+      - YouTube-阿伟科技5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港
-      - 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 西安电信-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港 2
       - 🇭🇰 重庆联通-HKhttps://bit.ly/3uWuS7a
-      - 🇺🇸 西安电信-TWhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港智能优选线路
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - Relay_ |77.31Mb
-      - 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a
-      - sg-OVH Hosting-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a 2
-      - 🇭🇰 香港负载均衡
-      - 🇺🇸 天津电信-TWhttps://bit.ly/3uWuS7a
-      - 🇺🇸 苏州电信-TWhttps://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 济南联通-TWhttps://bit.ly/3uWuS7a
-      - 🇺🇸 USA
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇸🇬 US-2@1Gbps节点更新https://bit.ly/3uWuS7a
-      - YouTube-阿伟科技5
-      - 🇯🇵 日本02 | 中转AZ x0.5
-      - 🇺🇸 USA  🇺
-      - 🇺🇸 美国
-      - 🇸🇬 kr2-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国 2
-      - kr2-34 联通100M+4K
-      - 🇸🇬 kr2-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-15@1Gbps节点更新https://bit.ly/3uWuS7a
-      - YouTube-阿伟科技5 2
-      - 🇸🇬 sg-OVH Hosting-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 US-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇸🇬 US-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - kr2-33
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇸🇬 kr2-12@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-17@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-16@1Gbps节点更新https://bit.ly/3uWuS7a
-      - m|Relay_ |59.00Mb
-      - 🇸🇬 US-4@1Gbps节点更新https://bit.ly/3uWuS7a
-      - sg-OVH Hosting-34 联通100M+4K
-      - 🇸🇬 US-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 53453
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
-      - 🇸🇬 sg-OVH Hosting-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 424
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
+      - 🇭🇰 重庆联通-HKhttps://bit.ly/3uWuS7a 2
+      - 🇭🇰 天津移动-HKhttps://bit.ly/3uWuS7a
       - 🇭🇰 郑州联通-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇯🇵 日本02 | 中转AZ x0.5
+      - 🇸🇬 kr2-15@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 香港智能优选线路
+      - 🇺🇸 美国04 | 中转AZ | 流媒体 x0.5
+      - 🇸🇬 kr2-20@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a 2
+      - 🇸🇬 kr2-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-8@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-27@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国
+      - 🇸🇬 kr2-11@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-6@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-16@1Gbps节点更新https://bit.ly/3uWuS7a
+      - kr35  联通100M+4K -2
+      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
+      - kr2-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
+      - m|Relay_ |59.00Mb
+      - 🇺🇸 美国 2
+      - 🇭🇰 天津移动-HKhttps://bit.ly/3uWuS7a 2
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a
+      - 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - 🇩🇪 DE-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-8@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 3
+      - 🇩🇪 DE-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a 2
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇩🇪 DE-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - node0710_1.9M
+      - 🇩🇪 DE-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-11@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇩🇪 DE-17@1Gbps节点更新https://bit.ly/3uWuS7a
+      - f 45
+      - 🇩🇪 DE-18@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-15@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-33
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇩🇪 DE-20@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-34 联通100M+4K
+      - 🇩🇪 DE-27@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 6
+      - 🇸🇬 sg-OVH Hosting-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-14@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 7
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇨🇳 台湾省
+      - YouTube-阿伟科技5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港
-      - 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 西安电信-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港 2
       - 🇭🇰 重庆联通-HKhttps://bit.ly/3uWuS7a
-      - 🇺🇸 西安电信-TWhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港智能优选线路
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - Relay_ |77.31Mb
-      - 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a
-      - sg-OVH Hosting-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a 2
-      - 🇭🇰 香港负载均衡
-      - 🇺🇸 天津电信-TWhttps://bit.ly/3uWuS7a
-      - 🇺🇸 苏州电信-TWhttps://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 济南联通-TWhttps://bit.ly/3uWuS7a
-      - 🇺🇸 USA
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇸🇬 US-2@1Gbps节点更新https://bit.ly/3uWuS7a
-      - YouTube-阿伟科技5
-      - 🇯🇵 日本02 | 中转AZ x0.5
-      - 🇺🇸 USA  🇺
-      - 🇺🇸 美国
-      - 🇸🇬 kr2-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国 2
-      - kr2-34 联通100M+4K
-      - 🇸🇬 kr2-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-15@1Gbps节点更新https://bit.ly/3uWuS7a
-      - YouTube-阿伟科技5 2
-      - 🇸🇬 sg-OVH Hosting-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 US-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇸🇬 US-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - kr2-33
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇸🇬 kr2-12@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-17@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-16@1Gbps节点更新https://bit.ly/3uWuS7a
-      - m|Relay_ |59.00Mb
-      - 🇸🇬 US-4@1Gbps节点更新https://bit.ly/3uWuS7a
-      - sg-OVH Hosting-34 联通100M+4K
-      - 🇸🇬 US-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 53453
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
-      - 🇸🇬 sg-OVH Hosting-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 424
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
+      - 🇭🇰 重庆联通-HKhttps://bit.ly/3uWuS7a 2
+      - 🇭🇰 天津移动-HKhttps://bit.ly/3uWuS7a
       - 🇭🇰 郑州联通-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇯🇵 日本02 | 中转AZ x0.5
+      - 🇸🇬 kr2-15@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 香港智能优选线路
+      - 🇺🇸 美国04 | 中转AZ | 流媒体 x0.5
+      - 🇸🇬 kr2-20@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a 2
+      - 🇸🇬 kr2-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-8@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-27@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国
+      - 🇸🇬 kr2-11@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-6@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-16@1Gbps节点更新https://bit.ly/3uWuS7a
+      - kr35  联通100M+4K -2
+      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
+      - kr2-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
+      - m|Relay_ |59.00Mb
+      - 🇺🇸 美国 2
+      - 🇭🇰 天津移动-HKhttps://bit.ly/3uWuS7a 2
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a
+      - 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - 🇩🇪 DE-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-8@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 3
+      - 🇩🇪 DE-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a 2
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇩🇪 DE-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - node0710_1.9M
+      - 🇩🇪 DE-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-11@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇩🇪 DE-17@1Gbps节点更新https://bit.ly/3uWuS7a
+      - f 45
+      - 🇩🇪 DE-18@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-15@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-33
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇩🇪 DE-20@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-34 联通100M+4K
+      - 🇩🇪 DE-27@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 6
+      - 🇸🇬 sg-OVH Hosting-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-14@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 7
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇨🇳 台湾省
+      - YouTube-阿伟科技5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -553,76 +550,76 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港
-      - 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 西安电信-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港 2
       - 🇭🇰 重庆联通-HKhttps://bit.ly/3uWuS7a
-      - 🇺🇸 西安电信-TWhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港智能优选线路
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - Relay_ |77.31Mb
-      - 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a
-      - sg-OVH Hosting-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a 2
-      - 🇭🇰 香港负载均衡
-      - 🇺🇸 天津电信-TWhttps://bit.ly/3uWuS7a
-      - 🇺🇸 苏州电信-TWhttps://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 济南联通-TWhttps://bit.ly/3uWuS7a
-      - 🇺🇸 USA
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇸🇬 US-2@1Gbps节点更新https://bit.ly/3uWuS7a
-      - YouTube-阿伟科技5
-      - 🇯🇵 日本02 | 中转AZ x0.5
-      - 🇺🇸 USA  🇺
-      - 🇺🇸 美国
-      - 🇸🇬 kr2-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国 2
-      - kr2-34 联通100M+4K
-      - 🇸🇬 kr2-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-15@1Gbps节点更新https://bit.ly/3uWuS7a
-      - YouTube-阿伟科技5 2
-      - 🇸🇬 sg-OVH Hosting-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 US-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇸🇬 US-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - kr2-33
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇸🇬 kr2-12@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-17@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 US-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 kr2-16@1Gbps节点更新https://bit.ly/3uWuS7a
-      - m|Relay_ |59.00Mb
-      - 🇸🇬 US-4@1Gbps节点更新https://bit.ly/3uWuS7a
-      - sg-OVH Hosting-34 联通100M+4K
-      - 🇸🇬 US-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 53453
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
-      - 🇸🇬 sg-OVH Hosting-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 424
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
+      - 🇭🇰 重庆联通-HKhttps://bit.ly/3uWuS7a 2
+      - 🇭🇰 天津移动-HKhttps://bit.ly/3uWuS7a
       - 🇭🇰 郑州联通-HKhttps://bit.ly/3uWuS7a
-      - 🇭🇰 香港🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇯🇵 日本02 | 中转AZ x0.5
+      - 🇸🇬 kr2-15@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 香港智能优选线路
+      - 🇺🇸 美国04 | 中转AZ | 流媒体 x0.5
+      - 🇸🇬 kr2-20@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 天津电信-HKhttps://bit.ly/3uWuS7a 2
+      - 🇸🇬 kr2-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-8@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 济南联通-HKhttps://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-27@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国
+      - 🇸🇬 kr2-11@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-6@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 sg-OVH Hosting-16@1Gbps节点更新https://bit.ly/3uWuS7a
+      - kr35  联通100M+4K -2
+      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
+      - kr2-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
+      - m|Relay_ |59.00Mb
+      - 🇺🇸 美国 2
+      - 🇭🇰 天津移动-HKhttps://bit.ly/3uWuS7a 2
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a
+      - 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - 🇩🇪 DE-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-8@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 3
+      - 🇩🇪 DE-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇭🇰 无锡移动-HKhttps://bit.ly/3uWuS7a 2
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇩🇪 DE-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - node0710_1.9M
+      - 🇩🇪 DE-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-11@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇩🇪 DE-17@1Gbps节点更新https://bit.ly/3uWuS7a
+      - f 45
+      - 🇩🇪 DE-18@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-15@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-33
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇩🇪 DE-20@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 kr2-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-34 联通100M+4K
+      - 🇩🇪 DE-27@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 6
+      - 🇸🇬 sg-OVH Hosting-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 DE-14@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 7
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇨🇳 台湾省
+      - YouTube-阿伟科技5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
