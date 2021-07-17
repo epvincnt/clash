@@ -5,565 +5,317 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 新加坡⑥ 4, server: 52.ssrj.xyz, port: 65152, type: vmess, uuid: 4f3dafda-bfa5-3c19-aba5-dc563aa040d5, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 ③, server: 48.ssrj.xyz, port: 65148, type: vmess, uuid: 4ae97ba4-2577-3859-a297-bf778d982b11, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 ③ 3, server: 49.ssrj.xyz, port: 61149, type: vmess, uuid: dab6caff-893a-31a0-8dec-265151e7171d, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 ⑰ 3, server: 67.ssrj.xyz, port: 65167, type: vmess, uuid: dab6caff-893a-31a0-8dec-265151e7171d, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港  ⑩ 4, server: 56.ssrj.xyz, port: 61156, type: vmess, uuid: 4f3dafda-bfa5-3c19-aba5-dc563aa040d5, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港  ⑪ 3, server: 57.ssrj.xyz, port: 61157, type: vmess, uuid: dab6caff-893a-31a0-8dec-265151e7171d, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 ① 4, server: 44.ssrj.xyz, port: 61144, type: vmess, uuid: 4f3dafda-bfa5-3c19-aba5-dc563aa040d5, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港智能优选线路, server: 62.216.92.169, port: 13139, type: vmess, uuid: 6bf86057-ee49-49ef-a396-48e4527770be, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡⑥, server: 52.ssrj.xyz, port: 65152, type: vmess, uuid: 4ae97ba4-2577-3859-a297-bf778d982b11, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 kr2-9@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.77.177, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇭🇰 香港 ③, server: 49.ssrj.xyz, port: 61149, type: vmess, uuid: 4ae97ba4-2577-3859-a297-bf778d982b11, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 ②, server: 45.ssrj.xyz, port: 61145, type: vmess, uuid: 4ae97ba4-2577-3859-a297-bf778d982b11, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国 ⑤, server: 51.ssrj.xyz, port: 65151, type: vmess, uuid: 4ae97ba4-2577-3859-a297-bf778d982b11, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港  ⑧, server: 54.ssrj.xyz, port: 61154, type: vmess, uuid: 4ae97ba4-2577-3859-a297-bf778d982b11, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 ⑦, server: 53.ssrj.xyz, port: 61153, type: vmess, uuid: 4ae97ba4-2577-3859-a297-bf778d982b11, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 ① 3, server: 44.ssrj.xyz, port: 61144, type: vmess, uuid: dab6caff-893a-31a0-8dec-265151e7171d, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国 ⑤ 4, server: 51.ssrj.xyz, port: 65151, type: vmess, uuid: 4f3dafda-bfa5-3c19-aba5-dc563aa040d5, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 ①, server: 44.ssrj.xyz, port: 61144, type: vmess, uuid: 4ae97ba4-2577-3859-a297-bf778d982b11, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港  ⑧ 3, server: 54.ssrj.xyz, port: 61154, type: vmess, uuid: dab6caff-893a-31a0-8dec-265151e7171d, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 ③ 4, server: 48.ssrj.xyz, port: 65148, type: vmess, uuid: 4f3dafda-bfa5-3c19-aba5-dc563aa040d5, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.77.177, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: 🇸🇬 sg-OVH Hosting-15@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.41.46, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: 🇭🇰 香港 ③ 2, server: 49.ssrj.xyz, port: 61149, type: vmess, uuid: e4bfa7ad-08e9-3b17-8b24-0f320e0a3b93, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 ⑰ 2, server: 67.ssrj.xyz, port: 65167, type: vmess, uuid: e4bfa7ad-08e9-3b17-8b24-0f320e0a3b93, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国 ⑤ 3, server: 51.ssrj.xyz, port: 65151, type: vmess, uuid: dab6caff-893a-31a0-8dec-265151e7171d, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 ② 3, server: 45.ssrj.xyz, port: 61145, type: vmess, uuid: dab6caff-893a-31a0-8dec-265151e7171d, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 ⑦ 3, server: 53.ssrj.xyz, port: 61153, type: vmess, uuid: dab6caff-893a-31a0-8dec-265151e7171d, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡⑥ 3, server: 52.ssrj.xyz, port: 65152, type: vmess, uuid: dab6caff-893a-31a0-8dec-265151e7171d, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港  ⑪, server: 57.ssrj.xyz, port: 61157, type: vmess, uuid: 4ae97ba4-2577-3859-a297-bf778d982b11, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港  ⑧ 4, server: 54.ssrj.xyz, port: 61154, type: vmess, uuid: 4f3dafda-bfa5-3c19-aba5-dc563aa040d5, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港  ⑩, server: 56.ssrj.xyz, port: 61156, type: vmess, uuid: 4ae97ba4-2577-3859-a297-bf778d982b11, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 B-2, server: 012.HK.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 720fc256-99d1-49ee-a698-409fcef34c68, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 012.HK.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 香港  ⑩ 3, server: 56.ssrj.xyz, port: 61156, type: vmess, uuid: dab6caff-893a-31a0-8dec-265151e7171d, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 104.19.77.177, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}}
-  - {name: 🇯🇵 日本 ③ 3, server: 48.ssrj.xyz, port: 65148, type: vmess, uuid: dab6caff-893a-31a0-8dec-265151e7171d, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 39, server: 172.67.36.70, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: "@SSRSUB-V7-付费推荐:suo.yt/ssrsub", server: 172.67.36.70, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: "@SSRSUB-V25-付费推荐:suo.yt/ssrsub", server: 172.67.36.70, port: 443, type: vmess, uuid: 9bddd3b6-7b24-4575-ae3e-63fe8b30ed26, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /tggonghai, ws-headers: {Host: g23.newword.site}}
+  - {name: "@SSRSUB-V3-付费推荐:suo.yt/ssrsub", server: 104.16.110.238, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 克罗地亚(w) 2, server: 85.10.50.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: Yw05, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a47638b5-60bf-3f8d-b551-85615b655084, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
-  - {name: 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x, server: 104.19.77.177, port: 443, type: vmess, uuid: 97018aac-0985-4d4b-8283-f774c9fe9418, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /v2ray/fc671c24/, ws-headers: {Host: t6.ssrsub.one}}
-  - {name: 🇭🇰 香港 ⑦ 2, server: 53.ssrj.xyz, port: 61153, type: vmess, uuid: e4bfa7ad-08e9-3b17-8b24-0f320e0a3b93, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 ⑫ 2, server: 58.ssrj.xyz, port: 61158, type: vmess, uuid: e4bfa7ad-08e9-3b17-8b24-0f320e0a3b93, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡⑭ 4, server: 64.ssrj.xyz, port: 65164, type: vmess, uuid: 4f3dafda-bfa5-3c19-aba5-dc563aa040d5, alterId: 2, cipher: auto, tls: false}
-  - {name: 关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 104.19.77.177, port: 443, type: vmess, uuid: 478055cc-fdb8-404e-b730-c32faa2c7ca1, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /asdfasdf, ws-headers: {Host: qq1-cloud13.feiclouddd.me}}
-  - {name: 🇺🇸 美国⑬, server: 63.ssrj.xyz, port: 65163, type: vmess, uuid: 4ae97ba4-2577-3859-a297-bf778d982b11, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港  ⑨, server: 55.ssrj.xyz, port: 61155, type: vmess, uuid: 4ae97ba4-2577-3859-a297-bf778d982b11, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国⑬ 4, server: 63.ssrj.xyz, port: 65163, type: vmess, uuid: 4f3dafda-bfa5-3c19-aba5-dc563aa040d5, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港  ⑨ 4, server: 55.ssrj.xyz, port: 61155, type: vmess, uuid: 4f3dafda-bfa5-3c19-aba5-dc563aa040d5, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港  ⑯ 4, server: 66.ssrj.xyz, port: 65166, type: vmess, uuid: 4f3dafda-bfa5-3c19-aba5-dc563aa040d5, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡⑭, server: 64.ssrj.xyz, port: 65164, type: vmess, uuid: 4ae97ba4-2577-3859-a297-bf778d982b11, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港  ⑯, server: 66.ssrj.xyz, port: 65166, type: vmess, uuid: 4ae97ba4-2577-3859-a297-bf778d982b11, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 ⑮ 3, server: 65.ssrj.xyz, port: 65165, type: vmess, uuid: dab6caff-893a-31a0-8dec-265151e7171d, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港  ⑨ 3, server: 55.ssrj.xyz, port: 61155, type: vmess, uuid: dab6caff-893a-31a0-8dec-265151e7171d, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港  ⑯ 3, server: 66.ssrj.xyz, port: 65166, type: vmess, uuid: dab6caff-893a-31a0-8dec-265151e7171d, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国, server: 104.20.51.108, port: 80, type: vmess, uuid: ffab7ea6-596d-4f88-daa5-4ec177f314a5, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.rar, ws-headers: {Host: euserv11p.ezddns.tk}}
-  - {name: 🇭🇰 香港 ⑮ 2, server: 65.ssrj.xyz, port: 65165, type: vmess, uuid: e4bfa7ad-08e9-3b17-8b24-0f320e0a3b93, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡⑭ 3, server: 64.ssrj.xyz, port: 65164, type: vmess, uuid: dab6caff-893a-31a0-8dec-265151e7171d, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 ⑫ 3, server: 58.ssrj.xyz, port: 61158, type: vmess, uuid: dab6caff-893a-31a0-8dec-265151e7171d, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港智能优选线路 2, server: 62.216.92.166, port: 37943, type: vmess, uuid: b95f25e6-2dbe-4382-9fde-c854479c0f7a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国⑬ 3, server: 63.ssrj.xyz, port: 65163, type: vmess, uuid: dab6caff-893a-31a0-8dec-265151e7171d, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君), server: 104.19.77.177, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇭🇰 香港, server: 212.102.42.199, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇭🇰 香港  ⑪ 4, server: 57.ssrj.xyz, port: 61157, type: vmess, uuid: 4f3dafda-bfa5-3c19-aba5-dc563aa040d5, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡(欢迎订阅Youtube破解资源君), server: 89.187.163.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇭🇰 香港 ⑮, server: 65.ssrj.xyz, port: 65165, type: vmess, uuid: 4ae97ba4-2577-3859-a297-bf778d982b11, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 ② 2, server: 45.ssrj.xyz, port: 61145, type: vmess, uuid: e4bfa7ad-08e9-3b17-8b24-0f320e0a3b93, alterId: 2, cipher: auto, tls: false}
-  - {name: ff 24, server: 104.20.51.108, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇯🇵 日本智能优选线路(节点1-2天更新一次), server: 194.156.230.203, port: 33342, type: vmess, uuid: 31d634a4-e223-4287-a4df-0db3e33b66bf, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国, server: 104.19.41.46, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 美国 2, server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 美国 3, server: 104.19.77.177, port: 443, type: vmess, uuid: d2da3dcb-b08a-4561-83de-b73e7b8c0288, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /stream, ws-headers: {Host: euserv4p.ezddns.tk}}
+  - {name: "@SSRSUB-V103-付费推荐:suo.yt/ssrsub", server: 172.67.36.70, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
+  - {name: 🇺🇸 美国, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: "@SSRSUB-V107-付费推荐:suo.yt/ssrsub", server: 172.67.36.70, port: 80, type: vmess, uuid: 60b738e2-3aa4-4cde-c270-20f8cc1ab16a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv5p.ezddns.tk}}
+  - {name: "@SSRSUB-V104-付费推荐:suo.yt/ssrsub", server: 172.67.36.70, port: 80, type: vmess, uuid: 344c0b7d-2c35-4c95-8481-e2fc3c456a06, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.mp3, ws-headers: {Host: euserv18p.ezddns.tk}}
+  - {name: 🇳🇱 荷兰, server: 46.182.107.45, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}}
+  - {name: 🇬🇧 英国 顺丰资源YouTube, server: 185.44.76.188, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 35.178.68.152, port: 47611, type: vmess, uuid: 97a4d167-b361-48b8-b004-8bc45669e334, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君), server: ban4.feiclouddd.me, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}}
+  - {name: 🇺🇸 美国 2, server: nn-ssr4.feiclouddd.me, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
+  - {name: 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/London, server: 35.178.68.152, port: 47611, type: vmess, uuid: 97a4d167-b361-48b8-b004-8bc45669e334, alterId: 0, cipher: auto, tls: false}
+  - {name: "@SSRSUB-V124-付费推荐:suo.yt/ssrsub", server: nn-ssr4.feiclouddd.me, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
+  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 美国 顺丰资源YouTube, server: ban4.feiclouddd.me, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}}
+  - {name: 🇺🇸 美国 3, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 捷克, server: 185.180.14.149, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇩🇪 德国, server: 18.157.179.71, port: 443, type: vmess, uuid: 81dd574d-8d47-4b31-9f5a-3f638b427842, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇦🇺 澳大利亚, server: 45.248.78.45, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇺🇸 www.ncm68.com _🇺🇸US_189 | 6.70Mb, server: 198.8.92.84, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 www.ncm68.com _🇺🇸US_163, server: 23.82.11.49, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: "@SSRSUB-V66-付费推荐:suo.yt/ssrsub", server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 4, server: 198.8.92.84, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 罗马 顺丰资源YouTube, server: 195.47.194.42, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇩🇪 德国 顺丰资源YouTube, server: 51.89.99.59, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇦🇺 澳大利亚 2, server: 45.248.78.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: www.ncm68.com _🇭🇷HR_61, server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇩🇪 github.com/freefq - 德国Hetzner 38, server: 138.201.150.52, port: 33957, type: vmess, uuid: 89cee221-b06c-46c5-f0d7-4fd3f4740b97, alterId: 64, cipher: auto, tls: false}
+  - {name: "@SSRSUB-V126-付费推荐:suo.yt/ssrsub", server: qq1-cloud13.feiclouddd.me, port: 443, type: vmess, uuid: 478055cc-fdb8-404e-b730-c32faa2c7ca1, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /asdfasdf, ws-headers: {Host: qq1-cloud13.feiclouddd.me}}
+  - {name: 罗马 顺丰资源YouTube 2, server: 195.47.194.42, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇦🇺 澳大利亚 3, server: 45.248.78.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: www.ncm68.com _🇭🇷HR_60, server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: kr2-33, server: 172.67.36.70, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 44, server: ip.codeforces.live, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /233blog, ws-headers: {Host: rn.ddns1312.top}}
+  - {name: 🇷🇺 github.com/freefq - 俄罗斯  27, server: a9.ssrsub.one, port: 443, type: trojan, password: Wy10jznY, sni: a9.ssrsub.one}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡⑥ 4
-      - 🇯🇵 日本 ③
-      - 🇭🇰 香港 ③ 3
-      - 🇭🇰 香港 ⑰ 3
-      - 🇭🇰 香港  ⑩ 4
-      - 🇭🇰 香港  ⑪ 3
-      - 🇭🇰 香港 ① 4
-      - 🇭🇰 香港智能优选线路
-      - 🇸🇬 新加坡⑥
-      - 🇸🇬 kr2-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 香港 ③
-      - 🇭🇰 香港 ②
-      - 🇫🇷 法国 ⑤
-      - 🇭🇰 香港  ⑧
-      - 🇭🇰 香港 ⑦
-      - 🇭🇰 香港 ① 3
-      - 🇫🇷 法国 ⑤ 4
-      - 🇭🇰 香港 ①
-      - 🇭🇰 香港  ⑧ 3
-      - 🇯🇵 日本 ③ 4
-      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-15@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 香港 ③ 2
-      - 🇭🇰 香港 ⑰ 2
-      - 🇫🇷 法国 ⑤ 3
-      - 🇭🇰 香港 ② 3
-      - 🇭🇰 香港 ⑦ 3
-      - 🇸🇬 新加坡⑥ 3
-      - 🇭🇰 香港  ⑪
-      - 🇭🇰 香港  ⑧ 4
-      - 🇭🇰 香港  ⑩
-      - 🇭🇰 香港 B-2
-      - 🇭🇰 香港  ⑩ 3
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇯🇵 日本 ③ 3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 39
+      - "@SSRSUB-V7-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V3-付费推荐:suo.yt/ssrsub"
+      - 克罗地亚(w) 2
       - Yw05
-      - 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x
-      - 🇭🇰 香港 ⑦ 2
-      - 🇭🇰 香港 ⑫ 2
-      - 🇸🇬 新加坡⑭ 4
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国⑬
-      - 🇭🇰 香港  ⑨
-      - 🇺🇸 美国⑬ 4
-      - 🇭🇰 香港  ⑨ 4
-      - 🇭🇰 香港  ⑯ 4
-      - 🇸🇬 新加坡⑭
-      - 🇭🇰 香港  ⑯
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑨ 3
-      - 🇭🇰 香港  ⑯ 3
+      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 美国
-      - 🇭🇰 香港 ⑮ 2
-      - 🇸🇬 新加坡⑭ 3
-      - 🇭🇰 香港 ⑫ 3
-      - 🇭🇰 香港智能优选线路 2
-      - 🇺🇸 美国⑬ 3
+      - "@SSRSUB-V107-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V104-付费推荐:suo.yt/ssrsub"
+      - 🇳🇱 荷兰
+      - 🇬🇧 英国 顺丰资源YouTube
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇭🇰 香港
-      - 🇭🇰 香港  ⑪ 4
-      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 香港 ⑮
-      - 🇭🇰 香港 ② 2
-      - ff 24
-      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
-      - 🇩🇪 德国
       - 🇺🇸 美国 2
+      - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/London
+      - "@SSRSUB-V124-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国 顺丰资源YouTube
       - 🇺🇸 美国 3
+      - 捷克
+      - 🇩🇪 德国
+      - 🇦🇺 澳大利亚
+      - 🇺🇸 www.ncm68.com _🇺🇸US_189 | 6.70Mb
+      - 🇺🇸 www.ncm68.com _🇺🇸US_163
+      - "@SSRSUB-V66-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国 4
+      - 罗马 顺丰资源YouTube
+      - 🇩🇪 德国 顺丰资源YouTube
+      - 🇦🇺 澳大利亚 2
+      - www.ncm68.com _🇭🇷HR_61
+      - 🇩🇪 github.com/freefq - 德国Hetzner 38
+      - "@SSRSUB-V126-付费推荐:suo.yt/ssrsub"
+      - 罗马 顺丰资源YouTube 2
+      - 🇦🇺 澳大利亚 3
+      - www.ncm68.com _🇭🇷HR_60
+      - kr2-33
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 44
+      - 🇷🇺 github.com/freefq - 俄罗斯  27
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 新加坡⑥ 4
-      - 🇯🇵 日本 ③
-      - 🇭🇰 香港 ③ 3
-      - 🇭🇰 香港 ⑰ 3
-      - 🇭🇰 香港  ⑩ 4
-      - 🇭🇰 香港  ⑪ 3
-      - 🇭🇰 香港 ① 4
-      - 🇭🇰 香港智能优选线路
-      - 🇸🇬 新加坡⑥
-      - 🇸🇬 kr2-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 香港 ③
-      - 🇭🇰 香港 ②
-      - 🇫🇷 法国 ⑤
-      - 🇭🇰 香港  ⑧
-      - 🇭🇰 香港 ⑦
-      - 🇭🇰 香港 ① 3
-      - 🇫🇷 法国 ⑤ 4
-      - 🇭🇰 香港 ①
-      - 🇭🇰 香港  ⑧ 3
-      - 🇯🇵 日本 ③ 4
-      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-15@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 香港 ③ 2
-      - 🇭🇰 香港 ⑰ 2
-      - 🇫🇷 法国 ⑤ 3
-      - 🇭🇰 香港 ② 3
-      - 🇭🇰 香港 ⑦ 3
-      - 🇸🇬 新加坡⑥ 3
-      - 🇭🇰 香港  ⑪
-      - 🇭🇰 香港  ⑧ 4
-      - 🇭🇰 香港  ⑩
-      - 🇭🇰 香港 B-2
-      - 🇭🇰 香港  ⑩ 3
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇯🇵 日本 ③ 3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 39
+      - "@SSRSUB-V7-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V3-付费推荐:suo.yt/ssrsub"
+      - 克罗地亚(w) 2
       - Yw05
-      - 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x
-      - 🇭🇰 香港 ⑦ 2
-      - 🇭🇰 香港 ⑫ 2
-      - 🇸🇬 新加坡⑭ 4
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国⑬
-      - 🇭🇰 香港  ⑨
-      - 🇺🇸 美国⑬ 4
-      - 🇭🇰 香港  ⑨ 4
-      - 🇭🇰 香港  ⑯ 4
-      - 🇸🇬 新加坡⑭
-      - 🇭🇰 香港  ⑯
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑨ 3
-      - 🇭🇰 香港  ⑯ 3
+      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 美国
-      - 🇭🇰 香港 ⑮ 2
-      - 🇸🇬 新加坡⑭ 3
-      - 🇭🇰 香港 ⑫ 3
-      - 🇭🇰 香港智能优选线路 2
-      - 🇺🇸 美国⑬ 3
+      - "@SSRSUB-V107-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V104-付费推荐:suo.yt/ssrsub"
+      - 🇳🇱 荷兰
+      - 🇬🇧 英国 顺丰资源YouTube
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇭🇰 香港
-      - 🇭🇰 香港  ⑪ 4
-      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 香港 ⑮
-      - 🇭🇰 香港 ② 2
-      - ff 24
-      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
-      - 🇩🇪 德国
       - 🇺🇸 美国 2
+      - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/London
+      - "@SSRSUB-V124-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国 顺丰资源YouTube
       - 🇺🇸 美国 3
+      - 捷克
+      - 🇩🇪 德国
+      - 🇦🇺 澳大利亚
+      - 🇺🇸 www.ncm68.com _🇺🇸US_189 | 6.70Mb
+      - 🇺🇸 www.ncm68.com _🇺🇸US_163
+      - "@SSRSUB-V66-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国 4
+      - 罗马 顺丰资源YouTube
+      - 🇩🇪 德国 顺丰资源YouTube
+      - 🇦🇺 澳大利亚 2
+      - www.ncm68.com _🇭🇷HR_61
+      - 🇩🇪 github.com/freefq - 德国Hetzner 38
+      - "@SSRSUB-V126-付费推荐:suo.yt/ssrsub"
+      - 罗马 顺丰资源YouTube 2
+      - 🇦🇺 澳大利亚 3
+      - www.ncm68.com _🇭🇷HR_60
+      - kr2-33
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 44
+      - 🇷🇺 github.com/freefq - 俄罗斯  27
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡⑥ 4
-      - 🇯🇵 日本 ③
-      - 🇭🇰 香港 ③ 3
-      - 🇭🇰 香港 ⑰ 3
-      - 🇭🇰 香港  ⑩ 4
-      - 🇭🇰 香港  ⑪ 3
-      - 🇭🇰 香港 ① 4
-      - 🇭🇰 香港智能优选线路
-      - 🇸🇬 新加坡⑥
-      - 🇸🇬 kr2-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 香港 ③
-      - 🇭🇰 香港 ②
-      - 🇫🇷 法国 ⑤
-      - 🇭🇰 香港  ⑧
-      - 🇭🇰 香港 ⑦
-      - 🇭🇰 香港 ① 3
-      - 🇫🇷 法国 ⑤ 4
-      - 🇭🇰 香港 ①
-      - 🇭🇰 香港  ⑧ 3
-      - 🇯🇵 日本 ③ 4
-      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-15@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 香港 ③ 2
-      - 🇭🇰 香港 ⑰ 2
-      - 🇫🇷 法国 ⑤ 3
-      - 🇭🇰 香港 ② 3
-      - 🇭🇰 香港 ⑦ 3
-      - 🇸🇬 新加坡⑥ 3
-      - 🇭🇰 香港  ⑪
-      - 🇭🇰 香港  ⑧ 4
-      - 🇭🇰 香港  ⑩
-      - 🇭🇰 香港 B-2
-      - 🇭🇰 香港  ⑩ 3
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇯🇵 日本 ③ 3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 39
+      - "@SSRSUB-V7-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V3-付费推荐:suo.yt/ssrsub"
+      - 克罗地亚(w) 2
       - Yw05
-      - 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x
-      - 🇭🇰 香港 ⑦ 2
-      - 🇭🇰 香港 ⑫ 2
-      - 🇸🇬 新加坡⑭ 4
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国⑬
-      - 🇭🇰 香港  ⑨
-      - 🇺🇸 美国⑬ 4
-      - 🇭🇰 香港  ⑨ 4
-      - 🇭🇰 香港  ⑯ 4
-      - 🇸🇬 新加坡⑭
-      - 🇭🇰 香港  ⑯
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑨ 3
-      - 🇭🇰 香港  ⑯ 3
+      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 美国
-      - 🇭🇰 香港 ⑮ 2
-      - 🇸🇬 新加坡⑭ 3
-      - 🇭🇰 香港 ⑫ 3
-      - 🇭🇰 香港智能优选线路 2
-      - 🇺🇸 美国⑬ 3
+      - "@SSRSUB-V107-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V104-付费推荐:suo.yt/ssrsub"
+      - 🇳🇱 荷兰
+      - 🇬🇧 英国 顺丰资源YouTube
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇭🇰 香港
-      - 🇭🇰 香港  ⑪ 4
-      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 香港 ⑮
-      - 🇭🇰 香港 ② 2
-      - ff 24
-      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
-      - 🇩🇪 德国
       - 🇺🇸 美国 2
+      - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/London
+      - "@SSRSUB-V124-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国 顺丰资源YouTube
       - 🇺🇸 美国 3
+      - 捷克
+      - 🇩🇪 德国
+      - 🇦🇺 澳大利亚
+      - 🇺🇸 www.ncm68.com _🇺🇸US_189 | 6.70Mb
+      - 🇺🇸 www.ncm68.com _🇺🇸US_163
+      - "@SSRSUB-V66-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国 4
+      - 罗马 顺丰资源YouTube
+      - 🇩🇪 德国 顺丰资源YouTube
+      - 🇦🇺 澳大利亚 2
+      - www.ncm68.com _🇭🇷HR_61
+      - 🇩🇪 github.com/freefq - 德国Hetzner 38
+      - "@SSRSUB-V126-付费推荐:suo.yt/ssrsub"
+      - 罗马 顺丰资源YouTube 2
+      - 🇦🇺 澳大利亚 3
+      - www.ncm68.com _🇭🇷HR_60
+      - kr2-33
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 44
+      - 🇷🇺 github.com/freefq - 俄罗斯  27
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 ③ 3
-      - 🇭🇰 香港 ⑰ 3
-      - 🇭🇰 香港  ⑩ 4
-      - 🇭🇰 香港  ⑪ 3
-      - 🇭🇰 香港 ① 4
-      - 🇭🇰 香港智能优选线路
-      - 🇭🇰 香港 ③
-      - 🇭🇰 香港 ②
-      - 🇭🇰 香港  ⑧
-      - 🇭🇰 香港 ⑦
-      - 🇭🇰 香港 ① 3
-      - 🇭🇰 香港 ①
-      - 🇭🇰 香港  ⑧ 3
-      - 🇭🇰 香港 ③ 2
-      - 🇭🇰 香港 ⑰ 2
-      - 🇭🇰 香港 ② 3
-      - 🇭🇰 香港 ⑦ 3
-      - 🇭🇰 香港  ⑪
-      - 🇭🇰 香港  ⑧ 4
-      - 🇭🇰 香港  ⑩
-      - 🇭🇰 香港 B-2
-      - 🇭🇰 香港  ⑩ 3
-      - 🇭🇰 香港 ⑦ 2
-      - 🇭🇰 香港 ⑫ 2
-      - 🇭🇰 香港  ⑨
-      - 🇭🇰 香港  ⑨ 4
-      - 🇭🇰 香港  ⑯ 4
-      - 🇭🇰 香港  ⑯
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑨ 3
-      - 🇭🇰 香港  ⑯ 3
-      - 🇭🇰 香港 ⑮ 2
-      - 🇭🇰 香港 ⑫ 3
-      - 🇭🇰 香港智能优选线路 2
-      - 🇭🇰 香港
-      - 🇭🇰 香港  ⑪ 4
-      - 🇭🇰 香港 ⑮
-      - 🇭🇰 香港 ② 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 新加坡⑥ 4
-      - 🇯🇵 日本 ③
-      - 🇭🇰 香港 ③ 3
-      - 🇭🇰 香港 ⑰ 3
-      - 🇭🇰 香港  ⑩ 4
-      - 🇭🇰 香港  ⑪ 3
-      - 🇭🇰 香港 ① 4
-      - 🇭🇰 香港智能优选线路
-      - 🇸🇬 新加坡⑥
-      - 🇸🇬 kr2-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 香港 ③
-      - 🇭🇰 香港 ②
-      - 🇫🇷 法国 ⑤
-      - 🇭🇰 香港  ⑧
-      - 🇭🇰 香港 ⑦
-      - 🇭🇰 香港 ① 3
-      - 🇫🇷 法国 ⑤ 4
-      - 🇭🇰 香港 ①
-      - 🇭🇰 香港  ⑧ 3
-      - 🇯🇵 日本 ③ 4
-      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-15@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 香港 ③ 2
-      - 🇭🇰 香港 ⑰ 2
-      - 🇫🇷 法国 ⑤ 3
-      - 🇭🇰 香港 ② 3
-      - 🇭🇰 香港 ⑦ 3
-      - 🇸🇬 新加坡⑥ 3
-      - 🇭🇰 香港  ⑪
-      - 🇭🇰 香港  ⑧ 4
-      - 🇭🇰 香港  ⑩
-      - 🇭🇰 香港 B-2
-      - 🇭🇰 香港  ⑩ 3
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇯🇵 日本 ③ 3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 39
+      - "@SSRSUB-V7-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V3-付费推荐:suo.yt/ssrsub"
+      - 克罗地亚(w) 2
       - Yw05
-      - 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x
-      - 🇭🇰 香港 ⑦ 2
-      - 🇭🇰 香港 ⑫ 2
-      - 🇸🇬 新加坡⑭ 4
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国⑬
-      - 🇭🇰 香港  ⑨
-      - 🇺🇸 美国⑬ 4
-      - 🇭🇰 香港  ⑨ 4
-      - 🇭🇰 香港  ⑯ 4
-      - 🇸🇬 新加坡⑭
-      - 🇭🇰 香港  ⑯
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑨ 3
-      - 🇭🇰 香港  ⑯ 3
+      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 美国
-      - 🇭🇰 香港 ⑮ 2
-      - 🇸🇬 新加坡⑭ 3
-      - 🇭🇰 香港 ⑫ 3
-      - 🇭🇰 香港智能优选线路 2
-      - 🇺🇸 美国⑬ 3
+      - "@SSRSUB-V107-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V104-付费推荐:suo.yt/ssrsub"
+      - 🇳🇱 荷兰
+      - 🇬🇧 英国 顺丰资源YouTube
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇭🇰 香港
-      - 🇭🇰 香港  ⑪ 4
-      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 香港 ⑮
-      - 🇭🇰 香港 ② 2
-      - ff 24
-      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
-      - 🇩🇪 德国
       - 🇺🇸 美国 2
+      - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/London
+      - "@SSRSUB-V124-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国 顺丰资源YouTube
       - 🇺🇸 美国 3
+      - 捷克
+      - 🇩🇪 德国
+      - 🇦🇺 澳大利亚
+      - 🇺🇸 www.ncm68.com _🇺🇸US_189 | 6.70Mb
+      - 🇺🇸 www.ncm68.com _🇺🇸US_163
+      - "@SSRSUB-V66-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国 4
+      - 罗马 顺丰资源YouTube
+      - 🇩🇪 德国 顺丰资源YouTube
+      - 🇦🇺 澳大利亚 2
+      - www.ncm68.com _🇭🇷HR_61
+      - 🇩🇪 github.com/freefq - 德国Hetzner 38
+      - "@SSRSUB-V126-付费推荐:suo.yt/ssrsub"
+      - 罗马 顺丰资源YouTube 2
+      - 🇦🇺 澳大利亚 3
+      - www.ncm68.com _🇭🇷HR_60
+      - kr2-33
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 44
+      - 🇷🇺 github.com/freefq - 俄罗斯  27
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡⑥ 4
-      - 🇯🇵 日本 ③
-      - 🇭🇰 香港 ③ 3
-      - 🇭🇰 香港 ⑰ 3
-      - 🇭🇰 香港  ⑩ 4
-      - 🇭🇰 香港  ⑪ 3
-      - 🇭🇰 香港 ① 4
-      - 🇭🇰 香港智能优选线路
-      - 🇸🇬 新加坡⑥
-      - 🇸🇬 kr2-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 香港 ③
-      - 🇭🇰 香港 ②
-      - 🇫🇷 法国 ⑤
-      - 🇭🇰 香港  ⑧
-      - 🇭🇰 香港 ⑦
-      - 🇭🇰 香港 ① 3
-      - 🇫🇷 法国 ⑤ 4
-      - 🇭🇰 香港 ①
-      - 🇭🇰 香港  ⑧ 3
-      - 🇯🇵 日本 ③ 4
-      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-15@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 香港 ③ 2
-      - 🇭🇰 香港 ⑰ 2
-      - 🇫🇷 法国 ⑤ 3
-      - 🇭🇰 香港 ② 3
-      - 🇭🇰 香港 ⑦ 3
-      - 🇸🇬 新加坡⑥ 3
-      - 🇭🇰 香港  ⑪
-      - 🇭🇰 香港  ⑧ 4
-      - 🇭🇰 香港  ⑩
-      - 🇭🇰 香港 B-2
-      - 🇭🇰 香港  ⑩ 3
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇯🇵 日本 ③ 3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 39
+      - "@SSRSUB-V7-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V3-付费推荐:suo.yt/ssrsub"
+      - 克罗地亚(w) 2
       - Yw05
-      - 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x
-      - 🇭🇰 香港 ⑦ 2
-      - 🇭🇰 香港 ⑫ 2
-      - 🇸🇬 新加坡⑭ 4
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国⑬
-      - 🇭🇰 香港  ⑨
-      - 🇺🇸 美国⑬ 4
-      - 🇭🇰 香港  ⑨ 4
-      - 🇭🇰 香港  ⑯ 4
-      - 🇸🇬 新加坡⑭
-      - 🇭🇰 香港  ⑯
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑨ 3
-      - 🇭🇰 香港  ⑯ 3
+      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 美国
-      - 🇭🇰 香港 ⑮ 2
-      - 🇸🇬 新加坡⑭ 3
-      - 🇭🇰 香港 ⑫ 3
-      - 🇭🇰 香港智能优选线路 2
-      - 🇺🇸 美国⑬ 3
+      - "@SSRSUB-V107-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V104-付费推荐:suo.yt/ssrsub"
+      - 🇳🇱 荷兰
+      - 🇬🇧 英国 顺丰资源YouTube
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇭🇰 香港
-      - 🇭🇰 香港  ⑪ 4
-      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 香港 ⑮
-      - 🇭🇰 香港 ② 2
-      - ff 24
-      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
-      - 🇩🇪 德国
       - 🇺🇸 美国 2
+      - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/London
+      - "@SSRSUB-V124-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国 顺丰资源YouTube
       - 🇺🇸 美国 3
+      - 捷克
+      - 🇩🇪 德国
+      - 🇦🇺 澳大利亚
+      - 🇺🇸 www.ncm68.com _🇺🇸US_189 | 6.70Mb
+      - 🇺🇸 www.ncm68.com _🇺🇸US_163
+      - "@SSRSUB-V66-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国 4
+      - 罗马 顺丰资源YouTube
+      - 🇩🇪 德国 顺丰资源YouTube
+      - 🇦🇺 澳大利亚 2
+      - www.ncm68.com _🇭🇷HR_61
+      - 🇩🇪 github.com/freefq - 德国Hetzner 38
+      - "@SSRSUB-V126-付费推荐:suo.yt/ssrsub"
+      - 罗马 顺丰资源YouTube 2
+      - 🇦🇺 澳大利亚 3
+      - www.ncm68.com _🇭🇷HR_60
+      - kr2-33
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 44
+      - 🇷🇺 github.com/freefq - 俄罗斯  27
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡⑥ 4
-      - 🇯🇵 日本 ③
-      - 🇭🇰 香港 ③ 3
-      - 🇭🇰 香港 ⑰ 3
-      - 🇭🇰 香港  ⑩ 4
-      - 🇭🇰 香港  ⑪ 3
-      - 🇭🇰 香港 ① 4
-      - 🇭🇰 香港智能优选线路
-      - 🇸🇬 新加坡⑥
-      - 🇸🇬 kr2-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 香港 ③
-      - 🇭🇰 香港 ②
-      - 🇫🇷 法国 ⑤
-      - 🇭🇰 香港  ⑧
-      - 🇭🇰 香港 ⑦
-      - 🇭🇰 香港 ① 3
-      - 🇫🇷 法国 ⑤ 4
-      - 🇭🇰 香港 ①
-      - 🇭🇰 香港  ⑧ 3
-      - 🇯🇵 日本 ③ 4
-      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-15@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 香港 ③ 2
-      - 🇭🇰 香港 ⑰ 2
-      - 🇫🇷 法国 ⑤ 3
-      - 🇭🇰 香港 ② 3
-      - 🇭🇰 香港 ⑦ 3
-      - 🇸🇬 新加坡⑥ 3
-      - 🇭🇰 香港  ⑪
-      - 🇭🇰 香港  ⑧ 4
-      - 🇭🇰 香港  ⑩
-      - 🇭🇰 香港 B-2
-      - 🇭🇰 香港  ⑩ 3
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇯🇵 日本 ③ 3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 39
+      - "@SSRSUB-V7-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V3-付费推荐:suo.yt/ssrsub"
+      - 克罗地亚(w) 2
       - Yw05
-      - 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x
-      - 🇭🇰 香港 ⑦ 2
-      - 🇭🇰 香港 ⑫ 2
-      - 🇸🇬 新加坡⑭ 4
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国⑬
-      - 🇭🇰 香港  ⑨
-      - 🇺🇸 美国⑬ 4
-      - 🇭🇰 香港  ⑨ 4
-      - 🇭🇰 香港  ⑯ 4
-      - 🇸🇬 新加坡⑭
-      - 🇭🇰 香港  ⑯
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑨ 3
-      - 🇭🇰 香港  ⑯ 3
+      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 美国
-      - 🇭🇰 香港 ⑮ 2
-      - 🇸🇬 新加坡⑭ 3
-      - 🇭🇰 香港 ⑫ 3
-      - 🇭🇰 香港智能优选线路 2
-      - 🇺🇸 美国⑬ 3
+      - "@SSRSUB-V107-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V104-付费推荐:suo.yt/ssrsub"
+      - 🇳🇱 荷兰
+      - 🇬🇧 英国 顺丰资源YouTube
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇭🇰 香港
-      - 🇭🇰 香港  ⑪ 4
-      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 香港 ⑮
-      - 🇭🇰 香港 ② 2
-      - ff 24
-      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
-      - 🇩🇪 德国
       - 🇺🇸 美国 2
+      - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/London
+      - "@SSRSUB-V124-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国 顺丰资源YouTube
       - 🇺🇸 美国 3
+      - 捷克
+      - 🇩🇪 德国
+      - 🇦🇺 澳大利亚
+      - 🇺🇸 www.ncm68.com _🇺🇸US_189 | 6.70Mb
+      - 🇺🇸 www.ncm68.com _🇺🇸US_163
+      - "@SSRSUB-V66-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国 4
+      - 罗马 顺丰资源YouTube
+      - 🇩🇪 德国 顺丰资源YouTube
+      - 🇦🇺 澳大利亚 2
+      - www.ncm68.com _🇭🇷HR_61
+      - 🇩🇪 github.com/freefq - 德国Hetzner 38
+      - "@SSRSUB-V126-付费推荐:suo.yt/ssrsub"
+      - 罗马 顺丰资源YouTube 2
+      - 🇦🇺 澳大利亚 3
+      - www.ncm68.com _🇭🇷HR_60
+      - kr2-33
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 44
+      - 🇷🇺 github.com/freefq - 俄罗斯  27
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -579,75 +331,45 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡⑥ 4
-      - 🇯🇵 日本 ③
-      - 🇭🇰 香港 ③ 3
-      - 🇭🇰 香港 ⑰ 3
-      - 🇭🇰 香港  ⑩ 4
-      - 🇭🇰 香港  ⑪ 3
-      - 🇭🇰 香港 ① 4
-      - 🇭🇰 香港智能优选线路
-      - 🇸🇬 新加坡⑥
-      - 🇸🇬 kr2-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 香港 ③
-      - 🇭🇰 香港 ②
-      - 🇫🇷 法国 ⑤
-      - 🇭🇰 香港  ⑧
-      - 🇭🇰 香港 ⑦
-      - 🇭🇰 香港 ① 3
-      - 🇫🇷 法国 ⑤ 4
-      - 🇭🇰 香港 ①
-      - 🇭🇰 香港  ⑧ 3
-      - 🇯🇵 日本 ③ 4
-      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-15@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 香港 ③ 2
-      - 🇭🇰 香港 ⑰ 2
-      - 🇫🇷 法国 ⑤ 3
-      - 🇭🇰 香港 ② 3
-      - 🇭🇰 香港 ⑦ 3
-      - 🇸🇬 新加坡⑥ 3
-      - 🇭🇰 香港  ⑪
-      - 🇭🇰 香港  ⑧ 4
-      - 🇭🇰 香港  ⑩
-      - 🇭🇰 香港 B-2
-      - 🇭🇰 香港  ⑩ 3
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇯🇵 日本 ③ 3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 39
+      - "@SSRSUB-V7-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V3-付费推荐:suo.yt/ssrsub"
+      - 克罗地亚(w) 2
       - Yw05
-      - 🇷🇺 俄罗斯 ☆☆  03 ☆AWS☆  1.2x
-      - 🇭🇰 香港 ⑦ 2
-      - 🇭🇰 香港 ⑫ 2
-      - 🇸🇬 新加坡⑭ 4
-      - 关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国⑬
-      - 🇭🇰 香港  ⑨
-      - 🇺🇸 美国⑬ 4
-      - 🇭🇰 香港  ⑨ 4
-      - 🇭🇰 香港  ⑯ 4
-      - 🇸🇬 新加坡⑭
-      - 🇭🇰 香港  ⑯
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑨ 3
-      - 🇭🇰 香港  ⑯ 3
+      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 美国
-      - 🇭🇰 香港 ⑮ 2
-      - 🇸🇬 新加坡⑭ 3
-      - 🇭🇰 香港 ⑫ 3
-      - 🇭🇰 香港智能优选线路 2
-      - 🇺🇸 美国⑬ 3
+      - "@SSRSUB-V107-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V104-付费推荐:suo.yt/ssrsub"
+      - 🇳🇱 荷兰
+      - 🇬🇧 英国 顺丰资源YouTube
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇭🇰 香港
-      - 🇭🇰 香港  ⑪ 4
-      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 香港 ⑮
-      - 🇭🇰 香港 ② 2
-      - ff 24
-      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
-      - 🇩🇪 德国
       - 🇺🇸 美国 2
+      - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/London
+      - "@SSRSUB-V124-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇺🇸 美国 顺丰资源YouTube
       - 🇺🇸 美国 3
+      - 捷克
+      - 🇩🇪 德国
+      - 🇦🇺 澳大利亚
+      - 🇺🇸 www.ncm68.com _🇺🇸US_189 | 6.70Mb
+      - 🇺🇸 www.ncm68.com _🇺🇸US_163
+      - "@SSRSUB-V66-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国 4
+      - 罗马 顺丰资源YouTube
+      - 🇩🇪 德国 顺丰资源YouTube
+      - 🇦🇺 澳大利亚 2
+      - www.ncm68.com _🇭🇷HR_61
+      - 🇩🇪 github.com/freefq - 德国Hetzner 38
+      - "@SSRSUB-V126-付费推荐:suo.yt/ssrsub"
+      - 罗马 顺丰资源YouTube 2
+      - 🇦🇺 澳大利亚 3
+      - www.ncm68.com _🇭🇷HR_60
+      - kr2-33
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 44
+      - 🇷🇺 github.com/freefq - 俄罗斯  27
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
