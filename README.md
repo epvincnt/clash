@@ -5,548 +5,415 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 YouTube-阿伟科技12-HK-7.17, server: superstar.srayx.xyz, port: 27103, type: vmess, uuid: ddfaf385-7c4f-4fcd-a7a4-8798becbfdf6, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}}
-  - {name: 🇭🇰 YouTube-阿伟科技08-HK-7.17, server: t1.gz.yd.fastcloud.club, port: 10108, type: vmess, uuid: 777951f9-c9c7-4f2a-9928-8ed7738dc5c4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: t1.gz.yd.fastcloud.club}}
-  - {name: 🇯🇵 日本 ③ 2, server: 48.ssrj.xyz, port: 65148, type: vmess, uuid: 48d2610c-c1c0-3910-9093-cdd943034a42, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 YouTube-阿伟科技03-HK-7.17, server: cm.cheapv2.xyz, port: 26612, type: vmess, uuid: 6b39f442-7e67-3684-8972-aac5cbe3e600, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: cm.cheapv2.xyz}}
-  - {name: 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: 🇭🇰 香港  ⑩ 3, server: 56.ssrj.xyz, port: 61156, type: vmess, uuid: b8f26b86-c51d-318c-8883-c32bbe61a319, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 YouTube-阿伟科技07-SG-7.17, server: 139.59.112.141, port: 80, type: vmess, uuid: 2e5c7f7f-79b3-45b8-a5d6-6f482243e3d3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 139.59.112.141}}
-  - {name: 🇭🇰 香港, server: 13.70.28.145, port: 34323, type: vmess, uuid: 5a2056b9-61c5-4737-b153-b2775ec8bad9, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2777, server: gy.woshilaogou.com, port: 10024, type: vmess, uuid: 4e7cbfaa-7e66-3e34-adcb-125bc37f8112, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /dl, ws-headers: {Host: gy.woshilaogou.com}}
-  - {name: 🇭🇰 香港 ① 3, server: 44.ssrj.xyz, port: 61144, type: vmess, uuid: b8f26b86-c51d-318c-8883-c32bbe61a319, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港  ⑪ 2, server: 57.ssrj.xyz, port: 61157, type: vmess, uuid: 48d2610c-c1c0-3910-9093-cdd943034a42, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港  ⑪ 3, server: 57.ssrj.xyz, port: 61157, type: vmess, uuid: b8f26b86-c51d-318c-8883-c32bbe61a319, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港  ⑪ 4, server: 57.ssrj.xyz, port: 61157, type: vmess, uuid: 6ec5a8b6-0a1a-34b2-a3c1-a8d611e8997e, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡⑥ 4, server: 52.ssrj.xyz, port: 65152, type: vmess, uuid: 6ec5a8b6-0a1a-34b2-a3c1-a8d611e8997e, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2782, server: gy.woshilaogou.com, port: 10001, type: vmess, uuid: 4e7cbfaa-7e66-3e34-adcb-125bc37f8112, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /adobe, ws-headers: {Host: gy.woshilaogou.com}}
-  - {name: 🇰🇷 KR_73, server: 13.124.66.77, port: 26571, type: vmess, uuid: 9c0a9f28-f9db-4b18-cd76-c14d0755e5b2, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国 ⑤ 4, server: 51.ssrj.xyz, port: 65151, type: vmess, uuid: 6ec5a8b6-0a1a-34b2-a3c1-a8d611e8997e, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港  ⑧ 2, server: 54.ssrj.xyz, port: 61154, type: vmess, uuid: 48d2610c-c1c0-3910-9093-cdd943034a42, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港智能优选线路, server: 62.216.92.166, port: 37943, type: vmess, uuid: b95f25e6-2dbe-4382-9fde-c854479c0f7a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 ③ 4, server: 48.ssrj.xyz, port: 65148, type: vmess, uuid: 6ec5a8b6-0a1a-34b2-a3c1-a8d611e8997e, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_5159, server: kr105.wwin.ga, port: 31404, type: vmess, uuid: da4b0602-71b5-4e0d-f673-b8af0fa03f9d, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr105.wwin.ga}}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /233blog, ws-headers: {Host: rn.ddns1312.top}}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 2, server: 172.67.36.70, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /233blog, ws-headers: {Host: rn.ddns1312.top}}
-  - {name: 🇭🇰 香港  ⑨ 3, server: 55.ssrj.xyz, port: 61155, type: vmess, uuid: b8f26b86-c51d-318c-8883-c32bbe61a319, alterId: 2, cipher: auto, tls: false}
+  - {name: m|Relay_ |59.00Mb, server: 104.19.86.184, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
   - {name: Yw05, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a47638b5-60bf-3f8d-b551-85615b655084, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
-  - {name: 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x, server: 172.67.32.246, port: 443, type: vmess, uuid: 478055cc-fdb8-404e-b730-c32faa2c7ca1, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /asdfasdf, ws-headers: {Host: qq1-cloud13.feiclouddd.me}}
-  - {name: 🇭🇰 香港  ⑯ 2, server: 66.ssrj.xyz, port: 65166, type: vmess, uuid: 48d2610c-c1c0-3910-9093-cdd943034a42, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 ⑫ 3, server: 58.ssrj.xyz, port: 61158, type: vmess, uuid: b8f26b86-c51d-318c-8883-c32bbe61a319, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡⑭ 4, server: 64.ssrj.xyz, port: 65164, type: vmess, uuid: 6ec5a8b6-0a1a-34b2-a3c1-a8d611e8997e, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2778, server: gy.woshilaogou.com, port: 10026, type: vmess, uuid: 4e7cbfaa-7e66-3e34-adcb-125bc37f8112, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /dl, ws-headers: {Host: gy.woshilaogou.com}}
-  - {name: 🇸🇬 新加坡⑭ 3, server: 64.ssrj.xyz, port: 65164, type: vmess, uuid: b8f26b86-c51d-318c-8883-c32bbe61a319, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡⑭ 2, server: 64.ssrj.xyz, port: 65164, type: vmess, uuid: 48d2610c-c1c0-3910-9093-cdd943034a42, alterId: 2, cipher: auto, tls: false}
-  - {name: "@SSRSUB-V104-付费推荐:suo.yt/ssrsub", server: 172.67.36.70, port: 80, type: vmess, uuid: 344c0b7d-2c35-4c95-8481-e2fc3c456a06, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.mp3, ws-headers: {Host: euserv18p.ezddns.tk}}
-  - {name: 🇭🇰 香港 ⑮ 2, server: 65.ssrj.xyz, port: 65165, type: vmess, uuid: 48d2610c-c1c0-3910-9093-cdd943034a42, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 3, server: 104.20.51.108, port: 443, type: vmess, uuid: 478055cc-fdb8-404e-b730-c32faa2c7ca1, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /asdfasdf, ws-headers: {Host: qq1-cloud13.feiclouddd.me}}
-  - {name: "@SSRSUB-V121-付费推荐:suo.yt/ssrsub", server: 172.67.36.70, port: 443, type: vmess, uuid: 34b42096-3723-4d0b-8067-423a1cc960f4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /user, ws-headers: {Host: lv.gfw.click}}
-  - {name: 🇭🇰 香港  ⑨ 2, server: 55.ssrj.xyz, port: 61155, type: vmess, uuid: 48d2610c-c1c0-3910-9093-cdd943034a42, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港  ⑨ 4, server: 55.ssrj.xyz, port: 61155, type: vmess, uuid: 6ec5a8b6-0a1a-34b2-a3c1-a8d611e8997e, alterId: 2, cipher: auto, tls: false}
-  - {name: m|Relay_ |59.00Mb, server: 104.19.89.166, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
-  - {name: 🇺🇸 美国, server: 172.67.36.70, port: 443, type: vmess, uuid: d2da3dcb-b08a-4561-83de-b73e7b8c0288, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /stream, ws-headers: {Host: euserv4p.ezddns.tk}}
-  - {name: 🇭🇰 香港  ⑯ 3, server: 66.ssrj.xyz, port: 65166, type: vmess, uuid: b8f26b86-c51d-318c-8883-c32bbe61a319, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 ⑮ 3, server: 65.ssrj.xyz, port: 65165, type: vmess, uuid: b8f26b86-c51d-318c-8883-c32bbe61a319, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港  ⑧ 3, server: 54.ssrj.xyz, port: 61154, type: vmess, uuid: b8f26b86-c51d-318c-8883-c32bbe61a319, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 ① 2, server: 44.ssrj.xyz, port: 61144, type: vmess, uuid: 48d2610c-c1c0-3910-9093-cdd943034a42, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 104.20.55.13, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇩🇪 DE-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 172.67.36.70, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇫🇷 法国 ⑤ 2, server: 51.ssrj.xyz, port: 65151, type: vmess, uuid: 48d2610c-c1c0-3910-9093-cdd943034a42, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国 ⑤ 3, server: 51.ssrj.xyz, port: 65151, type: vmess, uuid: b8f26b86-c51d-318c-8883-c32bbe61a319, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 ③ 3, server: 48.ssrj.xyz, port: 65148, type: vmess, uuid: b8f26b86-c51d-318c-8883-c32bbe61a319, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇸🇬 新加坡⑥ 3, server: 52.ssrj.xyz, port: 65152, type: vmess, uuid: b8f26b86-c51d-318c-8883-c32bbe61a319, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 ① 4, server: 44.ssrj.xyz, port: 61144, type: vmess, uuid: 6ec5a8b6-0a1a-34b2-a3c1-a8d611e8997e, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180, server: 172.67.36.70, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
-  - {name: YouTube-阿伟科技07-7.17, server: cm.syhwdz.top, port: 57552, type: vmess, uuid: 2e5c7f7f-79b3-45b8-a5d6-6f482243e3d3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: turkey-hostigger-01.holi.wtf}}
-  - {name: 🇭🇰 香港  ⑩ 4, server: 56.ssrj.xyz, port: 61156, type: vmess, uuid: 6ec5a8b6-0a1a-34b2-a3c1-a8d611e8997e, alterId: 2, cipher: auto, tls: false}
-  - {name: YouTube-阿伟科技07-7.17 2, server: cm.syhwdz.top, port: 57552, type: vmess, uuid: a34ebbf3-557e-4613-9ab2-48232f2c5968, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: turkey-hostigger-01.holi.wtf}}
-  - {name: 🇯🇵 日本智能优选线路(节点1-2天更新一次), server: 194.156.230.203, port: 33342, type: vmess, uuid: 31d634a4-e223-4287-a4df-0db3e33b66bf, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 2, server: 172.67.36.70, port: 80, type: vmess, uuid: 4323a38e-29dc-4c6d-f436-b15114e57a75, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.zip, ws-headers: {Host: euserv10p.ezddns.tk}}
-  - {name: "@SSRSUB-V25-付费推荐:suo.yt/ssrsub", server: 172.67.36.70, port: 443, type: vmess, uuid: 97018aac-0985-4d4b-8283-f774c9fe9418, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /v2ray/fc671c24/, ws-headers: {Host: t6.ssrsub.one}}
-  - {name: 🇸🇬 新加坡⑥ 2, server: 52.ssrj.xyz, port: 65152, type: vmess, uuid: 48d2610c-c1c0-3910-9093-cdd943034a42, alterId: 2, cipher: auto, tls: false}
-  - {name: YouTube-阿伟科技5, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a7436b35-0daf-3eac-9a0b-356b8a3cc63b, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
-  - {name: "@SSRSUB-V5-付费推荐:suo.yt/ssrsub", server: 172.67.36.70, port: 80, type: vmess, uuid: 60b738e2-3aa4-4cde-c270-20f8cc1ab16a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv5p.ezddns.tk}}
-  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2, server: 172.67.36.70, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}}
-  - {name: 🇩🇪 DE-13@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.0.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 阿伟科技Yw05, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a7436b35-0daf-3eac-9a0b-356b8a3cc63b, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
   - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 44, server: ip.codeforces.live, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /233blog, ws-headers: {Host: rn.ddns1312.top}}
-  - {name: 🇭🇰 香港 ⑮ 4, server: 65.ssrj.xyz, port: 65165, type: vmess, uuid: 6ec5a8b6-0a1a-34b2-a3c1-a8d611e8997e, alterId: 2, cipher: auto, tls: false}
-  - {name: 老杨爱分享YouTube频道, server: 104.19.44.100, port: 443, type: vmess, uuid: 478055cc-fdb8-404e-b730-c32faa2c7ca1, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /asdfasdf, ws-headers: {Host: qq1-cloud13.feiclouddd.me}}
-  - {name: 🇺🇸 美国⑬ 4, server: 63.ssrj.xyz, port: 65163, type: vmess, uuid: 6ec5a8b6-0a1a-34b2-a3c1-a8d611e8997e, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3, server: 172.67.36.70, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: 🇺🇸 阿伟科技15-5M-US-7.17, server: 104.19.86.184, port: 443, type: vmess, uuid: c68de871-896e-4ded-9891-052029f5c337, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /hishenseven, ws-headers: {Host: a2.proxypools.top}}
+  - {name: 🇺🇸 美国, server: 104.20.53.45, port: 80, type: vmess, uuid: 4323a38e-29dc-4c6d-f436-b15114e57a75, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.zip, ws-headers: {Host: euserv10p.ezddns.tk}}
+  - {name: 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_203 | 0.18Mb, server: 104.20.53.45, port: 80, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us-01.yinriver.top}}
+  - {name: "@SSRSUB-V5-付费推荐:suo.yt/ssrsub", server: 104.20.53.45, port: 80, type: vmess, uuid: 60b738e2-3aa4-4cde-c270-20f8cc1ab16a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv5p.ezddns.tk}}
+  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 104.20.53.45, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: 🇨🇳 www.ncm68.com _🇹🇼TW_126, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
+  - {name: 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_192, server: 104.20.53.45, port: 80, type: vmess, uuid: 499737a4-9f18-4e1f-fb38-437e1855fc04, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv6p.ezddns.tk}}
+  - {name: 🇺🇸 www.ncm68.com _🇺🇸US_169, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 www.ncm68.com _🇺🇸US_599, server: 198.8.92.84, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: www.ncm68.com _🇨🇿CZ_78, server: 185.180.14.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 www.ncm68.com _🇺🇸US_167, server: 198.8.92.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇸 美国 顺丰资源YouTube, server: 104.200.131.165, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 美国 2, server: 198.8.92.84, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 克罗地亚(w) 2, server: 85.10.50.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 美国 3, server: 104.20.53.45, port: 80, type: vmess, uuid: 4323a38e-29dc-4c6d-f436-b15114e57a75, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.zip, ws-headers: {Host: euserv10p.ezddns.tk}}
+  - {name: bulink 网友分享线路 1 三网, server: la1.bulink.xyz.apkook.com, port: 443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 德国 顺丰资源YouTube, server: 51.89.99.59, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇸 www.ncm68.com _🇺🇸US_133, server: 207.244.67.149, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 www.ncm68.com _🇺🇸US_142, server: 207.244.67.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: www.ncm68.com _🇨🇿CZ_74, server: 185.180.14.149, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 www.ncm68.com _🇺🇸US_160 | 7.18Mb, server: 198.8.92.84, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇺🇸 美国 顺丰资源YouTube 2, server: 66.115.175.37, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180, server: 104.20.53.45, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
+  - {name: 🇺🇸 Relay_-🇺🇸US_814, server: 104.16.196.90, port: 443, type: vmess, uuid: fc433199-2c85-4842-bde0-a131be2b1b95, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vir01.tk}}
+  - {name: bulink 网友分享线路 6 移动, server: nj1.bulink.xyz.fobzs.com, port: 443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
+  - {name: www.ncm68.com _🇬🇧GB_50, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 罗马 顺丰资源YouTube, server: 195.47.194.42, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 罗马 顺丰资源YouTube 2, server: 195.47.194.42, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: www.ncm68.com _🇨🇾CY_37, server: 195.47.194.42, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: www.ncm68.com _🇭🇷HR_60, server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: www.ncm68.com _🇧🇦BA_22, server: 185.99.3.205, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇬🇧 英国 顺丰资源YouTube, server: 185.44.76.188, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 美国 顺丰资源YouTube 3, server: 207.244.67.149, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇫🇷 法国, server: 51.79.64.57, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: yPAVG3dkJyPY}
+  - {name: 🇳🇱 荷兰 顺丰资源YouTube, server: 46.182.107.157, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73345741.xyz}}
+  - {name: 🇺🇸 美国 顺丰资源YouTube 4, server: 198.147.22.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 195.47.194.42, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇦🇺 www.ncm68.com _🇦🇺AU_14, server: 45.248.78.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 www.ncm68.com _🇺🇸US_172, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 罗马 顺丰资源YouTube 3, server: 91.90.123.115, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 罗马 顺丰资源YouTube 4, server: 195.47.194.42, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 克罗地亚, server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: www.ncm68.com _🇮🇹IT_229, server: 82.102.26.117, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_192 2, server: 104.20.53.45, port: 80, type: vmess, uuid: 499737a4-9f18-4e1f-fb38-437e1855fc04, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv6p.ezddns.tk}}
+  - {name: f 45, server: 104.20.53.45, port: 80, type: vmess, uuid: c0304bc1-f8ff-4108-9bc6-3415d16ae5e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv12p.ezddns.tk}}
+  - {name: 🇦🇺 澳大利亚, server: 45.248.78.45, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 罗马 顺丰资源YouTube 5, server: 91.90.123.115, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇦🇺 澳大利亚 2, server: 45.248.78.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 克罗地亚 2, server: 85.10.50.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 YouTube-阿伟科技12-HK-7.17
-      - 🇭🇰 YouTube-阿伟科技08-HK-7.17
-      - 🇯🇵 日本 ③ 2
-      - 🇭🇰 YouTube-阿伟科技03-HK-7.17
-      - 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 香港  ⑩ 3
-      - 🇸🇬 YouTube-阿伟科技07-SG-7.17
-      - 🇭🇰 香港
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2777
-      - 🇭🇰 香港 ① 3
-      - 🇭🇰 香港  ⑪ 2
-      - 🇭🇰 香港  ⑪ 3
-      - 🇭🇰 香港  ⑪ 4
-      - 🇸🇬 新加坡⑥ 4
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2782
-      - 🇰🇷 KR_73
-      - 🇫🇷 法国 ⑤ 4
-      - 🇭🇰 香港  ⑧ 2
-      - 🇭🇰 香港智能优选线路
-      - 🇯🇵 日本 ③ 4
-      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_5159
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇭🇰 香港  ⑨ 3
-      - Yw05
-      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
-      - 🇭🇰 香港  ⑯ 2
-      - 🇭🇰 香港 ⑫ 3
-      - 🇸🇬 新加坡⑭ 4
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2778
-      - 🇸🇬 新加坡⑭ 3
-      - 🇸🇬 新加坡⑭ 2
-      - "@SSRSUB-V104-付费推荐:suo.yt/ssrsub"
-      - 🇭🇰 香港 ⑮ 2
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - "@SSRSUB-V121-付费推荐:suo.yt/ssrsub"
-      - 🇭🇰 香港  ⑨ 2
-      - 🇭🇰 香港  ⑨ 4
       - m|Relay_ |59.00Mb
-      - 🇺🇸 美国
-      - 🇭🇰 香港  ⑯ 3
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑧ 3
-      - 🇭🇰 香港 ① 2
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇩🇪 DE-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇫🇷 法国 ⑤ 2
-      - 🇫🇷 法国 ⑤ 3
-      - 🇯🇵 日本 ③ 3
-      - 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 新加坡⑥ 3
-      - 🇭🇰 香港 ① 4
-      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
-      - YouTube-阿伟科技07-7.17
-      - 🇭🇰 香港  ⑩ 4
-      - YouTube-阿伟科技07-7.17 2
-      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
-      - 🇺🇸 美国 2
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - 🇸🇬 新加坡⑥ 2
-      - YouTube-阿伟科技5
-      - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇩🇪 DE-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - Yw05
+      - 阿伟科技Yw05
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 44
-      - 🇭🇰 香港 ⑮ 4
-      - 老杨爱分享YouTube频道
-      - 🇺🇸 美国⑬ 4
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
+      - 🇺🇸 阿伟科技15-5M-US-7.17
+      - 🇺🇸 美国
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_203 | 0.18Mb
+      - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇨🇳 www.ncm68.com _🇹🇼TW_126
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_192
+      - 🇺🇸 www.ncm68.com _🇺🇸US_169
+      - 🇺🇸 www.ncm68.com _🇺🇸US_599
+      - www.ncm68.com _🇨🇿CZ_78
+      - 🇺🇸 www.ncm68.com _🇺🇸US_167
+      - 🇺🇸 美国 顺丰资源YouTube
+      - 🇺🇸 美国 2
+      - 克罗地亚(w) 2
+      - 🇺🇸 美国 3
+      - bulink 网友分享线路 1 三网
+      - 🇩🇪 德国 顺丰资源YouTube
+      - 🇺🇸 www.ncm68.com _🇺🇸US_133
+      - 🇺🇸 www.ncm68.com _🇺🇸US_142
+      - www.ncm68.com _🇨🇿CZ_74
+      - 🇺🇸 www.ncm68.com _🇺🇸US_160 | 7.18Mb
+      - 🇺🇸 美国 顺丰资源YouTube 2
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
+      - 🇺🇸 Relay_-🇺🇸US_814
+      - bulink 网友分享线路 6 移动
+      - www.ncm68.com _🇬🇧GB_50
+      - 罗马 顺丰资源YouTube
+      - 罗马 顺丰资源YouTube 2
+      - www.ncm68.com _🇨🇾CY_37
+      - www.ncm68.com _🇭🇷HR_60
+      - www.ncm68.com _🇧🇦BA_22
+      - 🇬🇧 英国 顺丰资源YouTube
+      - 🇺🇸 美国 顺丰资源YouTube 3
+      - 🇫🇷 法国
+      - 🇳🇱 荷兰 顺丰资源YouTube
+      - 🇺🇸 美国 顺丰资源YouTube 4
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇦🇺 www.ncm68.com _🇦🇺AU_14
+      - 🇺🇸 www.ncm68.com _🇺🇸US_172
+      - 罗马 顺丰资源YouTube 3
+      - 罗马 顺丰资源YouTube 4
+      - 克罗地亚
+      - www.ncm68.com _🇮🇹IT_229
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_192 2
+      - f 45
+      - 🇦🇺 澳大利亚
+      - 罗马 顺丰资源YouTube 5
+      - 🇦🇺 澳大利亚 2
+      - 克罗地亚 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 YouTube-阿伟科技12-HK-7.17
-      - 🇭🇰 YouTube-阿伟科技08-HK-7.17
-      - 🇯🇵 日本 ③ 2
-      - 🇭🇰 YouTube-阿伟科技03-HK-7.17
-      - 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 香港  ⑩ 3
-      - 🇸🇬 YouTube-阿伟科技07-SG-7.17
-      - 🇭🇰 香港
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2777
-      - 🇭🇰 香港 ① 3
-      - 🇭🇰 香港  ⑪ 2
-      - 🇭🇰 香港  ⑪ 3
-      - 🇭🇰 香港  ⑪ 4
-      - 🇸🇬 新加坡⑥ 4
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2782
-      - 🇰🇷 KR_73
-      - 🇫🇷 法国 ⑤ 4
-      - 🇭🇰 香港  ⑧ 2
-      - 🇭🇰 香港智能优选线路
-      - 🇯🇵 日本 ③ 4
-      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_5159
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇭🇰 香港  ⑨ 3
-      - Yw05
-      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
-      - 🇭🇰 香港  ⑯ 2
-      - 🇭🇰 香港 ⑫ 3
-      - 🇸🇬 新加坡⑭ 4
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2778
-      - 🇸🇬 新加坡⑭ 3
-      - 🇸🇬 新加坡⑭ 2
-      - "@SSRSUB-V104-付费推荐:suo.yt/ssrsub"
-      - 🇭🇰 香港 ⑮ 2
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - "@SSRSUB-V121-付费推荐:suo.yt/ssrsub"
-      - 🇭🇰 香港  ⑨ 2
-      - 🇭🇰 香港  ⑨ 4
       - m|Relay_ |59.00Mb
-      - 🇺🇸 美国
-      - 🇭🇰 香港  ⑯ 3
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑧ 3
-      - 🇭🇰 香港 ① 2
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇩🇪 DE-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇫🇷 法国 ⑤ 2
-      - 🇫🇷 法国 ⑤ 3
-      - 🇯🇵 日本 ③ 3
-      - 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 新加坡⑥ 3
-      - 🇭🇰 香港 ① 4
-      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
-      - YouTube-阿伟科技07-7.17
-      - 🇭🇰 香港  ⑩ 4
-      - YouTube-阿伟科技07-7.17 2
-      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
-      - 🇺🇸 美国 2
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - 🇸🇬 新加坡⑥ 2
-      - YouTube-阿伟科技5
-      - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇩🇪 DE-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - Yw05
+      - 阿伟科技Yw05
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 44
-      - 🇭🇰 香港 ⑮ 4
-      - 老杨爱分享YouTube频道
-      - 🇺🇸 美国⑬ 4
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
+      - 🇺🇸 阿伟科技15-5M-US-7.17
+      - 🇺🇸 美国
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_203 | 0.18Mb
+      - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇨🇳 www.ncm68.com _🇹🇼TW_126
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_192
+      - 🇺🇸 www.ncm68.com _🇺🇸US_169
+      - 🇺🇸 www.ncm68.com _🇺🇸US_599
+      - www.ncm68.com _🇨🇿CZ_78
+      - 🇺🇸 www.ncm68.com _🇺🇸US_167
+      - 🇺🇸 美国 顺丰资源YouTube
+      - 🇺🇸 美国 2
+      - 克罗地亚(w) 2
+      - 🇺🇸 美国 3
+      - bulink 网友分享线路 1 三网
+      - 🇩🇪 德国 顺丰资源YouTube
+      - 🇺🇸 www.ncm68.com _🇺🇸US_133
+      - 🇺🇸 www.ncm68.com _🇺🇸US_142
+      - www.ncm68.com _🇨🇿CZ_74
+      - 🇺🇸 www.ncm68.com _🇺🇸US_160 | 7.18Mb
+      - 🇺🇸 美国 顺丰资源YouTube 2
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
+      - 🇺🇸 Relay_-🇺🇸US_814
+      - bulink 网友分享线路 6 移动
+      - www.ncm68.com _🇬🇧GB_50
+      - 罗马 顺丰资源YouTube
+      - 罗马 顺丰资源YouTube 2
+      - www.ncm68.com _🇨🇾CY_37
+      - www.ncm68.com _🇭🇷HR_60
+      - www.ncm68.com _🇧🇦BA_22
+      - 🇬🇧 英国 顺丰资源YouTube
+      - 🇺🇸 美国 顺丰资源YouTube 3
+      - 🇫🇷 法国
+      - 🇳🇱 荷兰 顺丰资源YouTube
+      - 🇺🇸 美国 顺丰资源YouTube 4
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇦🇺 www.ncm68.com _🇦🇺AU_14
+      - 🇺🇸 www.ncm68.com _🇺🇸US_172
+      - 罗马 顺丰资源YouTube 3
+      - 罗马 顺丰资源YouTube 4
+      - 克罗地亚
+      - www.ncm68.com _🇮🇹IT_229
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_192 2
+      - f 45
+      - 🇦🇺 澳大利亚
+      - 罗马 顺丰资源YouTube 5
+      - 🇦🇺 澳大利亚 2
+      - 克罗地亚 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 YouTube-阿伟科技12-HK-7.17
-      - 🇭🇰 YouTube-阿伟科技08-HK-7.17
-      - 🇯🇵 日本 ③ 2
-      - 🇭🇰 YouTube-阿伟科技03-HK-7.17
-      - 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 香港  ⑩ 3
-      - 🇸🇬 YouTube-阿伟科技07-SG-7.17
-      - 🇭🇰 香港
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2777
-      - 🇭🇰 香港 ① 3
-      - 🇭🇰 香港  ⑪ 2
-      - 🇭🇰 香港  ⑪ 3
-      - 🇭🇰 香港  ⑪ 4
-      - 🇸🇬 新加坡⑥ 4
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2782
-      - 🇰🇷 KR_73
-      - 🇫🇷 法国 ⑤ 4
-      - 🇭🇰 香港  ⑧ 2
-      - 🇭🇰 香港智能优选线路
-      - 🇯🇵 日本 ③ 4
-      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_5159
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇭🇰 香港  ⑨ 3
-      - Yw05
-      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
-      - 🇭🇰 香港  ⑯ 2
-      - 🇭🇰 香港 ⑫ 3
-      - 🇸🇬 新加坡⑭ 4
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2778
-      - 🇸🇬 新加坡⑭ 3
-      - 🇸🇬 新加坡⑭ 2
-      - "@SSRSUB-V104-付费推荐:suo.yt/ssrsub"
-      - 🇭🇰 香港 ⑮ 2
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - "@SSRSUB-V121-付费推荐:suo.yt/ssrsub"
-      - 🇭🇰 香港  ⑨ 2
-      - 🇭🇰 香港  ⑨ 4
       - m|Relay_ |59.00Mb
-      - 🇺🇸 美国
-      - 🇭🇰 香港  ⑯ 3
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑧ 3
-      - 🇭🇰 香港 ① 2
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇩🇪 DE-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇫🇷 法国 ⑤ 2
-      - 🇫🇷 法国 ⑤ 3
-      - 🇯🇵 日本 ③ 3
-      - 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 新加坡⑥ 3
-      - 🇭🇰 香港 ① 4
-      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
-      - YouTube-阿伟科技07-7.17
-      - 🇭🇰 香港  ⑩ 4
-      - YouTube-阿伟科技07-7.17 2
-      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
-      - 🇺🇸 美国 2
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - 🇸🇬 新加坡⑥ 2
-      - YouTube-阿伟科技5
-      - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇩🇪 DE-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - Yw05
+      - 阿伟科技Yw05
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 44
-      - 🇭🇰 香港 ⑮ 4
-      - 老杨爱分享YouTube频道
-      - 🇺🇸 美国⑬ 4
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
+      - 🇺🇸 阿伟科技15-5M-US-7.17
+      - 🇺🇸 美国
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_203 | 0.18Mb
+      - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇨🇳 www.ncm68.com _🇹🇼TW_126
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_192
+      - 🇺🇸 www.ncm68.com _🇺🇸US_169
+      - 🇺🇸 www.ncm68.com _🇺🇸US_599
+      - www.ncm68.com _🇨🇿CZ_78
+      - 🇺🇸 www.ncm68.com _🇺🇸US_167
+      - 🇺🇸 美国 顺丰资源YouTube
+      - 🇺🇸 美国 2
+      - 克罗地亚(w) 2
+      - 🇺🇸 美国 3
+      - bulink 网友分享线路 1 三网
+      - 🇩🇪 德国 顺丰资源YouTube
+      - 🇺🇸 www.ncm68.com _🇺🇸US_133
+      - 🇺🇸 www.ncm68.com _🇺🇸US_142
+      - www.ncm68.com _🇨🇿CZ_74
+      - 🇺🇸 www.ncm68.com _🇺🇸US_160 | 7.18Mb
+      - 🇺🇸 美国 顺丰资源YouTube 2
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
+      - 🇺🇸 Relay_-🇺🇸US_814
+      - bulink 网友分享线路 6 移动
+      - www.ncm68.com _🇬🇧GB_50
+      - 罗马 顺丰资源YouTube
+      - 罗马 顺丰资源YouTube 2
+      - www.ncm68.com _🇨🇾CY_37
+      - www.ncm68.com _🇭🇷HR_60
+      - www.ncm68.com _🇧🇦BA_22
+      - 🇬🇧 英国 顺丰资源YouTube
+      - 🇺🇸 美国 顺丰资源YouTube 3
+      - 🇫🇷 法国
+      - 🇳🇱 荷兰 顺丰资源YouTube
+      - 🇺🇸 美国 顺丰资源YouTube 4
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇦🇺 www.ncm68.com _🇦🇺AU_14
+      - 🇺🇸 www.ncm68.com _🇺🇸US_172
+      - 罗马 顺丰资源YouTube 3
+      - 罗马 顺丰资源YouTube 4
+      - 克罗地亚
+      - www.ncm68.com _🇮🇹IT_229
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_192 2
+      - f 45
+      - 🇦🇺 澳大利亚
+      - 罗马 顺丰资源YouTube 5
+      - 🇦🇺 澳大利亚 2
+      - 克罗地亚 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港  ⑩ 3
-      - 🇭🇰 香港
-      - 🇭🇰 香港 ① 3
-      - 🇭🇰 香港  ⑪ 2
-      - 🇭🇰 香港  ⑪ 3
-      - 🇭🇰 香港  ⑪ 4
-      - 🇭🇰 香港  ⑧ 2
-      - 🇭🇰 香港智能优选线路
-      - 🇭🇰 香港  ⑨ 3
-      - 🇭🇰 香港  ⑯ 2
-      - 🇭🇰 香港 ⑫ 3
-      - 🇭🇰 香港 ⑮ 2
-      - 🇭🇰 香港  ⑨ 2
-      - 🇭🇰 香港  ⑨ 4
-      - 🇭🇰 香港  ⑯ 3
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑧ 3
-      - 🇭🇰 香港 ① 2
-      - 🇭🇰 香港 ① 4
-      - 🇭🇰 香港  ⑩ 4
-      - 🇭🇰 香港 ⑮ 4
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 YouTube-阿伟科技12-HK-7.17
-      - 🇭🇰 YouTube-阿伟科技08-HK-7.17
-      - 🇯🇵 日本 ③ 2
-      - 🇭🇰 YouTube-阿伟科技03-HK-7.17
-      - 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 香港  ⑩ 3
-      - 🇸🇬 YouTube-阿伟科技07-SG-7.17
-      - 🇭🇰 香港
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2777
-      - 🇭🇰 香港 ① 3
-      - 🇭🇰 香港  ⑪ 2
-      - 🇭🇰 香港  ⑪ 3
-      - 🇭🇰 香港  ⑪ 4
-      - 🇸🇬 新加坡⑥ 4
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2782
-      - 🇰🇷 KR_73
-      - 🇫🇷 法国 ⑤ 4
-      - 🇭🇰 香港  ⑧ 2
-      - 🇭🇰 香港智能优选线路
-      - 🇯🇵 日本 ③ 4
-      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_5159
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇭🇰 香港  ⑨ 3
-      - Yw05
-      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
-      - 🇭🇰 香港  ⑯ 2
-      - 🇭🇰 香港 ⑫ 3
-      - 🇸🇬 新加坡⑭ 4
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2778
-      - 🇸🇬 新加坡⑭ 3
-      - 🇸🇬 新加坡⑭ 2
-      - "@SSRSUB-V104-付费推荐:suo.yt/ssrsub"
-      - 🇭🇰 香港 ⑮ 2
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - "@SSRSUB-V121-付费推荐:suo.yt/ssrsub"
-      - 🇭🇰 香港  ⑨ 2
-      - 🇭🇰 香港  ⑨ 4
       - m|Relay_ |59.00Mb
-      - 🇺🇸 美国
-      - 🇭🇰 香港  ⑯ 3
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑧ 3
-      - 🇭🇰 香港 ① 2
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇩🇪 DE-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇫🇷 法国 ⑤ 2
-      - 🇫🇷 法国 ⑤ 3
-      - 🇯🇵 日本 ③ 3
-      - 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 新加坡⑥ 3
-      - 🇭🇰 香港 ① 4
-      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
-      - YouTube-阿伟科技07-7.17
-      - 🇭🇰 香港  ⑩ 4
-      - YouTube-阿伟科技07-7.17 2
-      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
-      - 🇺🇸 美国 2
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - 🇸🇬 新加坡⑥ 2
-      - YouTube-阿伟科技5
-      - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇩🇪 DE-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - Yw05
+      - 阿伟科技Yw05
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 44
-      - 🇭🇰 香港 ⑮ 4
-      - 老杨爱分享YouTube频道
-      - 🇺🇸 美国⑬ 4
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
+      - 🇺🇸 阿伟科技15-5M-US-7.17
+      - 🇺🇸 美国
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_203 | 0.18Mb
+      - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇨🇳 www.ncm68.com _🇹🇼TW_126
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_192
+      - 🇺🇸 www.ncm68.com _🇺🇸US_169
+      - 🇺🇸 www.ncm68.com _🇺🇸US_599
+      - www.ncm68.com _🇨🇿CZ_78
+      - 🇺🇸 www.ncm68.com _🇺🇸US_167
+      - 🇺🇸 美国 顺丰资源YouTube
+      - 🇺🇸 美国 2
+      - 克罗地亚(w) 2
+      - 🇺🇸 美国 3
+      - bulink 网友分享线路 1 三网
+      - 🇩🇪 德国 顺丰资源YouTube
+      - 🇺🇸 www.ncm68.com _🇺🇸US_133
+      - 🇺🇸 www.ncm68.com _🇺🇸US_142
+      - www.ncm68.com _🇨🇿CZ_74
+      - 🇺🇸 www.ncm68.com _🇺🇸US_160 | 7.18Mb
+      - 🇺🇸 美国 顺丰资源YouTube 2
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
+      - 🇺🇸 Relay_-🇺🇸US_814
+      - bulink 网友分享线路 6 移动
+      - www.ncm68.com _🇬🇧GB_50
+      - 罗马 顺丰资源YouTube
+      - 罗马 顺丰资源YouTube 2
+      - www.ncm68.com _🇨🇾CY_37
+      - www.ncm68.com _🇭🇷HR_60
+      - www.ncm68.com _🇧🇦BA_22
+      - 🇬🇧 英国 顺丰资源YouTube
+      - 🇺🇸 美国 顺丰资源YouTube 3
+      - 🇫🇷 法国
+      - 🇳🇱 荷兰 顺丰资源YouTube
+      - 🇺🇸 美国 顺丰资源YouTube 4
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇦🇺 www.ncm68.com _🇦🇺AU_14
+      - 🇺🇸 www.ncm68.com _🇺🇸US_172
+      - 罗马 顺丰资源YouTube 3
+      - 罗马 顺丰资源YouTube 4
+      - 克罗地亚
+      - www.ncm68.com _🇮🇹IT_229
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_192 2
+      - f 45
+      - 🇦🇺 澳大利亚
+      - 罗马 顺丰资源YouTube 5
+      - 🇦🇺 澳大利亚 2
+      - 克罗地亚 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 YouTube-阿伟科技12-HK-7.17
-      - 🇭🇰 YouTube-阿伟科技08-HK-7.17
-      - 🇯🇵 日本 ③ 2
-      - 🇭🇰 YouTube-阿伟科技03-HK-7.17
-      - 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 香港  ⑩ 3
-      - 🇸🇬 YouTube-阿伟科技07-SG-7.17
-      - 🇭🇰 香港
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2777
-      - 🇭🇰 香港 ① 3
-      - 🇭🇰 香港  ⑪ 2
-      - 🇭🇰 香港  ⑪ 3
-      - 🇭🇰 香港  ⑪ 4
-      - 🇸🇬 新加坡⑥ 4
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2782
-      - 🇰🇷 KR_73
-      - 🇫🇷 法国 ⑤ 4
-      - 🇭🇰 香港  ⑧ 2
-      - 🇭🇰 香港智能优选线路
-      - 🇯🇵 日本 ③ 4
-      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_5159
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇭🇰 香港  ⑨ 3
-      - Yw05
-      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
-      - 🇭🇰 香港  ⑯ 2
-      - 🇭🇰 香港 ⑫ 3
-      - 🇸🇬 新加坡⑭ 4
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2778
-      - 🇸🇬 新加坡⑭ 3
-      - 🇸🇬 新加坡⑭ 2
-      - "@SSRSUB-V104-付费推荐:suo.yt/ssrsub"
-      - 🇭🇰 香港 ⑮ 2
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - "@SSRSUB-V121-付费推荐:suo.yt/ssrsub"
-      - 🇭🇰 香港  ⑨ 2
-      - 🇭🇰 香港  ⑨ 4
       - m|Relay_ |59.00Mb
-      - 🇺🇸 美国
-      - 🇭🇰 香港  ⑯ 3
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑧ 3
-      - 🇭🇰 香港 ① 2
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇩🇪 DE-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇫🇷 法国 ⑤ 2
-      - 🇫🇷 法国 ⑤ 3
-      - 🇯🇵 日本 ③ 3
-      - 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 新加坡⑥ 3
-      - 🇭🇰 香港 ① 4
-      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
-      - YouTube-阿伟科技07-7.17
-      - 🇭🇰 香港  ⑩ 4
-      - YouTube-阿伟科技07-7.17 2
-      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
-      - 🇺🇸 美国 2
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - 🇸🇬 新加坡⑥ 2
-      - YouTube-阿伟科技5
-      - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇩🇪 DE-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - Yw05
+      - 阿伟科技Yw05
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 44
-      - 🇭🇰 香港 ⑮ 4
-      - 老杨爱分享YouTube频道
-      - 🇺🇸 美国⑬ 4
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
+      - 🇺🇸 阿伟科技15-5M-US-7.17
+      - 🇺🇸 美国
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_203 | 0.18Mb
+      - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇨🇳 www.ncm68.com _🇹🇼TW_126
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_192
+      - 🇺🇸 www.ncm68.com _🇺🇸US_169
+      - 🇺🇸 www.ncm68.com _🇺🇸US_599
+      - www.ncm68.com _🇨🇿CZ_78
+      - 🇺🇸 www.ncm68.com _🇺🇸US_167
+      - 🇺🇸 美国 顺丰资源YouTube
+      - 🇺🇸 美国 2
+      - 克罗地亚(w) 2
+      - 🇺🇸 美国 3
+      - bulink 网友分享线路 1 三网
+      - 🇩🇪 德国 顺丰资源YouTube
+      - 🇺🇸 www.ncm68.com _🇺🇸US_133
+      - 🇺🇸 www.ncm68.com _🇺🇸US_142
+      - www.ncm68.com _🇨🇿CZ_74
+      - 🇺🇸 www.ncm68.com _🇺🇸US_160 | 7.18Mb
+      - 🇺🇸 美国 顺丰资源YouTube 2
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
+      - 🇺🇸 Relay_-🇺🇸US_814
+      - bulink 网友分享线路 6 移动
+      - www.ncm68.com _🇬🇧GB_50
+      - 罗马 顺丰资源YouTube
+      - 罗马 顺丰资源YouTube 2
+      - www.ncm68.com _🇨🇾CY_37
+      - www.ncm68.com _🇭🇷HR_60
+      - www.ncm68.com _🇧🇦BA_22
+      - 🇬🇧 英国 顺丰资源YouTube
+      - 🇺🇸 美国 顺丰资源YouTube 3
+      - 🇫🇷 法国
+      - 🇳🇱 荷兰 顺丰资源YouTube
+      - 🇺🇸 美国 顺丰资源YouTube 4
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇦🇺 www.ncm68.com _🇦🇺AU_14
+      - 🇺🇸 www.ncm68.com _🇺🇸US_172
+      - 罗马 顺丰资源YouTube 3
+      - 罗马 顺丰资源YouTube 4
+      - 克罗地亚
+      - www.ncm68.com _🇮🇹IT_229
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_192 2
+      - f 45
+      - 🇦🇺 澳大利亚
+      - 罗马 顺丰资源YouTube 5
+      - 🇦🇺 澳大利亚 2
+      - 克罗地亚 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 YouTube-阿伟科技12-HK-7.17
-      - 🇭🇰 YouTube-阿伟科技08-HK-7.17
-      - 🇯🇵 日本 ③ 2
-      - 🇭🇰 YouTube-阿伟科技03-HK-7.17
-      - 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 香港  ⑩ 3
-      - 🇸🇬 YouTube-阿伟科技07-SG-7.17
-      - 🇭🇰 香港
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2777
-      - 🇭🇰 香港 ① 3
-      - 🇭🇰 香港  ⑪ 2
-      - 🇭🇰 香港  ⑪ 3
-      - 🇭🇰 香港  ⑪ 4
-      - 🇸🇬 新加坡⑥ 4
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2782
-      - 🇰🇷 KR_73
-      - 🇫🇷 法国 ⑤ 4
-      - 🇭🇰 香港  ⑧ 2
-      - 🇭🇰 香港智能优选线路
-      - 🇯🇵 日本 ③ 4
-      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_5159
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇭🇰 香港  ⑨ 3
-      - Yw05
-      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
-      - 🇭🇰 香港  ⑯ 2
-      - 🇭🇰 香港 ⑫ 3
-      - 🇸🇬 新加坡⑭ 4
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2778
-      - 🇸🇬 新加坡⑭ 3
-      - 🇸🇬 新加坡⑭ 2
-      - "@SSRSUB-V104-付费推荐:suo.yt/ssrsub"
-      - 🇭🇰 香港 ⑮ 2
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - "@SSRSUB-V121-付费推荐:suo.yt/ssrsub"
-      - 🇭🇰 香港  ⑨ 2
-      - 🇭🇰 香港  ⑨ 4
       - m|Relay_ |59.00Mb
-      - 🇺🇸 美国
-      - 🇭🇰 香港  ⑯ 3
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑧ 3
-      - 🇭🇰 香港 ① 2
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇩🇪 DE-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇫🇷 法国 ⑤ 2
-      - 🇫🇷 法国 ⑤ 3
-      - 🇯🇵 日本 ③ 3
-      - 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 新加坡⑥ 3
-      - 🇭🇰 香港 ① 4
-      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
-      - YouTube-阿伟科技07-7.17
-      - 🇭🇰 香港  ⑩ 4
-      - YouTube-阿伟科技07-7.17 2
-      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
-      - 🇺🇸 美国 2
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - 🇸🇬 新加坡⑥ 2
-      - YouTube-阿伟科技5
-      - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇩🇪 DE-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - Yw05
+      - 阿伟科技Yw05
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 44
-      - 🇭🇰 香港 ⑮ 4
-      - 老杨爱分享YouTube频道
-      - 🇺🇸 美国⑬ 4
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
+      - 🇺🇸 阿伟科技15-5M-US-7.17
+      - 🇺🇸 美国
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_203 | 0.18Mb
+      - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇨🇳 www.ncm68.com _🇹🇼TW_126
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_192
+      - 🇺🇸 www.ncm68.com _🇺🇸US_169
+      - 🇺🇸 www.ncm68.com _🇺🇸US_599
+      - www.ncm68.com _🇨🇿CZ_78
+      - 🇺🇸 www.ncm68.com _🇺🇸US_167
+      - 🇺🇸 美国 顺丰资源YouTube
+      - 🇺🇸 美国 2
+      - 克罗地亚(w) 2
+      - 🇺🇸 美国 3
+      - bulink 网友分享线路 1 三网
+      - 🇩🇪 德国 顺丰资源YouTube
+      - 🇺🇸 www.ncm68.com _🇺🇸US_133
+      - 🇺🇸 www.ncm68.com _🇺🇸US_142
+      - www.ncm68.com _🇨🇿CZ_74
+      - 🇺🇸 www.ncm68.com _🇺🇸US_160 | 7.18Mb
+      - 🇺🇸 美国 顺丰资源YouTube 2
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
+      - 🇺🇸 Relay_-🇺🇸US_814
+      - bulink 网友分享线路 6 移动
+      - www.ncm68.com _🇬🇧GB_50
+      - 罗马 顺丰资源YouTube
+      - 罗马 顺丰资源YouTube 2
+      - www.ncm68.com _🇨🇾CY_37
+      - www.ncm68.com _🇭🇷HR_60
+      - www.ncm68.com _🇧🇦BA_22
+      - 🇬🇧 英国 顺丰资源YouTube
+      - 🇺🇸 美国 顺丰资源YouTube 3
+      - 🇫🇷 法国
+      - 🇳🇱 荷兰 顺丰资源YouTube
+      - 🇺🇸 美国 顺丰资源YouTube 4
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇦🇺 www.ncm68.com _🇦🇺AU_14
+      - 🇺🇸 www.ncm68.com _🇺🇸US_172
+      - 罗马 顺丰资源YouTube 3
+      - 罗马 顺丰资源YouTube 4
+      - 克罗地亚
+      - www.ncm68.com _🇮🇹IT_229
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_192 2
+      - f 45
+      - 🇦🇺 澳大利亚
+      - 罗马 顺丰资源YouTube 5
+      - 🇦🇺 澳大利亚 2
+      - 克罗地亚 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -562,75 +429,59 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 YouTube-阿伟科技12-HK-7.17
-      - 🇭🇰 YouTube-阿伟科技08-HK-7.17
-      - 🇯🇵 日本 ③ 2
-      - 🇭🇰 YouTube-阿伟科技03-HK-7.17
-      - 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 香港  ⑩ 3
-      - 🇸🇬 YouTube-阿伟科技07-SG-7.17
-      - 🇭🇰 香港
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2777
-      - 🇭🇰 香港 ① 3
-      - 🇭🇰 香港  ⑪ 2
-      - 🇭🇰 香港  ⑪ 3
-      - 🇭🇰 香港  ⑪ 4
-      - 🇸🇬 新加坡⑥ 4
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2782
-      - 🇰🇷 KR_73
-      - 🇫🇷 法国 ⑤ 4
-      - 🇭🇰 香港  ⑧ 2
-      - 🇭🇰 香港智能优选线路
-      - 🇯🇵 日本 ③ 4
-      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_5159
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇭🇰 香港  ⑨ 3
-      - Yw05
-      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
-      - 🇭🇰 香港  ⑯ 2
-      - 🇭🇰 香港 ⑫ 3
-      - 🇸🇬 新加坡⑭ 4
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2778
-      - 🇸🇬 新加坡⑭ 3
-      - 🇸🇬 新加坡⑭ 2
-      - "@SSRSUB-V104-付费推荐:suo.yt/ssrsub"
-      - 🇭🇰 香港 ⑮ 2
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - "@SSRSUB-V121-付费推荐:suo.yt/ssrsub"
-      - 🇭🇰 香港  ⑨ 2
-      - 🇭🇰 香港  ⑨ 4
       - m|Relay_ |59.00Mb
-      - 🇺🇸 美国
-      - 🇭🇰 香港  ⑯ 3
-      - 🇭🇰 香港 ⑮ 3
-      - 🇭🇰 香港  ⑧ 3
-      - 🇭🇰 香港 ① 2
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇩🇪 DE-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇫🇷 法国 ⑤ 2
-      - 🇫🇷 法国 ⑤ 3
-      - 🇯🇵 日本 ③ 3
-      - 🇩🇪 DE-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 新加坡⑥ 3
-      - 🇭🇰 香港 ① 4
-      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
-      - YouTube-阿伟科技07-7.17
-      - 🇭🇰 香港  ⑩ 4
-      - YouTube-阿伟科技07-7.17 2
-      - 🇯🇵 日本智能优选线路(节点1-2天更新一次)
-      - 🇺🇸 美国 2
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - 🇸🇬 新加坡⑥ 2
-      - YouTube-阿伟科技5
-      - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
-      - 🇩🇪 DE-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - Yw05
+      - 阿伟科技Yw05
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 44
-      - 🇭🇰 香港 ⑮ 4
-      - 老杨爱分享YouTube频道
-      - 🇺🇸 美国⑬ 4
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 3
+      - 🇺🇸 阿伟科技15-5M-US-7.17
+      - 🇺🇸 美国
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_203 | 0.18Mb
+      - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - 🇨🇳 www.ncm68.com _🇹🇼TW_126
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_192
+      - 🇺🇸 www.ncm68.com _🇺🇸US_169
+      - 🇺🇸 www.ncm68.com _🇺🇸US_599
+      - www.ncm68.com _🇨🇿CZ_78
+      - 🇺🇸 www.ncm68.com _🇺🇸US_167
+      - 🇺🇸 美国 顺丰资源YouTube
+      - 🇺🇸 美国 2
+      - 克罗地亚(w) 2
+      - 🇺🇸 美国 3
+      - bulink 网友分享线路 1 三网
+      - 🇩🇪 德国 顺丰资源YouTube
+      - 🇺🇸 www.ncm68.com _🇺🇸US_133
+      - 🇺🇸 www.ncm68.com _🇺🇸US_142
+      - www.ncm68.com _🇨🇿CZ_74
+      - 🇺🇸 www.ncm68.com _🇺🇸US_160 | 7.18Mb
+      - 🇺🇸 美国 顺丰资源YouTube 2
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
+      - 🇺🇸 Relay_-🇺🇸US_814
+      - bulink 网友分享线路 6 移动
+      - www.ncm68.com _🇬🇧GB_50
+      - 罗马 顺丰资源YouTube
+      - 罗马 顺丰资源YouTube 2
+      - www.ncm68.com _🇨🇾CY_37
+      - www.ncm68.com _🇭🇷HR_60
+      - www.ncm68.com _🇧🇦BA_22
+      - 🇬🇧 英国 顺丰资源YouTube
+      - 🇺🇸 美国 顺丰资源YouTube 3
+      - 🇫🇷 法国
+      - 🇳🇱 荷兰 顺丰资源YouTube
+      - 🇺🇸 美国 顺丰资源YouTube 4
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇦🇺 www.ncm68.com _🇦🇺AU_14
+      - 🇺🇸 www.ncm68.com _🇺🇸US_172
+      - 罗马 顺丰资源YouTube 3
+      - 罗马 顺丰资源YouTube 4
+      - 克罗地亚
+      - www.ncm68.com _🇮🇹IT_229
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_192 2
+      - f 45
+      - 🇦🇺 澳大利亚
+      - 罗马 顺丰资源YouTube 5
+      - 🇦🇺 澳大利亚 2
+      - 克罗地亚 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
