@@ -5,47 +5,49 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a, server: 104.17.113.188, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: 🇸🇬 节点更新4.3M, server: 104.17.113.188, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
   - {name: 阿伟科技Yw05, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a7436b35-0daf-3eac-9a0b-356b8a3cc63b, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
   - {name: Yw05, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a47638b5-60bf-3f8d-b551-85615b655084, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a - 美国赛基诺州立大学 38, server: 104.16.85.129, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
-  - {name: 🇸🇬 sg-OVH Hosting-9@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.162.25, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.50.82, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: "@SSRSUB-V133-付费推荐:suo.yt/ssrsub", server: 104.20.51.120, port: 80, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us-01.yinriver.top}}
-  - {name: 🇺🇸 美国, server: 104.20.53.45, port: 80, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us-01.yinriver.top}}
-  - {name: 🇸🇬 sg-OVH Hosting-29@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.23.24, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_203 | 0.18Mb, server: 104.20.53.45, port: 80, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us-01.yinriver.top}}
-  - {name: f 45, server: 104.20.53.45, port: 80, type: vmess, uuid: c0304bc1-f8ff-4108-9bc6-3415d16ae5e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv12p.ezddns.tk}}
-  - {name: 🇩🇪 DE-20@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.85.129, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇩🇪 DE-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.16.85.129, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: "@SSRSUB-V111-付费推荐:suo.yt/ssrsub", server: 104.20.50.82, port: 80, type: vmess, uuid: 0b5aeb7c-e477-484f-8999-61772c43b43c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv7p.ezddns.tk}}
-  - {name: "@SSRSUB-V109-付费推荐:suo.yt/ssrsub", server: 104.20.53.45, port: 80, type: vmess, uuid: 499737a4-9f18-4e1f-fb38-437e1855fc04, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv6p.ezddns.tk}}
-  - {name: "@SSRSUB-V103-付费推荐:suo.yt/ssrsub", server: 104.20.53.45, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
-  - {name: "@SSRSUB-V113-付费推荐:suo.yt/ssrsub", server: 104.20.51.141, port: 80, type: vmess, uuid: ca870483-fa7d-4f64-983a-6ed455143aca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /live, ws-headers: {Host: euserv9p.ezddns.tk}}
+  - {name: 🇺🇸 3.5M美国赛基诺州立大学, server: 104.16.85.129, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
+  - {name: sg-OVH Hosting-9@1Gbps3.4M, server: 104.19.162.25, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: sg-OVH Hosting-23@1Gbps3.4M, server: 104.20.50.82, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: "@SSRSUB-V133-付费推荐:3M", server: 104.20.51.120, port: 80, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us-01.yinriver.top}}
+  - {name: 🇺🇸 美国3M, server: 104.20.53.45, port: 80, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us-01.yinriver.top}}
+  - {name: sg-OVH Hosting-29@1Gbps2.9M, server: 104.19.23.24, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: 🇺🇸 www.ncm68.com _🇺🇸US-🇺2.6M, server: 104.20.53.45, port: 80, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us-01.yinriver.top}}
+  - {name: f 45 2.6M, server: 104.20.53.45, port: 80, type: vmess, uuid: c0304bc1-f8ff-4108-9bc6-3415d16ae5e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv12p.ezddns.tk}}
+  - {name: "🇩🇪 DE-20@1Gbps节点更新2,5M", server: 104.16.85.129, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 DE-21联通@1Gbps 节点更新2.4M, server: 104.16.85.129, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: "@SSRSUB-V111-付费推荐:2.4M", server: 104.20.50.82, port: 80, type: vmess, uuid: 0b5aeb7c-e477-484f-8999-61772c43b43c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv7p.ezddns.tk}}
+  - {name: "@SSRSUB-V109-付费2.3M", server: 104.20.53.45, port: 80, type: vmess, uuid: 499737a4-9f18-4e1f-fb38-437e1855fc04, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv6p.ezddns.tk}}
+  - {name: "@SSRSUB-V103-付费2.3M", server: 104.20.53.45, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
+  - {name: "@SSRSUB-V113-付费推荐:2.3M", server: 104.20.51.141, port: 80, type: vmess, uuid: ca870483-fa7d-4f64-983a-6ed455143aca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /live, ws-headers: {Host: euserv9p.ezddns.tk}}
   - {name: 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180, server: 104.20.51.120, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
   - {name: 🇸🇬 sg-OVH Hosting-3@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.162.25, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
   - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 104.20.53.45, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: 🇺🇸 美国 2, server: 104.20.53.45, port: 80, type: vmess, uuid: 4323a38e-29dc-4c6d-f436-b15114e57a75, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.zip, ws-headers: {Host: euserv10p.ezddns.tk}}
+  - {name: 🇺🇸 美国, server: 104.20.53.45, port: 80, type: vmess, uuid: 4323a38e-29dc-4c6d-f436-b15114e57a75, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.zip, ws-headers: {Host: euserv10p.ezddns.tk}}
   - {name: "@SSRSUB-V5-付费推荐:suo.yt/ssrsub", server: 104.20.53.45, port: 80, type: vmess, uuid: 60b738e2-3aa4-4cde-c270-20f8cc1ab16a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv5p.ezddns.tk}}
-  - {name: 🇺🇸 美国 3, server: 104.20.53.45, port: 80, type: vmess, uuid: 4323a38e-29dc-4c6d-f436-b15114e57a75, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.zip, ws-headers: {Host: euserv10p.ezddns.tk}}
+  - {name: 🇺🇸 美国 2, server: 104.20.53.45, port: 80, type: vmess, uuid: 4323a38e-29dc-4c6d-f436-b15114e57a75, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.zip, ws-headers: {Host: euserv10p.ezddns.tk}}
+  - {name: 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.53.45, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
   - {name: sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s, server: 104.16.167.138, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
   - {name: "@SSRSUB-V112-付费推荐:suo.yt/ssrsub", server: 104.20.53.45, port: 80, type: vmess, uuid: ca870483-fa7d-4f64-983a-6ed455143aca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /live, ws-headers: {Host: euserv9p.ezddns.tk}}
   - {name: "@SSRSUB-V45-付费推荐:suo.yt/ssrsub", server: 107.167.9.124, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a, server: www.garmin.com, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: 🇯🇵 日本共享免费试用节点  独享节点购买:http://vmess.vip/, server: free-jp002.ddns.net, port: 45099, type: vmess, uuid: ea8db200-3f0e-4eb8-c0e9-485b21e533f1, alterId: 64, cipher: auto, tls: false}
   - {name: 🇰🇷 KR_73, server: 13.124.66.77, port: 26571, type: vmess, uuid: 9c0a9f28-f9db-4b18-cd76-c14d0755e5b2, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本共享免费试用节点  独享节点购买:http://vmess.vip/ 2, server: free-jp004.ddns.net, port: 26391, type: vmess, uuid: 82cb67a9-7660-4e59-d32b-85b5d82d62d7, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /114514.apk, ws-headers: {Host: free-jp004.ddns.net}}
   - {name: 🇳🇱 荷兰(欢迎订阅Youtube破解资源君), server: 193.32.210.230, port: 35870, type: ss, cipher: aes-256-gcm, password: VFqcjsifsjyC}
   - {name: 捷克 布拉格2（感谢关注youtube：8度科技）, server: 185.180.14.149, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
   - {name: 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 2, server: 82.102.26.117, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 2, server: in1-1.noojat.com, port: 1443, type: trojan, password: 7x42LetRa0, sni: in1-1.noojat.com}
-  - {name: 🇺🇸 美国 4, server: 156.146.62.39, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a, server: in1-1.noojat.com, port: 1443, type: trojan, password: 7x42LetRa0, sni: in1-1.noojat.com}
+  - {name: 🇺🇸 美国 3, server: 156.146.62.39, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
   - {name: 比利时, server: 91.90.123.115, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 3, server: 45.83.91.133, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 4, server: 91.90.123.115, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 🇺🇸 美国 5, server: 207.244.84.40, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 2, server: 45.83.91.133, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 3, server: 91.90.123.115, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 🇺🇸 美国 4, server: 207.244.84.40, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
   - {name: www.ncm68.com _🇨🇿CZ_78, server: 185.180.14.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 5, server: 91.90.123.115, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 4, server: 91.90.123.115, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
   - {name: 🇺🇸 www.ncm68.com _🇺🇸US_142, server: 207.244.67.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 6, server: 143.244.56.230, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 5, server: 143.244.56.230, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 罗马 顺丰资源YouTube, server: 91.90.123.115, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
   - {name: 欧洲04（感谢关注youtube：8度科技）, server: 138.199.16.137, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
   - {name: Pool__1062, server: 185.44.76.188, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
@@ -53,59 +55,55 @@ proxies:
   - {name: 🇨🇳 www.ncm68.com _🇹🇼TW_126, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
   - {name: ‪捷克, server: 89.187.168.39, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇺🇸 www.ncm68.com _🇺🇸US_133, server: 207.244.67.149, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 罗马 顺丰资源YouTube 2, server: 195.47.194.42, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 罗马 顺丰资源YouTube 3, server: 195.47.194.42, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇫🇷 法国（感谢关注youtube：8度科技） 2, server: 146.59.3.33, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: M1LCZAlfz1bV}
-  - {name: 🇺🇸 www.ncm68.com _🇺🇸US_172, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇬🇧 英国2（感谢关注youtube：8度科技）, server: 5.183.101.200, port: 35374, type: vmess, uuid: 62836733-0014-4014-e0e3-908eea2f3063, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 7, server: 82.102.26.117, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新4.3M
       - 阿伟科技Yw05
       - Yw05
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a - 美国赛基诺州立大学 38
-      - 🇸🇬 sg-OVH Hosting-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - "@SSRSUB-V133-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 美国
-      - 🇸🇬 sg-OVH Hosting-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_203 | 0.18Mb
-      - f 45
-      - 🇩🇪 DE-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 DE-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - "@SSRSUB-V111-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V109-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V113-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 3.5M美国赛基诺州立大学
+      - sg-OVH Hosting-9@1Gbps3.4M
+      - sg-OVH Hosting-23@1Gbps3.4M
+      - "@SSRSUB-V133-付费推荐:3M"
+      - 🇺🇸 美国3M
+      - sg-OVH Hosting-29@1Gbps2.9M
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺2.6M
+      - f 45 2.6M
+      - 🇩🇪 DE-20@1Gbps节点更新2,5M
+      - 🇩🇪 DE-21联通@1Gbps 节点更新2.4M
+      - "@SSRSUB-V111-付费推荐:2.4M"
+      - "@SSRSUB-V109-付费2.3M"
+      - "@SSRSUB-V103-付费2.3M"
+      - "@SSRSUB-V113-付费推荐:2.3M"
       - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
       - 🇸🇬 sg-OVH Hosting-3@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国 2
+      - 🇺🇸 美国
       - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 美国 3
+      - 🇺🇸 美国 2
+      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
       - "@SSRSUB-V112-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V45-付费推荐:suo.yt/ssrsub"
-      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇯🇵 日本共享免费试用节点  独享节点购买:http://vmess.vip/
       - 🇰🇷 KR_73
+      - 🇯🇵 日本共享免费试用节点  独享节点购买:http://vmess.vip/ 2
       - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君)
       - 捷克 布拉格2（感谢关注youtube：8度科技）
       - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 2
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇺🇸 美国 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 3
       - 比利时
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - 🇺🇸 美国 5
+      - 🇺🇸 美国 4
       - www.ncm68.com _🇨🇿CZ_78
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
       - 🇺🇸 www.ncm68.com _🇺🇸US_142
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
       - 罗马 顺丰资源YouTube
       - 欧洲04（感谢关注youtube：8度科技）
       - Pool__1062
@@ -113,58 +111,54 @@ proxy-groups:
       - 🇨🇳 www.ncm68.com _🇹🇼TW_126
       - ‪捷克
       - 🇺🇸 www.ncm68.com _🇺🇸US_133
-      - 罗马 顺丰资源YouTube 2
-      - 罗马 顺丰资源YouTube 3
-      - 🇫🇷 法国（感谢关注youtube：8度科技） 2
-      - 🇺🇸 www.ncm68.com _🇺🇸US_172
-      - 🇬🇧 英国2（感谢关注youtube：8度科技）
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新4.3M
       - 阿伟科技Yw05
       - Yw05
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a - 美国赛基诺州立大学 38
-      - 🇸🇬 sg-OVH Hosting-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - "@SSRSUB-V133-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 美国
-      - 🇸🇬 sg-OVH Hosting-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_203 | 0.18Mb
-      - f 45
-      - 🇩🇪 DE-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 DE-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - "@SSRSUB-V111-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V109-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V113-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 3.5M美国赛基诺州立大学
+      - sg-OVH Hosting-9@1Gbps3.4M
+      - sg-OVH Hosting-23@1Gbps3.4M
+      - "@SSRSUB-V133-付费推荐:3M"
+      - 🇺🇸 美国3M
+      - sg-OVH Hosting-29@1Gbps2.9M
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺2.6M
+      - f 45 2.6M
+      - 🇩🇪 DE-20@1Gbps节点更新2,5M
+      - 🇩🇪 DE-21联通@1Gbps 节点更新2.4M
+      - "@SSRSUB-V111-付费推荐:2.4M"
+      - "@SSRSUB-V109-付费2.3M"
+      - "@SSRSUB-V103-付费2.3M"
+      - "@SSRSUB-V113-付费推荐:2.3M"
       - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
       - 🇸🇬 sg-OVH Hosting-3@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国 2
+      - 🇺🇸 美国
       - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 美国 3
+      - 🇺🇸 美国 2
+      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
       - "@SSRSUB-V112-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V45-付费推荐:suo.yt/ssrsub"
-      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇯🇵 日本共享免费试用节点  独享节点购买:http://vmess.vip/
       - 🇰🇷 KR_73
+      - 🇯🇵 日本共享免费试用节点  独享节点购买:http://vmess.vip/ 2
       - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君)
       - 捷克 布拉格2（感谢关注youtube：8度科技）
       - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 2
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇺🇸 美国 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 3
       - 比利时
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - 🇺🇸 美国 5
+      - 🇺🇸 美国 4
       - www.ncm68.com _🇨🇿CZ_78
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
       - 🇺🇸 www.ncm68.com _🇺🇸US_142
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
       - 罗马 顺丰资源YouTube
       - 欧洲04（感谢关注youtube：8度科技）
       - Pool__1062
@@ -172,59 +166,55 @@ proxy-groups:
       - 🇨🇳 www.ncm68.com _🇹🇼TW_126
       - ‪捷克
       - 🇺🇸 www.ncm68.com _🇺🇸US_133
-      - 罗马 顺丰资源YouTube 2
-      - 罗马 顺丰资源YouTube 3
-      - 🇫🇷 法国（感谢关注youtube：8度科技） 2
-      - 🇺🇸 www.ncm68.com _🇺🇸US_172
-      - 🇬🇧 英国2（感谢关注youtube：8度科技）
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新4.3M
       - 阿伟科技Yw05
       - Yw05
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a - 美国赛基诺州立大学 38
-      - 🇸🇬 sg-OVH Hosting-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - "@SSRSUB-V133-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 美国
-      - 🇸🇬 sg-OVH Hosting-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_203 | 0.18Mb
-      - f 45
-      - 🇩🇪 DE-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 DE-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - "@SSRSUB-V111-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V109-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V113-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 3.5M美国赛基诺州立大学
+      - sg-OVH Hosting-9@1Gbps3.4M
+      - sg-OVH Hosting-23@1Gbps3.4M
+      - "@SSRSUB-V133-付费推荐:3M"
+      - 🇺🇸 美国3M
+      - sg-OVH Hosting-29@1Gbps2.9M
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺2.6M
+      - f 45 2.6M
+      - 🇩🇪 DE-20@1Gbps节点更新2,5M
+      - 🇩🇪 DE-21联通@1Gbps 节点更新2.4M
+      - "@SSRSUB-V111-付费推荐:2.4M"
+      - "@SSRSUB-V109-付费2.3M"
+      - "@SSRSUB-V103-付费2.3M"
+      - "@SSRSUB-V113-付费推荐:2.3M"
       - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
       - 🇸🇬 sg-OVH Hosting-3@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国 2
+      - 🇺🇸 美国
       - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 美国 3
+      - 🇺🇸 美国 2
+      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
       - "@SSRSUB-V112-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V45-付费推荐:suo.yt/ssrsub"
-      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇯🇵 日本共享免费试用节点  独享节点购买:http://vmess.vip/
       - 🇰🇷 KR_73
+      - 🇯🇵 日本共享免费试用节点  独享节点购买:http://vmess.vip/ 2
       - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君)
       - 捷克 布拉格2（感谢关注youtube：8度科技）
       - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 2
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇺🇸 美国 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 3
       - 比利时
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - 🇺🇸 美国 5
+      - 🇺🇸 美国 4
       - www.ncm68.com _🇨🇿CZ_78
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
       - 🇺🇸 www.ncm68.com _🇺🇸US_142
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
       - 罗马 顺丰资源YouTube
       - 欧洲04（感谢关注youtube：8度科技）
       - Pool__1062
@@ -232,12 +222,6 @@ proxy-groups:
       - 🇨🇳 www.ncm68.com _🇹🇼TW_126
       - ‪捷克
       - 🇺🇸 www.ncm68.com _🇺🇸US_133
-      - 罗马 顺丰资源YouTube 2
-      - 罗马 顺丰资源YouTube 3
-      - 🇫🇷 法国（感谢关注youtube：8度科技） 2
-      - 🇺🇸 www.ncm68.com _🇺🇸US_172
-      - 🇬🇧 英国2（感谢关注youtube：8度科技）
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -248,47 +232,49 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新4.3M
       - 阿伟科技Yw05
       - Yw05
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a - 美国赛基诺州立大学 38
-      - 🇸🇬 sg-OVH Hosting-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - "@SSRSUB-V133-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 美国
-      - 🇸🇬 sg-OVH Hosting-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_203 | 0.18Mb
-      - f 45
-      - 🇩🇪 DE-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 DE-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - "@SSRSUB-V111-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V109-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V113-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 3.5M美国赛基诺州立大学
+      - sg-OVH Hosting-9@1Gbps3.4M
+      - sg-OVH Hosting-23@1Gbps3.4M
+      - "@SSRSUB-V133-付费推荐:3M"
+      - 🇺🇸 美国3M
+      - sg-OVH Hosting-29@1Gbps2.9M
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺2.6M
+      - f 45 2.6M
+      - 🇩🇪 DE-20@1Gbps节点更新2,5M
+      - 🇩🇪 DE-21联通@1Gbps 节点更新2.4M
+      - "@SSRSUB-V111-付费推荐:2.4M"
+      - "@SSRSUB-V109-付费2.3M"
+      - "@SSRSUB-V103-付费2.3M"
+      - "@SSRSUB-V113-付费推荐:2.3M"
       - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
       - 🇸🇬 sg-OVH Hosting-3@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国 2
+      - 🇺🇸 美国
       - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 美国 3
+      - 🇺🇸 美国 2
+      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
       - "@SSRSUB-V112-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V45-付费推荐:suo.yt/ssrsub"
-      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇯🇵 日本共享免费试用节点  独享节点购买:http://vmess.vip/
       - 🇰🇷 KR_73
+      - 🇯🇵 日本共享免费试用节点  独享节点购买:http://vmess.vip/ 2
       - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君)
       - 捷克 布拉格2（感谢关注youtube：8度科技）
       - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 2
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇺🇸 美国 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 3
       - 比利时
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - 🇺🇸 美国 5
+      - 🇺🇸 美国 4
       - www.ncm68.com _🇨🇿CZ_78
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
       - 🇺🇸 www.ncm68.com _🇺🇸US_142
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
       - 罗马 顺丰资源YouTube
       - 欧洲04（感谢关注youtube：8度科技）
       - Pool__1062
@@ -296,58 +282,54 @@ proxy-groups:
       - 🇨🇳 www.ncm68.com _🇹🇼TW_126
       - ‪捷克
       - 🇺🇸 www.ncm68.com _🇺🇸US_133
-      - 罗马 顺丰资源YouTube 2
-      - 罗马 顺丰资源YouTube 3
-      - 🇫🇷 法国（感谢关注youtube：8度科技） 2
-      - 🇺🇸 www.ncm68.com _🇺🇸US_172
-      - 🇬🇧 英国2（感谢关注youtube：8度科技）
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新4.3M
       - 阿伟科技Yw05
       - Yw05
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a - 美国赛基诺州立大学 38
-      - 🇸🇬 sg-OVH Hosting-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - "@SSRSUB-V133-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 美国
-      - 🇸🇬 sg-OVH Hosting-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_203 | 0.18Mb
-      - f 45
-      - 🇩🇪 DE-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 DE-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - "@SSRSUB-V111-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V109-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V113-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 3.5M美国赛基诺州立大学
+      - sg-OVH Hosting-9@1Gbps3.4M
+      - sg-OVH Hosting-23@1Gbps3.4M
+      - "@SSRSUB-V133-付费推荐:3M"
+      - 🇺🇸 美国3M
+      - sg-OVH Hosting-29@1Gbps2.9M
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺2.6M
+      - f 45 2.6M
+      - 🇩🇪 DE-20@1Gbps节点更新2,5M
+      - 🇩🇪 DE-21联通@1Gbps 节点更新2.4M
+      - "@SSRSUB-V111-付费推荐:2.4M"
+      - "@SSRSUB-V109-付费2.3M"
+      - "@SSRSUB-V103-付费2.3M"
+      - "@SSRSUB-V113-付费推荐:2.3M"
       - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
       - 🇸🇬 sg-OVH Hosting-3@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国 2
+      - 🇺🇸 美国
       - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 美国 3
+      - 🇺🇸 美国 2
+      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
       - "@SSRSUB-V112-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V45-付费推荐:suo.yt/ssrsub"
-      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇯🇵 日本共享免费试用节点  独享节点购买:http://vmess.vip/
       - 🇰🇷 KR_73
+      - 🇯🇵 日本共享免费试用节点  独享节点购买:http://vmess.vip/ 2
       - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君)
       - 捷克 布拉格2（感谢关注youtube：8度科技）
       - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 2
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇺🇸 美国 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 3
       - 比利时
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - 🇺🇸 美国 5
+      - 🇺🇸 美国 4
       - www.ncm68.com _🇨🇿CZ_78
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
       - 🇺🇸 www.ncm68.com _🇺🇸US_142
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
       - 罗马 顺丰资源YouTube
       - 欧洲04（感谢关注youtube：8度科技）
       - Pool__1062
@@ -355,59 +337,55 @@ proxy-groups:
       - 🇨🇳 www.ncm68.com _🇹🇼TW_126
       - ‪捷克
       - 🇺🇸 www.ncm68.com _🇺🇸US_133
-      - 罗马 顺丰资源YouTube 2
-      - 罗马 顺丰资源YouTube 3
-      - 🇫🇷 法国（感谢关注youtube：8度科技） 2
-      - 🇺🇸 www.ncm68.com _🇺🇸US_172
-      - 🇬🇧 英国2（感谢关注youtube：8度科技）
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新4.3M
       - 阿伟科技Yw05
       - Yw05
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a - 美国赛基诺州立大学 38
-      - 🇸🇬 sg-OVH Hosting-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - "@SSRSUB-V133-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 美国
-      - 🇸🇬 sg-OVH Hosting-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_203 | 0.18Mb
-      - f 45
-      - 🇩🇪 DE-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 DE-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - "@SSRSUB-V111-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V109-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V113-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 3.5M美国赛基诺州立大学
+      - sg-OVH Hosting-9@1Gbps3.4M
+      - sg-OVH Hosting-23@1Gbps3.4M
+      - "@SSRSUB-V133-付费推荐:3M"
+      - 🇺🇸 美国3M
+      - sg-OVH Hosting-29@1Gbps2.9M
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺2.6M
+      - f 45 2.6M
+      - 🇩🇪 DE-20@1Gbps节点更新2,5M
+      - 🇩🇪 DE-21联通@1Gbps 节点更新2.4M
+      - "@SSRSUB-V111-付费推荐:2.4M"
+      - "@SSRSUB-V109-付费2.3M"
+      - "@SSRSUB-V103-付费2.3M"
+      - "@SSRSUB-V113-付费推荐:2.3M"
       - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
       - 🇸🇬 sg-OVH Hosting-3@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国 2
+      - 🇺🇸 美国
       - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 美国 3
+      - 🇺🇸 美国 2
+      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
       - "@SSRSUB-V112-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V45-付费推荐:suo.yt/ssrsub"
-      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇯🇵 日本共享免费试用节点  独享节点购买:http://vmess.vip/
       - 🇰🇷 KR_73
+      - 🇯🇵 日本共享免费试用节点  独享节点购买:http://vmess.vip/ 2
       - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君)
       - 捷克 布拉格2（感谢关注youtube：8度科技）
       - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 2
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇺🇸 美国 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 3
       - 比利时
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - 🇺🇸 美国 5
+      - 🇺🇸 美国 4
       - www.ncm68.com _🇨🇿CZ_78
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
       - 🇺🇸 www.ncm68.com _🇺🇸US_142
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
       - 罗马 顺丰资源YouTube
       - 欧洲04（感谢关注youtube：8度科技）
       - Pool__1062
@@ -415,12 +393,6 @@ proxy-groups:
       - 🇨🇳 www.ncm68.com _🇹🇼TW_126
       - ‪捷克
       - 🇺🇸 www.ncm68.com _🇺🇸US_133
-      - 罗马 顺丰资源YouTube 2
-      - 罗马 顺丰资源YouTube 3
-      - 🇫🇷 法国（感谢关注youtube：8度科技） 2
-      - 🇺🇸 www.ncm68.com _🇺🇸US_172
-      - 🇬🇧 英国2（感谢关注youtube：8度科技）
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -436,47 +408,49 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新4.3M
       - 阿伟科技Yw05
       - Yw05
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a - 美国赛基诺州立大学 38
-      - 🇸🇬 sg-OVH Hosting-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 sg-OVH Hosting-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - "@SSRSUB-V133-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 美国
-      - 🇸🇬 sg-OVH Hosting-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_203 | 0.18Mb
-      - f 45
-      - 🇩🇪 DE-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 DE-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - "@SSRSUB-V111-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V109-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V113-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 3.5M美国赛基诺州立大学
+      - sg-OVH Hosting-9@1Gbps3.4M
+      - sg-OVH Hosting-23@1Gbps3.4M
+      - "@SSRSUB-V133-付费推荐:3M"
+      - 🇺🇸 美国3M
+      - sg-OVH Hosting-29@1Gbps2.9M
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺2.6M
+      - f 45 2.6M
+      - 🇩🇪 DE-20@1Gbps节点更新2,5M
+      - 🇩🇪 DE-21联通@1Gbps 节点更新2.4M
+      - "@SSRSUB-V111-付费推荐:2.4M"
+      - "@SSRSUB-V109-付费2.3M"
+      - "@SSRSUB-V103-付费2.3M"
+      - "@SSRSUB-V113-付费推荐:2.3M"
       - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
       - 🇸🇬 sg-OVH Hosting-3@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - 🇺🇸 美国 2
+      - 🇺🇸 美国
       - "@SSRSUB-V5-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 美国 3
+      - 🇺🇸 美国 2
+      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
       - "@SSRSUB-V112-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V45-付费推荐:suo.yt/ssrsub"
-      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇯🇵 日本共享免费试用节点  独享节点购买:http://vmess.vip/
       - 🇰🇷 KR_73
+      - 🇯🇵 日本共享免费试用节点  独享节点购买:http://vmess.vip/ 2
       - 🇳🇱 荷兰(欢迎订阅Youtube破解资源君)
       - 捷克 布拉格2（感谢关注youtube：8度科技）
       - 🇮🇹 意大利 米兰（感谢关注youtube：8度科技） 2
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇺🇸 美国 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国 3
       - 比利时
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - 🇺🇸 美国 5
+      - 🇺🇸 美国 4
       - www.ncm68.com _🇨🇿CZ_78
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
       - 🇺🇸 www.ncm68.com _🇺🇸US_142
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
       - 罗马 顺丰资源YouTube
       - 欧洲04（感谢关注youtube：8度科技）
       - Pool__1062
@@ -484,12 +458,6 @@ proxy-groups:
       - 🇨🇳 www.ncm68.com _🇹🇼TW_126
       - ‪捷克
       - 🇺🇸 www.ncm68.com _🇺🇸US_133
-      - 罗马 顺丰资源YouTube 2
-      - 罗马 顺丰资源YouTube 3
-      - 🇫🇷 法国（感谢关注youtube：8度科技） 2
-      - 🇺🇸 www.ncm68.com _🇺🇸US_172
-      - 🇬🇧 英国2（感谢关注youtube：8度科技）
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
