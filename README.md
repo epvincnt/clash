@@ -5,431 +5,310 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 「Lv1」③ v2ray 北京BGP-中转-香港, server: v1hk003.recare.xyz, port: 18103, type: vmess, uuid: 6a1e1f30-bcd5-3d2f-a116-a57477d9036b, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 「Lv1」⑤ v2ray 北京BGP-中转-香港, server: v1hk005.recare.xyz, port: 18105, type: vmess, uuid: 6a1e1f30-bcd5-3d2f-a116-a57477d9036b, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 「Lv1」⑲ V2ray 香港, server: v1hk019.recare.xyz, port: 18119, type: vmess, uuid: 6a1e1f30-bcd5-3d2f-a116-a57477d9036b, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇨🇳 「Lv1」① v2ray 北京BGP-中转-台湾, server: v1hk001.recare.xyz, port: 18101, type: vmess, uuid: 6a1e1f30-bcd5-3d2f-a116-a57477d9036b, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 「Lv1」⑮ V2ray 香港, server: v1hk015.recare.xyz, port: 18115, type: vmess, uuid: 6a1e1f30-bcd5-3d2f-a116-a57477d9036b, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 YouTube-阿伟科技09-SG-23 3.8M, server: 104.19.19.105, port: 443, type: vmess, uuid: c7382902-c335-3255-ae15-e3678e5134e3, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hives7gdr, ws-headers: {Host: maxkvm-sg.nodenet.cloud}}
   - {name: Yw05, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a47638b5-60bf-3f8d-b551-85615b655084, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
-  - {name: 🇭🇰 「Lv1」⑨ V2ray 香港, server: v1hk009.recare.xyz, port: 18109, type: vmess, uuid: 6a1e1f30-bcd5-3d2f-a116-a57477d9036b, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 「Lv1」⑩ V2ray 香港, server: v1hk010.recare.xyz, port: 18110, type: vmess, uuid: 6a1e1f30-bcd5-3d2f-a116-a57477d9036b, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 A1-🇭🇰香港NTT-Netflix-推荐, server: jmyd.jumpwallsocks.online, port: 41868, type: trojan, password: 56680:7680409578, sni: jmyd.jumpwallsocks.online}
-  - {name: sg-OVH Hosting-29@1Gbps2.9M, server: 104.20.51.197, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: 🇭🇰 「Lv1」⑱ V2ray 香港, server: v1hk018.recare.xyz, port: 18118, type: vmess, uuid: 6a1e1f30-bcd5-3d2f-a116-a57477d9036b, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 A5-🇭🇰HK-香港HKT-Netflix, server: jmyd.jumpwallsocks.online, port: 42700, type: trojan, password: 56680:7680409578, sni: jmyd.jumpwallsocks.online}
-  - {name: 🇺🇸 www.ncm68.com _🇺🇸US-2.9M, server: 104.20.51.141, port: 80, type: vmess, uuid: 0b5aeb7c-e477-484f-8999-61772c43b43c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv7p.ezddns.tk}}
-  - {name: 🇨🇦 A8-🇨🇦CA-加拿大-Netflix, server: jmyd.jumpwallsocks.online, port: 45631, type: trojan, password: 56680:7680409578, sni: jmyd.jumpwallsocks.online}
   - {name: 阿伟科技Yw05, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a7436b35-0daf-3eac-9a0b-356b8a3cc63b, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
-  - {name: sg-OVH Hosting-31 满 足  2.7M, server: 104.20.51.120, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: 🇯🇵 「Lv1」⑥ v2ray 日本, server: v1hk006.recare.xyz, port: 18106, type: vmess, uuid: 6a1e1f30-bcd5-3d2f-a116-a57477d9036b, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 D2-🇭🇰HK-香港HGC02, server: cjyd.jumpwallsocks.online, port: 30206, type: trojan, password: 56680:7680409578, sni: cjyd.jumpwallsocks.online}
-  - {name: "@SSRSUB-V112-付费2.4M", server: 104.19.19.105, port: 80, type: vmess, uuid: ca870483-fa7d-4f64-983a-6ed455143aca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /live, ws-headers: {Host: euserv9p.ezddns.tk}}
-  - {name: 🇬🇧 英国2.4M, server: 104.19.19.105, port: 80, type: vmess, uuid: 60b738e2-3aa4-4cde-c270-20f8cc1ab16a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv5p.ezddns.tk}}
-  - {name: 🇰🇷 韩国  A2.4M, server: 3.36.55.165, port: 46869, type: vmess, uuid: 844ea544-e5ca-3200-91af-876c4da6dcb0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
-  - {name: 🇭🇰 「Lv1」⑦ v2ray 香港, server: v1hk007.recare.xyz, port: 18107, type: vmess, uuid: 6a1e1f30-bcd5-3d2f-a116-a57477d9036b, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 YouTube-阿伟科技23-US-2.3M, server: gonyi2.gpche-pravec.info, port: 837, type: vmess, uuid: 276fac28-fbcb-3014-99d8-c51ca0aa7e54, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1.ceshi.me}}
-  - {name: 🇭🇰 「Lv1」⑧ V2ray 香港, server: v1hk008.recare.xyz, port: 18108, type: vmess, uuid: 6a1e1f30-bcd5-3d2f-a116-a57477d9036b, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 「Lv1」⑭ V2ray 香港, server: v1hk014.recare.xyz, port: 18114, type: vmess, uuid: 6a1e1f30-bcd5-3d2f-a116-a57477d9036b, alterId: 2, cipher: auto, tls: false}
-  - {name: YouTube-阿伟科技23-RS-2.3M, server: gonyi2.gpche-pravec.info, port: 822, type: vmess, uuid: 276fac28-fbcb-3014-99d8-c51ca0aa7e54, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1.ceshi.me}}
-  - {name: 🇭🇰 「Lv1」⑫ V2ray 香港, server: v1hk012.recare.xyz, port: 18112, type: vmess, uuid: 6a1e1f30-bcd5-3d2f-a116-a57477d9036b, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 B2-🇺🇸LA-洛杉矶02, server: zjlt.jumpwallsocks.online, port: 51662, type: trojan, password: 56680:7680409578, sni: zjlt.jumpwallsocks.online}
-  - {name: 🇰🇷 韩国 2.7M A, server: 3.36.55.165, port: 46869, type: vmess, uuid: 844ea544-e5ca-3200-91af-876c4da6dcb0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
-  - {name: "@SSRSUB-V103-付费推荐:suo.yt/ssrsub", server: 104.19.19.105, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
+  - {name: sg-OVH Hosting-29@1Gbps2.9M, server: 104.20.51.197, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.120, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
   - {name: sg-OVH Hosting-3.6M, server: 104.20.55.22, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: 🇸🇬 A4-🇸🇬SG-新加坡-DigitalOcean, server: jmyd.jumpwallsocks.online, port: 58421, type: trojan, password: 56680:7680409578, sni: jmyd.jumpwallsocks.online}
-  - {name: 🇺🇸 B1-🇺🇸LV-拉斯维加斯, server: zjlt.jumpwallsocks.online, port: 51664, type: trojan, password: 56680:7680409578, sni: zjlt.jumpwallsocks.online}
-  - {name: 🇬🇧 B3-🇬🇧UK-英国伦敦, server: zjlt.jumpwallsocks.online, port: 51663, type: trojan, password: 56680:7680409578, sni: zjlt.jumpwallsocks.online}
-  - {name: 🇷🇴 B7-🇷🇴RO-罗马尼亚, server: zjlt.jumpwallsocks.online, port: 51667, type: trojan, password: 56680:7680409578, sni: zjlt.jumpwallsocks.online}
-  - {name: 🇺🇸 YouTube-阿伟科技23-US-23, server: gonyi2.gpche-pravec.info, port: 889, type: vmess, uuid: 276fac28-fbcb-3014-99d8-c51ca0aa7e54, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1.ceshi.me}}
-  - {name: 🇮🇳 印度 B1.8M, server: 13.233.57.26, port: 46869, type: vmess, uuid: 844ea544-e5ca-3200-91af-876c4da6dcb0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
-  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 104.20.50.82, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: f 45 2.6M, server: 104.16.235.162, port: 80, type: vmess, uuid: c0304bc1-f8ff-4108-9bc6-3415d16ae5e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv12p.ezddns.tk}}
-  - {name: 🇭🇰 「Lv1」② v2ray 香港 Netflix, server: v1hk002.recare.xyz, port: 18102, type: vmess, uuid: 6a1e1f30-bcd5-3d2f-a116-a57477d9036b, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇯🇵 YouTube-阿伟科技09-JP-23, server: bbtec-osaka-ipv6.nodenet.cloud, port: 80, type: vmess, uuid: c7382902-c335-3255-ae15-e3678e5134e3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /bbtectlsv27, ws-headers: {Host: dm.toutiao.com}}
-  - {name: 🇯🇵 日本 B1.6M, server: 13.112.219.146, port: 46867, type: vmess, uuid: 844ea544-e5ca-3200-91af-876c4da6dcb0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
-  - {name: "@SSRSUB-V108-付费推荐:suo.yt/ssrsub", server: 104.20.51.197, port: 80, type: vmess, uuid: 60b738e2-3aa4-4cde-c270-20f8cc1ab16a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv5p.ezddns.tk}}
-  - {name: 🇺🇸 US_560, server: 154.17.2.135, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180, server: 104.20.51.141, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
-  - {name: 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_597, server: 104.20.50.82, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
+  - {name: sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s, server: 104.20.51.120, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: sg-OVH Hosting-29@1Gbps2.9M 2, server: 104.20.51.197, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: 🇰🇷 韩国 2.7M A, server: 3.36.55.165, port: 46869, type: vmess, uuid: 844ea544-e5ca-3200-91af-876c4da6dcb0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
+  - {name: sg-OVH Hosting-31 满 足  2.7M, server: 104.20.51.120, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: 🇯🇵 日本 B, server: 13.112.219.146, port: 46867, type: vmess, uuid: 844ea544-e5ca-3200-91af-876c4da6dcb0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
+  - {name: 🇰🇷 韩国  A, server: 3.36.55.165, port: 46869, type: vmess, uuid: 844ea544-e5ca-3200-91af-876c4da6dcb0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
+  - {name: "@SSRSUB-V108-付费推荐:suo.yt/ssrsub", server: 104.19.19.105, port: 80, type: vmess, uuid: 60b738e2-3aa4-4cde-c270-20f8cc1ab16a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv5p.ezddns.tk}}
+  - {name: 🇬🇧 英国, server: 104.19.19.105, port: 80, type: vmess, uuid: 60b738e2-3aa4-4cde-c270-20f8cc1ab16a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv5p.ezddns.tk}}
+  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 104.19.19.105, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: "@SSRSUB-V103-付费推荐:suo.yt/ssrsub", server: 104.19.19.105, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
+  - {name: 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180, server: 104.19.19.105, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
+  - {name: 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_597, server: 104.19.19.105, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
   - {name: bulink 网友分享线路 7 三网, server: la10.bulink.xyz.fobzs.com, port: 443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
-  - {name: bulink 网友分享线路 1 三网, server: 198.211.31.179, port: 443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 US_563, server: 154.17.2.121, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: 🇺🇸 US_551, server: 154.17.2.160, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 US_553, server: 154.17.5.133, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: bulink 网友分享线路 1 三网, server: 198.211.31.179, port: 443, type: vmess, uuid: d91bc7e8-2c24-4eb4-84c2-1d057b12cef6, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 US_549, server: 154.17.2.95, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_564, server: 154.17.1.251, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_560, server: 154.17.2.135, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2, server: 104.20.50.82, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: 🇺🇸 US_554, server: 154.17.2.112, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: N0KSFR6alSxjgp7T8Aa9Ce8DnCaAOYqz5lFZxe3O2I3uycYZXEDp3S34RyCDwB}
+  - {name: Pool__1062, server: 185.44.76.188, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 US_563, server: 154.17.2.121, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇬🇧 英国 顺丰资源YouTube, server: 185.44.76.188, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 US_557, server: 154.17.5.184, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_550, server: 154.17.2.149, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: www.ncm68.com _🇨🇿CZ_67, server: 89.187.168.39, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 www.ncm68.com _🇺🇸US_154, server: 143.244.56.230, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 美国 5, server: 143.244.56.230, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇪 德国 A, server: 18.156.134.166, port: 46869, type: vmess, uuid: 844ea544-e5ca-3200-91af-876c4da6dcb0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
+  - {name: 🇫🇷 FR_139, server: 51.195.62.220, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 克罗地亚, server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 欧洲02（感谢关注youtube：8度科技）, server: 138.199.16.137, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 🇩🇪 德国 A 2, server: 18.156.134.166, port: 46869, type: vmess, uuid: 844ea544-e5ca-3200-91af-876c4da6dcb0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 「Lv1」③ v2ray 北京BGP-中转-香港
-      - 🇭🇰 「Lv1」⑤ v2ray 北京BGP-中转-香港
-      - 🇭🇰 「Lv1」⑲ V2ray 香港
-      - 🇨🇳 「Lv1」① v2ray 北京BGP-中转-台湾
-      - 🇭🇰 「Lv1」⑮ V2ray 香港
-      - 🇸🇬 YouTube-阿伟科技09-SG-23 3.8M
       - Yw05
-      - 🇭🇰 「Lv1」⑨ V2ray 香港
-      - 🇭🇰 「Lv1」⑩ V2ray 香港
-      - 🇭🇰 A1-🇭🇰香港NTT-Netflix-推荐
-      - sg-OVH Hosting-29@1Gbps2.9M
-      - 🇭🇰 「Lv1」⑱ V2ray 香港
-      - 🇭🇰 A5-🇭🇰HK-香港HKT-Netflix
-      - 🇺🇸 www.ncm68.com _🇺🇸US-2.9M
-      - 🇨🇦 A8-🇨🇦CA-加拿大-Netflix
       - 阿伟科技Yw05
-      - sg-OVH Hosting-31 满 足  2.7M
-      - 🇯🇵 「Lv1」⑥ v2ray 日本
-      - 🇭🇰 D2-🇭🇰HK-香港HGC02
-      - "@SSRSUB-V112-付费2.4M"
-      - 🇬🇧 英国2.4M
-      - 🇰🇷 韩国  A2.4M
-      - 🇭🇰 「Lv1」⑦ v2ray 香港
-      - 🇺🇸 YouTube-阿伟科技23-US-2.3M
-      - 🇭🇰 「Lv1」⑧ V2ray 香港
-      - 🇭🇰 「Lv1」⑭ V2ray 香港
-      - YouTube-阿伟科技23-RS-2.3M
-      - 🇭🇰 「Lv1」⑫ V2ray 香港
-      - 🇺🇸 B2-🇺🇸LA-洛杉矶02
-      - 🇰🇷 韩国 2.7M A
-      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
+      - sg-OVH Hosting-29@1Gbps2.9M
+      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - sg-OVH Hosting-3.6M
-      - 🇸🇬 A4-🇸🇬SG-新加坡-DigitalOcean
-      - 🇺🇸 B1-🇺🇸LV-拉斯维加斯
-      - 🇬🇧 B3-🇬🇧UK-英国伦敦
-      - 🇷🇴 B7-🇷🇴RO-罗马尼亚
-      - 🇺🇸 YouTube-阿伟科技23-US-23
-      - 🇮🇳 印度 B1.8M
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - f 45 2.6M
-      - 🇭🇰 「Lv1」② v2ray 香港 Netflix
-      - 🇯🇵 YouTube-阿伟科技09-JP-23
-      - 🇯🇵 日本 B1.6M
+      - sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - sg-OVH Hosting-29@1Gbps2.9M 2
+      - 🇰🇷 韩国 2.7M A
+      - sg-OVH Hosting-31 满 足  2.7M
+      - 🇯🇵 日本 B
+      - 🇰🇷 韩国  A
       - "@SSRSUB-V108-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 US_560
+      - 🇬🇧 英国
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
       - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_597
       - bulink 网友分享线路 7 三网
-      - bulink 网友分享线路 1 三网
-      - 🇺🇸 US_563
       - 🇺🇸 US_551
-      - 🇺🇸 US_553
+      - bulink 网友分享线路 1 三网
       - 🇺🇸 US_549
+      - 🇺🇸 US_564
+      - 🇺🇸 US_560
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇺🇸 US_554
+      - Pool__1062
+      - 🇺🇸 US_563
+      - 🇬🇧 英国 顺丰资源YouTube
+      - 🇺🇸 US_557
+      - 🇺🇸 US_550
+      - www.ncm68.com _🇨🇿CZ_67
+      - 🇺🇸 www.ncm68.com _🇺🇸US_154
+      - 🇺🇸 美国 5
+      - 🇩🇪 德国 A
+      - 🇫🇷 FR_139
+      - 克罗地亚
+      - 欧洲02（感谢关注youtube：8度科技）
+      - 🇩🇪 德国 A 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 「Lv1」③ v2ray 北京BGP-中转-香港
-      - 🇭🇰 「Lv1」⑤ v2ray 北京BGP-中转-香港
-      - 🇭🇰 「Lv1」⑲ V2ray 香港
-      - 🇨🇳 「Lv1」① v2ray 北京BGP-中转-台湾
-      - 🇭🇰 「Lv1」⑮ V2ray 香港
-      - 🇸🇬 YouTube-阿伟科技09-SG-23 3.8M
       - Yw05
-      - 🇭🇰 「Lv1」⑨ V2ray 香港
-      - 🇭🇰 「Lv1」⑩ V2ray 香港
-      - 🇭🇰 A1-🇭🇰香港NTT-Netflix-推荐
-      - sg-OVH Hosting-29@1Gbps2.9M
-      - 🇭🇰 「Lv1」⑱ V2ray 香港
-      - 🇭🇰 A5-🇭🇰HK-香港HKT-Netflix
-      - 🇺🇸 www.ncm68.com _🇺🇸US-2.9M
-      - 🇨🇦 A8-🇨🇦CA-加拿大-Netflix
       - 阿伟科技Yw05
-      - sg-OVH Hosting-31 满 足  2.7M
-      - 🇯🇵 「Lv1」⑥ v2ray 日本
-      - 🇭🇰 D2-🇭🇰HK-香港HGC02
-      - "@SSRSUB-V112-付费2.4M"
-      - 🇬🇧 英国2.4M
-      - 🇰🇷 韩国  A2.4M
-      - 🇭🇰 「Lv1」⑦ v2ray 香港
-      - 🇺🇸 YouTube-阿伟科技23-US-2.3M
-      - 🇭🇰 「Lv1」⑧ V2ray 香港
-      - 🇭🇰 「Lv1」⑭ V2ray 香港
-      - YouTube-阿伟科技23-RS-2.3M
-      - 🇭🇰 「Lv1」⑫ V2ray 香港
-      - 🇺🇸 B2-🇺🇸LA-洛杉矶02
-      - 🇰🇷 韩国 2.7M A
-      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
+      - sg-OVH Hosting-29@1Gbps2.9M
+      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - sg-OVH Hosting-3.6M
-      - 🇸🇬 A4-🇸🇬SG-新加坡-DigitalOcean
-      - 🇺🇸 B1-🇺🇸LV-拉斯维加斯
-      - 🇬🇧 B3-🇬🇧UK-英国伦敦
-      - 🇷🇴 B7-🇷🇴RO-罗马尼亚
-      - 🇺🇸 YouTube-阿伟科技23-US-23
-      - 🇮🇳 印度 B1.8M
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - f 45 2.6M
-      - 🇭🇰 「Lv1」② v2ray 香港 Netflix
-      - 🇯🇵 YouTube-阿伟科技09-JP-23
-      - 🇯🇵 日本 B1.6M
+      - sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - sg-OVH Hosting-29@1Gbps2.9M 2
+      - 🇰🇷 韩国 2.7M A
+      - sg-OVH Hosting-31 满 足  2.7M
+      - 🇯🇵 日本 B
+      - 🇰🇷 韩国  A
       - "@SSRSUB-V108-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 US_560
+      - 🇬🇧 英国
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
       - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_597
       - bulink 网友分享线路 7 三网
-      - bulink 网友分享线路 1 三网
-      - 🇺🇸 US_563
       - 🇺🇸 US_551
-      - 🇺🇸 US_553
+      - bulink 网友分享线路 1 三网
       - 🇺🇸 US_549
+      - 🇺🇸 US_564
+      - 🇺🇸 US_560
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇺🇸 US_554
+      - Pool__1062
+      - 🇺🇸 US_563
+      - 🇬🇧 英国 顺丰资源YouTube
+      - 🇺🇸 US_557
+      - 🇺🇸 US_550
+      - www.ncm68.com _🇨🇿CZ_67
+      - 🇺🇸 www.ncm68.com _🇺🇸US_154
+      - 🇺🇸 美国 5
+      - 🇩🇪 德国 A
+      - 🇫🇷 FR_139
+      - 克罗地亚
+      - 欧洲02（感谢关注youtube：8度科技）
+      - 🇩🇪 德国 A 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 「Lv1」③ v2ray 北京BGP-中转-香港
-      - 🇭🇰 「Lv1」⑤ v2ray 北京BGP-中转-香港
-      - 🇭🇰 「Lv1」⑲ V2ray 香港
-      - 🇨🇳 「Lv1」① v2ray 北京BGP-中转-台湾
-      - 🇭🇰 「Lv1」⑮ V2ray 香港
-      - 🇸🇬 YouTube-阿伟科技09-SG-23 3.8M
       - Yw05
-      - 🇭🇰 「Lv1」⑨ V2ray 香港
-      - 🇭🇰 「Lv1」⑩ V2ray 香港
-      - 🇭🇰 A1-🇭🇰香港NTT-Netflix-推荐
-      - sg-OVH Hosting-29@1Gbps2.9M
-      - 🇭🇰 「Lv1」⑱ V2ray 香港
-      - 🇭🇰 A5-🇭🇰HK-香港HKT-Netflix
-      - 🇺🇸 www.ncm68.com _🇺🇸US-2.9M
-      - 🇨🇦 A8-🇨🇦CA-加拿大-Netflix
       - 阿伟科技Yw05
-      - sg-OVH Hosting-31 满 足  2.7M
-      - 🇯🇵 「Lv1」⑥ v2ray 日本
-      - 🇭🇰 D2-🇭🇰HK-香港HGC02
-      - "@SSRSUB-V112-付费2.4M"
-      - 🇬🇧 英国2.4M
-      - 🇰🇷 韩国  A2.4M
-      - 🇭🇰 「Lv1」⑦ v2ray 香港
-      - 🇺🇸 YouTube-阿伟科技23-US-2.3M
-      - 🇭🇰 「Lv1」⑧ V2ray 香港
-      - 🇭🇰 「Lv1」⑭ V2ray 香港
-      - YouTube-阿伟科技23-RS-2.3M
-      - 🇭🇰 「Lv1」⑫ V2ray 香港
-      - 🇺🇸 B2-🇺🇸LA-洛杉矶02
-      - 🇰🇷 韩国 2.7M A
-      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
+      - sg-OVH Hosting-29@1Gbps2.9M
+      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - sg-OVH Hosting-3.6M
-      - 🇸🇬 A4-🇸🇬SG-新加坡-DigitalOcean
-      - 🇺🇸 B1-🇺🇸LV-拉斯维加斯
-      - 🇬🇧 B3-🇬🇧UK-英国伦敦
-      - 🇷🇴 B7-🇷🇴RO-罗马尼亚
-      - 🇺🇸 YouTube-阿伟科技23-US-23
-      - 🇮🇳 印度 B1.8M
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - f 45 2.6M
-      - 🇭🇰 「Lv1」② v2ray 香港 Netflix
-      - 🇯🇵 YouTube-阿伟科技09-JP-23
-      - 🇯🇵 日本 B1.6M
+      - sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - sg-OVH Hosting-29@1Gbps2.9M 2
+      - 🇰🇷 韩国 2.7M A
+      - sg-OVH Hosting-31 满 足  2.7M
+      - 🇯🇵 日本 B
+      - 🇰🇷 韩国  A
       - "@SSRSUB-V108-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 US_560
+      - 🇬🇧 英国
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
       - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_597
       - bulink 网友分享线路 7 三网
-      - bulink 网友分享线路 1 三网
-      - 🇺🇸 US_563
       - 🇺🇸 US_551
-      - 🇺🇸 US_553
+      - bulink 网友分享线路 1 三网
       - 🇺🇸 US_549
+      - 🇺🇸 US_564
+      - 🇺🇸 US_560
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇺🇸 US_554
+      - Pool__1062
+      - 🇺🇸 US_563
+      - 🇬🇧 英国 顺丰资源YouTube
+      - 🇺🇸 US_557
+      - 🇺🇸 US_550
+      - www.ncm68.com _🇨🇿CZ_67
+      - 🇺🇸 www.ncm68.com _🇺🇸US_154
+      - 🇺🇸 美国 5
+      - 🇩🇪 德国 A
+      - 🇫🇷 FR_139
+      - 克罗地亚
+      - 欧洲02（感谢关注youtube：8度科技）
+      - 🇩🇪 德国 A 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 「Lv1」③ v2ray 北京BGP-中转-香港
-      - 🇭🇰 「Lv1」⑤ v2ray 北京BGP-中转-香港
-      - 🇭🇰 「Lv1」⑲ V2ray 香港
-      - 🇨🇳 「Lv1」① v2ray 北京BGP-中转-台湾
-      - 🇭🇰 「Lv1」⑮ V2ray 香港
-      - 🇭🇰 「Lv1」⑨ V2ray 香港
-      - 🇭🇰 「Lv1」⑩ V2ray 香港
-      - 🇭🇰 A1-🇭🇰香港NTT-Netflix-推荐
-      - 🇭🇰 「Lv1」⑱ V2ray 香港
-      - 🇭🇰 A5-🇭🇰HK-香港HKT-Netflix
-      - 🇭🇰 D2-🇭🇰HK-香港HGC02
-      - 🇭🇰 「Lv1」⑦ v2ray 香港
-      - 🇭🇰 「Lv1」⑧ V2ray 香港
-      - 🇭🇰 「Lv1」⑭ V2ray 香港
-      - 🇭🇰 「Lv1」⑫ V2ray 香港
-      - 🇭🇰 「Lv1」② v2ray 香港 Netflix
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 「Lv1」③ v2ray 北京BGP-中转-香港
-      - 🇭🇰 「Lv1」⑤ v2ray 北京BGP-中转-香港
-      - 🇭🇰 「Lv1」⑲ V2ray 香港
-      - 🇨🇳 「Lv1」① v2ray 北京BGP-中转-台湾
-      - 🇭🇰 「Lv1」⑮ V2ray 香港
-      - 🇸🇬 YouTube-阿伟科技09-SG-23 3.8M
       - Yw05
-      - 🇭🇰 「Lv1」⑨ V2ray 香港
-      - 🇭🇰 「Lv1」⑩ V2ray 香港
-      - 🇭🇰 A1-🇭🇰香港NTT-Netflix-推荐
-      - sg-OVH Hosting-29@1Gbps2.9M
-      - 🇭🇰 「Lv1」⑱ V2ray 香港
-      - 🇭🇰 A5-🇭🇰HK-香港HKT-Netflix
-      - 🇺🇸 www.ncm68.com _🇺🇸US-2.9M
-      - 🇨🇦 A8-🇨🇦CA-加拿大-Netflix
       - 阿伟科技Yw05
-      - sg-OVH Hosting-31 满 足  2.7M
-      - 🇯🇵 「Lv1」⑥ v2ray 日本
-      - 🇭🇰 D2-🇭🇰HK-香港HGC02
-      - "@SSRSUB-V112-付费2.4M"
-      - 🇬🇧 英国2.4M
-      - 🇰🇷 韩国  A2.4M
-      - 🇭🇰 「Lv1」⑦ v2ray 香港
-      - 🇺🇸 YouTube-阿伟科技23-US-2.3M
-      - 🇭🇰 「Lv1」⑧ V2ray 香港
-      - 🇭🇰 「Lv1」⑭ V2ray 香港
-      - YouTube-阿伟科技23-RS-2.3M
-      - 🇭🇰 「Lv1」⑫ V2ray 香港
-      - 🇺🇸 B2-🇺🇸LA-洛杉矶02
-      - 🇰🇷 韩国 2.7M A
-      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
+      - sg-OVH Hosting-29@1Gbps2.9M
+      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - sg-OVH Hosting-3.6M
-      - 🇸🇬 A4-🇸🇬SG-新加坡-DigitalOcean
-      - 🇺🇸 B1-🇺🇸LV-拉斯维加斯
-      - 🇬🇧 B3-🇬🇧UK-英国伦敦
-      - 🇷🇴 B7-🇷🇴RO-罗马尼亚
-      - 🇺🇸 YouTube-阿伟科技23-US-23
-      - 🇮🇳 印度 B1.8M
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - f 45 2.6M
-      - 🇭🇰 「Lv1」② v2ray 香港 Netflix
-      - 🇯🇵 YouTube-阿伟科技09-JP-23
-      - 🇯🇵 日本 B1.6M
+      - sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - sg-OVH Hosting-29@1Gbps2.9M 2
+      - 🇰🇷 韩国 2.7M A
+      - sg-OVH Hosting-31 满 足  2.7M
+      - 🇯🇵 日本 B
+      - 🇰🇷 韩国  A
       - "@SSRSUB-V108-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 US_560
+      - 🇬🇧 英国
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
       - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_597
       - bulink 网友分享线路 7 三网
-      - bulink 网友分享线路 1 三网
-      - 🇺🇸 US_563
       - 🇺🇸 US_551
-      - 🇺🇸 US_553
+      - bulink 网友分享线路 1 三网
       - 🇺🇸 US_549
+      - 🇺🇸 US_564
+      - 🇺🇸 US_560
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇺🇸 US_554
+      - Pool__1062
+      - 🇺🇸 US_563
+      - 🇬🇧 英国 顺丰资源YouTube
+      - 🇺🇸 US_557
+      - 🇺🇸 US_550
+      - www.ncm68.com _🇨🇿CZ_67
+      - 🇺🇸 www.ncm68.com _🇺🇸US_154
+      - 🇺🇸 美国 5
+      - 🇩🇪 德国 A
+      - 🇫🇷 FR_139
+      - 克罗地亚
+      - 欧洲02（感谢关注youtube：8度科技）
+      - 🇩🇪 德国 A 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 「Lv1」③ v2ray 北京BGP-中转-香港
-      - 🇭🇰 「Lv1」⑤ v2ray 北京BGP-中转-香港
-      - 🇭🇰 「Lv1」⑲ V2ray 香港
-      - 🇨🇳 「Lv1」① v2ray 北京BGP-中转-台湾
-      - 🇭🇰 「Lv1」⑮ V2ray 香港
-      - 🇸🇬 YouTube-阿伟科技09-SG-23 3.8M
       - Yw05
-      - 🇭🇰 「Lv1」⑨ V2ray 香港
-      - 🇭🇰 「Lv1」⑩ V2ray 香港
-      - 🇭🇰 A1-🇭🇰香港NTT-Netflix-推荐
-      - sg-OVH Hosting-29@1Gbps2.9M
-      - 🇭🇰 「Lv1」⑱ V2ray 香港
-      - 🇭🇰 A5-🇭🇰HK-香港HKT-Netflix
-      - 🇺🇸 www.ncm68.com _🇺🇸US-2.9M
-      - 🇨🇦 A8-🇨🇦CA-加拿大-Netflix
       - 阿伟科技Yw05
-      - sg-OVH Hosting-31 满 足  2.7M
-      - 🇯🇵 「Lv1」⑥ v2ray 日本
-      - 🇭🇰 D2-🇭🇰HK-香港HGC02
-      - "@SSRSUB-V112-付费2.4M"
-      - 🇬🇧 英国2.4M
-      - 🇰🇷 韩国  A2.4M
-      - 🇭🇰 「Lv1」⑦ v2ray 香港
-      - 🇺🇸 YouTube-阿伟科技23-US-2.3M
-      - 🇭🇰 「Lv1」⑧ V2ray 香港
-      - 🇭🇰 「Lv1」⑭ V2ray 香港
-      - YouTube-阿伟科技23-RS-2.3M
-      - 🇭🇰 「Lv1」⑫ V2ray 香港
-      - 🇺🇸 B2-🇺🇸LA-洛杉矶02
-      - 🇰🇷 韩国 2.7M A
-      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
+      - sg-OVH Hosting-29@1Gbps2.9M
+      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - sg-OVH Hosting-3.6M
-      - 🇸🇬 A4-🇸🇬SG-新加坡-DigitalOcean
-      - 🇺🇸 B1-🇺🇸LV-拉斯维加斯
-      - 🇬🇧 B3-🇬🇧UK-英国伦敦
-      - 🇷🇴 B7-🇷🇴RO-罗马尼亚
-      - 🇺🇸 YouTube-阿伟科技23-US-23
-      - 🇮🇳 印度 B1.8M
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - f 45 2.6M
-      - 🇭🇰 「Lv1」② v2ray 香港 Netflix
-      - 🇯🇵 YouTube-阿伟科技09-JP-23
-      - 🇯🇵 日本 B1.6M
+      - sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - sg-OVH Hosting-29@1Gbps2.9M 2
+      - 🇰🇷 韩国 2.7M A
+      - sg-OVH Hosting-31 满 足  2.7M
+      - 🇯🇵 日本 B
+      - 🇰🇷 韩国  A
       - "@SSRSUB-V108-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 US_560
+      - 🇬🇧 英国
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
       - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_597
       - bulink 网友分享线路 7 三网
-      - bulink 网友分享线路 1 三网
-      - 🇺🇸 US_563
       - 🇺🇸 US_551
-      - 🇺🇸 US_553
+      - bulink 网友分享线路 1 三网
       - 🇺🇸 US_549
+      - 🇺🇸 US_564
+      - 🇺🇸 US_560
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇺🇸 US_554
+      - Pool__1062
+      - 🇺🇸 US_563
+      - 🇬🇧 英国 顺丰资源YouTube
+      - 🇺🇸 US_557
+      - 🇺🇸 US_550
+      - www.ncm68.com _🇨🇿CZ_67
+      - 🇺🇸 www.ncm68.com _🇺🇸US_154
+      - 🇺🇸 美国 5
+      - 🇩🇪 德国 A
+      - 🇫🇷 FR_139
+      - 克罗地亚
+      - 欧洲02（感谢关注youtube：8度科技）
+      - 🇩🇪 德国 A 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 「Lv1」③ v2ray 北京BGP-中转-香港
-      - 🇭🇰 「Lv1」⑤ v2ray 北京BGP-中转-香港
-      - 🇭🇰 「Lv1」⑲ V2ray 香港
-      - 🇨🇳 「Lv1」① v2ray 北京BGP-中转-台湾
-      - 🇭🇰 「Lv1」⑮ V2ray 香港
-      - 🇸🇬 YouTube-阿伟科技09-SG-23 3.8M
       - Yw05
-      - 🇭🇰 「Lv1」⑨ V2ray 香港
-      - 🇭🇰 「Lv1」⑩ V2ray 香港
-      - 🇭🇰 A1-🇭🇰香港NTT-Netflix-推荐
-      - sg-OVH Hosting-29@1Gbps2.9M
-      - 🇭🇰 「Lv1」⑱ V2ray 香港
-      - 🇭🇰 A5-🇭🇰HK-香港HKT-Netflix
-      - 🇺🇸 www.ncm68.com _🇺🇸US-2.9M
-      - 🇨🇦 A8-🇨🇦CA-加拿大-Netflix
       - 阿伟科技Yw05
-      - sg-OVH Hosting-31 满 足  2.7M
-      - 🇯🇵 「Lv1」⑥ v2ray 日本
-      - 🇭🇰 D2-🇭🇰HK-香港HGC02
-      - "@SSRSUB-V112-付费2.4M"
-      - 🇬🇧 英国2.4M
-      - 🇰🇷 韩国  A2.4M
-      - 🇭🇰 「Lv1」⑦ v2ray 香港
-      - 🇺🇸 YouTube-阿伟科技23-US-2.3M
-      - 🇭🇰 「Lv1」⑧ V2ray 香港
-      - 🇭🇰 「Lv1」⑭ V2ray 香港
-      - YouTube-阿伟科技23-RS-2.3M
-      - 🇭🇰 「Lv1」⑫ V2ray 香港
-      - 🇺🇸 B2-🇺🇸LA-洛杉矶02
-      - 🇰🇷 韩国 2.7M A
-      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
+      - sg-OVH Hosting-29@1Gbps2.9M
+      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - sg-OVH Hosting-3.6M
-      - 🇸🇬 A4-🇸🇬SG-新加坡-DigitalOcean
-      - 🇺🇸 B1-🇺🇸LV-拉斯维加斯
-      - 🇬🇧 B3-🇬🇧UK-英国伦敦
-      - 🇷🇴 B7-🇷🇴RO-罗马尼亚
-      - 🇺🇸 YouTube-阿伟科技23-US-23
-      - 🇮🇳 印度 B1.8M
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - f 45 2.6M
-      - 🇭🇰 「Lv1」② v2ray 香港 Netflix
-      - 🇯🇵 YouTube-阿伟科技09-JP-23
-      - 🇯🇵 日本 B1.6M
+      - sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - sg-OVH Hosting-29@1Gbps2.9M 2
+      - 🇰🇷 韩国 2.7M A
+      - sg-OVH Hosting-31 满 足  2.7M
+      - 🇯🇵 日本 B
+      - 🇰🇷 韩国  A
       - "@SSRSUB-V108-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 US_560
+      - 🇬🇧 英国
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
       - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_597
       - bulink 网友分享线路 7 三网
-      - bulink 网友分享线路 1 三网
-      - 🇺🇸 US_563
       - 🇺🇸 US_551
-      - 🇺🇸 US_553
+      - bulink 网友分享线路 1 三网
       - 🇺🇸 US_549
+      - 🇺🇸 US_564
+      - 🇺🇸 US_560
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇺🇸 US_554
+      - Pool__1062
+      - 🇺🇸 US_563
+      - 🇬🇧 英国 顺丰资源YouTube
+      - 🇺🇸 US_557
+      - 🇺🇸 US_550
+      - www.ncm68.com _🇨🇿CZ_67
+      - 🇺🇸 www.ncm68.com _🇺🇸US_154
+      - 🇺🇸 美国 5
+      - 🇩🇪 德国 A
+      - 🇫🇷 FR_139
+      - 克罗地亚
+      - 欧洲02（感谢关注youtube：8度科技）
+      - 🇩🇪 德国 A 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -445,59 +324,44 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 「Lv1」③ v2ray 北京BGP-中转-香港
-      - 🇭🇰 「Lv1」⑤ v2ray 北京BGP-中转-香港
-      - 🇭🇰 「Lv1」⑲ V2ray 香港
-      - 🇨🇳 「Lv1」① v2ray 北京BGP-中转-台湾
-      - 🇭🇰 「Lv1」⑮ V2ray 香港
-      - 🇸🇬 YouTube-阿伟科技09-SG-23 3.8M
       - Yw05
-      - 🇭🇰 「Lv1」⑨ V2ray 香港
-      - 🇭🇰 「Lv1」⑩ V2ray 香港
-      - 🇭🇰 A1-🇭🇰香港NTT-Netflix-推荐
-      - sg-OVH Hosting-29@1Gbps2.9M
-      - 🇭🇰 「Lv1」⑱ V2ray 香港
-      - 🇭🇰 A5-🇭🇰HK-香港HKT-Netflix
-      - 🇺🇸 www.ncm68.com _🇺🇸US-2.9M
-      - 🇨🇦 A8-🇨🇦CA-加拿大-Netflix
       - 阿伟科技Yw05
-      - sg-OVH Hosting-31 满 足  2.7M
-      - 🇯🇵 「Lv1」⑥ v2ray 日本
-      - 🇭🇰 D2-🇭🇰HK-香港HGC02
-      - "@SSRSUB-V112-付费2.4M"
-      - 🇬🇧 英国2.4M
-      - 🇰🇷 韩国  A2.4M
-      - 🇭🇰 「Lv1」⑦ v2ray 香港
-      - 🇺🇸 YouTube-阿伟科技23-US-2.3M
-      - 🇭🇰 「Lv1」⑧ V2ray 香港
-      - 🇭🇰 「Lv1」⑭ V2ray 香港
-      - YouTube-阿伟科技23-RS-2.3M
-      - 🇭🇰 「Lv1」⑫ V2ray 香港
-      - 🇺🇸 B2-🇺🇸LA-洛杉矶02
-      - 🇰🇷 韩国 2.7M A
-      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
+      - sg-OVH Hosting-29@1Gbps2.9M
+      - 🇸🇬 sg-OVH Hosting-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - sg-OVH Hosting-3.6M
-      - 🇸🇬 A4-🇸🇬SG-新加坡-DigitalOcean
-      - 🇺🇸 B1-🇺🇸LV-拉斯维加斯
-      - 🇬🇧 B3-🇬🇧UK-英国伦敦
-      - 🇷🇴 B7-🇷🇴RO-罗马尼亚
-      - 🇺🇸 YouTube-阿伟科技23-US-23
-      - 🇮🇳 印度 B1.8M
-      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
-      - f 45 2.6M
-      - 🇭🇰 「Lv1」② v2ray 香港 Netflix
-      - 🇯🇵 YouTube-阿伟科技09-JP-23
-      - 🇯🇵 日本 B1.6M
+      - sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - sg-OVH Hosting-29@1Gbps2.9M 2
+      - 🇰🇷 韩国 2.7M A
+      - sg-OVH Hosting-31 满 足  2.7M
+      - 🇯🇵 日本 B
+      - 🇰🇷 韩国  A
       - "@SSRSUB-V108-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 US_560
+      - 🇬🇧 英国
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
+      - "@SSRSUB-V103-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
       - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_597
       - bulink 网友分享线路 7 三网
-      - bulink 网友分享线路 1 三网
-      - 🇺🇸 US_563
       - 🇺🇸 US_551
-      - 🇺🇸 US_553
+      - bulink 网友分享线路 1 三网
       - 🇺🇸 US_549
+      - 🇺🇸 US_564
+      - 🇺🇸 US_560
+      - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇺🇸 US_554
+      - Pool__1062
+      - 🇺🇸 US_563
+      - 🇬🇧 英国 顺丰资源YouTube
+      - 🇺🇸 US_557
+      - 🇺🇸 US_550
+      - www.ncm68.com _🇨🇿CZ_67
+      - 🇺🇸 www.ncm68.com _🇺🇸US_154
+      - 🇺🇸 美国 5
+      - 🇩🇪 德国 A
+      - 🇫🇷 FR_139
+      - 克罗地亚
+      - 欧洲02（感谢关注youtube：8度科技）
+      - 🇩🇪 德国 A 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
