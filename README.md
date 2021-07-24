@@ -29,7 +29,6 @@ proxies:
   - {name: 🇰🇷 韩国  A2.4M, server: 3.36.55.165, port: 46869, type: vmess, uuid: 844ea544-e5ca-3200-91af-876c4da6dcb0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
   - {name: 🇭🇰 「Lv1」⑦ v2ray 香港, server: v1hk007.recare.xyz, port: 18107, type: vmess, uuid: 6a1e1f30-bcd5-3d2f-a116-a57477d9036b, alterId: 2, cipher: auto, tls: false}
   - {name: 🇺🇸 YouTube-阿伟科技23-US-2.3M, server: gonyi2.gpche-pravec.info, port: 837, type: vmess, uuid: 276fac28-fbcb-3014-99d8-c51ca0aa7e54, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1.ceshi.me}}
-  - {name: 🇨🇳 heroepvcnt, server: 104.20.51.197, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: little-dawn-3747.epvincnt.workers.dev}}
   - {name: 🇭🇰 「Lv1」⑧ V2ray 香港, server: v1hk008.recare.xyz, port: 18108, type: vmess, uuid: 6a1e1f30-bcd5-3d2f-a116-a57477d9036b, alterId: 2, cipher: auto, tls: false}
   - {name: 🇭🇰 「Lv1」⑭ V2ray 香港, server: v1hk014.recare.xyz, port: 18114, type: vmess, uuid: 6a1e1f30-bcd5-3d2f-a116-a57477d9036b, alterId: 2, cipher: auto, tls: false}
   - {name: YouTube-阿伟科技23-RS-2.3M, server: gonyi2.gpche-pravec.info, port: 822, type: vmess, uuid: 276fac28-fbcb-3014-99d8-c51ca0aa7e54, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1.ceshi.me}}
@@ -48,7 +47,6 @@ proxies:
   - {name: f 45 2.6M, server: 104.16.235.162, port: 80, type: vmess, uuid: c0304bc1-f8ff-4108-9bc6-3415d16ae5e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv12p.ezddns.tk}}
   - {name: 🇭🇰 「Lv1」② v2ray 香港 Netflix, server: v1hk002.recare.xyz, port: 18102, type: vmess, uuid: 6a1e1f30-bcd5-3d2f-a116-a57477d9036b, alterId: 2, cipher: auto, tls: false}
   - {name: 🇯🇵 YouTube-阿伟科技09-JP-23, server: bbtec-osaka-ipv6.nodenet.cloud, port: 80, type: vmess, uuid: c7382902-c335-3255-ae15-e3678e5134e3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /bbtectlsv27, ws-headers: {Host: dm.toutiao.com}}
-  - {name: 🇨🇳 heroepvcntip, server: 104.20.51.197, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: old-resonance-cedc.epvincnt.workers.dev}}
   - {name: 🇯🇵 日本 B1.6M, server: 13.112.219.146, port: 46867, type: vmess, uuid: 844ea544-e5ca-3200-91af-876c4da6dcb0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
   - {name: "@SSRSUB-V108-付费推荐:suo.yt/ssrsub", server: 104.20.51.197, port: 80, type: vmess, uuid: 60b738e2-3aa4-4cde-c270-20f8cc1ab16a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv5p.ezddns.tk}}
   - {name: 🇺🇸 US_560, server: 154.17.2.135, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
@@ -90,7 +88,6 @@ proxy-groups:
       - 🇰🇷 韩国  A2.4M
       - 🇭🇰 「Lv1」⑦ v2ray 香港
       - 🇺🇸 YouTube-阿伟科技23-US-2.3M
-      - 🇨🇳 heroepvcnt
       - 🇭🇰 「Lv1」⑧ V2ray 香港
       - 🇭🇰 「Lv1」⑭ V2ray 香港
       - YouTube-阿伟科技23-RS-2.3M
@@ -109,7 +106,6 @@ proxy-groups:
       - f 45 2.6M
       - 🇭🇰 「Lv1」② v2ray 香港 Netflix
       - 🇯🇵 YouTube-阿伟科技09-JP-23
-      - 🇨🇳 heroepvcntip
       - 🇯🇵 日本 B1.6M
       - "@SSRSUB-V108-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 US_560
@@ -150,7 +146,6 @@ proxy-groups:
       - 🇰🇷 韩国  A2.4M
       - 🇭🇰 「Lv1」⑦ v2ray 香港
       - 🇺🇸 YouTube-阿伟科技23-US-2.3M
-      - 🇨🇳 heroepvcnt
       - 🇭🇰 「Lv1」⑧ V2ray 香港
       - 🇭🇰 「Lv1」⑭ V2ray 香港
       - YouTube-阿伟科技23-RS-2.3M
@@ -169,7 +164,6 @@ proxy-groups:
       - f 45 2.6M
       - 🇭🇰 「Lv1」② v2ray 香港 Netflix
       - 🇯🇵 YouTube-阿伟科技09-JP-23
-      - 🇨🇳 heroepvcntip
       - 🇯🇵 日本 B1.6M
       - "@SSRSUB-V108-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 US_560
@@ -211,7 +205,6 @@ proxy-groups:
       - 🇰🇷 韩国  A2.4M
       - 🇭🇰 「Lv1」⑦ v2ray 香港
       - 🇺🇸 YouTube-阿伟科技23-US-2.3M
-      - 🇨🇳 heroepvcnt
       - 🇭🇰 「Lv1」⑧ V2ray 香港
       - 🇭🇰 「Lv1」⑭ V2ray 香港
       - YouTube-阿伟科技23-RS-2.3M
@@ -230,7 +223,6 @@ proxy-groups:
       - f 45 2.6M
       - 🇭🇰 「Lv1」② v2ray 香港 Netflix
       - 🇯🇵 YouTube-阿伟科技09-JP-23
-      - 🇨🇳 heroepvcntip
       - 🇯🇵 日本 B1.6M
       - "@SSRSUB-V108-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 US_560
@@ -292,7 +284,6 @@ proxy-groups:
       - 🇰🇷 韩国  A2.4M
       - 🇭🇰 「Lv1」⑦ v2ray 香港
       - 🇺🇸 YouTube-阿伟科技23-US-2.3M
-      - 🇨🇳 heroepvcnt
       - 🇭🇰 「Lv1」⑧ V2ray 香港
       - 🇭🇰 「Lv1」⑭ V2ray 香港
       - YouTube-阿伟科技23-RS-2.3M
@@ -311,7 +302,6 @@ proxy-groups:
       - f 45 2.6M
       - 🇭🇰 「Lv1」② v2ray 香港 Netflix
       - 🇯🇵 YouTube-阿伟科技09-JP-23
-      - 🇨🇳 heroepvcntip
       - 🇯🇵 日本 B1.6M
       - "@SSRSUB-V108-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 US_560
@@ -352,7 +342,6 @@ proxy-groups:
       - 🇰🇷 韩国  A2.4M
       - 🇭🇰 「Lv1」⑦ v2ray 香港
       - 🇺🇸 YouTube-阿伟科技23-US-2.3M
-      - 🇨🇳 heroepvcnt
       - 🇭🇰 「Lv1」⑧ V2ray 香港
       - 🇭🇰 「Lv1」⑭ V2ray 香港
       - YouTube-阿伟科技23-RS-2.3M
@@ -371,7 +360,6 @@ proxy-groups:
       - f 45 2.6M
       - 🇭🇰 「Lv1」② v2ray 香港 Netflix
       - 🇯🇵 YouTube-阿伟科技09-JP-23
-      - 🇨🇳 heroepvcntip
       - 🇯🇵 日本 B1.6M
       - "@SSRSUB-V108-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 US_560
@@ -413,7 +401,6 @@ proxy-groups:
       - 🇰🇷 韩国  A2.4M
       - 🇭🇰 「Lv1」⑦ v2ray 香港
       - 🇺🇸 YouTube-阿伟科技23-US-2.3M
-      - 🇨🇳 heroepvcnt
       - 🇭🇰 「Lv1」⑧ V2ray 香港
       - 🇭🇰 「Lv1」⑭ V2ray 香港
       - YouTube-阿伟科技23-RS-2.3M
@@ -432,7 +419,6 @@ proxy-groups:
       - f 45 2.6M
       - 🇭🇰 「Lv1」② v2ray 香港 Netflix
       - 🇯🇵 YouTube-阿伟科技09-JP-23
-      - 🇨🇳 heroepvcntip
       - 🇯🇵 日本 B1.6M
       - "@SSRSUB-V108-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 US_560
@@ -483,7 +469,6 @@ proxy-groups:
       - 🇰🇷 韩国  A2.4M
       - 🇭🇰 「Lv1」⑦ v2ray 香港
       - 🇺🇸 YouTube-阿伟科技23-US-2.3M
-      - 🇨🇳 heroepvcnt
       - 🇭🇰 「Lv1」⑧ V2ray 香港
       - 🇭🇰 「Lv1」⑭ V2ray 香港
       - YouTube-阿伟科技23-RS-2.3M
@@ -502,7 +487,6 @@ proxy-groups:
       - f 45 2.6M
       - 🇭🇰 「Lv1」② v2ray 香港 Netflix
       - 🇯🇵 YouTube-阿伟科技09-JP-23
-      - 🇨🇳 heroepvcntip
       - 🇯🇵 日本 B1.6M
       - "@SSRSUB-V108-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 US_560
