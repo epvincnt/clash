@@ -5,31 +5,13 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 新加坡07（感谢关注youtube：8度科技）, server: sg-cn-relay-7-74812.dukou.info, port: 9307, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-relay-7-74812.dukou.info}
-  - {name: 🇸🇬 新加坡02（感谢关注youtube：8度科技）, server: sg-cn-hk-relay-2-54bc52.dukou.info, port: 9302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-2-54bc52.dukou.info}
-  - {name: 🇯🇵 JP 05（感谢关注youtube：8度科技）, server: shanghai-router1-892412-jp5.dukou.info, port: 6305, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router1-892412-jp5.dukou.info}
-  - {name: 🇸🇬 新加坡06（感谢关注youtube：8度科技）, server: sg-cn-relay-6-689145.dukou.info, port: 9306, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-relay-6-689145.dukou.info}
-  - {name: 🇸🇬 新加坡03（感谢关注youtube：8度科技）, server: sg-cn-hk-relay-3-dd4440.dukou.info, port: 9303, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-3-dd4440.dukou.info}
-  - {name: 🇰🇷 韩国03（感谢关注youtube：8度科技）, server: kr-cn-relay-4-45523.dukou.info, port: 3304, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: kr-cn-relay-4-45523.dukou.info}
-  - {name: 🇯🇵 JP 08（感谢关注youtube：8度科技）, server: jp-shanghai-ss-08.dukou.info, port: 6308, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: jp-shanghai-ss-08.dukou.info}
-  - {name: 🇰🇷 韩国02（感谢关注youtube：8度科技）, server: kr-cn-relay-3-9iuh56.dukou.info, port: 3303, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: kr-cn-relay-3-9iuh56.dukou.info}
-  - {name: 🇯🇵 JP 07（感谢关注youtube：8度科技）, server: shanghai-router1-892412-jp6.dukou.info, port: 6306, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router1-892412-jp6.dukou.info}
-  - {name: 🇯🇵 JP02（感谢关注youtube：8度科技）, server: shanghai-router1-892412-jp2.dukou.info, port: 6302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router1-892412-jp2.dukou.info}
-  - {name: 🇰🇷 韩国（感谢关注youtube：8度科技）, server: kr-cn-relay-2-32v22.dukou.info, port: 3302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: kr-cn-relay-2-32v22.dukou.info}
-  - {name: 🇯🇵 JP 04（感谢关注youtube：8度科技）, server: shanghai-router1-892412-jp4.dukou.info, port: 6304, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router1-892412-jp4.dukou.info}
-  - {name: 🇯🇵 JP 06（感谢关注youtube：8度科技）, server: jp-shanghai-ss-07.dukou.info, port: 6307, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: jp-shanghai-ss-07.dukou.info}
-  - {name: 🇨🇳 中国台湾02（感谢关注youtube：8度科技）, server: tw-cn-hk-relay-2-184a76.dukou.info, port: 5302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw-cn-hk-relay-2-184a76.dukou.info}
-  - {name: 🇯🇵 JP（感谢关注youtube：8度科技）, server: shanghai-router1-892412-jp1.dukou.info, port: 6301, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router1-892412-jp1.dukou.info}
   - {name: "🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.19.65.34, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
-  - {name: 🇯🇵 JP 03（感谢关注youtube：8度科技）, server: shanghai-router1-892412-jp3.dukou.info, port: 6303, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router1-892412-jp3.dukou.info}
-  - {name: 🇺🇸 US 12（感谢关注youtube：8度科技）, server: hk-route-12369-us5.dukou.info, port: 7005, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-route-12369-us5.dukou.info}
-  - {name: 🇷🇺 俄罗斯（感谢关注youtube：8度科技）, server: ru01-cu-1120.dukou.info, port: 2301, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: ru01-cu-1120.dukou.info}
   - {name: Yw05, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a47638b5-60bf-3f8d-b551-85615b655084, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
   - {name: 阿伟科技Yw05, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a7436b35-0daf-3eac-9a0b-356b8a3cc63b, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
   - {name: sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s, server: 104.19.65.34, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
   - {name: 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.19.45.117, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
   - {name: 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.65.34, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇯🇵 JP（感谢关注youtube：8度科技） 2, server: 84.17.34.24, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇯🇵 JP（感谢关注youtube：8度科技）, server: 84.17.34.24, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: "🇸🇬 us,Council Bluffs-29@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.19.23.24, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
   - {name: 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.65.34, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
   - {name: 🇸🇬 美国-New York-29@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.23.24, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
@@ -37,7 +19,7 @@ proxies:
   - {name: "🇸🇬 us,Council Bluffs-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a", server: 104.19.45.117, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
   - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a, server: 104.19.65.34, port: 80, type: vmess, uuid: 90cab127-9c02-46f2-8642-c7d230c88355, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: us2.jjyun.ren}}
   - {name: 🇺🇸 美国（感谢关注youtube：8度科技）, server: 104.19.65.34, port: 80, type: vmess, uuid: ffab7ea6-596d-4f88-daa5-4ec177f314a5, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.rar, ws-headers: {Host: euserv11p.ezddns.tk}}
-  - {name: 🇯🇵 JP（感谢关注youtube：8度科技） 3, server: 89.187.161.239, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇯🇵 JP（感谢关注youtube：8度科技） 2, server: 89.187.161.239, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 104.20.50.82, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
   - {name: "@SSRSUB-V112-付费推荐:suo.yt/ssrsub", server: 104.19.65.34, port: 80, type: vmess, uuid: ca870483-fa7d-4f64-983a-6ed455143aca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /live, ws-headers: {Host: euserv9p.ezddns.tk}}
   - {name: 🇺🇸 美国 洛杉矶10（感谢关注youtube：8度科技）, server: 107.167.9.124, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
@@ -45,37 +27,20 @@ proxies:
   - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 2, server: 45.32.228.81, port: 31991, type: vmess, uuid: 34a625d5-c34e-4187-b20f-9cdfced22e3b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 US_564, server: 154.17.1.251, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2, server: 104.19.19.105, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: 🇬🇧 英国05（感谢关注youtube：8度科技）, server: 84.17.53.210, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡07（感谢关注youtube：8度科技）
-      - 🇸🇬 新加坡02（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 05（感谢关注youtube：8度科技）
-      - 🇸🇬 新加坡06（感谢关注youtube：8度科技）
-      - 🇸🇬 新加坡03（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国03（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 08（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国02（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 07（感谢关注youtube：8度科技）
-      - 🇯🇵 JP02（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 04（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 06（感谢关注youtube：8度科技）
-      - 🇨🇳 中国台湾02（感谢关注youtube：8度科技）
-      - 🇯🇵 JP（感谢关注youtube：8度科技）
       - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 JP 03（感谢关注youtube：8度科技）
-      - 🇺🇸 US 12（感谢关注youtube：8度科技）
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技）
       - Yw05
       - 阿伟科技Yw05
       - sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
       - 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 JP（感谢关注youtube：8度科技） 2
+      - 🇯🇵 JP（感谢关注youtube：8度科技）
       - 🇸🇬 us,Council Bluffs-29@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-29@1Gbps节点更新https://bit.ly/3uWuS7a
@@ -83,7 +48,7 @@ proxy-groups:
       - 🇸🇬 us,Council Bluffs-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国（感谢关注youtube：8度科技）
-      - 🇯🇵 JP（感谢关注youtube：8度科技） 3
+      - 🇯🇵 JP（感谢关注youtube：8度科技） 2
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
       - "@SSRSUB-V112-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 美国 洛杉矶10（感谢关注youtube：8度科技）
@@ -91,36 +56,19 @@ proxy-groups:
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
       - 🇺🇸 US_564
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇬🇧 英国05（感谢关注youtube：8度科技）
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 新加坡07（感谢关注youtube：8度科技）
-      - 🇸🇬 新加坡02（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 05（感谢关注youtube：8度科技）
-      - 🇸🇬 新加坡06（感谢关注youtube：8度科技）
-      - 🇸🇬 新加坡03（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国03（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 08（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国02（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 07（感谢关注youtube：8度科技）
-      - 🇯🇵 JP02（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 04（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 06（感谢关注youtube：8度科技）
-      - 🇨🇳 中国台湾02（感谢关注youtube：8度科技）
-      - 🇯🇵 JP（感谢关注youtube：8度科技）
       - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 JP 03（感谢关注youtube：8度科技）
-      - 🇺🇸 US 12（感谢关注youtube：8度科技）
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技）
       - Yw05
       - 阿伟科技Yw05
       - sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
       - 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 JP（感谢关注youtube：8度科技） 2
+      - 🇯🇵 JP（感谢关注youtube：8度科技）
       - 🇸🇬 us,Council Bluffs-29@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-29@1Gbps节点更新https://bit.ly/3uWuS7a
@@ -128,7 +76,7 @@ proxy-groups:
       - 🇸🇬 us,Council Bluffs-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国（感谢关注youtube：8度科技）
-      - 🇯🇵 JP（感谢关注youtube：8度科技） 3
+      - 🇯🇵 JP（感谢关注youtube：8度科技） 2
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
       - "@SSRSUB-V112-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 美国 洛杉矶10（感谢关注youtube：8度科技）
@@ -136,37 +84,20 @@ proxy-groups:
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
       - 🇺🇸 US_564
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇬🇧 英国05（感谢关注youtube：8度科技）
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡07（感谢关注youtube：8度科技）
-      - 🇸🇬 新加坡02（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 05（感谢关注youtube：8度科技）
-      - 🇸🇬 新加坡06（感谢关注youtube：8度科技）
-      - 🇸🇬 新加坡03（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国03（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 08（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国02（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 07（感谢关注youtube：8度科技）
-      - 🇯🇵 JP02（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 04（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 06（感谢关注youtube：8度科技）
-      - 🇨🇳 中国台湾02（感谢关注youtube：8度科技）
-      - 🇯🇵 JP（感谢关注youtube：8度科技）
       - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 JP 03（感谢关注youtube：8度科技）
-      - 🇺🇸 US 12（感谢关注youtube：8度科技）
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技）
       - Yw05
       - 阿伟科技Yw05
       - sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
       - 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 JP（感谢关注youtube：8度科技） 2
+      - 🇯🇵 JP（感谢关注youtube：8度科技）
       - 🇸🇬 us,Council Bluffs-29@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-29@1Gbps节点更新https://bit.ly/3uWuS7a
@@ -174,7 +105,7 @@ proxy-groups:
       - 🇸🇬 us,Council Bluffs-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国（感谢关注youtube：8度科技）
-      - 🇯🇵 JP（感谢关注youtube：8度科技） 3
+      - 🇯🇵 JP（感谢关注youtube：8度科技） 2
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
       - "@SSRSUB-V112-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 美国 洛杉矶10（感谢关注youtube：8度科技）
@@ -182,42 +113,24 @@ proxy-groups:
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
       - 🇺🇸 US_564
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇬🇧 英国05（感谢关注youtube：8度科技）
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 中国台湾02（感谢关注youtube：8度科技）
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 新加坡07（感谢关注youtube：8度科技）
-      - 🇸🇬 新加坡02（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 05（感谢关注youtube：8度科技）
-      - 🇸🇬 新加坡06（感谢关注youtube：8度科技）
-      - 🇸🇬 新加坡03（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国03（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 08（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国02（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 07（感谢关注youtube：8度科技）
-      - 🇯🇵 JP02（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 04（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 06（感谢关注youtube：8度科技）
-      - 🇨🇳 中国台湾02（感谢关注youtube：8度科技）
-      - 🇯🇵 JP（感谢关注youtube：8度科技）
       - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 JP 03（感谢关注youtube：8度科技）
-      - 🇺🇸 US 12（感谢关注youtube：8度科技）
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技）
       - Yw05
       - 阿伟科技Yw05
       - sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
       - 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 JP（感谢关注youtube：8度科技） 2
+      - 🇯🇵 JP（感谢关注youtube：8度科技）
       - 🇸🇬 us,Council Bluffs-29@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-29@1Gbps节点更新https://bit.ly/3uWuS7a
@@ -225,7 +138,7 @@ proxy-groups:
       - 🇸🇬 us,Council Bluffs-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国（感谢关注youtube：8度科技）
-      - 🇯🇵 JP（感谢关注youtube：8度科技） 3
+      - 🇯🇵 JP（感谢关注youtube：8度科技） 2
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
       - "@SSRSUB-V112-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 美国 洛杉矶10（感谢关注youtube：8度科技）
@@ -233,36 +146,19 @@ proxy-groups:
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
       - 🇺🇸 US_564
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇬🇧 英国05（感谢关注youtube：8度科技）
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡07（感谢关注youtube：8度科技）
-      - 🇸🇬 新加坡02（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 05（感谢关注youtube：8度科技）
-      - 🇸🇬 新加坡06（感谢关注youtube：8度科技）
-      - 🇸🇬 新加坡03（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国03（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 08（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国02（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 07（感谢关注youtube：8度科技）
-      - 🇯🇵 JP02（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 04（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 06（感谢关注youtube：8度科技）
-      - 🇨🇳 中国台湾02（感谢关注youtube：8度科技）
-      - 🇯🇵 JP（感谢关注youtube：8度科技）
       - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 JP 03（感谢关注youtube：8度科技）
-      - 🇺🇸 US 12（感谢关注youtube：8度科技）
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技）
       - Yw05
       - 阿伟科技Yw05
       - sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
       - 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 JP（感谢关注youtube：8度科技） 2
+      - 🇯🇵 JP（感谢关注youtube：8度科技）
       - 🇸🇬 us,Council Bluffs-29@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-29@1Gbps节点更新https://bit.ly/3uWuS7a
@@ -270,7 +166,7 @@ proxy-groups:
       - 🇸🇬 us,Council Bluffs-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国（感谢关注youtube：8度科技）
-      - 🇯🇵 JP（感谢关注youtube：8度科技） 3
+      - 🇯🇵 JP（感谢关注youtube：8度科技） 2
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
       - "@SSRSUB-V112-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 美国 洛杉矶10（感谢关注youtube：8度科技）
@@ -278,37 +174,20 @@ proxy-groups:
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
       - 🇺🇸 US_564
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇬🇧 英国05（感谢关注youtube：8度科技）
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡07（感谢关注youtube：8度科技）
-      - 🇸🇬 新加坡02（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 05（感谢关注youtube：8度科技）
-      - 🇸🇬 新加坡06（感谢关注youtube：8度科技）
-      - 🇸🇬 新加坡03（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国03（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 08（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国02（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 07（感谢关注youtube：8度科技）
-      - 🇯🇵 JP02（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 04（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 06（感谢关注youtube：8度科技）
-      - 🇨🇳 中国台湾02（感谢关注youtube：8度科技）
-      - 🇯🇵 JP（感谢关注youtube：8度科技）
       - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 JP 03（感谢关注youtube：8度科技）
-      - 🇺🇸 US 12（感谢关注youtube：8度科技）
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技）
       - Yw05
       - 阿伟科技Yw05
       - sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
       - 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 JP（感谢关注youtube：8度科技） 2
+      - 🇯🇵 JP（感谢关注youtube：8度科技）
       - 🇸🇬 us,Council Bluffs-29@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-29@1Gbps节点更新https://bit.ly/3uWuS7a
@@ -316,7 +195,7 @@ proxy-groups:
       - 🇸🇬 us,Council Bluffs-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国（感谢关注youtube：8度科技）
-      - 🇯🇵 JP（感谢关注youtube：8度科技） 3
+      - 🇯🇵 JP（感谢关注youtube：8度科技） 2
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
       - "@SSRSUB-V112-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 美国 洛杉矶10（感谢关注youtube：8度科技）
@@ -324,6 +203,7 @@ proxy-groups:
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
       - 🇺🇸 US_564
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇬🇧 英国05（感谢关注youtube：8度科技）
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -339,31 +219,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡07（感谢关注youtube：8度科技）
-      - 🇸🇬 新加坡02（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 05（感谢关注youtube：8度科技）
-      - 🇸🇬 新加坡06（感谢关注youtube：8度科技）
-      - 🇸🇬 新加坡03（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国03（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 08（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国02（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 07（感谢关注youtube：8度科技）
-      - 🇯🇵 JP02（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 04（感谢关注youtube：8度科技）
-      - 🇯🇵 JP 06（感谢关注youtube：8度科技）
-      - 🇨🇳 中国台湾02（感谢关注youtube：8度科技）
-      - 🇯🇵 JP（感谢关注youtube：8度科技）
       - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 JP 03（感谢关注youtube：8度科技）
-      - 🇺🇸 US 12（感谢关注youtube：8度科技）
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技）
       - Yw05
       - 阿伟科技Yw05
       - sg-OVH Hosting-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
       - 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 JP（感谢关注youtube：8度科技） 2
+      - 🇯🇵 JP（感谢关注youtube：8度科技）
       - 🇸🇬 us,Council Bluffs-29@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-29@1Gbps节点更新https://bit.ly/3uWuS7a
@@ -371,7 +233,7 @@ proxy-groups:
       - 🇸🇬 us,Council Bluffs-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国（感谢关注youtube：8度科技）
-      - 🇯🇵 JP（感谢关注youtube：8度科技） 3
+      - 🇯🇵 JP（感谢关注youtube：8度科技） 2
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
       - "@SSRSUB-V112-付费推荐:suo.yt/ssrsub"
       - 🇺🇸 美国 洛杉矶10（感谢关注youtube：8度科技）
@@ -379,6 +241,7 @@ proxy-groups:
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
       - 🇺🇸 US_564
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇬🇧 英国05（感谢关注youtube：8度科技）
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
