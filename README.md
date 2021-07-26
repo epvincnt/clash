@@ -7,20 +7,24 @@ external-controller: :9090
 proxies:
   - {name: 🇭🇰 YouTube-阿伟科技03-HK-26/2, server: yyds.hk3.zeroyyds.cc, port: 80, type: vmess, uuid: c5fb0c46-a845-4911-b8f7-d470299d22bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
   - {name: 🇭🇰 YouTube-阿伟科技03-HK-26/1, server: yyds.hk3.zeroyyds.cc, port: 80, type: vmess, uuid: e6d14923-99e3-4e4d-8dd3-65968a21114b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇭🇰 YouTube-阿伟科技03-HK-26/2 2, server: aws.yyds1.zeroyyds.cc, port: 80, type: vmess, uuid: c5fb0c46-a845-4911-b8f7-d470299d22bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: short.weixin.qq.com}}
   - {name: sg-OVH Hosting-31 满 足 3.9Mbps带 宽 需求峰值 速 度  269312 kB/s, server: 104.19.65.34, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
   - {name: 阿伟科技Yw05, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a7436b35-0daf-3eac-9a0b-356b8a3cc63b, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
+  - {name: 🇭🇰 YouTube-阿伟科技03-HK-26/1 2, server: aws.yyds1.zeroyyds.cc, port: 80, type: vmess, uuid: e6d14923-99e3-4e4d-8dd3-65968a21114b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: short.weixin.qq.com}}
   - {name: YouTube-阿伟科技18-jp-26, server: 3.112.18.42, port: 3369, type: vmess, uuid: f4b2ba42-1a1d-3792-932f-a4b2d4c84942, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v34ioachelp, ws-headers: {Host: 3.112.18.42}}
   - {name: 🇯🇵 YouTube-阿伟科技25-JP-26, server: relay.xxl123.fun, port: 20088, type: vmess, uuid: dc287366-9694-41f8-aa8f-216762909037, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /path, ws-headers: {Host: "http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com"}}
+  - {name: 🇸🇬 YouTube-阿伟科技25-SG-26, server: relay.xxl123.fun, port: 10010, type: vmess, uuid: dc287366-9694-41f8-aa8f-216762909037, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /path, ws-headers: {Host: "http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com"}}
+  - {name: 🇭🇰 YouTube-阿伟科技26-HK-26, server: eastasia.4cloud.click, port: 8080, type: vmess, uuid: 6f4e7cbe-249c-315c-ab69-3ea617660908, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ml, ws-headers: {Host: a.189.cn}}
   - {name: sg-OVH Hosting-29@1Gbps2.9M, server: 104.20.51.197, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: 🇭🇰 github.com香港Amazon数据3.0M, server: 18.166.52.250, port: 80, type: vmess, uuid: 7857e89a-97cf-4362-b853-2a3688332488, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 YouTube-阿伟科技02-JP-26, server: japan.mini.00001.zeroyyds.cc, port: 80, type: vmess, uuid: e6d14923-99e3-4e4d-8dd3-65968a21114b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
   - {name: 🇯🇵 YouTube-阿伟科技26-JP-26, server: 20.89.46.53, port: 80, type: vmess, uuid: 6f4e7cbe-249c-315c-ab69-3ea617660908, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ml, ws-headers: {Host: a.189.cn}}
+  - {name: 🇭🇰 github.com香港Amazon数据3.0M, server: 18.166.52.250, port: 80, type: vmess, uuid: 7857e89a-97cf-4362-b853-2a3688332488, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 YouTube-阿伟科技26-KR-26, server: 20.194.25.151, port: 80, type: vmess, uuid: 6f4e7cbe-249c-315c-ab69-3ea617660908, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ml, ws-headers: {Host: a.189.cn}}
+  - {name: 🇺🇸 美国-1电信@1Gbps 2.9Mhttps://bit.ly/3uWuS7a, server: 104.20.53.69, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇺🇸 美国-New York-26@1Gbps2.9Mhttps://bit.ly/3uWuS7a, server: 104.20.53.69, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
   - {name: 🇸🇬 美国-New York-2.5Mbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.197, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
   - {name: 🇺🇸 美国-6@1Gbps2.9Mhttps://bit.ly/3uWuS7a, server: 104.20.51.197, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
   - {name: 🇺🇸 美国-New York-9@1Gbps2.9Mhttps://bit.ly/3uWuS7a, server: 104.20.50.82, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇺🇸 美国-1电信@1Gbps 2.9Mhttps://bit.ly/3uWuS7a, server: 104.20.53.69, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇺🇸 美国-New York-26@1Gbps2.9Mhttps://bit.ly/3uWuS7a, server: 104.20.53.69, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇰🇷 YouTube-阿伟科技26-KR-26, server: 20.194.25.151, port: 80, type: vmess, uuid: 6f4e7cbe-249c-315c-ab69-3ea617660908, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ml, ws-headers: {Host: a.189.cn}}
   - {name: 🇨🇳 台湾(欢迎订阅Youtube破解资源君)2.8M, server: tw-cn-hk-relay-1-97861a.dukou.info, port: 5301, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw-cn-hk-relay-1-97861a.dukou.info}
   - {name: "@SSRSUB-V03-2.8M:suo.yt/ssrsub", server: 104.20.51.197, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
   - {name: 🇸🇬 美国-2@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.197, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
@@ -28,30 +32,32 @@ proxies:
   - {name: "@SSRSUB-V01-付费推荐:suo.yt/ssrsub", server: 104.20.51.197, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
   - {name: "@SSRSUB-V60-付费推荐:suo.yt/ssrsub2.7M", server: 104.20.51.197, port: 80, type: vmess, uuid: 344c0b7d-2c35-4c95-8481-e2fc3c456a06, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.mp3, ws-headers: {Host: euserv18p.ezddns.tk}}
   - {name: 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.197, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇨🇳 heroepvcnt, server: 104.20.50.82, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: little-dawn-3747.epvincnt.workers.dev}}
+  - {name: 🇭🇰 YouTube-阿伟科技26-HK-26 2, server: service7761.4cloud.click, port: 18080, type: vmess, uuid: 6f4e7cbe-249c-315c-ab69-3ea617660908, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ml, ws-headers: {Host: a.189.cn}}
+  - {name: 🇵🇭 YouTube-阿伟科技03-PH-26/1, server: 165.154.233.163, port: 80, type: vmess, uuid: e6d14923-99e3-4e4d-8dd3-65968a21114b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /zero, ws-headers: {Host: 165.154.233.163}}
+  - {name: 🇺🇸 美国-New York-31 满 足 2.6 Mbps带 宽 需求峰值 速 度  269312 kB/s, server: 104.20.53.69, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
   - {name: 🇺🇸 美国-New York-12@1Gbps2.6Mhttps://bit.ly/3uWuS7a, server: 104.20.53.45, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
   - {name: 🇸🇬 2.6M节点更新https://bit.ly/3uWuS7a, server: 104.19.65.34, port: 80, type: vmess, uuid: 90cab127-9c02-46f2-8642-c7d230c88355, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: us2.jjyun.ren}}
-  - {name: 🇺🇸 美国-New York-31 满 足 2.6 Mbps带 宽 需求峰值 速 度  269312 kB/s, server: 104.20.53.69, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇭🇰 YouTube-阿伟科技26-HK-26, server: service7761.4cloud.click, port: 18080, type: vmess, uuid: 6f4e7cbe-249c-315c-ab69-3ea617660908, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ml, ws-headers: {Host: a.189.cn}}
-  - {name: "🇺🇸 us,22移动@1Gbps 4.2M", server: 104.19.45.117, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
-  - {name: 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a, server: 104.19.65.34, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: "🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a", server: 104.19.23.24, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
   - {name: 🇺🇸 美国-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s, server: 104.20.53.69, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a, server: 104.19.65.34, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: "🇺🇸 us,22移动@1Gbps 4.2M", server: 104.19.45.117, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
+  - {name: "🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a", server: 104.19.23.24, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
   - {name: 🇯🇵 YouTube-阿伟科技02-JP-2.6M, server: japan.mini.00001.zeroyyds.cc, port: 80, type: vmess, uuid: e6d14923-99e3-4e4d-8dd3-65968a21114b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
-  - {name: "🇺🇸 us,Council Bluffs-2.8M", server: 104.20.51.197, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 73, server: 104.20.51.197, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: "🇺🇸 us,Council Bluffs-7@1Gbps2.3Mhttps://bit.ly/3uWuS7a", server: 104.20.53.69, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
   - {name: 🇺🇸 YouTube-阿伟科技25-US-26, server: hk3.xxl123.fun, port: 10025, type: vmess, uuid: dc287366-9694-41f8-aa8f-216762909037, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /path, ws-headers: {Host: "http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com"}}
   - {name: YouTube-阿伟科技23-RS-26, server: gonyi2.gpche-pravec.info, port: 822, type: vmess, uuid: 85a97dc0-6184-36d8-98c5-b4f9104bba6c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1.ceshi.me}}
+  - {name: "🇺🇸 us,Council Bluffs-7@1Gbps2.3Mhttps://bit.ly/3uWuS7a", server: 104.20.53.69, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
+  - {name: "🇺🇸 us,Council Bluffs-2.8M", server: 104.20.51.197, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 73, server: 104.20.51.197, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 YouTube-阿伟科技23-US-26, server: gonyi2.gpche-pravec.info, port: 837, type: vmess, uuid: 85a97dc0-6184-36d8-98c5-b4f9104bba6c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1.ceshi.me}}
+  - {name: 🇺🇸 YouTube-阿伟科技23-US-26 2, server: gonyi2.gpche-pravec.info, port: 889, type: vmess, uuid: 85a97dc0-6184-36d8-98c5-b4f9104bba6c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1.ceshi.me}}
+  - {name: YouTube-阿伟科技05-jp-26, server: cm2.cheapv2.xyz, port: 26601, type: vmess, uuid: cd22f8ef-0572-31a4-9244-fba30c4523ef, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: cm2.cheapv2.xyz}}
   - {name: "🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.20.53.45, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
   - {name: "🇸🇬 us,Council Bluffs-5@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.20.51.197, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
   - {name: "🇺🇸 us,Council Bluffs-17@1Gbps2.9Mhttps://bit.ly/3uWuS7a", server: 104.20.53.45, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
   - {name: 🇺🇸 美国-New York-29@1Gbps2.4Mhttps://bit.ly/3uWuS7a, server: 104.19.23.24, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇺🇸 美国-12@1Gbps2.Mhttps://bit.ly/3uWuS7a, server: 104.20.53.45, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
   - {name: YouTube2M-阿伟科技23-RS-26, server: gonyi2.gpche-pravec.info, port: 822, type: vmess, uuid: 85a97dc0-6184-36d8-98c5-b4f9104bba6c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1.ceshi.me}}
+  - {name: 🇺🇸 美国-12@1Gbps2.Mhttps://bit.ly/3uWuS7a, server: 104.20.53.45, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
   - {name: 🇺🇸 美国🚀1.9M免费领取🚀MiDnight来了, server: 104.19.19.105, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
   - {name: "🇺🇸 us,Council Bluffs-7@1Gbps1.8Mhttps://bit.ly/3uWuS7a", server: 104.20.55.22, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
-  - {name: "@SSRSUB-V06-1.7M:suo.yt/ssrsub", server: 104.19.23.24, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
   - {name: 🇺🇸 美国🚀1.7M🚀MiDnight来了, server: 104.20.50.82, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
 proxy-groups:
   - name: 🔰 节点选择
@@ -61,20 +67,24 @@ proxy-groups:
       - 🎯 全球直连
       - 🇭🇰 YouTube-阿伟科技03-HK-26/2
       - 🇭🇰 YouTube-阿伟科技03-HK-26/1
+      - 🇭🇰 YouTube-阿伟科技03-HK-26/2 2
       - sg-OVH Hosting-31 满 足 3.9Mbps带 宽 需求峰值 速 度  269312 kB/s
       - 阿伟科技Yw05
+      - 🇭🇰 YouTube-阿伟科技03-HK-26/1 2
       - YouTube-阿伟科技18-jp-26
       - 🇯🇵 YouTube-阿伟科技25-JP-26
+      - 🇸🇬 YouTube-阿伟科技25-SG-26
+      - 🇭🇰 YouTube-阿伟科技26-HK-26
       - sg-OVH Hosting-29@1Gbps2.9M
-      - 🇭🇰 github.com香港Amazon数据3.0M
       - 🇯🇵 YouTube-阿伟科技02-JP-26
       - 🇯🇵 YouTube-阿伟科技26-JP-26
+      - 🇭🇰 github.com香港Amazon数据3.0M
+      - 🇰🇷 YouTube-阿伟科技26-KR-26
+      - 🇺🇸 美国-1电信@1Gbps 2.9Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-26@1Gbps2.9Mhttps://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-2.5Mbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国-6@1Gbps2.9Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-9@1Gbps2.9Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-1电信@1Gbps 2.9Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-26@1Gbps2.9Mhttps://bit.ly/3uWuS7a
-      - 🇰🇷 YouTube-阿伟科技26-KR-26
       - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)2.8M
       - "@SSRSUB-V03-2.8M:suo.yt/ssrsub"
       - 🇸🇬 美国-2@1Gbps节点更新https://bit.ly/3uWuS7a
@@ -82,30 +92,32 @@ proxy-groups:
       - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V60-付费推荐:suo.yt/ssrsub2.7M"
       - 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇨🇳 heroepvcnt
+      - 🇭🇰 YouTube-阿伟科技26-HK-26 2
+      - 🇵🇭 YouTube-阿伟科技03-PH-26/1
+      - 🇺🇸 美国-New York-31 满 足 2.6 Mbps带 宽 需求峰值 速 度  269312 kB/s
       - 🇺🇸 美国-New York-12@1Gbps2.6Mhttps://bit.ly/3uWuS7a
       - 🇸🇬 2.6M节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-31 满 足 2.6 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇭🇰 YouTube-阿伟科技26-HK-26
-      - 🇺🇸 us,22移动@1Gbps 4.2M
-      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,22移动@1Gbps 4.2M
+      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
       - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
-      - 🇺🇸 us,Council Bluffs-2.8M
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 73
-      - 🇺🇸 us,Council Bluffs-7@1Gbps2.3Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 YouTube-阿伟科技25-US-26
       - YouTube-阿伟科技23-RS-26
+      - 🇺🇸 us,Council Bluffs-7@1Gbps2.3Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-2.8M
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 73
+      - 🇺🇸 YouTube-阿伟科技23-US-26
+      - 🇺🇸 YouTube-阿伟科技23-US-26 2
+      - YouTube-阿伟科技05-jp-26
       - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Council Bluffs-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 us,Council Bluffs-17@1Gbps2.9Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-29@1Gbps2.4Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-12@1Gbps2.Mhttps://bit.ly/3uWuS7a
       - YouTube2M-阿伟科技23-RS-26
+      - 🇺🇸 美国-12@1Gbps2.Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀1.9M免费领取🚀MiDnight来了
       - 🇺🇸 us,Council Bluffs-7@1Gbps1.8Mhttps://bit.ly/3uWuS7a
-      - "@SSRSUB-V06-1.7M:suo.yt/ssrsub"
       - 🇺🇸 美国🚀1.7M🚀MiDnight来了
   - name: ♻️ 自动选择
     type: url-test
@@ -114,20 +126,24 @@ proxy-groups:
     proxies:
       - 🇭🇰 YouTube-阿伟科技03-HK-26/2
       - 🇭🇰 YouTube-阿伟科技03-HK-26/1
+      - 🇭🇰 YouTube-阿伟科技03-HK-26/2 2
       - sg-OVH Hosting-31 满 足 3.9Mbps带 宽 需求峰值 速 度  269312 kB/s
       - 阿伟科技Yw05
+      - 🇭🇰 YouTube-阿伟科技03-HK-26/1 2
       - YouTube-阿伟科技18-jp-26
       - 🇯🇵 YouTube-阿伟科技25-JP-26
+      - 🇸🇬 YouTube-阿伟科技25-SG-26
+      - 🇭🇰 YouTube-阿伟科技26-HK-26
       - sg-OVH Hosting-29@1Gbps2.9M
-      - 🇭🇰 github.com香港Amazon数据3.0M
       - 🇯🇵 YouTube-阿伟科技02-JP-26
       - 🇯🇵 YouTube-阿伟科技26-JP-26
+      - 🇭🇰 github.com香港Amazon数据3.0M
+      - 🇰🇷 YouTube-阿伟科技26-KR-26
+      - 🇺🇸 美国-1电信@1Gbps 2.9Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-26@1Gbps2.9Mhttps://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-2.5Mbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国-6@1Gbps2.9Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-9@1Gbps2.9Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-1电信@1Gbps 2.9Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-26@1Gbps2.9Mhttps://bit.ly/3uWuS7a
-      - 🇰🇷 YouTube-阿伟科技26-KR-26
       - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)2.8M
       - "@SSRSUB-V03-2.8M:suo.yt/ssrsub"
       - 🇸🇬 美国-2@1Gbps节点更新https://bit.ly/3uWuS7a
@@ -135,30 +151,32 @@ proxy-groups:
       - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V60-付费推荐:suo.yt/ssrsub2.7M"
       - 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇨🇳 heroepvcnt
+      - 🇭🇰 YouTube-阿伟科技26-HK-26 2
+      - 🇵🇭 YouTube-阿伟科技03-PH-26/1
+      - 🇺🇸 美国-New York-31 满 足 2.6 Mbps带 宽 需求峰值 速 度  269312 kB/s
       - 🇺🇸 美国-New York-12@1Gbps2.6Mhttps://bit.ly/3uWuS7a
       - 🇸🇬 2.6M节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-31 满 足 2.6 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇭🇰 YouTube-阿伟科技26-HK-26
-      - 🇺🇸 us,22移动@1Gbps 4.2M
-      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,22移动@1Gbps 4.2M
+      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
       - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
-      - 🇺🇸 us,Council Bluffs-2.8M
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 73
-      - 🇺🇸 us,Council Bluffs-7@1Gbps2.3Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 YouTube-阿伟科技25-US-26
       - YouTube-阿伟科技23-RS-26
+      - 🇺🇸 us,Council Bluffs-7@1Gbps2.3Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-2.8M
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 73
+      - 🇺🇸 YouTube-阿伟科技23-US-26
+      - 🇺🇸 YouTube-阿伟科技23-US-26 2
+      - YouTube-阿伟科技05-jp-26
       - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Council Bluffs-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 us,Council Bluffs-17@1Gbps2.9Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-29@1Gbps2.4Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-12@1Gbps2.Mhttps://bit.ly/3uWuS7a
       - YouTube2M-阿伟科技23-RS-26
+      - 🇺🇸 美国-12@1Gbps2.Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀1.9M免费领取🚀MiDnight来了
       - 🇺🇸 us,Council Bluffs-7@1Gbps1.8Mhttps://bit.ly/3uWuS7a
-      - "@SSRSUB-V06-1.7M:suo.yt/ssrsub"
       - 🇺🇸 美国🚀1.7M🚀MiDnight来了
   - name: 🌍 国外媒体
     type: select
@@ -168,20 +186,24 @@ proxy-groups:
       - 🎯 全球直连
       - 🇭🇰 YouTube-阿伟科技03-HK-26/2
       - 🇭🇰 YouTube-阿伟科技03-HK-26/1
+      - 🇭🇰 YouTube-阿伟科技03-HK-26/2 2
       - sg-OVH Hosting-31 满 足 3.9Mbps带 宽 需求峰值 速 度  269312 kB/s
       - 阿伟科技Yw05
+      - 🇭🇰 YouTube-阿伟科技03-HK-26/1 2
       - YouTube-阿伟科技18-jp-26
       - 🇯🇵 YouTube-阿伟科技25-JP-26
+      - 🇸🇬 YouTube-阿伟科技25-SG-26
+      - 🇭🇰 YouTube-阿伟科技26-HK-26
       - sg-OVH Hosting-29@1Gbps2.9M
-      - 🇭🇰 github.com香港Amazon数据3.0M
       - 🇯🇵 YouTube-阿伟科技02-JP-26
       - 🇯🇵 YouTube-阿伟科技26-JP-26
+      - 🇭🇰 github.com香港Amazon数据3.0M
+      - 🇰🇷 YouTube-阿伟科技26-KR-26
+      - 🇺🇸 美国-1电信@1Gbps 2.9Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-26@1Gbps2.9Mhttps://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-2.5Mbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国-6@1Gbps2.9Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-9@1Gbps2.9Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-1电信@1Gbps 2.9Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-26@1Gbps2.9Mhttps://bit.ly/3uWuS7a
-      - 🇰🇷 YouTube-阿伟科技26-KR-26
       - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)2.8M
       - "@SSRSUB-V03-2.8M:suo.yt/ssrsub"
       - 🇸🇬 美国-2@1Gbps节点更新https://bit.ly/3uWuS7a
@@ -189,30 +211,32 @@ proxy-groups:
       - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V60-付费推荐:suo.yt/ssrsub2.7M"
       - 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇨🇳 heroepvcnt
+      - 🇭🇰 YouTube-阿伟科技26-HK-26 2
+      - 🇵🇭 YouTube-阿伟科技03-PH-26/1
+      - 🇺🇸 美国-New York-31 满 足 2.6 Mbps带 宽 需求峰值 速 度  269312 kB/s
       - 🇺🇸 美国-New York-12@1Gbps2.6Mhttps://bit.ly/3uWuS7a
       - 🇸🇬 2.6M节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-31 满 足 2.6 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇭🇰 YouTube-阿伟科技26-HK-26
-      - 🇺🇸 us,22移动@1Gbps 4.2M
-      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,22移动@1Gbps 4.2M
+      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
       - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
-      - 🇺🇸 us,Council Bluffs-2.8M
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 73
-      - 🇺🇸 us,Council Bluffs-7@1Gbps2.3Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 YouTube-阿伟科技25-US-26
       - YouTube-阿伟科技23-RS-26
+      - 🇺🇸 us,Council Bluffs-7@1Gbps2.3Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-2.8M
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 73
+      - 🇺🇸 YouTube-阿伟科技23-US-26
+      - 🇺🇸 YouTube-阿伟科技23-US-26 2
+      - YouTube-阿伟科技05-jp-26
       - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Council Bluffs-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 us,Council Bluffs-17@1Gbps2.9Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-29@1Gbps2.4Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-12@1Gbps2.Mhttps://bit.ly/3uWuS7a
       - YouTube2M-阿伟科技23-RS-26
+      - 🇺🇸 美国-12@1Gbps2.Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀1.9M免费领取🚀MiDnight来了
       - 🇺🇸 us,Council Bluffs-7@1Gbps1.8Mhttps://bit.ly/3uWuS7a
-      - "@SSRSUB-V06-1.7M:suo.yt/ssrsub"
       - 🇺🇸 美国🚀1.7M🚀MiDnight来了
   - name: 🌏 国内媒体
     type: select
@@ -228,20 +252,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🇭🇰 YouTube-阿伟科技03-HK-26/2
       - 🇭🇰 YouTube-阿伟科技03-HK-26/1
+      - 🇭🇰 YouTube-阿伟科技03-HK-26/2 2
       - sg-OVH Hosting-31 满 足 3.9Mbps带 宽 需求峰值 速 度  269312 kB/s
       - 阿伟科技Yw05
+      - 🇭🇰 YouTube-阿伟科技03-HK-26/1 2
       - YouTube-阿伟科技18-jp-26
       - 🇯🇵 YouTube-阿伟科技25-JP-26
+      - 🇸🇬 YouTube-阿伟科技25-SG-26
+      - 🇭🇰 YouTube-阿伟科技26-HK-26
       - sg-OVH Hosting-29@1Gbps2.9M
-      - 🇭🇰 github.com香港Amazon数据3.0M
       - 🇯🇵 YouTube-阿伟科技02-JP-26
       - 🇯🇵 YouTube-阿伟科技26-JP-26
+      - 🇭🇰 github.com香港Amazon数据3.0M
+      - 🇰🇷 YouTube-阿伟科技26-KR-26
+      - 🇺🇸 美国-1电信@1Gbps 2.9Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-26@1Gbps2.9Mhttps://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-2.5Mbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国-6@1Gbps2.9Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-9@1Gbps2.9Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-1电信@1Gbps 2.9Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-26@1Gbps2.9Mhttps://bit.ly/3uWuS7a
-      - 🇰🇷 YouTube-阿伟科技26-KR-26
       - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)2.8M
       - "@SSRSUB-V03-2.8M:suo.yt/ssrsub"
       - 🇸🇬 美国-2@1Gbps节点更新https://bit.ly/3uWuS7a
@@ -249,30 +277,32 @@ proxy-groups:
       - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V60-付费推荐:suo.yt/ssrsub2.7M"
       - 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇨🇳 heroepvcnt
+      - 🇭🇰 YouTube-阿伟科技26-HK-26 2
+      - 🇵🇭 YouTube-阿伟科技03-PH-26/1
+      - 🇺🇸 美国-New York-31 满 足 2.6 Mbps带 宽 需求峰值 速 度  269312 kB/s
       - 🇺🇸 美国-New York-12@1Gbps2.6Mhttps://bit.ly/3uWuS7a
       - 🇸🇬 2.6M节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-31 满 足 2.6 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇭🇰 YouTube-阿伟科技26-HK-26
-      - 🇺🇸 us,22移动@1Gbps 4.2M
-      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,22移动@1Gbps 4.2M
+      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
       - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
-      - 🇺🇸 us,Council Bluffs-2.8M
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 73
-      - 🇺🇸 us,Council Bluffs-7@1Gbps2.3Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 YouTube-阿伟科技25-US-26
       - YouTube-阿伟科技23-RS-26
+      - 🇺🇸 us,Council Bluffs-7@1Gbps2.3Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-2.8M
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 73
+      - 🇺🇸 YouTube-阿伟科技23-US-26
+      - 🇺🇸 YouTube-阿伟科技23-US-26 2
+      - YouTube-阿伟科技05-jp-26
       - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Council Bluffs-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 us,Council Bluffs-17@1Gbps2.9Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-29@1Gbps2.4Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-12@1Gbps2.Mhttps://bit.ly/3uWuS7a
       - YouTube2M-阿伟科技23-RS-26
+      - 🇺🇸 美国-12@1Gbps2.Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀1.9M免费领取🚀MiDnight来了
       - 🇺🇸 us,Council Bluffs-7@1Gbps1.8Mhttps://bit.ly/3uWuS7a
-      - "@SSRSUB-V06-1.7M:suo.yt/ssrsub"
       - 🇺🇸 美国🚀1.7M🚀MiDnight来了
   - name: 📲 电报信息
     type: select
@@ -281,20 +311,24 @@ proxy-groups:
       - 🎯 全球直连
       - 🇭🇰 YouTube-阿伟科技03-HK-26/2
       - 🇭🇰 YouTube-阿伟科技03-HK-26/1
+      - 🇭🇰 YouTube-阿伟科技03-HK-26/2 2
       - sg-OVH Hosting-31 满 足 3.9Mbps带 宽 需求峰值 速 度  269312 kB/s
       - 阿伟科技Yw05
+      - 🇭🇰 YouTube-阿伟科技03-HK-26/1 2
       - YouTube-阿伟科技18-jp-26
       - 🇯🇵 YouTube-阿伟科技25-JP-26
+      - 🇸🇬 YouTube-阿伟科技25-SG-26
+      - 🇭🇰 YouTube-阿伟科技26-HK-26
       - sg-OVH Hosting-29@1Gbps2.9M
-      - 🇭🇰 github.com香港Amazon数据3.0M
       - 🇯🇵 YouTube-阿伟科技02-JP-26
       - 🇯🇵 YouTube-阿伟科技26-JP-26
+      - 🇭🇰 github.com香港Amazon数据3.0M
+      - 🇰🇷 YouTube-阿伟科技26-KR-26
+      - 🇺🇸 美国-1电信@1Gbps 2.9Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-26@1Gbps2.9Mhttps://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-2.5Mbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国-6@1Gbps2.9Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-9@1Gbps2.9Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-1电信@1Gbps 2.9Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-26@1Gbps2.9Mhttps://bit.ly/3uWuS7a
-      - 🇰🇷 YouTube-阿伟科技26-KR-26
       - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)2.8M
       - "@SSRSUB-V03-2.8M:suo.yt/ssrsub"
       - 🇸🇬 美国-2@1Gbps节点更新https://bit.ly/3uWuS7a
@@ -302,30 +336,32 @@ proxy-groups:
       - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V60-付费推荐:suo.yt/ssrsub2.7M"
       - 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇨🇳 heroepvcnt
+      - 🇭🇰 YouTube-阿伟科技26-HK-26 2
+      - 🇵🇭 YouTube-阿伟科技03-PH-26/1
+      - 🇺🇸 美国-New York-31 满 足 2.6 Mbps带 宽 需求峰值 速 度  269312 kB/s
       - 🇺🇸 美国-New York-12@1Gbps2.6Mhttps://bit.ly/3uWuS7a
       - 🇸🇬 2.6M节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-31 满 足 2.6 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇭🇰 YouTube-阿伟科技26-HK-26
-      - 🇺🇸 us,22移动@1Gbps 4.2M
-      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,22移动@1Gbps 4.2M
+      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
       - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
-      - 🇺🇸 us,Council Bluffs-2.8M
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 73
-      - 🇺🇸 us,Council Bluffs-7@1Gbps2.3Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 YouTube-阿伟科技25-US-26
       - YouTube-阿伟科技23-RS-26
+      - 🇺🇸 us,Council Bluffs-7@1Gbps2.3Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-2.8M
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 73
+      - 🇺🇸 YouTube-阿伟科技23-US-26
+      - 🇺🇸 YouTube-阿伟科技23-US-26 2
+      - YouTube-阿伟科技05-jp-26
       - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Council Bluffs-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 us,Council Bluffs-17@1Gbps2.9Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-29@1Gbps2.4Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-12@1Gbps2.Mhttps://bit.ly/3uWuS7a
       - YouTube2M-阿伟科技23-RS-26
+      - 🇺🇸 美国-12@1Gbps2.Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀1.9M免费领取🚀MiDnight来了
       - 🇺🇸 us,Council Bluffs-7@1Gbps1.8Mhttps://bit.ly/3uWuS7a
-      - "@SSRSUB-V06-1.7M:suo.yt/ssrsub"
       - 🇺🇸 美国🚀1.7M🚀MiDnight来了
   - name: 🍎 苹果服务
     type: select
@@ -335,20 +371,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇭🇰 YouTube-阿伟科技03-HK-26/2
       - 🇭🇰 YouTube-阿伟科技03-HK-26/1
+      - 🇭🇰 YouTube-阿伟科技03-HK-26/2 2
       - sg-OVH Hosting-31 满 足 3.9Mbps带 宽 需求峰值 速 度  269312 kB/s
       - 阿伟科技Yw05
+      - 🇭🇰 YouTube-阿伟科技03-HK-26/1 2
       - YouTube-阿伟科技18-jp-26
       - 🇯🇵 YouTube-阿伟科技25-JP-26
+      - 🇸🇬 YouTube-阿伟科技25-SG-26
+      - 🇭🇰 YouTube-阿伟科技26-HK-26
       - sg-OVH Hosting-29@1Gbps2.9M
-      - 🇭🇰 github.com香港Amazon数据3.0M
       - 🇯🇵 YouTube-阿伟科技02-JP-26
       - 🇯🇵 YouTube-阿伟科技26-JP-26
+      - 🇭🇰 github.com香港Amazon数据3.0M
+      - 🇰🇷 YouTube-阿伟科技26-KR-26
+      - 🇺🇸 美国-1电信@1Gbps 2.9Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-26@1Gbps2.9Mhttps://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-2.5Mbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国-6@1Gbps2.9Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-9@1Gbps2.9Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-1电信@1Gbps 2.9Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-26@1Gbps2.9Mhttps://bit.ly/3uWuS7a
-      - 🇰🇷 YouTube-阿伟科技26-KR-26
       - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)2.8M
       - "@SSRSUB-V03-2.8M:suo.yt/ssrsub"
       - 🇸🇬 美国-2@1Gbps节点更新https://bit.ly/3uWuS7a
@@ -356,30 +396,32 @@ proxy-groups:
       - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V60-付费推荐:suo.yt/ssrsub2.7M"
       - 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇨🇳 heroepvcnt
+      - 🇭🇰 YouTube-阿伟科技26-HK-26 2
+      - 🇵🇭 YouTube-阿伟科技03-PH-26/1
+      - 🇺🇸 美国-New York-31 满 足 2.6 Mbps带 宽 需求峰值 速 度  269312 kB/s
       - 🇺🇸 美国-New York-12@1Gbps2.6Mhttps://bit.ly/3uWuS7a
       - 🇸🇬 2.6M节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-31 满 足 2.6 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇭🇰 YouTube-阿伟科技26-HK-26
-      - 🇺🇸 us,22移动@1Gbps 4.2M
-      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,22移动@1Gbps 4.2M
+      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
       - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
-      - 🇺🇸 us,Council Bluffs-2.8M
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 73
-      - 🇺🇸 us,Council Bluffs-7@1Gbps2.3Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 YouTube-阿伟科技25-US-26
       - YouTube-阿伟科技23-RS-26
+      - 🇺🇸 us,Council Bluffs-7@1Gbps2.3Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-2.8M
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 73
+      - 🇺🇸 YouTube-阿伟科技23-US-26
+      - 🇺🇸 YouTube-阿伟科技23-US-26 2
+      - YouTube-阿伟科技05-jp-26
       - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Council Bluffs-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 us,Council Bluffs-17@1Gbps2.9Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-29@1Gbps2.4Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-12@1Gbps2.Mhttps://bit.ly/3uWuS7a
       - YouTube2M-阿伟科技23-RS-26
+      - 🇺🇸 美国-12@1Gbps2.Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀1.9M免费领取🚀MiDnight来了
       - 🇺🇸 us,Council Bluffs-7@1Gbps1.8Mhttps://bit.ly/3uWuS7a
-      - "@SSRSUB-V06-1.7M:suo.yt/ssrsub"
       - 🇺🇸 美国🚀1.7M🚀MiDnight来了
   - name: 🎯 全球直连
     type: select
@@ -398,20 +440,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇭🇰 YouTube-阿伟科技03-HK-26/2
       - 🇭🇰 YouTube-阿伟科技03-HK-26/1
+      - 🇭🇰 YouTube-阿伟科技03-HK-26/2 2
       - sg-OVH Hosting-31 满 足 3.9Mbps带 宽 需求峰值 速 度  269312 kB/s
       - 阿伟科技Yw05
+      - 🇭🇰 YouTube-阿伟科技03-HK-26/1 2
       - YouTube-阿伟科技18-jp-26
       - 🇯🇵 YouTube-阿伟科技25-JP-26
+      - 🇸🇬 YouTube-阿伟科技25-SG-26
+      - 🇭🇰 YouTube-阿伟科技26-HK-26
       - sg-OVH Hosting-29@1Gbps2.9M
-      - 🇭🇰 github.com香港Amazon数据3.0M
       - 🇯🇵 YouTube-阿伟科技02-JP-26
       - 🇯🇵 YouTube-阿伟科技26-JP-26
+      - 🇭🇰 github.com香港Amazon数据3.0M
+      - 🇰🇷 YouTube-阿伟科技26-KR-26
+      - 🇺🇸 美国-1电信@1Gbps 2.9Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-26@1Gbps2.9Mhttps://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-2.5Mbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国-6@1Gbps2.9Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-9@1Gbps2.9Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-1电信@1Gbps 2.9Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-26@1Gbps2.9Mhttps://bit.ly/3uWuS7a
-      - 🇰🇷 YouTube-阿伟科技26-KR-26
       - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)2.8M
       - "@SSRSUB-V03-2.8M:suo.yt/ssrsub"
       - 🇸🇬 美国-2@1Gbps节点更新https://bit.ly/3uWuS7a
@@ -419,30 +465,32 @@ proxy-groups:
       - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V60-付费推荐:suo.yt/ssrsub2.7M"
       - 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇨🇳 heroepvcnt
+      - 🇭🇰 YouTube-阿伟科技26-HK-26 2
+      - 🇵🇭 YouTube-阿伟科技03-PH-26/1
+      - 🇺🇸 美国-New York-31 满 足 2.6 Mbps带 宽 需求峰值 速 度  269312 kB/s
       - 🇺🇸 美国-New York-12@1Gbps2.6Mhttps://bit.ly/3uWuS7a
       - 🇸🇬 2.6M节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-31 满 足 2.6 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇭🇰 YouTube-阿伟科技26-HK-26
-      - 🇺🇸 us,22移动@1Gbps 4.2M
-      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,22移动@1Gbps 4.2M
+      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
       - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
-      - 🇺🇸 us,Council Bluffs-2.8M
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 73
-      - 🇺🇸 us,Council Bluffs-7@1Gbps2.3Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 YouTube-阿伟科技25-US-26
       - YouTube-阿伟科技23-RS-26
+      - 🇺🇸 us,Council Bluffs-7@1Gbps2.3Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-2.8M
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 73
+      - 🇺🇸 YouTube-阿伟科技23-US-26
+      - 🇺🇸 YouTube-阿伟科技23-US-26 2
+      - YouTube-阿伟科技05-jp-26
       - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Council Bluffs-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 us,Council Bluffs-17@1Gbps2.9Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-29@1Gbps2.4Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-12@1Gbps2.Mhttps://bit.ly/3uWuS7a
       - YouTube2M-阿伟科技23-RS-26
+      - 🇺🇸 美国-12@1Gbps2.Mhttps://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀1.9M免费领取🚀MiDnight来了
       - 🇺🇸 us,Council Bluffs-7@1Gbps1.8Mhttps://bit.ly/3uWuS7a
-      - "@SSRSUB-V06-1.7M:suo.yt/ssrsub"
       - 🇺🇸 美国🚀1.7M🚀MiDnight来了
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
