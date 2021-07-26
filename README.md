@@ -6,30 +6,42 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: "🇺🇸 us,Council Bluffs-22移动@1Gbps 4.2M", server: 104.19.45.117, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
+  - {name: "🇸🇬 us,Council Bluffs-9@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.17.169.98, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
   - {name: sg-OVH Hosting-29@1Gbps2.9M, server: 104.20.51.197, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
   - {name: 🇺🇸 https://bit.ly/3uWuS7a, server: 118.107.244.114, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇺🇸 美国-New York-29@1Gbps 1M, server: 104.17.169.98, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
   - {name: 阿伟科技Yw05, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a7436b35-0daf-3eac-9a0b-356b8a3cc63b, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
+  - {name: "🇺🇸 us,Council Bluffs-17@1Gbps2.9Mhttps://bit.ly/3uWuS7a", server: 104.16.195.154, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
+  - {name: "🇺🇸 us,Council Bluffs-6@1Gbps2.9Mhttps://bit.ly/3uWuS7a", server: 104.17.169.98, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
+  - {name: "🇸🇬 us,Council Bluffs-19@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.17.169.98, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
+  - {name: "🇺🇸 us,Council Bluffs-33", server: 104.17.9.57, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
   - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a, server: 4F3fw7PgIY, port: 0, type: socks5}
   - {name: 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.21.76.229, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: "🇸🇬 us,Council Bluffs-3@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.17.169.98, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
+  - {name: 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.17.169.98, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: 🇸🇬 美国-6@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.17.169.98, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
   - {name: "🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.19.65.34, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
   - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了, server: 104.20.50.82, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
   - {name: 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong, server: hk79.99uu.team, port: 23430, type: vmess, uuid: bfcbfebe-3ef5-4ccf-b6f6-bb5d34550d11, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /v2, ws-headers: {Host: hk79.99uu.team}}
   - {name: "🇸🇬 us,Council Bluffs-7@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.20.55.22, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
+  - {name: 🇸🇬 美国-New York-9@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.17.169.98, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
   - {name: 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2, server: 5.188.230.247, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 2021-7-24, server: 104.17.169.98, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
   - {name: 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.65.34, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
   - {name: 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2, server: 104.19.19.105, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: 🇸🇬 美国-2@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.195.154, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇸🇬 美国-7@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.195.154, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.16.195.154, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇺🇸 美国-23@1Gbps2.1Mhttps://bit.ly/3uWuS7a, server: 104.16.195.154, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
   - {name: 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3, server: 35.220.195.111, port: 8080, type: vmess, uuid: 6774377f-caec-41be-c283-ebe9fb003ca1, alterId: 53, cipher: auto, tls: false, network: ws, ws-path: /atutest, ws-headers: {Host: 35.220.195.111}}
+  - {name: 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.17.169.98, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
   - {name: share, server: 104.17.36.178, port: 443, type: vmess, uuid: 7a1bd825-d7da-461c-be6a-d082e32d3337, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/qhjmvws?ed=2048", ws-headers: {Host: ehtdz61g4.dongkid.online}}
   - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 2, server: 104.19.65.34, port: 80, type: vmess, uuid: 90cab127-9c02-46f2-8642-c7d230c88355, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: us2.jjyun.ren}}
   - {name: 🇮🇳 https://www.mattkaydiary.com|印度(IN)India/Mumbai, server: 13.233.139.203, port: 8888, type: vmess, uuid: 24cd8398-c0e6-4667-a712-a358754809d9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.233.139.203}}
-  - {name: "@SSRSUB-V112-付费推荐:suo.yt/ssrsub", server: 104.17.169.98, port: 80, type: vmess, uuid: ca870483-fa7d-4f64-983a-6ed455143aca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /live, ws-headers: {Host: euserv9p.ezddns.tk}}
-  - {name: 🇸🇬 美国-New York-20@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.17.169.98, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇯🇵 JP（感谢关注youtube：8度科技）, server: 84.17.34.24, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Pablo, server: 104.160.186.54, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2, server: 23.224.30.37, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
-  - {name: 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180, server: 104.20.51.120, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
+  - {name: 🇸🇬 美国-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.17.9.57, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇸🇬 美国-10@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.17.169.98, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇸🇬 美国-8@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.17.169.98, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇺🇸 美国-35 联通100M+4K -2, server: 104.17.169.98, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -37,60 +49,84 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸 us,Council Bluffs-22移动@1Gbps 4.2M
+      - 🇸🇬 us,Council Bluffs-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - sg-OVH Hosting-29@1Gbps2.9M
       - 🇺🇸 https://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-29@1Gbps 1M
       - 阿伟科技Yw05
+      - 🇺🇸 us,Council Bluffs-17@1Gbps2.9Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-6@1Gbps2.9Mhttps://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-19@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-33
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-6@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
       - 🇸🇬 us,Council Bluffs-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
+      - 2021-7-24
       - 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇸🇬 美国-2@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-23@1Gbps2.1Mhttps://bit.ly/3uWuS7a
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+      - 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a
       - share
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
       - 🇮🇳 https://www.mattkaydiary.com|印度(IN)India/Mumbai
-      - "@SSRSUB-V112-付费推荐:suo.yt/ssrsub"
-      - 🇸🇬 美国-New York-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 JP（感谢关注youtube：8度科技）
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Pablo
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
+      - 🇸🇬 美国-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-8@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-35 联通100M+4K -2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🇺🇸 us,Council Bluffs-22移动@1Gbps 4.2M
+      - 🇸🇬 us,Council Bluffs-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - sg-OVH Hosting-29@1Gbps2.9M
       - 🇺🇸 https://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-29@1Gbps 1M
       - 阿伟科技Yw05
+      - 🇺🇸 us,Council Bluffs-17@1Gbps2.9Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-6@1Gbps2.9Mhttps://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-19@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-33
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-6@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
       - 🇸🇬 us,Council Bluffs-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
+      - 2021-7-24
       - 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇸🇬 美国-2@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-23@1Gbps2.1Mhttps://bit.ly/3uWuS7a
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+      - 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a
       - share
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
       - 🇮🇳 https://www.mattkaydiary.com|印度(IN)India/Mumbai
-      - "@SSRSUB-V112-付费推荐:suo.yt/ssrsub"
-      - 🇸🇬 美国-New York-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 JP（感谢关注youtube：8度科技）
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Pablo
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
+      - 🇸🇬 美国-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-8@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-35 联通100M+4K -2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -98,30 +134,42 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸 us,Council Bluffs-22移动@1Gbps 4.2M
+      - 🇸🇬 us,Council Bluffs-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - sg-OVH Hosting-29@1Gbps2.9M
       - 🇺🇸 https://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-29@1Gbps 1M
       - 阿伟科技Yw05
+      - 🇺🇸 us,Council Bluffs-17@1Gbps2.9Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-6@1Gbps2.9Mhttps://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-19@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-33
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-6@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
       - 🇸🇬 us,Council Bluffs-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
+      - 2021-7-24
       - 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇸🇬 美国-2@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-23@1Gbps2.1Mhttps://bit.ly/3uWuS7a
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+      - 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a
       - share
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
       - 🇮🇳 https://www.mattkaydiary.com|印度(IN)India/Mumbai
-      - "@SSRSUB-V112-付费推荐:suo.yt/ssrsub"
-      - 🇸🇬 美国-New York-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 JP（感谢关注youtube：8度科技）
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Pablo
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
+      - 🇸🇬 美国-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-8@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-35 联通100M+4K -2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -136,60 +184,84 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🇺🇸 us,Council Bluffs-22移动@1Gbps 4.2M
+      - 🇸🇬 us,Council Bluffs-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - sg-OVH Hosting-29@1Gbps2.9M
       - 🇺🇸 https://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-29@1Gbps 1M
       - 阿伟科技Yw05
+      - 🇺🇸 us,Council Bluffs-17@1Gbps2.9Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-6@1Gbps2.9Mhttps://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-19@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-33
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-6@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
       - 🇸🇬 us,Council Bluffs-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
+      - 2021-7-24
       - 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇸🇬 美国-2@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-23@1Gbps2.1Mhttps://bit.ly/3uWuS7a
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+      - 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a
       - share
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
       - 🇮🇳 https://www.mattkaydiary.com|印度(IN)India/Mumbai
-      - "@SSRSUB-V112-付费推荐:suo.yt/ssrsub"
-      - 🇸🇬 美国-New York-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 JP（感谢关注youtube：8度科技）
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Pablo
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
+      - 🇸🇬 美国-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-8@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-35 联通100M+4K -2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🇺🇸 us,Council Bluffs-22移动@1Gbps 4.2M
+      - 🇸🇬 us,Council Bluffs-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - sg-OVH Hosting-29@1Gbps2.9M
       - 🇺🇸 https://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-29@1Gbps 1M
       - 阿伟科技Yw05
+      - 🇺🇸 us,Council Bluffs-17@1Gbps2.9Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-6@1Gbps2.9Mhttps://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-19@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-33
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-6@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
       - 🇸🇬 us,Council Bluffs-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
+      - 2021-7-24
       - 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇸🇬 美国-2@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-23@1Gbps2.1Mhttps://bit.ly/3uWuS7a
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+      - 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a
       - share
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
       - 🇮🇳 https://www.mattkaydiary.com|印度(IN)India/Mumbai
-      - "@SSRSUB-V112-付费推荐:suo.yt/ssrsub"
-      - 🇸🇬 美国-New York-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 JP（感谢关注youtube：8度科技）
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Pablo
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
+      - 🇸🇬 美国-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-8@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-35 联通100M+4K -2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -197,30 +269,42 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸 us,Council Bluffs-22移动@1Gbps 4.2M
+      - 🇸🇬 us,Council Bluffs-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - sg-OVH Hosting-29@1Gbps2.9M
       - 🇺🇸 https://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-29@1Gbps 1M
       - 阿伟科技Yw05
+      - 🇺🇸 us,Council Bluffs-17@1Gbps2.9Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-6@1Gbps2.9Mhttps://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-19@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-33
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-6@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
       - 🇸🇬 us,Council Bluffs-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
+      - 2021-7-24
       - 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇸🇬 美国-2@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-23@1Gbps2.1Mhttps://bit.ly/3uWuS7a
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+      - 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a
       - share
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
       - 🇮🇳 https://www.mattkaydiary.com|印度(IN)India/Mumbai
-      - "@SSRSUB-V112-付费推荐:suo.yt/ssrsub"
-      - 🇸🇬 美国-New York-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 JP（感谢关注youtube：8度科技）
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Pablo
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
+      - 🇸🇬 美国-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-8@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-35 联通100M+4K -2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -237,30 +321,42 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸 us,Council Bluffs-22移动@1Gbps 4.2M
+      - 🇸🇬 us,Council Bluffs-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - sg-OVH Hosting-29@1Gbps2.9M
       - 🇺🇸 https://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-29@1Gbps 1M
       - 阿伟科技Yw05
+      - 🇺🇸 us,Council Bluffs-17@1Gbps2.9Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-6@1Gbps2.9Mhttps://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-19@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-33
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-6@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
       - 🇸🇬 us,Council Bluffs-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2
+      - 2021-7-24
       - 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国🚀关注http://dwz.date/dUtE免费领取🚀MiDnight来了 2
+      - 🇸🇬 美国-2@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-7@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-23@1Gbps2.1Mhttps://bit.ly/3uWuS7a
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 3
+      - 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a
       - share
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
       - 🇮🇳 https://www.mattkaydiary.com|印度(IN)India/Mumbai
-      - "@SSRSUB-V112-付费推荐:suo.yt/ssrsub"
-      - 🇸🇬 美国-New York-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 JP（感谢关注youtube：8度科技）
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Pablo
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_180
+      - 🇸🇬 美国-1电信@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-8@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-35 联通100M+4K -2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
