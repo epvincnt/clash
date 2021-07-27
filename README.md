@@ -72,7 +72,7 @@ proxies:
   - {name: 🇳🇱 荷兰-33, server: 104.19.35.122, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
   - {name: 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong, server: 18.166.52.250, port: 80, type: vmess, uuid: 7857e89a-97cf-4362-b853-2a3688332488, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 美国-New York-3@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.17.4.3, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇳🇱 荷兰-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s, server: 104.16.167.138, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
+  - {name: 阿伟科技Yw05, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a7436b35-0daf-3eac-9a0b-356b8a3cc63b, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -146,7 +146,7 @@ proxy-groups:
       - 🇳🇱 荷兰-33
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
       - 🇸🇬 美国-New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 阿伟科技Yw05
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -219,7 +219,7 @@ proxy-groups:
       - 🇳🇱 荷兰-33
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
       - 🇸🇬 美国-New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 阿伟科技Yw05
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -293,7 +293,7 @@ proxy-groups:
       - 🇳🇱 荷兰-33
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
       - 🇸🇬 美国-New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 阿伟科技Yw05
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -373,7 +373,7 @@ proxy-groups:
       - 🇳🇱 荷兰-33
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
       - 🇸🇬 美国-New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 阿伟科技Yw05
   - name: 📲 电报信息
     type: select
     proxies:
@@ -446,7 +446,7 @@ proxy-groups:
       - 🇳🇱 荷兰-33
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
       - 🇸🇬 美国-New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 阿伟科技Yw05
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -520,7 +520,7 @@ proxy-groups:
       - 🇳🇱 荷兰-33
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
       - 🇸🇬 美国-New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 阿伟科技Yw05
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -603,7 +603,7 @@ proxy-groups:
       - 🇳🇱 荷兰-33
       - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
       - 🇸🇬 美国-New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 阿伟科技Yw05
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
