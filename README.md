@@ -6,73 +6,74 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: share2, server: 104.16.167.138, port: 443, type: vmess, uuid: 7a1bd825-d7da-461c-be6a-d082e32d3337, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/qhjmvws?ed=2048", ws-headers: {Host: ehtdz61g4.dongkid.online}}
-  - {name: share, server: 104.17.36.178, port: 443, type: vmess, uuid: 7a1bd825-d7da-461c-be6a-d082e32d3337, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/qhjmvws?ed=2048", ws-headers: {Host: ehtdz61g4.dongkid.online}}
-  - {name: 🇭🇰 www.ncm68.com _🇭🇰HK_199, server: 212.102.42.199, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: "🇸🇬 us,Las Vegas-9@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.16.160.114, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
   - {name: "🇸🇬 us,Las Vegas-25@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.17.188.91, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
-  - {name: "🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s", server: 104.16.167.138, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
-  - {name: "🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.19.30.120, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
-  - {name: "🇸🇬 us,Las Vegas-5@1Gbps节点更新https://bit.ly/3uWuS7a", server: www.garmin.com, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
-  - {name: "🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.16.110.238, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
-  - {name: "🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.16.148.48, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
-  - {name: "🇺🇸 us,Las Vegas-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s", server: 104.16.207.196, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
-  - {name: "🇺🇸 us,Las Vegas-35 联通100M+4K -2", server: 104.17.36.178, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
-  - {name: "🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.16.149.48, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
-  - {name: "🇸🇬 us,Council Bluffs-5@1Gbps节点更新https://bit.ly/3uWuS7a", server: www.garmin.com, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
-  - {name: "🇺🇸 us,Council Bluffs-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s", server: 104.16.167.138, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
-  - {name: "🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.19.23.24, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
-  - {name: "🇺🇸 us,Council Bluffs-35 联通100M+4K -2", server: 104.17.36.178, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
-  - {name: "🇸🇬 us,Council Bluffs-9@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.16.160.114, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
-  - {name: "🇺🇸 us,Council Bluffs-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone", server: 104.16.207.196, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
-  - {name: "🇸🇬 us,Council Bluffs-10@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.19.30.120, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
-  - {name: "🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a", server: 104.19.54.120, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
-  - {name: "🇸🇬 us,Council Bluffs-23@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.16.149.48, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
-  - {name: "🇸🇬 us,Council Bluffs-25@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.17.188.91, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
-  - {name: "🇸🇬 us,Council Bluffs-28@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.16.148.48, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
-  - {name: 🇭🇰 github.com香港Amazon数据3.0M, server: 18.166.52.250, port: 80, type: vmess, uuid: 7857e89a-97cf-4362-b853-2a3688332488, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇸🇬 us,Council Bluffs-12@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.19.30.120, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
-  - {name: 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.17.188.91, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.148.48, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇸🇬 美国-23@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.149.48, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s, server: 104.16.167.138, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇸🇬 美国-28@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.148.48, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: "🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a", server: 104.19.23.24, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
-  - {name: 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a, server: 104.19.65.34, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: "🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a", server: 104.19.45.117, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Ashburn, server: 104.20.51.197, port: 443, type: vmess, uuid: 5260564e-1d3d-4e1e-af02-65553b5ae9b4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vir01.ml}}
-  - {name: 🇸🇬 美国-New York-23@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.149.48, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇺🇸 美国-New York-35 联通100M+4K -2, server: 104.17.36.178, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇸🇬 美国-9@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.160.114, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇸🇬 美国-New York-25@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.17.188.91, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇸🇬 美国-5@1Gbps节点更新https://bit.ly/3uWuS7a, server: www.garmin.com, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago, server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇸🇬 美国-New York-5@1Gbps节点更新https://bit.ly/3uWuS7a, server: www.garmin.com, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇺🇸 美国-35 联通100M+4K -2, server: 104.17.36.178, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇺🇸 美国-New York-29@1Gbps2.4Mhttps://bit.ly/3uWuS7a, server: 104.19.23.24, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇸🇬 美国-New York-10@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.110.238, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: "🇺🇸 us,22移动@1Gbps 4.2M", server: 104.19.45.117, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
-  - {name: 🇺🇸 美国-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone, server: 104.16.207.196, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇭🇰 美国-3.3M满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG, server: 104.16.2.200, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.19.45.117, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: v2cross.com, server: 120.236.197.89, port: 50003, type: vmess, uuid: 53f853f1-df75-4014-9572-c9677db10dbc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.236.197.89}}
+  - {name: "🇸🇬 us,Las Vegas-9@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.16.160.114, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
   - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a, server: 104.19.30.120, port: 443, type: vmess, uuid: 7a1bd825-d7da-461c-be6a-d082e32d3337, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/qhjmvws?ed=2048", ws-headers: {Host: ehtdz61g4.dongkid.online}}
+  - {name: "🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.19.30.120, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
+  - {name: 🇸🇬 美国-New York-23@1Gbps节点更新https://bit.ly/3uWuS7a, server: 172.64.65.8, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: "🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a", server: 172.64.65.8, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Ashburn, server: 172.64.72.144, port: 443, type: vmess, uuid: 5260564e-1d3d-4e1e-af02-65553b5ae9b4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vir01.ml}}
+  - {name: 🇸🇬 美国-9@1Gbps节点更新https://bit.ly/3uWuS7a, server: 172.64.65.8, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.88.0, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: 🇺🇸 美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone, server: 104.16.88.0, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.88.0, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: "🇸🇬 us,Council Bluffs-10@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.19.30.120, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
+  - {name: 🇺🇸 美国-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone, server: 104.16.207.196, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇸🇬 美国-New York-18@1Gbps节点更新https://bit.ly/3uWuS7a, server: 172.64.65.8, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: 🇸🇬 2.6M节点更新https://bit.ly/3uWuS7a, server: 172.64.72.144, port: 80, type: vmess, uuid: 90cab127-9c02-46f2-8642-c7d230c88355, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: us2.jjyun.ren}}
+  - {name: 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.88.0, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇸🇬 美国-23@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.88.0, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: "🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a", server: 104.19.23.24, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
+  - {name: 🇺🇸 美国-35 联通100M+4K -2, server: 104.17.36.178, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago, server: 172.64.65.8, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s, server: 172.64.65.8, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: 🇸🇬 美国-New York-12@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.88.0, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: "🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a", server: 104.19.45.117, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
+  - {name: 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.19.54.120, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: "🇺🇸 us,Las Vegas-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s", server: 172.64.72.144, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
+  - {name: "🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.16.149.48, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
+  - {name: "🇸🇬 us,Council Bluffs-12@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.19.30.120, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
+  - {name: 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a, server: 104.19.65.34, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇸🇬 美国-5@1Gbps节点更新https://bit.ly/3uWuS7a, server: www.garmin.com, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: "🇸🇬 us,Council Bluffs-9@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.17.172.141, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
+  - {name: "🇺🇸 us,Council Bluffs-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone", server: 104.16.207.196, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
   - {name: 🇭🇰 美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG, server: 104.19.30.120, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇸🇬 美国-New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.19.54.120, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a_2.7M, server: 4F3fw7PgIY, port: 0, type: socks5}
-  - {name: https://www.mattkaydiary.com, server: 104.20.51.141, port: 443, type: vmess, uuid: 4528ce2f-84c0-42b4-a16f-f5689b9d8235, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vir01.tk}}
-  - {name: 🇸🇬 美国-New York-20@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.55.22, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇵🇭 YouTube-阿伟科技03-PH-26/1, server: 165.154.233.163, port: 80, type: vmess, uuid: e6d14923-99e3-4e4d-8dd3-65968a21114b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /zero, ws-headers: {Host: 165.154.233.163}}
-  - {name: 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.51.197, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: share1.2M, server: 104.20.53.45, port: 443, type: vmess, uuid: 7a1bd825-d7da-461c-be6a-d082e32d3337, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/qhjmvws?ed=2048", ws-headers: {Host: ehtdz61g4.dongkid.online}}
-  - {name: 🇺🇸 美国🚀1.9M免费领取🚀MiDnight来了, server: 104.19.19.105, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: "🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.20.50.82, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
   - {name: 🇸🇬 美国-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.19.45.117, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.110.238, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
-  - {name: 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main, server: 104.17.7.172, port: 80, type: vmess, uuid: 56d641d2-aebd-4329-b1a4-586d50c864e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: m2.proxypools.top}}
-  - {name: 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.160.114, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
-  - {name: 🇳🇱 荷兰-33, server: 104.19.35.122, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
-  - {name: 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong, server: 18.166.52.250, port: 80, type: vmess, uuid: 7857e89a-97cf-4362-b853-2a3688332488, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 美国-New York-3@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.17.4.3, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: "🇺🇸 us,Council Bluffs-3.6M", server: 104.19.54.120, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
+  - {name: 🇯🇵 YouTube-阿伟科技02-JP-2.6M, server: japan.mini.00001.zeroyyds.cc, port: 80, type: vmess, uuid: e6d14923-99e3-4e4d-8dd3-65968a21114b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
+  - {name: 🇸🇬 美国-17@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.30.120, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: "🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.17.2.108, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
+  - {name: "🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a", server: 172.64.72.144, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
+  - {name: "🇺🇸 us,Council Bluffs-35 联通100M+4K -2", server: 104.17.36.178, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
+  - {name: "🇸🇬 us,Council Bluffs-23@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.16.149.48, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
+  - {name: 🇺🇸 美国-New York-35 联通100M+4K -2, server: 104.17.36.178, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: v2cross.com 2, server: 212.102.42.194, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇭🇰 美国-3.3M满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG, server: 104.16.2.200, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇳🇱 荷兰-33, server: 104.16.240.114, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
+  - {name: "🇺🇸 us,Council Bluffs-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s", server: 172.64.72.144, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
+  - {name: "🇸🇬 us,Council Bluffs-25@1Gbps节点更新https://bit.ly/3uWuS7a", server: 172.64.72.144, port: 443, type: vmess, uuid: aceadd36-88fb-4269-9134-9a0e8a2d85bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/vincent-jacksonvws?ed=2048", ws-headers: {Host: us.vincent-jackson2021.cf}}
+  - {name: "🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a", server: 104.19.54.120, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 2, server: 104.20.53.69, port: 443, type: vmess, uuid: 45f72e43-4517-4d05-a9d8-a6ab64dc9d56, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vir01.ga}}
+  - {name: 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_633, server: 172.64.65.8, port: 80, type: vmess, uuid: 24d6dc76-f0a0-4809-8a70-6ad2dce20022, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv8p.ezddns.tk}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Dallas, server: 172.64.72.144, port: 80, type: vmess, uuid: c0304bc1-f8ff-4108-9bc6-3415d16ae5e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv12p.ezddns.tk}}
+  - {name: "🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a", server: 172.64.72.144, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
+  - {name: 🇸🇬 美国-New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.19.54.120, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: "🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.20.50.82, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
+  - {name: YouTube-阿伟科技05-jp-26, server: cm2.cheapv2.xyz, port: 26601, type: vmess, uuid: cd22f8ef-0572-31a4-9244-fba30c4523ef, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: cm2.cheapv2.xyz}}
+  - {name: 🇭🇰 香港7-三网优化, server: 715hk.fans8.xyz, port: 80, type: vmess, uuid: 0cd419db-820e-331f-8a36-26b3f5506266, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 715hk.fans8.xyz}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 3, server: 172.64.72.144, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: "@SSRSUB-V06-1.7M:suo.yt/ssrsub", server: 172.64.72.144, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇳🇱 荷兰-5@1Gbps节点更新https://bit.ly/3uWuS7a, server: 172.64.72.144, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
   - {name: 阿伟科技Yw05, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a7436b35-0daf-3eac-9a0b-356b8a3cc63b, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
+  - {name: 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.19.45.117, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.160.114, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
+  - {name: 🇳🇱 荷兰-25@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.17.188.91, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 4, server: 104.16.195.154, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.23.24, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇺🇸 美国-33, server: 104.20.53.45, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇭🇰 香港2-三网优化, server: 73hk88.fans8.xyz, port: 80, type: vmess, uuid: 0cd419db-820e-331f-8a36-26b3f5506266, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 73hk88.fans8.xyz}}
+  - {name: 🇯🇵 日本 AA, server: 18.177.136.58, port: 4939, type: vmess, uuid: 844ea544-e5ca-3200-91af-876c4da6dcb0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -80,146 +81,148 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - share2
-      - share
-      - 🇭🇰 www.ncm68.com _🇭🇰HK_199
-      - 🇸🇬 us,Las Vegas-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Las Vegas-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - v2cross.com
+      - 🇸🇬 us,Las Vegas-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-23@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Ashburn
+      - 🇸🇬 美国-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
+      - 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
+      - 🇸🇬 美国-New York-18@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 2.6M节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 美国-35 联通100M+4K -2
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
+      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇸🇬 美国-New York-12@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 us,Las Vegas-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 us,Las Vegas-35 联通100M+4K -2
       - 🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-35 联通100M+4K -2
+      - 🇸🇬 us,Council Bluffs-12@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
+      - 🇸🇬 美国-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Council Bluffs-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 us,Council Bluffs-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
-      - 🇸🇬 us,Council Bluffs-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 github.com香港Amazon数据3.0M
-      - 🇸🇬 us,Council Bluffs-12@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 美国-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Ashburn
-      - 🇸🇬 美国-New York-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-35 联通100M+4K -2
-      - 🇸🇬 美国-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
-      - 🇸🇬 美国-New York-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-35 联通100M+4K -2
-      - 🇺🇸 美国-New York-29@1Gbps2.4Mhttps://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,22移动@1Gbps 4.2M
-      - 🇺🇸 美国-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
-      - 🇭🇰 美国-3.3M满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇭🇰 美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇸🇬 美国-New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a_2.7M
-      - https://www.mattkaydiary.com
-      - 🇸🇬 美国-New York-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇵🇭 YouTube-阿伟科技03-PH-26/1
-      - 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a
-      - share1.2M
-      - 🇺🇸 美国🚀1.9M免费领取🚀MiDnight来了
-      - 🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main
-      - 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-3.6M
+      - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
+      - 🇸🇬 美国-17@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-35 联通100M+4K -2
+      - 🇸🇬 us,Council Bluffs-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-35 联通100M+4K -2
+      - v2cross.com 2
+      - 🇭🇰 美国-3.3M满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
       - 🇳🇱 荷兰-33
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇸🇬 美国-New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇸🇬 us,Council Bluffs-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 2
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_633
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Dallas
+      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - YouTube-阿伟科技05-jp-26
+      - 🇭🇰 香港7-三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 3
+      - "@SSRSUB-V06-1.7M:suo.yt/ssrsub"
+      - 🇳🇱 荷兰-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 阿伟科技Yw05
+      - 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇳🇱 荷兰-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 4
+      - 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-33
+      - 🇭🇰 香港2-三网优化
+      - 🇯🇵 日本 AA
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - share2
-      - share
-      - 🇭🇰 www.ncm68.com _🇭🇰HK_199
-      - 🇸🇬 us,Las Vegas-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Las Vegas-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - v2cross.com
+      - 🇸🇬 us,Las Vegas-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-23@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Ashburn
+      - 🇸🇬 美国-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
+      - 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
+      - 🇸🇬 美国-New York-18@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 2.6M节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 美国-35 联通100M+4K -2
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
+      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇸🇬 美国-New York-12@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 us,Las Vegas-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 us,Las Vegas-35 联通100M+4K -2
       - 🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-35 联通100M+4K -2
+      - 🇸🇬 us,Council Bluffs-12@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
+      - 🇸🇬 美国-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Council Bluffs-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 us,Council Bluffs-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
-      - 🇸🇬 us,Council Bluffs-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 github.com香港Amazon数据3.0M
-      - 🇸🇬 us,Council Bluffs-12@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 美国-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Ashburn
-      - 🇸🇬 美国-New York-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-35 联通100M+4K -2
-      - 🇸🇬 美国-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
-      - 🇸🇬 美国-New York-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-35 联通100M+4K -2
-      - 🇺🇸 美国-New York-29@1Gbps2.4Mhttps://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,22移动@1Gbps 4.2M
-      - 🇺🇸 美国-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
-      - 🇭🇰 美国-3.3M满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇭🇰 美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇸🇬 美国-New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a_2.7M
-      - https://www.mattkaydiary.com
-      - 🇸🇬 美国-New York-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇵🇭 YouTube-阿伟科技03-PH-26/1
-      - 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a
-      - share1.2M
-      - 🇺🇸 美国🚀1.9M免费领取🚀MiDnight来了
-      - 🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main
-      - 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-3.6M
+      - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
+      - 🇸🇬 美国-17@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-35 联通100M+4K -2
+      - 🇸🇬 us,Council Bluffs-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-35 联通100M+4K -2
+      - v2cross.com 2
+      - 🇭🇰 美国-3.3M满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
       - 🇳🇱 荷兰-33
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇸🇬 美国-New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇸🇬 us,Council Bluffs-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 2
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_633
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Dallas
+      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - YouTube-阿伟科技05-jp-26
+      - 🇭🇰 香港7-三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 3
+      - "@SSRSUB-V06-1.7M:suo.yt/ssrsub"
+      - 🇳🇱 荷兰-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 阿伟科技Yw05
+      - 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇳🇱 荷兰-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 4
+      - 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-33
+      - 🇭🇰 香港2-三网优化
+      - 🇯🇵 日本 AA
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -227,79 +230,80 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - share2
-      - share
-      - 🇭🇰 www.ncm68.com _🇭🇰HK_199
-      - 🇸🇬 us,Las Vegas-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Las Vegas-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - v2cross.com
+      - 🇸🇬 us,Las Vegas-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-23@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Ashburn
+      - 🇸🇬 美国-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
+      - 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
+      - 🇸🇬 美国-New York-18@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 2.6M节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 美国-35 联通100M+4K -2
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
+      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇸🇬 美国-New York-12@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 us,Las Vegas-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 us,Las Vegas-35 联通100M+4K -2
       - 🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-35 联通100M+4K -2
+      - 🇸🇬 us,Council Bluffs-12@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
+      - 🇸🇬 美国-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Council Bluffs-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 us,Council Bluffs-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
-      - 🇸🇬 us,Council Bluffs-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 github.com香港Amazon数据3.0M
-      - 🇸🇬 us,Council Bluffs-12@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 美国-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Ashburn
-      - 🇸🇬 美国-New York-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-35 联通100M+4K -2
-      - 🇸🇬 美国-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
-      - 🇸🇬 美国-New York-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-35 联通100M+4K -2
-      - 🇺🇸 美国-New York-29@1Gbps2.4Mhttps://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,22移动@1Gbps 4.2M
-      - 🇺🇸 美国-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
-      - 🇭🇰 美国-3.3M满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇭🇰 美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇸🇬 美国-New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a_2.7M
-      - https://www.mattkaydiary.com
-      - 🇸🇬 美国-New York-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇵🇭 YouTube-阿伟科技03-PH-26/1
-      - 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a
-      - share1.2M
-      - 🇺🇸 美国🚀1.9M免费领取🚀MiDnight来了
-      - 🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main
-      - 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-3.6M
+      - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
+      - 🇸🇬 美国-17@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-35 联通100M+4K -2
+      - 🇸🇬 us,Council Bluffs-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-35 联通100M+4K -2
+      - v2cross.com 2
+      - 🇭🇰 美国-3.3M满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
       - 🇳🇱 荷兰-33
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇸🇬 美国-New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇸🇬 us,Council Bluffs-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 2
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_633
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Dallas
+      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - YouTube-阿伟科技05-jp-26
+      - 🇭🇰 香港7-三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 3
+      - "@SSRSUB-V06-1.7M:suo.yt/ssrsub"
+      - 🇳🇱 荷兰-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 阿伟科技Yw05
+      - 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇳🇱 荷兰-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 4
+      - 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-33
+      - 🇭🇰 香港2-三网优化
+      - 🇯🇵 日本 AA
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 github.com香港Amazon数据3.0M
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+      - 🇭🇰 香港7-三网优化
+      - 🇭🇰 香港2-三网优化
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -307,146 +311,148 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - share2
-      - share
-      - 🇭🇰 www.ncm68.com _🇭🇰HK_199
-      - 🇸🇬 us,Las Vegas-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Las Vegas-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - v2cross.com
+      - 🇸🇬 us,Las Vegas-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-23@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Ashburn
+      - 🇸🇬 美国-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
+      - 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
+      - 🇸🇬 美国-New York-18@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 2.6M节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 美国-35 联通100M+4K -2
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
+      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇸🇬 美国-New York-12@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 us,Las Vegas-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 us,Las Vegas-35 联通100M+4K -2
       - 🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-35 联通100M+4K -2
+      - 🇸🇬 us,Council Bluffs-12@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
+      - 🇸🇬 美国-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Council Bluffs-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 us,Council Bluffs-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
-      - 🇸🇬 us,Council Bluffs-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 github.com香港Amazon数据3.0M
-      - 🇸🇬 us,Council Bluffs-12@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 美国-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Ashburn
-      - 🇸🇬 美国-New York-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-35 联通100M+4K -2
-      - 🇸🇬 美国-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
-      - 🇸🇬 美国-New York-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-35 联通100M+4K -2
-      - 🇺🇸 美国-New York-29@1Gbps2.4Mhttps://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,22移动@1Gbps 4.2M
-      - 🇺🇸 美国-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
-      - 🇭🇰 美国-3.3M满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇭🇰 美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇸🇬 美国-New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a_2.7M
-      - https://www.mattkaydiary.com
-      - 🇸🇬 美国-New York-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇵🇭 YouTube-阿伟科技03-PH-26/1
-      - 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a
-      - share1.2M
-      - 🇺🇸 美国🚀1.9M免费领取🚀MiDnight来了
-      - 🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main
-      - 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-3.6M
+      - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
+      - 🇸🇬 美国-17@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-35 联通100M+4K -2
+      - 🇸🇬 us,Council Bluffs-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-35 联通100M+4K -2
+      - v2cross.com 2
+      - 🇭🇰 美国-3.3M满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
       - 🇳🇱 荷兰-33
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇸🇬 美国-New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇸🇬 us,Council Bluffs-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 2
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_633
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Dallas
+      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - YouTube-阿伟科技05-jp-26
+      - 🇭🇰 香港7-三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 3
+      - "@SSRSUB-V06-1.7M:suo.yt/ssrsub"
+      - 🇳🇱 荷兰-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 阿伟科技Yw05
+      - 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇳🇱 荷兰-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 4
+      - 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-33
+      - 🇭🇰 香港2-三网优化
+      - 🇯🇵 日本 AA
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - share2
-      - share
-      - 🇭🇰 www.ncm68.com _🇭🇰HK_199
-      - 🇸🇬 us,Las Vegas-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Las Vegas-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - v2cross.com
+      - 🇸🇬 us,Las Vegas-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-23@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Ashburn
+      - 🇸🇬 美国-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
+      - 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
+      - 🇸🇬 美国-New York-18@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 2.6M节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 美国-35 联通100M+4K -2
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
+      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇸🇬 美国-New York-12@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 us,Las Vegas-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 us,Las Vegas-35 联通100M+4K -2
       - 🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-35 联通100M+4K -2
+      - 🇸🇬 us,Council Bluffs-12@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
+      - 🇸🇬 美国-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Council Bluffs-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 us,Council Bluffs-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
-      - 🇸🇬 us,Council Bluffs-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 github.com香港Amazon数据3.0M
-      - 🇸🇬 us,Council Bluffs-12@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 美国-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Ashburn
-      - 🇸🇬 美国-New York-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-35 联通100M+4K -2
-      - 🇸🇬 美国-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
-      - 🇸🇬 美国-New York-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-35 联通100M+4K -2
-      - 🇺🇸 美国-New York-29@1Gbps2.4Mhttps://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,22移动@1Gbps 4.2M
-      - 🇺🇸 美国-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
-      - 🇭🇰 美国-3.3M满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇭🇰 美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇸🇬 美国-New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a_2.7M
-      - https://www.mattkaydiary.com
-      - 🇸🇬 美国-New York-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇵🇭 YouTube-阿伟科技03-PH-26/1
-      - 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a
-      - share1.2M
-      - 🇺🇸 美国🚀1.9M免费领取🚀MiDnight来了
-      - 🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main
-      - 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-3.6M
+      - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
+      - 🇸🇬 美国-17@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-35 联通100M+4K -2
+      - 🇸🇬 us,Council Bluffs-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-35 联通100M+4K -2
+      - v2cross.com 2
+      - 🇭🇰 美国-3.3M满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
       - 🇳🇱 荷兰-33
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇸🇬 美国-New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇸🇬 us,Council Bluffs-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 2
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_633
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Dallas
+      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - YouTube-阿伟科技05-jp-26
+      - 🇭🇰 香港7-三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 3
+      - "@SSRSUB-V06-1.7M:suo.yt/ssrsub"
+      - 🇳🇱 荷兰-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 阿伟科技Yw05
+      - 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇳🇱 荷兰-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 4
+      - 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-33
+      - 🇭🇰 香港2-三网优化
+      - 🇯🇵 日本 AA
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -454,73 +460,74 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - share2
-      - share
-      - 🇭🇰 www.ncm68.com _🇭🇰HK_199
-      - 🇸🇬 us,Las Vegas-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Las Vegas-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - v2cross.com
+      - 🇸🇬 us,Las Vegas-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-23@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Ashburn
+      - 🇸🇬 美国-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
+      - 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
+      - 🇸🇬 美国-New York-18@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 2.6M节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 美国-35 联通100M+4K -2
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
+      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇸🇬 美国-New York-12@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 us,Las Vegas-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 us,Las Vegas-35 联通100M+4K -2
       - 🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-35 联通100M+4K -2
+      - 🇸🇬 us,Council Bluffs-12@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
+      - 🇸🇬 美国-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Council Bluffs-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 us,Council Bluffs-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
-      - 🇸🇬 us,Council Bluffs-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 github.com香港Amazon数据3.0M
-      - 🇸🇬 us,Council Bluffs-12@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 美国-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Ashburn
-      - 🇸🇬 美国-New York-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-35 联通100M+4K -2
-      - 🇸🇬 美国-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
-      - 🇸🇬 美国-New York-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-35 联通100M+4K -2
-      - 🇺🇸 美国-New York-29@1Gbps2.4Mhttps://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,22移动@1Gbps 4.2M
-      - 🇺🇸 美国-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
-      - 🇭🇰 美国-3.3M满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇭🇰 美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇸🇬 美国-New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a_2.7M
-      - https://www.mattkaydiary.com
-      - 🇸🇬 美国-New York-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇵🇭 YouTube-阿伟科技03-PH-26/1
-      - 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a
-      - share1.2M
-      - 🇺🇸 美国🚀1.9M免费领取🚀MiDnight来了
-      - 🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main
-      - 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-3.6M
+      - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
+      - 🇸🇬 美国-17@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-35 联通100M+4K -2
+      - 🇸🇬 us,Council Bluffs-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-35 联通100M+4K -2
+      - v2cross.com 2
+      - 🇭🇰 美国-3.3M满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
       - 🇳🇱 荷兰-33
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇸🇬 美国-New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇸🇬 us,Council Bluffs-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 2
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_633
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Dallas
+      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - YouTube-阿伟科技05-jp-26
+      - 🇭🇰 香港7-三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 3
+      - "@SSRSUB-V06-1.7M:suo.yt/ssrsub"
+      - 🇳🇱 荷兰-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 阿伟科技Yw05
+      - 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇳🇱 荷兰-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 4
+      - 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-33
+      - 🇭🇰 香港2-三网优化
+      - 🇯🇵 日本 AA
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -537,73 +544,74 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - share2
-      - share
-      - 🇭🇰 www.ncm68.com _🇭🇰HK_199
-      - 🇸🇬 us,Las Vegas-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Las Vegas-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - v2cross.com
+      - 🇸🇬 us,Las Vegas-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-5@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-23@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Ashburn
+      - 🇸🇬 美国-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
+      - 🇸🇬 美国-New York-13@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
+      - 🇸🇬 美国-New York-18@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 2.6M节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 美国-35 联通100M+4K -2
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
+      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇸🇬 美国-New York-12@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 us,Las Vegas-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇺🇸 us,Las Vegas-35 联通100M+4K -2
       - 🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-35 联通100M+4K -2
+      - 🇸🇬 us,Council Bluffs-12@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
+      - 🇸🇬 美国-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 us,Council Bluffs-9@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 us,Council Bluffs-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
-      - 🇸🇬 us,Council Bluffs-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Council Bluffs-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇭🇰 github.com香港Amazon数据3.0M
-      - 🇸🇬 us,Council Bluffs-12@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 美国-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,Council Bluffs-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 美国-29@1Gbps2.5Mhttps://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Ashburn
-      - 🇸🇬 美国-New York-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-35 联通100M+4K -2
-      - 🇸🇬 美国-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
-      - 🇸🇬 美国-New York-5@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-35 联通100M+4K -2
-      - 🇺🇸 美国-New York-29@1Gbps2.4Mhttps://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 us,22移动@1Gbps 4.2M
-      - 🇺🇸 美国-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s-clone
-      - 🇭🇰 美国-3.3M满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇭🇰 美国-New York-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 🇸🇬 美国-New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a_2.7M
-      - https://www.mattkaydiary.com
-      - 🇸🇬 美国-New York-20@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇵🇭 YouTube-阿伟科技03-PH-26/1
-      - 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a
-      - share1.2M
-      - 🇺🇸 美国🚀1.9M免费领取🚀MiDnight来了
-      - 🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main
-      - 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-3.6M
+      - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
+      - 🇸🇬 美国-17@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Council Bluffs-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-35 联通100M+4K -2
+      - 🇸🇬 us,Council Bluffs-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-35 联通100M+4K -2
+      - v2cross.com 2
+      - 🇭🇰 美国-3.3M满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
       - 🇳🇱 荷兰-33
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇸🇬 美国-New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Council Bluffs-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇸🇬 us,Council Bluffs-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 2
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_633
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Dallas
+      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - YouTube-阿伟科技05-jp-26
+      - 🇭🇰 香港7-三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 3
+      - "@SSRSUB-V06-1.7M:suo.yt/ssrsub"
+      - 🇳🇱 荷兰-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 阿伟科技Yw05
+      - 🇸🇬 美国-New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇳🇱 荷兰-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 4
+      - 🇸🇬 美国-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-33
+      - 🇭🇰 香港2-三网优化
+      - 🇯🇵 日本 AA
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
