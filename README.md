@@ -5,529 +5,544 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港5.3M, server: 118.107.244.111, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 5.3M www.mattkaydiary.com|美国(US)USA/Chicago, server: 104.16.88.0, port: 443, type: vmess, uuid: 45f72e43-4517-4d05-a9d8-a6ab64dc9d56, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vir01.ga}}
+  - {name: 虎窝vmess节点18, server: 104.17.0.226, port: 443, type: vmess, uuid: 45f72e43-4517-4d05-a9d8-a6ab64dc9d56, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vir01.ga}}
   - {name: 🇺🇸 4.5M//www.mattkaydiary.com|美国(US)USA/Chicago, server: 104.16.88.0, port: 443, type: vmess, uuid: 5260564e-1d3d-4e1e-af02-65553b5ae9b4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vir01.ml}}
-  - {name: "🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s", server: 104.16.167.138, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
-  - {name: "🇺🇸 us,Las Vegas-9@1Gbps4.6Mhttps://bit.ly/3uWuS7a", server: 104.16.160.114, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
-  - {name: "🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.17.2.108, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
-  - {name: "🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a", server: 172.64.72.144, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
-  - {name: "🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.16.149.48, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
-  - {name: YouTube-阿伟科技05-jp-26, server: cm2.cheapv2.xyz, port: 26601, type: vmess, uuid: cd22f8ef-0572-31a4-9244-fba30c4523ef, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: cm2.cheapv2.xyz}}
-  - {name: "🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a", server: 172.64.65.8, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
-  - {name: "🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.19.30.120, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
-  - {name: "🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a", server: 104.19.45.117, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
-  - {name: 🇨🇳 台湾3.5M, server: 2.58.242.133, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_636, server: 104.17.0.226, port: 80, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us-01.yinriver.top}}
+  - {name: "🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.17.0.226, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
+  - {name: 🇺🇸 www.mattkaydiary.com|美国F(US)USA/Chicago, server: 104.19.64.67, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
   - {name: "🇺🇸 us,Las Vegas-25@1Gbps4.8Mhttps://bit.ly/3uWuS7a", server: 104.17.188.91, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
+  - {name: "🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a", server: 104.19.45.117, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
+  - {name: "🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.16.149.48, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
+  - {name: "🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.17.2.108, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
+  - {name: "🇺🇸 us,Las Vegas-9@1Gbps4.6Mhttps://bit.ly/3uWuS7a", server: 104.16.160.114, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
   - {name: "🇺🇸 us,Las Vegas-35 联通100M+4K -2", server: 104.17.36.178, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
-  - {name: 🇨🇳 台湾3.11M, server: 2.58.242.133, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: "🇺🇸 us,Las Vegas-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s", server: 172.64.72.144, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
-  - {name: 🇨🇳 台湾3.4M, server: 2.58.242.133, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇨🇳 台湾3.3M, server: 2.58.241.5, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
-  - {name: 🇨🇳 台湾3.7M, server: 2.58.242.133, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇭🇰 香港3.7M, server: 2.58.242.131, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇨🇳 台湾4.2M, server: 2.58.242.133, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 美国3.3M, server: 104.16.88.0, port: 443, type: vmess, uuid: 478055cc-fdb8-404e-b730-c32faa2c7ca1, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /asdfasdf, ws-headers: {Host: qq1-cloud13.feiclouddd.me}}
-  - {name: 🇨🇳 台湾3.2M, server: 2.58.242.133, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇨🇳 台湾2.9M, server: 2.58.242.133, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇨🇳 台湾2.91M, server: 103.152.151.5, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: 🇨🇳 台湾2.7M, server: 2.58.242.133, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇨🇳 台湾3.1M, server: 2.58.242.133, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇭🇰 香港2.9M, server: 2.58.242.131, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: "🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a", server: 172.64.72.144, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
+  - {name: "🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s", server: 104.16.167.138, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
+  - {name: 🇺🇸 美国4.9M, server: cm.cheapv2.xyz, port: 26611, type: vmess, uuid: be1b673f-aa2a-3b16-b79a-c5d6ffa1db8b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: cm.cheapv2.xyz}}
+  - {name: 🇺🇸 www.mattkaydiary.com|美国C(US)USA/Chicago, server: 104.19.65.34, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
+  - {name: "🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a", server: 104.19.54.120, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
+  - {name: 🇯🇵 日本, server: cm2.cheapv2.xyz, port: 26601, type: vmess, uuid: cd22f8ef-0572-31a4-9244-fba30c4523ef, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: cm2.cheapv2.xyz}}
+  - {name: "🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a", server: 172.64.65.8, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
+  - {name: 🇺🇸 美国2.8M, server: 104.19.35.122, port: 80, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us-01.yinriver.top}}
   - {name: 🇺🇸 美国, server: 172.64.65.8, port: 80, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us-01.yinriver.top}}
+  - {name: YouTube-阿伟科技05-jp-26, server: cm2.cheapv2.xyz, port: 26601, type: vmess, uuid: cd22f8ef-0572-31a4-9244-fba30c4523ef, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: cm2.cheapv2.xyz}}
   - {name: 阿伟科技Yw05, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a7436b35-0daf-3eac-9a0b-356b8a3cc63b, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
+  - {name: "🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.19.30.120, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
+  - {name: 🇦🇺 www.mattkaydiary.com|澳大利亚(AU)Australia/South Brisbane, server: 104.17.0.226, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: f 150, server: 104.17.0.226, port: 80, type: vmess, uuid: 90cab127-9c02-46f2-8642-c7d230c88355, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: us2.jjyun.ren}}
+  - {name: 🇨🇳 台湾3.1M, server: 2.58.242.133, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 🇨🇳 台湾2.91M, server: 103.152.151.5, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 🇺🇸 美国(f) 9, server: 104.19.28.32, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: 🇺🇸 www.mattkaydiary.com|美国A(US)USA/Chicago, server: 104.19.28.32, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
+  - {name: 🇨🇳 台湾, server: 2.58.242.133, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇭🇰 香港3.5M, server: 2.58.242.131, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇨🇳 台湾4.2M, server: 2.58.242.133, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇨🇳 台湾3.5M, server: 2.58.242.133, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇨🇳 台湾3.2M, server: 2.58.242.133, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 台湾3.1M 2, server: 2.58.242.133, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
   - {name: 🇨🇳 台湾1.8M, server: 2.58.242.133, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: "🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a", server: 104.20.50.82, port: 443, type: vmess, uuid: e9f8559d-5732-4c43-9c6c-c1a2ea6c5f6f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakeningvws, ws-headers: {Host: vincent-jackson2021.ml}}
+  - {name: 🇨🇳 www.ncm68.com _🇹🇼TW_368, server: 2.58.242.131, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
   - {name: 🇨🇳 台湾3.6M, server: 2.58.242.133, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇳🇱 荷兰-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.19.54.120, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
+  - {name: 🇨🇳 台湾2.7M, server: 2.58.242.133, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 美国4.3M, server: 104.17.0.226, port: 443, type: vmess, uuid: 478055cc-fdb8-404e-b730-c32faa2c7ca1, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /asdfasdf, ws-headers: {Host: qq1-cloud13.feiclouddd.me}}
+  - {name: 🇷🇺 俄罗斯, server: 104.17.0.226, port: 443, type: vmess, uuid: 97018aac-0985-4d4b-8283-f774c9fe9418, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /v2ray/fc671c24/, ws-headers: {Host: t6.ssrsub.one}}
+  - {name: 🇨🇳 台湾3.7M, server: 2.58.242.133, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇨🇳 台湾3.4M, server: 2.58.242.133, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇺🇸 美国3.3M, server: 104.16.88.0, port: 443, type: vmess, uuid: 478055cc-fdb8-404e-b730-c32faa2c7ca1, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /asdfasdf, ws-headers: {Host: qq1-cloud13.feiclouddd.me}}
+  - {name: 🇨🇳 台湾3.2M 2, server: 103.152.151.3, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇨🇳 台湾 2, server: 2.58.242.133, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇳🇱 荷兰-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.19.45.117, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
+  - {name: 🇺🇸 美国-New York-9@1Gbps2.9Mhttps://bit.ly/3uWuS7a, server: 104.17.0.226, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: 虎窝vmess节点15, server: 104.17.0.226, port: 80, type: vmess, uuid: 499737a4-9f18-4e1f-fb38-437e1855fc04, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv6p.ezddns.tk}}
   - {name: 🇯🇵 YouTube-阿伟科技02-JP-2.6M, server: japan.mini.00001.zeroyyds.cc, port: 80, type: vmess, uuid: e6d14923-99e3-4e4d-8dd3-65968a21114b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
-  - {name: 🇳🇱 荷兰-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s, server: 104.16.88.0, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
-  - {name: 🇺🇸 美国-New York-9@1Gbps2.9Mhttps://bit.ly/3uWuS7a, server: 104.20.50.82, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇳🇱 荷兰-7@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.19.30.120, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
-  - {name: 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.110.238, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
-  - {name: 🇳🇱 荷兰-23@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.240.114, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
-  - {name: 🇺🇸 美国3.1M, server: 104.20.51.120, port: 443, type: vmess, uuid: 7f6b65e4-6d5b-4137-a1dc-d32f4a810239, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /tgzhucaidan, ws-headers: {Host: us2.paopao.cf}}
-  - {name: 🇦🇺 https://www.mattkaydiary.com|澳大利亚(AU)Australia/South Brisbane, server: 172.64.65.8, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago, server: 104.16.88.0, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_633, server: 104.17.0.226, port: 80, type: vmess, uuid: 24d6dc76-f0a0-4809-8a70-6ad2dce20022, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv8p.ezddns.tk}}
+  - {name: 🇨🇳 台湾(f) 2.9M, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
+  - {name: 🇳🇱 荷兰-5@1Gbps节点更新https://bit.ly/3uWuS7a, server: 172.64.72.144, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
   - {name: 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.160.114, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
-  - {name: 🇳🇱 荷兰-25@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.17.188.91, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 2, server: 104.16.88.0, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇳🇱 荷兰-11@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.88.0, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
-  - {name: 🇩🇪 hm|德国(DE)Germany/Frankfurt am Main 2, server: 104.20.51.120, port: 80, type: vmess, uuid: 56d641d2-aebd-4329-b1a4-586d50c864e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: m2.proxypools.top}}
-  - {name: 🇺🇸 2.5M hm|美国(US)USA/Chicago 26, server: 104.16.88.0, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇯🇵 2.3M hm|日本(JP)Japan/Tokyo, server: 104.16.88.0, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: hm 2.0M, server: 104.16.88.0, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 hm|美国(US)USA/Dallas2.7M, server: 104.19.28.32, port: 80, type: vmess, uuid: c0304bc1-f8ff-4108-9bc6-3415d16ae5e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv12p.ezddns.tk}}
+  - {name: 🇳🇱 荷兰-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.19.54.120, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
+  - {name: 🇺🇸 美国(f) 13, server: 104.20.53.69, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
+  - {name: 虎窝vmess节点19, server: 104.20.53.69, port: 443, type: vmess, uuid: 97018aac-0985-4d4b-8283-f774c9fe9418, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /v2ray/fc671c24/, ws-headers: {Host: t6.ssrsub.one}}
   - {name: 🇳🇱 荷兰-33, server: 104.16.240.114, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 3, server: 104.16.88.0, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: "@SSRSUB-V06-1.7M:suo.yt/ssrsub", server: 172.64.72.144, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 4, server: 104.19.23.24, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: "@SSRSUB-V01-付费推荐:suo.yt/ssrsub", server: 104.20.51.197, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 5, server: 104.16.207.196, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 2.51M🇸 hm|美国(US)USA/Chicago 28, server: 104.16.88.0, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 2.0M hm|美国(US)USA/Chicago 27, server: 104.20.55.22, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 hm|美国(US)USA/Chicago 31, server: 104.16.88.0, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇳🇱 荷兰-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s, server: 104.16.88.0, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
+  - {name: 🇨🇳 台湾3M, server: 103.152.151.5, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.110.238, port: 443, type: vmess, uuid: 9e193088-078d-44cb-960a-f179d93554ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vincent-jacksonvws, ws-headers: {Host: nl.vincent-jackson2021.cf}}
+  - {name: 🇩🇪 德国2.3M, server: 104.19.28.32, port: 80, type: vmess, uuid: 56d641d2-aebd-4329-b1a4-586d50c864e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: m2.proxypools.top}}
+  - {name: 🇭🇰 www.ncm68.com _🇭🇰HK_186, server: 212.102.42.194, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 212.102.42.194:37588, server: 212.102.42.194, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
   - {name: 🇺🇸 hm|美国(US)USA/Chicago 21, server: 104.20.51.120, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 2.21M🇸 hm|美国(US)USA/Chicago 29, server: 104.20.51.120, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 hm|美国(US)USA/Chicago 18, server: 104.20.51.120, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 hm|美国(US)USA/Chicago 25, server: 104.20.51.120, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 hm|美国(US)USA/Chicago 20, server: 104.20.51.120, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 2.2M hm|美国(US)USA/Chicago 30, server: 104.20.51.120, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇰🇷 韩国2.1M, server: 103.249.31.26, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇩🇪 hm|德国(DE)Germany/Frankfurt am Main 2, server: 104.20.51.120, port: 80, type: vmess, uuid: 56d641d2-aebd-4329-b1a4-586d50c864e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: m2.proxypools.top}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago, server: 104.16.88.0, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港5.3M
+      - 🇺🇸 5.3M www.mattkaydiary.com|美国(US)USA/Chicago
+      - 虎窝vmess节点18
       - 🇺🇸 4.5M//www.mattkaydiary.com|美国(US)USA/Chicago
-      - 🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 us,Las Vegas-9@1Gbps4.6Mhttps://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - YouTube-阿伟科技05-jp-26
-      - 🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇨🇳 台湾3.5M
-      - 🇺🇸 us,Las Vegas-25@1Gbps4.8Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 us,Las Vegas-35 联通100M+4K -2
-      - 🇨🇳 台湾3.11M
-      - 🇺🇸 us,Las Vegas-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇨🇳 台湾3.4M
-      - 🇨🇳 台湾3.3M
-      - 🇨🇳 台湾3.7M
-      - 🇭🇰 香港3.7M
-      - 🇨🇳 台湾4.2M
-      - 🇺🇸 美国3.3M
-      - 🇨🇳 台湾3.2M
-      - 🇨🇳 台湾2.9M
-      - 🇨🇳 台湾2.91M
-      - 🇨🇳 台湾2.7M
-      - 🇨🇳 台湾3.1M
-      - 🇭🇰 香港2.9M
-      - 🇺🇸 美国
-      - 阿伟科技Yw05
-      - 🇨🇳 台湾1.8M
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_636
       - 🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 www.mattkaydiary.com|美国F(US)USA/Chicago
+      - 🇺🇸 us,Las Vegas-25@1Gbps4.8Mhttps://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Las Vegas-9@1Gbps4.6Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,Las Vegas-35 联通100M+4K -2
+      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇺🇸 美国4.9M
+      - 🇺🇸 www.mattkaydiary.com|美国C(US)USA/Chicago
+      - 🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇯🇵 日本
+      - 🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国2.8M
+      - 🇺🇸 美国
+      - YouTube-阿伟科技05-jp-26
+      - 阿伟科技Yw05
+      - 🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇦🇺 www.mattkaydiary.com|澳大利亚(AU)Australia/South Brisbane
+      - f 150
+      - 🇨🇳 台湾3.1M
+      - 🇨🇳 台湾2.91M
+      - 🇺🇸 美国(f) 9
+      - 🇺🇸 www.mattkaydiary.com|美国A(US)USA/Chicago
+      - 🇨🇳 台湾
+      - 🇭🇰 香港3.5M
+      - 🇨🇳 台湾4.2M
+      - 🇨🇳 台湾3.5M
+      - 🇨🇳 台湾3.2M
+      - 🇨🇳 台湾3.1M 2
+      - 🇨🇳 台湾1.8M
+      - 🇨🇳 www.ncm68.com _🇹🇼TW_368
       - 🇨🇳 台湾3.6M
-      - 🇳🇱 荷兰-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
-      - 🇳🇱 荷兰-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
+      - 🇨🇳 台湾2.7M
+      - 🇺🇸 美国4.3M
+      - 🇷🇺 俄罗斯
+      - 🇨🇳 台湾3.7M
+      - 🇨🇳 台湾3.4M
+      - 🇺🇸 美国3.3M
+      - 🇨🇳 台湾3.2M 2
+      - 🇨🇳 台湾 2
+      - 🇳🇱 荷兰-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-9@1Gbps2.9Mhttps://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-7@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国3.1M
-      - 🇦🇺 https://www.mattkaydiary.com|澳大利亚(AU)Australia/South Brisbane
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
+      - 虎窝vmess节点15
+      - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_633
+      - 🇨🇳 台湾(f) 2.9M
+      - 🇳🇱 荷兰-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 2
-      - 🇳🇱 荷兰-11@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 hm|德国(DE)Germany/Frankfurt am Main 2
-      - 🇺🇸 2.5M hm|美国(US)USA/Chicago 26
-      - 🇯🇵 2.3M hm|日本(JP)Japan/Tokyo
-      - hm 2.0M
+      - 🇺🇸 hm|美国(US)USA/Dallas2.7M
+      - 🇳🇱 荷兰-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国(f) 13
+      - 虎窝vmess节点19
       - 🇳🇱 荷兰-33
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 3
-      - "@SSRSUB-V06-1.7M:suo.yt/ssrsub"
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 4
-      - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 5
-      - 🇺🇸 2.51M🇸 hm|美国(US)USA/Chicago 28
-      - 🇺🇸 2.0M hm|美国(US)USA/Chicago 27
-      - 🇺🇸 hm|美国(US)USA/Chicago 31
+      - 🇳🇱 荷兰-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
+      - 🇨🇳 台湾3M
+      - 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 德国2.3M
+      - 🇭🇰 www.ncm68.com _🇭🇰HK_186
+      - 212.102.42.194:37588
       - 🇺🇸 hm|美国(US)USA/Chicago 21
-      - 🇺🇸 2.21M🇸 hm|美国(US)USA/Chicago 29
-      - 🇺🇸 hm|美国(US)USA/Chicago 18
-      - 🇺🇸 hm|美国(US)USA/Chicago 25
-      - 🇺🇸 hm|美国(US)USA/Chicago 20
-      - 🇺🇸 2.2M hm|美国(US)USA/Chicago 30
-      - 🇰🇷 韩国2.1M
+      - 🇩🇪 hm|德国(DE)Germany/Frankfurt am Main 2
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港5.3M
+      - 🇺🇸 5.3M www.mattkaydiary.com|美国(US)USA/Chicago
+      - 虎窝vmess节点18
       - 🇺🇸 4.5M//www.mattkaydiary.com|美国(US)USA/Chicago
-      - 🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 us,Las Vegas-9@1Gbps4.6Mhttps://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - YouTube-阿伟科技05-jp-26
-      - 🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇨🇳 台湾3.5M
-      - 🇺🇸 us,Las Vegas-25@1Gbps4.8Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 us,Las Vegas-35 联通100M+4K -2
-      - 🇨🇳 台湾3.11M
-      - 🇺🇸 us,Las Vegas-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇨🇳 台湾3.4M
-      - 🇨🇳 台湾3.3M
-      - 🇨🇳 台湾3.7M
-      - 🇭🇰 香港3.7M
-      - 🇨🇳 台湾4.2M
-      - 🇺🇸 美国3.3M
-      - 🇨🇳 台湾3.2M
-      - 🇨🇳 台湾2.9M
-      - 🇨🇳 台湾2.91M
-      - 🇨🇳 台湾2.7M
-      - 🇨🇳 台湾3.1M
-      - 🇭🇰 香港2.9M
-      - 🇺🇸 美国
-      - 阿伟科技Yw05
-      - 🇨🇳 台湾1.8M
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_636
       - 🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 www.mattkaydiary.com|美国F(US)USA/Chicago
+      - 🇺🇸 us,Las Vegas-25@1Gbps4.8Mhttps://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Las Vegas-9@1Gbps4.6Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,Las Vegas-35 联通100M+4K -2
+      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇺🇸 美国4.9M
+      - 🇺🇸 www.mattkaydiary.com|美国C(US)USA/Chicago
+      - 🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇯🇵 日本
+      - 🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国2.8M
+      - 🇺🇸 美国
+      - YouTube-阿伟科技05-jp-26
+      - 阿伟科技Yw05
+      - 🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇦🇺 www.mattkaydiary.com|澳大利亚(AU)Australia/South Brisbane
+      - f 150
+      - 🇨🇳 台湾3.1M
+      - 🇨🇳 台湾2.91M
+      - 🇺🇸 美国(f) 9
+      - 🇺🇸 www.mattkaydiary.com|美国A(US)USA/Chicago
+      - 🇨🇳 台湾
+      - 🇭🇰 香港3.5M
+      - 🇨🇳 台湾4.2M
+      - 🇨🇳 台湾3.5M
+      - 🇨🇳 台湾3.2M
+      - 🇨🇳 台湾3.1M 2
+      - 🇨🇳 台湾1.8M
+      - 🇨🇳 www.ncm68.com _🇹🇼TW_368
       - 🇨🇳 台湾3.6M
-      - 🇳🇱 荷兰-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
-      - 🇳🇱 荷兰-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
+      - 🇨🇳 台湾2.7M
+      - 🇺🇸 美国4.3M
+      - 🇷🇺 俄罗斯
+      - 🇨🇳 台湾3.7M
+      - 🇨🇳 台湾3.4M
+      - 🇺🇸 美国3.3M
+      - 🇨🇳 台湾3.2M 2
+      - 🇨🇳 台湾 2
+      - 🇳🇱 荷兰-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-9@1Gbps2.9Mhttps://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-7@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国3.1M
-      - 🇦🇺 https://www.mattkaydiary.com|澳大利亚(AU)Australia/South Brisbane
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
+      - 虎窝vmess节点15
+      - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_633
+      - 🇨🇳 台湾(f) 2.9M
+      - 🇳🇱 荷兰-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 2
-      - 🇳🇱 荷兰-11@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 hm|德国(DE)Germany/Frankfurt am Main 2
-      - 🇺🇸 2.5M hm|美国(US)USA/Chicago 26
-      - 🇯🇵 2.3M hm|日本(JP)Japan/Tokyo
-      - hm 2.0M
+      - 🇺🇸 hm|美国(US)USA/Dallas2.7M
+      - 🇳🇱 荷兰-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国(f) 13
+      - 虎窝vmess节点19
       - 🇳🇱 荷兰-33
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 3
-      - "@SSRSUB-V06-1.7M:suo.yt/ssrsub"
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 4
-      - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 5
-      - 🇺🇸 2.51M🇸 hm|美国(US)USA/Chicago 28
-      - 🇺🇸 2.0M hm|美国(US)USA/Chicago 27
-      - 🇺🇸 hm|美国(US)USA/Chicago 31
+      - 🇳🇱 荷兰-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
+      - 🇨🇳 台湾3M
+      - 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 德国2.3M
+      - 🇭🇰 www.ncm68.com _🇭🇰HK_186
+      - 212.102.42.194:37588
       - 🇺🇸 hm|美国(US)USA/Chicago 21
-      - 🇺🇸 2.21M🇸 hm|美国(US)USA/Chicago 29
-      - 🇺🇸 hm|美国(US)USA/Chicago 18
-      - 🇺🇸 hm|美国(US)USA/Chicago 25
-      - 🇺🇸 hm|美国(US)USA/Chicago 20
-      - 🇺🇸 2.2M hm|美国(US)USA/Chicago 30
-      - 🇰🇷 韩国2.1M
+      - 🇩🇪 hm|德国(DE)Germany/Frankfurt am Main 2
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港5.3M
+      - 🇺🇸 5.3M www.mattkaydiary.com|美国(US)USA/Chicago
+      - 虎窝vmess节点18
       - 🇺🇸 4.5M//www.mattkaydiary.com|美国(US)USA/Chicago
-      - 🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 us,Las Vegas-9@1Gbps4.6Mhttps://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - YouTube-阿伟科技05-jp-26
-      - 🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇨🇳 台湾3.5M
-      - 🇺🇸 us,Las Vegas-25@1Gbps4.8Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 us,Las Vegas-35 联通100M+4K -2
-      - 🇨🇳 台湾3.11M
-      - 🇺🇸 us,Las Vegas-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇨🇳 台湾3.4M
-      - 🇨🇳 台湾3.3M
-      - 🇨🇳 台湾3.7M
-      - 🇭🇰 香港3.7M
-      - 🇨🇳 台湾4.2M
-      - 🇺🇸 美国3.3M
-      - 🇨🇳 台湾3.2M
-      - 🇨🇳 台湾2.9M
-      - 🇨🇳 台湾2.91M
-      - 🇨🇳 台湾2.7M
-      - 🇨🇳 台湾3.1M
-      - 🇭🇰 香港2.9M
-      - 🇺🇸 美国
-      - 阿伟科技Yw05
-      - 🇨🇳 台湾1.8M
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_636
       - 🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 www.mattkaydiary.com|美国F(US)USA/Chicago
+      - 🇺🇸 us,Las Vegas-25@1Gbps4.8Mhttps://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Las Vegas-9@1Gbps4.6Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,Las Vegas-35 联通100M+4K -2
+      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇺🇸 美国4.9M
+      - 🇺🇸 www.mattkaydiary.com|美国C(US)USA/Chicago
+      - 🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇯🇵 日本
+      - 🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国2.8M
+      - 🇺🇸 美国
+      - YouTube-阿伟科技05-jp-26
+      - 阿伟科技Yw05
+      - 🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇦🇺 www.mattkaydiary.com|澳大利亚(AU)Australia/South Brisbane
+      - f 150
+      - 🇨🇳 台湾3.1M
+      - 🇨🇳 台湾2.91M
+      - 🇺🇸 美国(f) 9
+      - 🇺🇸 www.mattkaydiary.com|美国A(US)USA/Chicago
+      - 🇨🇳 台湾
+      - 🇭🇰 香港3.5M
+      - 🇨🇳 台湾4.2M
+      - 🇨🇳 台湾3.5M
+      - 🇨🇳 台湾3.2M
+      - 🇨🇳 台湾3.1M 2
+      - 🇨🇳 台湾1.8M
+      - 🇨🇳 www.ncm68.com _🇹🇼TW_368
       - 🇨🇳 台湾3.6M
-      - 🇳🇱 荷兰-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
-      - 🇳🇱 荷兰-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
+      - 🇨🇳 台湾2.7M
+      - 🇺🇸 美国4.3M
+      - 🇷🇺 俄罗斯
+      - 🇨🇳 台湾3.7M
+      - 🇨🇳 台湾3.4M
+      - 🇺🇸 美国3.3M
+      - 🇨🇳 台湾3.2M 2
+      - 🇨🇳 台湾 2
+      - 🇳🇱 荷兰-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-9@1Gbps2.9Mhttps://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-7@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国3.1M
-      - 🇦🇺 https://www.mattkaydiary.com|澳大利亚(AU)Australia/South Brisbane
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
+      - 虎窝vmess节点15
+      - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_633
+      - 🇨🇳 台湾(f) 2.9M
+      - 🇳🇱 荷兰-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 2
-      - 🇳🇱 荷兰-11@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 hm|德国(DE)Germany/Frankfurt am Main 2
-      - 🇺🇸 2.5M hm|美国(US)USA/Chicago 26
-      - 🇯🇵 2.3M hm|日本(JP)Japan/Tokyo
-      - hm 2.0M
+      - 🇺🇸 hm|美国(US)USA/Dallas2.7M
+      - 🇳🇱 荷兰-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国(f) 13
+      - 虎窝vmess节点19
       - 🇳🇱 荷兰-33
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 3
-      - "@SSRSUB-V06-1.7M:suo.yt/ssrsub"
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 4
-      - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 5
-      - 🇺🇸 2.51M🇸 hm|美国(US)USA/Chicago 28
-      - 🇺🇸 2.0M hm|美国(US)USA/Chicago 27
-      - 🇺🇸 hm|美国(US)USA/Chicago 31
+      - 🇳🇱 荷兰-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
+      - 🇨🇳 台湾3M
+      - 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 德国2.3M
+      - 🇭🇰 www.ncm68.com _🇭🇰HK_186
+      - 212.102.42.194:37588
       - 🇺🇸 hm|美国(US)USA/Chicago 21
-      - 🇺🇸 2.21M🇸 hm|美国(US)USA/Chicago 29
-      - 🇺🇸 hm|美国(US)USA/Chicago 18
-      - 🇺🇸 hm|美国(US)USA/Chicago 25
-      - 🇺🇸 hm|美国(US)USA/Chicago 20
-      - 🇺🇸 2.2M hm|美国(US)USA/Chicago 30
-      - 🇰🇷 韩国2.1M
+      - 🇩🇪 hm|德国(DE)Germany/Frankfurt am Main 2
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港5.3M
-      - 🇨🇳 台湾3.5M
-      - 🇨🇳 台湾3.11M
-      - 🇨🇳 台湾3.4M
-      - 🇨🇳 台湾3.3M
-      - 🇨🇳 台湾3.7M
-      - 🇭🇰 香港3.7M
-      - 🇨🇳 台湾4.2M
-      - 🇨🇳 台湾3.2M
-      - 🇨🇳 台湾2.9M
-      - 🇨🇳 台湾2.91M
-      - 🇨🇳 台湾2.7M
       - 🇨🇳 台湾3.1M
-      - 🇭🇰 香港2.9M
+      - 🇨🇳 台湾2.91M
+      - 🇨🇳 台湾
+      - 🇭🇰 香港3.5M
+      - 🇨🇳 台湾4.2M
+      - 🇨🇳 台湾3.5M
+      - 🇨🇳 台湾3.2M
+      - 🇨🇳 台湾3.1M 2
       - 🇨🇳 台湾1.8M
       - 🇨🇳 台湾3.6M
+      - 🇨🇳 台湾2.7M
+      - 🇨🇳 台湾3.7M
+      - 🇨🇳 台湾3.4M
+      - 🇨🇳 台湾3.2M 2
+      - 🇨🇳 台湾 2
+      - 🇨🇳 台湾(f) 2.9M
+      - 🇨🇳 台湾3M
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港5.3M
+      - 🇺🇸 5.3M www.mattkaydiary.com|美国(US)USA/Chicago
+      - 虎窝vmess节点18
       - 🇺🇸 4.5M//www.mattkaydiary.com|美国(US)USA/Chicago
-      - 🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 us,Las Vegas-9@1Gbps4.6Mhttps://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - YouTube-阿伟科技05-jp-26
-      - 🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇨🇳 台湾3.5M
-      - 🇺🇸 us,Las Vegas-25@1Gbps4.8Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 us,Las Vegas-35 联通100M+4K -2
-      - 🇨🇳 台湾3.11M
-      - 🇺🇸 us,Las Vegas-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇨🇳 台湾3.4M
-      - 🇨🇳 台湾3.3M
-      - 🇨🇳 台湾3.7M
-      - 🇭🇰 香港3.7M
-      - 🇨🇳 台湾4.2M
-      - 🇺🇸 美国3.3M
-      - 🇨🇳 台湾3.2M
-      - 🇨🇳 台湾2.9M
-      - 🇨🇳 台湾2.91M
-      - 🇨🇳 台湾2.7M
-      - 🇨🇳 台湾3.1M
-      - 🇭🇰 香港2.9M
-      - 🇺🇸 美国
-      - 阿伟科技Yw05
-      - 🇨🇳 台湾1.8M
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_636
       - 🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 www.mattkaydiary.com|美国F(US)USA/Chicago
+      - 🇺🇸 us,Las Vegas-25@1Gbps4.8Mhttps://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Las Vegas-9@1Gbps4.6Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,Las Vegas-35 联通100M+4K -2
+      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇺🇸 美国4.9M
+      - 🇺🇸 www.mattkaydiary.com|美国C(US)USA/Chicago
+      - 🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇯🇵 日本
+      - 🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国2.8M
+      - 🇺🇸 美国
+      - YouTube-阿伟科技05-jp-26
+      - 阿伟科技Yw05
+      - 🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇦🇺 www.mattkaydiary.com|澳大利亚(AU)Australia/South Brisbane
+      - f 150
+      - 🇨🇳 台湾3.1M
+      - 🇨🇳 台湾2.91M
+      - 🇺🇸 美国(f) 9
+      - 🇺🇸 www.mattkaydiary.com|美国A(US)USA/Chicago
+      - 🇨🇳 台湾
+      - 🇭🇰 香港3.5M
+      - 🇨🇳 台湾4.2M
+      - 🇨🇳 台湾3.5M
+      - 🇨🇳 台湾3.2M
+      - 🇨🇳 台湾3.1M 2
+      - 🇨🇳 台湾1.8M
+      - 🇨🇳 www.ncm68.com _🇹🇼TW_368
       - 🇨🇳 台湾3.6M
-      - 🇳🇱 荷兰-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
-      - 🇳🇱 荷兰-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
+      - 🇨🇳 台湾2.7M
+      - 🇺🇸 美国4.3M
+      - 🇷🇺 俄罗斯
+      - 🇨🇳 台湾3.7M
+      - 🇨🇳 台湾3.4M
+      - 🇺🇸 美国3.3M
+      - 🇨🇳 台湾3.2M 2
+      - 🇨🇳 台湾 2
+      - 🇳🇱 荷兰-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-9@1Gbps2.9Mhttps://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-7@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国3.1M
-      - 🇦🇺 https://www.mattkaydiary.com|澳大利亚(AU)Australia/South Brisbane
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
+      - 虎窝vmess节点15
+      - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_633
+      - 🇨🇳 台湾(f) 2.9M
+      - 🇳🇱 荷兰-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 2
-      - 🇳🇱 荷兰-11@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 hm|德国(DE)Germany/Frankfurt am Main 2
-      - 🇺🇸 2.5M hm|美国(US)USA/Chicago 26
-      - 🇯🇵 2.3M hm|日本(JP)Japan/Tokyo
-      - hm 2.0M
+      - 🇺🇸 hm|美国(US)USA/Dallas2.7M
+      - 🇳🇱 荷兰-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国(f) 13
+      - 虎窝vmess节点19
       - 🇳🇱 荷兰-33
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 3
-      - "@SSRSUB-V06-1.7M:suo.yt/ssrsub"
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 4
-      - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 5
-      - 🇺🇸 2.51M🇸 hm|美国(US)USA/Chicago 28
-      - 🇺🇸 2.0M hm|美国(US)USA/Chicago 27
-      - 🇺🇸 hm|美国(US)USA/Chicago 31
+      - 🇳🇱 荷兰-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
+      - 🇨🇳 台湾3M
+      - 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 德国2.3M
+      - 🇭🇰 www.ncm68.com _🇭🇰HK_186
+      - 212.102.42.194:37588
       - 🇺🇸 hm|美国(US)USA/Chicago 21
-      - 🇺🇸 2.21M🇸 hm|美国(US)USA/Chicago 29
-      - 🇺🇸 hm|美国(US)USA/Chicago 18
-      - 🇺🇸 hm|美国(US)USA/Chicago 25
-      - 🇺🇸 hm|美国(US)USA/Chicago 20
-      - 🇺🇸 2.2M hm|美国(US)USA/Chicago 30
-      - 🇰🇷 韩国2.1M
+      - 🇩🇪 hm|德国(DE)Germany/Frankfurt am Main 2
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港5.3M
+      - 🇺🇸 5.3M www.mattkaydiary.com|美国(US)USA/Chicago
+      - 虎窝vmess节点18
       - 🇺🇸 4.5M//www.mattkaydiary.com|美国(US)USA/Chicago
-      - 🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 us,Las Vegas-9@1Gbps4.6Mhttps://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - YouTube-阿伟科技05-jp-26
-      - 🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇨🇳 台湾3.5M
-      - 🇺🇸 us,Las Vegas-25@1Gbps4.8Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 us,Las Vegas-35 联通100M+4K -2
-      - 🇨🇳 台湾3.11M
-      - 🇺🇸 us,Las Vegas-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇨🇳 台湾3.4M
-      - 🇨🇳 台湾3.3M
-      - 🇨🇳 台湾3.7M
-      - 🇭🇰 香港3.7M
-      - 🇨🇳 台湾4.2M
-      - 🇺🇸 美国3.3M
-      - 🇨🇳 台湾3.2M
-      - 🇨🇳 台湾2.9M
-      - 🇨🇳 台湾2.91M
-      - 🇨🇳 台湾2.7M
-      - 🇨🇳 台湾3.1M
-      - 🇭🇰 香港2.9M
-      - 🇺🇸 美国
-      - 阿伟科技Yw05
-      - 🇨🇳 台湾1.8M
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_636
       - 🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 www.mattkaydiary.com|美国F(US)USA/Chicago
+      - 🇺🇸 us,Las Vegas-25@1Gbps4.8Mhttps://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Las Vegas-9@1Gbps4.6Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,Las Vegas-35 联通100M+4K -2
+      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇺🇸 美国4.9M
+      - 🇺🇸 www.mattkaydiary.com|美国C(US)USA/Chicago
+      - 🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇯🇵 日本
+      - 🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国2.8M
+      - 🇺🇸 美国
+      - YouTube-阿伟科技05-jp-26
+      - 阿伟科技Yw05
+      - 🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇦🇺 www.mattkaydiary.com|澳大利亚(AU)Australia/South Brisbane
+      - f 150
+      - 🇨🇳 台湾3.1M
+      - 🇨🇳 台湾2.91M
+      - 🇺🇸 美国(f) 9
+      - 🇺🇸 www.mattkaydiary.com|美国A(US)USA/Chicago
+      - 🇨🇳 台湾
+      - 🇭🇰 香港3.5M
+      - 🇨🇳 台湾4.2M
+      - 🇨🇳 台湾3.5M
+      - 🇨🇳 台湾3.2M
+      - 🇨🇳 台湾3.1M 2
+      - 🇨🇳 台湾1.8M
+      - 🇨🇳 www.ncm68.com _🇹🇼TW_368
       - 🇨🇳 台湾3.6M
-      - 🇳🇱 荷兰-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
-      - 🇳🇱 荷兰-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
+      - 🇨🇳 台湾2.7M
+      - 🇺🇸 美国4.3M
+      - 🇷🇺 俄罗斯
+      - 🇨🇳 台湾3.7M
+      - 🇨🇳 台湾3.4M
+      - 🇺🇸 美国3.3M
+      - 🇨🇳 台湾3.2M 2
+      - 🇨🇳 台湾 2
+      - 🇳🇱 荷兰-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-9@1Gbps2.9Mhttps://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-7@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国3.1M
-      - 🇦🇺 https://www.mattkaydiary.com|澳大利亚(AU)Australia/South Brisbane
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
+      - 虎窝vmess节点15
+      - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_633
+      - 🇨🇳 台湾(f) 2.9M
+      - 🇳🇱 荷兰-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 2
-      - 🇳🇱 荷兰-11@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 hm|德国(DE)Germany/Frankfurt am Main 2
-      - 🇺🇸 2.5M hm|美国(US)USA/Chicago 26
-      - 🇯🇵 2.3M hm|日本(JP)Japan/Tokyo
-      - hm 2.0M
+      - 🇺🇸 hm|美国(US)USA/Dallas2.7M
+      - 🇳🇱 荷兰-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国(f) 13
+      - 虎窝vmess节点19
       - 🇳🇱 荷兰-33
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 3
-      - "@SSRSUB-V06-1.7M:suo.yt/ssrsub"
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 4
-      - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 5
-      - 🇺🇸 2.51M🇸 hm|美国(US)USA/Chicago 28
-      - 🇺🇸 2.0M hm|美国(US)USA/Chicago 27
-      - 🇺🇸 hm|美国(US)USA/Chicago 31
+      - 🇳🇱 荷兰-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
+      - 🇨🇳 台湾3M
+      - 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 德国2.3M
+      - 🇭🇰 www.ncm68.com _🇭🇰HK_186
+      - 212.102.42.194:37588
       - 🇺🇸 hm|美国(US)USA/Chicago 21
-      - 🇺🇸 2.21M🇸 hm|美国(US)USA/Chicago 29
-      - 🇺🇸 hm|美国(US)USA/Chicago 18
-      - 🇺🇸 hm|美国(US)USA/Chicago 25
-      - 🇺🇸 hm|美国(US)USA/Chicago 20
-      - 🇺🇸 2.2M hm|美国(US)USA/Chicago 30
-      - 🇰🇷 韩国2.1M
+      - 🇩🇪 hm|德国(DE)Germany/Frankfurt am Main 2
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港5.3M
+      - 🇺🇸 5.3M www.mattkaydiary.com|美国(US)USA/Chicago
+      - 虎窝vmess节点18
       - 🇺🇸 4.5M//www.mattkaydiary.com|美国(US)USA/Chicago
-      - 🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 us,Las Vegas-9@1Gbps4.6Mhttps://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - YouTube-阿伟科技05-jp-26
-      - 🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇨🇳 台湾3.5M
-      - 🇺🇸 us,Las Vegas-25@1Gbps4.8Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 us,Las Vegas-35 联通100M+4K -2
-      - 🇨🇳 台湾3.11M
-      - 🇺🇸 us,Las Vegas-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇨🇳 台湾3.4M
-      - 🇨🇳 台湾3.3M
-      - 🇨🇳 台湾3.7M
-      - 🇭🇰 香港3.7M
-      - 🇨🇳 台湾4.2M
-      - 🇺🇸 美国3.3M
-      - 🇨🇳 台湾3.2M
-      - 🇨🇳 台湾2.9M
-      - 🇨🇳 台湾2.91M
-      - 🇨🇳 台湾2.7M
-      - 🇨🇳 台湾3.1M
-      - 🇭🇰 香港2.9M
-      - 🇺🇸 美国
-      - 阿伟科技Yw05
-      - 🇨🇳 台湾1.8M
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_636
       - 🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 www.mattkaydiary.com|美国F(US)USA/Chicago
+      - 🇺🇸 us,Las Vegas-25@1Gbps4.8Mhttps://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Las Vegas-9@1Gbps4.6Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,Las Vegas-35 联通100M+4K -2
+      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇺🇸 美国4.9M
+      - 🇺🇸 www.mattkaydiary.com|美国C(US)USA/Chicago
+      - 🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇯🇵 日本
+      - 🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国2.8M
+      - 🇺🇸 美国
+      - YouTube-阿伟科技05-jp-26
+      - 阿伟科技Yw05
+      - 🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇦🇺 www.mattkaydiary.com|澳大利亚(AU)Australia/South Brisbane
+      - f 150
+      - 🇨🇳 台湾3.1M
+      - 🇨🇳 台湾2.91M
+      - 🇺🇸 美国(f) 9
+      - 🇺🇸 www.mattkaydiary.com|美国A(US)USA/Chicago
+      - 🇨🇳 台湾
+      - 🇭🇰 香港3.5M
+      - 🇨🇳 台湾4.2M
+      - 🇨🇳 台湾3.5M
+      - 🇨🇳 台湾3.2M
+      - 🇨🇳 台湾3.1M 2
+      - 🇨🇳 台湾1.8M
+      - 🇨🇳 www.ncm68.com _🇹🇼TW_368
       - 🇨🇳 台湾3.6M
-      - 🇳🇱 荷兰-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
-      - 🇳🇱 荷兰-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
+      - 🇨🇳 台湾2.7M
+      - 🇺🇸 美国4.3M
+      - 🇷🇺 俄罗斯
+      - 🇨🇳 台湾3.7M
+      - 🇨🇳 台湾3.4M
+      - 🇺🇸 美国3.3M
+      - 🇨🇳 台湾3.2M 2
+      - 🇨🇳 台湾 2
+      - 🇳🇱 荷兰-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-9@1Gbps2.9Mhttps://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-7@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国3.1M
-      - 🇦🇺 https://www.mattkaydiary.com|澳大利亚(AU)Australia/South Brisbane
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
+      - 虎窝vmess节点15
+      - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_633
+      - 🇨🇳 台湾(f) 2.9M
+      - 🇳🇱 荷兰-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 2
-      - 🇳🇱 荷兰-11@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 hm|德国(DE)Germany/Frankfurt am Main 2
-      - 🇺🇸 2.5M hm|美国(US)USA/Chicago 26
-      - 🇯🇵 2.3M hm|日本(JP)Japan/Tokyo
-      - hm 2.0M
+      - 🇺🇸 hm|美国(US)USA/Dallas2.7M
+      - 🇳🇱 荷兰-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国(f) 13
+      - 虎窝vmess节点19
       - 🇳🇱 荷兰-33
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 3
-      - "@SSRSUB-V06-1.7M:suo.yt/ssrsub"
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 4
-      - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 5
-      - 🇺🇸 2.51M🇸 hm|美国(US)USA/Chicago 28
-      - 🇺🇸 2.0M hm|美国(US)USA/Chicago 27
-      - 🇺🇸 hm|美国(US)USA/Chicago 31
+      - 🇳🇱 荷兰-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
+      - 🇨🇳 台湾3M
+      - 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 德国2.3M
+      - 🇭🇰 www.ncm68.com _🇭🇰HK_186
+      - 212.102.42.194:37588
       - 🇺🇸 hm|美国(US)USA/Chicago 21
-      - 🇺🇸 2.21M🇸 hm|美国(US)USA/Chicago 29
-      - 🇺🇸 hm|美国(US)USA/Chicago 18
-      - 🇺🇸 hm|美国(US)USA/Chicago 25
-      - 🇺🇸 hm|美国(US)USA/Chicago 20
-      - 🇺🇸 2.2M hm|美国(US)USA/Chicago 30
-      - 🇰🇷 韩国2.1M
+      - 🇩🇪 hm|德国(DE)Germany/Frankfurt am Main 2
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -543,73 +558,75 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港5.3M
+      - 🇺🇸 5.3M www.mattkaydiary.com|美国(US)USA/Chicago
+      - 虎窝vmess节点18
       - 🇺🇸 4.5M//www.mattkaydiary.com|美国(US)USA/Chicago
-      - 🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 us,Las Vegas-9@1Gbps4.6Mhttps://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - YouTube-阿伟科技05-jp-26
-      - 🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇨🇳 台湾3.5M
-      - 🇺🇸 us,Las Vegas-25@1Gbps4.8Mhttps://bit.ly/3uWuS7a
-      - 🇺🇸 us,Las Vegas-35 联通100M+4K -2
-      - 🇨🇳 台湾3.11M
-      - 🇺🇸 us,Las Vegas-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
-      - 🇨🇳 台湾3.4M
-      - 🇨🇳 台湾3.3M
-      - 🇨🇳 台湾3.7M
-      - 🇭🇰 香港3.7M
-      - 🇨🇳 台湾4.2M
-      - 🇺🇸 美国3.3M
-      - 🇨🇳 台湾3.2M
-      - 🇨🇳 台湾2.9M
-      - 🇨🇳 台湾2.91M
-      - 🇨🇳 台湾2.7M
-      - 🇨🇳 台湾3.1M
-      - 🇭🇰 香港2.9M
-      - 🇺🇸 美国
-      - 阿伟科技Yw05
-      - 🇨🇳 台湾1.8M
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_636
       - 🇸🇬 us,Las Vegas-4@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 www.mattkaydiary.com|美国F(US)USA/Chicago
+      - 🇺🇸 us,Las Vegas-25@1Gbps4.8Mhttps://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-23@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 us,Las Vegas-28@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Las Vegas-9@1Gbps4.6Mhttps://bit.ly/3uWuS7a
+      - 🇺🇸 us,Las Vegas-35 联通100M+4K -2
+      - 🇸🇬 us,Las Vegas-29@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 us,Las Vegas-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇺🇸 美国4.9M
+      - 🇺🇸 www.mattkaydiary.com|美国C(US)USA/Chicago
+      - 🇸🇬 us,Las Vegas-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇯🇵 日本
+      - 🇸🇬 us,Las Vegas-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国2.8M
+      - 🇺🇸 美国
+      - YouTube-阿伟科技05-jp-26
+      - 阿伟科技Yw05
+      - 🇸🇬 us,Las Vegas-19@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇦🇺 www.mattkaydiary.com|澳大利亚(AU)Australia/South Brisbane
+      - f 150
+      - 🇨🇳 台湾3.1M
+      - 🇨🇳 台湾2.91M
+      - 🇺🇸 美国(f) 9
+      - 🇺🇸 www.mattkaydiary.com|美国A(US)USA/Chicago
+      - 🇨🇳 台湾
+      - 🇭🇰 香港3.5M
+      - 🇨🇳 台湾4.2M
+      - 🇨🇳 台湾3.5M
+      - 🇨🇳 台湾3.2M
+      - 🇨🇳 台湾3.1M 2
+      - 🇨🇳 台湾1.8M
+      - 🇨🇳 www.ncm68.com _🇹🇼TW_368
       - 🇨🇳 台湾3.6M
-      - 🇳🇱 荷兰-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
-      - 🇳🇱 荷兰-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
+      - 🇨🇳 台湾2.7M
+      - 🇺🇸 美国4.3M
+      - 🇷🇺 俄罗斯
+      - 🇨🇳 台湾3.7M
+      - 🇨🇳 台湾3.4M
+      - 🇺🇸 美国3.3M
+      - 🇨🇳 台湾3.2M 2
+      - 🇨🇳 台湾 2
+      - 🇳🇱 荷兰-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
       - 🇺🇸 美国-New York-9@1Gbps2.9Mhttps://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-7@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国3.1M
-      - 🇦🇺 https://www.mattkaydiary.com|澳大利亚(AU)Australia/South Brisbane
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
+      - 虎窝vmess节点15
+      - 🇯🇵 YouTube-阿伟科技02-JP-2.6M
+      - 🇺🇸 www.ncm68.com _🇺🇸US-🇺🇸US_633
+      - 🇨🇳 台湾(f) 2.9M
+      - 🇳🇱 荷兰-5@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇳🇱 荷兰-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇳🇱 荷兰-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 2
-      - 🇳🇱 荷兰-11@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 hm|德国(DE)Germany/Frankfurt am Main 2
-      - 🇺🇸 2.5M hm|美国(US)USA/Chicago 26
-      - 🇯🇵 2.3M hm|日本(JP)Japan/Tokyo
-      - hm 2.0M
+      - 🇺🇸 hm|美国(US)USA/Dallas2.7M
+      - 🇳🇱 荷兰-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国(f) 13
+      - 虎窝vmess节点19
       - 🇳🇱 荷兰-33
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 3
-      - "@SSRSUB-V06-1.7M:suo.yt/ssrsub"
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 4
-      - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago 5
-      - 🇺🇸 2.51M🇸 hm|美国(US)USA/Chicago 28
-      - 🇺🇸 2.0M hm|美国(US)USA/Chicago 27
-      - 🇺🇸 hm|美国(US)USA/Chicago 31
+      - 🇳🇱 荷兰-32 满 足  2200 Mbps带 宽 需求 速度302080 kB/s
+      - 🇨🇳 台湾3M
+      - 🇳🇱 荷兰-10@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇩🇪 德国2.3M
+      - 🇭🇰 www.ncm68.com _🇭🇰HK_186
+      - 212.102.42.194:37588
       - 🇺🇸 hm|美国(US)USA/Chicago 21
-      - 🇺🇸 2.21M🇸 hm|美国(US)USA/Chicago 29
-      - 🇺🇸 hm|美国(US)USA/Chicago 18
-      - 🇺🇸 hm|美国(US)USA/Chicago 25
-      - 🇺🇸 hm|美国(US)USA/Chicago 20
-      - 🇺🇸 2.2M hm|美国(US)USA/Chicago 30
-      - 🇰🇷 韩国2.1M
+      - 🇩🇪 hm|德国(DE)Germany/Frankfurt am Main 2
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Chicago
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
