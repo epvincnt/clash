@@ -5,436 +5,395 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇭🇰 香港16.8M, server: cm-jm.okvpn.cc, port: 20001, type: vmess, uuid: 94a60d56-10ee-4796-a072-25fc8d9a52b8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
   - {name: 🇭🇰 YouTube-阿伟科技01/2-HK-2, server: hk.proxypools.top, port: 14420, type: vmess, uuid: 3566ce4f-de41-490d-8a1f-9a3e4f503d4b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
   - {name: 🇭🇰 YouTube-阿伟科技09-HK-2, server: service7761.4cloud.click, port: 80, type: vmess, uuid: adcf19f2-7431-3fab-a3b8-efb7023430e4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ml, ws-headers: {Host: a.189.cn}}
-  - {name: YouTube-阿伟科技06-IND-2, server: zf.gzaia1.anyhk.xyz, port: 21118, type: vmess, uuid: 0e5f3f0e-ddd5-4a05-b505-bd5d7b0e2558, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /d, ws-headers: {Host: d.yigeweizhuang.com}}
-  - {name: 🇭🇰 YouTube-阿伟科技02-HK-2, server: 16.162.188.125, port: 80, type: vmess, uuid: 5dd64ee6-0f98-4203-a3c8-99c6ef0384f3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇸🇬 YouTube-阿伟科技15-SG-2, server: gzcm1.domain.hxray.me, port: 52344, type: vmess, uuid: 48fccaca-c2a9-4619-92a5-ef2260e44e76, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sgp1.domain.hxray.me}}
   - {name: 🇯🇵 YouTube-阿伟科技03-JP-2, server: azhk.yinriver.top, port: 60015, type: vmess, uuid: f3f96e35-1580-43b6-95cd-56051ccab888, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk.yinriver.top}}
-  - {name: 阿伟科技Yw05, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a7436b35-0daf-3eac-9a0b-356b8a3cc63b, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
-  - {name: 🇺🇸 YouTube-阿伟科技06-US-2, server: a.yigeweizhuang.com, port: 2096, type: vmess, uuid: 0e5f3f0e-ddd5-4a05-b505-bd5d7b0e2558, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /a, ws-headers: {Host: a.yigeweizhuang.com}}
-  - {name: 🇺🇸 hm|美国(US)USA/Chicago 5 7.8M, server: 104.20.53.69, port: 443, type: vmess, uuid: e26e8e56-6af6-fe22-d1ed-926650b89c76, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /fokfvws, ws-headers: {Host: nsawsrb.mooncloud.bike}}
-  - {name: a 67, server: 172.67.69.36, port: 443, type: vmess, uuid: e26e8e56-6af6-fe22-d1ed-926650b89c76, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /fokfvws, ws-headers: {Host: nsawsrb.mooncloud.bike}}
-  - {name: f 17, server: 104.20.239.212, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 hm|美国(US)USA/Chicago 19, server: 104.16.110.238, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 美国-New York-9@1Gbpsa, server: 104.20.239.212, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: f, server: 104.22.44.50, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 hm|美国(US)USA/Chicago 27, server: 104.20.239.212, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 YouTube-阿伟科技11-US-2, server: cu.spacez.cloud, port: 30003, type: vmess, uuid: 50511ad2-a4c9-4c2d-8d9b-e67dcfa83863, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇺🇸 YouTube-阿伟科技06-US-2 2, server: shcu1.qwqcloud.top, port: 11211, type: vmess, uuid: 0e5f3f0e-ddd5-4a05-b505-bd5d7b0e2558, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /a, ws-headers: {Host: a.yigeweizhuang.com}}
-  - {name: 🇭🇰 YouTube-阿伟科技01/4-HK-2, server: hk.proxypools.top, port: 65423, type: vmess, uuid: 2115f44d-8073-4478-8aed-be9a5881583c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /shensevens, ws-headers: {Host: hk.proxypools.top}}
-  - {name: f 3, server: 104.20.81.240, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: f 12, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: f 4, server: 104.20.130.43, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇯🇵 日本 ☆☆ 01 ☆GMO☆10.5M, server: cm2.cheapv2.xyz, port: 26601, type: vmess, uuid: cd22f8ef-0572-31a4-9244-fba30c4523ef, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: cm2.cheapv2.xyz}}
-  - {name: 🇨🇳 YouTube-阿伟科技04-TW-2, server: bgp.pengui.top, port: 80, type: vmess, uuid: e1e2aab5-12c3-4dfa-aa29-3661681c48c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /ptw, ws-headers: {Host: bgp.pengui.top}}
-  - {name: 🇺🇸 美国1(Youtube频道：工具大师！), server: 107.181.177.181, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 hm|美国(US)USA/Chicago 13, server: 104.21.76.229, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇯🇵 YouTube-阿伟科技14-JP-2, server: 104.20.239.212, port: 80, type: vmess, uuid: 178e04a9-7474-3f14-9a88-f5717984c95d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: index, ws-headers: {Host: jpaz1-1-1.biteb.xyz}}
-  - {name: Pool__548, server: 79.110.54.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: f 2, server: 104.20.239.212, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇸🇬 YouTube-阿伟科技15-SG-2, server: gzcm1.domain.hxray.me, port: 52344, type: vmess, uuid: 48fccaca-c2a9-4619-92a5-ef2260e44e76, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sgp1.domain.hxray.me}}
+  - {name: 🇯🇵 日本10.3M, server: ngzyd-1.okex-tradebot.xyz, port: 30006, type: vmess, uuid: f65634a8-3703-42d3-ad2d-bdcf1b31054f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: 🇭🇰 YouTube-阿伟科技02-HK-2, server: 16.162.188.125, port: 80, type: vmess, uuid: 5dd64ee6-0f98-4203-a3c8-99c6ef0384f3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
   - {name: 🇭🇰 YouTube-阿伟科技01/1-HK-2, server: fl.proxypools.top, port: 80, type: vmess, uuid: d09192c9-127f-42fa-9c35-914d3cc0c028, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇺🇸 hm|美国(US)USA/Chicago 9, server: 104.25.137.235, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: a 19, server: 104.25.137.235, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 hm|美国(US)USA/Chicago 14, server: 104.16.58.79, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: f 16, server: 104.16.38.223, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: Pool__541, server: 104.200.131.172, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: f 21, server: 104.20.239.212, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: Pool__259, server: 79.110.54.117, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 欧洲1(Youtube频道：工具大师！), server: 91.205.230.160, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__369, server: 79.110.54.117, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇷🇴 罗马尼亚 6.9M, server: 185.124.240.171, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool__260, server: 79.110.54.117, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 欧洲2(Youtube频道：工具大师！), server: 195.12.49.82, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇺🇸 美国2(Youtube频道：工具大师！), server: 66.115.147.89, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__414, server: 212.102.44.71, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇨🇳 YouTube-阿伟科技11-TW-2, server: tw.spacez.cloud, port: 37000, type: vmess, uuid: 50511ad2-a4c9-4c2d-8d9b-e67dcfa83863, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国3(Youtube频道：工具大师！), server: 207.244.127.116, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool__335, server: 104.200.131.172, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 欧洲3(Youtube频道：工具大师！), server: 199.10.64.101, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 罗马(Youtube频道：工具大师！), server: 193.29.106.59, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 🇺🇸 美国 9, server: 212.102.44.68, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 欧洲5(Youtube频道：工具大师！), server: 138.199.16.137, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
   - {name: 🇯🇵 日本10M, server: cm2.cheapv2.xyz, port: 26601, type: vmess, uuid: cd22f8ef-0572-31a4-9244-fba30c4523ef, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: cm2.cheapv2.xyz}}
-  - {name: 🇺🇸 Pool_🇺🇸US_1686, server: 192.111.134.80, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇯🇵 日本8.5M, server: cm2.cheapv2.xyz, port: 26601, type: vmess, uuid: cd22f8ef-0572-31a4-9244-fba30c4523ef, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: cm2.cheapv2.xyz}}
+  - {name: 🇭🇰 YouTube-阿伟科技01/4-HK-2, server: hk.proxypools.top, port: 65423, type: vmess, uuid: 2115f44d-8073-4478-8aed-be9a5881583c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /shensevens, ws-headers: {Host: hk.proxypools.top}}
+  - {name: 阿伟科技Yw05, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a7436b35-0daf-3eac-9a0b-356b8a3cc63b, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
+  - {name: YouTube-阿伟科技06-IND-2, server: zf.gzaia1.anyhk.xyz, port: 21118, type: vmess, uuid: 0e5f3f0e-ddd5-4a05-b505-bd5d7b0e2558, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /d, ws-headers: {Host: d.yigeweizhuang.com}}
+  - {name: 🇺🇸 美国-New York-9@1Gbpsa, server: 104.16.32.210, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: 🇺🇸 YouTube-阿伟科技06-US-2, server: a.yigeweizhuang.com, port: 2096, type: vmess, uuid: 0e5f3f0e-ddd5-4a05-b505-bd5d7b0e2558, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /a, ws-headers: {Host: a.yigeweizhuang.com}}
+  - {name: Pool__260, server: 79.110.54.117, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: Pool__259, server: 79.110.54.117, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: Pool__548, server: 79.110.54.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇨🇳 YouTube-阿伟科技04-TW-2, server: bgp.pengui.top, port: 80, type: vmess, uuid: e1e2aab5-12c3-4dfa-aa29-3661681c48c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /ptw, ws-headers: {Host: bgp.pengui.top}}
+  - {name: 🇺🇸 美国 9, server: 212.102.44.68, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国5.9M, server: 212.102.44.71, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: Pool__335, server: 104.200.131.172, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: Pool__414, server: 212.102.44.71, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 美国5.6M, server: transit-azure-b1s-hk.speedtestcustom.tk, port: 24446, type: vmess, uuid: 732ada90-3ad1-45bd-bd37-fb5fe1b9007c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: transit-azure-b1s-hk.speedtestcustom.tk}}
+  - {name: 波黑5.6M, server: 194.37.98.211, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: Pool__497, server: 212.102.40.66, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: Pool__403, server: 212.102.40.66, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: Pool__369, server: 79.110.54.117, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇺🇸 美国5.4M, server: 212.102.44.68, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国5.3M, server: 212.102.40.66, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
   - {name: Pool__365, server: 79.110.54.117, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 🇺🇸 YouTube-阿伟科技18/2-US-2, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: 1474e8e6-2c5c-3fe2-9de9-b9ce56c48745, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
+  - {name: 🇷🇴 罗马尼亚5.2M, server: 193.29.106.59, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 波黑5.2M, server: 194.37.98.211, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸 美国1(Youtube频道：工具大师！), server: 107.181.177.181, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 YouTube-阿伟科技11-TW-2, server: tw.spacez.cloud, port: 37000, type: vmess, uuid: 50511ad2-a4c9-4c2d-8d9b-e67dcfa83863, alterId: 1, cipher: auto, tls: false}
+  - {name: 斯洛伐克, server: 37.120.221.5, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 美国4.8M, server: 154.16.171.215, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇺🇸 美国4.7M, server: 66.115.177.141, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 🇯🇵 YouTube-阿伟科技14-JP-2, server: 104.20.239.212, port: 80, type: vmess, uuid: 178e04a9-7474-3f14-9a88-f5717984c95d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: index, ws-headers: {Host: jpaz1-1-1.biteb.xyz}}
+  - {name: 欧洲3(Youtube频道：工具大师！), server: 199.10.64.101, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: Pool__403, server: 212.102.40.66, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇮🇪 爱尔兰4.3M, server: 5.157.13.91, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇺🇸 YouTube-阿伟科技11-US-2, server: cu.spacez.cloud, port: 30003, type: vmess, uuid: 50511ad2-a4c9-4c2d-8d9b-e67dcfa83863, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国4.2M, server: 138.199.19.186, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇮🇪 爱尔兰4.1M, server: 5.157.13.91, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇮🇹 意大利4M, server: 212.102.54.141, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇺🇸 美国4.M, server: 152.89.160.211, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇬🇧 英国A, server: 217.138.222.53, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇸 美国3.9M, server: 138.199.19.162, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇮🇪 爱尔兰3.9M, server: 5.157.13.91, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 YouTube-阿伟科技06-US-2 2, server: shcu1.qwqcloud.top, port: 11211, type: vmess, uuid: 0e5f3f0e-ddd5-4a05-b505-bd5d7b0e2558, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /a, ws-headers: {Host: a.yigeweizhuang.com}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 香港16.8M
       - 🇭🇰 YouTube-阿伟科技01/2-HK-2
       - 🇭🇰 YouTube-阿伟科技09-HK-2
-      - YouTube-阿伟科技06-IND-2
-      - 🇭🇰 YouTube-阿伟科技02-HK-2
-      - 🇸🇬 YouTube-阿伟科技15-SG-2
       - 🇯🇵 YouTube-阿伟科技03-JP-2
-      - 阿伟科技Yw05
-      - 🇺🇸 YouTube-阿伟科技06-US-2
-      - 🇺🇸 hm|美国(US)USA/Chicago 5 7.8M
-      - a 67
-      - f 17
-      - 🇺🇸 hm|美国(US)USA/Chicago 19
-      - 🇺🇸 美国-New York-9@1Gbpsa
-      - f
-      - 🇺🇸 hm|美国(US)USA/Chicago 27
-      - 🇺🇸 YouTube-阿伟科技11-US-2
-      - 🇺🇸 YouTube-阿伟科技06-US-2 2
-      - 🇭🇰 YouTube-阿伟科技01/4-HK-2
-      - f 3
-      - f 12
-      - f 4
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆10.5M
-      - 🇨🇳 YouTube-阿伟科技04-TW-2
-      - 🇺🇸 美国1(Youtube频道：工具大师！)
-      - 🇺🇸 hm|美国(US)USA/Chicago 13
-      - 🇯🇵 YouTube-阿伟科技14-JP-2
-      - Pool__548
-      - f 2
+      - 🇸🇬 YouTube-阿伟科技15-SG-2
+      - 🇯🇵 日本10.3M
+      - 🇭🇰 YouTube-阿伟科技02-HK-2
       - 🇭🇰 YouTube-阿伟科技01/1-HK-2
-      - 🇺🇸 hm|美国(US)USA/Chicago 9
-      - a 19
-      - 🇺🇸 hm|美国(US)USA/Chicago 14
-      - f 16
-      - Pool__541
-      - f 21
-      - Pool__259
-      - 欧洲1(Youtube频道：工具大师！)
-      - Pool__369
-      - 🇷🇴 罗马尼亚 6.9M
-      - Pool__260
-      - 欧洲2(Youtube频道：工具大师！)
-      - 🇺🇸 美国2(Youtube频道：工具大师！)
-      - Pool__414
-      - 🇨🇳 YouTube-阿伟科技11-TW-2
-      - 🇺🇸 美国3(Youtube频道：工具大师！)
-      - Pool__335
-      - 欧洲3(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！)
-      - 🇺🇸 美国 9
-      - 欧洲5(Youtube频道：工具大师！)
       - 🇯🇵 日本10M
-      - 🇺🇸 Pool_🇺🇸US_1686
+      - 🇯🇵 日本8.5M
+      - 🇭🇰 YouTube-阿伟科技01/4-HK-2
+      - 阿伟科技Yw05
+      - YouTube-阿伟科技06-IND-2
+      - 🇺🇸 美国-New York-9@1Gbpsa
+      - 🇺🇸 YouTube-阿伟科技06-US-2
+      - Pool__260
+      - Pool__259
+      - Pool__548
+      - 🇨🇳 YouTube-阿伟科技04-TW-2
+      - 🇺🇸 美国 9
+      - 🇺🇸 美国5.9M
+      - Pool__335
+      - Pool__414
+      - 🇺🇸 美国5.6M
+      - 波黑5.6M
       - Pool__497
-      - Pool__403
+      - Pool__369
+      - 🇺🇸 美国5.4M
+      - 🇺🇸 美国5.3M
       - Pool__365
-      - 🇺🇸 YouTube-阿伟科技18/2-US-2
+      - 🇷🇴 罗马尼亚5.2M
+      - 波黑5.2M
+      - 🇺🇸 美国1(Youtube频道：工具大师！)
+      - 🇨🇳 YouTube-阿伟科技11-TW-2
+      - 斯洛伐克
+      - 🇺🇸 美国4.8M
+      - 🇺🇸 美国4.7M
+      - 🇯🇵 YouTube-阿伟科技14-JP-2
+      - 欧洲3(Youtube频道：工具大师！)
+      - Pool__403
+      - 🇮🇪 爱尔兰4.3M
+      - 🇺🇸 YouTube-阿伟科技11-US-2
+      - 🇺🇸 美国4.2M
+      - 🇮🇪 爱尔兰4.1M
+      - 🇮🇹 意大利4M
+      - 🇺🇸 美国4.M
+      - 🇬🇧 英国A
+      - 🇺🇸 美国3.9M
+      - 🇮🇪 爱尔兰3.9M
+      - 🇺🇸 YouTube-阿伟科技06-US-2 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇭🇰 香港16.8M
       - 🇭🇰 YouTube-阿伟科技01/2-HK-2
       - 🇭🇰 YouTube-阿伟科技09-HK-2
-      - YouTube-阿伟科技06-IND-2
-      - 🇭🇰 YouTube-阿伟科技02-HK-2
-      - 🇸🇬 YouTube-阿伟科技15-SG-2
       - 🇯🇵 YouTube-阿伟科技03-JP-2
-      - 阿伟科技Yw05
-      - 🇺🇸 YouTube-阿伟科技06-US-2
-      - 🇺🇸 hm|美国(US)USA/Chicago 5 7.8M
-      - a 67
-      - f 17
-      - 🇺🇸 hm|美国(US)USA/Chicago 19
-      - 🇺🇸 美国-New York-9@1Gbpsa
-      - f
-      - 🇺🇸 hm|美国(US)USA/Chicago 27
-      - 🇺🇸 YouTube-阿伟科技11-US-2
-      - 🇺🇸 YouTube-阿伟科技06-US-2 2
-      - 🇭🇰 YouTube-阿伟科技01/4-HK-2
-      - f 3
-      - f 12
-      - f 4
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆10.5M
-      - 🇨🇳 YouTube-阿伟科技04-TW-2
-      - 🇺🇸 美国1(Youtube频道：工具大师！)
-      - 🇺🇸 hm|美国(US)USA/Chicago 13
-      - 🇯🇵 YouTube-阿伟科技14-JP-2
-      - Pool__548
-      - f 2
+      - 🇸🇬 YouTube-阿伟科技15-SG-2
+      - 🇯🇵 日本10.3M
+      - 🇭🇰 YouTube-阿伟科技02-HK-2
       - 🇭🇰 YouTube-阿伟科技01/1-HK-2
-      - 🇺🇸 hm|美国(US)USA/Chicago 9
-      - a 19
-      - 🇺🇸 hm|美国(US)USA/Chicago 14
-      - f 16
-      - Pool__541
-      - f 21
-      - Pool__259
-      - 欧洲1(Youtube频道：工具大师！)
-      - Pool__369
-      - 🇷🇴 罗马尼亚 6.9M
-      - Pool__260
-      - 欧洲2(Youtube频道：工具大师！)
-      - 🇺🇸 美国2(Youtube频道：工具大师！)
-      - Pool__414
-      - 🇨🇳 YouTube-阿伟科技11-TW-2
-      - 🇺🇸 美国3(Youtube频道：工具大师！)
-      - Pool__335
-      - 欧洲3(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！)
-      - 🇺🇸 美国 9
-      - 欧洲5(Youtube频道：工具大师！)
       - 🇯🇵 日本10M
-      - 🇺🇸 Pool_🇺🇸US_1686
+      - 🇯🇵 日本8.5M
+      - 🇭🇰 YouTube-阿伟科技01/4-HK-2
+      - 阿伟科技Yw05
+      - YouTube-阿伟科技06-IND-2
+      - 🇺🇸 美国-New York-9@1Gbpsa
+      - 🇺🇸 YouTube-阿伟科技06-US-2
+      - Pool__260
+      - Pool__259
+      - Pool__548
+      - 🇨🇳 YouTube-阿伟科技04-TW-2
+      - 🇺🇸 美国 9
+      - 🇺🇸 美国5.9M
+      - Pool__335
+      - Pool__414
+      - 🇺🇸 美国5.6M
+      - 波黑5.6M
       - Pool__497
-      - Pool__403
+      - Pool__369
+      - 🇺🇸 美国5.4M
+      - 🇺🇸 美国5.3M
       - Pool__365
-      - 🇺🇸 YouTube-阿伟科技18/2-US-2
+      - 🇷🇴 罗马尼亚5.2M
+      - 波黑5.2M
+      - 🇺🇸 美国1(Youtube频道：工具大师！)
+      - 🇨🇳 YouTube-阿伟科技11-TW-2
+      - 斯洛伐克
+      - 🇺🇸 美国4.8M
+      - 🇺🇸 美国4.7M
+      - 🇯🇵 YouTube-阿伟科技14-JP-2
+      - 欧洲3(Youtube频道：工具大师！)
+      - Pool__403
+      - 🇮🇪 爱尔兰4.3M
+      - 🇺🇸 YouTube-阿伟科技11-US-2
+      - 🇺🇸 美国4.2M
+      - 🇮🇪 爱尔兰4.1M
+      - 🇮🇹 意大利4M
+      - 🇺🇸 美国4.M
+      - 🇬🇧 英国A
+      - 🇺🇸 美国3.9M
+      - 🇮🇪 爱尔兰3.9M
+      - 🇺🇸 YouTube-阿伟科技06-US-2 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 香港16.8M
       - 🇭🇰 YouTube-阿伟科技01/2-HK-2
       - 🇭🇰 YouTube-阿伟科技09-HK-2
-      - YouTube-阿伟科技06-IND-2
-      - 🇭🇰 YouTube-阿伟科技02-HK-2
-      - 🇸🇬 YouTube-阿伟科技15-SG-2
       - 🇯🇵 YouTube-阿伟科技03-JP-2
-      - 阿伟科技Yw05
-      - 🇺🇸 YouTube-阿伟科技06-US-2
-      - 🇺🇸 hm|美国(US)USA/Chicago 5 7.8M
-      - a 67
-      - f 17
-      - 🇺🇸 hm|美国(US)USA/Chicago 19
-      - 🇺🇸 美国-New York-9@1Gbpsa
-      - f
-      - 🇺🇸 hm|美国(US)USA/Chicago 27
-      - 🇺🇸 YouTube-阿伟科技11-US-2
-      - 🇺🇸 YouTube-阿伟科技06-US-2 2
-      - 🇭🇰 YouTube-阿伟科技01/4-HK-2
-      - f 3
-      - f 12
-      - f 4
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆10.5M
-      - 🇨🇳 YouTube-阿伟科技04-TW-2
-      - 🇺🇸 美国1(Youtube频道：工具大师！)
-      - 🇺🇸 hm|美国(US)USA/Chicago 13
-      - 🇯🇵 YouTube-阿伟科技14-JP-2
-      - Pool__548
-      - f 2
+      - 🇸🇬 YouTube-阿伟科技15-SG-2
+      - 🇯🇵 日本10.3M
+      - 🇭🇰 YouTube-阿伟科技02-HK-2
       - 🇭🇰 YouTube-阿伟科技01/1-HK-2
-      - 🇺🇸 hm|美国(US)USA/Chicago 9
-      - a 19
-      - 🇺🇸 hm|美国(US)USA/Chicago 14
-      - f 16
-      - Pool__541
-      - f 21
-      - Pool__259
-      - 欧洲1(Youtube频道：工具大师！)
-      - Pool__369
-      - 🇷🇴 罗马尼亚 6.9M
-      - Pool__260
-      - 欧洲2(Youtube频道：工具大师！)
-      - 🇺🇸 美国2(Youtube频道：工具大师！)
-      - Pool__414
-      - 🇨🇳 YouTube-阿伟科技11-TW-2
-      - 🇺🇸 美国3(Youtube频道：工具大师！)
-      - Pool__335
-      - 欧洲3(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！)
-      - 🇺🇸 美国 9
-      - 欧洲5(Youtube频道：工具大师！)
       - 🇯🇵 日本10M
-      - 🇺🇸 Pool_🇺🇸US_1686
+      - 🇯🇵 日本8.5M
+      - 🇭🇰 YouTube-阿伟科技01/4-HK-2
+      - 阿伟科技Yw05
+      - YouTube-阿伟科技06-IND-2
+      - 🇺🇸 美国-New York-9@1Gbpsa
+      - 🇺🇸 YouTube-阿伟科技06-US-2
+      - Pool__260
+      - Pool__259
+      - Pool__548
+      - 🇨🇳 YouTube-阿伟科技04-TW-2
+      - 🇺🇸 美国 9
+      - 🇺🇸 美国5.9M
+      - Pool__335
+      - Pool__414
+      - 🇺🇸 美国5.6M
+      - 波黑5.6M
       - Pool__497
-      - Pool__403
+      - Pool__369
+      - 🇺🇸 美国5.4M
+      - 🇺🇸 美国5.3M
       - Pool__365
-      - 🇺🇸 YouTube-阿伟科技18/2-US-2
+      - 🇷🇴 罗马尼亚5.2M
+      - 波黑5.2M
+      - 🇺🇸 美国1(Youtube频道：工具大师！)
+      - 🇨🇳 YouTube-阿伟科技11-TW-2
+      - 斯洛伐克
+      - 🇺🇸 美国4.8M
+      - 🇺🇸 美国4.7M
+      - 🇯🇵 YouTube-阿伟科技14-JP-2
+      - 欧洲3(Youtube频道：工具大师！)
+      - Pool__403
+      - 🇮🇪 爱尔兰4.3M
+      - 🇺🇸 YouTube-阿伟科技11-US-2
+      - 🇺🇸 美国4.2M
+      - 🇮🇪 爱尔兰4.1M
+      - 🇮🇹 意大利4M
+      - 🇺🇸 美国4.M
+      - 🇬🇧 英国A
+      - 🇺🇸 美国3.9M
+      - 🇮🇪 爱尔兰3.9M
+      - 🇺🇸 YouTube-阿伟科技06-US-2 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港16.8M
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇭🇰 香港16.8M
       - 🇭🇰 YouTube-阿伟科技01/2-HK-2
       - 🇭🇰 YouTube-阿伟科技09-HK-2
-      - YouTube-阿伟科技06-IND-2
-      - 🇭🇰 YouTube-阿伟科技02-HK-2
-      - 🇸🇬 YouTube-阿伟科技15-SG-2
       - 🇯🇵 YouTube-阿伟科技03-JP-2
-      - 阿伟科技Yw05
-      - 🇺🇸 YouTube-阿伟科技06-US-2
-      - 🇺🇸 hm|美国(US)USA/Chicago 5 7.8M
-      - a 67
-      - f 17
-      - 🇺🇸 hm|美国(US)USA/Chicago 19
-      - 🇺🇸 美国-New York-9@1Gbpsa
-      - f
-      - 🇺🇸 hm|美国(US)USA/Chicago 27
-      - 🇺🇸 YouTube-阿伟科技11-US-2
-      - 🇺🇸 YouTube-阿伟科技06-US-2 2
-      - 🇭🇰 YouTube-阿伟科技01/4-HK-2
-      - f 3
-      - f 12
-      - f 4
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆10.5M
-      - 🇨🇳 YouTube-阿伟科技04-TW-2
-      - 🇺🇸 美国1(Youtube频道：工具大师！)
-      - 🇺🇸 hm|美国(US)USA/Chicago 13
-      - 🇯🇵 YouTube-阿伟科技14-JP-2
-      - Pool__548
-      - f 2
+      - 🇸🇬 YouTube-阿伟科技15-SG-2
+      - 🇯🇵 日本10.3M
+      - 🇭🇰 YouTube-阿伟科技02-HK-2
       - 🇭🇰 YouTube-阿伟科技01/1-HK-2
-      - 🇺🇸 hm|美国(US)USA/Chicago 9
-      - a 19
-      - 🇺🇸 hm|美国(US)USA/Chicago 14
-      - f 16
-      - Pool__541
-      - f 21
-      - Pool__259
-      - 欧洲1(Youtube频道：工具大师！)
-      - Pool__369
-      - 🇷🇴 罗马尼亚 6.9M
-      - Pool__260
-      - 欧洲2(Youtube频道：工具大师！)
-      - 🇺🇸 美国2(Youtube频道：工具大师！)
-      - Pool__414
-      - 🇨🇳 YouTube-阿伟科技11-TW-2
-      - 🇺🇸 美国3(Youtube频道：工具大师！)
-      - Pool__335
-      - 欧洲3(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！)
-      - 🇺🇸 美国 9
-      - 欧洲5(Youtube频道：工具大师！)
       - 🇯🇵 日本10M
-      - 🇺🇸 Pool_🇺🇸US_1686
+      - 🇯🇵 日本8.5M
+      - 🇭🇰 YouTube-阿伟科技01/4-HK-2
+      - 阿伟科技Yw05
+      - YouTube-阿伟科技06-IND-2
+      - 🇺🇸 美国-New York-9@1Gbpsa
+      - 🇺🇸 YouTube-阿伟科技06-US-2
+      - Pool__260
+      - Pool__259
+      - Pool__548
+      - 🇨🇳 YouTube-阿伟科技04-TW-2
+      - 🇺🇸 美国 9
+      - 🇺🇸 美国5.9M
+      - Pool__335
+      - Pool__414
+      - 🇺🇸 美国5.6M
+      - 波黑5.6M
       - Pool__497
-      - Pool__403
+      - Pool__369
+      - 🇺🇸 美国5.4M
+      - 🇺🇸 美国5.3M
       - Pool__365
-      - 🇺🇸 YouTube-阿伟科技18/2-US-2
+      - 🇷🇴 罗马尼亚5.2M
+      - 波黑5.2M
+      - 🇺🇸 美国1(Youtube频道：工具大师！)
+      - 🇨🇳 YouTube-阿伟科技11-TW-2
+      - 斯洛伐克
+      - 🇺🇸 美国4.8M
+      - 🇺🇸 美国4.7M
+      - 🇯🇵 YouTube-阿伟科技14-JP-2
+      - 欧洲3(Youtube频道：工具大师！)
+      - Pool__403
+      - 🇮🇪 爱尔兰4.3M
+      - 🇺🇸 YouTube-阿伟科技11-US-2
+      - 🇺🇸 美国4.2M
+      - 🇮🇪 爱尔兰4.1M
+      - 🇮🇹 意大利4M
+      - 🇺🇸 美国4.M
+      - 🇬🇧 英国A
+      - 🇺🇸 美国3.9M
+      - 🇮🇪 爱尔兰3.9M
+      - 🇺🇸 YouTube-阿伟科技06-US-2 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇭🇰 香港16.8M
       - 🇭🇰 YouTube-阿伟科技01/2-HK-2
       - 🇭🇰 YouTube-阿伟科技09-HK-2
-      - YouTube-阿伟科技06-IND-2
-      - 🇭🇰 YouTube-阿伟科技02-HK-2
-      - 🇸🇬 YouTube-阿伟科技15-SG-2
       - 🇯🇵 YouTube-阿伟科技03-JP-2
-      - 阿伟科技Yw05
-      - 🇺🇸 YouTube-阿伟科技06-US-2
-      - 🇺🇸 hm|美国(US)USA/Chicago 5 7.8M
-      - a 67
-      - f 17
-      - 🇺🇸 hm|美国(US)USA/Chicago 19
-      - 🇺🇸 美国-New York-9@1Gbpsa
-      - f
-      - 🇺🇸 hm|美国(US)USA/Chicago 27
-      - 🇺🇸 YouTube-阿伟科技11-US-2
-      - 🇺🇸 YouTube-阿伟科技06-US-2 2
-      - 🇭🇰 YouTube-阿伟科技01/4-HK-2
-      - f 3
-      - f 12
-      - f 4
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆10.5M
-      - 🇨🇳 YouTube-阿伟科技04-TW-2
-      - 🇺🇸 美国1(Youtube频道：工具大师！)
-      - 🇺🇸 hm|美国(US)USA/Chicago 13
-      - 🇯🇵 YouTube-阿伟科技14-JP-2
-      - Pool__548
-      - f 2
+      - 🇸🇬 YouTube-阿伟科技15-SG-2
+      - 🇯🇵 日本10.3M
+      - 🇭🇰 YouTube-阿伟科技02-HK-2
       - 🇭🇰 YouTube-阿伟科技01/1-HK-2
-      - 🇺🇸 hm|美国(US)USA/Chicago 9
-      - a 19
-      - 🇺🇸 hm|美国(US)USA/Chicago 14
-      - f 16
-      - Pool__541
-      - f 21
-      - Pool__259
-      - 欧洲1(Youtube频道：工具大师！)
-      - Pool__369
-      - 🇷🇴 罗马尼亚 6.9M
-      - Pool__260
-      - 欧洲2(Youtube频道：工具大师！)
-      - 🇺🇸 美国2(Youtube频道：工具大师！)
-      - Pool__414
-      - 🇨🇳 YouTube-阿伟科技11-TW-2
-      - 🇺🇸 美国3(Youtube频道：工具大师！)
-      - Pool__335
-      - 欧洲3(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！)
-      - 🇺🇸 美国 9
-      - 欧洲5(Youtube频道：工具大师！)
       - 🇯🇵 日本10M
-      - 🇺🇸 Pool_🇺🇸US_1686
+      - 🇯🇵 日本8.5M
+      - 🇭🇰 YouTube-阿伟科技01/4-HK-2
+      - 阿伟科技Yw05
+      - YouTube-阿伟科技06-IND-2
+      - 🇺🇸 美国-New York-9@1Gbpsa
+      - 🇺🇸 YouTube-阿伟科技06-US-2
+      - Pool__260
+      - Pool__259
+      - Pool__548
+      - 🇨🇳 YouTube-阿伟科技04-TW-2
+      - 🇺🇸 美国 9
+      - 🇺🇸 美国5.9M
+      - Pool__335
+      - Pool__414
+      - 🇺🇸 美国5.6M
+      - 波黑5.6M
       - Pool__497
-      - Pool__403
+      - Pool__369
+      - 🇺🇸 美国5.4M
+      - 🇺🇸 美国5.3M
       - Pool__365
-      - 🇺🇸 YouTube-阿伟科技18/2-US-2
+      - 🇷🇴 罗马尼亚5.2M
+      - 波黑5.2M
+      - 🇺🇸 美国1(Youtube频道：工具大师！)
+      - 🇨🇳 YouTube-阿伟科技11-TW-2
+      - 斯洛伐克
+      - 🇺🇸 美国4.8M
+      - 🇺🇸 美国4.7M
+      - 🇯🇵 YouTube-阿伟科技14-JP-2
+      - 欧洲3(Youtube频道：工具大师！)
+      - Pool__403
+      - 🇮🇪 爱尔兰4.3M
+      - 🇺🇸 YouTube-阿伟科技11-US-2
+      - 🇺🇸 美国4.2M
+      - 🇮🇪 爱尔兰4.1M
+      - 🇮🇹 意大利4M
+      - 🇺🇸 美国4.M
+      - 🇬🇧 英国A
+      - 🇺🇸 美国3.9M
+      - 🇮🇪 爱尔兰3.9M
+      - 🇺🇸 YouTube-阿伟科技06-US-2 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 香港16.8M
       - 🇭🇰 YouTube-阿伟科技01/2-HK-2
       - 🇭🇰 YouTube-阿伟科技09-HK-2
-      - YouTube-阿伟科技06-IND-2
-      - 🇭🇰 YouTube-阿伟科技02-HK-2
-      - 🇸🇬 YouTube-阿伟科技15-SG-2
       - 🇯🇵 YouTube-阿伟科技03-JP-2
-      - 阿伟科技Yw05
-      - 🇺🇸 YouTube-阿伟科技06-US-2
-      - 🇺🇸 hm|美国(US)USA/Chicago 5 7.8M
-      - a 67
-      - f 17
-      - 🇺🇸 hm|美国(US)USA/Chicago 19
-      - 🇺🇸 美国-New York-9@1Gbpsa
-      - f
-      - 🇺🇸 hm|美国(US)USA/Chicago 27
-      - 🇺🇸 YouTube-阿伟科技11-US-2
-      - 🇺🇸 YouTube-阿伟科技06-US-2 2
-      - 🇭🇰 YouTube-阿伟科技01/4-HK-2
-      - f 3
-      - f 12
-      - f 4
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆10.5M
-      - 🇨🇳 YouTube-阿伟科技04-TW-2
-      - 🇺🇸 美国1(Youtube频道：工具大师！)
-      - 🇺🇸 hm|美国(US)USA/Chicago 13
-      - 🇯🇵 YouTube-阿伟科技14-JP-2
-      - Pool__548
-      - f 2
+      - 🇸🇬 YouTube-阿伟科技15-SG-2
+      - 🇯🇵 日本10.3M
+      - 🇭🇰 YouTube-阿伟科技02-HK-2
       - 🇭🇰 YouTube-阿伟科技01/1-HK-2
-      - 🇺🇸 hm|美国(US)USA/Chicago 9
-      - a 19
-      - 🇺🇸 hm|美国(US)USA/Chicago 14
-      - f 16
-      - Pool__541
-      - f 21
-      - Pool__259
-      - 欧洲1(Youtube频道：工具大师！)
-      - Pool__369
-      - 🇷🇴 罗马尼亚 6.9M
-      - Pool__260
-      - 欧洲2(Youtube频道：工具大师！)
-      - 🇺🇸 美国2(Youtube频道：工具大师！)
-      - Pool__414
-      - 🇨🇳 YouTube-阿伟科技11-TW-2
-      - 🇺🇸 美国3(Youtube频道：工具大师！)
-      - Pool__335
-      - 欧洲3(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！)
-      - 🇺🇸 美国 9
-      - 欧洲5(Youtube频道：工具大师！)
       - 🇯🇵 日本10M
-      - 🇺🇸 Pool_🇺🇸US_1686
+      - 🇯🇵 日本8.5M
+      - 🇭🇰 YouTube-阿伟科技01/4-HK-2
+      - 阿伟科技Yw05
+      - YouTube-阿伟科技06-IND-2
+      - 🇺🇸 美国-New York-9@1Gbpsa
+      - 🇺🇸 YouTube-阿伟科技06-US-2
+      - Pool__260
+      - Pool__259
+      - Pool__548
+      - 🇨🇳 YouTube-阿伟科技04-TW-2
+      - 🇺🇸 美国 9
+      - 🇺🇸 美国5.9M
+      - Pool__335
+      - Pool__414
+      - 🇺🇸 美国5.6M
+      - 波黑5.6M
       - Pool__497
-      - Pool__403
+      - Pool__369
+      - 🇺🇸 美国5.4M
+      - 🇺🇸 美国5.3M
       - Pool__365
-      - 🇺🇸 YouTube-阿伟科技18/2-US-2
+      - 🇷🇴 罗马尼亚5.2M
+      - 波黑5.2M
+      - 🇺🇸 美国1(Youtube频道：工具大师！)
+      - 🇨🇳 YouTube-阿伟科技11-TW-2
+      - 斯洛伐克
+      - 🇺🇸 美国4.8M
+      - 🇺🇸 美国4.7M
+      - 🇯🇵 YouTube-阿伟科技14-JP-2
+      - 欧洲3(Youtube频道：工具大师！)
+      - Pool__403
+      - 🇮🇪 爱尔兰4.3M
+      - 🇺🇸 YouTube-阿伟科技11-US-2
+      - 🇺🇸 美国4.2M
+      - 🇮🇪 爱尔兰4.1M
+      - 🇮🇹 意大利4M
+      - 🇺🇸 美国4.M
+      - 🇬🇧 英国A
+      - 🇺🇸 美国3.9M
+      - 🇮🇪 爱尔兰3.9M
+      - 🇺🇸 YouTube-阿伟科技06-US-2 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -450,62 +409,56 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 香港16.8M
       - 🇭🇰 YouTube-阿伟科技01/2-HK-2
       - 🇭🇰 YouTube-阿伟科技09-HK-2
-      - YouTube-阿伟科技06-IND-2
-      - 🇭🇰 YouTube-阿伟科技02-HK-2
-      - 🇸🇬 YouTube-阿伟科技15-SG-2
       - 🇯🇵 YouTube-阿伟科技03-JP-2
-      - 阿伟科技Yw05
-      - 🇺🇸 YouTube-阿伟科技06-US-2
-      - 🇺🇸 hm|美国(US)USA/Chicago 5 7.8M
-      - a 67
-      - f 17
-      - 🇺🇸 hm|美国(US)USA/Chicago 19
-      - 🇺🇸 美国-New York-9@1Gbpsa
-      - f
-      - 🇺🇸 hm|美国(US)USA/Chicago 27
-      - 🇺🇸 YouTube-阿伟科技11-US-2
-      - 🇺🇸 YouTube-阿伟科技06-US-2 2
-      - 🇭🇰 YouTube-阿伟科技01/4-HK-2
-      - f 3
-      - f 12
-      - f 4
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆10.5M
-      - 🇨🇳 YouTube-阿伟科技04-TW-2
-      - 🇺🇸 美国1(Youtube频道：工具大师！)
-      - 🇺🇸 hm|美国(US)USA/Chicago 13
-      - 🇯🇵 YouTube-阿伟科技14-JP-2
-      - Pool__548
-      - f 2
+      - 🇸🇬 YouTube-阿伟科技15-SG-2
+      - 🇯🇵 日本10.3M
+      - 🇭🇰 YouTube-阿伟科技02-HK-2
       - 🇭🇰 YouTube-阿伟科技01/1-HK-2
-      - 🇺🇸 hm|美国(US)USA/Chicago 9
-      - a 19
-      - 🇺🇸 hm|美国(US)USA/Chicago 14
-      - f 16
-      - Pool__541
-      - f 21
-      - Pool__259
-      - 欧洲1(Youtube频道：工具大师！)
-      - Pool__369
-      - 🇷🇴 罗马尼亚 6.9M
-      - Pool__260
-      - 欧洲2(Youtube频道：工具大师！)
-      - 🇺🇸 美国2(Youtube频道：工具大师！)
-      - Pool__414
-      - 🇨🇳 YouTube-阿伟科技11-TW-2
-      - 🇺🇸 美国3(Youtube频道：工具大师！)
-      - Pool__335
-      - 欧洲3(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！)
-      - 🇺🇸 美国 9
-      - 欧洲5(Youtube频道：工具大师！)
       - 🇯🇵 日本10M
-      - 🇺🇸 Pool_🇺🇸US_1686
+      - 🇯🇵 日本8.5M
+      - 🇭🇰 YouTube-阿伟科技01/4-HK-2
+      - 阿伟科技Yw05
+      - YouTube-阿伟科技06-IND-2
+      - 🇺🇸 美国-New York-9@1Gbpsa
+      - 🇺🇸 YouTube-阿伟科技06-US-2
+      - Pool__260
+      - Pool__259
+      - Pool__548
+      - 🇨🇳 YouTube-阿伟科技04-TW-2
+      - 🇺🇸 美国 9
+      - 🇺🇸 美国5.9M
+      - Pool__335
+      - Pool__414
+      - 🇺🇸 美国5.6M
+      - 波黑5.6M
       - Pool__497
-      - Pool__403
+      - Pool__369
+      - 🇺🇸 美国5.4M
+      - 🇺🇸 美国5.3M
       - Pool__365
-      - 🇺🇸 YouTube-阿伟科技18/2-US-2
+      - 🇷🇴 罗马尼亚5.2M
+      - 波黑5.2M
+      - 🇺🇸 美国1(Youtube频道：工具大师！)
+      - 🇨🇳 YouTube-阿伟科技11-TW-2
+      - 斯洛伐克
+      - 🇺🇸 美国4.8M
+      - 🇺🇸 美国4.7M
+      - 🇯🇵 YouTube-阿伟科技14-JP-2
+      - 欧洲3(Youtube频道：工具大师！)
+      - Pool__403
+      - 🇮🇪 爱尔兰4.3M
+      - 🇺🇸 YouTube-阿伟科技11-US-2
+      - 🇺🇸 美国4.2M
+      - 🇮🇪 爱尔兰4.1M
+      - 🇮🇹 意大利4M
+      - 🇺🇸 美国4.M
+      - 🇬🇧 英国A
+      - 🇺🇸 美国3.9M
+      - 🇮🇪 爱尔兰3.9M
+      - 🇺🇸 YouTube-阿伟科技06-US-2 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
