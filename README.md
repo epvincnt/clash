@@ -5,271 +5,265 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇭🇰 v1-香港3, server: 6.kaikaiye.cyou, port: 26106, type: vmess, uuid: 057aadf0-d16a-3c77-8dc0-d8bb72621a0a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 6.kaikaiye.cyou}}
+  - {name: 🇭🇰 v1-香港1, server: 4.kaikaiye.cyou, port: 36104, type: vmess, uuid: 057aadf0-d16a-3c77-8dc0-d8bb72621a0a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 4.kaikaiye.cyou}}
+  - {name: 🇭🇰 v1-香港4, server: 7.kaikaiye.cyou, port: 36107, type: vmess, uuid: 057aadf0-d16a-3c77-8dc0-d8bb72621a0a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7.kaikaiye.cyou}}
+  - {name: 🇭🇰 v1-香港6, server: 20.kaikaiye.cyou, port: 56120, type: vmess, uuid: 057aadf0-d16a-3c77-8dc0-d8bb72621a0a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 20.kaikaiye.cyou}}
+  - {name: 🇭🇰 v1-香港2, server: 5.kaikaiye.cyou, port: 26105, type: vmess, uuid: 057aadf0-d16a-3c77-8dc0-d8bb72621a0a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 5.kaikaiye.cyou}}
+  - {name: 🇭🇰 v1-香港5, server: 15.kaikaiye.cyou, port: 36115, type: vmess, uuid: 057aadf0-d16a-3c77-8dc0-d8bb72621a0a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 15.kaikaiye.cyou}}
+  - {name: 🇸🇬 v1-新加坡1, server: 2.kaikaiye.cyou, port: 36102, type: vmess, uuid: 057aadf0-d16a-3c77-8dc0-d8bb72621a0a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 2.kaikaiye.cyou}}
+  - {name: 🇯🇵 v1-日本2, server: 16.kaikaiye.cyou, port: 36116, type: vmess, uuid: 057aadf0-d16a-3c77-8dc0-d8bb72621a0a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 16.kaikaiye.cyou}}
+  - {name: 🇸🇬 v1-新加坡2, server: 23.kaikaiye.cyou, port: 36123, type: vmess, uuid: 057aadf0-d16a-3c77-8dc0-d8bb72621a0a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 23.kaikaiye.cyou}}
+  - {name: 🇯🇵 v1-日本5, server: 31.kaikaiye.cyou, port: 26131, type: vmess, uuid: 057aadf0-d16a-3c77-8dc0-d8bb72621a0a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 31.kaikaiye.cyou}}
+  - {name: 🇯🇵 v1-日本6, server: 32.kaikaiye.cyou, port: 36132, type: vmess, uuid: 057aadf0-d16a-3c77-8dc0-d8bb72621a0a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 32.kaikaiye.cyou}}
+  - {name: 🇯🇵 v1-日本4, server: 17.kaikaiye.cyou, port: 36117, type: vmess, uuid: 057aadf0-d16a-3c77-8dc0-d8bb72621a0a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 17.kaikaiye.cyou}}
+  - {name: 🇸🇬 v1-新加坡3, server: 13.kaikaiye.cyou, port: 36113, type: vmess, uuid: 057aadf0-d16a-3c77-8dc0-d8bb72621a0a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.kaikaiye.cyou}}
+  - {name: 🇸🇬 v1-新加坡4, server: 39.kaikaiye.cyou, port: 36139, type: vmess, uuid: 057aadf0-d16a-3c77-8dc0-d8bb72621a0a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 39.kaikaiye.cyou}}
+  - {name: 🇰🇷 v1-韩国3, server: 24.kaikaiye.cyou, port: 26124, type: vmess, uuid: 057aadf0-d16a-3c77-8dc0-d8bb72621a0a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 24.kaikaiye.cyou}}
   - {name: 🇸🇬 【直连】SIN/狮城 B - 1, server: 036.SG.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 036.SG.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇰🇷 v1-韩国2, server: 25.kaikaiye.cyou, port: 26125, type: vmess, uuid: 057aadf0-d16a-3c77-8dc0-d8bb72621a0a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 25.kaikaiye.cyou}}
   - {name: 🇸🇬 【直连】SIN/狮城 A - 4, server: 034.SG.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 034.SG.AP.POP.BIGAIRPORT.NET}}
   - {name: 🇭🇰 【直连】HKG/香港 B - 8.9M, server: 011.HK.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 011.HK.AP.POP.BIGAIRPORT.NET}}
   - {name: 🇸🇬 【直连】SIN/狮城 B - 11.9M, server: 039.SG.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 039.SG.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇰🇷 v1-韩国1, server: 14.kaikaiye.cyou, port: 36114, type: vmess, uuid: 057aadf0-d16a-3c77-8dc0-d8bb72621a0a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 14.kaikaiye.cyou}}
+  - {name: 🇯🇵 v1-日本1, server: 1.kaikaiye.cyou, port: 36101, type: vmess, uuid: 057aadf0-d16a-3c77-8dc0-d8bb72621a0a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 1.kaikaiye.cyou}}
   - {name: 🇭🇰 【直连】HKG/香港 A - 7.3M, server: 003.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 003.HK.AP.POP.BIGAIRPORT.NET}}
   - {name: 🇯🇵 YouTube-阿伟科技03-JP-9.7M, server: azhk.yinriver.top, port: 60015, type: vmess, uuid: f3f96e35-1580-43b6-95cd-56051ccab888, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk.yinriver.top}}
   - {name: 🇸🇬 【直连】SIN/狮城 A - 1, server: 031.SG.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 031.SG.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 【直连】SIN/狮城 B - 2, server: 037.SG.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 037.SG.AP.POP.BIGAIRPORT.NET}}
   - {name: 🇸🇬 美国-New York-9@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: 🇸🇬 【直连】SIN/狮城 B - 2, server: 037.SG.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 037.SG.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 v1-新加坡5, server: 35.kaikaiye.cyou, port: 56135, type: vmess, uuid: 057aadf0-d16a-3c77-8dc0-d8bb72621a0a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 35.kaikaiye.cyou}}
   - {name: 🇭🇰 【直连】HKG/香港 B - 8, server: 018.HK.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 018.HK.AP.POP.BIGAIRPORT.NET}}
   - {name: 🇭🇰 【直连】HKG/香港 A - 8.6M, server: 009.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 009.HK.AP.POP.BIGAIRPORT.NET}}
   - {name: 🇭🇰 【直连】HKG/香港 B - 10, server: 020.HK.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 020.HK.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇯🇵 v1-日本3, server: 3.kaikaiye.cyou, port: 36103, type: vmess, uuid: 057aadf0-d16a-3c77-8dc0-d8bb72621a0a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 3.kaikaiye.cyou}}
+  - {name: 🇺🇸 v1-美国1, server: 19.kaikaiye.cyou, port: 36119, type: vmess, uuid: 057aadf0-d16a-3c77-8dc0-d8bb72621a0a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 19.kaikaiye.cyou}}
   - {name: 🇯🇵 【直连】NRT/东京 B - 5, server: 030.JP.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 030.JP.AP.POP.BIGAIRPORT.NET}}
   - {name: 🇯🇵 【直连】NRT/东京 A - 2, server: 022.JP.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 022.JP.AP.POP.BIGAIRPORT.NET}}
   - {name: 🇯🇵 【直连】NRT/东京 A - 4, server: 024.JP.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 024.JP.AP.POP.BIGAIRPORT.NET}}
   - {name: 🇺🇸 美国5.9M, server: 212.102.44.71, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
   - {name: Pool__414, server: 212.102.44.71, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: Pool__260, server: 79.110.54.117, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 美国5.3M, server: 212.102.40.66, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
   - {name: Pool__259, server: 79.110.54.117, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
   - {name: 🇯🇵 YouTube-阿伟科技14-JP-2, server: 104.20.239.212, port: 80, type: vmess, uuid: 178e04a9-7474-3f14-9a88-f5717984c95d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: index, ws-headers: {Host: jpaz1-1-1.biteb.xyz}}
   - {name: Pool__541, server: 104.200.131.172, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 美国2.5M, server: 212.102.44.83, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: 🇸🇬 【直连】SIN/狮城 A - 8.7M, server: 032.SG.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 032.SG.AP.POP.BIGAIRPORT.NET}}
   - {name: 波黑5.2M, server: 194.37.98.211, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
   - {name: 阿伟科技Yw05, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a7436b35-0daf-3eac-9a0b-356b8a3cc63b, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
   - {name: 🇺🇸 美国, server: 198.147.22.85, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: Pool__548, server: 79.110.54.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 美国2.8M, server: 143.244.60.162, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇮🇪 爱尔兰4.3M, server: 5.157.13.91, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
   - {name: 波黑5.6M, server: 194.37.98.211, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: Pool__335, server: 104.200.131.172, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 波黑, server: 193.29.106.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇮🇹 意大利, server: 212.102.54.141, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 🇺🇸 美国J, server: 198.147.22.85, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 波兰2.2M, server: 5.187.49.187, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇨🇦 加拿大2.8M, server: 208.78.41.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇺🇸 美国 2, server: 198.147.22.83, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 斯洛伐克, server: 37.120.221.5, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
   - {name: 🇷🇴 罗马尼亚, server: 185.124.240.171, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
   - {name: 捷克, server: 185.180.14.147, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇸🇬 【直连】SIN/狮城 B - 3, server: 038.SG.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 038.SG.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇮🇪 爱尔兰4.1M, server: 5.157.13.91, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇨🇭 瑞士, server: 84.17.53.210, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇷🇴 罗马尼亚 2, server: 185.124.240.171, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 美国4.8M, server: 154.16.171.215, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: Pool__497, server: 212.102.40.66, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 🇭🇰 YouTube-阿伟科技09-HK-10.8M, server: service7761.4cloud.click, port: 80, type: vmess, uuid: adcf19f2-7431-3fab-a3b8-efb7023430e4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ml, ws-headers: {Host: a.189.cn}}
-  - {name: 拉脱维亚, server: 188.92.78.140, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 瑞典3.9M, server: 185.76.9.44, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇷🇴 罗马尼亚 3, server: 185.124.240.171, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: Pool__369, server: 79.110.54.117, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇮🇹 意大利A, server: 212.102.54.141, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇮🇹 意大利 2, server: 212.102.54.141, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇦🇺 澳大利亚3.4M, server: 45.130.137.14, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇸🇬 【直连】SIN/狮城 A - 3, server: 033.SG.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 033.SG.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇯🇵 【直连】NRT/东京 B - 2, server: 027.JP.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 027.JP.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇺🇸 美国F, server: 154.16.171.215, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇷🇺 俄罗斯, server: 5.189.202.16, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: Pool__365, server: 79.110.54.117, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 塞尔維亞, server: 152.89.160.213, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇺🇸 美国2.5M, server: 212.102.44.83, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 v1-香港3
+      - 🇭🇰 v1-香港1
+      - 🇭🇰 v1-香港4
+      - 🇭🇰 v1-香港6
+      - 🇭🇰 v1-香港2
+      - 🇭🇰 v1-香港5
+      - 🇸🇬 v1-新加坡1
+      - 🇯🇵 v1-日本2
+      - 🇸🇬 v1-新加坡2
+      - 🇯🇵 v1-日本5
+      - 🇯🇵 v1-日本6
+      - 🇯🇵 v1-日本4
+      - 🇸🇬 v1-新加坡3
+      - 🇸🇬 v1-新加坡4
+      - 🇰🇷 v1-韩国3
       - 🇸🇬 【直连】SIN/狮城 B - 1
+      - 🇰🇷 v1-韩国2
       - 🇸🇬 【直连】SIN/狮城 A - 4
       - 🇭🇰 【直连】HKG/香港 B - 8.9M
       - 🇸🇬 【直连】SIN/狮城 B - 11.9M
+      - 🇰🇷 v1-韩国1
+      - 🇯🇵 v1-日本1
       - 🇭🇰 【直连】HKG/香港 A - 7.3M
       - 🇯🇵 YouTube-阿伟科技03-JP-9.7M
       - 🇸🇬 【直连】SIN/狮城 A - 1
-      - 🇸🇬 【直连】SIN/狮城 B - 2
       - 🇸🇬 美国-New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 【直连】SIN/狮城 B - 2
+      - 🇸🇬 v1-新加坡5
       - 🇭🇰 【直连】HKG/香港 B - 8
       - 🇭🇰 【直连】HKG/香港 A - 8.6M
       - 🇭🇰 【直连】HKG/香港 B - 10
+      - 🇯🇵 v1-日本3
+      - 🇺🇸 v1-美国1
       - 🇯🇵 【直连】NRT/东京 B - 5
       - 🇯🇵 【直连】NRT/东京 A - 2
       - 🇯🇵 【直连】NRT/东京 A - 4
       - 🇺🇸 美国5.9M
       - Pool__414
       - Pool__260
-      - 🇺🇸 美国5.3M
       - Pool__259
       - 🇯🇵 YouTube-阿伟科技14-JP-2
       - Pool__541
+      - 🇺🇸 美国2.5M
       - 🇸🇬 【直连】SIN/狮城 A - 8.7M
       - 波黑5.2M
       - 阿伟科技Yw05
       - 🇺🇸 美国
       - Pool__548
-      - 🇺🇸 美国2.8M
-      - 🇮🇪 爱尔兰4.3M
       - 波黑5.6M
       - Pool__335
       - 波黑
       - 🇮🇹 意大利
       - 🇺🇸 美国J
       - 波兰2.2M
-      - 🇨🇦 加拿大2.8M
       - 🇺🇸 美国 2
       - 斯洛伐克
       - 🇷🇴 罗马尼亚
       - 捷克
-      - 🇸🇬 【直连】SIN/狮城 B - 3
-      - 🇮🇪 爱尔兰4.1M
-      - 🇨🇭 瑞士
-      - 🇷🇴 罗马尼亚 2
-      - 🇺🇸 美国4.8M
-      - Pool__497
-      - 🇭🇰 YouTube-阿伟科技09-HK-10.8M
-      - 拉脱维亚
-      - 瑞典3.9M
-      - 🇷🇴 罗马尼亚 3
-      - Pool__369
-      - 🇮🇹 意大利A
-      - 🇮🇹 意大利 2
-      - 🇦🇺 澳大利亚3.4M
-      - 🇸🇬 【直连】SIN/狮城 A - 3
-      - 🇯🇵 【直连】NRT/东京 B - 2
-      - 🇺🇸 美国F
-      - 🇷🇺 俄罗斯
-      - Pool__365
-      - 塞尔維亞
-      - 🇺🇸 美国2.5M
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇭🇰 v1-香港3
+      - 🇭🇰 v1-香港1
+      - 🇭🇰 v1-香港4
+      - 🇭🇰 v1-香港6
+      - 🇭🇰 v1-香港2
+      - 🇭🇰 v1-香港5
+      - 🇸🇬 v1-新加坡1
+      - 🇯🇵 v1-日本2
+      - 🇸🇬 v1-新加坡2
+      - 🇯🇵 v1-日本5
+      - 🇯🇵 v1-日本6
+      - 🇯🇵 v1-日本4
+      - 🇸🇬 v1-新加坡3
+      - 🇸🇬 v1-新加坡4
+      - 🇰🇷 v1-韩国3
       - 🇸🇬 【直连】SIN/狮城 B - 1
+      - 🇰🇷 v1-韩国2
       - 🇸🇬 【直连】SIN/狮城 A - 4
       - 🇭🇰 【直连】HKG/香港 B - 8.9M
       - 🇸🇬 【直连】SIN/狮城 B - 11.9M
+      - 🇰🇷 v1-韩国1
+      - 🇯🇵 v1-日本1
       - 🇭🇰 【直连】HKG/香港 A - 7.3M
       - 🇯🇵 YouTube-阿伟科技03-JP-9.7M
       - 🇸🇬 【直连】SIN/狮城 A - 1
-      - 🇸🇬 【直连】SIN/狮城 B - 2
       - 🇸🇬 美国-New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 【直连】SIN/狮城 B - 2
+      - 🇸🇬 v1-新加坡5
       - 🇭🇰 【直连】HKG/香港 B - 8
       - 🇭🇰 【直连】HKG/香港 A - 8.6M
       - 🇭🇰 【直连】HKG/香港 B - 10
+      - 🇯🇵 v1-日本3
+      - 🇺🇸 v1-美国1
       - 🇯🇵 【直连】NRT/东京 B - 5
       - 🇯🇵 【直连】NRT/东京 A - 2
       - 🇯🇵 【直连】NRT/东京 A - 4
       - 🇺🇸 美国5.9M
       - Pool__414
       - Pool__260
-      - 🇺🇸 美国5.3M
       - Pool__259
       - 🇯🇵 YouTube-阿伟科技14-JP-2
       - Pool__541
+      - 🇺🇸 美国2.5M
       - 🇸🇬 【直连】SIN/狮城 A - 8.7M
       - 波黑5.2M
       - 阿伟科技Yw05
       - 🇺🇸 美国
       - Pool__548
-      - 🇺🇸 美国2.8M
-      - 🇮🇪 爱尔兰4.3M
       - 波黑5.6M
       - Pool__335
       - 波黑
       - 🇮🇹 意大利
       - 🇺🇸 美国J
       - 波兰2.2M
-      - 🇨🇦 加拿大2.8M
       - 🇺🇸 美国 2
       - 斯洛伐克
       - 🇷🇴 罗马尼亚
       - 捷克
-      - 🇸🇬 【直连】SIN/狮城 B - 3
-      - 🇮🇪 爱尔兰4.1M
-      - 🇨🇭 瑞士
-      - 🇷🇴 罗马尼亚 2
-      - 🇺🇸 美国4.8M
-      - Pool__497
-      - 🇭🇰 YouTube-阿伟科技09-HK-10.8M
-      - 拉脱维亚
-      - 瑞典3.9M
-      - 🇷🇴 罗马尼亚 3
-      - Pool__369
-      - 🇮🇹 意大利A
-      - 🇮🇹 意大利 2
-      - 🇦🇺 澳大利亚3.4M
-      - 🇸🇬 【直连】SIN/狮城 A - 3
-      - 🇯🇵 【直连】NRT/东京 B - 2
-      - 🇺🇸 美国F
-      - 🇷🇺 俄罗斯
-      - Pool__365
-      - 塞尔維亞
-      - 🇺🇸 美国2.5M
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 v1-香港3
+      - 🇭🇰 v1-香港1
+      - 🇭🇰 v1-香港4
+      - 🇭🇰 v1-香港6
+      - 🇭🇰 v1-香港2
+      - 🇭🇰 v1-香港5
+      - 🇸🇬 v1-新加坡1
+      - 🇯🇵 v1-日本2
+      - 🇸🇬 v1-新加坡2
+      - 🇯🇵 v1-日本5
+      - 🇯🇵 v1-日本6
+      - 🇯🇵 v1-日本4
+      - 🇸🇬 v1-新加坡3
+      - 🇸🇬 v1-新加坡4
+      - 🇰🇷 v1-韩国3
       - 🇸🇬 【直连】SIN/狮城 B - 1
+      - 🇰🇷 v1-韩国2
       - 🇸🇬 【直连】SIN/狮城 A - 4
       - 🇭🇰 【直连】HKG/香港 B - 8.9M
       - 🇸🇬 【直连】SIN/狮城 B - 11.9M
+      - 🇰🇷 v1-韩国1
+      - 🇯🇵 v1-日本1
       - 🇭🇰 【直连】HKG/香港 A - 7.3M
       - 🇯🇵 YouTube-阿伟科技03-JP-9.7M
       - 🇸🇬 【直连】SIN/狮城 A - 1
-      - 🇸🇬 【直连】SIN/狮城 B - 2
       - 🇸🇬 美国-New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 【直连】SIN/狮城 B - 2
+      - 🇸🇬 v1-新加坡5
       - 🇭🇰 【直连】HKG/香港 B - 8
       - 🇭🇰 【直连】HKG/香港 A - 8.6M
       - 🇭🇰 【直连】HKG/香港 B - 10
+      - 🇯🇵 v1-日本3
+      - 🇺🇸 v1-美国1
       - 🇯🇵 【直连】NRT/东京 B - 5
       - 🇯🇵 【直连】NRT/东京 A - 2
       - 🇯🇵 【直连】NRT/东京 A - 4
       - 🇺🇸 美国5.9M
       - Pool__414
       - Pool__260
-      - 🇺🇸 美国5.3M
       - Pool__259
       - 🇯🇵 YouTube-阿伟科技14-JP-2
       - Pool__541
+      - 🇺🇸 美国2.5M
       - 🇸🇬 【直连】SIN/狮城 A - 8.7M
       - 波黑5.2M
       - 阿伟科技Yw05
       - 🇺🇸 美国
       - Pool__548
-      - 🇺🇸 美国2.8M
-      - 🇮🇪 爱尔兰4.3M
       - 波黑5.6M
       - Pool__335
       - 波黑
       - 🇮🇹 意大利
       - 🇺🇸 美国J
       - 波兰2.2M
-      - 🇨🇦 加拿大2.8M
       - 🇺🇸 美国 2
       - 斯洛伐克
       - 🇷🇴 罗马尼亚
       - 捷克
-      - 🇸🇬 【直连】SIN/狮城 B - 3
-      - 🇮🇪 爱尔兰4.1M
-      - 🇨🇭 瑞士
-      - 🇷🇴 罗马尼亚 2
-      - 🇺🇸 美国4.8M
-      - Pool__497
-      - 🇭🇰 YouTube-阿伟科技09-HK-10.8M
-      - 拉脱维亚
-      - 瑞典3.9M
-      - 🇷🇴 罗马尼亚 3
-      - Pool__369
-      - 🇮🇹 意大利A
-      - 🇮🇹 意大利 2
-      - 🇦🇺 澳大利亚3.4M
-      - 🇸🇬 【直连】SIN/狮城 A - 3
-      - 🇯🇵 【直连】NRT/东京 B - 2
-      - 🇺🇸 美国F
-      - 🇷🇺 俄罗斯
-      - Pool__365
-      - 塞尔維亞
-      - 🇺🇸 美国2.5M
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 v1-香港3
+      - 🇭🇰 v1-香港1
+      - 🇭🇰 v1-香港4
+      - 🇭🇰 v1-香港6
+      - 🇭🇰 v1-香港2
+      - 🇭🇰 v1-香港5
       - 🇭🇰 【直连】HKG/香港 B - 8.9M
       - 🇭🇰 【直连】HKG/香港 A - 7.3M
       - 🇭🇰 【直连】HKG/香港 B - 8
@@ -281,200 +275,191 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇭🇰 v1-香港3
+      - 🇭🇰 v1-香港1
+      - 🇭🇰 v1-香港4
+      - 🇭🇰 v1-香港6
+      - 🇭🇰 v1-香港2
+      - 🇭🇰 v1-香港5
+      - 🇸🇬 v1-新加坡1
+      - 🇯🇵 v1-日本2
+      - 🇸🇬 v1-新加坡2
+      - 🇯🇵 v1-日本5
+      - 🇯🇵 v1-日本6
+      - 🇯🇵 v1-日本4
+      - 🇸🇬 v1-新加坡3
+      - 🇸🇬 v1-新加坡4
+      - 🇰🇷 v1-韩国3
       - 🇸🇬 【直连】SIN/狮城 B - 1
+      - 🇰🇷 v1-韩国2
       - 🇸🇬 【直连】SIN/狮城 A - 4
       - 🇭🇰 【直连】HKG/香港 B - 8.9M
       - 🇸🇬 【直连】SIN/狮城 B - 11.9M
+      - 🇰🇷 v1-韩国1
+      - 🇯🇵 v1-日本1
       - 🇭🇰 【直连】HKG/香港 A - 7.3M
       - 🇯🇵 YouTube-阿伟科技03-JP-9.7M
       - 🇸🇬 【直连】SIN/狮城 A - 1
-      - 🇸🇬 【直连】SIN/狮城 B - 2
       - 🇸🇬 美国-New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 【直连】SIN/狮城 B - 2
+      - 🇸🇬 v1-新加坡5
       - 🇭🇰 【直连】HKG/香港 B - 8
       - 🇭🇰 【直连】HKG/香港 A - 8.6M
       - 🇭🇰 【直连】HKG/香港 B - 10
+      - 🇯🇵 v1-日本3
+      - 🇺🇸 v1-美国1
       - 🇯🇵 【直连】NRT/东京 B - 5
       - 🇯🇵 【直连】NRT/东京 A - 2
       - 🇯🇵 【直连】NRT/东京 A - 4
       - 🇺🇸 美国5.9M
       - Pool__414
       - Pool__260
-      - 🇺🇸 美国5.3M
       - Pool__259
       - 🇯🇵 YouTube-阿伟科技14-JP-2
       - Pool__541
+      - 🇺🇸 美国2.5M
       - 🇸🇬 【直连】SIN/狮城 A - 8.7M
       - 波黑5.2M
       - 阿伟科技Yw05
       - 🇺🇸 美国
       - Pool__548
-      - 🇺🇸 美国2.8M
-      - 🇮🇪 爱尔兰4.3M
       - 波黑5.6M
       - Pool__335
       - 波黑
       - 🇮🇹 意大利
       - 🇺🇸 美国J
       - 波兰2.2M
-      - 🇨🇦 加拿大2.8M
       - 🇺🇸 美国 2
       - 斯洛伐克
       - 🇷🇴 罗马尼亚
       - 捷克
-      - 🇸🇬 【直连】SIN/狮城 B - 3
-      - 🇮🇪 爱尔兰4.1M
-      - 🇨🇭 瑞士
-      - 🇷🇴 罗马尼亚 2
-      - 🇺🇸 美国4.8M
-      - Pool__497
-      - 🇭🇰 YouTube-阿伟科技09-HK-10.8M
-      - 拉脱维亚
-      - 瑞典3.9M
-      - 🇷🇴 罗马尼亚 3
-      - Pool__369
-      - 🇮🇹 意大利A
-      - 🇮🇹 意大利 2
-      - 🇦🇺 澳大利亚3.4M
-      - 🇸🇬 【直连】SIN/狮城 A - 3
-      - 🇯🇵 【直连】NRT/东京 B - 2
-      - 🇺🇸 美国F
-      - 🇷🇺 俄罗斯
-      - Pool__365
-      - 塞尔維亞
-      - 🇺🇸 美国2.5M
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇭🇰 v1-香港3
+      - 🇭🇰 v1-香港1
+      - 🇭🇰 v1-香港4
+      - 🇭🇰 v1-香港6
+      - 🇭🇰 v1-香港2
+      - 🇭🇰 v1-香港5
+      - 🇸🇬 v1-新加坡1
+      - 🇯🇵 v1-日本2
+      - 🇸🇬 v1-新加坡2
+      - 🇯🇵 v1-日本5
+      - 🇯🇵 v1-日本6
+      - 🇯🇵 v1-日本4
+      - 🇸🇬 v1-新加坡3
+      - 🇸🇬 v1-新加坡4
+      - 🇰🇷 v1-韩国3
       - 🇸🇬 【直连】SIN/狮城 B - 1
+      - 🇰🇷 v1-韩国2
       - 🇸🇬 【直连】SIN/狮城 A - 4
       - 🇭🇰 【直连】HKG/香港 B - 8.9M
       - 🇸🇬 【直连】SIN/狮城 B - 11.9M
+      - 🇰🇷 v1-韩国1
+      - 🇯🇵 v1-日本1
       - 🇭🇰 【直连】HKG/香港 A - 7.3M
       - 🇯🇵 YouTube-阿伟科技03-JP-9.7M
       - 🇸🇬 【直连】SIN/狮城 A - 1
-      - 🇸🇬 【直连】SIN/狮城 B - 2
       - 🇸🇬 美国-New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 【直连】SIN/狮城 B - 2
+      - 🇸🇬 v1-新加坡5
       - 🇭🇰 【直连】HKG/香港 B - 8
       - 🇭🇰 【直连】HKG/香港 A - 8.6M
       - 🇭🇰 【直连】HKG/香港 B - 10
+      - 🇯🇵 v1-日本3
+      - 🇺🇸 v1-美国1
       - 🇯🇵 【直连】NRT/东京 B - 5
       - 🇯🇵 【直连】NRT/东京 A - 2
       - 🇯🇵 【直连】NRT/东京 A - 4
       - 🇺🇸 美国5.9M
       - Pool__414
       - Pool__260
-      - 🇺🇸 美国5.3M
       - Pool__259
       - 🇯🇵 YouTube-阿伟科技14-JP-2
       - Pool__541
+      - 🇺🇸 美国2.5M
       - 🇸🇬 【直连】SIN/狮城 A - 8.7M
       - 波黑5.2M
       - 阿伟科技Yw05
       - 🇺🇸 美国
       - Pool__548
-      - 🇺🇸 美国2.8M
-      - 🇮🇪 爱尔兰4.3M
       - 波黑5.6M
       - Pool__335
       - 波黑
       - 🇮🇹 意大利
       - 🇺🇸 美国J
       - 波兰2.2M
-      - 🇨🇦 加拿大2.8M
       - 🇺🇸 美国 2
       - 斯洛伐克
       - 🇷🇴 罗马尼亚
       - 捷克
-      - 🇸🇬 【直连】SIN/狮城 B - 3
-      - 🇮🇪 爱尔兰4.1M
-      - 🇨🇭 瑞士
-      - 🇷🇴 罗马尼亚 2
-      - 🇺🇸 美国4.8M
-      - Pool__497
-      - 🇭🇰 YouTube-阿伟科技09-HK-10.8M
-      - 拉脱维亚
-      - 瑞典3.9M
-      - 🇷🇴 罗马尼亚 3
-      - Pool__369
-      - 🇮🇹 意大利A
-      - 🇮🇹 意大利 2
-      - 🇦🇺 澳大利亚3.4M
-      - 🇸🇬 【直连】SIN/狮城 A - 3
-      - 🇯🇵 【直连】NRT/东京 B - 2
-      - 🇺🇸 美国F
-      - 🇷🇺 俄罗斯
-      - Pool__365
-      - 塞尔維亞
-      - 🇺🇸 美国2.5M
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 v1-香港3
+      - 🇭🇰 v1-香港1
+      - 🇭🇰 v1-香港4
+      - 🇭🇰 v1-香港6
+      - 🇭🇰 v1-香港2
+      - 🇭🇰 v1-香港5
+      - 🇸🇬 v1-新加坡1
+      - 🇯🇵 v1-日本2
+      - 🇸🇬 v1-新加坡2
+      - 🇯🇵 v1-日本5
+      - 🇯🇵 v1-日本6
+      - 🇯🇵 v1-日本4
+      - 🇸🇬 v1-新加坡3
+      - 🇸🇬 v1-新加坡4
+      - 🇰🇷 v1-韩国3
       - 🇸🇬 【直连】SIN/狮城 B - 1
+      - 🇰🇷 v1-韩国2
       - 🇸🇬 【直连】SIN/狮城 A - 4
       - 🇭🇰 【直连】HKG/香港 B - 8.9M
       - 🇸🇬 【直连】SIN/狮城 B - 11.9M
+      - 🇰🇷 v1-韩国1
+      - 🇯🇵 v1-日本1
       - 🇭🇰 【直连】HKG/香港 A - 7.3M
       - 🇯🇵 YouTube-阿伟科技03-JP-9.7M
       - 🇸🇬 【直连】SIN/狮城 A - 1
-      - 🇸🇬 【直连】SIN/狮城 B - 2
       - 🇸🇬 美国-New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 【直连】SIN/狮城 B - 2
+      - 🇸🇬 v1-新加坡5
       - 🇭🇰 【直连】HKG/香港 B - 8
       - 🇭🇰 【直连】HKG/香港 A - 8.6M
       - 🇭🇰 【直连】HKG/香港 B - 10
+      - 🇯🇵 v1-日本3
+      - 🇺🇸 v1-美国1
       - 🇯🇵 【直连】NRT/东京 B - 5
       - 🇯🇵 【直连】NRT/东京 A - 2
       - 🇯🇵 【直连】NRT/东京 A - 4
       - 🇺🇸 美国5.9M
       - Pool__414
       - Pool__260
-      - 🇺🇸 美国5.3M
       - Pool__259
       - 🇯🇵 YouTube-阿伟科技14-JP-2
       - Pool__541
+      - 🇺🇸 美国2.5M
       - 🇸🇬 【直连】SIN/狮城 A - 8.7M
       - 波黑5.2M
       - 阿伟科技Yw05
       - 🇺🇸 美国
       - Pool__548
-      - 🇺🇸 美国2.8M
-      - 🇮🇪 爱尔兰4.3M
       - 波黑5.6M
       - Pool__335
       - 波黑
       - 🇮🇹 意大利
       - 🇺🇸 美国J
       - 波兰2.2M
-      - 🇨🇦 加拿大2.8M
       - 🇺🇸 美国 2
       - 斯洛伐克
       - 🇷🇴 罗马尼亚
       - 捷克
-      - 🇸🇬 【直连】SIN/狮城 B - 3
-      - 🇮🇪 爱尔兰4.1M
-      - 🇨🇭 瑞士
-      - 🇷🇴 罗马尼亚 2
-      - 🇺🇸 美国4.8M
-      - Pool__497
-      - 🇭🇰 YouTube-阿伟科技09-HK-10.8M
-      - 拉脱维亚
-      - 瑞典3.9M
-      - 🇷🇴 罗马尼亚 3
-      - Pool__369
-      - 🇮🇹 意大利A
-      - 🇮🇹 意大利 2
-      - 🇦🇺 澳大利亚3.4M
-      - 🇸🇬 【直连】SIN/狮城 A - 3
-      - 🇯🇵 【直连】NRT/东京 B - 2
-      - 🇺🇸 美国F
-      - 🇷🇺 俄罗斯
-      - Pool__365
-      - 塞尔維亞
-      - 🇺🇸 美国2.5M
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -490,67 +475,64 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 v1-香港3
+      - 🇭🇰 v1-香港1
+      - 🇭🇰 v1-香港4
+      - 🇭🇰 v1-香港6
+      - 🇭🇰 v1-香港2
+      - 🇭🇰 v1-香港5
+      - 🇸🇬 v1-新加坡1
+      - 🇯🇵 v1-日本2
+      - 🇸🇬 v1-新加坡2
+      - 🇯🇵 v1-日本5
+      - 🇯🇵 v1-日本6
+      - 🇯🇵 v1-日本4
+      - 🇸🇬 v1-新加坡3
+      - 🇸🇬 v1-新加坡4
+      - 🇰🇷 v1-韩国3
       - 🇸🇬 【直连】SIN/狮城 B - 1
+      - 🇰🇷 v1-韩国2
       - 🇸🇬 【直连】SIN/狮城 A - 4
       - 🇭🇰 【直连】HKG/香港 B - 8.9M
       - 🇸🇬 【直连】SIN/狮城 B - 11.9M
+      - 🇰🇷 v1-韩国1
+      - 🇯🇵 v1-日本1
       - 🇭🇰 【直连】HKG/香港 A - 7.3M
       - 🇯🇵 YouTube-阿伟科技03-JP-9.7M
       - 🇸🇬 【直连】SIN/狮城 A - 1
-      - 🇸🇬 【直连】SIN/狮城 B - 2
       - 🇸🇬 美国-New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 【直连】SIN/狮城 B - 2
+      - 🇸🇬 v1-新加坡5
       - 🇭🇰 【直连】HKG/香港 B - 8
       - 🇭🇰 【直连】HKG/香港 A - 8.6M
       - 🇭🇰 【直连】HKG/香港 B - 10
+      - 🇯🇵 v1-日本3
+      - 🇺🇸 v1-美国1
       - 🇯🇵 【直连】NRT/东京 B - 5
       - 🇯🇵 【直连】NRT/东京 A - 2
       - 🇯🇵 【直连】NRT/东京 A - 4
       - 🇺🇸 美国5.9M
       - Pool__414
       - Pool__260
-      - 🇺🇸 美国5.3M
       - Pool__259
       - 🇯🇵 YouTube-阿伟科技14-JP-2
       - Pool__541
+      - 🇺🇸 美国2.5M
       - 🇸🇬 【直连】SIN/狮城 A - 8.7M
       - 波黑5.2M
       - 阿伟科技Yw05
       - 🇺🇸 美国
       - Pool__548
-      - 🇺🇸 美国2.8M
-      - 🇮🇪 爱尔兰4.3M
       - 波黑5.6M
       - Pool__335
       - 波黑
       - 🇮🇹 意大利
       - 🇺🇸 美国J
       - 波兰2.2M
-      - 🇨🇦 加拿大2.8M
       - 🇺🇸 美国 2
       - 斯洛伐克
       - 🇷🇴 罗马尼亚
       - 捷克
-      - 🇸🇬 【直连】SIN/狮城 B - 3
-      - 🇮🇪 爱尔兰4.1M
-      - 🇨🇭 瑞士
-      - 🇷🇴 罗马尼亚 2
-      - 🇺🇸 美国4.8M
-      - Pool__497
-      - 🇭🇰 YouTube-阿伟科技09-HK-10.8M
-      - 拉脱维亚
-      - 瑞典3.9M
-      - 🇷🇴 罗马尼亚 3
-      - Pool__369
-      - 🇮🇹 意大利A
-      - 🇮🇹 意大利 2
-      - 🇦🇺 澳大利亚3.4M
-      - 🇸🇬 【直连】SIN/狮城 A - 3
-      - 🇯🇵 【直连】NRT/东京 B - 2
-      - 🇺🇸 美国F
-      - 🇷🇺 俄罗斯
-      - Pool__365
-      - 塞尔維亞
-      - 🇺🇸 美国2.5M
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
