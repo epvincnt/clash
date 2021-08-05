@@ -5,652 +5,499 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 【直连】HKG/香港 A -12M, server: 009.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 009.HK.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 【直连】SIN/狮城 B - 1, server: 036.SG.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 036.SG.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 【直连】SIN/狮城 A - 4, server: 034.SG.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 034.SG.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HKG/香港 B - 8.9M, server: 011.HK.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 011.HK.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 【直连】SIN/狮城 B - 11.9M, server: 039.SG.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 039.SG.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HKG/香港 A -10.1M, server: 003.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 003.HK.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 【直连】SIN/狮城 A - 1, server: 031.SG.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 031.SG.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 【直连】SIN/狮城 B - 2, server: 037.SG.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 037.SG.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HKG/香港 B - 6.6M, server: 018.HK.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 018.HK.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇯🇵 【直连】NRT/东京 A - 2, server: 022.JP.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 022.JP.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇯🇵 【直连】NRT/东京 B - 5, server: 030.JP.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 030.JP.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇯🇵 【直连】NRT/东京 A - 4, server: 024.JP.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 024.JP.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇺🇸 美国5.9M, server: 212.102.44.71, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: Pool__414, server: 212.102.44.71, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool__260, server: 79.110.54.117, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 www.sfzy888.com  _🇺🇸US_511, server: 212.102.44.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__259, server: 79.110.54.117, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: Pool__541, server: 104.200.131.172, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool__548, server: 79.110.54.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 美国2.5M, server: 212.102.44.83, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇮🇹 sfzy888.com  - 意大利  11, server: 212.102.44.98, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇸🇬 9@1Gbps节点更新5.2M, server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇸🇬 【直连】SIN/狮城 A - 8.7M, server: 032.SG.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 032.SG.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇷🇴 sfzy888.com _🇷🇴RO_356, server: 193.29.106.109, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: sfzy888.com _🇮🇹IT_241, server: 82.102.26.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 波黑5.2M, server: 194.37.98.211, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 sfzy888.com _🇺🇸US_487, server: 23.105.163.109, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇭🇰 香港2-https://bit.ly/3uWuS 22MJ74, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 23225, type: vmess, uuid: 3b6d56a7-8e76-408e-c885-5a1bb4413e85, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: transit-azure-f4s-hk.speedtestcustom.tk}}
+  - {name: 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75, server: a.cswtw.xyz, port: 29588, type: vmess, uuid: d90a47fd-071e-324c-b4f5-ed39b1b258b0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /Jpqib02c, ws-headers: {Host: hkec09.8aihpger.xyz}}
+  - {name: 🇯🇵 日本-AZ  11MJ72, server: 104.46.235.141, port: 80, type: vmess, uuid: bb4c499d-2f29-410f-a61c-1e27fe33fa57, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 104.46.235.141}}
+  - {name: 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 45267, type: vmess, uuid: a076dc92-8e3f-4ad9-f93e-276562007d93, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: transit-azure-f4s-hk.speedtestcustom.tk}}
+  - {name: 🇯🇵 日本m02-https://bit.ly/3uWuS7a, server: soolos.com, port: 51812, type: vmess, uuid: 93383ce7-fa32-31e3-a19f-3043c1e47d92, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: soolos.com}}
+  - {name: 🇨🇳 台湾m01-https://bit.ly/3 9MJ76, server: soolos.com, port: 51816, type: vmess, uuid: 93383ce7-fa32-31e3-a19f-3043c1e47d92, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: soolos.com}}
+  - {name: 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71, server: 16.162.103.183, port: 443, type: vmess, uuid: 49f7c16f-1607-4dd3-8d53-878d682fb406, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 16.162.103.183}}
+  - {name: 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.9.233, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇸🇬 美国-2@1Gbps节点更新https  7MJ25, server: 567567.ga, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇺🇸 美国-30满足207MJ53, server: 104.16.16.255, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  7MJ73, server: jpaz1-1-1.biteb.xyz, port: 54005, type: vmess, uuid: eadcd39f-6804-3b8b-9943-65df7198a553, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: index, ws-headers: {Host: jpaz1-1-1.biteb.xyz}}
+  - {name: 🇺🇸 美国-32 满 足 6.6MJ33, server: 104.16.207.196, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇺🇸 美国-New York-9@1Gbps节6.3MJ94, server: 104.16.9.233, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: 🇸🇬 美国-19@1Gbps节点更新6.4MJ26, server: 104.25.175.69, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇺🇸 美国-28@1Gbps节6MJ48, server: 104.16.148.48, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇸🇬 美国-5@1Gbps节点更新6MJ39, server: www.garmin.com, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇺🇸 美国-11@1Gbps节点6.2MJ42, server: 104.18.8.157, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
   - {name: 阿伟科技Yw05, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a7436b35-0daf-3eac-9a0b-356b8a3cc63b, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
-  - {name: 🇺🇸 美国, server: 198.147.22.85, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇷🇴 sfzy888.com _🇷🇴RO_313, server: 194.110.115.75, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: www.sfzy888.com  _🇵🇹PT_290, server: 194.39.127.242, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 波黑5.6M, server: 194.37.98.211, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__335, server: 104.200.131.172, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 波黑, server: 193.29.106.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 sfzy888.com _🇺🇸US_451, server: 104.200.131.249, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 波兰2.2M, server: 5.187.49.187, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国J, server: 198.147.22.85, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇮🇹 意大利, server: 212.102.54.141, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 美国 2, server: 198.147.22.83, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: sfzy888.com _🇬🇧GB_166, server: 89.238.130.251, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 捷克, server: 185.180.14.147, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇷🇴 罗马尼亚, server: 185.124.240.171, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 斯洛伐克, server: 37.120.221.5, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇸🇬 【直连】SIN/狮城 B - 3, server: 038.SG.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 038.SG.AP.POP.BIGAIRPORT.NET}}
-  - {name: sfzy888.com _🏁ZZ_695, server: 138.199.19.182, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇷🇺 www.sfzy888.com  _🇺🇸US-🇷🇺RU_647, server: 104.16.5.47, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: 🇷🇴 罗马尼亚 2, server: 185.124.240.171, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇨🇭 瑞士, server: 84.17.53.210, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool__497, server: 212.102.40.66, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 🇺🇸 美国4.8M, server: 154.16.171.215, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇭🇰 YouTube-阿伟科技09-HK-10.8M, server: service7761.4cloud.click, port: 80, type: vmess, uuid: adcf19f2-7431-3fab-a3b8-efb7023430e4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ml, ws-headers: {Host: a.189.cn}}
-  - {name: 拉脱维亚, server: 188.92.78.140, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: sfzy888.com  - 欧洲  32, server: 138.199.16.137, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: 🇷🇴 sfzy888.com _🇷🇴RO_312, server: 194.37.98.211, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇷🇴 罗马尼亚 3, server: 185.124.240.171, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 瑞典3.9M, server: 185.76.9.44, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: Pool__369, server: 79.110.54.117, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇺🇸 sfzy888.com _🇺🇸US_430, server: 66.115.182.82, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: www.sfzy888.com  _🇨🇿CZ_57, server: 89.187.168.39, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇮🇹 意大利A, server: 212.102.54.141, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇫🇷 sfzy888.com _🇫🇷FR_155, server: 185.108.106.21, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇷🇺 sfzy888.com _🇷🇺RU_364, server: 5.189.202.16, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: 🇦🇺 sfzy888.com _🇦🇺AU_16, server: 45.130.137.14, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇮🇹 意大利 2, server: 212.102.54.141, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: sfzy888.com _🇨🇾CY_75, server: 195.47.194.70, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇷🇺 俄罗斯3.1M, server: 5.189.202.16, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: 🇦🇺 澳大利亚3.4M, server: 45.130.137.14, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 www.sfzy888.com  _🇺🇸US_463, server: 156.146.33.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇯🇵 【直连】NRT/东京 B - 2, server: 027.JP.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 027.JP.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 【直连】SIN/狮城 A - 3, server: 033.SG.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 1b605004-07b1-492c-9ab7-95a25e0cede4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 033.SG.AP.POP.BIGAIRPORT.NET}}
-  - {name: sfzy888.com _🇮🇳IN_218, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国F, server: 154.16.171.215, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇩🇪 sfzy888.com _🇩🇪DE_94, server: 45.134.224.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇭🇰 SK香港 A, server: 18.162.47.18, port: 46869, type: vmess, uuid: 844ea544-e5ca-3200-91af-876c4da6dcb0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
-  - {name: Pool__365, server: 79.110.54.117, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 塞尔維亞, server: 152.89.160.213, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇺🇸 sfzy888.com _🇺🇸US_483, server: 154.16.171.215, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇯🇵 SK日本 AA, server: 54.250.162.213, port: 4939, type: vmess, uuid: 844ea544-e5ca-3200-91af-876c4da6dcb0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
-  - {name: sfzy888.com _🇱🇹LT_260, server: 194.41.112.11, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇨🇳 SK台湾 A, server: 165.154.234.13, port: 46867, type: vmess, uuid: 844ea544-e5ca-3200-91af-876c4da6dcb0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
-  - {name: 🇮🇹 SK意大利 A, server: 15.160.58.189, port: 46867, type: vmess, uuid: 844ea544-e5ca-3200-91af-876c4da6dcb0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
-  - {name: www.sfzy888.com  _🇨🇿CZ_70, server: 89.187.168.39, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: sfzy888.com _🇮🇹IT_237, server: 82.102.26.117, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: www.sfzy888.com  _🇮🇳IN_211, server: 137.59.52.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: www.sfzy888.com  _🏁ZZ_682, server: 138.199.16.137, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇺🇸 US_647, server: 45.79.114.57, port: 36788, type: vmess, uuid: B22C2F57-0189-25E7-79FA-90717E212748, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.79.114.57}}
+  - {name: 🇺🇸 美国-15@1Gbps节点更6MJ60, server: 104.22.4.180, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  5MJ56, server: 185.124.240.171, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  J5M18, server: 193.29.106.59, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59, server: 45.79.114.57, port: 36788, type: vmess, uuid: B22C2F57-0189-25E7-79FA-90717E212748, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.79.114.57}}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  J4M28, server: 104.200.131.172, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  5MJ55, server: 185.124.240.171, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇺🇸 美国1-https://bit.ly/3uWuS7a  5MJ38, server: 104.16.0.9, port: 2086, type: vmess, uuid: ed47a606-0bb2-32d0-8cac-7a8f84cf9763, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /w421x2bx2za, ws-headers: {Host: nj.sb-cloud.cf}}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  5MJ81, server: 185.217.71.53, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇺🇸 0美国5.3M, server: 104.200.131.249, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇭🇰 香港 5, server: 118.107.244.111, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  J5M17, server: 185.217.71.53, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a 4.9MJ103, server: 199.10.64.163, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  J27, server: 104.200.131.172, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇸🇬 美国-12@1Gbps节点更新h4.7MJ35, server: 104.20.130.175, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  4.7MJ67, server: c37s5.jamjams.net, port: 52236, type: vmess, uuid: 4ae61937-619c-453e-8bb6-9988cc1b8f26, alterId: 8, cipher: auto, tls: false}
+  - {name: 🇬🇧 0英国4.9M, server: 89.238.130.251, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  J4.5M24, server: 194.110.115.251, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  J4.5M16, server: 196.244.191.93, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  J4.5M12, server: 143.244.57.99, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 🇭🇰 香港n02-https://bit.ly/3   4.4MJ77, server: 101.32.202.76, port: 8080, type: vmess, uuid: bc86a4ed-e67f-3aec-8562-f2cf024cc481, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国-13@1Gbps节4MJ57, server: 104.21.239.147, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a J4.4M, server: 138.199.19.186, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  J4.4M21, server: 198.8.92.84, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  4MJ87, server: 5.157.13.91, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: 🇨🇦 0加拿大2.7M, server: 208.78.41.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  4MJ86, server: 185.108.106.106, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  4.3MJ85, server: 185.108.106.106, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇺🇸 hm|美国(US)USA/Chicago 7, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  4MJ83, server: 185.166.84.79, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇷🇴 罗马尼亚5.6M, server: 185.124.240.171, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a J4M3, server: 185.166.84.73, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a J4.1M, server: 104.244.208.203, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  4MJ92, server: 185.108.106.106, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  4MJ84, server: 185.153.150.58, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  J3.9M15, server: 185.108.106.152, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  J3.9M13, server: 81.19.209.113, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a J3.8M5, server: 185.166.84.73, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a J3.8M2, server: 185.166.84.73, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a J3.8M, server: 185.166.84.73, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  J9, server: 143.244.57.99, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  J3.5M, server: 152.89.160.213, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a J3.7M, server: 185.166.84.73, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  3.7MJ91, server: 185.108.106.106, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇰🇷 韩国1-https://bit.ly/3uWuS7a  J3.6M22, server: 104.28.16.5, port: 80, type: vmess, uuid: ed47a606-0bb2-32d0-8cac-7a8f84cf9763, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /home/livein122, ws-headers: {Host: kr1.sb-cloud.cf}}
+  - {name: 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66, server: 104.16.148.27, port: 2082, type: vmess, uuid: ed47a606-0bb2-32d0-8cac-7a8f84cf9763, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /5hfgf/5hg, ws-headers: {Host: ru-1.sb-cloud.cf}}
+  - {name: 波黑4.5M, server: 193.29.106.109, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 【直连】HKG/香港 A -12M
-      - 🇸🇬 【直连】SIN/狮城 B - 1
-      - 🇸🇬 【直连】SIN/狮城 A - 4
-      - 🇭🇰 【直连】HKG/香港 B - 8.9M
-      - 🇸🇬 【直连】SIN/狮城 B - 11.9M
-      - 🇭🇰 【直连】HKG/香港 A -10.1M
-      - 🇸🇬 【直连】SIN/狮城 A - 1
-      - 🇸🇬 【直连】SIN/狮城 B - 2
-      - 🇭🇰 【直连】HKG/香港 B - 6.6M
-      - 🇯🇵 【直连】NRT/东京 A - 2
-      - 🇯🇵 【直连】NRT/东京 B - 5
-      - 🇯🇵 【直连】NRT/东京 A - 4
-      - 🇺🇸 美国5.9M
-      - Pool__414
-      - Pool__260
-      - 🇺🇸 www.sfzy888.com  _🇺🇸US_511
-      - Pool__259
-      - Pool__541
-      - Pool__548
-      - 🇺🇸 美国2.5M
-      - 🇮🇹 sfzy888.com  - 意大利  11
-      - 🇸🇬 9@1Gbps节点更新5.2M
-      - 🇸🇬 【直连】SIN/狮城 A - 8.7M
-      - 🇷🇴 sfzy888.com _🇷🇴RO_356
-      - sfzy888.com _🇮🇹IT_241
-      - 波黑5.2M
-      - 🇺🇸 sfzy888.com _🇺🇸US_487
+      - 🇭🇰 香港2-https://bit.ly/3uWuS 22MJ74
+      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇯🇵 日本-AZ  11MJ72
+      - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
+      - 🇯🇵 日本m02-https://bit.ly/3uWuS7a
+      - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
+      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
+      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-2@1Gbps节点更新https  7MJ25
+      - 🇺🇸 美国-30满足207MJ53
+      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
+      - 🇺🇸 美国-32 满 足 6.6MJ33
+      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
+      - 🇸🇬 美国-19@1Gbps节点更新6.4MJ26
+      - 🇺🇸 美国-28@1Gbps节6MJ48
+      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
+      - 🇺🇸 美国-11@1Gbps节点6.2MJ42
       - 阿伟科技Yw05
-      - 🇺🇸 美国
-      - 🇷🇴 sfzy888.com _🇷🇴RO_313
-      - www.sfzy888.com  _🇵🇹PT_290
-      - 波黑5.6M
-      - Pool__335
-      - 波黑
-      - 🇺🇸 sfzy888.com _🇺🇸US_451
-      - 波兰2.2M
-      - 🇺🇸 美国J
-      - 🇮🇹 意大利
-      - 🇺🇸 美国 2
-      - sfzy888.com _🇬🇧GB_166
-      - 捷克
-      - 🇷🇴 罗马尼亚
-      - 斯洛伐克
-      - 🇸🇬 【直连】SIN/狮城 B - 3
-      - sfzy888.com _🏁ZZ_695
-      - 🇷🇺 www.sfzy888.com  _🇺🇸US-🇷🇺RU_647
-      - 🇷🇴 罗马尼亚 2
-      - 🇨🇭 瑞士
-      - Pool__497
-      - 🇺🇸 美国4.8M
-      - 🇭🇰 YouTube-阿伟科技09-HK-10.8M
-      - 拉脱维亚
-      - sfzy888.com  - 欧洲  32
-      - 🇷🇴 sfzy888.com _🇷🇴RO_312
-      - 🇷🇴 罗马尼亚 3
-      - 瑞典3.9M
-      - Pool__369
-      - 🇺🇸 sfzy888.com _🇺🇸US_430
-      - www.sfzy888.com  _🇨🇿CZ_57
-      - 🇮🇹 意大利A
-      - 🇫🇷 sfzy888.com _🇫🇷FR_155
-      - 🇷🇺 sfzy888.com _🇷🇺RU_364
-      - 🇦🇺 sfzy888.com _🇦🇺AU_16
-      - 🇮🇹 意大利 2
-      - sfzy888.com _🇨🇾CY_75
-      - 🇷🇺 俄罗斯3.1M
-      - 🇦🇺 澳大利亚3.4M
-      - 🇺🇸 www.sfzy888.com  _🇺🇸US_463
-      - 🇯🇵 【直连】NRT/东京 B - 2
-      - 🇸🇬 【直连】SIN/狮城 A - 3
-      - sfzy888.com _🇮🇳IN_218
-      - 🇺🇸 美国F
-      - 🇩🇪 sfzy888.com _🇩🇪DE_94
-      - 🇭🇰 SK香港 A
-      - Pool__365
-      - 塞尔維亞
-      - 🇺🇸 sfzy888.com _🇺🇸US_483
-      - 🇯🇵 SK日本 AA
-      - sfzy888.com _🇱🇹LT_260
-      - 🇨🇳 SK台湾 A
-      - 🇮🇹 SK意大利 A
-      - www.sfzy888.com  _🇨🇿CZ_70
-      - sfzy888.com _🇮🇹IT_237
-      - www.sfzy888.com  _🇮🇳IN_211
-      - www.sfzy888.com  _🏁ZZ_682
-      - 🇺🇸 US_647
+      - 🇺🇸 美国-15@1Gbps节点更6MJ60
+      - 🇺🇸 https://bit.ly/3uWuS7a  5MJ56
+      - 🇺🇸 https://bit.ly/3uWuS7a  J5M18
+      - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4M28
+      - 🇺🇸 https://bit.ly/3uWuS7a  5MJ55
+      - 🇺🇸 美国1-https://bit.ly/3uWuS7a  5MJ38
+      - 🇺🇸 https://bit.ly/3uWuS7a  5MJ81
+      - 🇺🇸 0美国5.3M
+      - 🇭🇰 香港 5
+      - 🇺🇸 https://bit.ly/3uWuS7a  J5M17
+      - 🇺🇸 https://bit.ly/3uWuS7a 4.9MJ103
+      - 🇺🇸 https://bit.ly/3uWuS7a  J27
+      - 🇸🇬 美国-12@1Gbps节点更新h4.7MJ35
+      - 🇺🇸 https://bit.ly/3uWuS7a  4.7MJ67
+      - 🇬🇧 0英国4.9M
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.5M24
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.5M16
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.5M12
+      - 🇭🇰 香港n02-https://bit.ly/3   4.4MJ77
+      - 🇺🇸 美国-13@1Gbps节4MJ57
+      - 🇺🇸 https://bit.ly/3uWuS7a J4.4M
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.4M21
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ87
+      - 🇨🇦 0加拿大2.7M
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ86
+      - 🇺🇸 https://bit.ly/3uWuS7a  4.3MJ85
+      - 🇺🇸 hm|美国(US)USA/Chicago 7
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ83
+      - 🇷🇴 罗马尼亚5.6M
+      - 🇺🇸 https://bit.ly/3uWuS7a J4M3
+      - 🇺🇸 https://bit.ly/3uWuS7a J4.1M
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ92
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ84
+      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M15
+      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M13
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.8M5
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.8M2
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.8M
+      - 🇺🇸 https://bit.ly/3uWuS7a  J9
+      - 🇺🇸 https://bit.ly/3uWuS7a  J3.5M
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.7M
+      - 🇺🇸 https://bit.ly/3uWuS7a  3.7MJ91
+      - 🇰🇷 韩国1-https://bit.ly/3uWuS7a  J3.6M22
+      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 波黑4.5M
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 【直连】HKG/香港 A -12M
-      - 🇸🇬 【直连】SIN/狮城 B - 1
-      - 🇸🇬 【直连】SIN/狮城 A - 4
-      - 🇭🇰 【直连】HKG/香港 B - 8.9M
-      - 🇸🇬 【直连】SIN/狮城 B - 11.9M
-      - 🇭🇰 【直连】HKG/香港 A -10.1M
-      - 🇸🇬 【直连】SIN/狮城 A - 1
-      - 🇸🇬 【直连】SIN/狮城 B - 2
-      - 🇭🇰 【直连】HKG/香港 B - 6.6M
-      - 🇯🇵 【直连】NRT/东京 A - 2
-      - 🇯🇵 【直连】NRT/东京 B - 5
-      - 🇯🇵 【直连】NRT/东京 A - 4
-      - 🇺🇸 美国5.9M
-      - Pool__414
-      - Pool__260
-      - 🇺🇸 www.sfzy888.com  _🇺🇸US_511
-      - Pool__259
-      - Pool__541
-      - Pool__548
-      - 🇺🇸 美国2.5M
-      - 🇮🇹 sfzy888.com  - 意大利  11
-      - 🇸🇬 9@1Gbps节点更新5.2M
-      - 🇸🇬 【直连】SIN/狮城 A - 8.7M
-      - 🇷🇴 sfzy888.com _🇷🇴RO_356
-      - sfzy888.com _🇮🇹IT_241
-      - 波黑5.2M
-      - 🇺🇸 sfzy888.com _🇺🇸US_487
+      - 🇭🇰 香港2-https://bit.ly/3uWuS 22MJ74
+      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇯🇵 日本-AZ  11MJ72
+      - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
+      - 🇯🇵 日本m02-https://bit.ly/3uWuS7a
+      - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
+      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
+      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-2@1Gbps节点更新https  7MJ25
+      - 🇺🇸 美国-30满足207MJ53
+      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
+      - 🇺🇸 美国-32 满 足 6.6MJ33
+      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
+      - 🇸🇬 美国-19@1Gbps节点更新6.4MJ26
+      - 🇺🇸 美国-28@1Gbps节6MJ48
+      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
+      - 🇺🇸 美国-11@1Gbps节点6.2MJ42
       - 阿伟科技Yw05
-      - 🇺🇸 美国
-      - 🇷🇴 sfzy888.com _🇷🇴RO_313
-      - www.sfzy888.com  _🇵🇹PT_290
-      - 波黑5.6M
-      - Pool__335
-      - 波黑
-      - 🇺🇸 sfzy888.com _🇺🇸US_451
-      - 波兰2.2M
-      - 🇺🇸 美国J
-      - 🇮🇹 意大利
-      - 🇺🇸 美国 2
-      - sfzy888.com _🇬🇧GB_166
-      - 捷克
-      - 🇷🇴 罗马尼亚
-      - 斯洛伐克
-      - 🇸🇬 【直连】SIN/狮城 B - 3
-      - sfzy888.com _🏁ZZ_695
-      - 🇷🇺 www.sfzy888.com  _🇺🇸US-🇷🇺RU_647
-      - 🇷🇴 罗马尼亚 2
-      - 🇨🇭 瑞士
-      - Pool__497
-      - 🇺🇸 美国4.8M
-      - 🇭🇰 YouTube-阿伟科技09-HK-10.8M
-      - 拉脱维亚
-      - sfzy888.com  - 欧洲  32
-      - 🇷🇴 sfzy888.com _🇷🇴RO_312
-      - 🇷🇴 罗马尼亚 3
-      - 瑞典3.9M
-      - Pool__369
-      - 🇺🇸 sfzy888.com _🇺🇸US_430
-      - www.sfzy888.com  _🇨🇿CZ_57
-      - 🇮🇹 意大利A
-      - 🇫🇷 sfzy888.com _🇫🇷FR_155
-      - 🇷🇺 sfzy888.com _🇷🇺RU_364
-      - 🇦🇺 sfzy888.com _🇦🇺AU_16
-      - 🇮🇹 意大利 2
-      - sfzy888.com _🇨🇾CY_75
-      - 🇷🇺 俄罗斯3.1M
-      - 🇦🇺 澳大利亚3.4M
-      - 🇺🇸 www.sfzy888.com  _🇺🇸US_463
-      - 🇯🇵 【直连】NRT/东京 B - 2
-      - 🇸🇬 【直连】SIN/狮城 A - 3
-      - sfzy888.com _🇮🇳IN_218
-      - 🇺🇸 美国F
-      - 🇩🇪 sfzy888.com _🇩🇪DE_94
-      - 🇭🇰 SK香港 A
-      - Pool__365
-      - 塞尔維亞
-      - 🇺🇸 sfzy888.com _🇺🇸US_483
-      - 🇯🇵 SK日本 AA
-      - sfzy888.com _🇱🇹LT_260
-      - 🇨🇳 SK台湾 A
-      - 🇮🇹 SK意大利 A
-      - www.sfzy888.com  _🇨🇿CZ_70
-      - sfzy888.com _🇮🇹IT_237
-      - www.sfzy888.com  _🇮🇳IN_211
-      - www.sfzy888.com  _🏁ZZ_682
-      - 🇺🇸 US_647
+      - 🇺🇸 美国-15@1Gbps节点更6MJ60
+      - 🇺🇸 https://bit.ly/3uWuS7a  5MJ56
+      - 🇺🇸 https://bit.ly/3uWuS7a  J5M18
+      - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4M28
+      - 🇺🇸 https://bit.ly/3uWuS7a  5MJ55
+      - 🇺🇸 美国1-https://bit.ly/3uWuS7a  5MJ38
+      - 🇺🇸 https://bit.ly/3uWuS7a  5MJ81
+      - 🇺🇸 0美国5.3M
+      - 🇭🇰 香港 5
+      - 🇺🇸 https://bit.ly/3uWuS7a  J5M17
+      - 🇺🇸 https://bit.ly/3uWuS7a 4.9MJ103
+      - 🇺🇸 https://bit.ly/3uWuS7a  J27
+      - 🇸🇬 美国-12@1Gbps节点更新h4.7MJ35
+      - 🇺🇸 https://bit.ly/3uWuS7a  4.7MJ67
+      - 🇬🇧 0英国4.9M
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.5M24
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.5M16
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.5M12
+      - 🇭🇰 香港n02-https://bit.ly/3   4.4MJ77
+      - 🇺🇸 美国-13@1Gbps节4MJ57
+      - 🇺🇸 https://bit.ly/3uWuS7a J4.4M
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.4M21
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ87
+      - 🇨🇦 0加拿大2.7M
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ86
+      - 🇺🇸 https://bit.ly/3uWuS7a  4.3MJ85
+      - 🇺🇸 hm|美国(US)USA/Chicago 7
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ83
+      - 🇷🇴 罗马尼亚5.6M
+      - 🇺🇸 https://bit.ly/3uWuS7a J4M3
+      - 🇺🇸 https://bit.ly/3uWuS7a J4.1M
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ92
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ84
+      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M15
+      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M13
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.8M5
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.8M2
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.8M
+      - 🇺🇸 https://bit.ly/3uWuS7a  J9
+      - 🇺🇸 https://bit.ly/3uWuS7a  J3.5M
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.7M
+      - 🇺🇸 https://bit.ly/3uWuS7a  3.7MJ91
+      - 🇰🇷 韩国1-https://bit.ly/3uWuS7a  J3.6M22
+      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 波黑4.5M
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 【直连】HKG/香港 A -12M
-      - 🇸🇬 【直连】SIN/狮城 B - 1
-      - 🇸🇬 【直连】SIN/狮城 A - 4
-      - 🇭🇰 【直连】HKG/香港 B - 8.9M
-      - 🇸🇬 【直连】SIN/狮城 B - 11.9M
-      - 🇭🇰 【直连】HKG/香港 A -10.1M
-      - 🇸🇬 【直连】SIN/狮城 A - 1
-      - 🇸🇬 【直连】SIN/狮城 B - 2
-      - 🇭🇰 【直连】HKG/香港 B - 6.6M
-      - 🇯🇵 【直连】NRT/东京 A - 2
-      - 🇯🇵 【直连】NRT/东京 B - 5
-      - 🇯🇵 【直连】NRT/东京 A - 4
-      - 🇺🇸 美国5.9M
-      - Pool__414
-      - Pool__260
-      - 🇺🇸 www.sfzy888.com  _🇺🇸US_511
-      - Pool__259
-      - Pool__541
-      - Pool__548
-      - 🇺🇸 美国2.5M
-      - 🇮🇹 sfzy888.com  - 意大利  11
-      - 🇸🇬 9@1Gbps节点更新5.2M
-      - 🇸🇬 【直连】SIN/狮城 A - 8.7M
-      - 🇷🇴 sfzy888.com _🇷🇴RO_356
-      - sfzy888.com _🇮🇹IT_241
-      - 波黑5.2M
-      - 🇺🇸 sfzy888.com _🇺🇸US_487
+      - 🇭🇰 香港2-https://bit.ly/3uWuS 22MJ74
+      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇯🇵 日本-AZ  11MJ72
+      - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
+      - 🇯🇵 日本m02-https://bit.ly/3uWuS7a
+      - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
+      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
+      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-2@1Gbps节点更新https  7MJ25
+      - 🇺🇸 美国-30满足207MJ53
+      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
+      - 🇺🇸 美国-32 满 足 6.6MJ33
+      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
+      - 🇸🇬 美国-19@1Gbps节点更新6.4MJ26
+      - 🇺🇸 美国-28@1Gbps节6MJ48
+      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
+      - 🇺🇸 美国-11@1Gbps节点6.2MJ42
       - 阿伟科技Yw05
-      - 🇺🇸 美国
-      - 🇷🇴 sfzy888.com _🇷🇴RO_313
-      - www.sfzy888.com  _🇵🇹PT_290
-      - 波黑5.6M
-      - Pool__335
-      - 波黑
-      - 🇺🇸 sfzy888.com _🇺🇸US_451
-      - 波兰2.2M
-      - 🇺🇸 美国J
-      - 🇮🇹 意大利
-      - 🇺🇸 美国 2
-      - sfzy888.com _🇬🇧GB_166
-      - 捷克
-      - 🇷🇴 罗马尼亚
-      - 斯洛伐克
-      - 🇸🇬 【直连】SIN/狮城 B - 3
-      - sfzy888.com _🏁ZZ_695
-      - 🇷🇺 www.sfzy888.com  _🇺🇸US-🇷🇺RU_647
-      - 🇷🇴 罗马尼亚 2
-      - 🇨🇭 瑞士
-      - Pool__497
-      - 🇺🇸 美国4.8M
-      - 🇭🇰 YouTube-阿伟科技09-HK-10.8M
-      - 拉脱维亚
-      - sfzy888.com  - 欧洲  32
-      - 🇷🇴 sfzy888.com _🇷🇴RO_312
-      - 🇷🇴 罗马尼亚 3
-      - 瑞典3.9M
-      - Pool__369
-      - 🇺🇸 sfzy888.com _🇺🇸US_430
-      - www.sfzy888.com  _🇨🇿CZ_57
-      - 🇮🇹 意大利A
-      - 🇫🇷 sfzy888.com _🇫🇷FR_155
-      - 🇷🇺 sfzy888.com _🇷🇺RU_364
-      - 🇦🇺 sfzy888.com _🇦🇺AU_16
-      - 🇮🇹 意大利 2
-      - sfzy888.com _🇨🇾CY_75
-      - 🇷🇺 俄罗斯3.1M
-      - 🇦🇺 澳大利亚3.4M
-      - 🇺🇸 www.sfzy888.com  _🇺🇸US_463
-      - 🇯🇵 【直连】NRT/东京 B - 2
-      - 🇸🇬 【直连】SIN/狮城 A - 3
-      - sfzy888.com _🇮🇳IN_218
-      - 🇺🇸 美国F
-      - 🇩🇪 sfzy888.com _🇩🇪DE_94
-      - 🇭🇰 SK香港 A
-      - Pool__365
-      - 塞尔維亞
-      - 🇺🇸 sfzy888.com _🇺🇸US_483
-      - 🇯🇵 SK日本 AA
-      - sfzy888.com _🇱🇹LT_260
-      - 🇨🇳 SK台湾 A
-      - 🇮🇹 SK意大利 A
-      - www.sfzy888.com  _🇨🇿CZ_70
-      - sfzy888.com _🇮🇹IT_237
-      - www.sfzy888.com  _🇮🇳IN_211
-      - www.sfzy888.com  _🏁ZZ_682
-      - 🇺🇸 US_647
+      - 🇺🇸 美国-15@1Gbps节点更6MJ60
+      - 🇺🇸 https://bit.ly/3uWuS7a  5MJ56
+      - 🇺🇸 https://bit.ly/3uWuS7a  J5M18
+      - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4M28
+      - 🇺🇸 https://bit.ly/3uWuS7a  5MJ55
+      - 🇺🇸 美国1-https://bit.ly/3uWuS7a  5MJ38
+      - 🇺🇸 https://bit.ly/3uWuS7a  5MJ81
+      - 🇺🇸 0美国5.3M
+      - 🇭🇰 香港 5
+      - 🇺🇸 https://bit.ly/3uWuS7a  J5M17
+      - 🇺🇸 https://bit.ly/3uWuS7a 4.9MJ103
+      - 🇺🇸 https://bit.ly/3uWuS7a  J27
+      - 🇸🇬 美国-12@1Gbps节点更新h4.7MJ35
+      - 🇺🇸 https://bit.ly/3uWuS7a  4.7MJ67
+      - 🇬🇧 0英国4.9M
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.5M24
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.5M16
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.5M12
+      - 🇭🇰 香港n02-https://bit.ly/3   4.4MJ77
+      - 🇺🇸 美国-13@1Gbps节4MJ57
+      - 🇺🇸 https://bit.ly/3uWuS7a J4.4M
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.4M21
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ87
+      - 🇨🇦 0加拿大2.7M
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ86
+      - 🇺🇸 https://bit.ly/3uWuS7a  4.3MJ85
+      - 🇺🇸 hm|美国(US)USA/Chicago 7
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ83
+      - 🇷🇴 罗马尼亚5.6M
+      - 🇺🇸 https://bit.ly/3uWuS7a J4M3
+      - 🇺🇸 https://bit.ly/3uWuS7a J4.1M
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ92
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ84
+      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M15
+      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M13
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.8M5
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.8M2
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.8M
+      - 🇺🇸 https://bit.ly/3uWuS7a  J9
+      - 🇺🇸 https://bit.ly/3uWuS7a  J3.5M
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.7M
+      - 🇺🇸 https://bit.ly/3uWuS7a  3.7MJ91
+      - 🇰🇷 韩国1-https://bit.ly/3uWuS7a  J3.6M22
+      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 波黑4.5M
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 【直连】HKG/香港 A -12M
-      - 🇭🇰 【直连】HKG/香港 B - 8.9M
-      - 🇭🇰 【直连】HKG/香港 A -10.1M
-      - 🇭🇰 【直连】HKG/香港 B - 6.6M
-      - 🇭🇰 SK香港 A
-      - 🇨🇳 SK台湾 A
+      - 🇭🇰 香港2-https://bit.ly/3uWuS 22MJ74
+      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
+      - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
+      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
+      - 🇭🇰 香港 5
+      - 🇭🇰 香港n02-https://bit.ly/3   4.4MJ77
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 【直连】HKG/香港 A -12M
-      - 🇸🇬 【直连】SIN/狮城 B - 1
-      - 🇸🇬 【直连】SIN/狮城 A - 4
-      - 🇭🇰 【直连】HKG/香港 B - 8.9M
-      - 🇸🇬 【直连】SIN/狮城 B - 11.9M
-      - 🇭🇰 【直连】HKG/香港 A -10.1M
-      - 🇸🇬 【直连】SIN/狮城 A - 1
-      - 🇸🇬 【直连】SIN/狮城 B - 2
-      - 🇭🇰 【直连】HKG/香港 B - 6.6M
-      - 🇯🇵 【直连】NRT/东京 A - 2
-      - 🇯🇵 【直连】NRT/东京 B - 5
-      - 🇯🇵 【直连】NRT/东京 A - 4
-      - 🇺🇸 美国5.9M
-      - Pool__414
-      - Pool__260
-      - 🇺🇸 www.sfzy888.com  _🇺🇸US_511
-      - Pool__259
-      - Pool__541
-      - Pool__548
-      - 🇺🇸 美国2.5M
-      - 🇮🇹 sfzy888.com  - 意大利  11
-      - 🇸🇬 9@1Gbps节点更新5.2M
-      - 🇸🇬 【直连】SIN/狮城 A - 8.7M
-      - 🇷🇴 sfzy888.com _🇷🇴RO_356
-      - sfzy888.com _🇮🇹IT_241
-      - 波黑5.2M
-      - 🇺🇸 sfzy888.com _🇺🇸US_487
+      - 🇭🇰 香港2-https://bit.ly/3uWuS 22MJ74
+      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇯🇵 日本-AZ  11MJ72
+      - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
+      - 🇯🇵 日本m02-https://bit.ly/3uWuS7a
+      - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
+      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
+      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-2@1Gbps节点更新https  7MJ25
+      - 🇺🇸 美国-30满足207MJ53
+      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
+      - 🇺🇸 美国-32 满 足 6.6MJ33
+      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
+      - 🇸🇬 美国-19@1Gbps节点更新6.4MJ26
+      - 🇺🇸 美国-28@1Gbps节6MJ48
+      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
+      - 🇺🇸 美国-11@1Gbps节点6.2MJ42
       - 阿伟科技Yw05
-      - 🇺🇸 美国
-      - 🇷🇴 sfzy888.com _🇷🇴RO_313
-      - www.sfzy888.com  _🇵🇹PT_290
-      - 波黑5.6M
-      - Pool__335
-      - 波黑
-      - 🇺🇸 sfzy888.com _🇺🇸US_451
-      - 波兰2.2M
-      - 🇺🇸 美国J
-      - 🇮🇹 意大利
-      - 🇺🇸 美国 2
-      - sfzy888.com _🇬🇧GB_166
-      - 捷克
-      - 🇷🇴 罗马尼亚
-      - 斯洛伐克
-      - 🇸🇬 【直连】SIN/狮城 B - 3
-      - sfzy888.com _🏁ZZ_695
-      - 🇷🇺 www.sfzy888.com  _🇺🇸US-🇷🇺RU_647
-      - 🇷🇴 罗马尼亚 2
-      - 🇨🇭 瑞士
-      - Pool__497
-      - 🇺🇸 美国4.8M
-      - 🇭🇰 YouTube-阿伟科技09-HK-10.8M
-      - 拉脱维亚
-      - sfzy888.com  - 欧洲  32
-      - 🇷🇴 sfzy888.com _🇷🇴RO_312
-      - 🇷🇴 罗马尼亚 3
-      - 瑞典3.9M
-      - Pool__369
-      - 🇺🇸 sfzy888.com _🇺🇸US_430
-      - www.sfzy888.com  _🇨🇿CZ_57
-      - 🇮🇹 意大利A
-      - 🇫🇷 sfzy888.com _🇫🇷FR_155
-      - 🇷🇺 sfzy888.com _🇷🇺RU_364
-      - 🇦🇺 sfzy888.com _🇦🇺AU_16
-      - 🇮🇹 意大利 2
-      - sfzy888.com _🇨🇾CY_75
-      - 🇷🇺 俄罗斯3.1M
-      - 🇦🇺 澳大利亚3.4M
-      - 🇺🇸 www.sfzy888.com  _🇺🇸US_463
-      - 🇯🇵 【直连】NRT/东京 B - 2
-      - 🇸🇬 【直连】SIN/狮城 A - 3
-      - sfzy888.com _🇮🇳IN_218
-      - 🇺🇸 美国F
-      - 🇩🇪 sfzy888.com _🇩🇪DE_94
-      - 🇭🇰 SK香港 A
-      - Pool__365
-      - 塞尔維亞
-      - 🇺🇸 sfzy888.com _🇺🇸US_483
-      - 🇯🇵 SK日本 AA
-      - sfzy888.com _🇱🇹LT_260
-      - 🇨🇳 SK台湾 A
-      - 🇮🇹 SK意大利 A
-      - www.sfzy888.com  _🇨🇿CZ_70
-      - sfzy888.com _🇮🇹IT_237
-      - www.sfzy888.com  _🇮🇳IN_211
-      - www.sfzy888.com  _🏁ZZ_682
-      - 🇺🇸 US_647
+      - 🇺🇸 美国-15@1Gbps节点更6MJ60
+      - 🇺🇸 https://bit.ly/3uWuS7a  5MJ56
+      - 🇺🇸 https://bit.ly/3uWuS7a  J5M18
+      - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4M28
+      - 🇺🇸 https://bit.ly/3uWuS7a  5MJ55
+      - 🇺🇸 美国1-https://bit.ly/3uWuS7a  5MJ38
+      - 🇺🇸 https://bit.ly/3uWuS7a  5MJ81
+      - 🇺🇸 0美国5.3M
+      - 🇭🇰 香港 5
+      - 🇺🇸 https://bit.ly/3uWuS7a  J5M17
+      - 🇺🇸 https://bit.ly/3uWuS7a 4.9MJ103
+      - 🇺🇸 https://bit.ly/3uWuS7a  J27
+      - 🇸🇬 美国-12@1Gbps节点更新h4.7MJ35
+      - 🇺🇸 https://bit.ly/3uWuS7a  4.7MJ67
+      - 🇬🇧 0英国4.9M
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.5M24
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.5M16
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.5M12
+      - 🇭🇰 香港n02-https://bit.ly/3   4.4MJ77
+      - 🇺🇸 美国-13@1Gbps节4MJ57
+      - 🇺🇸 https://bit.ly/3uWuS7a J4.4M
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.4M21
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ87
+      - 🇨🇦 0加拿大2.7M
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ86
+      - 🇺🇸 https://bit.ly/3uWuS7a  4.3MJ85
+      - 🇺🇸 hm|美国(US)USA/Chicago 7
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ83
+      - 🇷🇴 罗马尼亚5.6M
+      - 🇺🇸 https://bit.ly/3uWuS7a J4M3
+      - 🇺🇸 https://bit.ly/3uWuS7a J4.1M
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ92
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ84
+      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M15
+      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M13
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.8M5
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.8M2
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.8M
+      - 🇺🇸 https://bit.ly/3uWuS7a  J9
+      - 🇺🇸 https://bit.ly/3uWuS7a  J3.5M
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.7M
+      - 🇺🇸 https://bit.ly/3uWuS7a  3.7MJ91
+      - 🇰🇷 韩国1-https://bit.ly/3uWuS7a  J3.6M22
+      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 波黑4.5M
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 【直连】HKG/香港 A -12M
-      - 🇸🇬 【直连】SIN/狮城 B - 1
-      - 🇸🇬 【直连】SIN/狮城 A - 4
-      - 🇭🇰 【直连】HKG/香港 B - 8.9M
-      - 🇸🇬 【直连】SIN/狮城 B - 11.9M
-      - 🇭🇰 【直连】HKG/香港 A -10.1M
-      - 🇸🇬 【直连】SIN/狮城 A - 1
-      - 🇸🇬 【直连】SIN/狮城 B - 2
-      - 🇭🇰 【直连】HKG/香港 B - 6.6M
-      - 🇯🇵 【直连】NRT/东京 A - 2
-      - 🇯🇵 【直连】NRT/东京 B - 5
-      - 🇯🇵 【直连】NRT/东京 A - 4
-      - 🇺🇸 美国5.9M
-      - Pool__414
-      - Pool__260
-      - 🇺🇸 www.sfzy888.com  _🇺🇸US_511
-      - Pool__259
-      - Pool__541
-      - Pool__548
-      - 🇺🇸 美国2.5M
-      - 🇮🇹 sfzy888.com  - 意大利  11
-      - 🇸🇬 9@1Gbps节点更新5.2M
-      - 🇸🇬 【直连】SIN/狮城 A - 8.7M
-      - 🇷🇴 sfzy888.com _🇷🇴RO_356
-      - sfzy888.com _🇮🇹IT_241
-      - 波黑5.2M
-      - 🇺🇸 sfzy888.com _🇺🇸US_487
+      - 🇭🇰 香港2-https://bit.ly/3uWuS 22MJ74
+      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇯🇵 日本-AZ  11MJ72
+      - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
+      - 🇯🇵 日本m02-https://bit.ly/3uWuS7a
+      - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
+      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
+      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-2@1Gbps节点更新https  7MJ25
+      - 🇺🇸 美国-30满足207MJ53
+      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
+      - 🇺🇸 美国-32 满 足 6.6MJ33
+      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
+      - 🇸🇬 美国-19@1Gbps节点更新6.4MJ26
+      - 🇺🇸 美国-28@1Gbps节6MJ48
+      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
+      - 🇺🇸 美国-11@1Gbps节点6.2MJ42
       - 阿伟科技Yw05
-      - 🇺🇸 美国
-      - 🇷🇴 sfzy888.com _🇷🇴RO_313
-      - www.sfzy888.com  _🇵🇹PT_290
-      - 波黑5.6M
-      - Pool__335
-      - 波黑
-      - 🇺🇸 sfzy888.com _🇺🇸US_451
-      - 波兰2.2M
-      - 🇺🇸 美国J
-      - 🇮🇹 意大利
-      - 🇺🇸 美国 2
-      - sfzy888.com _🇬🇧GB_166
-      - 捷克
-      - 🇷🇴 罗马尼亚
-      - 斯洛伐克
-      - 🇸🇬 【直连】SIN/狮城 B - 3
-      - sfzy888.com _🏁ZZ_695
-      - 🇷🇺 www.sfzy888.com  _🇺🇸US-🇷🇺RU_647
-      - 🇷🇴 罗马尼亚 2
-      - 🇨🇭 瑞士
-      - Pool__497
-      - 🇺🇸 美国4.8M
-      - 🇭🇰 YouTube-阿伟科技09-HK-10.8M
-      - 拉脱维亚
-      - sfzy888.com  - 欧洲  32
-      - 🇷🇴 sfzy888.com _🇷🇴RO_312
-      - 🇷🇴 罗马尼亚 3
-      - 瑞典3.9M
-      - Pool__369
-      - 🇺🇸 sfzy888.com _🇺🇸US_430
-      - www.sfzy888.com  _🇨🇿CZ_57
-      - 🇮🇹 意大利A
-      - 🇫🇷 sfzy888.com _🇫🇷FR_155
-      - 🇷🇺 sfzy888.com _🇷🇺RU_364
-      - 🇦🇺 sfzy888.com _🇦🇺AU_16
-      - 🇮🇹 意大利 2
-      - sfzy888.com _🇨🇾CY_75
-      - 🇷🇺 俄罗斯3.1M
-      - 🇦🇺 澳大利亚3.4M
-      - 🇺🇸 www.sfzy888.com  _🇺🇸US_463
-      - 🇯🇵 【直连】NRT/东京 B - 2
-      - 🇸🇬 【直连】SIN/狮城 A - 3
-      - sfzy888.com _🇮🇳IN_218
-      - 🇺🇸 美国F
-      - 🇩🇪 sfzy888.com _🇩🇪DE_94
-      - 🇭🇰 SK香港 A
-      - Pool__365
-      - 塞尔維亞
-      - 🇺🇸 sfzy888.com _🇺🇸US_483
-      - 🇯🇵 SK日本 AA
-      - sfzy888.com _🇱🇹LT_260
-      - 🇨🇳 SK台湾 A
-      - 🇮🇹 SK意大利 A
-      - www.sfzy888.com  _🇨🇿CZ_70
-      - sfzy888.com _🇮🇹IT_237
-      - www.sfzy888.com  _🇮🇳IN_211
-      - www.sfzy888.com  _🏁ZZ_682
-      - 🇺🇸 US_647
+      - 🇺🇸 美国-15@1Gbps节点更6MJ60
+      - 🇺🇸 https://bit.ly/3uWuS7a  5MJ56
+      - 🇺🇸 https://bit.ly/3uWuS7a  J5M18
+      - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4M28
+      - 🇺🇸 https://bit.ly/3uWuS7a  5MJ55
+      - 🇺🇸 美国1-https://bit.ly/3uWuS7a  5MJ38
+      - 🇺🇸 https://bit.ly/3uWuS7a  5MJ81
+      - 🇺🇸 0美国5.3M
+      - 🇭🇰 香港 5
+      - 🇺🇸 https://bit.ly/3uWuS7a  J5M17
+      - 🇺🇸 https://bit.ly/3uWuS7a 4.9MJ103
+      - 🇺🇸 https://bit.ly/3uWuS7a  J27
+      - 🇸🇬 美国-12@1Gbps节点更新h4.7MJ35
+      - 🇺🇸 https://bit.ly/3uWuS7a  4.7MJ67
+      - 🇬🇧 0英国4.9M
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.5M24
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.5M16
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.5M12
+      - 🇭🇰 香港n02-https://bit.ly/3   4.4MJ77
+      - 🇺🇸 美国-13@1Gbps节4MJ57
+      - 🇺🇸 https://bit.ly/3uWuS7a J4.4M
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.4M21
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ87
+      - 🇨🇦 0加拿大2.7M
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ86
+      - 🇺🇸 https://bit.ly/3uWuS7a  4.3MJ85
+      - 🇺🇸 hm|美国(US)USA/Chicago 7
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ83
+      - 🇷🇴 罗马尼亚5.6M
+      - 🇺🇸 https://bit.ly/3uWuS7a J4M3
+      - 🇺🇸 https://bit.ly/3uWuS7a J4.1M
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ92
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ84
+      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M15
+      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M13
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.8M5
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.8M2
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.8M
+      - 🇺🇸 https://bit.ly/3uWuS7a  J9
+      - 🇺🇸 https://bit.ly/3uWuS7a  J3.5M
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.7M
+      - 🇺🇸 https://bit.ly/3uWuS7a  3.7MJ91
+      - 🇰🇷 韩国1-https://bit.ly/3uWuS7a  J3.6M22
+      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 波黑4.5M
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 【直连】HKG/香港 A -12M
-      - 🇸🇬 【直连】SIN/狮城 B - 1
-      - 🇸🇬 【直连】SIN/狮城 A - 4
-      - 🇭🇰 【直连】HKG/香港 B - 8.9M
-      - 🇸🇬 【直连】SIN/狮城 B - 11.9M
-      - 🇭🇰 【直连】HKG/香港 A -10.1M
-      - 🇸🇬 【直连】SIN/狮城 A - 1
-      - 🇸🇬 【直连】SIN/狮城 B - 2
-      - 🇭🇰 【直连】HKG/香港 B - 6.6M
-      - 🇯🇵 【直连】NRT/东京 A - 2
-      - 🇯🇵 【直连】NRT/东京 B - 5
-      - 🇯🇵 【直连】NRT/东京 A - 4
-      - 🇺🇸 美国5.9M
-      - Pool__414
-      - Pool__260
-      - 🇺🇸 www.sfzy888.com  _🇺🇸US_511
-      - Pool__259
-      - Pool__541
-      - Pool__548
-      - 🇺🇸 美国2.5M
-      - 🇮🇹 sfzy888.com  - 意大利  11
-      - 🇸🇬 9@1Gbps节点更新5.2M
-      - 🇸🇬 【直连】SIN/狮城 A - 8.7M
-      - 🇷🇴 sfzy888.com _🇷🇴RO_356
-      - sfzy888.com _🇮🇹IT_241
-      - 波黑5.2M
-      - 🇺🇸 sfzy888.com _🇺🇸US_487
+      - 🇭🇰 香港2-https://bit.ly/3uWuS 22MJ74
+      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇯🇵 日本-AZ  11MJ72
+      - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
+      - 🇯🇵 日本m02-https://bit.ly/3uWuS7a
+      - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
+      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
+      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-2@1Gbps节点更新https  7MJ25
+      - 🇺🇸 美国-30满足207MJ53
+      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
+      - 🇺🇸 美国-32 满 足 6.6MJ33
+      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
+      - 🇸🇬 美国-19@1Gbps节点更新6.4MJ26
+      - 🇺🇸 美国-28@1Gbps节6MJ48
+      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
+      - 🇺🇸 美国-11@1Gbps节点6.2MJ42
       - 阿伟科技Yw05
-      - 🇺🇸 美国
-      - 🇷🇴 sfzy888.com _🇷🇴RO_313
-      - www.sfzy888.com  _🇵🇹PT_290
-      - 波黑5.6M
-      - Pool__335
-      - 波黑
-      - 🇺🇸 sfzy888.com _🇺🇸US_451
-      - 波兰2.2M
-      - 🇺🇸 美国J
-      - 🇮🇹 意大利
-      - 🇺🇸 美国 2
-      - sfzy888.com _🇬🇧GB_166
-      - 捷克
-      - 🇷🇴 罗马尼亚
-      - 斯洛伐克
-      - 🇸🇬 【直连】SIN/狮城 B - 3
-      - sfzy888.com _🏁ZZ_695
-      - 🇷🇺 www.sfzy888.com  _🇺🇸US-🇷🇺RU_647
-      - 🇷🇴 罗马尼亚 2
-      - 🇨🇭 瑞士
-      - Pool__497
-      - 🇺🇸 美国4.8M
-      - 🇭🇰 YouTube-阿伟科技09-HK-10.8M
-      - 拉脱维亚
-      - sfzy888.com  - 欧洲  32
-      - 🇷🇴 sfzy888.com _🇷🇴RO_312
-      - 🇷🇴 罗马尼亚 3
-      - 瑞典3.9M
-      - Pool__369
-      - 🇺🇸 sfzy888.com _🇺🇸US_430
-      - www.sfzy888.com  _🇨🇿CZ_57
-      - 🇮🇹 意大利A
-      - 🇫🇷 sfzy888.com _🇫🇷FR_155
-      - 🇷🇺 sfzy888.com _🇷🇺RU_364
-      - 🇦🇺 sfzy888.com _🇦🇺AU_16
-      - 🇮🇹 意大利 2
-      - sfzy888.com _🇨🇾CY_75
-      - 🇷🇺 俄罗斯3.1M
-      - 🇦🇺 澳大利亚3.4M
-      - 🇺🇸 www.sfzy888.com  _🇺🇸US_463
-      - 🇯🇵 【直连】NRT/东京 B - 2
-      - 🇸🇬 【直连】SIN/狮城 A - 3
-      - sfzy888.com _🇮🇳IN_218
-      - 🇺🇸 美国F
-      - 🇩🇪 sfzy888.com _🇩🇪DE_94
-      - 🇭🇰 SK香港 A
-      - Pool__365
-      - 塞尔維亞
-      - 🇺🇸 sfzy888.com _🇺🇸US_483
-      - 🇯🇵 SK日本 AA
-      - sfzy888.com _🇱🇹LT_260
-      - 🇨🇳 SK台湾 A
-      - 🇮🇹 SK意大利 A
-      - www.sfzy888.com  _🇨🇿CZ_70
-      - sfzy888.com _🇮🇹IT_237
-      - www.sfzy888.com  _🇮🇳IN_211
-      - www.sfzy888.com  _🏁ZZ_682
-      - 🇺🇸 US_647
+      - 🇺🇸 美国-15@1Gbps节点更6MJ60
+      - 🇺🇸 https://bit.ly/3uWuS7a  5MJ56
+      - 🇺🇸 https://bit.ly/3uWuS7a  J5M18
+      - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4M28
+      - 🇺🇸 https://bit.ly/3uWuS7a  5MJ55
+      - 🇺🇸 美国1-https://bit.ly/3uWuS7a  5MJ38
+      - 🇺🇸 https://bit.ly/3uWuS7a  5MJ81
+      - 🇺🇸 0美国5.3M
+      - 🇭🇰 香港 5
+      - 🇺🇸 https://bit.ly/3uWuS7a  J5M17
+      - 🇺🇸 https://bit.ly/3uWuS7a 4.9MJ103
+      - 🇺🇸 https://bit.ly/3uWuS7a  J27
+      - 🇸🇬 美国-12@1Gbps节点更新h4.7MJ35
+      - 🇺🇸 https://bit.ly/3uWuS7a  4.7MJ67
+      - 🇬🇧 0英国4.9M
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.5M24
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.5M16
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.5M12
+      - 🇭🇰 香港n02-https://bit.ly/3   4.4MJ77
+      - 🇺🇸 美国-13@1Gbps节4MJ57
+      - 🇺🇸 https://bit.ly/3uWuS7a J4.4M
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.4M21
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ87
+      - 🇨🇦 0加拿大2.7M
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ86
+      - 🇺🇸 https://bit.ly/3uWuS7a  4.3MJ85
+      - 🇺🇸 hm|美国(US)USA/Chicago 7
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ83
+      - 🇷🇴 罗马尼亚5.6M
+      - 🇺🇸 https://bit.ly/3uWuS7a J4M3
+      - 🇺🇸 https://bit.ly/3uWuS7a J4.1M
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ92
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ84
+      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M15
+      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M13
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.8M5
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.8M2
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.8M
+      - 🇺🇸 https://bit.ly/3uWuS7a  J9
+      - 🇺🇸 https://bit.ly/3uWuS7a  J3.5M
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.7M
+      - 🇺🇸 https://bit.ly/3uWuS7a  3.7MJ91
+      - 🇰🇷 韩国1-https://bit.ly/3uWuS7a  J3.6M22
+      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 波黑4.5M
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -666,92 +513,70 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 【直连】HKG/香港 A -12M
-      - 🇸🇬 【直连】SIN/狮城 B - 1
-      - 🇸🇬 【直连】SIN/狮城 A - 4
-      - 🇭🇰 【直连】HKG/香港 B - 8.9M
-      - 🇸🇬 【直连】SIN/狮城 B - 11.9M
-      - 🇭🇰 【直连】HKG/香港 A -10.1M
-      - 🇸🇬 【直连】SIN/狮城 A - 1
-      - 🇸🇬 【直连】SIN/狮城 B - 2
-      - 🇭🇰 【直连】HKG/香港 B - 6.6M
-      - 🇯🇵 【直连】NRT/东京 A - 2
-      - 🇯🇵 【直连】NRT/东京 B - 5
-      - 🇯🇵 【直连】NRT/东京 A - 4
-      - 🇺🇸 美国5.9M
-      - Pool__414
-      - Pool__260
-      - 🇺🇸 www.sfzy888.com  _🇺🇸US_511
-      - Pool__259
-      - Pool__541
-      - Pool__548
-      - 🇺🇸 美国2.5M
-      - 🇮🇹 sfzy888.com  - 意大利  11
-      - 🇸🇬 9@1Gbps节点更新5.2M
-      - 🇸🇬 【直连】SIN/狮城 A - 8.7M
-      - 🇷🇴 sfzy888.com _🇷🇴RO_356
-      - sfzy888.com _🇮🇹IT_241
-      - 波黑5.2M
-      - 🇺🇸 sfzy888.com _🇺🇸US_487
+      - 🇭🇰 香港2-https://bit.ly/3uWuS 22MJ74
+      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇯🇵 日本-AZ  11MJ72
+      - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
+      - 🇯🇵 日本m02-https://bit.ly/3uWuS7a
+      - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
+      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
+      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 美国-2@1Gbps节点更新https  7MJ25
+      - 🇺🇸 美国-30满足207MJ53
+      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
+      - 🇺🇸 美国-32 满 足 6.6MJ33
+      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
+      - 🇸🇬 美国-19@1Gbps节点更新6.4MJ26
+      - 🇺🇸 美国-28@1Gbps节6MJ48
+      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
+      - 🇺🇸 美国-11@1Gbps节点6.2MJ42
       - 阿伟科技Yw05
-      - 🇺🇸 美国
-      - 🇷🇴 sfzy888.com _🇷🇴RO_313
-      - www.sfzy888.com  _🇵🇹PT_290
-      - 波黑5.6M
-      - Pool__335
-      - 波黑
-      - 🇺🇸 sfzy888.com _🇺🇸US_451
-      - 波兰2.2M
-      - 🇺🇸 美国J
-      - 🇮🇹 意大利
-      - 🇺🇸 美国 2
-      - sfzy888.com _🇬🇧GB_166
-      - 捷克
-      - 🇷🇴 罗马尼亚
-      - 斯洛伐克
-      - 🇸🇬 【直连】SIN/狮城 B - 3
-      - sfzy888.com _🏁ZZ_695
-      - 🇷🇺 www.sfzy888.com  _🇺🇸US-🇷🇺RU_647
-      - 🇷🇴 罗马尼亚 2
-      - 🇨🇭 瑞士
-      - Pool__497
-      - 🇺🇸 美国4.8M
-      - 🇭🇰 YouTube-阿伟科技09-HK-10.8M
-      - 拉脱维亚
-      - sfzy888.com  - 欧洲  32
-      - 🇷🇴 sfzy888.com _🇷🇴RO_312
-      - 🇷🇴 罗马尼亚 3
-      - 瑞典3.9M
-      - Pool__369
-      - 🇺🇸 sfzy888.com _🇺🇸US_430
-      - www.sfzy888.com  _🇨🇿CZ_57
-      - 🇮🇹 意大利A
-      - 🇫🇷 sfzy888.com _🇫🇷FR_155
-      - 🇷🇺 sfzy888.com _🇷🇺RU_364
-      - 🇦🇺 sfzy888.com _🇦🇺AU_16
-      - 🇮🇹 意大利 2
-      - sfzy888.com _🇨🇾CY_75
-      - 🇷🇺 俄罗斯3.1M
-      - 🇦🇺 澳大利亚3.4M
-      - 🇺🇸 www.sfzy888.com  _🇺🇸US_463
-      - 🇯🇵 【直连】NRT/东京 B - 2
-      - 🇸🇬 【直连】SIN/狮城 A - 3
-      - sfzy888.com _🇮🇳IN_218
-      - 🇺🇸 美国F
-      - 🇩🇪 sfzy888.com _🇩🇪DE_94
-      - 🇭🇰 SK香港 A
-      - Pool__365
-      - 塞尔維亞
-      - 🇺🇸 sfzy888.com _🇺🇸US_483
-      - 🇯🇵 SK日本 AA
-      - sfzy888.com _🇱🇹LT_260
-      - 🇨🇳 SK台湾 A
-      - 🇮🇹 SK意大利 A
-      - www.sfzy888.com  _🇨🇿CZ_70
-      - sfzy888.com _🇮🇹IT_237
-      - www.sfzy888.com  _🇮🇳IN_211
-      - www.sfzy888.com  _🏁ZZ_682
-      - 🇺🇸 US_647
+      - 🇺🇸 美国-15@1Gbps节点更6MJ60
+      - 🇺🇸 https://bit.ly/3uWuS7a  5MJ56
+      - 🇺🇸 https://bit.ly/3uWuS7a  J5M18
+      - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4M28
+      - 🇺🇸 https://bit.ly/3uWuS7a  5MJ55
+      - 🇺🇸 美国1-https://bit.ly/3uWuS7a  5MJ38
+      - 🇺🇸 https://bit.ly/3uWuS7a  5MJ81
+      - 🇺🇸 0美国5.3M
+      - 🇭🇰 香港 5
+      - 🇺🇸 https://bit.ly/3uWuS7a  J5M17
+      - 🇺🇸 https://bit.ly/3uWuS7a 4.9MJ103
+      - 🇺🇸 https://bit.ly/3uWuS7a  J27
+      - 🇸🇬 美国-12@1Gbps节点更新h4.7MJ35
+      - 🇺🇸 https://bit.ly/3uWuS7a  4.7MJ67
+      - 🇬🇧 0英国4.9M
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.5M24
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.5M16
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.5M12
+      - 🇭🇰 香港n02-https://bit.ly/3   4.4MJ77
+      - 🇺🇸 美国-13@1Gbps节4MJ57
+      - 🇺🇸 https://bit.ly/3uWuS7a J4.4M
+      - 🇺🇸 https://bit.ly/3uWuS7a  J4.4M21
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ87
+      - 🇨🇦 0加拿大2.7M
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ86
+      - 🇺🇸 https://bit.ly/3uWuS7a  4.3MJ85
+      - 🇺🇸 hm|美国(US)USA/Chicago 7
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ83
+      - 🇷🇴 罗马尼亚5.6M
+      - 🇺🇸 https://bit.ly/3uWuS7a J4M3
+      - 🇺🇸 https://bit.ly/3uWuS7a J4.1M
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ92
+      - 🇺🇸 https://bit.ly/3uWuS7a  4MJ84
+      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M15
+      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M13
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.8M5
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.8M2
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.8M
+      - 🇺🇸 https://bit.ly/3uWuS7a  J9
+      - 🇺🇸 https://bit.ly/3uWuS7a  J3.5M
+      - 🇺🇸 https://bit.ly/3uWuS7a J3.7M
+      - 🇺🇸 https://bit.ly/3uWuS7a  3.7MJ91
+      - 🇰🇷 韩国1-https://bit.ly/3uWuS7a  J3.6M22
+      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 波黑4.5M
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
