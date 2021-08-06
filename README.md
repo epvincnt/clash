@@ -7,73 +7,61 @@ external-controller: :9090
 proxies:
   - {name: 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 45267, type: vmess, uuid: a076dc92-8e3f-4ad9-f93e-276562007d93, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: transit-azure-f4s-hk.speedtestcustom.tk}}
   - {name: 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75, server: a.cswtw.xyz, port: 29588, type: vmess, uuid: d90a47fd-071e-324c-b4f5-ed39b1b258b0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /Jpqib02c, ws-headers: {Host: hkec09.8aihpger.xyz}}
+  - {name: 🇯🇵 日本-AZ  11MJ72, server: 104.46.235.141, port: 80, type: vmess, uuid: bb4c499d-2f29-410f-a61c-1e27fe33fa57, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 104.46.235.141}}
+  - {name: 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71, server: 16.162.103.183, port: 443, type: vmess, uuid: 49f7c16f-1607-4dd3-8d53-878d682fb406, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 16.162.103.183}}
   - {name: 🇯🇵 日本m02-https://bit.ly/3uWuS7a, server: soolos.com, port: 51812, type: vmess, uuid: 93383ce7-fa32-31e3-a19f-3043c1e47d92, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: soolos.com}}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  7MJ73, server: jpaz1-1-1.biteb.xyz, port: 54005, type: vmess, uuid: eadcd39f-6804-3b8b-9943-65df7198a553, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: index, ws-headers: {Host: jpaz1-1-1.biteb.xyz}}
   - {name: 🇨🇳 台湾m01-https://bit.ly/3 9MJ76, server: soolos.com, port: 51816, type: vmess, uuid: 93383ce7-fa32-31e3-a19f-3043c1e47d92, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: soolos.com}}
   - {name: 🇺🇸 us.New York-14@1Gbps节J88, server: 104.16.125.142, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: 🇺🇸 us.New York-31 满 足7.9M, server: 104.17.1.141, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.17.159.129, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇺🇸 美国-New York-28@1Gbp8MJ58, server: 104.17.159.129, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.32.210, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
+  - {name: 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.17.192.104, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
   - {name: 🇸🇬 美国-2@1Gbps节点更新https  7MJ25, server: 104.16.9.233, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇺🇸 美国-30满足207MJ53, server: 104.19.206.153, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇺🇸 美国-New York-6@1Gbps节6MJ68, server: 104.19.206.153, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇯🇵 日本-AZ  11MJ72, server: 104.46.235.141, port: 80, type: vmess, uuid: bb4c499d-2f29-410f-a61c-1e27fe33fa57, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 104.46.235.141}}
-  - {name: 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.9.233, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇸🇬 美国-26@1Gbps节点更新J70, server: 104.16.182.15, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇺🇸 美国-New York-33  6.4M, server: 104.19.206.153, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇺🇸 美国-35 联通100M+4K 3.9MJ50, server: 104.17.36.178, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇺🇸 美国-New York-21联通@1Gbps 节7.2M, server: 104.16.9.233, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇸🇬 美国-5@1Gbps节点更新6MJ39, server: www.garmin.com, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s, server: 104.16.167.138, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇺🇸 美国-28@1Gbps节6MJ48, server: 104.16.148.48, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇸🇬 us.New York-9@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.17.1.141, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: Pool__260, server: 79.110.54.117, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 us.New York-19@1Gbps节点更1.9M, server: 104.17.1.141, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: 🇺🇸 us.New York-30满足202.2MJ52, server: 104.16.125.133, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: 🇺🇸 https://bit.ly/3uWuS7a  7MJ73, server: jpaz1-1-1.biteb.xyz, port: 54005, type: vmess, uuid: eadcd39f-6804-3b8b-9943-65df7198a553, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: index, ws-headers: {Host: jpaz1-1-1.biteb.xyz}}
-  - {name: 🇺🇸 https://bit.ly/3uWuS7a  J27, server: 104.200.131.172, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59, server: 45.79.114.57, port: 36788, type: vmess, uuid: B22C2F57-0189-25E7-79FA-90717E212748, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.79.114.57}}
   - {name: 🇺🇸 美国-New York-22移动@1Gbp7MJ61, server: 104.16.207.98, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇺🇸 https://bit.ly/3uWuS7a J4, server: 104.244.208.203, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 https://bit.ly/3uWuS7a  J4M28, server: 104.200.131.172, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇸🇬 美国-24@1Gbps节点更新3.5MJ34, server: 104.21.76.229, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇺🇸 美国-New York-30满足5MJ54, server: 104.16.125.226, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇺🇸 美国-18@1Gbps节点更3.6MJ33, server: 104.16.89.228, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇺🇸 us.New York-30满足202.2MJ52, server: 104.17.192.104, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
   - {name: 🇺🇸 美国-New York-34 联通6.2M, server: 104.16.89.228, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: Pool__259, server: 79.110.54.117, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 https://bit.ly/3uWuS7a 4.9MJ103, server: 199.10.64.163, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇷🇴 0罗马尼亚4.5M, server: 193.29.106.59, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.16.9.233, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇺🇸 美国1-https://bit.ly/3uWuS7a  5MJ38, server: 104.16.0.9, port: 2086, type: vmess, uuid: ed47a606-0bb2-32d0-8cac-7a8f84cf9763, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /w421x2bx2za, ws-headers: {Host: nj.sb-cloud.cf}}
-  - {name: 🇨🇦 0加拿大2.7M, server: 208.78.41.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 us.New York-11@1Gbps节J104, server: 104.16.125.43, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: 🇺🇸 https://bit.ly/3uWuS7a  J20, server: 37.19.220.194, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 0美国2Mb, server: 198.147.22.147, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63, server: 52.199.19.113, port: 80, type: vmess, uuid: f830d6df-0a72-4fd4-c434-57a0fe1c811e, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.199.19.113}}
-  - {name: 🇺🇸 https://bit.ly/3uWuS7a  3MJ45, server: 45.43.14.75, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 美国-18@1Gbps节点更3.6MJ33, server: 104.17.192.104, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.17.159.129, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: 🇺🇸 美国-35 联通100M+4K 3.9MJ50, server: 104.17.36.178, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇸🇬 美国-19@1Gbps节点更新6.4MJ26, server: 104.17.192.104, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
   - {name: 🇺🇸 美国-New York-11@1Gbps节点6MJ41, server: 104.18.8.157, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇺🇸 美国-15@1Gbps节点更6MJ60, server: 104.22.4.180, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇺🇸 https://bit.ly/3uWuS7a J4.1M, server: 104.244.208.203, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇸 https://bit.ly/3uWuS7a J3.4M, server: 104.244.208.203, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 https://bit.ly/3uWuS7a  2.6MJ44, server: 45.43.14.75, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: 🇸🇬 美国-19@1Gbps节点更新6.4MJ26, server: 104.25.175.69, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 波黑4.5M, server: 193.29.106.109, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 https://bit.ly/3uWuS7a  J3.9M13, server: 81.19.209.113, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69, server: www.digitalocean.com, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇺🇸 https://bit.ly/3uWuS7a  J5M17, server: 185.217.71.53, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: 🇺🇸 https://bit.ly/3uWuS7a J4.4M, server: 138.199.19.186, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国-New York-32 满 足6.3MJ31, server: 104.16.89.228, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71, server: 16.162.103.183, port: 443, type: vmess, uuid: 49f7c16f-1607-4dd3-8d53-878d682fb406, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 16.162.103.183}}
-  - {name: 🇸🇬 美国-New York-19@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.9.233, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇺🇸 美国-New York-9@1Gbps节6.3MJ94, server: 104.16.9.233, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇭🇰 香港n02-https://bit.ly/3   4.4MJ77, server: 101.32.202.76, port: 8080, type: vmess, uuid: bc86a4ed-e67f-3aec-8562-f2cf024cc481, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66, server: 104.16.148.27, port: 2082, type: vmess, uuid: ed47a606-0bb2-32d0-8cac-7a8f84cf9763, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /5hfgf/5hg, ws-headers: {Host: ru-1.sb-cloud.cf}}
+  - {name: 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s, server: 104.16.167.138, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: 🇺🇸 美国-New York-21联通@1Gbps 节7.2M, server: 104.16.9.233, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
   - {name: 🇺🇸 美国-13@1Gbps节4MJ57, server: 104.16.125.43, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇺🇸 https://bit.ly/3uWuS7a  J5M18, server: 193.29.106.59, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇬🇧 0英国4.9M, server: 89.238.130.251, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 https://bit.ly/3uWuS7a  J3.9M15, server: 185.108.106.152, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇺🇸 https://bit.ly/3uWuS7a  J8, server: 185.76.9.44, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 https://bit.ly/3uWuS7a, server: 185.166.84.36, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国-New York-6@1Gbps节6MJ68, server: 104.19.206.153, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: 🇺🇸 us.New York-31 满 足7.9M, server: 104.17.192.104, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
+  - {name: 🇺🇸 美国-28@1Gbps节6MJ48, server: 104.16.148.48, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇸🇬 美国-24@1Gbps节点更新3.5MJ34, server: 104.17.192.104, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇺🇸 美国-15@1Gbps节点更6MJ60, server: 104.22.4.180, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇸🇬 美国-5@1Gbps节点更新6MJ39, server: www.garmin.com, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇺🇸 美国-New York-9@1Gbps节6.3MJ94, server: 104.16.9.233, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: 89.238.130.251:39772, server: 89.238.130.251, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69, server: www.digitalocean.com, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇺🇸 us.New York-11@1Gbps节J104, server: 104.16.125.43, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
+  - {name: 79.110.54.117:35294, server: 79.110.54.117, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇳 heroepvcntip, server: 104.16.9.233, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: old-resonance-cedc.epvincnt.workers.dev}}
+  - {name: 199.10.64.163:37588, server: 199.10.64.163, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 45.43.14.75:50695, server: 45.43.14.75, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: 🇨🇳 heroepvcnt, server: 104.16.101.6, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: little-dawn-3747.epvincnt.workers.dev}}
+  - {name: 🇸🇬 美国-26@1Gbps节点更新J70, server: 104.16.182.15, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59, server: 45.79.114.57, port: 36788, type: vmess, uuid: B22C2F57-0189-25E7-79FA-90717E212748, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.79.114.57}}
+  - {name: 208.78.41.197:33992, server: 208.78.41.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 45.43.14.75:31944, server: 45.43.14.75, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇷🇺 0俄罗斯3M, server: els.jklist.ga, port: 2095, type: vmess, uuid: 5cf2ecb0-9165-4760-8e8a-381ce547a6ef, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: els.jklist.ga}}
+  - {name: 🇺🇸 美国-30满足207MJ53, server: 104.19.206.153, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 193.29.106.109:31572, server: 193.29.106.109, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 美国-New York-30满足5MJ54, server: 104.16.125.226, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: 193.29.106.59:50168, server: 193.29.106.59, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66, server: 104.16.148.27, port: 2082, type: vmess, uuid: ed47a606-0bb2-32d0-8cac-7a8f84cf9763, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /5hfgf/5hg, ws-headers: {Host: ru-1.sb-cloud.cf}}
+  - {name: 138.199.19.186:39772, server: 138.199.19.186, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 185.76.9.44:33998, server: 185.76.9.44, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 104.244.208.203:31944, server: 104.244.208.203, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 185.166.84.36:33992, server: 185.166.84.36, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 185.108.106.152:46642, server: 185.108.106.152, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 104.244.208.203:43893, server: 104.244.208.203, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 104.244.208.203:33992, server: 104.244.208.203, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 37.19.220.194:31572, server: 37.19.220.194, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇯🇵 SK日本 AA, server: 54.250.162.213, port: 4939, type: vmess, uuid: 844ea544-e5ca-3200-91af-876c4da6dcb0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63, server: 52.199.19.113, port: 80, type: vmess, uuid: f830d6df-0a72-4fd4-c434-57a0fe1c811e, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.199.19.113}}
+  - {name: 阿伟科技Yw05, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a7436b35-0daf-3eac-9a0b-356b8a3cc63b, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -82,73 +70,61 @@ proxy-groups:
       - 🎯 全球直连
       - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
       - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇯🇵 日本-AZ  11MJ72
+      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
       - 🇯🇵 日本m02-https://bit.ly/3uWuS7a
+      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
       - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
       - 🇺🇸 us.New York-14@1Gbps节J88
-      - 🇺🇸 us.New York-31 满 足7.9M
-      - 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-28@1Gbp8MJ58
       - 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-2@1Gbps节点更新https  7MJ25
-      - 🇺🇸 美国-30满足207MJ53
-      - 🇺🇸 美国-New York-6@1Gbps节6MJ68
-      - 🇯🇵 日本-AZ  11MJ72
-      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-26@1Gbps节点更新J70
-      - 🇺🇸 美国-New York-33  6.4M
-      - 🇺🇸 美国-35 联通100M+4K 3.9MJ50
-      - 🇺🇸 美国-New York-21联通@1Gbps 节7.2M
-      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 美国-28@1Gbps节6MJ48
-      - 🇸🇬 us.New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - Pool__260
-      - 🇺🇸 us.New York-19@1Gbps节点更1.9M
-      - 🇺🇸 us.New York-30满足202.2MJ52
-      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
-      - 🇺🇸 https://bit.ly/3uWuS7a  J27
-      - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
       - 🇺🇸 美国-New York-22移动@1Gbp7MJ61
-      - 🇺🇸 https://bit.ly/3uWuS7a J4
-      - 🇺🇸 https://bit.ly/3uWuS7a  J4M28
-      - 🇸🇬 美国-24@1Gbps节点更新3.5MJ34
-      - 🇺🇸 美国-New York-30满足5MJ54
-      - 🇺🇸 美国-18@1Gbps节点更3.6MJ33
+      - 🇺🇸 us.New York-30满足202.2MJ52
       - 🇺🇸 美国-New York-34 联通6.2M
-      - Pool__259
-      - 🇺🇸 https://bit.ly/3uWuS7a 4.9MJ103
-      - 🇷🇴 0罗马尼亚4.5M
-      - 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国1-https://bit.ly/3uWuS7a  5MJ38
-      - 🇨🇦 0加拿大2.7M
-      - 🇺🇸 us.New York-11@1Gbps节J104
-      - 🇺🇸 https://bit.ly/3uWuS7a  J20
-      - 🇺🇸 0美国2Mb
-      - 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63
-      - 🇺🇸 https://bit.ly/3uWuS7a  3MJ45
-      - 🇺🇸 美国-New York-11@1Gbps节点6MJ41
-      - 🇺🇸 美国-15@1Gbps节点更6MJ60
-      - 🇺🇸 https://bit.ly/3uWuS7a J4.1M
-      - 🇺🇸 https://bit.ly/3uWuS7a J3.4M
-      - 🇺🇸 https://bit.ly/3uWuS7a  2.6MJ44
+      - 🇺🇸 美国-18@1Gbps节点更3.6MJ33
+      - 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-35 联通100M+4K 3.9MJ50
       - 🇸🇬 美国-19@1Gbps节点更新6.4MJ26
-      - 波黑4.5M
-      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M13
-      - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
-      - 🇺🇸 https://bit.ly/3uWuS7a  J5M17
-      - 🇺🇸 https://bit.ly/3uWuS7a J4.4M
-      - 🇺🇸 美国-New York-32 满 足6.3MJ31
-      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
-      - 🇸🇬 美国-New York-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
-      - 🇭🇰 香港n02-https://bit.ly/3   4.4MJ77
-      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 🇺🇸 美国-New York-11@1Gbps节点6MJ41
+      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇺🇸 美国-New York-21联通@1Gbps 节7.2M
       - 🇺🇸 美国-13@1Gbps节4MJ57
-      - 🇺🇸 https://bit.ly/3uWuS7a  J5M18
-      - 🇬🇧 0英国4.9M
-      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M15
-      - 🇺🇸 https://bit.ly/3uWuS7a  J8
-      - 🇺🇸 https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-6@1Gbps节6MJ68
+      - 🇺🇸 us.New York-31 满 足7.9M
+      - 🇺🇸 美国-28@1Gbps节6MJ48
+      - 🇸🇬 美国-24@1Gbps节点更新3.5MJ34
+      - 🇺🇸 美国-15@1Gbps节点更6MJ60
+      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
+      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
+      - 89.238.130.251:39772
+      - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
+      - 🇺🇸 us.New York-11@1Gbps节J104
+      - 79.110.54.117:35294
+      - 🇨🇳 heroepvcntip
+      - 199.10.64.163:37588
+      - 45.43.14.75:50695
+      - 🇨🇳 heroepvcnt
+      - 🇸🇬 美国-26@1Gbps节点更新J70
+      - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
+      - 208.78.41.197:33992
+      - 45.43.14.75:31944
+      - 🇷🇺 0俄罗斯3M
+      - 🇺🇸 美国-30满足207MJ53
+      - 193.29.106.109:31572
+      - 🇺🇸 美国-New York-30满足5MJ54
+      - 193.29.106.59:50168
+      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 138.199.19.186:39772
+      - 185.76.9.44:33998
+      - 104.244.208.203:31944
+      - 185.166.84.36:33992
+      - 185.108.106.152:46642
+      - 104.244.208.203:43893
+      - 104.244.208.203:33992
+      - 37.19.220.194:31572
+      - 🇯🇵 SK日本 AA
+      - 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63
+      - 阿伟科技Yw05
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -156,73 +132,61 @@ proxy-groups:
     proxies:
       - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
       - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇯🇵 日本-AZ  11MJ72
+      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
       - 🇯🇵 日本m02-https://bit.ly/3uWuS7a
+      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
       - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
       - 🇺🇸 us.New York-14@1Gbps节J88
-      - 🇺🇸 us.New York-31 满 足7.9M
-      - 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-28@1Gbp8MJ58
       - 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-2@1Gbps节点更新https  7MJ25
-      - 🇺🇸 美国-30满足207MJ53
-      - 🇺🇸 美国-New York-6@1Gbps节6MJ68
-      - 🇯🇵 日本-AZ  11MJ72
-      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-26@1Gbps节点更新J70
-      - 🇺🇸 美国-New York-33  6.4M
-      - 🇺🇸 美国-35 联通100M+4K 3.9MJ50
-      - 🇺🇸 美国-New York-21联通@1Gbps 节7.2M
-      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 美国-28@1Gbps节6MJ48
-      - 🇸🇬 us.New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - Pool__260
-      - 🇺🇸 us.New York-19@1Gbps节点更1.9M
-      - 🇺🇸 us.New York-30满足202.2MJ52
-      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
-      - 🇺🇸 https://bit.ly/3uWuS7a  J27
-      - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
       - 🇺🇸 美国-New York-22移动@1Gbp7MJ61
-      - 🇺🇸 https://bit.ly/3uWuS7a J4
-      - 🇺🇸 https://bit.ly/3uWuS7a  J4M28
-      - 🇸🇬 美国-24@1Gbps节点更新3.5MJ34
-      - 🇺🇸 美国-New York-30满足5MJ54
-      - 🇺🇸 美国-18@1Gbps节点更3.6MJ33
+      - 🇺🇸 us.New York-30满足202.2MJ52
       - 🇺🇸 美国-New York-34 联通6.2M
-      - Pool__259
-      - 🇺🇸 https://bit.ly/3uWuS7a 4.9MJ103
-      - 🇷🇴 0罗马尼亚4.5M
-      - 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国1-https://bit.ly/3uWuS7a  5MJ38
-      - 🇨🇦 0加拿大2.7M
-      - 🇺🇸 us.New York-11@1Gbps节J104
-      - 🇺🇸 https://bit.ly/3uWuS7a  J20
-      - 🇺🇸 0美国2Mb
-      - 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63
-      - 🇺🇸 https://bit.ly/3uWuS7a  3MJ45
-      - 🇺🇸 美国-New York-11@1Gbps节点6MJ41
-      - 🇺🇸 美国-15@1Gbps节点更6MJ60
-      - 🇺🇸 https://bit.ly/3uWuS7a J4.1M
-      - 🇺🇸 https://bit.ly/3uWuS7a J3.4M
-      - 🇺🇸 https://bit.ly/3uWuS7a  2.6MJ44
+      - 🇺🇸 美国-18@1Gbps节点更3.6MJ33
+      - 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-35 联通100M+4K 3.9MJ50
       - 🇸🇬 美国-19@1Gbps节点更新6.4MJ26
-      - 波黑4.5M
-      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M13
-      - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
-      - 🇺🇸 https://bit.ly/3uWuS7a  J5M17
-      - 🇺🇸 https://bit.ly/3uWuS7a J4.4M
-      - 🇺🇸 美国-New York-32 满 足6.3MJ31
-      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
-      - 🇸🇬 美国-New York-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
-      - 🇭🇰 香港n02-https://bit.ly/3   4.4MJ77
-      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 🇺🇸 美国-New York-11@1Gbps节点6MJ41
+      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇺🇸 美国-New York-21联通@1Gbps 节7.2M
       - 🇺🇸 美国-13@1Gbps节4MJ57
-      - 🇺🇸 https://bit.ly/3uWuS7a  J5M18
-      - 🇬🇧 0英国4.9M
-      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M15
-      - 🇺🇸 https://bit.ly/3uWuS7a  J8
-      - 🇺🇸 https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-6@1Gbps节6MJ68
+      - 🇺🇸 us.New York-31 满 足7.9M
+      - 🇺🇸 美国-28@1Gbps节6MJ48
+      - 🇸🇬 美国-24@1Gbps节点更新3.5MJ34
+      - 🇺🇸 美国-15@1Gbps节点更6MJ60
+      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
+      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
+      - 89.238.130.251:39772
+      - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
+      - 🇺🇸 us.New York-11@1Gbps节J104
+      - 79.110.54.117:35294
+      - 🇨🇳 heroepvcntip
+      - 199.10.64.163:37588
+      - 45.43.14.75:50695
+      - 🇨🇳 heroepvcnt
+      - 🇸🇬 美国-26@1Gbps节点更新J70
+      - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
+      - 208.78.41.197:33992
+      - 45.43.14.75:31944
+      - 🇷🇺 0俄罗斯3M
+      - 🇺🇸 美国-30满足207MJ53
+      - 193.29.106.109:31572
+      - 🇺🇸 美国-New York-30满足5MJ54
+      - 193.29.106.59:50168
+      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 138.199.19.186:39772
+      - 185.76.9.44:33998
+      - 104.244.208.203:31944
+      - 185.166.84.36:33992
+      - 185.108.106.152:46642
+      - 104.244.208.203:43893
+      - 104.244.208.203:33992
+      - 37.19.220.194:31572
+      - 🇯🇵 SK日本 AA
+      - 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63
+      - 阿伟科技Yw05
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -231,82 +195,69 @@ proxy-groups:
       - 🎯 全球直连
       - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
       - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇯🇵 日本-AZ  11MJ72
+      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
       - 🇯🇵 日本m02-https://bit.ly/3uWuS7a
+      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
       - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
       - 🇺🇸 us.New York-14@1Gbps节J88
-      - 🇺🇸 us.New York-31 满 足7.9M
-      - 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-28@1Gbp8MJ58
       - 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-2@1Gbps节点更新https  7MJ25
-      - 🇺🇸 美国-30满足207MJ53
-      - 🇺🇸 美国-New York-6@1Gbps节6MJ68
-      - 🇯🇵 日本-AZ  11MJ72
-      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-26@1Gbps节点更新J70
-      - 🇺🇸 美国-New York-33  6.4M
-      - 🇺🇸 美国-35 联通100M+4K 3.9MJ50
-      - 🇺🇸 美国-New York-21联通@1Gbps 节7.2M
-      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 美国-28@1Gbps节6MJ48
-      - 🇸🇬 us.New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - Pool__260
-      - 🇺🇸 us.New York-19@1Gbps节点更1.9M
-      - 🇺🇸 us.New York-30满足202.2MJ52
-      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
-      - 🇺🇸 https://bit.ly/3uWuS7a  J27
-      - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
       - 🇺🇸 美国-New York-22移动@1Gbp7MJ61
-      - 🇺🇸 https://bit.ly/3uWuS7a J4
-      - 🇺🇸 https://bit.ly/3uWuS7a  J4M28
-      - 🇸🇬 美国-24@1Gbps节点更新3.5MJ34
-      - 🇺🇸 美国-New York-30满足5MJ54
-      - 🇺🇸 美国-18@1Gbps节点更3.6MJ33
+      - 🇺🇸 us.New York-30满足202.2MJ52
       - 🇺🇸 美国-New York-34 联通6.2M
-      - Pool__259
-      - 🇺🇸 https://bit.ly/3uWuS7a 4.9MJ103
-      - 🇷🇴 0罗马尼亚4.5M
-      - 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国1-https://bit.ly/3uWuS7a  5MJ38
-      - 🇨🇦 0加拿大2.7M
-      - 🇺🇸 us.New York-11@1Gbps节J104
-      - 🇺🇸 https://bit.ly/3uWuS7a  J20
-      - 🇺🇸 0美国2Mb
-      - 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63
-      - 🇺🇸 https://bit.ly/3uWuS7a  3MJ45
-      - 🇺🇸 美国-New York-11@1Gbps节点6MJ41
-      - 🇺🇸 美国-15@1Gbps节点更6MJ60
-      - 🇺🇸 https://bit.ly/3uWuS7a J4.1M
-      - 🇺🇸 https://bit.ly/3uWuS7a J3.4M
-      - 🇺🇸 https://bit.ly/3uWuS7a  2.6MJ44
+      - 🇺🇸 美国-18@1Gbps节点更3.6MJ33
+      - 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-35 联通100M+4K 3.9MJ50
       - 🇸🇬 美国-19@1Gbps节点更新6.4MJ26
-      - 波黑4.5M
-      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M13
-      - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
-      - 🇺🇸 https://bit.ly/3uWuS7a  J5M17
-      - 🇺🇸 https://bit.ly/3uWuS7a J4.4M
-      - 🇺🇸 美国-New York-32 满 足6.3MJ31
-      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
-      - 🇸🇬 美国-New York-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
-      - 🇭🇰 香港n02-https://bit.ly/3   4.4MJ77
-      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 🇺🇸 美国-New York-11@1Gbps节点6MJ41
+      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇺🇸 美国-New York-21联通@1Gbps 节7.2M
       - 🇺🇸 美国-13@1Gbps节4MJ57
-      - 🇺🇸 https://bit.ly/3uWuS7a  J5M18
-      - 🇬🇧 0英国4.9M
-      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M15
-      - 🇺🇸 https://bit.ly/3uWuS7a  J8
-      - 🇺🇸 https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-6@1Gbps节6MJ68
+      - 🇺🇸 us.New York-31 满 足7.9M
+      - 🇺🇸 美国-28@1Gbps节6MJ48
+      - 🇸🇬 美国-24@1Gbps节点更新3.5MJ34
+      - 🇺🇸 美国-15@1Gbps节点更6MJ60
+      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
+      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
+      - 89.238.130.251:39772
+      - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
+      - 🇺🇸 us.New York-11@1Gbps节J104
+      - 79.110.54.117:35294
+      - 🇨🇳 heroepvcntip
+      - 199.10.64.163:37588
+      - 45.43.14.75:50695
+      - 🇨🇳 heroepvcnt
+      - 🇸🇬 美国-26@1Gbps节点更新J70
+      - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
+      - 208.78.41.197:33992
+      - 45.43.14.75:31944
+      - 🇷🇺 0俄罗斯3M
+      - 🇺🇸 美国-30满足207MJ53
+      - 193.29.106.109:31572
+      - 🇺🇸 美国-New York-30满足5MJ54
+      - 193.29.106.59:50168
+      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 138.199.19.186:39772
+      - 185.76.9.44:33998
+      - 104.244.208.203:31944
+      - 185.166.84.36:33992
+      - 185.108.106.152:46642
+      - 104.244.208.203:43893
+      - 104.244.208.203:33992
+      - 37.19.220.194:31572
+      - 🇯🇵 SK日本 AA
+      - 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63
+      - 阿伟科技Yw05
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
       - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
-      - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
       - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
-      - 🇭🇰 香港n02-https://bit.ly/3   4.4MJ77
+      - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -315,73 +266,61 @@ proxy-groups:
       - 🔰 节点选择
       - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
       - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇯🇵 日本-AZ  11MJ72
+      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
       - 🇯🇵 日本m02-https://bit.ly/3uWuS7a
+      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
       - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
       - 🇺🇸 us.New York-14@1Gbps节J88
-      - 🇺🇸 us.New York-31 满 足7.9M
-      - 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-28@1Gbp8MJ58
       - 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-2@1Gbps节点更新https  7MJ25
-      - 🇺🇸 美国-30满足207MJ53
-      - 🇺🇸 美国-New York-6@1Gbps节6MJ68
-      - 🇯🇵 日本-AZ  11MJ72
-      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-26@1Gbps节点更新J70
-      - 🇺🇸 美国-New York-33  6.4M
-      - 🇺🇸 美国-35 联通100M+4K 3.9MJ50
-      - 🇺🇸 美国-New York-21联通@1Gbps 节7.2M
-      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 美国-28@1Gbps节6MJ48
-      - 🇸🇬 us.New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - Pool__260
-      - 🇺🇸 us.New York-19@1Gbps节点更1.9M
-      - 🇺🇸 us.New York-30满足202.2MJ52
-      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
-      - 🇺🇸 https://bit.ly/3uWuS7a  J27
-      - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
       - 🇺🇸 美国-New York-22移动@1Gbp7MJ61
-      - 🇺🇸 https://bit.ly/3uWuS7a J4
-      - 🇺🇸 https://bit.ly/3uWuS7a  J4M28
-      - 🇸🇬 美国-24@1Gbps节点更新3.5MJ34
-      - 🇺🇸 美国-New York-30满足5MJ54
-      - 🇺🇸 美国-18@1Gbps节点更3.6MJ33
+      - 🇺🇸 us.New York-30满足202.2MJ52
       - 🇺🇸 美国-New York-34 联通6.2M
-      - Pool__259
-      - 🇺🇸 https://bit.ly/3uWuS7a 4.9MJ103
-      - 🇷🇴 0罗马尼亚4.5M
-      - 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国1-https://bit.ly/3uWuS7a  5MJ38
-      - 🇨🇦 0加拿大2.7M
-      - 🇺🇸 us.New York-11@1Gbps节J104
-      - 🇺🇸 https://bit.ly/3uWuS7a  J20
-      - 🇺🇸 0美国2Mb
-      - 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63
-      - 🇺🇸 https://bit.ly/3uWuS7a  3MJ45
-      - 🇺🇸 美国-New York-11@1Gbps节点6MJ41
-      - 🇺🇸 美国-15@1Gbps节点更6MJ60
-      - 🇺🇸 https://bit.ly/3uWuS7a J4.1M
-      - 🇺🇸 https://bit.ly/3uWuS7a J3.4M
-      - 🇺🇸 https://bit.ly/3uWuS7a  2.6MJ44
+      - 🇺🇸 美国-18@1Gbps节点更3.6MJ33
+      - 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-35 联通100M+4K 3.9MJ50
       - 🇸🇬 美国-19@1Gbps节点更新6.4MJ26
-      - 波黑4.5M
-      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M13
-      - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
-      - 🇺🇸 https://bit.ly/3uWuS7a  J5M17
-      - 🇺🇸 https://bit.ly/3uWuS7a J4.4M
-      - 🇺🇸 美国-New York-32 满 足6.3MJ31
-      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
-      - 🇸🇬 美国-New York-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
-      - 🇭🇰 香港n02-https://bit.ly/3   4.4MJ77
-      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 🇺🇸 美国-New York-11@1Gbps节点6MJ41
+      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇺🇸 美国-New York-21联通@1Gbps 节7.2M
       - 🇺🇸 美国-13@1Gbps节4MJ57
-      - 🇺🇸 https://bit.ly/3uWuS7a  J5M18
-      - 🇬🇧 0英国4.9M
-      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M15
-      - 🇺🇸 https://bit.ly/3uWuS7a  J8
-      - 🇺🇸 https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-6@1Gbps节6MJ68
+      - 🇺🇸 us.New York-31 满 足7.9M
+      - 🇺🇸 美国-28@1Gbps节6MJ48
+      - 🇸🇬 美国-24@1Gbps节点更新3.5MJ34
+      - 🇺🇸 美国-15@1Gbps节点更6MJ60
+      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
+      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
+      - 89.238.130.251:39772
+      - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
+      - 🇺🇸 us.New York-11@1Gbps节J104
+      - 79.110.54.117:35294
+      - 🇨🇳 heroepvcntip
+      - 199.10.64.163:37588
+      - 45.43.14.75:50695
+      - 🇨🇳 heroepvcnt
+      - 🇸🇬 美国-26@1Gbps节点更新J70
+      - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
+      - 208.78.41.197:33992
+      - 45.43.14.75:31944
+      - 🇷🇺 0俄罗斯3M
+      - 🇺🇸 美国-30满足207MJ53
+      - 193.29.106.109:31572
+      - 🇺🇸 美国-New York-30满足5MJ54
+      - 193.29.106.59:50168
+      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 138.199.19.186:39772
+      - 185.76.9.44:33998
+      - 104.244.208.203:31944
+      - 185.166.84.36:33992
+      - 185.108.106.152:46642
+      - 104.244.208.203:43893
+      - 104.244.208.203:33992
+      - 37.19.220.194:31572
+      - 🇯🇵 SK日本 AA
+      - 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63
+      - 阿伟科技Yw05
   - name: 📲 电报信息
     type: select
     proxies:
@@ -389,73 +328,61 @@ proxy-groups:
       - 🎯 全球直连
       - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
       - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇯🇵 日本-AZ  11MJ72
+      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
       - 🇯🇵 日本m02-https://bit.ly/3uWuS7a
+      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
       - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
       - 🇺🇸 us.New York-14@1Gbps节J88
-      - 🇺🇸 us.New York-31 满 足7.9M
-      - 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-28@1Gbp8MJ58
       - 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-2@1Gbps节点更新https  7MJ25
-      - 🇺🇸 美国-30满足207MJ53
-      - 🇺🇸 美国-New York-6@1Gbps节6MJ68
-      - 🇯🇵 日本-AZ  11MJ72
-      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-26@1Gbps节点更新J70
-      - 🇺🇸 美国-New York-33  6.4M
-      - 🇺🇸 美国-35 联通100M+4K 3.9MJ50
-      - 🇺🇸 美国-New York-21联通@1Gbps 节7.2M
-      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 美国-28@1Gbps节6MJ48
-      - 🇸🇬 us.New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - Pool__260
-      - 🇺🇸 us.New York-19@1Gbps节点更1.9M
-      - 🇺🇸 us.New York-30满足202.2MJ52
-      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
-      - 🇺🇸 https://bit.ly/3uWuS7a  J27
-      - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
       - 🇺🇸 美国-New York-22移动@1Gbp7MJ61
-      - 🇺🇸 https://bit.ly/3uWuS7a J4
-      - 🇺🇸 https://bit.ly/3uWuS7a  J4M28
-      - 🇸🇬 美国-24@1Gbps节点更新3.5MJ34
-      - 🇺🇸 美国-New York-30满足5MJ54
-      - 🇺🇸 美国-18@1Gbps节点更3.6MJ33
+      - 🇺🇸 us.New York-30满足202.2MJ52
       - 🇺🇸 美国-New York-34 联通6.2M
-      - Pool__259
-      - 🇺🇸 https://bit.ly/3uWuS7a 4.9MJ103
-      - 🇷🇴 0罗马尼亚4.5M
-      - 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国1-https://bit.ly/3uWuS7a  5MJ38
-      - 🇨🇦 0加拿大2.7M
-      - 🇺🇸 us.New York-11@1Gbps节J104
-      - 🇺🇸 https://bit.ly/3uWuS7a  J20
-      - 🇺🇸 0美国2Mb
-      - 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63
-      - 🇺🇸 https://bit.ly/3uWuS7a  3MJ45
-      - 🇺🇸 美国-New York-11@1Gbps节点6MJ41
-      - 🇺🇸 美国-15@1Gbps节点更6MJ60
-      - 🇺🇸 https://bit.ly/3uWuS7a J4.1M
-      - 🇺🇸 https://bit.ly/3uWuS7a J3.4M
-      - 🇺🇸 https://bit.ly/3uWuS7a  2.6MJ44
+      - 🇺🇸 美国-18@1Gbps节点更3.6MJ33
+      - 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-35 联通100M+4K 3.9MJ50
       - 🇸🇬 美国-19@1Gbps节点更新6.4MJ26
-      - 波黑4.5M
-      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M13
-      - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
-      - 🇺🇸 https://bit.ly/3uWuS7a  J5M17
-      - 🇺🇸 https://bit.ly/3uWuS7a J4.4M
-      - 🇺🇸 美国-New York-32 满 足6.3MJ31
-      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
-      - 🇸🇬 美国-New York-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
-      - 🇭🇰 香港n02-https://bit.ly/3   4.4MJ77
-      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 🇺🇸 美国-New York-11@1Gbps节点6MJ41
+      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇺🇸 美国-New York-21联通@1Gbps 节7.2M
       - 🇺🇸 美国-13@1Gbps节4MJ57
-      - 🇺🇸 https://bit.ly/3uWuS7a  J5M18
-      - 🇬🇧 0英国4.9M
-      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M15
-      - 🇺🇸 https://bit.ly/3uWuS7a  J8
-      - 🇺🇸 https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-6@1Gbps节6MJ68
+      - 🇺🇸 us.New York-31 满 足7.9M
+      - 🇺🇸 美国-28@1Gbps节6MJ48
+      - 🇸🇬 美国-24@1Gbps节点更新3.5MJ34
+      - 🇺🇸 美国-15@1Gbps节点更6MJ60
+      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
+      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
+      - 89.238.130.251:39772
+      - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
+      - 🇺🇸 us.New York-11@1Gbps节J104
+      - 79.110.54.117:35294
+      - 🇨🇳 heroepvcntip
+      - 199.10.64.163:37588
+      - 45.43.14.75:50695
+      - 🇨🇳 heroepvcnt
+      - 🇸🇬 美国-26@1Gbps节点更新J70
+      - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
+      - 208.78.41.197:33992
+      - 45.43.14.75:31944
+      - 🇷🇺 0俄罗斯3M
+      - 🇺🇸 美国-30满足207MJ53
+      - 193.29.106.109:31572
+      - 🇺🇸 美国-New York-30满足5MJ54
+      - 193.29.106.59:50168
+      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 138.199.19.186:39772
+      - 185.76.9.44:33998
+      - 104.244.208.203:31944
+      - 185.166.84.36:33992
+      - 185.108.106.152:46642
+      - 104.244.208.203:43893
+      - 104.244.208.203:33992
+      - 37.19.220.194:31572
+      - 🇯🇵 SK日本 AA
+      - 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63
+      - 阿伟科技Yw05
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -464,73 +391,61 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
       - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇯🇵 日本-AZ  11MJ72
+      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
       - 🇯🇵 日本m02-https://bit.ly/3uWuS7a
+      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
       - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
       - 🇺🇸 us.New York-14@1Gbps节J88
-      - 🇺🇸 us.New York-31 满 足7.9M
-      - 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-28@1Gbp8MJ58
       - 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-2@1Gbps节点更新https  7MJ25
-      - 🇺🇸 美国-30满足207MJ53
-      - 🇺🇸 美国-New York-6@1Gbps节6MJ68
-      - 🇯🇵 日本-AZ  11MJ72
-      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-26@1Gbps节点更新J70
-      - 🇺🇸 美国-New York-33  6.4M
-      - 🇺🇸 美国-35 联通100M+4K 3.9MJ50
-      - 🇺🇸 美国-New York-21联通@1Gbps 节7.2M
-      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 美国-28@1Gbps节6MJ48
-      - 🇸🇬 us.New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - Pool__260
-      - 🇺🇸 us.New York-19@1Gbps节点更1.9M
-      - 🇺🇸 us.New York-30满足202.2MJ52
-      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
-      - 🇺🇸 https://bit.ly/3uWuS7a  J27
-      - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
       - 🇺🇸 美国-New York-22移动@1Gbp7MJ61
-      - 🇺🇸 https://bit.ly/3uWuS7a J4
-      - 🇺🇸 https://bit.ly/3uWuS7a  J4M28
-      - 🇸🇬 美国-24@1Gbps节点更新3.5MJ34
-      - 🇺🇸 美国-New York-30满足5MJ54
-      - 🇺🇸 美国-18@1Gbps节点更3.6MJ33
+      - 🇺🇸 us.New York-30满足202.2MJ52
       - 🇺🇸 美国-New York-34 联通6.2M
-      - Pool__259
-      - 🇺🇸 https://bit.ly/3uWuS7a 4.9MJ103
-      - 🇷🇴 0罗马尼亚4.5M
-      - 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国1-https://bit.ly/3uWuS7a  5MJ38
-      - 🇨🇦 0加拿大2.7M
-      - 🇺🇸 us.New York-11@1Gbps节J104
-      - 🇺🇸 https://bit.ly/3uWuS7a  J20
-      - 🇺🇸 0美国2Mb
-      - 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63
-      - 🇺🇸 https://bit.ly/3uWuS7a  3MJ45
-      - 🇺🇸 美国-New York-11@1Gbps节点6MJ41
-      - 🇺🇸 美国-15@1Gbps节点更6MJ60
-      - 🇺🇸 https://bit.ly/3uWuS7a J4.1M
-      - 🇺🇸 https://bit.ly/3uWuS7a J3.4M
-      - 🇺🇸 https://bit.ly/3uWuS7a  2.6MJ44
+      - 🇺🇸 美国-18@1Gbps节点更3.6MJ33
+      - 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-35 联通100M+4K 3.9MJ50
       - 🇸🇬 美国-19@1Gbps节点更新6.4MJ26
-      - 波黑4.5M
-      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M13
-      - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
-      - 🇺🇸 https://bit.ly/3uWuS7a  J5M17
-      - 🇺🇸 https://bit.ly/3uWuS7a J4.4M
-      - 🇺🇸 美国-New York-32 满 足6.3MJ31
-      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
-      - 🇸🇬 美国-New York-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
-      - 🇭🇰 香港n02-https://bit.ly/3   4.4MJ77
-      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 🇺🇸 美国-New York-11@1Gbps节点6MJ41
+      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇺🇸 美国-New York-21联通@1Gbps 节7.2M
       - 🇺🇸 美国-13@1Gbps节4MJ57
-      - 🇺🇸 https://bit.ly/3uWuS7a  J5M18
-      - 🇬🇧 0英国4.9M
-      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M15
-      - 🇺🇸 https://bit.ly/3uWuS7a  J8
-      - 🇺🇸 https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-6@1Gbps节6MJ68
+      - 🇺🇸 us.New York-31 满 足7.9M
+      - 🇺🇸 美国-28@1Gbps节6MJ48
+      - 🇸🇬 美国-24@1Gbps节点更新3.5MJ34
+      - 🇺🇸 美国-15@1Gbps节点更6MJ60
+      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
+      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
+      - 89.238.130.251:39772
+      - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
+      - 🇺🇸 us.New York-11@1Gbps节J104
+      - 79.110.54.117:35294
+      - 🇨🇳 heroepvcntip
+      - 199.10.64.163:37588
+      - 45.43.14.75:50695
+      - 🇨🇳 heroepvcnt
+      - 🇸🇬 美国-26@1Gbps节点更新J70
+      - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
+      - 208.78.41.197:33992
+      - 45.43.14.75:31944
+      - 🇷🇺 0俄罗斯3M
+      - 🇺🇸 美国-30满足207MJ53
+      - 193.29.106.109:31572
+      - 🇺🇸 美国-New York-30满足5MJ54
+      - 193.29.106.59:50168
+      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 138.199.19.186:39772
+      - 185.76.9.44:33998
+      - 104.244.208.203:31944
+      - 185.166.84.36:33992
+      - 185.108.106.152:46642
+      - 104.244.208.203:43893
+      - 104.244.208.203:33992
+      - 37.19.220.194:31572
+      - 🇯🇵 SK日本 AA
+      - 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63
+      - 阿伟科技Yw05
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -548,73 +463,61 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
       - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇯🇵 日本-AZ  11MJ72
+      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
       - 🇯🇵 日本m02-https://bit.ly/3uWuS7a
+      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
       - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
       - 🇺🇸 us.New York-14@1Gbps节J88
-      - 🇺🇸 us.New York-31 满 足7.9M
-      - 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-28@1Gbp8MJ58
       - 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 美国-2@1Gbps节点更新https  7MJ25
-      - 🇺🇸 美国-30满足207MJ53
-      - 🇺🇸 美国-New York-6@1Gbps节6MJ68
-      - 🇯🇵 日本-AZ  11MJ72
-      - 🇸🇬 美国-25@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-26@1Gbps节点更新J70
-      - 🇺🇸 美国-New York-33  6.4M
-      - 🇺🇸 美国-35 联通100M+4K 3.9MJ50
-      - 🇺🇸 美国-New York-21联通@1Gbps 节7.2M
-      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 美国-28@1Gbps节6MJ48
-      - 🇸🇬 us.New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - Pool__260
-      - 🇺🇸 us.New York-19@1Gbps节点更1.9M
-      - 🇺🇸 us.New York-30满足202.2MJ52
-      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
-      - 🇺🇸 https://bit.ly/3uWuS7a  J27
-      - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
       - 🇺🇸 美国-New York-22移动@1Gbp7MJ61
-      - 🇺🇸 https://bit.ly/3uWuS7a J4
-      - 🇺🇸 https://bit.ly/3uWuS7a  J4M28
-      - 🇸🇬 美国-24@1Gbps节点更新3.5MJ34
-      - 🇺🇸 美国-New York-30满足5MJ54
-      - 🇺🇸 美国-18@1Gbps节点更3.6MJ33
+      - 🇺🇸 us.New York-30满足202.2MJ52
       - 🇺🇸 美国-New York-34 联通6.2M
-      - Pool__259
-      - 🇺🇸 https://bit.ly/3uWuS7a 4.9MJ103
-      - 🇷🇴 0罗马尼亚4.5M
-      - 🇸🇬 美国-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国1-https://bit.ly/3uWuS7a  5MJ38
-      - 🇨🇦 0加拿大2.7M
-      - 🇺🇸 us.New York-11@1Gbps节J104
-      - 🇺🇸 https://bit.ly/3uWuS7a  J20
-      - 🇺🇸 0美国2Mb
-      - 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63
-      - 🇺🇸 https://bit.ly/3uWuS7a  3MJ45
-      - 🇺🇸 美国-New York-11@1Gbps节点6MJ41
-      - 🇺🇸 美国-15@1Gbps节点更6MJ60
-      - 🇺🇸 https://bit.ly/3uWuS7a J4.1M
-      - 🇺🇸 https://bit.ly/3uWuS7a J3.4M
-      - 🇺🇸 https://bit.ly/3uWuS7a  2.6MJ44
+      - 🇺🇸 美国-18@1Gbps节点更3.6MJ33
+      - 🇸🇬 美国-New York-24@1Gbps节点更新https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-35 联通100M+4K 3.9MJ50
       - 🇸🇬 美国-19@1Gbps节点更新6.4MJ26
-      - 波黑4.5M
-      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M13
-      - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
-      - 🇺🇸 https://bit.ly/3uWuS7a  J5M17
-      - 🇺🇸 https://bit.ly/3uWuS7a J4.4M
-      - 🇺🇸 美国-New York-32 满 足6.3MJ31
-      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
-      - 🇸🇬 美国-New York-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
-      - 🇭🇰 香港n02-https://bit.ly/3   4.4MJ77
-      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 🇺🇸 美国-New York-11@1Gbps节点6MJ41
+      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
+      - 🇺🇸 美国-New York-21联通@1Gbps 节7.2M
       - 🇺🇸 美国-13@1Gbps节4MJ57
-      - 🇺🇸 https://bit.ly/3uWuS7a  J5M18
-      - 🇬🇧 0英国4.9M
-      - 🇺🇸 https://bit.ly/3uWuS7a  J3.9M15
-      - 🇺🇸 https://bit.ly/3uWuS7a  J8
-      - 🇺🇸 https://bit.ly/3uWuS7a
+      - 🇺🇸 美国-New York-6@1Gbps节6MJ68
+      - 🇺🇸 us.New York-31 满 足7.9M
+      - 🇺🇸 美国-28@1Gbps节6MJ48
+      - 🇸🇬 美国-24@1Gbps节点更新3.5MJ34
+      - 🇺🇸 美国-15@1Gbps节点更6MJ60
+      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
+      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
+      - 89.238.130.251:39772
+      - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
+      - 🇺🇸 us.New York-11@1Gbps节J104
+      - 79.110.54.117:35294
+      - 🇨🇳 heroepvcntip
+      - 199.10.64.163:37588
+      - 45.43.14.75:50695
+      - 🇨🇳 heroepvcnt
+      - 🇸🇬 美国-26@1Gbps节点更新J70
+      - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
+      - 208.78.41.197:33992
+      - 45.43.14.75:31944
+      - 🇷🇺 0俄罗斯3M
+      - 🇺🇸 美国-30满足207MJ53
+      - 193.29.106.109:31572
+      - 🇺🇸 美国-New York-30满足5MJ54
+      - 193.29.106.59:50168
+      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 138.199.19.186:39772
+      - 185.76.9.44:33998
+      - 104.244.208.203:31944
+      - 185.166.84.36:33992
+      - 185.108.106.152:46642
+      - 104.244.208.203:43893
+      - 104.244.208.203:33992
+      - 37.19.220.194:31572
+      - 🇯🇵 SK日本 AA
+      - 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63
+      - 阿伟科技Yw05
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
