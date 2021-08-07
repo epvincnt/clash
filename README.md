@@ -37,10 +37,8 @@ proxies:
   - {name: 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69, server: www.digitalocean.com, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
   - {name: 🇺🇸 us.New York-11@1Gbps节J104, server: 104.16.125.43, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
   - {name: 79.110.54.117:35294, server: 79.110.54.117, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇨🇳 heroepvcntip, server: 104.16.9.233, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: old-resonance-cedc.epvincnt.workers.dev}}
   - {name: 199.10.64.163:37588, server: 199.10.64.163, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
   - {name: 45.43.14.75:50695, server: 45.43.14.75, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: 🇨🇳 heroepvcnt, server: 104.16.101.6, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: little-dawn-3747.epvincnt.workers.dev}}
   - {name: 🇸🇬 美国-26@1Gbps节点更新J70, server: 104.16.182.15, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
   - {name: 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59, server: 45.79.114.57, port: 36788, type: vmess, uuid: B22C2F57-0189-25E7-79FA-90717E212748, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.79.114.57}}
   - {name: 208.78.41.197:33992, server: 208.78.41.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
@@ -61,6 +59,7 @@ proxies:
   - {name: 37.19.220.194:31572, server: 37.19.220.194, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 🇯🇵 SK日本 AA, server: 54.250.162.213, port: 4939, type: vmess, uuid: 844ea544-e5ca-3200-91af-876c4da6dcb0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
   - {name: 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63, server: 52.199.19.113, port: 80, type: vmess, uuid: f830d6df-0a72-4fd4-c434-57a0fe1c811e, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.199.19.113}}
+  - {name: 198.147.22.147:33148, server: 198.147.22.147, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
   - {name: 阿伟科技Yw05, server: gyb.cloudddns.icu, port: 123, type: vmess, uuid: a7436b35-0daf-3eac-9a0b-356b8a3cc63b, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyb.cloudddns.icu}}
 proxy-groups:
   - name: 🔰 节点选择
@@ -100,10 +99,8 @@ proxy-groups:
       - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
       - 🇺🇸 us.New York-11@1Gbps节J104
       - 79.110.54.117:35294
-      - 🇨🇳 heroepvcntip
       - 199.10.64.163:37588
       - 45.43.14.75:50695
-      - 🇨🇳 heroepvcnt
       - 🇸🇬 美国-26@1Gbps节点更新J70
       - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
       - 208.78.41.197:33992
@@ -124,6 +121,7 @@ proxy-groups:
       - 37.19.220.194:31572
       - 🇯🇵 SK日本 AA
       - 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63
+      - 198.147.22.147:33148
       - 阿伟科技Yw05
   - name: ♻️ 自动选择
     type: url-test
@@ -162,10 +160,8 @@ proxy-groups:
       - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
       - 🇺🇸 us.New York-11@1Gbps节J104
       - 79.110.54.117:35294
-      - 🇨🇳 heroepvcntip
       - 199.10.64.163:37588
       - 45.43.14.75:50695
-      - 🇨🇳 heroepvcnt
       - 🇸🇬 美国-26@1Gbps节点更新J70
       - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
       - 208.78.41.197:33992
@@ -186,6 +182,7 @@ proxy-groups:
       - 37.19.220.194:31572
       - 🇯🇵 SK日本 AA
       - 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63
+      - 198.147.22.147:33148
       - 阿伟科技Yw05
   - name: 🌍 国外媒体
     type: select
@@ -225,10 +222,8 @@ proxy-groups:
       - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
       - 🇺🇸 us.New York-11@1Gbps节J104
       - 79.110.54.117:35294
-      - 🇨🇳 heroepvcntip
       - 199.10.64.163:37588
       - 45.43.14.75:50695
-      - 🇨🇳 heroepvcnt
       - 🇸🇬 美国-26@1Gbps节点更新J70
       - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
       - 208.78.41.197:33992
@@ -249,6 +244,7 @@ proxy-groups:
       - 37.19.220.194:31572
       - 🇯🇵 SK日本 AA
       - 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63
+      - 198.147.22.147:33148
       - 阿伟科技Yw05
   - name: 🌏 国内媒体
     type: select
@@ -296,10 +292,8 @@ proxy-groups:
       - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
       - 🇺🇸 us.New York-11@1Gbps节J104
       - 79.110.54.117:35294
-      - 🇨🇳 heroepvcntip
       - 199.10.64.163:37588
       - 45.43.14.75:50695
-      - 🇨🇳 heroepvcnt
       - 🇸🇬 美国-26@1Gbps节点更新J70
       - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
       - 208.78.41.197:33992
@@ -320,6 +314,7 @@ proxy-groups:
       - 37.19.220.194:31572
       - 🇯🇵 SK日本 AA
       - 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63
+      - 198.147.22.147:33148
       - 阿伟科技Yw05
   - name: 📲 电报信息
     type: select
@@ -358,10 +353,8 @@ proxy-groups:
       - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
       - 🇺🇸 us.New York-11@1Gbps节J104
       - 79.110.54.117:35294
-      - 🇨🇳 heroepvcntip
       - 199.10.64.163:37588
       - 45.43.14.75:50695
-      - 🇨🇳 heroepvcnt
       - 🇸🇬 美国-26@1Gbps节点更新J70
       - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
       - 208.78.41.197:33992
@@ -382,6 +375,7 @@ proxy-groups:
       - 37.19.220.194:31572
       - 🇯🇵 SK日本 AA
       - 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63
+      - 198.147.22.147:33148
       - 阿伟科技Yw05
   - name: 🍎 苹果服务
     type: select
@@ -421,10 +415,8 @@ proxy-groups:
       - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
       - 🇺🇸 us.New York-11@1Gbps节J104
       - 79.110.54.117:35294
-      - 🇨🇳 heroepvcntip
       - 199.10.64.163:37588
       - 45.43.14.75:50695
-      - 🇨🇳 heroepvcnt
       - 🇸🇬 美国-26@1Gbps节点更新J70
       - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
       - 208.78.41.197:33992
@@ -445,6 +437,7 @@ proxy-groups:
       - 37.19.220.194:31572
       - 🇯🇵 SK日本 AA
       - 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63
+      - 198.147.22.147:33148
       - 阿伟科技Yw05
   - name: 🎯 全球直连
     type: select
@@ -493,10 +486,8 @@ proxy-groups:
       - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
       - 🇺🇸 us.New York-11@1Gbps节J104
       - 79.110.54.117:35294
-      - 🇨🇳 heroepvcntip
       - 199.10.64.163:37588
       - 45.43.14.75:50695
-      - 🇨🇳 heroepvcnt
       - 🇸🇬 美国-26@1Gbps节点更新J70
       - 🇸🇬 节点更新https://bit.ly/3uWuS  5MJ59
       - 208.78.41.197:33992
@@ -517,6 +508,7 @@ proxy-groups:
       - 37.19.220.194:31572
       - 🇯🇵 SK日本 AA
       - 🇺🇸 https://bit.ly/3uWuS7a  3.3MJ63
+      - 198.147.22.147:33148
       - 阿伟科技Yw05
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
