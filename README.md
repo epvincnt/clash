@@ -5,377 +5,525 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美国-15@1Gbps节点更6MJ60, server: 104.22.4.180, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75, server: a.cswtw.xyz, port: 29588, type: vmess, uuid: d90a47fd-071e-324c-b4f5-ed39b1b258b0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /Jpqib02c, ws-headers: {Host: hkec09.8aihpger.xyz}}
+  - {name: 🇨🇳 CN_30 10M, server: cm-jm.okvpn.cc, port: 20002, type: vmess, uuid: 94a60d56-10ee-4796-a072-25fc8d9a52b8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+  - {name: 🇭🇰 9.8M hm|中国香港/中国台湾(CN)China/Guangzhou/) 4, server: cm-jm.okvpn.cc, port: 20001, type: vmess, uuid: 94a60d56-10ee-4796-a072-25fc8d9a52b8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+  - {name: 🇯🇵 日本m02-https://bit.ly/3uWuS7a 9.4M, server: soolos.com, port: 51812, type: vmess, uuid: 93383ce7-fa32-31e3-a19f-3043c1e47d92, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: soolos.com}}
   - {name: 🇨🇳 台湾m01-https://bit.ly/3 9MJ76, server: soolos.com, port: 51816, type: vmess, uuid: 93383ce7-fa32-31e3-a19f-3043c1e47d92, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: soolos.com}}
-  - {name: 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 45267, type: vmess, uuid: a076dc92-8e3f-4ad9-f93e-276562007d93, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: transit-azure-f4s-hk.speedtestcustom.tk}}
-  - {name: 🇯🇵 日本m02-https://bit.ly/3uWuS7a, server: soolos.com, port: 51812, type: vmess, uuid: 93383ce7-fa32-31e3-a19f-3043c1e47d92, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: soolos.com}}
-  - {name: 🇺🇸 us.New York-14@1Gbps节8M J88, server: 104.16.125.142, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: 🇺🇸 us.New York-31 满 足7.9M, server: 104.17.192.104, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: 🇺🇸 https://bit.ly/3uWuS7a  7MJ73, server: jpaz1-1-1.biteb.xyz, port: 54005, type: vmess, uuid: eadcd39f-6804-3b8b-9943-65df7198a553, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: index, ws-headers: {Host: jpaz1-1-1.biteb.xyz}}
-  - {name: 🇸🇬 美国-19@1Gbps节点更新6.4MJ26, server: 104.17.192.104, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇺🇸 美国-New York-22移动@1Gbp7MJ61, server: 104.16.200.206, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇸🇬 美国-24@1Gbps节点更新7.5MJ34, server: 104.17.192.104, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇺🇸 us.New York-30满足20 7.2MJ52, server: 104.17.192.104, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: 🇺🇸 美国-New York-24@1Gbps节点7.4M, server: 104.16.200.206, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇺🇸 美国-New York-21联通@1Gbps 节7.2M, server: 104.16.9.233, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇺🇸 美国-28@1Gbps节6MJ48, server: 104.16.148.48, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇸🇬 美国-26@1Gbps节点更新J70, server: 104.16.182.15, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇺🇸 美国-New York-30满足5MJ54, server: 104.16.125.226, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇺🇸 美国-35 联通100M+4K 7.2M J50, server: 104.17.36.178, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75, server: a.cswtw.xyz, port: 29588, type: vmess, uuid: d90a47fd-071e-324c-b4f5-ed39b1b258b0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /Jpqib02c, ws-headers: {Host: hkec09.8aihpger.xyz}}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_795  8M, server: cm-jm.okvpn.cc, port: 20001, type: vmess, uuid: 94a60d56-10ee-4796-a072-25fc8d9a52b8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+  - {name: 🇭🇰 香港7-https://bit.ly/3uWuS7 9MJ71, server: 16.162.103.183, port: 443, type: vmess, uuid: 49f7c16f-1607-4dd3-8d53-878d682fb406, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 16.162.103.183}}
+  - {name: 🇺🇸 美国-13@1Gbps节4MJ57, server: 104.27.119.85, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: 🇭🇰 香港 5.5M  2, server: cm-jm.okvpn.cc, port: 20002, type: vmess, uuid: 94a60d56-10ee-4796-a072-25fc8d9a52b8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+  - {name: 🇺🇸 US 🇺🇸 Bend 4  5.3M, server: 45.43.14.75, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 🇺🇸 g-美国赛基诺州立大学4.9M  20, server: 104.27.119.85, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
+  - {name: 🇺🇸 4.9M|美国(US)USA/San Francisco J1, server: 104.16.110.238, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
+  - {name: 🇺🇸 4.9M J2|美国(US)USA/San Francisco, server: 104.16.207.196, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
+  - {name: 🇺🇸 美国 12 4.8M, server: els.jklist.ga, port: 2095, type: vmess, uuid: 5cf2ecb0-9165-4760-8e8a-381ce547a6ef, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: els.jklist.ga}}
+  - {name: 🇮🇪 爱尔兰(f)4.8M, server: 99uu.wtf, port: 443, type: vmess, uuid: 8f91b6a0-e8ee-11ea-adc1-0242ac120020, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /8f91b6a0-e8ee-11ea-adc1-0242ac120020-vmess, ws-headers: {Host: holy-pond-f89c.yhdnwm.workers.dev}}
+  - {name: Y14-jp-25 4.8M, server: 104.16.200.206, port: 443, type: vmess, uuid: 14b428e2-aff5-4636-9b4b-af11c8dcde0e, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: jp-01.yinriver.top}}
+  - {name: 🇺🇸 4.8M J6美国(US)USA/San Francisco, server: 104.17.36.178, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
+  - {name: 🇺🇸 4.8M J5|美国(US)USA/Los Angeles, server: 89.187.187.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 4.8m J4|美国(US)USA/San Francisco, server: 104.18.27.64, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
+  - {name: 🇺🇸 4.8M J3|美国(US)USA/San Francisco, server: 104.18.135.208, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
+  - {name: 🇺🇸 4.7M J7|美国(US)USA/San Francisco, server: 104.16.111.72, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
+  - {name: 🇮🇹 g-意大利  16  4.6M, server: 212.102.44.83, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 Pool_🇺🇸US_1630 4.6M, server: 212.102.40.83, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 4.6M J9|美国(US)USA/San Francisco, server: 104.20.130.175, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
+  - {name: 🇺🇸 4.6M J10|美国(US)USA/San Jose, server: 54.183.244.5, port: 80, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
+  - {name: f 25, server: 104.22.4.180, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 4.5M J12|美国(US)USA/San Francisco, server: 104.18.8.157, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
+  - {name: 🇺🇸 4.5M J11|美国(US)USA/San Francisco, server: 104.25.104.240, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
+  - {name: 🇺🇸 美国 57, server: 212.102.40.83, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇺🇸 g-美国CloudFlare公司CDN节点 52 4.4M, server: 104.16.200.206, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
   - {name: 🇸🇬 美国-5@1Gbps节点更新6MJ39, server: www.garmin.com, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71, server: 16.162.103.183, port: 443, type: vmess, uuid: 49f7c16f-1607-4dd3-8d53-878d682fb406, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 16.162.103.183}}
-  - {name: 🇺🇸 美国-New York-6@1Gbps节6MJ68, server: 104.19.206.153, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇺🇸 美国-New York-34 联通6.2M, server: 104.16.200.206, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇺🇸 美国-New York-9@1Gbps节6.3MJ94, server: 104.16.9.233, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.17.192.104, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s, server: 104.16.167.138, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇺🇸 us.New York-11@1Gbps节6.4M J104, server: 104.16.200.206, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: 🇺🇸 美国-30满足207MJ53, server: 104.19.206.153, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 79.110.54.117:35294  6M, server: 79.110.54.117, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69, server: www.digitalocean.com, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 208.78.41.197:33992 5.8M, server: 208.78.41.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国-18@1Gbps节点更5.6MJ33, server: 104.16.200.206, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇺🇸 美国-New York-11@1Gbps节点6MJ41, server: 104.16.200.206, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇸🇬 美国-2@1Gbps节点更新https  7MJ25, server: 104.16.9.233, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 193.29.106.109:31572, server: 193.29.106.109, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 45.43.14.75:50695   5.2M, server: 45.43.14.75, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: 🇺🇸 美国-13@1Gbps节4MJ57, server: 104.16.125.43, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 89.238.130.251:39772  4.6M, server: 89.238.130.251, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 104.244.208.203:43893  4.5M, server: 104.244.208.203, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 45.43.14.75:31944   4.5M, server: 45.43.14.75, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 37.19.220.194:31572  4.4M, server: 37.19.220.194, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 104.244.208.203:33992  4.1M, server: 104.244.208.203, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 185.76.9.44:33998   3.9M, server: 185.76.9.44, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 104.244.208.203:31944   3.7M, server: 104.244.208.203, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66, server: 104.16.148.27, port: 2082, type: vmess, uuid: ed47a606-0bb2-32d0-8cac-7a8f84cf9763, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /5hfgf/5hg, ws-headers: {Host: ru-1.sb-cloud.cf}}
-  - {name: 185.108.106.152:46642   3.4M, server: 185.108.106.152, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 138.199.19.186:39772  3.1M, server: 138.199.19.186, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇯🇵 SK日本 AA, server: 54.250.162.213, port: 4939, type: vmess, uuid: 844ea544-e5ca-3200-91af-876c4da6dcb0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
+  - {name: sg-OVH Hosting-12@1Gbps节点4.4M J17, server: 104.20.130.175, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
+  - {name: 🇺🇸 4.4M J16|美国(US)USA/Flushing, server: 104.244.208.213, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇺🇸 4.4M J15|美国(US)USA/San Francisco, server: 104.16.181.15, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
+  - {name: 🇺🇸 4.4M J14|美国(US)USA/San Francisco, server: www.digitalocean.com, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
+  - {name: 🇺🇸 YouTube晓柒科技分享801：美国4.4M, server: us08.xqkj.cloud, port: 1118, type: vmess, uuid: 60b3569d-d9c3-447b-bdc4-2c33fecca53c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us08.xqkj.cloud}}
+  - {name: 🇺🇸 US 🇺🇸 Bend 4, server: 45.43.14.75, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇷🇴 Pool_🇷🇴RO_1428, server: 194.37.98.211, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Pool_🇮🇹IT_1232, server: 217.138.219.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Pool__363, server: 45.43.14.75, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: f 6, server: 104.22.3.3, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: f 4, server: 104.20.130.43, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 4.3MJ13|美国(US)USA/San Francisco, server: 52.53.159.192, port: 80, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 罗马(f), server: 193.29.106.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(gg), server: 104.17.36.178, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 美国w 23, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
+  - {name: 🇺🇸 g-美国CloudFlare公司CDN节点 35, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇷🇴 Pool_🇷🇴RO_1420, server: 194.37.96.213, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Pool_🇨🇭CH_729, server: 37.120.213.3, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: 🇧🇪 Pool_🇧🇪BE_703, server: 185.232.21.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: Pool__359, server: 104.244.208.203, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: Pool__245, server: 104.244.208.203, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: f 16, server: 104.16.207.196, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 4.2MJ12|美国(US)USA/San Francisco, server: 104.16.182.15, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
+  - {name: 🇺🇸 hm|美国(US)USA/Chicago 19, server: 104.16.110.238, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇷🇴 g-罗马尼亚  15, server: 194.37.96.211, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: 🇺🇸 Pool_🇺🇸US_1658, server: 66.115.182.74, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇺🇸 Pool_🇺🇸US_1591, server: 104.244.211.179, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 Pool_🇺🇸US_1528, server: 212.102.44.98, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: Pool__594, server: 212.102.44.98, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: Pool__447, server: 217.138.220.163, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸 YouTube晓柒科技分享811：美国4M, server: us04.xqkj.cloud, port: 1114, type: vmess, uuid: 60b3569d-d9c3-447b-bdc4-2c33fecca53c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us04.xqkj.cloud}}
+  - {name: 🇺🇸 YouTube晓柒科技分享812：美国4M, server: us07.xqkj.cloud, port: 1117, type: vmess, uuid: 60b3569d-d9c3-447b-bdc4-2c33fecca53c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us07.xqkj.cloud}}
+  - {name: 🇺🇸 YouTube晓柒科技分享813：美国4M, server: us09.xqkj.cloud, port: 1119, type: vmess, uuid: 60b3569d-d9c3-447b-bdc4-2c33fecca53c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us09.xqkj.cloud}}
+  - {name: 🇺🇸 YouTube晓柒科技分享814：美国4M, server: us22.xqkj.cloud, port: 1122, type: vmess, uuid: 60b3569d-d9c3-447b-bdc4-2c33fecca53c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us22.xqkj.cloud}}
+  - {name: 🇺🇸 YouTube晓柒科技分享815：美国4M, server: us24.xqkj.cloud, port: 1124, type: vmess, uuid: 60b3569d-d9c3-447b-bdc4-2c33fecca53c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us24.xqkj.cloud}}
+  - {name: 🇨🇦 YouTube晓柒科技分享816：加拿大4M, server: jnd06.xqkj.cloud, port: 1611, type: vmess, uuid: ee947ec2-312d-4aa6-bd15-1ff32b8e6d37, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jnd06.xqkj.cloud}}
+  - {name: 🇺🇸 美国(g) 8  4M, server: 172.67.223.77, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国-15@1Gbps节点更6MJ60
-      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇨🇳 CN_30 10M
+      - 🇭🇰 9.8M hm|中国香港/中国台湾(CN)China/Guangzhou/) 4
+      - 🇯🇵 日本m02-https://bit.ly/3uWuS7a 9.4M
       - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
-      - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
-      - 🇯🇵 日本m02-https://bit.ly/3uWuS7a
-      - 🇺🇸 us.New York-14@1Gbps节8M J88
-      - 🇺🇸 us.New York-31 满 足7.9M
-      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
-      - 🇸🇬 美国-19@1Gbps节点更新6.4MJ26
-      - 🇺🇸 美国-New York-22移动@1Gbp7MJ61
-      - 🇸🇬 美国-24@1Gbps节点更新7.5MJ34
-      - 🇺🇸 us.New York-30满足20 7.2MJ52
-      - 🇺🇸 美国-New York-24@1Gbps节点7.4M
-      - 🇺🇸 美国-New York-21联通@1Gbps 节7.2M
-      - 🇺🇸 美国-28@1Gbps节6MJ48
-      - 🇸🇬 美国-26@1Gbps节点更新J70
-      - 🇺🇸 美国-New York-30满足5MJ54
-      - 🇺🇸 美国-35 联通100M+4K 7.2M J50
-      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
-      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
-      - 🇺🇸 美国-New York-6@1Gbps节6MJ68
-      - 🇺🇸 美国-New York-34 联通6.2M
-      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
-      - 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 us.New York-11@1Gbps节6.4M J104
-      - 🇺🇸 美国-30满足207MJ53
-      - 79.110.54.117:35294  6M
-      - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
-      - 208.78.41.197:33992 5.8M
-      - 🇺🇸 美国-18@1Gbps节点更5.6MJ33
-      - 🇺🇸 美国-New York-11@1Gbps节点6MJ41
-      - 🇸🇬 美国-2@1Gbps节点更新https  7MJ25
-      - 193.29.106.109:31572
-      - 45.43.14.75:50695   5.2M
+      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_795  8M
+      - 🇭🇰 香港7-https://bit.ly/3uWuS7 9MJ71
       - 🇺🇸 美国-13@1Gbps节4MJ57
-      - 89.238.130.251:39772  4.6M
-      - 104.244.208.203:43893  4.5M
-      - 45.43.14.75:31944   4.5M
-      - 37.19.220.194:31572  4.4M
-      - 104.244.208.203:33992  4.1M
-      - 185.76.9.44:33998   3.9M
-      - 104.244.208.203:31944   3.7M
-      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
-      - 185.108.106.152:46642   3.4M
-      - 138.199.19.186:39772  3.1M
-      - 🇯🇵 SK日本 AA
+      - 🇭🇰 香港 5.5M  2
+      - 🇺🇸 US 🇺🇸 Bend 4  5.3M
+      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
+      - 🇺🇸 4.9M|美国(US)USA/San Francisco J1
+      - 🇺🇸 4.9M J2|美国(US)USA/San Francisco
+      - 🇺🇸 美国 12 4.8M
+      - 🇮🇪 爱尔兰(f)4.8M
+      - Y14-jp-25 4.8M
+      - 🇺🇸 4.8M J6美国(US)USA/San Francisco
+      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
+      - 🇺🇸 4.8m J4|美国(US)USA/San Francisco
+      - 🇺🇸 4.8M J3|美国(US)USA/San Francisco
+      - 🇺🇸 4.7M J7|美国(US)USA/San Francisco
+      - 🇮🇹 g-意大利  16  4.6M
+      - 🇺🇸 Pool_🇺🇸US_1630 4.6M
+      - 🇺🇸 4.6M J9|美国(US)USA/San Francisco
+      - 🇺🇸 4.6M J10|美国(US)USA/San Jose
+      - f 25
+      - 🇺🇸 4.5M J12|美国(US)USA/San Francisco
+      - 🇺🇸 4.5M J11|美国(US)USA/San Francisco
+      - 🇺🇸 美国 57
+      - 🇺🇸 g-美国CloudFlare公司CDN节点 52 4.4M
+      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
+      - sg-OVH Hosting-12@1Gbps节点4.4M J17
+      - 🇺🇸 4.4M J16|美国(US)USA/Flushing
+      - 🇺🇸 4.4M J15|美国(US)USA/San Francisco
+      - 🇺🇸 4.4M J14|美国(US)USA/San Francisco
+      - 🇺🇸 YouTube晓柒科技分享801：美国4.4M
+      - 🇺🇸 US 🇺🇸 Bend 4
+      - 🇷🇴 Pool_🇷🇴RO_1428
+      - Pool_🇮🇹IT_1232
+      - Pool__363
+      - f 6
+      - f 4
+      - 🇺🇸 4.3MJ13|美国(US)USA/San Francisco
+      - 罗马(f)
+      - 🇺🇸 美国(gg)
+      - 🇺🇸 美国w 23
+      - 🇺🇸 g-美国CloudFlare公司CDN节点 35
+      - 🇷🇴 Pool_🇷🇴RO_1420
+      - Pool_🇨🇭CH_729
+      - 🇧🇪 Pool_🇧🇪BE_703
+      - Pool__359
+      - Pool__245
+      - f 16
+      - 🇺🇸 4.2MJ12|美国(US)USA/San Francisco
+      - 🇺🇸 hm|美国(US)USA/Chicago 19
+      - 🇷🇴 g-罗马尼亚  15
+      - 🇺🇸 Pool_🇺🇸US_1658
+      - 🇺🇸 Pool_🇺🇸US_1591
+      - 🇺🇸 Pool_🇺🇸US_1528
+      - Pool__594
+      - Pool__447
+      - 🇺🇸 YouTube晓柒科技分享811：美国4M
+      - 🇺🇸 YouTube晓柒科技分享812：美国4M
+      - 🇺🇸 YouTube晓柒科技分享813：美国4M
+      - 🇺🇸 YouTube晓柒科技分享814：美国4M
+      - 🇺🇸 YouTube晓柒科技分享815：美国4M
+      - 🇨🇦 YouTube晓柒科技分享816：加拿大4M
+      - 🇺🇸 美国(g) 8  4M
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国-15@1Gbps节点更6MJ60
-      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇨🇳 CN_30 10M
+      - 🇭🇰 9.8M hm|中国香港/中国台湾(CN)China/Guangzhou/) 4
+      - 🇯🇵 日本m02-https://bit.ly/3uWuS7a 9.4M
       - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
-      - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
-      - 🇯🇵 日本m02-https://bit.ly/3uWuS7a
-      - 🇺🇸 us.New York-14@1Gbps节8M J88
-      - 🇺🇸 us.New York-31 满 足7.9M
-      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
-      - 🇸🇬 美国-19@1Gbps节点更新6.4MJ26
-      - 🇺🇸 美国-New York-22移动@1Gbp7MJ61
-      - 🇸🇬 美国-24@1Gbps节点更新7.5MJ34
-      - 🇺🇸 us.New York-30满足20 7.2MJ52
-      - 🇺🇸 美国-New York-24@1Gbps节点7.4M
-      - 🇺🇸 美国-New York-21联通@1Gbps 节7.2M
-      - 🇺🇸 美国-28@1Gbps节6MJ48
-      - 🇸🇬 美国-26@1Gbps节点更新J70
-      - 🇺🇸 美国-New York-30满足5MJ54
-      - 🇺🇸 美国-35 联通100M+4K 7.2M J50
-      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
-      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
-      - 🇺🇸 美国-New York-6@1Gbps节6MJ68
-      - 🇺🇸 美国-New York-34 联通6.2M
-      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
-      - 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 us.New York-11@1Gbps节6.4M J104
-      - 🇺🇸 美国-30满足207MJ53
-      - 79.110.54.117:35294  6M
-      - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
-      - 208.78.41.197:33992 5.8M
-      - 🇺🇸 美国-18@1Gbps节点更5.6MJ33
-      - 🇺🇸 美国-New York-11@1Gbps节点6MJ41
-      - 🇸🇬 美国-2@1Gbps节点更新https  7MJ25
-      - 193.29.106.109:31572
-      - 45.43.14.75:50695   5.2M
+      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_795  8M
+      - 🇭🇰 香港7-https://bit.ly/3uWuS7 9MJ71
       - 🇺🇸 美国-13@1Gbps节4MJ57
-      - 89.238.130.251:39772  4.6M
-      - 104.244.208.203:43893  4.5M
-      - 45.43.14.75:31944   4.5M
-      - 37.19.220.194:31572  4.4M
-      - 104.244.208.203:33992  4.1M
-      - 185.76.9.44:33998   3.9M
-      - 104.244.208.203:31944   3.7M
-      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
-      - 185.108.106.152:46642   3.4M
-      - 138.199.19.186:39772  3.1M
-      - 🇯🇵 SK日本 AA
+      - 🇭🇰 香港 5.5M  2
+      - 🇺🇸 US 🇺🇸 Bend 4  5.3M
+      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
+      - 🇺🇸 4.9M|美国(US)USA/San Francisco J1
+      - 🇺🇸 4.9M J2|美国(US)USA/San Francisco
+      - 🇺🇸 美国 12 4.8M
+      - 🇮🇪 爱尔兰(f)4.8M
+      - Y14-jp-25 4.8M
+      - 🇺🇸 4.8M J6美国(US)USA/San Francisco
+      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
+      - 🇺🇸 4.8m J4|美国(US)USA/San Francisco
+      - 🇺🇸 4.8M J3|美国(US)USA/San Francisco
+      - 🇺🇸 4.7M J7|美国(US)USA/San Francisco
+      - 🇮🇹 g-意大利  16  4.6M
+      - 🇺🇸 Pool_🇺🇸US_1630 4.6M
+      - 🇺🇸 4.6M J9|美国(US)USA/San Francisco
+      - 🇺🇸 4.6M J10|美国(US)USA/San Jose
+      - f 25
+      - 🇺🇸 4.5M J12|美国(US)USA/San Francisco
+      - 🇺🇸 4.5M J11|美国(US)USA/San Francisco
+      - 🇺🇸 美国 57
+      - 🇺🇸 g-美国CloudFlare公司CDN节点 52 4.4M
+      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
+      - sg-OVH Hosting-12@1Gbps节点4.4M J17
+      - 🇺🇸 4.4M J16|美国(US)USA/Flushing
+      - 🇺🇸 4.4M J15|美国(US)USA/San Francisco
+      - 🇺🇸 4.4M J14|美国(US)USA/San Francisco
+      - 🇺🇸 YouTube晓柒科技分享801：美国4.4M
+      - 🇺🇸 US 🇺🇸 Bend 4
+      - 🇷🇴 Pool_🇷🇴RO_1428
+      - Pool_🇮🇹IT_1232
+      - Pool__363
+      - f 6
+      - f 4
+      - 🇺🇸 4.3MJ13|美国(US)USA/San Francisco
+      - 罗马(f)
+      - 🇺🇸 美国(gg)
+      - 🇺🇸 美国w 23
+      - 🇺🇸 g-美国CloudFlare公司CDN节点 35
+      - 🇷🇴 Pool_🇷🇴RO_1420
+      - Pool_🇨🇭CH_729
+      - 🇧🇪 Pool_🇧🇪BE_703
+      - Pool__359
+      - Pool__245
+      - f 16
+      - 🇺🇸 4.2MJ12|美国(US)USA/San Francisco
+      - 🇺🇸 hm|美国(US)USA/Chicago 19
+      - 🇷🇴 g-罗马尼亚  15
+      - 🇺🇸 Pool_🇺🇸US_1658
+      - 🇺🇸 Pool_🇺🇸US_1591
+      - 🇺🇸 Pool_🇺🇸US_1528
+      - Pool__594
+      - Pool__447
+      - 🇺🇸 YouTube晓柒科技分享811：美国4M
+      - 🇺🇸 YouTube晓柒科技分享812：美国4M
+      - 🇺🇸 YouTube晓柒科技分享813：美国4M
+      - 🇺🇸 YouTube晓柒科技分享814：美国4M
+      - 🇺🇸 YouTube晓柒科技分享815：美国4M
+      - 🇨🇦 YouTube晓柒科技分享816：加拿大4M
+      - 🇺🇸 美国(g) 8  4M
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国-15@1Gbps节点更6MJ60
-      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇨🇳 CN_30 10M
+      - 🇭🇰 9.8M hm|中国香港/中国台湾(CN)China/Guangzhou/) 4
+      - 🇯🇵 日本m02-https://bit.ly/3uWuS7a 9.4M
       - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
-      - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
-      - 🇯🇵 日本m02-https://bit.ly/3uWuS7a
-      - 🇺🇸 us.New York-14@1Gbps节8M J88
-      - 🇺🇸 us.New York-31 满 足7.9M
-      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
-      - 🇸🇬 美国-19@1Gbps节点更新6.4MJ26
-      - 🇺🇸 美国-New York-22移动@1Gbp7MJ61
-      - 🇸🇬 美国-24@1Gbps节点更新7.5MJ34
-      - 🇺🇸 us.New York-30满足20 7.2MJ52
-      - 🇺🇸 美国-New York-24@1Gbps节点7.4M
-      - 🇺🇸 美国-New York-21联通@1Gbps 节7.2M
-      - 🇺🇸 美国-28@1Gbps节6MJ48
-      - 🇸🇬 美国-26@1Gbps节点更新J70
-      - 🇺🇸 美国-New York-30满足5MJ54
-      - 🇺🇸 美国-35 联通100M+4K 7.2M J50
-      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
-      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
-      - 🇺🇸 美国-New York-6@1Gbps节6MJ68
-      - 🇺🇸 美国-New York-34 联通6.2M
-      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
-      - 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 us.New York-11@1Gbps节6.4M J104
-      - 🇺🇸 美国-30满足207MJ53
-      - 79.110.54.117:35294  6M
-      - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
-      - 208.78.41.197:33992 5.8M
-      - 🇺🇸 美国-18@1Gbps节点更5.6MJ33
-      - 🇺🇸 美国-New York-11@1Gbps节点6MJ41
-      - 🇸🇬 美国-2@1Gbps节点更新https  7MJ25
-      - 193.29.106.109:31572
-      - 45.43.14.75:50695   5.2M
+      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_795  8M
+      - 🇭🇰 香港7-https://bit.ly/3uWuS7 9MJ71
       - 🇺🇸 美国-13@1Gbps节4MJ57
-      - 89.238.130.251:39772  4.6M
-      - 104.244.208.203:43893  4.5M
-      - 45.43.14.75:31944   4.5M
-      - 37.19.220.194:31572  4.4M
-      - 104.244.208.203:33992  4.1M
-      - 185.76.9.44:33998   3.9M
-      - 104.244.208.203:31944   3.7M
-      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
-      - 185.108.106.152:46642   3.4M
-      - 138.199.19.186:39772  3.1M
-      - 🇯🇵 SK日本 AA
+      - 🇭🇰 香港 5.5M  2
+      - 🇺🇸 US 🇺🇸 Bend 4  5.3M
+      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
+      - 🇺🇸 4.9M|美国(US)USA/San Francisco J1
+      - 🇺🇸 4.9M J2|美国(US)USA/San Francisco
+      - 🇺🇸 美国 12 4.8M
+      - 🇮🇪 爱尔兰(f)4.8M
+      - Y14-jp-25 4.8M
+      - 🇺🇸 4.8M J6美国(US)USA/San Francisco
+      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
+      - 🇺🇸 4.8m J4|美国(US)USA/San Francisco
+      - 🇺🇸 4.8M J3|美国(US)USA/San Francisco
+      - 🇺🇸 4.7M J7|美国(US)USA/San Francisco
+      - 🇮🇹 g-意大利  16  4.6M
+      - 🇺🇸 Pool_🇺🇸US_1630 4.6M
+      - 🇺🇸 4.6M J9|美国(US)USA/San Francisco
+      - 🇺🇸 4.6M J10|美国(US)USA/San Jose
+      - f 25
+      - 🇺🇸 4.5M J12|美国(US)USA/San Francisco
+      - 🇺🇸 4.5M J11|美国(US)USA/San Francisco
+      - 🇺🇸 美国 57
+      - 🇺🇸 g-美国CloudFlare公司CDN节点 52 4.4M
+      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
+      - sg-OVH Hosting-12@1Gbps节点4.4M J17
+      - 🇺🇸 4.4M J16|美国(US)USA/Flushing
+      - 🇺🇸 4.4M J15|美国(US)USA/San Francisco
+      - 🇺🇸 4.4M J14|美国(US)USA/San Francisco
+      - 🇺🇸 YouTube晓柒科技分享801：美国4.4M
+      - 🇺🇸 US 🇺🇸 Bend 4
+      - 🇷🇴 Pool_🇷🇴RO_1428
+      - Pool_🇮🇹IT_1232
+      - Pool__363
+      - f 6
+      - f 4
+      - 🇺🇸 4.3MJ13|美国(US)USA/San Francisco
+      - 罗马(f)
+      - 🇺🇸 美国(gg)
+      - 🇺🇸 美国w 23
+      - 🇺🇸 g-美国CloudFlare公司CDN节点 35
+      - 🇷🇴 Pool_🇷🇴RO_1420
+      - Pool_🇨🇭CH_729
+      - 🇧🇪 Pool_🇧🇪BE_703
+      - Pool__359
+      - Pool__245
+      - f 16
+      - 🇺🇸 4.2MJ12|美国(US)USA/San Francisco
+      - 🇺🇸 hm|美国(US)USA/Chicago 19
+      - 🇷🇴 g-罗马尼亚  15
+      - 🇺🇸 Pool_🇺🇸US_1658
+      - 🇺🇸 Pool_🇺🇸US_1591
+      - 🇺🇸 Pool_🇺🇸US_1528
+      - Pool__594
+      - Pool__447
+      - 🇺🇸 YouTube晓柒科技分享811：美国4M
+      - 🇺🇸 YouTube晓柒科技分享812：美国4M
+      - 🇺🇸 YouTube晓柒科技分享813：美国4M
+      - 🇺🇸 YouTube晓柒科技分享814：美国4M
+      - 🇺🇸 YouTube晓柒科技分享815：美国4M
+      - 🇨🇦 YouTube晓柒科技分享816：加拿大4M
+      - 🇺🇸 美国(g) 8  4M
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇭🇰 9.8M hm|中国香港/中国台湾(CN)China/Guangzhou/) 4
       - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
-      - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
-      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
+      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇭🇰 香港7-https://bit.ly/3uWuS7 9MJ71
+      - 🇭🇰 香港 5.5M  2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国-15@1Gbps节点更6MJ60
-      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇨🇳 CN_30 10M
+      - 🇭🇰 9.8M hm|中国香港/中国台湾(CN)China/Guangzhou/) 4
+      - 🇯🇵 日本m02-https://bit.ly/3uWuS7a 9.4M
       - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
-      - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
-      - 🇯🇵 日本m02-https://bit.ly/3uWuS7a
-      - 🇺🇸 us.New York-14@1Gbps节8M J88
-      - 🇺🇸 us.New York-31 满 足7.9M
-      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
-      - 🇸🇬 美国-19@1Gbps节点更新6.4MJ26
-      - 🇺🇸 美国-New York-22移动@1Gbp7MJ61
-      - 🇸🇬 美国-24@1Gbps节点更新7.5MJ34
-      - 🇺🇸 us.New York-30满足20 7.2MJ52
-      - 🇺🇸 美国-New York-24@1Gbps节点7.4M
-      - 🇺🇸 美国-New York-21联通@1Gbps 节7.2M
-      - 🇺🇸 美国-28@1Gbps节6MJ48
-      - 🇸🇬 美国-26@1Gbps节点更新J70
-      - 🇺🇸 美国-New York-30满足5MJ54
-      - 🇺🇸 美国-35 联通100M+4K 7.2M J50
-      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
-      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
-      - 🇺🇸 美国-New York-6@1Gbps节6MJ68
-      - 🇺🇸 美国-New York-34 联通6.2M
-      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
-      - 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 us.New York-11@1Gbps节6.4M J104
-      - 🇺🇸 美国-30满足207MJ53
-      - 79.110.54.117:35294  6M
-      - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
-      - 208.78.41.197:33992 5.8M
-      - 🇺🇸 美国-18@1Gbps节点更5.6MJ33
-      - 🇺🇸 美国-New York-11@1Gbps节点6MJ41
-      - 🇸🇬 美国-2@1Gbps节点更新https  7MJ25
-      - 193.29.106.109:31572
-      - 45.43.14.75:50695   5.2M
+      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_795  8M
+      - 🇭🇰 香港7-https://bit.ly/3uWuS7 9MJ71
       - 🇺🇸 美国-13@1Gbps节4MJ57
-      - 89.238.130.251:39772  4.6M
-      - 104.244.208.203:43893  4.5M
-      - 45.43.14.75:31944   4.5M
-      - 37.19.220.194:31572  4.4M
-      - 104.244.208.203:33992  4.1M
-      - 185.76.9.44:33998   3.9M
-      - 104.244.208.203:31944   3.7M
-      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
-      - 185.108.106.152:46642   3.4M
-      - 138.199.19.186:39772  3.1M
-      - 🇯🇵 SK日本 AA
+      - 🇭🇰 香港 5.5M  2
+      - 🇺🇸 US 🇺🇸 Bend 4  5.3M
+      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
+      - 🇺🇸 4.9M|美国(US)USA/San Francisco J1
+      - 🇺🇸 4.9M J2|美国(US)USA/San Francisco
+      - 🇺🇸 美国 12 4.8M
+      - 🇮🇪 爱尔兰(f)4.8M
+      - Y14-jp-25 4.8M
+      - 🇺🇸 4.8M J6美国(US)USA/San Francisco
+      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
+      - 🇺🇸 4.8m J4|美国(US)USA/San Francisco
+      - 🇺🇸 4.8M J3|美国(US)USA/San Francisco
+      - 🇺🇸 4.7M J7|美国(US)USA/San Francisco
+      - 🇮🇹 g-意大利  16  4.6M
+      - 🇺🇸 Pool_🇺🇸US_1630 4.6M
+      - 🇺🇸 4.6M J9|美国(US)USA/San Francisco
+      - 🇺🇸 4.6M J10|美国(US)USA/San Jose
+      - f 25
+      - 🇺🇸 4.5M J12|美国(US)USA/San Francisco
+      - 🇺🇸 4.5M J11|美国(US)USA/San Francisco
+      - 🇺🇸 美国 57
+      - 🇺🇸 g-美国CloudFlare公司CDN节点 52 4.4M
+      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
+      - sg-OVH Hosting-12@1Gbps节点4.4M J17
+      - 🇺🇸 4.4M J16|美国(US)USA/Flushing
+      - 🇺🇸 4.4M J15|美国(US)USA/San Francisco
+      - 🇺🇸 4.4M J14|美国(US)USA/San Francisco
+      - 🇺🇸 YouTube晓柒科技分享801：美国4.4M
+      - 🇺🇸 US 🇺🇸 Bend 4
+      - 🇷🇴 Pool_🇷🇴RO_1428
+      - Pool_🇮🇹IT_1232
+      - Pool__363
+      - f 6
+      - f 4
+      - 🇺🇸 4.3MJ13|美国(US)USA/San Francisco
+      - 罗马(f)
+      - 🇺🇸 美国(gg)
+      - 🇺🇸 美国w 23
+      - 🇺🇸 g-美国CloudFlare公司CDN节点 35
+      - 🇷🇴 Pool_🇷🇴RO_1420
+      - Pool_🇨🇭CH_729
+      - 🇧🇪 Pool_🇧🇪BE_703
+      - Pool__359
+      - Pool__245
+      - f 16
+      - 🇺🇸 4.2MJ12|美国(US)USA/San Francisco
+      - 🇺🇸 hm|美国(US)USA/Chicago 19
+      - 🇷🇴 g-罗马尼亚  15
+      - 🇺🇸 Pool_🇺🇸US_1658
+      - 🇺🇸 Pool_🇺🇸US_1591
+      - 🇺🇸 Pool_🇺🇸US_1528
+      - Pool__594
+      - Pool__447
+      - 🇺🇸 YouTube晓柒科技分享811：美国4M
+      - 🇺🇸 YouTube晓柒科技分享812：美国4M
+      - 🇺🇸 YouTube晓柒科技分享813：美国4M
+      - 🇺🇸 YouTube晓柒科技分享814：美国4M
+      - 🇺🇸 YouTube晓柒科技分享815：美国4M
+      - 🇨🇦 YouTube晓柒科技分享816：加拿大4M
+      - 🇺🇸 美国(g) 8  4M
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国-15@1Gbps节点更6MJ60
-      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇨🇳 CN_30 10M
+      - 🇭🇰 9.8M hm|中国香港/中国台湾(CN)China/Guangzhou/) 4
+      - 🇯🇵 日本m02-https://bit.ly/3uWuS7a 9.4M
       - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
-      - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
-      - 🇯🇵 日本m02-https://bit.ly/3uWuS7a
-      - 🇺🇸 us.New York-14@1Gbps节8M J88
-      - 🇺🇸 us.New York-31 满 足7.9M
-      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
-      - 🇸🇬 美国-19@1Gbps节点更新6.4MJ26
-      - 🇺🇸 美国-New York-22移动@1Gbp7MJ61
-      - 🇸🇬 美国-24@1Gbps节点更新7.5MJ34
-      - 🇺🇸 us.New York-30满足20 7.2MJ52
-      - 🇺🇸 美国-New York-24@1Gbps节点7.4M
-      - 🇺🇸 美国-New York-21联通@1Gbps 节7.2M
-      - 🇺🇸 美国-28@1Gbps节6MJ48
-      - 🇸🇬 美国-26@1Gbps节点更新J70
-      - 🇺🇸 美国-New York-30满足5MJ54
-      - 🇺🇸 美国-35 联通100M+4K 7.2M J50
-      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
-      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
-      - 🇺🇸 美国-New York-6@1Gbps节6MJ68
-      - 🇺🇸 美国-New York-34 联通6.2M
-      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
-      - 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 us.New York-11@1Gbps节6.4M J104
-      - 🇺🇸 美国-30满足207MJ53
-      - 79.110.54.117:35294  6M
-      - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
-      - 208.78.41.197:33992 5.8M
-      - 🇺🇸 美国-18@1Gbps节点更5.6MJ33
-      - 🇺🇸 美国-New York-11@1Gbps节点6MJ41
-      - 🇸🇬 美国-2@1Gbps节点更新https  7MJ25
-      - 193.29.106.109:31572
-      - 45.43.14.75:50695   5.2M
+      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_795  8M
+      - 🇭🇰 香港7-https://bit.ly/3uWuS7 9MJ71
       - 🇺🇸 美国-13@1Gbps节4MJ57
-      - 89.238.130.251:39772  4.6M
-      - 104.244.208.203:43893  4.5M
-      - 45.43.14.75:31944   4.5M
-      - 37.19.220.194:31572  4.4M
-      - 104.244.208.203:33992  4.1M
-      - 185.76.9.44:33998   3.9M
-      - 104.244.208.203:31944   3.7M
-      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
-      - 185.108.106.152:46642   3.4M
-      - 138.199.19.186:39772  3.1M
-      - 🇯🇵 SK日本 AA
+      - 🇭🇰 香港 5.5M  2
+      - 🇺🇸 US 🇺🇸 Bend 4  5.3M
+      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
+      - 🇺🇸 4.9M|美国(US)USA/San Francisco J1
+      - 🇺🇸 4.9M J2|美国(US)USA/San Francisco
+      - 🇺🇸 美国 12 4.8M
+      - 🇮🇪 爱尔兰(f)4.8M
+      - Y14-jp-25 4.8M
+      - 🇺🇸 4.8M J6美国(US)USA/San Francisco
+      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
+      - 🇺🇸 4.8m J4|美国(US)USA/San Francisco
+      - 🇺🇸 4.8M J3|美国(US)USA/San Francisco
+      - 🇺🇸 4.7M J7|美国(US)USA/San Francisco
+      - 🇮🇹 g-意大利  16  4.6M
+      - 🇺🇸 Pool_🇺🇸US_1630 4.6M
+      - 🇺🇸 4.6M J9|美国(US)USA/San Francisco
+      - 🇺🇸 4.6M J10|美国(US)USA/San Jose
+      - f 25
+      - 🇺🇸 4.5M J12|美国(US)USA/San Francisco
+      - 🇺🇸 4.5M J11|美国(US)USA/San Francisco
+      - 🇺🇸 美国 57
+      - 🇺🇸 g-美国CloudFlare公司CDN节点 52 4.4M
+      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
+      - sg-OVH Hosting-12@1Gbps节点4.4M J17
+      - 🇺🇸 4.4M J16|美国(US)USA/Flushing
+      - 🇺🇸 4.4M J15|美国(US)USA/San Francisco
+      - 🇺🇸 4.4M J14|美国(US)USA/San Francisco
+      - 🇺🇸 YouTube晓柒科技分享801：美国4.4M
+      - 🇺🇸 US 🇺🇸 Bend 4
+      - 🇷🇴 Pool_🇷🇴RO_1428
+      - Pool_🇮🇹IT_1232
+      - Pool__363
+      - f 6
+      - f 4
+      - 🇺🇸 4.3MJ13|美国(US)USA/San Francisco
+      - 罗马(f)
+      - 🇺🇸 美国(gg)
+      - 🇺🇸 美国w 23
+      - 🇺🇸 g-美国CloudFlare公司CDN节点 35
+      - 🇷🇴 Pool_🇷🇴RO_1420
+      - Pool_🇨🇭CH_729
+      - 🇧🇪 Pool_🇧🇪BE_703
+      - Pool__359
+      - Pool__245
+      - f 16
+      - 🇺🇸 4.2MJ12|美国(US)USA/San Francisco
+      - 🇺🇸 hm|美国(US)USA/Chicago 19
+      - 🇷🇴 g-罗马尼亚  15
+      - 🇺🇸 Pool_🇺🇸US_1658
+      - 🇺🇸 Pool_🇺🇸US_1591
+      - 🇺🇸 Pool_🇺🇸US_1528
+      - Pool__594
+      - Pool__447
+      - 🇺🇸 YouTube晓柒科技分享811：美国4M
+      - 🇺🇸 YouTube晓柒科技分享812：美国4M
+      - 🇺🇸 YouTube晓柒科技分享813：美国4M
+      - 🇺🇸 YouTube晓柒科技分享814：美国4M
+      - 🇺🇸 YouTube晓柒科技分享815：美国4M
+      - 🇨🇦 YouTube晓柒科技分享816：加拿大4M
+      - 🇺🇸 美国(g) 8  4M
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国-15@1Gbps节点更6MJ60
-      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇨🇳 CN_30 10M
+      - 🇭🇰 9.8M hm|中国香港/中国台湾(CN)China/Guangzhou/) 4
+      - 🇯🇵 日本m02-https://bit.ly/3uWuS7a 9.4M
       - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
-      - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
-      - 🇯🇵 日本m02-https://bit.ly/3uWuS7a
-      - 🇺🇸 us.New York-14@1Gbps节8M J88
-      - 🇺🇸 us.New York-31 满 足7.9M
-      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
-      - 🇸🇬 美国-19@1Gbps节点更新6.4MJ26
-      - 🇺🇸 美国-New York-22移动@1Gbp7MJ61
-      - 🇸🇬 美国-24@1Gbps节点更新7.5MJ34
-      - 🇺🇸 us.New York-30满足20 7.2MJ52
-      - 🇺🇸 美国-New York-24@1Gbps节点7.4M
-      - 🇺🇸 美国-New York-21联通@1Gbps 节7.2M
-      - 🇺🇸 美国-28@1Gbps节6MJ48
-      - 🇸🇬 美国-26@1Gbps节点更新J70
-      - 🇺🇸 美国-New York-30满足5MJ54
-      - 🇺🇸 美国-35 联通100M+4K 7.2M J50
-      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
-      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
-      - 🇺🇸 美国-New York-6@1Gbps节6MJ68
-      - 🇺🇸 美国-New York-34 联通6.2M
-      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
-      - 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 us.New York-11@1Gbps节6.4M J104
-      - 🇺🇸 美国-30满足207MJ53
-      - 79.110.54.117:35294  6M
-      - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
-      - 208.78.41.197:33992 5.8M
-      - 🇺🇸 美国-18@1Gbps节点更5.6MJ33
-      - 🇺🇸 美国-New York-11@1Gbps节点6MJ41
-      - 🇸🇬 美国-2@1Gbps节点更新https  7MJ25
-      - 193.29.106.109:31572
-      - 45.43.14.75:50695   5.2M
+      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_795  8M
+      - 🇭🇰 香港7-https://bit.ly/3uWuS7 9MJ71
       - 🇺🇸 美国-13@1Gbps节4MJ57
-      - 89.238.130.251:39772  4.6M
-      - 104.244.208.203:43893  4.5M
-      - 45.43.14.75:31944   4.5M
-      - 37.19.220.194:31572  4.4M
-      - 104.244.208.203:33992  4.1M
-      - 185.76.9.44:33998   3.9M
-      - 104.244.208.203:31944   3.7M
-      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
-      - 185.108.106.152:46642   3.4M
-      - 138.199.19.186:39772  3.1M
-      - 🇯🇵 SK日本 AA
+      - 🇭🇰 香港 5.5M  2
+      - 🇺🇸 US 🇺🇸 Bend 4  5.3M
+      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
+      - 🇺🇸 4.9M|美国(US)USA/San Francisco J1
+      - 🇺🇸 4.9M J2|美国(US)USA/San Francisco
+      - 🇺🇸 美国 12 4.8M
+      - 🇮🇪 爱尔兰(f)4.8M
+      - Y14-jp-25 4.8M
+      - 🇺🇸 4.8M J6美国(US)USA/San Francisco
+      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
+      - 🇺🇸 4.8m J4|美国(US)USA/San Francisco
+      - 🇺🇸 4.8M J3|美国(US)USA/San Francisco
+      - 🇺🇸 4.7M J7|美国(US)USA/San Francisco
+      - 🇮🇹 g-意大利  16  4.6M
+      - 🇺🇸 Pool_🇺🇸US_1630 4.6M
+      - 🇺🇸 4.6M J9|美国(US)USA/San Francisco
+      - 🇺🇸 4.6M J10|美国(US)USA/San Jose
+      - f 25
+      - 🇺🇸 4.5M J12|美国(US)USA/San Francisco
+      - 🇺🇸 4.5M J11|美国(US)USA/San Francisco
+      - 🇺🇸 美国 57
+      - 🇺🇸 g-美国CloudFlare公司CDN节点 52 4.4M
+      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
+      - sg-OVH Hosting-12@1Gbps节点4.4M J17
+      - 🇺🇸 4.4M J16|美国(US)USA/Flushing
+      - 🇺🇸 4.4M J15|美国(US)USA/San Francisco
+      - 🇺🇸 4.4M J14|美国(US)USA/San Francisco
+      - 🇺🇸 YouTube晓柒科技分享801：美国4.4M
+      - 🇺🇸 US 🇺🇸 Bend 4
+      - 🇷🇴 Pool_🇷🇴RO_1428
+      - Pool_🇮🇹IT_1232
+      - Pool__363
+      - f 6
+      - f 4
+      - 🇺🇸 4.3MJ13|美国(US)USA/San Francisco
+      - 罗马(f)
+      - 🇺🇸 美国(gg)
+      - 🇺🇸 美国w 23
+      - 🇺🇸 g-美国CloudFlare公司CDN节点 35
+      - 🇷🇴 Pool_🇷🇴RO_1420
+      - Pool_🇨🇭CH_729
+      - 🇧🇪 Pool_🇧🇪BE_703
+      - Pool__359
+      - Pool__245
+      - f 16
+      - 🇺🇸 4.2MJ12|美国(US)USA/San Francisco
+      - 🇺🇸 hm|美国(US)USA/Chicago 19
+      - 🇷🇴 g-罗马尼亚  15
+      - 🇺🇸 Pool_🇺🇸US_1658
+      - 🇺🇸 Pool_🇺🇸US_1591
+      - 🇺🇸 Pool_🇺🇸US_1528
+      - Pool__594
+      - Pool__447
+      - 🇺🇸 YouTube晓柒科技分享811：美国4M
+      - 🇺🇸 YouTube晓柒科技分享812：美国4M
+      - 🇺🇸 YouTube晓柒科技分享813：美国4M
+      - 🇺🇸 YouTube晓柒科技分享814：美国4M
+      - 🇺🇸 YouTube晓柒科技分享815：美国4M
+      - 🇨🇦 YouTube晓柒科技分享816：加拿大4M
+      - 🇺🇸 美国(g) 8  4M
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -391,53 +539,74 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国-15@1Gbps节点更6MJ60
-      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇨🇳 CN_30 10M
+      - 🇭🇰 9.8M hm|中国香港/中国台湾(CN)China/Guangzhou/) 4
+      - 🇯🇵 日本m02-https://bit.ly/3uWuS7a 9.4M
       - 🇨🇳 台湾m01-https://bit.ly/3 9MJ76
-      - 🇭🇰 香港4-https://bit.ly/3uWuS7 11MJ73
-      - 🇯🇵 日本m02-https://bit.ly/3uWuS7a
-      - 🇺🇸 us.New York-14@1Gbps节8M J88
-      - 🇺🇸 us.New York-31 满 足7.9M
-      - 🇺🇸 https://bit.ly/3uWuS7a  7MJ73
-      - 🇸🇬 美国-19@1Gbps节点更新6.4MJ26
-      - 🇺🇸 美国-New York-22移动@1Gbp7MJ61
-      - 🇸🇬 美国-24@1Gbps节点更新7.5MJ34
-      - 🇺🇸 us.New York-30满足20 7.2MJ52
-      - 🇺🇸 美国-New York-24@1Gbps节点7.4M
-      - 🇺🇸 美国-New York-21联通@1Gbps 节7.2M
-      - 🇺🇸 美国-28@1Gbps节6MJ48
-      - 🇸🇬 美国-26@1Gbps节点更新J70
-      - 🇺🇸 美国-New York-30满足5MJ54
-      - 🇺🇸 美国-35 联通100M+4K 7.2M J50
-      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
-      - 🇭🇰 香港7-https://bit.ly/3uWuS79MJ71
-      - 🇺🇸 美国-New York-6@1Gbps节6MJ68
-      - 🇺🇸 美国-New York-34 联通6.2M
-      - 🇺🇸 美国-New York-9@1Gbps节6.3MJ94
-      - 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 us.New York-11@1Gbps节6.4M J104
-      - 🇺🇸 美国-30满足207MJ53
-      - 79.110.54.117:35294  6M
-      - 🇺🇸 美国-1电信@1Gbps 节点7.7MJ69
-      - 208.78.41.197:33992 5.8M
-      - 🇺🇸 美国-18@1Gbps节点更5.6MJ33
-      - 🇺🇸 美国-New York-11@1Gbps节点6MJ41
-      - 🇸🇬 美国-2@1Gbps节点更新https  7MJ25
-      - 193.29.106.109:31572
-      - 45.43.14.75:50695   5.2M
+      - 🇭🇰 香港丨中转09丨1x丨流媒体解锁 14MJ75
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_795  8M
+      - 🇭🇰 香港7-https://bit.ly/3uWuS7 9MJ71
       - 🇺🇸 美国-13@1Gbps节4MJ57
-      - 89.238.130.251:39772  4.6M
-      - 104.244.208.203:43893  4.5M
-      - 45.43.14.75:31944   4.5M
-      - 37.19.220.194:31572  4.4M
-      - 104.244.208.203:33992  4.1M
-      - 185.76.9.44:33998   3.9M
-      - 104.244.208.203:31944   3.7M
-      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
-      - 185.108.106.152:46642   3.4M
-      - 138.199.19.186:39772  3.1M
-      - 🇯🇵 SK日本 AA
+      - 🇭🇰 香港 5.5M  2
+      - 🇺🇸 US 🇺🇸 Bend 4  5.3M
+      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
+      - 🇺🇸 4.9M|美国(US)USA/San Francisco J1
+      - 🇺🇸 4.9M J2|美国(US)USA/San Francisco
+      - 🇺🇸 美国 12 4.8M
+      - 🇮🇪 爱尔兰(f)4.8M
+      - Y14-jp-25 4.8M
+      - 🇺🇸 4.8M J6美国(US)USA/San Francisco
+      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
+      - 🇺🇸 4.8m J4|美国(US)USA/San Francisco
+      - 🇺🇸 4.8M J3|美国(US)USA/San Francisco
+      - 🇺🇸 4.7M J7|美国(US)USA/San Francisco
+      - 🇮🇹 g-意大利  16  4.6M
+      - 🇺🇸 Pool_🇺🇸US_1630 4.6M
+      - 🇺🇸 4.6M J9|美国(US)USA/San Francisco
+      - 🇺🇸 4.6M J10|美国(US)USA/San Jose
+      - f 25
+      - 🇺🇸 4.5M J12|美国(US)USA/San Francisco
+      - 🇺🇸 4.5M J11|美国(US)USA/San Francisco
+      - 🇺🇸 美国 57
+      - 🇺🇸 g-美国CloudFlare公司CDN节点 52 4.4M
+      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
+      - sg-OVH Hosting-12@1Gbps节点4.4M J17
+      - 🇺🇸 4.4M J16|美国(US)USA/Flushing
+      - 🇺🇸 4.4M J15|美国(US)USA/San Francisco
+      - 🇺🇸 4.4M J14|美国(US)USA/San Francisco
+      - 🇺🇸 YouTube晓柒科技分享801：美国4.4M
+      - 🇺🇸 US 🇺🇸 Bend 4
+      - 🇷🇴 Pool_🇷🇴RO_1428
+      - Pool_🇮🇹IT_1232
+      - Pool__363
+      - f 6
+      - f 4
+      - 🇺🇸 4.3MJ13|美国(US)USA/San Francisco
+      - 罗马(f)
+      - 🇺🇸 美国(gg)
+      - 🇺🇸 美国w 23
+      - 🇺🇸 g-美国CloudFlare公司CDN节点 35
+      - 🇷🇴 Pool_🇷🇴RO_1420
+      - Pool_🇨🇭CH_729
+      - 🇧🇪 Pool_🇧🇪BE_703
+      - Pool__359
+      - Pool__245
+      - f 16
+      - 🇺🇸 4.2MJ12|美国(US)USA/San Francisco
+      - 🇺🇸 hm|美国(US)USA/Chicago 19
+      - 🇷🇴 g-罗马尼亚  15
+      - 🇺🇸 Pool_🇺🇸US_1658
+      - 🇺🇸 Pool_🇺🇸US_1591
+      - 🇺🇸 Pool_🇺🇸US_1528
+      - Pool__594
+      - Pool__447
+      - 🇺🇸 YouTube晓柒科技分享811：美国4M
+      - 🇺🇸 YouTube晓柒科技分享812：美国4M
+      - 🇺🇸 YouTube晓柒科技分享813：美国4M
+      - 🇺🇸 YouTube晓柒科技分享814：美国4M
+      - 🇺🇸 YouTube晓柒科技分享815：美国4M
+      - 🇨🇦 YouTube晓柒科技分享816：加拿大4M
+      - 🇺🇸 美国(g) 8  4M
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
