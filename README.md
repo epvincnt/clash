@@ -5,526 +5,534 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港28.9M, server: zf.proxypools.top, port: 50318, type: vmess, uuid: e73edc5d-2eef-47c1-a2e3-6d202e3478bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tg2shenseven, ws-headers: {Host: zf.proxypools.top}}
   - {name: 🇭🇰 香港15M, server: zf.proxypools.top, port: 57888, type: ss, cipher: aes-256-gcm, password: e73edc5d-2eef-47c1-a2e3-6d202e3478bf}
-  - {name: 🇭🇰 香港9M, server: zf.proxypools.top, port: 31616, type: vmess, uuid: e73edc5d-2eef-47c1-a2e3-6d202e3478bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /shensevens, ws-headers: {Host: zf.proxypools.top}}
-  - {name: 🇭🇰 5.8M-阿伟科技04-HK-9, server: bgp.pengui.top, port: 80, type: vmess, uuid: b1a02a6b-9808-4340-9d74-9c0853c5602f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /phgc, ws-headers: {Host: bgp.pengui.top}}
-  - {name: 🇺🇸 美国 12 4.8M, server: els.jklist.ga, port: 2095, type: vmess, uuid: 5cf2ecb0-9165-4760-8e8a-381ce547a6ef, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: els.jklist.ga}}
-  - {name: 🇭🇰 香港8.9M, server: jb.wocaonimabi666.xyz, port: 53428, type: vmess, uuid: 9f4ea75a-c6d4-4068-b6c9-a0ae1873b309, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M, server: ip.codeforces.live, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /233blog, ws-headers: {Host: rn.ddns1312.top}}
-  - {name: 🇮🇪 爱尔兰(f)4.8M, server: 99uu.wtf, port: 443, type: vmess, uuid: 8f91b6a0-e8ee-11ea-adc1-0242ac120020, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /8f91b6a0-e8ee-11ea-adc1-0242ac120020-vmess, ws-headers: {Host: holy-pond-f89c.yhdnwm.workers.dev}}
-  - {name: 8.6M-阿伟科技04-IND-9, server: azhk.pengui.tools, port: 80, type: vmess, uuid: b1a02a6b-9808-4340-9d74-9c0853c5602f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /pin, ws-headers: {Host: pull.free.video.10010.com}}
   - {name: 🇭🇰 香港, server: zf.proxypools.top, port: 45545, type: vmess, uuid: e73edc5d-2eef-47c1-a2e3-6d202e3478bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66, server: 104.16.148.27, port: 2082, type: vmess, uuid: ed47a606-0bb2-32d0-8cac-7a8f84cf9763, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /5hfgf/5hg, ws-headers: {Host: ru-1.sb-cloud.cf}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1732  6.7M, server: 104.16.200.206, port: 443, type: vmess, uuid: 94d3ddba-3c75-4ddd-84c5-b859a30b1fb9, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /dsafasdf, ws-headers: {Host: nn-ssr24.feiclouddd.me}}
-  - {name: 🇸🇬 美国-5@1Gbps节点更新6MJ39, server: 104.20.140.253, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇭🇰 香港 2, server: fs.proxypools.top, port: 31001, type: vmess, uuid: e73edc5d-2eef-47c1-a2e3-6d202e3478bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
-  - {name: 🇺🇸 g-美国赛基诺州立大学4.9M  20, server: 104.20.140.253, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
-  - {name: Pool__233  4.9M, server: 212.102.40.66, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: Pool_🇮🇹IT_1260 4.9M, server: 37.120.207.5, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 美国 57  4.6M, server: 212.102.40.83, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 🇺🇸 美国w 23, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
-  - {name: 🇷🇴 Pool_🇷🇴RO_1428, server: 194.37.98.211, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Y14-jp-25 4.8M, server: 104.16.200.206, port: 443, type: vmess, uuid: 14b428e2-aff5-4636-9b4b-af11c8dcde0e, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: jp-01.yinriver.top}}
-  - {name: 🇺🇸 美国, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
-  - {name: 🇺🇸 3.9M J20m|美国(US)USA/Los Angeles, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
-  - {name: 🇷🇴 Pool_🇷🇴 RO_1399  4.6M, server: 193.29.106.61, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇳🇱 github.com/freefq - 荷兰  25 4.5M, server: 46.182.107.44, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}}
-  - {name: Pool_🇮🇹IT_1232  4.5M, server: 217.138.219.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__251 4.5M, server: 84.17.35.103, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇸 sfzy888.com _🇺🇸US_665 4.5M, server: 212.102.40.66, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇸🇬 YouTube-阿伟科技08/2-SG-9, server: sg2.xxl123.fun, port: 18998, type: vmess, uuid: 446d4441-f687-496f-a4d2-91efdc1ebcb5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /path, ws-headers: {Host: "http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com"}}
-  - {name: 🇺🇸 YouTube-阿伟科技14-US-9, server: bv.misaka.rest, port: 11451, type: ss, cipher: aes-256-gcm, password: 0b2bc69b-cf33-4435-818b-6051e922fe9e}
-  - {name: 🇺🇸 4.8M J5|美国(US)USA/Los Angeles, server: 89.187.187.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 193.29.106.109:31572   4.6M, server: 193.29.106.109, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 208.78.41.197:33992 5.8M, server: 208.78.41.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_1667 4.5M, server: 104.244.208.213, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇴 g-罗马尼亚  26 4.5M, server: 194.37.98.211, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇮🇹 sfzy888.com  - 意大利  5, server: 212.102.44.83, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇬🇧 英国(w) 3.8M, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: Pool__447, server: 217.138.220.163, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇯🇵 YouTube-阿伟科技14-JP-9, server: ajp.misaka.rest, port: 11451, type: ss, cipher: aes-256-gcm, password: daf60852-aad7-450b-ae38-c3137fbccb1e}
-  - {name: "@SSRSUB-V85-付费推荐:suo.yt/ssrsub", server: www.17080100.xyz, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
   - {name: 🇭🇰 7.8Mb-阿伟科技15-HK-09, server: superstar.hk.02.free.srayx.xyz, port: 23002, type: ss, cipher: chacha20-ietf-poly1305, password: e240090d-d354-45ae-8b68-e830e8fede4b}
-  - {name: sg-OVH Hosting-17@1Gbps节点3.9M, server: 172.67.223.77, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: Pool__98 3.9M, server: 217.138.220.163, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇸🇬 节点更新h 78, server: 104.20.140.253, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: 🇺🇸 Pool_🇺🇸US_1591 4.5M, server: 104.244.211.179, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇭🇰 7.5M-阿伟科技01-HK-9, server: zf.proxypools.top, port: 45545, type: vmess, uuid: 50850fa9-e184-426f-83f9-24eb228ec0ff, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇺🇸 4.3MJ13|美国(US)USA/San Francisco, server: 52.53.159.192, port: 80, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇭🇰 香港9M, server: zf.proxypools.top, port: 31616, type: vmess, uuid: e73edc5d-2eef-47c1-a2e3-6d202e3478bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /shensevens, ws-headers: {Host: zf.proxypools.top}}
+  - {name: 🇺🇸 github.com/freefq - 美国惠普HP 26, server: 16.162.118.217, port: 44334, type: vmess, uuid: a076dc92-8e3f-4ad9-f93e-276562007d93, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 16.162.118.217}}
+  - {name: 🇩🇪 7.1M-阿伟科技13-DE-9, server: jpaz1-1-1.biteb.xyz, port: 54494, type: vmess, uuid: 178e04a9-7474-3f14-9a88-f5717984c95d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: index, ws-headers: {Host: jpaz1-1-1.biteb.xyz}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1732  6.7M, server: 104.16.200.206, port: 443, type: vmess, uuid: 94d3ddba-3c75-4ddd-84c5-b859a30b1fb9, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /dsafasdf, ws-headers: {Host: nn-ssr24.feiclouddd.me}}
+  - {name: 🇸🇬 Singapore 4, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-08.yinriver.top}}
+  - {name: 🇺🇸 United States 11, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-04.yinriver.top}}
+  - {name: 🇸🇬 Singapore 5, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-08.yinriver.top}}
+  - {name: 🇭🇰 github.com/freefq - 香港Amazon数据中心 11, server: 18.162.149.17, port: 44334, type: vmess, uuid: 2e4f069d-300a-4055-857c-f9bd785935b3, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.162.149.17}}
+  - {name: 🇺🇸 g-美国赛基诺州立大学4.9M  20, server: 104.17.56.203, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
+  - {name: 🇺🇸 United States 6M, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-03.yinriver.top}}
+  - {name: 🇺🇸 United States 12 6.1M, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr-01.yinriver.top}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M, server: ip.codeforces.live, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /233blog, ws-headers: {Host: rn.ddns1312.top}}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 21, server: 107.167.9.124, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: 🇰🇷 Korea 5.8M, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr-01.yinriver.top}}
   - {name: 🇺🇸 g-美国加利福尼亚州洛4M, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
-  - {name: Pool__64 4.3M, server: 212.102.40.66, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: Pool_🇸🇰SK_1487 4.1M, server: 37.120.221.5, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: sfzy888.com _🇸🇰SK_476, server: 37.120.221.5, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: Pool_🇨🇭CH_729, server: 37.120.213.3, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: Pool__461, server: 37.120.144.243, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 12, server: 104.160.186.54, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}}
+  - {name: 🇺🇸 United States 9, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-03.yinriver.top}}
+  - {name: 🇺🇸 美国w 35  5M, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
+  - {name: 🇺🇸 4.8M J5|美国(US)USA/Los Angeles, server: 89.187.187.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 33, server: 52.198.131.234, port: 44334, type: vmess, uuid: 45c88021-cfc7-4beb-946f-d2748a6b01b2, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.198.131.234}}
+  - {name: 🇺🇸 美国, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 2, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 40126, type: ss, cipher: chacha20-ietf-poly1305, password: 9ba22642-d940-44af-87c8-102e527e4f74}
+  - {name: Pool__447, server: 217.138.220.163, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 193.29.106.5:39772, server: 193.29.106.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 43, server: 45.79.114.57, port: 36788, type: vmess, uuid: B22C2F57-0189-25E7-79FA-90717E212748, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.79.114.57}}
+  - {name: 🇷🇴 www.sfzy888.com  _🇷🇴RO_319, server: 194.37.98.211, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇷🇴 g-罗马尼亚  26 4.5M, server: 194.37.98.211, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇸🇬 Singapore 3, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-02.yinriver.top}}
+  - {name: 🇺🇸 github.com/freefq - 美国惠普HP 17, server: 16.162.103.183, port: 44334, type: vmess, uuid: 49f7c16f-1607-4dd3-8d53-878d682fb406, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 16.162.103.183}}
+  - {name: 🇭🇰 香港 3, server: fs.proxypools.top, port: 31001, type: vmess, uuid: e73edc5d-2eef-47c1-a2e3-6d202e3478bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
   - {name: Pool_🇮🇹IT_1237, server: 217.138.219.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇫🇮 芬兰, server: 196.244.191.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 5, server: 13.124.66.77, port: 44334, type: vmess, uuid: 9c0a9f28-f9db-4b18-cd76-c14d0755e5b2, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.124.66.77}}
+  - {name: Pool_🇮🇹IT_1260 4.9M, server: 37.120.207.5, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇸🇬 节点更新h 78, server: 104.20.140.253, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
   - {name: 🇺🇸 4.1M J22美国(US)USA/Flushing, server: 104.244.211.171, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇫🇷 Pool_🇫🇷FR_1080, server: 185.108.106.21, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇫🇷 Pool_🇫🇷FR_1075, server: 185.108.106.106, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 37.19.220.194:31572  4.4M, server: 37.19.220.194, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: Pool_🇸🇰SK_1487 4.1M, server: 37.120.221.5, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 208.78.41.197:33992 5.8M, server: 208.78.41.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 Pool_🇺🇸US_1630 4.6M, server: 212.102.40.83, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 United States 10, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-04.yinriver.top}}
+  - {name: 🇺🇸 美国 57  4.6M, server: 212.102.40.83, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 193.29.106.109:31572   4.6M, server: 193.29.106.109, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: sfzy888.com _🇸🇰SK_476, server: 37.120.221.5, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 YouTube-阿伟科技14-US-9, server: bv.misaka.rest, port: 11451, type: ss, cipher: aes-256-gcm, password: 0b2bc69b-cf33-4435-818b-6051e922fe9e}
+  - {name: 🇺🇸 g-美国  55, server: 143.244.56.230, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 32, server: 54.238.131.36, port: 44334, type: vmess, uuid: 1f177b8b-830a-4d96-94fb-e17001d150eb, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.238.131.36}}
   - {name: Pool__603, server: 217.138.220.163, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇷🇴 www.sfzy888.com  _🇷🇴RO_319 4.1M, server: 194.37.98.211, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇫🇷 Pool_🇫🇷FR_1062 4.1M, server: 185.108.106.106, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇺🇸 Pool_🇺🇸US_1569 4.1M, server: 104.244.208.213, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇸 美国 40, server: 185.44.76.188, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇿🇦 sfzy888.com _🇿🇦ZA_794, server: 102.165.47.130, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇫🇷 Pool_🇫🇷FR_1088, server: 185.108.106.69, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: Pool_🇮🇹IT_1272, server: 84.17.58.190, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇸 sfzy888.com _🇺🇸US_595, server: 23.82.11.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇭🇰 g-香港CDN77节点 35, server: 84.17.53.210, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: "@SSRSUB-V71-付费推荐:suo.yt/ssrsub", server: 104.20.140.253, port: 80, type: vmess, uuid: ca870483-fa7d-4f64-983a-6ed455143aca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /live, ws-headers: {Host: euserv9p.ezddns.tk}}
+  - {name: 🇷🇴 Pool_🇷🇴 RO_1399  4.6M, server: 193.29.106.61, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 Pool_🇺🇸US_1652, server: 172.93.146.212, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 138.199.19.186:39772  3.1M, server: 138.199.19.186, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: github.com/freefq - 欧洲  10, server: 138.199.16.137, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: Pool__202, server: 5.133.14.196, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: Pool__251 4.5M, server: 84.17.35.103, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: Pool__499, server: 185.108.106.152, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇫🇷 Pool_🇫🇷FR_1074, server: 185.166.84.73, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: Pool_🇬🇧GB_1140, server: 5.226.139.234, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 Pool_🇺🇸US_1569 4.1M, server: 104.244.208.213, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 美国(f) 22, server: 143.244.57.99, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 89.35.29.71:40093, server: 89.35.29.71, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: Pool__552, server: 37.120.144.243, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: Pool__564, server: 138.199.17.130, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: Pool_🇬🇧GB_1153, server: 185.44.76.167, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: sfzy888.com _🇬🇧GB_240, server: 81.19.223.189, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇺🇸 sfzy888.com _🇺🇸US-🇺🇸US_780, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港28.9M
       - 🇭🇰 香港15M
-      - 🇭🇰 香港9M
-      - 🇭🇰 5.8M-阿伟科技04-HK-9
-      - 🇺🇸 美国 12 4.8M
-      - 🇭🇰 香港8.9M
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M
-      - 🇮🇪 爱尔兰(f)4.8M
-      - 8.6M-阿伟科技04-IND-9
       - 🇭🇰 香港
-      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1732  6.7M
-      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
-      - 🇭🇰 香港 2
-      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
-      - Pool__233  4.9M
-      - Pool_🇮🇹IT_1260 4.9M
-      - 🇺🇸 美国 57  4.6M
-      - 🇺🇸 美国w 23
-      - 🇷🇴 Pool_🇷🇴RO_1428
-      - Y14-jp-25 4.8M
-      - 🇺🇸 美国
-      - 🇺🇸 3.9M J20m|美国(US)USA/Los Angeles
-      - 🇷🇴 Pool_🇷🇴 RO_1399  4.6M
-      - 🇳🇱 github.com/freefq - 荷兰  25 4.5M
-      - Pool_🇮🇹IT_1232  4.5M
-      - Pool__251 4.5M
-      - 🇺🇸 sfzy888.com _🇺🇸US_665 4.5M
-      - 🇸🇬 YouTube-阿伟科技08/2-SG-9
-      - 🇺🇸 YouTube-阿伟科技14-US-9
-      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
-      - 193.29.106.109:31572   4.6M
-      - 208.78.41.197:33992 5.8M
-      - 🇺🇸 Pool_🇺🇸US_1667 4.5M
-      - 🇷🇴 g-罗马尼亚  26 4.5M
-      - 🇮🇹 sfzy888.com  - 意大利  5
-      - 🇬🇧 英国(w) 3.8M
-      - Pool__447
-      - 🇯🇵 YouTube-阿伟科技14-JP-9
-      - "@SSRSUB-V85-付费推荐:suo.yt/ssrsub"
       - 🇭🇰 7.8Mb-阿伟科技15-HK-09
-      - sg-OVH Hosting-17@1Gbps节点3.9M
-      - Pool__98 3.9M
-      - 🇸🇬 节点更新h 78
-      - 🇺🇸 Pool_🇺🇸US_1591 4.5M
-      - 🇭🇰 7.5M-阿伟科技01-HK-9
-      - 🇺🇸 4.3MJ13|美国(US)USA/San Francisco
+      - 🇭🇰 香港9M
+      - 🇺🇸 github.com/freefq - 美国惠普HP 26
+      - 🇩🇪 7.1M-阿伟科技13-DE-9
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1732  6.7M
+      - 🇸🇬 Singapore 4
+      - 🇺🇸 United States 11
+      - 🇸🇬 Singapore 5
+      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 11
+      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
+      - 🇺🇸 United States 6M
+      - 🇺🇸 United States 12 6.1M
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 21
+      - 🇰🇷 Korea 5.8M
       - 🇺🇸 g-美国加利福尼亚州洛4M
-      - Pool__64 4.3M
-      - Pool_🇸🇰SK_1487 4.1M
-      - sfzy888.com _🇸🇰SK_476
-      - Pool_🇨🇭CH_729
-      - Pool__461
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 12
+      - 🇺🇸 United States 9
+      - 🇺🇸 美国w 35  5M
+      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 33
+      - 🇺🇸 美国
+      - 🇭🇰 香港 2
+      - Pool__447
+      - 193.29.106.5:39772
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 43
+      - 🇷🇴 www.sfzy888.com  _🇷🇴RO_319
+      - 🇷🇴 g-罗马尼亚  26 4.5M
+      - 🇸🇬 Singapore 3
+      - 🇺🇸 github.com/freefq - 美国惠普HP 17
+      - 🇭🇰 香港 3
       - Pool_🇮🇹IT_1237
-      - 🇫🇮 芬兰
-      - 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 5
+      - Pool_🇮🇹IT_1260 4.9M
+      - 🇸🇬 节点更新h 78
       - 🇺🇸 4.1M J22美国(US)USA/Flushing
-      - 🇫🇷 Pool_🇫🇷FR_1080
-      - 🇫🇷 Pool_🇫🇷FR_1075
-      - 37.19.220.194:31572  4.4M
+      - Pool_🇸🇰SK_1487 4.1M
+      - 208.78.41.197:33992 5.8M
+      - 🇺🇸 Pool_🇺🇸US_1630 4.6M
+      - 🇺🇸 United States 10
+      - 🇺🇸 美国 57  4.6M
+      - 193.29.106.109:31572   4.6M
+      - sfzy888.com _🇸🇰SK_476
+      - 🇺🇸 YouTube-阿伟科技14-US-9
+      - 🇺🇸 g-美国  55
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 32
       - Pool__603
-      - 🇷🇴 www.sfzy888.com  _🇷🇴RO_319 4.1M
-      - 🇫🇷 Pool_🇫🇷FR_1062 4.1M
-      - 🇺🇸 Pool_🇺🇸US_1569 4.1M
-      - 🇺🇸 美国 40
-      - 🇿🇦 sfzy888.com _🇿🇦ZA_794
-      - 🇫🇷 Pool_🇫🇷FR_1088
+      - Pool_🇮🇹IT_1272
+      - 🇺🇸 sfzy888.com _🇺🇸US_595
+      - 🇭🇰 g-香港CDN77节点 35
       - "@SSRSUB-V71-付费推荐:suo.yt/ssrsub"
+      - 🇷🇴 Pool_🇷🇴 RO_1399  4.6M
+      - 🇺🇸 Pool_🇺🇸US_1652
+      - 138.199.19.186:39772  3.1M
+      - github.com/freefq - 欧洲  10
+      - Pool__202
+      - Pool__251 4.5M
+      - Pool__499
+      - 🇫🇷 Pool_🇫🇷FR_1074
+      - Pool_🇬🇧GB_1140
+      - 🇺🇸 Pool_🇺🇸US_1569 4.1M
+      - 🇺🇸 美国(f) 22
+      - 89.35.29.71:40093
+      - Pool__552
+      - Pool__564
+      - Pool_🇬🇧GB_1153
+      - sfzy888.com _🇬🇧GB_240
+      - 🇺🇸 sfzy888.com _🇺🇸US-🇺🇸US_780
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港28.9M
       - 🇭🇰 香港15M
-      - 🇭🇰 香港9M
-      - 🇭🇰 5.8M-阿伟科技04-HK-9
-      - 🇺🇸 美国 12 4.8M
-      - 🇭🇰 香港8.9M
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M
-      - 🇮🇪 爱尔兰(f)4.8M
-      - 8.6M-阿伟科技04-IND-9
       - 🇭🇰 香港
-      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1732  6.7M
-      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
-      - 🇭🇰 香港 2
-      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
-      - Pool__233  4.9M
-      - Pool_🇮🇹IT_1260 4.9M
-      - 🇺🇸 美国 57  4.6M
-      - 🇺🇸 美国w 23
-      - 🇷🇴 Pool_🇷🇴RO_1428
-      - Y14-jp-25 4.8M
-      - 🇺🇸 美国
-      - 🇺🇸 3.9M J20m|美国(US)USA/Los Angeles
-      - 🇷🇴 Pool_🇷🇴 RO_1399  4.6M
-      - 🇳🇱 github.com/freefq - 荷兰  25 4.5M
-      - Pool_🇮🇹IT_1232  4.5M
-      - Pool__251 4.5M
-      - 🇺🇸 sfzy888.com _🇺🇸US_665 4.5M
-      - 🇸🇬 YouTube-阿伟科技08/2-SG-9
-      - 🇺🇸 YouTube-阿伟科技14-US-9
-      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
-      - 193.29.106.109:31572   4.6M
-      - 208.78.41.197:33992 5.8M
-      - 🇺🇸 Pool_🇺🇸US_1667 4.5M
-      - 🇷🇴 g-罗马尼亚  26 4.5M
-      - 🇮🇹 sfzy888.com  - 意大利  5
-      - 🇬🇧 英国(w) 3.8M
-      - Pool__447
-      - 🇯🇵 YouTube-阿伟科技14-JP-9
-      - "@SSRSUB-V85-付费推荐:suo.yt/ssrsub"
       - 🇭🇰 7.8Mb-阿伟科技15-HK-09
-      - sg-OVH Hosting-17@1Gbps节点3.9M
-      - Pool__98 3.9M
-      - 🇸🇬 节点更新h 78
-      - 🇺🇸 Pool_🇺🇸US_1591 4.5M
-      - 🇭🇰 7.5M-阿伟科技01-HK-9
-      - 🇺🇸 4.3MJ13|美国(US)USA/San Francisco
+      - 🇭🇰 香港9M
+      - 🇺🇸 github.com/freefq - 美国惠普HP 26
+      - 🇩🇪 7.1M-阿伟科技13-DE-9
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1732  6.7M
+      - 🇸🇬 Singapore 4
+      - 🇺🇸 United States 11
+      - 🇸🇬 Singapore 5
+      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 11
+      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
+      - 🇺🇸 United States 6M
+      - 🇺🇸 United States 12 6.1M
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 21
+      - 🇰🇷 Korea 5.8M
       - 🇺🇸 g-美国加利福尼亚州洛4M
-      - Pool__64 4.3M
-      - Pool_🇸🇰SK_1487 4.1M
-      - sfzy888.com _🇸🇰SK_476
-      - Pool_🇨🇭CH_729
-      - Pool__461
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 12
+      - 🇺🇸 United States 9
+      - 🇺🇸 美国w 35  5M
+      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 33
+      - 🇺🇸 美国
+      - 🇭🇰 香港 2
+      - Pool__447
+      - 193.29.106.5:39772
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 43
+      - 🇷🇴 www.sfzy888.com  _🇷🇴RO_319
+      - 🇷🇴 g-罗马尼亚  26 4.5M
+      - 🇸🇬 Singapore 3
+      - 🇺🇸 github.com/freefq - 美国惠普HP 17
+      - 🇭🇰 香港 3
       - Pool_🇮🇹IT_1237
-      - 🇫🇮 芬兰
-      - 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 5
+      - Pool_🇮🇹IT_1260 4.9M
+      - 🇸🇬 节点更新h 78
       - 🇺🇸 4.1M J22美国(US)USA/Flushing
-      - 🇫🇷 Pool_🇫🇷FR_1080
-      - 🇫🇷 Pool_🇫🇷FR_1075
-      - 37.19.220.194:31572  4.4M
+      - Pool_🇸🇰SK_1487 4.1M
+      - 208.78.41.197:33992 5.8M
+      - 🇺🇸 Pool_🇺🇸US_1630 4.6M
+      - 🇺🇸 United States 10
+      - 🇺🇸 美国 57  4.6M
+      - 193.29.106.109:31572   4.6M
+      - sfzy888.com _🇸🇰SK_476
+      - 🇺🇸 YouTube-阿伟科技14-US-9
+      - 🇺🇸 g-美国  55
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 32
       - Pool__603
-      - 🇷🇴 www.sfzy888.com  _🇷🇴RO_319 4.1M
-      - 🇫🇷 Pool_🇫🇷FR_1062 4.1M
-      - 🇺🇸 Pool_🇺🇸US_1569 4.1M
-      - 🇺🇸 美国 40
-      - 🇿🇦 sfzy888.com _🇿🇦ZA_794
-      - 🇫🇷 Pool_🇫🇷FR_1088
+      - Pool_🇮🇹IT_1272
+      - 🇺🇸 sfzy888.com _🇺🇸US_595
+      - 🇭🇰 g-香港CDN77节点 35
       - "@SSRSUB-V71-付费推荐:suo.yt/ssrsub"
+      - 🇷🇴 Pool_🇷🇴 RO_1399  4.6M
+      - 🇺🇸 Pool_🇺🇸US_1652
+      - 138.199.19.186:39772  3.1M
+      - github.com/freefq - 欧洲  10
+      - Pool__202
+      - Pool__251 4.5M
+      - Pool__499
+      - 🇫🇷 Pool_🇫🇷FR_1074
+      - Pool_🇬🇧GB_1140
+      - 🇺🇸 Pool_🇺🇸US_1569 4.1M
+      - 🇺🇸 美国(f) 22
+      - 89.35.29.71:40093
+      - Pool__552
+      - Pool__564
+      - Pool_🇬🇧GB_1153
+      - sfzy888.com _🇬🇧GB_240
+      - 🇺🇸 sfzy888.com _🇺🇸US-🇺🇸US_780
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港28.9M
       - 🇭🇰 香港15M
-      - 🇭🇰 香港9M
-      - 🇭🇰 5.8M-阿伟科技04-HK-9
-      - 🇺🇸 美国 12 4.8M
-      - 🇭🇰 香港8.9M
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M
-      - 🇮🇪 爱尔兰(f)4.8M
-      - 8.6M-阿伟科技04-IND-9
       - 🇭🇰 香港
-      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1732  6.7M
-      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
-      - 🇭🇰 香港 2
-      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
-      - Pool__233  4.9M
-      - Pool_🇮🇹IT_1260 4.9M
-      - 🇺🇸 美国 57  4.6M
-      - 🇺🇸 美国w 23
-      - 🇷🇴 Pool_🇷🇴RO_1428
-      - Y14-jp-25 4.8M
-      - 🇺🇸 美国
-      - 🇺🇸 3.9M J20m|美国(US)USA/Los Angeles
-      - 🇷🇴 Pool_🇷🇴 RO_1399  4.6M
-      - 🇳🇱 github.com/freefq - 荷兰  25 4.5M
-      - Pool_🇮🇹IT_1232  4.5M
-      - Pool__251 4.5M
-      - 🇺🇸 sfzy888.com _🇺🇸US_665 4.5M
-      - 🇸🇬 YouTube-阿伟科技08/2-SG-9
-      - 🇺🇸 YouTube-阿伟科技14-US-9
-      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
-      - 193.29.106.109:31572   4.6M
-      - 208.78.41.197:33992 5.8M
-      - 🇺🇸 Pool_🇺🇸US_1667 4.5M
-      - 🇷🇴 g-罗马尼亚  26 4.5M
-      - 🇮🇹 sfzy888.com  - 意大利  5
-      - 🇬🇧 英国(w) 3.8M
-      - Pool__447
-      - 🇯🇵 YouTube-阿伟科技14-JP-9
-      - "@SSRSUB-V85-付费推荐:suo.yt/ssrsub"
       - 🇭🇰 7.8Mb-阿伟科技15-HK-09
-      - sg-OVH Hosting-17@1Gbps节点3.9M
-      - Pool__98 3.9M
-      - 🇸🇬 节点更新h 78
-      - 🇺🇸 Pool_🇺🇸US_1591 4.5M
-      - 🇭🇰 7.5M-阿伟科技01-HK-9
-      - 🇺🇸 4.3MJ13|美国(US)USA/San Francisco
+      - 🇭🇰 香港9M
+      - 🇺🇸 github.com/freefq - 美国惠普HP 26
+      - 🇩🇪 7.1M-阿伟科技13-DE-9
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1732  6.7M
+      - 🇸🇬 Singapore 4
+      - 🇺🇸 United States 11
+      - 🇸🇬 Singapore 5
+      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 11
+      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
+      - 🇺🇸 United States 6M
+      - 🇺🇸 United States 12 6.1M
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 21
+      - 🇰🇷 Korea 5.8M
       - 🇺🇸 g-美国加利福尼亚州洛4M
-      - Pool__64 4.3M
-      - Pool_🇸🇰SK_1487 4.1M
-      - sfzy888.com _🇸🇰SK_476
-      - Pool_🇨🇭CH_729
-      - Pool__461
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 12
+      - 🇺🇸 United States 9
+      - 🇺🇸 美国w 35  5M
+      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 33
+      - 🇺🇸 美国
+      - 🇭🇰 香港 2
+      - Pool__447
+      - 193.29.106.5:39772
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 43
+      - 🇷🇴 www.sfzy888.com  _🇷🇴RO_319
+      - 🇷🇴 g-罗马尼亚  26 4.5M
+      - 🇸🇬 Singapore 3
+      - 🇺🇸 github.com/freefq - 美国惠普HP 17
+      - 🇭🇰 香港 3
       - Pool_🇮🇹IT_1237
-      - 🇫🇮 芬兰
-      - 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 5
+      - Pool_🇮🇹IT_1260 4.9M
+      - 🇸🇬 节点更新h 78
       - 🇺🇸 4.1M J22美国(US)USA/Flushing
-      - 🇫🇷 Pool_🇫🇷FR_1080
-      - 🇫🇷 Pool_🇫🇷FR_1075
-      - 37.19.220.194:31572  4.4M
+      - Pool_🇸🇰SK_1487 4.1M
+      - 208.78.41.197:33992 5.8M
+      - 🇺🇸 Pool_🇺🇸US_1630 4.6M
+      - 🇺🇸 United States 10
+      - 🇺🇸 美国 57  4.6M
+      - 193.29.106.109:31572   4.6M
+      - sfzy888.com _🇸🇰SK_476
+      - 🇺🇸 YouTube-阿伟科技14-US-9
+      - 🇺🇸 g-美国  55
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 32
       - Pool__603
-      - 🇷🇴 www.sfzy888.com  _🇷🇴RO_319 4.1M
-      - 🇫🇷 Pool_🇫🇷FR_1062 4.1M
-      - 🇺🇸 Pool_🇺🇸US_1569 4.1M
-      - 🇺🇸 美国 40
-      - 🇿🇦 sfzy888.com _🇿🇦ZA_794
-      - 🇫🇷 Pool_🇫🇷FR_1088
+      - Pool_🇮🇹IT_1272
+      - 🇺🇸 sfzy888.com _🇺🇸US_595
+      - 🇭🇰 g-香港CDN77节点 35
       - "@SSRSUB-V71-付费推荐:suo.yt/ssrsub"
+      - 🇷🇴 Pool_🇷🇴 RO_1399  4.6M
+      - 🇺🇸 Pool_🇺🇸US_1652
+      - 138.199.19.186:39772  3.1M
+      - github.com/freefq - 欧洲  10
+      - Pool__202
+      - Pool__251 4.5M
+      - Pool__499
+      - 🇫🇷 Pool_🇫🇷FR_1074
+      - Pool_🇬🇧GB_1140
+      - 🇺🇸 Pool_🇺🇸US_1569 4.1M
+      - 🇺🇸 美国(f) 22
+      - 89.35.29.71:40093
+      - Pool__552
+      - Pool__564
+      - Pool_🇬🇧GB_1153
+      - sfzy888.com _🇬🇧GB_240
+      - 🇺🇸 sfzy888.com _🇺🇸US-🇺🇸US_780
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港28.9M
       - 🇭🇰 香港15M
-      - 🇭🇰 香港9M
-      - 🇭🇰 香港8.9M
       - 🇭🇰 香港
+      - 🇭🇰 香港9M
+      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 11
       - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 g-香港CDN77节点 35
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港28.9M
       - 🇭🇰 香港15M
-      - 🇭🇰 香港9M
-      - 🇭🇰 5.8M-阿伟科技04-HK-9
-      - 🇺🇸 美国 12 4.8M
-      - 🇭🇰 香港8.9M
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M
-      - 🇮🇪 爱尔兰(f)4.8M
-      - 8.6M-阿伟科技04-IND-9
       - 🇭🇰 香港
-      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1732  6.7M
-      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
-      - 🇭🇰 香港 2
-      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
-      - Pool__233  4.9M
-      - Pool_🇮🇹IT_1260 4.9M
-      - 🇺🇸 美国 57  4.6M
-      - 🇺🇸 美国w 23
-      - 🇷🇴 Pool_🇷🇴RO_1428
-      - Y14-jp-25 4.8M
-      - 🇺🇸 美国
-      - 🇺🇸 3.9M J20m|美国(US)USA/Los Angeles
-      - 🇷🇴 Pool_🇷🇴 RO_1399  4.6M
-      - 🇳🇱 github.com/freefq - 荷兰  25 4.5M
-      - Pool_🇮🇹IT_1232  4.5M
-      - Pool__251 4.5M
-      - 🇺🇸 sfzy888.com _🇺🇸US_665 4.5M
-      - 🇸🇬 YouTube-阿伟科技08/2-SG-9
-      - 🇺🇸 YouTube-阿伟科技14-US-9
-      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
-      - 193.29.106.109:31572   4.6M
-      - 208.78.41.197:33992 5.8M
-      - 🇺🇸 Pool_🇺🇸US_1667 4.5M
-      - 🇷🇴 g-罗马尼亚  26 4.5M
-      - 🇮🇹 sfzy888.com  - 意大利  5
-      - 🇬🇧 英国(w) 3.8M
-      - Pool__447
-      - 🇯🇵 YouTube-阿伟科技14-JP-9
-      - "@SSRSUB-V85-付费推荐:suo.yt/ssrsub"
       - 🇭🇰 7.8Mb-阿伟科技15-HK-09
-      - sg-OVH Hosting-17@1Gbps节点3.9M
-      - Pool__98 3.9M
-      - 🇸🇬 节点更新h 78
-      - 🇺🇸 Pool_🇺🇸US_1591 4.5M
-      - 🇭🇰 7.5M-阿伟科技01-HK-9
-      - 🇺🇸 4.3MJ13|美国(US)USA/San Francisco
+      - 🇭🇰 香港9M
+      - 🇺🇸 github.com/freefq - 美国惠普HP 26
+      - 🇩🇪 7.1M-阿伟科技13-DE-9
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1732  6.7M
+      - 🇸🇬 Singapore 4
+      - 🇺🇸 United States 11
+      - 🇸🇬 Singapore 5
+      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 11
+      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
+      - 🇺🇸 United States 6M
+      - 🇺🇸 United States 12 6.1M
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 21
+      - 🇰🇷 Korea 5.8M
       - 🇺🇸 g-美国加利福尼亚州洛4M
-      - Pool__64 4.3M
-      - Pool_🇸🇰SK_1487 4.1M
-      - sfzy888.com _🇸🇰SK_476
-      - Pool_🇨🇭CH_729
-      - Pool__461
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 12
+      - 🇺🇸 United States 9
+      - 🇺🇸 美国w 35  5M
+      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 33
+      - 🇺🇸 美国
+      - 🇭🇰 香港 2
+      - Pool__447
+      - 193.29.106.5:39772
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 43
+      - 🇷🇴 www.sfzy888.com  _🇷🇴RO_319
+      - 🇷🇴 g-罗马尼亚  26 4.5M
+      - 🇸🇬 Singapore 3
+      - 🇺🇸 github.com/freefq - 美国惠普HP 17
+      - 🇭🇰 香港 3
       - Pool_🇮🇹IT_1237
-      - 🇫🇮 芬兰
-      - 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 5
+      - Pool_🇮🇹IT_1260 4.9M
+      - 🇸🇬 节点更新h 78
       - 🇺🇸 4.1M J22美国(US)USA/Flushing
-      - 🇫🇷 Pool_🇫🇷FR_1080
-      - 🇫🇷 Pool_🇫🇷FR_1075
-      - 37.19.220.194:31572  4.4M
+      - Pool_🇸🇰SK_1487 4.1M
+      - 208.78.41.197:33992 5.8M
+      - 🇺🇸 Pool_🇺🇸US_1630 4.6M
+      - 🇺🇸 United States 10
+      - 🇺🇸 美国 57  4.6M
+      - 193.29.106.109:31572   4.6M
+      - sfzy888.com _🇸🇰SK_476
+      - 🇺🇸 YouTube-阿伟科技14-US-9
+      - 🇺🇸 g-美国  55
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 32
       - Pool__603
-      - 🇷🇴 www.sfzy888.com  _🇷🇴RO_319 4.1M
-      - 🇫🇷 Pool_🇫🇷FR_1062 4.1M
-      - 🇺🇸 Pool_🇺🇸US_1569 4.1M
-      - 🇺🇸 美国 40
-      - 🇿🇦 sfzy888.com _🇿🇦ZA_794
-      - 🇫🇷 Pool_🇫🇷FR_1088
+      - Pool_🇮🇹IT_1272
+      - 🇺🇸 sfzy888.com _🇺🇸US_595
+      - 🇭🇰 g-香港CDN77节点 35
       - "@SSRSUB-V71-付费推荐:suo.yt/ssrsub"
+      - 🇷🇴 Pool_🇷🇴 RO_1399  4.6M
+      - 🇺🇸 Pool_🇺🇸US_1652
+      - 138.199.19.186:39772  3.1M
+      - github.com/freefq - 欧洲  10
+      - Pool__202
+      - Pool__251 4.5M
+      - Pool__499
+      - 🇫🇷 Pool_🇫🇷FR_1074
+      - Pool_🇬🇧GB_1140
+      - 🇺🇸 Pool_🇺🇸US_1569 4.1M
+      - 🇺🇸 美国(f) 22
+      - 89.35.29.71:40093
+      - Pool__552
+      - Pool__564
+      - Pool_🇬🇧GB_1153
+      - sfzy888.com _🇬🇧GB_240
+      - 🇺🇸 sfzy888.com _🇺🇸US-🇺🇸US_780
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港28.9M
       - 🇭🇰 香港15M
-      - 🇭🇰 香港9M
-      - 🇭🇰 5.8M-阿伟科技04-HK-9
-      - 🇺🇸 美国 12 4.8M
-      - 🇭🇰 香港8.9M
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M
-      - 🇮🇪 爱尔兰(f)4.8M
-      - 8.6M-阿伟科技04-IND-9
       - 🇭🇰 香港
-      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1732  6.7M
-      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
-      - 🇭🇰 香港 2
-      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
-      - Pool__233  4.9M
-      - Pool_🇮🇹IT_1260 4.9M
-      - 🇺🇸 美国 57  4.6M
-      - 🇺🇸 美国w 23
-      - 🇷🇴 Pool_🇷🇴RO_1428
-      - Y14-jp-25 4.8M
-      - 🇺🇸 美国
-      - 🇺🇸 3.9M J20m|美国(US)USA/Los Angeles
-      - 🇷🇴 Pool_🇷🇴 RO_1399  4.6M
-      - 🇳🇱 github.com/freefq - 荷兰  25 4.5M
-      - Pool_🇮🇹IT_1232  4.5M
-      - Pool__251 4.5M
-      - 🇺🇸 sfzy888.com _🇺🇸US_665 4.5M
-      - 🇸🇬 YouTube-阿伟科技08/2-SG-9
-      - 🇺🇸 YouTube-阿伟科技14-US-9
-      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
-      - 193.29.106.109:31572   4.6M
-      - 208.78.41.197:33992 5.8M
-      - 🇺🇸 Pool_🇺🇸US_1667 4.5M
-      - 🇷🇴 g-罗马尼亚  26 4.5M
-      - 🇮🇹 sfzy888.com  - 意大利  5
-      - 🇬🇧 英国(w) 3.8M
-      - Pool__447
-      - 🇯🇵 YouTube-阿伟科技14-JP-9
-      - "@SSRSUB-V85-付费推荐:suo.yt/ssrsub"
       - 🇭🇰 7.8Mb-阿伟科技15-HK-09
-      - sg-OVH Hosting-17@1Gbps节点3.9M
-      - Pool__98 3.9M
-      - 🇸🇬 节点更新h 78
-      - 🇺🇸 Pool_🇺🇸US_1591 4.5M
-      - 🇭🇰 7.5M-阿伟科技01-HK-9
-      - 🇺🇸 4.3MJ13|美国(US)USA/San Francisco
+      - 🇭🇰 香港9M
+      - 🇺🇸 github.com/freefq - 美国惠普HP 26
+      - 🇩🇪 7.1M-阿伟科技13-DE-9
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1732  6.7M
+      - 🇸🇬 Singapore 4
+      - 🇺🇸 United States 11
+      - 🇸🇬 Singapore 5
+      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 11
+      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
+      - 🇺🇸 United States 6M
+      - 🇺🇸 United States 12 6.1M
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 21
+      - 🇰🇷 Korea 5.8M
       - 🇺🇸 g-美国加利福尼亚州洛4M
-      - Pool__64 4.3M
-      - Pool_🇸🇰SK_1487 4.1M
-      - sfzy888.com _🇸🇰SK_476
-      - Pool_🇨🇭CH_729
-      - Pool__461
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 12
+      - 🇺🇸 United States 9
+      - 🇺🇸 美国w 35  5M
+      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 33
+      - 🇺🇸 美国
+      - 🇭🇰 香港 2
+      - Pool__447
+      - 193.29.106.5:39772
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 43
+      - 🇷🇴 www.sfzy888.com  _🇷🇴RO_319
+      - 🇷🇴 g-罗马尼亚  26 4.5M
+      - 🇸🇬 Singapore 3
+      - 🇺🇸 github.com/freefq - 美国惠普HP 17
+      - 🇭🇰 香港 3
       - Pool_🇮🇹IT_1237
-      - 🇫🇮 芬兰
-      - 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 5
+      - Pool_🇮🇹IT_1260 4.9M
+      - 🇸🇬 节点更新h 78
       - 🇺🇸 4.1M J22美国(US)USA/Flushing
-      - 🇫🇷 Pool_🇫🇷FR_1080
-      - 🇫🇷 Pool_🇫🇷FR_1075
-      - 37.19.220.194:31572  4.4M
+      - Pool_🇸🇰SK_1487 4.1M
+      - 208.78.41.197:33992 5.8M
+      - 🇺🇸 Pool_🇺🇸US_1630 4.6M
+      - 🇺🇸 United States 10
+      - 🇺🇸 美国 57  4.6M
+      - 193.29.106.109:31572   4.6M
+      - sfzy888.com _🇸🇰SK_476
+      - 🇺🇸 YouTube-阿伟科技14-US-9
+      - 🇺🇸 g-美国  55
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 32
       - Pool__603
-      - 🇷🇴 www.sfzy888.com  _🇷🇴RO_319 4.1M
-      - 🇫🇷 Pool_🇫🇷FR_1062 4.1M
-      - 🇺🇸 Pool_🇺🇸US_1569 4.1M
-      - 🇺🇸 美国 40
-      - 🇿🇦 sfzy888.com _🇿🇦ZA_794
-      - 🇫🇷 Pool_🇫🇷FR_1088
+      - Pool_🇮🇹IT_1272
+      - 🇺🇸 sfzy888.com _🇺🇸US_595
+      - 🇭🇰 g-香港CDN77节点 35
       - "@SSRSUB-V71-付费推荐:suo.yt/ssrsub"
+      - 🇷🇴 Pool_🇷🇴 RO_1399  4.6M
+      - 🇺🇸 Pool_🇺🇸US_1652
+      - 138.199.19.186:39772  3.1M
+      - github.com/freefq - 欧洲  10
+      - Pool__202
+      - Pool__251 4.5M
+      - Pool__499
+      - 🇫🇷 Pool_🇫🇷FR_1074
+      - Pool_🇬🇧GB_1140
+      - 🇺🇸 Pool_🇺🇸US_1569 4.1M
+      - 🇺🇸 美国(f) 22
+      - 89.35.29.71:40093
+      - Pool__552
+      - Pool__564
+      - Pool_🇬🇧GB_1153
+      - sfzy888.com _🇬🇧GB_240
+      - 🇺🇸 sfzy888.com _🇺🇸US-🇺🇸US_780
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港28.9M
       - 🇭🇰 香港15M
-      - 🇭🇰 香港9M
-      - 🇭🇰 5.8M-阿伟科技04-HK-9
-      - 🇺🇸 美国 12 4.8M
-      - 🇭🇰 香港8.9M
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M
-      - 🇮🇪 爱尔兰(f)4.8M
-      - 8.6M-阿伟科技04-IND-9
       - 🇭🇰 香港
-      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1732  6.7M
-      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
-      - 🇭🇰 香港 2
-      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
-      - Pool__233  4.9M
-      - Pool_🇮🇹IT_1260 4.9M
-      - 🇺🇸 美国 57  4.6M
-      - 🇺🇸 美国w 23
-      - 🇷🇴 Pool_🇷🇴RO_1428
-      - Y14-jp-25 4.8M
-      - 🇺🇸 美国
-      - 🇺🇸 3.9M J20m|美国(US)USA/Los Angeles
-      - 🇷🇴 Pool_🇷🇴 RO_1399  4.6M
-      - 🇳🇱 github.com/freefq - 荷兰  25 4.5M
-      - Pool_🇮🇹IT_1232  4.5M
-      - Pool__251 4.5M
-      - 🇺🇸 sfzy888.com _🇺🇸US_665 4.5M
-      - 🇸🇬 YouTube-阿伟科技08/2-SG-9
-      - 🇺🇸 YouTube-阿伟科技14-US-9
-      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
-      - 193.29.106.109:31572   4.6M
-      - 208.78.41.197:33992 5.8M
-      - 🇺🇸 Pool_🇺🇸US_1667 4.5M
-      - 🇷🇴 g-罗马尼亚  26 4.5M
-      - 🇮🇹 sfzy888.com  - 意大利  5
-      - 🇬🇧 英国(w) 3.8M
-      - Pool__447
-      - 🇯🇵 YouTube-阿伟科技14-JP-9
-      - "@SSRSUB-V85-付费推荐:suo.yt/ssrsub"
       - 🇭🇰 7.8Mb-阿伟科技15-HK-09
-      - sg-OVH Hosting-17@1Gbps节点3.9M
-      - Pool__98 3.9M
-      - 🇸🇬 节点更新h 78
-      - 🇺🇸 Pool_🇺🇸US_1591 4.5M
-      - 🇭🇰 7.5M-阿伟科技01-HK-9
-      - 🇺🇸 4.3MJ13|美国(US)USA/San Francisco
+      - 🇭🇰 香港9M
+      - 🇺🇸 github.com/freefq - 美国惠普HP 26
+      - 🇩🇪 7.1M-阿伟科技13-DE-9
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1732  6.7M
+      - 🇸🇬 Singapore 4
+      - 🇺🇸 United States 11
+      - 🇸🇬 Singapore 5
+      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 11
+      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
+      - 🇺🇸 United States 6M
+      - 🇺🇸 United States 12 6.1M
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 21
+      - 🇰🇷 Korea 5.8M
       - 🇺🇸 g-美国加利福尼亚州洛4M
-      - Pool__64 4.3M
-      - Pool_🇸🇰SK_1487 4.1M
-      - sfzy888.com _🇸🇰SK_476
-      - Pool_🇨🇭CH_729
-      - Pool__461
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 12
+      - 🇺🇸 United States 9
+      - 🇺🇸 美国w 35  5M
+      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 33
+      - 🇺🇸 美国
+      - 🇭🇰 香港 2
+      - Pool__447
+      - 193.29.106.5:39772
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 43
+      - 🇷🇴 www.sfzy888.com  _🇷🇴RO_319
+      - 🇷🇴 g-罗马尼亚  26 4.5M
+      - 🇸🇬 Singapore 3
+      - 🇺🇸 github.com/freefq - 美国惠普HP 17
+      - 🇭🇰 香港 3
       - Pool_🇮🇹IT_1237
-      - 🇫🇮 芬兰
-      - 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 5
+      - Pool_🇮🇹IT_1260 4.9M
+      - 🇸🇬 节点更新h 78
       - 🇺🇸 4.1M J22美国(US)USA/Flushing
-      - 🇫🇷 Pool_🇫🇷FR_1080
-      - 🇫🇷 Pool_🇫🇷FR_1075
-      - 37.19.220.194:31572  4.4M
+      - Pool_🇸🇰SK_1487 4.1M
+      - 208.78.41.197:33992 5.8M
+      - 🇺🇸 Pool_🇺🇸US_1630 4.6M
+      - 🇺🇸 United States 10
+      - 🇺🇸 美国 57  4.6M
+      - 193.29.106.109:31572   4.6M
+      - sfzy888.com _🇸🇰SK_476
+      - 🇺🇸 YouTube-阿伟科技14-US-9
+      - 🇺🇸 g-美国  55
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 32
       - Pool__603
-      - 🇷🇴 www.sfzy888.com  _🇷🇴RO_319 4.1M
-      - 🇫🇷 Pool_🇫🇷FR_1062 4.1M
-      - 🇺🇸 Pool_🇺🇸US_1569 4.1M
-      - 🇺🇸 美国 40
-      - 🇿🇦 sfzy888.com _🇿🇦ZA_794
-      - 🇫🇷 Pool_🇫🇷FR_1088
+      - Pool_🇮🇹IT_1272
+      - 🇺🇸 sfzy888.com _🇺🇸US_595
+      - 🇭🇰 g-香港CDN77节点 35
       - "@SSRSUB-V71-付费推荐:suo.yt/ssrsub"
+      - 🇷🇴 Pool_🇷🇴 RO_1399  4.6M
+      - 🇺🇸 Pool_🇺🇸US_1652
+      - 138.199.19.186:39772  3.1M
+      - github.com/freefq - 欧洲  10
+      - Pool__202
+      - Pool__251 4.5M
+      - Pool__499
+      - 🇫🇷 Pool_🇫🇷FR_1074
+      - Pool_🇬🇧GB_1140
+      - 🇺🇸 Pool_🇺🇸US_1569 4.1M
+      - 🇺🇸 美国(f) 22
+      - 89.35.29.71:40093
+      - Pool__552
+      - Pool__564
+      - Pool_🇬🇧GB_1153
+      - sfzy888.com _🇬🇧GB_240
+      - 🇺🇸 sfzy888.com _🇺🇸US-🇺🇸US_780
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -540,74 +548,75 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港28.9M
       - 🇭🇰 香港15M
-      - 🇭🇰 香港9M
-      - 🇭🇰 5.8M-阿伟科技04-HK-9
-      - 🇺🇸 美国 12 4.8M
-      - 🇭🇰 香港8.9M
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M
-      - 🇮🇪 爱尔兰(f)4.8M
-      - 8.6M-阿伟科技04-IND-9
       - 🇭🇰 香港
-      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1732  6.7M
-      - 🇸🇬 美国-5@1Gbps节点更新6MJ39
-      - 🇭🇰 香港 2
-      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
-      - Pool__233  4.9M
-      - Pool_🇮🇹IT_1260 4.9M
-      - 🇺🇸 美国 57  4.6M
-      - 🇺🇸 美国w 23
-      - 🇷🇴 Pool_🇷🇴RO_1428
-      - Y14-jp-25 4.8M
-      - 🇺🇸 美国
-      - 🇺🇸 3.9M J20m|美国(US)USA/Los Angeles
-      - 🇷🇴 Pool_🇷🇴 RO_1399  4.6M
-      - 🇳🇱 github.com/freefq - 荷兰  25 4.5M
-      - Pool_🇮🇹IT_1232  4.5M
-      - Pool__251 4.5M
-      - 🇺🇸 sfzy888.com _🇺🇸US_665 4.5M
-      - 🇸🇬 YouTube-阿伟科技08/2-SG-9
-      - 🇺🇸 YouTube-阿伟科技14-US-9
-      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
-      - 193.29.106.109:31572   4.6M
-      - 208.78.41.197:33992 5.8M
-      - 🇺🇸 Pool_🇺🇸US_1667 4.5M
-      - 🇷🇴 g-罗马尼亚  26 4.5M
-      - 🇮🇹 sfzy888.com  - 意大利  5
-      - 🇬🇧 英国(w) 3.8M
-      - Pool__447
-      - 🇯🇵 YouTube-阿伟科技14-JP-9
-      - "@SSRSUB-V85-付费推荐:suo.yt/ssrsub"
       - 🇭🇰 7.8Mb-阿伟科技15-HK-09
-      - sg-OVH Hosting-17@1Gbps节点3.9M
-      - Pool__98 3.9M
-      - 🇸🇬 节点更新h 78
-      - 🇺🇸 Pool_🇺🇸US_1591 4.5M
-      - 🇭🇰 7.5M-阿伟科技01-HK-9
-      - 🇺🇸 4.3MJ13|美国(US)USA/San Francisco
+      - 🇭🇰 香港9M
+      - 🇺🇸 github.com/freefq - 美国惠普HP 26
+      - 🇩🇪 7.1M-阿伟科技13-DE-9
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1732  6.7M
+      - 🇸🇬 Singapore 4
+      - 🇺🇸 United States 11
+      - 🇸🇬 Singapore 5
+      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 11
+      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
+      - 🇺🇸 United States 6M
+      - 🇺🇸 United States 12 6.1M
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 21
+      - 🇰🇷 Korea 5.8M
       - 🇺🇸 g-美国加利福尼亚州洛4M
-      - Pool__64 4.3M
-      - Pool_🇸🇰SK_1487 4.1M
-      - sfzy888.com _🇸🇰SK_476
-      - Pool_🇨🇭CH_729
-      - Pool__461
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 12
+      - 🇺🇸 United States 9
+      - 🇺🇸 美国w 35  5M
+      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 33
+      - 🇺🇸 美国
+      - 🇭🇰 香港 2
+      - Pool__447
+      - 193.29.106.5:39772
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 43
+      - 🇷🇴 www.sfzy888.com  _🇷🇴RO_319
+      - 🇷🇴 g-罗马尼亚  26 4.5M
+      - 🇸🇬 Singapore 3
+      - 🇺🇸 github.com/freefq - 美国惠普HP 17
+      - 🇭🇰 香港 3
       - Pool_🇮🇹IT_1237
-      - 🇫🇮 芬兰
-      - 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 5
+      - Pool_🇮🇹IT_1260 4.9M
+      - 🇸🇬 节点更新h 78
       - 🇺🇸 4.1M J22美国(US)USA/Flushing
-      - 🇫🇷 Pool_🇫🇷FR_1080
-      - 🇫🇷 Pool_🇫🇷FR_1075
-      - 37.19.220.194:31572  4.4M
+      - Pool_🇸🇰SK_1487 4.1M
+      - 208.78.41.197:33992 5.8M
+      - 🇺🇸 Pool_🇺🇸US_1630 4.6M
+      - 🇺🇸 United States 10
+      - 🇺🇸 美国 57  4.6M
+      - 193.29.106.109:31572   4.6M
+      - sfzy888.com _🇸🇰SK_476
+      - 🇺🇸 YouTube-阿伟科技14-US-9
+      - 🇺🇸 g-美国  55
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 32
       - Pool__603
-      - 🇷🇴 www.sfzy888.com  _🇷🇴RO_319 4.1M
-      - 🇫🇷 Pool_🇫🇷FR_1062 4.1M
-      - 🇺🇸 Pool_🇺🇸US_1569 4.1M
-      - 🇺🇸 美国 40
-      - 🇿🇦 sfzy888.com _🇿🇦ZA_794
-      - 🇫🇷 Pool_🇫🇷FR_1088
+      - Pool_🇮🇹IT_1272
+      - 🇺🇸 sfzy888.com _🇺🇸US_595
+      - 🇭🇰 g-香港CDN77节点 35
       - "@SSRSUB-V71-付费推荐:suo.yt/ssrsub"
+      - 🇷🇴 Pool_🇷🇴 RO_1399  4.6M
+      - 🇺🇸 Pool_🇺🇸US_1652
+      - 138.199.19.186:39772  3.1M
+      - github.com/freefq - 欧洲  10
+      - Pool__202
+      - Pool__251 4.5M
+      - Pool__499
+      - 🇫🇷 Pool_🇫🇷FR_1074
+      - Pool_🇬🇧GB_1140
+      - 🇺🇸 Pool_🇺🇸US_1569 4.1M
+      - 🇺🇸 美国(f) 22
+      - 89.35.29.71:40093
+      - Pool__552
+      - Pool__564
+      - Pool_🇬🇧GB_1153
+      - sfzy888.com _🇬🇧GB_240
+      - 🇺🇸 sfzy888.com _🇺🇸US-🇺🇸US_780
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
