@@ -5,522 +5,522 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 「赞助神器即送永久」★★, server: fs.proxypools.top, port: 34241, type: ss, cipher: chacha20-ietf-poly1305, password: 2c7b67a5-ac5e-4257-9e11-483527faf2ee}
   - {name: 「白嫖神器爱用不用」★★, server: zf.proxypools.top, port: 33826, type: vmess, uuid: 2c7b67a5-ac5e-4257-9e11-483527faf2ee, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /shenseven, ws-headers: {Host: zf.proxypools.top}}
   - {name: 「白嫖」https://t.me/shenseven「神器」, server: zf.proxypools.top, port: 57888, type: ss, cipher: aes-256-gcm, password: 2c7b67a5-ac5e-4257-9e11-483527faf2ee}
-  - {name: 🇭🇰 YouTube-阿伟科技01-HK-12, server: zf.proxypools.top, port: 45545, type: vmess, uuid: ccdff7dc-9511-480f-b89d-ce26d8c1877b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇺🇸 github.com/freefq - 美国惠普HP 47, server: 16.162.103.183, port: 44334, type: vmess, uuid: 49f7c16f-1607-4dd3-8d53-878d682fb406, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 16.162.103.183}}
-  - {name: 🇭🇰 github.com/freefq - 香港Amazon数据中心 46, server: 18.166.69.249, port: 44334, type: vmess, uuid: 3b6d56a7-8e76-408e-c885-5a1bb4413e85, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.166.69.249}}
-  - {name: 🇭🇰 YouTube-阿伟科技15/1-HK-12, server: superstar.hk.02.free.srayx.xyz, port: 23002, type: ss, cipher: chacha20-ietf-poly1305, password: ef105fc9-67fb-497d-8909-0f76ab9f1e6a}
-  - {name: 🇭🇰 YouTube-阿伟科技20-HK-12, server: 16.162.121.196, port: 40815, type: ss, cipher: chacha20-ietf-poly1305, password: 73c6fc86-5bcb-40df-904f-300dc31387af}
-  - {name: 「🇰🇷」九齿耙「中转」★, server: zf.proxypools.top, port: 31616, type: vmess, uuid: 2c7b67a5-ac5e-4257-9e11-483527faf2ee, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /shensevens, ws-headers: {Host: zf.proxypools.top}}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 18.166.69.249, port: 44334, type: vmess, uuid: 3b6d56a7-8e76-408e-c885-5a1bb4413e85, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.166.69.249}}
-  - {name: 🇺🇸 github.com/freefq - 美国惠普HP 45, server: 16.162.191.144, port: 44334, type: vmess, uuid: c8931063-7412-4635-b78e-0337804ee308, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 16.162.191.144}}
-  - {name: 🇯🇵 YouTube-阿伟科技14/1-JP-12, server: jm.01.nkeo.top, port: 45214, type: ss, cipher: aes-256-gcm, password: f68ac03e-10a2-4d07-a6e1-b09fbabac0ab}
-  - {name: 「🇭🇰」修罗剑「中转」★, server: zf.proxypools.top, port: 45545, type: vmess, uuid: 2c7b67a5-ac5e-4257-9e11-483527faf2ee, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇺🇸 United States 6M, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-03.yinriver.top}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 16, server: 104.16.179.47, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-04.yinriver.top}}
-  - {name: 🇺🇸 圣何塞（感谢关注youtube：8度科技）, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-04.yinriver.top}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M, server: 104.16.179.47, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /233blog, ws-headers: {Host: rn.ddns1312.top}}
-  - {name: 🇰🇷 首尔（感谢关注youtube：8度科技）, server: 104.16.179.47, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr-01.yinriver.top}}
-  - {name: 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-03.yinriver.top}}
-  - {name: 🇭🇰 YouTube-阿伟科技14/2-HK-12, server: jm.01.nkeo.top, port: 45154, type: ss, cipher: aes-256-gcm, password: f68ac03e-10a2-4d07-a6e1-b09fbabac0ab}
-  - {name: 🇸🇬 SG（感谢关注youtube：8度科技）, server: 104.16.179.47, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-08.yinriver.top}}
-  - {name: 🇸🇬 Singapore 4, server: 104.16.179.47, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-08.yinriver.top}}
-  - {name: 🇸🇬 SG（感谢关注youtube：8度科技） 2, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-08.yinriver.top}}
+  - {name: 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 4, server: 13.212.128.236, port: 55888, type: vmess, uuid: f1edf268-f81b-40db-d7ea-786c94c9fdb1, alterId: 128, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.212.128.236}}
+  - {name: 🇯🇵 YouTube-阿伟科技02-JP-15, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 55171, type: vmess, uuid: d1342495-01f2-48da-8f40-ae0f14ec4730, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: transit-azure-f4s-hk.speedtestcustom.tk}}
+  - {name: 🇺🇸 github.com/freefq - 美国麻省理工学院 29, server: sin03.tencentlink.icu, port: 20000, type: trojan, password: 031382af-fafd-47b2-b18d-95dea5dc40bb, sni: sin03.tencentlink.icu}
+  - {name: 🇭🇰 YouTube-阿伟科技13-HK-15, server: hkaz2.biteb.club, port: 51002, type: vmess, uuid: 178e04a9-7474-3f14-9a88-f5717984c95d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: index, ws-headers: {Host: hkaz2.biteb.club}}
+  - {name: 🇭🇰 YouTube-阿伟科技01-HK-14, server: zf.proxypools.top, port: 45545, type: vmess, uuid: 1cd3c8ff-177d-4a9f-a665-778015c10632, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇸🇬 YouTube-阿伟科技23-SG-15, server: sg1.pbaplink.xyz, port: 443, type: vmess, uuid: bebc950b-61b6-47f5-8625-9dc7811466a7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /pbap, ws-headers: {Host: sg1.pbaplink.xyz}}
+  - {name: 🇭🇰 YouTube-阿伟科技20-HK-15, server: 16.162.121.196, port: 80, type: vmess, uuid: d6b00425-819c-4e3a-8b52-627a1f7fdde2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}}
   - {name: 🇭🇰 YouTube-阿伟科技15/2-HK-12, server: superstar.hk.01.free.srayx.xyz, port: 23000, type: ss, cipher: chacha20-ietf-poly1305, password: 3927806a-3e97-4841-8d98-384bcf9518bf}
-  - {name: 🇰🇷 Korea 5.8M, server: 104.16.1.103, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr-01.yinriver.top}}
-  - {name: 🇺🇸 United States 12 6.1M, server: 104.17.183.48, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr-01.yinriver.top}}
-  - {name: 🇺🇸 github.com/freefq - 美国惠普HP 48, server: 16.162.118.217, port: 44334, type: vmess, uuid: a076dc92-8e3f-4ad9-f93e-276562007d93, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 16.162.118.217}}
-  - {name: 🇺🇸 United States 10  5M, server: 104.16.1.103, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-04.yinriver.top}}
-  - {name: 🇺🇸 United States 9, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-03.yinriver.top}}
-  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 12, server: 107.167.9.124, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: 🇭🇰 YouTube-阿伟科技16-HK-12, server: 18.162.48.105, port: 80, type: vmess, uuid: c1b2f61e-12b2-4bf4-982b-309373a629e3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.162.48.105}}
-  - {name: CF（感谢关注youtube：8度科技）, server: 104.16.157.195, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-03.yinriver.top}}
+  - {name: 🇭🇰 YouTube-阿伟科技20-HK-14, server: 16.162.121.196, port: 80, type: vmess, uuid: 73c6fc86-5bcb-40df-904f-300dc31387af, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}}
   - {name: 🇺🇸 United States 11, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-04.yinriver.top}}
-  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶SharkTech数据中心 15, server: www.17080100.xyz, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: 🇩🇪 YouTube-阿伟科技13-DE-11, server: jpaz1-1-1.biteb.xyz, port: 54494, type: vmess, uuid: 178e04a9-7474-3f14-9a88-f5717984c95d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: index, ws-headers: {Host: jpaz1-1-1.biteb.xyz}}
-  - {name: 🇺🇸 洛杉矶（感谢关注youtube：8度科技）, server: 89.187.187.147, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国, server: us28.xqkj.cloud, port: 1121, type: vmess, uuid: 83bc7d7c-2a5d-43fc-84ef-59037f80d2a0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us28.xqkj.cloud}}
-  - {name: 🇺🇸 美国(f) 4 3.7M, server: 107.181.177.181, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2, server: 185.242.5.149, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 「🇳🇱」轩辕剑「直连」★, server: a2.proxypools.top, port: 443, type: vmess, uuid: 2c7b67a5-ac5e-4257-9e11-483527faf2ee, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /hishenseven, ws-headers: {Host: a2.proxypools.top}}
-  - {name: 🇸🇬 SG（感谢关注youtube：8度科技） 3, server: 104.16.179.47, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-01.yinriver.top}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 2, server: us27.xqkj.cloud, port: 1127, type: vmess, uuid: 83bc7d7c-2a5d-43fc-84ef-59037f80d2a0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us27.xqkj.cloud}}
-  - {name: 208.78.41.197:33992 5.8M, server: 208.78.41.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇭🇰 香港, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 40126, type: ss, cipher: chacha20-ietf-poly1305, password: 9ba22642-d940-44af-87c8-102e527e4f74}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 3, server: us23.xqkj.cloud, port: 1123, type: vmess, uuid: 83bc7d7c-2a5d-43fc-84ef-59037f80d2a0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us23.xqkj.cloud}}
-  - {name: 🇯🇵 YouTube-阿伟科技03-JP-11 8M, server: azhk.yinriver.top, port: 60015, type: vmess, uuid: 14b428e2-aff5-4636-9b4b-af11c8dcde0e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk.yinriver.top}}
-  - {name: 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3, server: 185.242.5.147, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 比利时 布鲁塞尔（感谢关注youtube：8度科技）, server: 185.232.21.53, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇺🇸 美国 密歇根（感谢关注youtube：8度科, server: 104.244.211.141, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇸🇬 SG（感谢关注youtube：8度科技） 4, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-02.yinriver.top}}
+  - {name: 🇭🇰 YouTube-阿伟科技20-HK-15 2, server: 18.162.229.254, port: 80, type: vmess, uuid: d6b00425-819c-4e3a-8b52-627a1f7fdde2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}}
+  - {name: 🇭🇰 YouTube-阿伟科技17-HK-15, server: gya.cloudddns.icu, port: 819, type: vmess, uuid: 846b09e3-48ac-3e14-8d8e-365d24dc7ad8, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gya.cloudddns.icu}}
+  - {name: 🇭🇰 YouTube-阿伟科技16-HK-12, server: 18.162.48.105, port: 80, type: vmess, uuid: c1b2f61e-12b2-4bf4-982b-309373a629e3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.162.48.105}}
+  - {name: 🇭🇰 YouTube-阿伟科技22-HK-15, server: 52.175.122.4, port: 80, type: vmess, uuid: d9f197c9-2d2d-4ecd-96b3-29c0e8f43434, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.175.122.4}}
+  - {name: 🇺🇸 United States 6M, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-03.yinriver.top}}
+  - {name: 🇺🇸 圣何塞（感谢关注youtube：8度科技）, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-03.yinriver.top}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 2, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-04.yinriver.top}}
+  - {name: 🇸🇬 Singapore 5, server: 104.16.1.103, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-08.yinriver.top}}
+  - {name: 🇺🇸 United States 10  5M, server: 104.16.1.103, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-04.yinriver.top}}
+  - {name: 🇭🇰 YouTube-阿伟科技15/1-HK-12, server: superstar.hk.02.free.srayx.xyz, port: 23002, type: ss, cipher: chacha20-ietf-poly1305, password: ef105fc9-67fb-497d-8909-0f76ab9f1e6a}
   - {name: CYL-科技, server: 104.16.173.36, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
-  - {name: 🇺🇸 g-美国赛基诺州立大学4.9M  20, server: 104.17.56.203, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
-  - {name: 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2, server: 104.244.211.171, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇷🇺 俄罗斯 （感谢关注youtube：8度科技）, server: 91.206.93.9, port: 80, type: vmess, uuid: 5b7d91c6-646e-3f15-864a-f132e9559ef7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 91.206.93.9}}
+  - {name: 🇺🇸 United States 12 6.1M, server: 104.17.183.48, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr-01.yinriver.top}}
+  - {name: 🇰🇷 Korea 5.8M, server: 104.16.1.103, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr-01.yinriver.top}}
+  - {name: 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）, server: 212.102.44.86, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇯🇵 YouTube-阿伟科技02-JP-15 2, server: 13.231.172.143, port: 8085, type: vmess, uuid: d1342495-01f2-48da-8f40-ae0f14ec4730, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.231.172.143}}
+  - {name: 🇮🇳 github.com/freefq - 印度孟买Amazon数据中心 25, server: in04.tencentlink.icu, port: 20000, type: trojan, password: 031382af-fafd-47b2-b18d-95dea5dc40bb, sni: in04.tencentlink.icu}
+  - {name: 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 5, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇺🇸 洛杉矶（感谢关注youtube：8度科技）, server: 185.242.5.147, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7, server: 107.167.9.124, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: 🇺🇸 United States 9, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-03.yinriver.top}}
+  - {name: 🇺🇸 美国 10  5M, server: 212.102.44.83, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇸 美国 达拉斯（感谢关注youtube：8度科, server: 212.102.40.78, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 欧洲(Youtube频道：工具大师！), server: www.92726054.xyz, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}}
+  - {name: 🇺🇸 YouTube-阿伟科技11-US-12, server: 3.gd.gov.cn.miao.rest, port: 45557, type: vmess, uuid: 46f9c170-3d61-44fa-87b4-a1cf09243f8a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: edith.xiaohongshu.com}}
+  - {name: 🇭🇰 香港, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 40126, type: ss, cipher: chacha20-ietf-poly1305, password: 9ba22642-d940-44af-87c8-102e527e4f74}
+  - {name: 🇸🇬 SG（感谢关注youtube：8度科技）, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-02.yinriver.top}}
+  - {name: 🇺🇸 sfzy888.com _🇺🇸US_632, server: 198.147.22.167, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: CF（感谢关注youtube：8度科技）, server: 104.16.157.195, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-03.yinriver.top}}
+  - {name: 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）, server: 212.102.40.68, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 208.78.41.197:33992 5.8M, server: 208.78.41.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇷🇴 Pool_🇷🇴RO_1428, server: 194.37.98.211, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）, server: 91.90.123.131, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇭🇰 github.com/freefq - 香港Microsoft公司 3, server: hkaz01.dxmax.cc, port: 24743, type: vmess, uuid: e96a6823-c51d-4422-9dda-392633f77986, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /ws, ws-headers: {Host: hkaz01.dxmax.cc}}
+  - {name: 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66, server: 104.16.148.27, port: 2082, type: vmess, uuid: ed47a606-0bb2-32d0-8cac-7a8f84cf9763, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /5hfgf/5hg, ws-headers: {Host: ru-1.sb-cloud.cf}}
+  - {name: 🇭🇰 YouTube-阿伟科技15/1-HK-14, server: superstar.jp.01.free.srayx.xyz, port: 23101, type: vmess, uuid: ef105fc9-67fb-497d-8909-0f76ab9f1e6a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /srayx, ws-headers: {Host: jpfree1.srayx.xyz}}
+  - {name: 🇸🇬 SG（感谢关注youtube：8度科技） 2, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-02.yinriver.top}}
   - {name: 🇸🇬 Singapore 3, server: 104.16.1.135, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-02.yinriver.top}}
-  - {name: 「🇰🇷」聚宝盆「直连」★, server: jkr.proxypools.top, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2c7b67a5-ac5e-4257-9e11-483527faf2ee}
-  - {name: 🇺🇸 美国 达拉斯（感谢关注youtube：8度科, server: 212.102.40.78, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 「🇯🇵」无量尺「直连」★★, server: yb8.proxypools.top, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2c7b67a5-ac5e-4257-9e11-483527faf2ee}
-  - {name: 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2, server: 212.102.40.71, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 199.10.64.131:39772, server: 199.10.64.131, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇷🇴 Pool_🇷🇴RO_1405 4.5M, server: 91.90.123.187, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 保加利亚（感谢关注youtube：8度科技）, server: 217.138.202.19, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）, server: 37.120.212.131, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技） 2, server: 91.90.123.187, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 波兰 华沙（感谢关注youtube：8度科技）, server: 5.253.206.67, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
+  - {name: 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2, server: 212.102.40.71, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 乌克兰（感谢关注youtube：8度科技）, server: 37.19.220.196, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 乌克兰（感谢关注youtube：8度科技） 2, server: 37.19.220.196, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 波兰 华沙（感谢关注youtube：8度科技） 2, server: 5.253.206.67, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 20, server: 104.160.186.54, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}}
   - {name: 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 3, server: 212.102.40.78, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）3.9M, server: 91.90.123.203, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 「🇩🇪」星辰珠「解锁」★★, server: fs.proxypools.top, port: 31001, type: vmess, uuid: 2c7b67a5-ac5e-4257-9e11-483527faf2ee, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
-  - {name: 🇺🇸 4.8M J5|美国(US)USA/Los Angeles, server: 89.187.187.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）, server: 37.120.143.117, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2, server: 37.120.143.117, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 墨尔本（感谢关注youtube：8度科技）, server: 176.222.34.113, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 比利时（感谢关注youtube：8度科技）, server: 217.138.211.221, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）, server: 91.90.123.131, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇸 4.1M J22美国(US)USA/Flushing, server: 104.244.211.171, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2, server: 37.120.143.117, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 193.29.106.109:31572   4.6M, server: 193.29.106.109, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技） 3, server: 91.90.123.187, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 3, server: 37.120.212.133, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 4, server: 37.120.212.131, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 YouTube晓柒科技分享：美国, server: us28.xqkj.cloud, port: 1121, type: vmess, uuid: 83bc7d7c-2a5d-43fc-84ef-59037f80d2a0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us28.xqkj.cloud}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「赞助神器即送永久」★★
       - 「白嫖神器爱用不用」★★
       - 「白嫖」https://t.me/shenseven「神器」
-      - 🇭🇰 YouTube-阿伟科技01-HK-12
-      - 🇺🇸 github.com/freefq - 美国惠普HP 47
-      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 46
-      - 🇭🇰 YouTube-阿伟科技15/1-HK-12
-      - 🇭🇰 YouTube-阿伟科技20-HK-12
-      - 「🇰🇷」九齿耙「中转」★
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 github.com/freefq - 美国惠普HP 45
-      - 🇯🇵 YouTube-阿伟科技14/1-JP-12
-      - 「🇭🇰」修罗剑「中转」★
-      - 🇺🇸 United States 6M
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 16
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M
-      - 🇰🇷 首尔（感谢关注youtube：8度科技）
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2
-      - 🇭🇰 YouTube-阿伟科技14/2-HK-12
-      - 🇸🇬 SG（感谢关注youtube：8度科技）
-      - 🇸🇬 Singapore 4
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 4
+      - 🇯🇵 YouTube-阿伟科技02-JP-15
+      - 🇺🇸 github.com/freefq - 美国麻省理工学院 29
+      - 🇭🇰 YouTube-阿伟科技13-HK-15
+      - 🇭🇰 YouTube-阿伟科技01-HK-14
+      - 🇸🇬 YouTube-阿伟科技23-SG-15
+      - 🇭🇰 YouTube-阿伟科技20-HK-15
       - 🇭🇰 YouTube-阿伟科技15/2-HK-12
-      - 🇰🇷 Korea 5.8M
-      - 🇺🇸 United States 12 6.1M
-      - 🇺🇸 github.com/freefq - 美国惠普HP 48
-      - 🇺🇸 United States 10  5M
-      - 🇺🇸 United States 9
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 12
-      - 🇭🇰 YouTube-阿伟科技16-HK-12
-      - CF（感谢关注youtube：8度科技）
+      - 🇭🇰 YouTube-阿伟科技20-HK-14
       - 🇺🇸 United States 11
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶SharkTech数据中心 15
-      - 🇩🇪 YouTube-阿伟科技13-DE-11
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇺🇸 美国(f) 4 3.7M
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
-      - 「🇳🇱」轩辕剑「直连」★
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
-      - 208.78.41.197:33992 5.8M
-      - 🇭🇰 香港
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - 🇯🇵 YouTube-阿伟科技03-JP-11 8M
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
-      - 比利时 布鲁塞尔（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 4
+      - 🇭🇰 YouTube-阿伟科技20-HK-15 2
+      - 🇭🇰 YouTube-阿伟科技17-HK-15
+      - 🇭🇰 YouTube-阿伟科技16-HK-12
+      - 🇭🇰 YouTube-阿伟科技22-HK-15
+      - 🇺🇸 United States 6M
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 2
+      - 🇸🇬 Singapore 5
+      - 🇺🇸 United States 10  5M
+      - 🇭🇰 YouTube-阿伟科技15/1-HK-12
       - CYL-科技
-      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2
-      - 🇸🇬 Singapore 3
-      - 「🇰🇷」聚宝盆「直连」★
+      - 🇷🇺 俄罗斯 （感谢关注youtube：8度科技）
+      - 🇺🇸 United States 12 6.1M
+      - 🇰🇷 Korea 5.8M
+      - 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）
+      - 🇯🇵 YouTube-阿伟科技02-JP-15 2
+      - 🇮🇳 github.com/freefq - 印度孟买Amazon数据中心 25
+      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 5
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7
+      - 🇺🇸 United States 9
+      - 🇺🇸 美国 10  5M
       - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科
-      - 「🇯🇵」无量尺「直连」★★
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2
-      - 199.10.64.131:39772
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 3
-      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）3.9M
-      - 「🇩🇪」星辰珠「解锁」★★
-      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
-      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
-      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2
-      - 墨尔本（感谢关注youtube：8度科技）
-      - 比利时（感谢关注youtube：8度科技）
+      - 欧洲(Youtube频道：工具大师！)
+      - 🇺🇸 YouTube-阿伟科技11-US-12
+      - 🇭🇰 香港
+      - 🇸🇬 SG（感谢关注youtube：8度科技）
+      - 🇺🇸 sfzy888.com _🇺🇸US_632
+      - CF（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）
+      - 208.78.41.197:33992 5.8M
+      - 🇷🇴 Pool_🇷🇴RO_1428
       - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）
+      - 🇭🇰 github.com/freefq - 香港Microsoft公司 3
+      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 🇭🇰 YouTube-阿伟科技15/1-HK-14
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇸🇬 Singapore 3
+      - 🇷🇴 Pool_🇷🇴RO_1405 4.5M
+      - 保加利亚（感谢关注youtube：8度科技）
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技） 2
+      - 波兰 华沙（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2
+      - 乌克兰（感谢关注youtube：8度科技）
+      - 乌克兰（感谢关注youtube：8度科技） 2
+      - 波兰 华沙（感谢关注youtube：8度科技） 2
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 20
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 3
+      - 🇺🇸 4.1M J22美国(US)USA/Flushing
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2
+      - 193.29.106.109:31572   4.6M
+      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技） 3
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 3
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 4
+      - 🇺🇸 YouTube晓柒科技分享：美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 「赞助神器即送永久」★★
       - 「白嫖神器爱用不用」★★
       - 「白嫖」https://t.me/shenseven「神器」
-      - 🇭🇰 YouTube-阿伟科技01-HK-12
-      - 🇺🇸 github.com/freefq - 美国惠普HP 47
-      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 46
-      - 🇭🇰 YouTube-阿伟科技15/1-HK-12
-      - 🇭🇰 YouTube-阿伟科技20-HK-12
-      - 「🇰🇷」九齿耙「中转」★
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 github.com/freefq - 美国惠普HP 45
-      - 🇯🇵 YouTube-阿伟科技14/1-JP-12
-      - 「🇭🇰」修罗剑「中转」★
-      - 🇺🇸 United States 6M
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 16
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M
-      - 🇰🇷 首尔（感谢关注youtube：8度科技）
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2
-      - 🇭🇰 YouTube-阿伟科技14/2-HK-12
-      - 🇸🇬 SG（感谢关注youtube：8度科技）
-      - 🇸🇬 Singapore 4
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 4
+      - 🇯🇵 YouTube-阿伟科技02-JP-15
+      - 🇺🇸 github.com/freefq - 美国麻省理工学院 29
+      - 🇭🇰 YouTube-阿伟科技13-HK-15
+      - 🇭🇰 YouTube-阿伟科技01-HK-14
+      - 🇸🇬 YouTube-阿伟科技23-SG-15
+      - 🇭🇰 YouTube-阿伟科技20-HK-15
       - 🇭🇰 YouTube-阿伟科技15/2-HK-12
-      - 🇰🇷 Korea 5.8M
-      - 🇺🇸 United States 12 6.1M
-      - 🇺🇸 github.com/freefq - 美国惠普HP 48
-      - 🇺🇸 United States 10  5M
-      - 🇺🇸 United States 9
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 12
-      - 🇭🇰 YouTube-阿伟科技16-HK-12
-      - CF（感谢关注youtube：8度科技）
+      - 🇭🇰 YouTube-阿伟科技20-HK-14
       - 🇺🇸 United States 11
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶SharkTech数据中心 15
-      - 🇩🇪 YouTube-阿伟科技13-DE-11
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇺🇸 美国(f) 4 3.7M
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
-      - 「🇳🇱」轩辕剑「直连」★
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
-      - 208.78.41.197:33992 5.8M
-      - 🇭🇰 香港
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - 🇯🇵 YouTube-阿伟科技03-JP-11 8M
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
-      - 比利时 布鲁塞尔（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 4
+      - 🇭🇰 YouTube-阿伟科技20-HK-15 2
+      - 🇭🇰 YouTube-阿伟科技17-HK-15
+      - 🇭🇰 YouTube-阿伟科技16-HK-12
+      - 🇭🇰 YouTube-阿伟科技22-HK-15
+      - 🇺🇸 United States 6M
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 2
+      - 🇸🇬 Singapore 5
+      - 🇺🇸 United States 10  5M
+      - 🇭🇰 YouTube-阿伟科技15/1-HK-12
       - CYL-科技
-      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2
-      - 🇸🇬 Singapore 3
-      - 「🇰🇷」聚宝盆「直连」★
+      - 🇷🇺 俄罗斯 （感谢关注youtube：8度科技）
+      - 🇺🇸 United States 12 6.1M
+      - 🇰🇷 Korea 5.8M
+      - 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）
+      - 🇯🇵 YouTube-阿伟科技02-JP-15 2
+      - 🇮🇳 github.com/freefq - 印度孟买Amazon数据中心 25
+      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 5
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7
+      - 🇺🇸 United States 9
+      - 🇺🇸 美国 10  5M
       - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科
-      - 「🇯🇵」无量尺「直连」★★
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2
-      - 199.10.64.131:39772
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 3
-      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）3.9M
-      - 「🇩🇪」星辰珠「解锁」★★
-      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
-      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
-      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2
-      - 墨尔本（感谢关注youtube：8度科技）
-      - 比利时（感谢关注youtube：8度科技）
+      - 欧洲(Youtube频道：工具大师！)
+      - 🇺🇸 YouTube-阿伟科技11-US-12
+      - 🇭🇰 香港
+      - 🇸🇬 SG（感谢关注youtube：8度科技）
+      - 🇺🇸 sfzy888.com _🇺🇸US_632
+      - CF（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）
+      - 208.78.41.197:33992 5.8M
+      - 🇷🇴 Pool_🇷🇴RO_1428
       - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）
+      - 🇭🇰 github.com/freefq - 香港Microsoft公司 3
+      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 🇭🇰 YouTube-阿伟科技15/1-HK-14
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇸🇬 Singapore 3
+      - 🇷🇴 Pool_🇷🇴RO_1405 4.5M
+      - 保加利亚（感谢关注youtube：8度科技）
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技） 2
+      - 波兰 华沙（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2
+      - 乌克兰（感谢关注youtube：8度科技）
+      - 乌克兰（感谢关注youtube：8度科技） 2
+      - 波兰 华沙（感谢关注youtube：8度科技） 2
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 20
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 3
+      - 🇺🇸 4.1M J22美国(US)USA/Flushing
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2
+      - 193.29.106.109:31572   4.6M
+      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技） 3
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 3
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 4
+      - 🇺🇸 YouTube晓柒科技分享：美国
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「赞助神器即送永久」★★
       - 「白嫖神器爱用不用」★★
       - 「白嫖」https://t.me/shenseven「神器」
-      - 🇭🇰 YouTube-阿伟科技01-HK-12
-      - 🇺🇸 github.com/freefq - 美国惠普HP 47
-      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 46
-      - 🇭🇰 YouTube-阿伟科技15/1-HK-12
-      - 🇭🇰 YouTube-阿伟科技20-HK-12
-      - 「🇰🇷」九齿耙「中转」★
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 github.com/freefq - 美国惠普HP 45
-      - 🇯🇵 YouTube-阿伟科技14/1-JP-12
-      - 「🇭🇰」修罗剑「中转」★
-      - 🇺🇸 United States 6M
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 16
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M
-      - 🇰🇷 首尔（感谢关注youtube：8度科技）
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2
-      - 🇭🇰 YouTube-阿伟科技14/2-HK-12
-      - 🇸🇬 SG（感谢关注youtube：8度科技）
-      - 🇸🇬 Singapore 4
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 4
+      - 🇯🇵 YouTube-阿伟科技02-JP-15
+      - 🇺🇸 github.com/freefq - 美国麻省理工学院 29
+      - 🇭🇰 YouTube-阿伟科技13-HK-15
+      - 🇭🇰 YouTube-阿伟科技01-HK-14
+      - 🇸🇬 YouTube-阿伟科技23-SG-15
+      - 🇭🇰 YouTube-阿伟科技20-HK-15
       - 🇭🇰 YouTube-阿伟科技15/2-HK-12
-      - 🇰🇷 Korea 5.8M
-      - 🇺🇸 United States 12 6.1M
-      - 🇺🇸 github.com/freefq - 美国惠普HP 48
-      - 🇺🇸 United States 10  5M
-      - 🇺🇸 United States 9
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 12
-      - 🇭🇰 YouTube-阿伟科技16-HK-12
-      - CF（感谢关注youtube：8度科技）
+      - 🇭🇰 YouTube-阿伟科技20-HK-14
       - 🇺🇸 United States 11
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶SharkTech数据中心 15
-      - 🇩🇪 YouTube-阿伟科技13-DE-11
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇺🇸 美国(f) 4 3.7M
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
-      - 「🇳🇱」轩辕剑「直连」★
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
-      - 208.78.41.197:33992 5.8M
-      - 🇭🇰 香港
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - 🇯🇵 YouTube-阿伟科技03-JP-11 8M
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
-      - 比利时 布鲁塞尔（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 4
+      - 🇭🇰 YouTube-阿伟科技20-HK-15 2
+      - 🇭🇰 YouTube-阿伟科技17-HK-15
+      - 🇭🇰 YouTube-阿伟科技16-HK-12
+      - 🇭🇰 YouTube-阿伟科技22-HK-15
+      - 🇺🇸 United States 6M
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 2
+      - 🇸🇬 Singapore 5
+      - 🇺🇸 United States 10  5M
+      - 🇭🇰 YouTube-阿伟科技15/1-HK-12
       - CYL-科技
-      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2
-      - 🇸🇬 Singapore 3
-      - 「🇰🇷」聚宝盆「直连」★
+      - 🇷🇺 俄罗斯 （感谢关注youtube：8度科技）
+      - 🇺🇸 United States 12 6.1M
+      - 🇰🇷 Korea 5.8M
+      - 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）
+      - 🇯🇵 YouTube-阿伟科技02-JP-15 2
+      - 🇮🇳 github.com/freefq - 印度孟买Amazon数据中心 25
+      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 5
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7
+      - 🇺🇸 United States 9
+      - 🇺🇸 美国 10  5M
       - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科
-      - 「🇯🇵」无量尺「直连」★★
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2
-      - 199.10.64.131:39772
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 3
-      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）3.9M
-      - 「🇩🇪」星辰珠「解锁」★★
-      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
-      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
-      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2
-      - 墨尔本（感谢关注youtube：8度科技）
-      - 比利时（感谢关注youtube：8度科技）
+      - 欧洲(Youtube频道：工具大师！)
+      - 🇺🇸 YouTube-阿伟科技11-US-12
+      - 🇭🇰 香港
+      - 🇸🇬 SG（感谢关注youtube：8度科技）
+      - 🇺🇸 sfzy888.com _🇺🇸US_632
+      - CF（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）
+      - 208.78.41.197:33992 5.8M
+      - 🇷🇴 Pool_🇷🇴RO_1428
       - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）
+      - 🇭🇰 github.com/freefq - 香港Microsoft公司 3
+      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 🇭🇰 YouTube-阿伟科技15/1-HK-14
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇸🇬 Singapore 3
+      - 🇷🇴 Pool_🇷🇴RO_1405 4.5M
+      - 保加利亚（感谢关注youtube：8度科技）
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技） 2
+      - 波兰 华沙（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2
+      - 乌克兰（感谢关注youtube：8度科技）
+      - 乌克兰（感谢关注youtube：8度科技） 2
+      - 波兰 华沙（感谢关注youtube：8度科技） 2
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 20
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 3
+      - 🇺🇸 4.1M J22美国(US)USA/Flushing
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2
+      - 193.29.106.109:31572   4.6M
+      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技） 3
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 3
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 4
+      - 🇺🇸 YouTube晓柒科技分享：美国
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 46
       - 🇭🇰 香港
+      - 🇭🇰 github.com/freefq - 香港Microsoft公司 3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 「赞助神器即送永久」★★
       - 「白嫖神器爱用不用」★★
       - 「白嫖」https://t.me/shenseven「神器」
-      - 🇭🇰 YouTube-阿伟科技01-HK-12
-      - 🇺🇸 github.com/freefq - 美国惠普HP 47
-      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 46
-      - 🇭🇰 YouTube-阿伟科技15/1-HK-12
-      - 🇭🇰 YouTube-阿伟科技20-HK-12
-      - 「🇰🇷」九齿耙「中转」★
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 github.com/freefq - 美国惠普HP 45
-      - 🇯🇵 YouTube-阿伟科技14/1-JP-12
-      - 「🇭🇰」修罗剑「中转」★
-      - 🇺🇸 United States 6M
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 16
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M
-      - 🇰🇷 首尔（感谢关注youtube：8度科技）
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2
-      - 🇭🇰 YouTube-阿伟科技14/2-HK-12
-      - 🇸🇬 SG（感谢关注youtube：8度科技）
-      - 🇸🇬 Singapore 4
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 4
+      - 🇯🇵 YouTube-阿伟科技02-JP-15
+      - 🇺🇸 github.com/freefq - 美国麻省理工学院 29
+      - 🇭🇰 YouTube-阿伟科技13-HK-15
+      - 🇭🇰 YouTube-阿伟科技01-HK-14
+      - 🇸🇬 YouTube-阿伟科技23-SG-15
+      - 🇭🇰 YouTube-阿伟科技20-HK-15
       - 🇭🇰 YouTube-阿伟科技15/2-HK-12
-      - 🇰🇷 Korea 5.8M
-      - 🇺🇸 United States 12 6.1M
-      - 🇺🇸 github.com/freefq - 美国惠普HP 48
-      - 🇺🇸 United States 10  5M
-      - 🇺🇸 United States 9
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 12
-      - 🇭🇰 YouTube-阿伟科技16-HK-12
-      - CF（感谢关注youtube：8度科技）
+      - 🇭🇰 YouTube-阿伟科技20-HK-14
       - 🇺🇸 United States 11
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶SharkTech数据中心 15
-      - 🇩🇪 YouTube-阿伟科技13-DE-11
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇺🇸 美国(f) 4 3.7M
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
-      - 「🇳🇱」轩辕剑「直连」★
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
-      - 208.78.41.197:33992 5.8M
-      - 🇭🇰 香港
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - 🇯🇵 YouTube-阿伟科技03-JP-11 8M
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
-      - 比利时 布鲁塞尔（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 4
+      - 🇭🇰 YouTube-阿伟科技20-HK-15 2
+      - 🇭🇰 YouTube-阿伟科技17-HK-15
+      - 🇭🇰 YouTube-阿伟科技16-HK-12
+      - 🇭🇰 YouTube-阿伟科技22-HK-15
+      - 🇺🇸 United States 6M
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 2
+      - 🇸🇬 Singapore 5
+      - 🇺🇸 United States 10  5M
+      - 🇭🇰 YouTube-阿伟科技15/1-HK-12
       - CYL-科技
-      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2
-      - 🇸🇬 Singapore 3
-      - 「🇰🇷」聚宝盆「直连」★
+      - 🇷🇺 俄罗斯 （感谢关注youtube：8度科技）
+      - 🇺🇸 United States 12 6.1M
+      - 🇰🇷 Korea 5.8M
+      - 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）
+      - 🇯🇵 YouTube-阿伟科技02-JP-15 2
+      - 🇮🇳 github.com/freefq - 印度孟买Amazon数据中心 25
+      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 5
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7
+      - 🇺🇸 United States 9
+      - 🇺🇸 美国 10  5M
       - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科
-      - 「🇯🇵」无量尺「直连」★★
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2
-      - 199.10.64.131:39772
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 3
-      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）3.9M
-      - 「🇩🇪」星辰珠「解锁」★★
-      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
-      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
-      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2
-      - 墨尔本（感谢关注youtube：8度科技）
-      - 比利时（感谢关注youtube：8度科技）
+      - 欧洲(Youtube频道：工具大师！)
+      - 🇺🇸 YouTube-阿伟科技11-US-12
+      - 🇭🇰 香港
+      - 🇸🇬 SG（感谢关注youtube：8度科技）
+      - 🇺🇸 sfzy888.com _🇺🇸US_632
+      - CF（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）
+      - 208.78.41.197:33992 5.8M
+      - 🇷🇴 Pool_🇷🇴RO_1428
       - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）
+      - 🇭🇰 github.com/freefq - 香港Microsoft公司 3
+      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 🇭🇰 YouTube-阿伟科技15/1-HK-14
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇸🇬 Singapore 3
+      - 🇷🇴 Pool_🇷🇴RO_1405 4.5M
+      - 保加利亚（感谢关注youtube：8度科技）
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技） 2
+      - 波兰 华沙（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2
+      - 乌克兰（感谢关注youtube：8度科技）
+      - 乌克兰（感谢关注youtube：8度科技） 2
+      - 波兰 华沙（感谢关注youtube：8度科技） 2
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 20
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 3
+      - 🇺🇸 4.1M J22美国(US)USA/Flushing
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2
+      - 193.29.106.109:31572   4.6M
+      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技） 3
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 3
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 4
+      - 🇺🇸 YouTube晓柒科技分享：美国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 「赞助神器即送永久」★★
       - 「白嫖神器爱用不用」★★
       - 「白嫖」https://t.me/shenseven「神器」
-      - 🇭🇰 YouTube-阿伟科技01-HK-12
-      - 🇺🇸 github.com/freefq - 美国惠普HP 47
-      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 46
-      - 🇭🇰 YouTube-阿伟科技15/1-HK-12
-      - 🇭🇰 YouTube-阿伟科技20-HK-12
-      - 「🇰🇷」九齿耙「中转」★
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 github.com/freefq - 美国惠普HP 45
-      - 🇯🇵 YouTube-阿伟科技14/1-JP-12
-      - 「🇭🇰」修罗剑「中转」★
-      - 🇺🇸 United States 6M
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 16
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M
-      - 🇰🇷 首尔（感谢关注youtube：8度科技）
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2
-      - 🇭🇰 YouTube-阿伟科技14/2-HK-12
-      - 🇸🇬 SG（感谢关注youtube：8度科技）
-      - 🇸🇬 Singapore 4
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 4
+      - 🇯🇵 YouTube-阿伟科技02-JP-15
+      - 🇺🇸 github.com/freefq - 美国麻省理工学院 29
+      - 🇭🇰 YouTube-阿伟科技13-HK-15
+      - 🇭🇰 YouTube-阿伟科技01-HK-14
+      - 🇸🇬 YouTube-阿伟科技23-SG-15
+      - 🇭🇰 YouTube-阿伟科技20-HK-15
       - 🇭🇰 YouTube-阿伟科技15/2-HK-12
-      - 🇰🇷 Korea 5.8M
-      - 🇺🇸 United States 12 6.1M
-      - 🇺🇸 github.com/freefq - 美国惠普HP 48
-      - 🇺🇸 United States 10  5M
-      - 🇺🇸 United States 9
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 12
-      - 🇭🇰 YouTube-阿伟科技16-HK-12
-      - CF（感谢关注youtube：8度科技）
+      - 🇭🇰 YouTube-阿伟科技20-HK-14
       - 🇺🇸 United States 11
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶SharkTech数据中心 15
-      - 🇩🇪 YouTube-阿伟科技13-DE-11
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇺🇸 美国(f) 4 3.7M
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
-      - 「🇳🇱」轩辕剑「直连」★
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
-      - 208.78.41.197:33992 5.8M
-      - 🇭🇰 香港
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - 🇯🇵 YouTube-阿伟科技03-JP-11 8M
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
-      - 比利时 布鲁塞尔（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 4
+      - 🇭🇰 YouTube-阿伟科技20-HK-15 2
+      - 🇭🇰 YouTube-阿伟科技17-HK-15
+      - 🇭🇰 YouTube-阿伟科技16-HK-12
+      - 🇭🇰 YouTube-阿伟科技22-HK-15
+      - 🇺🇸 United States 6M
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 2
+      - 🇸🇬 Singapore 5
+      - 🇺🇸 United States 10  5M
+      - 🇭🇰 YouTube-阿伟科技15/1-HK-12
       - CYL-科技
-      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2
-      - 🇸🇬 Singapore 3
-      - 「🇰🇷」聚宝盆「直连」★
+      - 🇷🇺 俄罗斯 （感谢关注youtube：8度科技）
+      - 🇺🇸 United States 12 6.1M
+      - 🇰🇷 Korea 5.8M
+      - 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）
+      - 🇯🇵 YouTube-阿伟科技02-JP-15 2
+      - 🇮🇳 github.com/freefq - 印度孟买Amazon数据中心 25
+      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 5
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7
+      - 🇺🇸 United States 9
+      - 🇺🇸 美国 10  5M
       - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科
-      - 「🇯🇵」无量尺「直连」★★
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2
-      - 199.10.64.131:39772
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 3
-      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）3.9M
-      - 「🇩🇪」星辰珠「解锁」★★
-      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
-      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
-      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2
-      - 墨尔本（感谢关注youtube：8度科技）
-      - 比利时（感谢关注youtube：8度科技）
+      - 欧洲(Youtube频道：工具大师！)
+      - 🇺🇸 YouTube-阿伟科技11-US-12
+      - 🇭🇰 香港
+      - 🇸🇬 SG（感谢关注youtube：8度科技）
+      - 🇺🇸 sfzy888.com _🇺🇸US_632
+      - CF（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）
+      - 208.78.41.197:33992 5.8M
+      - 🇷🇴 Pool_🇷🇴RO_1428
       - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）
+      - 🇭🇰 github.com/freefq - 香港Microsoft公司 3
+      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 🇭🇰 YouTube-阿伟科技15/1-HK-14
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇸🇬 Singapore 3
+      - 🇷🇴 Pool_🇷🇴RO_1405 4.5M
+      - 保加利亚（感谢关注youtube：8度科技）
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技） 2
+      - 波兰 华沙（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2
+      - 乌克兰（感谢关注youtube：8度科技）
+      - 乌克兰（感谢关注youtube：8度科技） 2
+      - 波兰 华沙（感谢关注youtube：8度科技） 2
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 20
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 3
+      - 🇺🇸 4.1M J22美国(US)USA/Flushing
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2
+      - 193.29.106.109:31572   4.6M
+      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技） 3
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 3
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 4
+      - 🇺🇸 YouTube晓柒科技分享：美国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「赞助神器即送永久」★★
       - 「白嫖神器爱用不用」★★
       - 「白嫖」https://t.me/shenseven「神器」
-      - 🇭🇰 YouTube-阿伟科技01-HK-12
-      - 🇺🇸 github.com/freefq - 美国惠普HP 47
-      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 46
-      - 🇭🇰 YouTube-阿伟科技15/1-HK-12
-      - 🇭🇰 YouTube-阿伟科技20-HK-12
-      - 「🇰🇷」九齿耙「中转」★
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 github.com/freefq - 美国惠普HP 45
-      - 🇯🇵 YouTube-阿伟科技14/1-JP-12
-      - 「🇭🇰」修罗剑「中转」★
-      - 🇺🇸 United States 6M
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 16
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M
-      - 🇰🇷 首尔（感谢关注youtube：8度科技）
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2
-      - 🇭🇰 YouTube-阿伟科技14/2-HK-12
-      - 🇸🇬 SG（感谢关注youtube：8度科技）
-      - 🇸🇬 Singapore 4
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 4
+      - 🇯🇵 YouTube-阿伟科技02-JP-15
+      - 🇺🇸 github.com/freefq - 美国麻省理工学院 29
+      - 🇭🇰 YouTube-阿伟科技13-HK-15
+      - 🇭🇰 YouTube-阿伟科技01-HK-14
+      - 🇸🇬 YouTube-阿伟科技23-SG-15
+      - 🇭🇰 YouTube-阿伟科技20-HK-15
       - 🇭🇰 YouTube-阿伟科技15/2-HK-12
-      - 🇰🇷 Korea 5.8M
-      - 🇺🇸 United States 12 6.1M
-      - 🇺🇸 github.com/freefq - 美国惠普HP 48
-      - 🇺🇸 United States 10  5M
-      - 🇺🇸 United States 9
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 12
-      - 🇭🇰 YouTube-阿伟科技16-HK-12
-      - CF（感谢关注youtube：8度科技）
+      - 🇭🇰 YouTube-阿伟科技20-HK-14
       - 🇺🇸 United States 11
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶SharkTech数据中心 15
-      - 🇩🇪 YouTube-阿伟科技13-DE-11
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇺🇸 美国(f) 4 3.7M
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
-      - 「🇳🇱」轩辕剑「直连」★
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
-      - 208.78.41.197:33992 5.8M
-      - 🇭🇰 香港
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - 🇯🇵 YouTube-阿伟科技03-JP-11 8M
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
-      - 比利时 布鲁塞尔（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 4
+      - 🇭🇰 YouTube-阿伟科技20-HK-15 2
+      - 🇭🇰 YouTube-阿伟科技17-HK-15
+      - 🇭🇰 YouTube-阿伟科技16-HK-12
+      - 🇭🇰 YouTube-阿伟科技22-HK-15
+      - 🇺🇸 United States 6M
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 2
+      - 🇸🇬 Singapore 5
+      - 🇺🇸 United States 10  5M
+      - 🇭🇰 YouTube-阿伟科技15/1-HK-12
       - CYL-科技
-      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2
-      - 🇸🇬 Singapore 3
-      - 「🇰🇷」聚宝盆「直连」★
+      - 🇷🇺 俄罗斯 （感谢关注youtube：8度科技）
+      - 🇺🇸 United States 12 6.1M
+      - 🇰🇷 Korea 5.8M
+      - 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）
+      - 🇯🇵 YouTube-阿伟科技02-JP-15 2
+      - 🇮🇳 github.com/freefq - 印度孟买Amazon数据中心 25
+      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 5
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7
+      - 🇺🇸 United States 9
+      - 🇺🇸 美国 10  5M
       - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科
-      - 「🇯🇵」无量尺「直连」★★
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2
-      - 199.10.64.131:39772
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 3
-      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）3.9M
-      - 「🇩🇪」星辰珠「解锁」★★
-      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
-      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
-      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2
-      - 墨尔本（感谢关注youtube：8度科技）
-      - 比利时（感谢关注youtube：8度科技）
+      - 欧洲(Youtube频道：工具大师！)
+      - 🇺🇸 YouTube-阿伟科技11-US-12
+      - 🇭🇰 香港
+      - 🇸🇬 SG（感谢关注youtube：8度科技）
+      - 🇺🇸 sfzy888.com _🇺🇸US_632
+      - CF（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）
+      - 208.78.41.197:33992 5.8M
+      - 🇷🇴 Pool_🇷🇴RO_1428
       - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）
+      - 🇭🇰 github.com/freefq - 香港Microsoft公司 3
+      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 🇭🇰 YouTube-阿伟科技15/1-HK-14
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇸🇬 Singapore 3
+      - 🇷🇴 Pool_🇷🇴RO_1405 4.5M
+      - 保加利亚（感谢关注youtube：8度科技）
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技） 2
+      - 波兰 华沙（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2
+      - 乌克兰（感谢关注youtube：8度科技）
+      - 乌克兰（感谢关注youtube：8度科技） 2
+      - 波兰 华沙（感谢关注youtube：8度科技） 2
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 20
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 3
+      - 🇺🇸 4.1M J22美国(US)USA/Flushing
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2
+      - 193.29.106.109:31572   4.6M
+      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技） 3
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 3
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 4
+      - 🇺🇸 YouTube晓柒科技分享：美国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -536,74 +536,74 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「赞助神器即送永久」★★
       - 「白嫖神器爱用不用」★★
       - 「白嫖」https://t.me/shenseven「神器」
-      - 🇭🇰 YouTube-阿伟科技01-HK-12
-      - 🇺🇸 github.com/freefq - 美国惠普HP 47
-      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 46
-      - 🇭🇰 YouTube-阿伟科技15/1-HK-12
-      - 🇭🇰 YouTube-阿伟科技20-HK-12
-      - 「🇰🇷」九齿耙「中转」★
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 github.com/freefq - 美国惠普HP 45
-      - 🇯🇵 YouTube-阿伟科技14/1-JP-12
-      - 「🇭🇰」修罗剑「中转」★
-      - 🇺🇸 United States 6M
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 16
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN7M
-      - 🇰🇷 首尔（感谢关注youtube：8度科技）
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2
-      - 🇭🇰 YouTube-阿伟科技14/2-HK-12
-      - 🇸🇬 SG（感谢关注youtube：8度科技）
-      - 🇸🇬 Singapore 4
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 4
+      - 🇯🇵 YouTube-阿伟科技02-JP-15
+      - 🇺🇸 github.com/freefq - 美国麻省理工学院 29
+      - 🇭🇰 YouTube-阿伟科技13-HK-15
+      - 🇭🇰 YouTube-阿伟科技01-HK-14
+      - 🇸🇬 YouTube-阿伟科技23-SG-15
+      - 🇭🇰 YouTube-阿伟科技20-HK-15
       - 🇭🇰 YouTube-阿伟科技15/2-HK-12
-      - 🇰🇷 Korea 5.8M
-      - 🇺🇸 United States 12 6.1M
-      - 🇺🇸 github.com/freefq - 美国惠普HP 48
-      - 🇺🇸 United States 10  5M
-      - 🇺🇸 United States 9
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 12
-      - 🇭🇰 YouTube-阿伟科技16-HK-12
-      - CF（感谢关注youtube：8度科技）
+      - 🇭🇰 YouTube-阿伟科技20-HK-14
       - 🇺🇸 United States 11
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶SharkTech数据中心 15
-      - 🇩🇪 YouTube-阿伟科技13-DE-11
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇺🇸 美国(f) 4 3.7M
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
-      - 「🇳🇱」轩辕剑「直连」★
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
-      - 208.78.41.197:33992 5.8M
-      - 🇭🇰 香港
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - 🇯🇵 YouTube-阿伟科技03-JP-11 8M
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
-      - 比利时 布鲁塞尔（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 4
+      - 🇭🇰 YouTube-阿伟科技20-HK-15 2
+      - 🇭🇰 YouTube-阿伟科技17-HK-15
+      - 🇭🇰 YouTube-阿伟科技16-HK-12
+      - 🇭🇰 YouTube-阿伟科技22-HK-15
+      - 🇺🇸 United States 6M
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 2
+      - 🇸🇬 Singapore 5
+      - 🇺🇸 United States 10  5M
+      - 🇭🇰 YouTube-阿伟科技15/1-HK-12
       - CYL-科技
-      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2
-      - 🇸🇬 Singapore 3
-      - 「🇰🇷」聚宝盆「直连」★
+      - 🇷🇺 俄罗斯 （感谢关注youtube：8度科技）
+      - 🇺🇸 United States 12 6.1M
+      - 🇰🇷 Korea 5.8M
+      - 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）
+      - 🇯🇵 YouTube-阿伟科技02-JP-15 2
+      - 🇮🇳 github.com/freefq - 印度孟买Amazon数据中心 25
+      - 🇦🇨 github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 5
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7
+      - 🇺🇸 United States 9
+      - 🇺🇸 美国 10  5M
       - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科
-      - 「🇯🇵」无量尺「直连」★★
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2
-      - 199.10.64.131:39772
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 3
-      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）3.9M
-      - 「🇩🇪」星辰珠「解锁」★★
-      - 🇺🇸 4.8M J5|美国(US)USA/Los Angeles
-      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
-      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2
-      - 墨尔本（感谢关注youtube：8度科技）
-      - 比利时（感谢关注youtube：8度科技）
+      - 欧洲(Youtube频道：工具大师！)
+      - 🇺🇸 YouTube-阿伟科技11-US-12
+      - 🇭🇰 香港
+      - 🇸🇬 SG（感谢关注youtube：8度科技）
+      - 🇺🇸 sfzy888.com _🇺🇸US_632
+      - CF（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）
+      - 208.78.41.197:33992 5.8M
+      - 🇷🇴 Pool_🇷🇴RO_1428
       - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）
+      - 🇭🇰 github.com/freefq - 香港Microsoft公司 3
+      - 🇷🇺 俄罗斯3-https://bit.ly/3uWuS7a  3.6MJ66
+      - 🇭🇰 YouTube-阿伟科技15/1-HK-14
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇸🇬 Singapore 3
+      - 🇷🇴 Pool_🇷🇴RO_1405 4.5M
+      - 保加利亚（感谢关注youtube：8度科技）
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技） 2
+      - 波兰 华沙（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2
+      - 乌克兰（感谢关注youtube：8度科技）
+      - 乌克兰（感谢关注youtube：8度科技） 2
+      - 波兰 华沙（感谢关注youtube：8度科技） 2
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 20
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 3
+      - 🇺🇸 4.1M J22美国(US)USA/Flushing
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2
+      - 193.29.106.109:31572   4.6M
+      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技） 3
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 3
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 4
+      - 🇺🇸 YouTube晓柒科技分享：美国
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
