@@ -5,535 +5,549 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x, server: 120.236.197.202, port: 20020, type: vmess, uuid: b8583f26-9717-3f5a-91cf-b48a910344ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /mfyun.m3u8, ws-headers: {Host: 120.236.197.202}}
   - {name: 「白嫖神器爱用不用」★★, server: zf.proxypools.top, port: 33826, type: vmess, uuid: 2c7b67a5-ac5e-4257-9e11-483527faf2ee, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /shenseven, ws-headers: {Host: zf.proxypools.top}}
+  - {name: 🇸🇬 【直连】SIN/狮城 B - 4, server: 039.SG.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 039.SG.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 B - 2, server: 037.SG.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 037.SG.AP.POP.BIGAIRPORT.NET}}
   - {name: 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore, server: 037.sg.ap.pop.bigairport.net, port: 80, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong, server: hk3.uuv2.co.uk, port: 1016, type: vmess, uuid: 2751b1f3-54a5-447a-87ae-df1e88e2aaee, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /fuck_you_thief, ws-headers: {Host: hk3.uuv2.co.uk}}
-  - {name: 🇸🇬 【直连】SIN/狮城 A - 2, server: 032.SG.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 032.SG.AP.POP.BIGAIRPORT.NET}}
   - {name: 🇸🇬 YouTube-阿伟科技23-SG-15, server: sin01.publicss.cc, port: 443, type: vmess, uuid: bebc950b-61b6-47f5-8625-9dc7811466a7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /pbap, ws-headers: {Host: sin01.publicss.cc}}
-  - {name: 🇸🇬 gq - 新加坡Amazon数据中心 6, server: 13.212.128.236, port: 55888, type: vmess, uuid: f1edf268-f81b-40db-d7ea-786c94c9fdb1, alterId: 128, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.212.128.236}}
-  - {name: 🇭🇰 【直连】HKG/香港 A - 5, server: 005.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 005.HK.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 【直连】SIN/狮城 B - 5, server: 040.SG.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 040.SG.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HKG/香港 A - 9, server: 009.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 009.HK.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 YouTube-阿伟科技23-SG-15 2, server: sg1.pbaplink.xyz, port: 443, type: vmess, uuid: bebc950b-61b6-47f5-8625-9dc7811466a7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /pbap, ws-headers: {Host: sg1.pbaplink.xyz}}
+  - {name: 🇭🇰 YouTube-阿伟科技08-HK-18, server: 413.cloudddns.icu, port: 978, type: vmess, uuid: 1474e8e6-2c5c-3fe2-9de9-b9ce56c48745, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: 413.cloudddns.icu}}
+  - {name: 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x, server: 120.236.197.202, port: 20020, type: vmess, uuid: b8583f26-9717-3f5a-91cf-b48a910344ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /mfyun.m3u8, ws-headers: {Host: 120.236.197.202}}
+  - {name: 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x, server: 52.175.79.113, port: 60015, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.175.79.113}}
+  - {name: 🇭🇰 【直连】HKG/香港 A - 3, server: 003.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 003.HK.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 B - 4, server: 014.HK.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 014.HK.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 B - 9, server: 019.HK.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 019.HK.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 B - 8, server: 018.HK.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 018.HK.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238, server: jb.wocaonimabi666.xyz, port: 31707, type: vmess, uuid: d1674a89-84de-4444-f7ca-2a7954212545, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港 7, server: agals01.cloudddns.icu, port: 123, type: trojan, password: d32d8723-5983-3ecc-8e9f-8b57bab1a584, sni: agals01.cloudddns.icu}
-  - {name: 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam, server: 204.124.181.108, port: 10606, type: vmess, uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2, alterId: 8, cipher: auto, tls: false}
-  - {name: 🇺🇸 圣何塞（感谢关注youtube：8度科技）, server: 104.27.80.26, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-04.yinriver.top}}
-  - {name: 🇭🇰 YouTube-阿伟科技01-HK-16, server: hk1.free80ml.tk, port: 80, type: vmess, uuid: f8edd893-1dc0-47ce-b8fb-07986210a939, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇭🇰 YouTube-阿伟科技17-HK-15, server: gya.cloudddns.icu, port: 819, type: vmess, uuid: 846b09e3-48ac-3e14-8d8e-365d24dc7ad8, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gya.cloudddns.icu}}
-  - {name: 🇸🇬 新加坡 ☆☆ 01 ☆AWS☆  1.2x, server: 52.175.79.113, port: 60023, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 🇸🇬 SG（感谢关注youtube：8度科技）, server: 104.16.179.47, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-01.yinriver.top}}
-  - {name: 🇸🇬 SG（感谢关注youtube：8度科技） 2, server: 104.16.179.47, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-08.yinriver.top}}
+  - {name: 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238 2, server: jb.wocaonimabi666.xyz, port: 31707, type: vmess, uuid: d1674a89-84de-4444-f7ca-2a7954212545, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 h|新加坡(SG)Singapore/Singapore 6, server: oker.ga, port: 443, type: vmess, uuid: f5cf2870-5ba2-4b2d-b2d4-e72f3fb4d46d, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: oker.ga}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles, server: 199.193.126.11, port: 10606, type: vmess, uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2, alterId: 8, cipher: auto, tls: false}
+  - {name: 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong, server: 23.99.121.10, port: 80, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
+  - {name: "🇺🇸 ??US_13653", server: 84.17.41.77, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
   - {name: CF（感谢关注youtube：8度科技）, server: 104.16.157.195, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-03.yinriver.top}}
-  - {name: ff 5, server: 89.187.187.66, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇸🇬 SG（感谢关注youtube：8度科技）, server: 104.16.179.47, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-01.yinriver.top}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-01.yinriver.top}}
+  - {name: 🇺🇸 g-美国赛基诺州立大学4.9M  20, server: 104.17.56.203, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
+  - {name: 🇺🇸 United States 9, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-03.yinriver.top}}
+  - {name: 🇺🇸 圣何塞（感谢关注youtube：8度科技）, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-03.yinriver.top}}
   - {name: 墨西哥(MX)Mexico, server: 104.16.104.214, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
   - {name: 欧洲🚀f 15, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-01.yinriver.top}}
-  - {name: 欧洲🚀f 6, server: 140.238.2.102, port: 443, type: vmess, uuid: 61e03601-b658-4b26-dd5f-1fd04273f6a6, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 140.238.2.102}}
-  - {name: 🇭🇰 香港ff 14, server: jb.wocaonimabi666.xyz, port: 59113, type: vmess, uuid: c7a50d0c-9e90-41cb-912e-fcc4b68af7ff, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Chiyoda, server: 026.jp.ap.pop.bigairport.net, port: 80, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas, server: 185.242.5.147, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇭🇰 香港 5, server: 118.107.244.111, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles, server: www.17080100.xyz, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Shibuya, server: 030.jp.ap.pop.bigairport.net, port: 80, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 🇺🇸 h|美国(US)USA/Chicago 3, server: 172.67.205.7, port: 443, type: vmess, uuid: d96e0bc9-e1d9-4715-ae3f-39dac55b9e44, alterId: 34, cipher: auto, tls: true, network: ws, ws-path: /9e1cb04e/, ws-headers: {Host: edozvpn.xyz}}
-  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7, server: 107.167.9.124, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: ff, server: 84.17.41.77, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: "🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas", server: 185.242.5.149, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: ff 24, server: 193.29.106.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver, server: 212.102.44.83, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国🚀f 7, server: www.17080100.xyz, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2, server: 185.242.5.147, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: ff 2 2, server: 84.17.41.83, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇸 美国 达拉斯（感谢关注youtube：8度科, server: 212.102.40.71, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇭🇰 gq - 香港Microsoft公司 8, server: hkaz01.dxmax.cc, port: 24743, type: vmess, uuid: e96a6823-c51d-4422-9dda-392633f77986, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /ws, ws-headers: {Host: hkaz01.dxmax.cc}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2, server: 107.167.20.186, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.19036987.xyz}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont, server: 23.83.227.86, port: 10606, type: vmess, uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2, alterId: 8, cipher: auto, tls: false}
-  - {name: 🇷🇴 g-罗马尼亚  26 4.5M, server: 194.37.98.211, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: "🇺🇸 ??US_10140", server: 199.10.64.131, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont 2, server: 23.83.227.86, port: 10606, type: vmess, uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2, alterId: 8, cipher: auto, tls: false}
-  - {name: "🇺🇸 ??US_10156", server: 199.10.64.131, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: "🇺🇸 ??US_13659", server: 199.10.64.131, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 3, server: 185.242.5.149, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇸🇬 Singapore 4, server: 104.16.179.47, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-08.yinriver.top}}
-  - {name: 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo, server: jp2.uuv2.co.uk, port: 1016, type: vmess, uuid: 2751b1f3-54a5-447a-87ae-df1e88e2aaee, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /TG@mftizi, ws-headers: {Host: jp2.uuv2.co.uk}}
-  - {name: CYL-科技, server: 217.138.219.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: CYL-科技 2, server: 37.120.221.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Boardman, server: us5.uuv2.co.uk, port: 8443, type: vmess, uuid: ade39f1c-dcdf-43ee-88b4-23d388326881, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /@mftizi, ws-headers: {Host: us5.uuv2.co.uk}}
-  - {name: 🇳🇱 荷兰ff 6, server: 46.182.107.39, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.07890885.xyz}}
-  - {name: 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2, server: 212.102.40.71, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: CYL-科技 3, server: 82.102.26.53, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 🇺🇸 美国 密歇根（感谢关注youtube：8度科, server: 104.244.211.179, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇳🇱 荷兰ff 13, server: 46.182.107.165, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.07890885.xyz}}
-  - {name: 🇸🇬 SG（感谢关注youtube：8度科技） 3, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-08.yinriver.top}}
-  - {name: "🇺🇸 ??US_12874", server: 192.111.134.195, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita, server: 173.82.150.26, port: 443, type: vmess, uuid: 1a116d02-5fca-47fa-a2a1-6e8d0f2f71cc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.75287890.xyz}}
+  - {name: 🇸🇬 SG（感谢关注youtube：8度科技） 2, server: 104.16.179.47, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-08.yinriver.top}}
   - {name: 🇺🇸 United States 11, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-04.yinriver.top}}
-  - {name: 🇺🇸 美国(US)USA/Dallas, server: 212.102.40.66, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇳🇱 荷兰ff 9, server: 46.182.107.93, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
-  - {name: f 61, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇸🇬 Singapore 3, server: 104.16.1.135, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-02.yinriver.top}}
-  - {name: 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2, server: 104.244.211.171, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: "🇺🇸 ??US_13653", server: 84.17.41.77, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x, server: 52.175.79.113, port: 60015, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.175.79.113}}
+  - {name: 🇸🇬 Singapore 4, server: 104.16.179.47, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-08.yinriver.top}}
+  - {name: CYL-科技, server: 104.27.80.26, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
+  - {name: 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2, server: 104.27.80.26, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-04.yinriver.top}}
+  - {name: 🇭🇰 YouTube-阿伟科技17-HK-15, server: gya.cloudddns.icu, port: 819, type: vmess, uuid: 846b09e3-48ac-3e14-8d8e-365d24dc7ad8, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gya.cloudddns.icu}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas, server: 185.242.5.149, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇸🇬 SG（感谢关注youtube：8度科技） 3, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-08.yinriver.top}}
+  - {name: 🇺🇸 美国🚀f 2, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-04.yinriver.top}}
+  - {name: 🇺🇸 United States 6M, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-03.yinriver.top}}
+  - {name: "🇺🇸 ??US_13659", server: 199.10.64.131, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: ff 2 2, server: 84.17.41.83, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇸 美国🚀f 7, server: www.17080100.xyz, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: "🇺🇸 ??US_13654", server: 212.102.46.56, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2, server: www.17080100.xyz, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: 🇭🇰 YouTube-阿伟科技10-HK-18, server: global-transit-01-hk.pucdn.me, port: 16002, type: vmess, uuid: f37bcc5b-6071-3588-a25d-d7747e4c648f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-azure-hk-02.pucdn.me}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 2, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-04.yinriver.top}}
+  - {name: 🇭🇰 YouTube-阿伟科技01-HK-18, server: zf.proxypools.top, port: 31616, type: vmess, uuid: 3f958dc3-360f-4d8d-8de7-277c56245fee, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /shensevens, ws-headers: {Host: zf.proxypools.top}}
+  - {name: 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Shibuya, server: 030.jp.ap.pop.bigairport.net, port: 80, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇭🇰 香港 5, server: 118.107.244.111, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 sfzy888.com _🇺🇸US_487, server: 212.102.40.68, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: "🇺🇸 ??US_12874", server: 192.111.134.195, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇸 sfzy888.com _🇺🇸US_580, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 sfzy888.com _🇺🇸US_700, server: 212.102.44.83, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 sfzy888.com _🇺🇸US_585, server: 198.8.92.84, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇺🇸 sfzy888.com _🇺🇸US_534, server: 212.102.44.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: "🇺🇸 ??US_13652", server: 84.17.41.77, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita, server: 173.82.150.26, port: 443, type: vmess, uuid: 1a116d02-5fca-47fa-a2a1-6e8d0f2f71cc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.75287890.xyz}}
+  - {name: 🇺🇸 美国 密歇根（感谢关注youtube：8度科, server: 104.244.211.141, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: "🇺🇸 ??US_10156", server: 199.10.64.131, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇺🇸 sfzy888.com _🇺🇸US_505, server: 212.102.44.83, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇸 sfzy888.com _🇺🇸US_702, server: 212.102.44.83, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2, server: 185.242.5.147, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 欧洲(Youtube频道：工具大师！), server: www.92726054.xyz, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7, server: 107.167.9.124, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: 🇺🇸 h|美国(US)USA/Los Angeles 5, server: 199.193.126.11, port: 10606, type: vmess, uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2, alterId: 8, cipher: auto, tls: false}
+  - {name: 🇷🇴 sfzy888.com _🇷🇴RO_402, server: 194.37.98.211, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: CYL-科技 2, server: 217.138.219.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）, server: 212.102.44.86, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 sfzy888.com _🇺🇸US_580 2, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver, server: 212.102.44.83, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Boardman, server: us5.uuv2.co.uk, port: 8443, type: vmess, uuid: ade39f1c-dcdf-43ee-88b4-23d388326881, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /@mftizi, ws-headers: {Host: us5.uuv2.co.uk}}
+  - {name: "🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas", server: 185.242.5.149, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
       - 「白嫖神器爱用不用」★★
+      - 🇸🇬 【直连】SIN/狮城 B - 4
+      - 🇸🇬 【直连】SIN/狮城 B - 2
       - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇸🇬 【直连】SIN/狮城 A - 2
       - 🇸🇬 YouTube-阿伟科技23-SG-15
-      - 🇸🇬 gq - 新加坡Amazon数据中心 6
-      - 🇭🇰 【直连】HKG/香港 A - 5
-      - 🇸🇬 【直连】SIN/狮城 B - 5
-      - 🇭🇰 【直连】HKG/香港 A - 9
+      - 🇸🇬 YouTube-阿伟科技23-SG-15 2
+      - 🇭🇰 YouTube-阿伟科技08-HK-18
+      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
+      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇭🇰 【直连】HKG/香港 A - 3
+      - 🇭🇰 【直连】HKG/香港 B - 4
+      - 🇭🇰 【直连】HKG/香港 B - 9
+      - 🇭🇰 【直连】HKG/香港 B - 8
+      - 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238
       - 🇭🇰 香港 7
-      - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
-      - 🇭🇰 YouTube-阿伟科技01-HK-16
-      - 🇭🇰 YouTube-阿伟科技17-HK-15
-      - 🇸🇬 新加坡 ☆☆ 01 ☆AWS☆  1.2x
-      - 🇸🇬 SG（感谢关注youtube：8度科技）
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238 2
+      - 🇸🇬 h|新加坡(SG)Singapore/Singapore 6
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
+      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+      - 🇺🇸 ??US_13653
       - CF（感谢关注youtube：8度科技）
-      - ff 5
+      - 🇸🇬 SG（感谢关注youtube：8度科技）
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
+      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
+      - 🇺🇸 United States 9
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
       - 墨西哥(MX)Mexico
       - 欧洲🚀f 15
-      - 欧洲🚀f 6
-      - 🇭🇰 香港ff 14
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Chiyoda
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
-      - 🇭🇰 香港 5
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Shibuya
-      - 🇺🇸 h|美国(US)USA/Chicago 3
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7
-      - ff
-      - 🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas
-      - ff 24
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver
-      - 🇺🇸 美国🚀f 7
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2
-      - ff 2 2
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科
-      - 🇭🇰 gq - 香港Microsoft公司 8
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont
-      - 🇷🇴 g-罗马尼亚  26 4.5M
-      - 🇺🇸 ??US_10140
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont 2
-      - 🇺🇸 ??US_10156
-      - 🇺🇸 ??US_13659
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 3
-      - 🇸🇬 Singapore 4
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo
-      - CYL-科技
-      - CYL-科技 2
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Boardman
-      - 🇳🇱 荷兰ff 6
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2
-      - CYL-科技 3
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
-      - 🇳🇱 荷兰ff 13
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
-      - 🇺🇸 ??US_12874
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
       - 🇺🇸 United States 11
-      - 🇺🇸 美国(US)USA/Dallas
-      - 🇳🇱 荷兰ff 9
-      - f 61
-      - 🇸🇬 Singapore 3
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2
-      - 🇺🇸 ??US_13653
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇸🇬 Singapore 4
+      - CYL-科技
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2
+      - 🇭🇰 YouTube-阿伟科技17-HK-15
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
+      - 🇺🇸 美国🚀f 2
+      - 🇺🇸 United States 6M
+      - 🇺🇸 ??US_13659
+      - ff 2 2
+      - 🇺🇸 美国🚀f 7
+      - 🇺🇸 ??US_13654
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
+      - 🇭🇰 YouTube-阿伟科技10-HK-18
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 2
+      - 🇭🇰 YouTube-阿伟科技01-HK-18
+      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Shibuya
+      - 🇭🇰 香港 5
+      - 🇺🇸 sfzy888.com _🇺🇸US_487
+      - 🇺🇸 ??US_12874
+      - 🇺🇸 sfzy888.com _🇺🇸US_580
+      - 🇺🇸 sfzy888.com _🇺🇸US_700
+      - 🇺🇸 sfzy888.com _🇺🇸US_585
+      - 🇺🇸 sfzy888.com _🇺🇸US_534
+      - 🇺🇸 ??US_13652
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
+      - 🇺🇸 ??US_10156
+      - 🇺🇸 sfzy888.com _🇺🇸US_505
+      - 🇺🇸 sfzy888.com _🇺🇸US_702
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2
+      - 欧洲(Youtube频道：工具大师！)
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7
+      - 🇺🇸 h|美国(US)USA/Los Angeles 5
+      - 🇷🇴 sfzy888.com _🇷🇴RO_402
+      - CYL-科技 2
+      - 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）
+      - 🇺🇸 sfzy888.com _🇺🇸US_580 2
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Boardman
+      - 🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
       - 「白嫖神器爱用不用」★★
+      - 🇸🇬 【直连】SIN/狮城 B - 4
+      - 🇸🇬 【直连】SIN/狮城 B - 2
       - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇸🇬 【直连】SIN/狮城 A - 2
       - 🇸🇬 YouTube-阿伟科技23-SG-15
-      - 🇸🇬 gq - 新加坡Amazon数据中心 6
-      - 🇭🇰 【直连】HKG/香港 A - 5
-      - 🇸🇬 【直连】SIN/狮城 B - 5
-      - 🇭🇰 【直连】HKG/香港 A - 9
+      - 🇸🇬 YouTube-阿伟科技23-SG-15 2
+      - 🇭🇰 YouTube-阿伟科技08-HK-18
+      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
+      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇭🇰 【直连】HKG/香港 A - 3
+      - 🇭🇰 【直连】HKG/香港 B - 4
+      - 🇭🇰 【直连】HKG/香港 B - 9
+      - 🇭🇰 【直连】HKG/香港 B - 8
+      - 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238
       - 🇭🇰 香港 7
-      - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
-      - 🇭🇰 YouTube-阿伟科技01-HK-16
-      - 🇭🇰 YouTube-阿伟科技17-HK-15
-      - 🇸🇬 新加坡 ☆☆ 01 ☆AWS☆  1.2x
-      - 🇸🇬 SG（感谢关注youtube：8度科技）
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238 2
+      - 🇸🇬 h|新加坡(SG)Singapore/Singapore 6
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
+      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+      - 🇺🇸 ??US_13653
       - CF（感谢关注youtube：8度科技）
-      - ff 5
+      - 🇸🇬 SG（感谢关注youtube：8度科技）
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
+      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
+      - 🇺🇸 United States 9
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
       - 墨西哥(MX)Mexico
       - 欧洲🚀f 15
-      - 欧洲🚀f 6
-      - 🇭🇰 香港ff 14
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Chiyoda
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
-      - 🇭🇰 香港 5
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Shibuya
-      - 🇺🇸 h|美国(US)USA/Chicago 3
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7
-      - ff
-      - 🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas
-      - ff 24
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver
-      - 🇺🇸 美国🚀f 7
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2
-      - ff 2 2
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科
-      - 🇭🇰 gq - 香港Microsoft公司 8
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont
-      - 🇷🇴 g-罗马尼亚  26 4.5M
-      - 🇺🇸 ??US_10140
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont 2
-      - 🇺🇸 ??US_10156
-      - 🇺🇸 ??US_13659
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 3
-      - 🇸🇬 Singapore 4
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo
-      - CYL-科技
-      - CYL-科技 2
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Boardman
-      - 🇳🇱 荷兰ff 6
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2
-      - CYL-科技 3
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
-      - 🇳🇱 荷兰ff 13
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
-      - 🇺🇸 ??US_12874
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
       - 🇺🇸 United States 11
-      - 🇺🇸 美国(US)USA/Dallas
-      - 🇳🇱 荷兰ff 9
-      - f 61
-      - 🇸🇬 Singapore 3
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2
-      - 🇺🇸 ??US_13653
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇸🇬 Singapore 4
+      - CYL-科技
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2
+      - 🇭🇰 YouTube-阿伟科技17-HK-15
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
+      - 🇺🇸 美国🚀f 2
+      - 🇺🇸 United States 6M
+      - 🇺🇸 ??US_13659
+      - ff 2 2
+      - 🇺🇸 美国🚀f 7
+      - 🇺🇸 ??US_13654
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
+      - 🇭🇰 YouTube-阿伟科技10-HK-18
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 2
+      - 🇭🇰 YouTube-阿伟科技01-HK-18
+      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Shibuya
+      - 🇭🇰 香港 5
+      - 🇺🇸 sfzy888.com _🇺🇸US_487
+      - 🇺🇸 ??US_12874
+      - 🇺🇸 sfzy888.com _🇺🇸US_580
+      - 🇺🇸 sfzy888.com _🇺🇸US_700
+      - 🇺🇸 sfzy888.com _🇺🇸US_585
+      - 🇺🇸 sfzy888.com _🇺🇸US_534
+      - 🇺🇸 ??US_13652
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
+      - 🇺🇸 ??US_10156
+      - 🇺🇸 sfzy888.com _🇺🇸US_505
+      - 🇺🇸 sfzy888.com _🇺🇸US_702
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2
+      - 欧洲(Youtube频道：工具大师！)
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7
+      - 🇺🇸 h|美国(US)USA/Los Angeles 5
+      - 🇷🇴 sfzy888.com _🇷🇴RO_402
+      - CYL-科技 2
+      - 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）
+      - 🇺🇸 sfzy888.com _🇺🇸US_580 2
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Boardman
+      - 🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
       - 「白嫖神器爱用不用」★★
+      - 🇸🇬 【直连】SIN/狮城 B - 4
+      - 🇸🇬 【直连】SIN/狮城 B - 2
       - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇸🇬 【直连】SIN/狮城 A - 2
       - 🇸🇬 YouTube-阿伟科技23-SG-15
-      - 🇸🇬 gq - 新加坡Amazon数据中心 6
-      - 🇭🇰 【直连】HKG/香港 A - 5
-      - 🇸🇬 【直连】SIN/狮城 B - 5
-      - 🇭🇰 【直连】HKG/香港 A - 9
+      - 🇸🇬 YouTube-阿伟科技23-SG-15 2
+      - 🇭🇰 YouTube-阿伟科技08-HK-18
+      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
+      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇭🇰 【直连】HKG/香港 A - 3
+      - 🇭🇰 【直连】HKG/香港 B - 4
+      - 🇭🇰 【直连】HKG/香港 B - 9
+      - 🇭🇰 【直连】HKG/香港 B - 8
+      - 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238
       - 🇭🇰 香港 7
-      - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
-      - 🇭🇰 YouTube-阿伟科技01-HK-16
-      - 🇭🇰 YouTube-阿伟科技17-HK-15
-      - 🇸🇬 新加坡 ☆☆ 01 ☆AWS☆  1.2x
-      - 🇸🇬 SG（感谢关注youtube：8度科技）
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238 2
+      - 🇸🇬 h|新加坡(SG)Singapore/Singapore 6
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
+      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+      - 🇺🇸 ??US_13653
       - CF（感谢关注youtube：8度科技）
-      - ff 5
+      - 🇸🇬 SG（感谢关注youtube：8度科技）
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
+      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
+      - 🇺🇸 United States 9
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
       - 墨西哥(MX)Mexico
       - 欧洲🚀f 15
-      - 欧洲🚀f 6
-      - 🇭🇰 香港ff 14
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Chiyoda
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
-      - 🇭🇰 香港 5
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Shibuya
-      - 🇺🇸 h|美国(US)USA/Chicago 3
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7
-      - ff
-      - 🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas
-      - ff 24
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver
-      - 🇺🇸 美国🚀f 7
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2
-      - ff 2 2
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科
-      - 🇭🇰 gq - 香港Microsoft公司 8
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont
-      - 🇷🇴 g-罗马尼亚  26 4.5M
-      - 🇺🇸 ??US_10140
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont 2
-      - 🇺🇸 ??US_10156
-      - 🇺🇸 ??US_13659
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 3
-      - 🇸🇬 Singapore 4
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo
-      - CYL-科技
-      - CYL-科技 2
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Boardman
-      - 🇳🇱 荷兰ff 6
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2
-      - CYL-科技 3
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
-      - 🇳🇱 荷兰ff 13
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
-      - 🇺🇸 ??US_12874
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
       - 🇺🇸 United States 11
-      - 🇺🇸 美国(US)USA/Dallas
-      - 🇳🇱 荷兰ff 9
-      - f 61
-      - 🇸🇬 Singapore 3
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2
-      - 🇺🇸 ??US_13653
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇸🇬 Singapore 4
+      - CYL-科技
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2
+      - 🇭🇰 YouTube-阿伟科技17-HK-15
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
+      - 🇺🇸 美国🚀f 2
+      - 🇺🇸 United States 6M
+      - 🇺🇸 ??US_13659
+      - ff 2 2
+      - 🇺🇸 美国🚀f 7
+      - 🇺🇸 ??US_13654
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
+      - 🇭🇰 YouTube-阿伟科技10-HK-18
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 2
+      - 🇭🇰 YouTube-阿伟科技01-HK-18
+      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Shibuya
+      - 🇭🇰 香港 5
+      - 🇺🇸 sfzy888.com _🇺🇸US_487
+      - 🇺🇸 ??US_12874
+      - 🇺🇸 sfzy888.com _🇺🇸US_580
+      - 🇺🇸 sfzy888.com _🇺🇸US_700
+      - 🇺🇸 sfzy888.com _🇺🇸US_585
+      - 🇺🇸 sfzy888.com _🇺🇸US_534
+      - 🇺🇸 ??US_13652
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
+      - 🇺🇸 ??US_10156
+      - 🇺🇸 sfzy888.com _🇺🇸US_505
+      - 🇺🇸 sfzy888.com _🇺🇸US_702
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2
+      - 欧洲(Youtube频道：工具大师！)
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7
+      - 🇺🇸 h|美国(US)USA/Los Angeles 5
+      - 🇷🇴 sfzy888.com _🇷🇴RO_402
+      - CYL-科技 2
+      - 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）
+      - 🇺🇸 sfzy888.com _🇺🇸US_580 2
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Boardman
+      - 🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇭🇰 【直连】HKG/香港 A - 5
-      - 🇭🇰 【直连】HKG/香港 A - 9
+      - 🇭🇰 【直连】HKG/香港 A - 3
+      - 🇭🇰 【直连】HKG/香港 B - 4
+      - 🇭🇰 【直连】HKG/香港 B - 9
+      - 🇭🇰 【直连】HKG/香港 B - 8
       - 🇭🇰 香港 7
-      - 🇭🇰 香港ff 14
+      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
       - 🇭🇰 香港 5
-      - 🇭🇰 gq - 香港Microsoft公司 8
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
       - 「白嫖神器爱用不用」★★
+      - 🇸🇬 【直连】SIN/狮城 B - 4
+      - 🇸🇬 【直连】SIN/狮城 B - 2
       - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇸🇬 【直连】SIN/狮城 A - 2
       - 🇸🇬 YouTube-阿伟科技23-SG-15
-      - 🇸🇬 gq - 新加坡Amazon数据中心 6
-      - 🇭🇰 【直连】HKG/香港 A - 5
-      - 🇸🇬 【直连】SIN/狮城 B - 5
-      - 🇭🇰 【直连】HKG/香港 A - 9
+      - 🇸🇬 YouTube-阿伟科技23-SG-15 2
+      - 🇭🇰 YouTube-阿伟科技08-HK-18
+      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
+      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇭🇰 【直连】HKG/香港 A - 3
+      - 🇭🇰 【直连】HKG/香港 B - 4
+      - 🇭🇰 【直连】HKG/香港 B - 9
+      - 🇭🇰 【直连】HKG/香港 B - 8
+      - 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238
       - 🇭🇰 香港 7
-      - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
-      - 🇭🇰 YouTube-阿伟科技01-HK-16
-      - 🇭🇰 YouTube-阿伟科技17-HK-15
-      - 🇸🇬 新加坡 ☆☆ 01 ☆AWS☆  1.2x
-      - 🇸🇬 SG（感谢关注youtube：8度科技）
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238 2
+      - 🇸🇬 h|新加坡(SG)Singapore/Singapore 6
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
+      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+      - 🇺🇸 ??US_13653
       - CF（感谢关注youtube：8度科技）
-      - ff 5
+      - 🇸🇬 SG（感谢关注youtube：8度科技）
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
+      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
+      - 🇺🇸 United States 9
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
       - 墨西哥(MX)Mexico
       - 欧洲🚀f 15
-      - 欧洲🚀f 6
-      - 🇭🇰 香港ff 14
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Chiyoda
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
-      - 🇭🇰 香港 5
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Shibuya
-      - 🇺🇸 h|美国(US)USA/Chicago 3
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7
-      - ff
-      - 🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas
-      - ff 24
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver
-      - 🇺🇸 美国🚀f 7
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2
-      - ff 2 2
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科
-      - 🇭🇰 gq - 香港Microsoft公司 8
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont
-      - 🇷🇴 g-罗马尼亚  26 4.5M
-      - 🇺🇸 ??US_10140
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont 2
-      - 🇺🇸 ??US_10156
-      - 🇺🇸 ??US_13659
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 3
-      - 🇸🇬 Singapore 4
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo
-      - CYL-科技
-      - CYL-科技 2
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Boardman
-      - 🇳🇱 荷兰ff 6
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2
-      - CYL-科技 3
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
-      - 🇳🇱 荷兰ff 13
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
-      - 🇺🇸 ??US_12874
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
       - 🇺🇸 United States 11
-      - 🇺🇸 美国(US)USA/Dallas
-      - 🇳🇱 荷兰ff 9
-      - f 61
-      - 🇸🇬 Singapore 3
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2
-      - 🇺🇸 ??US_13653
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇸🇬 Singapore 4
+      - CYL-科技
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2
+      - 🇭🇰 YouTube-阿伟科技17-HK-15
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
+      - 🇺🇸 美国🚀f 2
+      - 🇺🇸 United States 6M
+      - 🇺🇸 ??US_13659
+      - ff 2 2
+      - 🇺🇸 美国🚀f 7
+      - 🇺🇸 ??US_13654
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
+      - 🇭🇰 YouTube-阿伟科技10-HK-18
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 2
+      - 🇭🇰 YouTube-阿伟科技01-HK-18
+      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Shibuya
+      - 🇭🇰 香港 5
+      - 🇺🇸 sfzy888.com _🇺🇸US_487
+      - 🇺🇸 ??US_12874
+      - 🇺🇸 sfzy888.com _🇺🇸US_580
+      - 🇺🇸 sfzy888.com _🇺🇸US_700
+      - 🇺🇸 sfzy888.com _🇺🇸US_585
+      - 🇺🇸 sfzy888.com _🇺🇸US_534
+      - 🇺🇸 ??US_13652
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
+      - 🇺🇸 ??US_10156
+      - 🇺🇸 sfzy888.com _🇺🇸US_505
+      - 🇺🇸 sfzy888.com _🇺🇸US_702
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2
+      - 欧洲(Youtube频道：工具大师！)
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7
+      - 🇺🇸 h|美国(US)USA/Los Angeles 5
+      - 🇷🇴 sfzy888.com _🇷🇴RO_402
+      - CYL-科技 2
+      - 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）
+      - 🇺🇸 sfzy888.com _🇺🇸US_580 2
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Boardman
+      - 🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
       - 「白嫖神器爱用不用」★★
+      - 🇸🇬 【直连】SIN/狮城 B - 4
+      - 🇸🇬 【直连】SIN/狮城 B - 2
       - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇸🇬 【直连】SIN/狮城 A - 2
       - 🇸🇬 YouTube-阿伟科技23-SG-15
-      - 🇸🇬 gq - 新加坡Amazon数据中心 6
-      - 🇭🇰 【直连】HKG/香港 A - 5
-      - 🇸🇬 【直连】SIN/狮城 B - 5
-      - 🇭🇰 【直连】HKG/香港 A - 9
+      - 🇸🇬 YouTube-阿伟科技23-SG-15 2
+      - 🇭🇰 YouTube-阿伟科技08-HK-18
+      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
+      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇭🇰 【直连】HKG/香港 A - 3
+      - 🇭🇰 【直连】HKG/香港 B - 4
+      - 🇭🇰 【直连】HKG/香港 B - 9
+      - 🇭🇰 【直连】HKG/香港 B - 8
+      - 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238
       - 🇭🇰 香港 7
-      - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
-      - 🇭🇰 YouTube-阿伟科技01-HK-16
-      - 🇭🇰 YouTube-阿伟科技17-HK-15
-      - 🇸🇬 新加坡 ☆☆ 01 ☆AWS☆  1.2x
-      - 🇸🇬 SG（感谢关注youtube：8度科技）
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238 2
+      - 🇸🇬 h|新加坡(SG)Singapore/Singapore 6
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
+      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+      - 🇺🇸 ??US_13653
       - CF（感谢关注youtube：8度科技）
-      - ff 5
+      - 🇸🇬 SG（感谢关注youtube：8度科技）
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
+      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
+      - 🇺🇸 United States 9
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
       - 墨西哥(MX)Mexico
       - 欧洲🚀f 15
-      - 欧洲🚀f 6
-      - 🇭🇰 香港ff 14
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Chiyoda
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
-      - 🇭🇰 香港 5
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Shibuya
-      - 🇺🇸 h|美国(US)USA/Chicago 3
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7
-      - ff
-      - 🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas
-      - ff 24
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver
-      - 🇺🇸 美国🚀f 7
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2
-      - ff 2 2
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科
-      - 🇭🇰 gq - 香港Microsoft公司 8
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont
-      - 🇷🇴 g-罗马尼亚  26 4.5M
-      - 🇺🇸 ??US_10140
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont 2
-      - 🇺🇸 ??US_10156
-      - 🇺🇸 ??US_13659
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 3
-      - 🇸🇬 Singapore 4
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo
-      - CYL-科技
-      - CYL-科技 2
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Boardman
-      - 🇳🇱 荷兰ff 6
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2
-      - CYL-科技 3
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
-      - 🇳🇱 荷兰ff 13
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
-      - 🇺🇸 ??US_12874
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
       - 🇺🇸 United States 11
-      - 🇺🇸 美国(US)USA/Dallas
-      - 🇳🇱 荷兰ff 9
-      - f 61
-      - 🇸🇬 Singapore 3
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2
-      - 🇺🇸 ??US_13653
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇸🇬 Singapore 4
+      - CYL-科技
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2
+      - 🇭🇰 YouTube-阿伟科技17-HK-15
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
+      - 🇺🇸 美国🚀f 2
+      - 🇺🇸 United States 6M
+      - 🇺🇸 ??US_13659
+      - ff 2 2
+      - 🇺🇸 美国🚀f 7
+      - 🇺🇸 ??US_13654
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
+      - 🇭🇰 YouTube-阿伟科技10-HK-18
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 2
+      - 🇭🇰 YouTube-阿伟科技01-HK-18
+      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Shibuya
+      - 🇭🇰 香港 5
+      - 🇺🇸 sfzy888.com _🇺🇸US_487
+      - 🇺🇸 ??US_12874
+      - 🇺🇸 sfzy888.com _🇺🇸US_580
+      - 🇺🇸 sfzy888.com _🇺🇸US_700
+      - 🇺🇸 sfzy888.com _🇺🇸US_585
+      - 🇺🇸 sfzy888.com _🇺🇸US_534
+      - 🇺🇸 ??US_13652
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
+      - 🇺🇸 ??US_10156
+      - 🇺🇸 sfzy888.com _🇺🇸US_505
+      - 🇺🇸 sfzy888.com _🇺🇸US_702
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2
+      - 欧洲(Youtube频道：工具大师！)
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7
+      - 🇺🇸 h|美国(US)USA/Los Angeles 5
+      - 🇷🇴 sfzy888.com _🇷🇴RO_402
+      - CYL-科技 2
+      - 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）
+      - 🇺🇸 sfzy888.com _🇺🇸US_580 2
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Boardman
+      - 🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
       - 「白嫖神器爱用不用」★★
+      - 🇸🇬 【直连】SIN/狮城 B - 4
+      - 🇸🇬 【直连】SIN/狮城 B - 2
       - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇸🇬 【直连】SIN/狮城 A - 2
       - 🇸🇬 YouTube-阿伟科技23-SG-15
-      - 🇸🇬 gq - 新加坡Amazon数据中心 6
-      - 🇭🇰 【直连】HKG/香港 A - 5
-      - 🇸🇬 【直连】SIN/狮城 B - 5
-      - 🇭🇰 【直连】HKG/香港 A - 9
+      - 🇸🇬 YouTube-阿伟科技23-SG-15 2
+      - 🇭🇰 YouTube-阿伟科技08-HK-18
+      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
+      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇭🇰 【直连】HKG/香港 A - 3
+      - 🇭🇰 【直连】HKG/香港 B - 4
+      - 🇭🇰 【直连】HKG/香港 B - 9
+      - 🇭🇰 【直连】HKG/香港 B - 8
+      - 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238
       - 🇭🇰 香港 7
-      - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
-      - 🇭🇰 YouTube-阿伟科技01-HK-16
-      - 🇭🇰 YouTube-阿伟科技17-HK-15
-      - 🇸🇬 新加坡 ☆☆ 01 ☆AWS☆  1.2x
-      - 🇸🇬 SG（感谢关注youtube：8度科技）
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238 2
+      - 🇸🇬 h|新加坡(SG)Singapore/Singapore 6
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
+      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+      - 🇺🇸 ??US_13653
       - CF（感谢关注youtube：8度科技）
-      - ff 5
+      - 🇸🇬 SG（感谢关注youtube：8度科技）
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
+      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
+      - 🇺🇸 United States 9
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
       - 墨西哥(MX)Mexico
       - 欧洲🚀f 15
-      - 欧洲🚀f 6
-      - 🇭🇰 香港ff 14
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Chiyoda
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
-      - 🇭🇰 香港 5
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Shibuya
-      - 🇺🇸 h|美国(US)USA/Chicago 3
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7
-      - ff
-      - 🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas
-      - ff 24
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver
-      - 🇺🇸 美国🚀f 7
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2
-      - ff 2 2
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科
-      - 🇭🇰 gq - 香港Microsoft公司 8
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont
-      - 🇷🇴 g-罗马尼亚  26 4.5M
-      - 🇺🇸 ??US_10140
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont 2
-      - 🇺🇸 ??US_10156
-      - 🇺🇸 ??US_13659
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 3
-      - 🇸🇬 Singapore 4
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo
-      - CYL-科技
-      - CYL-科技 2
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Boardman
-      - 🇳🇱 荷兰ff 6
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2
-      - CYL-科技 3
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
-      - 🇳🇱 荷兰ff 13
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
-      - 🇺🇸 ??US_12874
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
       - 🇺🇸 United States 11
-      - 🇺🇸 美国(US)USA/Dallas
-      - 🇳🇱 荷兰ff 9
-      - f 61
-      - 🇸🇬 Singapore 3
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2
-      - 🇺🇸 ??US_13653
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇸🇬 Singapore 4
+      - CYL-科技
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2
+      - 🇭🇰 YouTube-阿伟科技17-HK-15
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
+      - 🇺🇸 美国🚀f 2
+      - 🇺🇸 United States 6M
+      - 🇺🇸 ??US_13659
+      - ff 2 2
+      - 🇺🇸 美国🚀f 7
+      - 🇺🇸 ??US_13654
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
+      - 🇭🇰 YouTube-阿伟科技10-HK-18
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 2
+      - 🇭🇰 YouTube-阿伟科技01-HK-18
+      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Shibuya
+      - 🇭🇰 香港 5
+      - 🇺🇸 sfzy888.com _🇺🇸US_487
+      - 🇺🇸 ??US_12874
+      - 🇺🇸 sfzy888.com _🇺🇸US_580
+      - 🇺🇸 sfzy888.com _🇺🇸US_700
+      - 🇺🇸 sfzy888.com _🇺🇸US_585
+      - 🇺🇸 sfzy888.com _🇺🇸US_534
+      - 🇺🇸 ??US_13652
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
+      - 🇺🇸 ??US_10156
+      - 🇺🇸 sfzy888.com _🇺🇸US_505
+      - 🇺🇸 sfzy888.com _🇺🇸US_702
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2
+      - 欧洲(Youtube频道：工具大师！)
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7
+      - 🇺🇸 h|美国(US)USA/Los Angeles 5
+      - 🇷🇴 sfzy888.com _🇷🇴RO_402
+      - CYL-科技 2
+      - 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）
+      - 🇺🇸 sfzy888.com _🇺🇸US_580 2
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Boardman
+      - 🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -549,75 +563,77 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
       - 「白嫖神器爱用不用」★★
+      - 🇸🇬 【直连】SIN/狮城 B - 4
+      - 🇸🇬 【直连】SIN/狮城 B - 2
       - 🇸🇬 https://www.mattkaydiary.com|新加坡(SG)Singapore/Singapore
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇸🇬 【直连】SIN/狮城 A - 2
       - 🇸🇬 YouTube-阿伟科技23-SG-15
-      - 🇸🇬 gq - 新加坡Amazon数据中心 6
-      - 🇭🇰 【直连】HKG/香港 A - 5
-      - 🇸🇬 【直连】SIN/狮城 B - 5
-      - 🇭🇰 【直连】HKG/香港 A - 9
+      - 🇸🇬 YouTube-阿伟科技23-SG-15 2
+      - 🇭🇰 YouTube-阿伟科技08-HK-18
+      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
+      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇭🇰 【直连】HKG/香港 A - 3
+      - 🇭🇰 【直连】HKG/香港 B - 4
+      - 🇭🇰 【直连】HKG/香港 B - 9
+      - 🇭🇰 【直连】HKG/香港 B - 8
+      - 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238
       - 🇭🇰 香港 7
-      - 🇳🇱 https://www.mattkaydiary.com|荷兰(NL)Netherlands/Amsterdam
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
-      - 🇭🇰 YouTube-阿伟科技01-HK-16
-      - 🇭🇰 YouTube-阿伟科技17-HK-15
-      - 🇸🇬 新加坡 ☆☆ 01 ☆AWS☆  1.2x
-      - 🇸🇬 SG（感谢关注youtube：8度科技）
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238 2
+      - 🇸🇬 h|新加坡(SG)Singapore/Singapore 6
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
+      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
+      - 🇺🇸 ??US_13653
       - CF（感谢关注youtube：8度科技）
-      - ff 5
+      - 🇸🇬 SG（感谢关注youtube：8度科技）
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
+      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
+      - 🇺🇸 United States 9
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
       - 墨西哥(MX)Mexico
       - 欧洲🚀f 15
-      - 欧洲🚀f 6
-      - 🇭🇰 香港ff 14
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Chiyoda
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
-      - 🇭🇰 香港 5
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Shibuya
-      - 🇺🇸 h|美国(US)USA/Chicago 3
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7
-      - ff
-      - 🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas
-      - ff 24
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver
-      - 🇺🇸 美国🚀f 7
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2
-      - ff 2 2
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科
-      - 🇭🇰 gq - 香港Microsoft公司 8
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont
-      - 🇷🇴 g-罗马尼亚  26 4.5M
-      - 🇺🇸 ??US_10140
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont 2
-      - 🇺🇸 ??US_10156
-      - 🇺🇸 ??US_13659
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 3
-      - 🇸🇬 Singapore 4
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo
-      - CYL-科技
-      - CYL-科技 2
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Boardman
-      - 🇳🇱 荷兰ff 6
-      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科 2
-      - CYL-科技 3
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
-      - 🇳🇱 荷兰ff 13
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
-      - 🇺🇸 ??US_12874
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
       - 🇺🇸 United States 11
-      - 🇺🇸 美国(US)USA/Dallas
-      - 🇳🇱 荷兰ff 9
-      - f 61
-      - 🇸🇬 Singapore 3
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2
-      - 🇺🇸 ??US_13653
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇸🇬 Singapore 4
+      - CYL-科技
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2
+      - 🇭🇰 YouTube-阿伟科技17-HK-15
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
+      - 🇺🇸 美国🚀f 2
+      - 🇺🇸 United States 6M
+      - 🇺🇸 ??US_13659
+      - ff 2 2
+      - 🇺🇸 美国🚀f 7
+      - 🇺🇸 ??US_13654
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
+      - 🇭🇰 YouTube-阿伟科技10-HK-18
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 2
+      - 🇭🇰 YouTube-阿伟科技01-HK-18
+      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Shibuya
+      - 🇭🇰 香港 5
+      - 🇺🇸 sfzy888.com _🇺🇸US_487
+      - 🇺🇸 ??US_12874
+      - 🇺🇸 sfzy888.com _🇺🇸US_580
+      - 🇺🇸 sfzy888.com _🇺🇸US_700
+      - 🇺🇸 sfzy888.com _🇺🇸US_585
+      - 🇺🇸 sfzy888.com _🇺🇸US_534
+      - 🇺🇸 ??US_13652
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
+      - 🇺🇸 ??US_10156
+      - 🇺🇸 sfzy888.com _🇺🇸US_505
+      - 🇺🇸 sfzy888.com _🇺🇸US_702
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2
+      - 欧洲(Youtube频道：工具大师！)
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 7
+      - 🇺🇸 h|美国(US)USA/Los Angeles 5
+      - 🇷🇴 sfzy888.com _🇷🇴RO_402
+      - CYL-科技 2
+      - 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）
+      - 🇺🇸 sfzy888.com _🇺🇸US_580 2
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Denver
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Boardman
+      - 🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
