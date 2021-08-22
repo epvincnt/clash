@@ -5,311 +5,303 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 「白嫖神器爱用不用」★★, server: zf.proxypools.top, port: 33826, type: vmess, uuid: 2c7b67a5-ac5e-4257-9e11-483527faf2ee, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /shenseven, ws-headers: {Host: zf.proxypools.top}}
-  - {name: 🇭🇰 【直连】HKG/香港 A - 6, server: 006.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 006.HK.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 【直连】HKG/香港 B - 1, server: 011.HK.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 011.HK.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 【直连】SIN/狮城 A - 3, server: 033.SG.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 033.SG.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 【直连】SIN/狮城 A - 5, server: 035.SG.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 035.SG.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 YouTube-阿伟科技23-SG-15, server: sin01.publicss.cc, port: 443, type: vmess, uuid: bebc950b-61b6-47f5-8625-9dc7811466a7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /pbap, ws-headers: {Host: sin01.publicss.cc}}
-  - {name: 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x, server: 52.175.79.113, port: 60015, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.175.79.113}}
-  - {name: 🇸🇬 h|新加坡(SG)Singapore/Singapore 6, server: oker.ga, port: 443, type: vmess, uuid: f5cf2870-5ba2-4b2d-b2d4-e72f3fb4d46d, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: oker.ga}}
-  - {name: 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x, server: 120.236.197.202, port: 20020, type: vmess, uuid: b8583f26-9717-3f5a-91cf-b48a910344ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /mfyun.m3u8, ws-headers: {Host: 120.236.197.202}}
-  - {name: 🇸🇬 YouTube-阿伟科技23-SG-15 2, server: sg1.pbaplink.xyz, port: 443, type: vmess, uuid: bebc950b-61b6-47f5-8625-9dc7811466a7, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /pbap, ws-headers: {Host: sg1.pbaplink.xyz}}
-  - {name: 🇭🇰 【直连】HKG/香港 A - 5, server: 005.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 005.HK.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 香港 7, server: agals01.cloudddns.icu, port: 123, type: trojan, password: d32d8723-5983-3ecc-8e9f-8b57bab1a584, sni: agals01.cloudddns.icu}
-  - {name: 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238, server: jb.wocaonimabi666.xyz, port: 31707, type: vmess, uuid: d1674a89-84de-4444-f7ca-2a7954212545, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong, server: kr-oracle.june628.ml, port: 40105, type: vmess, uuid: 130b7524-f6b5-4708-ac23-114803497e5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /adobe, ws-headers: {Host: kr-oracle.june628.ml}}
-  - {name: 🇭🇰 YouTube-阿伟科技17-HK-15, server: gya.cloudddns.icu, port: 819, type: vmess, uuid: 846b09e3-48ac-3e14-8d8e-365d24dc7ad8, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gya.cloudddns.icu}}
-  - {name: 🇭🇰 YouTube-阿伟科技01-HK-18, server: zf.proxypools.top, port: 31616, type: vmess, uuid: 3f958dc3-360f-4d8d-8de7-277c56245fee, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /shensevens, ws-headers: {Host: zf.proxypools.top}}
-  - {name: 🇭🇰 【直连】HKG/香港 B - 9, server: 019.HK.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 019.HK.AP.POP.BIGAIRPORT.NET}}
-  - {name: 🇺🇸 us.New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s, server: 104.16.167.138, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: 🇸🇬 us.New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.19.45.117, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: 🇺🇸 g-美国赛基诺州立大学4.9M  20, server: 104.17.56.203, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
-  - {name: 墨西哥(MX)Mexico, server: 104.16.104.214, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
-  - {name: 🇺🇸 圣何塞（感谢关注youtube：8度科技）, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-03.yinriver.top}}
-  - {name: 🇺🇸 United States 9, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-03.yinriver.top}}
-  - {name: 欧洲🚀f 15, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-01.yinriver.top}}
-  - {name: 🇺🇸 us.New York-34 联通100M+4K, server: 104.18.27.64, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: 🇺🇸 美国-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s, server: 104.16.167.138, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s, server: 104.16.167.138, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇸🇬 SG（感谢关注youtube：8度科技）, server: 104.16.179.47, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-01.yinriver.top}}
-  - {name: 🇭🇰 【直连】HKG/香港 B - 7, server: 017.HK.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 017.HK.AP.POP.BIGAIRPORT.NET}}
-  - {name: "🇺🇸 ??US_13653", server: 84.17.41.77, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇸🇬 us.New York-19@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.25.175.69, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: "🇺🇸 ??US_13654", server: 212.102.46.56, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a, server: icook.tw, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: CYL-科技, server: 104.27.80.26, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
   - {name: CF（感谢关注youtube：8度科技）, server: 104.16.157.195, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-03.yinriver.top}}
-  - {name: 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2, server: 104.27.80.26, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-04.yinriver.top}}
-  - {name: 🇸🇬 美国-New York-8@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.17.185.183, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.148.48, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇸🇬 SG（感谢关注youtube：8度科技） 2, server: 104.16.179.47, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-08.yinriver.top}}
-  - {name: 🇺🇸 United States 10  5M, server: 104.16.1.103, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-04.yinriver.top}}
-  - {name: "🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas", server: 185.242.5.149, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇸🇬 us.New York-23@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.149.48, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: ff, server: 84.17.41.77, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇺🇸 sfzy888.com _🇺🇸US_708, server: 199.10.64.133, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇸🇬 us.New York-9@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: jp-02.yinriver.top}}
-  - {name: 🇸🇬 us.New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a, server: 104.17.185.183, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: 🇸🇬 Singapore 4, server: 104.16.179.47, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-08.yinriver.top}}
-  - {name: 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.18.135.208, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: vincent-jackson2021.ga}}
-  - {name: 🇸🇬 us.New York-16@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.22.44.50, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）, server: 212.102.44.86, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles, server: 107.182.185.112, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
-  - {name: "🇺🇸 ??US_12874", server: 192.111.134.195, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇭🇰 香港 5, server: 118.107.244.111, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo, server: t6.ssrsub.one, port: 8443, type: trojan, password: fd2e6c62-69ae-4c71-b83c-f51475a2e2b1, sni: t6.ssrsub.one}
+  - {name: 🇺🇸 United States 9, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-03.yinriver.top}}
+  - {name: 🇺🇸 United States 11, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-04.yinriver.top}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles, server: 199.193.126.11, port: 10606, type: vmess, uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2, alterId: 8, cipher: auto, tls: false}
+  - {name: 🇺🇸 圣何塞（感谢关注youtube：8度科技）, server: 104.27.80.26, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-04.yinriver.top}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2, server: 192.111.134.212, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 欧洲🚀f 15, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-01.yinriver.top}}
+  - {name: 🇺🇸 US_552, server: 154.17.2.112, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: N0KSFR6alSxjgp7T8Aa9Ce8DnCaAOYqz5lFZxe3O2I3uycYZXEDp3S34RyCDwB}
   - {name: 🇺🇸 United States 6M, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-03.yinriver.top}}
-  - {name: 🇸🇬 美国-24@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.21.76.229, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇸🇬 us.New York-12@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.20.130.175, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: 🇸🇬 美国-11@1Gbps节点更新https://bit.ly/3uWuS7a, server: 104.17.185.183, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin, server: 193.29.106.37, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇸🇬 SG（感谢关注youtube：8度科技） 3, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-08.yinriver.top}}
-  - {name: 🇺🇸 美国🚀f 7, server: www.17080100.xyz, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: "🇺🇸 ??US_13652", server: 84.17.41.77, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇸 US_559, server: 154.17.2.109, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: l3Y9yKCBaT5SnpFFOe834yqIaXwSpRxz3l7D3Aua82ZgcSNZDCO6AexYDCE0Rj}
+  - {name: 🇭🇰 香港 5, server: 118.107.244.111, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US_549, server: 154.17.2.160, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 US_548, server: 154.17.2.149, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇸🇬 Singapore 3, server: 104.16.1.135, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-02.yinriver.top}}
   - {name: 🇭🇰 YouTube-阿伟科技10-HK-18, server: global-transit-01-hk.pucdn.me, port: 16002, type: vmess, uuid: f37bcc5b-6071-3588-a25d-d7747e4c648f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-azure-hk-02.pucdn.me}}
-  - {name: 🇺🇸 洛杉矶（感谢关注youtube：8度科技）, server: 185.242.5.149, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2, server: 192.111.134.195, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 3, server: t1.ssrsub.one, port: 8443, type: trojan, password: fd2e6c62-69ae-4c71-b83c-f51475a2e2b1, sni: t1.ssrsub.one}
-  - {name: 🇭🇰 sfzy888.com _🇭🇰HK-🇮🇩ID_221, server: jb.wocaonimabi666.xyz, port: 14615, type: vmess, uuid: d1305fa0-5d4e-4f8c-d840-301563800e45, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 US_553, server: 154.17.2.153, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: "🇺🇸 ??US_12874", server: 192.111.134.195, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: CYL-科技, server: 217.138.219.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont, server: 23.83.227.86, port: 10606, type: vmess, uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2, alterId: 8, cipher: auto, tls: false}
+  - {name: 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）, server: 86.106.136.85, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 US_562, server: 154.17.2.121, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 美国 密歇根（感谢关注youtube：8度科技）, server: 104.244.211.179, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: "🇺🇸 ??US_10182", server: 212.102.44.86, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇸 US （感谢关注youtube：8度科技）, server: 199.10.64.245, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas, server: 185.242.5.147, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）, server: 172.241.114.87, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇷🇴 sfzy888.com _🇷🇴RO_366, server: 193.29.106.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 US_668, server: 154.17.2.54, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: YazuZ2ZE9p5Rn3CANKlD6SqC0OTSyXBIReypacD4Fae8gx87lOD3SY33jFAwCx}
+  - {name: 🇺🇸 sfzy888.com _🇺🇸US_629, server: 198.8.92.84, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: sfzy888.com _🏁ZZ_742, server: 138.199.9.202, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇸🇬 SG（感谢关注youtube：8度科技）, server: 104.16.179.47, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-08.yinriver.top}}
+  - {name: 🇺🇸 US （感谢关注youtube：8度科技） 2, server: 104.244.211.171, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: 🇺🇸 sfzy888.com _🇺🇸US_476, server: 212.102.40.68, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: CYL-科技 2, server: 176.125.231.29, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇸 US_558, server: 154.17.2.135, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: CYL-科技 3, server: 86.106.136.85, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇸 US （感谢关注youtube：8度科技） 3, server: 199.10.64.245, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇸🇬 SG（感谢关注youtube：8度科技） 2, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-01.yinriver.top}}
+  - {name: 🇺🇸 洛杉矶（感谢关注youtube：8度科技）, server: 185.242.5.149, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇸 US_667, server: 154.17.2.162, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: CYL-科技 4, server: 45.83.90.181, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇸 US （感谢关注youtube：8度科技） 4, server: 199.10.64.245, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 🇺🇸 美国 密歇根（感谢关注youtube：8度科技） 2, server: 104.244.211.171, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford, server: 89.238.130.253, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）3.9M, server: 91.90.123.203, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 美国 西雅图（感谢关注youtube：8度科技）, server: 212.102.46.56, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇸 US （感谢关注youtube：8度科技） 5, server: 199.10.64.245, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇺🇸 US （感谢关注youtube：8度科技） 6, server: 104.244.211.171, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 🇺🇸 美国 密歇根（感谢关注youtube：8度科, server: 104.244.211.179, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）, server: 37.120.212.131, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 US （感谢关注youtube：8度科技） 7, server: 104.244.211.171, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2, server: 5.253.207.85, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇳🇱 荷兰, server: 46.182.107.157, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73345741.xyz}}
+  - {name: 🇺🇸 US （感谢关注youtube：8度科技） 8, server: 199.10.64.245, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: 🇸🇬 SG（感谢关注youtube：8度科技） 3, server: 172.67.182.11, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-02.yinriver.top}}
+  - {name: 🇺🇸 US （感谢关注youtube：8度科技） 9, server: 199.10.64.245, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 🇺🇸 US （感谢关注youtube：8度科技） 10, server: 199.10.64.245, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 US （感谢关注youtube：8度科技） 11, server: 104.244.211.171, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: CA（感谢关注youtube：8度科技）, server: c39s4.jamjams.net, port: 10606, type: vmess, uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2, alterId: 8, cipher: auto, tls: false}
+  - {name: 🇫🇮 芬兰（感谢关注youtube：8度科技）, server: 194.110.115.83, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 🇫🇮 芬兰（感谢关注youtube：8度科技） 2, server: 194.110.115.83, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 墨西哥(MX)Mexico, server: 104.16.104.214, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2, server: 185.242.5.149, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 US （感谢关注youtube：8度科技） 12, server: 199.10.64.245, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main, server: 82.102.16.99, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 US （感谢关注youtube：8度科技） 13, server: 199.10.64.245, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: 🇺🇸 Brussels（感谢关注youtube：8度科技）, server: 5.253.205.227, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇳🇱 荷兰 2, server: 46.182.107.146, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.44590130.xyz}}
+  - {name: 🇸🇬 SG（感谢关注youtube：8度科技） 4, server: 104.16.179.47, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg-01.yinriver.top}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「白嫖神器爱用不用」★★
-      - 🇭🇰 【直连】HKG/香港 A - 6
-      - 🇭🇰 【直连】HKG/香港 B - 1
-      - 🇸🇬 【直连】SIN/狮城 A - 3
-      - 🇸🇬 【直连】SIN/狮城 A - 5
-      - 🇸🇬 YouTube-阿伟科技23-SG-15
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
-      - 🇸🇬 h|新加坡(SG)Singapore/Singapore 6
-      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
-      - 🇸🇬 YouTube-阿伟科技23-SG-15 2
-      - 🇭🇰 【直连】HKG/香港 A - 5
-      - 🇭🇰 香港 7
-      - 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇭🇰 YouTube-阿伟科技17-HK-15
-      - 🇭🇰 YouTube-阿伟科技01-HK-18
-      - 🇭🇰 【直连】HKG/香港 B - 9
-      - 🇺🇸 us.New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 us.New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
-      - 墨西哥(MX)Mexico
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
-      - 🇺🇸 United States 9
-      - 欧洲🚀f 15
-      - 🇺🇸 us.New York-34 联通100M+4K
-      - 🇺🇸 美国-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 SG（感谢关注youtube：8度科技）
-      - 🇭🇰 【直连】HKG/香港 B - 7
-      - 🇺🇸 ??US_13653
-      - 🇸🇬 us.New York-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 ??US_13654
-      - 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
-      - CYL-科技
       - CF（感谢关注youtube：8度科技）
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2
-      - 🇸🇬 美国-New York-8@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
-      - 🇺🇸 United States 10  5M
-      - 🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas
-      - 🇸🇬 us.New York-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - ff
-      - 🇺🇸 sfzy888.com _🇺🇸US_708
-      - 🇸🇬 us.New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
-      - 🇸🇬 us.New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 Singapore 4
-      - 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us.New York-16@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）
+      - 🇺🇸 United States 9
+      - 🇺🇸 United States 11
       - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇺🇸 ??US_12874
-      - 🇭🇰 香港 5
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo
-      - 🇺🇸 United States 6M
-      - 🇸🇬 美国-24@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us.New York-12@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-11@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国🚀f 7
-      - 🇺🇸 ??US_13652
-      - 🇭🇰 YouTube-阿伟科技10-HK-18
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
       - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 3
-      - 🇭🇰 sfzy888.com _🇭🇰HK-🇮🇩ID_221
+      - 欧洲🚀f 15
+      - 🇺🇸 US_552
+      - 🇺🇸 United States 6M
+      - 🇺🇸 US_559
+      - 🇭🇰 香港 5
+      - 🇺🇸 US_549
+      - 🇺🇸 US_548
+      - 🇸🇬 Singapore 3
+      - 🇭🇰 YouTube-阿伟科技10-HK-18
+      - 🇺🇸 US_553
+      - 🇺🇸 ??US_12874
+      - CYL-科技
       - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
+      - 🇺🇸 US_562
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科技）
+      - 🇺🇸 ??US_10182
+      - 🇺🇸 US （感谢关注youtube：8度科技）
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）
+      - 🇷🇴 sfzy888.com _🇷🇴RO_366
+      - 🇺🇸 US_668
+      - 🇺🇸 sfzy888.com _🇺🇸US_629
+      - sfzy888.com _🏁ZZ_742
+      - 🇸🇬 SG（感谢关注youtube：8度科技）
+      - 🇺🇸 US （感谢关注youtube：8度科技） 2
+      - 🇺🇸 sfzy888.com _🇺🇸US_476
+      - CYL-科技 2
+      - 🇺🇸 US_558
+      - CYL-科技 3
+      - 🇺🇸 US （感谢关注youtube：8度科技） 3
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 US_667
+      - CYL-科技 4
+      - 🇺🇸 US （感谢关注youtube：8度科技） 4
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科技） 2
+      - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford
+      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）3.9M
+      - 🇺🇸 美国 西雅图（感谢关注youtube：8度科技）
+      - 🇺🇸 US （感谢关注youtube：8度科技） 5
+      - 🇺🇸 US （感谢关注youtube：8度科技） 6
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
+      - 🇺🇸 US （感谢关注youtube：8度科技） 7
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2
+      - 🇳🇱 荷兰
+      - 🇺🇸 US （感谢关注youtube：8度科技） 8
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
+      - 🇺🇸 US （感谢关注youtube：8度科技） 9
+      - 🇺🇸 US （感谢关注youtube：8度科技） 10
+      - 🇺🇸 US （感谢关注youtube：8度科技） 11
+      - CA（感谢关注youtube：8度科技）
+      - 🇫🇮 芬兰（感谢关注youtube：8度科技）
+      - 🇫🇮 芬兰（感谢关注youtube：8度科技） 2
+      - 墨西哥(MX)Mexico
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2
+      - 🇺🇸 US （感谢关注youtube：8度科技） 12
+      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main
+      - 🇺🇸 US （感谢关注youtube：8度科技） 13
+      - 🇺🇸 Brussels（感谢关注youtube：8度科技）
+      - 🇳🇱 荷兰 2
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 「白嫖神器爱用不用」★★
-      - 🇭🇰 【直连】HKG/香港 A - 6
-      - 🇭🇰 【直连】HKG/香港 B - 1
-      - 🇸🇬 【直连】SIN/狮城 A - 3
-      - 🇸🇬 【直连】SIN/狮城 A - 5
-      - 🇸🇬 YouTube-阿伟科技23-SG-15
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
-      - 🇸🇬 h|新加坡(SG)Singapore/Singapore 6
-      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
-      - 🇸🇬 YouTube-阿伟科技23-SG-15 2
-      - 🇭🇰 【直连】HKG/香港 A - 5
-      - 🇭🇰 香港 7
-      - 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇭🇰 YouTube-阿伟科技17-HK-15
-      - 🇭🇰 YouTube-阿伟科技01-HK-18
-      - 🇭🇰 【直连】HKG/香港 B - 9
-      - 🇺🇸 us.New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 us.New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
-      - 墨西哥(MX)Mexico
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
-      - 🇺🇸 United States 9
-      - 欧洲🚀f 15
-      - 🇺🇸 us.New York-34 联通100M+4K
-      - 🇺🇸 美国-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 SG（感谢关注youtube：8度科技）
-      - 🇭🇰 【直连】HKG/香港 B - 7
-      - 🇺🇸 ??US_13653
-      - 🇸🇬 us.New York-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 ??US_13654
-      - 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
-      - CYL-科技
       - CF（感谢关注youtube：8度科技）
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2
-      - 🇸🇬 美国-New York-8@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
-      - 🇺🇸 United States 10  5M
-      - 🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas
-      - 🇸🇬 us.New York-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - ff
-      - 🇺🇸 sfzy888.com _🇺🇸US_708
-      - 🇸🇬 us.New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
-      - 🇸🇬 us.New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 Singapore 4
-      - 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us.New York-16@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）
+      - 🇺🇸 United States 9
+      - 🇺🇸 United States 11
       - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇺🇸 ??US_12874
-      - 🇭🇰 香港 5
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo
-      - 🇺🇸 United States 6M
-      - 🇸🇬 美国-24@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us.New York-12@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-11@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国🚀f 7
-      - 🇺🇸 ??US_13652
-      - 🇭🇰 YouTube-阿伟科技10-HK-18
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
       - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 3
-      - 🇭🇰 sfzy888.com _🇭🇰HK-🇮🇩ID_221
+      - 欧洲🚀f 15
+      - 🇺🇸 US_552
+      - 🇺🇸 United States 6M
+      - 🇺🇸 US_559
+      - 🇭🇰 香港 5
+      - 🇺🇸 US_549
+      - 🇺🇸 US_548
+      - 🇸🇬 Singapore 3
+      - 🇭🇰 YouTube-阿伟科技10-HK-18
+      - 🇺🇸 US_553
+      - 🇺🇸 ??US_12874
+      - CYL-科技
       - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
+      - 🇺🇸 US_562
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科技）
+      - 🇺🇸 ??US_10182
+      - 🇺🇸 US （感谢关注youtube：8度科技）
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）
+      - 🇷🇴 sfzy888.com _🇷🇴RO_366
+      - 🇺🇸 US_668
+      - 🇺🇸 sfzy888.com _🇺🇸US_629
+      - sfzy888.com _🏁ZZ_742
+      - 🇸🇬 SG（感谢关注youtube：8度科技）
+      - 🇺🇸 US （感谢关注youtube：8度科技） 2
+      - 🇺🇸 sfzy888.com _🇺🇸US_476
+      - CYL-科技 2
+      - 🇺🇸 US_558
+      - CYL-科技 3
+      - 🇺🇸 US （感谢关注youtube：8度科技） 3
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 US_667
+      - CYL-科技 4
+      - 🇺🇸 US （感谢关注youtube：8度科技） 4
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科技） 2
+      - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford
+      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）3.9M
+      - 🇺🇸 美国 西雅图（感谢关注youtube：8度科技）
+      - 🇺🇸 US （感谢关注youtube：8度科技） 5
+      - 🇺🇸 US （感谢关注youtube：8度科技） 6
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
+      - 🇺🇸 US （感谢关注youtube：8度科技） 7
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2
+      - 🇳🇱 荷兰
+      - 🇺🇸 US （感谢关注youtube：8度科技） 8
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
+      - 🇺🇸 US （感谢关注youtube：8度科技） 9
+      - 🇺🇸 US （感谢关注youtube：8度科技） 10
+      - 🇺🇸 US （感谢关注youtube：8度科技） 11
+      - CA（感谢关注youtube：8度科技）
+      - 🇫🇮 芬兰（感谢关注youtube：8度科技）
+      - 🇫🇮 芬兰（感谢关注youtube：8度科技） 2
+      - 墨西哥(MX)Mexico
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2
+      - 🇺🇸 US （感谢关注youtube：8度科技） 12
+      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main
+      - 🇺🇸 US （感谢关注youtube：8度科技） 13
+      - 🇺🇸 Brussels（感谢关注youtube：8度科技）
+      - 🇳🇱 荷兰 2
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「白嫖神器爱用不用」★★
-      - 🇭🇰 【直连】HKG/香港 A - 6
-      - 🇭🇰 【直连】HKG/香港 B - 1
-      - 🇸🇬 【直连】SIN/狮城 A - 3
-      - 🇸🇬 【直连】SIN/狮城 A - 5
-      - 🇸🇬 YouTube-阿伟科技23-SG-15
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
-      - 🇸🇬 h|新加坡(SG)Singapore/Singapore 6
-      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
-      - 🇸🇬 YouTube-阿伟科技23-SG-15 2
-      - 🇭🇰 【直连】HKG/香港 A - 5
-      - 🇭🇰 香港 7
-      - 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇭🇰 YouTube-阿伟科技17-HK-15
-      - 🇭🇰 YouTube-阿伟科技01-HK-18
-      - 🇭🇰 【直连】HKG/香港 B - 9
-      - 🇺🇸 us.New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 us.New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
-      - 墨西哥(MX)Mexico
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
-      - 🇺🇸 United States 9
-      - 欧洲🚀f 15
-      - 🇺🇸 us.New York-34 联通100M+4K
-      - 🇺🇸 美国-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 SG（感谢关注youtube：8度科技）
-      - 🇭🇰 【直连】HKG/香港 B - 7
-      - 🇺🇸 ??US_13653
-      - 🇸🇬 us.New York-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 ??US_13654
-      - 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
-      - CYL-科技
       - CF（感谢关注youtube：8度科技）
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2
-      - 🇸🇬 美国-New York-8@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
-      - 🇺🇸 United States 10  5M
-      - 🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas
-      - 🇸🇬 us.New York-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - ff
-      - 🇺🇸 sfzy888.com _🇺🇸US_708
-      - 🇸🇬 us.New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
-      - 🇸🇬 us.New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 Singapore 4
-      - 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us.New York-16@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）
+      - 🇺🇸 United States 9
+      - 🇺🇸 United States 11
       - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇺🇸 ??US_12874
-      - 🇭🇰 香港 5
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo
-      - 🇺🇸 United States 6M
-      - 🇸🇬 美国-24@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us.New York-12@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-11@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国🚀f 7
-      - 🇺🇸 ??US_13652
-      - 🇭🇰 YouTube-阿伟科技10-HK-18
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
       - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 3
-      - 🇭🇰 sfzy888.com _🇭🇰HK-🇮🇩ID_221
+      - 欧洲🚀f 15
+      - 🇺🇸 US_552
+      - 🇺🇸 United States 6M
+      - 🇺🇸 US_559
+      - 🇭🇰 香港 5
+      - 🇺🇸 US_549
+      - 🇺🇸 US_548
+      - 🇸🇬 Singapore 3
+      - 🇭🇰 YouTube-阿伟科技10-HK-18
+      - 🇺🇸 US_553
+      - 🇺🇸 ??US_12874
+      - CYL-科技
       - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
+      - 🇺🇸 US_562
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科技）
+      - 🇺🇸 ??US_10182
+      - 🇺🇸 US （感谢关注youtube：8度科技）
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）
+      - 🇷🇴 sfzy888.com _🇷🇴RO_366
+      - 🇺🇸 US_668
+      - 🇺🇸 sfzy888.com _🇺🇸US_629
+      - sfzy888.com _🏁ZZ_742
+      - 🇸🇬 SG（感谢关注youtube：8度科技）
+      - 🇺🇸 US （感谢关注youtube：8度科技） 2
+      - 🇺🇸 sfzy888.com _🇺🇸US_476
+      - CYL-科技 2
+      - 🇺🇸 US_558
+      - CYL-科技 3
+      - 🇺🇸 US （感谢关注youtube：8度科技） 3
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 US_667
+      - CYL-科技 4
+      - 🇺🇸 US （感谢关注youtube：8度科技） 4
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科技） 2
+      - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford
+      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）3.9M
+      - 🇺🇸 美国 西雅图（感谢关注youtube：8度科技）
+      - 🇺🇸 US （感谢关注youtube：8度科技） 5
+      - 🇺🇸 US （感谢关注youtube：8度科技） 6
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
+      - 🇺🇸 US （感谢关注youtube：8度科技） 7
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2
+      - 🇳🇱 荷兰
+      - 🇺🇸 US （感谢关注youtube：8度科技） 8
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
+      - 🇺🇸 US （感谢关注youtube：8度科技） 9
+      - 🇺🇸 US （感谢关注youtube：8度科技） 10
+      - 🇺🇸 US （感谢关注youtube：8度科技） 11
+      - CA（感谢关注youtube：8度科技）
+      - 🇫🇮 芬兰（感谢关注youtube：8度科技）
+      - 🇫🇮 芬兰（感谢关注youtube：8度科技） 2
+      - 墨西哥(MX)Mexico
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2
+      - 🇺🇸 US （感谢关注youtube：8度科技） 12
+      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main
+      - 🇺🇸 US （感谢关注youtube：8度科技） 13
+      - 🇺🇸 Brussels（感谢关注youtube：8度科技）
+      - 🇳🇱 荷兰 2
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 【直连】HKG/香港 A - 6
-      - 🇭🇰 【直连】HKG/香港 B - 1
-      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
-      - 🇭🇰 【直连】HKG/香港 A - 5
-      - 🇭🇰 香港 7
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇭🇰 【直连】HKG/香港 B - 9
-      - 🇭🇰 【直连】HKG/香港 B - 7
       - 🇭🇰 香港 5
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -317,224 +309,224 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 「白嫖神器爱用不用」★★
-      - 🇭🇰 【直连】HKG/香港 A - 6
-      - 🇭🇰 【直连】HKG/香港 B - 1
-      - 🇸🇬 【直连】SIN/狮城 A - 3
-      - 🇸🇬 【直连】SIN/狮城 A - 5
-      - 🇸🇬 YouTube-阿伟科技23-SG-15
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
-      - 🇸🇬 h|新加坡(SG)Singapore/Singapore 6
-      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
-      - 🇸🇬 YouTube-阿伟科技23-SG-15 2
-      - 🇭🇰 【直连】HKG/香港 A - 5
-      - 🇭🇰 香港 7
-      - 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇭🇰 YouTube-阿伟科技17-HK-15
-      - 🇭🇰 YouTube-阿伟科技01-HK-18
-      - 🇭🇰 【直连】HKG/香港 B - 9
-      - 🇺🇸 us.New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 us.New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
-      - 墨西哥(MX)Mexico
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
-      - 🇺🇸 United States 9
-      - 欧洲🚀f 15
-      - 🇺🇸 us.New York-34 联通100M+4K
-      - 🇺🇸 美国-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 SG（感谢关注youtube：8度科技）
-      - 🇭🇰 【直连】HKG/香港 B - 7
-      - 🇺🇸 ??US_13653
-      - 🇸🇬 us.New York-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 ??US_13654
-      - 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
-      - CYL-科技
       - CF（感谢关注youtube：8度科技）
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2
-      - 🇸🇬 美国-New York-8@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
-      - 🇺🇸 United States 10  5M
-      - 🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas
-      - 🇸🇬 us.New York-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - ff
-      - 🇺🇸 sfzy888.com _🇺🇸US_708
-      - 🇸🇬 us.New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
-      - 🇸🇬 us.New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 Singapore 4
-      - 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us.New York-16@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）
+      - 🇺🇸 United States 9
+      - 🇺🇸 United States 11
       - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇺🇸 ??US_12874
-      - 🇭🇰 香港 5
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo
-      - 🇺🇸 United States 6M
-      - 🇸🇬 美国-24@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us.New York-12@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-11@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国🚀f 7
-      - 🇺🇸 ??US_13652
-      - 🇭🇰 YouTube-阿伟科技10-HK-18
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
       - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 3
-      - 🇭🇰 sfzy888.com _🇭🇰HK-🇮🇩ID_221
+      - 欧洲🚀f 15
+      - 🇺🇸 US_552
+      - 🇺🇸 United States 6M
+      - 🇺🇸 US_559
+      - 🇭🇰 香港 5
+      - 🇺🇸 US_549
+      - 🇺🇸 US_548
+      - 🇸🇬 Singapore 3
+      - 🇭🇰 YouTube-阿伟科技10-HK-18
+      - 🇺🇸 US_553
+      - 🇺🇸 ??US_12874
+      - CYL-科技
       - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
+      - 🇺🇸 US_562
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科技）
+      - 🇺🇸 ??US_10182
+      - 🇺🇸 US （感谢关注youtube：8度科技）
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）
+      - 🇷🇴 sfzy888.com _🇷🇴RO_366
+      - 🇺🇸 US_668
+      - 🇺🇸 sfzy888.com _🇺🇸US_629
+      - sfzy888.com _🏁ZZ_742
+      - 🇸🇬 SG（感谢关注youtube：8度科技）
+      - 🇺🇸 US （感谢关注youtube：8度科技） 2
+      - 🇺🇸 sfzy888.com _🇺🇸US_476
+      - CYL-科技 2
+      - 🇺🇸 US_558
+      - CYL-科技 3
+      - 🇺🇸 US （感谢关注youtube：8度科技） 3
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 US_667
+      - CYL-科技 4
+      - 🇺🇸 US （感谢关注youtube：8度科技） 4
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科技） 2
+      - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford
+      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）3.9M
+      - 🇺🇸 美国 西雅图（感谢关注youtube：8度科技）
+      - 🇺🇸 US （感谢关注youtube：8度科技） 5
+      - 🇺🇸 US （感谢关注youtube：8度科技） 6
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
+      - 🇺🇸 US （感谢关注youtube：8度科技） 7
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2
+      - 🇳🇱 荷兰
+      - 🇺🇸 US （感谢关注youtube：8度科技） 8
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
+      - 🇺🇸 US （感谢关注youtube：8度科技） 9
+      - 🇺🇸 US （感谢关注youtube：8度科技） 10
+      - 🇺🇸 US （感谢关注youtube：8度科技） 11
+      - CA（感谢关注youtube：8度科技）
+      - 🇫🇮 芬兰（感谢关注youtube：8度科技）
+      - 🇫🇮 芬兰（感谢关注youtube：8度科技） 2
+      - 墨西哥(MX)Mexico
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2
+      - 🇺🇸 US （感谢关注youtube：8度科技） 12
+      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main
+      - 🇺🇸 US （感谢关注youtube：8度科技） 13
+      - 🇺🇸 Brussels（感谢关注youtube：8度科技）
+      - 🇳🇱 荷兰 2
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 「白嫖神器爱用不用」★★
-      - 🇭🇰 【直连】HKG/香港 A - 6
-      - 🇭🇰 【直连】HKG/香港 B - 1
-      - 🇸🇬 【直连】SIN/狮城 A - 3
-      - 🇸🇬 【直连】SIN/狮城 A - 5
-      - 🇸🇬 YouTube-阿伟科技23-SG-15
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
-      - 🇸🇬 h|新加坡(SG)Singapore/Singapore 6
-      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
-      - 🇸🇬 YouTube-阿伟科技23-SG-15 2
-      - 🇭🇰 【直连】HKG/香港 A - 5
-      - 🇭🇰 香港 7
-      - 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇭🇰 YouTube-阿伟科技17-HK-15
-      - 🇭🇰 YouTube-阿伟科技01-HK-18
-      - 🇭🇰 【直连】HKG/香港 B - 9
-      - 🇺🇸 us.New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 us.New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
-      - 墨西哥(MX)Mexico
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
-      - 🇺🇸 United States 9
-      - 欧洲🚀f 15
-      - 🇺🇸 us.New York-34 联通100M+4K
-      - 🇺🇸 美国-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 SG（感谢关注youtube：8度科技）
-      - 🇭🇰 【直连】HKG/香港 B - 7
-      - 🇺🇸 ??US_13653
-      - 🇸🇬 us.New York-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 ??US_13654
-      - 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
-      - CYL-科技
       - CF（感谢关注youtube：8度科技）
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2
-      - 🇸🇬 美国-New York-8@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
-      - 🇺🇸 United States 10  5M
-      - 🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas
-      - 🇸🇬 us.New York-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - ff
-      - 🇺🇸 sfzy888.com _🇺🇸US_708
-      - 🇸🇬 us.New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
-      - 🇸🇬 us.New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 Singapore 4
-      - 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us.New York-16@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）
+      - 🇺🇸 United States 9
+      - 🇺🇸 United States 11
       - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇺🇸 ??US_12874
-      - 🇭🇰 香港 5
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo
-      - 🇺🇸 United States 6M
-      - 🇸🇬 美国-24@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us.New York-12@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-11@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国🚀f 7
-      - 🇺🇸 ??US_13652
-      - 🇭🇰 YouTube-阿伟科技10-HK-18
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
       - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 3
-      - 🇭🇰 sfzy888.com _🇭🇰HK-🇮🇩ID_221
+      - 欧洲🚀f 15
+      - 🇺🇸 US_552
+      - 🇺🇸 United States 6M
+      - 🇺🇸 US_559
+      - 🇭🇰 香港 5
+      - 🇺🇸 US_549
+      - 🇺🇸 US_548
+      - 🇸🇬 Singapore 3
+      - 🇭🇰 YouTube-阿伟科技10-HK-18
+      - 🇺🇸 US_553
+      - 🇺🇸 ??US_12874
+      - CYL-科技
       - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
+      - 🇺🇸 US_562
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科技）
+      - 🇺🇸 ??US_10182
+      - 🇺🇸 US （感谢关注youtube：8度科技）
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）
+      - 🇷🇴 sfzy888.com _🇷🇴RO_366
+      - 🇺🇸 US_668
+      - 🇺🇸 sfzy888.com _🇺🇸US_629
+      - sfzy888.com _🏁ZZ_742
+      - 🇸🇬 SG（感谢关注youtube：8度科技）
+      - 🇺🇸 US （感谢关注youtube：8度科技） 2
+      - 🇺🇸 sfzy888.com _🇺🇸US_476
+      - CYL-科技 2
+      - 🇺🇸 US_558
+      - CYL-科技 3
+      - 🇺🇸 US （感谢关注youtube：8度科技） 3
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 US_667
+      - CYL-科技 4
+      - 🇺🇸 US （感谢关注youtube：8度科技） 4
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科技） 2
+      - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford
+      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）3.9M
+      - 🇺🇸 美国 西雅图（感谢关注youtube：8度科技）
+      - 🇺🇸 US （感谢关注youtube：8度科技） 5
+      - 🇺🇸 US （感谢关注youtube：8度科技） 6
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
+      - 🇺🇸 US （感谢关注youtube：8度科技） 7
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2
+      - 🇳🇱 荷兰
+      - 🇺🇸 US （感谢关注youtube：8度科技） 8
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
+      - 🇺🇸 US （感谢关注youtube：8度科技） 9
+      - 🇺🇸 US （感谢关注youtube：8度科技） 10
+      - 🇺🇸 US （感谢关注youtube：8度科技） 11
+      - CA（感谢关注youtube：8度科技）
+      - 🇫🇮 芬兰（感谢关注youtube：8度科技）
+      - 🇫🇮 芬兰（感谢关注youtube：8度科技） 2
+      - 墨西哥(MX)Mexico
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2
+      - 🇺🇸 US （感谢关注youtube：8度科技） 12
+      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main
+      - 🇺🇸 US （感谢关注youtube：8度科技） 13
+      - 🇺🇸 Brussels（感谢关注youtube：8度科技）
+      - 🇳🇱 荷兰 2
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「白嫖神器爱用不用」★★
-      - 🇭🇰 【直连】HKG/香港 A - 6
-      - 🇭🇰 【直连】HKG/香港 B - 1
-      - 🇸🇬 【直连】SIN/狮城 A - 3
-      - 🇸🇬 【直连】SIN/狮城 A - 5
-      - 🇸🇬 YouTube-阿伟科技23-SG-15
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
-      - 🇸🇬 h|新加坡(SG)Singapore/Singapore 6
-      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
-      - 🇸🇬 YouTube-阿伟科技23-SG-15 2
-      - 🇭🇰 【直连】HKG/香港 A - 5
-      - 🇭🇰 香港 7
-      - 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇭🇰 YouTube-阿伟科技17-HK-15
-      - 🇭🇰 YouTube-阿伟科技01-HK-18
-      - 🇭🇰 【直连】HKG/香港 B - 9
-      - 🇺🇸 us.New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 us.New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
-      - 墨西哥(MX)Mexico
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
-      - 🇺🇸 United States 9
-      - 欧洲🚀f 15
-      - 🇺🇸 us.New York-34 联通100M+4K
-      - 🇺🇸 美国-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 SG（感谢关注youtube：8度科技）
-      - 🇭🇰 【直连】HKG/香港 B - 7
-      - 🇺🇸 ??US_13653
-      - 🇸🇬 us.New York-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 ??US_13654
-      - 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
-      - CYL-科技
       - CF（感谢关注youtube：8度科技）
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2
-      - 🇸🇬 美国-New York-8@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
-      - 🇺🇸 United States 10  5M
-      - 🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas
-      - 🇸🇬 us.New York-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - ff
-      - 🇺🇸 sfzy888.com _🇺🇸US_708
-      - 🇸🇬 us.New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
-      - 🇸🇬 us.New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 Singapore 4
-      - 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us.New York-16@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）
+      - 🇺🇸 United States 9
+      - 🇺🇸 United States 11
       - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇺🇸 ??US_12874
-      - 🇭🇰 香港 5
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo
-      - 🇺🇸 United States 6M
-      - 🇸🇬 美国-24@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us.New York-12@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-11@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国🚀f 7
-      - 🇺🇸 ??US_13652
-      - 🇭🇰 YouTube-阿伟科技10-HK-18
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
       - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 3
-      - 🇭🇰 sfzy888.com _🇭🇰HK-🇮🇩ID_221
+      - 欧洲🚀f 15
+      - 🇺🇸 US_552
+      - 🇺🇸 United States 6M
+      - 🇺🇸 US_559
+      - 🇭🇰 香港 5
+      - 🇺🇸 US_549
+      - 🇺🇸 US_548
+      - 🇸🇬 Singapore 3
+      - 🇭🇰 YouTube-阿伟科技10-HK-18
+      - 🇺🇸 US_553
+      - 🇺🇸 ??US_12874
+      - CYL-科技
       - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
+      - 🇺🇸 US_562
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科技）
+      - 🇺🇸 ??US_10182
+      - 🇺🇸 US （感谢关注youtube：8度科技）
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）
+      - 🇷🇴 sfzy888.com _🇷🇴RO_366
+      - 🇺🇸 US_668
+      - 🇺🇸 sfzy888.com _🇺🇸US_629
+      - sfzy888.com _🏁ZZ_742
+      - 🇸🇬 SG（感谢关注youtube：8度科技）
+      - 🇺🇸 US （感谢关注youtube：8度科技） 2
+      - 🇺🇸 sfzy888.com _🇺🇸US_476
+      - CYL-科技 2
+      - 🇺🇸 US_558
+      - CYL-科技 3
+      - 🇺🇸 US （感谢关注youtube：8度科技） 3
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 US_667
+      - CYL-科技 4
+      - 🇺🇸 US （感谢关注youtube：8度科技） 4
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科技） 2
+      - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford
+      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）3.9M
+      - 🇺🇸 美国 西雅图（感谢关注youtube：8度科技）
+      - 🇺🇸 US （感谢关注youtube：8度科技） 5
+      - 🇺🇸 US （感谢关注youtube：8度科技） 6
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
+      - 🇺🇸 US （感谢关注youtube：8度科技） 7
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2
+      - 🇳🇱 荷兰
+      - 🇺🇸 US （感谢关注youtube：8度科技） 8
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
+      - 🇺🇸 US （感谢关注youtube：8度科技） 9
+      - 🇺🇸 US （感谢关注youtube：8度科技） 10
+      - 🇺🇸 US （感谢关注youtube：8度科技） 11
+      - CA（感谢关注youtube：8度科技）
+      - 🇫🇮 芬兰（感谢关注youtube：8度科技）
+      - 🇫🇮 芬兰（感谢关注youtube：8度科技） 2
+      - 墨西哥(MX)Mexico
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2
+      - 🇺🇸 US （感谢关注youtube：8度科技） 12
+      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main
+      - 🇺🇸 US （感谢关注youtube：8度科技） 13
+      - 🇺🇸 Brussels（感谢关注youtube：8度科技）
+      - 🇳🇱 荷兰 2
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -550,75 +542,75 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「白嫖神器爱用不用」★★
-      - 🇭🇰 【直连】HKG/香港 A - 6
-      - 🇭🇰 【直连】HKG/香港 B - 1
-      - 🇸🇬 【直连】SIN/狮城 A - 3
-      - 🇸🇬 【直连】SIN/狮城 A - 5
-      - 🇸🇬 YouTube-阿伟科技23-SG-15
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
-      - 🇸🇬 h|新加坡(SG)Singapore/Singapore 6
-      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
-      - 🇸🇬 YouTube-阿伟科技23-SG-15 2
-      - 🇭🇰 【直连】HKG/香港 A - 5
-      - 🇭🇰 香港 7
-      - 🇭🇰 sfzy888.com _🇭🇰HK-🇺🇸US_238
-      - 🇦🇷 https://www.mattkaydiary.com|中国香港特别行政区(HK)Hongkong SAR China/Hong Kong
-      - 🇭🇰 YouTube-阿伟科技17-HK-15
-      - 🇭🇰 YouTube-阿伟科技01-HK-18
-      - 🇭🇰 【直连】HKG/香港 B - 9
-      - 🇺🇸 us.New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 us.New York-22移动@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 g-美国赛基诺州立大学4.9M  20
-      - 墨西哥(MX)Mexico
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
-      - 🇺🇸 United States 9
-      - 欧洲🚀f 15
-      - 🇺🇸 us.New York-34 联通100M+4K
-      - 🇺🇸 美国-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇺🇸 美国-New York-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 🇸🇬 SG（感谢关注youtube：8度科技）
-      - 🇭🇰 【直连】HKG/香港 B - 7
-      - 🇺🇸 ??US_13653
-      - 🇸🇬 us.New York-19@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 ??US_13654
-      - 🇸🇬 us.New York-3@1Gbps节点更新https://bit.ly/3uWuS7a
-      - CYL-科技
       - CF（感谢关注youtube：8度科技）
-      - 🇺🇸 圣何塞（感谢关注youtube：8度科技） 2
-      - 🇸🇬 美国-New York-8@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-New York-28@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
-      - 🇺🇸 United States 10  5M
-      - 🇸🇬 [新]🇺🇸美国(US)USA/Las Vegas
-      - 🇸🇬 us.New York-23@1Gbps节点更新https://bit.ly/3uWuS7a
-      - ff
-      - 🇺🇸 sfzy888.com _🇺🇸US_708
-      - 🇸🇬 us.New York-9@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
-      - 🇸🇬 us.New York-21联通@1Gbps 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 Singapore 4
-      - 🇸🇬 美国-New York-6@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us.New York-16@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇺🇸 美国 丹佛（感谢关注youtube：8度科技）
+      - 🇺🇸 United States 9
+      - 🇺🇸 United States 11
       - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇺🇸 ??US_12874
-      - 🇭🇰 香港 5
-      - 🇯🇵 https://www.mattkaydiary.com|日本(JP)Japan/Tokyo
-      - 🇺🇸 United States 6M
-      - 🇸🇬 美国-24@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 us.New York-12@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 美国-11@1Gbps节点更新https://bit.ly/3uWuS7a
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Berlin
-      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国🚀f 7
-      - 🇺🇸 ??US_13652
-      - 🇭🇰 YouTube-阿伟科技10-HK-18
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 圣何塞（感谢关注youtube：8度科技）
       - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 3
-      - 🇭🇰 sfzy888.com _🇭🇰HK-🇮🇩ID_221
+      - 欧洲🚀f 15
+      - 🇺🇸 US_552
+      - 🇺🇸 United States 6M
+      - 🇺🇸 US_559
+      - 🇭🇰 香港 5
+      - 🇺🇸 US_549
+      - 🇺🇸 US_548
+      - 🇸🇬 Singapore 3
+      - 🇭🇰 YouTube-阿伟科技10-HK-18
+      - 🇺🇸 US_553
+      - 🇺🇸 ??US_12874
+      - CYL-科技
       - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Fremont
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
+      - 🇺🇸 US_562
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科技）
+      - 🇺🇸 ??US_10182
+      - 🇺🇸 US （感谢关注youtube：8度科技）
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
+      - 🇺🇸 美国 达拉斯（感谢关注youtube：8度科技）
+      - 🇷🇴 sfzy888.com _🇷🇴RO_366
+      - 🇺🇸 US_668
+      - 🇺🇸 sfzy888.com _🇺🇸US_629
+      - sfzy888.com _🏁ZZ_742
+      - 🇸🇬 SG（感谢关注youtube：8度科技）
+      - 🇺🇸 US （感谢关注youtube：8度科技） 2
+      - 🇺🇸 sfzy888.com _🇺🇸US_476
+      - CYL-科技 2
+      - 🇺🇸 US_558
+      - CYL-科技 3
+      - 🇺🇸 US （感谢关注youtube：8度科技） 3
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 2
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 US_667
+      - CYL-科技 4
+      - 🇺🇸 US （感谢关注youtube：8度科技） 4
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科技） 2
+      - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford
+      - 🇷🇴 罗马尼亚 （感谢关注youtube：8度科技）3.9M
+      - 🇺🇸 美国 西雅图（感谢关注youtube：8度科技）
+      - 🇺🇸 US （感谢关注youtube：8度科技） 5
+      - 🇺🇸 US （感谢关注youtube：8度科技） 6
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
+      - 🇺🇸 US （感谢关注youtube：8度科技） 7
+      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技） 2
+      - 🇳🇱 荷兰
+      - 🇺🇸 US （感谢关注youtube：8度科技） 8
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 3
+      - 🇺🇸 US （感谢关注youtube：8度科技） 9
+      - 🇺🇸 US （感谢关注youtube：8度科技） 10
+      - 🇺🇸 US （感谢关注youtube：8度科技） 11
+      - CA（感谢关注youtube：8度科技）
+      - 🇫🇮 芬兰（感谢关注youtube：8度科技）
+      - 🇫🇮 芬兰（感谢关注youtube：8度科技） 2
+      - 墨西哥(MX)Mexico
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas 2
+      - 🇺🇸 US （感谢关注youtube：8度科技） 12
+      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main
+      - 🇺🇸 US （感谢关注youtube：8度科技） 13
+      - 🇺🇸 Brussels（感谢关注youtube：8度科技）
+      - 🇳🇱 荷兰 2
+      - 🇸🇬 SG（感谢关注youtube：8度科技） 4
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
