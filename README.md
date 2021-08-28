@@ -5,303 +5,303 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: a 111, server: 175.98.194.18, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇸🇬 YouTube-阿伟科技13-SG-25, server: 54.254.45.125, port: 9999, type: ss, cipher: chacha20-ietf-poly1305, password: 1f0ffe8e-02b9-4246-86b4-541449b7ae67}
-  - {name: 🇭🇰 YouTube-阿伟科技09-HK-20, server: 18.163.121.72, port: 80, type: vmess, uuid: cea7dee6-62f3-4bc5-9f6e-ce55d3df8dbb, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}}
-  - {name: 🇳🇱 hm|荷兰(NL)Netherlands/Amsterdam 7, server: c26s4.jamjams.net, port: 25661, type: vmess, uuid: ddd1dd39-fe36-4d82-8318-475093d78ec0, alterId: 8, cipher: auto, tls: false}
-  - {name: 🇭🇰 YouTube-阿伟科技01-HK-25, server: 16.162.23.188, port: 10086, type: vmess, uuid: 0f2d3933-f314-47b3-9f9c-0dfcdb63907e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 16.162.23.188}}
-  - {name: CYL-科技, server: jb.wocaonimabi666.xyz, port: 53428, type: vmess, uuid: 9f4ea75a-c6d4-4068-b6c9-a0ae1873b309, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 YouTube-阿伟科技06/1-HK-25, server: superstar.hk.02.free.srayx.xyz, port: 23002, type: ss, cipher: chacha20-ietf-poly1305, password: d627ab0f-73f6-492e-bc89-934afadc164a}
-  - {name: 墨西哥(MX)Mexico, server: 104.17.129.121, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国, server: us22.xqkj.cloud, port: 1122, type: vmess, uuid: 7a5d2e3d-36d3-4ce8-b6b6-1e852b10a08a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us22.xqkj.cloud}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: jp-02.yinriver.top}}
-  - {name: "🇺🇸 ??US_13652", server: 84.17.41.77, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: a 51, server: zza1.uuv2.uk, port: 5401, type: vmess, uuid: 2751b1f3-54a5-447a-87ae-df1e88e2aaee, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /@mftizi, ws-headers: {Host: kr02.uuv2.uk}}
-  - {name: 🇺🇸 US_562, server: 154.17.2.121, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 2, server: us25.xqkj.cloud, port: 1125, type: vmess, uuid: 7a5d2e3d-36d3-4ce8-b6b6-1e852b10a08a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us25.xqkj.cloud}}
+  - {name: CYL-科技, server: kj3xfvid6unglwytghfq7ymawxh9pr5zce1j.quickairport.top, port: 21846, type: vmess, uuid: 2373a234-4b09-47d0-999d-7c6b0f25156a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: kj3xfvid6unglwytghfq7ymawxh9pr5zce1j.quickairport.top}}
   - {name: 🇭🇰 YouTube-阿伟科技09-HK-25, server: 18.167.84.92, port: 80, type: vmess, uuid: cea7dee6-62f3-4bc5-9f6e-ce55d3df8dbb, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}}
-  - {name: 🇺🇸 US_563, server: 154.17.1.251, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 3, server: us23.xqkj.cloud, port: 1123, type: vmess, uuid: 7a5d2e3d-36d3-4ce8-b6b6-1e852b10a08a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us23.xqkj.cloud}}
-  - {name: ff, server: 84.17.41.77, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 4, server: us29.xqkj.cloud, port: 1129, type: vmess, uuid: 7a5d2e3d-36d3-4ce8-b6b6-1e852b10a08a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us29.xqkj.cloud}}
-  - {name: 🇺🇸 US_553, server: 154.17.2.153, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 US_559, server: 154.17.2.109, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: l3Y9yKCBaT5SnpFFOe834yqIaXwSpRxz3l7D3Aua82ZgcSNZDCO6AexYDCE0Rj}
+  - {name: CYL-科技 2, server: jb.wocaonimabi666.xyz, port: 53428, type: vmess, uuid: 9f4ea75a-c6d4-4068-b6c9-a0ae1873b309, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 YouTube-阿伟科技09-HK-20, server: 18.163.121.72, port: 80, type: vmess, uuid: cea7dee6-62f3-4bc5-9f6e-ce55d3df8dbb, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}}
+  - {name: 🇭🇰 sfzy888.com _🇭🇰HK-🇮🇩ID_231, server: jb.wocaonimabi666.xyz, port: 35407, type: vmess, uuid: b3342b04-7da5-400f-c897-1f999a2e446b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国 6, server: 84.17.41.77, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇺🇸 US_548, server: 154.17.2.149, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇷🇺 sfzy888.com _🇷🇺RU-🇷🇺RU_383, server: ss12.ssrsub.one, port: 2443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
-  - {name: 🇺🇸 洛杉矶（感谢关注youtube：8度科技）, server: 185.242.5.147, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: jp-02.yinriver.top}}
+  - {name: 🇸🇬 YouTube-阿伟科技13-SG-25, server: 54.254.45.125, port: 9999, type: ss, cipher: chacha20-ietf-poly1305, password: 1f0ffe8e-02b9-4246-86b4-541449b7ae67}
+  - {name: 🇭🇰 YouTube-阿伟科技06/1-HK-25, server: superstar.hk.02.free.srayx.xyz, port: 23002, type: ss, cipher: chacha20-ietf-poly1305, password: d627ab0f-73f6-492e-bc89-934afadc164a}
+  - {name: ff, server: 84.17.41.77, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: a 51, server: zza1.uuv2.uk, port: 5401, type: vmess, uuid: 2751b1f3-54a5-447a-87ae-df1e88e2aaee, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /@mftizi, ws-headers: {Host: kr02.uuv2.uk}}
+  - {name: "🇺🇸 ??US_13654", server: 212.102.46.56, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
   - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles, server: 192.111.134.195, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇸 US_558, server: 154.17.2.135, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇬🇧 英国（感谢关注youtube：8度科技）, server: 84.17.41.83, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: "🇺🇸 ??US_13653", server: 84.17.41.77, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2, server: 185.242.5.147, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main, server: 82.102.16.99, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: a 3, server: 66.115.147.77, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇸 美国 21, server: 199.10.64.99, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3, server: 185.242.5.149, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas, server: 185.242.5.149, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: YouTube-阿伟科技02-25, server: 13.55.139.138, port: 80, type: vmess, uuid: 18463354-a2aa-4b88-b9cb-4abc426c1a52, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.55.139.138}}
-  - {name: 🇷🇺 sfzy888.com _🇷🇺RU-🇷🇺RU_382, server: ss11.ssrsub.one, port: 9443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 5, server: us24.xqkj.cloud, port: 1124, type: vmess, uuid: 7a5d2e3d-36d3-4ce8-b6b6-1e852b10a08a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us24.xqkj.cloud}}
-  - {name: 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main 2, server: 37.120.196.53, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇷🇴 sfzy888.com _🇷🇴RO_366, server: 193.29.106.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris, server: 84.247.51.251, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: ff 19, server: 37.120.143.117, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇷🇴 sfzy888.com _🇷🇴RO_358, server: 193.29.106.61, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita, server: 173.82.150.26, port: 443, type: vmess, uuid: 1a116d02-5fca-47fa-a2a1-6e8d0f2f71cc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.75287890.xyz}}
+  - {name: sfzy888.com _🏁ZZ_742, server: 138.199.9.202, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: CYL-科技 3, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
   - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2, server: 192.111.134.197, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 6, server: us01.xqkj.cloud, port: 1111, type: vmess, uuid: 7a5d2e3d-36d3-4ce8-b6b6-1e852b10a08a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us01.xqkj.cloud}}
-  - {name: 🇺🇸 Brussels（感谢关注youtube：8度科技）, server: 37.120.143.117, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 比利时（感谢关注youtube：8度科技）, server: 217.138.211.221, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇨🇭 https://www.mattkaydiary.com|瑞士(CH)Switzerland/Zürich, server: 45.12.222.245, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: YouTube-阿伟科技17-25, server: 52.184.33.196, port: 443, type: vmess, uuid: e9e755b2-c8e0-4e51-894c-2f7c268c1a2e, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /bwall, ws-headers: {Host: us.tiexin.xyz}}
-  - {name: 欧洲 5, server: 195.181.171.233, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇳🇱 hm|荷兰(NL)Netherlands/Amsterdam 6, server: 46.182.107.93, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
-  - {name: 🇺🇸 US_555, server: 154.17.5.184, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 7, server: us26.xqkj.cloud, port: 1126, type: vmess, uuid: 7a5d2e3d-36d3-4ce8-b6b6-1e852b10a08a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us26.xqkj.cloud}}
-  - {name: 克罗地亚（感谢关注youtube：8度科技）, server: 176.222.34.113, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 美国 密歇根（感谢关注youtube：8度科, server: 104.244.211.141, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: CYL-科技 2, server: 46.182.107.94, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
-  - {name: 捷克 布拉格（感谢关注youtube：8度科技）, server: 217.138.211.221, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 欧洲 10, server: 217.138.211.221, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 欧洲 19, server: 193.29.106.179, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇬🇧 英国, server: 89.238.130.253, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇨🇦 YouTube晓柒科技分享：加拿大, server: jnd04.xqkj.cloud, port: 1611, type: vmess, uuid: 7a5d2e3d-36d3-4ce8-b6b6-1e852b10a08a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jnd04.xqkj.cloud}}
-  - {name: 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2, server: 104.244.208.205, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇺🇸 YouTube-阿伟科技16-US-25, server: du1.misaka.rest, port: 11451, type: ss, cipher: aes-256-gcm, password: 61c34977-c09d-4611-97b7-2a7e99b4589d}
-  - {name: 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford, server: 89.238.130.227, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 8, server: us05.xqkj.cloud, port: 1115, type: vmess, uuid: 7a5d2e3d-36d3-4ce8-b6b6-1e852b10a08a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us05.xqkj.cloud}}
-  - {name: 🇺🇸 US_554, server: 154.17.2.117, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: 2SYSIDnBqT5eCl736xlD4yODaXaSF9EeNp3OZcpjyC8ARYwA0zgC83aKxFZRu3}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 9, server: us03.xqkj.cloud, port: 1113, type: vmess, uuid: 7a5d2e3d-36d3-4ce8-b6b6-1e852b10a08a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us03.xqkj.cloud}}
-  - {name: 🇨🇦 YouTube晓柒科技分享：加拿大 2, server: jnd08.xqkj.cloud, port: 1611, type: vmess, uuid: 7a5d2e3d-36d3-4ce8-b6b6-1e852b10a08a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jnd08.xqkj.cloud}}
+  - {name: "🇺🇸 ??US_13652", server: 84.17.41.77, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: CYL-科技 4, server: 87.101.94.211, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 🇺🇸 洛杉矶（感谢关注youtube：8度科技）, server: 185.242.5.147, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: CYL-科技 5, server: 82.102.26.60, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: CYL-科技 6, server: 87.101.94.211, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: CYL-科技 7, server: 82.102.26.60, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: CYL-科技 8, server: 198.8.92.84, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2, server: 185.242.5.149, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇸 sfzy888.com _🇺🇸US_552, server: 198.8.92.84, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇺🇸 sfzy888.com _🇺🇸US_594, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇺🇸 sfzy888.com _🇺🇸US_629, server: 198.8.92.84, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3, server: 185.242.5.147, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 sfzy888.com _🇺🇸US_553, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: CYL-科技 9, server: jb.wocaonimabi666.xyz, port: 48258, type: vmess, uuid: 5080a95a-27b6-441f-8cee-a6e2ba5c780a, alterId: 0, cipher: auto, tls: false}
+  - {name: CYL-科技 10, server: 198.8.92.84, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: CYL-科技 11, server: 217.138.216.243, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: CYL-科技 12, server: 82.102.26.60, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: CYL-科技 13, server: 82.102.26.60, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: sfzy888.com _🇨🇦CA_37, server: 208.78.41.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇷🇴 sfzy888.com _🇷🇴RO_359, server: 91.90.123.115, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 罗马 顺丰资源YouTube, server: 91.90.123.115, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 YouTube-阿伟科技16-US-25, server: du2.misaka.rest, port: 11451, type: ss, cipher: aes-256-gcm, password: 61c34977-c09d-4611-97b7-2a7e99b4589d}
   - {name: 🇺🇸 sfzy888.com _🇺🇸US_476, server: 212.102.40.68, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 欧洲 19, server: 193.29.106.179, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: CYL-科技 14, server: 217.138.216.237, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: CYL-科技 15, server: 82.102.26.60, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: CYL-科技 16, server: 82.102.26.60, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: CYL-科技 17, server: 87.101.94.211, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: CYL-科技 18, server: 87.101.94.211, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: CYL-科技 19, server: 217.138.219.229, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: CYL-科技 20, server: 87.101.94.211, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: CYL-科技 21, server: 82.102.26.54, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: CYL-科技 22, server: 82.102.26.54, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: CYL-科技 23, server: 82.102.26.54, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: CYL-科技 24, server: 82.102.26.60, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: CYL-科技 25, server: 82.102.26.60, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: CYL-科技 26, server: 82.102.26.60, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: CYL-科技 27, server: t3.ssrsub.one, port: 8443, type: trojan, password: 310d9ce0-1903-4b5a-99eb-bee8dc30e8ec, sni: t3.ssrsub.one}
+  - {name: CYL-科技 28, server: 82.102.26.54, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas, server: 185.242.5.149, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 sfzy888.com _🇺🇸US_728, server: 198.8.92.84, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇺🇸 美国 密歇根（感谢关注youtube：8度科, server: 104.244.208.205, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: a 3, server: 66.115.147.77, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: CYL-科技 29, server: 176.125.231.27, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 US （感谢关注youtube：8度科技）, server: 104.244.211.171, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: CYL-科技 30, server: 5.253.205.229, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: CYL-科技 31, server: 194.110.115.77, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: CYL-科技 32, server: 87.101.94.211, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: CYL-科技 33, server: 82.102.26.60, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: CYL-科技 34, server: 87.101.94.211, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: CYL-科技 35, server: 82.102.26.54, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: CYL-科技 36, server: 82.102.26.54, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: "🇺🇸 ??US_13653", server: 84.17.41.77, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: ff 19, server: 37.120.143.117, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - a 111
-      - 🇸🇬 YouTube-阿伟科技13-SG-25
-      - 🇭🇰 YouTube-阿伟科技09-HK-20
-      - 🇳🇱 hm|荷兰(NL)Netherlands/Amsterdam 7
-      - 🇭🇰 YouTube-阿伟科技01-HK-25
       - CYL-科技
-      - 🇭🇰 YouTube-阿伟科技06/1-HK-25
-      - 墨西哥(MX)Mexico
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
-      - 🇺🇸 ??US_13652
-      - a 51
-      - 🇺🇸 US_562
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
       - 🇭🇰 YouTube-阿伟科技09-HK-25
-      - 🇺🇸 US_563
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - ff
-      - 🇺🇸 YouTube晓柒科技分享：美国 4
-      - 🇺🇸 US_553
-      - 🇺🇸 US_559
-      - 🇺🇸 美国 6
-      - 🇺🇸 US_548
-      - 🇷🇺 sfzy888.com _🇷🇺RU-🇷🇺RU_383
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇺🇸 US_558
-      - 🇬🇧 英国（感谢关注youtube：8度科技）
-      - 🇺🇸 ??US_13653
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main
-      - a 3
-      - 🇺🇸 美国 21
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
-      - YouTube-阿伟科技02-25
-      - 🇷🇺 sfzy888.com _🇷🇺RU-🇷🇺RU_382
-      - 🇺🇸 YouTube晓柒科技分享：美国 5
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main 2
-      - 🇷🇴 sfzy888.com _🇷🇴RO_366
-      - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris
-      - ff 19
-      - 🇷🇴 sfzy888.com _🇷🇴RO_358
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 6
-      - 🇺🇸 Brussels（感谢关注youtube：8度科技）
-      - 比利时（感谢关注youtube：8度科技）
-      - 🇨🇭 https://www.mattkaydiary.com|瑞士(CH)Switzerland/Zürich
-      - YouTube-阿伟科技17-25
-      - 欧洲 5
-      - 🇳🇱 hm|荷兰(NL)Netherlands/Amsterdam 6
-      - 🇺🇸 US_555
-      - 🇺🇸 YouTube晓柒科技分享：美国 7
-      - 克罗地亚（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
       - CYL-科技 2
-      - 捷克 布拉格（感谢关注youtube：8度科技）
-      - 欧洲 10
-      - 欧洲 19
-      - 🇬🇧 英国
-      - 🇨🇦 YouTube晓柒科技分享：加拿大
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2
+      - 🇭🇰 YouTube-阿伟科技09-HK-20
+      - 🇭🇰 sfzy888.com _🇭🇰HK-🇮🇩ID_231
+      - 🇺🇸 美国 6
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
+      - 🇸🇬 YouTube-阿伟科技13-SG-25
+      - 🇭🇰 YouTube-阿伟科技06/1-HK-25
+      - ff
+      - a 51
+      - 🇺🇸 ??US_13654
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
+      - sfzy888.com _🏁ZZ_742
+      - CYL-科技 3
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
+      - 🇺🇸 ??US_13652
+      - CYL-科技 4
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - CYL-科技 5
+      - CYL-科技 6
+      - CYL-科技 7
+      - CYL-科技 8
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
+      - 🇺🇸 sfzy888.com _🇺🇸US_552
+      - 🇺🇸 sfzy888.com _🇺🇸US_594
+      - 🇺🇸 sfzy888.com _🇺🇸US_629
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
+      - 🇺🇸 sfzy888.com _🇺🇸US_553
+      - CYL-科技 9
+      - CYL-科技 10
+      - CYL-科技 11
+      - CYL-科技 12
+      - CYL-科技 13
+      - sfzy888.com _🇨🇦CA_37
+      - 🇷🇴 sfzy888.com _🇷🇴RO_359
+      - 罗马 顺丰资源YouTube
       - 🇺🇸 YouTube-阿伟科技16-US-25
-      - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford
-      - 🇺🇸 YouTube晓柒科技分享：美国 8
-      - 🇺🇸 US_554
-      - 🇺🇸 YouTube晓柒科技分享：美国 9
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 2
       - 🇺🇸 sfzy888.com _🇺🇸US_476
+      - 欧洲 19
+      - CYL-科技 14
+      - CYL-科技 15
+      - CYL-科技 16
+      - CYL-科技 17
+      - CYL-科技 18
+      - CYL-科技 19
+      - CYL-科技 20
+      - CYL-科技 21
+      - CYL-科技 22
+      - CYL-科技 23
+      - CYL-科技 24
+      - CYL-科技 25
+      - CYL-科技 26
+      - CYL-科技 27
+      - CYL-科技 28
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
+      - 🇺🇸 sfzy888.com _🇺🇸US_728
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
+      - a 3
+      - CYL-科技 29
+      - 🇺🇸 US （感谢关注youtube：8度科技）
+      - CYL-科技 30
+      - CYL-科技 31
+      - CYL-科技 32
+      - CYL-科技 33
+      - CYL-科技 34
+      - CYL-科技 35
+      - CYL-科技 36
+      - 🇺🇸 ??US_13653
+      - ff 19
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - a 111
-      - 🇸🇬 YouTube-阿伟科技13-SG-25
-      - 🇭🇰 YouTube-阿伟科技09-HK-20
-      - 🇳🇱 hm|荷兰(NL)Netherlands/Amsterdam 7
-      - 🇭🇰 YouTube-阿伟科技01-HK-25
       - CYL-科技
-      - 🇭🇰 YouTube-阿伟科技06/1-HK-25
-      - 墨西哥(MX)Mexico
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
-      - 🇺🇸 ??US_13652
-      - a 51
-      - 🇺🇸 US_562
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
       - 🇭🇰 YouTube-阿伟科技09-HK-25
-      - 🇺🇸 US_563
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - ff
-      - 🇺🇸 YouTube晓柒科技分享：美国 4
-      - 🇺🇸 US_553
-      - 🇺🇸 US_559
-      - 🇺🇸 美国 6
-      - 🇺🇸 US_548
-      - 🇷🇺 sfzy888.com _🇷🇺RU-🇷🇺RU_383
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇺🇸 US_558
-      - 🇬🇧 英国（感谢关注youtube：8度科技）
-      - 🇺🇸 ??US_13653
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main
-      - a 3
-      - 🇺🇸 美国 21
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
-      - YouTube-阿伟科技02-25
-      - 🇷🇺 sfzy888.com _🇷🇺RU-🇷🇺RU_382
-      - 🇺🇸 YouTube晓柒科技分享：美国 5
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main 2
-      - 🇷🇴 sfzy888.com _🇷🇴RO_366
-      - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris
-      - ff 19
-      - 🇷🇴 sfzy888.com _🇷🇴RO_358
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 6
-      - 🇺🇸 Brussels（感谢关注youtube：8度科技）
-      - 比利时（感谢关注youtube：8度科技）
-      - 🇨🇭 https://www.mattkaydiary.com|瑞士(CH)Switzerland/Zürich
-      - YouTube-阿伟科技17-25
-      - 欧洲 5
-      - 🇳🇱 hm|荷兰(NL)Netherlands/Amsterdam 6
-      - 🇺🇸 US_555
-      - 🇺🇸 YouTube晓柒科技分享：美国 7
-      - 克罗地亚（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
       - CYL-科技 2
-      - 捷克 布拉格（感谢关注youtube：8度科技）
-      - 欧洲 10
-      - 欧洲 19
-      - 🇬🇧 英国
-      - 🇨🇦 YouTube晓柒科技分享：加拿大
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2
+      - 🇭🇰 YouTube-阿伟科技09-HK-20
+      - 🇭🇰 sfzy888.com _🇭🇰HK-🇮🇩ID_231
+      - 🇺🇸 美国 6
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
+      - 🇸🇬 YouTube-阿伟科技13-SG-25
+      - 🇭🇰 YouTube-阿伟科技06/1-HK-25
+      - ff
+      - a 51
+      - 🇺🇸 ??US_13654
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
+      - sfzy888.com _🏁ZZ_742
+      - CYL-科技 3
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
+      - 🇺🇸 ??US_13652
+      - CYL-科技 4
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - CYL-科技 5
+      - CYL-科技 6
+      - CYL-科技 7
+      - CYL-科技 8
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
+      - 🇺🇸 sfzy888.com _🇺🇸US_552
+      - 🇺🇸 sfzy888.com _🇺🇸US_594
+      - 🇺🇸 sfzy888.com _🇺🇸US_629
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
+      - 🇺🇸 sfzy888.com _🇺🇸US_553
+      - CYL-科技 9
+      - CYL-科技 10
+      - CYL-科技 11
+      - CYL-科技 12
+      - CYL-科技 13
+      - sfzy888.com _🇨🇦CA_37
+      - 🇷🇴 sfzy888.com _🇷🇴RO_359
+      - 罗马 顺丰资源YouTube
       - 🇺🇸 YouTube-阿伟科技16-US-25
-      - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford
-      - 🇺🇸 YouTube晓柒科技分享：美国 8
-      - 🇺🇸 US_554
-      - 🇺🇸 YouTube晓柒科技分享：美国 9
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 2
       - 🇺🇸 sfzy888.com _🇺🇸US_476
+      - 欧洲 19
+      - CYL-科技 14
+      - CYL-科技 15
+      - CYL-科技 16
+      - CYL-科技 17
+      - CYL-科技 18
+      - CYL-科技 19
+      - CYL-科技 20
+      - CYL-科技 21
+      - CYL-科技 22
+      - CYL-科技 23
+      - CYL-科技 24
+      - CYL-科技 25
+      - CYL-科技 26
+      - CYL-科技 27
+      - CYL-科技 28
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
+      - 🇺🇸 sfzy888.com _🇺🇸US_728
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
+      - a 3
+      - CYL-科技 29
+      - 🇺🇸 US （感谢关注youtube：8度科技）
+      - CYL-科技 30
+      - CYL-科技 31
+      - CYL-科技 32
+      - CYL-科技 33
+      - CYL-科技 34
+      - CYL-科技 35
+      - CYL-科技 36
+      - 🇺🇸 ??US_13653
+      - ff 19
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - a 111
-      - 🇸🇬 YouTube-阿伟科技13-SG-25
-      - 🇭🇰 YouTube-阿伟科技09-HK-20
-      - 🇳🇱 hm|荷兰(NL)Netherlands/Amsterdam 7
-      - 🇭🇰 YouTube-阿伟科技01-HK-25
       - CYL-科技
-      - 🇭🇰 YouTube-阿伟科技06/1-HK-25
-      - 墨西哥(MX)Mexico
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
-      - 🇺🇸 ??US_13652
-      - a 51
-      - 🇺🇸 US_562
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
       - 🇭🇰 YouTube-阿伟科技09-HK-25
-      - 🇺🇸 US_563
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - ff
-      - 🇺🇸 YouTube晓柒科技分享：美国 4
-      - 🇺🇸 US_553
-      - 🇺🇸 US_559
-      - 🇺🇸 美国 6
-      - 🇺🇸 US_548
-      - 🇷🇺 sfzy888.com _🇷🇺RU-🇷🇺RU_383
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇺🇸 US_558
-      - 🇬🇧 英国（感谢关注youtube：8度科技）
-      - 🇺🇸 ??US_13653
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main
-      - a 3
-      - 🇺🇸 美国 21
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
-      - YouTube-阿伟科技02-25
-      - 🇷🇺 sfzy888.com _🇷🇺RU-🇷🇺RU_382
-      - 🇺🇸 YouTube晓柒科技分享：美国 5
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main 2
-      - 🇷🇴 sfzy888.com _🇷🇴RO_366
-      - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris
-      - ff 19
-      - 🇷🇴 sfzy888.com _🇷🇴RO_358
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 6
-      - 🇺🇸 Brussels（感谢关注youtube：8度科技）
-      - 比利时（感谢关注youtube：8度科技）
-      - 🇨🇭 https://www.mattkaydiary.com|瑞士(CH)Switzerland/Zürich
-      - YouTube-阿伟科技17-25
-      - 欧洲 5
-      - 🇳🇱 hm|荷兰(NL)Netherlands/Amsterdam 6
-      - 🇺🇸 US_555
-      - 🇺🇸 YouTube晓柒科技分享：美国 7
-      - 克罗地亚（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
       - CYL-科技 2
-      - 捷克 布拉格（感谢关注youtube：8度科技）
-      - 欧洲 10
-      - 欧洲 19
-      - 🇬🇧 英国
-      - 🇨🇦 YouTube晓柒科技分享：加拿大
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2
+      - 🇭🇰 YouTube-阿伟科技09-HK-20
+      - 🇭🇰 sfzy888.com _🇭🇰HK-🇮🇩ID_231
+      - 🇺🇸 美国 6
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
+      - 🇸🇬 YouTube-阿伟科技13-SG-25
+      - 🇭🇰 YouTube-阿伟科技06/1-HK-25
+      - ff
+      - a 51
+      - 🇺🇸 ??US_13654
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
+      - sfzy888.com _🏁ZZ_742
+      - CYL-科技 3
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
+      - 🇺🇸 ??US_13652
+      - CYL-科技 4
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - CYL-科技 5
+      - CYL-科技 6
+      - CYL-科技 7
+      - CYL-科技 8
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
+      - 🇺🇸 sfzy888.com _🇺🇸US_552
+      - 🇺🇸 sfzy888.com _🇺🇸US_594
+      - 🇺🇸 sfzy888.com _🇺🇸US_629
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
+      - 🇺🇸 sfzy888.com _🇺🇸US_553
+      - CYL-科技 9
+      - CYL-科技 10
+      - CYL-科技 11
+      - CYL-科技 12
+      - CYL-科技 13
+      - sfzy888.com _🇨🇦CA_37
+      - 🇷🇴 sfzy888.com _🇷🇴RO_359
+      - 罗马 顺丰资源YouTube
       - 🇺🇸 YouTube-阿伟科技16-US-25
-      - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford
-      - 🇺🇸 YouTube晓柒科技分享：美国 8
-      - 🇺🇸 US_554
-      - 🇺🇸 YouTube晓柒科技分享：美国 9
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 2
       - 🇺🇸 sfzy888.com _🇺🇸US_476
+      - 欧洲 19
+      - CYL-科技 14
+      - CYL-科技 15
+      - CYL-科技 16
+      - CYL-科技 17
+      - CYL-科技 18
+      - CYL-科技 19
+      - CYL-科技 20
+      - CYL-科技 21
+      - CYL-科技 22
+      - CYL-科技 23
+      - CYL-科技 24
+      - CYL-科技 25
+      - CYL-科技 26
+      - CYL-科技 27
+      - CYL-科技 28
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
+      - 🇺🇸 sfzy888.com _🇺🇸US_728
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
+      - a 3
+      - CYL-科技 29
+      - 🇺🇸 US （感谢关注youtube：8度科技）
+      - CYL-科技 30
+      - CYL-科技 31
+      - CYL-科技 32
+      - CYL-科技 33
+      - CYL-科技 34
+      - CYL-科技 35
+      - CYL-科技 36
+      - 🇺🇸 ??US_13653
+      - ff 19
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -312,227 +312,227 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - a 111
-      - 🇸🇬 YouTube-阿伟科技13-SG-25
-      - 🇭🇰 YouTube-阿伟科技09-HK-20
-      - 🇳🇱 hm|荷兰(NL)Netherlands/Amsterdam 7
-      - 🇭🇰 YouTube-阿伟科技01-HK-25
       - CYL-科技
-      - 🇭🇰 YouTube-阿伟科技06/1-HK-25
-      - 墨西哥(MX)Mexico
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
-      - 🇺🇸 ??US_13652
-      - a 51
-      - 🇺🇸 US_562
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
       - 🇭🇰 YouTube-阿伟科技09-HK-25
-      - 🇺🇸 US_563
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - ff
-      - 🇺🇸 YouTube晓柒科技分享：美国 4
-      - 🇺🇸 US_553
-      - 🇺🇸 US_559
-      - 🇺🇸 美国 6
-      - 🇺🇸 US_548
-      - 🇷🇺 sfzy888.com _🇷🇺RU-🇷🇺RU_383
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇺🇸 US_558
-      - 🇬🇧 英国（感谢关注youtube：8度科技）
-      - 🇺🇸 ??US_13653
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main
-      - a 3
-      - 🇺🇸 美国 21
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
-      - YouTube-阿伟科技02-25
-      - 🇷🇺 sfzy888.com _🇷🇺RU-🇷🇺RU_382
-      - 🇺🇸 YouTube晓柒科技分享：美国 5
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main 2
-      - 🇷🇴 sfzy888.com _🇷🇴RO_366
-      - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris
-      - ff 19
-      - 🇷🇴 sfzy888.com _🇷🇴RO_358
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 6
-      - 🇺🇸 Brussels（感谢关注youtube：8度科技）
-      - 比利时（感谢关注youtube：8度科技）
-      - 🇨🇭 https://www.mattkaydiary.com|瑞士(CH)Switzerland/Zürich
-      - YouTube-阿伟科技17-25
-      - 欧洲 5
-      - 🇳🇱 hm|荷兰(NL)Netherlands/Amsterdam 6
-      - 🇺🇸 US_555
-      - 🇺🇸 YouTube晓柒科技分享：美国 7
-      - 克罗地亚（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
       - CYL-科技 2
-      - 捷克 布拉格（感谢关注youtube：8度科技）
-      - 欧洲 10
-      - 欧洲 19
-      - 🇬🇧 英国
-      - 🇨🇦 YouTube晓柒科技分享：加拿大
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2
+      - 🇭🇰 YouTube-阿伟科技09-HK-20
+      - 🇭🇰 sfzy888.com _🇭🇰HK-🇮🇩ID_231
+      - 🇺🇸 美国 6
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
+      - 🇸🇬 YouTube-阿伟科技13-SG-25
+      - 🇭🇰 YouTube-阿伟科技06/1-HK-25
+      - ff
+      - a 51
+      - 🇺🇸 ??US_13654
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
+      - sfzy888.com _🏁ZZ_742
+      - CYL-科技 3
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
+      - 🇺🇸 ??US_13652
+      - CYL-科技 4
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - CYL-科技 5
+      - CYL-科技 6
+      - CYL-科技 7
+      - CYL-科技 8
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
+      - 🇺🇸 sfzy888.com _🇺🇸US_552
+      - 🇺🇸 sfzy888.com _🇺🇸US_594
+      - 🇺🇸 sfzy888.com _🇺🇸US_629
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
+      - 🇺🇸 sfzy888.com _🇺🇸US_553
+      - CYL-科技 9
+      - CYL-科技 10
+      - CYL-科技 11
+      - CYL-科技 12
+      - CYL-科技 13
+      - sfzy888.com _🇨🇦CA_37
+      - 🇷🇴 sfzy888.com _🇷🇴RO_359
+      - 罗马 顺丰资源YouTube
       - 🇺🇸 YouTube-阿伟科技16-US-25
-      - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford
-      - 🇺🇸 YouTube晓柒科技分享：美国 8
-      - 🇺🇸 US_554
-      - 🇺🇸 YouTube晓柒科技分享：美国 9
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 2
       - 🇺🇸 sfzy888.com _🇺🇸US_476
+      - 欧洲 19
+      - CYL-科技 14
+      - CYL-科技 15
+      - CYL-科技 16
+      - CYL-科技 17
+      - CYL-科技 18
+      - CYL-科技 19
+      - CYL-科技 20
+      - CYL-科技 21
+      - CYL-科技 22
+      - CYL-科技 23
+      - CYL-科技 24
+      - CYL-科技 25
+      - CYL-科技 26
+      - CYL-科技 27
+      - CYL-科技 28
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
+      - 🇺🇸 sfzy888.com _🇺🇸US_728
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
+      - a 3
+      - CYL-科技 29
+      - 🇺🇸 US （感谢关注youtube：8度科技）
+      - CYL-科技 30
+      - CYL-科技 31
+      - CYL-科技 32
+      - CYL-科技 33
+      - CYL-科技 34
+      - CYL-科技 35
+      - CYL-科技 36
+      - 🇺🇸 ??US_13653
+      - ff 19
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - a 111
-      - 🇸🇬 YouTube-阿伟科技13-SG-25
-      - 🇭🇰 YouTube-阿伟科技09-HK-20
-      - 🇳🇱 hm|荷兰(NL)Netherlands/Amsterdam 7
-      - 🇭🇰 YouTube-阿伟科技01-HK-25
       - CYL-科技
-      - 🇭🇰 YouTube-阿伟科技06/1-HK-25
-      - 墨西哥(MX)Mexico
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
-      - 🇺🇸 ??US_13652
-      - a 51
-      - 🇺🇸 US_562
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
       - 🇭🇰 YouTube-阿伟科技09-HK-25
-      - 🇺🇸 US_563
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - ff
-      - 🇺🇸 YouTube晓柒科技分享：美国 4
-      - 🇺🇸 US_553
-      - 🇺🇸 US_559
-      - 🇺🇸 美国 6
-      - 🇺🇸 US_548
-      - 🇷🇺 sfzy888.com _🇷🇺RU-🇷🇺RU_383
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇺🇸 US_558
-      - 🇬🇧 英国（感谢关注youtube：8度科技）
-      - 🇺🇸 ??US_13653
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main
-      - a 3
-      - 🇺🇸 美国 21
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
-      - YouTube-阿伟科技02-25
-      - 🇷🇺 sfzy888.com _🇷🇺RU-🇷🇺RU_382
-      - 🇺🇸 YouTube晓柒科技分享：美国 5
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main 2
-      - 🇷🇴 sfzy888.com _🇷🇴RO_366
-      - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris
-      - ff 19
-      - 🇷🇴 sfzy888.com _🇷🇴RO_358
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 6
-      - 🇺🇸 Brussels（感谢关注youtube：8度科技）
-      - 比利时（感谢关注youtube：8度科技）
-      - 🇨🇭 https://www.mattkaydiary.com|瑞士(CH)Switzerland/Zürich
-      - YouTube-阿伟科技17-25
-      - 欧洲 5
-      - 🇳🇱 hm|荷兰(NL)Netherlands/Amsterdam 6
-      - 🇺🇸 US_555
-      - 🇺🇸 YouTube晓柒科技分享：美国 7
-      - 克罗地亚（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
       - CYL-科技 2
-      - 捷克 布拉格（感谢关注youtube：8度科技）
-      - 欧洲 10
-      - 欧洲 19
-      - 🇬🇧 英国
-      - 🇨🇦 YouTube晓柒科技分享：加拿大
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2
+      - 🇭🇰 YouTube-阿伟科技09-HK-20
+      - 🇭🇰 sfzy888.com _🇭🇰HK-🇮🇩ID_231
+      - 🇺🇸 美国 6
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
+      - 🇸🇬 YouTube-阿伟科技13-SG-25
+      - 🇭🇰 YouTube-阿伟科技06/1-HK-25
+      - ff
+      - a 51
+      - 🇺🇸 ??US_13654
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
+      - sfzy888.com _🏁ZZ_742
+      - CYL-科技 3
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
+      - 🇺🇸 ??US_13652
+      - CYL-科技 4
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - CYL-科技 5
+      - CYL-科技 6
+      - CYL-科技 7
+      - CYL-科技 8
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
+      - 🇺🇸 sfzy888.com _🇺🇸US_552
+      - 🇺🇸 sfzy888.com _🇺🇸US_594
+      - 🇺🇸 sfzy888.com _🇺🇸US_629
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
+      - 🇺🇸 sfzy888.com _🇺🇸US_553
+      - CYL-科技 9
+      - CYL-科技 10
+      - CYL-科技 11
+      - CYL-科技 12
+      - CYL-科技 13
+      - sfzy888.com _🇨🇦CA_37
+      - 🇷🇴 sfzy888.com _🇷🇴RO_359
+      - 罗马 顺丰资源YouTube
       - 🇺🇸 YouTube-阿伟科技16-US-25
-      - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford
-      - 🇺🇸 YouTube晓柒科技分享：美国 8
-      - 🇺🇸 US_554
-      - 🇺🇸 YouTube晓柒科技分享：美国 9
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 2
       - 🇺🇸 sfzy888.com _🇺🇸US_476
+      - 欧洲 19
+      - CYL-科技 14
+      - CYL-科技 15
+      - CYL-科技 16
+      - CYL-科技 17
+      - CYL-科技 18
+      - CYL-科技 19
+      - CYL-科技 20
+      - CYL-科技 21
+      - CYL-科技 22
+      - CYL-科技 23
+      - CYL-科技 24
+      - CYL-科技 25
+      - CYL-科技 26
+      - CYL-科技 27
+      - CYL-科技 28
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
+      - 🇺🇸 sfzy888.com _🇺🇸US_728
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
+      - a 3
+      - CYL-科技 29
+      - 🇺🇸 US （感谢关注youtube：8度科技）
+      - CYL-科技 30
+      - CYL-科技 31
+      - CYL-科技 32
+      - CYL-科技 33
+      - CYL-科技 34
+      - CYL-科技 35
+      - CYL-科技 36
+      - 🇺🇸 ??US_13653
+      - ff 19
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - a 111
-      - 🇸🇬 YouTube-阿伟科技13-SG-25
-      - 🇭🇰 YouTube-阿伟科技09-HK-20
-      - 🇳🇱 hm|荷兰(NL)Netherlands/Amsterdam 7
-      - 🇭🇰 YouTube-阿伟科技01-HK-25
       - CYL-科技
-      - 🇭🇰 YouTube-阿伟科技06/1-HK-25
-      - 墨西哥(MX)Mexico
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
-      - 🇺🇸 ??US_13652
-      - a 51
-      - 🇺🇸 US_562
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
       - 🇭🇰 YouTube-阿伟科技09-HK-25
-      - 🇺🇸 US_563
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - ff
-      - 🇺🇸 YouTube晓柒科技分享：美国 4
-      - 🇺🇸 US_553
-      - 🇺🇸 US_559
-      - 🇺🇸 美国 6
-      - 🇺🇸 US_548
-      - 🇷🇺 sfzy888.com _🇷🇺RU-🇷🇺RU_383
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇺🇸 US_558
-      - 🇬🇧 英国（感谢关注youtube：8度科技）
-      - 🇺🇸 ??US_13653
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main
-      - a 3
-      - 🇺🇸 美国 21
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
-      - YouTube-阿伟科技02-25
-      - 🇷🇺 sfzy888.com _🇷🇺RU-🇷🇺RU_382
-      - 🇺🇸 YouTube晓柒科技分享：美国 5
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main 2
-      - 🇷🇴 sfzy888.com _🇷🇴RO_366
-      - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris
-      - ff 19
-      - 🇷🇴 sfzy888.com _🇷🇴RO_358
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 6
-      - 🇺🇸 Brussels（感谢关注youtube：8度科技）
-      - 比利时（感谢关注youtube：8度科技）
-      - 🇨🇭 https://www.mattkaydiary.com|瑞士(CH)Switzerland/Zürich
-      - YouTube-阿伟科技17-25
-      - 欧洲 5
-      - 🇳🇱 hm|荷兰(NL)Netherlands/Amsterdam 6
-      - 🇺🇸 US_555
-      - 🇺🇸 YouTube晓柒科技分享：美国 7
-      - 克罗地亚（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
       - CYL-科技 2
-      - 捷克 布拉格（感谢关注youtube：8度科技）
-      - 欧洲 10
-      - 欧洲 19
-      - 🇬🇧 英国
-      - 🇨🇦 YouTube晓柒科技分享：加拿大
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2
+      - 🇭🇰 YouTube-阿伟科技09-HK-20
+      - 🇭🇰 sfzy888.com _🇭🇰HK-🇮🇩ID_231
+      - 🇺🇸 美国 6
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
+      - 🇸🇬 YouTube-阿伟科技13-SG-25
+      - 🇭🇰 YouTube-阿伟科技06/1-HK-25
+      - ff
+      - a 51
+      - 🇺🇸 ??US_13654
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
+      - sfzy888.com _🏁ZZ_742
+      - CYL-科技 3
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
+      - 🇺🇸 ??US_13652
+      - CYL-科技 4
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - CYL-科技 5
+      - CYL-科技 6
+      - CYL-科技 7
+      - CYL-科技 8
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
+      - 🇺🇸 sfzy888.com _🇺🇸US_552
+      - 🇺🇸 sfzy888.com _🇺🇸US_594
+      - 🇺🇸 sfzy888.com _🇺🇸US_629
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
+      - 🇺🇸 sfzy888.com _🇺🇸US_553
+      - CYL-科技 9
+      - CYL-科技 10
+      - CYL-科技 11
+      - CYL-科技 12
+      - CYL-科技 13
+      - sfzy888.com _🇨🇦CA_37
+      - 🇷🇴 sfzy888.com _🇷🇴RO_359
+      - 罗马 顺丰资源YouTube
       - 🇺🇸 YouTube-阿伟科技16-US-25
-      - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford
-      - 🇺🇸 YouTube晓柒科技分享：美国 8
-      - 🇺🇸 US_554
-      - 🇺🇸 YouTube晓柒科技分享：美国 9
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 2
       - 🇺🇸 sfzy888.com _🇺🇸US_476
+      - 欧洲 19
+      - CYL-科技 14
+      - CYL-科技 15
+      - CYL-科技 16
+      - CYL-科技 17
+      - CYL-科技 18
+      - CYL-科技 19
+      - CYL-科技 20
+      - CYL-科技 21
+      - CYL-科技 22
+      - CYL-科技 23
+      - CYL-科技 24
+      - CYL-科技 25
+      - CYL-科技 26
+      - CYL-科技 27
+      - CYL-科技 28
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
+      - 🇺🇸 sfzy888.com _🇺🇸US_728
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
+      - a 3
+      - CYL-科技 29
+      - 🇺🇸 US （感谢关注youtube：8度科技）
+      - CYL-科技 30
+      - CYL-科技 31
+      - CYL-科技 32
+      - CYL-科技 33
+      - CYL-科技 34
+      - CYL-科技 35
+      - CYL-科技 36
+      - 🇺🇸 ??US_13653
+      - ff 19
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -548,76 +548,76 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - a 111
-      - 🇸🇬 YouTube-阿伟科技13-SG-25
-      - 🇭🇰 YouTube-阿伟科技09-HK-20
-      - 🇳🇱 hm|荷兰(NL)Netherlands/Amsterdam 7
-      - 🇭🇰 YouTube-阿伟科技01-HK-25
       - CYL-科技
-      - 🇭🇰 YouTube-阿伟科技06/1-HK-25
-      - 墨西哥(MX)Mexico
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
-      - 🇺🇸 ??US_13652
-      - a 51
-      - 🇺🇸 US_562
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
       - 🇭🇰 YouTube-阿伟科技09-HK-25
-      - 🇺🇸 US_563
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - ff
-      - 🇺🇸 YouTube晓柒科技分享：美国 4
-      - 🇺🇸 US_553
-      - 🇺🇸 US_559
-      - 🇺🇸 美国 6
-      - 🇺🇸 US_548
-      - 🇷🇺 sfzy888.com _🇷🇺RU-🇷🇺RU_383
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
-      - 🇺🇸 US_558
-      - 🇬🇧 英国（感谢关注youtube：8度科技）
-      - 🇺🇸 ??US_13653
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main
-      - a 3
-      - 🇺🇸 美国 21
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
-      - YouTube-阿伟科技02-25
-      - 🇷🇺 sfzy888.com _🇷🇺RU-🇷🇺RU_382
-      - 🇺🇸 YouTube晓柒科技分享：美国 5
-      - 🇩🇪 https://www.mattkaydiary.com|德国(DE)Germany/Frankfurt am Main 2
-      - 🇷🇴 sfzy888.com _🇷🇴RO_366
-      - 🇫🇷 https://www.mattkaydiary.com|法国(FR)France/Paris
-      - ff 19
-      - 🇷🇴 sfzy888.com _🇷🇴RO_358
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Santa Clarita
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 6
-      - 🇺🇸 Brussels（感谢关注youtube：8度科技）
-      - 比利时（感谢关注youtube：8度科技）
-      - 🇨🇭 https://www.mattkaydiary.com|瑞士(CH)Switzerland/Zürich
-      - YouTube-阿伟科技17-25
-      - 欧洲 5
-      - 🇳🇱 hm|荷兰(NL)Netherlands/Amsterdam 6
-      - 🇺🇸 US_555
-      - 🇺🇸 YouTube晓柒科技分享：美国 7
-      - 克罗地亚（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
       - CYL-科技 2
-      - 捷克 布拉格（感谢关注youtube：8度科技）
-      - 欧洲 10
-      - 欧洲 19
-      - 🇬🇧 英国
-      - 🇨🇦 YouTube晓柒科技分享：加拿大
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科 2
+      - 🇭🇰 YouTube-阿伟科技09-HK-20
+      - 🇭🇰 sfzy888.com _🇭🇰HK-🇮🇩ID_231
+      - 🇺🇸 美国 6
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/San Francisco
+      - 🇸🇬 YouTube-阿伟科技13-SG-25
+      - 🇭🇰 YouTube-阿伟科技06/1-HK-25
+      - ff
+      - a 51
+      - 🇺🇸 ??US_13654
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles
+      - sfzy888.com _🏁ZZ_742
+      - CYL-科技 3
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Los Angeles 2
+      - 🇺🇸 ??US_13652
+      - CYL-科技 4
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - CYL-科技 5
+      - CYL-科技 6
+      - CYL-科技 7
+      - CYL-科技 8
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 2
+      - 🇺🇸 sfzy888.com _🇺🇸US_552
+      - 🇺🇸 sfzy888.com _🇺🇸US_594
+      - 🇺🇸 sfzy888.com _🇺🇸US_629
+      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技） 3
+      - 🇺🇸 sfzy888.com _🇺🇸US_553
+      - CYL-科技 9
+      - CYL-科技 10
+      - CYL-科技 11
+      - CYL-科技 12
+      - CYL-科技 13
+      - sfzy888.com _🇨🇦CA_37
+      - 🇷🇴 sfzy888.com _🇷🇴RO_359
+      - 罗马 顺丰资源YouTube
       - 🇺🇸 YouTube-阿伟科技16-US-25
-      - 🇬🇧 https://www.mattkaydiary.com|英国(GB)United Kiongdom/Stretford
-      - 🇺🇸 YouTube晓柒科技分享：美国 8
-      - 🇺🇸 US_554
-      - 🇺🇸 YouTube晓柒科技分享：美国 9
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 2
       - 🇺🇸 sfzy888.com _🇺🇸US_476
+      - 欧洲 19
+      - CYL-科技 14
+      - CYL-科技 15
+      - CYL-科技 16
+      - CYL-科技 17
+      - CYL-科技 18
+      - CYL-科技 19
+      - CYL-科技 20
+      - CYL-科技 21
+      - CYL-科技 22
+      - CYL-科技 23
+      - CYL-科技 24
+      - CYL-科技 25
+      - CYL-科技 26
+      - CYL-科技 27
+      - CYL-科技 28
+      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/Las Vegas
+      - 🇺🇸 sfzy888.com _🇺🇸US_728
+      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
+      - a 3
+      - CYL-科技 29
+      - 🇺🇸 US （感谢关注youtube：8度科技）
+      - CYL-科技 30
+      - CYL-科技 31
+      - CYL-科技 32
+      - CYL-科技 33
+      - CYL-科技 34
+      - CYL-科技 35
+      - CYL-科技 36
+      - 🇺🇸 ??US_13653
+      - ff 19
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
