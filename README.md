@@ -5,112 +5,92 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🇭🇰 [vip1][V2ray]香港  ⑨", server: 55.ssrj.xyz, port: 61155, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾(Youtube频道：工具大师！), server: 2.58.241.29, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: "🇯🇵 [vip1][V2ray]日本⑤", server: 51.ssrj.xyz, port: 65151, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false}
-  - {name: "🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑦︱解鎖NETFLIX", server: 40.ssrj.xyz, port: 65140, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false}
+  - {name: "🇭🇰 [vip3][v2ray]Iplc专线 深圳-日本 ⑨ HKBN-NETFLIX|HULU|HBO-G口", server: 11.ssrj.xyz, port: 65111, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false}
+  - {name: CYL-科技, server: 165.22.61.210, port: 21888, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 165.22.61.210}}
   - {name: "🇭🇰 [vip2][V2ray]北京bgp中转-香港②︱解鎖NETFLIX", server: 33.ssrj.xyz, port: 65133, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false}
   - {name: "🇭🇰 [vip2][V2ray]北京bgp中转-香港 ①︱解鎖NETFLIX", server: 32.ssrj.xyz, port: 65132, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false}
-  - {name: "🇸🇬 [vip1][V2ray] 新加坡 ⑬-解锁Netflix", server: 63.ssrj.xyz, port: 65163, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false}
+  - {name: "🇭🇰 [vip3][v2ray]Iplc专线 深圳-韩国 ⑧ HKBN-NETFLIX|HULU|HBO-G口", server: 10.ssrj.xyz, port: 65110, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false}
+  - {name: CYL-科技 2, server: 13.124.14.99, port: 8888, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.124.14.99}}
+  - {name: "🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑦︱解鎖NETFLIX", server: 40.ssrj.xyz, port: 65140, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false}
   - {name: 欧洲(Youtube频道：工具大师！), server: 139.155.22.227, port: 49110, type: vmess, uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d, alterId: 64, cipher: auto, tls: false}
-  - {name: "🇭🇰 [vip1][V2ray]香港  ⑪", server: 57.ssrj.xyz, port: 61157, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false}
-  - {name: "🇸🇬 [vip1][V2ray] 新加坡⑭-解锁Netflix", server: 64.ssrj.xyz, port: 65164, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false}
-  - {name: "🇭🇰 [vip3][v2ray]Iplc专线 深圳-香港 ⑩ HKBN-NETFLIX|HULU|HBO-G口", server: 12.ssrj.xyz, port: 65112, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false}
-  - {name: "🇸🇬 [vip1][V2ray] 新加坡 ⑮-解锁Netflix", server: 65.ssrj.xyz, port: 65165, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false}
-  - {name: "🇭🇰 [vip2][V2ray]北京bgp中转-香港③︱解鎖NETFLIX", server: 34.ssrj.xyz, port: 65134, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false}
-  - {name: "🇭🇰 [vip3][v2ray]Iplc专线 深圳-台灣 ⑪ HKBN-NETFLIX|HULU|HBO-G口", server: 13.ssrj.xyz, port: 65113, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false}
-  - {name: "🇯🇵 [vip2][V2ray]廣移中转-日本⑨ | 解鎖Netflix", server: 42.ssrj.xyz, port: 65142, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false}
   - {name: 欧洲(Youtube频道：工具大师！) 2, server: 42.157.8.162, port: 46006, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false}
-  - {name: CYL-科技, server: 2.58.242.46, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: "🇸🇬 [vip2][V2ray]北京bgp中转-新加坡⑤ | 解鎖Netflix", server: 37.ssrj.xyz, port: 65137, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false}
-  - {name: CYL-科技 2, server: jp01.uuv2.uk, port: 8443, type: vmess, uuid: 884d6e99-59c8-40f1-89e7-433f6c6d5bbd, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /TG@mftizi, ws-headers: {Host: jp01.uuv2.uk}}
-  - {name: CYL-科技 3, server: 137.59.52.107, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: CYL-科技 4, server: nn-ssr4.feiclouddd.me, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
-  - {name: CYL-科技 5, server: kr02.uuv2.uk, port: 2053, type: vmess, uuid: 884d6e99-59c8-40f1-89e7-433f6c6d5bbd, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /TG@mftizi, ws-headers: {Host: kr02.uuv2.uk}}
-  - {name: CYL-科技 6, server: 173.82.150.26, port: 443, type: vmess, uuid: 1a116d02-5fca-47fa-a2a1-6e8d0f2f71cc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.75287890.xyz}}
-  - {name: 🇺🇸 美国(Youtube频道：工具大师！), server: nn-ssr4.feiclouddd.me, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
-  - {name: 🇮🇳 印度(Youtube频道：工具大师！), server: 137.59.52.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: CYL-科技 7, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: CYL-科技 8, server: 66.115.147.92, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: CYL-科技 9, server: 66.115.147.92, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 2, server: 198.8.92.67, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: CYL-科技 10, server: 66.115.147.92, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: CYL-科技 11, server: 66.115.147.89, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 3, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
-  - {name: CYL-科技 12, server: 185.102.219.6, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: CYL-科技 13, server: 84.17.53.227, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: CYL-科技 14, server: 84.17.53.227, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: CYL-科技 15, server: hk01.uuv2.uk, port: 2053, type: vmess, uuid: 884d6e99-59c8-40f1-89e7-433f6c6d5bbd, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /@mftizi, ws-headers: {Host: hk01.uuv2.uk}}
-  - {name: CYL-科技 16, server: 96.43.91.58, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
-  - {name: CYL-科技 17, server: 66.115.177.156, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: CYL-科技 18, server: 5.226.139.225, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: CYL-科技 19, server: kr01.uuv2.uk, port: 2053, type: vmess, uuid: 884d6e99-59c8-40f1-89e7-433f6c6d5bbd, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /@mftizi, ws-headers: {Host: kr01.uuv2.uk}}
-  - {name: CYL-科技 20, server: 84.17.53.227, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇨🇳 topurl.cn/leAd 🇨🇭CH, server: 84.17.53.212, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: CYL-科技 21, server: 156.146.62.57, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: CYL-科技 22, server: 84.17.53.227, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: CYL-科技 23, server: 84.17.53.227, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: CYL-科技 24, server: 84.17.53.227, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: CYL-科技 25, server: 84.17.53.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: CYL-科技 26, server: 84.17.53.227, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: CYL-科技 27, server: 84.17.53.227, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: CYL-科技 28, server: 89.46.223.239, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: CYL-科技 29, server: 195.158.249.36, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: CYL-科技 30, server: 84.17.53.227, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: CYL-科技 31, server: 84.17.53.227, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: CYL-科技 32, server: 66.115.177.143, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: CYL-科技 33, server: us1.v2.qjnodeip.xyz, port: 8311, type: vmess, uuid: 2525CC72-5E41-F11E-7CF3-CB434A4F8B4F, alterId: 0, cipher: auto, tls: false}
-  - {name: CYL-科技 34, server: 64.44.42.60, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: CYL-科技 35, server: 81.19.223.189, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: CYL-科技 36, server: v2.ssrsub.one, port: 153, type: vmess, uuid: 2a37bd3a-f8c8-45e5-b05c-167f04159396, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.one}}
-  - {name: CYL-科技 37, server: 84.39.114.86, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: CYL-科技 38, server: 85.10.50.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇫🇷 法国(Youtube频道：工具大师！), server: 217.138.207.253, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: 欧洲(Youtube频道：工具大师！) 3, server: 84.17.53.219, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 欧洲(Youtube频道：工具大师！) 4, server: 45.12.221.179, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇮🇹 意大利(Youtube频道：工具大师！), server: 82.102.26.94, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: "🇭🇰 [vip1][V2ray]香港  ⑧", server: 54.ssrj.xyz, port: 61154, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false}
-  - {name: "🇭🇰 [vip1][V2ray]香港 ⑫", server: 58.ssrj.xyz, port: 61158, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false}
-  - {name: "🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑥| 解鎖NETFLIX", server: 39.ssrj.xyz, port: 65139, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false}
-  - {name: "🇭🇰 [vip3][v2ray]Iplc专线 深圳-香港 ④ DMIT-NETFLIX|HULU|HBO", server: 6.ssrj.xyz, port: 65106, type: vmess, uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae, alterId: 2, cipher: auto, tls: false}
+  - {name: CYL-科技 3, server: agals03.cloudddns.icu, port: 124, type: trojan, password: f45d308f-d9bc-3954-982f-40883392fb8e, sni: agals03.cloudddns.icu}
+  - {name: CYL-科技 4, server: gyc.cloudddns.icu, port: 123, type: vmess, uuid: f45d308f-d9bc-3954-982f-40883392fb8e, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: gyc.cloudddns.icu}}
+  - {name: CYL-科技 5, server: 413.cloudddns.icu, port: 978, type: vmess, uuid: f45d308f-d9bc-3954-982f-40883392fb8e, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /public, ws-headers: {Host: 413.cloudddns.icu}}
+  - {name: CYL-科技 6, server: 2.58.242.46, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 欧洲(Youtube频道：工具大师！) 3, server: 137.59.52.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: CYL-科技 7, server: 66.115.147.89, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇮🇳 YouTube穷人工作室_🇮🇳_IN_印度_3, server: 137.59.52.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: CYL-科技 8, server: 66.115.147.89, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: CYL-科技 9, server: 173.82.150.26, port: 443, type: vmess, uuid: 1a116d02-5fca-47fa-a2a1-6e8d0f2f71cc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.75287890.xyz}}
+  - {name: CYL-科技 10, server: 137.59.52.107, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！), server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
+  - {name: 🇮🇳 YouTube穷人工作室_🇮🇳_IN_印度_4, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇪 sfzy888.com _🇩🇪DE_120, server: 185.102.219.6, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: CYL-科技 11, server: 185.102.219.6, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: CYL-科技 12, server: 185.102.219.6, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: CYL-科技 13, server: 185.102.219.6, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: CYL-科技 14, server: 185.102.219.6, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: CYL-科技 15, server: 185.102.219.6, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: CYL-科技 16, server: 185.102.219.6, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: CYL-科技 17, server: 185.102.219.6, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
+  - {name: CYL-科技 18, server: 185.102.219.6, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: CYL-科技 19, server: 185.102.219.6, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: CYL-科技 20, server: 89.46.223.239, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: CYL-科技 21, server: 185.102.219.6, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: CYL-科技 22, server: 185.102.219.6, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: CYL-科技 23, server: 185.102.219.6, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: CYL-科技 24, server: 185.102.219.6, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: CYL-科技 25, server: 185.102.219.6, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: CYL-科技 26, server: 185.102.219.6, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: CYL-科技 27, server: 185.102.219.6, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
+  - {name: CYL-科技 28, server: 185.102.219.6, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: CYL-科技 29, server: 185.102.219.6, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: CYL-科技 30, server: 185.102.219.6, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: CYL-科技 31, server: 185.102.219.6, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: CYL-科技 32, server: 185.102.219.6, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: CYL-科技 33, server: 185.102.219.6, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: CYL-科技 34, server: 185.102.219.6, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: CYL-科技 35, server: 185.102.219.6, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
+  - {name: CYL-科技 36, server: 84.17.53.212, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: CYL-科技 37, server: 185.102.219.6, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: CYL-科技 38, server: 185.102.219.6, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: CYL-科技 39, server: 185.102.219.6, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: CYL-科技 40, server: 185.102.219.6, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: CYL-科技 41, server: 66.115.177.156, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: CYL-科技 42, server: 66.115.177.156, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 欧洲(Youtube频道：工具大师！) 4, server: 84.17.53.219, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 欧洲(Youtube频道：工具大师！) 5, server: 84.17.53.86, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 欧洲(Youtube频道：工具大师！) 6, server: 66.115.147.72, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 [vip1][V2ray]香港  ⑨
-      - 🇨🇳 台湾(Youtube频道：工具大师！)
-      - 🇯🇵 [vip1][V2ray]日本⑤
-      - 🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑦︱解鎖NETFLIX
+      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-日本 ⑨ HKBN-NETFLIX|HULU|HBO-G口
+      - CYL-科技
       - 🇭🇰 [vip2][V2ray]北京bgp中转-香港②︱解鎖NETFLIX
       - 🇭🇰 [vip2][V2ray]北京bgp中转-香港 ①︱解鎖NETFLIX
-      - 🇸🇬 [vip1][V2ray] 新加坡 ⑬-解锁Netflix
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇭🇰 [vip1][V2ray]香港  ⑪
-      - 🇸🇬 [vip1][V2ray] 新加坡⑭-解锁Netflix
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-香港 ⑩ HKBN-NETFLIX|HULU|HBO-G口
-      - 🇸🇬 [vip1][V2ray] 新加坡 ⑮-解锁Netflix
-      - 🇭🇰 [vip2][V2ray]北京bgp中转-香港③︱解鎖NETFLIX
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-台灣 ⑪ HKBN-NETFLIX|HULU|HBO-G口
-      - 🇯🇵 [vip2][V2ray]廣移中转-日本⑨ | 解鎖Netflix
-      - 欧洲(Youtube频道：工具大师！) 2
-      - CYL-科技
-      - 🇸🇬 [vip2][V2ray]北京bgp中转-新加坡⑤ | 解鎖Netflix
+      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-韩国 ⑧ HKBN-NETFLIX|HULU|HBO-G口
       - CYL-科技 2
+      - 🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑦︱解鎖NETFLIX
+      - 欧洲(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！) 2
       - CYL-科技 3
       - CYL-科技 4
       - CYL-科技 5
       - CYL-科技 6
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - 🇮🇳 印度(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！) 3
       - CYL-科技 7
+      - 🇮🇳 YouTube穷人工作室_🇮🇳_IN_印度_3
       - CYL-科技 8
       - CYL-科技 9
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
       - CYL-科技 10
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇮🇳 YouTube穷人工作室_🇮🇳_IN_印度_4
+      - 🇩🇪 sfzy888.com _🇩🇪DE_120
       - CYL-科技 11
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
       - CYL-科技 12
       - CYL-科技 13
       - CYL-科技 14
@@ -120,7 +100,6 @@ proxy-groups:
       - CYL-科技 18
       - CYL-科技 19
       - CYL-科技 20
-      - 🇨🇳 topurl.cn/leAd 🇨🇭CH
       - CYL-科技 21
       - CYL-科技 22
       - CYL-科技 23
@@ -139,51 +118,41 @@ proxy-groups:
       - CYL-科技 36
       - CYL-科技 37
       - CYL-科技 38
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 欧洲(Youtube频道：工具大师！) 3
+      - CYL-科技 39
+      - CYL-科技 40
+      - CYL-科技 41
+      - CYL-科技 42
       - 欧洲(Youtube频道：工具大师！) 4
-      - 🇮🇹 意大利(Youtube频道：工具大师！)
-      - 🇭🇰 [vip1][V2ray]香港  ⑧
-      - 🇭🇰 [vip1][V2ray]香港 ⑫
-      - 🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑥| 解鎖NETFLIX
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-香港 ④ DMIT-NETFLIX|HULU|HBO
+      - 欧洲(Youtube频道：工具大师！) 5
+      - 欧洲(Youtube频道：工具大师！) 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 [vip1][V2ray]香港  ⑨
-      - 🇨🇳 台湾(Youtube频道：工具大师！)
-      - 🇯🇵 [vip1][V2ray]日本⑤
-      - 🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑦︱解鎖NETFLIX
+      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-日本 ⑨ HKBN-NETFLIX|HULU|HBO-G口
+      - CYL-科技
       - 🇭🇰 [vip2][V2ray]北京bgp中转-香港②︱解鎖NETFLIX
       - 🇭🇰 [vip2][V2ray]北京bgp中转-香港 ①︱解鎖NETFLIX
-      - 🇸🇬 [vip1][V2ray] 新加坡 ⑬-解锁Netflix
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇭🇰 [vip1][V2ray]香港  ⑪
-      - 🇸🇬 [vip1][V2ray] 新加坡⑭-解锁Netflix
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-香港 ⑩ HKBN-NETFLIX|HULU|HBO-G口
-      - 🇸🇬 [vip1][V2ray] 新加坡 ⑮-解锁Netflix
-      - 🇭🇰 [vip2][V2ray]北京bgp中转-香港③︱解鎖NETFLIX
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-台灣 ⑪ HKBN-NETFLIX|HULU|HBO-G口
-      - 🇯🇵 [vip2][V2ray]廣移中转-日本⑨ | 解鎖Netflix
-      - 欧洲(Youtube频道：工具大师！) 2
-      - CYL-科技
-      - 🇸🇬 [vip2][V2ray]北京bgp中转-新加坡⑤ | 解鎖Netflix
+      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-韩国 ⑧ HKBN-NETFLIX|HULU|HBO-G口
       - CYL-科技 2
+      - 🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑦︱解鎖NETFLIX
+      - 欧洲(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！) 2
       - CYL-科技 3
       - CYL-科技 4
       - CYL-科技 5
       - CYL-科技 6
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - 🇮🇳 印度(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！) 3
       - CYL-科技 7
+      - 🇮🇳 YouTube穷人工作室_🇮🇳_IN_印度_3
       - CYL-科技 8
       - CYL-科技 9
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
       - CYL-科技 10
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇮🇳 YouTube穷人工作室_🇮🇳_IN_印度_4
+      - 🇩🇪 sfzy888.com _🇩🇪DE_120
       - CYL-科技 11
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
       - CYL-科技 12
       - CYL-科技 13
       - CYL-科技 14
@@ -193,7 +162,6 @@ proxy-groups:
       - CYL-科技 18
       - CYL-科技 19
       - CYL-科技 20
-      - 🇨🇳 topurl.cn/leAd 🇨🇭CH
       - CYL-科技 21
       - CYL-科技 22
       - CYL-科技 23
@@ -212,52 +180,42 @@ proxy-groups:
       - CYL-科技 36
       - CYL-科技 37
       - CYL-科技 38
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 欧洲(Youtube频道：工具大师！) 3
+      - CYL-科技 39
+      - CYL-科技 40
+      - CYL-科技 41
+      - CYL-科技 42
       - 欧洲(Youtube频道：工具大师！) 4
-      - 🇮🇹 意大利(Youtube频道：工具大师！)
-      - 🇭🇰 [vip1][V2ray]香港  ⑧
-      - 🇭🇰 [vip1][V2ray]香港 ⑫
-      - 🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑥| 解鎖NETFLIX
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-香港 ④ DMIT-NETFLIX|HULU|HBO
+      - 欧洲(Youtube频道：工具大师！) 5
+      - 欧洲(Youtube频道：工具大师！) 6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 [vip1][V2ray]香港  ⑨
-      - 🇨🇳 台湾(Youtube频道：工具大师！)
-      - 🇯🇵 [vip1][V2ray]日本⑤
-      - 🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑦︱解鎖NETFLIX
+      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-日本 ⑨ HKBN-NETFLIX|HULU|HBO-G口
+      - CYL-科技
       - 🇭🇰 [vip2][V2ray]北京bgp中转-香港②︱解鎖NETFLIX
       - 🇭🇰 [vip2][V2ray]北京bgp中转-香港 ①︱解鎖NETFLIX
-      - 🇸🇬 [vip1][V2ray] 新加坡 ⑬-解锁Netflix
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇭🇰 [vip1][V2ray]香港  ⑪
-      - 🇸🇬 [vip1][V2ray] 新加坡⑭-解锁Netflix
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-香港 ⑩ HKBN-NETFLIX|HULU|HBO-G口
-      - 🇸🇬 [vip1][V2ray] 新加坡 ⑮-解锁Netflix
-      - 🇭🇰 [vip2][V2ray]北京bgp中转-香港③︱解鎖NETFLIX
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-台灣 ⑪ HKBN-NETFLIX|HULU|HBO-G口
-      - 🇯🇵 [vip2][V2ray]廣移中转-日本⑨ | 解鎖Netflix
-      - 欧洲(Youtube频道：工具大师！) 2
-      - CYL-科技
-      - 🇸🇬 [vip2][V2ray]北京bgp中转-新加坡⑤ | 解鎖Netflix
+      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-韩国 ⑧ HKBN-NETFLIX|HULU|HBO-G口
       - CYL-科技 2
+      - 🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑦︱解鎖NETFLIX
+      - 欧洲(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！) 2
       - CYL-科技 3
       - CYL-科技 4
       - CYL-科技 5
       - CYL-科技 6
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - 🇮🇳 印度(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！) 3
       - CYL-科技 7
+      - 🇮🇳 YouTube穷人工作室_🇮🇳_IN_印度_3
       - CYL-科技 8
       - CYL-科技 9
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
       - CYL-科技 10
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇮🇳 YouTube穷人工作室_🇮🇳_IN_印度_4
+      - 🇩🇪 sfzy888.com _🇩🇪DE_120
       - CYL-科技 11
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
       - CYL-科技 12
       - CYL-科技 13
       - CYL-科技 14
@@ -267,7 +225,6 @@ proxy-groups:
       - CYL-科技 18
       - CYL-科技 19
       - CYL-科技 20
-      - 🇨🇳 topurl.cn/leAd 🇨🇭CH
       - CYL-科技 21
       - CYL-科技 22
       - CYL-科技 23
@@ -286,67 +243,50 @@ proxy-groups:
       - CYL-科技 36
       - CYL-科技 37
       - CYL-科技 38
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 欧洲(Youtube频道：工具大师！) 3
+      - CYL-科技 39
+      - CYL-科技 40
+      - CYL-科技 41
+      - CYL-科技 42
       - 欧洲(Youtube频道：工具大师！) 4
-      - 🇮🇹 意大利(Youtube频道：工具大师！)
-      - 🇭🇰 [vip1][V2ray]香港  ⑧
-      - 🇭🇰 [vip1][V2ray]香港 ⑫
-      - 🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑥| 解鎖NETFLIX
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-香港 ④ DMIT-NETFLIX|HULU|HBO
+      - 欧洲(Youtube频道：工具大师！) 5
+      - 欧洲(Youtube频道：工具大师！) 6
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 [vip1][V2ray]香港  ⑨
-      - 🇨🇳 台湾(Youtube频道：工具大师！)
+      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-日本 ⑨ HKBN-NETFLIX|HULU|HBO-G口
       - 🇭🇰 [vip2][V2ray]北京bgp中转-香港②︱解鎖NETFLIX
       - 🇭🇰 [vip2][V2ray]北京bgp中转-香港 ①︱解鎖NETFLIX
-      - 🇭🇰 [vip1][V2ray]香港  ⑪
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-香港 ⑩ HKBN-NETFLIX|HULU|HBO-G口
-      - 🇭🇰 [vip2][V2ray]北京bgp中转-香港③︱解鎖NETFLIX
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-台灣 ⑪ HKBN-NETFLIX|HULU|HBO-G口
-      - 🇭🇰 [vip1][V2ray]香港  ⑧
-      - 🇭🇰 [vip1][V2ray]香港 ⑫
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-香港 ④ DMIT-NETFLIX|HULU|HBO
+      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-韩国 ⑧ HKBN-NETFLIX|HULU|HBO-G口
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 [vip1][V2ray]香港  ⑨
-      - 🇨🇳 台湾(Youtube频道：工具大师！)
-      - 🇯🇵 [vip1][V2ray]日本⑤
-      - 🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑦︱解鎖NETFLIX
+      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-日本 ⑨ HKBN-NETFLIX|HULU|HBO-G口
+      - CYL-科技
       - 🇭🇰 [vip2][V2ray]北京bgp中转-香港②︱解鎖NETFLIX
       - 🇭🇰 [vip2][V2ray]北京bgp中转-香港 ①︱解鎖NETFLIX
-      - 🇸🇬 [vip1][V2ray] 新加坡 ⑬-解锁Netflix
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇭🇰 [vip1][V2ray]香港  ⑪
-      - 🇸🇬 [vip1][V2ray] 新加坡⑭-解锁Netflix
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-香港 ⑩ HKBN-NETFLIX|HULU|HBO-G口
-      - 🇸🇬 [vip1][V2ray] 新加坡 ⑮-解锁Netflix
-      - 🇭🇰 [vip2][V2ray]北京bgp中转-香港③︱解鎖NETFLIX
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-台灣 ⑪ HKBN-NETFLIX|HULU|HBO-G口
-      - 🇯🇵 [vip2][V2ray]廣移中转-日本⑨ | 解鎖Netflix
-      - 欧洲(Youtube频道：工具大师！) 2
-      - CYL-科技
-      - 🇸🇬 [vip2][V2ray]北京bgp中转-新加坡⑤ | 解鎖Netflix
+      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-韩国 ⑧ HKBN-NETFLIX|HULU|HBO-G口
       - CYL-科技 2
+      - 🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑦︱解鎖NETFLIX
+      - 欧洲(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！) 2
       - CYL-科技 3
       - CYL-科技 4
       - CYL-科技 5
       - CYL-科技 6
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - 🇮🇳 印度(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！) 3
       - CYL-科技 7
+      - 🇮🇳 YouTube穷人工作室_🇮🇳_IN_印度_3
       - CYL-科技 8
       - CYL-科技 9
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
       - CYL-科技 10
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇮🇳 YouTube穷人工作室_🇮🇳_IN_印度_4
+      - 🇩🇪 sfzy888.com _🇩🇪DE_120
       - CYL-科技 11
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
       - CYL-科技 12
       - CYL-科技 13
       - CYL-科技 14
@@ -356,7 +296,6 @@ proxy-groups:
       - CYL-科技 18
       - CYL-科技 19
       - CYL-科技 20
-      - 🇨🇳 topurl.cn/leAd 🇨🇭CH
       - CYL-科技 21
       - CYL-科技 22
       - CYL-科技 23
@@ -375,51 +314,41 @@ proxy-groups:
       - CYL-科技 36
       - CYL-科技 37
       - CYL-科技 38
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 欧洲(Youtube频道：工具大师！) 3
+      - CYL-科技 39
+      - CYL-科技 40
+      - CYL-科技 41
+      - CYL-科技 42
       - 欧洲(Youtube频道：工具大师！) 4
-      - 🇮🇹 意大利(Youtube频道：工具大师！)
-      - 🇭🇰 [vip1][V2ray]香港  ⑧
-      - 🇭🇰 [vip1][V2ray]香港 ⑫
-      - 🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑥| 解鎖NETFLIX
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-香港 ④ DMIT-NETFLIX|HULU|HBO
+      - 欧洲(Youtube频道：工具大师！) 5
+      - 欧洲(Youtube频道：工具大师！) 6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 [vip1][V2ray]香港  ⑨
-      - 🇨🇳 台湾(Youtube频道：工具大师！)
-      - 🇯🇵 [vip1][V2ray]日本⑤
-      - 🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑦︱解鎖NETFLIX
+      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-日本 ⑨ HKBN-NETFLIX|HULU|HBO-G口
+      - CYL-科技
       - 🇭🇰 [vip2][V2ray]北京bgp中转-香港②︱解鎖NETFLIX
       - 🇭🇰 [vip2][V2ray]北京bgp中转-香港 ①︱解鎖NETFLIX
-      - 🇸🇬 [vip1][V2ray] 新加坡 ⑬-解锁Netflix
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇭🇰 [vip1][V2ray]香港  ⑪
-      - 🇸🇬 [vip1][V2ray] 新加坡⑭-解锁Netflix
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-香港 ⑩ HKBN-NETFLIX|HULU|HBO-G口
-      - 🇸🇬 [vip1][V2ray] 新加坡 ⑮-解锁Netflix
-      - 🇭🇰 [vip2][V2ray]北京bgp中转-香港③︱解鎖NETFLIX
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-台灣 ⑪ HKBN-NETFLIX|HULU|HBO-G口
-      - 🇯🇵 [vip2][V2ray]廣移中转-日本⑨ | 解鎖Netflix
-      - 欧洲(Youtube频道：工具大师！) 2
-      - CYL-科技
-      - 🇸🇬 [vip2][V2ray]北京bgp中转-新加坡⑤ | 解鎖Netflix
+      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-韩国 ⑧ HKBN-NETFLIX|HULU|HBO-G口
       - CYL-科技 2
+      - 🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑦︱解鎖NETFLIX
+      - 欧洲(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！) 2
       - CYL-科技 3
       - CYL-科技 4
       - CYL-科技 5
       - CYL-科技 6
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - 🇮🇳 印度(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！) 3
       - CYL-科技 7
+      - 🇮🇳 YouTube穷人工作室_🇮🇳_IN_印度_3
       - CYL-科技 8
       - CYL-科技 9
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
       - CYL-科技 10
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇮🇳 YouTube穷人工作室_🇮🇳_IN_印度_4
+      - 🇩🇪 sfzy888.com _🇩🇪DE_120
       - CYL-科技 11
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
       - CYL-科技 12
       - CYL-科技 13
       - CYL-科技 14
@@ -429,7 +358,6 @@ proxy-groups:
       - CYL-科技 18
       - CYL-科技 19
       - CYL-科技 20
-      - 🇨🇳 topurl.cn/leAd 🇨🇭CH
       - CYL-科技 21
       - CYL-科技 22
       - CYL-科技 23
@@ -448,52 +376,42 @@ proxy-groups:
       - CYL-科技 36
       - CYL-科技 37
       - CYL-科技 38
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 欧洲(Youtube频道：工具大师！) 3
+      - CYL-科技 39
+      - CYL-科技 40
+      - CYL-科技 41
+      - CYL-科技 42
       - 欧洲(Youtube频道：工具大师！) 4
-      - 🇮🇹 意大利(Youtube频道：工具大师！)
-      - 🇭🇰 [vip1][V2ray]香港  ⑧
-      - 🇭🇰 [vip1][V2ray]香港 ⑫
-      - 🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑥| 解鎖NETFLIX
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-香港 ④ DMIT-NETFLIX|HULU|HBO
+      - 欧洲(Youtube频道：工具大师！) 5
+      - 欧洲(Youtube频道：工具大师！) 6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 [vip1][V2ray]香港  ⑨
-      - 🇨🇳 台湾(Youtube频道：工具大师！)
-      - 🇯🇵 [vip1][V2ray]日本⑤
-      - 🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑦︱解鎖NETFLIX
+      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-日本 ⑨ HKBN-NETFLIX|HULU|HBO-G口
+      - CYL-科技
       - 🇭🇰 [vip2][V2ray]北京bgp中转-香港②︱解鎖NETFLIX
       - 🇭🇰 [vip2][V2ray]北京bgp中转-香港 ①︱解鎖NETFLIX
-      - 🇸🇬 [vip1][V2ray] 新加坡 ⑬-解锁Netflix
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇭🇰 [vip1][V2ray]香港  ⑪
-      - 🇸🇬 [vip1][V2ray] 新加坡⑭-解锁Netflix
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-香港 ⑩ HKBN-NETFLIX|HULU|HBO-G口
-      - 🇸🇬 [vip1][V2ray] 新加坡 ⑮-解锁Netflix
-      - 🇭🇰 [vip2][V2ray]北京bgp中转-香港③︱解鎖NETFLIX
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-台灣 ⑪ HKBN-NETFLIX|HULU|HBO-G口
-      - 🇯🇵 [vip2][V2ray]廣移中转-日本⑨ | 解鎖Netflix
-      - 欧洲(Youtube频道：工具大师！) 2
-      - CYL-科技
-      - 🇸🇬 [vip2][V2ray]北京bgp中转-新加坡⑤ | 解鎖Netflix
+      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-韩国 ⑧ HKBN-NETFLIX|HULU|HBO-G口
       - CYL-科技 2
+      - 🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑦︱解鎖NETFLIX
+      - 欧洲(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！) 2
       - CYL-科技 3
       - CYL-科技 4
       - CYL-科技 5
       - CYL-科技 6
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - 🇮🇳 印度(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！) 3
       - CYL-科技 7
+      - 🇮🇳 YouTube穷人工作室_🇮🇳_IN_印度_3
       - CYL-科技 8
       - CYL-科技 9
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
       - CYL-科技 10
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇮🇳 YouTube穷人工作室_🇮🇳_IN_印度_4
+      - 🇩🇪 sfzy888.com _🇩🇪DE_120
       - CYL-科技 11
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
       - CYL-科技 12
       - CYL-科技 13
       - CYL-科技 14
@@ -503,7 +421,6 @@ proxy-groups:
       - CYL-科技 18
       - CYL-科技 19
       - CYL-科技 20
-      - 🇨🇳 topurl.cn/leAd 🇨🇭CH
       - CYL-科技 21
       - CYL-科技 22
       - CYL-科技 23
@@ -522,14 +439,13 @@ proxy-groups:
       - CYL-科技 36
       - CYL-科技 37
       - CYL-科技 38
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 欧洲(Youtube频道：工具大师！) 3
+      - CYL-科技 39
+      - CYL-科技 40
+      - CYL-科技 41
+      - CYL-科技 42
       - 欧洲(Youtube频道：工具大师！) 4
-      - 🇮🇹 意大利(Youtube频道：工具大师！)
-      - 🇭🇰 [vip1][V2ray]香港  ⑧
-      - 🇭🇰 [vip1][V2ray]香港 ⑫
-      - 🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑥| 解鎖NETFLIX
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-香港 ④ DMIT-NETFLIX|HULU|HBO
+      - 欧洲(Youtube频道：工具大师！) 5
+      - 欧洲(Youtube频道：工具大师！) 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -545,38 +461,29 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 [vip1][V2ray]香港  ⑨
-      - 🇨🇳 台湾(Youtube频道：工具大师！)
-      - 🇯🇵 [vip1][V2ray]日本⑤
-      - 🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑦︱解鎖NETFLIX
+      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-日本 ⑨ HKBN-NETFLIX|HULU|HBO-G口
+      - CYL-科技
       - 🇭🇰 [vip2][V2ray]北京bgp中转-香港②︱解鎖NETFLIX
       - 🇭🇰 [vip2][V2ray]北京bgp中转-香港 ①︱解鎖NETFLIX
-      - 🇸🇬 [vip1][V2ray] 新加坡 ⑬-解锁Netflix
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇭🇰 [vip1][V2ray]香港  ⑪
-      - 🇸🇬 [vip1][V2ray] 新加坡⑭-解锁Netflix
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-香港 ⑩ HKBN-NETFLIX|HULU|HBO-G口
-      - 🇸🇬 [vip1][V2ray] 新加坡 ⑮-解锁Netflix
-      - 🇭🇰 [vip2][V2ray]北京bgp中转-香港③︱解鎖NETFLIX
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-台灣 ⑪ HKBN-NETFLIX|HULU|HBO-G口
-      - 🇯🇵 [vip2][V2ray]廣移中转-日本⑨ | 解鎖Netflix
-      - 欧洲(Youtube频道：工具大师！) 2
-      - CYL-科技
-      - 🇸🇬 [vip2][V2ray]北京bgp中转-新加坡⑤ | 解鎖Netflix
+      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-韩国 ⑧ HKBN-NETFLIX|HULU|HBO-G口
       - CYL-科技 2
+      - 🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑦︱解鎖NETFLIX
+      - 欧洲(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！) 2
       - CYL-科技 3
       - CYL-科技 4
       - CYL-科技 5
       - CYL-科技 6
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - 🇮🇳 印度(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！) 3
       - CYL-科技 7
+      - 🇮🇳 YouTube穷人工作室_🇮🇳_IN_印度_3
       - CYL-科技 8
       - CYL-科技 9
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
       - CYL-科技 10
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇮🇳 YouTube穷人工作室_🇮🇳_IN_印度_4
+      - 🇩🇪 sfzy888.com _🇩🇪DE_120
       - CYL-科技 11
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
       - CYL-科技 12
       - CYL-科技 13
       - CYL-科技 14
@@ -586,7 +493,6 @@ proxy-groups:
       - CYL-科技 18
       - CYL-科技 19
       - CYL-科技 20
-      - 🇨🇳 topurl.cn/leAd 🇨🇭CH
       - CYL-科技 21
       - CYL-科技 22
       - CYL-科技 23
@@ -605,14 +511,13 @@ proxy-groups:
       - CYL-科技 36
       - CYL-科技 37
       - CYL-科技 38
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 欧洲(Youtube频道：工具大师！) 3
+      - CYL-科技 39
+      - CYL-科技 40
+      - CYL-科技 41
+      - CYL-科技 42
       - 欧洲(Youtube频道：工具大师！) 4
-      - 🇮🇹 意大利(Youtube频道：工具大师！)
-      - 🇭🇰 [vip1][V2ray]香港  ⑧
-      - 🇭🇰 [vip1][V2ray]香港 ⑫
-      - 🇸🇬 [vip2][V2ray]上海CN2中转-新加坡⑥| 解鎖NETFLIX
-      - 🇭🇰 [vip3][v2ray]Iplc专线 深圳-香港 ④ DMIT-NETFLIX|HULU|HBO
+      - 欧洲(Youtube频道：工具大师！) 5
+      - 欧洲(Youtube频道：工具大师！) 6
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
