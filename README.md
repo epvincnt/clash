@@ -6,69 +6,55 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: CYL-科技, server: 18.162.143.33, port: 9999, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.162.143.33}}
-  - {name: CYL-科技 2, server: ngzyd-1.okex-tradebot.xyz, port: 30004, type: vmess, uuid: 09d2ed29-18b4-43a8-9adb-a5f4b5ce5663, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
-  - {name: CYL-科技 3, server: 139.99.122.148, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技 4, server: 18.167.94.242, port: 80, type: vmess, uuid: cec85927-8a7a-4866-df8c-27ed589de0ce, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: CYL-科技 5, server: 27.131.164.94, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: CYL-科技 6, server: 13.125.163.148, port: 80, type: vmess, uuid: 74f39a02-edb2-4938-9da8-a5cc3d958bff, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: CYL-科技 7, server: 27.131.164.94, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: CYL-科技 8, server: 27.131.164.94, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: CYL-科技 9, server: 27.131.164.100, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: CYL-科技 10, server: 27.131.164.100, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: CYL-科技 11, server: 27.131.164.100, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: CYL-科技 12, server: 27.131.164.94, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
-  - {name: CYL-科技 13, server: 27.131.164.94, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: CYL-科技 14, server: 27.131.164.100, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: CYL-科技 15, server: 27.131.164.100, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: CYL-科技 16, server: 27.131.164.100, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: CYL-科技 17, server: 27.131.164.94, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: CYL-科技 18, server: 27.131.164.100, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: CYL-科技 19, server: 27.131.164.100, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: CYL-科技 20, server: 27.131.164.94, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
-  - {name: CYL-科技 21, server: 27.131.164.94, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: CYL-科技 22, server: 27.131.164.94, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: CYL-科技 23, server: 27.131.164.94, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: CYL-科技 24, server: 27.131.164.100, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
-  - {name: CYL-科技 25, server: 27.131.164.100, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: CYL-科技 26, server: 165.22.61.210, port: 21888, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 165.22.61.210}}
-  - {name: CYL-科技 27, server: 27.131.164.94, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: CYL-科技 28, server: 27.131.164.94, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
-  - {name: CYL-科技 29, server: 27.131.164.100, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: CYL-科技 30, server: 27.131.164.100, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: CYL-科技 31, server: 27.131.164.94, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: CYL-科技 2, server: 165.22.61.210, port: 21888, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 165.22.61.210}}
   - {name: 欧洲(Youtube频道：工具大师！), server: 42.157.8.162, port: 46006, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false}
-  - {name: CYL-科技 32, server: 27.131.164.94, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: CYL-科技 33, server: 27.131.164.94, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
-  - {name: CYL-科技 34, server: 27.131.164.94, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: CYL-科技 35, server: 2.58.242.46, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: CYL-科技 36, server: kr02.uuv2.uk, port: 2053, type: vmess, uuid: f852dffa-8b5c-4bb0-9182-999465b79b91, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /TG@mftizi, ws-headers: {Host: kr02.uuv2.uk}}
-  - {name: CYL-科技 37, server: 66.115.147.89, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: CYL-科技 38, server: 18.236.146.125, port: 8888, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.236.146.125}}
-  - {name: 🇷🇺 sfzy888.com _🇺🇸US-🇷🇺RU_1409, server: 172.67.150.130, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: 433, server: 107.148.199.233, port: 443, type: vmess, uuid: c5956af7-cc6e-4230-85e7-b457c19e7b7a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.23711396.xyz}}
-  - {name: 441, server: 142.4.108.231, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.89913522.xyz}}
-  - {name: 132, server: 137.175.38.165, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.99650771.xyz}}
-  - {name: 454, server: 142.4.110.144, port: 443, type: vmess, uuid: 68d238ce-3ca1-46dc-b833-a0916c829ad3, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.25838862.xyz}}
-  - {name: CYL-科技 39, server: 66.115.177.156, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: CYL-科技 40, server: 66.115.177.156, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: CYL-科技 41, server: 66.115.177.143, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: CYL-科技 42, server: 66.115.177.143, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: CYL-科技 43, server: 72.140.224.195, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: CYL-科技 44, server: 66.115.177.156, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: CYL-科技 45, server: 89.238.130.253, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: CYL-科技 46, server: 66.115.177.141, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: CYL-科技 47, server: 66.115.177.143, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: CYL-科技 48, server: 66.115.177.143, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: CYL-科技 49, server: 66.115.177.143, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: CYL-科技 50, server: 86.106.136.93, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: CYL-科技 51, server: 66.115.177.156, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: CYL-科技 52, server: 66.115.177.143, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: sfzy888.com _🇬🇧GB_230, server: 81.19.223.189, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: CYL-科技 3, server: 132.226.169.93, port: 33254, type: vmess, uuid: 0453154b-db51-4a66-8f7c-0887878cb9a3, alterId: 0, cipher: auto, tls: false}
+  - {name: CYL-科技 4, server: 23.225.165.245, port: 443, type: vmess, uuid: 95f388b3-68c9-421a-9de2-d8ab2e414a5e, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.19241194.xyz}}
+  - {name: CYL-科技 5, server: 170.178.168.220, port: 443, type: vmess, uuid: 604cf0d5-a996-4b47-9ce2-d6a6f8db187c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.92824634.xyz}}
+  - {name: CYL-科技 6, server: 170.178.179.120, port: 443, type: vmess, uuid: c1b02b28-4a9d-4861-a19f-738a3a641bc6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.66633766.xyz}}
+  - {name: CYL-科技 7, server: 170.178.168.219, port: 443, type: vmess, uuid: 604cf0d5-a996-4b47-9ce2-d6a6f8db187c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.92824634.xyz}}
+  - {name: CYL-科技 8, server: 66.115.147.89, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: CYL-科技 9, server: 173.82.102.82, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.66106012.xyz}}
+  - {name: CYL-科技 10, server: 173.82.102.83, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.66106012.xyz}}
+  - {name: CYL-科技 11, server: 198.148.105.2, port: 443, type: vmess, uuid: e1951e56-b66c-4252-90a5-4e7598f64ea2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.35499317.xyz}}
+  - {name: CYL-科技 12, server: 18.236.146.125, port: 8888, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.236.146.125}}
+  - {name: CYL-科技 13, server: 170.178.181.88, port: 443, type: vmess, uuid: ff4ace79-ee19-4796-9a42-d3eb08d7da93, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.58190096.xyz}}
+  - {name: CYL-科技 14, server: 107.167.12.246, port: 443, type: vmess, uuid: 88c52927-7779-489b-b476-20a7398f5fef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.55922120.xyz}}
+  - {name: CYL-科技 15, server: 107.167.23.98, port: 443, type: vmess, uuid: 6c73d6bf-25a4-410b-94b7-c2c517d61f23, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.53009192.xyz}}
+  - {name: CYL-科技 16, server: 64.32.6.77, port: 443, type: vmess, uuid: ba65e914-124e-4a78-8f81-d05112e062b9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.59434275.xyz}}
+  - {name: CYL-科技 17, server: 107.167.22.12, port: 443, type: vmess, uuid: 28dd6c26-05a5-4bba-8a5d-052b70ac13b2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.13708385.xyz}}
+  - {name: CYL-科技 18, server: 23.224.69.21, port: 443, type: vmess, uuid: 946ba5df-5771-4873-a3cb-892378526147, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.73788846.xyz}}
+  - {name: CYL-科技 19, server: 23.225.213.243, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.95314708.xyz}}
+  - {name: CYL-科技 20, server: 66.115.147.89, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: CYL-科技 21, server: 23.234.238.68, port: 443, type: vmess, uuid: 2c7c1df6-7449-4a71-bfe9-2fdd5fba2fdb, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.20550281.xyz}}
+  - {name: CYL-科技 22, server: 198.74.109.197, port: 443, type: vmess, uuid: fb394cd9-db08-42a5-a37b-9a7149f7069a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.30636290.xyz}}
+  - {name: CYL-科技 23, server: 173.82.23.187, port: 443, type: vmess, uuid: 8665542a-60ec-427f-96a0-f2a5065aadae, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.27804367.xyz}}
+  - {name: CYL-科技 24, server: 198.74.115.180, port: 443, type: vmess, uuid: 9f630708-2b39-46ee-b846-8d5be94897e7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.52092108.xyz}}
+  - {name: CYL-科技 25, server: 198.211.43.118, port: 443, type: vmess, uuid: 3023981b-0431-4bff-8a10-0f986ba86c73, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.55887852.xyz}}
+  - {name: CYL-科技 26, server: 66.115.177.156, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: CYL-科技 27, server: 66.115.177.143, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
   - {name: sfzy888.com _🇬🇧GB_213, server: 5.226.139.225, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: CYL-科技 53, server: 192.74.254.167, port: 20508, type: vmess, uuid: 764e808a-115e-11ec-a88f-00163c9f4934, alterId: 0, cipher: auto, tls: false}
   - {name: 276, server: 107.148.209.105, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.39946946.xyz}}
-  - {name: 450, server: 142.0.129.171, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.13123110.xyz}}
-  - {name: 461, server: 142.0.128.210, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.32754213.xyz}}
+  - {name: CYL-科技 28, server: 5.226.139.65, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: CYL-科技 29, server: 66.115.177.141, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: CYL-科技 30, server: 66.115.177.141, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: CYL-科技 31, server: 66.115.177.141, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: CYL-科技 32, server: 66.115.177.141, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 欧洲(Youtube频道：工具大师！) 2, server: 138.199.19.179, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: CYL-科技 33, server: 170.178.192.59, port: 443, type: vmess, uuid: 73d2ac4c-903d-4af2-a1ad-b67cdc70d4a5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.25478276.xyz}}
+  - {name: CYL-科技 34, server: 192.74.254.112, port: 58719, type: vmess, uuid: ae1048eb-a962-48f6-b15f-013d83d0b6c7, alterId: 0, cipher: auto, tls: false}
+  - {name: CYL-科技 35, server: 66.115.177.156, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: CYL-科技 36, server: 66.115.177.156, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: CYL-科技 37, server: 66.115.177.143, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: CYL-科技 38, server: 66.115.177.143, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: CYL-科技 39, server: 66.115.177.143, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: CYL-科技 40, server: 66.115.177.143, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: CYL-科技 41, server: 66.115.177.156, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: CYL-科技 42, server: 66.115.177.143, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: sfzy888.com _🇬🇧GB_230, server: 81.19.223.189, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: CYL-科技 43, server: 72.140.224.197, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CYL-科技 44, server: 66.115.177.156, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: CYL-科技 45, server: 66.115.177.156, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -77,6 +63,7 @@ proxy-groups:
       - 🎯 全球直连
       - CYL-科技
       - CYL-科技 2
+      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 3
       - CYL-科技 4
       - CYL-科技 5
@@ -102,43 +89,28 @@ proxy-groups:
       - CYL-科技 25
       - CYL-科技 26
       - CYL-科技 27
+      - sfzy888.com _🇬🇧GB_213
+      - 276
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
       - CYL-科技 31
-      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 32
+      - 欧洲(Youtube频道：工具大师！) 2
       - CYL-科技 33
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
       - CYL-科技 37
       - CYL-科技 38
-      - 🇷🇺 sfzy888.com _🇺🇸US-🇷🇺RU_1409
-      - 433
-      - 441
-      - 132
-      - 454
       - CYL-科技 39
       - CYL-科技 40
       - CYL-科技 41
       - CYL-科技 42
+      - sfzy888.com _🇬🇧GB_230
       - CYL-科技 43
       - CYL-科技 44
       - CYL-科技 45
-      - CYL-科技 46
-      - CYL-科技 47
-      - CYL-科技 48
-      - CYL-科技 49
-      - CYL-科技 50
-      - CYL-科技 51
-      - CYL-科技 52
-      - sfzy888.com _🇬🇧GB_230
-      - sfzy888.com _🇬🇧GB_213
-      - CYL-科技 53
-      - 276
-      - 450
-      - 461
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -146,6 +118,7 @@ proxy-groups:
     proxies:
       - CYL-科技
       - CYL-科技 2
+      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 3
       - CYL-科技 4
       - CYL-科技 5
@@ -171,43 +144,28 @@ proxy-groups:
       - CYL-科技 25
       - CYL-科技 26
       - CYL-科技 27
+      - sfzy888.com _🇬🇧GB_213
+      - 276
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
       - CYL-科技 31
-      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 32
+      - 欧洲(Youtube频道：工具大师！) 2
       - CYL-科技 33
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
       - CYL-科技 37
       - CYL-科技 38
-      - 🇷🇺 sfzy888.com _🇺🇸US-🇷🇺RU_1409
-      - 433
-      - 441
-      - 132
-      - 454
       - CYL-科技 39
       - CYL-科技 40
       - CYL-科技 41
       - CYL-科技 42
+      - sfzy888.com _🇬🇧GB_230
       - CYL-科技 43
       - CYL-科技 44
       - CYL-科技 45
-      - CYL-科技 46
-      - CYL-科技 47
-      - CYL-科技 48
-      - CYL-科技 49
-      - CYL-科技 50
-      - CYL-科技 51
-      - CYL-科技 52
-      - sfzy888.com _🇬🇧GB_230
-      - sfzy888.com _🇬🇧GB_213
-      - CYL-科技 53
-      - 276
-      - 450
-      - 461
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -216,6 +174,7 @@ proxy-groups:
       - 🎯 全球直连
       - CYL-科技
       - CYL-科技 2
+      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 3
       - CYL-科技 4
       - CYL-科技 5
@@ -241,43 +200,28 @@ proxy-groups:
       - CYL-科技 25
       - CYL-科技 26
       - CYL-科技 27
+      - sfzy888.com _🇬🇧GB_213
+      - 276
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
       - CYL-科技 31
-      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 32
+      - 欧洲(Youtube频道：工具大师！) 2
       - CYL-科技 33
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
       - CYL-科技 37
       - CYL-科技 38
-      - 🇷🇺 sfzy888.com _🇺🇸US-🇷🇺RU_1409
-      - 433
-      - 441
-      - 132
-      - 454
       - CYL-科技 39
       - CYL-科技 40
       - CYL-科技 41
       - CYL-科技 42
+      - sfzy888.com _🇬🇧GB_230
       - CYL-科技 43
       - CYL-科技 44
       - CYL-科技 45
-      - CYL-科技 46
-      - CYL-科技 47
-      - CYL-科技 48
-      - CYL-科技 49
-      - CYL-科技 50
-      - CYL-科技 51
-      - CYL-科技 52
-      - sfzy888.com _🇬🇧GB_230
-      - sfzy888.com _🇬🇧GB_213
-      - CYL-科技 53
-      - 276
-      - 450
-      - 461
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -290,6 +234,7 @@ proxy-groups:
       - 🔰 节点选择
       - CYL-科技
       - CYL-科技 2
+      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 3
       - CYL-科技 4
       - CYL-科技 5
@@ -315,43 +260,28 @@ proxy-groups:
       - CYL-科技 25
       - CYL-科技 26
       - CYL-科技 27
+      - sfzy888.com _🇬🇧GB_213
+      - 276
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
       - CYL-科技 31
-      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 32
+      - 欧洲(Youtube频道：工具大师！) 2
       - CYL-科技 33
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
       - CYL-科技 37
       - CYL-科技 38
-      - 🇷🇺 sfzy888.com _🇺🇸US-🇷🇺RU_1409
-      - 433
-      - 441
-      - 132
-      - 454
       - CYL-科技 39
       - CYL-科技 40
       - CYL-科技 41
       - CYL-科技 42
+      - sfzy888.com _🇬🇧GB_230
       - CYL-科技 43
       - CYL-科技 44
       - CYL-科技 45
-      - CYL-科技 46
-      - CYL-科技 47
-      - CYL-科技 48
-      - CYL-科技 49
-      - CYL-科技 50
-      - CYL-科技 51
-      - CYL-科技 52
-      - sfzy888.com _🇬🇧GB_230
-      - sfzy888.com _🇬🇧GB_213
-      - CYL-科技 53
-      - 276
-      - 450
-      - 461
   - name: 📲 电报信息
     type: select
     proxies:
@@ -359,6 +289,7 @@ proxy-groups:
       - 🎯 全球直连
       - CYL-科技
       - CYL-科技 2
+      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 3
       - CYL-科技 4
       - CYL-科技 5
@@ -384,43 +315,28 @@ proxy-groups:
       - CYL-科技 25
       - CYL-科技 26
       - CYL-科技 27
+      - sfzy888.com _🇬🇧GB_213
+      - 276
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
       - CYL-科技 31
-      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 32
+      - 欧洲(Youtube频道：工具大师！) 2
       - CYL-科技 33
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
       - CYL-科技 37
       - CYL-科技 38
-      - 🇷🇺 sfzy888.com _🇺🇸US-🇷🇺RU_1409
-      - 433
-      - 441
-      - 132
-      - 454
       - CYL-科技 39
       - CYL-科技 40
       - CYL-科技 41
       - CYL-科技 42
+      - sfzy888.com _🇬🇧GB_230
       - CYL-科技 43
       - CYL-科技 44
       - CYL-科技 45
-      - CYL-科技 46
-      - CYL-科技 47
-      - CYL-科技 48
-      - CYL-科技 49
-      - CYL-科技 50
-      - CYL-科技 51
-      - CYL-科技 52
-      - sfzy888.com _🇬🇧GB_230
-      - sfzy888.com _🇬🇧GB_213
-      - CYL-科技 53
-      - 276
-      - 450
-      - 461
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -429,6 +345,7 @@ proxy-groups:
       - ♻️ 自动选择
       - CYL-科技
       - CYL-科技 2
+      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 3
       - CYL-科技 4
       - CYL-科技 5
@@ -454,43 +371,28 @@ proxy-groups:
       - CYL-科技 25
       - CYL-科技 26
       - CYL-科技 27
+      - sfzy888.com _🇬🇧GB_213
+      - 276
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
       - CYL-科技 31
-      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 32
+      - 欧洲(Youtube频道：工具大师！) 2
       - CYL-科技 33
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
       - CYL-科技 37
       - CYL-科技 38
-      - 🇷🇺 sfzy888.com _🇺🇸US-🇷🇺RU_1409
-      - 433
-      - 441
-      - 132
-      - 454
       - CYL-科技 39
       - CYL-科技 40
       - CYL-科技 41
       - CYL-科技 42
+      - sfzy888.com _🇬🇧GB_230
       - CYL-科技 43
       - CYL-科技 44
       - CYL-科技 45
-      - CYL-科技 46
-      - CYL-科技 47
-      - CYL-科技 48
-      - CYL-科技 49
-      - CYL-科技 50
-      - CYL-科技 51
-      - CYL-科技 52
-      - sfzy888.com _🇬🇧GB_230
-      - sfzy888.com _🇬🇧GB_213
-      - CYL-科技 53
-      - 276
-      - 450
-      - 461
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -508,6 +410,7 @@ proxy-groups:
       - ♻️ 自动选择
       - CYL-科技
       - CYL-科技 2
+      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 3
       - CYL-科技 4
       - CYL-科技 5
@@ -533,43 +436,28 @@ proxy-groups:
       - CYL-科技 25
       - CYL-科技 26
       - CYL-科技 27
+      - sfzy888.com _🇬🇧GB_213
+      - 276
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
       - CYL-科技 31
-      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 32
+      - 欧洲(Youtube频道：工具大师！) 2
       - CYL-科技 33
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
       - CYL-科技 37
       - CYL-科技 38
-      - 🇷🇺 sfzy888.com _🇺🇸US-🇷🇺RU_1409
-      - 433
-      - 441
-      - 132
-      - 454
       - CYL-科技 39
       - CYL-科技 40
       - CYL-科技 41
       - CYL-科技 42
+      - sfzy888.com _🇬🇧GB_230
       - CYL-科技 43
       - CYL-科技 44
       - CYL-科技 45
-      - CYL-科技 46
-      - CYL-科技 47
-      - CYL-科技 48
-      - CYL-科技 49
-      - CYL-科技 50
-      - CYL-科技 51
-      - CYL-科技 52
-      - sfzy888.com _🇬🇧GB_230
-      - sfzy888.com _🇬🇧GB_213
-      - CYL-科技 53
-      - 276
-      - 450
-      - 461
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
