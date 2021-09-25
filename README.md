@@ -5,75 +5,72 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CYL-科技, server: icajm.moox.icu, port: 40011, type: vmess, uuid: 4237fde7-85fb-43f2-876a-972d4a222343, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: hkbgp.xlanfly.xyz}}
-  - {name: YouTube-阿伟科技jp, server: 120.232.41.3, port: 110, type: ss, cipher: aes-128-gcm, password: M6gD92m}
-  - {name: CYL-科技 2, server: 65.52.170.120, port: 80, type: vmess, uuid: f371f062-e1a3-4366-b9d2-948acd2a647f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /hg2, ws-headers: {Host: 65.52.170.120}}
+  - {name: CYL-科技, server: 18.162.143.33, port: 9999, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.162.143.33}}
+  - {name: CYL-科技 2, server: ngzyd-1.okex-tradebot.xyz, port: 30002, type: vmess, uuid: 00c3083c-9923-41d1-8ca9-4ce565870424, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
   - {name: CYL-科技 3, server: ngzyd-1.okex-tradebot.xyz, port: 30006, type: vmess, uuid: 00c3083c-9923-41d1-8ca9-4ce565870424, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
-  - {name: CYL-科技 4, server: ngzyd-1.okex-tradebot.xyz, port: 30002, type: vmess, uuid: 00c3083c-9923-41d1-8ca9-4ce565870424, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
-  - {name: CYL-科技 5, server: rxzgzq.moox.icu, port: 34025, type: vmess, uuid: 4237fde7-85fb-43f2-876a-972d4a222343, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: rxzgzq.moox.icu}}
-  - {name: CYL-科技 6, server: icajm.moox.icu, port: 40007, type: vmess, uuid: 4237fde7-85fb-43f2-876a-972d4a222343, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sgnf.xlanfly.xyz}}
-  - {name: CYL-科技 7, server: 18.162.143.33, port: 9999, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.162.143.33}}
   - {name: 🇭🇰 YouTube-阿伟科技HK, server: 118.107.244.113, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技 8, server: sg2.qtyuncloud.tk, port: 2052, type: vmess, uuid: 985df97c-9eab-3f96-b29b-26bb0f507812, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: sg2.qtyuncloud.tk}}
-  - {name: CYL-科技 9, server: sg1.qtyuncloud.tk, port: 2052, type: vmess, uuid: 985df97c-9eab-3f96-b29b-26bb0f507812, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: sg1.qtyuncloud.tk}}
-  - {name: CYL-科技 10, server: 165.22.61.210, port: 21888, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 165.22.61.210}}
-  - {name: CYL-科技 11, server: 103.117.103.189, port: 42202, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: CYL-科技 12, server: icajm.moox.icu, port: 34019, type: vmess, uuid: 4237fde7-85fb-43f2-876a-972d4a222343, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}}
-  - {name: CYL-科技 13, server: 168.63.202.65, port: 80, type: vmess, uuid: fc594b47-48f4-3116-986b-a27c03f1ee2d, alterId: 3, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 168.63.202.65}}
-  - {name: CYL-科技 14, server: 168.63.137.241, port: 80, type: vmess, uuid: fc594b47-48f4-3116-986b-a27c03f1ee2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 168.63.137.241}}
-  - {name: CYL-科技 15, server: 27.131.164.100, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: CYL-科技 4, server: sg2.qtyuncloud.tk, port: 2052, type: vmess, uuid: 985df97c-9eab-3f96-b29b-26bb0f507812, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: sg2.qtyuncloud.tk}}
+  - {name: CYL-科技 5, server: icajm.moox.icu, port: 40011, type: vmess, uuid: 4237fde7-85fb-43f2-876a-972d4a222343, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: hkbgp.xlanfly.xyz}}
+  - {name: CYL-科技 6, server: sg1.qtyuncloud.tk, port: 2052, type: vmess, uuid: 985df97c-9eab-3f96-b29b-26bb0f507812, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: sg1.qtyuncloud.tk}}
+  - {name: CYL-科技 7, server: 165.22.61.210, port: 21888, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 165.22.61.210}}
+  - {name: CYL-科技 8, server: 27.131.164.100, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: CYL-科技 9, server: 168.63.202.65, port: 80, type: vmess, uuid: fc594b47-48f4-3116-986b-a27c03f1ee2d, alterId: 3, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 168.63.202.65}}
+  - {name: CYL-科技 10, server: 27.131.164.100, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: CYL-科技 11, server: 27.131.164.100, port: 50225, type: ss, cipher: aes-256-gcm, password: J2M953QbkCvvzx3vYWdyBQ4K}
+  - {name: CYL-科技 12, server: 27.131.164.100, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: CYL-科技 13, server: 27.131.164.100, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: CYL-科技 14, server: jp1.qtyuncloud.tk, port: 2052, type: vmess, uuid: 985df97c-9eab-3f96-b29b-26bb0f507812, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jp1.qtyuncloud.tk}}
+  - {name: YouTube-阿伟科技jp, server: 120.232.41.3, port: 110, type: ss, cipher: aes-128-gcm, password: M6gD92m}
+  - {name: CYL-科技 15, server: 27.131.164.100, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
+  - {name: YouTube-阿伟科技, server: 61.14.210.232, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: YouTube-阿伟科技 2, server: 61.14.210.232, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: YouTube-阿伟科技 3, server: 61.14.210.232, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: CYL-科技 16, server: icajm.moox.icu, port: 34019, type: vmess, uuid: 4237fde7-85fb-43f2-876a-972d4a222343, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}}
+  - {name: YouTube-阿伟科技 4, server: 61.14.210.232, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: YouTube-阿伟科技 5, server: 61.14.210.232, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: YouTube-阿伟科技 6, server: 61.14.210.232, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: CYL-科技 17, server: 27.131.164.100, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
   - {name: 🇹🇭 TH_834, server: 27.131.164.100, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: CYL-科技 16, server: 27.131.164.100, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: CYL-科技 17, server: 27.131.164.94, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: CYL-科技 18, server: 27.131.164.100, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
-  - {name: CYL-科技 19, server: 27.131.164.100, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: CYL-科技 20, server: 27.131.164.100, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
-  - {name: 欧洲(Youtube频道：工具大师！), server: 42.157.8.162, port: 46006, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false}
-  - {name: YouTube-阿伟科技, server: 61.14.210.232, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: CYL-科技 18, server: 27.131.164.100, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: CYL-科技 19, server: 27.131.164.100, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: CYL-科技 20, server: 27.131.164.94, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: CYL-科技 21, server: 137.59.52.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇰🇷 YouTube-阿伟科技KR, server: 103.117.103.180, port: 18341, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: YouTube-阿伟科技 2, server: 61.14.210.232, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
-  - {name: CYL-科技 21, server: 27.131.164.100, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: YouTube-阿伟科技 3, server: 61.14.210.232, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: YouTube-阿伟科技 4, server: 61.14.210.232, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: CYL-科技 22, server: 27.131.164.100, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
-  - {name: CYL-科技 23, server: 27.131.164.100, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
-  - {name: CYL-科技 24, server: 27.131.164.100, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: CYL-科技 25, server: jp1.qtyuncloud.tk, port: 2052, type: vmess, uuid: 985df97c-9eab-3f96-b29b-26bb0f507812, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jp1.qtyuncloud.tk}}
-  - {name: CYL-科技 26, server: 27.131.164.94, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
-  - {name: CYL-科技 27, server: 27.131.164.94, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
-  - {name: CYL-科技 28, server: 27.131.164.100, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
-  - {name: CYL-科技 29, server: 27.131.164.100, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
-  - {name: CYL-科技 30, server: 27.131.164.94, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: CYL-科技 31, server: 27.131.164.94, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: CYL-科技 32, server: 27.131.164.94, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: CYL-科技 33, server: icajm.moox.icu, port: 40001, type: vmess, uuid: 4237fde7-85fb-43f2-876a-972d4a222343, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}}
-  - {name: CYL-科技 34, server: 170.178.179.120, port: 443, type: vmess, uuid: c1b02b28-4a9d-4861-a19f-738a3a641bc6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.66633766.xyz}}
-  - {name: CYL-科技 35, server: 104.160.172.174, port: 443, type: vmess, uuid: b697d727-cf6c-41dd-a0de-c7a9478e4a4a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.97574341.xyz}}
-  - {name: CYL-科技 36, server: 27.131.164.94, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: CYL-科技 37, server: cdn08.ssrsub.com, port: 443, type: vmess, uuid: 2faeb94c-1be6-4e31-a30c-c0cbf5f4a1d5, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: cdn08.ssrsub.com}}
-  - {name: 免费分享, server: 173.82.23.187, port: 443, type: vmess, uuid: 8665542a-60ec-427f-96a0-f2a5065aadae, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.27804367.xyz}}
-  - {name: CYL-科技 38, server: 107.167.4.27, port: 443, type: vmess, uuid: 2649c24f-2af9-4ad7-a655-0df9b70c0645, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.51832430.xyz}}
-  - {name: CYL-科技 39, server: 64.32.3.206, port: 443, type: vmess, uuid: 11b63b8d-ed35-4dd7-b996-fd474de288ad, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.00479329.xyz}}
-  - {name: CYL-科技 40, server: 64.32.2.27, port: 443, type: vmess, uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.92952259.xyz}}
-  - {name: CYL-科技 41, server: 107.167.5.54, port: 443, type: vmess, uuid: bdee202c-8fae-441f-a588-7bc4d3887019, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.00962251.xyz}}
-  - {name: CYL-科技 42, server: 170.178.178.131, port: 443, type: vmess, uuid: 6566b38d-0127-42ea-aee3-4bf86a697f7c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.25259951.xyz}}
-  - {name: CYL-科技 43, server: 154.16.168.185, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: CYL-科技 44, server: 154.16.168.185, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
-  - {name: CYL-科技 45, server: 154.16.168.185, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: CYL-科技 46, server: 67.21.79.141, port: 443, type: vmess, uuid: fabb30e8-3a2c-4149-9651-2758f7712481, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.18070238.xyz}}
-  - {name: CYL-科技 47, server: 104.160.178.220, port: 443, type: vmess, uuid: 4090dca2-8b93-4b4b-90f3-10f627ffce07, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.57844236.xyz}}
-  - {name: CYL-科技 48, server: 107.167.26.30, port: 443, type: vmess, uuid: 17c10e13-bc5a-4a16-beca-decc8ad4135c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.53493447.xyz}}
-  - {name: CYL-科技 49, server: 64.32.3.172, port: 443, type: vmess, uuid: 7925de46-8cbe-433c-ac8b-9a069347db2d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.74378725.xyz}}
-  - {name: CYL-科技 50, server: 107.167.27.36, port: 443, type: vmess, uuid: b12c4f8d-1aaa-4333-98e6-ec939292c580, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.65096885.xyz}}
-  - {name: CYL-科技 51, server: 27.131.164.94, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: CYL-科技 52, server: 27.131.164.94, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
-  - {name: 欧洲(Youtube频道：工具大师！) 2, server: 139.155.22.227, port: 49110, type: vmess, uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d, alterId: 64, cipher: auto, tls: false}
-  - {name: CYL-科技 53, server: 27.131.164.94, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: CYL-科技 54, server: 198.74.115.180, port: 443, type: vmess, uuid: 9f630708-2b39-46ee-b846-8d5be94897e7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.52092108.xyz}}
-  - {name: 免费分享 2, server: 23.234.238.68, port: 443, type: vmess, uuid: 2c7c1df6-7449-4a71-bfe9-2fdd5fba2fdb, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.20550281.xyz}}
-  - {name: CYL-科技 55, server: 23.225.165.245, port: 443, type: vmess, uuid: 95f388b3-68c9-421a-9de2-d8ab2e414a5e, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.19241194.xyz}}
-  - {name: CYL-科技 56, server: 170.178.190.154, port: 443, type: vmess, uuid: 6bda8dab-38db-4cce-877b-3bd27fbc8e5b, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.62371655.xyz}}
-  - {name: CYL-科技 57, server: 170.178.185.151, port: 443, type: vmess, uuid: 58e560b4-bba6-4843-be5f-83321022fa0d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.89712645.xyz}}
+  - {name: CYL-科技 22, server: 27.131.164.100, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: CYL-科技 23, server: 154.16.168.185, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: CYL-科技 24, server: 137.59.52.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: CYL-科技 25, server: 168.63.137.241, port: 80, type: vmess, uuid: fc594b47-48f4-3116-986b-a27c03f1ee2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 168.63.137.241}}
+  - {name: CYL-科技 26, server: 154.16.168.185, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
+  - {name: CYL-科技 27, server: 154.16.168.185, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
+  - {name: CYL-科技 28, server: 154.16.168.185, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: CYL-科技 29, server: 137.59.52.107, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: CYL-科技 30, server: 107.167.5.58, port: 443, type: vmess, uuid: 378b4010-adad-483f-b485-faf069af9d02, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.39629848.xyz}}
+  - {name: CYL-科技 31, server: 27.131.164.94, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
+  - {name: CYL-科技 32, server: 18.236.146.125, port: 8888, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.236.146.125}}
+  - {name: 免费分享, server: 173.82.190.109, port: 443, type: vmess, uuid: 65801850-32bc-473a-9505-aa222234a0ba, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.82252839.xyz}}
+  - {name: CYL-科技 33, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 免费分享 2, server: 170.178.181.88, port: 443, type: vmess, uuid: ff4ace79-ee19-4796-9a42-d3eb08d7da93, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.58190096.xyz}}
+  - {name: CYL-科技 34, server: 107.167.7.105, port: 443, type: vmess, uuid: 17fa3c74-f3c2-4b37-bf53-c6640d6982eb, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.06612049.xyz}}
+  - {name: CYL-科技 35, server: 154.16.168.185, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: CYL-科技 36, server: 23.234.238.68, port: 443, type: vmess, uuid: 2c7c1df6-7449-4a71-bfe9-2fdd5fba2fdb, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.20550281.xyz}}
+  - {name: 免费分享 3, server: 198.74.109.197, port: 443, type: vmess, uuid: fb394cd9-db08-42a5-a37b-9a7149f7069a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.30636290.xyz}}
+  - {name: CYL-科技 37, server: ban4.feiclouddd.me, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}}
+  - {name: CYL-科技 38, server: 27.131.164.100, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: 欧洲(Youtube频道：工具大师！), server: 42.157.8.162, port: 46006, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false}
+  - {name: CYL-科技 39, server: 27.131.164.94, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: CYL-科技 40, server: 27.131.164.94, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: CYL-科技 41, server: 154.16.168.185, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: CYL-科技 42, server: 27.131.164.94, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
+  - {name: 免费分享 4, server: 23.234.238.68, port: 443, type: vmess, uuid: 2c7c1df6-7449-4a71-bfe9-2fdd5fba2fdb, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.20550281.xyz}}
+  - {name: CYL-科技 43, server: 66.115.177.141, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: CYL-科技 44, server: 66.115.177.156, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: CYL-科技 45, server: 66.115.177.143, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: CYL-科技 46, server: 66.115.177.143, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: CYL-科技 47, server: 66.115.177.141, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: CYL-科技 48, server: 66.115.177.156, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: CYL-科技 49, server: 66.115.177.143, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: CYL-科技 50, server: 66.115.177.141, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: CYL-科技 51, server: 66.115.177.143, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -81,14 +78,13 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - CYL-科技
-      - YouTube-阿伟科技jp
       - CYL-科技 2
       - CYL-科技 3
+      - 🇭🇰 YouTube-阿伟科技HK
       - CYL-科技 4
       - CYL-科技 5
       - CYL-科技 6
       - CYL-科技 7
-      - 🇭🇰 YouTube-阿伟科技HK
       - CYL-科技 8
       - CYL-科技 9
       - CYL-科技 10
@@ -96,20 +92,22 @@ proxy-groups:
       - CYL-科技 12
       - CYL-科技 13
       - CYL-科技 14
+      - YouTube-阿伟科技jp
       - CYL-科技 15
-      - 🇹🇭 TH_834
+      - YouTube-阿伟科技
+      - YouTube-阿伟科技 2
+      - YouTube-阿伟科技 3
       - CYL-科技 16
+      - YouTube-阿伟科技 4
+      - YouTube-阿伟科技 5
+      - YouTube-阿伟科技 6
       - CYL-科技 17
+      - 🇹🇭 TH_834
       - CYL-科技 18
       - CYL-科技 19
       - CYL-科技 20
-      - 欧洲(Youtube频道：工具大师！)
-      - YouTube-阿伟科技
-      - 🇰🇷 YouTube-阿伟科技KR
-      - YouTube-阿伟科技 2
       - CYL-科技 21
-      - YouTube-阿伟科技 3
-      - YouTube-阿伟科技 4
+      - 🇰🇷 YouTube-阿伟科技KR
       - CYL-科技 22
       - CYL-科技 23
       - CYL-科技 24
@@ -121,17 +119,21 @@ proxy-groups:
       - CYL-科技 30
       - CYL-科技 31
       - CYL-科技 32
+      - 免费分享
       - CYL-科技 33
+      - 免费分享 2
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
+      - 免费分享 3
       - CYL-科技 37
-      - 免费分享
       - CYL-科技 38
+      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 39
       - CYL-科技 40
       - CYL-科技 41
       - CYL-科技 42
+      - 免费分享 4
       - CYL-科技 43
       - CYL-科技 44
       - CYL-科技 45
@@ -141,28 +143,19 @@ proxy-groups:
       - CYL-科技 49
       - CYL-科技 50
       - CYL-科技 51
-      - CYL-科技 52
-      - 欧洲(Youtube频道：工具大师！) 2
-      - CYL-科技 53
-      - CYL-科技 54
-      - 免费分享 2
-      - CYL-科技 55
-      - CYL-科技 56
-      - CYL-科技 57
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - CYL-科技
-      - YouTube-阿伟科技jp
       - CYL-科技 2
       - CYL-科技 3
+      - 🇭🇰 YouTube-阿伟科技HK
       - CYL-科技 4
       - CYL-科技 5
       - CYL-科技 6
       - CYL-科技 7
-      - 🇭🇰 YouTube-阿伟科技HK
       - CYL-科技 8
       - CYL-科技 9
       - CYL-科技 10
@@ -170,20 +163,22 @@ proxy-groups:
       - CYL-科技 12
       - CYL-科技 13
       - CYL-科技 14
+      - YouTube-阿伟科技jp
       - CYL-科技 15
-      - 🇹🇭 TH_834
+      - YouTube-阿伟科技
+      - YouTube-阿伟科技 2
+      - YouTube-阿伟科技 3
       - CYL-科技 16
+      - YouTube-阿伟科技 4
+      - YouTube-阿伟科技 5
+      - YouTube-阿伟科技 6
       - CYL-科技 17
+      - 🇹🇭 TH_834
       - CYL-科技 18
       - CYL-科技 19
       - CYL-科技 20
-      - 欧洲(Youtube频道：工具大师！)
-      - YouTube-阿伟科技
-      - 🇰🇷 YouTube-阿伟科技KR
-      - YouTube-阿伟科技 2
       - CYL-科技 21
-      - YouTube-阿伟科技 3
-      - YouTube-阿伟科技 4
+      - 🇰🇷 YouTube-阿伟科技KR
       - CYL-科技 22
       - CYL-科技 23
       - CYL-科技 24
@@ -195,17 +190,21 @@ proxy-groups:
       - CYL-科技 30
       - CYL-科技 31
       - CYL-科技 32
+      - 免费分享
       - CYL-科技 33
+      - 免费分享 2
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
+      - 免费分享 3
       - CYL-科技 37
-      - 免费分享
       - CYL-科技 38
+      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 39
       - CYL-科技 40
       - CYL-科技 41
       - CYL-科技 42
+      - 免费分享 4
       - CYL-科技 43
       - CYL-科技 44
       - CYL-科技 45
@@ -215,14 +214,6 @@ proxy-groups:
       - CYL-科技 49
       - CYL-科技 50
       - CYL-科技 51
-      - CYL-科技 52
-      - 欧洲(Youtube频道：工具大师！) 2
-      - CYL-科技 53
-      - CYL-科技 54
-      - 免费分享 2
-      - CYL-科技 55
-      - CYL-科技 56
-      - CYL-科技 57
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -230,14 +221,13 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - CYL-科技
-      - YouTube-阿伟科技jp
       - CYL-科技 2
       - CYL-科技 3
+      - 🇭🇰 YouTube-阿伟科技HK
       - CYL-科技 4
       - CYL-科技 5
       - CYL-科技 6
       - CYL-科技 7
-      - 🇭🇰 YouTube-阿伟科技HK
       - CYL-科技 8
       - CYL-科技 9
       - CYL-科技 10
@@ -245,20 +235,22 @@ proxy-groups:
       - CYL-科技 12
       - CYL-科技 13
       - CYL-科技 14
+      - YouTube-阿伟科技jp
       - CYL-科技 15
-      - 🇹🇭 TH_834
+      - YouTube-阿伟科技
+      - YouTube-阿伟科技 2
+      - YouTube-阿伟科技 3
       - CYL-科技 16
+      - YouTube-阿伟科技 4
+      - YouTube-阿伟科技 5
+      - YouTube-阿伟科技 6
       - CYL-科技 17
+      - 🇹🇭 TH_834
       - CYL-科技 18
       - CYL-科技 19
       - CYL-科技 20
-      - 欧洲(Youtube频道：工具大师！)
-      - YouTube-阿伟科技
-      - 🇰🇷 YouTube-阿伟科技KR
-      - YouTube-阿伟科技 2
       - CYL-科技 21
-      - YouTube-阿伟科技 3
-      - YouTube-阿伟科技 4
+      - 🇰🇷 YouTube-阿伟科技KR
       - CYL-科技 22
       - CYL-科技 23
       - CYL-科技 24
@@ -270,17 +262,21 @@ proxy-groups:
       - CYL-科技 30
       - CYL-科技 31
       - CYL-科技 32
+      - 免费分享
       - CYL-科技 33
+      - 免费分享 2
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
+      - 免费分享 3
       - CYL-科技 37
-      - 免费分享
       - CYL-科技 38
+      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 39
       - CYL-科技 40
       - CYL-科技 41
       - CYL-科技 42
+      - 免费分享 4
       - CYL-科技 43
       - CYL-科技 44
       - CYL-科技 45
@@ -290,14 +286,6 @@ proxy-groups:
       - CYL-科技 49
       - CYL-科技 50
       - CYL-科技 51
-      - CYL-科技 52
-      - 欧洲(Youtube频道：工具大师！) 2
-      - CYL-科技 53
-      - CYL-科技 54
-      - 免费分享 2
-      - CYL-科技 55
-      - CYL-科技 56
-      - CYL-科技 57
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -309,14 +297,13 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - CYL-科技
-      - YouTube-阿伟科技jp
       - CYL-科技 2
       - CYL-科技 3
+      - 🇭🇰 YouTube-阿伟科技HK
       - CYL-科技 4
       - CYL-科技 5
       - CYL-科技 6
       - CYL-科技 7
-      - 🇭🇰 YouTube-阿伟科技HK
       - CYL-科技 8
       - CYL-科技 9
       - CYL-科技 10
@@ -324,20 +311,22 @@ proxy-groups:
       - CYL-科技 12
       - CYL-科技 13
       - CYL-科技 14
+      - YouTube-阿伟科技jp
       - CYL-科技 15
-      - 🇹🇭 TH_834
+      - YouTube-阿伟科技
+      - YouTube-阿伟科技 2
+      - YouTube-阿伟科技 3
       - CYL-科技 16
+      - YouTube-阿伟科技 4
+      - YouTube-阿伟科技 5
+      - YouTube-阿伟科技 6
       - CYL-科技 17
+      - 🇹🇭 TH_834
       - CYL-科技 18
       - CYL-科技 19
       - CYL-科技 20
-      - 欧洲(Youtube频道：工具大师！)
-      - YouTube-阿伟科技
-      - 🇰🇷 YouTube-阿伟科技KR
-      - YouTube-阿伟科技 2
       - CYL-科技 21
-      - YouTube-阿伟科技 3
-      - YouTube-阿伟科技 4
+      - 🇰🇷 YouTube-阿伟科技KR
       - CYL-科技 22
       - CYL-科技 23
       - CYL-科技 24
@@ -349,17 +338,21 @@ proxy-groups:
       - CYL-科技 30
       - CYL-科技 31
       - CYL-科技 32
+      - 免费分享
       - CYL-科技 33
+      - 免费分享 2
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
+      - 免费分享 3
       - CYL-科技 37
-      - 免费分享
       - CYL-科技 38
+      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 39
       - CYL-科技 40
       - CYL-科技 41
       - CYL-科技 42
+      - 免费分享 4
       - CYL-科技 43
       - CYL-科技 44
       - CYL-科技 45
@@ -369,28 +362,19 @@ proxy-groups:
       - CYL-科技 49
       - CYL-科技 50
       - CYL-科技 51
-      - CYL-科技 52
-      - 欧洲(Youtube频道：工具大师！) 2
-      - CYL-科技 53
-      - CYL-科技 54
-      - 免费分享 2
-      - CYL-科技 55
-      - CYL-科技 56
-      - CYL-科技 57
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - CYL-科技
-      - YouTube-阿伟科技jp
       - CYL-科技 2
       - CYL-科技 3
+      - 🇭🇰 YouTube-阿伟科技HK
       - CYL-科技 4
       - CYL-科技 5
       - CYL-科技 6
       - CYL-科技 7
-      - 🇭🇰 YouTube-阿伟科技HK
       - CYL-科技 8
       - CYL-科技 9
       - CYL-科技 10
@@ -398,20 +382,22 @@ proxy-groups:
       - CYL-科技 12
       - CYL-科技 13
       - CYL-科技 14
+      - YouTube-阿伟科技jp
       - CYL-科技 15
-      - 🇹🇭 TH_834
+      - YouTube-阿伟科技
+      - YouTube-阿伟科技 2
+      - YouTube-阿伟科技 3
       - CYL-科技 16
+      - YouTube-阿伟科技 4
+      - YouTube-阿伟科技 5
+      - YouTube-阿伟科技 6
       - CYL-科技 17
+      - 🇹🇭 TH_834
       - CYL-科技 18
       - CYL-科技 19
       - CYL-科技 20
-      - 欧洲(Youtube频道：工具大师！)
-      - YouTube-阿伟科技
-      - 🇰🇷 YouTube-阿伟科技KR
-      - YouTube-阿伟科技 2
       - CYL-科技 21
-      - YouTube-阿伟科技 3
-      - YouTube-阿伟科技 4
+      - 🇰🇷 YouTube-阿伟科技KR
       - CYL-科技 22
       - CYL-科技 23
       - CYL-科技 24
@@ -423,17 +409,21 @@ proxy-groups:
       - CYL-科技 30
       - CYL-科技 31
       - CYL-科技 32
+      - 免费分享
       - CYL-科技 33
+      - 免费分享 2
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
+      - 免费分享 3
       - CYL-科技 37
-      - 免费分享
       - CYL-科技 38
+      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 39
       - CYL-科技 40
       - CYL-科技 41
       - CYL-科技 42
+      - 免费分享 4
       - CYL-科技 43
       - CYL-科技 44
       - CYL-科技 45
@@ -443,14 +433,6 @@ proxy-groups:
       - CYL-科技 49
       - CYL-科技 50
       - CYL-科技 51
-      - CYL-科技 52
-      - 欧洲(Youtube频道：工具大师！) 2
-      - CYL-科技 53
-      - CYL-科技 54
-      - 免费分享 2
-      - CYL-科技 55
-      - CYL-科技 56
-      - CYL-科技 57
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -458,14 +440,13 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - CYL-科技
-      - YouTube-阿伟科技jp
       - CYL-科技 2
       - CYL-科技 3
+      - 🇭🇰 YouTube-阿伟科技HK
       - CYL-科技 4
       - CYL-科技 5
       - CYL-科技 6
       - CYL-科技 7
-      - 🇭🇰 YouTube-阿伟科技HK
       - CYL-科技 8
       - CYL-科技 9
       - CYL-科技 10
@@ -473,20 +454,22 @@ proxy-groups:
       - CYL-科技 12
       - CYL-科技 13
       - CYL-科技 14
+      - YouTube-阿伟科技jp
       - CYL-科技 15
-      - 🇹🇭 TH_834
+      - YouTube-阿伟科技
+      - YouTube-阿伟科技 2
+      - YouTube-阿伟科技 3
       - CYL-科技 16
+      - YouTube-阿伟科技 4
+      - YouTube-阿伟科技 5
+      - YouTube-阿伟科技 6
       - CYL-科技 17
+      - 🇹🇭 TH_834
       - CYL-科技 18
       - CYL-科技 19
       - CYL-科技 20
-      - 欧洲(Youtube频道：工具大师！)
-      - YouTube-阿伟科技
-      - 🇰🇷 YouTube-阿伟科技KR
-      - YouTube-阿伟科技 2
       - CYL-科技 21
-      - YouTube-阿伟科技 3
-      - YouTube-阿伟科技 4
+      - 🇰🇷 YouTube-阿伟科技KR
       - CYL-科技 22
       - CYL-科技 23
       - CYL-科技 24
@@ -498,17 +481,21 @@ proxy-groups:
       - CYL-科技 30
       - CYL-科技 31
       - CYL-科技 32
+      - 免费分享
       - CYL-科技 33
+      - 免费分享 2
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
+      - 免费分享 3
       - CYL-科技 37
-      - 免费分享
       - CYL-科技 38
+      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 39
       - CYL-科技 40
       - CYL-科技 41
       - CYL-科技 42
+      - 免费分享 4
       - CYL-科技 43
       - CYL-科技 44
       - CYL-科技 45
@@ -518,14 +505,6 @@ proxy-groups:
       - CYL-科技 49
       - CYL-科技 50
       - CYL-科技 51
-      - CYL-科技 52
-      - 欧洲(Youtube频道：工具大师！) 2
-      - CYL-科技 53
-      - CYL-科技 54
-      - 免费分享 2
-      - CYL-科技 55
-      - CYL-科技 56
-      - CYL-科技 57
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -542,14 +521,13 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - CYL-科技
-      - YouTube-阿伟科技jp
       - CYL-科技 2
       - CYL-科技 3
+      - 🇭🇰 YouTube-阿伟科技HK
       - CYL-科技 4
       - CYL-科技 5
       - CYL-科技 6
       - CYL-科技 7
-      - 🇭🇰 YouTube-阿伟科技HK
       - CYL-科技 8
       - CYL-科技 9
       - CYL-科技 10
@@ -557,20 +535,22 @@ proxy-groups:
       - CYL-科技 12
       - CYL-科技 13
       - CYL-科技 14
+      - YouTube-阿伟科技jp
       - CYL-科技 15
-      - 🇹🇭 TH_834
+      - YouTube-阿伟科技
+      - YouTube-阿伟科技 2
+      - YouTube-阿伟科技 3
       - CYL-科技 16
+      - YouTube-阿伟科技 4
+      - YouTube-阿伟科技 5
+      - YouTube-阿伟科技 6
       - CYL-科技 17
+      - 🇹🇭 TH_834
       - CYL-科技 18
       - CYL-科技 19
       - CYL-科技 20
-      - 欧洲(Youtube频道：工具大师！)
-      - YouTube-阿伟科技
-      - 🇰🇷 YouTube-阿伟科技KR
-      - YouTube-阿伟科技 2
       - CYL-科技 21
-      - YouTube-阿伟科技 3
-      - YouTube-阿伟科技 4
+      - 🇰🇷 YouTube-阿伟科技KR
       - CYL-科技 22
       - CYL-科技 23
       - CYL-科技 24
@@ -582,17 +562,21 @@ proxy-groups:
       - CYL-科技 30
       - CYL-科技 31
       - CYL-科技 32
+      - 免费分享
       - CYL-科技 33
+      - 免费分享 2
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
+      - 免费分享 3
       - CYL-科技 37
-      - 免费分享
       - CYL-科技 38
+      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 39
       - CYL-科技 40
       - CYL-科技 41
       - CYL-科技 42
+      - 免费分享 4
       - CYL-科技 43
       - CYL-科技 44
       - CYL-科技 45
@@ -602,14 +586,6 @@ proxy-groups:
       - CYL-科技 49
       - CYL-科技 50
       - CYL-科技 51
-      - CYL-科技 52
-      - 欧洲(Youtube频道：工具大师！) 2
-      - CYL-科技 53
-      - CYL-科技 54
-      - 免费分享 2
-      - CYL-科技 55
-      - CYL-科技 56
-      - CYL-科技 57
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
