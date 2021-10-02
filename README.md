@@ -5,207 +5,173 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: YouTube-阿伟科技, server: 61.14.210.232, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
-  - {name: YouTube-阿伟科技 2, server: 61.14.210.232, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇹🇭 泰国(Youtube频道：工具大师！), server: 27.131.164.94, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: YouTube-阿伟科技 3, server: 61.14.210.232, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 欧洲(Youtube频道：工具大师！), server: 5.253.207.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: YouTube-阿伟科技 4, server: 61.14.210.232, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: YouTube-阿伟科技 5, server: 61.14.210.232, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
-  - {name: CYL-科技, server: 154.17.2.111, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: ZCYFnKlyAu9jpO73aqAR4c3DaeCSOYzaSFlDEg83p6SRN52T0ZyXexw8I3CBDx}
-  - {name: CYL-科技 2, server: 154.17.2.130, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇭🇰 YouTube-阿伟科技HK, server: 118.107.244.113, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 欧洲(Youtube频道：工具大师！) 2, server: 139.155.22.227, port: 49110, type: vmess, uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d, alterId: 64, cipher: auto, tls: false}
-  - {name: CYL-科技 3, server: 154.17.2.8, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: CYL-科技 4, server: 193.108.118.79, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技 5, server: 154.17.2.13, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: CYL-科技 6, server: 193.108.118.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技 7, server: 154.17.2.50, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: ZeYOCKxB8uqjgpn36e8F4ClDCywR2YTFxDAZ57AyE3N9aDaaSOz3lI03pSRXcS}
-  - {name: CYL-科技 8, server: 66.115.177.141, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: a 24, server: 194.37.98.36, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: YouTube-阿伟科技 6, server: 61.14.210.232, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
-  - {name: CYL-科技 9, server: 193.108.118.79, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！), server: 134.195.196.97, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技 10, server: 154.17.5.142, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: CYL-科技 11, server: 193.108.118.2, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）, server: 84.39.114.86, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: CYL-科技 12, server: 193.108.118.2, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技 13, server: 37.120.233.253, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇺🇸 美国(Youtube频道：工具大师！), server: 167.88.63.82, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇩🇪 德国(Youtube频道：工具大师！), server: 86.106.136.93, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: CYL-科技 14, server: 134.195.196.79, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技 15, server: 134.195.196.154, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技 16, server: 185.166.84.81, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇸🇬 新加坡(Youtube频道：工具大师！), server: ping.qingcloud.net.cn, port: 80, type: vmess, uuid: 02246a03-6cdf-3f65-95c8-0685f8284236, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: m.sc.189.cn}}
-  - {name: YouTube-阿伟科技 7, server: 61.14.210.232, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: CYL-科技 17, server: 27.131.164.100, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: CYL-科技 18, server: 79.110.54.117, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: CYL-科技 19, server: 66.115.177.141, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: CYL-科技 20, server: 87.101.94.211, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
-  - {name: CYL-科技 21, server: 66.115.177.132, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: CYL-科技 22, server: 185.246.209.55, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: CYL-科技 23, server: 185.166.84.51, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
-  - {name: CYL-科技 24, server: 185.166.84.51, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇫🇷 sfzy888.com _🇫🇷FR_4100, server: 185.166.84.81, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
-  - {name: 🇫🇷 sfzy888.com _🇫🇷FR_4129, server: 185.166.84.51, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
-  - {name: CYL-科技 25, server: 27.131.164.100, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: CYL-科技 26, server: 134.195.196.79, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: YouTube-阿伟科技 8, server: 61.14.210.232, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: CYL-科技 27, server: 185.166.84.51, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: CYL-科技 28, server: 82.102.26.62, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: CYL-科技 29, server: 185.246.209.55, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: CYL-科技 30, server: 185.246.209.55, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: CYL-科技 31, server: 172.107.233.234, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 2, server: 143.244.57.118, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 欧洲(Youtube频道：工具大师！) 3, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技 32, server: 27.131.164.100, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: CYL-科技 33, server: 27.131.164.100, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: CYL-科技 34, server: 66.115.177.141, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: CYL-科技 35, server: 134.195.198.95, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技 36, server: 185.246.209.55, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: CYL-科技 37, server: 193.118.60.166, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技 38, server: 193.108.118.34, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技 39, server: 185.166.84.51, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: CYL-科技 40, server: 146.70.27.12, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇹🇭 泰国(Youtube频道：工具大师！) 2, server: 185.247.138.25, port: 15079, type: vmess, uuid: a1d846ec-9bef-4ffd-e34a-43bb06323ac3, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国(Youtube频道：工具大师！), server: 185.166.84.81, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 3, server: www.17080100.xyz, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: YouTube-阿伟科技 9, server: 61.14.210.232, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: YouTube-阿伟科技 10, server: 61.14.210.232, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
-  - {name: CYL-科技 41, server: 194.37.98.36, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: CYL-科技 42, server: 185.246.209.55, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: CYL-科技 43, server: 185.246.209.55, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: CYL-科技 44, server: 134.195.196.139, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技 45, server: 185.166.84.81, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: CYL-科技 46, server: 172.99.190.35, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 欧洲(Youtube频道：工具大师！) 4, server: 84.17.53.219, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: CYL-科技 47, server: 193.118.60.171, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技 48, server: 185.246.209.55, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: CYL-科技 49, server: 38.107.226.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇧🇪 BE_1257, server: 188.95.55.114, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: 🇫🇷 sfzy888.com _🇫🇷FR_4125, server: 185.166.84.51, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 🇬🇧 英国(Youtube频道：工具大师！), server: 193.118.60.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 罗马(Youtube频道：工具大师！), server: 79.110.54.117, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: CYL-科技 50, server: 27.131.164.100, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
-  - {name: CYL-科技 51, server: 27.131.164.100, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: CYL-科技 52, server: 27.131.164.100, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: CYL-科技 53, server: 27.131.164.100, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: CYL-科技 54, server: 27.131.164.100, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: CYL-科技 55, server: 27.131.164.100, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: CYL-科技 56, server: 185.166.84.51, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: CYL-科技 57, server: 185.166.84.51, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: CYL-科技 58, server: 38.39.192.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技 59, server: 193.118.60.167, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技 60, server: 51.77.53.200, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技 61, server: 188.95.55.120, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: CYL-科技 62, server: 66.115.177.141, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: YouTube-阿伟科技 11, server: 61.14.210.232, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: CYL-科技 63, server: 27.131.164.100, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: CYL-科技 64, server: 27.131.164.100, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: CYL-科技 65, server: 27.131.164.100, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇺🇸 阿伟科技-油管-美国, server: 89.238.130.227, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇧🇪 BE_1240, server: 188.95.55.114, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: YouTube-阿伟科技 12, server: 61.14.210.232, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
-  - {name: CYL-科技 66, server: 27.131.164.100, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
-  - {name: CYL-科技 67, server: 103.117.103.126, port: 18339, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: CYL-科技（一龙祝大家国庆快乐）, server: azure-f4s-hk.transfer-xray.tk, port: 52382, type: trojan, password: a54f2aba-20a5-4f0d-bd6e-43767b473c63, sni: azure-f4s-hk.transfer-xray.tk}
+  - {name: CYL-科技（一龙祝大家国庆快乐） 2, server: azure-f4s-hk.transfer-xray.tk, port: 52382, type: vmess, uuid: a54f2aba-20a5-4f0d-bd6e-43767b473c63, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/optvws?ed=2048", ws-headers: {Host: xu.mikahe.xyz}}
+  - {name: 🇺🇸 United States20, server: 154.17.2.137, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！), server: www.17080100.xyz, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: CYL-科技, server: 27.131.164.100, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: 🇺🇸 United States11, server: 154.17.1.130, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: 墨西哥(MX)Mexico, server: 104.17.129.121, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
-  - {name: CYL-科技 68, server: 66.115.177.141, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: CYL-科技 69, server: 185.246.209.55, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: CYL-科技 70, server: 188.95.55.114, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: CYL-科技 2, server: 107.173.157.168, port: 443, type: vmess, uuid: 4f6aa0c3-7be1-4eaa-a64c-a23418070422, alterId: 6, cipher: auto, tls: true, network: ws, ws-path: /b06fde1/, ws-headers: {Host: www.shunxin.ml}}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 2, server: 143.244.57.118, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: CYL-科技 3, server: 143.244.57.118, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 3, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
+  - {name: 🇩🇪 德国(Youtube频道：工具大师！), server: 86.106.136.93, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: CYL-科技 4, server: 154.17.2.130, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）, server: 84.39.114.86, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: CYL-科技 5, server: 193.108.118.2, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技 6, server: 143.244.57.118, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: CYL-科技 7, server: 66.115.177.141, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: CYL-科技 8, server: 193.108.118.2, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 欧洲(Youtube频道：工具大师！), server: 84.17.53.219, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: CYL-科技 9, server: 27.131.164.100, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: a 86, server: se.free-v2ray.tk, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: CYL-科技 10, server: www.shunxin.ml, port: 443, type: vmess, uuid: 4f6aa0c3-7be1-4eaa-a64c-a23418070422, alterId: 6, cipher: auto, tls: true, network: ws, ws-path: /b06fde1/, ws-headers: {Host: www.shunxin.ml}}
+  - {name: 🇺🇸 United States10, server: 154.17.2.19, port: 42200, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 United States4, server: 173.82.160.202, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: CYL-科技 11, server: 27.131.164.100, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: CYL-科技 12, server: 185.246.209.55, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: CYL-科技 13, server: 154.17.5.130, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: CYL-科技 14, server: 82.102.26.93, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: a 24, server: 194.37.98.36, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: CYL-科技 15, server: 37.120.233.253, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: CYL-科技 16, server: 194.37.98.36, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: CYL-科技 17, server: 5.253.207.51, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 United States18, server: 154.17.2.33, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇭🇰 YouTube-阿伟科技HK, server: 118.107.244.113, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技 18, server: 193.108.118.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技 19, server: 82.102.26.62, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: CYL-科技 20, server: 193.108.118.34, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技 21, server: 27.131.164.100, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: CYL-科技 22, server: 172.99.190.130, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技 23, server: 66.115.177.141, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: CYL-科技 24, server: 154.17.2.50, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: ZeYOCKxB8uqjgpn36e8F4ClDCywR2YTFxDAZ57AyE3N9aDaaSOz3lI03pSRXcS}
+  - {name: CYL-科技 25, server: 185.166.84.81, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: YouTube-阿伟科技, server: 61.14.210.232, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
+  - {name: YouTube-阿伟科技 2, server: 61.14.210.232, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: CYL-科技 26, server: 66.115.177.141, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: YouTube-阿伟科技 3, server: 61.14.210.232, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇫🇷 sfzy888.com _🇫🇷FR_4100, server: 185.166.84.81, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: CYL-科技 27, server: 185.166.84.51, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: CYL-科技 28, server: 27.131.164.100, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: CYL-科技 29, server: 143.244.57.118, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: CYL-科技 30, server: 154.17.5.142, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 罗马(Youtube频道：工具大师！), server: 79.110.54.117, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: CYL-科技 31, server: 193.29.107.123, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: CYL-科技 32, server: v5.coding996.com, port: 443, type: vmess, uuid: df3f4561-1cef-4d2f-8e88-2a1ec2a59369, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /baidu, ws-headers: {Host: v5.coding996.com}}
+  - {name: 🇺🇸 United States1, server: 173.82.160.186, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: CYL-科技 33, server: 66.115.177.141, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: CYL-科技 34, server: 193.108.118.2, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技 35, server: 66.115.177.136, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: CYL-科技 36, server: v3.coding996.com, port: 443, type: vmess, uuid: 6f458069-7752-45b6-bae8-ae8ddbd95b25, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /weixin, ws-headers: {Host: v3.coding996.com}}
+  - {name: YouTube-阿伟科技 4, server: 61.14.210.232, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: YouTube-阿伟科技 5, server: 61.14.210.232, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: CYL-科技 37, server: 188.95.55.120, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: CYL-科技 38, server: 167.88.63.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: YouTube-阿伟科技 6, server: 61.14.210.232, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: CYL-科技 39, server: 66.115.177.141, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: CYL-科技 40, server: 134.122.53.58, port: 1912, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 134.122.53.58}}
+  - {name: CYL-科技 41, server: 154.16.171.195, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: CYL-科技 42, server: 185.166.84.51, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: CYL-科技 43, server: 27.131.164.100, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇺🇸 United States2, server: 173.82.160.210, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: CYL-科技 44, server: 185.166.84.51, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: CYL-科技 45, server: 66.115.177.141, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 罗马(Youtube频道：工具大师！) 2, server: 86.106.137.147, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: CYL-科技 46, server: 193.118.60.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技 47, server: 38.39.192.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇬🇧 United Kingdom4, server: 154.17.6.237, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: CYL-科技 48, server: 172.99.190.246, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技 49, server: 86.106.137.147, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: CYL-科技 50, server: 66.115.177.141, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: CYL-科技 51, server: 146.70.27.12, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇹🇭 泰国(Youtube频道：工具大师！), server: 185.247.138.25, port: 15079, type: vmess, uuid: a1d846ec-9bef-4ffd-e34a-43bb06323ac3, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国(Youtube频道：工具大师！), server: 185.166.84.81, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
   - {name: 🇺🇸 美国(Youtube频道：工具大师！) 4, server: 66.115.177.141, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: CYL-科技 71, server: 27.131.164.94, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
-  - {name: CYL-科技 72, server: 27.131.164.100, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
-  - {name: CYL-科技 73, server: 27.131.164.100, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: CYL-科技 74, server: 27.131.164.100, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
-  - {name: CYL-科技 75, server: 27.131.164.100, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: CYL-科技 76, server: 27.131.164.100, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: CYL-科技 77, server: 79.110.54.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: CYL-科技 78, server: 148.72.169.209, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: CYL-科技 79, server: 185.166.84.51, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: CYL-科技 80, server: 89.45.7.51, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: CYL-科技 81, server: 193.29.107.123, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: CYL-科技 82, server: 188.95.55.120, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: CYL-科技 83, server: 188.95.55.120, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
-  - {name: 🇫🇷 sfzy888.com _🇫🇷FR_4117, server: 185.166.84.51, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
-  - {name: 🇫🇷 法国(Youtube频道：工具大师！) 2, server: 51.77.170.89, port: 3030, type: ss, cipher: chacha20-ietf-poly1305, password: 7FDvhjev93bs}
-  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 5, server: 144.172.118.47, port: 8888, type: vmess, uuid: 9e9f0f9b-bcaa-4421-9241-145343e1a465, alterId: 233, cipher: auto, tls: false}
-  - {name: YouTube-阿伟科技 13, server: 61.14.210.232, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
-  - {name: YouTube-阿伟科技 14, server: 61.14.210.232, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: CYL-科技 84, server: 154.17.2.82, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: aAAeCKFBD25jgCRSZlN34pCDaXwlOYzxc63x3R8TZYe8qS0an79SF3DEOyupyI}
-  - {name: CYL-科技 85, server: 79.110.54.117, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: CYL-科技 86, server: 185.166.84.51, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: CYL-科技 87, server: 143.244.57.118, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: CYL-科技 88, server: 154.17.24.167, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: CYL-科技 89, server: 66.115.177.141, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: CYL-科技 90, server: 188.95.55.114, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 罗马(Youtube频道：工具大师！) 2, server: 193.29.107.123, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: YouTube-阿伟科技 15, server: 61.14.210.232, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
-  - {name: CYL-科技 91, server: 27.131.164.100, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
-  - {name: CYL-科技 92, server: 5.253.207.51, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: CYL-科技 93, server: 134.195.196.154, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技 94, server: 154.17.28.59, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: CYL-科技 95, server: 154.17.28.57, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: CYL-科技 96, server: 154.17.31.175, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: CYL-科技 97, server: 185.166.84.51, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: 欧洲(Youtube频道：工具大师！) 5, server: 62.212.239.51, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: CYL-科技 98, server: 185.166.84.51, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
-  - {name: CYL-科技 99, server: 143.244.57.118, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: CYL-科技 100, server: 185.246.209.55, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 🇫🇷 sfzy888.com _🇫🇷FR_4146, server: 185.166.84.51, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 欧洲(Youtube频道：工具大师！) 6, server: 185.166.84.81, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: CYL-科技 101, server: 27.131.164.100, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: CYL-科技 102, server: 193.108.118.2, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技 103, server: 185.166.84.51, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: CYL-科技 104, server: 84.17.35.83, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: CYL-科技 105, server: 82.102.26.93, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: CYL-科技 106, server: 192.169.112.165, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技 107, server: 185.166.84.51, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: CYL-科技 108, server: 27.131.164.100, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: CYL-科技 109, server: 66.115.177.136, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: CYL-科技 110, server: 154.17.2.64, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: ZEYSaKlBZleNgF7n6e8O4y3DaD9SRpzCuSapRYjAXCxFxwcCq2T583ADI3yO30}
-  - {name: CYL-科技 111, server: 143.244.57.118, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇧🇪 sfzy888.com _🇧🇪BE_1286, server: 188.95.55.120, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: 罗马(Youtube频道：工具大师！) 3, server: 91.90.123.115, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: CYL-科技 52, server: 188.95.55.114, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: YouTube-阿伟科技 7, server: 61.14.210.232, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: CYL-科技 53, server: 185.246.209.55, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: CYL-科技 54, server: 185.166.84.51, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: CYL-科技 55, server: 172.99.190.35, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技 56, server: 27.131.164.100, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
+  - {name: CYL-科技 57, server: 27.131.164.100, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: CYL-科技 58, server: 89.45.7.51, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 罗马(Youtube频道：工具大师！) 3, server: 193.29.107.123, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: CYL-科技 59, server: 188.95.55.120, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: CYL-科技 60, server: 66.115.177.141, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: CYL-科技 61, server: 188.95.55.120, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: CYL-科技 62, server: 79.110.54.133, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: CYL-科技 63, server: 134.195.196.163, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技 64, server: 134.195.196.79, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: YouTube-阿伟科技 8, server: 61.14.210.232, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
+  - {name: CYL-科技 65, server: 185.166.84.51, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: CYL-科技 66, server: 188.95.55.114, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: CYL-科技 67, server: 66.115.177.141, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: CYL-科技 68, server: 185.247.138.25, port: 15079, type: vmess, uuid: a1d846ec-9bef-4ffd-e34a-43bb06323ac3, alterId: 64, cipher: auto, tls: false}
+  - {name: CYL-科技 69, server: 134.195.196.79, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: YouTube-阿伟科技 9, server: 61.14.210.232, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: CYL-科技 70, server: 27.131.164.100, port: 50225, type: ss, cipher: aes-256-gcm, password: J2M953QbkCvvzx3vYWdyBQ4K}
+  - {name: CYL-科技 71, server: 188.95.55.120, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: YouTube-阿伟科技 10, server: 61.14.210.232, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: CYL-科技 72, server: 66.115.177.141, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: CYL-科技 73, server: 66.115.177.143, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 欧洲(Youtube频道：工具大师！) 2, server: 5.253.207.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: CYL-科技 74, server: 154.17.2.111, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: ZCYFnKlyAu9jpO73aqAR4c3DaeCSOYzaSFlDEg83p6SRN52T0ZyXexw8I3CBDx}
+  - {name: CYL-科技 75, server: 154.17.2.13, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: CYL-科技 76, server: 154.17.2.64, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: ZEYSaKlBZleNgF7n6e8O4y3DaD9SRpzCuSapRYjAXCxFxwcCq2T583ADI3yO30}
+  - {name: CYL-科技 77, server: 154.17.2.141, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 5, server: 66.115.177.143, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: CYL-科技 78, server: 193.108.118.2, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技 79, server: 27.131.164.100, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 🇺🇸 US_17455, server: 143.244.57.118, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: CYL-科技 80, server: 185.166.84.51, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: CYL-科技 81, server: 193.118.60.171, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 阿伟科技-油管-美国, server: 89.238.130.227, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: CYL-科技 82, server: 188.95.55.114, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: CYL-科技 83, server: 66.115.177.141, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇰🇷 South Korea9, server: 154.17.31.177, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇯🇵 Japan15, server: 154.17.24.233, port: 18338, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: CYL-科技 84, server: 86.106.137.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - YouTube-阿伟科技
-      - YouTube-阿伟科技 2
-      - 🇹🇭 泰国(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 3
-      - 欧洲(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 4
-      - YouTube-阿伟科技 5
+      - CYL-科技（一龙祝大家国庆快乐）
+      - CYL-科技（一龙祝大家国庆快乐） 2
+      - 🇺🇸 United States20
+      - 🇺🇸 美国(Youtube频道：工具大师！)
       - CYL-科技
+      - 🇺🇸 United States11
+      - 墨西哥(MX)Mexico
       - CYL-科技 2
-      - 🇭🇰 YouTube-阿伟科技HK
-      - 欧洲(Youtube频道：工具大师！) 2
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
       - CYL-科技 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇩🇪 德国(Youtube频道：工具大师！)
       - CYL-科技 4
+      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 5
       - CYL-科技 6
       - CYL-科技 7
       - CYL-科技 8
-      - a 24
-      - YouTube-阿伟科技 6
+      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 9
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
+      - a 86
       - CYL-科技 10
+      - 🇺🇸 United States10
+      - 🇺🇸 United States4
       - CYL-科技 11
-      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 12
       - CYL-科技 13
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - 🇩🇪 德国(Youtube频道：工具大师！)
       - CYL-科技 14
+      - a 24
       - CYL-科技 15
       - CYL-科技 16
-      - 🇸🇬 新加坡(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 7
       - CYL-科技 17
+      - 🇺🇸 United States18
+      - 🇭🇰 YouTube-阿伟科技HK
       - CYL-科技 18
       - CYL-科技 19
       - CYL-科技 20
@@ -213,166 +179,132 @@ proxy-groups:
       - CYL-科技 22
       - CYL-科技 23
       - CYL-科技 24
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4100
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4129
       - CYL-科技 25
+      - YouTube-阿伟科技
+      - YouTube-阿伟科技 2
       - CYL-科技 26
-      - YouTube-阿伟科技 8
+      - YouTube-阿伟科技 3
+      - 🇫🇷 sfzy888.com _🇫🇷FR_4100
       - CYL-科技 27
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
+      - 罗马(Youtube频道：工具大师！)
       - CYL-科技 31
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
-      - 欧洲(Youtube频道：工具大师！) 3
       - CYL-科技 32
+      - 🇺🇸 United States1
       - CYL-科技 33
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
+      - YouTube-阿伟科技 4
+      - YouTube-阿伟科技 5
       - CYL-科技 37
       - CYL-科技 38
+      - YouTube-阿伟科技 6
       - CYL-科技 39
       - CYL-科技 40
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
-      - YouTube-阿伟科技 9
-      - YouTube-阿伟科技 10
       - CYL-科技 41
       - CYL-科技 42
       - CYL-科技 43
+      - 🇺🇸 United States2
       - CYL-科技 44
       - CYL-科技 45
+      - 罗马(Youtube频道：工具大师！) 2
       - CYL-科技 46
-      - 欧洲(Youtube频道：工具大师！) 4
       - CYL-科技 47
+      - 🇬🇧 United Kingdom4
       - CYL-科技 48
       - CYL-科技 49
-      - 🇧🇪 BE_1257
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4125
-      - 🇬🇧 英国(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！)
       - CYL-科技 50
       - CYL-科技 51
+      - 🇹🇭 泰国(Youtube频道：工具大师！)
+      - 🇫🇷 法国(Youtube频道：工具大师！)
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
       - CYL-科技 52
+      - YouTube-阿伟科技 7
       - CYL-科技 53
       - CYL-科技 54
       - CYL-科技 55
       - CYL-科技 56
       - CYL-科技 57
       - CYL-科技 58
+      - 罗马(Youtube频道：工具大师！) 3
       - CYL-科技 59
       - CYL-科技 60
       - CYL-科技 61
       - CYL-科技 62
-      - YouTube-阿伟科技 11
       - CYL-科技 63
       - CYL-科技 64
+      - YouTube-阿伟科技 8
       - CYL-科技 65
-      - 🇺🇸 阿伟科技-油管-美国
-      - 🇧🇪 BE_1240
-      - YouTube-阿伟科技 12
       - CYL-科技 66
       - CYL-科技 67
-      - 墨西哥(MX)Mexico
       - CYL-科技 68
       - CYL-科技 69
+      - YouTube-阿伟科技 9
       - CYL-科技 70
-      - 🇺🇸 美国(Youtube频道：工具大师！) 4
       - CYL-科技 71
+      - YouTube-阿伟科技 10
       - CYL-科技 72
       - CYL-科技 73
+      - 欧洲(Youtube频道：工具大师！) 2
       - CYL-科技 74
       - CYL-科技 75
       - CYL-科技 76
       - CYL-科技 77
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
       - CYL-科技 78
       - CYL-科技 79
+      - 🇺🇸 US_17455
       - CYL-科技 80
       - CYL-科技 81
+      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技 82
       - CYL-科技 83
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4117
-      - 🇫🇷 法国(Youtube频道：工具大师！) 2
-      - 🇺🇸 美国(Youtube频道：工具大师！) 5
-      - YouTube-阿伟科技 13
-      - YouTube-阿伟科技 14
+      - 🇰🇷 South Korea9
+      - 🇯🇵 Japan15
       - CYL-科技 84
-      - CYL-科技 85
-      - CYL-科技 86
-      - CYL-科技 87
-      - CYL-科技 88
-      - CYL-科技 89
-      - CYL-科技 90
-      - 罗马(Youtube频道：工具大师！) 2
-      - YouTube-阿伟科技 15
-      - CYL-科技 91
-      - CYL-科技 92
-      - CYL-科技 93
-      - CYL-科技 94
-      - CYL-科技 95
-      - CYL-科技 96
-      - CYL-科技 97
-      - 欧洲(Youtube频道：工具大师！) 5
-      - CYL-科技 98
-      - CYL-科技 99
-      - CYL-科技 100
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4146
-      - 欧洲(Youtube频道：工具大师！) 6
-      - CYL-科技 101
-      - CYL-科技 102
-      - CYL-科技 103
-      - CYL-科技 104
-      - CYL-科技 105
-      - CYL-科技 106
-      - CYL-科技 107
-      - CYL-科技 108
-      - CYL-科技 109
-      - CYL-科技 110
-      - CYL-科技 111
-      - 🇧🇪 sfzy888.com _🇧🇪BE_1286
-      - 罗马(Youtube频道：工具大师！) 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - YouTube-阿伟科技
-      - YouTube-阿伟科技 2
-      - 🇹🇭 泰国(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 3
-      - 欧洲(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 4
-      - YouTube-阿伟科技 5
+      - CYL-科技（一龙祝大家国庆快乐）
+      - CYL-科技（一龙祝大家国庆快乐） 2
+      - 🇺🇸 United States20
+      - 🇺🇸 美国(Youtube频道：工具大师！)
       - CYL-科技
+      - 🇺🇸 United States11
+      - 墨西哥(MX)Mexico
       - CYL-科技 2
-      - 🇭🇰 YouTube-阿伟科技HK
-      - 欧洲(Youtube频道：工具大师！) 2
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
       - CYL-科技 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇩🇪 德国(Youtube频道：工具大师！)
       - CYL-科技 4
+      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 5
       - CYL-科技 6
       - CYL-科技 7
       - CYL-科技 8
-      - a 24
-      - YouTube-阿伟科技 6
+      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 9
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
+      - a 86
       - CYL-科技 10
+      - 🇺🇸 United States10
+      - 🇺🇸 United States4
       - CYL-科技 11
-      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 12
       - CYL-科技 13
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - 🇩🇪 德国(Youtube频道：工具大师！)
       - CYL-科技 14
+      - a 24
       - CYL-科技 15
       - CYL-科技 16
-      - 🇸🇬 新加坡(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 7
       - CYL-科技 17
+      - 🇺🇸 United States18
+      - 🇭🇰 YouTube-阿伟科技HK
       - CYL-科技 18
       - CYL-科技 19
       - CYL-科技 20
@@ -380,166 +312,132 @@ proxy-groups:
       - CYL-科技 22
       - CYL-科技 23
       - CYL-科技 24
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4100
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4129
       - CYL-科技 25
+      - YouTube-阿伟科技
+      - YouTube-阿伟科技 2
       - CYL-科技 26
-      - YouTube-阿伟科技 8
+      - YouTube-阿伟科技 3
+      - 🇫🇷 sfzy888.com _🇫🇷FR_4100
       - CYL-科技 27
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
+      - 罗马(Youtube频道：工具大师！)
       - CYL-科技 31
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
-      - 欧洲(Youtube频道：工具大师！) 3
       - CYL-科技 32
+      - 🇺🇸 United States1
       - CYL-科技 33
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
+      - YouTube-阿伟科技 4
+      - YouTube-阿伟科技 5
       - CYL-科技 37
       - CYL-科技 38
+      - YouTube-阿伟科技 6
       - CYL-科技 39
       - CYL-科技 40
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
-      - YouTube-阿伟科技 9
-      - YouTube-阿伟科技 10
       - CYL-科技 41
       - CYL-科技 42
       - CYL-科技 43
+      - 🇺🇸 United States2
       - CYL-科技 44
       - CYL-科技 45
+      - 罗马(Youtube频道：工具大师！) 2
       - CYL-科技 46
-      - 欧洲(Youtube频道：工具大师！) 4
       - CYL-科技 47
+      - 🇬🇧 United Kingdom4
       - CYL-科技 48
       - CYL-科技 49
-      - 🇧🇪 BE_1257
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4125
-      - 🇬🇧 英国(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！)
       - CYL-科技 50
       - CYL-科技 51
+      - 🇹🇭 泰国(Youtube频道：工具大师！)
+      - 🇫🇷 法国(Youtube频道：工具大师！)
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
       - CYL-科技 52
+      - YouTube-阿伟科技 7
       - CYL-科技 53
       - CYL-科技 54
       - CYL-科技 55
       - CYL-科技 56
       - CYL-科技 57
       - CYL-科技 58
+      - 罗马(Youtube频道：工具大师！) 3
       - CYL-科技 59
       - CYL-科技 60
       - CYL-科技 61
       - CYL-科技 62
-      - YouTube-阿伟科技 11
       - CYL-科技 63
       - CYL-科技 64
+      - YouTube-阿伟科技 8
       - CYL-科技 65
-      - 🇺🇸 阿伟科技-油管-美国
-      - 🇧🇪 BE_1240
-      - YouTube-阿伟科技 12
       - CYL-科技 66
       - CYL-科技 67
-      - 墨西哥(MX)Mexico
       - CYL-科技 68
       - CYL-科技 69
+      - YouTube-阿伟科技 9
       - CYL-科技 70
-      - 🇺🇸 美国(Youtube频道：工具大师！) 4
       - CYL-科技 71
+      - YouTube-阿伟科技 10
       - CYL-科技 72
       - CYL-科技 73
+      - 欧洲(Youtube频道：工具大师！) 2
       - CYL-科技 74
       - CYL-科技 75
       - CYL-科技 76
       - CYL-科技 77
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
       - CYL-科技 78
       - CYL-科技 79
+      - 🇺🇸 US_17455
       - CYL-科技 80
       - CYL-科技 81
+      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技 82
       - CYL-科技 83
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4117
-      - 🇫🇷 法国(Youtube频道：工具大师！) 2
-      - 🇺🇸 美国(Youtube频道：工具大师！) 5
-      - YouTube-阿伟科技 13
-      - YouTube-阿伟科技 14
+      - 🇰🇷 South Korea9
+      - 🇯🇵 Japan15
       - CYL-科技 84
-      - CYL-科技 85
-      - CYL-科技 86
-      - CYL-科技 87
-      - CYL-科技 88
-      - CYL-科技 89
-      - CYL-科技 90
-      - 罗马(Youtube频道：工具大师！) 2
-      - YouTube-阿伟科技 15
-      - CYL-科技 91
-      - CYL-科技 92
-      - CYL-科技 93
-      - CYL-科技 94
-      - CYL-科技 95
-      - CYL-科技 96
-      - CYL-科技 97
-      - 欧洲(Youtube频道：工具大师！) 5
-      - CYL-科技 98
-      - CYL-科技 99
-      - CYL-科技 100
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4146
-      - 欧洲(Youtube频道：工具大师！) 6
-      - CYL-科技 101
-      - CYL-科技 102
-      - CYL-科技 103
-      - CYL-科技 104
-      - CYL-科技 105
-      - CYL-科技 106
-      - CYL-科技 107
-      - CYL-科技 108
-      - CYL-科技 109
-      - CYL-科技 110
-      - CYL-科技 111
-      - 🇧🇪 sfzy888.com _🇧🇪BE_1286
-      - 罗马(Youtube频道：工具大师！) 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube-阿伟科技
-      - YouTube-阿伟科技 2
-      - 🇹🇭 泰国(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 3
-      - 欧洲(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 4
-      - YouTube-阿伟科技 5
+      - CYL-科技（一龙祝大家国庆快乐）
+      - CYL-科技（一龙祝大家国庆快乐） 2
+      - 🇺🇸 United States20
+      - 🇺🇸 美国(Youtube频道：工具大师！)
       - CYL-科技
+      - 🇺🇸 United States11
+      - 墨西哥(MX)Mexico
       - CYL-科技 2
-      - 🇭🇰 YouTube-阿伟科技HK
-      - 欧洲(Youtube频道：工具大师！) 2
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
       - CYL-科技 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇩🇪 德国(Youtube频道：工具大师！)
       - CYL-科技 4
+      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 5
       - CYL-科技 6
       - CYL-科技 7
       - CYL-科技 8
-      - a 24
-      - YouTube-阿伟科技 6
+      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 9
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
+      - a 86
       - CYL-科技 10
+      - 🇺🇸 United States10
+      - 🇺🇸 United States4
       - CYL-科技 11
-      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 12
       - CYL-科技 13
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - 🇩🇪 德国(Youtube频道：工具大师！)
       - CYL-科技 14
+      - a 24
       - CYL-科技 15
       - CYL-科技 16
-      - 🇸🇬 新加坡(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 7
       - CYL-科技 17
+      - 🇺🇸 United States18
+      - 🇭🇰 YouTube-阿伟科技HK
       - CYL-科技 18
       - CYL-科技 19
       - CYL-科技 20
@@ -547,165 +445,131 @@ proxy-groups:
       - CYL-科技 22
       - CYL-科技 23
       - CYL-科技 24
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4100
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4129
       - CYL-科技 25
+      - YouTube-阿伟科技
+      - YouTube-阿伟科技 2
       - CYL-科技 26
-      - YouTube-阿伟科技 8
+      - YouTube-阿伟科技 3
+      - 🇫🇷 sfzy888.com _🇫🇷FR_4100
       - CYL-科技 27
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
+      - 罗马(Youtube频道：工具大师！)
       - CYL-科技 31
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
-      - 欧洲(Youtube频道：工具大师！) 3
       - CYL-科技 32
+      - 🇺🇸 United States1
       - CYL-科技 33
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
+      - YouTube-阿伟科技 4
+      - YouTube-阿伟科技 5
       - CYL-科技 37
       - CYL-科技 38
+      - YouTube-阿伟科技 6
       - CYL-科技 39
       - CYL-科技 40
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
-      - YouTube-阿伟科技 9
-      - YouTube-阿伟科技 10
       - CYL-科技 41
       - CYL-科技 42
       - CYL-科技 43
+      - 🇺🇸 United States2
       - CYL-科技 44
       - CYL-科技 45
+      - 罗马(Youtube频道：工具大师！) 2
       - CYL-科技 46
-      - 欧洲(Youtube频道：工具大师！) 4
       - CYL-科技 47
+      - 🇬🇧 United Kingdom4
       - CYL-科技 48
       - CYL-科技 49
-      - 🇧🇪 BE_1257
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4125
-      - 🇬🇧 英国(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！)
       - CYL-科技 50
       - CYL-科技 51
+      - 🇹🇭 泰国(Youtube频道：工具大师！)
+      - 🇫🇷 法国(Youtube频道：工具大师！)
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
       - CYL-科技 52
+      - YouTube-阿伟科技 7
       - CYL-科技 53
       - CYL-科技 54
       - CYL-科技 55
       - CYL-科技 56
       - CYL-科技 57
       - CYL-科技 58
+      - 罗马(Youtube频道：工具大师！) 3
       - CYL-科技 59
       - CYL-科技 60
       - CYL-科技 61
       - CYL-科技 62
-      - YouTube-阿伟科技 11
       - CYL-科技 63
       - CYL-科技 64
+      - YouTube-阿伟科技 8
       - CYL-科技 65
-      - 🇺🇸 阿伟科技-油管-美国
-      - 🇧🇪 BE_1240
-      - YouTube-阿伟科技 12
       - CYL-科技 66
       - CYL-科技 67
-      - 墨西哥(MX)Mexico
       - CYL-科技 68
       - CYL-科技 69
+      - YouTube-阿伟科技 9
       - CYL-科技 70
-      - 🇺🇸 美国(Youtube频道：工具大师！) 4
       - CYL-科技 71
+      - YouTube-阿伟科技 10
       - CYL-科技 72
       - CYL-科技 73
+      - 欧洲(Youtube频道：工具大师！) 2
       - CYL-科技 74
       - CYL-科技 75
       - CYL-科技 76
       - CYL-科技 77
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
       - CYL-科技 78
       - CYL-科技 79
+      - 🇺🇸 US_17455
       - CYL-科技 80
       - CYL-科技 81
+      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技 82
       - CYL-科技 83
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4117
-      - 🇫🇷 法国(Youtube频道：工具大师！) 2
-      - 🇺🇸 美国(Youtube频道：工具大师！) 5
-      - YouTube-阿伟科技 13
-      - YouTube-阿伟科技 14
+      - 🇰🇷 South Korea9
+      - 🇯🇵 Japan15
       - CYL-科技 84
-      - CYL-科技 85
-      - CYL-科技 86
-      - CYL-科技 87
-      - CYL-科技 88
-      - CYL-科技 89
-      - CYL-科技 90
-      - 罗马(Youtube频道：工具大师！) 2
-      - YouTube-阿伟科技 15
-      - CYL-科技 91
-      - CYL-科技 92
-      - CYL-科技 93
-      - CYL-科技 94
-      - CYL-科技 95
-      - CYL-科技 96
-      - CYL-科技 97
-      - 欧洲(Youtube频道：工具大师！) 5
-      - CYL-科技 98
-      - CYL-科技 99
-      - CYL-科技 100
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4146
-      - 欧洲(Youtube频道：工具大师！) 6
-      - CYL-科技 101
-      - CYL-科技 102
-      - CYL-科技 103
-      - CYL-科技 104
-      - CYL-科技 105
-      - CYL-科技 106
-      - CYL-科技 107
-      - CYL-科技 108
-      - CYL-科技 109
-      - CYL-科技 110
-      - CYL-科技 111
-      - 🇧🇪 sfzy888.com _🇧🇪BE_1286
-      - 罗马(Youtube频道：工具大师！) 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - YouTube-阿伟科技
-      - YouTube-阿伟科技 2
-      - 🇹🇭 泰国(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 3
-      - 欧洲(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 4
-      - YouTube-阿伟科技 5
+      - CYL-科技（一龙祝大家国庆快乐）
+      - CYL-科技（一龙祝大家国庆快乐） 2
+      - 🇺🇸 United States20
+      - 🇺🇸 美国(Youtube频道：工具大师！)
       - CYL-科技
+      - 🇺🇸 United States11
+      - 墨西哥(MX)Mexico
       - CYL-科技 2
-      - 🇭🇰 YouTube-阿伟科技HK
-      - 欧洲(Youtube频道：工具大师！) 2
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
       - CYL-科技 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇩🇪 德国(Youtube频道：工具大师！)
       - CYL-科技 4
+      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 5
       - CYL-科技 6
       - CYL-科技 7
       - CYL-科技 8
-      - a 24
-      - YouTube-阿伟科技 6
+      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 9
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
+      - a 86
       - CYL-科技 10
+      - 🇺🇸 United States10
+      - 🇺🇸 United States4
       - CYL-科技 11
-      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 12
       - CYL-科技 13
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - 🇩🇪 德国(Youtube频道：工具大师！)
       - CYL-科技 14
+      - a 24
       - CYL-科技 15
       - CYL-科技 16
-      - 🇸🇬 新加坡(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 7
       - CYL-科技 17
+      - 🇺🇸 United States18
+      - 🇭🇰 YouTube-阿伟科技HK
       - CYL-科技 18
       - CYL-科技 19
       - CYL-科技 20
@@ -713,165 +577,131 @@ proxy-groups:
       - CYL-科技 22
       - CYL-科技 23
       - CYL-科技 24
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4100
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4129
       - CYL-科技 25
+      - YouTube-阿伟科技
+      - YouTube-阿伟科技 2
       - CYL-科技 26
-      - YouTube-阿伟科技 8
+      - YouTube-阿伟科技 3
+      - 🇫🇷 sfzy888.com _🇫🇷FR_4100
       - CYL-科技 27
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
+      - 罗马(Youtube频道：工具大师！)
       - CYL-科技 31
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
-      - 欧洲(Youtube频道：工具大师！) 3
       - CYL-科技 32
+      - 🇺🇸 United States1
       - CYL-科技 33
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
+      - YouTube-阿伟科技 4
+      - YouTube-阿伟科技 5
       - CYL-科技 37
       - CYL-科技 38
+      - YouTube-阿伟科技 6
       - CYL-科技 39
       - CYL-科技 40
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
-      - YouTube-阿伟科技 9
-      - YouTube-阿伟科技 10
       - CYL-科技 41
       - CYL-科技 42
       - CYL-科技 43
+      - 🇺🇸 United States2
       - CYL-科技 44
       - CYL-科技 45
+      - 罗马(Youtube频道：工具大师！) 2
       - CYL-科技 46
-      - 欧洲(Youtube频道：工具大师！) 4
       - CYL-科技 47
+      - 🇬🇧 United Kingdom4
       - CYL-科技 48
       - CYL-科技 49
-      - 🇧🇪 BE_1257
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4125
-      - 🇬🇧 英国(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！)
       - CYL-科技 50
       - CYL-科技 51
+      - 🇹🇭 泰国(Youtube频道：工具大师！)
+      - 🇫🇷 法国(Youtube频道：工具大师！)
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
       - CYL-科技 52
+      - YouTube-阿伟科技 7
       - CYL-科技 53
       - CYL-科技 54
       - CYL-科技 55
       - CYL-科技 56
       - CYL-科技 57
       - CYL-科技 58
+      - 罗马(Youtube频道：工具大师！) 3
       - CYL-科技 59
       - CYL-科技 60
       - CYL-科技 61
       - CYL-科技 62
-      - YouTube-阿伟科技 11
       - CYL-科技 63
       - CYL-科技 64
+      - YouTube-阿伟科技 8
       - CYL-科技 65
-      - 🇺🇸 阿伟科技-油管-美国
-      - 🇧🇪 BE_1240
-      - YouTube-阿伟科技 12
       - CYL-科技 66
       - CYL-科技 67
-      - 墨西哥(MX)Mexico
       - CYL-科技 68
       - CYL-科技 69
+      - YouTube-阿伟科技 9
       - CYL-科技 70
-      - 🇺🇸 美国(Youtube频道：工具大师！) 4
       - CYL-科技 71
+      - YouTube-阿伟科技 10
       - CYL-科技 72
       - CYL-科技 73
+      - 欧洲(Youtube频道：工具大师！) 2
       - CYL-科技 74
       - CYL-科技 75
       - CYL-科技 76
       - CYL-科技 77
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
       - CYL-科技 78
       - CYL-科技 79
+      - 🇺🇸 US_17455
       - CYL-科技 80
       - CYL-科技 81
+      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技 82
       - CYL-科技 83
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4117
-      - 🇫🇷 法国(Youtube频道：工具大师！) 2
-      - 🇺🇸 美国(Youtube频道：工具大师！) 5
-      - YouTube-阿伟科技 13
-      - YouTube-阿伟科技 14
+      - 🇰🇷 South Korea9
+      - 🇯🇵 Japan15
       - CYL-科技 84
-      - CYL-科技 85
-      - CYL-科技 86
-      - CYL-科技 87
-      - CYL-科技 88
-      - CYL-科技 89
-      - CYL-科技 90
-      - 罗马(Youtube频道：工具大师！) 2
-      - YouTube-阿伟科技 15
-      - CYL-科技 91
-      - CYL-科技 92
-      - CYL-科技 93
-      - CYL-科技 94
-      - CYL-科技 95
-      - CYL-科技 96
-      - CYL-科技 97
-      - 欧洲(Youtube频道：工具大师！) 5
-      - CYL-科技 98
-      - CYL-科技 99
-      - CYL-科技 100
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4146
-      - 欧洲(Youtube频道：工具大师！) 6
-      - CYL-科技 101
-      - CYL-科技 102
-      - CYL-科技 103
-      - CYL-科技 104
-      - CYL-科技 105
-      - CYL-科技 106
-      - CYL-科技 107
-      - CYL-科技 108
-      - CYL-科技 109
-      - CYL-科技 110
-      - CYL-科技 111
-      - 🇧🇪 sfzy888.com _🇧🇪BE_1286
-      - 罗马(Youtube频道：工具大师！) 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - YouTube-阿伟科技
-      - YouTube-阿伟科技 2
-      - 🇹🇭 泰国(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 3
-      - 欧洲(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 4
-      - YouTube-阿伟科技 5
+      - CYL-科技（一龙祝大家国庆快乐）
+      - CYL-科技（一龙祝大家国庆快乐） 2
+      - 🇺🇸 United States20
+      - 🇺🇸 美国(Youtube频道：工具大师！)
       - CYL-科技
+      - 🇺🇸 United States11
+      - 墨西哥(MX)Mexico
       - CYL-科技 2
-      - 🇭🇰 YouTube-阿伟科技HK
-      - 欧洲(Youtube频道：工具大师！) 2
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
       - CYL-科技 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇩🇪 德国(Youtube频道：工具大师！)
       - CYL-科技 4
+      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 5
       - CYL-科技 6
       - CYL-科技 7
       - CYL-科技 8
-      - a 24
-      - YouTube-阿伟科技 6
+      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 9
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
+      - a 86
       - CYL-科技 10
+      - 🇺🇸 United States10
+      - 🇺🇸 United States4
       - CYL-科技 11
-      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 12
       - CYL-科技 13
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - 🇩🇪 德国(Youtube频道：工具大师！)
       - CYL-科技 14
+      - a 24
       - CYL-科技 15
       - CYL-科技 16
-      - 🇸🇬 新加坡(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 7
       - CYL-科技 17
+      - 🇺🇸 United States18
+      - 🇭🇰 YouTube-阿伟科技HK
       - CYL-科技 18
       - CYL-科技 19
       - CYL-科技 20
@@ -879,165 +709,131 @@ proxy-groups:
       - CYL-科技 22
       - CYL-科技 23
       - CYL-科技 24
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4100
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4129
       - CYL-科技 25
+      - YouTube-阿伟科技
+      - YouTube-阿伟科技 2
       - CYL-科技 26
-      - YouTube-阿伟科技 8
+      - YouTube-阿伟科技 3
+      - 🇫🇷 sfzy888.com _🇫🇷FR_4100
       - CYL-科技 27
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
+      - 罗马(Youtube频道：工具大师！)
       - CYL-科技 31
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
-      - 欧洲(Youtube频道：工具大师！) 3
       - CYL-科技 32
+      - 🇺🇸 United States1
       - CYL-科技 33
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
+      - YouTube-阿伟科技 4
+      - YouTube-阿伟科技 5
       - CYL-科技 37
       - CYL-科技 38
+      - YouTube-阿伟科技 6
       - CYL-科技 39
       - CYL-科技 40
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
-      - YouTube-阿伟科技 9
-      - YouTube-阿伟科技 10
       - CYL-科技 41
       - CYL-科技 42
       - CYL-科技 43
+      - 🇺🇸 United States2
       - CYL-科技 44
       - CYL-科技 45
+      - 罗马(Youtube频道：工具大师！) 2
       - CYL-科技 46
-      - 欧洲(Youtube频道：工具大师！) 4
       - CYL-科技 47
+      - 🇬🇧 United Kingdom4
       - CYL-科技 48
       - CYL-科技 49
-      - 🇧🇪 BE_1257
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4125
-      - 🇬🇧 英国(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！)
       - CYL-科技 50
       - CYL-科技 51
+      - 🇹🇭 泰国(Youtube频道：工具大师！)
+      - 🇫🇷 法国(Youtube频道：工具大师！)
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
       - CYL-科技 52
+      - YouTube-阿伟科技 7
       - CYL-科技 53
       - CYL-科技 54
       - CYL-科技 55
       - CYL-科技 56
       - CYL-科技 57
       - CYL-科技 58
+      - 罗马(Youtube频道：工具大师！) 3
       - CYL-科技 59
       - CYL-科技 60
       - CYL-科技 61
       - CYL-科技 62
-      - YouTube-阿伟科技 11
       - CYL-科技 63
       - CYL-科技 64
+      - YouTube-阿伟科技 8
       - CYL-科技 65
-      - 🇺🇸 阿伟科技-油管-美国
-      - 🇧🇪 BE_1240
-      - YouTube-阿伟科技 12
       - CYL-科技 66
       - CYL-科技 67
-      - 墨西哥(MX)Mexico
       - CYL-科技 68
       - CYL-科技 69
+      - YouTube-阿伟科技 9
       - CYL-科技 70
-      - 🇺🇸 美国(Youtube频道：工具大师！) 4
       - CYL-科技 71
+      - YouTube-阿伟科技 10
       - CYL-科技 72
       - CYL-科技 73
+      - 欧洲(Youtube频道：工具大师！) 2
       - CYL-科技 74
       - CYL-科技 75
       - CYL-科技 76
       - CYL-科技 77
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
       - CYL-科技 78
       - CYL-科技 79
+      - 🇺🇸 US_17455
       - CYL-科技 80
       - CYL-科技 81
+      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技 82
       - CYL-科技 83
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4117
-      - 🇫🇷 法国(Youtube频道：工具大师！) 2
-      - 🇺🇸 美国(Youtube频道：工具大师！) 5
-      - YouTube-阿伟科技 13
-      - YouTube-阿伟科技 14
+      - 🇰🇷 South Korea9
+      - 🇯🇵 Japan15
       - CYL-科技 84
-      - CYL-科技 85
-      - CYL-科技 86
-      - CYL-科技 87
-      - CYL-科技 88
-      - CYL-科技 89
-      - CYL-科技 90
-      - 罗马(Youtube频道：工具大师！) 2
-      - YouTube-阿伟科技 15
-      - CYL-科技 91
-      - CYL-科技 92
-      - CYL-科技 93
-      - CYL-科技 94
-      - CYL-科技 95
-      - CYL-科技 96
-      - CYL-科技 97
-      - 欧洲(Youtube频道：工具大师！) 5
-      - CYL-科技 98
-      - CYL-科技 99
-      - CYL-科技 100
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4146
-      - 欧洲(Youtube频道：工具大师！) 6
-      - CYL-科技 101
-      - CYL-科技 102
-      - CYL-科技 103
-      - CYL-科技 104
-      - CYL-科技 105
-      - CYL-科技 106
-      - CYL-科技 107
-      - CYL-科技 108
-      - CYL-科技 109
-      - CYL-科技 110
-      - CYL-科技 111
-      - 🇧🇪 sfzy888.com _🇧🇪BE_1286
-      - 罗马(Youtube频道：工具大师！) 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - YouTube-阿伟科技
-      - YouTube-阿伟科技 2
-      - 🇹🇭 泰国(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 3
-      - 欧洲(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 4
-      - YouTube-阿伟科技 5
+      - CYL-科技（一龙祝大家国庆快乐）
+      - CYL-科技（一龙祝大家国庆快乐） 2
+      - 🇺🇸 United States20
+      - 🇺🇸 美国(Youtube频道：工具大师！)
       - CYL-科技
+      - 🇺🇸 United States11
+      - 墨西哥(MX)Mexico
       - CYL-科技 2
-      - 🇭🇰 YouTube-阿伟科技HK
-      - 欧洲(Youtube频道：工具大师！) 2
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
       - CYL-科技 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇩🇪 德国(Youtube频道：工具大师！)
       - CYL-科技 4
+      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 5
       - CYL-科技 6
       - CYL-科技 7
       - CYL-科技 8
-      - a 24
-      - YouTube-阿伟科技 6
+      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 9
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
+      - a 86
       - CYL-科技 10
+      - 🇺🇸 United States10
+      - 🇺🇸 United States4
       - CYL-科技 11
-      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 12
       - CYL-科技 13
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - 🇩🇪 德国(Youtube频道：工具大师！)
       - CYL-科技 14
+      - a 24
       - CYL-科技 15
       - CYL-科技 16
-      - 🇸🇬 新加坡(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 7
       - CYL-科技 17
+      - 🇺🇸 United States18
+      - 🇭🇰 YouTube-阿伟科技HK
       - CYL-科技 18
       - CYL-科技 19
       - CYL-科技 20
@@ -1045,166 +841,132 @@ proxy-groups:
       - CYL-科技 22
       - CYL-科技 23
       - CYL-科技 24
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4100
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4129
       - CYL-科技 25
+      - YouTube-阿伟科技
+      - YouTube-阿伟科技 2
       - CYL-科技 26
-      - YouTube-阿伟科技 8
+      - YouTube-阿伟科技 3
+      - 🇫🇷 sfzy888.com _🇫🇷FR_4100
       - CYL-科技 27
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
+      - 罗马(Youtube频道：工具大师！)
       - CYL-科技 31
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
-      - 欧洲(Youtube频道：工具大师！) 3
       - CYL-科技 32
+      - 🇺🇸 United States1
       - CYL-科技 33
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
+      - YouTube-阿伟科技 4
+      - YouTube-阿伟科技 5
       - CYL-科技 37
       - CYL-科技 38
+      - YouTube-阿伟科技 6
       - CYL-科技 39
       - CYL-科技 40
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
-      - YouTube-阿伟科技 9
-      - YouTube-阿伟科技 10
       - CYL-科技 41
       - CYL-科技 42
       - CYL-科技 43
+      - 🇺🇸 United States2
       - CYL-科技 44
       - CYL-科技 45
+      - 罗马(Youtube频道：工具大师！) 2
       - CYL-科技 46
-      - 欧洲(Youtube频道：工具大师！) 4
       - CYL-科技 47
+      - 🇬🇧 United Kingdom4
       - CYL-科技 48
       - CYL-科技 49
-      - 🇧🇪 BE_1257
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4125
-      - 🇬🇧 英国(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！)
       - CYL-科技 50
       - CYL-科技 51
+      - 🇹🇭 泰国(Youtube频道：工具大师！)
+      - 🇫🇷 法国(Youtube频道：工具大师！)
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
       - CYL-科技 52
+      - YouTube-阿伟科技 7
       - CYL-科技 53
       - CYL-科技 54
       - CYL-科技 55
       - CYL-科技 56
       - CYL-科技 57
       - CYL-科技 58
+      - 罗马(Youtube频道：工具大师！) 3
       - CYL-科技 59
       - CYL-科技 60
       - CYL-科技 61
       - CYL-科技 62
-      - YouTube-阿伟科技 11
       - CYL-科技 63
       - CYL-科技 64
+      - YouTube-阿伟科技 8
       - CYL-科技 65
-      - 🇺🇸 阿伟科技-油管-美国
-      - 🇧🇪 BE_1240
-      - YouTube-阿伟科技 12
       - CYL-科技 66
       - CYL-科技 67
-      - 墨西哥(MX)Mexico
       - CYL-科技 68
       - CYL-科技 69
+      - YouTube-阿伟科技 9
       - CYL-科技 70
-      - 🇺🇸 美国(Youtube频道：工具大师！) 4
       - CYL-科技 71
+      - YouTube-阿伟科技 10
       - CYL-科技 72
       - CYL-科技 73
+      - 欧洲(Youtube频道：工具大师！) 2
       - CYL-科技 74
       - CYL-科技 75
       - CYL-科技 76
       - CYL-科技 77
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
       - CYL-科技 78
       - CYL-科技 79
+      - 🇺🇸 US_17455
       - CYL-科技 80
       - CYL-科技 81
+      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技 82
       - CYL-科技 83
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4117
-      - 🇫🇷 法国(Youtube频道：工具大师！) 2
-      - 🇺🇸 美国(Youtube频道：工具大师！) 5
-      - YouTube-阿伟科技 13
-      - YouTube-阿伟科技 14
+      - 🇰🇷 South Korea9
+      - 🇯🇵 Japan15
       - CYL-科技 84
-      - CYL-科技 85
-      - CYL-科技 86
-      - CYL-科技 87
-      - CYL-科技 88
-      - CYL-科技 89
-      - CYL-科技 90
-      - 罗马(Youtube频道：工具大师！) 2
-      - YouTube-阿伟科技 15
-      - CYL-科技 91
-      - CYL-科技 92
-      - CYL-科技 93
-      - CYL-科技 94
-      - CYL-科技 95
-      - CYL-科技 96
-      - CYL-科技 97
-      - 欧洲(Youtube频道：工具大师！) 5
-      - CYL-科技 98
-      - CYL-科技 99
-      - CYL-科技 100
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4146
-      - 欧洲(Youtube频道：工具大师！) 6
-      - CYL-科技 101
-      - CYL-科技 102
-      - CYL-科技 103
-      - CYL-科技 104
-      - CYL-科技 105
-      - CYL-科技 106
-      - CYL-科技 107
-      - CYL-科技 108
-      - CYL-科技 109
-      - CYL-科技 110
-      - CYL-科技 111
-      - 🇧🇪 sfzy888.com _🇧🇪BE_1286
-      - 罗马(Youtube频道：工具大师！) 3
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YouTube-阿伟科技
-      - YouTube-阿伟科技 2
-      - 🇹🇭 泰国(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 3
-      - 欧洲(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 4
-      - YouTube-阿伟科技 5
+      - CYL-科技（一龙祝大家国庆快乐）
+      - CYL-科技（一龙祝大家国庆快乐） 2
+      - 🇺🇸 United States20
+      - 🇺🇸 美国(Youtube频道：工具大师！)
       - CYL-科技
+      - 🇺🇸 United States11
+      - 墨西哥(MX)Mexico
       - CYL-科技 2
-      - 🇭🇰 YouTube-阿伟科技HK
-      - 欧洲(Youtube频道：工具大师！) 2
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
       - CYL-科技 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇩🇪 德国(Youtube频道：工具大师！)
       - CYL-科技 4
+      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 5
       - CYL-科技 6
       - CYL-科技 7
       - CYL-科技 8
-      - a 24
-      - YouTube-阿伟科技 6
+      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 9
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
+      - a 86
       - CYL-科技 10
+      - 🇺🇸 United States10
+      - 🇺🇸 United States4
       - CYL-科技 11
-      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 12
       - CYL-科技 13
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - 🇩🇪 德国(Youtube频道：工具大师！)
       - CYL-科技 14
+      - a 24
       - CYL-科技 15
       - CYL-科技 16
-      - 🇸🇬 新加坡(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 7
       - CYL-科技 17
+      - 🇺🇸 United States18
+      - 🇭🇰 YouTube-阿伟科技HK
       - CYL-科技 18
       - CYL-科技 19
       - CYL-科技 20
@@ -1212,126 +974,92 @@ proxy-groups:
       - CYL-科技 22
       - CYL-科技 23
       - CYL-科技 24
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4100
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4129
       - CYL-科技 25
+      - YouTube-阿伟科技
+      - YouTube-阿伟科技 2
       - CYL-科技 26
-      - YouTube-阿伟科技 8
+      - YouTube-阿伟科技 3
+      - 🇫🇷 sfzy888.com _🇫🇷FR_4100
       - CYL-科技 27
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
+      - 罗马(Youtube频道：工具大师！)
       - CYL-科技 31
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
-      - 欧洲(Youtube频道：工具大师！) 3
       - CYL-科技 32
+      - 🇺🇸 United States1
       - CYL-科技 33
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
+      - YouTube-阿伟科技 4
+      - YouTube-阿伟科技 5
       - CYL-科技 37
       - CYL-科技 38
+      - YouTube-阿伟科技 6
       - CYL-科技 39
       - CYL-科技 40
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
-      - YouTube-阿伟科技 9
-      - YouTube-阿伟科技 10
       - CYL-科技 41
       - CYL-科技 42
       - CYL-科技 43
+      - 🇺🇸 United States2
       - CYL-科技 44
       - CYL-科技 45
+      - 罗马(Youtube频道：工具大师！) 2
       - CYL-科技 46
-      - 欧洲(Youtube频道：工具大师！) 4
       - CYL-科技 47
+      - 🇬🇧 United Kingdom4
       - CYL-科技 48
       - CYL-科技 49
-      - 🇧🇪 BE_1257
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4125
-      - 🇬🇧 英国(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！)
       - CYL-科技 50
       - CYL-科技 51
+      - 🇹🇭 泰国(Youtube频道：工具大师！)
+      - 🇫🇷 法国(Youtube频道：工具大师！)
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
       - CYL-科技 52
+      - YouTube-阿伟科技 7
       - CYL-科技 53
       - CYL-科技 54
       - CYL-科技 55
       - CYL-科技 56
       - CYL-科技 57
       - CYL-科技 58
+      - 罗马(Youtube频道：工具大师！) 3
       - CYL-科技 59
       - CYL-科技 60
       - CYL-科技 61
       - CYL-科技 62
-      - YouTube-阿伟科技 11
       - CYL-科技 63
       - CYL-科技 64
+      - YouTube-阿伟科技 8
       - CYL-科技 65
-      - 🇺🇸 阿伟科技-油管-美国
-      - 🇧🇪 BE_1240
-      - YouTube-阿伟科技 12
       - CYL-科技 66
       - CYL-科技 67
-      - 墨西哥(MX)Mexico
       - CYL-科技 68
       - CYL-科技 69
+      - YouTube-阿伟科技 9
       - CYL-科技 70
-      - 🇺🇸 美国(Youtube频道：工具大师！) 4
       - CYL-科技 71
+      - YouTube-阿伟科技 10
       - CYL-科技 72
       - CYL-科技 73
+      - 欧洲(Youtube频道：工具大师！) 2
       - CYL-科技 74
       - CYL-科技 75
       - CYL-科技 76
       - CYL-科技 77
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
       - CYL-科技 78
       - CYL-科技 79
+      - 🇺🇸 US_17455
       - CYL-科技 80
       - CYL-科技 81
+      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技 82
       - CYL-科技 83
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4117
-      - 🇫🇷 法国(Youtube频道：工具大师！) 2
-      - 🇺🇸 美国(Youtube频道：工具大师！) 5
-      - YouTube-阿伟科技 13
-      - YouTube-阿伟科技 14
+      - 🇰🇷 South Korea9
+      - 🇯🇵 Japan15
       - CYL-科技 84
-      - CYL-科技 85
-      - CYL-科技 86
-      - CYL-科技 87
-      - CYL-科技 88
-      - CYL-科技 89
-      - CYL-科技 90
-      - 罗马(Youtube频道：工具大师！) 2
-      - YouTube-阿伟科技 15
-      - CYL-科技 91
-      - CYL-科技 92
-      - CYL-科技 93
-      - CYL-科技 94
-      - CYL-科技 95
-      - CYL-科技 96
-      - CYL-科技 97
-      - 欧洲(Youtube频道：工具大师！) 5
-      - CYL-科技 98
-      - CYL-科技 99
-      - CYL-科技 100
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4146
-      - 欧洲(Youtube频道：工具大师！) 6
-      - CYL-科技 101
-      - CYL-科技 102
-      - CYL-科技 103
-      - CYL-科技 104
-      - CYL-科技 105
-      - CYL-科技 106
-      - CYL-科技 107
-      - CYL-科技 108
-      - CYL-科技 109
-      - CYL-科技 110
-      - CYL-科技 111
-      - 🇧🇪 sfzy888.com _🇧🇪BE_1286
-      - 罗马(Youtube频道：工具大师！) 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1354,40 +1082,40 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YouTube-阿伟科技
-      - YouTube-阿伟科技 2
-      - 🇹🇭 泰国(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 3
-      - 欧洲(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 4
-      - YouTube-阿伟科技 5
+      - CYL-科技（一龙祝大家国庆快乐）
+      - CYL-科技（一龙祝大家国庆快乐） 2
+      - 🇺🇸 United States20
+      - 🇺🇸 美国(Youtube频道：工具大师！)
       - CYL-科技
+      - 🇺🇸 United States11
+      - 墨西哥(MX)Mexico
       - CYL-科技 2
-      - 🇭🇰 YouTube-阿伟科技HK
-      - 欧洲(Youtube频道：工具大师！) 2
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
       - CYL-科技 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇩🇪 德国(Youtube频道：工具大师！)
       - CYL-科技 4
+      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 5
       - CYL-科技 6
       - CYL-科技 7
       - CYL-科技 8
-      - a 24
-      - YouTube-阿伟科技 6
+      - 欧洲(Youtube频道：工具大师！)
       - CYL-科技 9
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
+      - a 86
       - CYL-科技 10
+      - 🇺🇸 United States10
+      - 🇺🇸 United States4
       - CYL-科技 11
-      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 12
       - CYL-科技 13
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - 🇩🇪 德国(Youtube频道：工具大师！)
       - CYL-科技 14
+      - a 24
       - CYL-科技 15
       - CYL-科技 16
-      - 🇸🇬 新加坡(Youtube频道：工具大师！)
-      - YouTube-阿伟科技 7
       - CYL-科技 17
+      - 🇺🇸 United States18
+      - 🇭🇰 YouTube-阿伟科技HK
       - CYL-科技 18
       - CYL-科技 19
       - CYL-科技 20
@@ -1395,126 +1123,92 @@ proxy-groups:
       - CYL-科技 22
       - CYL-科技 23
       - CYL-科技 24
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4100
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4129
       - CYL-科技 25
+      - YouTube-阿伟科技
+      - YouTube-阿伟科技 2
       - CYL-科技 26
-      - YouTube-阿伟科技 8
+      - YouTube-阿伟科技 3
+      - 🇫🇷 sfzy888.com _🇫🇷FR_4100
       - CYL-科技 27
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
+      - 罗马(Youtube频道：工具大师！)
       - CYL-科技 31
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
-      - 欧洲(Youtube频道：工具大师！) 3
       - CYL-科技 32
+      - 🇺🇸 United States1
       - CYL-科技 33
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
+      - YouTube-阿伟科技 4
+      - YouTube-阿伟科技 5
       - CYL-科技 37
       - CYL-科技 38
+      - YouTube-阿伟科技 6
       - CYL-科技 39
       - CYL-科技 40
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
-      - YouTube-阿伟科技 9
-      - YouTube-阿伟科技 10
       - CYL-科技 41
       - CYL-科技 42
       - CYL-科技 43
+      - 🇺🇸 United States2
       - CYL-科技 44
       - CYL-科技 45
+      - 罗马(Youtube频道：工具大师！) 2
       - CYL-科技 46
-      - 欧洲(Youtube频道：工具大师！) 4
       - CYL-科技 47
+      - 🇬🇧 United Kingdom4
       - CYL-科技 48
       - CYL-科技 49
-      - 🇧🇪 BE_1257
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4125
-      - 🇬🇧 英国(Youtube频道：工具大师！)
-      - 罗马(Youtube频道：工具大师！)
       - CYL-科技 50
       - CYL-科技 51
+      - 🇹🇭 泰国(Youtube频道：工具大师！)
+      - 🇫🇷 法国(Youtube频道：工具大师！)
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
       - CYL-科技 52
+      - YouTube-阿伟科技 7
       - CYL-科技 53
       - CYL-科技 54
       - CYL-科技 55
       - CYL-科技 56
       - CYL-科技 57
       - CYL-科技 58
+      - 罗马(Youtube频道：工具大师！) 3
       - CYL-科技 59
       - CYL-科技 60
       - CYL-科技 61
       - CYL-科技 62
-      - YouTube-阿伟科技 11
       - CYL-科技 63
       - CYL-科技 64
+      - YouTube-阿伟科技 8
       - CYL-科技 65
-      - 🇺🇸 阿伟科技-油管-美国
-      - 🇧🇪 BE_1240
-      - YouTube-阿伟科技 12
       - CYL-科技 66
       - CYL-科技 67
-      - 墨西哥(MX)Mexico
       - CYL-科技 68
       - CYL-科技 69
+      - YouTube-阿伟科技 9
       - CYL-科技 70
-      - 🇺🇸 美国(Youtube频道：工具大师！) 4
       - CYL-科技 71
+      - YouTube-阿伟科技 10
       - CYL-科技 72
       - CYL-科技 73
+      - 欧洲(Youtube频道：工具大师！) 2
       - CYL-科技 74
       - CYL-科技 75
       - CYL-科技 76
       - CYL-科技 77
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
       - CYL-科技 78
       - CYL-科技 79
+      - 🇺🇸 US_17455
       - CYL-科技 80
       - CYL-科技 81
+      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技 82
       - CYL-科技 83
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4117
-      - 🇫🇷 法国(Youtube频道：工具大师！) 2
-      - 🇺🇸 美国(Youtube频道：工具大师！) 5
-      - YouTube-阿伟科技 13
-      - YouTube-阿伟科技 14
+      - 🇰🇷 South Korea9
+      - 🇯🇵 Japan15
       - CYL-科技 84
-      - CYL-科技 85
-      - CYL-科技 86
-      - CYL-科技 87
-      - CYL-科技 88
-      - CYL-科技 89
-      - CYL-科技 90
-      - 罗马(Youtube频道：工具大师！) 2
-      - YouTube-阿伟科技 15
-      - CYL-科技 91
-      - CYL-科技 92
-      - CYL-科技 93
-      - CYL-科技 94
-      - CYL-科技 95
-      - CYL-科技 96
-      - CYL-科技 97
-      - 欧洲(Youtube频道：工具大师！) 5
-      - CYL-科技 98
-      - CYL-科技 99
-      - CYL-科技 100
-      - 🇫🇷 sfzy888.com _🇫🇷FR_4146
-      - 欧洲(Youtube频道：工具大师！) 6
-      - CYL-科技 101
-      - CYL-科技 102
-      - CYL-科技 103
-      - CYL-科技 104
-      - CYL-科技 105
-      - CYL-科技 106
-      - CYL-科技 107
-      - CYL-科技 108
-      - CYL-科技 109
-      - CYL-科技 110
-      - CYL-科技 111
-      - 🇧🇪 sfzy888.com _🇧🇪BE_1286
-      - 罗马(Youtube频道：工具大师！) 3
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
