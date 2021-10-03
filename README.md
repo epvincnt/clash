@@ -4126,7 +4126,7 @@ rules:
  - DOMAIN-SUFFIX,appsimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,appvipshop.com,🎯 全球直连
  - DOMAIN-SUFFIX,vip.com,🎯 全球直连
- - DOMAIN-SUFFIX,vipstatic.com,🎯 
+ - DOMAIN-SUFFIX,vipstatic.com,🎯 全球直连
  - DOMAIN-SUFFIX,ximalaya.com,🎯 全球直连
  - DOMAIN-SUFFIX,xmcdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,00cdn.com,🎯 全球直连
