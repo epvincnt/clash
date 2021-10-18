@@ -5,121 +5,275 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CYL-科技, server: 27.131.164.94, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: CYL-科技 2, server: icajm.moox.icu, port: 34019, type: vmess, uuid: 7ac1c362-480b-4b79-b363-dc52a4a0e97a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: do403.xlanfly.xyz}}
-  - {name: CYL-科技 3, server: rxzgzq.moox.icu, port: 34016, type: vmess, uuid: 7ac1c362-480b-4b79-b363-dc52a4a0e97a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: ntt.xlanfly.xyz}}
+  - {name: 🇭🇰 香港(Youtube频道：工具大师！), server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: 3.sg.zz.xxxxx.x-t-fuckword.network}
+  - {name: 🇭🇰 香港(Youtube频道：工具大师！) 2, server: 3.hk.zz.xxxxx.x-t-fuckword.network, port: 36681, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: 3.hk.zz.xxxxx.x-t-fuckword.network}
+  - {name: 🇭🇰 香港(Youtube频道：工具大师！) 3, server: hkt01.hk.zz.xxxxx.x-t-fuckword.network, port: 56812, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: hkt01.hk.zz.xxxxx.x-t-fuckword.network}
+  - {name: 🇨🇳 阿伟科技-油管-台湾3, server: lv26wr2p4q0pl8v4i8h.v22222.xyz, port: 33331, type: vmess, uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /tnt-tw3, ws-headers: {Host: baidu.com}}
+  - {name: 🇭🇰 香港(Youtube频道：工具大师！) 4, server: 3.jp.zz.xxxxx.x-t-fuckword.network, port: 36675, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: 3.jp.zz.xxxxx.x-t-fuckword.network}
   - {name: 🇺🇸 阿伟科技-油管-美国, server: zzr.zzzr.ltd, port: 2053, type: vmess, uuid: a737264c-2bea-11ec-83c0-414353016dec, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /8qgBdhe3/, ws-headers: {Host: zzr.zzzr.ltd}}
-  - {name: CYL-科技 4, server: 27.131.164.100, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: CYL-科技 5, server: icajm.moox.icu, port: 40050, type: vmess, uuid: 7ac1c362-480b-4b79-b363-dc52a4a0e97a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: icajm.moox.icu}}
-  - {name: CYL-科技 6, server: 27.131.164.100, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: CYL-科技 7, server: 27.131.164.100, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: CYL-科技 8, server: 27.131.164.94, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: CYL-科技 9, server: 27.131.164.94, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: CYL-科技 10, server: icajm.moox.icu, port: 40011, type: vmess, uuid: 7ac1c362-480b-4b79-b363-dc52a4a0e97a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: hkbgp.xlanfly.xyz}}
-  - {name: CYL-科技 11, server: 27.131.164.94, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
-  - {name: CYL-科技 12, server: 27.131.164.94, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
-  - {name: CYL-科技 13, server: 66.115.177.143, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: CYL-科技 14, server: 27.131.164.94, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
-  - {name: CYL-科技 15, server: 66.115.177.143, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇺🇸 梦歌_🇺🇸_US_美国_29, server: 154.17.5.184, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: 73YSxKpeF029RTAq6Z3pCYIyaAgO3CcN3xZFX5EDllCzwyueR4S8B8najSDaOD}
-  - {name: CYL-科技 16, server: hgchgc1.yyyywe.top, port: 10120, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hgchgc1.yyyywe.top}}
-  - {name: CYL-科技 17, server: 27.131.164.94, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: CYL-科技 18, server: 134.195.196.12, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 梦歌_🇺🇸_US_美国_83, server: 167.88.63.28, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技 19, server: 134.195.196.165, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技 20, server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技 21, server: 79.110.54.117, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: CYL-科技 22, server: 66.115.177.156, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: CYL-科技 23, server: 27.131.164.94, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇺🇸 美国(Youtube频道：工具大师！), server: 66.115.177.143, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: CYL-科技 24, server: 172.99.190.186, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技 25, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技 26, server: 134.195.196.133, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技 27, server: 66.115.177.143, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: CYL-科技 28, server: 66.115.177.143, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: CYL-科技 29, server: 66.115.177.143, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: CYL-科技 30, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技 31, server: 172.99.190.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技 32, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技 33, server: 134.195.196.165, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技 34, server: 193.118.60.177, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技 35, server: 198.57.27.247, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技 36, server: 198.57.27.243, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 梦歌_🇺🇸_US_美国_15, server: 154.17.2.141, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: ZAlS0Kxe8u5OIN7nxE8Tly3paXCDOYRZqzSycDSw6aCjDF2egR4BaAC3F9Y33p}
-  - {name: CYL-科技 37, server: 198.57.27.243, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 2, server: 167.88.63.11, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技 38, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技 39, server: 134.195.198.178, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 梦歌_🇺🇸_US_美国_59, server: 167.88.63.82, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技 40, server: 134.195.196.79, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技 41, server: 66.115.177.156, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: CYL-科技 42, server: 66.115.177.156, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: CYL-科技 43, server: 27.131.164.100, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: CYL-科技 44, server: 27.131.164.94, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: CYL-科技 45, server: 134.195.198.252, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技 46, server: 134.195.198.95, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技 47, server: 198.57.27.243, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技 48, server: 193.118.60.176, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！), server: 198.57.27.233, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技 49, server: 134.122.53.58, port: 1911, type: vmess, uuid: 78c18558-37c6-49b8-bc6a-088562166143, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 134.122.53.58}}
-  - {name: 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）, server: 84.39.114.86, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: CYL-科技 50, server: 168.138.28.215, port: 80, type: vmess, uuid: 0e1b66d4-97a0-46f4-e8ee-ea2c15860ac6, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /BEN, ws-headers: {Host: 168.138.28.215}}
-  - {name: 🇺🇸 sfzy888.com _🇺🇸US_12074, server: 66.115.177.143, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: CYL-科技, server: 79.110.54.133, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 🇷🇺 梦歌_俄罗斯联邦_11, server: ruml.jjyun.ren, port: 88, type: vmess, uuid: 6cb4893e-c977-497c-8f68-0b3645e4b51f, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ruml.jjyun.ren}}
+  - {name: CYL-科技（2021.10.17）, server: 104.17.251.27, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: calm-snow-beb3.6663901.workers.dev}}
+  - {name: CYL-科技 2, server: 79.110.54.133, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: CYL-科技 3, server: 79.110.54.133, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: CYL-科技 4, server: 79.110.54.133, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇷🇺 梦歌_俄罗斯联邦_6, server: ruml.jjyun.ren, port: 88, type: vmess, uuid: c8191e5d-c551-4896-8d57-7493da874557, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ruml.jjyun.ren}}
+  - {name: CYL-科技（2021.10.17） 2, server: zoomlogin.hostmeetingnow.tk, port: 8880, type: vmess, uuid: 8cf979a4-7d96-4915-abf9-167f295b3fa7, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /45ufd6, ws-headers: {Host: zoomlogin.hostmeetingnow.tk}}
+  - {name: CYL-科技 5, server: 79.110.54.133, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 79.110.54.133:31764, server: 79.110.54.133, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 154.17.1.130:18335, server: 154.17.1.130, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: ZDZSRKaS8uTjDpFAcC8OClnD2pISORz0Yya7a9xegxy33XC4wleFY3Eq3NA65B}
+  - {name: 🇷🇺 梦歌_俄罗斯联邦_4, server: ruml.jjyun.ren, port: 88, type: vmess, uuid: cb6273ad-5837-4c65-92e8-07daf9beb777, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ruml.jjyun.ren}}
+  - {name: 🇷🇺 梦歌_俄罗斯联邦_17, server: ruml.jjyun.ren, port: 88, type: vmess, uuid: 190ee9db-85d6-438c-88a2-a62a4cc4c8a3, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ruml.jjyun.ren}}
+  - {name: 🇷🇺 梦歌_俄罗斯联邦_6 2, server: ruml.jjyun.ren, port: 88, type: vmess, uuid: c8191e5d-c551-4896-8d57-7493da874557, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ruml.jjyun.ren}}
+  - {name: CYL-科技（2021.10.17） 3, server: 2.58.242.43, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇷🇺 梦歌_俄罗斯联邦_7, server: ruml.jjyun.ren, port: 88, type: vmess, uuid: 190ee9db-85d6-438c-88a2-a62a4cc4c8a3, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ruml.jjyun.ren}}
+  - {name: CYL-科技 6, server: 79.110.54.133, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: CYL-科技 7, server: 84.39.114.85, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇸 梦歌_美国_59, server: 23.234.223.28, port: 443, type: vmess, uuid: e52db663-720b-4894-8235-dac718e65e3f, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.68080962.xyz}}
+  - {name: 79.110.54.133:38620, server: 79.110.54.133, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: CYL-科技 8, server: 79.110.54.133, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: CYL-科技 9, server: 212.102.44.86, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: CYL-科技 10, server: 212.102.44.86, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: CYL-科技 11, server: 212.102.44.86, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: CYL-科技 12, server: 66.115.177.143, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: CYL-科技（2021.10.17） 4, server: inapus.mooncloud.bike, port: 10020, type: vmess, uuid: 792f7496-a1e2-4694-96f4-5fbe5e13d68b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: inapus.mooncloud.bike}}
+  - {name: 🇹🇭 泰国(Youtube频道：工具大师！), server: 27.131.164.94, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: CYL-科技 13, server: 194.37.98.36, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: a 24, server: 194.37.98.36, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！) 2, server: 134.195.196.79, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 154.17.2.141:18335, server: 154.17.2.141, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: ZAlS0Kxe8u5OIN7nxE8Tly3paXCDOYRZqzSycDSw6aCjDF2egR4BaAC3F9Y33p}
+  - {name: CYL-科技 14, server: 167.88.63.74, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技 15, server: 66.115.177.143, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
   - {name: 🇺🇸 梦歌_🇺🇸_US_美国_79, server: 167.88.63.61, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇷🇺 梦歌_俄罗斯联邦_5, server: ruml.jjyun.ren, port: 80, type: vmess, uuid: 190ee9db-85d6-438c-88a2-a62a4cc4c8a3, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ruml.jjyun.ren}}
+  - {name: CYL-科技（2021.10.17） 5, server: 79.110.54.133, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 🇺🇸 sfzy888.com _🇺🇸US_12074, server: 66.115.177.143, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: CYL-科技 16, server: 66.115.177.143, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: CYL-科技 17, server: 134.195.196.231, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技 18, server: 167.88.63.11, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技 19, server: 212.102.44.86, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: CYL-科技 20, server: 212.102.44.86, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: CYL-科技 21, server: 212.102.44.86, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: CYL-科技 22, server: 38.107.226.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 梦歌_🇺🇸_US_美国_83, server: 167.88.63.28, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！), server: 134.195.196.165, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇷🇺 梦歌_俄罗斯联邦_5 2, server: ruml.jjyun.ren, port: 80, type: vmess, uuid: 190ee9db-85d6-438c-88a2-a62a4cc4c8a3, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ruml.jjyun.ren}}
+  - {name: CYL-科技（2021.10.17） 6, server: 134.195.198.250, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技（2021.10.17） 7, server: 167.88.63.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）, server: 84.39.114.86, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: CYL-科技 23, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技 24, server: 66.115.177.143, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: CYL-科技 25, server: 134.195.198.95, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技 26, server: 198.57.27.233, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！) 2, server: 134.195.196.97, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！) 3, server: 198.57.27.225, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！), server: 167.88.63.82, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 134.195.196.97:7307, server: 134.195.196.97, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 79.110.54.133:47121, server: 79.110.54.133, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 79.110.54.133:33148, server: 79.110.54.133, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君), server: 198.57.27.247, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2021.10.17） 8, server: 89.238.130.227, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇸 梦歌_🇺🇸_US_美国_55, server: 167.88.63.107, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技 27, server: 167.88.63.107, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技 28, server: 134.195.198.178, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技 29, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技 30, server: 134.195.196.199, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！) 4, server: 134.195.196.110, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 2, server: 167.88.63.82, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 欧洲(Youtube频道：工具大师！), server: 5.253.207.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 167.88.63.119:7307, server: 167.88.63.119, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技 31, server: 212.102.44.86, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: CYL-科技 32, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技 33, server: 134.195.196.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 阿伟科技-油管-加拿大4, server: 134.195.196.97, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技 34, server: 86.106.136.93, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: CYL-科技 35, server: 212.102.44.86, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: CYL-科技 36, server: 198.57.27.247, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技 37, server: 84.39.114.94, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！) 5, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 79.110.54.133:46642, server: 79.110.54.133, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 79.110.54.133:41992, server: 79.110.54.133, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 79.110.54.133:49126, server: 79.110.54.133, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君), server: 167.88.63.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技 38, server: 27.131.164.100, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: CYL-科技 39, server: 27.131.164.100, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: CYL-科技 40, server: 167.88.63.89, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技 41, server: 172.99.190.90, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技 42, server: 172.99.190.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技 43, server: 167.88.63.89, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技 44, server: 172.99.190.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技 45, server: 134.195.196.163, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技 46, server: 134.195.196.163, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技 47, server: 66.115.177.143, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: CYL-科技 48, server: 134.195.196.163, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技 49, server: 27.131.164.94, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: CYL-科技 50, server: 27.131.164.100, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 3, server: 167.88.63.89, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！) 6, server: 198.57.27.225, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 185.166.84.81:41992, server: 185.166.84.81, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 167.88.63.61:7306, server: 167.88.63.61, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 167.88.63.99:8091, server: 167.88.63.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 167.88.63.60:7306, server: 167.88.63.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2021.10.17） 9, server: 134.195.196.147, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2021.10.17） 10, server: 193.108.118.2, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技（2021.10.17） 11, server: 185.166.84.81, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: CYL-科技 51, server: 134.195.196.79, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技 52, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技 53, server: 66.115.177.143, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: CYL-科技 54, server: 134.195.196.110, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技 55, server: 134.195.196.133, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技 56, server: 198.57.27.243, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技 57, server: 37.120.233.253, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: CYL-科技 58, server: 134.195.196.163, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技 59, server: 134.195.198.178, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技 60, server: 193.108.118.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技 61, server: 66.115.177.143, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 欧洲(Youtube频道：工具大师！) 2, server: 134.195.196.79, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇹🇭 泰国(Youtube频道：工具大师！) 2, server: 27.131.164.94, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
+  - {name: 🇭🇰 香港(Youtube频道：工具大师！) 5, server: 2.jp.zz.xxxxx.x-t-fuckword.network, port: 36671, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: 2.jp.zz.xxxxx.x-t-fuckword.network}
+  - {name: 🇬🇧 梦歌_英国_14, server: ukml.52jjyun.top, port: 88, type: vmess, uuid: 190ee9db-85d6-438c-88a2-a62a4cc4c8a3, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ukml.52jjyun.top}}
+  - {name: 134.195.196.154:2375, server: 134.195.196.154, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技（2021.10.17） 12, server: 198.57.27.243, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2021.10.17） 13, server: 134.195.196.97, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2021.10.17） 14, server: 2.58.242.43, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: CYL-科技 62, server: 66.115.177.143, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: CYL-科技 63, server: 198.57.27.233, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技 64, server: 134.195.196.154, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技 65, server: 198.57.27.243, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技 66, server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技 67, server: 134.195.196.12, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技 68, server: 134.195.198.178, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技 69, server: 134.195.198.252, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技 70, server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技 71, server: 167.88.63.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技 72, server: 38.107.226.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技 73, server: 134.195.198.95, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技 74, server: 134.195.198.95, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 4, server: 172.99.190.230, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 5, server: 38.107.226.238, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！) 7, server: 198.57.27.233, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 6, server: 38.107.226.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 欧洲(Youtube频道：工具大师！) 3, server: 167.88.63.11, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 7, server: 167.88.63.119, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2, server: 167.88.63.107, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 梦歌_🇺🇸_US_美国_82, server: 167.88.63.89, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 8, server: 172.99.190.109, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 9, server: 172.99.190.7, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 10, server: 172.99.190.153, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 11, server: 172.99.190.92, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 12, server: 167.88.63.108, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 13, server: 167.88.63.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇹🇭 泰国(Youtube频道：工具大师！) 3, server: 27.131.164.100, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 14, server: 167.88.63.119, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 134.195.196.154:2376, server: 134.195.196.154, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3, server: 192.169.112.165, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 梦歌_🇺🇸_US_美国_29, server: 154.17.5.184, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: 73YSxKpeF029RTAq6Z3pCYIyaAgO3CcN3xZFX5EDllCzwyueR4S8B8najSDaOD}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 15, server: 172.99.190.246, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 欧洲(Youtube频道：工具大师！) 4, server: 172.99.190.90, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 16, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 17, server: 192.169.112.168, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇹🇭 泰国(Youtube频道：工具大师！) 4, server: 27.131.164.94, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 18, server: 167.88.63.82, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 167.88.63.99:7306, server: 167.88.63.99, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 134.195.198.195:7306, server: 134.195.198.195, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4, server: 172.99.190.186, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5, server: 192.169.112.168, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇭🇰 香港(Youtube频道：工具大师！)
+      - 🇭🇰 香港(Youtube频道：工具大师！) 2
+      - 🇭🇰 香港(Youtube频道：工具大师！) 3
+      - 🇨🇳 阿伟科技-油管-台湾3
+      - 🇭🇰 香港(Youtube频道：工具大师！) 4
+      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技
+      - 🇷🇺 梦歌_俄罗斯联邦_11
+      - CYL-科技（2021.10.17）
       - CYL-科技 2
       - CYL-科技 3
-      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技 4
+      - 🇷🇺 梦歌_俄罗斯联邦_6
+      - CYL-科技（2021.10.17） 2
       - CYL-科技 5
+      - 79.110.54.133:31764
+      - 154.17.1.130:18335
+      - 🇷🇺 梦歌_俄罗斯联邦_4
+      - 🇷🇺 梦歌_俄罗斯联邦_17
+      - 🇷🇺 梦歌_俄罗斯联邦_6 2
+      - CYL-科技（2021.10.17） 3
+      - 🇷🇺 梦歌_俄罗斯联邦_7
       - CYL-科技 6
       - CYL-科技 7
+      - 🇺🇸 梦歌_美国_59
+      - 79.110.54.133:38620
       - CYL-科技 8
       - CYL-科技 9
       - CYL-科技 10
       - CYL-科技 11
       - CYL-科技 12
+      - CYL-科技（2021.10.17） 4
+      - 🇹🇭 泰国(Youtube频道：工具大师！)
       - CYL-科技 13
+      - a 24
+      - 154.17.2.141:18335
       - CYL-科技 14
       - CYL-科技 15
-      - 🇺🇸 梦歌_🇺🇸_US_美国_29
+      - 🇺🇸 梦歌_🇺🇸_US_美国_79
+      - 🇷🇺 梦歌_俄罗斯联邦_5
+      - CYL-科技（2021.10.17） 5
+      - 🇺🇸 sfzy888.com _🇺🇸US_12074
       - CYL-科技 16
       - CYL-科技 17
       - CYL-科技 18
-      - 🇺🇸 梦歌_🇺🇸_US_美国_83
       - CYL-科技 19
       - CYL-科技 20
       - CYL-科技 21
       - CYL-科技 22
+      - 🇺🇸 梦歌_🇺🇸_US_美国_83
+      - 🇨🇦 加拿大(Youtube频道：工具大师！)
+      - 🇷🇺 梦歌_俄罗斯联邦_5 2
+      - CYL-科技（2021.10.17） 6
+      - CYL-科技（2021.10.17） 7
+      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 23
-      - 🇺🇸 美国(Youtube频道：工具大师！)
       - CYL-科技 24
       - CYL-科技 25
       - CYL-科技 26
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 134.195.196.97:7307
+      - 79.110.54.133:47121
+      - 79.110.54.133:33148
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
+      - CYL-科技（2021.10.17） 8
+      - 🇺🇸 梦歌_🇺🇸_US_美国_55
       - CYL-科技 27
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 欧洲(Youtube频道：工具大师！)
+      - 167.88.63.119:7307
       - CYL-科技 31
       - CYL-科技 32
       - CYL-科技 33
+      - 🇨🇦 阿伟科技-油管-加拿大4
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
-      - 🇺🇸 梦歌_🇺🇸_US_美国_15
       - CYL-科技 37
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
+      - 79.110.54.133:46642
+      - 79.110.54.133:41992
+      - 79.110.54.133:49126
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
       - CYL-科技 38
       - CYL-科技 39
-      - 🇺🇸 梦歌_🇺🇸_US_美国_59
       - CYL-科技 40
       - CYL-科技 41
       - CYL-科技 42
@@ -129,66 +283,175 @@ proxy-groups:
       - CYL-科技 46
       - CYL-科技 47
       - CYL-科技 48
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
       - CYL-科技 49
-      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 50
-      - 🇺🇸 sfzy888.com _🇺🇸US_12074
-      - a 24
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
-      - 🇺🇸 梦歌_🇺🇸_US_美国_79
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 6
+      - 185.166.84.81:41992
+      - 167.88.63.61:7306
+      - 167.88.63.99:8091
+      - 167.88.63.60:7306
+      - CYL-科技（2021.10.17） 9
+      - CYL-科技（2021.10.17） 10
+      - CYL-科技（2021.10.17） 11
+      - CYL-科技 51
+      - CYL-科技 52
+      - CYL-科技 53
+      - CYL-科技 54
+      - CYL-科技 55
+      - CYL-科技 56
+      - CYL-科技 57
+      - CYL-科技 58
+      - CYL-科技 59
+      - CYL-科技 60
+      - CYL-科技 61
+      - 欧洲(Youtube频道：工具大师！) 2
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
+      - 🇭🇰 香港(Youtube频道：工具大师！) 5
+      - 🇬🇧 梦歌_英国_14
+      - 134.195.196.154:2375
+      - CYL-科技（2021.10.17） 12
+      - CYL-科技（2021.10.17） 13
+      - CYL-科技（2021.10.17） 14
+      - CYL-科技 62
+      - CYL-科技 63
+      - CYL-科技 64
+      - CYL-科技 65
+      - CYL-科技 66
+      - CYL-科技 67
+      - CYL-科技 68
+      - CYL-科技 69
+      - CYL-科技 70
+      - CYL-科技 71
+      - CYL-科技 72
+      - CYL-科技 73
+      - CYL-科技 74
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 7
+      - 🇺🇸 美国(Youtube频道：工具大师！) 6
+      - 欧洲(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 7
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 梦歌_🇺🇸_US_美国_82
+      - 🇺🇸 美国(Youtube频道：工具大师！) 8
+      - 🇺🇸 美国(Youtube频道：工具大师！) 9
+      - 🇺🇸 美国(Youtube频道：工具大师！) 10
+      - 🇺🇸 美国(Youtube频道：工具大师！) 11
+      - 🇺🇸 美国(Youtube频道：工具大师！) 12
+      - 🇺🇸 美国(Youtube频道：工具大师！) 13
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 14
+      - 134.195.196.154:2376
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 梦歌_🇺🇸_US_美国_29
+      - 🇺🇸 美国(Youtube频道：工具大师！) 15
+      - 欧洲(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 16
+      - 🇺🇸 美国(Youtube频道：工具大师！) 17
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 18
+      - 167.88.63.99:7306
+      - 134.195.198.195:7306
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇭🇰 香港(Youtube频道：工具大师！)
+      - 🇭🇰 香港(Youtube频道：工具大师！) 2
+      - 🇭🇰 香港(Youtube频道：工具大师！) 3
+      - 🇨🇳 阿伟科技-油管-台湾3
+      - 🇭🇰 香港(Youtube频道：工具大师！) 4
+      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技
+      - 🇷🇺 梦歌_俄罗斯联邦_11
+      - CYL-科技（2021.10.17）
       - CYL-科技 2
       - CYL-科技 3
-      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技 4
+      - 🇷🇺 梦歌_俄罗斯联邦_6
+      - CYL-科技（2021.10.17） 2
       - CYL-科技 5
+      - 79.110.54.133:31764
+      - 154.17.1.130:18335
+      - 🇷🇺 梦歌_俄罗斯联邦_4
+      - 🇷🇺 梦歌_俄罗斯联邦_17
+      - 🇷🇺 梦歌_俄罗斯联邦_6 2
+      - CYL-科技（2021.10.17） 3
+      - 🇷🇺 梦歌_俄罗斯联邦_7
       - CYL-科技 6
       - CYL-科技 7
+      - 🇺🇸 梦歌_美国_59
+      - 79.110.54.133:38620
       - CYL-科技 8
       - CYL-科技 9
       - CYL-科技 10
       - CYL-科技 11
       - CYL-科技 12
+      - CYL-科技（2021.10.17） 4
+      - 🇹🇭 泰国(Youtube频道：工具大师！)
       - CYL-科技 13
+      - a 24
+      - 154.17.2.141:18335
       - CYL-科技 14
       - CYL-科技 15
-      - 🇺🇸 梦歌_🇺🇸_US_美国_29
+      - 🇺🇸 梦歌_🇺🇸_US_美国_79
+      - 🇷🇺 梦歌_俄罗斯联邦_5
+      - CYL-科技（2021.10.17） 5
+      - 🇺🇸 sfzy888.com _🇺🇸US_12074
       - CYL-科技 16
       - CYL-科技 17
       - CYL-科技 18
-      - 🇺🇸 梦歌_🇺🇸_US_美国_83
       - CYL-科技 19
       - CYL-科技 20
       - CYL-科技 21
       - CYL-科技 22
+      - 🇺🇸 梦歌_🇺🇸_US_美国_83
+      - 🇨🇦 加拿大(Youtube频道：工具大师！)
+      - 🇷🇺 梦歌_俄罗斯联邦_5 2
+      - CYL-科技（2021.10.17） 6
+      - CYL-科技（2021.10.17） 7
+      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 23
-      - 🇺🇸 美国(Youtube频道：工具大师！)
       - CYL-科技 24
       - CYL-科技 25
       - CYL-科技 26
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 134.195.196.97:7307
+      - 79.110.54.133:47121
+      - 79.110.54.133:33148
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
+      - CYL-科技（2021.10.17） 8
+      - 🇺🇸 梦歌_🇺🇸_US_美国_55
       - CYL-科技 27
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 欧洲(Youtube频道：工具大师！)
+      - 167.88.63.119:7307
       - CYL-科技 31
       - CYL-科技 32
       - CYL-科技 33
+      - 🇨🇦 阿伟科技-油管-加拿大4
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
-      - 🇺🇸 梦歌_🇺🇸_US_美国_15
       - CYL-科技 37
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
+      - 79.110.54.133:46642
+      - 79.110.54.133:41992
+      - 79.110.54.133:49126
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
       - CYL-科技 38
       - CYL-科技 39
-      - 🇺🇸 梦歌_🇺🇸_US_美国_59
       - CYL-科技 40
       - CYL-科技 41
       - CYL-科技 42
@@ -198,66 +461,175 @@ proxy-groups:
       - CYL-科技 46
       - CYL-科技 47
       - CYL-科技 48
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
       - CYL-科技 49
-      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 50
-      - 🇺🇸 sfzy888.com _🇺🇸US_12074
-      - a 24
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
-      - 🇺🇸 梦歌_🇺🇸_US_美国_79
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 6
+      - 185.166.84.81:41992
+      - 167.88.63.61:7306
+      - 167.88.63.99:8091
+      - 167.88.63.60:7306
+      - CYL-科技（2021.10.17） 9
+      - CYL-科技（2021.10.17） 10
+      - CYL-科技（2021.10.17） 11
+      - CYL-科技 51
+      - CYL-科技 52
+      - CYL-科技 53
+      - CYL-科技 54
+      - CYL-科技 55
+      - CYL-科技 56
+      - CYL-科技 57
+      - CYL-科技 58
+      - CYL-科技 59
+      - CYL-科技 60
+      - CYL-科技 61
+      - 欧洲(Youtube频道：工具大师！) 2
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
+      - 🇭🇰 香港(Youtube频道：工具大师！) 5
+      - 🇬🇧 梦歌_英国_14
+      - 134.195.196.154:2375
+      - CYL-科技（2021.10.17） 12
+      - CYL-科技（2021.10.17） 13
+      - CYL-科技（2021.10.17） 14
+      - CYL-科技 62
+      - CYL-科技 63
+      - CYL-科技 64
+      - CYL-科技 65
+      - CYL-科技 66
+      - CYL-科技 67
+      - CYL-科技 68
+      - CYL-科技 69
+      - CYL-科技 70
+      - CYL-科技 71
+      - CYL-科技 72
+      - CYL-科技 73
+      - CYL-科技 74
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 7
+      - 🇺🇸 美国(Youtube频道：工具大师！) 6
+      - 欧洲(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 7
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 梦歌_🇺🇸_US_美国_82
+      - 🇺🇸 美国(Youtube频道：工具大师！) 8
+      - 🇺🇸 美国(Youtube频道：工具大师！) 9
+      - 🇺🇸 美国(Youtube频道：工具大师！) 10
+      - 🇺🇸 美国(Youtube频道：工具大师！) 11
+      - 🇺🇸 美国(Youtube频道：工具大师！) 12
+      - 🇺🇸 美国(Youtube频道：工具大师！) 13
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 14
+      - 134.195.196.154:2376
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 梦歌_🇺🇸_US_美国_29
+      - 🇺🇸 美国(Youtube频道：工具大师！) 15
+      - 欧洲(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 16
+      - 🇺🇸 美国(Youtube频道：工具大师！) 17
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 18
+      - 167.88.63.99:7306
+      - 134.195.198.195:7306
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 香港(Youtube频道：工具大师！)
+      - 🇭🇰 香港(Youtube频道：工具大师！) 2
+      - 🇭🇰 香港(Youtube频道：工具大师！) 3
+      - 🇨🇳 阿伟科技-油管-台湾3
+      - 🇭🇰 香港(Youtube频道：工具大师！) 4
+      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技
+      - 🇷🇺 梦歌_俄罗斯联邦_11
+      - CYL-科技（2021.10.17）
       - CYL-科技 2
       - CYL-科技 3
-      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技 4
+      - 🇷🇺 梦歌_俄罗斯联邦_6
+      - CYL-科技（2021.10.17） 2
       - CYL-科技 5
+      - 79.110.54.133:31764
+      - 154.17.1.130:18335
+      - 🇷🇺 梦歌_俄罗斯联邦_4
+      - 🇷🇺 梦歌_俄罗斯联邦_17
+      - 🇷🇺 梦歌_俄罗斯联邦_6 2
+      - CYL-科技（2021.10.17） 3
+      - 🇷🇺 梦歌_俄罗斯联邦_7
       - CYL-科技 6
       - CYL-科技 7
+      - 🇺🇸 梦歌_美国_59
+      - 79.110.54.133:38620
       - CYL-科技 8
       - CYL-科技 9
       - CYL-科技 10
       - CYL-科技 11
       - CYL-科技 12
+      - CYL-科技（2021.10.17） 4
+      - 🇹🇭 泰国(Youtube频道：工具大师！)
       - CYL-科技 13
+      - a 24
+      - 154.17.2.141:18335
       - CYL-科技 14
       - CYL-科技 15
-      - 🇺🇸 梦歌_🇺🇸_US_美国_29
+      - 🇺🇸 梦歌_🇺🇸_US_美国_79
+      - 🇷🇺 梦歌_俄罗斯联邦_5
+      - CYL-科技（2021.10.17） 5
+      - 🇺🇸 sfzy888.com _🇺🇸US_12074
       - CYL-科技 16
       - CYL-科技 17
       - CYL-科技 18
-      - 🇺🇸 梦歌_🇺🇸_US_美国_83
       - CYL-科技 19
       - CYL-科技 20
       - CYL-科技 21
       - CYL-科技 22
+      - 🇺🇸 梦歌_🇺🇸_US_美国_83
+      - 🇨🇦 加拿大(Youtube频道：工具大师！)
+      - 🇷🇺 梦歌_俄罗斯联邦_5 2
+      - CYL-科技（2021.10.17） 6
+      - CYL-科技（2021.10.17） 7
+      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 23
-      - 🇺🇸 美国(Youtube频道：工具大师！)
       - CYL-科技 24
       - CYL-科技 25
       - CYL-科技 26
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 134.195.196.97:7307
+      - 79.110.54.133:47121
+      - 79.110.54.133:33148
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
+      - CYL-科技（2021.10.17） 8
+      - 🇺🇸 梦歌_🇺🇸_US_美国_55
       - CYL-科技 27
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 欧洲(Youtube频道：工具大师！)
+      - 167.88.63.119:7307
       - CYL-科技 31
       - CYL-科技 32
       - CYL-科技 33
+      - 🇨🇦 阿伟科技-油管-加拿大4
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
-      - 🇺🇸 梦歌_🇺🇸_US_美国_15
       - CYL-科技 37
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
+      - 79.110.54.133:46642
+      - 79.110.54.133:41992
+      - 79.110.54.133:49126
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
       - CYL-科技 38
       - CYL-科技 39
-      - 🇺🇸 梦歌_🇺🇸_US_美国_59
       - CYL-科技 40
       - CYL-科技 41
       - CYL-科技 42
@@ -267,65 +639,174 @@ proxy-groups:
       - CYL-科技 46
       - CYL-科技 47
       - CYL-科技 48
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
       - CYL-科技 49
-      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 50
-      - 🇺🇸 sfzy888.com _🇺🇸US_12074
-      - a 24
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
-      - 🇺🇸 梦歌_🇺🇸_US_美国_79
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 6
+      - 185.166.84.81:41992
+      - 167.88.63.61:7306
+      - 167.88.63.99:8091
+      - 167.88.63.60:7306
+      - CYL-科技（2021.10.17） 9
+      - CYL-科技（2021.10.17） 10
+      - CYL-科技（2021.10.17） 11
+      - CYL-科技 51
+      - CYL-科技 52
+      - CYL-科技 53
+      - CYL-科技 54
+      - CYL-科技 55
+      - CYL-科技 56
+      - CYL-科技 57
+      - CYL-科技 58
+      - CYL-科技 59
+      - CYL-科技 60
+      - CYL-科技 61
+      - 欧洲(Youtube频道：工具大师！) 2
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
+      - 🇭🇰 香港(Youtube频道：工具大师！) 5
+      - 🇬🇧 梦歌_英国_14
+      - 134.195.196.154:2375
+      - CYL-科技（2021.10.17） 12
+      - CYL-科技（2021.10.17） 13
+      - CYL-科技（2021.10.17） 14
+      - CYL-科技 62
+      - CYL-科技 63
+      - CYL-科技 64
+      - CYL-科技 65
+      - CYL-科技 66
+      - CYL-科技 67
+      - CYL-科技 68
+      - CYL-科技 69
+      - CYL-科技 70
+      - CYL-科技 71
+      - CYL-科技 72
+      - CYL-科技 73
+      - CYL-科技 74
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 7
+      - 🇺🇸 美国(Youtube频道：工具大师！) 6
+      - 欧洲(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 7
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 梦歌_🇺🇸_US_美国_82
+      - 🇺🇸 美国(Youtube频道：工具大师！) 8
+      - 🇺🇸 美国(Youtube频道：工具大师！) 9
+      - 🇺🇸 美国(Youtube频道：工具大师！) 10
+      - 🇺🇸 美国(Youtube频道：工具大师！) 11
+      - 🇺🇸 美国(Youtube频道：工具大师！) 12
+      - 🇺🇸 美国(Youtube频道：工具大师！) 13
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 14
+      - 134.195.196.154:2376
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 梦歌_🇺🇸_US_美国_29
+      - 🇺🇸 美国(Youtube频道：工具大师！) 15
+      - 欧洲(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 16
+      - 🇺🇸 美国(Youtube频道：工具大师！) 17
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 18
+      - 167.88.63.99:7306
+      - 134.195.198.195:7306
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇭🇰 香港(Youtube频道：工具大师！)
+      - 🇭🇰 香港(Youtube频道：工具大师！) 2
+      - 🇭🇰 香港(Youtube频道：工具大师！) 3
+      - 🇨🇳 阿伟科技-油管-台湾3
+      - 🇭🇰 香港(Youtube频道：工具大师！) 4
+      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技
+      - 🇷🇺 梦歌_俄罗斯联邦_11
+      - CYL-科技（2021.10.17）
       - CYL-科技 2
       - CYL-科技 3
-      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技 4
+      - 🇷🇺 梦歌_俄罗斯联邦_6
+      - CYL-科技（2021.10.17） 2
       - CYL-科技 5
+      - 79.110.54.133:31764
+      - 154.17.1.130:18335
+      - 🇷🇺 梦歌_俄罗斯联邦_4
+      - 🇷🇺 梦歌_俄罗斯联邦_17
+      - 🇷🇺 梦歌_俄罗斯联邦_6 2
+      - CYL-科技（2021.10.17） 3
+      - 🇷🇺 梦歌_俄罗斯联邦_7
       - CYL-科技 6
       - CYL-科技 7
+      - 🇺🇸 梦歌_美国_59
+      - 79.110.54.133:38620
       - CYL-科技 8
       - CYL-科技 9
       - CYL-科技 10
       - CYL-科技 11
       - CYL-科技 12
+      - CYL-科技（2021.10.17） 4
+      - 🇹🇭 泰国(Youtube频道：工具大师！)
       - CYL-科技 13
+      - a 24
+      - 154.17.2.141:18335
       - CYL-科技 14
       - CYL-科技 15
-      - 🇺🇸 梦歌_🇺🇸_US_美国_29
+      - 🇺🇸 梦歌_🇺🇸_US_美国_79
+      - 🇷🇺 梦歌_俄罗斯联邦_5
+      - CYL-科技（2021.10.17） 5
+      - 🇺🇸 sfzy888.com _🇺🇸US_12074
       - CYL-科技 16
       - CYL-科技 17
       - CYL-科技 18
-      - 🇺🇸 梦歌_🇺🇸_US_美国_83
       - CYL-科技 19
       - CYL-科技 20
       - CYL-科技 21
       - CYL-科技 22
+      - 🇺🇸 梦歌_🇺🇸_US_美国_83
+      - 🇨🇦 加拿大(Youtube频道：工具大师！)
+      - 🇷🇺 梦歌_俄罗斯联邦_5 2
+      - CYL-科技（2021.10.17） 6
+      - CYL-科技（2021.10.17） 7
+      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 23
-      - 🇺🇸 美国(Youtube频道：工具大师！)
       - CYL-科技 24
       - CYL-科技 25
       - CYL-科技 26
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 134.195.196.97:7307
+      - 79.110.54.133:47121
+      - 79.110.54.133:33148
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
+      - CYL-科技（2021.10.17） 8
+      - 🇺🇸 梦歌_🇺🇸_US_美国_55
       - CYL-科技 27
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 欧洲(Youtube频道：工具大师！)
+      - 167.88.63.119:7307
       - CYL-科技 31
       - CYL-科技 32
       - CYL-科技 33
+      - 🇨🇦 阿伟科技-油管-加拿大4
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
-      - 🇺🇸 梦歌_🇺🇸_US_美国_15
       - CYL-科技 37
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
+      - 79.110.54.133:46642
+      - 79.110.54.133:41992
+      - 79.110.54.133:49126
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
       - CYL-科技 38
       - CYL-科技 39
-      - 🇺🇸 梦歌_🇺🇸_US_美国_59
       - CYL-科技 40
       - CYL-科技 41
       - CYL-科技 42
@@ -335,65 +816,174 @@ proxy-groups:
       - CYL-科技 46
       - CYL-科技 47
       - CYL-科技 48
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
       - CYL-科技 49
-      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 50
-      - 🇺🇸 sfzy888.com _🇺🇸US_12074
-      - a 24
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
-      - 🇺🇸 梦歌_🇺🇸_US_美国_79
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 6
+      - 185.166.84.81:41992
+      - 167.88.63.61:7306
+      - 167.88.63.99:8091
+      - 167.88.63.60:7306
+      - CYL-科技（2021.10.17） 9
+      - CYL-科技（2021.10.17） 10
+      - CYL-科技（2021.10.17） 11
+      - CYL-科技 51
+      - CYL-科技 52
+      - CYL-科技 53
+      - CYL-科技 54
+      - CYL-科技 55
+      - CYL-科技 56
+      - CYL-科技 57
+      - CYL-科技 58
+      - CYL-科技 59
+      - CYL-科技 60
+      - CYL-科技 61
+      - 欧洲(Youtube频道：工具大师！) 2
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
+      - 🇭🇰 香港(Youtube频道：工具大师！) 5
+      - 🇬🇧 梦歌_英国_14
+      - 134.195.196.154:2375
+      - CYL-科技（2021.10.17） 12
+      - CYL-科技（2021.10.17） 13
+      - CYL-科技（2021.10.17） 14
+      - CYL-科技 62
+      - CYL-科技 63
+      - CYL-科技 64
+      - CYL-科技 65
+      - CYL-科技 66
+      - CYL-科技 67
+      - CYL-科技 68
+      - CYL-科技 69
+      - CYL-科技 70
+      - CYL-科技 71
+      - CYL-科技 72
+      - CYL-科技 73
+      - CYL-科技 74
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 7
+      - 🇺🇸 美国(Youtube频道：工具大师！) 6
+      - 欧洲(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 7
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 梦歌_🇺🇸_US_美国_82
+      - 🇺🇸 美国(Youtube频道：工具大师！) 8
+      - 🇺🇸 美国(Youtube频道：工具大师！) 9
+      - 🇺🇸 美国(Youtube频道：工具大师！) 10
+      - 🇺🇸 美国(Youtube频道：工具大师！) 11
+      - 🇺🇸 美国(Youtube频道：工具大师！) 12
+      - 🇺🇸 美国(Youtube频道：工具大师！) 13
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 14
+      - 134.195.196.154:2376
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 梦歌_🇺🇸_US_美国_29
+      - 🇺🇸 美国(Youtube频道：工具大师！) 15
+      - 欧洲(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 16
+      - 🇺🇸 美国(Youtube频道：工具大师！) 17
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 18
+      - 167.88.63.99:7306
+      - 134.195.198.195:7306
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇭🇰 香港(Youtube频道：工具大师！)
+      - 🇭🇰 香港(Youtube频道：工具大师！) 2
+      - 🇭🇰 香港(Youtube频道：工具大师！) 3
+      - 🇨🇳 阿伟科技-油管-台湾3
+      - 🇭🇰 香港(Youtube频道：工具大师！) 4
+      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技
+      - 🇷🇺 梦歌_俄罗斯联邦_11
+      - CYL-科技（2021.10.17）
       - CYL-科技 2
       - CYL-科技 3
-      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技 4
+      - 🇷🇺 梦歌_俄罗斯联邦_6
+      - CYL-科技（2021.10.17） 2
       - CYL-科技 5
+      - 79.110.54.133:31764
+      - 154.17.1.130:18335
+      - 🇷🇺 梦歌_俄罗斯联邦_4
+      - 🇷🇺 梦歌_俄罗斯联邦_17
+      - 🇷🇺 梦歌_俄罗斯联邦_6 2
+      - CYL-科技（2021.10.17） 3
+      - 🇷🇺 梦歌_俄罗斯联邦_7
       - CYL-科技 6
       - CYL-科技 7
+      - 🇺🇸 梦歌_美国_59
+      - 79.110.54.133:38620
       - CYL-科技 8
       - CYL-科技 9
       - CYL-科技 10
       - CYL-科技 11
       - CYL-科技 12
+      - CYL-科技（2021.10.17） 4
+      - 🇹🇭 泰国(Youtube频道：工具大师！)
       - CYL-科技 13
+      - a 24
+      - 154.17.2.141:18335
       - CYL-科技 14
       - CYL-科技 15
-      - 🇺🇸 梦歌_🇺🇸_US_美国_29
+      - 🇺🇸 梦歌_🇺🇸_US_美国_79
+      - 🇷🇺 梦歌_俄罗斯联邦_5
+      - CYL-科技（2021.10.17） 5
+      - 🇺🇸 sfzy888.com _🇺🇸US_12074
       - CYL-科技 16
       - CYL-科技 17
       - CYL-科技 18
-      - 🇺🇸 梦歌_🇺🇸_US_美国_83
       - CYL-科技 19
       - CYL-科技 20
       - CYL-科技 21
       - CYL-科技 22
+      - 🇺🇸 梦歌_🇺🇸_US_美国_83
+      - 🇨🇦 加拿大(Youtube频道：工具大师！)
+      - 🇷🇺 梦歌_俄罗斯联邦_5 2
+      - CYL-科技（2021.10.17） 6
+      - CYL-科技（2021.10.17） 7
+      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 23
-      - 🇺🇸 美国(Youtube频道：工具大师！)
       - CYL-科技 24
       - CYL-科技 25
       - CYL-科技 26
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 134.195.196.97:7307
+      - 79.110.54.133:47121
+      - 79.110.54.133:33148
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
+      - CYL-科技（2021.10.17） 8
+      - 🇺🇸 梦歌_🇺🇸_US_美国_55
       - CYL-科技 27
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 欧洲(Youtube频道：工具大师！)
+      - 167.88.63.119:7307
       - CYL-科技 31
       - CYL-科技 32
       - CYL-科技 33
+      - 🇨🇦 阿伟科技-油管-加拿大4
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
-      - 🇺🇸 梦歌_🇺🇸_US_美国_15
       - CYL-科技 37
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
+      - 79.110.54.133:46642
+      - 79.110.54.133:41992
+      - 79.110.54.133:49126
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
       - CYL-科技 38
       - CYL-科技 39
-      - 🇺🇸 梦歌_🇺🇸_US_美国_59
       - CYL-科技 40
       - CYL-科技 41
       - CYL-科技 42
@@ -403,65 +993,174 @@ proxy-groups:
       - CYL-科技 46
       - CYL-科技 47
       - CYL-科技 48
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
       - CYL-科技 49
-      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 50
-      - 🇺🇸 sfzy888.com _🇺🇸US_12074
-      - a 24
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
-      - 🇺🇸 梦歌_🇺🇸_US_美国_79
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 6
+      - 185.166.84.81:41992
+      - 167.88.63.61:7306
+      - 167.88.63.99:8091
+      - 167.88.63.60:7306
+      - CYL-科技（2021.10.17） 9
+      - CYL-科技（2021.10.17） 10
+      - CYL-科技（2021.10.17） 11
+      - CYL-科技 51
+      - CYL-科技 52
+      - CYL-科技 53
+      - CYL-科技 54
+      - CYL-科技 55
+      - CYL-科技 56
+      - CYL-科技 57
+      - CYL-科技 58
+      - CYL-科技 59
+      - CYL-科技 60
+      - CYL-科技 61
+      - 欧洲(Youtube频道：工具大师！) 2
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
+      - 🇭🇰 香港(Youtube频道：工具大师！) 5
+      - 🇬🇧 梦歌_英国_14
+      - 134.195.196.154:2375
+      - CYL-科技（2021.10.17） 12
+      - CYL-科技（2021.10.17） 13
+      - CYL-科技（2021.10.17） 14
+      - CYL-科技 62
+      - CYL-科技 63
+      - CYL-科技 64
+      - CYL-科技 65
+      - CYL-科技 66
+      - CYL-科技 67
+      - CYL-科技 68
+      - CYL-科技 69
+      - CYL-科技 70
+      - CYL-科技 71
+      - CYL-科技 72
+      - CYL-科技 73
+      - CYL-科技 74
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 7
+      - 🇺🇸 美国(Youtube频道：工具大师！) 6
+      - 欧洲(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 7
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 梦歌_🇺🇸_US_美国_82
+      - 🇺🇸 美国(Youtube频道：工具大师！) 8
+      - 🇺🇸 美国(Youtube频道：工具大师！) 9
+      - 🇺🇸 美国(Youtube频道：工具大师！) 10
+      - 🇺🇸 美国(Youtube频道：工具大师！) 11
+      - 🇺🇸 美国(Youtube频道：工具大师！) 12
+      - 🇺🇸 美国(Youtube频道：工具大师！) 13
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 14
+      - 134.195.196.154:2376
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 梦歌_🇺🇸_US_美国_29
+      - 🇺🇸 美国(Youtube频道：工具大师！) 15
+      - 欧洲(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 16
+      - 🇺🇸 美国(Youtube频道：工具大师！) 17
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 18
+      - 167.88.63.99:7306
+      - 134.195.198.195:7306
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇭🇰 香港(Youtube频道：工具大师！)
+      - 🇭🇰 香港(Youtube频道：工具大师！) 2
+      - 🇭🇰 香港(Youtube频道：工具大师！) 3
+      - 🇨🇳 阿伟科技-油管-台湾3
+      - 🇭🇰 香港(Youtube频道：工具大师！) 4
+      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技
+      - 🇷🇺 梦歌_俄罗斯联邦_11
+      - CYL-科技（2021.10.17）
       - CYL-科技 2
       - CYL-科技 3
-      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技 4
+      - 🇷🇺 梦歌_俄罗斯联邦_6
+      - CYL-科技（2021.10.17） 2
       - CYL-科技 5
+      - 79.110.54.133:31764
+      - 154.17.1.130:18335
+      - 🇷🇺 梦歌_俄罗斯联邦_4
+      - 🇷🇺 梦歌_俄罗斯联邦_17
+      - 🇷🇺 梦歌_俄罗斯联邦_6 2
+      - CYL-科技（2021.10.17） 3
+      - 🇷🇺 梦歌_俄罗斯联邦_7
       - CYL-科技 6
       - CYL-科技 7
+      - 🇺🇸 梦歌_美国_59
+      - 79.110.54.133:38620
       - CYL-科技 8
       - CYL-科技 9
       - CYL-科技 10
       - CYL-科技 11
       - CYL-科技 12
+      - CYL-科技（2021.10.17） 4
+      - 🇹🇭 泰国(Youtube频道：工具大师！)
       - CYL-科技 13
+      - a 24
+      - 154.17.2.141:18335
       - CYL-科技 14
       - CYL-科技 15
-      - 🇺🇸 梦歌_🇺🇸_US_美国_29
+      - 🇺🇸 梦歌_🇺🇸_US_美国_79
+      - 🇷🇺 梦歌_俄罗斯联邦_5
+      - CYL-科技（2021.10.17） 5
+      - 🇺🇸 sfzy888.com _🇺🇸US_12074
       - CYL-科技 16
       - CYL-科技 17
       - CYL-科技 18
-      - 🇺🇸 梦歌_🇺🇸_US_美国_83
       - CYL-科技 19
       - CYL-科技 20
       - CYL-科技 21
       - CYL-科技 22
+      - 🇺🇸 梦歌_🇺🇸_US_美国_83
+      - 🇨🇦 加拿大(Youtube频道：工具大师！)
+      - 🇷🇺 梦歌_俄罗斯联邦_5 2
+      - CYL-科技（2021.10.17） 6
+      - CYL-科技（2021.10.17） 7
+      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 23
-      - 🇺🇸 美国(Youtube频道：工具大师！)
       - CYL-科技 24
       - CYL-科技 25
       - CYL-科技 26
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 134.195.196.97:7307
+      - 79.110.54.133:47121
+      - 79.110.54.133:33148
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
+      - CYL-科技（2021.10.17） 8
+      - 🇺🇸 梦歌_🇺🇸_US_美国_55
       - CYL-科技 27
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 欧洲(Youtube频道：工具大师！)
+      - 167.88.63.119:7307
       - CYL-科技 31
       - CYL-科技 32
       - CYL-科技 33
+      - 🇨🇦 阿伟科技-油管-加拿大4
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
-      - 🇺🇸 梦歌_🇺🇸_US_美国_15
       - CYL-科技 37
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
+      - 79.110.54.133:46642
+      - 79.110.54.133:41992
+      - 79.110.54.133:49126
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
       - CYL-科技 38
       - CYL-科技 39
-      - 🇺🇸 梦歌_🇺🇸_US_美国_59
       - CYL-科技 40
       - CYL-科技 41
       - CYL-科技 42
@@ -471,66 +1170,175 @@ proxy-groups:
       - CYL-科技 46
       - CYL-科技 47
       - CYL-科技 48
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
       - CYL-科技 49
-      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 50
-      - 🇺🇸 sfzy888.com _🇺🇸US_12074
-      - a 24
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
-      - 🇺🇸 梦歌_🇺🇸_US_美国_79
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 6
+      - 185.166.84.81:41992
+      - 167.88.63.61:7306
+      - 167.88.63.99:8091
+      - 167.88.63.60:7306
+      - CYL-科技（2021.10.17） 9
+      - CYL-科技（2021.10.17） 10
+      - CYL-科技（2021.10.17） 11
+      - CYL-科技 51
+      - CYL-科技 52
+      - CYL-科技 53
+      - CYL-科技 54
+      - CYL-科技 55
+      - CYL-科技 56
+      - CYL-科技 57
+      - CYL-科技 58
+      - CYL-科技 59
+      - CYL-科技 60
+      - CYL-科技 61
+      - 欧洲(Youtube频道：工具大师！) 2
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
+      - 🇭🇰 香港(Youtube频道：工具大师！) 5
+      - 🇬🇧 梦歌_英国_14
+      - 134.195.196.154:2375
+      - CYL-科技（2021.10.17） 12
+      - CYL-科技（2021.10.17） 13
+      - CYL-科技（2021.10.17） 14
+      - CYL-科技 62
+      - CYL-科技 63
+      - CYL-科技 64
+      - CYL-科技 65
+      - CYL-科技 66
+      - CYL-科技 67
+      - CYL-科技 68
+      - CYL-科技 69
+      - CYL-科技 70
+      - CYL-科技 71
+      - CYL-科技 72
+      - CYL-科技 73
+      - CYL-科技 74
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 7
+      - 🇺🇸 美国(Youtube频道：工具大师！) 6
+      - 欧洲(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 7
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 梦歌_🇺🇸_US_美国_82
+      - 🇺🇸 美国(Youtube频道：工具大师！) 8
+      - 🇺🇸 美国(Youtube频道：工具大师！) 9
+      - 🇺🇸 美国(Youtube频道：工具大师！) 10
+      - 🇺🇸 美国(Youtube频道：工具大师！) 11
+      - 🇺🇸 美国(Youtube频道：工具大师！) 12
+      - 🇺🇸 美国(Youtube频道：工具大师！) 13
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 14
+      - 134.195.196.154:2376
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 梦歌_🇺🇸_US_美国_29
+      - 🇺🇸 美国(Youtube频道：工具大师！) 15
+      - 欧洲(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 16
+      - 🇺🇸 美国(Youtube频道：工具大师！) 17
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 18
+      - 167.88.63.99:7306
+      - 134.195.198.195:7306
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 香港(Youtube频道：工具大师！)
+      - 🇭🇰 香港(Youtube频道：工具大师！) 2
+      - 🇭🇰 香港(Youtube频道：工具大师！) 3
+      - 🇨🇳 阿伟科技-油管-台湾3
+      - 🇭🇰 香港(Youtube频道：工具大师！) 4
+      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技
+      - 🇷🇺 梦歌_俄罗斯联邦_11
+      - CYL-科技（2021.10.17）
       - CYL-科技 2
       - CYL-科技 3
-      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技 4
+      - 🇷🇺 梦歌_俄罗斯联邦_6
+      - CYL-科技（2021.10.17） 2
       - CYL-科技 5
+      - 79.110.54.133:31764
+      - 154.17.1.130:18335
+      - 🇷🇺 梦歌_俄罗斯联邦_4
+      - 🇷🇺 梦歌_俄罗斯联邦_17
+      - 🇷🇺 梦歌_俄罗斯联邦_6 2
+      - CYL-科技（2021.10.17） 3
+      - 🇷🇺 梦歌_俄罗斯联邦_7
       - CYL-科技 6
       - CYL-科技 7
+      - 🇺🇸 梦歌_美国_59
+      - 79.110.54.133:38620
       - CYL-科技 8
       - CYL-科技 9
       - CYL-科技 10
       - CYL-科技 11
       - CYL-科技 12
+      - CYL-科技（2021.10.17） 4
+      - 🇹🇭 泰国(Youtube频道：工具大师！)
       - CYL-科技 13
+      - a 24
+      - 154.17.2.141:18335
       - CYL-科技 14
       - CYL-科技 15
-      - 🇺🇸 梦歌_🇺🇸_US_美国_29
+      - 🇺🇸 梦歌_🇺🇸_US_美国_79
+      - 🇷🇺 梦歌_俄罗斯联邦_5
+      - CYL-科技（2021.10.17） 5
+      - 🇺🇸 sfzy888.com _🇺🇸US_12074
       - CYL-科技 16
       - CYL-科技 17
       - CYL-科技 18
-      - 🇺🇸 梦歌_🇺🇸_US_美国_83
       - CYL-科技 19
       - CYL-科技 20
       - CYL-科技 21
       - CYL-科技 22
+      - 🇺🇸 梦歌_🇺🇸_US_美国_83
+      - 🇨🇦 加拿大(Youtube频道：工具大师！)
+      - 🇷🇺 梦歌_俄罗斯联邦_5 2
+      - CYL-科技（2021.10.17） 6
+      - CYL-科技（2021.10.17） 7
+      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 23
-      - 🇺🇸 美国(Youtube频道：工具大师！)
       - CYL-科技 24
       - CYL-科技 25
       - CYL-科技 26
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 134.195.196.97:7307
+      - 79.110.54.133:47121
+      - 79.110.54.133:33148
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
+      - CYL-科技（2021.10.17） 8
+      - 🇺🇸 梦歌_🇺🇸_US_美国_55
       - CYL-科技 27
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 欧洲(Youtube频道：工具大师！)
+      - 167.88.63.119:7307
       - CYL-科技 31
       - CYL-科技 32
       - CYL-科技 33
+      - 🇨🇦 阿伟科技-油管-加拿大4
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
-      - 🇺🇸 梦歌_🇺🇸_US_美国_15
       - CYL-科技 37
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
+      - 79.110.54.133:46642
+      - 79.110.54.133:41992
+      - 79.110.54.133:49126
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
       - CYL-科技 38
       - CYL-科技 39
-      - 🇺🇸 梦歌_🇺🇸_US_美国_59
       - CYL-科技 40
       - CYL-科技 41
       - CYL-科技 42
@@ -540,14 +1348,78 @@ proxy-groups:
       - CYL-科技 46
       - CYL-科技 47
       - CYL-科技 48
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
       - CYL-科技 49
-      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 50
-      - 🇺🇸 sfzy888.com _🇺🇸US_12074
-      - a 24
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
-      - 🇺🇸 梦歌_🇺🇸_US_美国_79
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 6
+      - 185.166.84.81:41992
+      - 167.88.63.61:7306
+      - 167.88.63.99:8091
+      - 167.88.63.60:7306
+      - CYL-科技（2021.10.17） 9
+      - CYL-科技（2021.10.17） 10
+      - CYL-科技（2021.10.17） 11
+      - CYL-科技 51
+      - CYL-科技 52
+      - CYL-科技 53
+      - CYL-科技 54
+      - CYL-科技 55
+      - CYL-科技 56
+      - CYL-科技 57
+      - CYL-科技 58
+      - CYL-科技 59
+      - CYL-科技 60
+      - CYL-科技 61
+      - 欧洲(Youtube频道：工具大师！) 2
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
+      - 🇭🇰 香港(Youtube频道：工具大师！) 5
+      - 🇬🇧 梦歌_英国_14
+      - 134.195.196.154:2375
+      - CYL-科技（2021.10.17） 12
+      - CYL-科技（2021.10.17） 13
+      - CYL-科技（2021.10.17） 14
+      - CYL-科技 62
+      - CYL-科技 63
+      - CYL-科技 64
+      - CYL-科技 65
+      - CYL-科技 66
+      - CYL-科技 67
+      - CYL-科技 68
+      - CYL-科技 69
+      - CYL-科技 70
+      - CYL-科技 71
+      - CYL-科技 72
+      - CYL-科技 73
+      - CYL-科技 74
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 7
+      - 🇺🇸 美国(Youtube频道：工具大师！) 6
+      - 欧洲(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 7
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 梦歌_🇺🇸_US_美国_82
+      - 🇺🇸 美国(Youtube频道：工具大师！) 8
+      - 🇺🇸 美国(Youtube频道：工具大师！) 9
+      - 🇺🇸 美国(Youtube频道：工具大师！) 10
+      - 🇺🇸 美国(Youtube频道：工具大师！) 11
+      - 🇺🇸 美国(Youtube频道：工具大师！) 12
+      - 🇺🇸 美国(Youtube频道：工具大师！) 13
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 14
+      - 134.195.196.154:2376
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 梦歌_🇺🇸_US_美国_29
+      - 🇺🇸 美国(Youtube频道：工具大师！) 15
+      - 欧洲(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 16
+      - 🇺🇸 美国(Youtube频道：工具大师！) 17
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 18
+      - 167.88.63.99:7306
+      - 134.195.198.195:7306
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -570,52 +1442,97 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 香港(Youtube频道：工具大师！)
+      - 🇭🇰 香港(Youtube频道：工具大师！) 2
+      - 🇭🇰 香港(Youtube频道：工具大师！) 3
+      - 🇨🇳 阿伟科技-油管-台湾3
+      - 🇭🇰 香港(Youtube频道：工具大师！) 4
+      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技
+      - 🇷🇺 梦歌_俄罗斯联邦_11
+      - CYL-科技（2021.10.17）
       - CYL-科技 2
       - CYL-科技 3
-      - 🇺🇸 阿伟科技-油管-美国
       - CYL-科技 4
+      - 🇷🇺 梦歌_俄罗斯联邦_6
+      - CYL-科技（2021.10.17） 2
       - CYL-科技 5
+      - 79.110.54.133:31764
+      - 154.17.1.130:18335
+      - 🇷🇺 梦歌_俄罗斯联邦_4
+      - 🇷🇺 梦歌_俄罗斯联邦_17
+      - 🇷🇺 梦歌_俄罗斯联邦_6 2
+      - CYL-科技（2021.10.17） 3
+      - 🇷🇺 梦歌_俄罗斯联邦_7
       - CYL-科技 6
       - CYL-科技 7
+      - 🇺🇸 梦歌_美国_59
+      - 79.110.54.133:38620
       - CYL-科技 8
       - CYL-科技 9
       - CYL-科技 10
       - CYL-科技 11
       - CYL-科技 12
+      - CYL-科技（2021.10.17） 4
+      - 🇹🇭 泰国(Youtube频道：工具大师！)
       - CYL-科技 13
+      - a 24
+      - 154.17.2.141:18335
       - CYL-科技 14
       - CYL-科技 15
-      - 🇺🇸 梦歌_🇺🇸_US_美国_29
+      - 🇺🇸 梦歌_🇺🇸_US_美国_79
+      - 🇷🇺 梦歌_俄罗斯联邦_5
+      - CYL-科技（2021.10.17） 5
+      - 🇺🇸 sfzy888.com _🇺🇸US_12074
       - CYL-科技 16
       - CYL-科技 17
       - CYL-科技 18
-      - 🇺🇸 梦歌_🇺🇸_US_美国_83
       - CYL-科技 19
       - CYL-科技 20
       - CYL-科技 21
       - CYL-科技 22
+      - 🇺🇸 梦歌_🇺🇸_US_美国_83
+      - 🇨🇦 加拿大(Youtube频道：工具大师！)
+      - 🇷🇺 梦歌_俄罗斯联邦_5 2
+      - CYL-科技（2021.10.17） 6
+      - CYL-科技（2021.10.17） 7
+      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 23
-      - 🇺🇸 美国(Youtube频道：工具大师！)
       - CYL-科技 24
       - CYL-科技 25
       - CYL-科技 26
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 134.195.196.97:7307
+      - 79.110.54.133:47121
+      - 79.110.54.133:33148
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
+      - CYL-科技（2021.10.17） 8
+      - 🇺🇸 梦歌_🇺🇸_US_美国_55
       - CYL-科技 27
       - CYL-科技 28
       - CYL-科技 29
       - CYL-科技 30
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 欧洲(Youtube频道：工具大师！)
+      - 167.88.63.119:7307
       - CYL-科技 31
       - CYL-科技 32
       - CYL-科技 33
+      - 🇨🇦 阿伟科技-油管-加拿大4
       - CYL-科技 34
       - CYL-科技 35
       - CYL-科技 36
-      - 🇺🇸 梦歌_🇺🇸_US_美国_15
       - CYL-科技 37
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
+      - 79.110.54.133:46642
+      - 79.110.54.133:41992
+      - 79.110.54.133:49126
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
       - CYL-科技 38
       - CYL-科技 39
-      - 🇺🇸 梦歌_🇺🇸_US_美国_59
       - CYL-科技 40
       - CYL-科技 41
       - CYL-科技 42
@@ -625,14 +1542,78 @@ proxy-groups:
       - CYL-科技 46
       - CYL-科技 47
       - CYL-科技 48
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
       - CYL-科技 49
-      - 🇬🇧 英国 曼彻斯特（感谢关注youtube：8度科技）
       - CYL-科技 50
-      - 🇺🇸 sfzy888.com _🇺🇸US_12074
-      - a 24
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
-      - 🇺🇸 梦歌_🇺🇸_US_美国_79
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 6
+      - 185.166.84.81:41992
+      - 167.88.63.61:7306
+      - 167.88.63.99:8091
+      - 167.88.63.60:7306
+      - CYL-科技（2021.10.17） 9
+      - CYL-科技（2021.10.17） 10
+      - CYL-科技（2021.10.17） 11
+      - CYL-科技 51
+      - CYL-科技 52
+      - CYL-科技 53
+      - CYL-科技 54
+      - CYL-科技 55
+      - CYL-科技 56
+      - CYL-科技 57
+      - CYL-科技 58
+      - CYL-科技 59
+      - CYL-科技 60
+      - CYL-科技 61
+      - 欧洲(Youtube频道：工具大师！) 2
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
+      - 🇭🇰 香港(Youtube频道：工具大师！) 5
+      - 🇬🇧 梦歌_英国_14
+      - 134.195.196.154:2375
+      - CYL-科技（2021.10.17） 12
+      - CYL-科技（2021.10.17） 13
+      - CYL-科技（2021.10.17） 14
+      - CYL-科技 62
+      - CYL-科技 63
+      - CYL-科技 64
+      - CYL-科技 65
+      - CYL-科技 66
+      - CYL-科技 67
+      - CYL-科技 68
+      - CYL-科技 69
+      - CYL-科技 70
+      - CYL-科技 71
+      - CYL-科技 72
+      - CYL-科技 73
+      - CYL-科技 74
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 7
+      - 🇺🇸 美国(Youtube频道：工具大师！) 6
+      - 欧洲(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 7
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 梦歌_🇺🇸_US_美国_82
+      - 🇺🇸 美国(Youtube频道：工具大师！) 8
+      - 🇺🇸 美国(Youtube频道：工具大师！) 9
+      - 🇺🇸 美国(Youtube频道：工具大师！) 10
+      - 🇺🇸 美国(Youtube频道：工具大师！) 11
+      - 🇺🇸 美国(Youtube频道：工具大师！) 12
+      - 🇺🇸 美国(Youtube频道：工具大师！) 13
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 14
+      - 134.195.196.154:2376
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 梦歌_🇺🇸_US_美国_29
+      - 🇺🇸 美国(Youtube频道：工具大师！) 15
+      - 欧洲(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 16
+      - 🇺🇸 美国(Youtube频道：工具大师！) 17
+      - 🇹🇭 泰国(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！) 18
+      - 167.88.63.99:7306
+      - 134.195.198.195:7306
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
