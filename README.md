@@ -5,469 +5,605 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 阿伟科技-油管-香港, server: pf.freev2r.xyz, port: 36443, type: ss, cipher: chacha20-ietf-poly1305, password: ddc565ec-5eaf-45a9-be52-6c049541d43c}
-  - {name: CYL-科技（2021.10.22）, server: 146.56.187.13, port: 80, type: vmess, uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 146.56.187.13}}
-  - {name: CYL-科技（2021.10.22） 2, server: hgchgc1.yyyywe.top, port: 10120, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hgchgc1.yyyywe.top}}
-  - {name: CYL-科技（2021.10.22） 3, server: 1.transit.t.qjnodeip.xyz, port: 41431, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /J5, ws-headers: {Host: xjp1.dddwda.xyz}}
-  - {name: 🇹🇭 泰国(Youtube频道：工具大师！), server: 27.131.164.94, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
-  - {name: 🇹🇭 泰国(Youtube频道：工具大师！) 2, server: 27.131.164.94, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: CYL-科技（2021.10.21）, server: 27.131.164.94, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: CYL-科技（2021.10.19）, server: 172.252.99.15, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: CYL-科技（2021.10.22） 4, server: 79.110.54.133, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: CYL-科技（2021.10.22） 5, server: 172.252.64.50, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: CYL-科技（2021.10.22） 6, server: 172.252.99.23, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: CYL-科技（2021.10.22） 7, server: 146.56.159.81, port: 25487, type: vmess, uuid: d965d82e-b325-44e8-a472-84721a3ab07c, alterId: 0, cipher: auto, tls: false}
-  - {name: CYL-科技（2021.10.22） 8, server: 79.110.54.133, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
-  - {name: 🇹🇭 泰国(Youtube频道：工具大师！) 3, server: 27.131.164.94, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: CYL-科技（2021.10.22） 9, server: 66.115.177.136, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: CYL-科技（2021.10.22） 10, server: 79.110.54.133, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
-  - {name: CYL-科技（2021.10.22） 11, server: 154.17.2.94, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: pAYSRy4Y8w5aST72CzNRayDeESlOBAxZnKD0363g39xFDuCqal8IcZep3OXjFC}
-  - {name: github.com/freefq - 乌克兰  76, server: t7.ssrsub.com, port: 8443, type: trojan, password: 6270e596-dfa0-48a3-aad0-613ce89724b4, sni: t7.ssrsub.com}
-  - {name: CYL-科技（2021.10.19） 2, server: 172.252.64.56, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: CYL-科技（2021.10.22） 12, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2021.10.22） 13, server: uusss1111.liuwei01.tk, port: 443, type: vmess, uuid: 0fab5928-9d70-4666-b351-5debff8a15de, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /liuwei, ws-headers: {Host: uusss1111.liuwei01.tk}}
-  - {name: CYL-科技（2021.10.21） 2, server: 27.131.164.94, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: CYL-科技（2021.10.22） 14, server: 66.115.177.156, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: CYL-科技（2021.10.22） 15, server: 134.195.196.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2021.10.22） 16, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.10.22） 17, server: 66.115.177.141, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: CYL-科技（2021.10.19） 3, server: 172.252.99.27, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: CYL-科技（2021.10.22） 18, server: 167.88.63.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2021.10.22） 19, server: 86.106.136.93, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: CYL-科技（2021.10.22） 20, server: 66.115.177.156, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
-  - {name: CYL-科技（2021.10.22） 21, server: 79.110.54.133, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: CYL-科技（2021.10.21） 3, server: 27.131.164.94, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
-  - {name: CYL-科技（2021.10.22） 22, server: 172.99.190.205, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2021.10.22） 23, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.10.22） 24, server: 172.99.190.230, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.10.22） 25, server: ukdll.52jjyun.top, port: 80, type: vmess, uuid: c8191e5d-c551-4896-8d57-7493da874557, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ukdll.52jjyun.top}}
-  - {name: CYL-科技（2021.10.22） 26, server: 66.115.177.156, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
-  - {name: CYL-科技（2021.10.22） 27, server: 154.17.2.64, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: ZEAC0K2Iulex3XajSe8pCy3YaDCSDpz9Z67OwDnT8ANRalRSYcqFF54yBx3Og3}
-  - {name: CYL-科技（2021.10.22） 28, server: 139.162.189.117, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2021.10.22） 29, server: 66.115.177.156, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: CYL-科技（2021.10.22） 30, server: 134.195.196.163, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2021.10.22） 31, server: 134.195.198.252, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.10.22） 32, server: 66.115.177.136, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君), server: 198.57.27.247, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2021.10.19）, server: 27.131.164.94, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: CYL-科技（2021.10.21）, server: 27.131.164.94, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: CYL-科技（2021.10.22）, server: 154.17.2.94, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: pAYSRy4Y8w5aST72CzNRayDeESlOBAxZnKD0363g39xFDuCqal8IcZep3OXjFC}
+  - {name: CYL-科技（2021.10.19） 2, server: 172.252.99.27, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: CYL-科技（2021.10.22） 2, server: 172.252.99.23, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: CYL-科技（2021.10.19） 3, server: 172.252.64.56, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: CYL-科技（2021.10.22） 3, server: 154.17.2.64, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: ZEAC0K2Iulex3XajSe8pCy3YaDCSDpz9Z67OwDnT8ANRalRSYcqFF54yBx3Og3}
+  - {name: CYL-科技（2021.10.23）, server: 144.172.69.74, port: 11031, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 144.172.69.74}}
+  - {name: CYL-科技（2021.10.22） 4, server: 134.195.196.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技, server: 27.131.164.100, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: CYL-科技（2021.10.22） 5, server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技（2021.10.22） 6, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: "🇨🇦 加拿大[YouTube梦歌]_44", server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2021.10.21） 4, server: 1.transit.t.qjnodeip.xyz, port: 27435, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /JP03W, ws-headers: {Host: xjp03.cswtw.xyz}}
-  - {name: 🇹🇭 泰国(Youtube频道：工具大师！) 4, server: 27.131.164.94, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 🇺🇸 美国(Youtube频道：工具大师！), server: 172.99.190.186, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.10.22） 33, server: 46.101.28.98, port: 12222, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 46.101.28.98}}
-  - {name: "🇬🇧 英国[YouTube梦歌]_217", server: ruml.jjyun.ren, port: 88, type: vmess, uuid: bf7134c3-914d-4294-8cdf-6eda920d1a42, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ruml.jjyun.ren}}
+  - {name: CA_1156, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2021.10.21） 2, server: 198.57.27.243, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "🇺🇸 美国[YouTube梦歌]_115", server: 167.88.63.107, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！), server: 198.57.27.233, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2021.10.22） 7, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技（2021.10.21） 3, server: 198.57.27.247, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技（2021.10.21） 4, server: 134.195.196.130, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ_14307, server: 134.195.196.110, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技（2021.10.23） 2, server: 86.106.136.93, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君), server: 198.57.27.247, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2021.10.22） 8, server: 134.195.198.250, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技（2021.10.22） 9, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技（2021.10.21） 5, server: 134.195.196.165, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技（2021.10.22） 10, server: 172.252.64.50, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: CYL-科技（2021.10.22） 11, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2021.10.22） 12, server: 134.195.196.163, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技（2021.10.22） 13, server: 172.99.190.90, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CYL-科技（2021.10.22） 14, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2021.10.22） 15, server: 134.195.196.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2021.10.21） 6, server: 134.195.198.195, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2021.10.22） 16, server: 134.195.198.250, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技（2021.10.21） 7, server: 1.transit.t.qjnodeip.xyz, port: 27435, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /JP03W, ws-headers: {Host: xjp03.cswtw.xyz}}
+  - {name: CYL-科技（2021.10.21） 8, server: 198.57.27.243, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技（2021.10.21） 9, server: 172.99.190.92, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "欧洲[YouTube梦歌]_83", server: 134.195.196.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技（2021.10.21） 10, server: 134.195.198.252, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技（2021.10.21） 11, server: 198.57.27.243, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2021.10.22） 17, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技（2021.10.21） 12, server: 38.107.226.159, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "🇺🇸 美国[YouTube梦歌]_1", server: 167.88.63.28, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技（2021.10.22） 18, server: ukdll.52jjyun.top, port: 80, type: vmess, uuid: c8191e5d-c551-4896-8d57-7493da874557, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ukdll.52jjyun.top}}
+  - {name: CYL-科技（2021.10.22） 19, server: 134.195.198.178, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2021.10.21） 13, server: 134.195.198.95, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技（2021.10.22） 20, server: 134.195.198.250, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技（2021.10.22） 21, server: 172.99.190.90, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技（2021.10.22） 22, server: 134.195.196.165, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CA_1158, server: 198.57.27.233, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "🇺🇸 美国[YouTube梦歌]_97", server: 172.99.190.35, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2021.10.21） 14, server: 134.195.198.250, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2021.10.23） 3, server: 193.118.60.166, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！) 2, server: 134.195.196.97, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！) 3, server: 134.195.196.163, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: CA_1152, server: 198.57.27.233, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ZZ_14284, server: 134.195.196.110, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: "🇫🇷 法国[YouTube梦歌]_146", server: 185.166.84.81, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: ZZ_13911, server: 134.195.196.163, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "🇺🇸 美国[YouTube梦歌]_55", server: 38.107.226.146, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "🇬🇧 英国[YouTube梦歌]_150", server: 193.118.60.176, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！) 4, server: 134.195.196.97, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！), server: 38.107.226.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "🇨🇦 加拿大[YouTube梦歌]_48", server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "🇺🇸 美国[YouTube梦歌]_224", server: 167.88.63.82, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 2, server: 172.99.190.158, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 3, server: 38.107.226.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "🇨🇦 加拿大[YouTube梦歌]_49", server: 198.57.27.225, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！) 5, server: 198.57.27.233, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "🇨🇦 加拿大[YouTube梦歌]_53", server: 198.57.27.233, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "🇺🇸 美国[YouTube梦歌]_17", server: 167.88.63.107, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 阿伟科技-油管-加拿大, server: 134.195.196.163, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 阿伟科技-油管-香港
-      - CYL-科技（2021.10.22）
-      - CYL-科技（2021.10.22） 2
-      - CYL-科技（2021.10.22） 3
-      - 🇹🇭 泰国(Youtube频道：工具大师！)
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
-      - CYL-科技（2021.10.21）
       - CYL-科技（2021.10.19）
+      - CYL-科技（2021.10.21）
+      - CYL-科技（2021.10.22）
+      - CYL-科技（2021.10.19） 2
+      - CYL-科技（2021.10.22） 2
+      - CYL-科技（2021.10.19） 3
+      - CYL-科技（2021.10.22） 3
+      - CYL-科技（2021.10.23）
       - CYL-科技（2021.10.22） 4
+      - CYL-科技
       - CYL-科技（2021.10.22） 5
       - CYL-科技（2021.10.22） 6
+      - 🇨🇦 加拿大[YouTube梦歌]_44
+      - CA_1156
+      - CYL-科技（2021.10.21） 2
+      - 🇺🇸 美国[YouTube梦歌]_115
+      - 🇨🇦 加拿大(Youtube频道：工具大师！)
       - CYL-科技（2021.10.22） 7
+      - CYL-科技（2021.10.21） 3
+      - CYL-科技（2021.10.21） 4
+      - ZZ_14307
+      - CYL-科技（2021.10.23） 2
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
       - CYL-科技（2021.10.22） 8
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 3
       - CYL-科技（2021.10.22） 9
+      - CYL-科技（2021.10.21） 5
       - CYL-科技（2021.10.22） 10
       - CYL-科技（2021.10.22） 11
-      - github.com/freefq - 乌克兰  76
-      - CYL-科技（2021.10.19） 2
       - CYL-科技（2021.10.22） 12
       - CYL-科技（2021.10.22） 13
-      - CYL-科技（2021.10.21） 2
       - CYL-科技（2021.10.22） 14
       - CYL-科技（2021.10.22） 15
+      - CYL-科技（2021.10.21） 6
       - CYL-科技（2021.10.22） 16
+      - CYL-科技（2021.10.21） 7
+      - CYL-科技（2021.10.21） 8
+      - CYL-科技（2021.10.21） 9
+      - 欧洲[YouTube梦歌]_83
+      - CYL-科技（2021.10.21） 10
+      - CYL-科技（2021.10.21） 11
       - CYL-科技（2021.10.22） 17
-      - CYL-科技（2021.10.19） 3
+      - CYL-科技（2021.10.21） 12
+      - 🇺🇸 美国[YouTube梦歌]_1
       - CYL-科技（2021.10.22） 18
       - CYL-科技（2021.10.22） 19
+      - CYL-科技（2021.10.21） 13
       - CYL-科技（2021.10.22） 20
       - CYL-科技（2021.10.22） 21
-      - CYL-科技（2021.10.21） 3
       - CYL-科技（2021.10.22） 22
-      - CYL-科技（2021.10.22） 23
-      - CYL-科技（2021.10.22） 24
-      - CYL-科技（2021.10.22） 25
-      - CYL-科技（2021.10.22） 26
-      - CYL-科技（2021.10.22） 27
-      - CYL-科技（2021.10.22） 28
-      - CYL-科技（2021.10.22） 29
-      - CYL-科技（2021.10.22） 30
-      - CYL-科技（2021.10.22） 31
-      - CYL-科技（2021.10.22） 32
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
-      - 🇨🇦 加拿大[YouTube梦歌]_44
-      - CYL-科技（2021.10.21） 4
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 4
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.22） 33
-      - 🇬🇧 英国[YouTube梦歌]_217
+      - CA_1158
+      - 🇺🇸 美国[YouTube梦歌]_97
+      - CYL-科技（2021.10.21） 14
+      - CYL-科技（2021.10.23） 3
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
       - CA_1152
-      - ZZ_14284
-      - 🇫🇷 法国[YouTube梦歌]_146
+      - ZZ_13911
+      - 🇺🇸 美国[YouTube梦歌]_55
+      - 🇬🇧 英国[YouTube梦歌]_150
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇨🇦 加拿大[YouTube梦歌]_48
+      - 🇺🇸 美国[YouTube梦歌]_224
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇨🇦 加拿大[YouTube梦歌]_49
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
+      - 🇨🇦 加拿大[YouTube梦歌]_53
+      - 🇺🇸 美国[YouTube梦歌]_17
+      - 🇨🇦 阿伟科技-油管-加拿大
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 阿伟科技-油管-香港
-      - CYL-科技（2021.10.22）
-      - CYL-科技（2021.10.22） 2
-      - CYL-科技（2021.10.22） 3
-      - 🇹🇭 泰国(Youtube频道：工具大师！)
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
-      - CYL-科技（2021.10.21）
       - CYL-科技（2021.10.19）
+      - CYL-科技（2021.10.21）
+      - CYL-科技（2021.10.22）
+      - CYL-科技（2021.10.19） 2
+      - CYL-科技（2021.10.22） 2
+      - CYL-科技（2021.10.19） 3
+      - CYL-科技（2021.10.22） 3
+      - CYL-科技（2021.10.23）
       - CYL-科技（2021.10.22） 4
+      - CYL-科技
       - CYL-科技（2021.10.22） 5
       - CYL-科技（2021.10.22） 6
+      - 🇨🇦 加拿大[YouTube梦歌]_44
+      - CA_1156
+      - CYL-科技（2021.10.21） 2
+      - 🇺🇸 美国[YouTube梦歌]_115
+      - 🇨🇦 加拿大(Youtube频道：工具大师！)
       - CYL-科技（2021.10.22） 7
+      - CYL-科技（2021.10.21） 3
+      - CYL-科技（2021.10.21） 4
+      - ZZ_14307
+      - CYL-科技（2021.10.23） 2
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
       - CYL-科技（2021.10.22） 8
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 3
       - CYL-科技（2021.10.22） 9
+      - CYL-科技（2021.10.21） 5
       - CYL-科技（2021.10.22） 10
       - CYL-科技（2021.10.22） 11
-      - github.com/freefq - 乌克兰  76
-      - CYL-科技（2021.10.19） 2
       - CYL-科技（2021.10.22） 12
       - CYL-科技（2021.10.22） 13
-      - CYL-科技（2021.10.21） 2
       - CYL-科技（2021.10.22） 14
       - CYL-科技（2021.10.22） 15
+      - CYL-科技（2021.10.21） 6
       - CYL-科技（2021.10.22） 16
+      - CYL-科技（2021.10.21） 7
+      - CYL-科技（2021.10.21） 8
+      - CYL-科技（2021.10.21） 9
+      - 欧洲[YouTube梦歌]_83
+      - CYL-科技（2021.10.21） 10
+      - CYL-科技（2021.10.21） 11
       - CYL-科技（2021.10.22） 17
-      - CYL-科技（2021.10.19） 3
+      - CYL-科技（2021.10.21） 12
+      - 🇺🇸 美国[YouTube梦歌]_1
       - CYL-科技（2021.10.22） 18
       - CYL-科技（2021.10.22） 19
+      - CYL-科技（2021.10.21） 13
       - CYL-科技（2021.10.22） 20
       - CYL-科技（2021.10.22） 21
-      - CYL-科技（2021.10.21） 3
       - CYL-科技（2021.10.22） 22
-      - CYL-科技（2021.10.22） 23
-      - CYL-科技（2021.10.22） 24
-      - CYL-科技（2021.10.22） 25
-      - CYL-科技（2021.10.22） 26
-      - CYL-科技（2021.10.22） 27
-      - CYL-科技（2021.10.22） 28
-      - CYL-科技（2021.10.22） 29
-      - CYL-科技（2021.10.22） 30
-      - CYL-科技（2021.10.22） 31
-      - CYL-科技（2021.10.22） 32
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
-      - 🇨🇦 加拿大[YouTube梦歌]_44
-      - CYL-科技（2021.10.21） 4
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 4
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.22） 33
-      - 🇬🇧 英国[YouTube梦歌]_217
+      - CA_1158
+      - 🇺🇸 美国[YouTube梦歌]_97
+      - CYL-科技（2021.10.21） 14
+      - CYL-科技（2021.10.23） 3
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
       - CA_1152
-      - ZZ_14284
-      - 🇫🇷 法国[YouTube梦歌]_146
+      - ZZ_13911
+      - 🇺🇸 美国[YouTube梦歌]_55
+      - 🇬🇧 英国[YouTube梦歌]_150
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇨🇦 加拿大[YouTube梦歌]_48
+      - 🇺🇸 美国[YouTube梦歌]_224
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇨🇦 加拿大[YouTube梦歌]_49
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
+      - 🇨🇦 加拿大[YouTube梦歌]_53
+      - 🇺🇸 美国[YouTube梦歌]_17
+      - 🇨🇦 阿伟科技-油管-加拿大
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 阿伟科技-油管-香港
-      - CYL-科技（2021.10.22）
-      - CYL-科技（2021.10.22） 2
-      - CYL-科技（2021.10.22） 3
-      - 🇹🇭 泰国(Youtube频道：工具大师！)
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
-      - CYL-科技（2021.10.21）
       - CYL-科技（2021.10.19）
+      - CYL-科技（2021.10.21）
+      - CYL-科技（2021.10.22）
+      - CYL-科技（2021.10.19） 2
+      - CYL-科技（2021.10.22） 2
+      - CYL-科技（2021.10.19） 3
+      - CYL-科技（2021.10.22） 3
+      - CYL-科技（2021.10.23）
       - CYL-科技（2021.10.22） 4
+      - CYL-科技
       - CYL-科技（2021.10.22） 5
       - CYL-科技（2021.10.22） 6
+      - 🇨🇦 加拿大[YouTube梦歌]_44
+      - CA_1156
+      - CYL-科技（2021.10.21） 2
+      - 🇺🇸 美国[YouTube梦歌]_115
+      - 🇨🇦 加拿大(Youtube频道：工具大师！)
       - CYL-科技（2021.10.22） 7
+      - CYL-科技（2021.10.21） 3
+      - CYL-科技（2021.10.21） 4
+      - ZZ_14307
+      - CYL-科技（2021.10.23） 2
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
       - CYL-科技（2021.10.22） 8
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 3
       - CYL-科技（2021.10.22） 9
+      - CYL-科技（2021.10.21） 5
       - CYL-科技（2021.10.22） 10
       - CYL-科技（2021.10.22） 11
-      - github.com/freefq - 乌克兰  76
-      - CYL-科技（2021.10.19） 2
       - CYL-科技（2021.10.22） 12
       - CYL-科技（2021.10.22） 13
-      - CYL-科技（2021.10.21） 2
       - CYL-科技（2021.10.22） 14
       - CYL-科技（2021.10.22） 15
+      - CYL-科技（2021.10.21） 6
       - CYL-科技（2021.10.22） 16
+      - CYL-科技（2021.10.21） 7
+      - CYL-科技（2021.10.21） 8
+      - CYL-科技（2021.10.21） 9
+      - 欧洲[YouTube梦歌]_83
+      - CYL-科技（2021.10.21） 10
+      - CYL-科技（2021.10.21） 11
       - CYL-科技（2021.10.22） 17
-      - CYL-科技（2021.10.19） 3
+      - CYL-科技（2021.10.21） 12
+      - 🇺🇸 美国[YouTube梦歌]_1
       - CYL-科技（2021.10.22） 18
       - CYL-科技（2021.10.22） 19
+      - CYL-科技（2021.10.21） 13
       - CYL-科技（2021.10.22） 20
       - CYL-科技（2021.10.22） 21
-      - CYL-科技（2021.10.21） 3
       - CYL-科技（2021.10.22） 22
-      - CYL-科技（2021.10.22） 23
-      - CYL-科技（2021.10.22） 24
-      - CYL-科技（2021.10.22） 25
-      - CYL-科技（2021.10.22） 26
-      - CYL-科技（2021.10.22） 27
-      - CYL-科技（2021.10.22） 28
-      - CYL-科技（2021.10.22） 29
-      - CYL-科技（2021.10.22） 30
-      - CYL-科技（2021.10.22） 31
-      - CYL-科技（2021.10.22） 32
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
-      - 🇨🇦 加拿大[YouTube梦歌]_44
-      - CYL-科技（2021.10.21） 4
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 4
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.22） 33
-      - 🇬🇧 英国[YouTube梦歌]_217
+      - CA_1158
+      - 🇺🇸 美国[YouTube梦歌]_97
+      - CYL-科技（2021.10.21） 14
+      - CYL-科技（2021.10.23） 3
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
       - CA_1152
-      - ZZ_14284
-      - 🇫🇷 法国[YouTube梦歌]_146
+      - ZZ_13911
+      - 🇺🇸 美国[YouTube梦歌]_55
+      - 🇬🇧 英国[YouTube梦歌]_150
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇨🇦 加拿大[YouTube梦歌]_48
+      - 🇺🇸 美国[YouTube梦歌]_224
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇨🇦 加拿大[YouTube梦歌]_49
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
+      - 🇨🇦 加拿大[YouTube梦歌]_53
+      - 🇺🇸 美国[YouTube梦歌]_17
+      - 🇨🇦 阿伟科技-油管-加拿大
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 阿伟科技-油管-香港
-      - CYL-科技（2021.10.22）
-      - CYL-科技（2021.10.22） 2
-      - CYL-科技（2021.10.22） 3
-      - 🇹🇭 泰国(Youtube频道：工具大师！)
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
-      - CYL-科技（2021.10.21）
       - CYL-科技（2021.10.19）
+      - CYL-科技（2021.10.21）
+      - CYL-科技（2021.10.22）
+      - CYL-科技（2021.10.19） 2
+      - CYL-科技（2021.10.22） 2
+      - CYL-科技（2021.10.19） 3
+      - CYL-科技（2021.10.22） 3
+      - CYL-科技（2021.10.23）
       - CYL-科技（2021.10.22） 4
+      - CYL-科技
       - CYL-科技（2021.10.22） 5
       - CYL-科技（2021.10.22） 6
+      - 🇨🇦 加拿大[YouTube梦歌]_44
+      - CA_1156
+      - CYL-科技（2021.10.21） 2
+      - 🇺🇸 美国[YouTube梦歌]_115
+      - 🇨🇦 加拿大(Youtube频道：工具大师！)
       - CYL-科技（2021.10.22） 7
+      - CYL-科技（2021.10.21） 3
+      - CYL-科技（2021.10.21） 4
+      - ZZ_14307
+      - CYL-科技（2021.10.23） 2
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
       - CYL-科技（2021.10.22） 8
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 3
       - CYL-科技（2021.10.22） 9
+      - CYL-科技（2021.10.21） 5
       - CYL-科技（2021.10.22） 10
       - CYL-科技（2021.10.22） 11
-      - github.com/freefq - 乌克兰  76
-      - CYL-科技（2021.10.19） 2
       - CYL-科技（2021.10.22） 12
       - CYL-科技（2021.10.22） 13
-      - CYL-科技（2021.10.21） 2
       - CYL-科技（2021.10.22） 14
       - CYL-科技（2021.10.22） 15
+      - CYL-科技（2021.10.21） 6
       - CYL-科技（2021.10.22） 16
+      - CYL-科技（2021.10.21） 7
+      - CYL-科技（2021.10.21） 8
+      - CYL-科技（2021.10.21） 9
+      - 欧洲[YouTube梦歌]_83
+      - CYL-科技（2021.10.21） 10
+      - CYL-科技（2021.10.21） 11
       - CYL-科技（2021.10.22） 17
-      - CYL-科技（2021.10.19） 3
+      - CYL-科技（2021.10.21） 12
+      - 🇺🇸 美国[YouTube梦歌]_1
       - CYL-科技（2021.10.22） 18
       - CYL-科技（2021.10.22） 19
+      - CYL-科技（2021.10.21） 13
       - CYL-科技（2021.10.22） 20
       - CYL-科技（2021.10.22） 21
-      - CYL-科技（2021.10.21） 3
       - CYL-科技（2021.10.22） 22
-      - CYL-科技（2021.10.22） 23
-      - CYL-科技（2021.10.22） 24
-      - CYL-科技（2021.10.22） 25
-      - CYL-科技（2021.10.22） 26
-      - CYL-科技（2021.10.22） 27
-      - CYL-科技（2021.10.22） 28
-      - CYL-科技（2021.10.22） 29
-      - CYL-科技（2021.10.22） 30
-      - CYL-科技（2021.10.22） 31
-      - CYL-科技（2021.10.22） 32
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
-      - 🇨🇦 加拿大[YouTube梦歌]_44
-      - CYL-科技（2021.10.21） 4
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 4
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.22） 33
-      - 🇬🇧 英国[YouTube梦歌]_217
+      - CA_1158
+      - 🇺🇸 美国[YouTube梦歌]_97
+      - CYL-科技（2021.10.21） 14
+      - CYL-科技（2021.10.23） 3
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
       - CA_1152
-      - ZZ_14284
-      - 🇫🇷 法国[YouTube梦歌]_146
+      - ZZ_13911
+      - 🇺🇸 美国[YouTube梦歌]_55
+      - 🇬🇧 英国[YouTube梦歌]_150
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇨🇦 加拿大[YouTube梦歌]_48
+      - 🇺🇸 美国[YouTube梦歌]_224
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇨🇦 加拿大[YouTube梦歌]_49
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
+      - 🇨🇦 加拿大[YouTube梦歌]_53
+      - 🇺🇸 美国[YouTube梦歌]_17
+      - 🇨🇦 阿伟科技-油管-加拿大
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰 阿伟科技-油管-香港
-      - CYL-科技（2021.10.22）
-      - CYL-科技（2021.10.22） 2
-      - CYL-科技（2021.10.22） 3
-      - 🇹🇭 泰国(Youtube频道：工具大师！)
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
-      - CYL-科技（2021.10.21）
       - CYL-科技（2021.10.19）
+      - CYL-科技（2021.10.21）
+      - CYL-科技（2021.10.22）
+      - CYL-科技（2021.10.19） 2
+      - CYL-科技（2021.10.22） 2
+      - CYL-科技（2021.10.19） 3
+      - CYL-科技（2021.10.22） 3
+      - CYL-科技（2021.10.23）
       - CYL-科技（2021.10.22） 4
+      - CYL-科技
       - CYL-科技（2021.10.22） 5
       - CYL-科技（2021.10.22） 6
+      - 🇨🇦 加拿大[YouTube梦歌]_44
+      - CA_1156
+      - CYL-科技（2021.10.21） 2
+      - 🇺🇸 美国[YouTube梦歌]_115
+      - 🇨🇦 加拿大(Youtube频道：工具大师！)
       - CYL-科技（2021.10.22） 7
+      - CYL-科技（2021.10.21） 3
+      - CYL-科技（2021.10.21） 4
+      - ZZ_14307
+      - CYL-科技（2021.10.23） 2
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
       - CYL-科技（2021.10.22） 8
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 3
       - CYL-科技（2021.10.22） 9
+      - CYL-科技（2021.10.21） 5
       - CYL-科技（2021.10.22） 10
       - CYL-科技（2021.10.22） 11
-      - github.com/freefq - 乌克兰  76
-      - CYL-科技（2021.10.19） 2
       - CYL-科技（2021.10.22） 12
       - CYL-科技（2021.10.22） 13
-      - CYL-科技（2021.10.21） 2
       - CYL-科技（2021.10.22） 14
       - CYL-科技（2021.10.22） 15
+      - CYL-科技（2021.10.21） 6
       - CYL-科技（2021.10.22） 16
+      - CYL-科技（2021.10.21） 7
+      - CYL-科技（2021.10.21） 8
+      - CYL-科技（2021.10.21） 9
+      - 欧洲[YouTube梦歌]_83
+      - CYL-科技（2021.10.21） 10
+      - CYL-科技（2021.10.21） 11
       - CYL-科技（2021.10.22） 17
-      - CYL-科技（2021.10.19） 3
+      - CYL-科技（2021.10.21） 12
+      - 🇺🇸 美国[YouTube梦歌]_1
       - CYL-科技（2021.10.22） 18
       - CYL-科技（2021.10.22） 19
+      - CYL-科技（2021.10.21） 13
       - CYL-科技（2021.10.22） 20
       - CYL-科技（2021.10.22） 21
-      - CYL-科技（2021.10.21） 3
       - CYL-科技（2021.10.22） 22
-      - CYL-科技（2021.10.22） 23
-      - CYL-科技（2021.10.22） 24
-      - CYL-科技（2021.10.22） 25
-      - CYL-科技（2021.10.22） 26
-      - CYL-科技（2021.10.22） 27
-      - CYL-科技（2021.10.22） 28
-      - CYL-科技（2021.10.22） 29
-      - CYL-科技（2021.10.22） 30
-      - CYL-科技（2021.10.22） 31
-      - CYL-科技（2021.10.22） 32
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
-      - 🇨🇦 加拿大[YouTube梦歌]_44
-      - CYL-科技（2021.10.21） 4
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 4
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.22） 33
-      - 🇬🇧 英国[YouTube梦歌]_217
+      - CA_1158
+      - 🇺🇸 美国[YouTube梦歌]_97
+      - CYL-科技（2021.10.21） 14
+      - CYL-科技（2021.10.23） 3
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
       - CA_1152
-      - ZZ_14284
-      - 🇫🇷 法国[YouTube梦歌]_146
+      - ZZ_13911
+      - 🇺🇸 美国[YouTube梦歌]_55
+      - 🇬🇧 英国[YouTube梦歌]_150
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇨🇦 加拿大[YouTube梦歌]_48
+      - 🇺🇸 美国[YouTube梦歌]_224
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇨🇦 加拿大[YouTube梦歌]_49
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
+      - 🇨🇦 加拿大[YouTube梦歌]_53
+      - 🇺🇸 美国[YouTube梦歌]_17
+      - 🇨🇦 阿伟科技-油管-加拿大
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 阿伟科技-油管-香港
-      - CYL-科技（2021.10.22）
-      - CYL-科技（2021.10.22） 2
-      - CYL-科技（2021.10.22） 3
-      - 🇹🇭 泰国(Youtube频道：工具大师！)
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
-      - CYL-科技（2021.10.21）
       - CYL-科技（2021.10.19）
+      - CYL-科技（2021.10.21）
+      - CYL-科技（2021.10.22）
+      - CYL-科技（2021.10.19） 2
+      - CYL-科技（2021.10.22） 2
+      - CYL-科技（2021.10.19） 3
+      - CYL-科技（2021.10.22） 3
+      - CYL-科技（2021.10.23）
       - CYL-科技（2021.10.22） 4
+      - CYL-科技
       - CYL-科技（2021.10.22） 5
       - CYL-科技（2021.10.22） 6
+      - 🇨🇦 加拿大[YouTube梦歌]_44
+      - CA_1156
+      - CYL-科技（2021.10.21） 2
+      - 🇺🇸 美国[YouTube梦歌]_115
+      - 🇨🇦 加拿大(Youtube频道：工具大师！)
       - CYL-科技（2021.10.22） 7
+      - CYL-科技（2021.10.21） 3
+      - CYL-科技（2021.10.21） 4
+      - ZZ_14307
+      - CYL-科技（2021.10.23） 2
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
       - CYL-科技（2021.10.22） 8
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 3
       - CYL-科技（2021.10.22） 9
+      - CYL-科技（2021.10.21） 5
       - CYL-科技（2021.10.22） 10
       - CYL-科技（2021.10.22） 11
-      - github.com/freefq - 乌克兰  76
-      - CYL-科技（2021.10.19） 2
       - CYL-科技（2021.10.22） 12
       - CYL-科技（2021.10.22） 13
-      - CYL-科技（2021.10.21） 2
       - CYL-科技（2021.10.22） 14
       - CYL-科技（2021.10.22） 15
+      - CYL-科技（2021.10.21） 6
       - CYL-科技（2021.10.22） 16
+      - CYL-科技（2021.10.21） 7
+      - CYL-科技（2021.10.21） 8
+      - CYL-科技（2021.10.21） 9
+      - 欧洲[YouTube梦歌]_83
+      - CYL-科技（2021.10.21） 10
+      - CYL-科技（2021.10.21） 11
       - CYL-科技（2021.10.22） 17
-      - CYL-科技（2021.10.19） 3
+      - CYL-科技（2021.10.21） 12
+      - 🇺🇸 美国[YouTube梦歌]_1
       - CYL-科技（2021.10.22） 18
       - CYL-科技（2021.10.22） 19
+      - CYL-科技（2021.10.21） 13
       - CYL-科技（2021.10.22） 20
       - CYL-科技（2021.10.22） 21
-      - CYL-科技（2021.10.21） 3
       - CYL-科技（2021.10.22） 22
-      - CYL-科技（2021.10.22） 23
-      - CYL-科技（2021.10.22） 24
-      - CYL-科技（2021.10.22） 25
-      - CYL-科技（2021.10.22） 26
-      - CYL-科技（2021.10.22） 27
-      - CYL-科技（2021.10.22） 28
-      - CYL-科技（2021.10.22） 29
-      - CYL-科技（2021.10.22） 30
-      - CYL-科技（2021.10.22） 31
-      - CYL-科技（2021.10.22） 32
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
-      - 🇨🇦 加拿大[YouTube梦歌]_44
-      - CYL-科技（2021.10.21） 4
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 4
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.22） 33
-      - 🇬🇧 英国[YouTube梦歌]_217
+      - CA_1158
+      - 🇺🇸 美国[YouTube梦歌]_97
+      - CYL-科技（2021.10.21） 14
+      - CYL-科技（2021.10.23） 3
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
       - CA_1152
-      - ZZ_14284
-      - 🇫🇷 法国[YouTube梦歌]_146
+      - ZZ_13911
+      - 🇺🇸 美国[YouTube梦歌]_55
+      - 🇬🇧 英国[YouTube梦歌]_150
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇨🇦 加拿大[YouTube梦歌]_48
+      - 🇺🇸 美国[YouTube梦歌]_224
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇨🇦 加拿大[YouTube梦歌]_49
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
+      - 🇨🇦 加拿大[YouTube梦歌]_53
+      - 🇺🇸 美国[YouTube梦歌]_17
+      - 🇨🇦 阿伟科技-油管-加拿大
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 阿伟科技-油管-香港
-      - CYL-科技（2021.10.22）
-      - CYL-科技（2021.10.22） 2
-      - CYL-科技（2021.10.22） 3
-      - 🇹🇭 泰国(Youtube频道：工具大师！)
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
-      - CYL-科技（2021.10.21）
       - CYL-科技（2021.10.19）
+      - CYL-科技（2021.10.21）
+      - CYL-科技（2021.10.22）
+      - CYL-科技（2021.10.19） 2
+      - CYL-科技（2021.10.22） 2
+      - CYL-科技（2021.10.19） 3
+      - CYL-科技（2021.10.22） 3
+      - CYL-科技（2021.10.23）
       - CYL-科技（2021.10.22） 4
+      - CYL-科技
       - CYL-科技（2021.10.22） 5
       - CYL-科技（2021.10.22） 6
+      - 🇨🇦 加拿大[YouTube梦歌]_44
+      - CA_1156
+      - CYL-科技（2021.10.21） 2
+      - 🇺🇸 美国[YouTube梦歌]_115
+      - 🇨🇦 加拿大(Youtube频道：工具大师！)
       - CYL-科技（2021.10.22） 7
+      - CYL-科技（2021.10.21） 3
+      - CYL-科技（2021.10.21） 4
+      - ZZ_14307
+      - CYL-科技（2021.10.23） 2
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
       - CYL-科技（2021.10.22） 8
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 3
       - CYL-科技（2021.10.22） 9
+      - CYL-科技（2021.10.21） 5
       - CYL-科技（2021.10.22） 10
       - CYL-科技（2021.10.22） 11
-      - github.com/freefq - 乌克兰  76
-      - CYL-科技（2021.10.19） 2
       - CYL-科技（2021.10.22） 12
       - CYL-科技（2021.10.22） 13
-      - CYL-科技（2021.10.21） 2
       - CYL-科技（2021.10.22） 14
       - CYL-科技（2021.10.22） 15
+      - CYL-科技（2021.10.21） 6
       - CYL-科技（2021.10.22） 16
+      - CYL-科技（2021.10.21） 7
+      - CYL-科技（2021.10.21） 8
+      - CYL-科技（2021.10.21） 9
+      - 欧洲[YouTube梦歌]_83
+      - CYL-科技（2021.10.21） 10
+      - CYL-科技（2021.10.21） 11
       - CYL-科技（2021.10.22） 17
-      - CYL-科技（2021.10.19） 3
+      - CYL-科技（2021.10.21） 12
+      - 🇺🇸 美国[YouTube梦歌]_1
       - CYL-科技（2021.10.22） 18
       - CYL-科技（2021.10.22） 19
+      - CYL-科技（2021.10.21） 13
       - CYL-科技（2021.10.22） 20
       - CYL-科技（2021.10.22） 21
-      - CYL-科技（2021.10.21） 3
       - CYL-科技（2021.10.22） 22
-      - CYL-科技（2021.10.22） 23
-      - CYL-科技（2021.10.22） 24
-      - CYL-科技（2021.10.22） 25
-      - CYL-科技（2021.10.22） 26
-      - CYL-科技（2021.10.22） 27
-      - CYL-科技（2021.10.22） 28
-      - CYL-科技（2021.10.22） 29
-      - CYL-科技（2021.10.22） 30
-      - CYL-科技（2021.10.22） 31
-      - CYL-科技（2021.10.22） 32
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
-      - 🇨🇦 加拿大[YouTube梦歌]_44
-      - CYL-科技（2021.10.21） 4
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 4
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.22） 33
-      - 🇬🇧 英国[YouTube梦歌]_217
+      - CA_1158
+      - 🇺🇸 美国[YouTube梦歌]_97
+      - CYL-科技（2021.10.21） 14
+      - CYL-科技（2021.10.23） 3
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
       - CA_1152
-      - ZZ_14284
-      - 🇫🇷 法国[YouTube梦歌]_146
+      - ZZ_13911
+      - 🇺🇸 美国[YouTube梦歌]_55
+      - 🇬🇧 英国[YouTube梦歌]_150
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇨🇦 加拿大[YouTube梦歌]_48
+      - 🇺🇸 美国[YouTube梦歌]_224
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇨🇦 加拿大[YouTube梦歌]_49
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
+      - 🇨🇦 加拿大[YouTube梦歌]_53
+      - 🇺🇸 美国[YouTube梦歌]_17
+      - 🇨🇦 阿伟科技-油管-加拿大
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -490,59 +626,76 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 阿伟科技-油管-香港
-      - CYL-科技（2021.10.22）
-      - CYL-科技（2021.10.22） 2
-      - CYL-科技（2021.10.22） 3
-      - 🇹🇭 泰国(Youtube频道：工具大师！)
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 2
-      - CYL-科技（2021.10.21）
       - CYL-科技（2021.10.19）
+      - CYL-科技（2021.10.21）
+      - CYL-科技（2021.10.22）
+      - CYL-科技（2021.10.19） 2
+      - CYL-科技（2021.10.22） 2
+      - CYL-科技（2021.10.19） 3
+      - CYL-科技（2021.10.22） 3
+      - CYL-科技（2021.10.23）
       - CYL-科技（2021.10.22） 4
+      - CYL-科技
       - CYL-科技（2021.10.22） 5
       - CYL-科技（2021.10.22） 6
+      - 🇨🇦 加拿大[YouTube梦歌]_44
+      - CA_1156
+      - CYL-科技（2021.10.21） 2
+      - 🇺🇸 美国[YouTube梦歌]_115
+      - 🇨🇦 加拿大(Youtube频道：工具大师！)
       - CYL-科技（2021.10.22） 7
+      - CYL-科技（2021.10.21） 3
+      - CYL-科技（2021.10.21） 4
+      - ZZ_14307
+      - CYL-科技（2021.10.23） 2
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
       - CYL-科技（2021.10.22） 8
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 3
       - CYL-科技（2021.10.22） 9
+      - CYL-科技（2021.10.21） 5
       - CYL-科技（2021.10.22） 10
       - CYL-科技（2021.10.22） 11
-      - github.com/freefq - 乌克兰  76
-      - CYL-科技（2021.10.19） 2
       - CYL-科技（2021.10.22） 12
       - CYL-科技（2021.10.22） 13
-      - CYL-科技（2021.10.21） 2
       - CYL-科技（2021.10.22） 14
       - CYL-科技（2021.10.22） 15
+      - CYL-科技（2021.10.21） 6
       - CYL-科技（2021.10.22） 16
+      - CYL-科技（2021.10.21） 7
+      - CYL-科技（2021.10.21） 8
+      - CYL-科技（2021.10.21） 9
+      - 欧洲[YouTube梦歌]_83
+      - CYL-科技（2021.10.21） 10
+      - CYL-科技（2021.10.21） 11
       - CYL-科技（2021.10.22） 17
-      - CYL-科技（2021.10.19） 3
+      - CYL-科技（2021.10.21） 12
+      - 🇺🇸 美国[YouTube梦歌]_1
       - CYL-科技（2021.10.22） 18
       - CYL-科技（2021.10.22） 19
+      - CYL-科技（2021.10.21） 13
       - CYL-科技（2021.10.22） 20
       - CYL-科技（2021.10.22） 21
-      - CYL-科技（2021.10.21） 3
       - CYL-科技（2021.10.22） 22
-      - CYL-科技（2021.10.22） 23
-      - CYL-科技（2021.10.22） 24
-      - CYL-科技（2021.10.22） 25
-      - CYL-科技（2021.10.22） 26
-      - CYL-科技（2021.10.22） 27
-      - CYL-科技（2021.10.22） 28
-      - CYL-科技（2021.10.22） 29
-      - CYL-科技（2021.10.22） 30
-      - CYL-科技（2021.10.22） 31
-      - CYL-科技（2021.10.22） 32
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
-      - 🇨🇦 加拿大[YouTube梦歌]_44
-      - CYL-科技（2021.10.21） 4
-      - 🇹🇭 泰国(Youtube频道：工具大师！) 4
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.22） 33
-      - 🇬🇧 英国[YouTube梦歌]_217
+      - CA_1158
+      - 🇺🇸 美国[YouTube梦歌]_97
+      - CYL-科技（2021.10.21） 14
+      - CYL-科技（2021.10.23） 3
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
       - CA_1152
-      - ZZ_14284
-      - 🇫🇷 法国[YouTube梦歌]_146
+      - ZZ_13911
+      - 🇺🇸 美国[YouTube梦歌]_55
+      - 🇬🇧 英国[YouTube梦歌]_150
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇨🇦 加拿大[YouTube梦歌]_48
+      - 🇺🇸 美国[YouTube梦歌]_224
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇨🇦 加拿大[YouTube梦歌]_49
+      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
+      - 🇨🇦 加拿大[YouTube梦歌]_53
+      - 🇺🇸 美国[YouTube梦歌]_17
+      - 🇨🇦 阿伟科技-油管-加拿大
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -576,6 +729,8 @@ rules:
  - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
  - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
+ - DOMAIN,xivanalysis.com,🎯 全球直连
+ - DOMAIN,picanalysis.vivo.com.cn,🎯 全球直连
  - DOMAIN,fairplay.l.qq.com,🎯 全球直连
  - DOMAIN,livew.l.qq.com,🎯 全球直连
  - DOMAIN,vd.l.qq.com,🎯 全球直连
@@ -2340,6 +2495,7 @@ rules:
  - DOMAIN-SUFFIX,msftauthimages.net,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msftidentity.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msidentity.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msn.cn,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msn.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msocdn.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msocsp.com,Ⓜ️ 微软服务
@@ -3128,6 +3284,8 @@ rules:
  - DOMAIN-SUFFIX,kaikeba.com,🎯 全球直连
  - DOMAIN-SUFFIX,laomo.me,🎯 全球直连
  - DOMAIN-SUFFIX,mpyit.com,🎯 全球直连
+ - DOMAIN-SUFFIX,msftconnecttest.com,🎯 全球直连
+ - DOMAIN-SUFFIX,msftncsi.com,🎯 全球直连
  - DOMAIN-SUFFIX,qupu123.com,🎯 全球直连
  - DOMAIN-SUFFIX,cn,🎯 全球直连
  - DOMAIN-SUFFIX,中国,🎯 全球直连
@@ -3592,6 +3750,8 @@ rules:
  - DOMAIN-SUFFIX,lancdns.com,🎯 全球直连
  - DOMAIN-SUFFIX,landiannews.com,🎯 全球直连
  - DOMAIN-SUFFIX,lanzou.com,🎯 全球直连
+ - DOMAIN-SUFFIX,lanzoui.com,🎯 全球直连
+ - DOMAIN-SUFFIX,lanzoux.com,🎯 全球直连
  - DOMAIN-SUFFIX,lemicp.com,🎯 全球直连
  - DOMAIN-SUFFIX,letitfly.me,🎯 全球直连
  - DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
@@ -3661,6 +3821,7 @@ rules:
  - DOMAIN-SUFFIX,sspai.com,🎯 全球直连
  - DOMAIN-SUFFIX,startssl.com,🎯 全球直连
  - DOMAIN-SUFFIX,suning.com,🎯 全球直连
+ - DOMAIN-SUFFIX,synology.com,🎯 全球直连
  - DOMAIN-SUFFIX,taihe.com,🎯 全球直连
  - DOMAIN-SUFFIX,th-sjy.com,🎯 全球直连
  - DOMAIN-SUFFIX,tianqi.com,🎯 全球直连
