@@ -5,965 +5,445 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CYL-科技（2021.10.24）, server: rxzgzq.moox.icu, port: 41025, type: vmess, uuid: fe65a2ed-385e-42cf-a231-1abac116490c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: rxzgzq.moox.icu}}
-  - {name: 感谢订阅youtube：CYL-科技, server: icajm.moox.icu, port: 34019, type: vmess, uuid: fe65a2ed-385e-42cf-a231-1abac116490c, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: do403.xlanfly.xyz}}
-  - {name: 🇸🇬 阿伟科技-油管-新加坡原生-NF自制剧, server: sh.freev2r.xyz, port: 57443, type: ss, cipher: chacha20-ietf-poly1305, password: 14b4db40-26c3-4c4b-94ae-84382290a119}
-  - {name: CYL-科技（2021.10.24） 2, server: rxzgzq.moox.icu, port: 34025, type: vmess, uuid: fe65a2ed-385e-42cf-a231-1abac116490c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: rxzgzq.moox.icu}}
-  - {name: CYL-科技（2021.10.24） 3, server: icajm.moox.icu, port: 40007, type: vmess, uuid: fe65a2ed-385e-42cf-a231-1abac116490c, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sgnf.xlanfly.xyz}}
-  - {name: CYL-科技（2021.10.24） 4, server: 167.88.61.15, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2021.10.24） 5, server: 167.88.61.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2021.10.24） 6, server: 167.88.61.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: CYL-科技（2021.10.24） 7, server: 167.88.61.110, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.10.24） 8, server: 167.88.61.15, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.10.24） 9, server: 167.88.61.15, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: CYL-科技（2021.10.24） 10, server: 167.88.61.141, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2021.10.24） 11, server: 167.88.61.130, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.10.24） 12, server: 167.88.61.15, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2021.10.24） 13, server: 167.88.61.77, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2021.10.24） 14, server: 167.88.61.204, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2021.10.24） 15, server: 167.88.61.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2021.10.24） 16, server: 167.88.61.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2021.10.24） 17, server: 167.88.61.130, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2021.10.24） 18, server: 167.88.61.204, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2021.10.24） 19, server: 167.88.61.70, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.10.24） 20, server: 167.88.61.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: CYL-科技（2021.10.24） 21, server: 167.88.61.77, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: CYL-科技（2021.10.24） 22, server: 167.88.61.110, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2021.10.24） 23, server: 167.88.61.141, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.10.24） 24, server: 167.88.61.15, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2021.10.24） 25, server: 167.88.61.77, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.10.24） 26, server: 167.88.61.70, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: CYL-科技（2021.10.19）, server: 172.252.99.27, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: CYL-科技（2021.10.24） 27, server: 167.88.61.204, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 阿伟科技-油管-美国4原生, server: 38.114.114.49, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 阿伟科技-油管-美国原生-NF自制剧, server: sh.freev2r.xyz, port: 58443, type: ss, cipher: chacha20-ietf-poly1305, password: 14b4db40-26c3-4c4b-94ae-84382290a119}
-  - {name: CYL-科技（2021.10.19） 2, server: 172.252.99.15, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: CYL-科技（2021.10.24） 28, server: 167.88.61.130, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: CYL-科技（2021.10.24） 29, server: 167.88.61.222, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: CYL-科技（2021.10.24） 30, server: 167.88.61.222, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 阿伟科技-油管-美国6原生, server: 38.114.114.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 阿伟科技-油管-美国原生-NF自制剧 2, server: 167.88.61.110, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 阿伟科技-油管-美国6原生 2, server: 38.114.114.49, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！), server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.10.24） 31, server: 167.88.61.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: CYL-科技（2021.10.24） 32, server: 149.28.222.193, port: 80, type: vmess, uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /JJkuv3, ws-headers: {Host: 149.28.222.193}}
-  - {name: 🇺🇸 阿伟科技-油管-美国4原生 2, server: 38.114.114.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 阿伟科技-油管-美国原生-NF自制剧 3, server: 167.88.61.110, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2021.10.24） 33, server: 167.88.61.15, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2021.10.24） 34, server: 167.88.61.222, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.10.24） 35, server: 167.88.61.50, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 74, server: uus2.liuwei01.tk, port: 443, type: vmess, uuid: 1b93051f-c9ad-4908-874e-ccb5e8da27ef, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /liuwei, ws-headers: {Host: uus2.liuwei01.tk}}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a, server: cloud3.yixiu.ga, port: 443, type: vmess, uuid: f65eb556-2e2b-4fbb-8ab5-914313200f77, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /qgebvws, ws-headers: {Host: cloud3.yixiu.ga}}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 2, server: 198.41.192.192, port: 443, type: vmess, uuid: c206cb99-b4b7-4254-92e4-0c6f61d5a96a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us.klee.ml}}
+  - {name: YouTube梦歌_3, server: 1.transit.t.qjnodeip.xyz, port: 15140, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /Ub6w, ws-headers: {Host: usa04.dadwff.xyz}}
+  - {name: 🇺🇸 阿伟科技-油管-美国3原生, server: 154.17.2.64, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: ZEAC0K2Iulex3XajSe8pCy3YaDCSDpz9Z67OwDnT8ANRalRSYcqFF54yBx3Og3}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 3, server: cloud7.yixiu.ga, port: 443, type: trojan, password: f65eb556-2e2b-4fbb-8ab5-914313200f77, sni: cloud7.yixiu.ga}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 4, server: 62.210.222.195, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 5, server: 134.195.196.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: CYL-科技（2021.10.22）, server: 172.252.99.23, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: CYL-科技（2021.10.21）, server: 198.57.27.243, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.10.22） 2, server: 134.195.196.163, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2021.10.21） 2, server: 198.57.27.243, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2021.10.24） 36, server: 38.107.226.159, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: github.com/freefq - 瑞典  24, server: 167.88.63.119, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇭🇰 github.com/freefq - 香港Amazon数据中心 47, server: 18.163.112.47, port: 8080, type: vmess, uuid: 858432a9-4a9c-4690-ef7b-c7adeb4c9f21, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /Download, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: CYL-科技（2021.10.24） 37, server: 167.88.61.15, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2021.10.22） 3, server: 154.17.2.64, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: ZEAC0K2Iulex3XajSe8pCy3YaDCSDpz9Z67OwDnT8ANRalRSYcqFF54yBx3Og3}
-  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！) 2, server: 198.57.27.233, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 github.com/freefq - 北美地区  21, server: 198.57.27.225, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.10.22） 4, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2021.10.21） 3, server: 1.transit.t.qjnodeip.xyz, port: 27435, type: vmess, uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /JP03W, ws-headers: {Host: xjp03.cswtw.xyz}}
-  - {name: CYL-科技（2021.10.22） 5, server: 167.88.63.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: github.com/freefq - 瑞典  2, server: 167.88.63.61, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 13, server: 38.107.226.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 8, server: 38.107.226.149, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 github.com/freefq - 美国  57, server: 66.115.177.141, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 美国(Youtube频道：工具大师！), server: 167.88.63.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2021.10.22） 6, server: 38.107.226.159, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2021.10.21） 4, server: 134.195.198.250, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.10.22） 7, server: 134.195.198.250, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2021.10.24） 38, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技, server: 172.99.190.158, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！) 3, server: 134.195.198.252, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.10.24） 39, server: 167.88.61.204, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: CYL-科技（2021.10.21） 5, server: 134.195.198.178, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.10.22） 8, server: 134.195.196.147, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇸🇬 阿伟科技-油管-新加坡-NF自制剧, server: nv3.freev2r.xyz, port: 80, type: vmess, uuid: 382757f3-6bdf-4e10-8626-aeff0894eb36, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇺🇸 阿伟科技-油管-美国3原生, server: 172.99.190.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.10.22） 9, server: 193.118.60.176, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2021.10.24） 40, server: 172.99.190.92, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 github.com/freefq - 北美地区  7, server: 134.195.198.252, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: github.com/freefq - 瑞典  30, server: 167.88.63.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: github.com/freefq - 瑞典  39, server: 167.88.63.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 2, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！) 4, server: 134.195.196.133, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 3, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 4, server: 38.107.226.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: github.com/freefq - 瑞典  17, server: 167.88.63.82, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ZZ_14307, server: 134.195.196.110, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CA_1152, server: 198.57.27.233, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 github.com/freefq - 北美地区  45, server: 134.195.196.110, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: YouTube梦歌_46, server: 193.29.107.125, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: CA_1156, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ZZ_13911, server: 134.195.196.163, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 github.com/freefq - 北美地区  6, server: 134.195.198.95, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: github.com/freefq - 瑞典  9, server: 167.88.63.119, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: github.com/freefq - 瑞典  38, server: 167.88.63.107, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇰🇷 YouTube梦歌_韩国_32, server: 61.14.210.232, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！) 5, server: 134.195.196.133, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！) 6, server: 198.57.27.233, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 阿伟科技-油管-加拿大2原生-NF自制剧, server: 134.195.196.165, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 github.com/freefq - 美国  34, server: 172.99.190.35, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 github.com/freefq - 美国  52, server: 172.99.190.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 github.com/freefq - 北美地区  44, server: 134.195.196.110, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 github.com/freefq - 美国  23, server: 172.99.190.186, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: github.com/freefq - 瑞典  4, server: 167.88.63.28, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！) 7, server: 198.57.27.225, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大(Youtube频道：工具大师！) 8, server: 134.195.198.252, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇬🇧 阿伟科技-油管-英国2原生, server: 172.99.190.109, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 github.com/freefq - 美国  20, server: 172.99.190.158, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 github.com/freefq - 北美地区  15, server: 134.195.198.252, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: github.com/freefq - 瑞典  1, server: 167.88.63.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 5, server: 172.99.190.230, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 欧洲(Youtube频道：工具大师！), server: 134.195.196.79, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 阿伟科技-油管-美国3, server: pf.freev2r.xyz, port: 58443, type: ss, cipher: chacha20-ietf-poly1305, password: 382757f3-6bdf-4e10-8626-aeff0894eb36}
+  - {name: YouTube梦歌_16, server: 1.transit.t.qjnodeip.xyz, port: 27435, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /JP03W, ws-headers: {Host: xjp03.cswtw.xyz}}
+  - {name: CYL-科技（2021.10.19）, server: 172.252.99.15, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君), server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 6, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 7, server: 46.101.28.98, port: 12222, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇺🇸 阿伟科技-油管-美国3, server: ns1.freev2r.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 40afaaa8-ecdc-446e-85f0-f8fcbdfd31f3}
+  - {name: YouTube梦歌_14, server: 1.transit.t.qjnodeip.xyz, port: 49676, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /JS6dq, ws-headers: {Host: xjp2.iuhbhgg.xyz}}
+  - {name: 🇺🇸 阿伟科技-油管-美国5, server: tgfhgfdghpppppp.work, port: 80, type: vmess, uuid: c1d8c556-6d4f-4fb7-8411-416beac90e29, alterId: 0, cipher: auto, tls: false}
+  - {name: CYL-科技（2021.10.24）, server: 167.88.61.110, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国_YouTube梦歌 30, server: 172.99.190.158, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇭🇰 阿伟科技-油管-香港11原生, server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2, server: 172.99.190.35, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 172.105.172.41, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇩🇪 阿伟科技-油管-德国3, server: sh.freev2r.xyz, port: 58443, type: ss, cipher: chacha20-ietf-poly1305, password: 6368b294-5671-4704-9960-3e7dee4d95d5}
+  - {name: github.com/freefq - 瑞典  11, server: 167.88.63.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 172.105.167.214, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: github.com/freefq - 瑞典  6, server: 167.88.63.119, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君), server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君), server: 2.59.214.204, port: 152, type: ss, cipher: aes-128-gcm, password: 5b092e88-82d8-47eb-a7a2-98bcf02754e9}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 8, server: 38.107.226.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技（2021.10.24） 2, server: 167.88.61.15, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 github.com/freefq - 美国  16, server: 172.99.190.35, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 128.14.222.211, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 阿伟科技-油管-美国2原生, server: 154.17.2.35, port: 18337, type: ss, cipher: chacha20-ietf-poly1305, password: 9TaRFO7CRxCj50aa6e8ply34nXwSpYYCDexNu2KFDzO3ygc8S3AqDA3lZZBESI}
+  - {name: 🇭🇰 阿伟科技-油管-香港11原生 2, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: github.com/freefq - 瑞典  25, server: 167.88.63.119, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇮🇳 印度(欢迎订阅Youtube破解资源君), server: 172.105.57.249, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3, server: 167.88.63.82, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 9, server: 167.88.61.204, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2, server: t3.ssrsub.com, port: 8443, type: trojan, password: 5b092e88-82d8-47eb-a7a2-98bcf02754e9, sni: t3.ssrsub.com}
+  - {name: YouTube梦歌_29, server: 1.transit.t.qjnodeip.xyz, port: 61610, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 5, cipher: auto, tls: true, network: ws, ws-path: /C1zmqibh, ws-headers: {Host: hkyz.iuhbhgg.xyz}}
+  - {name: 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 3, server: v7.ssrsub.com, port: 158, type: vmess, uuid: 5b092e88-82d8-47eb-a7a2-98bcf02754e9, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v7.ssrsub.com}}
+  - {name: 🇺🇸 github.com/freefq - 北美地区  10, server: 198.57.27.225, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2021.10.24） 3, server: 167.88.61.50, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: github.com/freefq - 瑞典  14, server: 167.88.63.82, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇮🇳 印度(欢迎订阅Youtube破解资源君) 2, server: 172.105.59.32, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4, server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: YouTube梦歌_4, server: 1.transit.t.qjnodeip.xyz, port: 62329, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /usa1Z, ws-headers: {Host: usa03.dadwff.xyz}}
+  - {name: CYL-科技（2021.10.24） 4, server: 167.88.61.15, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技（2021.10.19） 2, server: 172.252.99.27, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5, server: 167.88.63.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 4, server: t7.ssrsub.com, port: 8443, type: trojan, password: 5b092e88-82d8-47eb-a7a2-98bcf02754e9, sni: t7.ssrsub.com}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - CYL-科技（2021.10.24）
-      - 感谢订阅youtube：CYL-科技
-      - 🇸🇬 阿伟科技-油管-新加坡原生-NF自制剧
-      - CYL-科技（2021.10.24） 2
-      - CYL-科技（2021.10.24） 3
-      - CYL-科技（2021.10.24） 4
-      - CYL-科技（2021.10.24） 5
-      - CYL-科技（2021.10.24） 6
-      - CYL-科技（2021.10.24） 7
-      - CYL-科技（2021.10.24） 8
-      - CYL-科技（2021.10.24） 9
-      - CYL-科技（2021.10.24） 10
-      - CYL-科技（2021.10.24） 11
-      - CYL-科技（2021.10.24） 12
-      - CYL-科技（2021.10.24） 13
-      - CYL-科技（2021.10.24） 14
-      - CYL-科技（2021.10.24） 15
-      - CYL-科技（2021.10.24） 16
-      - CYL-科技（2021.10.24） 17
-      - CYL-科技（2021.10.24） 18
-      - CYL-科技（2021.10.24） 19
-      - CYL-科技（2021.10.24） 20
-      - CYL-科技（2021.10.24） 21
-      - CYL-科技（2021.10.24） 22
-      - CYL-科技（2021.10.24） 23
-      - CYL-科技（2021.10.24） 24
-      - CYL-科技（2021.10.24） 25
-      - CYL-科技（2021.10.24） 26
-      - CYL-科技（2021.10.19）
-      - CYL-科技（2021.10.24） 27
-      - 🇺🇸 阿伟科技-油管-美国4原生
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧
-      - CYL-科技（2021.10.19） 2
-      - CYL-科技（2021.10.24） 28
-      - CYL-科技（2021.10.24） 29
-      - CYL-科技（2021.10.24） 30
-      - 🇺🇸 阿伟科技-油管-美国6原生
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧 2
-      - 🇺🇸 阿伟科技-油管-美国6原生 2
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.24） 31
-      - CYL-科技（2021.10.24） 32
-      - 🇺🇸 阿伟科技-油管-美国4原生 2
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧 3
-      - CYL-科技（2021.10.24） 33
-      - CYL-科技（2021.10.24） 34
-      - CYL-科技（2021.10.24） 35
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 74
-      - CYL-科技（2021.10.22）
-      - CYL-科技（2021.10.21）
-      - CYL-科技（2021.10.22） 2
-      - CYL-科技（2021.10.21） 2
-      - CYL-科技（2021.10.24） 36
-      - github.com/freefq - 瑞典  24
-      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 47
-      - CYL-科技（2021.10.24） 37
-      - CYL-科技（2021.10.22） 3
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
-      - 🇺🇸 github.com/freefq - 北美地区  21
-      - CYL-科技（2021.10.22） 4
-      - CYL-科技（2021.10.21） 3
-      - CYL-科技（2021.10.22） 5
-      - github.com/freefq - 瑞典  2
-      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 13
-      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 8
-      - 🇺🇸 github.com/freefq - 美国  57
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.22） 6
-      - CYL-科技（2021.10.21） 4
-      - CYL-科技（2021.10.22） 7
-      - CYL-科技（2021.10.24） 38
-      - CYL-科技
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
-      - CYL-科技（2021.10.24） 39
-      - CYL-科技（2021.10.21） 5
-      - CYL-科技（2021.10.22） 8
-      - 🇸🇬 阿伟科技-油管-新加坡-NF自制剧
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - YouTube梦歌_3
       - 🇺🇸 阿伟科技-油管-美国3原生
-      - CYL-科技（2021.10.22） 9
-      - CYL-科技（2021.10.24） 40
-      - 🇺🇸 github.com/freefq - 北美地区  7
-      - github.com/freefq - 瑞典  30
-      - github.com/freefq - 瑞典  39
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
-      - 🇺🇸 美国(Youtube频道：工具大师！) 4
-      - github.com/freefq - 瑞典  17
-      - ZZ_14307
-      - CA_1152
-      - 🇺🇸 github.com/freefq - 北美地区  45
-      - YouTube梦歌_46
-      - CA_1156
-      - ZZ_13911
-      - 🇺🇸 github.com/freefq - 北美地区  6
-      - github.com/freefq - 瑞典  9
-      - github.com/freefq - 瑞典  38
-      - 🇰🇷 YouTube梦歌_韩国_32
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 6
-      - 🇨🇦 阿伟科技-油管-加拿大2原生-NF自制剧
-      - 🇺🇸 github.com/freefq - 美国  34
-      - 🇺🇸 github.com/freefq - 美国  52
-      - 🇺🇸 github.com/freefq - 北美地区  44
-      - 🇺🇸 github.com/freefq - 美国  23
-      - github.com/freefq - 瑞典  4
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 7
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 8
-      - 🇬🇧 阿伟科技-油管-英国2原生
-      - 🇺🇸 github.com/freefq - 美国  20
-      - 🇺🇸 github.com/freefq - 北美地区  15
-      - github.com/freefq - 瑞典  1
-      - 🇺🇸 美国(Youtube频道：工具大师！) 5
-      - 欧洲(Youtube频道：工具大师！)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - CYL-科技（2021.10.22）
+      - YouTube梦歌_16
+      - CYL-科技（2021.10.19）
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
       - 🇺🇸 阿伟科技-油管-美国3
+      - YouTube梦歌_14
+      - 🇺🇸 阿伟科技-油管-美国5
+      - CYL-科技（2021.10.24）
+      - 🇺🇸 美国_YouTube梦歌 30
+      - 🇭🇰 阿伟科技-油管-香港11原生
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇩🇪 阿伟科技-油管-德国3
+      - github.com/freefq - 瑞典  11
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - github.com/freefq - 瑞典  6
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - CYL-科技（2021.10.24） 2
+      - 🇺🇸 github.com/freefq - 美国  16
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 阿伟科技-油管-美国2原生
+      - 🇭🇰 阿伟科技-油管-香港11原生 2
+      - github.com/freefq - 瑞典  25
+      - 🇮🇳 印度(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - YouTube梦歌_29
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 github.com/freefq - 北美地区  10
+      - CYL-科技（2021.10.24） 3
+      - github.com/freefq - 瑞典  14
+      - 🇮🇳 印度(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - YouTube梦歌_4
+      - CYL-科技（2021.10.24） 4
+      - CYL-科技（2021.10.19） 2
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - CYL-科技（2021.10.24）
-      - 感谢订阅youtube：CYL-科技
-      - 🇸🇬 阿伟科技-油管-新加坡原生-NF自制剧
-      - CYL-科技（2021.10.24） 2
-      - CYL-科技（2021.10.24） 3
-      - CYL-科技（2021.10.24） 4
-      - CYL-科技（2021.10.24） 5
-      - CYL-科技（2021.10.24） 6
-      - CYL-科技（2021.10.24） 7
-      - CYL-科技（2021.10.24） 8
-      - CYL-科技（2021.10.24） 9
-      - CYL-科技（2021.10.24） 10
-      - CYL-科技（2021.10.24） 11
-      - CYL-科技（2021.10.24） 12
-      - CYL-科技（2021.10.24） 13
-      - CYL-科技（2021.10.24） 14
-      - CYL-科技（2021.10.24） 15
-      - CYL-科技（2021.10.24） 16
-      - CYL-科技（2021.10.24） 17
-      - CYL-科技（2021.10.24） 18
-      - CYL-科技（2021.10.24） 19
-      - CYL-科技（2021.10.24） 20
-      - CYL-科技（2021.10.24） 21
-      - CYL-科技（2021.10.24） 22
-      - CYL-科技（2021.10.24） 23
-      - CYL-科技（2021.10.24） 24
-      - CYL-科技（2021.10.24） 25
-      - CYL-科技（2021.10.24） 26
-      - CYL-科技（2021.10.19）
-      - CYL-科技（2021.10.24） 27
-      - 🇺🇸 阿伟科技-油管-美国4原生
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧
-      - CYL-科技（2021.10.19） 2
-      - CYL-科技（2021.10.24） 28
-      - CYL-科技（2021.10.24） 29
-      - CYL-科技（2021.10.24） 30
-      - 🇺🇸 阿伟科技-油管-美国6原生
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧 2
-      - 🇺🇸 阿伟科技-油管-美国6原生 2
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.24） 31
-      - CYL-科技（2021.10.24） 32
-      - 🇺🇸 阿伟科技-油管-美国4原生 2
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧 3
-      - CYL-科技（2021.10.24） 33
-      - CYL-科技（2021.10.24） 34
-      - CYL-科技（2021.10.24） 35
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 74
-      - CYL-科技（2021.10.22）
-      - CYL-科技（2021.10.21）
-      - CYL-科技（2021.10.22） 2
-      - CYL-科技（2021.10.21） 2
-      - CYL-科技（2021.10.24） 36
-      - github.com/freefq - 瑞典  24
-      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 47
-      - CYL-科技（2021.10.24） 37
-      - CYL-科技（2021.10.22） 3
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
-      - 🇺🇸 github.com/freefq - 北美地区  21
-      - CYL-科技（2021.10.22） 4
-      - CYL-科技（2021.10.21） 3
-      - CYL-科技（2021.10.22） 5
-      - github.com/freefq - 瑞典  2
-      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 13
-      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 8
-      - 🇺🇸 github.com/freefq - 美国  57
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.22） 6
-      - CYL-科技（2021.10.21） 4
-      - CYL-科技（2021.10.22） 7
-      - CYL-科技（2021.10.24） 38
-      - CYL-科技
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
-      - CYL-科技（2021.10.24） 39
-      - CYL-科技（2021.10.21） 5
-      - CYL-科技（2021.10.22） 8
-      - 🇸🇬 阿伟科技-油管-新加坡-NF自制剧
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - YouTube梦歌_3
       - 🇺🇸 阿伟科技-油管-美国3原生
-      - CYL-科技（2021.10.22） 9
-      - CYL-科技（2021.10.24） 40
-      - 🇺🇸 github.com/freefq - 北美地区  7
-      - github.com/freefq - 瑞典  30
-      - github.com/freefq - 瑞典  39
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
-      - 🇺🇸 美国(Youtube频道：工具大师！) 4
-      - github.com/freefq - 瑞典  17
-      - ZZ_14307
-      - CA_1152
-      - 🇺🇸 github.com/freefq - 北美地区  45
-      - YouTube梦歌_46
-      - CA_1156
-      - ZZ_13911
-      - 🇺🇸 github.com/freefq - 北美地区  6
-      - github.com/freefq - 瑞典  9
-      - github.com/freefq - 瑞典  38
-      - 🇰🇷 YouTube梦歌_韩国_32
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 6
-      - 🇨🇦 阿伟科技-油管-加拿大2原生-NF自制剧
-      - 🇺🇸 github.com/freefq - 美国  34
-      - 🇺🇸 github.com/freefq - 美国  52
-      - 🇺🇸 github.com/freefq - 北美地区  44
-      - 🇺🇸 github.com/freefq - 美国  23
-      - github.com/freefq - 瑞典  4
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 7
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 8
-      - 🇬🇧 阿伟科技-油管-英国2原生
-      - 🇺🇸 github.com/freefq - 美国  20
-      - 🇺🇸 github.com/freefq - 北美地区  15
-      - github.com/freefq - 瑞典  1
-      - 🇺🇸 美国(Youtube频道：工具大师！) 5
-      - 欧洲(Youtube频道：工具大师！)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - CYL-科技（2021.10.22）
+      - YouTube梦歌_16
+      - CYL-科技（2021.10.19）
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
       - 🇺🇸 阿伟科技-油管-美国3
+      - YouTube梦歌_14
+      - 🇺🇸 阿伟科技-油管-美国5
+      - CYL-科技（2021.10.24）
+      - 🇺🇸 美国_YouTube梦歌 30
+      - 🇭🇰 阿伟科技-油管-香港11原生
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇩🇪 阿伟科技-油管-德国3
+      - github.com/freefq - 瑞典  11
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - github.com/freefq - 瑞典  6
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - CYL-科技（2021.10.24） 2
+      - 🇺🇸 github.com/freefq - 美国  16
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 阿伟科技-油管-美国2原生
+      - 🇭🇰 阿伟科技-油管-香港11原生 2
+      - github.com/freefq - 瑞典  25
+      - 🇮🇳 印度(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - YouTube梦歌_29
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 github.com/freefq - 北美地区  10
+      - CYL-科技（2021.10.24） 3
+      - github.com/freefq - 瑞典  14
+      - 🇮🇳 印度(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - YouTube梦歌_4
+      - CYL-科技（2021.10.24） 4
+      - CYL-科技（2021.10.19） 2
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CYL-科技（2021.10.24）
-      - 感谢订阅youtube：CYL-科技
-      - 🇸🇬 阿伟科技-油管-新加坡原生-NF自制剧
-      - CYL-科技（2021.10.24） 2
-      - CYL-科技（2021.10.24） 3
-      - CYL-科技（2021.10.24） 4
-      - CYL-科技（2021.10.24） 5
-      - CYL-科技（2021.10.24） 6
-      - CYL-科技（2021.10.24） 7
-      - CYL-科技（2021.10.24） 8
-      - CYL-科技（2021.10.24） 9
-      - CYL-科技（2021.10.24） 10
-      - CYL-科技（2021.10.24） 11
-      - CYL-科技（2021.10.24） 12
-      - CYL-科技（2021.10.24） 13
-      - CYL-科技（2021.10.24） 14
-      - CYL-科技（2021.10.24） 15
-      - CYL-科技（2021.10.24） 16
-      - CYL-科技（2021.10.24） 17
-      - CYL-科技（2021.10.24） 18
-      - CYL-科技（2021.10.24） 19
-      - CYL-科技（2021.10.24） 20
-      - CYL-科技（2021.10.24） 21
-      - CYL-科技（2021.10.24） 22
-      - CYL-科技（2021.10.24） 23
-      - CYL-科技（2021.10.24） 24
-      - CYL-科技（2021.10.24） 25
-      - CYL-科技（2021.10.24） 26
-      - CYL-科技（2021.10.19）
-      - CYL-科技（2021.10.24） 27
-      - 🇺🇸 阿伟科技-油管-美国4原生
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧
-      - CYL-科技（2021.10.19） 2
-      - CYL-科技（2021.10.24） 28
-      - CYL-科技（2021.10.24） 29
-      - CYL-科技（2021.10.24） 30
-      - 🇺🇸 阿伟科技-油管-美国6原生
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧 2
-      - 🇺🇸 阿伟科技-油管-美国6原生 2
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.24） 31
-      - CYL-科技（2021.10.24） 32
-      - 🇺🇸 阿伟科技-油管-美国4原生 2
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧 3
-      - CYL-科技（2021.10.24） 33
-      - CYL-科技（2021.10.24） 34
-      - CYL-科技（2021.10.24） 35
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 74
-      - CYL-科技（2021.10.22）
-      - CYL-科技（2021.10.21）
-      - CYL-科技（2021.10.22） 2
-      - CYL-科技（2021.10.21） 2
-      - CYL-科技（2021.10.24） 36
-      - github.com/freefq - 瑞典  24
-      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 47
-      - CYL-科技（2021.10.24） 37
-      - CYL-科技（2021.10.22） 3
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
-      - 🇺🇸 github.com/freefq - 北美地区  21
-      - CYL-科技（2021.10.22） 4
-      - CYL-科技（2021.10.21） 3
-      - CYL-科技（2021.10.22） 5
-      - github.com/freefq - 瑞典  2
-      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 13
-      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 8
-      - 🇺🇸 github.com/freefq - 美国  57
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.22） 6
-      - CYL-科技（2021.10.21） 4
-      - CYL-科技（2021.10.22） 7
-      - CYL-科技（2021.10.24） 38
-      - CYL-科技
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
-      - CYL-科技（2021.10.24） 39
-      - CYL-科技（2021.10.21） 5
-      - CYL-科技（2021.10.22） 8
-      - 🇸🇬 阿伟科技-油管-新加坡-NF自制剧
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - YouTube梦歌_3
       - 🇺🇸 阿伟科技-油管-美国3原生
-      - CYL-科技（2021.10.22） 9
-      - CYL-科技（2021.10.24） 40
-      - 🇺🇸 github.com/freefq - 北美地区  7
-      - github.com/freefq - 瑞典  30
-      - github.com/freefq - 瑞典  39
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
-      - 🇺🇸 美国(Youtube频道：工具大师！) 4
-      - github.com/freefq - 瑞典  17
-      - ZZ_14307
-      - CA_1152
-      - 🇺🇸 github.com/freefq - 北美地区  45
-      - YouTube梦歌_46
-      - CA_1156
-      - ZZ_13911
-      - 🇺🇸 github.com/freefq - 北美地区  6
-      - github.com/freefq - 瑞典  9
-      - github.com/freefq - 瑞典  38
-      - 🇰🇷 YouTube梦歌_韩国_32
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 6
-      - 🇨🇦 阿伟科技-油管-加拿大2原生-NF自制剧
-      - 🇺🇸 github.com/freefq - 美国  34
-      - 🇺🇸 github.com/freefq - 美国  52
-      - 🇺🇸 github.com/freefq - 北美地区  44
-      - 🇺🇸 github.com/freefq - 美国  23
-      - github.com/freefq - 瑞典  4
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 7
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 8
-      - 🇬🇧 阿伟科技-油管-英国2原生
-      - 🇺🇸 github.com/freefq - 美国  20
-      - 🇺🇸 github.com/freefq - 北美地区  15
-      - github.com/freefq - 瑞典  1
-      - 🇺🇸 美国(Youtube频道：工具大师！) 5
-      - 欧洲(Youtube频道：工具大师！)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - CYL-科技（2021.10.22）
+      - YouTube梦歌_16
+      - CYL-科技（2021.10.19）
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
       - 🇺🇸 阿伟科技-油管-美国3
+      - YouTube梦歌_14
+      - 🇺🇸 阿伟科技-油管-美国5
+      - CYL-科技（2021.10.24）
+      - 🇺🇸 美国_YouTube梦歌 30
+      - 🇭🇰 阿伟科技-油管-香港11原生
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇩🇪 阿伟科技-油管-德国3
+      - github.com/freefq - 瑞典  11
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - github.com/freefq - 瑞典  6
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - CYL-科技（2021.10.24） 2
+      - 🇺🇸 github.com/freefq - 美国  16
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 阿伟科技-油管-美国2原生
+      - 🇭🇰 阿伟科技-油管-香港11原生 2
+      - github.com/freefq - 瑞典  25
+      - 🇮🇳 印度(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - YouTube梦歌_29
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 github.com/freefq - 北美地区  10
+      - CYL-科技（2021.10.24） 3
+      - github.com/freefq - 瑞典  14
+      - 🇮🇳 印度(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - YouTube梦歌_4
+      - CYL-科技（2021.10.24） 4
+      - CYL-科技（2021.10.19） 2
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CYL-科技（2021.10.24）
-      - 感谢订阅youtube：CYL-科技
-      - 🇸🇬 阿伟科技-油管-新加坡原生-NF自制剧
-      - CYL-科技（2021.10.24） 2
-      - CYL-科技（2021.10.24） 3
-      - CYL-科技（2021.10.24） 4
-      - CYL-科技（2021.10.24） 5
-      - CYL-科技（2021.10.24） 6
-      - CYL-科技（2021.10.24） 7
-      - CYL-科技（2021.10.24） 8
-      - CYL-科技（2021.10.24） 9
-      - CYL-科技（2021.10.24） 10
-      - CYL-科技（2021.10.24） 11
-      - CYL-科技（2021.10.24） 12
-      - CYL-科技（2021.10.24） 13
-      - CYL-科技（2021.10.24） 14
-      - CYL-科技（2021.10.24） 15
-      - CYL-科技（2021.10.24） 16
-      - CYL-科技（2021.10.24） 17
-      - CYL-科技（2021.10.24） 18
-      - CYL-科技（2021.10.24） 19
-      - CYL-科技（2021.10.24） 20
-      - CYL-科技（2021.10.24） 21
-      - CYL-科技（2021.10.24） 22
-      - CYL-科技（2021.10.24） 23
-      - CYL-科技（2021.10.24） 24
-      - CYL-科技（2021.10.24） 25
-      - CYL-科技（2021.10.24） 26
-      - CYL-科技（2021.10.19）
-      - CYL-科技（2021.10.24） 27
-      - 🇺🇸 阿伟科技-油管-美国4原生
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧
-      - CYL-科技（2021.10.19） 2
-      - CYL-科技（2021.10.24） 28
-      - CYL-科技（2021.10.24） 29
-      - CYL-科技（2021.10.24） 30
-      - 🇺🇸 阿伟科技-油管-美国6原生
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧 2
-      - 🇺🇸 阿伟科技-油管-美国6原生 2
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.24） 31
-      - CYL-科技（2021.10.24） 32
-      - 🇺🇸 阿伟科技-油管-美国4原生 2
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧 3
-      - CYL-科技（2021.10.24） 33
-      - CYL-科技（2021.10.24） 34
-      - CYL-科技（2021.10.24） 35
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 74
-      - CYL-科技（2021.10.22）
-      - CYL-科技（2021.10.21）
-      - CYL-科技（2021.10.22） 2
-      - CYL-科技（2021.10.21） 2
-      - CYL-科技（2021.10.24） 36
-      - github.com/freefq - 瑞典  24
-      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 47
-      - CYL-科技（2021.10.24） 37
-      - CYL-科技（2021.10.22） 3
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
-      - 🇺🇸 github.com/freefq - 北美地区  21
-      - CYL-科技（2021.10.22） 4
-      - CYL-科技（2021.10.21） 3
-      - CYL-科技（2021.10.22） 5
-      - github.com/freefq - 瑞典  2
-      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 13
-      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 8
-      - 🇺🇸 github.com/freefq - 美国  57
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.22） 6
-      - CYL-科技（2021.10.21） 4
-      - CYL-科技（2021.10.22） 7
-      - CYL-科技（2021.10.24） 38
-      - CYL-科技
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
-      - CYL-科技（2021.10.24） 39
-      - CYL-科技（2021.10.21） 5
-      - CYL-科技（2021.10.22） 8
-      - 🇸🇬 阿伟科技-油管-新加坡-NF自制剧
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - YouTube梦歌_3
       - 🇺🇸 阿伟科技-油管-美国3原生
-      - CYL-科技（2021.10.22） 9
-      - CYL-科技（2021.10.24） 40
-      - 🇺🇸 github.com/freefq - 北美地区  7
-      - github.com/freefq - 瑞典  30
-      - github.com/freefq - 瑞典  39
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
-      - 🇺🇸 美国(Youtube频道：工具大师！) 4
-      - github.com/freefq - 瑞典  17
-      - ZZ_14307
-      - CA_1152
-      - 🇺🇸 github.com/freefq - 北美地区  45
-      - YouTube梦歌_46
-      - CA_1156
-      - ZZ_13911
-      - 🇺🇸 github.com/freefq - 北美地区  6
-      - github.com/freefq - 瑞典  9
-      - github.com/freefq - 瑞典  38
-      - 🇰🇷 YouTube梦歌_韩国_32
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 6
-      - 🇨🇦 阿伟科技-油管-加拿大2原生-NF自制剧
-      - 🇺🇸 github.com/freefq - 美国  34
-      - 🇺🇸 github.com/freefq - 美国  52
-      - 🇺🇸 github.com/freefq - 北美地区  44
-      - 🇺🇸 github.com/freefq - 美国  23
-      - github.com/freefq - 瑞典  4
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 7
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 8
-      - 🇬🇧 阿伟科技-油管-英国2原生
-      - 🇺🇸 github.com/freefq - 美国  20
-      - 🇺🇸 github.com/freefq - 北美地区  15
-      - github.com/freefq - 瑞典  1
-      - 🇺🇸 美国(Youtube频道：工具大师！) 5
-      - 欧洲(Youtube频道：工具大师！)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - CYL-科技（2021.10.22）
+      - YouTube梦歌_16
+      - CYL-科技（2021.10.19）
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
       - 🇺🇸 阿伟科技-油管-美国3
+      - YouTube梦歌_14
+      - 🇺🇸 阿伟科技-油管-美国5
+      - CYL-科技（2021.10.24）
+      - 🇺🇸 美国_YouTube梦歌 30
+      - 🇭🇰 阿伟科技-油管-香港11原生
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇩🇪 阿伟科技-油管-德国3
+      - github.com/freefq - 瑞典  11
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - github.com/freefq - 瑞典  6
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - CYL-科技（2021.10.24） 2
+      - 🇺🇸 github.com/freefq - 美国  16
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 阿伟科技-油管-美国2原生
+      - 🇭🇰 阿伟科技-油管-香港11原生 2
+      - github.com/freefq - 瑞典  25
+      - 🇮🇳 印度(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - YouTube梦歌_29
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 github.com/freefq - 北美地区  10
+      - CYL-科技（2021.10.24） 3
+      - github.com/freefq - 瑞典  14
+      - 🇮🇳 印度(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - YouTube梦歌_4
+      - CYL-科技（2021.10.24） 4
+      - CYL-科技（2021.10.19） 2
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - CYL-科技（2021.10.24）
-      - 感谢订阅youtube：CYL-科技
-      - 🇸🇬 阿伟科技-油管-新加坡原生-NF自制剧
-      - CYL-科技（2021.10.24） 2
-      - CYL-科技（2021.10.24） 3
-      - CYL-科技（2021.10.24） 4
-      - CYL-科技（2021.10.24） 5
-      - CYL-科技（2021.10.24） 6
-      - CYL-科技（2021.10.24） 7
-      - CYL-科技（2021.10.24） 8
-      - CYL-科技（2021.10.24） 9
-      - CYL-科技（2021.10.24） 10
-      - CYL-科技（2021.10.24） 11
-      - CYL-科技（2021.10.24） 12
-      - CYL-科技（2021.10.24） 13
-      - CYL-科技（2021.10.24） 14
-      - CYL-科技（2021.10.24） 15
-      - CYL-科技（2021.10.24） 16
-      - CYL-科技（2021.10.24） 17
-      - CYL-科技（2021.10.24） 18
-      - CYL-科技（2021.10.24） 19
-      - CYL-科技（2021.10.24） 20
-      - CYL-科技（2021.10.24） 21
-      - CYL-科技（2021.10.24） 22
-      - CYL-科技（2021.10.24） 23
-      - CYL-科技（2021.10.24） 24
-      - CYL-科技（2021.10.24） 25
-      - CYL-科技（2021.10.24） 26
-      - CYL-科技（2021.10.19）
-      - CYL-科技（2021.10.24） 27
-      - 🇺🇸 阿伟科技-油管-美国4原生
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧
-      - CYL-科技（2021.10.19） 2
-      - CYL-科技（2021.10.24） 28
-      - CYL-科技（2021.10.24） 29
-      - CYL-科技（2021.10.24） 30
-      - 🇺🇸 阿伟科技-油管-美国6原生
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧 2
-      - 🇺🇸 阿伟科技-油管-美国6原生 2
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.24） 31
-      - CYL-科技（2021.10.24） 32
-      - 🇺🇸 阿伟科技-油管-美国4原生 2
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧 3
-      - CYL-科技（2021.10.24） 33
-      - CYL-科技（2021.10.24） 34
-      - CYL-科技（2021.10.24） 35
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 74
-      - CYL-科技（2021.10.22）
-      - CYL-科技（2021.10.21）
-      - CYL-科技（2021.10.22） 2
-      - CYL-科技（2021.10.21） 2
-      - CYL-科技（2021.10.24） 36
-      - github.com/freefq - 瑞典  24
-      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 47
-      - CYL-科技（2021.10.24） 37
-      - CYL-科技（2021.10.22） 3
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
-      - 🇺🇸 github.com/freefq - 北美地区  21
-      - CYL-科技（2021.10.22） 4
-      - CYL-科技（2021.10.21） 3
-      - CYL-科技（2021.10.22） 5
-      - github.com/freefq - 瑞典  2
-      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 13
-      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 8
-      - 🇺🇸 github.com/freefq - 美国  57
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.22） 6
-      - CYL-科技（2021.10.21） 4
-      - CYL-科技（2021.10.22） 7
-      - CYL-科技（2021.10.24） 38
-      - CYL-科技
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
-      - CYL-科技（2021.10.24） 39
-      - CYL-科技（2021.10.21） 5
-      - CYL-科技（2021.10.22） 8
-      - 🇸🇬 阿伟科技-油管-新加坡-NF自制剧
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - YouTube梦歌_3
       - 🇺🇸 阿伟科技-油管-美国3原生
-      - CYL-科技（2021.10.22） 9
-      - CYL-科技（2021.10.24） 40
-      - 🇺🇸 github.com/freefq - 北美地区  7
-      - github.com/freefq - 瑞典  30
-      - github.com/freefq - 瑞典  39
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
-      - 🇺🇸 美国(Youtube频道：工具大师！) 4
-      - github.com/freefq - 瑞典  17
-      - ZZ_14307
-      - CA_1152
-      - 🇺🇸 github.com/freefq - 北美地区  45
-      - YouTube梦歌_46
-      - CA_1156
-      - ZZ_13911
-      - 🇺🇸 github.com/freefq - 北美地区  6
-      - github.com/freefq - 瑞典  9
-      - github.com/freefq - 瑞典  38
-      - 🇰🇷 YouTube梦歌_韩国_32
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 6
-      - 🇨🇦 阿伟科技-油管-加拿大2原生-NF自制剧
-      - 🇺🇸 github.com/freefq - 美国  34
-      - 🇺🇸 github.com/freefq - 美国  52
-      - 🇺🇸 github.com/freefq - 北美地区  44
-      - 🇺🇸 github.com/freefq - 美国  23
-      - github.com/freefq - 瑞典  4
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 7
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 8
-      - 🇬🇧 阿伟科技-油管-英国2原生
-      - 🇺🇸 github.com/freefq - 美国  20
-      - 🇺🇸 github.com/freefq - 北美地区  15
-      - github.com/freefq - 瑞典  1
-      - 🇺🇸 美国(Youtube频道：工具大师！) 5
-      - 欧洲(Youtube频道：工具大师！)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - CYL-科技（2021.10.22）
+      - YouTube梦歌_16
+      - CYL-科技（2021.10.19）
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
       - 🇺🇸 阿伟科技-油管-美国3
+      - YouTube梦歌_14
+      - 🇺🇸 阿伟科技-油管-美国5
+      - CYL-科技（2021.10.24）
+      - 🇺🇸 美国_YouTube梦歌 30
+      - 🇭🇰 阿伟科技-油管-香港11原生
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇩🇪 阿伟科技-油管-德国3
+      - github.com/freefq - 瑞典  11
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - github.com/freefq - 瑞典  6
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - CYL-科技（2021.10.24） 2
+      - 🇺🇸 github.com/freefq - 美国  16
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 阿伟科技-油管-美国2原生
+      - 🇭🇰 阿伟科技-油管-香港11原生 2
+      - github.com/freefq - 瑞典  25
+      - 🇮🇳 印度(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - YouTube梦歌_29
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 github.com/freefq - 北美地区  10
+      - CYL-科技（2021.10.24） 3
+      - github.com/freefq - 瑞典  14
+      - 🇮🇳 印度(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - YouTube梦歌_4
+      - CYL-科技（2021.10.24） 4
+      - CYL-科技（2021.10.19） 2
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CYL-科技（2021.10.24）
-      - 感谢订阅youtube：CYL-科技
-      - 🇸🇬 阿伟科技-油管-新加坡原生-NF自制剧
-      - CYL-科技（2021.10.24） 2
-      - CYL-科技（2021.10.24） 3
-      - CYL-科技（2021.10.24） 4
-      - CYL-科技（2021.10.24） 5
-      - CYL-科技（2021.10.24） 6
-      - CYL-科技（2021.10.24） 7
-      - CYL-科技（2021.10.24） 8
-      - CYL-科技（2021.10.24） 9
-      - CYL-科技（2021.10.24） 10
-      - CYL-科技（2021.10.24） 11
-      - CYL-科技（2021.10.24） 12
-      - CYL-科技（2021.10.24） 13
-      - CYL-科技（2021.10.24） 14
-      - CYL-科技（2021.10.24） 15
-      - CYL-科技（2021.10.24） 16
-      - CYL-科技（2021.10.24） 17
-      - CYL-科技（2021.10.24） 18
-      - CYL-科技（2021.10.24） 19
-      - CYL-科技（2021.10.24） 20
-      - CYL-科技（2021.10.24） 21
-      - CYL-科技（2021.10.24） 22
-      - CYL-科技（2021.10.24） 23
-      - CYL-科技（2021.10.24） 24
-      - CYL-科技（2021.10.24） 25
-      - CYL-科技（2021.10.24） 26
-      - CYL-科技（2021.10.19）
-      - CYL-科技（2021.10.24） 27
-      - 🇺🇸 阿伟科技-油管-美国4原生
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧
-      - CYL-科技（2021.10.19） 2
-      - CYL-科技（2021.10.24） 28
-      - CYL-科技（2021.10.24） 29
-      - CYL-科技（2021.10.24） 30
-      - 🇺🇸 阿伟科技-油管-美国6原生
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧 2
-      - 🇺🇸 阿伟科技-油管-美国6原生 2
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.24） 31
-      - CYL-科技（2021.10.24） 32
-      - 🇺🇸 阿伟科技-油管-美国4原生 2
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧 3
-      - CYL-科技（2021.10.24） 33
-      - CYL-科技（2021.10.24） 34
-      - CYL-科技（2021.10.24） 35
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 74
-      - CYL-科技（2021.10.22）
-      - CYL-科技（2021.10.21）
-      - CYL-科技（2021.10.22） 2
-      - CYL-科技（2021.10.21） 2
-      - CYL-科技（2021.10.24） 36
-      - github.com/freefq - 瑞典  24
-      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 47
-      - CYL-科技（2021.10.24） 37
-      - CYL-科技（2021.10.22） 3
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
-      - 🇺🇸 github.com/freefq - 北美地区  21
-      - CYL-科技（2021.10.22） 4
-      - CYL-科技（2021.10.21） 3
-      - CYL-科技（2021.10.22） 5
-      - github.com/freefq - 瑞典  2
-      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 13
-      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 8
-      - 🇺🇸 github.com/freefq - 美国  57
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.22） 6
-      - CYL-科技（2021.10.21） 4
-      - CYL-科技（2021.10.22） 7
-      - CYL-科技（2021.10.24） 38
-      - CYL-科技
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
-      - CYL-科技（2021.10.24） 39
-      - CYL-科技（2021.10.21） 5
-      - CYL-科技（2021.10.22） 8
-      - 🇸🇬 阿伟科技-油管-新加坡-NF自制剧
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - YouTube梦歌_3
       - 🇺🇸 阿伟科技-油管-美国3原生
-      - CYL-科技（2021.10.22） 9
-      - CYL-科技（2021.10.24） 40
-      - 🇺🇸 github.com/freefq - 北美地区  7
-      - github.com/freefq - 瑞典  30
-      - github.com/freefq - 瑞典  39
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
-      - 🇺🇸 美国(Youtube频道：工具大师！) 4
-      - github.com/freefq - 瑞典  17
-      - ZZ_14307
-      - CA_1152
-      - 🇺🇸 github.com/freefq - 北美地区  45
-      - YouTube梦歌_46
-      - CA_1156
-      - ZZ_13911
-      - 🇺🇸 github.com/freefq - 北美地区  6
-      - github.com/freefq - 瑞典  9
-      - github.com/freefq - 瑞典  38
-      - 🇰🇷 YouTube梦歌_韩国_32
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 6
-      - 🇨🇦 阿伟科技-油管-加拿大2原生-NF自制剧
-      - 🇺🇸 github.com/freefq - 美国  34
-      - 🇺🇸 github.com/freefq - 美国  52
-      - 🇺🇸 github.com/freefq - 北美地区  44
-      - 🇺🇸 github.com/freefq - 美国  23
-      - github.com/freefq - 瑞典  4
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 7
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 8
-      - 🇬🇧 阿伟科技-油管-英国2原生
-      - 🇺🇸 github.com/freefq - 美国  20
-      - 🇺🇸 github.com/freefq - 北美地区  15
-      - github.com/freefq - 瑞典  1
-      - 🇺🇸 美国(Youtube频道：工具大师！) 5
-      - 欧洲(Youtube频道：工具大师！)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - CYL-科技（2021.10.22）
+      - YouTube梦歌_16
+      - CYL-科技（2021.10.19）
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
       - 🇺🇸 阿伟科技-油管-美国3
+      - YouTube梦歌_14
+      - 🇺🇸 阿伟科技-油管-美国5
+      - CYL-科技（2021.10.24）
+      - 🇺🇸 美国_YouTube梦歌 30
+      - 🇭🇰 阿伟科技-油管-香港11原生
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇩🇪 阿伟科技-油管-德国3
+      - github.com/freefq - 瑞典  11
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - github.com/freefq - 瑞典  6
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - CYL-科技（2021.10.24） 2
+      - 🇺🇸 github.com/freefq - 美国  16
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 阿伟科技-油管-美国2原生
+      - 🇭🇰 阿伟科技-油管-香港11原生 2
+      - github.com/freefq - 瑞典  25
+      - 🇮🇳 印度(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - YouTube梦歌_29
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 github.com/freefq - 北美地区  10
+      - CYL-科技（2021.10.24） 3
+      - github.com/freefq - 瑞典  14
+      - 🇮🇳 印度(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - YouTube梦歌_4
+      - CYL-科技（2021.10.24） 4
+      - CYL-科技（2021.10.19） 2
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 4
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CYL-科技（2021.10.24）
-      - 感谢订阅youtube：CYL-科技
-      - 🇸🇬 阿伟科技-油管-新加坡原生-NF自制剧
-      - CYL-科技（2021.10.24） 2
-      - CYL-科技（2021.10.24） 3
-      - CYL-科技（2021.10.24） 4
-      - CYL-科技（2021.10.24） 5
-      - CYL-科技（2021.10.24） 6
-      - CYL-科技（2021.10.24） 7
-      - CYL-科技（2021.10.24） 8
-      - CYL-科技（2021.10.24） 9
-      - CYL-科技（2021.10.24） 10
-      - CYL-科技（2021.10.24） 11
-      - CYL-科技（2021.10.24） 12
-      - CYL-科技（2021.10.24） 13
-      - CYL-科技（2021.10.24） 14
-      - CYL-科技（2021.10.24） 15
-      - CYL-科技（2021.10.24） 16
-      - CYL-科技（2021.10.24） 17
-      - CYL-科技（2021.10.24） 18
-      - CYL-科技（2021.10.24） 19
-      - CYL-科技（2021.10.24） 20
-      - CYL-科技（2021.10.24） 21
-      - CYL-科技（2021.10.24） 22
-      - CYL-科技（2021.10.24） 23
-      - CYL-科技（2021.10.24） 24
-      - CYL-科技（2021.10.24） 25
-      - CYL-科技（2021.10.24） 26
-      - CYL-科技（2021.10.19）
-      - CYL-科技（2021.10.24） 27
-      - 🇺🇸 阿伟科技-油管-美国4原生
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧
-      - CYL-科技（2021.10.19） 2
-      - CYL-科技（2021.10.24） 28
-      - CYL-科技（2021.10.24） 29
-      - CYL-科技（2021.10.24） 30
-      - 🇺🇸 阿伟科技-油管-美国6原生
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧 2
-      - 🇺🇸 阿伟科技-油管-美国6原生 2
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.24） 31
-      - CYL-科技（2021.10.24） 32
-      - 🇺🇸 阿伟科技-油管-美国4原生 2
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧 3
-      - CYL-科技（2021.10.24） 33
-      - CYL-科技（2021.10.24） 34
-      - CYL-科技（2021.10.24） 35
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 74
-      - CYL-科技（2021.10.22）
-      - CYL-科技（2021.10.21）
-      - CYL-科技（2021.10.22） 2
-      - CYL-科技（2021.10.21） 2
-      - CYL-科技（2021.10.24） 36
-      - github.com/freefq - 瑞典  24
-      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 47
-      - CYL-科技（2021.10.24） 37
-      - CYL-科技（2021.10.22） 3
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
-      - 🇺🇸 github.com/freefq - 北美地区  21
-      - CYL-科技（2021.10.22） 4
-      - CYL-科技（2021.10.21） 3
-      - CYL-科技（2021.10.22） 5
-      - github.com/freefq - 瑞典  2
-      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 13
-      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 8
-      - 🇺🇸 github.com/freefq - 美国  57
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.22） 6
-      - CYL-科技（2021.10.21） 4
-      - CYL-科技（2021.10.22） 7
-      - CYL-科技（2021.10.24） 38
-      - CYL-科技
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
-      - CYL-科技（2021.10.24） 39
-      - CYL-科技（2021.10.21） 5
-      - CYL-科技（2021.10.22） 8
-      - 🇸🇬 阿伟科技-油管-新加坡-NF自制剧
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - YouTube梦歌_3
       - 🇺🇸 阿伟科技-油管-美国3原生
-      - CYL-科技（2021.10.22） 9
-      - CYL-科技（2021.10.24） 40
-      - 🇺🇸 github.com/freefq - 北美地区  7
-      - github.com/freefq - 瑞典  30
-      - github.com/freefq - 瑞典  39
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
-      - 🇺🇸 美国(Youtube频道：工具大师！) 4
-      - github.com/freefq - 瑞典  17
-      - ZZ_14307
-      - CA_1152
-      - 🇺🇸 github.com/freefq - 北美地区  45
-      - YouTube梦歌_46
-      - CA_1156
-      - ZZ_13911
-      - 🇺🇸 github.com/freefq - 北美地区  6
-      - github.com/freefq - 瑞典  9
-      - github.com/freefq - 瑞典  38
-      - 🇰🇷 YouTube梦歌_韩国_32
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 6
-      - 🇨🇦 阿伟科技-油管-加拿大2原生-NF自制剧
-      - 🇺🇸 github.com/freefq - 美国  34
-      - 🇺🇸 github.com/freefq - 美国  52
-      - 🇺🇸 github.com/freefq - 北美地区  44
-      - 🇺🇸 github.com/freefq - 美国  23
-      - github.com/freefq - 瑞典  4
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 7
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 8
-      - 🇬🇧 阿伟科技-油管-英国2原生
-      - 🇺🇸 github.com/freefq - 美国  20
-      - 🇺🇸 github.com/freefq - 北美地区  15
-      - github.com/freefq - 瑞典  1
-      - 🇺🇸 美国(Youtube频道：工具大师！) 5
-      - 欧洲(Youtube频道：工具大师！)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - CYL-科技（2021.10.22）
+      - YouTube梦歌_16
+      - CYL-科技（2021.10.19）
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
       - 🇺🇸 阿伟科技-油管-美国3
+      - YouTube梦歌_14
+      - 🇺🇸 阿伟科技-油管-美国5
+      - CYL-科技（2021.10.24）
+      - 🇺🇸 美国_YouTube梦歌 30
+      - 🇭🇰 阿伟科技-油管-香港11原生
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇩🇪 阿伟科技-油管-德国3
+      - github.com/freefq - 瑞典  11
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - github.com/freefq - 瑞典  6
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - CYL-科技（2021.10.24） 2
+      - 🇺🇸 github.com/freefq - 美国  16
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 阿伟科技-油管-美国2原生
+      - 🇭🇰 阿伟科技-油管-香港11原生 2
+      - github.com/freefq - 瑞典  25
+      - 🇮🇳 印度(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - YouTube梦歌_29
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 github.com/freefq - 北美地区  10
+      - CYL-科技（2021.10.24） 3
+      - github.com/freefq - 瑞典  14
+      - 🇮🇳 印度(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - YouTube梦歌_4
+      - CYL-科技（2021.10.24） 4
+      - CYL-科技（2021.10.19） 2
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -986,121 +466,56 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CYL-科技（2021.10.24）
-      - 感谢订阅youtube：CYL-科技
-      - 🇸🇬 阿伟科技-油管-新加坡原生-NF自制剧
-      - CYL-科技（2021.10.24） 2
-      - CYL-科技（2021.10.24） 3
-      - CYL-科技（2021.10.24） 4
-      - CYL-科技（2021.10.24） 5
-      - CYL-科技（2021.10.24） 6
-      - CYL-科技（2021.10.24） 7
-      - CYL-科技（2021.10.24） 8
-      - CYL-科技（2021.10.24） 9
-      - CYL-科技（2021.10.24） 10
-      - CYL-科技（2021.10.24） 11
-      - CYL-科技（2021.10.24） 12
-      - CYL-科技（2021.10.24） 13
-      - CYL-科技（2021.10.24） 14
-      - CYL-科技（2021.10.24） 15
-      - CYL-科技（2021.10.24） 16
-      - CYL-科技（2021.10.24） 17
-      - CYL-科技（2021.10.24） 18
-      - CYL-科技（2021.10.24） 19
-      - CYL-科技（2021.10.24） 20
-      - CYL-科技（2021.10.24） 21
-      - CYL-科技（2021.10.24） 22
-      - CYL-科技（2021.10.24） 23
-      - CYL-科技（2021.10.24） 24
-      - CYL-科技（2021.10.24） 25
-      - CYL-科技（2021.10.24） 26
-      - CYL-科技（2021.10.19）
-      - CYL-科技（2021.10.24） 27
-      - 🇺🇸 阿伟科技-油管-美国4原生
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧
-      - CYL-科技（2021.10.19） 2
-      - CYL-科技（2021.10.24） 28
-      - CYL-科技（2021.10.24） 29
-      - CYL-科技（2021.10.24） 30
-      - 🇺🇸 阿伟科技-油管-美国6原生
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧 2
-      - 🇺🇸 阿伟科技-油管-美国6原生 2
-      - 🇨🇦 加拿大(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.24） 31
-      - CYL-科技（2021.10.24） 32
-      - 🇺🇸 阿伟科技-油管-美国4原生 2
-      - 🇺🇸 阿伟科技-油管-美国原生-NF自制剧 3
-      - CYL-科技（2021.10.24） 33
-      - CYL-科技（2021.10.24） 34
-      - CYL-科技（2021.10.24） 35
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 74
-      - CYL-科技（2021.10.22）
-      - CYL-科技（2021.10.21）
-      - CYL-科技（2021.10.22） 2
-      - CYL-科技（2021.10.21） 2
-      - CYL-科技（2021.10.24） 36
-      - github.com/freefq - 瑞典  24
-      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 47
-      - CYL-科技（2021.10.24） 37
-      - CYL-科技（2021.10.22） 3
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 2
-      - 🇺🇸 github.com/freefq - 北美地区  21
-      - CYL-科技（2021.10.22） 4
-      - CYL-科技（2021.10.21） 3
-      - CYL-科技（2021.10.22） 5
-      - github.com/freefq - 瑞典  2
-      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 13
-      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 8
-      - 🇺🇸 github.com/freefq - 美国  57
-      - 🇺🇸 美国(Youtube频道：工具大师！)
-      - CYL-科技（2021.10.22） 6
-      - CYL-科技（2021.10.21） 4
-      - CYL-科技（2021.10.22） 7
-      - CYL-科技（2021.10.24） 38
-      - CYL-科技
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 3
-      - CYL-科技（2021.10.24） 39
-      - CYL-科技（2021.10.21） 5
-      - CYL-科技（2021.10.22） 8
-      - 🇸🇬 阿伟科技-油管-新加坡-NF自制剧
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - YouTube梦歌_3
       - 🇺🇸 阿伟科技-油管-美国3原生
-      - CYL-科技（2021.10.22） 9
-      - CYL-科技（2021.10.24） 40
-      - 🇺🇸 github.com/freefq - 北美地区  7
-      - github.com/freefq - 瑞典  30
-      - github.com/freefq - 瑞典  39
-      - 🇺🇸 美国(Youtube频道：工具大师！) 2
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 4
-      - 🇺🇸 美国(Youtube频道：工具大师！) 3
-      - 🇺🇸 美国(Youtube频道：工具大师！) 4
-      - github.com/freefq - 瑞典  17
-      - ZZ_14307
-      - CA_1152
-      - 🇺🇸 github.com/freefq - 北美地区  45
-      - YouTube梦歌_46
-      - CA_1156
-      - ZZ_13911
-      - 🇺🇸 github.com/freefq - 北美地区  6
-      - github.com/freefq - 瑞典  9
-      - github.com/freefq - 瑞典  38
-      - 🇰🇷 YouTube梦歌_韩国_32
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 5
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 6
-      - 🇨🇦 阿伟科技-油管-加拿大2原生-NF自制剧
-      - 🇺🇸 github.com/freefq - 美国  34
-      - 🇺🇸 github.com/freefq - 美国  52
-      - 🇺🇸 github.com/freefq - 北美地区  44
-      - 🇺🇸 github.com/freefq - 美国  23
-      - github.com/freefq - 瑞典  4
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 7
-      - 🇨🇦 加拿大(Youtube频道：工具大师！) 8
-      - 🇬🇧 阿伟科技-油管-英国2原生
-      - 🇺🇸 github.com/freefq - 美国  20
-      - 🇺🇸 github.com/freefq - 北美地区  15
-      - github.com/freefq - 瑞典  1
-      - 🇺🇸 美国(Youtube频道：工具大师！) 5
-      - 欧洲(Youtube频道：工具大师！)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - CYL-科技（2021.10.22）
+      - YouTube梦歌_16
+      - CYL-科技（2021.10.19）
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
       - 🇺🇸 阿伟科技-油管-美国3
+      - YouTube梦歌_14
+      - 🇺🇸 阿伟科技-油管-美国5
+      - CYL-科技（2021.10.24）
+      - 🇺🇸 美国_YouTube梦歌 30
+      - 🇭🇰 阿伟科技-油管-香港11原生
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇩🇪 阿伟科技-油管-德国3
+      - github.com/freefq - 瑞典  11
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - github.com/freefq - 瑞典  6
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - CYL-科技（2021.10.24） 2
+      - 🇺🇸 github.com/freefq - 美国  16
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 阿伟科技-油管-美国2原生
+      - 🇭🇰 阿伟科技-油管-香港11原生 2
+      - github.com/freefq - 瑞典  25
+      - 🇮🇳 印度(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - YouTube梦歌_29
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇸 github.com/freefq - 北美地区  10
+      - CYL-科技（2021.10.24） 3
+      - github.com/freefq - 瑞典  14
+      - 🇮🇳 印度(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - YouTube梦歌_4
+      - CYL-科技（2021.10.24） 4
+      - CYL-科技（2021.10.19） 2
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 4
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
