@@ -5,445 +5,613 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇭🇰 香港阿伟科技-油管5, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 118.107.244.112:5004, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇸🇬 新加坡阿伟科技-油管, server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: 1bac430d-4fe8-4b5c-8ec5-be7495a6a3bc, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: chenguanxi.zhqt.xyz}}
+  - {name: 118.107.244.112:8080, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CYL-科技（2021.10.31）, server: 120.232.43.129, port: 30002, type: vmess, uuid: 45fc4eab-4725-4e9c-bcfd-7d539dca2acb, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.232.43.129}}
+  - {name: CYL-科技（2021.10.31） 2, server: 120.232.43.129, port: 30010, type: vmess, uuid: 45fc4eab-4725-4e9c-bcfd-7d539dca2acb, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.232.43.129}}
+  - {name: 🇷🇺 俄罗斯阿伟科技-油管2, server: gonyi2.baiyun.pw, port: 831, type: vmess, uuid: 7d15736e-3f24-3cce-a313-03e6a2673215, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1.baiyun.pw}}
+  - {name: CYL-科技（2021.10.31） 3, server: 120.232.173.154, port: 50093, type: vmess, uuid: 557186c0-7c39-4a8c-b02a-adca6b996062, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: chenguanxi.zhqt.xyz}}
+  - {name: 🇺🇸 美国阿伟科技-油管, server: ns1.freev2r.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 4a447af6-a5c1-4589-91e9-68f0e6a793e7}
+  - {name: 118.107.244.112:5003, server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: CYL-科技（2021.10.31） 4, server: 120.232.173.154, port: 50093, type: vmess, uuid: 6484b9e6-05ef-4cd5-a6fa-573b531669b4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: chenguanxi.zhqt.xyz}}
+  - {name: 🇰🇷 韩国阿伟科技-油管5, server: 3.35.141.32, port: 18080, type: vmess, uuid: a3250995-7c4c-3d70-a91c-00eed5b2820c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /lisa, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 1, server: hk016.bp666.xyz, port: 22536, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk016.bp666.xyz}}
+  - {name: CYL-科技（2021.10.31） 5, server: 120.232.43.129, port: 30014, type: vmess, uuid: 45fc4eab-4725-4e9c-bcfd-7d539dca2acb, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.232.43.129}}
+  - {name: 🇺🇸 美国阿伟科技-油管 2, server: 520yyds.zhqt.xyz, port: 50089, type: vmess, uuid: 1bac430d-4fe8-4b5c-8ec5-be7495a6a3bc, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: free-4.joker007.top}}
+  - {name: 🇯🇵 日本（YouTube资源分享者）, server: 52.199.89.79, port: 80, type: vmess, uuid: 10270a4e-a218-4d4b-9623-ae62b2de081b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /air.knayo.in, ws-headers: {Host: 52.199.89.79}}
+  - {name: 🇺🇸 美国阿伟科技-油管 3, server: 520yyds.zhqt.xyz, port: 50089, type: vmess, uuid: 557186c0-7c39-4a8c-b02a-adca6b996062, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: free-4.joker007.top}}
+  - {name: 🇯🇵 日本阿伟科技-油管5, server: ns6.freev2r.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: e9d51c28-ec7a-42e4-ab6f-b0d4aecf8028}
+  - {name: 🇯🇵 日本阿伟科技-油管5 2, server: 52.199.89.79, port: 80, type: vmess, uuid: aca8f302-9cb3-4785-b8ca-3ce660eb1cc4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /air.knayo.in, ws-headers: {Host: 52.199.89.79}}
+  - {name: 🇭🇰 SouthKorea 5, server: hk005.bp666.xyz, port: 22535, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk005.bp666.xyz}}
+  - {name: 🇭🇰 SouthKorea 6, server: hk006.bp666.xyz, port: 22531, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk006.bp666.xyz}}
+  - {name: 🇭🇰 SouthKorea 8, server: hk008.bp666.xyz, port: 22532, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk008.bp666.xyz}}
+  - {name: 🇭🇰 SouthKorea 3, server: hk003.bp666.xyz, port: 22522, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk003.bp666.xyz}}
+  - {name: 🇺🇸 美国阿伟科技-油管 4, server: 520yyds.zhqt.xyz, port: 50092, type: vmess, uuid: 1bac430d-4fe8-4b5c-8ec5-be7495a6a3bc, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 135.zhqt.xyz}}
   - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a, server: cloud3.yixiu.ga, port: 443, type: vmess, uuid: f65eb556-2e2b-4fbb-8ab5-914313200f77, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /qgebvws, ws-headers: {Host: cloud3.yixiu.ga}}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 2, server: 198.41.192.192, port: 443, type: vmess, uuid: c206cb99-b4b7-4254-92e4-0c6f61d5a96a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us.klee.ml}}
-  - {name: YouTube梦歌_3, server: 1.transit.t.qjnodeip.xyz, port: 15140, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /Ub6w, ws-headers: {Host: usa04.dadwff.xyz}}
-  - {name: 🇺🇸 阿伟科技-油管-美国3原生, server: 154.17.2.64, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: ZEAC0K2Iulex3XajSe8pCy3YaDCSDpz9Z67OwDnT8ANRalRSYcqFF54yBx3Og3}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 3, server: cloud7.yixiu.ga, port: 443, type: trojan, password: f65eb556-2e2b-4fbb-8ab5-914313200f77, sni: cloud7.yixiu.ga}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 4, server: 62.210.222.195, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 5, server: 134.195.196.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: CYL-科技（2021.10.22）, server: 172.252.99.23, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: YouTube梦歌_16, server: 1.transit.t.qjnodeip.xyz, port: 27435, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /JP03W, ws-headers: {Host: xjp03.cswtw.xyz}}
-  - {name: CYL-科技（2021.10.19）, server: 172.252.99.15, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君), server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 6, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 7, server: 46.101.28.98, port: 12222, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 🇺🇸 阿伟科技-油管-美国3, server: ns1.freev2r.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 40afaaa8-ecdc-446e-85f0-f8fcbdfd31f3}
-  - {name: YouTube梦歌_14, server: 1.transit.t.qjnodeip.xyz, port: 49676, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /JS6dq, ws-headers: {Host: xjp2.iuhbhgg.xyz}}
-  - {name: 🇺🇸 阿伟科技-油管-美国5, server: tgfhgfdghpppppp.work, port: 80, type: vmess, uuid: c1d8c556-6d4f-4fb7-8411-416beac90e29, alterId: 0, cipher: auto, tls: false}
-  - {name: CYL-科技（2021.10.24）, server: 167.88.61.110, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国_YouTube梦歌 30, server: 172.99.190.158, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇭🇰 阿伟科技-油管-香港11原生, server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2, server: 172.99.190.35, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 172.105.172.41, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇩🇪 阿伟科技-油管-德国3, server: sh.freev2r.xyz, port: 58443, type: ss, cipher: chacha20-ietf-poly1305, password: 6368b294-5671-4704-9960-3e7dee4d95d5}
-  - {name: github.com/freefq - 瑞典  11, server: 167.88.63.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 172.105.167.214, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: github.com/freefq - 瑞典  6, server: 167.88.63.119, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君), server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君), server: 2.59.214.204, port: 152, type: ss, cipher: aes-128-gcm, password: 5b092e88-82d8-47eb-a7a2-98bcf02754e9}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 8, server: 38.107.226.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2021.10.24） 2, server: 167.88.61.15, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 github.com/freefq - 美国  16, server: 172.99.190.35, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 128.14.222.211, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 阿伟科技-油管-美国2原生, server: 154.17.2.35, port: 18337, type: ss, cipher: chacha20-ietf-poly1305, password: 9TaRFO7CRxCj50aa6e8ply34nXwSpYYCDexNu2KFDzO3ygc8S3AqDA3lZZBESI}
-  - {name: 🇭🇰 阿伟科技-油管-香港11原生 2, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: github.com/freefq - 瑞典  25, server: 167.88.63.119, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇮🇳 印度(欢迎订阅Youtube破解资源君), server: 172.105.57.249, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3, server: 167.88.63.82, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 9, server: 167.88.61.204, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2, server: t3.ssrsub.com, port: 8443, type: trojan, password: 5b092e88-82d8-47eb-a7a2-98bcf02754e9, sni: t3.ssrsub.com}
-  - {name: YouTube梦歌_29, server: 1.transit.t.qjnodeip.xyz, port: 61610, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 5, cipher: auto, tls: true, network: ws, ws-path: /C1zmqibh, ws-headers: {Host: hkyz.iuhbhgg.xyz}}
-  - {name: 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 3, server: v7.ssrsub.com, port: 158, type: vmess, uuid: 5b092e88-82d8-47eb-a7a2-98bcf02754e9, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v7.ssrsub.com}}
-  - {name: 🇺🇸 github.com/freefq - 北美地区  10, server: 198.57.27.225, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.10.24） 3, server: 167.88.61.50, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: github.com/freefq - 瑞典  14, server: 167.88.63.82, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇮🇳 印度(欢迎订阅Youtube破解资源君) 2, server: 172.105.59.32, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4, server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: YouTube梦歌_4, server: 1.transit.t.qjnodeip.xyz, port: 62329, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /usa1Z, ws-headers: {Host: usa03.dadwff.xyz}}
-  - {name: CYL-科技（2021.10.24） 4, server: 167.88.61.15, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2021.10.19） 2, server: 172.252.99.27, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5, server: 167.88.63.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 4, server: t7.ssrsub.com, port: 8443, type: trojan, password: 5b092e88-82d8-47eb-a7a2-98bcf02754e9, sni: t7.ssrsub.com}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 2, server: 104.16.104.135, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: tight-math-32ee.tianzhen4567.workers.dev}}
+  - {name: 2021-10-31, server: 104.16.151.215, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: twilight-breeze-3b18.tianzhen168168.workers.dev}}
+  - {name: 🇭🇰 SouthKorea 4, server: hk004.bp666.xyz, port: 22536, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk004.bp666.xyz}}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 3, server: 104.19.107.102, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: morning-mud-2d55.tianzhen169.workers.dev}}
+  - {name: 🇭🇰 SouthKorea 7, server: hk007.bp666.xyz, port: 22532, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk007.bp666.xyz}}
+  - {name: 🇭🇰 SouthKorea 9, server: hk009.bp666.xyz, port: 22535, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk009.bp666.xyz}}
+  - {name: 🇭🇰 SouthKorea 0, server: hk010.bp666.xyz, port: 22535, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk010.bp666.xyz}}
+  - {name: 🇭🇰 SouthKorea 1, server: hk001.bp666.xyz, port: 22587, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk001.bp666.xyz}}
+  - {name: CYL-科技（2021.10.31） 6, server: 120.232.43.129, port: 30000, type: vmess, uuid: 45fc4eab-4725-4e9c-bcfd-7d539dca2acb, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.232.43.129}}
+  - {name: 🇰🇷 韩国阿伟科技-油管, server: 58.32.12.248, port: 13712, type: vmess, uuid: a3250995-7c4c-3d70-a91c-00eed5b2820c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /lisa, ws-headers: {Host: t.me/vpnhat}}
+  - {name: "🇸🇬 新加坡 🇸🇬(技术分享室整理,欢迎订阅)", server: 184.168.127.50, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938}
+  - {name: CYL-科技（2021.10.31） 7, server: 129.154.53.246, port: 80, type: vmess, uuid: 9f21919e-f5a4-4c68-aeda-017652cd4692, alterId: 6, cipher: auto, tls: false}
+  - {name: CYL-科技（2021.10.31） 8, server: 520yyds.zhqt.xyz, port: 50092, type: vmess, uuid: 6484b9e6-05ef-4cd5-a6fa-573b531669b4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 135.zhqt.xyz}}
+  - {name: 🇸🇬 新加坡阿伟科技-油管5, server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: 557186c0-7c39-4a8c-b02a-adca6b996062, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: chenguanxi.zhqt.xyz}}
+  - {name: 🇰🇷 韩国阿伟科技-油管2, server: 52.175.122.164, port: 55199, type: vmess, uuid: aca8f302-9cb3-4785-b8ca-3ce660eb1cc4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /air.knayo.in, ws-headers: {Host: 52.175.122.164}}
+  - {name: "🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)", server: 172.252.64.56, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 美国（YouTube资源分享者）, server: 167.88.61.15, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 4, server: 172.252.64.55, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: CYL-科技（2021.10.31） 9, server: 520yyds.zhqt.xyz, port: 50089, type: vmess, uuid: 6484b9e6-05ef-4cd5-a6fa-573b531669b4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: free-4.joker007.top}}
+  - {name: 🇺🇸 UnitedStates 1, server: hk011.bp666.xyz, port: 22112, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk011.bp666.xyz}}
+  - {name: 🇺🇸 UnitedStates 3, server: hk013.bp666.xyz, port: 22582, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk013.bp666.xyz}}
+  - {name: 🇺🇸 UnitedStates 4, server: hk014.bp666.xyz, port: 22539, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk014.bp666.xyz}}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 2, server: 167.88.61.222, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "🇺🇸 US(技术分享室整理,欢迎订阅)", server: 173.82.160.106, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 3, server: 167.88.61.15, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 4, server: 167.88.61.15, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 5, server: 167.88.61.222, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 6, server: 167.88.61.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 7, server: 167.88.61.222, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 8, server: 167.88.61.50, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 9, server: 167.88.61.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 10, server: 167.88.61.222, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 11, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 12, server: 167.88.61.204, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 13, server: 167.88.61.204, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 14, server: 167.88.61.204, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 15, server: 167.88.61.222, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 https://bit.ly/3uWuS7a _share, server: 172.252.99.15, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 欧洲(Youtube频道：工具大师！), server: 139.155.22.227, port: 49110, type: vmess, uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 UnitedStates 2, server: hk012.bp666.xyz, port: 22112, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk012.bp666.xyz}}
+  - {name: 🇺🇸 UnitedStates 5, server: hk015.bp666.xyz, port: 22591, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk015.bp666.xyz}}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 16, server: 167.88.61.222, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2021.10.30）, server: 172.252.64.57, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 美国（YouTube资源分享者） 17, server: 154.17.23.132, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: 0C9IaKy38uljOZ7Z6eC3na3XNA4lSYzTBx5ESqFyOYCaeR2pxFSDc3DDwA8gRp}
+  - {name: 🇺🇸 美国阿伟科技-油管 5, server: nv4.freev2r.xyz, port: 8443, type: vmess, uuid: 4a447af6-a5c1-4589-91e9-68f0e6a793e7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇭🇰 香港阿伟科技-油管, server: 168.63.201.200, port: 21011, type: vmess, uuid: a3250995-7c4c-3d70-a91c-00eed5b2820c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇭🇰 香港阿伟科技-油管5
+      - 118.107.244.112:5004
+      - 🇸🇬 新加坡阿伟科技-油管
+      - 118.107.244.112:8080
+      - CYL-科技（2021.10.31）
+      - CYL-科技（2021.10.31） 2
+      - 🇷🇺 俄罗斯阿伟科技-油管2
+      - CYL-科技（2021.10.31） 3
+      - 🇺🇸 美国阿伟科技-油管
+      - 118.107.244.112:5003
+      - CYL-科技（2021.10.31） 4
+      - 🇰🇷 韩国阿伟科技-油管5
+      - 1
+      - CYL-科技（2021.10.31） 5
+      - 🇺🇸 美国阿伟科技-油管 2
+      - 🇯🇵 日本（YouTube资源分享者）
+      - 🇺🇸 美国阿伟科技-油管 3
+      - 🇯🇵 日本阿伟科技-油管5
+      - 🇯🇵 日本阿伟科技-油管5 2
+      - 🇭🇰 SouthKorea 5
+      - 🇭🇰 SouthKorea 6
+      - 🇭🇰 SouthKorea 8
+      - 🇭🇰 SouthKorea 3
+      - 🇺🇸 美国阿伟科技-油管 4
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - YouTube梦歌_3
-      - 🇺🇸 阿伟科技-油管-美国3原生
+      - 2021-10-31
+      - 🇭🇰 SouthKorea 4
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇭🇰 SouthKorea 7
+      - 🇭🇰 SouthKorea 9
+      - 🇭🇰 SouthKorea 0
+      - 🇭🇰 SouthKorea 1
+      - CYL-科技（2021.10.31） 6
+      - 🇰🇷 韩国阿伟科技-油管
+      - 🇸🇬 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
+      - CYL-科技（2021.10.31） 7
+      - CYL-科技（2021.10.31） 8
+      - 🇸🇬 新加坡阿伟科技-油管5
+      - 🇰🇷 韩国阿伟科技-油管2
+      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
+      - 🇺🇸 美国（YouTube资源分享者）
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
-      - CYL-科技（2021.10.22）
-      - YouTube梦歌_16
-      - CYL-科技（2021.10.19）
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
-      - 🇺🇸 阿伟科技-油管-美国3
-      - YouTube梦歌_14
-      - 🇺🇸 阿伟科技-油管-美国5
-      - CYL-科技（2021.10.24）
-      - 🇺🇸 美国_YouTube梦歌 30
-      - 🇭🇰 阿伟科技-油管-香港11原生
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇩🇪 阿伟科技-油管-德国3
-      - github.com/freefq - 瑞典  11
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - github.com/freefq - 瑞典  6
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
-      - CYL-科技（2021.10.24） 2
-      - 🇺🇸 github.com/freefq - 美国  16
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 阿伟科技-油管-美国2原生
-      - 🇭🇰 阿伟科技-油管-香港11原生 2
-      - github.com/freefq - 瑞典  25
-      - 🇮🇳 印度(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
-      - YouTube梦歌_29
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 github.com/freefq - 北美地区  10
-      - CYL-科技（2021.10.24） 3
-      - github.com/freefq - 瑞典  14
-      - 🇮🇳 印度(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
-      - YouTube梦歌_4
-      - CYL-科技（2021.10.24） 4
-      - CYL-科技（2021.10.19） 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 4
+      - CYL-科技（2021.10.31） 9
+      - 🇺🇸 UnitedStates 1
+      - 🇺🇸 UnitedStates 3
+      - 🇺🇸 UnitedStates 4
+      - 🇺🇸 美国（YouTube资源分享者） 2
+      - 🇺🇸 US(技术分享室整理,欢迎订阅)
+      - 🇺🇸 美国（YouTube资源分享者） 3
+      - 🇺🇸 美国（YouTube资源分享者） 4
+      - 🇺🇸 美国（YouTube资源分享者） 5
+      - 🇺🇸 美国（YouTube资源分享者） 6
+      - 🇺🇸 美国（YouTube资源分享者） 7
+      - 🇺🇸 美国（YouTube资源分享者） 8
+      - 🇺🇸 美国（YouTube资源分享者） 9
+      - 🇺🇸 美国（YouTube资源分享者） 10
+      - 🇺🇸 美国（YouTube资源分享者） 11
+      - 🇺🇸 美国（YouTube资源分享者） 12
+      - 🇺🇸 美国（YouTube资源分享者） 13
+      - 🇺🇸 美国（YouTube资源分享者） 14
+      - 🇺🇸 美国（YouTube资源分享者） 15
+      - 🇺🇸 https://bit.ly/3uWuS7a _share
+      - 欧洲(Youtube频道：工具大师！)
+      - 🇺🇸 UnitedStates 2
+      - 🇺🇸 UnitedStates 5
+      - 🇺🇸 美国（YouTube资源分享者） 16
+      - CYL-科技（2021.10.30）
+      - 🇺🇸 美国（YouTube资源分享者） 17
+      - 🇺🇸 美国阿伟科技-油管 5
+      - 🇭🇰 香港阿伟科技-油管
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇭🇰 香港阿伟科技-油管5
+      - 118.107.244.112:5004
+      - 🇸🇬 新加坡阿伟科技-油管
+      - 118.107.244.112:8080
+      - CYL-科技（2021.10.31）
+      - CYL-科技（2021.10.31） 2
+      - 🇷🇺 俄罗斯阿伟科技-油管2
+      - CYL-科技（2021.10.31） 3
+      - 🇺🇸 美国阿伟科技-油管
+      - 118.107.244.112:5003
+      - CYL-科技（2021.10.31） 4
+      - 🇰🇷 韩国阿伟科技-油管5
+      - 1
+      - CYL-科技（2021.10.31） 5
+      - 🇺🇸 美国阿伟科技-油管 2
+      - 🇯🇵 日本（YouTube资源分享者）
+      - 🇺🇸 美国阿伟科技-油管 3
+      - 🇯🇵 日本阿伟科技-油管5
+      - 🇯🇵 日本阿伟科技-油管5 2
+      - 🇭🇰 SouthKorea 5
+      - 🇭🇰 SouthKorea 6
+      - 🇭🇰 SouthKorea 8
+      - 🇭🇰 SouthKorea 3
+      - 🇺🇸 美国阿伟科技-油管 4
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - YouTube梦歌_3
-      - 🇺🇸 阿伟科技-油管-美国3原生
+      - 2021-10-31
+      - 🇭🇰 SouthKorea 4
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇭🇰 SouthKorea 7
+      - 🇭🇰 SouthKorea 9
+      - 🇭🇰 SouthKorea 0
+      - 🇭🇰 SouthKorea 1
+      - CYL-科技（2021.10.31） 6
+      - 🇰🇷 韩国阿伟科技-油管
+      - 🇸🇬 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
+      - CYL-科技（2021.10.31） 7
+      - CYL-科技（2021.10.31） 8
+      - 🇸🇬 新加坡阿伟科技-油管5
+      - 🇰🇷 韩国阿伟科技-油管2
+      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
+      - 🇺🇸 美国（YouTube资源分享者）
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
-      - CYL-科技（2021.10.22）
-      - YouTube梦歌_16
-      - CYL-科技（2021.10.19）
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
-      - 🇺🇸 阿伟科技-油管-美国3
-      - YouTube梦歌_14
-      - 🇺🇸 阿伟科技-油管-美国5
-      - CYL-科技（2021.10.24）
-      - 🇺🇸 美国_YouTube梦歌 30
-      - 🇭🇰 阿伟科技-油管-香港11原生
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇩🇪 阿伟科技-油管-德国3
-      - github.com/freefq - 瑞典  11
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - github.com/freefq - 瑞典  6
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
-      - CYL-科技（2021.10.24） 2
-      - 🇺🇸 github.com/freefq - 美国  16
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 阿伟科技-油管-美国2原生
-      - 🇭🇰 阿伟科技-油管-香港11原生 2
-      - github.com/freefq - 瑞典  25
-      - 🇮🇳 印度(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
-      - YouTube梦歌_29
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 github.com/freefq - 北美地区  10
-      - CYL-科技（2021.10.24） 3
-      - github.com/freefq - 瑞典  14
-      - 🇮🇳 印度(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
-      - YouTube梦歌_4
-      - CYL-科技（2021.10.24） 4
-      - CYL-科技（2021.10.19） 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 4
+      - CYL-科技（2021.10.31） 9
+      - 🇺🇸 UnitedStates 1
+      - 🇺🇸 UnitedStates 3
+      - 🇺🇸 UnitedStates 4
+      - 🇺🇸 美国（YouTube资源分享者） 2
+      - 🇺🇸 US(技术分享室整理,欢迎订阅)
+      - 🇺🇸 美国（YouTube资源分享者） 3
+      - 🇺🇸 美国（YouTube资源分享者） 4
+      - 🇺🇸 美国（YouTube资源分享者） 5
+      - 🇺🇸 美国（YouTube资源分享者） 6
+      - 🇺🇸 美国（YouTube资源分享者） 7
+      - 🇺🇸 美国（YouTube资源分享者） 8
+      - 🇺🇸 美国（YouTube资源分享者） 9
+      - 🇺🇸 美国（YouTube资源分享者） 10
+      - 🇺🇸 美国（YouTube资源分享者） 11
+      - 🇺🇸 美国（YouTube资源分享者） 12
+      - 🇺🇸 美国（YouTube资源分享者） 13
+      - 🇺🇸 美国（YouTube资源分享者） 14
+      - 🇺🇸 美国（YouTube资源分享者） 15
+      - 🇺🇸 https://bit.ly/3uWuS7a _share
+      - 欧洲(Youtube频道：工具大师！)
+      - 🇺🇸 UnitedStates 2
+      - 🇺🇸 UnitedStates 5
+      - 🇺🇸 美国（YouTube资源分享者） 16
+      - CYL-科技（2021.10.30）
+      - 🇺🇸 美国（YouTube资源分享者） 17
+      - 🇺🇸 美国阿伟科技-油管 5
+      - 🇭🇰 香港阿伟科技-油管
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 香港阿伟科技-油管5
+      - 118.107.244.112:5004
+      - 🇸🇬 新加坡阿伟科技-油管
+      - 118.107.244.112:8080
+      - CYL-科技（2021.10.31）
+      - CYL-科技（2021.10.31） 2
+      - 🇷🇺 俄罗斯阿伟科技-油管2
+      - CYL-科技（2021.10.31） 3
+      - 🇺🇸 美国阿伟科技-油管
+      - 118.107.244.112:5003
+      - CYL-科技（2021.10.31） 4
+      - 🇰🇷 韩国阿伟科技-油管5
+      - 1
+      - CYL-科技（2021.10.31） 5
+      - 🇺🇸 美国阿伟科技-油管 2
+      - 🇯🇵 日本（YouTube资源分享者）
+      - 🇺🇸 美国阿伟科技-油管 3
+      - 🇯🇵 日本阿伟科技-油管5
+      - 🇯🇵 日本阿伟科技-油管5 2
+      - 🇭🇰 SouthKorea 5
+      - 🇭🇰 SouthKorea 6
+      - 🇭🇰 SouthKorea 8
+      - 🇭🇰 SouthKorea 3
+      - 🇺🇸 美国阿伟科技-油管 4
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - YouTube梦歌_3
-      - 🇺🇸 阿伟科技-油管-美国3原生
+      - 2021-10-31
+      - 🇭🇰 SouthKorea 4
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇭🇰 SouthKorea 7
+      - 🇭🇰 SouthKorea 9
+      - 🇭🇰 SouthKorea 0
+      - 🇭🇰 SouthKorea 1
+      - CYL-科技（2021.10.31） 6
+      - 🇰🇷 韩国阿伟科技-油管
+      - 🇸🇬 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
+      - CYL-科技（2021.10.31） 7
+      - CYL-科技（2021.10.31） 8
+      - 🇸🇬 新加坡阿伟科技-油管5
+      - 🇰🇷 韩国阿伟科技-油管2
+      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
+      - 🇺🇸 美国（YouTube资源分享者）
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
-      - CYL-科技（2021.10.22）
-      - YouTube梦歌_16
-      - CYL-科技（2021.10.19）
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
-      - 🇺🇸 阿伟科技-油管-美国3
-      - YouTube梦歌_14
-      - 🇺🇸 阿伟科技-油管-美国5
-      - CYL-科技（2021.10.24）
-      - 🇺🇸 美国_YouTube梦歌 30
-      - 🇭🇰 阿伟科技-油管-香港11原生
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇩🇪 阿伟科技-油管-德国3
-      - github.com/freefq - 瑞典  11
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - github.com/freefq - 瑞典  6
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
-      - CYL-科技（2021.10.24） 2
-      - 🇺🇸 github.com/freefq - 美国  16
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 阿伟科技-油管-美国2原生
-      - 🇭🇰 阿伟科技-油管-香港11原生 2
-      - github.com/freefq - 瑞典  25
-      - 🇮🇳 印度(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
-      - YouTube梦歌_29
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 github.com/freefq - 北美地区  10
-      - CYL-科技（2021.10.24） 3
-      - github.com/freefq - 瑞典  14
-      - 🇮🇳 印度(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
-      - YouTube梦歌_4
-      - CYL-科技（2021.10.24） 4
-      - CYL-科技（2021.10.19） 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 4
+      - CYL-科技（2021.10.31） 9
+      - 🇺🇸 UnitedStates 1
+      - 🇺🇸 UnitedStates 3
+      - 🇺🇸 UnitedStates 4
+      - 🇺🇸 美国（YouTube资源分享者） 2
+      - 🇺🇸 US(技术分享室整理,欢迎订阅)
+      - 🇺🇸 美国（YouTube资源分享者） 3
+      - 🇺🇸 美国（YouTube资源分享者） 4
+      - 🇺🇸 美国（YouTube资源分享者） 5
+      - 🇺🇸 美国（YouTube资源分享者） 6
+      - 🇺🇸 美国（YouTube资源分享者） 7
+      - 🇺🇸 美国（YouTube资源分享者） 8
+      - 🇺🇸 美国（YouTube资源分享者） 9
+      - 🇺🇸 美国（YouTube资源分享者） 10
+      - 🇺🇸 美国（YouTube资源分享者） 11
+      - 🇺🇸 美国（YouTube资源分享者） 12
+      - 🇺🇸 美国（YouTube资源分享者） 13
+      - 🇺🇸 美国（YouTube资源分享者） 14
+      - 🇺🇸 美国（YouTube资源分享者） 15
+      - 🇺🇸 https://bit.ly/3uWuS7a _share
+      - 欧洲(Youtube频道：工具大师！)
+      - 🇺🇸 UnitedStates 2
+      - 🇺🇸 UnitedStates 5
+      - 🇺🇸 美国（YouTube资源分享者） 16
+      - CYL-科技（2021.10.30）
+      - 🇺🇸 美国（YouTube资源分享者） 17
+      - 🇺🇸 美国阿伟科技-油管 5
+      - 🇭🇰 香港阿伟科技-油管
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇭🇰 香港阿伟科技-油管5
+      - 118.107.244.112:5004
+      - 🇸🇬 新加坡阿伟科技-油管
+      - 118.107.244.112:8080
+      - CYL-科技（2021.10.31）
+      - CYL-科技（2021.10.31） 2
+      - 🇷🇺 俄罗斯阿伟科技-油管2
+      - CYL-科技（2021.10.31） 3
+      - 🇺🇸 美国阿伟科技-油管
+      - 118.107.244.112:5003
+      - CYL-科技（2021.10.31） 4
+      - 🇰🇷 韩国阿伟科技-油管5
+      - 1
+      - CYL-科技（2021.10.31） 5
+      - 🇺🇸 美国阿伟科技-油管 2
+      - 🇯🇵 日本（YouTube资源分享者）
+      - 🇺🇸 美国阿伟科技-油管 3
+      - 🇯🇵 日本阿伟科技-油管5
+      - 🇯🇵 日本阿伟科技-油管5 2
+      - 🇭🇰 SouthKorea 5
+      - 🇭🇰 SouthKorea 6
+      - 🇭🇰 SouthKorea 8
+      - 🇭🇰 SouthKorea 3
+      - 🇺🇸 美国阿伟科技-油管 4
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - YouTube梦歌_3
-      - 🇺🇸 阿伟科技-油管-美国3原生
+      - 2021-10-31
+      - 🇭🇰 SouthKorea 4
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇭🇰 SouthKorea 7
+      - 🇭🇰 SouthKorea 9
+      - 🇭🇰 SouthKorea 0
+      - 🇭🇰 SouthKorea 1
+      - CYL-科技（2021.10.31） 6
+      - 🇰🇷 韩国阿伟科技-油管
+      - 🇸🇬 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
+      - CYL-科技（2021.10.31） 7
+      - CYL-科技（2021.10.31） 8
+      - 🇸🇬 新加坡阿伟科技-油管5
+      - 🇰🇷 韩国阿伟科技-油管2
+      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
+      - 🇺🇸 美国（YouTube资源分享者）
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
-      - CYL-科技（2021.10.22）
-      - YouTube梦歌_16
-      - CYL-科技（2021.10.19）
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
-      - 🇺🇸 阿伟科技-油管-美国3
-      - YouTube梦歌_14
-      - 🇺🇸 阿伟科技-油管-美国5
-      - CYL-科技（2021.10.24）
-      - 🇺🇸 美国_YouTube梦歌 30
-      - 🇭🇰 阿伟科技-油管-香港11原生
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇩🇪 阿伟科技-油管-德国3
-      - github.com/freefq - 瑞典  11
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - github.com/freefq - 瑞典  6
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
-      - CYL-科技（2021.10.24） 2
-      - 🇺🇸 github.com/freefq - 美国  16
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 阿伟科技-油管-美国2原生
-      - 🇭🇰 阿伟科技-油管-香港11原生 2
-      - github.com/freefq - 瑞典  25
-      - 🇮🇳 印度(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
-      - YouTube梦歌_29
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 github.com/freefq - 北美地区  10
-      - CYL-科技（2021.10.24） 3
-      - github.com/freefq - 瑞典  14
-      - 🇮🇳 印度(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
-      - YouTube梦歌_4
-      - CYL-科技（2021.10.24） 4
-      - CYL-科技（2021.10.19） 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 4
+      - CYL-科技（2021.10.31） 9
+      - 🇺🇸 UnitedStates 1
+      - 🇺🇸 UnitedStates 3
+      - 🇺🇸 UnitedStates 4
+      - 🇺🇸 美国（YouTube资源分享者） 2
+      - 🇺🇸 US(技术分享室整理,欢迎订阅)
+      - 🇺🇸 美国（YouTube资源分享者） 3
+      - 🇺🇸 美国（YouTube资源分享者） 4
+      - 🇺🇸 美国（YouTube资源分享者） 5
+      - 🇺🇸 美国（YouTube资源分享者） 6
+      - 🇺🇸 美国（YouTube资源分享者） 7
+      - 🇺🇸 美国（YouTube资源分享者） 8
+      - 🇺🇸 美国（YouTube资源分享者） 9
+      - 🇺🇸 美国（YouTube资源分享者） 10
+      - 🇺🇸 美国（YouTube资源分享者） 11
+      - 🇺🇸 美国（YouTube资源分享者） 12
+      - 🇺🇸 美国（YouTube资源分享者） 13
+      - 🇺🇸 美国（YouTube资源分享者） 14
+      - 🇺🇸 美国（YouTube资源分享者） 15
+      - 🇺🇸 https://bit.ly/3uWuS7a _share
+      - 欧洲(Youtube频道：工具大师！)
+      - 🇺🇸 UnitedStates 2
+      - 🇺🇸 UnitedStates 5
+      - 🇺🇸 美国（YouTube资源分享者） 16
+      - CYL-科技（2021.10.30）
+      - 🇺🇸 美国（YouTube资源分享者） 17
+      - 🇺🇸 美国阿伟科技-油管 5
+      - 🇭🇰 香港阿伟科技-油管
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇭🇰 香港阿伟科技-油管5
+      - 118.107.244.112:5004
+      - 🇸🇬 新加坡阿伟科技-油管
+      - 118.107.244.112:8080
+      - CYL-科技（2021.10.31）
+      - CYL-科技（2021.10.31） 2
+      - 🇷🇺 俄罗斯阿伟科技-油管2
+      - CYL-科技（2021.10.31） 3
+      - 🇺🇸 美国阿伟科技-油管
+      - 118.107.244.112:5003
+      - CYL-科技（2021.10.31） 4
+      - 🇰🇷 韩国阿伟科技-油管5
+      - 1
+      - CYL-科技（2021.10.31） 5
+      - 🇺🇸 美国阿伟科技-油管 2
+      - 🇯🇵 日本（YouTube资源分享者）
+      - 🇺🇸 美国阿伟科技-油管 3
+      - 🇯🇵 日本阿伟科技-油管5
+      - 🇯🇵 日本阿伟科技-油管5 2
+      - 🇭🇰 SouthKorea 5
+      - 🇭🇰 SouthKorea 6
+      - 🇭🇰 SouthKorea 8
+      - 🇭🇰 SouthKorea 3
+      - 🇺🇸 美国阿伟科技-油管 4
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - YouTube梦歌_3
-      - 🇺🇸 阿伟科技-油管-美国3原生
+      - 2021-10-31
+      - 🇭🇰 SouthKorea 4
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇭🇰 SouthKorea 7
+      - 🇭🇰 SouthKorea 9
+      - 🇭🇰 SouthKorea 0
+      - 🇭🇰 SouthKorea 1
+      - CYL-科技（2021.10.31） 6
+      - 🇰🇷 韩国阿伟科技-油管
+      - 🇸🇬 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
+      - CYL-科技（2021.10.31） 7
+      - CYL-科技（2021.10.31） 8
+      - 🇸🇬 新加坡阿伟科技-油管5
+      - 🇰🇷 韩国阿伟科技-油管2
+      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
+      - 🇺🇸 美国（YouTube资源分享者）
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
-      - CYL-科技（2021.10.22）
-      - YouTube梦歌_16
-      - CYL-科技（2021.10.19）
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
-      - 🇺🇸 阿伟科技-油管-美国3
-      - YouTube梦歌_14
-      - 🇺🇸 阿伟科技-油管-美国5
-      - CYL-科技（2021.10.24）
-      - 🇺🇸 美国_YouTube梦歌 30
-      - 🇭🇰 阿伟科技-油管-香港11原生
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇩🇪 阿伟科技-油管-德国3
-      - github.com/freefq - 瑞典  11
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - github.com/freefq - 瑞典  6
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
-      - CYL-科技（2021.10.24） 2
-      - 🇺🇸 github.com/freefq - 美国  16
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 阿伟科技-油管-美国2原生
-      - 🇭🇰 阿伟科技-油管-香港11原生 2
-      - github.com/freefq - 瑞典  25
-      - 🇮🇳 印度(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
-      - YouTube梦歌_29
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 github.com/freefq - 北美地区  10
-      - CYL-科技（2021.10.24） 3
-      - github.com/freefq - 瑞典  14
-      - 🇮🇳 印度(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
-      - YouTube梦歌_4
-      - CYL-科技（2021.10.24） 4
-      - CYL-科技（2021.10.19） 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 4
+      - CYL-科技（2021.10.31） 9
+      - 🇺🇸 UnitedStates 1
+      - 🇺🇸 UnitedStates 3
+      - 🇺🇸 UnitedStates 4
+      - 🇺🇸 美国（YouTube资源分享者） 2
+      - 🇺🇸 US(技术分享室整理,欢迎订阅)
+      - 🇺🇸 美国（YouTube资源分享者） 3
+      - 🇺🇸 美国（YouTube资源分享者） 4
+      - 🇺🇸 美国（YouTube资源分享者） 5
+      - 🇺🇸 美国（YouTube资源分享者） 6
+      - 🇺🇸 美国（YouTube资源分享者） 7
+      - 🇺🇸 美国（YouTube资源分享者） 8
+      - 🇺🇸 美国（YouTube资源分享者） 9
+      - 🇺🇸 美国（YouTube资源分享者） 10
+      - 🇺🇸 美国（YouTube资源分享者） 11
+      - 🇺🇸 美国（YouTube资源分享者） 12
+      - 🇺🇸 美国（YouTube资源分享者） 13
+      - 🇺🇸 美国（YouTube资源分享者） 14
+      - 🇺🇸 美国（YouTube资源分享者） 15
+      - 🇺🇸 https://bit.ly/3uWuS7a _share
+      - 欧洲(Youtube频道：工具大师！)
+      - 🇺🇸 UnitedStates 2
+      - 🇺🇸 UnitedStates 5
+      - 🇺🇸 美国（YouTube资源分享者） 16
+      - CYL-科技（2021.10.30）
+      - 🇺🇸 美国（YouTube资源分享者） 17
+      - 🇺🇸 美国阿伟科技-油管 5
+      - 🇭🇰 香港阿伟科技-油管
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇭🇰 香港阿伟科技-油管5
+      - 118.107.244.112:5004
+      - 🇸🇬 新加坡阿伟科技-油管
+      - 118.107.244.112:8080
+      - CYL-科技（2021.10.31）
+      - CYL-科技（2021.10.31） 2
+      - 🇷🇺 俄罗斯阿伟科技-油管2
+      - CYL-科技（2021.10.31） 3
+      - 🇺🇸 美国阿伟科技-油管
+      - 118.107.244.112:5003
+      - CYL-科技（2021.10.31） 4
+      - 🇰🇷 韩国阿伟科技-油管5
+      - 1
+      - CYL-科技（2021.10.31） 5
+      - 🇺🇸 美国阿伟科技-油管 2
+      - 🇯🇵 日本（YouTube资源分享者）
+      - 🇺🇸 美国阿伟科技-油管 3
+      - 🇯🇵 日本阿伟科技-油管5
+      - 🇯🇵 日本阿伟科技-油管5 2
+      - 🇭🇰 SouthKorea 5
+      - 🇭🇰 SouthKorea 6
+      - 🇭🇰 SouthKorea 8
+      - 🇭🇰 SouthKorea 3
+      - 🇺🇸 美国阿伟科技-油管 4
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - YouTube梦歌_3
-      - 🇺🇸 阿伟科技-油管-美国3原生
+      - 2021-10-31
+      - 🇭🇰 SouthKorea 4
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇭🇰 SouthKorea 7
+      - 🇭🇰 SouthKorea 9
+      - 🇭🇰 SouthKorea 0
+      - 🇭🇰 SouthKorea 1
+      - CYL-科技（2021.10.31） 6
+      - 🇰🇷 韩国阿伟科技-油管
+      - 🇸🇬 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
+      - CYL-科技（2021.10.31） 7
+      - CYL-科技（2021.10.31） 8
+      - 🇸🇬 新加坡阿伟科技-油管5
+      - 🇰🇷 韩国阿伟科技-油管2
+      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
+      - 🇺🇸 美国（YouTube资源分享者）
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
-      - CYL-科技（2021.10.22）
-      - YouTube梦歌_16
-      - CYL-科技（2021.10.19）
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
-      - 🇺🇸 阿伟科技-油管-美国3
-      - YouTube梦歌_14
-      - 🇺🇸 阿伟科技-油管-美国5
-      - CYL-科技（2021.10.24）
-      - 🇺🇸 美国_YouTube梦歌 30
-      - 🇭🇰 阿伟科技-油管-香港11原生
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇩🇪 阿伟科技-油管-德国3
-      - github.com/freefq - 瑞典  11
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - github.com/freefq - 瑞典  6
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
-      - CYL-科技（2021.10.24） 2
-      - 🇺🇸 github.com/freefq - 美国  16
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 阿伟科技-油管-美国2原生
-      - 🇭🇰 阿伟科技-油管-香港11原生 2
-      - github.com/freefq - 瑞典  25
-      - 🇮🇳 印度(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
-      - YouTube梦歌_29
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 github.com/freefq - 北美地区  10
-      - CYL-科技（2021.10.24） 3
-      - github.com/freefq - 瑞典  14
-      - 🇮🇳 印度(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
-      - YouTube梦歌_4
-      - CYL-科技（2021.10.24） 4
-      - CYL-科技（2021.10.19） 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 4
+      - CYL-科技（2021.10.31） 9
+      - 🇺🇸 UnitedStates 1
+      - 🇺🇸 UnitedStates 3
+      - 🇺🇸 UnitedStates 4
+      - 🇺🇸 美国（YouTube资源分享者） 2
+      - 🇺🇸 US(技术分享室整理,欢迎订阅)
+      - 🇺🇸 美国（YouTube资源分享者） 3
+      - 🇺🇸 美国（YouTube资源分享者） 4
+      - 🇺🇸 美国（YouTube资源分享者） 5
+      - 🇺🇸 美国（YouTube资源分享者） 6
+      - 🇺🇸 美国（YouTube资源分享者） 7
+      - 🇺🇸 美国（YouTube资源分享者） 8
+      - 🇺🇸 美国（YouTube资源分享者） 9
+      - 🇺🇸 美国（YouTube资源分享者） 10
+      - 🇺🇸 美国（YouTube资源分享者） 11
+      - 🇺🇸 美国（YouTube资源分享者） 12
+      - 🇺🇸 美国（YouTube资源分享者） 13
+      - 🇺🇸 美国（YouTube资源分享者） 14
+      - 🇺🇸 美国（YouTube资源分享者） 15
+      - 🇺🇸 https://bit.ly/3uWuS7a _share
+      - 欧洲(Youtube频道：工具大师！)
+      - 🇺🇸 UnitedStates 2
+      - 🇺🇸 UnitedStates 5
+      - 🇺🇸 美国（YouTube资源分享者） 16
+      - CYL-科技（2021.10.30）
+      - 🇺🇸 美国（YouTube资源分享者） 17
+      - 🇺🇸 美国阿伟科技-油管 5
+      - 🇭🇰 香港阿伟科技-油管
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 香港阿伟科技-油管5
+      - 118.107.244.112:5004
+      - 🇸🇬 新加坡阿伟科技-油管
+      - 118.107.244.112:8080
+      - CYL-科技（2021.10.31）
+      - CYL-科技（2021.10.31） 2
+      - 🇷🇺 俄罗斯阿伟科技-油管2
+      - CYL-科技（2021.10.31） 3
+      - 🇺🇸 美国阿伟科技-油管
+      - 118.107.244.112:5003
+      - CYL-科技（2021.10.31） 4
+      - 🇰🇷 韩国阿伟科技-油管5
+      - 1
+      - CYL-科技（2021.10.31） 5
+      - 🇺🇸 美国阿伟科技-油管 2
+      - 🇯🇵 日本（YouTube资源分享者）
+      - 🇺🇸 美国阿伟科技-油管 3
+      - 🇯🇵 日本阿伟科技-油管5
+      - 🇯🇵 日本阿伟科技-油管5 2
+      - 🇭🇰 SouthKorea 5
+      - 🇭🇰 SouthKorea 6
+      - 🇭🇰 SouthKorea 8
+      - 🇭🇰 SouthKorea 3
+      - 🇺🇸 美国阿伟科技-油管 4
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - YouTube梦歌_3
-      - 🇺🇸 阿伟科技-油管-美国3原生
+      - 2021-10-31
+      - 🇭🇰 SouthKorea 4
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇭🇰 SouthKorea 7
+      - 🇭🇰 SouthKorea 9
+      - 🇭🇰 SouthKorea 0
+      - 🇭🇰 SouthKorea 1
+      - CYL-科技（2021.10.31） 6
+      - 🇰🇷 韩国阿伟科技-油管
+      - 🇸🇬 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
+      - CYL-科技（2021.10.31） 7
+      - CYL-科技（2021.10.31） 8
+      - 🇸🇬 新加坡阿伟科技-油管5
+      - 🇰🇷 韩国阿伟科技-油管2
+      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
+      - 🇺🇸 美国（YouTube资源分享者）
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
-      - CYL-科技（2021.10.22）
-      - YouTube梦歌_16
-      - CYL-科技（2021.10.19）
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
-      - 🇺🇸 阿伟科技-油管-美国3
-      - YouTube梦歌_14
-      - 🇺🇸 阿伟科技-油管-美国5
-      - CYL-科技（2021.10.24）
-      - 🇺🇸 美国_YouTube梦歌 30
-      - 🇭🇰 阿伟科技-油管-香港11原生
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇩🇪 阿伟科技-油管-德国3
-      - github.com/freefq - 瑞典  11
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - github.com/freefq - 瑞典  6
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
-      - CYL-科技（2021.10.24） 2
-      - 🇺🇸 github.com/freefq - 美国  16
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 阿伟科技-油管-美国2原生
-      - 🇭🇰 阿伟科技-油管-香港11原生 2
-      - github.com/freefq - 瑞典  25
-      - 🇮🇳 印度(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
-      - YouTube梦歌_29
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 github.com/freefq - 北美地区  10
-      - CYL-科技（2021.10.24） 3
-      - github.com/freefq - 瑞典  14
-      - 🇮🇳 印度(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
-      - YouTube梦歌_4
-      - CYL-科技（2021.10.24） 4
-      - CYL-科技（2021.10.19） 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 4
+      - CYL-科技（2021.10.31） 9
+      - 🇺🇸 UnitedStates 1
+      - 🇺🇸 UnitedStates 3
+      - 🇺🇸 UnitedStates 4
+      - 🇺🇸 美国（YouTube资源分享者） 2
+      - 🇺🇸 US(技术分享室整理,欢迎订阅)
+      - 🇺🇸 美国（YouTube资源分享者） 3
+      - 🇺🇸 美国（YouTube资源分享者） 4
+      - 🇺🇸 美国（YouTube资源分享者） 5
+      - 🇺🇸 美国（YouTube资源分享者） 6
+      - 🇺🇸 美国（YouTube资源分享者） 7
+      - 🇺🇸 美国（YouTube资源分享者） 8
+      - 🇺🇸 美国（YouTube资源分享者） 9
+      - 🇺🇸 美国（YouTube资源分享者） 10
+      - 🇺🇸 美国（YouTube资源分享者） 11
+      - 🇺🇸 美国（YouTube资源分享者） 12
+      - 🇺🇸 美国（YouTube资源分享者） 13
+      - 🇺🇸 美国（YouTube资源分享者） 14
+      - 🇺🇸 美国（YouTube资源分享者） 15
+      - 🇺🇸 https://bit.ly/3uWuS7a _share
+      - 欧洲(Youtube频道：工具大师！)
+      - 🇺🇸 UnitedStates 2
+      - 🇺🇸 UnitedStates 5
+      - 🇺🇸 美国（YouTube资源分享者） 16
+      - CYL-科技（2021.10.30）
+      - 🇺🇸 美国（YouTube资源分享者） 17
+      - 🇺🇸 美国阿伟科技-油管 5
+      - 🇭🇰 香港阿伟科技-油管
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -466,56 +634,77 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 香港阿伟科技-油管5
+      - 118.107.244.112:5004
+      - 🇸🇬 新加坡阿伟科技-油管
+      - 118.107.244.112:8080
+      - CYL-科技（2021.10.31）
+      - CYL-科技（2021.10.31） 2
+      - 🇷🇺 俄罗斯阿伟科技-油管2
+      - CYL-科技（2021.10.31） 3
+      - 🇺🇸 美国阿伟科技-油管
+      - 118.107.244.112:5003
+      - CYL-科技（2021.10.31） 4
+      - 🇰🇷 韩国阿伟科技-油管5
+      - 1
+      - CYL-科技（2021.10.31） 5
+      - 🇺🇸 美国阿伟科技-油管 2
+      - 🇯🇵 日本（YouTube资源分享者）
+      - 🇺🇸 美国阿伟科技-油管 3
+      - 🇯🇵 日本阿伟科技-油管5
+      - 🇯🇵 日本阿伟科技-油管5 2
+      - 🇭🇰 SouthKorea 5
+      - 🇭🇰 SouthKorea 6
+      - 🇭🇰 SouthKorea 8
+      - 🇭🇰 SouthKorea 3
+      - 🇺🇸 美国阿伟科技-油管 4
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - YouTube梦歌_3
-      - 🇺🇸 阿伟科技-油管-美国3原生
+      - 2021-10-31
+      - 🇭🇰 SouthKorea 4
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 🇭🇰 SouthKorea 7
+      - 🇭🇰 SouthKorea 9
+      - 🇭🇰 SouthKorea 0
+      - 🇭🇰 SouthKorea 1
+      - CYL-科技（2021.10.31） 6
+      - 🇰🇷 韩国阿伟科技-油管
+      - 🇸🇬 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
+      - CYL-科技（2021.10.31） 7
+      - CYL-科技（2021.10.31） 8
+      - 🇸🇬 新加坡阿伟科技-油管5
+      - 🇰🇷 韩国阿伟科技-油管2
+      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
+      - 🇺🇸 美国（YouTube资源分享者）
       - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
-      - CYL-科技（2021.10.22）
-      - YouTube梦歌_16
-      - CYL-科技（2021.10.19）
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
-      - 🇺🇸 阿伟科技-油管-美国3
-      - YouTube梦歌_14
-      - 🇺🇸 阿伟科技-油管-美国5
-      - CYL-科技（2021.10.24）
-      - 🇺🇸 美国_YouTube梦歌 30
-      - 🇭🇰 阿伟科技-油管-香港11原生
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇩🇪 阿伟科技-油管-德国3
-      - github.com/freefq - 瑞典  11
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - github.com/freefq - 瑞典  6
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
-      - CYL-科技（2021.10.24） 2
-      - 🇺🇸 github.com/freefq - 美国  16
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 阿伟科技-油管-美国2原生
-      - 🇭🇰 阿伟科技-油管-香港11原生 2
-      - github.com/freefq - 瑞典  25
-      - 🇮🇳 印度(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
-      - YouTube梦歌_29
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 github.com/freefq - 北美地区  10
-      - CYL-科技（2021.10.24） 3
-      - github.com/freefq - 瑞典  14
-      - 🇮🇳 印度(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
-      - YouTube梦歌_4
-      - CYL-科技（2021.10.24） 4
-      - CYL-科技（2021.10.19） 2
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 4
+      - CYL-科技（2021.10.31） 9
+      - 🇺🇸 UnitedStates 1
+      - 🇺🇸 UnitedStates 3
+      - 🇺🇸 UnitedStates 4
+      - 🇺🇸 美国（YouTube资源分享者） 2
+      - 🇺🇸 US(技术分享室整理,欢迎订阅)
+      - 🇺🇸 美国（YouTube资源分享者） 3
+      - 🇺🇸 美国（YouTube资源分享者） 4
+      - 🇺🇸 美国（YouTube资源分享者） 5
+      - 🇺🇸 美国（YouTube资源分享者） 6
+      - 🇺🇸 美国（YouTube资源分享者） 7
+      - 🇺🇸 美国（YouTube资源分享者） 8
+      - 🇺🇸 美国（YouTube资源分享者） 9
+      - 🇺🇸 美国（YouTube资源分享者） 10
+      - 🇺🇸 美国（YouTube资源分享者） 11
+      - 🇺🇸 美国（YouTube资源分享者） 12
+      - 🇺🇸 美国（YouTube资源分享者） 13
+      - 🇺🇸 美国（YouTube资源分享者） 14
+      - 🇺🇸 美国（YouTube资源分享者） 15
+      - 🇺🇸 https://bit.ly/3uWuS7a _share
+      - 欧洲(Youtube频道：工具大师！)
+      - 🇺🇸 UnitedStates 2
+      - 🇺🇸 UnitedStates 5
+      - 🇺🇸 美国（YouTube资源分享者） 16
+      - CYL-科技（2021.10.30）
+      - 🇺🇸 美国（YouTube资源分享者） 17
+      - 🇺🇸 美国阿伟科技-油管 5
+      - 🇭🇰 香港阿伟科技-油管
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
