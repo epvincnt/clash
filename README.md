@@ -5,613 +5,621 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港阿伟科技-油管5, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 118.107.244.112:5004, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇸🇬 新加坡阿伟科技-油管, server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: 1bac430d-4fe8-4b5c-8ec5-be7495a6a3bc, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: chenguanxi.zhqt.xyz}}
-  - {name: 118.107.244.112:8080, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2021.10.31）, server: 120.232.43.129, port: 30002, type: vmess, uuid: 45fc4eab-4725-4e9c-bcfd-7d539dca2acb, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.232.43.129}}
-  - {name: CYL-科技（2021.10.31） 2, server: 120.232.43.129, port: 30010, type: vmess, uuid: 45fc4eab-4725-4e9c-bcfd-7d539dca2acb, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.232.43.129}}
-  - {name: 🇷🇺 俄罗斯阿伟科技-油管2, server: gonyi2.baiyun.pw, port: 831, type: vmess, uuid: 7d15736e-3f24-3cce-a313-03e6a2673215, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1.baiyun.pw}}
-  - {name: CYL-科技（2021.10.31） 3, server: 120.232.173.154, port: 50093, type: vmess, uuid: 557186c0-7c39-4a8c-b02a-adca6b996062, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: chenguanxi.zhqt.xyz}}
-  - {name: 🇺🇸 美国阿伟科技-油管, server: ns1.freev2r.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 4a447af6-a5c1-4589-91e9-68f0e6a793e7}
-  - {name: 118.107.244.112:5003, server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: CYL-科技（2021.10.31） 4, server: 120.232.173.154, port: 50093, type: vmess, uuid: 6484b9e6-05ef-4cd5-a6fa-573b531669b4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: chenguanxi.zhqt.xyz}}
-  - {name: 🇰🇷 韩国阿伟科技-油管5, server: 3.35.141.32, port: 18080, type: vmess, uuid: a3250995-7c4c-3d70-a91c-00eed5b2820c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /lisa, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 1, server: hk016.bp666.xyz, port: 22536, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk016.bp666.xyz}}
-  - {name: CYL-科技（2021.10.31） 5, server: 120.232.43.129, port: 30014, type: vmess, uuid: 45fc4eab-4725-4e9c-bcfd-7d539dca2acb, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.232.43.129}}
-  - {name: 🇺🇸 美国阿伟科技-油管 2, server: 520yyds.zhqt.xyz, port: 50089, type: vmess, uuid: 1bac430d-4fe8-4b5c-8ec5-be7495a6a3bc, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: free-4.joker007.top}}
-  - {name: 🇯🇵 日本（YouTube资源分享者）, server: 52.199.89.79, port: 80, type: vmess, uuid: 10270a4e-a218-4d4b-9623-ae62b2de081b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /air.knayo.in, ws-headers: {Host: 52.199.89.79}}
-  - {name: 🇺🇸 美国阿伟科技-油管 3, server: 520yyds.zhqt.xyz, port: 50089, type: vmess, uuid: 557186c0-7c39-4a8c-b02a-adca6b996062, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: free-4.joker007.top}}
-  - {name: 🇯🇵 日本阿伟科技-油管5, server: ns6.freev2r.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: e9d51c28-ec7a-42e4-ab6f-b0d4aecf8028}
-  - {name: 🇯🇵 日本阿伟科技-油管5 2, server: 52.199.89.79, port: 80, type: vmess, uuid: aca8f302-9cb3-4785-b8ca-3ce660eb1cc4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /air.knayo.in, ws-headers: {Host: 52.199.89.79}}
-  - {name: 🇭🇰 SouthKorea 5, server: hk005.bp666.xyz, port: 22535, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk005.bp666.xyz}}
-  - {name: 🇭🇰 SouthKorea 6, server: hk006.bp666.xyz, port: 22531, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk006.bp666.xyz}}
-  - {name: 🇭🇰 SouthKorea 8, server: hk008.bp666.xyz, port: 22532, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk008.bp666.xyz}}
-  - {name: 🇭🇰 SouthKorea 3, server: hk003.bp666.xyz, port: 22522, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk003.bp666.xyz}}
-  - {name: 🇺🇸 美国阿伟科技-油管 4, server: 520yyds.zhqt.xyz, port: 50092, type: vmess, uuid: 1bac430d-4fe8-4b5c-8ec5-be7495a6a3bc, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 135.zhqt.xyz}}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a, server: cloud3.yixiu.ga, port: 443, type: vmess, uuid: f65eb556-2e2b-4fbb-8ab5-914313200f77, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /qgebvws, ws-headers: {Host: cloud3.yixiu.ga}}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 2, server: 104.16.104.135, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: tight-math-32ee.tianzhen4567.workers.dev}}
-  - {name: 2021-10-31, server: 104.16.151.215, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: twilight-breeze-3b18.tianzhen168168.workers.dev}}
-  - {name: 🇭🇰 SouthKorea 4, server: hk004.bp666.xyz, port: 22536, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk004.bp666.xyz}}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 3, server: 104.19.107.102, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: morning-mud-2d55.tianzhen169.workers.dev}}
-  - {name: 🇭🇰 SouthKorea 7, server: hk007.bp666.xyz, port: 22532, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk007.bp666.xyz}}
-  - {name: 🇭🇰 SouthKorea 9, server: hk009.bp666.xyz, port: 22535, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk009.bp666.xyz}}
-  - {name: 🇭🇰 SouthKorea 0, server: hk010.bp666.xyz, port: 22535, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk010.bp666.xyz}}
-  - {name: 🇭🇰 SouthKorea 1, server: hk001.bp666.xyz, port: 22587, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk001.bp666.xyz}}
-  - {name: CYL-科技（2021.10.31） 6, server: 120.232.43.129, port: 30000, type: vmess, uuid: 45fc4eab-4725-4e9c-bcfd-7d539dca2acb, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.232.43.129}}
-  - {name: 🇰🇷 韩国阿伟科技-油管, server: 58.32.12.248, port: 13712, type: vmess, uuid: a3250995-7c4c-3d70-a91c-00eed5b2820c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /lisa, ws-headers: {Host: t.me/vpnhat}}
-  - {name: "🇸🇬 新加坡 🇸🇬(技术分享室整理,欢迎订阅)", server: 184.168.127.50, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938}
-  - {name: CYL-科技（2021.10.31） 7, server: 129.154.53.246, port: 80, type: vmess, uuid: 9f21919e-f5a4-4c68-aeda-017652cd4692, alterId: 6, cipher: auto, tls: false}
-  - {name: CYL-科技（2021.10.31） 8, server: 520yyds.zhqt.xyz, port: 50092, type: vmess, uuid: 6484b9e6-05ef-4cd5-a6fa-573b531669b4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 135.zhqt.xyz}}
-  - {name: 🇸🇬 新加坡阿伟科技-油管5, server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: 557186c0-7c39-4a8c-b02a-adca6b996062, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: chenguanxi.zhqt.xyz}}
-  - {name: 🇰🇷 韩国阿伟科技-油管2, server: 52.175.122.164, port: 55199, type: vmess, uuid: aca8f302-9cb3-4785-b8ca-3ce660eb1cc4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /air.knayo.in, ws-headers: {Host: 52.175.122.164}}
-  - {name: "🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)", server: 172.252.64.56, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 美国（YouTube资源分享者）, server: 167.88.61.15, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 4, server: 172.252.64.55, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: CYL-科技（2021.10.31） 9, server: 520yyds.zhqt.xyz, port: 50089, type: vmess, uuid: 6484b9e6-05ef-4cd5-a6fa-573b531669b4, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: free-4.joker007.top}}
-  - {name: 🇺🇸 UnitedStates 1, server: hk011.bp666.xyz, port: 22112, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk011.bp666.xyz}}
-  - {name: 🇺🇸 UnitedStates 3, server: hk013.bp666.xyz, port: 22582, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk013.bp666.xyz}}
-  - {name: 🇺🇸 UnitedStates 4, server: hk014.bp666.xyz, port: 22539, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk014.bp666.xyz}}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 2, server: 167.88.61.222, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: "🇺🇸 US(技术分享室整理,欢迎订阅)", server: 173.82.160.106, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 3, server: 167.88.61.15, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 4, server: 167.88.61.15, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 5, server: 167.88.61.222, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 6, server: 167.88.61.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 7, server: 167.88.61.222, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 8, server: 167.88.61.50, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 9, server: 167.88.61.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 10, server: 167.88.61.222, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 11, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 12, server: 167.88.61.204, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 13, server: 167.88.61.204, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 14, server: 167.88.61.204, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 15, server: 167.88.61.222, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 https://bit.ly/3uWuS7a _share, server: 172.252.99.15, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 欧洲(Youtube频道：工具大师！), server: 139.155.22.227, port: 49110, type: vmess, uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 UnitedStates 2, server: hk012.bp666.xyz, port: 22112, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk012.bp666.xyz}}
-  - {name: 🇺🇸 UnitedStates 5, server: hk015.bp666.xyz, port: 22591, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk015.bp666.xyz}}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 16, server: 167.88.61.222, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2021.10.30）, server: 172.252.64.57, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 17, server: 154.17.23.132, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: 0C9IaKy38uljOZ7Z6eC3na3XNA4lSYzTBx5ESqFyOYCaeR2pxFSDc3DDwA8gRp}
-  - {name: 🇺🇸 美国阿伟科技-油管 5, server: nv4.freev2r.xyz, port: 8443, type: vmess, uuid: 4a447af6-a5c1-4589-91e9-68f0e6a793e7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇭🇰 香港阿伟科技-油管, server: 168.63.201.200, port: 21011, type: vmess, uuid: a3250995-7c4c-3d70-a91c-00eed5b2820c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 118.107.244.112:8080, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CYL-科技（2021.10.31）, server: 120.232.173.154, port: 50093, type: vmess, uuid: 557186c0-7c39-4a8c-b02a-adca6b996062, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: chenguanxi.zhqt.xyz}}, udp: true}
+  - {name: 新加坡阿伟科技-油管5, server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: 557186c0-7c39-4a8c-b02a-adca6b996062, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: chenguanxi.zhqt.xyz}}, udp: true}
+  - {name: CYL-科技（2021.11.01）, server: azhk2.zz123.xyz, port: 33959, type: vmess, uuid: fe712a7b-772e-3be3-a891-7dbf1f2535e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: azhk2.zz123.xyz}}, udp: true}
+  - {name: CYL-科技（2021.11.01） 2, server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: 7d743060-33db-467e-b514-00813a3f0d0f, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: chenguanxi.zhqt.xyz}}, udp: true}
+  - {name: CYL-科技（2021.11.01） 3, server: azhk2.zz123.xyz, port: 33413, type: vmess, uuid: b02255d6-6912-34da-9f25-d49a996e5014, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: azhk2.zz123.xyz}}, udp: true}
+  - {name: CYL-科技（2021.10.31） 2, server: 120.232.173.154, port: 50093, type: vmess, uuid: 6484b9e6-05ef-4cd5-a6fa-573b531669b4, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: chenguanxi.zhqt.xyz}}, udp: true}
+  - {name: CYL-科技（2021.11.01） 4, server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: aa585888-b5d2-4202-8297-1de78ef2e40a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: chenguanxi.zhqt.xyz}}, udp: true}
+  - {name: "香港[感谢订阅——科技网络]", server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CYL-科技（2021.11.01） 5, server: azhk2.zz123.xyz, port: 33959, type: vmess, uuid: db0dd61a-1221-300c-8b55-c2b5ae8b8d9d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: azhk2.zz123.xyz}}, udp: true}
+  - {name: 香港阿伟科技-油管5, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 新加坡阿伟科技-油管5 2, server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: 290b06e1-1fb3-4cdb-90ac-6477f329785a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: chenguanxi.zhqt.xyz}}, udp: true}
+  - {name: 新加坡阿伟科技-油管, server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: 1bac430d-4fe8-4b5c-8ec5-be7495a6a3bc, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: chenguanxi.zhqt.xyz}}, udp: true}
+  - {name: CYL-科技（2021.11.01） 6, server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: 6484b9e6-05ef-4cd5-a6fa-573b531669b4, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: chenguanxi.zhqt.xyz}}, udp: true}
+  - {name: CYL-科技（2021.11.01） 7, server: azhk2.zz123.xyz, port: 33413, type: vmess, uuid: db0dd61a-1221-300c-8b55-c2b5ae8b8d9d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: azhk2.zz123.xyz}}, udp: true}
+  - {name: 德国阿伟科技-油管5, server: azhk2.zz123.xyz, port: 46101, type: vmess, uuid: fe712a7b-772e-3be3-a891-7dbf1f2535e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: azhk2.zz123.xyz}}, udp: true}
+  - {name: CYL-科技（2021.11.01） 8, server: azhk2.zz123.xyz, port: 46101, type: vmess, uuid: db0dd61a-1221-300c-8b55-c2b5ae8b8d9d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: azhk2.zz123.xyz}}, udp: true}
+  - {name: 新加坡阿伟科技-油管5 3, server: 167.172.65.93, port: 21888, type: vmess, uuid: 619f7928-0323-4408-be1d-2dadf8e7064f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 167.172.65.93}}, udp: true}
+  - {name: CYL-科技（2021.11.01） 9, server: wtt3.comefromchinatown.com, port: 80, type: vmess, uuid: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: CYL-科技（2021.11.01） 10, server: 167.172.65.93, port: 21888, type: vmess, uuid: 619f7928-0323-4408-be1d-2dadf8e7064f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 167.172.65.93}}, udp: true}
+  - {name: CYL-科技（2021.11.01） 11, server: azhk2.zz123.xyz, port: 46101, type: vmess, uuid: fe712a7b-772e-3be3-a891-7dbf1f2535e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: azhk2.zz123.xyz}}, udp: true}
+  - {name: CYL-科技（2021.11.01） 12, server: jmnt.fastnetwork.fun, port: 50025, type: vmess, uuid: 6ed571d1-4869-4212-8f25-1748cb6067a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v1, headers: {Host: meeting.speednetwork.xyz}}, udp: true}
+  - {name: sfzy888.com _🇯🇵JP-🇺🇸US_5541, server: agals01.cloudddns.icu, port: 1123, type: trojan, password: f45d308f-d9bc-3954-982f-40883392fb8e, sni: agals01.cloudddns.icu, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2021.11.01） 13, server: azhk2.zz123.xyz, port: 54188, type: vmess, uuid: b02255d6-6912-34da-9f25-d49a996e5014, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: azhk2.zz123.xyz}}, udp: true}
+  - {name: "新加坡 🇸🇬(技术分享室整理,欢迎订阅)", server: 184.168.127.50, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技-油管2, server: gonyi2.baiyun.pw, port: 837, type: vmess, uuid: 7d15736e-3f24-3cce-a313-03e6a2673215, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1.baiyun.pw}}, udp: true}
+  - {name: 韩国阿伟科技-油管5, server: 3.35.141.32, port: 18080, type: vmess, uuid: a3250995-7c4c-3d70-a91c-00eed5b2820c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /lisa, headers: {Host: t.me/vpnhat}}, udp: true}
+  - {name: 118.107.244.112:5003, server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CYL-科技（2021.11.01） 14, server: 3.38.105.132, port: 8888, type: vmess, uuid: 58f75691-6274-4b0d-89a1-1de53d0d061b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 3.38.105.132}}, udp: true}
+  - {name: 美国阿伟科技-油管, server: 520yyds.zhqt.xyz, port: 50089, type: vmess, uuid: 1bac430d-4fe8-4b5c-8ec5-be7495a6a3bc, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: free-4.joker007.top}}, udp: true}
+  - {name: 美国阿伟科技-油管5, server: gonyi2.baiyun.pw, port: 839, type: vmess, uuid: 7d15736e-3f24-3cce-a313-03e6a2673215, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1.baiyun.pw}}, udp: true}
+  - {name: 2, server: hk017.bp666.xyz, port: 22577, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk017.bp666.xyz}}, udp: true}
+  - {name: CYL-科技（2021.11.01） 15, server: 167.172.65.93, port: 21888, type: vmess, uuid: 017f7c6c-59de-41b4-8fce-d37d8af68a38, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 167.172.65.93}}, udp: true}
+  - {name: CYL-科技（2021.11.01） 16, server: hk09-vm0.ikuuu.casa, port: 449, type: vmess, uuid: 8581d15e-ae94-3fda-9de5-e8dff1c05e23, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hk09-vm0.ikuuu.casa}}, udp: true}
+  - {name: CYL-科技（2021.11.01） 17, server: hk-9.azure.v2ray.ikuuu.pro, port: 449, type: vmess, uuid: 39066a66-fc04-30d1-8ccf-e22e557aff3b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hk-9.azure.v2ray.ikuuu.pro}}, udp: true}
+  - {name: 2021-10-31, server: 104.16.151.215, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, headers: {Host: twilight-breeze-3b18.tianzhen168168.workers.dev}}, udp: true}
+  - {name: SouthKorea 9, server: hk009.bp666.xyz, port: 22535, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk009.bp666.xyz}}, udp: true}
+  - {name: CYL-科技（2021.10.31） 3, server: 129.154.53.246, port: 80, type: vmess, uuid: 9f21919e-f5a4-4c68-aeda-017652cd4692, alterId: 6, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2021.10.31） 4, server: 520yyds.zhqt.xyz, port: 50089, type: vmess, uuid: 6484b9e6-05ef-4cd5-a6fa-573b531669b4, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: free-4.joker007.top}}, udp: true}
+  - {name: 新加坡阿伟科技-油管4, server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: bed2f95a-8c4b-494e-94db-060f8cdc7d99, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: chenguanxi.zhqt.xyz}}, udp: true}
+  - {name: 韩国阿伟科技-油管3, server: 3.38.115.124, port: 80, type: vmess, uuid: cc39c8a4-25f6-4283-9bd7-eb2552fa2e3e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /air.knayo.in, headers: {Host: 3.38.115.124}}, udp: true}
+  - {name: SouthKorea 6, server: hk006.bp666.xyz, port: 22531, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk006.bp666.xyz}}, udp: true}
+  - {name: 节点更新https://bit.ly/3uWuS7a, server: 104.19.107.102, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, headers: {Host: morning-mud-2d55.tianzhen169.workers.dev}}, udp: true}
+  - {name: SouthKorea 0, server: hk010.bp666.xyz, port: 22535, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk010.bp666.xyz}}, udp: true}
+  - {name: SouthKorea 2, server: hk002.bp666.xyz, port: 22535, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk002.bp666.xyz}}, udp: true}
+  - {name: 日本阿伟科技-油管3 2, server: 52.199.89.79, port: 80, type: vmess, uuid: cc39c8a4-25f6-4283-9bd7-eb2552fa2e3e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /air.knayo.in, headers: {Host: 52.199.89.79}}, udp: true}
+  - {name: SouthKorea 3, server: hk003.bp666.xyz, port: 22522, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk003.bp666.xyz}}, udp: true}
+  - {name: CYL-科技（2021.11.01） 18, server: vmess.ifuckgfw.ga, port: 8443, type: vmess, uuid: 097b8f9e-2d7d-11ec-8efb-00163cf0ed57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /uaAovjKU/, headers: {Host: vmess.ifuckgfw.ga}}, udp: true}
+  - {name: CYL-科技（2021.11.01） 19, server: azhk2.zz123.xyz, port: 54188, type: vmess, uuid: fe712a7b-772e-3be3-a891-7dbf1f2535e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: azhk2.zz123.xyz}}, udp: true}
+  - {name: 节点更新https://bit.ly/3uWuS7a 2, server: cloud3.yixiu.ga, port: 443, type: vmess, uuid: f65eb556-2e2b-4fbb-8ab5-914313200f77, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qgebvws, headers: {Host: cloud3.yixiu.ga}}, udp: true}
+  - {name: 美国阿伟科技-油管 2, server: 520yyds.zhqt.xyz, port: 50089, type: vmess, uuid: 557186c0-7c39-4a8c-b02a-adca6b996062, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: free-4.joker007.top}}, udp: true}
+  - {name: SouthKorea 8, server: hk008.bp666.xyz, port: 22532, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk008.bp666.xyz}}, udp: true}
+  - {name: SouthKorea 7, server: hk007.bp666.xyz, port: 22532, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk007.bp666.xyz}}, udp: true}
+  - {name: CYL-科技（2021.11.01） 20, server: agals02.subyyds.xyz, port: 992, type: trojan, password: 5d2f53fb-cc28-3f91-9844-02a4ccedfd4a, sni: agals02.subyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2021.11.01） 21, server: vmess.ifuckgfw.ga, port: 8443, type: vmess, uuid: 0e1b2424-2d7d-11ec-8efb-00163cf0ed57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /uaAovjKU/, headers: {Host: vmess.ifuckgfw.ga}}, udp: true}
+  - {name: 节点更新https://bit.ly/3uWuS7a 3, server: 104.16.104.135, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, headers: {Host: tight-math-32ee.tianzhen4567.workers.dev}}, udp: true}
+  - {name: CYL-科技（2021.11.01） 22, server: sh.freev2r.xyz, port: 58443, type: ss, cipher: chacha20-ietf-poly1305, password: 37863f2c-b9e4-49b8-a51e-e852b1975ac9, udp: true}
+  - {name: SouthKorea 5, server: hk005.bp666.xyz, port: 22535, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk005.bp666.xyz}}, udp: true}
+  - {name: CYL-科技（2021.11.01） 23, server: azhk2.zz123.xyz, port: 46101, type: vmess, uuid: b02255d6-6912-34da-9f25-d49a996e5014, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: azhk2.zz123.xyz}}, udp: true}
+  - {name: 香港阿伟科技-油管5 3, server: v1-aws-hk-08.niaoyun.online, port: 666, type: vmess, uuid: f548911a-d732-3e05-b552-899f3f9a3487, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niaocloud, headers: {Host: t.me/vpnpool}}, udp: true}
+  - {name: 1, server: hk016.bp666.xyz, port: 22536, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk016.bp666.xyz}}, udp: true}
+  - {name: 韩国阿伟科技-油管2, server: 52.175.122.164, port: 55199, type: vmess, uuid: aca8f302-9cb3-4785-b8ca-3ce660eb1cc4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /air.knayo.in, headers: {Host: 52.175.122.164}}, udp: true}
+  - {name: CYL-科技（2021.11.01） 24, server: 13.233.237.144, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 美国阿伟科技-油管3 3, server: 520yyds.zhqt.xyz, port: 50089, type: vmess, uuid: bed2f95a-8c4b-494e-94db-060f8cdc7d99, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: free-4.joker007.top}}, udp: true}
+  - {name: 美国阿伟科技-油管3, server: 520yyds.zhqt.xyz, port: 50089, type: vmess, uuid: 290b06e1-1fb3-4cdb-90ac-6477f329785a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: free-4.joker007.top}}, udp: true}
+  - {name: SouthKorea 4, server: hk004.bp666.xyz, port: 22536, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk004.bp666.xyz}}, udp: true}
+  - {name: SouthKorea 1, server: hk001.bp666.xyz, port: 22587, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk001.bp666.xyz}}, udp: true}
+  - {name: 节点更新https://bit.ly/3uWuS7a 4, server: 172.252.64.55, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS, udp: true}
+  - {name: https://bit.ly/3uWuS7a _share, server: 172.252.99.15, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS, udp: true}
+  - {name: 欧洲(Youtube频道：工具大师！), server: 139.155.22.227, port: 49110, type: vmess, uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: UnitedStates 5, server: hk015.bp666.xyz, port: 22591, type: vmess, uuid: 3290a254-b5b0-4097-a924-c2959e9f50c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk015.bp666.xyz}}, udp: true}
+  - {name: 美国（YouTube资源分享者）, server: 172.252.99.16, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港阿伟科技-油管5
-      - 118.107.244.112:5004
-      - 🇸🇬 新加坡阿伟科技-油管
       - 118.107.244.112:8080
       - CYL-科技（2021.10.31）
+      - 新加坡阿伟科技-油管5
+      - CYL-科技（2021.11.01）
+      - CYL-科技（2021.11.01） 2
+      - CYL-科技（2021.11.01） 3
       - CYL-科技（2021.10.31） 2
-      - 🇷🇺 俄罗斯阿伟科技-油管2
-      - CYL-科技（2021.10.31） 3
-      - 🇺🇸 美国阿伟科技-油管
+      - CYL-科技（2021.11.01） 4
+      - 香港[感谢订阅——科技网络]
+      - CYL-科技（2021.11.01） 5
+      - 香港阿伟科技-油管5
+      - 新加坡阿伟科技-油管5 2
+      - 新加坡阿伟科技-油管
+      - CYL-科技（2021.11.01） 6
+      - CYL-科技（2021.11.01） 7
+      - 德国阿伟科技-油管5
+      - CYL-科技（2021.11.01） 8
+      - 新加坡阿伟科技-油管5 3
+      - CYL-科技（2021.11.01） 9
+      - CYL-科技（2021.11.01） 10
+      - CYL-科技（2021.11.01） 11
+      - CYL-科技（2021.11.01） 12
+      - sfzy888.com _🇯🇵JP-🇺🇸US_5541
+      - CYL-科技（2021.11.01） 13
+      - 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
+      - 美国阿伟科技-油管2
+      - 韩国阿伟科技-油管5
       - 118.107.244.112:5003
-      - CYL-科技（2021.10.31） 4
-      - 🇰🇷 韩国阿伟科技-油管5
-      - 1
-      - CYL-科技（2021.10.31） 5
-      - 🇺🇸 美国阿伟科技-油管 2
-      - 🇯🇵 日本（YouTube资源分享者）
-      - 🇺🇸 美国阿伟科技-油管 3
-      - 🇯🇵 日本阿伟科技-油管5
-      - 🇯🇵 日本阿伟科技-油管5 2
-      - 🇭🇰 SouthKorea 5
-      - 🇭🇰 SouthKorea 6
-      - 🇭🇰 SouthKorea 8
-      - 🇭🇰 SouthKorea 3
-      - 🇺🇸 美国阿伟科技-油管 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - CYL-科技（2021.11.01） 14
+      - 美国阿伟科技-油管
+      - 美国阿伟科技-油管5
+      - 2
+      - CYL-科技（2021.11.01） 15
+      - CYL-科技（2021.11.01） 16
+      - CYL-科技（2021.11.01） 17
       - 2021-10-31
-      - 🇭🇰 SouthKorea 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - 🇭🇰 SouthKorea 7
-      - 🇭🇰 SouthKorea 9
-      - 🇭🇰 SouthKorea 0
-      - 🇭🇰 SouthKorea 1
-      - CYL-科技（2021.10.31） 6
-      - 🇰🇷 韩国阿伟科技-油管
-      - 🇸🇬 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
-      - CYL-科技（2021.10.31） 7
-      - CYL-科技（2021.10.31） 8
-      - 🇸🇬 新加坡阿伟科技-油管5
-      - 🇰🇷 韩国阿伟科技-油管2
-      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube资源分享者）
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - CYL-科技（2021.10.31） 9
-      - 🇺🇸 UnitedStates 1
-      - 🇺🇸 UnitedStates 3
-      - 🇺🇸 UnitedStates 4
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇺🇸 US(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 4
-      - 🇺🇸 美国（YouTube资源分享者） 5
-      - 🇺🇸 美国（YouTube资源分享者） 6
-      - 🇺🇸 美国（YouTube资源分享者） 7
-      - 🇺🇸 美国（YouTube资源分享者） 8
-      - 🇺🇸 美国（YouTube资源分享者） 9
-      - 🇺🇸 美国（YouTube资源分享者） 10
-      - 🇺🇸 美国（YouTube资源分享者） 11
-      - 🇺🇸 美国（YouTube资源分享者） 12
-      - 🇺🇸 美国（YouTube资源分享者） 13
-      - 🇺🇸 美国（YouTube资源分享者） 14
-      - 🇺🇸 美国（YouTube资源分享者） 15
-      - 🇺🇸 https://bit.ly/3uWuS7a _share
+      - SouthKorea 9
+      - CYL-科技（2021.10.31） 3
+      - CYL-科技（2021.10.31） 4
+      - 新加坡阿伟科技-油管4
+      - 韩国阿伟科技-油管3
+      - SouthKorea 6
+      - 节点更新https://bit.ly/3uWuS7a
+      - SouthKorea 0
+      - SouthKorea 2
+      - 日本阿伟科技-油管3 2
+      - SouthKorea 3
+      - CYL-科技（2021.11.01） 18
+      - CYL-科技（2021.11.01） 19
+      - 节点更新https://bit.ly/3uWuS7a 2
+      - 美国阿伟科技-油管 2
+      - SouthKorea 8
+      - SouthKorea 7
+      - CYL-科技（2021.11.01） 20
+      - CYL-科技（2021.11.01） 21
+      - 节点更新https://bit.ly/3uWuS7a 3
+      - CYL-科技（2021.11.01） 22
+      - SouthKorea 5
+      - CYL-科技（2021.11.01） 23
+      - 香港阿伟科技-油管5 3
+      - 1
+      - 韩国阿伟科技-油管2
+      - CYL-科技（2021.11.01） 24
+      - 美国阿伟科技-油管3 3
+      - 美国阿伟科技-油管3
+      - SouthKorea 4
+      - SouthKorea 1
+      - 节点更新https://bit.ly/3uWuS7a 4
+      - https://bit.ly/3uWuS7a _share
       - 欧洲(Youtube频道：工具大师！)
-      - 🇺🇸 UnitedStates 2
-      - 🇺🇸 UnitedStates 5
-      - 🇺🇸 美国（YouTube资源分享者） 16
-      - CYL-科技（2021.10.30）
-      - 🇺🇸 美国（YouTube资源分享者） 17
-      - 🇺🇸 美国阿伟科技-油管 5
-      - 🇭🇰 香港阿伟科技-油管
+      - UnitedStates 5
+      - 美国（YouTube资源分享者）
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港阿伟科技-油管5
-      - 118.107.244.112:5004
-      - 🇸🇬 新加坡阿伟科技-油管
       - 118.107.244.112:8080
       - CYL-科技（2021.10.31）
+      - 新加坡阿伟科技-油管5
+      - CYL-科技（2021.11.01）
+      - CYL-科技（2021.11.01） 2
+      - CYL-科技（2021.11.01） 3
       - CYL-科技（2021.10.31） 2
-      - 🇷🇺 俄罗斯阿伟科技-油管2
-      - CYL-科技（2021.10.31） 3
-      - 🇺🇸 美国阿伟科技-油管
+      - CYL-科技（2021.11.01） 4
+      - 香港[感谢订阅——科技网络]
+      - CYL-科技（2021.11.01） 5
+      - 香港阿伟科技-油管5
+      - 新加坡阿伟科技-油管5 2
+      - 新加坡阿伟科技-油管
+      - CYL-科技（2021.11.01） 6
+      - CYL-科技（2021.11.01） 7
+      - 德国阿伟科技-油管5
+      - CYL-科技（2021.11.01） 8
+      - 新加坡阿伟科技-油管5 3
+      - CYL-科技（2021.11.01） 9
+      - CYL-科技（2021.11.01） 10
+      - CYL-科技（2021.11.01） 11
+      - CYL-科技（2021.11.01） 12
+      - sfzy888.com _🇯🇵JP-🇺🇸US_5541
+      - CYL-科技（2021.11.01） 13
+      - 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
+      - 美国阿伟科技-油管2
+      - 韩国阿伟科技-油管5
       - 118.107.244.112:5003
-      - CYL-科技（2021.10.31） 4
-      - 🇰🇷 韩国阿伟科技-油管5
-      - 1
-      - CYL-科技（2021.10.31） 5
-      - 🇺🇸 美国阿伟科技-油管 2
-      - 🇯🇵 日本（YouTube资源分享者）
-      - 🇺🇸 美国阿伟科技-油管 3
-      - 🇯🇵 日本阿伟科技-油管5
-      - 🇯🇵 日本阿伟科技-油管5 2
-      - 🇭🇰 SouthKorea 5
-      - 🇭🇰 SouthKorea 6
-      - 🇭🇰 SouthKorea 8
-      - 🇭🇰 SouthKorea 3
-      - 🇺🇸 美国阿伟科技-油管 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - CYL-科技（2021.11.01） 14
+      - 美国阿伟科技-油管
+      - 美国阿伟科技-油管5
+      - 2
+      - CYL-科技（2021.11.01） 15
+      - CYL-科技（2021.11.01） 16
+      - CYL-科技（2021.11.01） 17
       - 2021-10-31
-      - 🇭🇰 SouthKorea 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - 🇭🇰 SouthKorea 7
-      - 🇭🇰 SouthKorea 9
-      - 🇭🇰 SouthKorea 0
-      - 🇭🇰 SouthKorea 1
-      - CYL-科技（2021.10.31） 6
-      - 🇰🇷 韩国阿伟科技-油管
-      - 🇸🇬 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
-      - CYL-科技（2021.10.31） 7
-      - CYL-科技（2021.10.31） 8
-      - 🇸🇬 新加坡阿伟科技-油管5
-      - 🇰🇷 韩国阿伟科技-油管2
-      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube资源分享者）
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - CYL-科技（2021.10.31） 9
-      - 🇺🇸 UnitedStates 1
-      - 🇺🇸 UnitedStates 3
-      - 🇺🇸 UnitedStates 4
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇺🇸 US(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 4
-      - 🇺🇸 美国（YouTube资源分享者） 5
-      - 🇺🇸 美国（YouTube资源分享者） 6
-      - 🇺🇸 美国（YouTube资源分享者） 7
-      - 🇺🇸 美国（YouTube资源分享者） 8
-      - 🇺🇸 美国（YouTube资源分享者） 9
-      - 🇺🇸 美国（YouTube资源分享者） 10
-      - 🇺🇸 美国（YouTube资源分享者） 11
-      - 🇺🇸 美国（YouTube资源分享者） 12
-      - 🇺🇸 美国（YouTube资源分享者） 13
-      - 🇺🇸 美国（YouTube资源分享者） 14
-      - 🇺🇸 美国（YouTube资源分享者） 15
-      - 🇺🇸 https://bit.ly/3uWuS7a _share
+      - SouthKorea 9
+      - CYL-科技（2021.10.31） 3
+      - CYL-科技（2021.10.31） 4
+      - 新加坡阿伟科技-油管4
+      - 韩国阿伟科技-油管3
+      - SouthKorea 6
+      - 节点更新https://bit.ly/3uWuS7a
+      - SouthKorea 0
+      - SouthKorea 2
+      - 日本阿伟科技-油管3 2
+      - SouthKorea 3
+      - CYL-科技（2021.11.01） 18
+      - CYL-科技（2021.11.01） 19
+      - 节点更新https://bit.ly/3uWuS7a 2
+      - 美国阿伟科技-油管 2
+      - SouthKorea 8
+      - SouthKorea 7
+      - CYL-科技（2021.11.01） 20
+      - CYL-科技（2021.11.01） 21
+      - 节点更新https://bit.ly/3uWuS7a 3
+      - CYL-科技（2021.11.01） 22
+      - SouthKorea 5
+      - CYL-科技（2021.11.01） 23
+      - 香港阿伟科技-油管5 3
+      - 1
+      - 韩国阿伟科技-油管2
+      - CYL-科技（2021.11.01） 24
+      - 美国阿伟科技-油管3 3
+      - 美国阿伟科技-油管3
+      - SouthKorea 4
+      - SouthKorea 1
+      - 节点更新https://bit.ly/3uWuS7a 4
+      - https://bit.ly/3uWuS7a _share
       - 欧洲(Youtube频道：工具大师！)
-      - 🇺🇸 UnitedStates 2
-      - 🇺🇸 UnitedStates 5
-      - 🇺🇸 美国（YouTube资源分享者） 16
-      - CYL-科技（2021.10.30）
-      - 🇺🇸 美国（YouTube资源分享者） 17
-      - 🇺🇸 美国阿伟科技-油管 5
-      - 🇭🇰 香港阿伟科技-油管
+      - UnitedStates 5
+      - 美国（YouTube资源分享者）
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港阿伟科技-油管5
-      - 118.107.244.112:5004
-      - 🇸🇬 新加坡阿伟科技-油管
       - 118.107.244.112:8080
       - CYL-科技（2021.10.31）
+      - 新加坡阿伟科技-油管5
+      - CYL-科技（2021.11.01）
+      - CYL-科技（2021.11.01） 2
+      - CYL-科技（2021.11.01） 3
       - CYL-科技（2021.10.31） 2
-      - 🇷🇺 俄罗斯阿伟科技-油管2
-      - CYL-科技（2021.10.31） 3
-      - 🇺🇸 美国阿伟科技-油管
+      - CYL-科技（2021.11.01） 4
+      - 香港[感谢订阅——科技网络]
+      - CYL-科技（2021.11.01） 5
+      - 香港阿伟科技-油管5
+      - 新加坡阿伟科技-油管5 2
+      - 新加坡阿伟科技-油管
+      - CYL-科技（2021.11.01） 6
+      - CYL-科技（2021.11.01） 7
+      - 德国阿伟科技-油管5
+      - CYL-科技（2021.11.01） 8
+      - 新加坡阿伟科技-油管5 3
+      - CYL-科技（2021.11.01） 9
+      - CYL-科技（2021.11.01） 10
+      - CYL-科技（2021.11.01） 11
+      - CYL-科技（2021.11.01） 12
+      - sfzy888.com _🇯🇵JP-🇺🇸US_5541
+      - CYL-科技（2021.11.01） 13
+      - 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
+      - 美国阿伟科技-油管2
+      - 韩国阿伟科技-油管5
       - 118.107.244.112:5003
-      - CYL-科技（2021.10.31） 4
-      - 🇰🇷 韩国阿伟科技-油管5
-      - 1
-      - CYL-科技（2021.10.31） 5
-      - 🇺🇸 美国阿伟科技-油管 2
-      - 🇯🇵 日本（YouTube资源分享者）
-      - 🇺🇸 美国阿伟科技-油管 3
-      - 🇯🇵 日本阿伟科技-油管5
-      - 🇯🇵 日本阿伟科技-油管5 2
-      - 🇭🇰 SouthKorea 5
-      - 🇭🇰 SouthKorea 6
-      - 🇭🇰 SouthKorea 8
-      - 🇭🇰 SouthKorea 3
-      - 🇺🇸 美国阿伟科技-油管 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - CYL-科技（2021.11.01） 14
+      - 美国阿伟科技-油管
+      - 美国阿伟科技-油管5
+      - 2
+      - CYL-科技（2021.11.01） 15
+      - CYL-科技（2021.11.01） 16
+      - CYL-科技（2021.11.01） 17
       - 2021-10-31
-      - 🇭🇰 SouthKorea 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - 🇭🇰 SouthKorea 7
-      - 🇭🇰 SouthKorea 9
-      - 🇭🇰 SouthKorea 0
-      - 🇭🇰 SouthKorea 1
-      - CYL-科技（2021.10.31） 6
-      - 🇰🇷 韩国阿伟科技-油管
-      - 🇸🇬 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
-      - CYL-科技（2021.10.31） 7
-      - CYL-科技（2021.10.31） 8
-      - 🇸🇬 新加坡阿伟科技-油管5
-      - 🇰🇷 韩国阿伟科技-油管2
-      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube资源分享者）
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - CYL-科技（2021.10.31） 9
-      - 🇺🇸 UnitedStates 1
-      - 🇺🇸 UnitedStates 3
-      - 🇺🇸 UnitedStates 4
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇺🇸 US(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 4
-      - 🇺🇸 美国（YouTube资源分享者） 5
-      - 🇺🇸 美国（YouTube资源分享者） 6
-      - 🇺🇸 美国（YouTube资源分享者） 7
-      - 🇺🇸 美国（YouTube资源分享者） 8
-      - 🇺🇸 美国（YouTube资源分享者） 9
-      - 🇺🇸 美国（YouTube资源分享者） 10
-      - 🇺🇸 美国（YouTube资源分享者） 11
-      - 🇺🇸 美国（YouTube资源分享者） 12
-      - 🇺🇸 美国（YouTube资源分享者） 13
-      - 🇺🇸 美国（YouTube资源分享者） 14
-      - 🇺🇸 美国（YouTube资源分享者） 15
-      - 🇺🇸 https://bit.ly/3uWuS7a _share
+      - SouthKorea 9
+      - CYL-科技（2021.10.31） 3
+      - CYL-科技（2021.10.31） 4
+      - 新加坡阿伟科技-油管4
+      - 韩国阿伟科技-油管3
+      - SouthKorea 6
+      - 节点更新https://bit.ly/3uWuS7a
+      - SouthKorea 0
+      - SouthKorea 2
+      - 日本阿伟科技-油管3 2
+      - SouthKorea 3
+      - CYL-科技（2021.11.01） 18
+      - CYL-科技（2021.11.01） 19
+      - 节点更新https://bit.ly/3uWuS7a 2
+      - 美国阿伟科技-油管 2
+      - SouthKorea 8
+      - SouthKorea 7
+      - CYL-科技（2021.11.01） 20
+      - CYL-科技（2021.11.01） 21
+      - 节点更新https://bit.ly/3uWuS7a 3
+      - CYL-科技（2021.11.01） 22
+      - SouthKorea 5
+      - CYL-科技（2021.11.01） 23
+      - 香港阿伟科技-油管5 3
+      - 1
+      - 韩国阿伟科技-油管2
+      - CYL-科技（2021.11.01） 24
+      - 美国阿伟科技-油管3 3
+      - 美国阿伟科技-油管3
+      - SouthKorea 4
+      - SouthKorea 1
+      - 节点更新https://bit.ly/3uWuS7a 4
+      - https://bit.ly/3uWuS7a _share
       - 欧洲(Youtube频道：工具大师！)
-      - 🇺🇸 UnitedStates 2
-      - 🇺🇸 UnitedStates 5
-      - 🇺🇸 美国（YouTube资源分享者） 16
-      - CYL-科技（2021.10.30）
-      - 🇺🇸 美国（YouTube资源分享者） 17
-      - 🇺🇸 美国阿伟科技-油管 5
-      - 🇭🇰 香港阿伟科技-油管
+      - UnitedStates 5
+      - 美国（YouTube资源分享者）
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港阿伟科技-油管5
-      - 118.107.244.112:5004
-      - 🇸🇬 新加坡阿伟科技-油管
       - 118.107.244.112:8080
       - CYL-科技（2021.10.31）
+      - 新加坡阿伟科技-油管5
+      - CYL-科技（2021.11.01）
+      - CYL-科技（2021.11.01） 2
+      - CYL-科技（2021.11.01） 3
       - CYL-科技（2021.10.31） 2
-      - 🇷🇺 俄罗斯阿伟科技-油管2
-      - CYL-科技（2021.10.31） 3
-      - 🇺🇸 美国阿伟科技-油管
+      - CYL-科技（2021.11.01） 4
+      - 香港[感谢订阅——科技网络]
+      - CYL-科技（2021.11.01） 5
+      - 香港阿伟科技-油管5
+      - 新加坡阿伟科技-油管5 2
+      - 新加坡阿伟科技-油管
+      - CYL-科技（2021.11.01） 6
+      - CYL-科技（2021.11.01） 7
+      - 德国阿伟科技-油管5
+      - CYL-科技（2021.11.01） 8
+      - 新加坡阿伟科技-油管5 3
+      - CYL-科技（2021.11.01） 9
+      - CYL-科技（2021.11.01） 10
+      - CYL-科技（2021.11.01） 11
+      - CYL-科技（2021.11.01） 12
+      - sfzy888.com _🇯🇵JP-🇺🇸US_5541
+      - CYL-科技（2021.11.01） 13
+      - 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
+      - 美国阿伟科技-油管2
+      - 韩国阿伟科技-油管5
       - 118.107.244.112:5003
-      - CYL-科技（2021.10.31） 4
-      - 🇰🇷 韩国阿伟科技-油管5
-      - 1
-      - CYL-科技（2021.10.31） 5
-      - 🇺🇸 美国阿伟科技-油管 2
-      - 🇯🇵 日本（YouTube资源分享者）
-      - 🇺🇸 美国阿伟科技-油管 3
-      - 🇯🇵 日本阿伟科技-油管5
-      - 🇯🇵 日本阿伟科技-油管5 2
-      - 🇭🇰 SouthKorea 5
-      - 🇭🇰 SouthKorea 6
-      - 🇭🇰 SouthKorea 8
-      - 🇭🇰 SouthKorea 3
-      - 🇺🇸 美国阿伟科技-油管 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - CYL-科技（2021.11.01） 14
+      - 美国阿伟科技-油管
+      - 美国阿伟科技-油管5
+      - 2
+      - CYL-科技（2021.11.01） 15
+      - CYL-科技（2021.11.01） 16
+      - CYL-科技（2021.11.01） 17
       - 2021-10-31
-      - 🇭🇰 SouthKorea 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - 🇭🇰 SouthKorea 7
-      - 🇭🇰 SouthKorea 9
-      - 🇭🇰 SouthKorea 0
-      - 🇭🇰 SouthKorea 1
-      - CYL-科技（2021.10.31） 6
-      - 🇰🇷 韩国阿伟科技-油管
-      - 🇸🇬 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
-      - CYL-科技（2021.10.31） 7
-      - CYL-科技（2021.10.31） 8
-      - 🇸🇬 新加坡阿伟科技-油管5
-      - 🇰🇷 韩国阿伟科技-油管2
-      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube资源分享者）
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - CYL-科技（2021.10.31） 9
-      - 🇺🇸 UnitedStates 1
-      - 🇺🇸 UnitedStates 3
-      - 🇺🇸 UnitedStates 4
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇺🇸 US(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 4
-      - 🇺🇸 美国（YouTube资源分享者） 5
-      - 🇺🇸 美国（YouTube资源分享者） 6
-      - 🇺🇸 美国（YouTube资源分享者） 7
-      - 🇺🇸 美国（YouTube资源分享者） 8
-      - 🇺🇸 美国（YouTube资源分享者） 9
-      - 🇺🇸 美国（YouTube资源分享者） 10
-      - 🇺🇸 美国（YouTube资源分享者） 11
-      - 🇺🇸 美国（YouTube资源分享者） 12
-      - 🇺🇸 美国（YouTube资源分享者） 13
-      - 🇺🇸 美国（YouTube资源分享者） 14
-      - 🇺🇸 美国（YouTube资源分享者） 15
-      - 🇺🇸 https://bit.ly/3uWuS7a _share
+      - SouthKorea 9
+      - CYL-科技（2021.10.31） 3
+      - CYL-科技（2021.10.31） 4
+      - 新加坡阿伟科技-油管4
+      - 韩国阿伟科技-油管3
+      - SouthKorea 6
+      - 节点更新https://bit.ly/3uWuS7a
+      - SouthKorea 0
+      - SouthKorea 2
+      - 日本阿伟科技-油管3 2
+      - SouthKorea 3
+      - CYL-科技（2021.11.01） 18
+      - CYL-科技（2021.11.01） 19
+      - 节点更新https://bit.ly/3uWuS7a 2
+      - 美国阿伟科技-油管 2
+      - SouthKorea 8
+      - SouthKorea 7
+      - CYL-科技（2021.11.01） 20
+      - CYL-科技（2021.11.01） 21
+      - 节点更新https://bit.ly/3uWuS7a 3
+      - CYL-科技（2021.11.01） 22
+      - SouthKorea 5
+      - CYL-科技（2021.11.01） 23
+      - 香港阿伟科技-油管5 3
+      - 1
+      - 韩国阿伟科技-油管2
+      - CYL-科技（2021.11.01） 24
+      - 美国阿伟科技-油管3 3
+      - 美国阿伟科技-油管3
+      - SouthKorea 4
+      - SouthKorea 1
+      - 节点更新https://bit.ly/3uWuS7a 4
+      - https://bit.ly/3uWuS7a _share
       - 欧洲(Youtube频道：工具大师！)
-      - 🇺🇸 UnitedStates 2
-      - 🇺🇸 UnitedStates 5
-      - 🇺🇸 美国（YouTube资源分享者） 16
-      - CYL-科技（2021.10.30）
-      - 🇺🇸 美国（YouTube资源分享者） 17
-      - 🇺🇸 美国阿伟科技-油管 5
-      - 🇭🇰 香港阿伟科技-油管
+      - UnitedStates 5
+      - 美国（YouTube资源分享者）
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰 香港阿伟科技-油管5
-      - 118.107.244.112:5004
-      - 🇸🇬 新加坡阿伟科技-油管
       - 118.107.244.112:8080
       - CYL-科技（2021.10.31）
+      - 新加坡阿伟科技-油管5
+      - CYL-科技（2021.11.01）
+      - CYL-科技（2021.11.01） 2
+      - CYL-科技（2021.11.01） 3
       - CYL-科技（2021.10.31） 2
-      - 🇷🇺 俄罗斯阿伟科技-油管2
-      - CYL-科技（2021.10.31） 3
-      - 🇺🇸 美国阿伟科技-油管
+      - CYL-科技（2021.11.01） 4
+      - 香港[感谢订阅——科技网络]
+      - CYL-科技（2021.11.01） 5
+      - 香港阿伟科技-油管5
+      - 新加坡阿伟科技-油管5 2
+      - 新加坡阿伟科技-油管
+      - CYL-科技（2021.11.01） 6
+      - CYL-科技（2021.11.01） 7
+      - 德国阿伟科技-油管5
+      - CYL-科技（2021.11.01） 8
+      - 新加坡阿伟科技-油管5 3
+      - CYL-科技（2021.11.01） 9
+      - CYL-科技（2021.11.01） 10
+      - CYL-科技（2021.11.01） 11
+      - CYL-科技（2021.11.01） 12
+      - sfzy888.com _🇯🇵JP-🇺🇸US_5541
+      - CYL-科技（2021.11.01） 13
+      - 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
+      - 美国阿伟科技-油管2
+      - 韩国阿伟科技-油管5
       - 118.107.244.112:5003
-      - CYL-科技（2021.10.31） 4
-      - 🇰🇷 韩国阿伟科技-油管5
-      - 1
-      - CYL-科技（2021.10.31） 5
-      - 🇺🇸 美国阿伟科技-油管 2
-      - 🇯🇵 日本（YouTube资源分享者）
-      - 🇺🇸 美国阿伟科技-油管 3
-      - 🇯🇵 日本阿伟科技-油管5
-      - 🇯🇵 日本阿伟科技-油管5 2
-      - 🇭🇰 SouthKorea 5
-      - 🇭🇰 SouthKorea 6
-      - 🇭🇰 SouthKorea 8
-      - 🇭🇰 SouthKorea 3
-      - 🇺🇸 美国阿伟科技-油管 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - CYL-科技（2021.11.01） 14
+      - 美国阿伟科技-油管
+      - 美国阿伟科技-油管5
+      - 2
+      - CYL-科技（2021.11.01） 15
+      - CYL-科技（2021.11.01） 16
+      - CYL-科技（2021.11.01） 17
       - 2021-10-31
-      - 🇭🇰 SouthKorea 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - 🇭🇰 SouthKorea 7
-      - 🇭🇰 SouthKorea 9
-      - 🇭🇰 SouthKorea 0
-      - 🇭🇰 SouthKorea 1
-      - CYL-科技（2021.10.31） 6
-      - 🇰🇷 韩国阿伟科技-油管
-      - 🇸🇬 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
-      - CYL-科技（2021.10.31） 7
-      - CYL-科技（2021.10.31） 8
-      - 🇸🇬 新加坡阿伟科技-油管5
-      - 🇰🇷 韩国阿伟科技-油管2
-      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube资源分享者）
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - CYL-科技（2021.10.31） 9
-      - 🇺🇸 UnitedStates 1
-      - 🇺🇸 UnitedStates 3
-      - 🇺🇸 UnitedStates 4
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇺🇸 US(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 4
-      - 🇺🇸 美国（YouTube资源分享者） 5
-      - 🇺🇸 美国（YouTube资源分享者） 6
-      - 🇺🇸 美国（YouTube资源分享者） 7
-      - 🇺🇸 美国（YouTube资源分享者） 8
-      - 🇺🇸 美国（YouTube资源分享者） 9
-      - 🇺🇸 美国（YouTube资源分享者） 10
-      - 🇺🇸 美国（YouTube资源分享者） 11
-      - 🇺🇸 美国（YouTube资源分享者） 12
-      - 🇺🇸 美国（YouTube资源分享者） 13
-      - 🇺🇸 美国（YouTube资源分享者） 14
-      - 🇺🇸 美国（YouTube资源分享者） 15
-      - 🇺🇸 https://bit.ly/3uWuS7a _share
+      - SouthKorea 9
+      - CYL-科技（2021.10.31） 3
+      - CYL-科技（2021.10.31） 4
+      - 新加坡阿伟科技-油管4
+      - 韩国阿伟科技-油管3
+      - SouthKorea 6
+      - 节点更新https://bit.ly/3uWuS7a
+      - SouthKorea 0
+      - SouthKorea 2
+      - 日本阿伟科技-油管3 2
+      - SouthKorea 3
+      - CYL-科技（2021.11.01） 18
+      - CYL-科技（2021.11.01） 19
+      - 节点更新https://bit.ly/3uWuS7a 2
+      - 美国阿伟科技-油管 2
+      - SouthKorea 8
+      - SouthKorea 7
+      - CYL-科技（2021.11.01） 20
+      - CYL-科技（2021.11.01） 21
+      - 节点更新https://bit.ly/3uWuS7a 3
+      - CYL-科技（2021.11.01） 22
+      - SouthKorea 5
+      - CYL-科技（2021.11.01） 23
+      - 香港阿伟科技-油管5 3
+      - 1
+      - 韩国阿伟科技-油管2
+      - CYL-科技（2021.11.01） 24
+      - 美国阿伟科技-油管3 3
+      - 美国阿伟科技-油管3
+      - SouthKorea 4
+      - SouthKorea 1
+      - 节点更新https://bit.ly/3uWuS7a 4
+      - https://bit.ly/3uWuS7a _share
       - 欧洲(Youtube频道：工具大师！)
-      - 🇺🇸 UnitedStates 2
-      - 🇺🇸 UnitedStates 5
-      - 🇺🇸 美国（YouTube资源分享者） 16
-      - CYL-科技（2021.10.30）
-      - 🇺🇸 美国（YouTube资源分享者） 17
-      - 🇺🇸 美国阿伟科技-油管 5
-      - 🇭🇰 香港阿伟科技-油管
+      - UnitedStates 5
+      - 美国（YouTube资源分享者）
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港阿伟科技-油管5
-      - 118.107.244.112:5004
-      - 🇸🇬 新加坡阿伟科技-油管
       - 118.107.244.112:8080
       - CYL-科技（2021.10.31）
+      - 新加坡阿伟科技-油管5
+      - CYL-科技（2021.11.01）
+      - CYL-科技（2021.11.01） 2
+      - CYL-科技（2021.11.01） 3
       - CYL-科技（2021.10.31） 2
-      - 🇷🇺 俄罗斯阿伟科技-油管2
-      - CYL-科技（2021.10.31） 3
-      - 🇺🇸 美国阿伟科技-油管
+      - CYL-科技（2021.11.01） 4
+      - 香港[感谢订阅——科技网络]
+      - CYL-科技（2021.11.01） 5
+      - 香港阿伟科技-油管5
+      - 新加坡阿伟科技-油管5 2
+      - 新加坡阿伟科技-油管
+      - CYL-科技（2021.11.01） 6
+      - CYL-科技（2021.11.01） 7
+      - 德国阿伟科技-油管5
+      - CYL-科技（2021.11.01） 8
+      - 新加坡阿伟科技-油管5 3
+      - CYL-科技（2021.11.01） 9
+      - CYL-科技（2021.11.01） 10
+      - CYL-科技（2021.11.01） 11
+      - CYL-科技（2021.11.01） 12
+      - sfzy888.com _🇯🇵JP-🇺🇸US_5541
+      - CYL-科技（2021.11.01） 13
+      - 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
+      - 美国阿伟科技-油管2
+      - 韩国阿伟科技-油管5
       - 118.107.244.112:5003
-      - CYL-科技（2021.10.31） 4
-      - 🇰🇷 韩国阿伟科技-油管5
-      - 1
-      - CYL-科技（2021.10.31） 5
-      - 🇺🇸 美国阿伟科技-油管 2
-      - 🇯🇵 日本（YouTube资源分享者）
-      - 🇺🇸 美国阿伟科技-油管 3
-      - 🇯🇵 日本阿伟科技-油管5
-      - 🇯🇵 日本阿伟科技-油管5 2
-      - 🇭🇰 SouthKorea 5
-      - 🇭🇰 SouthKorea 6
-      - 🇭🇰 SouthKorea 8
-      - 🇭🇰 SouthKorea 3
-      - 🇺🇸 美国阿伟科技-油管 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - CYL-科技（2021.11.01） 14
+      - 美国阿伟科技-油管
+      - 美国阿伟科技-油管5
+      - 2
+      - CYL-科技（2021.11.01） 15
+      - CYL-科技（2021.11.01） 16
+      - CYL-科技（2021.11.01） 17
       - 2021-10-31
-      - 🇭🇰 SouthKorea 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - 🇭🇰 SouthKorea 7
-      - 🇭🇰 SouthKorea 9
-      - 🇭🇰 SouthKorea 0
-      - 🇭🇰 SouthKorea 1
-      - CYL-科技（2021.10.31） 6
-      - 🇰🇷 韩国阿伟科技-油管
-      - 🇸🇬 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
-      - CYL-科技（2021.10.31） 7
-      - CYL-科技（2021.10.31） 8
-      - 🇸🇬 新加坡阿伟科技-油管5
-      - 🇰🇷 韩国阿伟科技-油管2
-      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube资源分享者）
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - CYL-科技（2021.10.31） 9
-      - 🇺🇸 UnitedStates 1
-      - 🇺🇸 UnitedStates 3
-      - 🇺🇸 UnitedStates 4
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇺🇸 US(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 4
-      - 🇺🇸 美国（YouTube资源分享者） 5
-      - 🇺🇸 美国（YouTube资源分享者） 6
-      - 🇺🇸 美国（YouTube资源分享者） 7
-      - 🇺🇸 美国（YouTube资源分享者） 8
-      - 🇺🇸 美国（YouTube资源分享者） 9
-      - 🇺🇸 美国（YouTube资源分享者） 10
-      - 🇺🇸 美国（YouTube资源分享者） 11
-      - 🇺🇸 美国（YouTube资源分享者） 12
-      - 🇺🇸 美国（YouTube资源分享者） 13
-      - 🇺🇸 美国（YouTube资源分享者） 14
-      - 🇺🇸 美国（YouTube资源分享者） 15
-      - 🇺🇸 https://bit.ly/3uWuS7a _share
+      - SouthKorea 9
+      - CYL-科技（2021.10.31） 3
+      - CYL-科技（2021.10.31） 4
+      - 新加坡阿伟科技-油管4
+      - 韩国阿伟科技-油管3
+      - SouthKorea 6
+      - 节点更新https://bit.ly/3uWuS7a
+      - SouthKorea 0
+      - SouthKorea 2
+      - 日本阿伟科技-油管3 2
+      - SouthKorea 3
+      - CYL-科技（2021.11.01） 18
+      - CYL-科技（2021.11.01） 19
+      - 节点更新https://bit.ly/3uWuS7a 2
+      - 美国阿伟科技-油管 2
+      - SouthKorea 8
+      - SouthKorea 7
+      - CYL-科技（2021.11.01） 20
+      - CYL-科技（2021.11.01） 21
+      - 节点更新https://bit.ly/3uWuS7a 3
+      - CYL-科技（2021.11.01） 22
+      - SouthKorea 5
+      - CYL-科技（2021.11.01） 23
+      - 香港阿伟科技-油管5 3
+      - 1
+      - 韩国阿伟科技-油管2
+      - CYL-科技（2021.11.01） 24
+      - 美国阿伟科技-油管3 3
+      - 美国阿伟科技-油管3
+      - SouthKorea 4
+      - SouthKorea 1
+      - 节点更新https://bit.ly/3uWuS7a 4
+      - https://bit.ly/3uWuS7a _share
       - 欧洲(Youtube频道：工具大师！)
-      - 🇺🇸 UnitedStates 2
-      - 🇺🇸 UnitedStates 5
-      - 🇺🇸 美国（YouTube资源分享者） 16
-      - CYL-科技（2021.10.30）
-      - 🇺🇸 美国（YouTube资源分享者） 17
-      - 🇺🇸 美国阿伟科技-油管 5
-      - 🇭🇰 香港阿伟科技-油管
+      - UnitedStates 5
+      - 美国（YouTube资源分享者）
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港阿伟科技-油管5
-      - 118.107.244.112:5004
-      - 🇸🇬 新加坡阿伟科技-油管
       - 118.107.244.112:8080
       - CYL-科技（2021.10.31）
+      - 新加坡阿伟科技-油管5
+      - CYL-科技（2021.11.01）
+      - CYL-科技（2021.11.01） 2
+      - CYL-科技（2021.11.01） 3
       - CYL-科技（2021.10.31） 2
-      - 🇷🇺 俄罗斯阿伟科技-油管2
-      - CYL-科技（2021.10.31） 3
-      - 🇺🇸 美国阿伟科技-油管
+      - CYL-科技（2021.11.01） 4
+      - 香港[感谢订阅——科技网络]
+      - CYL-科技（2021.11.01） 5
+      - 香港阿伟科技-油管5
+      - 新加坡阿伟科技-油管5 2
+      - 新加坡阿伟科技-油管
+      - CYL-科技（2021.11.01） 6
+      - CYL-科技（2021.11.01） 7
+      - 德国阿伟科技-油管5
+      - CYL-科技（2021.11.01） 8
+      - 新加坡阿伟科技-油管5 3
+      - CYL-科技（2021.11.01） 9
+      - CYL-科技（2021.11.01） 10
+      - CYL-科技（2021.11.01） 11
+      - CYL-科技（2021.11.01） 12
+      - sfzy888.com _🇯🇵JP-🇺🇸US_5541
+      - CYL-科技（2021.11.01） 13
+      - 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
+      - 美国阿伟科技-油管2
+      - 韩国阿伟科技-油管5
       - 118.107.244.112:5003
-      - CYL-科技（2021.10.31） 4
-      - 🇰🇷 韩国阿伟科技-油管5
-      - 1
-      - CYL-科技（2021.10.31） 5
-      - 🇺🇸 美国阿伟科技-油管 2
-      - 🇯🇵 日本（YouTube资源分享者）
-      - 🇺🇸 美国阿伟科技-油管 3
-      - 🇯🇵 日本阿伟科技-油管5
-      - 🇯🇵 日本阿伟科技-油管5 2
-      - 🇭🇰 SouthKorea 5
-      - 🇭🇰 SouthKorea 6
-      - 🇭🇰 SouthKorea 8
-      - 🇭🇰 SouthKorea 3
-      - 🇺🇸 美国阿伟科技-油管 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - CYL-科技（2021.11.01） 14
+      - 美国阿伟科技-油管
+      - 美国阿伟科技-油管5
+      - 2
+      - CYL-科技（2021.11.01） 15
+      - CYL-科技（2021.11.01） 16
+      - CYL-科技（2021.11.01） 17
       - 2021-10-31
-      - 🇭🇰 SouthKorea 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - 🇭🇰 SouthKorea 7
-      - 🇭🇰 SouthKorea 9
-      - 🇭🇰 SouthKorea 0
-      - 🇭🇰 SouthKorea 1
-      - CYL-科技（2021.10.31） 6
-      - 🇰🇷 韩国阿伟科技-油管
-      - 🇸🇬 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
-      - CYL-科技（2021.10.31） 7
-      - CYL-科技（2021.10.31） 8
-      - 🇸🇬 新加坡阿伟科技-油管5
-      - 🇰🇷 韩国阿伟科技-油管2
-      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube资源分享者）
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - CYL-科技（2021.10.31） 9
-      - 🇺🇸 UnitedStates 1
-      - 🇺🇸 UnitedStates 3
-      - 🇺🇸 UnitedStates 4
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇺🇸 US(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 4
-      - 🇺🇸 美国（YouTube资源分享者） 5
-      - 🇺🇸 美国（YouTube资源分享者） 6
-      - 🇺🇸 美国（YouTube资源分享者） 7
-      - 🇺🇸 美国（YouTube资源分享者） 8
-      - 🇺🇸 美国（YouTube资源分享者） 9
-      - 🇺🇸 美国（YouTube资源分享者） 10
-      - 🇺🇸 美国（YouTube资源分享者） 11
-      - 🇺🇸 美国（YouTube资源分享者） 12
-      - 🇺🇸 美国（YouTube资源分享者） 13
-      - 🇺🇸 美国（YouTube资源分享者） 14
-      - 🇺🇸 美国（YouTube资源分享者） 15
-      - 🇺🇸 https://bit.ly/3uWuS7a _share
+      - SouthKorea 9
+      - CYL-科技（2021.10.31） 3
+      - CYL-科技（2021.10.31） 4
+      - 新加坡阿伟科技-油管4
+      - 韩国阿伟科技-油管3
+      - SouthKorea 6
+      - 节点更新https://bit.ly/3uWuS7a
+      - SouthKorea 0
+      - SouthKorea 2
+      - 日本阿伟科技-油管3 2
+      - SouthKorea 3
+      - CYL-科技（2021.11.01） 18
+      - CYL-科技（2021.11.01） 19
+      - 节点更新https://bit.ly/3uWuS7a 2
+      - 美国阿伟科技-油管 2
+      - SouthKorea 8
+      - SouthKorea 7
+      - CYL-科技（2021.11.01） 20
+      - CYL-科技（2021.11.01） 21
+      - 节点更新https://bit.ly/3uWuS7a 3
+      - CYL-科技（2021.11.01） 22
+      - SouthKorea 5
+      - CYL-科技（2021.11.01） 23
+      - 香港阿伟科技-油管5 3
+      - 1
+      - 韩国阿伟科技-油管2
+      - CYL-科技（2021.11.01） 24
+      - 美国阿伟科技-油管3 3
+      - 美国阿伟科技-油管3
+      - SouthKorea 4
+      - SouthKorea 1
+      - 节点更新https://bit.ly/3uWuS7a 4
+      - https://bit.ly/3uWuS7a _share
       - 欧洲(Youtube频道：工具大师！)
-      - 🇺🇸 UnitedStates 2
-      - 🇺🇸 UnitedStates 5
-      - 🇺🇸 美国（YouTube资源分享者） 16
-      - CYL-科技（2021.10.30）
-      - 🇺🇸 美国（YouTube资源分享者） 17
-      - 🇺🇸 美国阿伟科技-油管 5
-      - 🇭🇰 香港阿伟科技-油管
+      - UnitedStates 5
+      - 美国（YouTube资源分享者）
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -634,77 +642,78 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港阿伟科技-油管5
-      - 118.107.244.112:5004
-      - 🇸🇬 新加坡阿伟科技-油管
       - 118.107.244.112:8080
       - CYL-科技（2021.10.31）
+      - 新加坡阿伟科技-油管5
+      - CYL-科技（2021.11.01）
+      - CYL-科技（2021.11.01） 2
+      - CYL-科技（2021.11.01） 3
       - CYL-科技（2021.10.31） 2
-      - 🇷🇺 俄罗斯阿伟科技-油管2
-      - CYL-科技（2021.10.31） 3
-      - 🇺🇸 美国阿伟科技-油管
+      - CYL-科技（2021.11.01） 4
+      - 香港[感谢订阅——科技网络]
+      - CYL-科技（2021.11.01） 5
+      - 香港阿伟科技-油管5
+      - 新加坡阿伟科技-油管5 2
+      - 新加坡阿伟科技-油管
+      - CYL-科技（2021.11.01） 6
+      - CYL-科技（2021.11.01） 7
+      - 德国阿伟科技-油管5
+      - CYL-科技（2021.11.01） 8
+      - 新加坡阿伟科技-油管5 3
+      - CYL-科技（2021.11.01） 9
+      - CYL-科技（2021.11.01） 10
+      - CYL-科技（2021.11.01） 11
+      - CYL-科技（2021.11.01） 12
+      - sfzy888.com _🇯🇵JP-🇺🇸US_5541
+      - CYL-科技（2021.11.01） 13
+      - 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
+      - 美国阿伟科技-油管2
+      - 韩国阿伟科技-油管5
       - 118.107.244.112:5003
-      - CYL-科技（2021.10.31） 4
-      - 🇰🇷 韩国阿伟科技-油管5
-      - 1
-      - CYL-科技（2021.10.31） 5
-      - 🇺🇸 美国阿伟科技-油管 2
-      - 🇯🇵 日本（YouTube资源分享者）
-      - 🇺🇸 美国阿伟科技-油管 3
-      - 🇯🇵 日本阿伟科技-油管5
-      - 🇯🇵 日本阿伟科技-油管5 2
-      - 🇭🇰 SouthKorea 5
-      - 🇭🇰 SouthKorea 6
-      - 🇭🇰 SouthKorea 8
-      - 🇭🇰 SouthKorea 3
-      - 🇺🇸 美国阿伟科技-油管 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - CYL-科技（2021.11.01） 14
+      - 美国阿伟科技-油管
+      - 美国阿伟科技-油管5
+      - 2
+      - CYL-科技（2021.11.01） 15
+      - CYL-科技（2021.11.01） 16
+      - CYL-科技（2021.11.01） 17
       - 2021-10-31
-      - 🇭🇰 SouthKorea 4
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
-      - 🇭🇰 SouthKorea 7
-      - 🇭🇰 SouthKorea 9
-      - 🇭🇰 SouthKorea 0
-      - 🇭🇰 SouthKorea 1
-      - CYL-科技（2021.10.31） 6
-      - 🇰🇷 韩国阿伟科技-油管
-      - 🇸🇬 新加坡 🇸🇬(技术分享室整理,欢迎订阅)
-      - CYL-科技（2021.10.31） 7
-      - CYL-科技（2021.10.31） 8
-      - 🇸🇬 新加坡阿伟科技-油管5
-      - 🇰🇷 韩国阿伟科技-油管2
-      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube资源分享者）
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
-      - CYL-科技（2021.10.31） 9
-      - 🇺🇸 UnitedStates 1
-      - 🇺🇸 UnitedStates 3
-      - 🇺🇸 UnitedStates 4
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇺🇸 US(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇺🇸 美国（YouTube资源分享者） 4
-      - 🇺🇸 美国（YouTube资源分享者） 5
-      - 🇺🇸 美国（YouTube资源分享者） 6
-      - 🇺🇸 美国（YouTube资源分享者） 7
-      - 🇺🇸 美国（YouTube资源分享者） 8
-      - 🇺🇸 美国（YouTube资源分享者） 9
-      - 🇺🇸 美国（YouTube资源分享者） 10
-      - 🇺🇸 美国（YouTube资源分享者） 11
-      - 🇺🇸 美国（YouTube资源分享者） 12
-      - 🇺🇸 美国（YouTube资源分享者） 13
-      - 🇺🇸 美国（YouTube资源分享者） 14
-      - 🇺🇸 美国（YouTube资源分享者） 15
-      - 🇺🇸 https://bit.ly/3uWuS7a _share
+      - SouthKorea 9
+      - CYL-科技（2021.10.31） 3
+      - CYL-科技（2021.10.31） 4
+      - 新加坡阿伟科技-油管4
+      - 韩国阿伟科技-油管3
+      - SouthKorea 6
+      - 节点更新https://bit.ly/3uWuS7a
+      - SouthKorea 0
+      - SouthKorea 2
+      - 日本阿伟科技-油管3 2
+      - SouthKorea 3
+      - CYL-科技（2021.11.01） 18
+      - CYL-科技（2021.11.01） 19
+      - 节点更新https://bit.ly/3uWuS7a 2
+      - 美国阿伟科技-油管 2
+      - SouthKorea 8
+      - SouthKorea 7
+      - CYL-科技（2021.11.01） 20
+      - CYL-科技（2021.11.01） 21
+      - 节点更新https://bit.ly/3uWuS7a 3
+      - CYL-科技（2021.11.01） 22
+      - SouthKorea 5
+      - CYL-科技（2021.11.01） 23
+      - 香港阿伟科技-油管5 3
+      - 1
+      - 韩国阿伟科技-油管2
+      - CYL-科技（2021.11.01） 24
+      - 美国阿伟科技-油管3 3
+      - 美国阿伟科技-油管3
+      - SouthKorea 4
+      - SouthKorea 1
+      - 节点更新https://bit.ly/3uWuS7a 4
+      - https://bit.ly/3uWuS7a _share
       - 欧洲(Youtube频道：工具大师！)
-      - 🇺🇸 UnitedStates 2
-      - 🇺🇸 UnitedStates 5
-      - 🇺🇸 美国（YouTube资源分享者） 16
-      - CYL-科技（2021.10.30）
-      - 🇺🇸 美国（YouTube资源分享者） 17
-      - 🇺🇸 美国阿伟科技-油管 5
-      - 🇭🇰 香港阿伟科技-油管
+      - UnitedStates 5
+      - 美国（YouTube资源分享者）
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
