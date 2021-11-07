@@ -5,869 +5,685 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 电报群https://t.me/lnafq, server: 14.douluo.cyou, port: 26114, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 14.douluo.cyou}}
-  - {name: 电报群https://t.me/lnafq 2, server: 6.douluo.cyou, port: 26106, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 6.douluo.cyou}}
-  - {name: 电报群https://t.me/lnafq 3, server: 16.douluo.cyou, port: 26116, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 16.douluo.cyou}}
-  - {name: CYL-科技（2021.11.04）, server: hk5.racernet.link, port: 443, type: vmess, uuid: 95b09c58-719f-38c0-8c56-1a3440796b17, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /racernet, ws-headers: {Host: hk5.racernet.link}}
-  - {name: CYL-科技（2021.11.02）, server: aws.774.gs, port: 8888, type: vmess, uuid: 362eeba8-9a04-4925-b6ae-9d287ee990c4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: aws.774.gs}}
-  - {name: 电报群https://t.me/lnafq 4, server: 3.douluo.cyou, port: 26103, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 3.douluo.cyou}}
-  - {name: 电报群https://t.me/lnafq 5, server: 21.douluo.cyou, port: 26121, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 21.douluo.cyou}}
-  - {name: 电报群https://t.me/lnafq 6, server: 9.douluo.cyou, port: 29109, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 9.douluo.cyou}}
-  - {name: 电报群https://t.me/lnafq 7, server: 10.douluo.cyou, port: 26110, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 10.douluo.cyou}}
   - {name: 🇭🇰 cfmem.com_🇭🇰_HK_香港_1, server: 34.96.150.194, port: 25083, type: vmess, uuid: 0f3ddbda-61fd-4160-bcd6-97a7a799c467, alterId: 0, cipher: auto, tls: false}
-  - {name: 电报群https://t.me/lnafq 8, server: azhk3.zz123.xyz, port: 18141, type: vmess, uuid: 00b688ff-21e1-33a0-962e-79377a874409, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 9, server: 18.douluo.cyou, port: 26118, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.douluo.cyou}}
-  - {name: 电报群https://t.me/lnafq 10, server: 20.douluo.cyou, port: 36120, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 20.douluo.cyou}}
-  - {name: 电报群https://t.me/lnafq 11, server: azhk3.zz123.xyz, port: 15724, type: vmess, uuid: 98d8d210-2db3-3fe6-8474-797dc7a475c2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 12, server: azhk3.zz123.xyz, port: 12819, type: vmess, uuid: 00b688ff-21e1-33a0-962e-79377a874409, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 13, server: azhk3.zz123.xyz, port: 12819, type: vmess, uuid: 18122cda-babc-389d-888d-7082ab08904c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 14, server: 8.douluo.cyou, port: 29108, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8.douluo.cyou}}
-  - {name: 电报群https://t.me/lnafq 15, server: 17.douluo.cyou, port: 26117, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 17.douluo.cyou}}
-  - {name: 电报群https://t.me/lnafq 16, server: azhk3.zz123.xyz, port: 15724, type: vmess, uuid: 00b688ff-21e1-33a0-962e-79377a874409, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 17, server: azhk3.zz123.xyz, port: 18141, type: vmess, uuid: 18122cda-babc-389d-888d-7082ab08904c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 18, server: azhk3.zz123.xyz, port: 12819, type: vmess, uuid: f9106e1e-f566-37c2-8948-07b0de7ebe3f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 19, server: azhk3.zz123.xyz, port: 12819, type: vmess, uuid: 98d8d210-2db3-3fe6-8474-797dc7a475c2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 20, server: azhk3.zz123.xyz, port: 15724, type: vmess, uuid: 18122cda-babc-389d-888d-7082ab08904c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
-  - {name: CYL-科技（2021.11.04） 2, server: cmgz1.racernet.link, port: 1443, type: vmess, uuid: 95b09c58-719f-38c0-8c56-1a3440796b17, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /cmgz1, ws-headers: {Host: cmgz1.racernet.link}}
-  - {name: CYL-科技（2021.11.01）, server: 167.172.65.93, port: 21888, type: vmess, uuid: 017f7c6c-59de-41b4-8fce-d37d8af68a38, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 167.172.65.93}}
-  - {name: 118.107.244.112:5003, server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 电报群https://t.me/lnafq 21, server: 11.douluo.cyou, port: 26111, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 11.douluo.cyou}}
-  - {name: 电报群https://t.me/lnafq 22, server: 4.douluo.cyou, port: 26104, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 4.douluo.cyou}}
-  - {name: 电报群https://t.me/lnafq 23, server: azhk3.zz123.xyz, port: 18141, type: vmess, uuid: f9106e1e-f566-37c2-8948-07b0de7ebe3f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 24, server: 7.douluo.cyou, port: 29107, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7.douluo.cyou}}
-  - {name: 电报群https://t.me/lnafq 25, server: 12.douluo.cyou, port: 26112, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 12.douluo.cyou}}
-  - {name: 🇸🇬 新加坡阿伟科技-油管, server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: e3a27cb1-98d8-4459-9019-9792f76e03a3, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: chenguanxi.zhqt.xyz}}
-  - {name: 电报群https://t.me/lnafq 26, server: azhk3.zz123.xyz, port: 33413, type: vmess, uuid: 00b688ff-21e1-33a0-962e-79377a874409, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
-  - {name: CYL-科技（2021.11.04） 3, server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: e4defe8d-0593-4d28-ba74-7edb1113df98, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: chenguanxi.zhqt.xyz}}
-  - {name: 电报群https://t.me/lnafq 27, server: azhk3.zz123.xyz, port: 33413, type: vmess, uuid: 18122cda-babc-389d-888d-7082ab08904c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 28, server: azhk3.zz123.xyz, port: 33413, type: vmess, uuid: 98d8d210-2db3-3fe6-8474-797dc7a475c2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 29, server: 13.douluo.cyou, port: 26113, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.douluo.cyou}}
-  - {name: 🇰🇷 KR(Youtube技术分享室整理), server: 61.14.210.232, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
-  - {name: 电报群https://t.me/lnafq 30, server: azhk3.zz123.xyz, port: 13959, type: vmess, uuid: 00b688ff-21e1-33a0-962e-79377a874409, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 31, server: azhk3.zz123.xyz, port: 14083, type: vmess, uuid: f9106e1e-f566-37c2-8948-07b0de7ebe3f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 32, server: azhk3.zz123.xyz, port: 54188, type: vmess, uuid: f9106e1e-f566-37c2-8948-07b0de7ebe3f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 33, server: 5.douluo.cyou, port: 26105, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 5.douluo.cyou}}
-  - {name: 电报群https://t.me/lnafq 34, server: 19.douluo.cyou, port: 29119, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 19.douluo.cyou}}
-  - {name: 电报群https://t.me/lnafq 35, server: azhk3.zz123.xyz, port: 54188, type: vmess, uuid: 00b688ff-21e1-33a0-962e-79377a874409, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
-  - {name: 🇭🇰 香港(Youtube资源分享者), server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 电报群https://t.me/lnafq 36, server: azhk3.zz123.xyz, port: 54188, type: vmess, uuid: 98d8d210-2db3-3fe6-8474-797dc7a475c2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 37, server: azhk3.zz123.xyz, port: 14083, type: vmess, uuid: 18122cda-babc-389d-888d-7082ab08904c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 38, server: 22.douluo.cyou, port: 29122, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 22.douluo.cyou}}
-  - {name: 电报群https://t.me/lnafq 39, server: azhk3.zz123.xyz, port: 14083, type: vmess, uuid: 98d8d210-2db3-3fe6-8474-797dc7a475c2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
-  - {name: YouTube梦歌, server: 156.146.33.82, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 电报群https://t.me/lnafq 40, server: azhk3.zz123.xyz, port: 54188, type: vmess, uuid: 18122cda-babc-389d-888d-7082ab08904c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
+  - {name: 电报群https://t.me/lnafq, server: 17.douluo.cyou, port: 26117, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 17.douluo.cyou}}
+  - {name: 电报群https://t.me/lnafq 2, server: 7.douluo.cyou, port: 29107, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7.douluo.cyou}}
+  - {name: 电报群https://t.me/lnafq 3, server: 6.douluo.cyou, port: 26106, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 6.douluo.cyou}}
+  - {name: 电报群https://t.me/lnafq 4, server: 21.douluo.cyou, port: 26121, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 21.douluo.cyou}}
+  - {name: 电报群https://t.me/lnafq 5, server: 20.douluo.cyou, port: 36120, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 20.douluo.cyou}}
+  - {name: CYL-科技（2021.11.06）, server: 1.transit.t.qjnodeip.xyz, port: 54952, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 5, cipher: auto, tls: true, network: ws, ws-path: /Hkk3Z, ws-headers: {Host: hk03.iuhbhgg.xyz}}
+  - {name: 电报群https://t.me/lnafq 6, server: 16.douluo.cyou, port: 26116, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 16.douluo.cyou}}
+  - {name: 电报群https://t.me/lnafq 7, server: 157.245.57.245, port: 39000, type: vmess, uuid: 0d7d2dc7-667c-3344-953f-ba491ddc864a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 157.245.57.245}}
+  - {name: 电报群https://t.me/lnafq 8, server: 12.douluo.cyou, port: 26112, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 12.douluo.cyou}}
+  - {name: 电报群https://t.me/lnafq 9, server: 18.141.222.129, port: 39000, type: vmess, uuid: d5776151-abc2-39d4-bc2b-1f8c3df6c61e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 18.141.222.129}}
+  - {name: 电报群https://t.me/lnafq 10, server: 157.245.57.245, port: 39000, type: vmess, uuid: d5776151-abc2-39d4-bc2b-1f8c3df6c61e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 157.245.57.245}}
+  - {name: 电报群https://t.me/lnafq 11, server: azhk3.zz123.xyz, port: 12819, type: vmess, uuid: 98d8d210-2db3-3fe6-8474-797dc7a475c2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
+  - {name: 🇸🇬 新加坡(Youtube技术分享室整理), server: aws.774.gs, port: 8888, type: vmess, uuid: 5e2b2d39-ee72-464f-89cb-686217900ce2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: aws.774.gs}}
+  - {name: 电报群https://t.me/lnafq 12, server: 157.245.57.245, port: 39000, type: vmess, uuid: 1a51fe8e-5717-3cda-b5bd-805e6ec4fdf9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 157.245.57.245}}
+  - {name: CYL-科技（2021.11.04）, server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: e4defe8d-0593-4d28-ba74-7edb1113df98, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: chenguanxi.zhqt.xyz}}
+  - {name: 电报群https://t.me/lnafq 13, server: 3.douluo.cyou, port: 26103, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 3.douluo.cyou}}
+  - {name: 🇩🇪 德国(Youtube资源分享者), server: aws.774.gs, port: 8888, type: vmess, uuid: 362eeba8-9a04-4925-b6ae-9d287ee990c4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: aws.774.gs}}
+  - {name: 电报群https://t.me/lnafq 14, server: 18.141.222.129, port: 39000, type: vmess, uuid: 1a51fe8e-5717-3cda-b5bd-805e6ec4fdf9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 18.141.222.129}}
+  - {name: 电报群https://t.me/lnafq 15, server: 157.245.57.245, port: 39000, type: vmess, uuid: 4e580261-b8c9-3db4-b1c9-5256153e3ff3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 157.245.57.245}}
+  - {name: 电报群https://t.me/lnafq 16, server: 10.douluo.cyou, port: 26110, type: vmess, uuid: 1a41acf3-4a44-333f-b05b-6db47054148b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 10.douluo.cyou}}
+  - {name: 电报群https://t.me/lnafq 17, server: azhk3.zz123.xyz, port: 18141, type: vmess, uuid: f9106e1e-f566-37c2-8948-07b0de7ebe3f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk3.zz123.xyz}}
+  - {name: 🇯🇵 cfmem.com_🇯🇵_JP_日本_1, server: v2-jp01.ddjppt.xyz, port: 443, type: vmess, uuid: 7269d6af-f15e-392a-b0d8-58efcbd48cd4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-jp01.ddjppt.xyz}}
+  - {name: CYL-科技（2021.11.06） 2, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}}
+  - {name: 🇭🇰 香港阿伟科技-油管4 2, server: 13.72.197.3, port: 80, type: vmess, uuid: cc39c8a4-25f6-4283-9bd7-eb2552fa2e3e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /air.knayo.in, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: n6.emovpn.xyz:443, server: n6.emovpn.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: a52d4b7f-2700-4402-a436-10feee9f17a8}
+  - {name: n11.emovpn.xyz:443, server: n11.emovpn.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: a52d4b7f-2700-4402-a436-10feee9f17a8}
+  - {name: CYL-科技（2021.11.06） 3, server: bgp.okvpn.xyz, port: 33505, type: vmess, uuid: 0e51e193-9029-4ba6-857a-d7f98b0105dc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: bgp.okvpn.xyz}}
+  - {name: CYL-科技（2021.11.06） 4, server: az.iganfan.store, port: 12306, type: trojan, password: ganfanbaipiao, sni: az.iganfan.store}
+  - {name: CYL-科技（2021.11.06） 5, server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: jp-tokyo-node2.ycgyg.com}}
+  - {name: CYL-科技（2021.11.06） 6, server: 3.fbplay.net, port: 10100, type: ss, cipher: aes-256-gcm, password: a78172b3}
+  - {name: CYL-科技（2021.11.06） 7, server: ahH4eihu.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: ahH4eihu.com}}
+  - {name: YouTube梦歌, server: 156.146.33.80, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: CYL-科技（2021.11.06） 8, server: 102.fbplay.net, port: 10100, type: ss, cipher: aes-256-gcm, password: a78172b3}
+  - {name: 🇺🇸 cfmem.com_🇺🇸_US_美国_15, server: 167.88.61.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: YouTube梦歌 2, server: 156.146.33.80, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: 🇸🇬 新加坡(Youtube技术分享室整理) 2, server: vmess.ifuckgfw.ga, port: 8443, type: vmess, uuid: 0e1b2424-2d7d-11ec-8efb-00163cf0ed57, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /uaAovjKU/, ws-headers: {Host: vmess.ifuckgfw.ga}}
   - {name: 🇺🇸 US(Youtube技术分享室整理), server: vmess.ifuckgfw.ga, port: 8443, type: vmess, uuid: 097b8f9e-2d7d-11ec-8efb-00163cf0ed57, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /uaAovjKU/, ws-headers: {Host: vmess.ifuckgfw.ga}}
-  - {name: CYL-科技（2021.11.04） 4, server: 193.176.86.198, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇸🇬 新加坡(Youtube技术分享室整理), server: vmess.ifuckgfw.ga, port: 8443, type: vmess, uuid: 0e1b2424-2d7d-11ec-8efb-00163cf0ed57, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /uaAovjKU/, ws-headers: {Host: vmess.ifuckgfw.ga}}
-  - {name: YouTube梦歌 2, server: 156.146.33.82, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: YouTube梦歌 3, server: 156.146.33.80, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: YouTube梦歌 4, server: 156.146.33.86, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 🇯🇵 日本(Youtube资源分享者), server: 185.124.240.146, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
-  - {name: CYL-科技（2021.11.04） 5, server: 193.176.86.198, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: CYL-科技（2021.11.04） 6, server: 193.176.86.198, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: YouTube梦歌 5, server: 156.146.33.80, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: CYL-科技（2021.11.04） 7, server: 54.188.113.163, port: 39000, type: vmess, uuid: 61ad5ebe-3cd8-3fc2-8cab-e8a12328067d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 54.188.113.163}}
-  - {name: YouTube梦歌 6, server: 156.146.33.86, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
-  - {name: YouTube梦歌 7, server: 156.146.33.82, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
-  - {name: YouTube梦歌 8, server: 156.146.33.82, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: CYL-科技（2021.11.04） 8, server: 185.124.240.146, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: YouTube梦歌 9, server: 156.146.33.80, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: 🇨🇳 cfmem.com_🇨🇳_CN_中国_4, server: 1.transit.t.qjnodeip.xyz, port: 62329, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /usa1Z, ws-headers: {Host: usa03.dadwff.xyz}}
-  - {name: 🇺🇸 美国（YouTube资源分享者）, server: 167.88.61.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2021.11.04） 9, server: 156.146.62.37, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: CYL-科技（2021.11.04） 10, server: 193.176.86.198, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 2, server: 167.88.61.15, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国(Youtube资源分享者), server: 167.88.61.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: YouTube梦歌 3, server: 156.146.33.82, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
+  - {name: YouTube梦歌 4, server: 156.146.33.82, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
+  - {name: CYL-科技（2021.11.06） 9, server: 185.124.240.146, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: CYL-科技（2021.11.06） 10, server: 61.74.222.77, port: 10100, type: ss, cipher: aes-256-gcm, password: a78172b3}
+  - {name: YouTube梦歌 5, server: 156.146.33.82, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: YouTube梦歌 6, server: 156.146.33.80, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: YouTube梦歌 7, server: 156.146.33.82, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: YouTube梦歌 8, server: 156.146.33.80, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇸🇬 新加坡阿伟科技-油管, server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: e3a27cb1-98d8-4459-9019-9792f76e03a3, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: chenguanxi.zhqt.xyz}}
+  - {name: 🇨🇭 瑞士(Youtube资源分享者), server: 185.124.240.146, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇺🇸 美国(Youtube技术分享室整理), server: 38.107.226.49, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 瑞典(Youtube资源分享者), server: 167.88.61.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: YouTube梦歌 10, server: 156.146.33.86, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: YouTube梦歌 11, server: 156.146.33.86, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: YouTube梦歌 12, server: 156.146.33.86, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: "🇺🇸 US(技术分享室整理,欢迎订阅)", server: 173.82.160.106, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 美国（YouTube梦歌） 22, server: 167.88.61.15, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: YouTube梦歌 13, server: 156.146.33.80, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: YouTube梦歌 14, server: 156.146.33.82, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: cfmem.com_🇳🇴_NO_挪威_1, server: 91.219.215.19, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 欧洲(Youtube频道：工具大师！), server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇫🇷 法国(Youtube频道：工具大师！), server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国（YouTube资源分享者） 3, server: 167.88.61.15, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大(Youtube技术分享室整理), server: 134.195.196.179, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国(Youtube技术分享室整理), server: in1-1.noojat.com, port: 1443, type: trojan, password: 7x42LetRa0, sni: in1-1.noojat.com}
-  - {name: 阿伟科技-油管1, server: 156.146.62.37, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 cfmem.com_🇺🇸_US_美国_16, server: 38.68.135.26, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇩🇪 cfmem.com_🇩🇪_DE_德国_10, server: 193.176.86.198, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
-  - {name: 🇺🇸 美国阿伟科技-油管4, server: 520yyds.zhqt.xyz, port: 50089, type: vmess, uuid: e3a27cb1-98d8-4459-9019-9792f76e03a3, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: free-4.joker007.top}}
-  - {name: "(技术分享室整理,欢迎订阅)", server: 172.99.190.158, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 138.199.42.170:48089, server: 138.199.42.170, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
-  - {name: 🇩🇪 cfmem.com_🇩🇪_DE_德国_16, server: 193.176.86.198, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: "🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)", server: 172.252.64.50, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 美国阿伟科技-油管4 2, server: 129.146.243.243, port: 1420, type: vmess, uuid: 2ca1dcfe-3ca3-4842-88dc-ac59c3d282c3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 129.146.243.243}}
-  - {name: 🇨🇦 加拿大_YouTube梦歌, server: 134.195.196.202, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: "欧洲[感谢订阅——科技网络]", server: 62.212.239.53, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇨🇦 加拿大(Youtube技术分享室整理) 2, server: 134.195.196.179, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇭 瑞士阿伟科技-油管, server: 156.146.62.37, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇨🇭 瑞士(Youtube资源分享者), server: 185.124.240.152, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
-  - {name: 🇬🇧 英国(Youtube技术分享室整理), server: 172.99.190.158, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 阿伟科技-油管, server: 156.146.62.37, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 🇺🇸 cfmem.com_🇺🇸_US_美国_28, server: 38.68.135.26, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_8, server: 156.146.62.37, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
+  - {name: 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_67, server: 195.181.166.225, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 🇩🇪 cfmem.com_🇩🇪_DE_德国_19, server: 193.176.86.196, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇩🇪 cfmem.com_🇩🇪_DE_德国_2, server: 193.176.86.198, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇩🇪 cfmem.com_🇩🇪_DE_德国_48, server: 193.176.86.196, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
+  - {name: 🇺🇸 美国(Youtube资源分享者), server: 167.88.61.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇭 瑞士(Youtube资源分享者) 2, server: 185.124.240.146, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇩🇪 德国 🇩🇪(Youtube技术分享室整理), server: 193.176.86.196, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 2, server: 193.176.86.198, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇺🇸 US(Youtube技术分享室整理) 2, server: 156.146.33.74, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: CYL-科技（2021.11.04） 2, server: 193.176.86.196, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: "🇷🇺 俄罗斯[感谢订阅——科技网络]", server: 193.108.118.34, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31, server: 195.181.166.225, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_34, server: 195.181.166.225, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: 🇩🇪 cfmem.com_🇩🇪_DE_德国_1, server: 193.176.86.196, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
+  - {name: 🇯🇵 日本(Youtube资源分享者), server: 185.124.240.146, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: 🇺🇸 US(Youtube技术分享室整理) 3, server: 156.146.33.74, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd}
+  - {name: "🇷🇺 俄罗斯[感谢订阅——科技网络] 2", server: 193.108.118.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_26, server: 195.181.166.225, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇩🇪 cfmem.com_🇩🇪_DE_德国_21, server: 193.176.86.198, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: 🇩🇪 cfmem.com_🇩🇪_DE_德国_41, server: 193.176.86.198, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
+  - {name: 🇨🇦 加拿大(Youtube资源分享者), server: 134.195.196.50, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国(Youtube资源分享者) 2, server: 167.88.61.50, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 3, server: 193.176.86.198, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 4, server: 193.176.86.196, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
+  - {name: 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 5, server: 193.176.86.198, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
+  - {name: 🇰🇷 KR(Youtube技术分享室整理), server: 61.14.210.232, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: 🇺🇸 美国(Youtube资源分享者) 3, server: 134.195.196.179, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇳 台湾(Youtube资源分享者), server: 139.155.22.227, port: 49110, type: vmess, uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d, alterId: 64, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇭🇰 cfmem.com_🇭🇰_HK_香港_1
       - 电报群https://t.me/lnafq
       - 电报群https://t.me/lnafq 2
       - 电报群https://t.me/lnafq 3
-      - CYL-科技（2021.11.04）
-      - CYL-科技（2021.11.02）
       - 电报群https://t.me/lnafq 4
       - 电报群https://t.me/lnafq 5
+      - CYL-科技（2021.11.06）
       - 电报群https://t.me/lnafq 6
       - 电报群https://t.me/lnafq 7
-      - 🇭🇰 cfmem.com_🇭🇰_HK_香港_1
       - 电报群https://t.me/lnafq 8
       - 电报群https://t.me/lnafq 9
       - 电报群https://t.me/lnafq 10
       - 电报群https://t.me/lnafq 11
+      - 🇸🇬 新加坡(Youtube技术分享室整理)
       - 电报群https://t.me/lnafq 12
+      - CYL-科技（2021.11.04）
       - 电报群https://t.me/lnafq 13
+      - 🇩🇪 德国(Youtube资源分享者)
       - 电报群https://t.me/lnafq 14
       - 电报群https://t.me/lnafq 15
       - 电报群https://t.me/lnafq 16
       - 电报群https://t.me/lnafq 17
-      - 电报群https://t.me/lnafq 18
-      - 电报群https://t.me/lnafq 19
-      - 电报群https://t.me/lnafq 20
-      - CYL-科技（2021.11.04） 2
-      - CYL-科技（2021.11.01）
-      - 118.107.244.112:5003
-      - 电报群https://t.me/lnafq 21
-      - 电报群https://t.me/lnafq 22
-      - 电报群https://t.me/lnafq 23
-      - 电报群https://t.me/lnafq 24
-      - 电报群https://t.me/lnafq 25
-      - 🇸🇬 新加坡阿伟科技-油管
-      - 电报群https://t.me/lnafq 26
-      - CYL-科技（2021.11.04） 3
-      - 电报群https://t.me/lnafq 27
-      - 电报群https://t.me/lnafq 28
-      - 电报群https://t.me/lnafq 29
-      - 🇰🇷 KR(Youtube技术分享室整理)
-      - 电报群https://t.me/lnafq 30
-      - 电报群https://t.me/lnafq 31
-      - 电报群https://t.me/lnafq 32
-      - 电报群https://t.me/lnafq 33
-      - 电报群https://t.me/lnafq 34
-      - 电报群https://t.me/lnafq 35
-      - 🇭🇰 香港(Youtube资源分享者)
-      - 电报群https://t.me/lnafq 36
-      - 电报群https://t.me/lnafq 37
-      - 电报群https://t.me/lnafq 38
-      - 电报群https://t.me/lnafq 39
+      - 🇯🇵 cfmem.com_🇯🇵_JP_日本_1
+      - CYL-科技（2021.11.06） 2
+      - 🇭🇰 香港阿伟科技-油管4 2
+      - n6.emovpn.xyz:443
+      - n11.emovpn.xyz:443
+      - CYL-科技（2021.11.06） 3
+      - CYL-科技（2021.11.06） 4
+      - CYL-科技（2021.11.06） 5
+      - CYL-科技（2021.11.06） 6
+      - CYL-科技（2021.11.06） 7
       - YouTube梦歌
-      - 电报群https://t.me/lnafq 40
-      - 🇺🇸 US(Youtube技术分享室整理)
-      - CYL-科技（2021.11.04） 4
-      - 🇸🇬 新加坡(Youtube技术分享室整理)
+      - CYL-科技（2021.11.06） 8
+      - 🇺🇸 cfmem.com_🇺🇸_US_美国_15
       - YouTube梦歌 2
+      - 🇸🇬 新加坡(Youtube技术分享室整理) 2
+      - 🇺🇸 US(Youtube技术分享室整理)
       - YouTube梦歌 3
       - YouTube梦歌 4
-      - 🇯🇵 日本(Youtube资源分享者)
-      - CYL-科技（2021.11.04） 5
-      - CYL-科技（2021.11.04） 6
+      - CYL-科技（2021.11.06） 9
+      - CYL-科技（2021.11.06） 10
       - YouTube梦歌 5
-      - CYL-科技（2021.11.04） 7
       - YouTube梦歌 6
       - YouTube梦歌 7
       - YouTube梦歌 8
-      - CYL-科技（2021.11.04） 8
-      - YouTube梦歌 9
-      - 🇨🇳 cfmem.com_🇨🇳_CN_中国_4
-      - 🇺🇸 美国（YouTube资源分享者）
-      - CYL-科技（2021.11.04） 9
-      - CYL-科技（2021.11.04） 10
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇺🇸 美国(Youtube资源分享者)
-      - 瑞典(Youtube资源分享者)
-      - YouTube梦歌 10
-      - YouTube梦歌 11
-      - YouTube梦歌 12
-      - 🇺🇸 US(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube梦歌） 22
-      - YouTube梦歌 13
-      - YouTube梦歌 14
-      - cfmem.com_🇳🇴_NO_挪威_1
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇨🇦 加拿大(Youtube技术分享室整理)
-      - 🇺🇸 美国(Youtube技术分享室整理)
-      - 阿伟科技-油管1
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_16
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_10
-      - 🇺🇸 美国阿伟科技-油管4
-      - (技术分享室整理,欢迎订阅)
-      - 138.199.42.170:48089
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_16
-      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国阿伟科技-油管4 2
-      - 🇨🇦 加拿大_YouTube梦歌
-      - 欧洲[感谢订阅——科技网络]
-      - 🇨🇦 加拿大(Youtube技术分享室整理) 2
-      - 🇨🇭 瑞士阿伟科技-油管
+      - 🇸🇬 新加坡阿伟科技-油管
       - 🇨🇭 瑞士(Youtube资源分享者)
-      - 🇬🇧 英国(Youtube技术分享室整理)
-      - 阿伟科技-油管
+      - 🇺🇸 美国(Youtube技术分享室整理)
+      - 瑞典(Youtube资源分享者)
+      - 🇺🇸 cfmem.com_🇺🇸_US_美国_28
+      - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_8
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_67
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_19
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_2
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_48
+      - 🇺🇸 美国(Youtube资源分享者)
+      - 🇨🇭 瑞士(Youtube资源分享者) 2
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理)
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 2
+      - 🇺🇸 US(Youtube技术分享室整理) 2
+      - CYL-科技（2021.11.04） 2
+      - 🇷🇺 俄罗斯[感谢订阅——科技网络]
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_34
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_1
+      - 🇯🇵 日本(Youtube资源分享者)
+      - 🇺🇸 US(Youtube技术分享室整理) 3
+      - 🇷🇺 俄罗斯[感谢订阅——科技网络] 2
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_26
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_21
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_41
+      - 🇨🇦 加拿大(Youtube资源分享者)
+      - 🇺🇸 美国(Youtube资源分享者) 2
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 3
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 4
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 5
+      - 🇰🇷 KR(Youtube技术分享室整理)
+      - 🇺🇸 美国(Youtube资源分享者) 3
+      - 🇨🇳 台湾(Youtube资源分享者)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇭🇰 cfmem.com_🇭🇰_HK_香港_1
       - 电报群https://t.me/lnafq
       - 电报群https://t.me/lnafq 2
       - 电报群https://t.me/lnafq 3
-      - CYL-科技（2021.11.04）
-      - CYL-科技（2021.11.02）
       - 电报群https://t.me/lnafq 4
       - 电报群https://t.me/lnafq 5
+      - CYL-科技（2021.11.06）
       - 电报群https://t.me/lnafq 6
       - 电报群https://t.me/lnafq 7
-      - 🇭🇰 cfmem.com_🇭🇰_HK_香港_1
       - 电报群https://t.me/lnafq 8
       - 电报群https://t.me/lnafq 9
       - 电报群https://t.me/lnafq 10
       - 电报群https://t.me/lnafq 11
+      - 🇸🇬 新加坡(Youtube技术分享室整理)
       - 电报群https://t.me/lnafq 12
+      - CYL-科技（2021.11.04）
       - 电报群https://t.me/lnafq 13
+      - 🇩🇪 德国(Youtube资源分享者)
       - 电报群https://t.me/lnafq 14
       - 电报群https://t.me/lnafq 15
       - 电报群https://t.me/lnafq 16
       - 电报群https://t.me/lnafq 17
-      - 电报群https://t.me/lnafq 18
-      - 电报群https://t.me/lnafq 19
-      - 电报群https://t.me/lnafq 20
-      - CYL-科技（2021.11.04） 2
-      - CYL-科技（2021.11.01）
-      - 118.107.244.112:5003
-      - 电报群https://t.me/lnafq 21
-      - 电报群https://t.me/lnafq 22
-      - 电报群https://t.me/lnafq 23
-      - 电报群https://t.me/lnafq 24
-      - 电报群https://t.me/lnafq 25
-      - 🇸🇬 新加坡阿伟科技-油管
-      - 电报群https://t.me/lnafq 26
-      - CYL-科技（2021.11.04） 3
-      - 电报群https://t.me/lnafq 27
-      - 电报群https://t.me/lnafq 28
-      - 电报群https://t.me/lnafq 29
-      - 🇰🇷 KR(Youtube技术分享室整理)
-      - 电报群https://t.me/lnafq 30
-      - 电报群https://t.me/lnafq 31
-      - 电报群https://t.me/lnafq 32
-      - 电报群https://t.me/lnafq 33
-      - 电报群https://t.me/lnafq 34
-      - 电报群https://t.me/lnafq 35
-      - 🇭🇰 香港(Youtube资源分享者)
-      - 电报群https://t.me/lnafq 36
-      - 电报群https://t.me/lnafq 37
-      - 电报群https://t.me/lnafq 38
-      - 电报群https://t.me/lnafq 39
+      - 🇯🇵 cfmem.com_🇯🇵_JP_日本_1
+      - CYL-科技（2021.11.06） 2
+      - 🇭🇰 香港阿伟科技-油管4 2
+      - n6.emovpn.xyz:443
+      - n11.emovpn.xyz:443
+      - CYL-科技（2021.11.06） 3
+      - CYL-科技（2021.11.06） 4
+      - CYL-科技（2021.11.06） 5
+      - CYL-科技（2021.11.06） 6
+      - CYL-科技（2021.11.06） 7
       - YouTube梦歌
-      - 电报群https://t.me/lnafq 40
-      - 🇺🇸 US(Youtube技术分享室整理)
-      - CYL-科技（2021.11.04） 4
-      - 🇸🇬 新加坡(Youtube技术分享室整理)
+      - CYL-科技（2021.11.06） 8
+      - 🇺🇸 cfmem.com_🇺🇸_US_美国_15
       - YouTube梦歌 2
+      - 🇸🇬 新加坡(Youtube技术分享室整理) 2
+      - 🇺🇸 US(Youtube技术分享室整理)
       - YouTube梦歌 3
       - YouTube梦歌 4
-      - 🇯🇵 日本(Youtube资源分享者)
-      - CYL-科技（2021.11.04） 5
-      - CYL-科技（2021.11.04） 6
+      - CYL-科技（2021.11.06） 9
+      - CYL-科技（2021.11.06） 10
       - YouTube梦歌 5
-      - CYL-科技（2021.11.04） 7
       - YouTube梦歌 6
       - YouTube梦歌 7
       - YouTube梦歌 8
-      - CYL-科技（2021.11.04） 8
-      - YouTube梦歌 9
-      - 🇨🇳 cfmem.com_🇨🇳_CN_中国_4
-      - 🇺🇸 美国（YouTube资源分享者）
-      - CYL-科技（2021.11.04） 9
-      - CYL-科技（2021.11.04） 10
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇺🇸 美国(Youtube资源分享者)
-      - 瑞典(Youtube资源分享者)
-      - YouTube梦歌 10
-      - YouTube梦歌 11
-      - YouTube梦歌 12
-      - 🇺🇸 US(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube梦歌） 22
-      - YouTube梦歌 13
-      - YouTube梦歌 14
-      - cfmem.com_🇳🇴_NO_挪威_1
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇨🇦 加拿大(Youtube技术分享室整理)
-      - 🇺🇸 美国(Youtube技术分享室整理)
-      - 阿伟科技-油管1
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_16
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_10
-      - 🇺🇸 美国阿伟科技-油管4
-      - (技术分享室整理,欢迎订阅)
-      - 138.199.42.170:48089
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_16
-      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国阿伟科技-油管4 2
-      - 🇨🇦 加拿大_YouTube梦歌
-      - 欧洲[感谢订阅——科技网络]
-      - 🇨🇦 加拿大(Youtube技术分享室整理) 2
-      - 🇨🇭 瑞士阿伟科技-油管
+      - 🇸🇬 新加坡阿伟科技-油管
       - 🇨🇭 瑞士(Youtube资源分享者)
-      - 🇬🇧 英国(Youtube技术分享室整理)
-      - 阿伟科技-油管
+      - 🇺🇸 美国(Youtube技术分享室整理)
+      - 瑞典(Youtube资源分享者)
+      - 🇺🇸 cfmem.com_🇺🇸_US_美国_28
+      - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_8
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_67
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_19
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_2
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_48
+      - 🇺🇸 美国(Youtube资源分享者)
+      - 🇨🇭 瑞士(Youtube资源分享者) 2
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理)
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 2
+      - 🇺🇸 US(Youtube技术分享室整理) 2
+      - CYL-科技（2021.11.04） 2
+      - 🇷🇺 俄罗斯[感谢订阅——科技网络]
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_34
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_1
+      - 🇯🇵 日本(Youtube资源分享者)
+      - 🇺🇸 US(Youtube技术分享室整理) 3
+      - 🇷🇺 俄罗斯[感谢订阅——科技网络] 2
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_26
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_21
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_41
+      - 🇨🇦 加拿大(Youtube资源分享者)
+      - 🇺🇸 美国(Youtube资源分享者) 2
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 3
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 4
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 5
+      - 🇰🇷 KR(Youtube技术分享室整理)
+      - 🇺🇸 美国(Youtube资源分享者) 3
+      - 🇨🇳 台湾(Youtube资源分享者)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 cfmem.com_🇭🇰_HK_香港_1
       - 电报群https://t.me/lnafq
       - 电报群https://t.me/lnafq 2
       - 电报群https://t.me/lnafq 3
-      - CYL-科技（2021.11.04）
-      - CYL-科技（2021.11.02）
       - 电报群https://t.me/lnafq 4
       - 电报群https://t.me/lnafq 5
+      - CYL-科技（2021.11.06）
       - 电报群https://t.me/lnafq 6
       - 电报群https://t.me/lnafq 7
-      - 🇭🇰 cfmem.com_🇭🇰_HK_香港_1
       - 电报群https://t.me/lnafq 8
       - 电报群https://t.me/lnafq 9
       - 电报群https://t.me/lnafq 10
       - 电报群https://t.me/lnafq 11
+      - 🇸🇬 新加坡(Youtube技术分享室整理)
       - 电报群https://t.me/lnafq 12
+      - CYL-科技（2021.11.04）
       - 电报群https://t.me/lnafq 13
+      - 🇩🇪 德国(Youtube资源分享者)
       - 电报群https://t.me/lnafq 14
       - 电报群https://t.me/lnafq 15
       - 电报群https://t.me/lnafq 16
       - 电报群https://t.me/lnafq 17
-      - 电报群https://t.me/lnafq 18
-      - 电报群https://t.me/lnafq 19
-      - 电报群https://t.me/lnafq 20
-      - CYL-科技（2021.11.04） 2
-      - CYL-科技（2021.11.01）
-      - 118.107.244.112:5003
-      - 电报群https://t.me/lnafq 21
-      - 电报群https://t.me/lnafq 22
-      - 电报群https://t.me/lnafq 23
-      - 电报群https://t.me/lnafq 24
-      - 电报群https://t.me/lnafq 25
-      - 🇸🇬 新加坡阿伟科技-油管
-      - 电报群https://t.me/lnafq 26
-      - CYL-科技（2021.11.04） 3
-      - 电报群https://t.me/lnafq 27
-      - 电报群https://t.me/lnafq 28
-      - 电报群https://t.me/lnafq 29
-      - 🇰🇷 KR(Youtube技术分享室整理)
-      - 电报群https://t.me/lnafq 30
-      - 电报群https://t.me/lnafq 31
-      - 电报群https://t.me/lnafq 32
-      - 电报群https://t.me/lnafq 33
-      - 电报群https://t.me/lnafq 34
-      - 电报群https://t.me/lnafq 35
-      - 🇭🇰 香港(Youtube资源分享者)
-      - 电报群https://t.me/lnafq 36
-      - 电报群https://t.me/lnafq 37
-      - 电报群https://t.me/lnafq 38
-      - 电报群https://t.me/lnafq 39
+      - 🇯🇵 cfmem.com_🇯🇵_JP_日本_1
+      - CYL-科技（2021.11.06） 2
+      - 🇭🇰 香港阿伟科技-油管4 2
+      - n6.emovpn.xyz:443
+      - n11.emovpn.xyz:443
+      - CYL-科技（2021.11.06） 3
+      - CYL-科技（2021.11.06） 4
+      - CYL-科技（2021.11.06） 5
+      - CYL-科技（2021.11.06） 6
+      - CYL-科技（2021.11.06） 7
       - YouTube梦歌
-      - 电报群https://t.me/lnafq 40
-      - 🇺🇸 US(Youtube技术分享室整理)
-      - CYL-科技（2021.11.04） 4
-      - 🇸🇬 新加坡(Youtube技术分享室整理)
+      - CYL-科技（2021.11.06） 8
+      - 🇺🇸 cfmem.com_🇺🇸_US_美国_15
       - YouTube梦歌 2
+      - 🇸🇬 新加坡(Youtube技术分享室整理) 2
+      - 🇺🇸 US(Youtube技术分享室整理)
       - YouTube梦歌 3
       - YouTube梦歌 4
-      - 🇯🇵 日本(Youtube资源分享者)
-      - CYL-科技（2021.11.04） 5
-      - CYL-科技（2021.11.04） 6
+      - CYL-科技（2021.11.06） 9
+      - CYL-科技（2021.11.06） 10
       - YouTube梦歌 5
-      - CYL-科技（2021.11.04） 7
       - YouTube梦歌 6
       - YouTube梦歌 7
       - YouTube梦歌 8
-      - CYL-科技（2021.11.04） 8
-      - YouTube梦歌 9
-      - 🇨🇳 cfmem.com_🇨🇳_CN_中国_4
-      - 🇺🇸 美国（YouTube资源分享者）
-      - CYL-科技（2021.11.04） 9
-      - CYL-科技（2021.11.04） 10
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇺🇸 美国(Youtube资源分享者)
-      - 瑞典(Youtube资源分享者)
-      - YouTube梦歌 10
-      - YouTube梦歌 11
-      - YouTube梦歌 12
-      - 🇺🇸 US(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube梦歌） 22
-      - YouTube梦歌 13
-      - YouTube梦歌 14
-      - cfmem.com_🇳🇴_NO_挪威_1
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇨🇦 加拿大(Youtube技术分享室整理)
-      - 🇺🇸 美国(Youtube技术分享室整理)
-      - 阿伟科技-油管1
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_16
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_10
-      - 🇺🇸 美国阿伟科技-油管4
-      - (技术分享室整理,欢迎订阅)
-      - 138.199.42.170:48089
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_16
-      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国阿伟科技-油管4 2
-      - 🇨🇦 加拿大_YouTube梦歌
-      - 欧洲[感谢订阅——科技网络]
-      - 🇨🇦 加拿大(Youtube技术分享室整理) 2
-      - 🇨🇭 瑞士阿伟科技-油管
+      - 🇸🇬 新加坡阿伟科技-油管
       - 🇨🇭 瑞士(Youtube资源分享者)
-      - 🇬🇧 英国(Youtube技术分享室整理)
-      - 阿伟科技-油管
+      - 🇺🇸 美国(Youtube技术分享室整理)
+      - 瑞典(Youtube资源分享者)
+      - 🇺🇸 cfmem.com_🇺🇸_US_美国_28
+      - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_8
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_67
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_19
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_2
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_48
+      - 🇺🇸 美国(Youtube资源分享者)
+      - 🇨🇭 瑞士(Youtube资源分享者) 2
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理)
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 2
+      - 🇺🇸 US(Youtube技术分享室整理) 2
+      - CYL-科技（2021.11.04） 2
+      - 🇷🇺 俄罗斯[感谢订阅——科技网络]
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_34
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_1
+      - 🇯🇵 日本(Youtube资源分享者)
+      - 🇺🇸 US(Youtube技术分享室整理) 3
+      - 🇷🇺 俄罗斯[感谢订阅——科技网络] 2
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_26
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_21
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_41
+      - 🇨🇦 加拿大(Youtube资源分享者)
+      - 🇺🇸 美国(Youtube资源分享者) 2
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 3
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 4
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 5
+      - 🇰🇷 KR(Youtube技术分享室整理)
+      - 🇺🇸 美国(Youtube资源分享者) 3
+      - 🇨🇳 台湾(Youtube资源分享者)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇭🇰 cfmem.com_🇭🇰_HK_香港_1
       - 电报群https://t.me/lnafq
       - 电报群https://t.me/lnafq 2
       - 电报群https://t.me/lnafq 3
-      - CYL-科技（2021.11.04）
-      - CYL-科技（2021.11.02）
       - 电报群https://t.me/lnafq 4
       - 电报群https://t.me/lnafq 5
+      - CYL-科技（2021.11.06）
       - 电报群https://t.me/lnafq 6
       - 电报群https://t.me/lnafq 7
-      - 🇭🇰 cfmem.com_🇭🇰_HK_香港_1
       - 电报群https://t.me/lnafq 8
       - 电报群https://t.me/lnafq 9
       - 电报群https://t.me/lnafq 10
       - 电报群https://t.me/lnafq 11
+      - 🇸🇬 新加坡(Youtube技术分享室整理)
       - 电报群https://t.me/lnafq 12
+      - CYL-科技（2021.11.04）
       - 电报群https://t.me/lnafq 13
+      - 🇩🇪 德国(Youtube资源分享者)
       - 电报群https://t.me/lnafq 14
       - 电报群https://t.me/lnafq 15
       - 电报群https://t.me/lnafq 16
       - 电报群https://t.me/lnafq 17
-      - 电报群https://t.me/lnafq 18
-      - 电报群https://t.me/lnafq 19
-      - 电报群https://t.me/lnafq 20
-      - CYL-科技（2021.11.04） 2
-      - CYL-科技（2021.11.01）
-      - 118.107.244.112:5003
-      - 电报群https://t.me/lnafq 21
-      - 电报群https://t.me/lnafq 22
-      - 电报群https://t.me/lnafq 23
-      - 电报群https://t.me/lnafq 24
-      - 电报群https://t.me/lnafq 25
-      - 🇸🇬 新加坡阿伟科技-油管
-      - 电报群https://t.me/lnafq 26
-      - CYL-科技（2021.11.04） 3
-      - 电报群https://t.me/lnafq 27
-      - 电报群https://t.me/lnafq 28
-      - 电报群https://t.me/lnafq 29
-      - 🇰🇷 KR(Youtube技术分享室整理)
-      - 电报群https://t.me/lnafq 30
-      - 电报群https://t.me/lnafq 31
-      - 电报群https://t.me/lnafq 32
-      - 电报群https://t.me/lnafq 33
-      - 电报群https://t.me/lnafq 34
-      - 电报群https://t.me/lnafq 35
-      - 🇭🇰 香港(Youtube资源分享者)
-      - 电报群https://t.me/lnafq 36
-      - 电报群https://t.me/lnafq 37
-      - 电报群https://t.me/lnafq 38
-      - 电报群https://t.me/lnafq 39
+      - 🇯🇵 cfmem.com_🇯🇵_JP_日本_1
+      - CYL-科技（2021.11.06） 2
+      - 🇭🇰 香港阿伟科技-油管4 2
+      - n6.emovpn.xyz:443
+      - n11.emovpn.xyz:443
+      - CYL-科技（2021.11.06） 3
+      - CYL-科技（2021.11.06） 4
+      - CYL-科技（2021.11.06） 5
+      - CYL-科技（2021.11.06） 6
+      - CYL-科技（2021.11.06） 7
       - YouTube梦歌
-      - 电报群https://t.me/lnafq 40
-      - 🇺🇸 US(Youtube技术分享室整理)
-      - CYL-科技（2021.11.04） 4
-      - 🇸🇬 新加坡(Youtube技术分享室整理)
+      - CYL-科技（2021.11.06） 8
+      - 🇺🇸 cfmem.com_🇺🇸_US_美国_15
       - YouTube梦歌 2
+      - 🇸🇬 新加坡(Youtube技术分享室整理) 2
+      - 🇺🇸 US(Youtube技术分享室整理)
       - YouTube梦歌 3
       - YouTube梦歌 4
-      - 🇯🇵 日本(Youtube资源分享者)
-      - CYL-科技（2021.11.04） 5
-      - CYL-科技（2021.11.04） 6
+      - CYL-科技（2021.11.06） 9
+      - CYL-科技（2021.11.06） 10
       - YouTube梦歌 5
-      - CYL-科技（2021.11.04） 7
       - YouTube梦歌 6
       - YouTube梦歌 7
       - YouTube梦歌 8
-      - CYL-科技（2021.11.04） 8
-      - YouTube梦歌 9
-      - 🇨🇳 cfmem.com_🇨🇳_CN_中国_4
-      - 🇺🇸 美国（YouTube资源分享者）
-      - CYL-科技（2021.11.04） 9
-      - CYL-科技（2021.11.04） 10
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇺🇸 美国(Youtube资源分享者)
-      - 瑞典(Youtube资源分享者)
-      - YouTube梦歌 10
-      - YouTube梦歌 11
-      - YouTube梦歌 12
-      - 🇺🇸 US(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube梦歌） 22
-      - YouTube梦歌 13
-      - YouTube梦歌 14
-      - cfmem.com_🇳🇴_NO_挪威_1
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇨🇦 加拿大(Youtube技术分享室整理)
-      - 🇺🇸 美国(Youtube技术分享室整理)
-      - 阿伟科技-油管1
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_16
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_10
-      - 🇺🇸 美国阿伟科技-油管4
-      - (技术分享室整理,欢迎订阅)
-      - 138.199.42.170:48089
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_16
-      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国阿伟科技-油管4 2
-      - 🇨🇦 加拿大_YouTube梦歌
-      - 欧洲[感谢订阅——科技网络]
-      - 🇨🇦 加拿大(Youtube技术分享室整理) 2
-      - 🇨🇭 瑞士阿伟科技-油管
+      - 🇸🇬 新加坡阿伟科技-油管
       - 🇨🇭 瑞士(Youtube资源分享者)
-      - 🇬🇧 英国(Youtube技术分享室整理)
-      - 阿伟科技-油管
+      - 🇺🇸 美国(Youtube技术分享室整理)
+      - 瑞典(Youtube资源分享者)
+      - 🇺🇸 cfmem.com_🇺🇸_US_美国_28
+      - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_8
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_67
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_19
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_2
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_48
+      - 🇺🇸 美国(Youtube资源分享者)
+      - 🇨🇭 瑞士(Youtube资源分享者) 2
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理)
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 2
+      - 🇺🇸 US(Youtube技术分享室整理) 2
+      - CYL-科技（2021.11.04） 2
+      - 🇷🇺 俄罗斯[感谢订阅——科技网络]
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_34
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_1
+      - 🇯🇵 日本(Youtube资源分享者)
+      - 🇺🇸 US(Youtube技术分享室整理) 3
+      - 🇷🇺 俄罗斯[感谢订阅——科技网络] 2
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_26
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_21
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_41
+      - 🇨🇦 加拿大(Youtube资源分享者)
+      - 🇺🇸 美国(Youtube资源分享者) 2
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 3
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 4
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 5
+      - 🇰🇷 KR(Youtube技术分享室整理)
+      - 🇺🇸 美国(Youtube资源分享者) 3
+      - 🇨🇳 台湾(Youtube资源分享者)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇭🇰 cfmem.com_🇭🇰_HK_香港_1
       - 电报群https://t.me/lnafq
       - 电报群https://t.me/lnafq 2
       - 电报群https://t.me/lnafq 3
-      - CYL-科技（2021.11.04）
-      - CYL-科技（2021.11.02）
       - 电报群https://t.me/lnafq 4
       - 电报群https://t.me/lnafq 5
+      - CYL-科技（2021.11.06）
       - 电报群https://t.me/lnafq 6
       - 电报群https://t.me/lnafq 7
-      - 🇭🇰 cfmem.com_🇭🇰_HK_香港_1
       - 电报群https://t.me/lnafq 8
       - 电报群https://t.me/lnafq 9
       - 电报群https://t.me/lnafq 10
       - 电报群https://t.me/lnafq 11
+      - 🇸🇬 新加坡(Youtube技术分享室整理)
       - 电报群https://t.me/lnafq 12
+      - CYL-科技（2021.11.04）
       - 电报群https://t.me/lnafq 13
+      - 🇩🇪 德国(Youtube资源分享者)
       - 电报群https://t.me/lnafq 14
       - 电报群https://t.me/lnafq 15
       - 电报群https://t.me/lnafq 16
       - 电报群https://t.me/lnafq 17
-      - 电报群https://t.me/lnafq 18
-      - 电报群https://t.me/lnafq 19
-      - 电报群https://t.me/lnafq 20
-      - CYL-科技（2021.11.04） 2
-      - CYL-科技（2021.11.01）
-      - 118.107.244.112:5003
-      - 电报群https://t.me/lnafq 21
-      - 电报群https://t.me/lnafq 22
-      - 电报群https://t.me/lnafq 23
-      - 电报群https://t.me/lnafq 24
-      - 电报群https://t.me/lnafq 25
-      - 🇸🇬 新加坡阿伟科技-油管
-      - 电报群https://t.me/lnafq 26
-      - CYL-科技（2021.11.04） 3
-      - 电报群https://t.me/lnafq 27
-      - 电报群https://t.me/lnafq 28
-      - 电报群https://t.me/lnafq 29
-      - 🇰🇷 KR(Youtube技术分享室整理)
-      - 电报群https://t.me/lnafq 30
-      - 电报群https://t.me/lnafq 31
-      - 电报群https://t.me/lnafq 32
-      - 电报群https://t.me/lnafq 33
-      - 电报群https://t.me/lnafq 34
-      - 电报群https://t.me/lnafq 35
-      - 🇭🇰 香港(Youtube资源分享者)
-      - 电报群https://t.me/lnafq 36
-      - 电报群https://t.me/lnafq 37
-      - 电报群https://t.me/lnafq 38
-      - 电报群https://t.me/lnafq 39
+      - 🇯🇵 cfmem.com_🇯🇵_JP_日本_1
+      - CYL-科技（2021.11.06） 2
+      - 🇭🇰 香港阿伟科技-油管4 2
+      - n6.emovpn.xyz:443
+      - n11.emovpn.xyz:443
+      - CYL-科技（2021.11.06） 3
+      - CYL-科技（2021.11.06） 4
+      - CYL-科技（2021.11.06） 5
+      - CYL-科技（2021.11.06） 6
+      - CYL-科技（2021.11.06） 7
       - YouTube梦歌
-      - 电报群https://t.me/lnafq 40
-      - 🇺🇸 US(Youtube技术分享室整理)
-      - CYL-科技（2021.11.04） 4
-      - 🇸🇬 新加坡(Youtube技术分享室整理)
+      - CYL-科技（2021.11.06） 8
+      - 🇺🇸 cfmem.com_🇺🇸_US_美国_15
       - YouTube梦歌 2
+      - 🇸🇬 新加坡(Youtube技术分享室整理) 2
+      - 🇺🇸 US(Youtube技术分享室整理)
       - YouTube梦歌 3
       - YouTube梦歌 4
-      - 🇯🇵 日本(Youtube资源分享者)
-      - CYL-科技（2021.11.04） 5
-      - CYL-科技（2021.11.04） 6
+      - CYL-科技（2021.11.06） 9
+      - CYL-科技（2021.11.06） 10
       - YouTube梦歌 5
-      - CYL-科技（2021.11.04） 7
       - YouTube梦歌 6
       - YouTube梦歌 7
       - YouTube梦歌 8
-      - CYL-科技（2021.11.04） 8
-      - YouTube梦歌 9
-      - 🇨🇳 cfmem.com_🇨🇳_CN_中国_4
-      - 🇺🇸 美国（YouTube资源分享者）
-      - CYL-科技（2021.11.04） 9
-      - CYL-科技（2021.11.04） 10
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇺🇸 美国(Youtube资源分享者)
-      - 瑞典(Youtube资源分享者)
-      - YouTube梦歌 10
-      - YouTube梦歌 11
-      - YouTube梦歌 12
-      - 🇺🇸 US(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube梦歌） 22
-      - YouTube梦歌 13
-      - YouTube梦歌 14
-      - cfmem.com_🇳🇴_NO_挪威_1
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇨🇦 加拿大(Youtube技术分享室整理)
-      - 🇺🇸 美国(Youtube技术分享室整理)
-      - 阿伟科技-油管1
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_16
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_10
-      - 🇺🇸 美国阿伟科技-油管4
-      - (技术分享室整理,欢迎订阅)
-      - 138.199.42.170:48089
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_16
-      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国阿伟科技-油管4 2
-      - 🇨🇦 加拿大_YouTube梦歌
-      - 欧洲[感谢订阅——科技网络]
-      - 🇨🇦 加拿大(Youtube技术分享室整理) 2
-      - 🇨🇭 瑞士阿伟科技-油管
+      - 🇸🇬 新加坡阿伟科技-油管
       - 🇨🇭 瑞士(Youtube资源分享者)
-      - 🇬🇧 英国(Youtube技术分享室整理)
-      - 阿伟科技-油管
+      - 🇺🇸 美国(Youtube技术分享室整理)
+      - 瑞典(Youtube资源分享者)
+      - 🇺🇸 cfmem.com_🇺🇸_US_美国_28
+      - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_8
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_67
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_19
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_2
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_48
+      - 🇺🇸 美国(Youtube资源分享者)
+      - 🇨🇭 瑞士(Youtube资源分享者) 2
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理)
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 2
+      - 🇺🇸 US(Youtube技术分享室整理) 2
+      - CYL-科技（2021.11.04） 2
+      - 🇷🇺 俄罗斯[感谢订阅——科技网络]
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_34
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_1
+      - 🇯🇵 日本(Youtube资源分享者)
+      - 🇺🇸 US(Youtube技术分享室整理) 3
+      - 🇷🇺 俄罗斯[感谢订阅——科技网络] 2
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_26
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_21
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_41
+      - 🇨🇦 加拿大(Youtube资源分享者)
+      - 🇺🇸 美国(Youtube资源分享者) 2
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 3
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 4
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 5
+      - 🇰🇷 KR(Youtube技术分享室整理)
+      - 🇺🇸 美国(Youtube资源分享者) 3
+      - 🇨🇳 台湾(Youtube资源分享者)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇭🇰 cfmem.com_🇭🇰_HK_香港_1
       - 电报群https://t.me/lnafq
       - 电报群https://t.me/lnafq 2
       - 电报群https://t.me/lnafq 3
-      - CYL-科技（2021.11.04）
-      - CYL-科技（2021.11.02）
       - 电报群https://t.me/lnafq 4
       - 电报群https://t.me/lnafq 5
+      - CYL-科技（2021.11.06）
       - 电报群https://t.me/lnafq 6
       - 电报群https://t.me/lnafq 7
-      - 🇭🇰 cfmem.com_🇭🇰_HK_香港_1
       - 电报群https://t.me/lnafq 8
       - 电报群https://t.me/lnafq 9
       - 电报群https://t.me/lnafq 10
       - 电报群https://t.me/lnafq 11
+      - 🇸🇬 新加坡(Youtube技术分享室整理)
       - 电报群https://t.me/lnafq 12
+      - CYL-科技（2021.11.04）
       - 电报群https://t.me/lnafq 13
+      - 🇩🇪 德国(Youtube资源分享者)
       - 电报群https://t.me/lnafq 14
       - 电报群https://t.me/lnafq 15
       - 电报群https://t.me/lnafq 16
       - 电报群https://t.me/lnafq 17
-      - 电报群https://t.me/lnafq 18
-      - 电报群https://t.me/lnafq 19
-      - 电报群https://t.me/lnafq 20
-      - CYL-科技（2021.11.04） 2
-      - CYL-科技（2021.11.01）
-      - 118.107.244.112:5003
-      - 电报群https://t.me/lnafq 21
-      - 电报群https://t.me/lnafq 22
-      - 电报群https://t.me/lnafq 23
-      - 电报群https://t.me/lnafq 24
-      - 电报群https://t.me/lnafq 25
-      - 🇸🇬 新加坡阿伟科技-油管
-      - 电报群https://t.me/lnafq 26
-      - CYL-科技（2021.11.04） 3
-      - 电报群https://t.me/lnafq 27
-      - 电报群https://t.me/lnafq 28
-      - 电报群https://t.me/lnafq 29
-      - 🇰🇷 KR(Youtube技术分享室整理)
-      - 电报群https://t.me/lnafq 30
-      - 电报群https://t.me/lnafq 31
-      - 电报群https://t.me/lnafq 32
-      - 电报群https://t.me/lnafq 33
-      - 电报群https://t.me/lnafq 34
-      - 电报群https://t.me/lnafq 35
-      - 🇭🇰 香港(Youtube资源分享者)
-      - 电报群https://t.me/lnafq 36
-      - 电报群https://t.me/lnafq 37
-      - 电报群https://t.me/lnafq 38
-      - 电报群https://t.me/lnafq 39
+      - 🇯🇵 cfmem.com_🇯🇵_JP_日本_1
+      - CYL-科技（2021.11.06） 2
+      - 🇭🇰 香港阿伟科技-油管4 2
+      - n6.emovpn.xyz:443
+      - n11.emovpn.xyz:443
+      - CYL-科技（2021.11.06） 3
+      - CYL-科技（2021.11.06） 4
+      - CYL-科技（2021.11.06） 5
+      - CYL-科技（2021.11.06） 6
+      - CYL-科技（2021.11.06） 7
       - YouTube梦歌
-      - 电报群https://t.me/lnafq 40
-      - 🇺🇸 US(Youtube技术分享室整理)
-      - CYL-科技（2021.11.04） 4
-      - 🇸🇬 新加坡(Youtube技术分享室整理)
+      - CYL-科技（2021.11.06） 8
+      - 🇺🇸 cfmem.com_🇺🇸_US_美国_15
       - YouTube梦歌 2
+      - 🇸🇬 新加坡(Youtube技术分享室整理) 2
+      - 🇺🇸 US(Youtube技术分享室整理)
       - YouTube梦歌 3
       - YouTube梦歌 4
-      - 🇯🇵 日本(Youtube资源分享者)
-      - CYL-科技（2021.11.04） 5
-      - CYL-科技（2021.11.04） 6
+      - CYL-科技（2021.11.06） 9
+      - CYL-科技（2021.11.06） 10
       - YouTube梦歌 5
-      - CYL-科技（2021.11.04） 7
       - YouTube梦歌 6
       - YouTube梦歌 7
       - YouTube梦歌 8
-      - CYL-科技（2021.11.04） 8
-      - YouTube梦歌 9
-      - 🇨🇳 cfmem.com_🇨🇳_CN_中国_4
-      - 🇺🇸 美国（YouTube资源分享者）
-      - CYL-科技（2021.11.04） 9
-      - CYL-科技（2021.11.04） 10
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇺🇸 美国(Youtube资源分享者)
-      - 瑞典(Youtube资源分享者)
-      - YouTube梦歌 10
-      - YouTube梦歌 11
-      - YouTube梦歌 12
-      - 🇺🇸 US(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube梦歌） 22
-      - YouTube梦歌 13
-      - YouTube梦歌 14
-      - cfmem.com_🇳🇴_NO_挪威_1
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇨🇦 加拿大(Youtube技术分享室整理)
-      - 🇺🇸 美国(Youtube技术分享室整理)
-      - 阿伟科技-油管1
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_16
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_10
-      - 🇺🇸 美国阿伟科技-油管4
-      - (技术分享室整理,欢迎订阅)
-      - 138.199.42.170:48089
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_16
-      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国阿伟科技-油管4 2
-      - 🇨🇦 加拿大_YouTube梦歌
-      - 欧洲[感谢订阅——科技网络]
-      - 🇨🇦 加拿大(Youtube技术分享室整理) 2
-      - 🇨🇭 瑞士阿伟科技-油管
+      - 🇸🇬 新加坡阿伟科技-油管
       - 🇨🇭 瑞士(Youtube资源分享者)
-      - 🇬🇧 英国(Youtube技术分享室整理)
-      - 阿伟科技-油管
+      - 🇺🇸 美国(Youtube技术分享室整理)
+      - 瑞典(Youtube资源分享者)
+      - 🇺🇸 cfmem.com_🇺🇸_US_美国_28
+      - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_8
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_67
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_19
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_2
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_48
+      - 🇺🇸 美国(Youtube资源分享者)
+      - 🇨🇭 瑞士(Youtube资源分享者) 2
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理)
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 2
+      - 🇺🇸 US(Youtube技术分享室整理) 2
+      - CYL-科技（2021.11.04） 2
+      - 🇷🇺 俄罗斯[感谢订阅——科技网络]
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_34
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_1
+      - 🇯🇵 日本(Youtube资源分享者)
+      - 🇺🇸 US(Youtube技术分享室整理) 3
+      - 🇷🇺 俄罗斯[感谢订阅——科技网络] 2
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_26
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_21
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_41
+      - 🇨🇦 加拿大(Youtube资源分享者)
+      - 🇺🇸 美国(Youtube资源分享者) 2
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 3
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 4
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 5
+      - 🇰🇷 KR(Youtube技术分享室整理)
+      - 🇺🇸 美国(Youtube资源分享者) 3
+      - 🇨🇳 台湾(Youtube资源分享者)
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 cfmem.com_🇭🇰_HK_香港_1
       - 电报群https://t.me/lnafq
       - 电报群https://t.me/lnafq 2
       - 电报群https://t.me/lnafq 3
-      - CYL-科技（2021.11.04）
-      - CYL-科技（2021.11.02）
       - 电报群https://t.me/lnafq 4
       - 电报群https://t.me/lnafq 5
+      - CYL-科技（2021.11.06）
       - 电报群https://t.me/lnafq 6
       - 电报群https://t.me/lnafq 7
-      - 🇭🇰 cfmem.com_🇭🇰_HK_香港_1
       - 电报群https://t.me/lnafq 8
       - 电报群https://t.me/lnafq 9
       - 电报群https://t.me/lnafq 10
       - 电报群https://t.me/lnafq 11
+      - 🇸🇬 新加坡(Youtube技术分享室整理)
       - 电报群https://t.me/lnafq 12
+      - CYL-科技（2021.11.04）
       - 电报群https://t.me/lnafq 13
+      - 🇩🇪 德国(Youtube资源分享者)
       - 电报群https://t.me/lnafq 14
       - 电报群https://t.me/lnafq 15
       - 电报群https://t.me/lnafq 16
       - 电报群https://t.me/lnafq 17
-      - 电报群https://t.me/lnafq 18
-      - 电报群https://t.me/lnafq 19
-      - 电报群https://t.me/lnafq 20
-      - CYL-科技（2021.11.04） 2
-      - CYL-科技（2021.11.01）
-      - 118.107.244.112:5003
-      - 电报群https://t.me/lnafq 21
-      - 电报群https://t.me/lnafq 22
-      - 电报群https://t.me/lnafq 23
-      - 电报群https://t.me/lnafq 24
-      - 电报群https://t.me/lnafq 25
-      - 🇸🇬 新加坡阿伟科技-油管
-      - 电报群https://t.me/lnafq 26
-      - CYL-科技（2021.11.04） 3
-      - 电报群https://t.me/lnafq 27
-      - 电报群https://t.me/lnafq 28
-      - 电报群https://t.me/lnafq 29
-      - 🇰🇷 KR(Youtube技术分享室整理)
-      - 电报群https://t.me/lnafq 30
-      - 电报群https://t.me/lnafq 31
-      - 电报群https://t.me/lnafq 32
-      - 电报群https://t.me/lnafq 33
-      - 电报群https://t.me/lnafq 34
-      - 电报群https://t.me/lnafq 35
-      - 🇭🇰 香港(Youtube资源分享者)
-      - 电报群https://t.me/lnafq 36
-      - 电报群https://t.me/lnafq 37
-      - 电报群https://t.me/lnafq 38
-      - 电报群https://t.me/lnafq 39
+      - 🇯🇵 cfmem.com_🇯🇵_JP_日本_1
+      - CYL-科技（2021.11.06） 2
+      - 🇭🇰 香港阿伟科技-油管4 2
+      - n6.emovpn.xyz:443
+      - n11.emovpn.xyz:443
+      - CYL-科技（2021.11.06） 3
+      - CYL-科技（2021.11.06） 4
+      - CYL-科技（2021.11.06） 5
+      - CYL-科技（2021.11.06） 6
+      - CYL-科技（2021.11.06） 7
       - YouTube梦歌
-      - 电报群https://t.me/lnafq 40
-      - 🇺🇸 US(Youtube技术分享室整理)
-      - CYL-科技（2021.11.04） 4
-      - 🇸🇬 新加坡(Youtube技术分享室整理)
+      - CYL-科技（2021.11.06） 8
+      - 🇺🇸 cfmem.com_🇺🇸_US_美国_15
       - YouTube梦歌 2
+      - 🇸🇬 新加坡(Youtube技术分享室整理) 2
+      - 🇺🇸 US(Youtube技术分享室整理)
       - YouTube梦歌 3
       - YouTube梦歌 4
-      - 🇯🇵 日本(Youtube资源分享者)
-      - CYL-科技（2021.11.04） 5
-      - CYL-科技（2021.11.04） 6
+      - CYL-科技（2021.11.06） 9
+      - CYL-科技（2021.11.06） 10
       - YouTube梦歌 5
-      - CYL-科技（2021.11.04） 7
       - YouTube梦歌 6
       - YouTube梦歌 7
       - YouTube梦歌 8
-      - CYL-科技（2021.11.04） 8
-      - YouTube梦歌 9
-      - 🇨🇳 cfmem.com_🇨🇳_CN_中国_4
-      - 🇺🇸 美国（YouTube资源分享者）
-      - CYL-科技（2021.11.04） 9
-      - CYL-科技（2021.11.04） 10
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇺🇸 美国(Youtube资源分享者)
-      - 瑞典(Youtube资源分享者)
-      - YouTube梦歌 10
-      - YouTube梦歌 11
-      - YouTube梦歌 12
-      - 🇺🇸 US(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube梦歌） 22
-      - YouTube梦歌 13
-      - YouTube梦歌 14
-      - cfmem.com_🇳🇴_NO_挪威_1
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇨🇦 加拿大(Youtube技术分享室整理)
-      - 🇺🇸 美国(Youtube技术分享室整理)
-      - 阿伟科技-油管1
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_16
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_10
-      - 🇺🇸 美国阿伟科技-油管4
-      - (技术分享室整理,欢迎订阅)
-      - 138.199.42.170:48089
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_16
-      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国阿伟科技-油管4 2
-      - 🇨🇦 加拿大_YouTube梦歌
-      - 欧洲[感谢订阅——科技网络]
-      - 🇨🇦 加拿大(Youtube技术分享室整理) 2
-      - 🇨🇭 瑞士阿伟科技-油管
+      - 🇸🇬 新加坡阿伟科技-油管
       - 🇨🇭 瑞士(Youtube资源分享者)
-      - 🇬🇧 英国(Youtube技术分享室整理)
-      - 阿伟科技-油管
+      - 🇺🇸 美国(Youtube技术分享室整理)
+      - 瑞典(Youtube资源分享者)
+      - 🇺🇸 cfmem.com_🇺🇸_US_美国_28
+      - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_8
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_67
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_19
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_2
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_48
+      - 🇺🇸 美国(Youtube资源分享者)
+      - 🇨🇭 瑞士(Youtube资源分享者) 2
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理)
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 2
+      - 🇺🇸 US(Youtube技术分享室整理) 2
+      - CYL-科技（2021.11.04） 2
+      - 🇷🇺 俄罗斯[感谢订阅——科技网络]
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_34
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_1
+      - 🇯🇵 日本(Youtube资源分享者)
+      - 🇺🇸 US(Youtube技术分享室整理) 3
+      - 🇷🇺 俄罗斯[感谢订阅——科技网络] 2
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_26
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_21
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_41
+      - 🇨🇦 加拿大(Youtube资源分享者)
+      - 🇺🇸 美国(Youtube资源分享者) 2
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 3
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 4
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 5
+      - 🇰🇷 KR(Youtube技术分享室整理)
+      - 🇺🇸 美国(Youtube资源分享者) 3
+      - 🇨🇳 台湾(Youtube资源分享者)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -890,109 +706,86 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 cfmem.com_🇭🇰_HK_香港_1
       - 电报群https://t.me/lnafq
       - 电报群https://t.me/lnafq 2
       - 电报群https://t.me/lnafq 3
-      - CYL-科技（2021.11.04）
-      - CYL-科技（2021.11.02）
       - 电报群https://t.me/lnafq 4
       - 电报群https://t.me/lnafq 5
+      - CYL-科技（2021.11.06）
       - 电报群https://t.me/lnafq 6
       - 电报群https://t.me/lnafq 7
-      - 🇭🇰 cfmem.com_🇭🇰_HK_香港_1
       - 电报群https://t.me/lnafq 8
       - 电报群https://t.me/lnafq 9
       - 电报群https://t.me/lnafq 10
       - 电报群https://t.me/lnafq 11
+      - 🇸🇬 新加坡(Youtube技术分享室整理)
       - 电报群https://t.me/lnafq 12
+      - CYL-科技（2021.11.04）
       - 电报群https://t.me/lnafq 13
+      - 🇩🇪 德国(Youtube资源分享者)
       - 电报群https://t.me/lnafq 14
       - 电报群https://t.me/lnafq 15
       - 电报群https://t.me/lnafq 16
       - 电报群https://t.me/lnafq 17
-      - 电报群https://t.me/lnafq 18
-      - 电报群https://t.me/lnafq 19
-      - 电报群https://t.me/lnafq 20
-      - CYL-科技（2021.11.04） 2
-      - CYL-科技（2021.11.01）
-      - 118.107.244.112:5003
-      - 电报群https://t.me/lnafq 21
-      - 电报群https://t.me/lnafq 22
-      - 电报群https://t.me/lnafq 23
-      - 电报群https://t.me/lnafq 24
-      - 电报群https://t.me/lnafq 25
-      - 🇸🇬 新加坡阿伟科技-油管
-      - 电报群https://t.me/lnafq 26
-      - CYL-科技（2021.11.04） 3
-      - 电报群https://t.me/lnafq 27
-      - 电报群https://t.me/lnafq 28
-      - 电报群https://t.me/lnafq 29
-      - 🇰🇷 KR(Youtube技术分享室整理)
-      - 电报群https://t.me/lnafq 30
-      - 电报群https://t.me/lnafq 31
-      - 电报群https://t.me/lnafq 32
-      - 电报群https://t.me/lnafq 33
-      - 电报群https://t.me/lnafq 34
-      - 电报群https://t.me/lnafq 35
-      - 🇭🇰 香港(Youtube资源分享者)
-      - 电报群https://t.me/lnafq 36
-      - 电报群https://t.me/lnafq 37
-      - 电报群https://t.me/lnafq 38
-      - 电报群https://t.me/lnafq 39
+      - 🇯🇵 cfmem.com_🇯🇵_JP_日本_1
+      - CYL-科技（2021.11.06） 2
+      - 🇭🇰 香港阿伟科技-油管4 2
+      - n6.emovpn.xyz:443
+      - n11.emovpn.xyz:443
+      - CYL-科技（2021.11.06） 3
+      - CYL-科技（2021.11.06） 4
+      - CYL-科技（2021.11.06） 5
+      - CYL-科技（2021.11.06） 6
+      - CYL-科技（2021.11.06） 7
       - YouTube梦歌
-      - 电报群https://t.me/lnafq 40
-      - 🇺🇸 US(Youtube技术分享室整理)
-      - CYL-科技（2021.11.04） 4
-      - 🇸🇬 新加坡(Youtube技术分享室整理)
+      - CYL-科技（2021.11.06） 8
+      - 🇺🇸 cfmem.com_🇺🇸_US_美国_15
       - YouTube梦歌 2
+      - 🇸🇬 新加坡(Youtube技术分享室整理) 2
+      - 🇺🇸 US(Youtube技术分享室整理)
       - YouTube梦歌 3
       - YouTube梦歌 4
-      - 🇯🇵 日本(Youtube资源分享者)
-      - CYL-科技（2021.11.04） 5
-      - CYL-科技（2021.11.04） 6
+      - CYL-科技（2021.11.06） 9
+      - CYL-科技（2021.11.06） 10
       - YouTube梦歌 5
-      - CYL-科技（2021.11.04） 7
       - YouTube梦歌 6
       - YouTube梦歌 7
       - YouTube梦歌 8
-      - CYL-科技（2021.11.04） 8
-      - YouTube梦歌 9
-      - 🇨🇳 cfmem.com_🇨🇳_CN_中国_4
-      - 🇺🇸 美国（YouTube资源分享者）
-      - CYL-科技（2021.11.04） 9
-      - CYL-科技（2021.11.04） 10
-      - 🇺🇸 美国（YouTube资源分享者） 2
-      - 🇺🇸 美国(Youtube资源分享者)
-      - 瑞典(Youtube资源分享者)
-      - YouTube梦歌 10
-      - YouTube梦歌 11
-      - YouTube梦歌 12
-      - 🇺🇸 US(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国（YouTube梦歌） 22
-      - YouTube梦歌 13
-      - YouTube梦歌 14
-      - cfmem.com_🇳🇴_NO_挪威_1
-      - 欧洲(Youtube频道：工具大师！)
-      - 🇫🇷 法国(Youtube频道：工具大师！)
-      - 🇺🇸 美国（YouTube资源分享者） 3
-      - 🇨🇦 加拿大(Youtube技术分享室整理)
-      - 🇺🇸 美国(Youtube技术分享室整理)
-      - 阿伟科技-油管1
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_16
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_10
-      - 🇺🇸 美国阿伟科技-油管4
-      - (技术分享室整理,欢迎订阅)
-      - 138.199.42.170:48089
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_16
-      - 🇦🇺 澳大利亚 🇦🇺(技术分享室整理,欢迎订阅)
-      - 🇺🇸 美国阿伟科技-油管4 2
-      - 🇨🇦 加拿大_YouTube梦歌
-      - 欧洲[感谢订阅——科技网络]
-      - 🇨🇦 加拿大(Youtube技术分享室整理) 2
-      - 🇨🇭 瑞士阿伟科技-油管
+      - 🇸🇬 新加坡阿伟科技-油管
       - 🇨🇭 瑞士(Youtube资源分享者)
-      - 🇬🇧 英国(Youtube技术分享室整理)
-      - 阿伟科技-油管
+      - 🇺🇸 美国(Youtube技术分享室整理)
+      - 瑞典(Youtube资源分享者)
+      - 🇺🇸 cfmem.com_🇺🇸_US_美国_28
+      - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_8
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_67
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_19
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_2
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_48
+      - 🇺🇸 美国(Youtube资源分享者)
+      - 🇨🇭 瑞士(Youtube资源分享者) 2
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理)
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 2
+      - 🇺🇸 US(Youtube技术分享室整理) 2
+      - CYL-科技（2021.11.04） 2
+      - 🇷🇺 俄罗斯[感谢订阅——科技网络]
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_34
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_1
+      - 🇯🇵 日本(Youtube资源分享者)
+      - 🇺🇸 US(Youtube技术分享室整理) 3
+      - 🇷🇺 俄罗斯[感谢订阅——科技网络] 2
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_26
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_21
+      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_41
+      - 🇨🇦 加拿大(Youtube资源分享者)
+      - 🇺🇸 美国(Youtube资源分享者) 2
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 3
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 4
+      - 🇩🇪 德国 🇩🇪(Youtube技术分享室整理) 5
+      - 🇰🇷 KR(Youtube技术分享室整理)
+      - 🇺🇸 美国(Youtube资源分享者) 3
+      - 🇨🇳 台湾(Youtube资源分享者)
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -3572,609 +3365,6 @@ rules:
  - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
- - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
- - DOMAIN-SUFFIX,423down.com,🎯 全球直连
- - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
- - DOMAIN-SUFFIX,chaipip.com,🎯 全球直连
- - DOMAIN-SUFFIX,chinaplay.store,🎯 全球直连
- - DOMAIN-SUFFIX,hrtsea.com,🎯 全球直连
- - DOMAIN-SUFFIX,kaikeba.com,🎯 全球直连
- - DOMAIN-SUFFIX,laomo.me,🎯 全球直连
- - DOMAIN-SUFFIX,mpyit.com,🎯 全球直连
- - DOMAIN-SUFFIX,msftconnecttest.com,🎯 全球直连
- - DOMAIN-SUFFIX,msftncsi.com,🎯 全球直连
- - DOMAIN-SUFFIX,qupu123.com,🎯 全球直连
- - DOMAIN-SUFFIX,cn,🎯 全球直连
- - DOMAIN-SUFFIX,中国,🎯 全球直连
- - DOMAIN-SUFFIX,公司,🎯 全球直连
- - DOMAIN-SUFFIX,网络,🎯 全球直连
- - DOMAIN-KEYWORD,-cn,🎯 全球直连
- - DOMAIN-KEYWORD,360buy,🎯 全球直连
- - DOMAIN-KEYWORD,alicdn,🎯 全球直连
- - DOMAIN-KEYWORD,alimama,🎯 全球直连
- - DOMAIN-KEYWORD,alipay,🎯 全球直连
- - DOMAIN-KEYWORD,appzapp,🎯 全球直连
- - DOMAIN-KEYWORD,baidupcs,🎯 全球直连
- - DOMAIN-KEYWORD,bilibili,🎯 全球直连
- - DOMAIN-KEYWORD,ccgslb,🎯 全球直连
- - DOMAIN-KEYWORD,chinacache,🎯 全球直连
- - DOMAIN-KEYWORD,duobao,🎯 全球直连
- - DOMAIN-KEYWORD,duolingo,🎯 全球直连
- - DOMAIN-KEYWORD,jdpay,🎯 全球直连
- - DOMAIN-KEYWORD,moke,🎯 全球直连
- - DOMAIN-KEYWORD,qhimg,🎯 全球直连
- - DOMAIN-KEYWORD,vpimg,🎯 全球直连
- - DOMAIN-KEYWORD,xiami,🎯 全球直连
- - DOMAIN-KEYWORD,xiaomi,🎯 全球直连
- - DOMAIN-SUFFIX,360.com,🎯 全球直连
- - DOMAIN-SUFFIX,360kuai.com,🎯 全球直连
- - DOMAIN-SUFFIX,360safe.com,🎯 全球直连
- - DOMAIN-SUFFIX,dhrest.com,🎯 全球直连
- - DOMAIN-SUFFIX,qhres.com,🎯 全球直连
- - DOMAIN-SUFFIX,qhstatic.com,🎯 全球直连
- - DOMAIN-SUFFIX,qhupdate.com,🎯 全球直连
- - DOMAIN-SUFFIX,so.com,🎯 全球直连
- - DOMAIN-SUFFIX,4399.com,🎯 全球直连
- - DOMAIN-SUFFIX,4399pk.com,🎯 全球直连
- - DOMAIN-SUFFIX,5054399.com,🎯 全球直连
- - DOMAIN-SUFFIX,img4399.com,🎯 全球直连
- - DOMAIN-SUFFIX,58.com,🎯 全球直连
- - DOMAIN-SUFFIX,1688.com,🎯 全球直连
- - DOMAIN-SUFFIX,aliapp.org,🎯 全球直连
- - DOMAIN-SUFFIX,alibaba.com,🎯 全球直连
- - DOMAIN-SUFFIX,alibabacloud.com,🎯 全球直连
- - DOMAIN-SUFFIX,alibabausercontent.com,🎯 全球直连
- - DOMAIN-SUFFIX,alicdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,alicloudccp.com,🎯 全球直连
- - DOMAIN-SUFFIX,aliexpress.com,🎯 全球直连
- - DOMAIN-SUFFIX,aliimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,alikunlun.com,🎯 全球直连
- - DOMAIN-SUFFIX,alipay.com,🎯 全球直连
- - DOMAIN-SUFFIX,alipayobjects.com,🎯 全球直连
- - DOMAIN-SUFFIX,alisoft.com,🎯 全球直连
- - DOMAIN-SUFFIX,aliyun.com,🎯 全球直连
- - DOMAIN-SUFFIX,aliyuncdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,aliyuncs.com,🎯 全球直连
- - DOMAIN-SUFFIX,aliyundrive.com,🎯 全球直连
- - DOMAIN-SUFFIX,amap.com,🎯 全球直连
- - DOMAIN-SUFFIX,autonavi.com,🎯 全球直连
- - DOMAIN-SUFFIX,dingtalk.com,🎯 全球直连
- - DOMAIN-SUFFIX,ele.me,🎯 全球直连
- - DOMAIN-SUFFIX,hichina.com,🎯 全球直连
- - DOMAIN-SUFFIX,mmstat.com,🎯 全球直连
- - DOMAIN-SUFFIX,mxhichina.com,🎯 全球直连
- - DOMAIN-SUFFIX,soku.com,🎯 全球直连
- - DOMAIN-SUFFIX,taobao.com,🎯 全球直连
- - DOMAIN-SUFFIX,taobaocdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,tbcache.com,🎯 全球直连
- - DOMAIN-SUFFIX,tbcdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,tmall.com,🎯 全球直连
- - DOMAIN-SUFFIX,tmall.hk,🎯 全球直连
- - DOMAIN-SUFFIX,ucweb.com,🎯 全球直连
- - DOMAIN-SUFFIX,xiami.com,🎯 全球直连
- - DOMAIN-SUFFIX,xiami.net,🎯 全球直连
- - DOMAIN-SUFFIX,ykimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,youku.com,🎯 全球直连
- - DOMAIN-SUFFIX,baidu.com,🎯 全球直连
- - DOMAIN-SUFFIX,baidubcr.com,🎯 全球直连
- - DOMAIN-SUFFIX,baidupcs.com,🎯 全球直连
- - DOMAIN-SUFFIX,baidustatic.com,🎯 全球直连
- - DOMAIN-SUFFIX,bcebos.com,🎯 全球直连
- - DOMAIN-SUFFIX,bdimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,bdstatic.com,🎯 全球直连
- - DOMAIN-SUFFIX,bdurl.net,🎯 全球直连
- - DOMAIN-SUFFIX,hao123.com,🎯 全球直连
- - DOMAIN-SUFFIX,hao123img.com,🎯 全球直连
- - DOMAIN-SUFFIX,jomodns.com,🎯 全球直连
- - DOMAIN-SUFFIX,yunjiasu-cdn.net,🎯 全球直连
- - DOMAIN-SUFFIX,acg.tv,🎯 全球直连
- - DOMAIN-SUFFIX,acgvideo.com,🎯 全球直连
- - DOMAIN-SUFFIX,b23.tv,🎯 全球直连
- - DOMAIN-SUFFIX,bigfun.cn,🎯 全球直连
- - DOMAIN-SUFFIX,bigfunapp.cn,🎯 全球直连
- - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
- - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
- - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
- - DOMAIN-SUFFIX,bilibili.tv,🎯 全球直连
- - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
- - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
- - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
- - DOMAIN-SUFFIX,bilivideo.cn,🎯 全球直连
- - DOMAIN-SUFFIX,hdslb.com,🎯 全球直连
- - DOMAIN-SUFFIX,im9.com,🎯 全球直连
- - DOMAIN-SUFFIX,smtcdns.net,🎯 全球直连
- - DOMAIN-SUFFIX,battle.net,🎯 全球直连
- - DOMAIN-SUFFIX,battlenet.com,🎯 全球直连
- - DOMAIN-SUFFIX,blizzard.com,🎯 全球直连
- - DOMAIN-SUFFIX,bytedance.com,🎯 全球直连
- - DOMAIN-SUFFIX,bytedance.net,🎯 全球直连
- - DOMAIN-SUFFIX,bytedns.net,🎯 全球直连
- - DOMAIN-SUFFIX,byteimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,feiliao.com,🎯 全球直连
- - DOMAIN-SUFFIX,gifshow.com,🎯 全球直连
- - DOMAIN-SUFFIX,huoshan.com,🎯 全球直连
- - DOMAIN-SUFFIX,iesdouyin.com,🎯 全球直连
- - DOMAIN-SUFFIX,ixigua.com,🎯 全球直连
- - DOMAIN-SUFFIX,kspkg.com,🎯 全球直连
- - DOMAIN-SUFFIX,pstatp.com,🎯 全球直连
- - DOMAIN-SUFFIX,snssdk.com,🎯 全球直连
- - DOMAIN-SUFFIX,toutiao.com,🎯 全球直连
- - DOMAIN-SUFFIX,toutiao13.com,🎯 全球直连
- - DOMAIN-SUFFIX,toutiaocdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,toutiaocdn.net,🎯 全球直连
- - DOMAIN-SUFFIX,toutiaocloud.com,🎯 全球直连
- - DOMAIN-SUFFIX,toutiaohao.com,🎯 全球直连
- - DOMAIN-SUFFIX,toutiaohao.net,🎯 全球直连
- - DOMAIN-SUFFIX,toutiaoimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,toutiaopage.com,🎯 全球直连
- - DOMAIN-SUFFIX,wukong.com,🎯 全球直连
- - DOMAIN-SUFFIX,zijieimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,zjbyte.com,🎯 全球直连
- - DOMAIN-SUFFIX,zjcdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,cctv.com,🎯 全球直连
- - DOMAIN-SUFFIX,cctvpic.com,🎯 全球直连
- - DOMAIN-SUFFIX,livechina.com,🎯 全球直连
- - DOMAIN-SUFFIX,21cn.com,🎯 全球直连
- - DOMAIN-SUFFIX,didialift.com,🎯 全球直连
- - DOMAIN-SUFFIX,didiglobal.com,🎯 全球直连
- - DOMAIN-SUFFIX,udache.com,🎯 全球直连
- - DOMAIN-SUFFIX,douyu.com,🎯 全球直连
- - DOMAIN-SUFFIX,douyu.tv,🎯 全球直连
- - DOMAIN-SUFFIX,douyuscdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,douyutv.com,🎯 全球直连
- - DOMAIN-SUFFIX,epicgames.com,🎯 全球直连
- - DOMAIN-SUFFIX,helpshift.com,🎯 全球直连
- - DOMAIN-SUFFIX,paragon.com,🎯 全球直连
- - DOMAIN-SUFFIX,unrealengine.com,🎯 全球直连
- - DOMAIN-SUFFIX,dbankcdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,hc-cdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,hicloud.com,🎯 全球直连
- - DOMAIN-SUFFIX,huawei.com,🎯 全球直连
- - DOMAIN-SUFFIX,huaweicloud.com,🎯 全球直连
- - DOMAIN-SUFFIX,huaweishop.net,🎯 全球直连
- - DOMAIN-SUFFIX,hwccpc.com,🎯 全球直连
- - DOMAIN-SUFFIX,vmall.com,🎯 全球直连
- - DOMAIN-SUFFIX,vmallres.com,🎯 全球直连
- - DOMAIN-SUFFIX,iflyink.com,🎯 全球直连
- - DOMAIN-SUFFIX,iflyrec.com,🎯 全球直连
- - DOMAIN-SUFFIX,iflytek.com,🎯 全球直连
- - DOMAIN-SUFFIX,71.am,🎯 全球直连
- - DOMAIN-SUFFIX,71edge.com,🎯 全球直连
- - DOMAIN-SUFFIX,iqiyi.com,🎯 全球直连
- - DOMAIN-SUFFIX,iqiyipic.com,🎯 全球直连
- - DOMAIN-SUFFIX,ppsimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,qiyi.com,🎯 全球直连
- - DOMAIN-SUFFIX,qiyipic.com,🎯 全球直连
- - DOMAIN-SUFFIX,qy.net,🎯 全球直连
- - DOMAIN-SUFFIX,360buy.com,🎯 全球直连
- - DOMAIN-SUFFIX,360buyimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,jcloudcs.com,🎯 全球直连
- - DOMAIN-SUFFIX,jd.com,🎯 全球直连
- - DOMAIN-SUFFIX,jd.hk,🎯 全球直连
- - DOMAIN-SUFFIX,jdcloud.com,🎯 全球直连
- - DOMAIN-SUFFIX,jdpay.com,🎯 全球直连
- - DOMAIN-SUFFIX,paipai.com,🎯 全球直连
- - DOMAIN-SUFFIX,iciba.com,🎯 全球直连
- - DOMAIN-SUFFIX,ksosoft.com,🎯 全球直连
- - DOMAIN-SUFFIX,ksyun.com,🎯 全球直连
- - DOMAIN-SUFFIX,kuaishou.com,🎯 全球直连
- - DOMAIN-SUFFIX,yximgs.com,🎯 全球直连
- - DOMAIN-SUFFIX,meitu.com,🎯 全球直连
- - DOMAIN-SUFFIX,meitudata.com,🎯 全球直连
- - DOMAIN-SUFFIX,meitustat.com,🎯 全球直连
- - DOMAIN-SUFFIX,meipai.com,🎯 全球直连
- - DOMAIN-SUFFIX,le.com,🎯 全球直连
- - DOMAIN-SUFFIX,lecloud.com,🎯 全球直连
- - DOMAIN-SUFFIX,letv.com,🎯 全球直连
- - DOMAIN-SUFFIX,letvcloud.com,🎯 全球直连
- - DOMAIN-SUFFIX,letvimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,letvlive.com,🎯 全球直连
- - DOMAIN-SUFFIX,letvstore.com,🎯 全球直连
- - DOMAIN-SUFFIX,hitv.com,🎯 全球直连
- - DOMAIN-SUFFIX,hunantv.com,🎯 全球直连
- - DOMAIN-SUFFIX,mgtv.com,🎯 全球直连
- - DOMAIN-SUFFIX,duokan.com,🎯 全球直连
- - DOMAIN-SUFFIX,mi-img.com,🎯 全球直连
- - DOMAIN-SUFFIX,mi.com,🎯 全球直连
- - DOMAIN-SUFFIX,miui.com,🎯 全球直连
- - DOMAIN-SUFFIX,xiaomi.com,🎯 全球直连
- - DOMAIN-SUFFIX,xiaomi.net,🎯 全球直连
- - DOMAIN-SUFFIX,xiaomicp.com,🎯 全球直连
- - DOMAIN-SUFFIX,126.com,🎯 全球直连
- - DOMAIN-SUFFIX,126.net,🎯 全球直连
- - DOMAIN-SUFFIX,127.net,🎯 全球直连
- - DOMAIN-SUFFIX,163.com,🎯 全球直连
- - DOMAIN-SUFFIX,163yun.com,🎯 全球直连
- - DOMAIN-SUFFIX,lofter.com,🎯 全球直连
- - DOMAIN-SUFFIX,netease.com,🎯 全球直连
- - DOMAIN-SUFFIX,ydstatic.com,🎯 全球直连
- - DOMAIN-SUFFIX,youdao.com,🎯 全球直连
- - DOMAIN-SUFFIX,pplive.com,🎯 全球直连
- - DOMAIN-SUFFIX,pptv.com,🎯 全球直连
- - DOMAIN-SUFFIX,pinduoduo.com,🎯 全球直连
- - DOMAIN-SUFFIX,yangkeduo.com,🎯 全球直连
- - DOMAIN-SUFFIX,leju.com,🎯 全球直连
- - DOMAIN-SUFFIX,miaopai.com,🎯 全球直连
- - DOMAIN-SUFFIX,sina.com,🎯 全球直连
- - DOMAIN-SUFFIX,sinaapp.com,🎯 全球直连
- - DOMAIN-SUFFIX,sinaimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,weibo.com,🎯 全球直连
- - DOMAIN-SUFFIX,weibocdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,xiaoka.tv,🎯 全球直连
- - DOMAIN-SUFFIX,go2map.com,🎯 全球直连
- - DOMAIN-SUFFIX,sogo.com,🎯 全球直连
- - DOMAIN-SUFFIX,sogou.com,🎯 全球直连
- - DOMAIN-SUFFIX,sogoucdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,sohu-inc.com,🎯 全球直连
- - DOMAIN-SUFFIX,sohu.com,🎯 全球直连
- - DOMAIN-SUFFIX,sohucs.com,🎯 全球直连
- - DOMAIN-SUFFIX,sohuno.com,🎯 全球直连
- - DOMAIN-SUFFIX,sohurdc.com,🎯 全球直连
- - DOMAIN-SUFFIX,v-56.com,🎯 全球直连
- - DOMAIN-SUFFIX,playstation.com,🎯 全球直连
- - DOMAIN-SUFFIX,playstation.net,🎯 全球直连
- - DOMAIN-SUFFIX,playstationnetwork.com,🎯 全球直连
- - DOMAIN-SUFFIX,sony.com,🎯 全球直连
- - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎯 全球直连
- - DOMAIN-SUFFIX,csgo.wmsj.cn,🎯 全球直连
- - DOMAIN-SUFFIX,dl.steam.ksyna.com,🎯 全球直连
- - DOMAIN-SUFFIX,dota2.wmsj.cn,🎯 全球直连
- - DOMAIN-SUFFIX,st.dl.bscstorage.net,🎯 全球直连
- - DOMAIN-SUFFIX,st.dl.eccdnx.com,🎯 全球直连
- - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,🎯 全球直连
- - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net,🎯 全球直连
- - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
- - DOMAIN-SUFFIX,steamgames.com,🎯 全球直连
- - DOMAIN-SUFFIX,steampowered.com.8686c.com,🎯 全球直连
- - DOMAIN-SUFFIX,steamstat.us,🎯 全球直连
- - DOMAIN-SUFFIX,steamstatic.com,🎯 全球直连
- - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
- - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net,🎯 全球直连
- - DOMAIN-SUFFIX,foxmail.com,🎯 全球直连
- - DOMAIN-SUFFIX,gtimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,idqqimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,igamecj.com,🎯 全球直连
- - DOMAIN-SUFFIX,myapp.com,🎯 全球直连
- - DOMAIN-SUFFIX,myqcloud.com,🎯 全球直连
- - DOMAIN-SUFFIX,qq.com,🎯 全球直连
- - DOMAIN-SUFFIX,qqmail.com,🎯 全球直连
- - DOMAIN-SUFFIX,qqurl.com,🎯 全球直连
- - DOMAIN-SUFFIX,smtcdns.com,🎯 全球直连
- - DOMAIN-SUFFIX,smtcdns.net,🎯 全球直连
- - DOMAIN-SUFFIX,soso.com,🎯 全球直连
- - DOMAIN-SUFFIX,tencent-cloud.net,🎯 全球直连
- - DOMAIN-SUFFIX,tencent.com,🎯 全球直连
- - DOMAIN-SUFFIX,tencentmind.com,🎯 全球直连
- - DOMAIN-SUFFIX,tenpay.com,🎯 全球直连
- - DOMAIN-SUFFIX,wechat.com,🎯 全球直连
- - DOMAIN-SUFFIX,weixin.com,🎯 全球直连
- - DOMAIN-SUFFIX,weiyun.com,🎯 全球直连
- - DOMAIN-SUFFIX,appsimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,appvipshop.com,🎯 全球直连
- - DOMAIN-SUFFIX,vip.com,🎯 全球直连
- - DOMAIN-SUFFIX,vipstatic.com,🎯 全球直连
- - DOMAIN-SUFFIX,ximalaya.com,🎯 全球直连
- - DOMAIN-SUFFIX,xmcdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,00cdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,88cdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,kanimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,kankan.com,🎯 全球直连
- - DOMAIN-SUFFIX,p2cdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,sandai.net,🎯 全球直连
- - DOMAIN-SUFFIX,thundercdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,xunlei.com,🎯 全球直连
- - DOMAIN-SUFFIX,got001.com,🎯 全球直连
- - DOMAIN-SUFFIX,p4pfile.com,🎯 全球直连
- - DOMAIN-SUFFIX,rrys.tv,🎯 全球直连
- - DOMAIN-SUFFIX,rrys2020.com,🎯 全球直连
- - DOMAIN-SUFFIX,yyets.com,🎯 全球直连
- - DOMAIN-SUFFIX,zimuzu.io,🎯 全球直连
- - DOMAIN-SUFFIX,zimuzu.tv,🎯 全球直连
- - DOMAIN-SUFFIX,zmz001.com,🎯 全球直连
- - DOMAIN-SUFFIX,zmz002.com,🎯 全球直连
- - DOMAIN-SUFFIX,zmz003.com,🎯 全球直连
- - DOMAIN-SUFFIX,zmz004.com,🎯 全球直连
- - DOMAIN-SUFFIX,zmz2019.com,🎯 全球直连
- - DOMAIN-SUFFIX,zmzapi.com,🎯 全球直连
- - DOMAIN-SUFFIX,zmzapi.net,🎯 全球直连
- - DOMAIN-SUFFIX,zmzfile.com,🎯 全球直连
- - DOMAIN-KEYWORD,announce,🎯 全球直连
- - DOMAIN-KEYWORD,torrent,🎯 全球直连
- - DOMAIN-KEYWORD,tracker,🎯 全球直连
- - DOMAIN-SUFFIX,animebytes.tv,🎯 全球直连
- - DOMAIN-SUFFIX,animetorrents.me,🎯 全球直连
- - DOMAIN-SUFFIX,awesome-hd.me,🎯 全球直连
- - DOMAIN-SUFFIX,beitai.pt,🎯 全球直连
- - DOMAIN-SUFFIX,bittorrent.com,🎯 全球直连
- - DOMAIN-SUFFIX,broadcasthe.net,🎯 全球直连
- - DOMAIN-SUFFIX,chdbits.co,🎯 全球直连
- - DOMAIN-SUFFIX,classix-unlimited.co.uk,🎯 全球直连
- - DOMAIN-SUFFIX,empornium.me,🎯 全球直连
- - DOMAIN-SUFFIX,gazellegames.net,🎯 全球直连
- - DOMAIN-SUFFIX,hd4fans.org,🎯 全球直连
- - DOMAIN-SUFFIX,hdchina.org,🎯 全球直连
- - DOMAIN-SUFFIX,hdhome.org,🎯 全球直连
- - DOMAIN-SUFFIX,hdsky.me,🎯 全球直连
- - DOMAIN-SUFFIX,hdtime.org,🎯 全球直连
- - DOMAIN-SUFFIX,hdzone.me,🎯 全球直连
- - DOMAIN-SUFFIX,icetorrent.org,🎯 全球直连
- - DOMAIN-SUFFIX,jpopsuki.eu,🎯 全球直连
- - DOMAIN-SUFFIX,keepfrds.com,🎯 全球直连
- - DOMAIN-SUFFIX,leaguehd.com,🎯 全球直连
- - DOMAIN-SUFFIX,m-team.cc,🎯 全球直连
- - DOMAIN-SUFFIX,madsrevolution.net,🎯 全球直连
- - DOMAIN-SUFFIX,msg.vg,🎯 全球直连
- - DOMAIN-SUFFIX,nanyangpt.com,🎯 全球直连
- - DOMAIN-SUFFIX,ncore.cc,🎯 全球直连
- - DOMAIN-SUFFIX,open.cd,🎯 全球直连
- - DOMAIN-SUFFIX,ourbits.club,🎯 全球直连
- - DOMAIN-SUFFIX,passthepopcorn.me,🎯 全球直连
- - DOMAIN-SUFFIX,privatehd.to,🎯 全球直连
- - DOMAIN-SUFFIX,pthome.net,🎯 全球直连
- - DOMAIN-SUFFIX,redacted.ch,🎯 全球直连
- - DOMAIN-SUFFIX,springsunday.net,🎯 全球直连
- - DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
- - DOMAIN-SUFFIX,totheglory.im,🎯 全球直连
- - DOMAIN-SUFFIX,trontv.com,🎯 全球直连
- - DOMAIN-SUFFIX,teamviewer.com,🎯 全球直连
- - IP-CIDR,109.239.140.0/24,🎯 全球直连,no-resolve
- - IP-CIDR,139.220.243.27/32,🎯 全球直连,no-resolve
- - IP-CIDR,172.16.102.56/32,🎯 全球直连,no-resolve
- - IP-CIDR,185.188.32.1/28,🎯 全球直连,no-resolve
- - IP-CIDR,221.226.128.146/32,🎯 全球直连,no-resolve
- - IP-CIDR6,2a0b:b580::/48,🎯 全球直连,no-resolve
- - IP-CIDR6,2a0b:b581::/48,🎯 全球直连,no-resolve
- - IP-CIDR6,2a0b:b582::/48,🎯 全球直连,no-resolve
- - IP-CIDR6,2a0b:b583::/48,🎯 全球直连,no-resolve
- - DOMAIN-SUFFIX,baomitu.com,🎯 全球直连
- - DOMAIN-SUFFIX,bootcss.com,🎯 全球直连
- - DOMAIN-SUFFIX,jiasule.com,🎯 全球直连
- - DOMAIN-SUFFIX,jsdelivr.net,🎯 全球直连
- - DOMAIN-SUFFIX,staticfile.org,🎯 全球直连
- - DOMAIN-SUFFIX,upaiyun.com,🎯 全球直连
- - DOMAIN-SUFFIX,10010.com,🎯 全球直连
- - DOMAIN-SUFFIX,115.com,🎯 全球直连
- - DOMAIN-SUFFIX,12306.com,🎯 全球直连
- - DOMAIN-SUFFIX,17173.com,🎯 全球直连
- - DOMAIN-SUFFIX,178.com,🎯 全球直连
- - DOMAIN-SUFFIX,17k.com,🎯 全球直连
- - DOMAIN-SUFFIX,360doc.com,🎯 全球直连
- - DOMAIN-SUFFIX,36kr.com,🎯 全球直连
- - DOMAIN-SUFFIX,3dmgame.com,🎯 全球直连
- - DOMAIN-SUFFIX,51cto.com,🎯 全球直连
- - DOMAIN-SUFFIX,51job.com,🎯 全球直连
- - DOMAIN-SUFFIX,51jobcdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,56.com,🎯 全球直连
- - DOMAIN-SUFFIX,8686c.com,🎯 全球直连
- - DOMAIN-SUFFIX,abchina.com,🎯 全球直连
- - DOMAIN-SUFFIX,abercrombie.com,🎯 全球直连
- - DOMAIN-SUFFIX,acfun.tv,🎯 全球直连
- - DOMAIN-SUFFIX,air-matters.com,🎯 全球直连
- - DOMAIN-SUFFIX,air-matters.io,🎯 全球直连
- - DOMAIN-SUFFIX,aixifan.com,🎯 全球直连
- - DOMAIN-SUFFIX,algocasts.io,🎯 全球直连
- - DOMAIN-SUFFIX,babytree.com,🎯 全球直连
- - DOMAIN-SUFFIX,babytreeimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,baicizhan.com,🎯 全球直连
- - DOMAIN-SUFFIX,baidupan.com,🎯 全球直连
- - DOMAIN-SUFFIX,baike.com,🎯 全球直连
- - DOMAIN-SUFFIX,biqudu.com,🎯 全球直连
- - DOMAIN-SUFFIX,biquge.com,🎯 全球直连
- - DOMAIN-SUFFIX,bitauto.com,🎯 全球直连
- - DOMAIN-SUFFIX,c-ctrip.com,🎯 全球直连
- - DOMAIN-SUFFIX,camera360.com,🎯 全球直连
- - DOMAIN-SUFFIX,cdnmama.com,🎯 全球直连
- - DOMAIN-SUFFIX,chaoxing.com,🎯 全球直连
- - DOMAIN-SUFFIX,che168.com,🎯 全球直连
- - DOMAIN-SUFFIX,chinacache.net,🎯 全球直连
- - DOMAIN-SUFFIX,chinaso.com,🎯 全球直连
- - DOMAIN-SUFFIX,chinaz.com,🎯 全球直连
- - DOMAIN-SUFFIX,chinaz.net,🎯 全球直连
- - DOMAIN-SUFFIX,chuimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,cibntv.net,🎯 全球直连
- - DOMAIN-SUFFIX,clouddn.com,🎯 全球直连
- - DOMAIN-SUFFIX,cloudxns.net,🎯 全球直连
- - DOMAIN-SUFFIX,cn163.net,🎯 全球直连
- - DOMAIN-SUFFIX,cnbeta.com,🎯 全球直连
- - DOMAIN-SUFFIX,cnbetacdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,cnblogs.com,🎯 全球直连
- - DOMAIN-SUFFIX,cnki.net,🎯 全球直连
- - DOMAIN-SUFFIX,cnmstl.net,🎯 全球直连
- - DOMAIN-SUFFIX,coolapk.com,🎯 全球直连
- - DOMAIN-SUFFIX,coolapkmarket.com,🎯 全球直连
- - DOMAIN-SUFFIX,csdn.net,🎯 全球直连
- - DOMAIN-SUFFIX,ctrip.com,🎯 全球直连
- - DOMAIN-SUFFIX,dangdang.com,🎯 全球直连
- - DOMAIN-SUFFIX,dfcfw.com,🎯 全球直连
- - DOMAIN-SUFFIX,dianping.com,🎯 全球直连
- - DOMAIN-SUFFIX,dilidili.wang,🎯 全球直连
- - DOMAIN-SUFFIX,douban.com,🎯 全球直连
- - DOMAIN-SUFFIX,doubanio.com,🎯 全球直连
- - DOMAIN-SUFFIX,dpfile.com,🎯 全球直连
- - DOMAIN-SUFFIX,duowan.com,🎯 全球直连
- - DOMAIN-SUFFIX,dxycdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,dytt8.net,🎯 全球直连
- - DOMAIN-SUFFIX,easou.com,🎯 全球直连
- - DOMAIN-SUFFIX,eastday.com,🎯 全球直连
- - DOMAIN-SUFFIX,eastmoney.com,🎯 全球直连
- - DOMAIN-SUFFIX,ecitic.com,🎯 全球直连
- - DOMAIN-SUFFIX,ewqcxz.com,🎯 全球直连
- - DOMAIN-SUFFIX,fang.com,🎯 全球直连
- - DOMAIN-SUFFIX,fantasy.tv,🎯 全球直连
- - DOMAIN-SUFFIX,feng.com,🎯 全球直连
- - DOMAIN-SUFFIX,fengkongcloud.com,🎯 全球直连
- - DOMAIN-SUFFIX,fir.im,🎯 全球直连
- - DOMAIN-SUFFIX,frdic.com,🎯 全球直连
- - DOMAIN-SUFFIX,fresh-ideas.cc,🎯 全球直连
- - DOMAIN-SUFFIX,ganji.com,🎯 全球直连
- - DOMAIN-SUFFIX,ganjistatic1.com,🎯 全球直连
- - DOMAIN-SUFFIX,geetest.com,🎯 全球直连
- - DOMAIN-SUFFIX,geilicdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,ghpym.com,🎯 全球直连
- - DOMAIN-SUFFIX,godic.net,🎯 全球直连
- - DOMAIN-SUFFIX,guazi.com,🎯 全球直连
- - DOMAIN-SUFFIX,gwdang.com,🎯 全球直连
- - DOMAIN-SUFFIX,gzlzfm.com,🎯 全球直连
- - DOMAIN-SUFFIX,haibian.com,🎯 全球直连
- - DOMAIN-SUFFIX,haosou.com,🎯 全球直连
- - DOMAIN-SUFFIX,hollisterco.com,🎯 全球直连
- - DOMAIN-SUFFIX,hongxiu.com,🎯 全球直连
- - DOMAIN-SUFFIX,huajiao.com,🎯 全球直连
- - DOMAIN-SUFFIX,hupu.com,🎯 全球直连
- - DOMAIN-SUFFIX,huxiucdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,huya.com,🎯 全球直连
- - DOMAIN-SUFFIX,ifeng.com,🎯 全球直连
- - DOMAIN-SUFFIX,ifengimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,images-amazon.com,🎯 全球直连
- - DOMAIN-SUFFIX,infzm.com,🎯 全球直连
- - DOMAIN-SUFFIX,ipip.net,🎯 全球直连
- - DOMAIN-SUFFIX,it168.com,🎯 全球直连
- - DOMAIN-SUFFIX,ithome.com,🎯 全球直连
- - DOMAIN-SUFFIX,ixdzs.com,🎯 全球直连
- - DOMAIN-SUFFIX,jianguoyun.com,🎯 全球直连
- - DOMAIN-SUFFIX,jianshu.com,🎯 全球直连
- - DOMAIN-SUFFIX,jianshu.io,🎯 全球直连
- - DOMAIN-SUFFIX,jianshuapi.com,🎯 全球直连
- - DOMAIN-SUFFIX,jiathis.com,🎯 全球直连
- - DOMAIN-SUFFIX,jmstatic.com,🎯 全球直连
- - DOMAIN-SUFFIX,jumei.com,🎯 全球直连
- - DOMAIN-SUFFIX,kaola.com,🎯 全球直连
- - DOMAIN-SUFFIX,knewone.com,🎯 全球直连
- - DOMAIN-SUFFIX,koowo.com,🎯 全球直连
- - DOMAIN-SUFFIX,ksyungslb.com,🎯 全球直连
- - DOMAIN-SUFFIX,kuaidi100.com,🎯 全球直连
- - DOMAIN-SUFFIX,kugou.com,🎯 全球直连
- - DOMAIN-SUFFIX,lancdns.com,🎯 全球直连
- - DOMAIN-SUFFIX,landiannews.com,🎯 全球直连
- - DOMAIN-SUFFIX,lanzou.com,🎯 全球直连
- - DOMAIN-SUFFIX,lanzoui.com,🎯 全球直连
- - DOMAIN-SUFFIX,lanzoux.com,🎯 全球直连
- - DOMAIN-SUFFIX,lemicp.com,🎯 全球直连
- - DOMAIN-SUFFIX,letitfly.me,🎯 全球直连
- - DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
- - DOMAIN-SUFFIX,lizhi.fm,🎯 全球直连
- - DOMAIN-SUFFIX,lizhi.io,🎯 全球直连
- - DOMAIN-SUFFIX,lizhifm.com,🎯 全球直连
- - DOMAIN-SUFFIX,loli.net,🎯 全球直连
- - DOMAIN-SUFFIX,luoo.net,🎯 全球直连
- - DOMAIN-SUFFIX,lvmama.com,🎯 全球直连
- - DOMAIN-SUFFIX,lxdns.com,🎯 全球直连
- - DOMAIN-SUFFIX,maoyan.com,🎯 全球直连
- - DOMAIN-SUFFIX,meilishuo.com,🎯 全球直连
- - DOMAIN-SUFFIX,meituan.com,🎯 全球直连
- - DOMAIN-SUFFIX,meituan.net,🎯 全球直连
- - DOMAIN-SUFFIX,meizu.com,🎯 全球直连
- - DOMAIN-SUFFIX,migucloud.com,🎯 全球直连
- - DOMAIN-SUFFIX,miguvideo.com,🎯 全球直连
- - DOMAIN-SUFFIX,mobike.com,🎯 全球直连
- - DOMAIN-SUFFIX,mogu.com,🎯 全球直连
- - DOMAIN-SUFFIX,mogucdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,mogujie.com,🎯 全球直连
- - DOMAIN-SUFFIX,moji.com,🎯 全球直连
- - DOMAIN-SUFFIX,moke.com,🎯 全球直连
- - DOMAIN-SUFFIX,msstatic.com,🎯 全球直连
- - DOMAIN-SUFFIX,mubu.com,🎯 全球直连
- - DOMAIN-SUFFIX,myunlu.com,🎯 全球直连
- - DOMAIN-SUFFIX,nruan.com,🎯 全球直连
- - DOMAIN-SUFFIX,nuomi.com,🎯 全球直连
- - DOMAIN-SUFFIX,onedns.net,🎯 全球直连
- - DOMAIN-SUFFIX,onlinedown.net,🎯 全球直连
- - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
- - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
- - DOMAIN-SUFFIX,ourdvs.com,🎯 全球直连
- - DOMAIN-SUFFIX,paypal.com,🎯 全球直连
- - DOMAIN-SUFFIX,polyv.net,🎯 全球直连
- - DOMAIN-SUFFIX,qbox.me,🎯 全球直连
- - DOMAIN-SUFFIX,qcloud.com,🎯 全球直连
- - DOMAIN-SUFFIX,qcloudcdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,qdaily.com,🎯 全球直连
- - DOMAIN-SUFFIX,qdmm.com,🎯 全球直连
- - DOMAIN-SUFFIX,qhimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,qianqian.com,🎯 全球直连
- - DOMAIN-SUFFIX,qidian.com,🎯 全球直连
- - DOMAIN-SUFFIX,qihucdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,qin.io,🎯 全球直连
- - DOMAIN-SUFFIX,qiniu.com,🎯 全球直连
- - DOMAIN-SUFFIX,qiniucdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,qiniudn.com,🎯 全球直连
- - DOMAIN-SUFFIX,qiushibaike.com,🎯 全球直连
- - DOMAIN-SUFFIX,quanmin.tv,🎯 全球直连
- - DOMAIN-SUFFIX,qunar.com,🎯 全球直连
- - DOMAIN-SUFFIX,qunarzz.com,🎯 全球直连
- - DOMAIN-SUFFIX,rarbg.to,🎯 全球直连
- - DOMAIN-SUFFIX,repaik.com,🎯 全球直连
- - DOMAIN-SUFFIX,rrmj.tv,🎯 全球直连
- - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
- - DOMAIN-SUFFIX,runoob.com,🎯 全球直连
- - DOMAIN-SUFFIX,sankuai.com,🎯 全球直连
- - DOMAIN-SUFFIX,segmentfault.com,🎯 全球直连
- - DOMAIN-SUFFIX,sf-express.com,🎯 全球直连
- - DOMAIN-SUFFIX,shumilou.net,🎯 全球直连
- - DOMAIN-SUFFIX,simplecd.me,🎯 全球直连
- - DOMAIN-SUFFIX,sm.ms,🎯 全球直连
- - DOMAIN-SUFFIX,smzdm.com,🎯 全球直连
- - DOMAIN-SUFFIX,snwx.com,🎯 全球直连
- - DOMAIN-SUFFIX,soufunimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,sspai.com,🎯 全球直连
- - DOMAIN-SUFFIX,startssl.com,🎯 全球直连
- - DOMAIN-SUFFIX,suning.com,🎯 全球直连
- - DOMAIN-SUFFIX,synology.com,🎯 全球直连
- - DOMAIN-SUFFIX,taihe.com,🎯 全球直连
- - DOMAIN-SUFFIX,th-sjy.com,🎯 全球直连
- - DOMAIN-SUFFIX,tianqi.com,🎯 全球直连
- - DOMAIN-SUFFIX,tianqistatic.com,🎯 全球直连
- - DOMAIN-SUFFIX,tianyancha.com,🎯 全球直连
- - DOMAIN-SUFFIX,tianyaui.com,🎯 全球直连
- - DOMAIN-SUFFIX,tietuku.com,🎯 全球直连
- - DOMAIN-SUFFIX,tiexue.net,🎯 全球直连
- - DOMAIN-SUFFIX,tmiaoo.com,🎯 全球直连
- - DOMAIN-SUFFIX,trip.com,🎯 全球直连
- - DOMAIN-SUFFIX,ttmeiju.com,🎯 全球直连
- - DOMAIN-SUFFIX,tudou.com,🎯 全球直连
- - DOMAIN-SUFFIX,tuniu.com,🎯 全球直连
- - DOMAIN-SUFFIX,tuniucdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,umengcloud.com,🎯 全球直连
- - DOMAIN-SUFFIX,upyun.com,🎯 全球直连
- - DOMAIN-SUFFIX,uxengine.net,🎯 全球直连
- - DOMAIN-SUFFIX,videocc.net,🎯 全球直连
- - DOMAIN-SUFFIX,wandoujia.com,🎯 全球直连
- - DOMAIN-SUFFIX,weather.com,🎯 全球直连
- - DOMAIN-SUFFIX,weico.cc,🎯 全球直连
- - DOMAIN-SUFFIX,weidian.com,🎯 全球直连
- - DOMAIN-SUFFIX,weiphone.com,🎯 全球直连
- - DOMAIN-SUFFIX,weiphone.net,🎯 全球直连
- - DOMAIN-SUFFIX,womai.com,🎯 全球直连
- - DOMAIN-SUFFIX,wscdns.com,🎯 全球直连
- - DOMAIN-SUFFIX,xdrig.com,🎯 全球直连
- - DOMAIN-SUFFIX,xhscdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,xiachufang.com,🎯 全球直连
- - DOMAIN-SUFFIX,xiaohongshu.com,🎯 全球直连
- - DOMAIN-SUFFIX,xiaojukeji.com,🎯 全球直连
- - DOMAIN-SUFFIX,xinhuanet.com,🎯 全球直连
- - DOMAIN-SUFFIX,xip.io,🎯 全球直连
- - DOMAIN-SUFFIX,xitek.com,🎯 全球直连
- - DOMAIN-SUFFIX,xiumi.us,🎯 全球直连
- - DOMAIN-SUFFIX,xslb.net,🎯 全球直连
- - DOMAIN-SUFFIX,xueqiu.com,🎯 全球直连
- - DOMAIN-SUFFIX,yach.me,🎯 全球直连
- - DOMAIN-SUFFIX,yeepay.com,🎯 全球直连
- - DOMAIN-SUFFIX,yhd.com,🎯 全球直连
- - DOMAIN-SUFFIX,yihaodianimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,yinxiang.com,🎯 全球直连
- - DOMAIN-SUFFIX,yinyuetai.com,🎯 全球直连
- - DOMAIN-SUFFIX,yixia.com,🎯 全球直连
- - DOMAIN-SUFFIX,ys168.com,🎯 全球直连
- - DOMAIN-SUFFIX,yuewen.com,🎯 全球直连
- - DOMAIN-SUFFIX,yy.com,🎯 全球直连
- - DOMAIN-SUFFIX,yystatic.com,🎯 全球直连
- - DOMAIN-SUFFIX,zealer.com,🎯 全球直连
- - DOMAIN-SUFFIX,zhangzishi.cc,🎯 全球直连
- - DOMAIN-SUFFIX,zhanqi.tv,🎯 全球直连
- - DOMAIN-SUFFIX,zhaopin.com,🎯 全球直连
- - DOMAIN-SUFFIX,zhihu.com,🎯 全球直连
- - DOMAIN-SUFFIX,zhimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,zhongsou.com,🎯 全球直连
- - DOMAIN-SUFFIX,zhuihd.com,🎯 全球直连
  - IP-CIDR,8.128.0.0/10,🎯 全球直连,no-resolve
  - IP-CIDR,8.208.0.0/12,🎯 全球直连,no-resolve
  - IP-CIDR,14.1.112.0/22,🎯 全球直连,no-resolve
