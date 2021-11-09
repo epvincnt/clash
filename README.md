@@ -5,773 +5,917 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🇭🇰 香港[感谢订阅——科技网络]", server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2021.11.07）, server: 52.175.60.185, port: 58963, type: vmess, uuid: 00138042-5598-459e-a56b-d1c7833e5a28, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.175.60.185}}
-  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq", server: 14.douluo.cyou, port: 26114, type: vmess, uuid: 58e68e6b-61f1-3b2e-8773-20a0ad64f69d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 14.douluo.cyou}}
-  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 2", server: 18.douluo.cyou, port: 26118, type: vmess, uuid: 58e68e6b-61f1-3b2e-8773-20a0ad64f69d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.douluo.cyou}}
-  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 3", server: 7.douluo.cyou, port: 29107, type: vmess, uuid: 58e68e6b-61f1-3b2e-8773-20a0ad64f69d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7.douluo.cyou}}
-  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 4", server: 6.douluo.cyou, port: 26106, type: vmess, uuid: 58e68e6b-61f1-3b2e-8773-20a0ad64f69d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 6.douluo.cyou}}
-  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 5", server: 17.douluo.cyou, port: 26117, type: vmess, uuid: 58e68e6b-61f1-3b2e-8773-20a0ad64f69d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 17.douluo.cyou}}
-  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 6", server: 16.douluo.cyou, port: 26116, type: vmess, uuid: 58e68e6b-61f1-3b2e-8773-20a0ad64f69d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 16.douluo.cyou}}
-  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 7", server: 15.douluo.cyou, port: 29115, type: vmess, uuid: 58e68e6b-61f1-3b2e-8773-20a0ad64f69d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 15.douluo.cyou}}
-  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 8", server: 8.douluo.cyou, port: 29108, type: vmess, uuid: 58e68e6b-61f1-3b2e-8773-20a0ad64f69d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8.douluo.cyou}}
-  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 9", server: 20.douluo.cyou, port: 36120, type: vmess, uuid: 58e68e6b-61f1-3b2e-8773-20a0ad64f69d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 20.douluo.cyou}}
-  - {name: 电报群https://t.me/lnafq, server: 128.199.170.176, port: 39000, type: vmess, uuid: e73d8bfe-7dd9-3196-ae1f-dc8c41e8834c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 128.199.170.176}}
-  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 10", server: 9.douluo.cyou, port: 29109, type: vmess, uuid: 58e68e6b-61f1-3b2e-8773-20a0ad64f69d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 9.douluo.cyou}}
+  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq", server: 12.douluo.cyou, port: 26112, type: vmess, uuid: 8ea7d01f-a770-3691-bf45-ff1042b34938, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 12.douluo.cyou}}
+  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 2", server: 14.douluo.cyou, port: 26114, type: vmess, uuid: 8ea7d01f-a770-3691-bf45-ff1042b34938, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 14.douluo.cyou}}
+  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 3", server: 10.douluo.cyou, port: 26110, type: vmess, uuid: 8ea7d01f-a770-3691-bf45-ff1042b34938, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 10.douluo.cyou}}
+  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 4", server: 21.douluo.cyou, port: 26121, type: vmess, uuid: 8ea7d01f-a770-3691-bf45-ff1042b34938, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 21.douluo.cyou}}
+  - {name: CYL-科技（2021.11.08）, server: 00.cn3.rocketdns.xyz, port: 65002, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
+  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 5", server: 4.douluo.cyou, port: 26104, type: vmess, uuid: 8ea7d01f-a770-3691-bf45-ff1042b34938, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 4.douluo.cyou}}
+  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 6", server: 7.douluo.cyou, port: 29107, type: vmess, uuid: 8ea7d01f-a770-3691-bf45-ff1042b34938, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7.douluo.cyou}}
+  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 7", server: 17.douluo.cyou, port: 26117, type: vmess, uuid: 8ea7d01f-a770-3691-bf45-ff1042b34938, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 17.douluo.cyou}}
+  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 8", server: 3.douluo.cyou, port: 26103, type: vmess, uuid: 8ea7d01f-a770-3691-bf45-ff1042b34938, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 3.douluo.cyou}}
+  - {name: CYL-科技（2021.11.08） 2, server: 00.cn3.rocketdns.xyz, port: 65017, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
+  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 9", server: 6.douluo.cyou, port: 26106, type: vmess, uuid: 8ea7d01f-a770-3691-bf45-ff1042b34938, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 6.douluo.cyou}}
+  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 10", server: 16.douluo.cyou, port: 26116, type: vmess, uuid: 8ea7d01f-a770-3691-bf45-ff1042b34938, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 16.douluo.cyou}}
+  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 11", server: 11.douluo.cyou, port: 26111, type: vmess, uuid: 8ea7d01f-a770-3691-bf45-ff1042b34938, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 11.douluo.cyou}}
+  - {name: CYL-科技（2021.11.08） 3, server: 00.cn2.rocketdns.xyz, port: 65001, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
+  - {name: CYL-科技（2021.11.08） 4, server: 00.cn2.rocketdns.xyz, port: 65016, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
+  - {name: CYL-科技（2021.11.08） 5, server: 00.cn1.rocketdns.xyz, port: 65000, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
+  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 12", server: 8.douluo.cyou, port: 29108, type: vmess, uuid: 8ea7d01f-a770-3691-bf45-ff1042b34938, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8.douluo.cyou}}
+  - {name: CYL-科技（2021.11.08） 6, server: gzcm.blfast.net, port: 30006, type: vmess, uuid: 932aad6d-0474-3180-865c-2576c616cf03, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /lallaa, ws-headers: {Host: 87.blfast.net}}
+  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 13", server: 18.douluo.cyou, port: 26118, type: vmess, uuid: 8ea7d01f-a770-3691-bf45-ff1042b34938, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.douluo.cyou}}
+  - {name: CYL-科技（2021.11.08） 7, server: 00.cn1.rocketdns.xyz, port: 65003, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
+  - {name: 电报群https://t.me/lnafq, server: 157.245.57.245, port: 39000, type: vmess, uuid: df019b55-2f07-3caa-8609-24250af7e37d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 157.245.57.245}}
   - {name: 电报群https://t.me/lnafq 2, server: 128.199.170.176, port: 39000, type: vmess, uuid: f9c458e0-2953-3913-9ff4-ad175bee6694, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 128.199.170.176}}
-  - {name: 🇸🇬 新加坡(Youtube技术分享室整理), server: aws.774.gs, port: 8888, type: vmess, uuid: 5e2b2d39-ee72-464f-89cb-686217900ce2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: aws.774.gs}}
-  - {name: 电报群https://t.me/lnafq 3, server: 157.245.57.245, port: 39000, type: vmess, uuid: df019b55-2f07-3caa-8609-24250af7e37d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 157.245.57.245}}
+  - {name: 电报群https://t.me/lnafq 3, server: 128.199.170.176, port: 39000, type: vmess, uuid: e73d8bfe-7dd9-3196-ae1f-dc8c41e8834c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 128.199.170.176}}
+  - {name: CYL-科技（2021.11.08） 8, server: 157.245.57.245, port: 39000, type: vmess, uuid: 4d97833f-628b-302d-860a-e1e548af076c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 157.245.57.245}}
+  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 14", server: 20.douluo.cyou, port: 36120, type: vmess, uuid: 8ea7d01f-a770-3691-bf45-ff1042b34938, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 20.douluo.cyou}}
+  - {name: CYL-科技（2021.11.07）, server: sg1.futi.online, port: 443, type: vmess, uuid: 25e1767b-d38d-4de5-beb1-14818f26b363, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg1.futi.online}}
+  - {name: 电报群https://t.me/lnafq 4, server: 157.245.57.245, port: 39000, type: vmess, uuid: f9c458e0-2953-3913-9ff4-ad175bee6694, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 157.245.57.245}}
+  - {name: CYL-科技（2021.11.08） 9, server: 00.cn3.rocketdns.xyz, port: 65005, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
+  - {name: 电报群https://t.me/lnafq 5, server: 157.245.57.245, port: 39000, type: vmess, uuid: e30416a8-acbb-3b21-ac27-f077d7d38191, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 157.245.57.245}}
+  - {name: CYL-科技（2021.11.08） 10, server: gd.cm-1-cf.fevers.cyou, port: 30080, type: vmess, uuid: a88b1c08-b583-3d5d-a83a-8f360dc0e44b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray-tw, ws-headers: {Host: df7nomqrfkjpc.cloudfront.net}}
+  - {name: CYL-科技（2021.11.08） 11, server: hn.cu-1-cf.fevers.cyou, port: 30080, type: vmess, uuid: a88b1c08-b583-3d5d-a83a-8f360dc0e44b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray-tw, ws-headers: {Host: df7nomqrfkjpc.cloudfront.net}}
+  - {name: CYL-科技（2021.11.08） 12, server: cw.cwzz.tk, port: 18045, type: vmess, uuid: eb1f3473-f1af-3e36-8c05-d84be468c8fa, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cw.cwzz.tk}}
+  - {name: CYL-科技（2021.11.08） 13, server: 00.cn2.rocketdns.xyz, port: 65007, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
   - {name: CYL-科技（2021.11.06）, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}}
-  - {name: 电报群https://t.me/lnafq 4, server: 157.245.57.245, port: 39000, type: vmess, uuid: e73d8bfe-7dd9-3196-ae1f-dc8c41e8834c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 157.245.57.245}}
-  - {name: CYL-科技（2021.11.07） 2, server: sg1.futi.online, port: 443, type: vmess, uuid: 25e1767b-d38d-4de5-beb1-14818f26b363, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg1.futi.online}}
-  - {name: 电报群https://t.me/lnafq 5, server: 3.34.131.125, port: 39000, type: vmess, uuid: d5776151-abc2-39d4-bc2b-1f8c3df6c61e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 3.34.131.125}}
-  - {name: 电报群https://t.me/lnafq 6, server: 157.245.57.245, port: 39000, type: vmess, uuid: e30416a8-acbb-3b21-ac27-f077d7d38191, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 157.245.57.245}}
-  - {name: 电报群https://t.me/lnafq 7, server: 157.245.57.245, port: 39000, type: vmess, uuid: f9c458e0-2953-3913-9ff4-ad175bee6694, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 157.245.57.245}}
-  - {name: 电报群https://t.me/lnafq 8, server: 3.34.131.125, port: 39000, type: vmess, uuid: e30416a8-acbb-3b21-ac27-f077d7d38191, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 3.34.131.125}}
-  - {name: 电报群https://t.me/lnafq 9, server: 3.34.131.125, port: 39000, type: vmess, uuid: f9c458e0-2953-3913-9ff4-ad175bee6694, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 3.34.131.125}}
-  - {name: 电报群https://t.me/lnafq 10, server: 3.34.131.125, port: 39000, type: vmess, uuid: df019b55-2f07-3caa-8609-24250af7e37d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 3.34.131.125}}
-  - {name: 电报群https://t.me/lnafq 11, server: 3.34.131.125, port: 39000, type: vmess, uuid: e73d8bfe-7dd9-3196-ae1f-dc8c41e8834c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 3.34.131.125}}
+  - {name: 🇯🇵 日本阿伟科技-油管6, server: 13.75.52.58, port: 15006, type: vmess, uuid: fb08a19c-08e6-3870-98ee-6728539c1582, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
+  - {name: CYL-科技（2021.11.08） 14, server: 159.223.75.43, port: 56776, type: vmess, uuid: 2a1620a3-dc12-4d2e-faa9-809028d3e191, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 159.223.75.43}}
+  - {name: 🇰🇷 韩国阿伟科技-油管6, server: 13.124.206.35, port: 33312, type: vmess, uuid: fb08a19c-08e6-3870-98ee-6728539c1582, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇯🇵 日本阿伟科技-油管6 2, server: 13.231.235.109, port: 8080, type: vmess, uuid: fb08a19c-08e6-3870-98ee-6728539c1582, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}}
   - {name: 🇸🇬 新加坡阿伟科技-油管5, server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: fe5e723f-2893-4110-9cde-ecce82daa68c, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: chenguanxi.zhqt.xyz}}
+  - {name: 🇯🇵 日本阿伟科技-油管6 3, server: 54.249.95.254, port: 15086, type: vmess, uuid: fb08a19c-08e6-3870-98ee-6728539c1582, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇯🇵 日本阿伟科技-油管, server: 1005jp.fans8.xyz, port: 80, type: vmess, uuid: 89a5e033-f2d6-3567-95f6-86bedb596cc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1005jp.fans8.xyz}}
+  - {name: CYL-科技（2021.11.08） 15, server: 00.cn1.rocketdns.xyz, port: 65018, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
+  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 15", server: 13.douluo.cyou, port: 26113, type: vmess, uuid: 8ea7d01f-a770-3691-bf45-ff1042b34938, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.douluo.cyou}}
   - {name: 🇸🇬 新加坡阿伟科技-油管5 2, server: 520yyds.zhqt.xyz, port: 50093, type: vmess, uuid: 51e6c70d-72b0-4c3e-ac78-cbbee09afdc8, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: chenguanxi.zhqt.xyz}}
-  - {name: 电报群https://t.me/lnafq 12, server: 3.34.131.125, port: 39000, type: vmess, uuid: 0d7d2dc7-667c-3344-953f-ba491ddc864a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 3.34.131.125}}
-  - {name: 电报群https://t.me/lnafq 13, server: 140.83.83.12, port: 39000, type: vmess, uuid: f9c458e0-2953-3913-9ff4-ad175bee6694, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 140.83.83.12}}
-  - {name: 电报群https://t.me/lnafq 14, server: 140.83.83.12, port: 39000, type: vmess, uuid: e30416a8-acbb-3b21-ac27-f077d7d38191, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 140.83.83.12}}
-  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 11", server: 21.douluo.cyou, port: 26121, type: vmess, uuid: 58e68e6b-61f1-3b2e-8773-20a0ad64f69d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 21.douluo.cyou}}
-  - {name: YouTube梦歌, server: 84.17.53.228, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 12", server: 3.douluo.cyou, port: 26103, type: vmess, uuid: 58e68e6b-61f1-3b2e-8773-20a0ad64f69d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 3.douluo.cyou}}
-  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 13", server: 19.douluo.cyou, port: 29119, type: vmess, uuid: 58e68e6b-61f1-3b2e-8773-20a0ad64f69d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 19.douluo.cyou}}
-  - {name: YouTube梦歌 2, server: 156.146.33.80, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj}
-  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 14", server: 11.douluo.cyou, port: 26111, type: vmess, uuid: 58e68e6b-61f1-3b2e-8773-20a0ad64f69d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 11.douluo.cyou}}
-  - {name: YouTube梦歌 3, server: 156.146.33.86, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: YouTube梦歌 4, server: 156.146.33.86, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: YouTube梦歌 5, server: 84.17.53.167, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
-  - {name: YouTube梦歌 6, server: 156.146.33.80, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
-  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 15", server: 4.douluo.cyou, port: 26104, type: vmess, uuid: 58e68e6b-61f1-3b2e-8773-20a0ad64f69d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 4.douluo.cyou}}
+  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 16", server: 22.douluo.cyou, port: 29122, type: vmess, uuid: 8ea7d01f-a770-3691-bf45-ff1042b34938, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 22.douluo.cyou}}
+  - {name: CYL-科技（2021.11.08） 16, server: 00.cn2.rocketdns.xyz, port: 65010, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
+  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 17", server: 19.douluo.cyou, port: 29119, type: vmess, uuid: 8ea7d01f-a770-3691-bf45-ff1042b34938, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 19.douluo.cyou}}
+  - {name: CYL-科技（2021.11.08） 17, server: 00.cn3.rocketdns.xyz, port: 65011, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
+  - {name: CYL-科技（2021.11.08） 18, server: 00.cn3.rocketdns.xyz, port: 65014, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
+  - {name: 电报群https://t.me/lnafq 6, server: 140.83.83.12, port: 39000, type: vmess, uuid: e73d8bfe-7dd9-3196-ae1f-dc8c41e8834c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 140.83.83.12}}
+  - {name: CYL-科技（2021.11.08） 19, server: 00.cn2.rocketdns.xyz, port: 65019, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
+  - {name: 电报群https://t.me/lnafq 7, server: 140.83.83.12, port: 39000, type: vmess, uuid: f9c458e0-2953-3913-9ff4-ad175bee6694, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 140.83.83.12}}
+  - {name: YouTube梦歌, server: 156.146.33.86, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: YouTube梦歌 2, server: 84.17.53.218, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
   - {name: CYL-科技（2021.11.06） 2, server: ahH4eihu.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: ahH4eihu.com}}
-  - {name: YouTube梦歌 7, server: 84.17.53.228, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: YouTube梦歌 8, server: 84.17.53.167, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: YouTube梦歌 9, server: 84.17.53.218, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
-  - {name: YouTube梦歌 10, server: 84.17.53.167, port: 39171, type: ss, cipher: aes-256-gcm, password: z4pM2gA9QEEC6NRmqTQubm6Z}
-  - {name: YouTube梦歌 11, server: 84.17.53.218, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj}
-  - {name: YouTube梦歌 12, server: 84.17.53.167, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: "奈飞会员6元/月,电报群https://t.me/lnafq 16", server: 10.douluo.cyou, port: 26110, type: vmess, uuid: 58e68e6b-61f1-3b2e-8773-20a0ad64f69d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 10.douluo.cyou}}
-  - {name: YouTube梦歌 13, server: 84.17.53.218, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: YouTube梦歌 14, server: 84.17.53.167, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: YouTube梦歌 15, server: 84.17.53.228, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: YouTube梦歌 16, server: 84.17.53.218, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: YouTube梦歌 17, server: 156.146.33.82, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
-  - {name: YouTube梦歌 18, server: 156.146.33.82, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
-  - {name: YouTube梦歌 19, server: 84.17.53.167, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
-  - {name: YouTube梦歌 20, server: 156.146.33.82, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: YouTube梦歌 21, server: 156.146.33.86, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: CYL-科技（2021.11.07） 3, server: 156.146.33.80, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
+  - {name: 电报群https://t.me/lnafq 8, server: 140.83.83.12, port: 39000, type: vmess, uuid: df019b55-2f07-3caa-8609-24250af7e37d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 140.83.83.12}}
+  - {name: YouTube梦歌 3, server: 84.17.53.169, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
+  - {name: CYL-科技（2021.11.08） 20, server: 103.172.125.205, port: 35579, type: vmess, uuid: c2dcd19d-5397-4676-bbe1-ea4d9bc9c3d3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 103.172.125.205}}
+  - {name: YouTube梦歌 4, server: 156.146.33.86, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: YouTube梦歌 5, server: 156.146.33.86, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: CYL-科技（2021.11.08） 21, server: 00.cn3.rocketdns.xyz, port: 65008, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
+  - {name: YouTube梦歌 6, server: 84.17.53.169, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: YouTube梦歌 7, server: 156.146.33.80, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: CYL-科技（2021.11.08） 22, server: 89.46.223.91, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: CYL-科技（2021.11.08） 23, server: 217.146.82.186, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: CYL-科技（2021.11.08） 24, server: szcm.blfast.net, port: 30017, type: vmess, uuid: 932aad6d-0474-3180-865c-2576c616cf03, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /lala, ws-headers: {Host: 37.blfast.net}}
+  - {name: YouTube梦歌 8, server: 156.146.33.80, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
+  - {name: YouTube梦歌 9, server: 156.146.33.80, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
+  - {name: YouTube梦歌 10, server: 156.146.33.86, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: YouTube梦歌 11, server: 84.17.53.169, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: CYL-科技（2021.11.08） 25, server: 217.146.82.186, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: YouTube梦歌 12, server: 84.17.53.218, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 阿伟科技-油管5, server: 217.146.83.66, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: YouTube梦歌 13, server: 156.146.33.80, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj}
+  - {name: YouTube梦歌 14, server: 156.146.33.80, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
+  - {name: CYL-科技（2021.11.08） 26, server: 00.cn1.rocketdns.xyz, port: 65009, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
+  - {name: CYL-科技（2021.11.08） 27, server: 89.46.223.79, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: CYL-科技（2021.11.08） 28, server: 89.46.223.242, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: CYL-科技（2021.11.08） 29, server: 89.46.223.75, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: CYL-科技（2021.11.08） 30, server: 217.146.83.70, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: CYL-科技（2021.11.08） 31, server: 217.146.83.70, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
+  - {name: CYL-科技（2021.11.08） 32, server: 89.46.223.236, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: CYL-科技（2021.11.08） 33, server: 173.82.192.61, port: 49357, type: vmess, uuid: 4201d9b2-9f13-46e2-fa51-9e81d2414339, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 173.82.192.61}}
+  - {name: CYL-科技（2021.11.08） 34, server: 89.46.223.61, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: CYL-科技（2021.11.08） 35, server: 89.46.223.99, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: CYL-科技（2021.11.08） 36, server: 89.46.223.225, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
+  - {name: 🇨🇭 瑞士（YouTube资源分享者）, server: 45.12.222.244, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: CYL-科技（2021.11.08） 37, server: 89.46.223.79, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: CYL-科技（2021.11.08） 38, server: 89.46.223.242, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: CYL-科技（2021.11.08） 39, server: 217.146.83.70, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
   - {name: 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_2, server: 156.146.62.45, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: CYL-科技（2021.11.07） 4, server: 185.108.106.172, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: CYL-科技（2021.11.07） 5, server: 185.76.9.56, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 阿伟科技-油管5, server: 217.146.83.66, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: CYL-科技（2021.11.07） 6, server: 185.108.106.175, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: CYL-科技（2021.11.06） 3, server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: jp-tokyo-node2.ycgyg.com}}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a, server: 156.146.62.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 2, server: 156.146.62.45, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_77, server: 195.181.166.225, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: CYL-科技（2021.11.06） 4, server: 185.76.9.56, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
   - {name: 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_6, server: 156.146.62.45, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: CYL-科技（2021.11.06） 5, server: 195.181.166.225, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: CYL-科技（2021.11.06） 6, server: 185.76.9.56, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: CYL-科技（2021.11.06） 7, server: 185.76.9.56, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: CYL-科技（2021.11.07） 7, server: 185.108.106.172, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: CYL-科技（2021.11.07） 8, server: 185.108.106.175, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 阿伟科技-油管5 2, server: 217.146.83.66, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: CYL-科技（2021.11.06） 8, server: 185.76.9.56, port: 45291, type: ss, cipher: aes-256-gcm, password: ecfJrNtBZwT748hxJ3ZyzZj2}
-  - {name: CYL-科技（2021.11.07） 9, server: 185.108.106.172, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: CYL-科技（2021.11.07） 10, server: 185.108.106.172, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
-  - {name: 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_32, server: 195.181.166.225, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: CYL-科技（2021.11.06） 9, server: 195.181.166.225, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: CYL-科技（2021.11.06） 10, server: 195.181.166.225, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 🇰🇷 韩国阿伟科技-油管, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: 89a5e033-f2d6-3567-95f6-86bedb596cc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1031kr.fans8.xyz}}
+  - {name: 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31, server: 195.181.166.225, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: 🇸🇬 新加坡阿伟科技-油管1, server: 195.181.166.225, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_12, server: 185.76.9.56, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇷🇴 罗马尼亚（YouTube资源分享者）, server: 37.120.213.4, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_14, server: 195.181.166.225, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a, server: 156.146.62.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_77, server: 195.181.166.225, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_75, server: 195.181.166.225, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
-  - {name: CYL-科技（2021.11.06） 11, server: 185.76.9.56, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
-  - {name: 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_33, server: 195.181.166.225, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
+  - {name: 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_28, server: 195.181.166.225, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_82, server: 195.181.166.225, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇨🇭 瑞士（YouTube资源分享者） 2, server: 45.12.222.244, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd}
+  - {name: 🇺🇸 美国阿伟科技-油管1, server: 138.199.42.170, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: CYL-科技（2021.11.06） 3, server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: jp-tokyo-node2.ycgyg.com}}
   - {name: 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_83, server: 195.181.166.225, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
   - {name: 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_66, server: 195.181.166.225, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: CYL-科技（2021.11.07） 11, server: 185.108.106.172, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: CYL-科技（2021.11.06） 12, server: 185.76.9.56, port: 39171, type: ss, cipher: aes-256-gcm, password: z4pM2gA9QEEC6NRmqTQubm6Z}
-  - {name: 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31, server: 195.181.166.225, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 2, server: 156.146.62.45, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港[感谢订阅——科技网络]
-      - CYL-科技（2021.11.07）
       - 奈飞会员6元/月,电报群https://t.me/lnafq
       - 奈飞会员6元/月,电报群https://t.me/lnafq 2
       - 奈飞会员6元/月,电报群https://t.me/lnafq 3
       - 奈飞会员6元/月,电报群https://t.me/lnafq 4
+      - CYL-科技（2021.11.08）
       - 奈飞会员6元/月,电报群https://t.me/lnafq 5
       - 奈飞会员6元/月,电报群https://t.me/lnafq 6
       - 奈飞会员6元/月,电报群https://t.me/lnafq 7
       - 奈飞会员6元/月,电报群https://t.me/lnafq 8
+      - CYL-科技（2021.11.08） 2
       - 奈飞会员6元/月,电报群https://t.me/lnafq 9
-      - 电报群https://t.me/lnafq
       - 奈飞会员6元/月,电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 2
-      - 🇸🇬 新加坡(Youtube技术分享室整理)
-      - 电报群https://t.me/lnafq 3
-      - CYL-科技（2021.11.06）
-      - 电报群https://t.me/lnafq 4
-      - CYL-科技（2021.11.07） 2
-      - 电报群https://t.me/lnafq 5
-      - 电报群https://t.me/lnafq 6
-      - 电报群https://t.me/lnafq 7
-      - 电报群https://t.me/lnafq 8
-      - 电报群https://t.me/lnafq 9
-      - 电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 11
-      - 🇸🇬 新加坡阿伟科技-油管5
-      - 🇸🇬 新加坡阿伟科技-油管5 2
-      - 电报群https://t.me/lnafq 12
-      - 电报群https://t.me/lnafq 13
-      - 电报群https://t.me/lnafq 14
       - 奈飞会员6元/月,电报群https://t.me/lnafq 11
-      - YouTube梦歌
+      - CYL-科技（2021.11.08） 3
+      - CYL-科技（2021.11.08） 4
+      - CYL-科技（2021.11.08） 5
       - 奈飞会员6元/月,电报群https://t.me/lnafq 12
+      - CYL-科技（2021.11.08） 6
       - 奈飞会员6元/月,电报群https://t.me/lnafq 13
-      - YouTube梦歌 2
+      - CYL-科技（2021.11.08） 7
+      - 电报群https://t.me/lnafq
+      - 电报群https://t.me/lnafq 2
+      - 电报群https://t.me/lnafq 3
+      - CYL-科技（2021.11.08） 8
       - 奈飞会员6元/月,电报群https://t.me/lnafq 14
+      - CYL-科技（2021.11.07）
+      - 电报群https://t.me/lnafq 4
+      - CYL-科技（2021.11.08） 9
+      - 电报群https://t.me/lnafq 5
+      - CYL-科技（2021.11.08） 10
+      - CYL-科技（2021.11.08） 11
+      - CYL-科技（2021.11.08） 12
+      - CYL-科技（2021.11.08） 13
+      - CYL-科技（2021.11.06）
+      - 🇯🇵 日本阿伟科技-油管6
+      - CYL-科技（2021.11.08） 14
+      - 🇰🇷 韩国阿伟科技-油管6
+      - 🇯🇵 日本阿伟科技-油管6 2
+      - 🇸🇬 新加坡阿伟科技-油管5
+      - 🇯🇵 日本阿伟科技-油管6 3
+      - 🇯🇵 日本阿伟科技-油管
+      - CYL-科技（2021.11.08） 15
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 15
+      - 🇸🇬 新加坡阿伟科技-油管5 2
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 16
+      - CYL-科技（2021.11.08） 16
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 17
+      - CYL-科技（2021.11.08） 17
+      - CYL-科技（2021.11.08） 18
+      - 电报群https://t.me/lnafq 6
+      - CYL-科技（2021.11.08） 19
+      - 电报群https://t.me/lnafq 7
+      - YouTube梦歌
+      - YouTube梦歌 2
+      - CYL-科技（2021.11.06） 2
+      - 电报群https://t.me/lnafq 8
       - YouTube梦歌 3
+      - CYL-科技（2021.11.08） 20
       - YouTube梦歌 4
       - YouTube梦歌 5
+      - CYL-科技（2021.11.08） 21
       - YouTube梦歌 6
-      - 奈飞会员6元/月,电报群https://t.me/lnafq 15
-      - CYL-科技（2021.11.06） 2
       - YouTube梦歌 7
+      - CYL-科技（2021.11.08） 22
+      - CYL-科技（2021.11.08） 23
+      - CYL-科技（2021.11.08） 24
       - YouTube梦歌 8
       - YouTube梦歌 9
       - YouTube梦歌 10
       - YouTube梦歌 11
+      - CYL-科技（2021.11.08） 25
       - YouTube梦歌 12
-      - 奈飞会员6元/月,电报群https://t.me/lnafq 16
+      - 阿伟科技-油管5
       - YouTube梦歌 13
       - YouTube梦歌 14
-      - YouTube梦歌 15
-      - YouTube梦歌 16
-      - YouTube梦歌 17
-      - YouTube梦歌 18
-      - YouTube梦歌 19
-      - YouTube梦歌 20
-      - YouTube梦歌 21
-      - CYL-科技（2021.11.07） 3
+      - CYL-科技（2021.11.08） 26
+      - CYL-科技（2021.11.08） 27
+      - CYL-科技（2021.11.08） 28
+      - CYL-科技（2021.11.08） 29
+      - CYL-科技（2021.11.08） 30
+      - CYL-科技（2021.11.08） 31
+      - CYL-科技（2021.11.08） 32
+      - CYL-科技（2021.11.08） 33
+      - CYL-科技（2021.11.08） 34
+      - CYL-科技（2021.11.08） 35
+      - CYL-科技（2021.11.08） 36
+      - 🇨🇭 瑞士（YouTube资源分享者）
+      - CYL-科技（2021.11.08） 37
+      - CYL-科技（2021.11.08） 38
+      - CYL-科技（2021.11.08） 39
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_2
-      - CYL-科技（2021.11.07） 4
-      - CYL-科技（2021.11.07） 5
-      - 阿伟科技-油管5
-      - CYL-科技（2021.11.07） 6
-      - CYL-科技（2021.11.06） 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_77
-      - CYL-科技（2021.11.06） 4
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_6
-      - CYL-科技（2021.11.06） 5
-      - CYL-科技（2021.11.06） 6
-      - CYL-科技（2021.11.06） 7
-      - CYL-科技（2021.11.07） 7
-      - CYL-科技（2021.11.07） 8
-      - 阿伟科技-油管5 2
-      - CYL-科技（2021.11.06） 8
-      - CYL-科技（2021.11.07） 9
-      - CYL-科技（2021.11.07） 10
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_32
-      - CYL-科技（2021.11.06） 9
-      - CYL-科技（2021.11.06） 10
+      - 🇰🇷 韩国阿伟科技-油管
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇬 新加坡阿伟科技-油管1
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_12
+      - 🇷🇴 罗马尼亚（YouTube资源分享者）
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_14
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_77
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_75
-      - CYL-科技（2021.11.06） 11
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_33
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_28
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_82
+      - 🇨🇭 瑞士（YouTube资源分享者） 2
+      - 🇺🇸 美国阿伟科技-油管1
+      - CYL-科技（2021.11.06） 3
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_83
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_66
-      - CYL-科技（2021.11.07） 11
-      - CYL-科技（2021.11.06） 12
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港[感谢订阅——科技网络]
-      - CYL-科技（2021.11.07）
       - 奈飞会员6元/月,电报群https://t.me/lnafq
       - 奈飞会员6元/月,电报群https://t.me/lnafq 2
       - 奈飞会员6元/月,电报群https://t.me/lnafq 3
       - 奈飞会员6元/月,电报群https://t.me/lnafq 4
+      - CYL-科技（2021.11.08）
       - 奈飞会员6元/月,电报群https://t.me/lnafq 5
       - 奈飞会员6元/月,电报群https://t.me/lnafq 6
       - 奈飞会员6元/月,电报群https://t.me/lnafq 7
       - 奈飞会员6元/月,电报群https://t.me/lnafq 8
+      - CYL-科技（2021.11.08） 2
       - 奈飞会员6元/月,电报群https://t.me/lnafq 9
-      - 电报群https://t.me/lnafq
       - 奈飞会员6元/月,电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 2
-      - 🇸🇬 新加坡(Youtube技术分享室整理)
-      - 电报群https://t.me/lnafq 3
-      - CYL-科技（2021.11.06）
-      - 电报群https://t.me/lnafq 4
-      - CYL-科技（2021.11.07） 2
-      - 电报群https://t.me/lnafq 5
-      - 电报群https://t.me/lnafq 6
-      - 电报群https://t.me/lnafq 7
-      - 电报群https://t.me/lnafq 8
-      - 电报群https://t.me/lnafq 9
-      - 电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 11
-      - 🇸🇬 新加坡阿伟科技-油管5
-      - 🇸🇬 新加坡阿伟科技-油管5 2
-      - 电报群https://t.me/lnafq 12
-      - 电报群https://t.me/lnafq 13
-      - 电报群https://t.me/lnafq 14
       - 奈飞会员6元/月,电报群https://t.me/lnafq 11
-      - YouTube梦歌
+      - CYL-科技（2021.11.08） 3
+      - CYL-科技（2021.11.08） 4
+      - CYL-科技（2021.11.08） 5
       - 奈飞会员6元/月,电报群https://t.me/lnafq 12
+      - CYL-科技（2021.11.08） 6
       - 奈飞会员6元/月,电报群https://t.me/lnafq 13
-      - YouTube梦歌 2
+      - CYL-科技（2021.11.08） 7
+      - 电报群https://t.me/lnafq
+      - 电报群https://t.me/lnafq 2
+      - 电报群https://t.me/lnafq 3
+      - CYL-科技（2021.11.08） 8
       - 奈飞会员6元/月,电报群https://t.me/lnafq 14
+      - CYL-科技（2021.11.07）
+      - 电报群https://t.me/lnafq 4
+      - CYL-科技（2021.11.08） 9
+      - 电报群https://t.me/lnafq 5
+      - CYL-科技（2021.11.08） 10
+      - CYL-科技（2021.11.08） 11
+      - CYL-科技（2021.11.08） 12
+      - CYL-科技（2021.11.08） 13
+      - CYL-科技（2021.11.06）
+      - 🇯🇵 日本阿伟科技-油管6
+      - CYL-科技（2021.11.08） 14
+      - 🇰🇷 韩国阿伟科技-油管6
+      - 🇯🇵 日本阿伟科技-油管6 2
+      - 🇸🇬 新加坡阿伟科技-油管5
+      - 🇯🇵 日本阿伟科技-油管6 3
+      - 🇯🇵 日本阿伟科技-油管
+      - CYL-科技（2021.11.08） 15
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 15
+      - 🇸🇬 新加坡阿伟科技-油管5 2
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 16
+      - CYL-科技（2021.11.08） 16
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 17
+      - CYL-科技（2021.11.08） 17
+      - CYL-科技（2021.11.08） 18
+      - 电报群https://t.me/lnafq 6
+      - CYL-科技（2021.11.08） 19
+      - 电报群https://t.me/lnafq 7
+      - YouTube梦歌
+      - YouTube梦歌 2
+      - CYL-科技（2021.11.06） 2
+      - 电报群https://t.me/lnafq 8
       - YouTube梦歌 3
+      - CYL-科技（2021.11.08） 20
       - YouTube梦歌 4
       - YouTube梦歌 5
+      - CYL-科技（2021.11.08） 21
       - YouTube梦歌 6
-      - 奈飞会员6元/月,电报群https://t.me/lnafq 15
-      - CYL-科技（2021.11.06） 2
       - YouTube梦歌 7
+      - CYL-科技（2021.11.08） 22
+      - CYL-科技（2021.11.08） 23
+      - CYL-科技（2021.11.08） 24
       - YouTube梦歌 8
       - YouTube梦歌 9
       - YouTube梦歌 10
       - YouTube梦歌 11
+      - CYL-科技（2021.11.08） 25
       - YouTube梦歌 12
-      - 奈飞会员6元/月,电报群https://t.me/lnafq 16
+      - 阿伟科技-油管5
       - YouTube梦歌 13
       - YouTube梦歌 14
-      - YouTube梦歌 15
-      - YouTube梦歌 16
-      - YouTube梦歌 17
-      - YouTube梦歌 18
-      - YouTube梦歌 19
-      - YouTube梦歌 20
-      - YouTube梦歌 21
-      - CYL-科技（2021.11.07） 3
+      - CYL-科技（2021.11.08） 26
+      - CYL-科技（2021.11.08） 27
+      - CYL-科技（2021.11.08） 28
+      - CYL-科技（2021.11.08） 29
+      - CYL-科技（2021.11.08） 30
+      - CYL-科技（2021.11.08） 31
+      - CYL-科技（2021.11.08） 32
+      - CYL-科技（2021.11.08） 33
+      - CYL-科技（2021.11.08） 34
+      - CYL-科技（2021.11.08） 35
+      - CYL-科技（2021.11.08） 36
+      - 🇨🇭 瑞士（YouTube资源分享者）
+      - CYL-科技（2021.11.08） 37
+      - CYL-科技（2021.11.08） 38
+      - CYL-科技（2021.11.08） 39
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_2
-      - CYL-科技（2021.11.07） 4
-      - CYL-科技（2021.11.07） 5
-      - 阿伟科技-油管5
-      - CYL-科技（2021.11.07） 6
-      - CYL-科技（2021.11.06） 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_77
-      - CYL-科技（2021.11.06） 4
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_6
-      - CYL-科技（2021.11.06） 5
-      - CYL-科技（2021.11.06） 6
-      - CYL-科技（2021.11.06） 7
-      - CYL-科技（2021.11.07） 7
-      - CYL-科技（2021.11.07） 8
-      - 阿伟科技-油管5 2
-      - CYL-科技（2021.11.06） 8
-      - CYL-科技（2021.11.07） 9
-      - CYL-科技（2021.11.07） 10
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_32
-      - CYL-科技（2021.11.06） 9
-      - CYL-科技（2021.11.06） 10
+      - 🇰🇷 韩国阿伟科技-油管
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇬 新加坡阿伟科技-油管1
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_12
+      - 🇷🇴 罗马尼亚（YouTube资源分享者）
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_14
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_77
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_75
-      - CYL-科技（2021.11.06） 11
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_33
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_28
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_82
+      - 🇨🇭 瑞士（YouTube资源分享者） 2
+      - 🇺🇸 美国阿伟科技-油管1
+      - CYL-科技（2021.11.06） 3
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_83
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_66
-      - CYL-科技（2021.11.07） 11
-      - CYL-科技（2021.11.06） 12
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港[感谢订阅——科技网络]
-      - CYL-科技（2021.11.07）
       - 奈飞会员6元/月,电报群https://t.me/lnafq
       - 奈飞会员6元/月,电报群https://t.me/lnafq 2
       - 奈飞会员6元/月,电报群https://t.me/lnafq 3
       - 奈飞会员6元/月,电报群https://t.me/lnafq 4
+      - CYL-科技（2021.11.08）
       - 奈飞会员6元/月,电报群https://t.me/lnafq 5
       - 奈飞会员6元/月,电报群https://t.me/lnafq 6
       - 奈飞会员6元/月,电报群https://t.me/lnafq 7
       - 奈飞会员6元/月,电报群https://t.me/lnafq 8
+      - CYL-科技（2021.11.08） 2
       - 奈飞会员6元/月,电报群https://t.me/lnafq 9
-      - 电报群https://t.me/lnafq
       - 奈飞会员6元/月,电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 2
-      - 🇸🇬 新加坡(Youtube技术分享室整理)
-      - 电报群https://t.me/lnafq 3
-      - CYL-科技（2021.11.06）
-      - 电报群https://t.me/lnafq 4
-      - CYL-科技（2021.11.07） 2
-      - 电报群https://t.me/lnafq 5
-      - 电报群https://t.me/lnafq 6
-      - 电报群https://t.me/lnafq 7
-      - 电报群https://t.me/lnafq 8
-      - 电报群https://t.me/lnafq 9
-      - 电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 11
-      - 🇸🇬 新加坡阿伟科技-油管5
-      - 🇸🇬 新加坡阿伟科技-油管5 2
-      - 电报群https://t.me/lnafq 12
-      - 电报群https://t.me/lnafq 13
-      - 电报群https://t.me/lnafq 14
       - 奈飞会员6元/月,电报群https://t.me/lnafq 11
-      - YouTube梦歌
+      - CYL-科技（2021.11.08） 3
+      - CYL-科技（2021.11.08） 4
+      - CYL-科技（2021.11.08） 5
       - 奈飞会员6元/月,电报群https://t.me/lnafq 12
+      - CYL-科技（2021.11.08） 6
       - 奈飞会员6元/月,电报群https://t.me/lnafq 13
-      - YouTube梦歌 2
+      - CYL-科技（2021.11.08） 7
+      - 电报群https://t.me/lnafq
+      - 电报群https://t.me/lnafq 2
+      - 电报群https://t.me/lnafq 3
+      - CYL-科技（2021.11.08） 8
       - 奈飞会员6元/月,电报群https://t.me/lnafq 14
+      - CYL-科技（2021.11.07）
+      - 电报群https://t.me/lnafq 4
+      - CYL-科技（2021.11.08） 9
+      - 电报群https://t.me/lnafq 5
+      - CYL-科技（2021.11.08） 10
+      - CYL-科技（2021.11.08） 11
+      - CYL-科技（2021.11.08） 12
+      - CYL-科技（2021.11.08） 13
+      - CYL-科技（2021.11.06）
+      - 🇯🇵 日本阿伟科技-油管6
+      - CYL-科技（2021.11.08） 14
+      - 🇰🇷 韩国阿伟科技-油管6
+      - 🇯🇵 日本阿伟科技-油管6 2
+      - 🇸🇬 新加坡阿伟科技-油管5
+      - 🇯🇵 日本阿伟科技-油管6 3
+      - 🇯🇵 日本阿伟科技-油管
+      - CYL-科技（2021.11.08） 15
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 15
+      - 🇸🇬 新加坡阿伟科技-油管5 2
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 16
+      - CYL-科技（2021.11.08） 16
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 17
+      - CYL-科技（2021.11.08） 17
+      - CYL-科技（2021.11.08） 18
+      - 电报群https://t.me/lnafq 6
+      - CYL-科技（2021.11.08） 19
+      - 电报群https://t.me/lnafq 7
+      - YouTube梦歌
+      - YouTube梦歌 2
+      - CYL-科技（2021.11.06） 2
+      - 电报群https://t.me/lnafq 8
       - YouTube梦歌 3
+      - CYL-科技（2021.11.08） 20
       - YouTube梦歌 4
       - YouTube梦歌 5
+      - CYL-科技（2021.11.08） 21
       - YouTube梦歌 6
-      - 奈飞会员6元/月,电报群https://t.me/lnafq 15
-      - CYL-科技（2021.11.06） 2
       - YouTube梦歌 7
+      - CYL-科技（2021.11.08） 22
+      - CYL-科技（2021.11.08） 23
+      - CYL-科技（2021.11.08） 24
       - YouTube梦歌 8
       - YouTube梦歌 9
       - YouTube梦歌 10
       - YouTube梦歌 11
+      - CYL-科技（2021.11.08） 25
       - YouTube梦歌 12
-      - 奈飞会员6元/月,电报群https://t.me/lnafq 16
+      - 阿伟科技-油管5
       - YouTube梦歌 13
       - YouTube梦歌 14
-      - YouTube梦歌 15
-      - YouTube梦歌 16
-      - YouTube梦歌 17
-      - YouTube梦歌 18
-      - YouTube梦歌 19
-      - YouTube梦歌 20
-      - YouTube梦歌 21
-      - CYL-科技（2021.11.07） 3
+      - CYL-科技（2021.11.08） 26
+      - CYL-科技（2021.11.08） 27
+      - CYL-科技（2021.11.08） 28
+      - CYL-科技（2021.11.08） 29
+      - CYL-科技（2021.11.08） 30
+      - CYL-科技（2021.11.08） 31
+      - CYL-科技（2021.11.08） 32
+      - CYL-科技（2021.11.08） 33
+      - CYL-科技（2021.11.08） 34
+      - CYL-科技（2021.11.08） 35
+      - CYL-科技（2021.11.08） 36
+      - 🇨🇭 瑞士（YouTube资源分享者）
+      - CYL-科技（2021.11.08） 37
+      - CYL-科技（2021.11.08） 38
+      - CYL-科技（2021.11.08） 39
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_2
-      - CYL-科技（2021.11.07） 4
-      - CYL-科技（2021.11.07） 5
-      - 阿伟科技-油管5
-      - CYL-科技（2021.11.07） 6
-      - CYL-科技（2021.11.06） 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_77
-      - CYL-科技（2021.11.06） 4
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_6
-      - CYL-科技（2021.11.06） 5
-      - CYL-科技（2021.11.06） 6
-      - CYL-科技（2021.11.06） 7
-      - CYL-科技（2021.11.07） 7
-      - CYL-科技（2021.11.07） 8
-      - 阿伟科技-油管5 2
-      - CYL-科技（2021.11.06） 8
-      - CYL-科技（2021.11.07） 9
-      - CYL-科技（2021.11.07） 10
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_32
-      - CYL-科技（2021.11.06） 9
-      - CYL-科技（2021.11.06） 10
+      - 🇰🇷 韩国阿伟科技-油管
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇬 新加坡阿伟科技-油管1
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_12
+      - 🇷🇴 罗马尼亚（YouTube资源分享者）
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_14
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_77
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_75
-      - CYL-科技（2021.11.06） 11
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_33
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_28
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_82
+      - 🇨🇭 瑞士（YouTube资源分享者） 2
+      - 🇺🇸 美国阿伟科技-油管1
+      - CYL-科技（2021.11.06） 3
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_83
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_66
-      - CYL-科技（2021.11.07） 11
-      - CYL-科技（2021.11.06） 12
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港[感谢订阅——科技网络]
-      - CYL-科技（2021.11.07）
       - 奈飞会员6元/月,电报群https://t.me/lnafq
       - 奈飞会员6元/月,电报群https://t.me/lnafq 2
       - 奈飞会员6元/月,电报群https://t.me/lnafq 3
       - 奈飞会员6元/月,电报群https://t.me/lnafq 4
+      - CYL-科技（2021.11.08）
       - 奈飞会员6元/月,电报群https://t.me/lnafq 5
       - 奈飞会员6元/月,电报群https://t.me/lnafq 6
       - 奈飞会员6元/月,电报群https://t.me/lnafq 7
       - 奈飞会员6元/月,电报群https://t.me/lnafq 8
+      - CYL-科技（2021.11.08） 2
       - 奈飞会员6元/月,电报群https://t.me/lnafq 9
-      - 电报群https://t.me/lnafq
       - 奈飞会员6元/月,电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 2
-      - 🇸🇬 新加坡(Youtube技术分享室整理)
-      - 电报群https://t.me/lnafq 3
-      - CYL-科技（2021.11.06）
-      - 电报群https://t.me/lnafq 4
-      - CYL-科技（2021.11.07） 2
-      - 电报群https://t.me/lnafq 5
-      - 电报群https://t.me/lnafq 6
-      - 电报群https://t.me/lnafq 7
-      - 电报群https://t.me/lnafq 8
-      - 电报群https://t.me/lnafq 9
-      - 电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 11
-      - 🇸🇬 新加坡阿伟科技-油管5
-      - 🇸🇬 新加坡阿伟科技-油管5 2
-      - 电报群https://t.me/lnafq 12
-      - 电报群https://t.me/lnafq 13
-      - 电报群https://t.me/lnafq 14
       - 奈飞会员6元/月,电报群https://t.me/lnafq 11
-      - YouTube梦歌
+      - CYL-科技（2021.11.08） 3
+      - CYL-科技（2021.11.08） 4
+      - CYL-科技（2021.11.08） 5
       - 奈飞会员6元/月,电报群https://t.me/lnafq 12
+      - CYL-科技（2021.11.08） 6
       - 奈飞会员6元/月,电报群https://t.me/lnafq 13
-      - YouTube梦歌 2
+      - CYL-科技（2021.11.08） 7
+      - 电报群https://t.me/lnafq
+      - 电报群https://t.me/lnafq 2
+      - 电报群https://t.me/lnafq 3
+      - CYL-科技（2021.11.08） 8
       - 奈飞会员6元/月,电报群https://t.me/lnafq 14
+      - CYL-科技（2021.11.07）
+      - 电报群https://t.me/lnafq 4
+      - CYL-科技（2021.11.08） 9
+      - 电报群https://t.me/lnafq 5
+      - CYL-科技（2021.11.08） 10
+      - CYL-科技（2021.11.08） 11
+      - CYL-科技（2021.11.08） 12
+      - CYL-科技（2021.11.08） 13
+      - CYL-科技（2021.11.06）
+      - 🇯🇵 日本阿伟科技-油管6
+      - CYL-科技（2021.11.08） 14
+      - 🇰🇷 韩国阿伟科技-油管6
+      - 🇯🇵 日本阿伟科技-油管6 2
+      - 🇸🇬 新加坡阿伟科技-油管5
+      - 🇯🇵 日本阿伟科技-油管6 3
+      - 🇯🇵 日本阿伟科技-油管
+      - CYL-科技（2021.11.08） 15
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 15
+      - 🇸🇬 新加坡阿伟科技-油管5 2
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 16
+      - CYL-科技（2021.11.08） 16
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 17
+      - CYL-科技（2021.11.08） 17
+      - CYL-科技（2021.11.08） 18
+      - 电报群https://t.me/lnafq 6
+      - CYL-科技（2021.11.08） 19
+      - 电报群https://t.me/lnafq 7
+      - YouTube梦歌
+      - YouTube梦歌 2
+      - CYL-科技（2021.11.06） 2
+      - 电报群https://t.me/lnafq 8
       - YouTube梦歌 3
+      - CYL-科技（2021.11.08） 20
       - YouTube梦歌 4
       - YouTube梦歌 5
+      - CYL-科技（2021.11.08） 21
       - YouTube梦歌 6
-      - 奈飞会员6元/月,电报群https://t.me/lnafq 15
-      - CYL-科技（2021.11.06） 2
       - YouTube梦歌 7
+      - CYL-科技（2021.11.08） 22
+      - CYL-科技（2021.11.08） 23
+      - CYL-科技（2021.11.08） 24
       - YouTube梦歌 8
       - YouTube梦歌 9
       - YouTube梦歌 10
       - YouTube梦歌 11
+      - CYL-科技（2021.11.08） 25
       - YouTube梦歌 12
-      - 奈飞会员6元/月,电报群https://t.me/lnafq 16
+      - 阿伟科技-油管5
       - YouTube梦歌 13
       - YouTube梦歌 14
-      - YouTube梦歌 15
-      - YouTube梦歌 16
-      - YouTube梦歌 17
-      - YouTube梦歌 18
-      - YouTube梦歌 19
-      - YouTube梦歌 20
-      - YouTube梦歌 21
-      - CYL-科技（2021.11.07） 3
+      - CYL-科技（2021.11.08） 26
+      - CYL-科技（2021.11.08） 27
+      - CYL-科技（2021.11.08） 28
+      - CYL-科技（2021.11.08） 29
+      - CYL-科技（2021.11.08） 30
+      - CYL-科技（2021.11.08） 31
+      - CYL-科技（2021.11.08） 32
+      - CYL-科技（2021.11.08） 33
+      - CYL-科技（2021.11.08） 34
+      - CYL-科技（2021.11.08） 35
+      - CYL-科技（2021.11.08） 36
+      - 🇨🇭 瑞士（YouTube资源分享者）
+      - CYL-科技（2021.11.08） 37
+      - CYL-科技（2021.11.08） 38
+      - CYL-科技（2021.11.08） 39
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_2
-      - CYL-科技（2021.11.07） 4
-      - CYL-科技（2021.11.07） 5
-      - 阿伟科技-油管5
-      - CYL-科技（2021.11.07） 6
-      - CYL-科技（2021.11.06） 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_77
-      - CYL-科技（2021.11.06） 4
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_6
-      - CYL-科技（2021.11.06） 5
-      - CYL-科技（2021.11.06） 6
-      - CYL-科技（2021.11.06） 7
-      - CYL-科技（2021.11.07） 7
-      - CYL-科技（2021.11.07） 8
-      - 阿伟科技-油管5 2
-      - CYL-科技（2021.11.06） 8
-      - CYL-科技（2021.11.07） 9
-      - CYL-科技（2021.11.07） 10
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_32
-      - CYL-科技（2021.11.06） 9
-      - CYL-科技（2021.11.06） 10
+      - 🇰🇷 韩国阿伟科技-油管
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇬 新加坡阿伟科技-油管1
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_12
+      - 🇷🇴 罗马尼亚（YouTube资源分享者）
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_14
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_77
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_75
-      - CYL-科技（2021.11.06） 11
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_33
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_28
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_82
+      - 🇨🇭 瑞士（YouTube资源分享者） 2
+      - 🇺🇸 美国阿伟科技-油管1
+      - CYL-科技（2021.11.06） 3
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_83
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_66
-      - CYL-科技（2021.11.07） 11
-      - CYL-科技（2021.11.06） 12
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰 香港[感谢订阅——科技网络]
-      - CYL-科技（2021.11.07）
       - 奈飞会员6元/月,电报群https://t.me/lnafq
       - 奈飞会员6元/月,电报群https://t.me/lnafq 2
       - 奈飞会员6元/月,电报群https://t.me/lnafq 3
       - 奈飞会员6元/月,电报群https://t.me/lnafq 4
+      - CYL-科技（2021.11.08）
       - 奈飞会员6元/月,电报群https://t.me/lnafq 5
       - 奈飞会员6元/月,电报群https://t.me/lnafq 6
       - 奈飞会员6元/月,电报群https://t.me/lnafq 7
       - 奈飞会员6元/月,电报群https://t.me/lnafq 8
+      - CYL-科技（2021.11.08） 2
       - 奈飞会员6元/月,电报群https://t.me/lnafq 9
-      - 电报群https://t.me/lnafq
       - 奈飞会员6元/月,电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 2
-      - 🇸🇬 新加坡(Youtube技术分享室整理)
-      - 电报群https://t.me/lnafq 3
-      - CYL-科技（2021.11.06）
-      - 电报群https://t.me/lnafq 4
-      - CYL-科技（2021.11.07） 2
-      - 电报群https://t.me/lnafq 5
-      - 电报群https://t.me/lnafq 6
-      - 电报群https://t.me/lnafq 7
-      - 电报群https://t.me/lnafq 8
-      - 电报群https://t.me/lnafq 9
-      - 电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 11
-      - 🇸🇬 新加坡阿伟科技-油管5
-      - 🇸🇬 新加坡阿伟科技-油管5 2
-      - 电报群https://t.me/lnafq 12
-      - 电报群https://t.me/lnafq 13
-      - 电报群https://t.me/lnafq 14
       - 奈飞会员6元/月,电报群https://t.me/lnafq 11
-      - YouTube梦歌
+      - CYL-科技（2021.11.08） 3
+      - CYL-科技（2021.11.08） 4
+      - CYL-科技（2021.11.08） 5
       - 奈飞会员6元/月,电报群https://t.me/lnafq 12
+      - CYL-科技（2021.11.08） 6
       - 奈飞会员6元/月,电报群https://t.me/lnafq 13
-      - YouTube梦歌 2
+      - CYL-科技（2021.11.08） 7
+      - 电报群https://t.me/lnafq
+      - 电报群https://t.me/lnafq 2
+      - 电报群https://t.me/lnafq 3
+      - CYL-科技（2021.11.08） 8
       - 奈飞会员6元/月,电报群https://t.me/lnafq 14
+      - CYL-科技（2021.11.07）
+      - 电报群https://t.me/lnafq 4
+      - CYL-科技（2021.11.08） 9
+      - 电报群https://t.me/lnafq 5
+      - CYL-科技（2021.11.08） 10
+      - CYL-科技（2021.11.08） 11
+      - CYL-科技（2021.11.08） 12
+      - CYL-科技（2021.11.08） 13
+      - CYL-科技（2021.11.06）
+      - 🇯🇵 日本阿伟科技-油管6
+      - CYL-科技（2021.11.08） 14
+      - 🇰🇷 韩国阿伟科技-油管6
+      - 🇯🇵 日本阿伟科技-油管6 2
+      - 🇸🇬 新加坡阿伟科技-油管5
+      - 🇯🇵 日本阿伟科技-油管6 3
+      - 🇯🇵 日本阿伟科技-油管
+      - CYL-科技（2021.11.08） 15
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 15
+      - 🇸🇬 新加坡阿伟科技-油管5 2
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 16
+      - CYL-科技（2021.11.08） 16
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 17
+      - CYL-科技（2021.11.08） 17
+      - CYL-科技（2021.11.08） 18
+      - 电报群https://t.me/lnafq 6
+      - CYL-科技（2021.11.08） 19
+      - 电报群https://t.me/lnafq 7
+      - YouTube梦歌
+      - YouTube梦歌 2
+      - CYL-科技（2021.11.06） 2
+      - 电报群https://t.me/lnafq 8
       - YouTube梦歌 3
+      - CYL-科技（2021.11.08） 20
       - YouTube梦歌 4
       - YouTube梦歌 5
+      - CYL-科技（2021.11.08） 21
       - YouTube梦歌 6
-      - 奈飞会员6元/月,电报群https://t.me/lnafq 15
-      - CYL-科技（2021.11.06） 2
       - YouTube梦歌 7
+      - CYL-科技（2021.11.08） 22
+      - CYL-科技（2021.11.08） 23
+      - CYL-科技（2021.11.08） 24
       - YouTube梦歌 8
       - YouTube梦歌 9
       - YouTube梦歌 10
       - YouTube梦歌 11
+      - CYL-科技（2021.11.08） 25
       - YouTube梦歌 12
-      - 奈飞会员6元/月,电报群https://t.me/lnafq 16
+      - 阿伟科技-油管5
       - YouTube梦歌 13
       - YouTube梦歌 14
-      - YouTube梦歌 15
-      - YouTube梦歌 16
-      - YouTube梦歌 17
-      - YouTube梦歌 18
-      - YouTube梦歌 19
-      - YouTube梦歌 20
-      - YouTube梦歌 21
-      - CYL-科技（2021.11.07） 3
+      - CYL-科技（2021.11.08） 26
+      - CYL-科技（2021.11.08） 27
+      - CYL-科技（2021.11.08） 28
+      - CYL-科技（2021.11.08） 29
+      - CYL-科技（2021.11.08） 30
+      - CYL-科技（2021.11.08） 31
+      - CYL-科技（2021.11.08） 32
+      - CYL-科技（2021.11.08） 33
+      - CYL-科技（2021.11.08） 34
+      - CYL-科技（2021.11.08） 35
+      - CYL-科技（2021.11.08） 36
+      - 🇨🇭 瑞士（YouTube资源分享者）
+      - CYL-科技（2021.11.08） 37
+      - CYL-科技（2021.11.08） 38
+      - CYL-科技（2021.11.08） 39
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_2
-      - CYL-科技（2021.11.07） 4
-      - CYL-科技（2021.11.07） 5
-      - 阿伟科技-油管5
-      - CYL-科技（2021.11.07） 6
-      - CYL-科技（2021.11.06） 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_77
-      - CYL-科技（2021.11.06） 4
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_6
-      - CYL-科技（2021.11.06） 5
-      - CYL-科技（2021.11.06） 6
-      - CYL-科技（2021.11.06） 7
-      - CYL-科技（2021.11.07） 7
-      - CYL-科技（2021.11.07） 8
-      - 阿伟科技-油管5 2
-      - CYL-科技（2021.11.06） 8
-      - CYL-科技（2021.11.07） 9
-      - CYL-科技（2021.11.07） 10
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_32
-      - CYL-科技（2021.11.06） 9
-      - CYL-科技（2021.11.06） 10
+      - 🇰🇷 韩国阿伟科技-油管
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇬 新加坡阿伟科技-油管1
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_12
+      - 🇷🇴 罗马尼亚（YouTube资源分享者）
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_14
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_77
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_75
-      - CYL-科技（2021.11.06） 11
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_33
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_28
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_82
+      - 🇨🇭 瑞士（YouTube资源分享者） 2
+      - 🇺🇸 美国阿伟科技-油管1
+      - CYL-科技（2021.11.06） 3
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_83
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_66
-      - CYL-科技（2021.11.07） 11
-      - CYL-科技（2021.11.06） 12
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港[感谢订阅——科技网络]
-      - CYL-科技（2021.11.07）
       - 奈飞会员6元/月,电报群https://t.me/lnafq
       - 奈飞会员6元/月,电报群https://t.me/lnafq 2
       - 奈飞会员6元/月,电报群https://t.me/lnafq 3
       - 奈飞会员6元/月,电报群https://t.me/lnafq 4
+      - CYL-科技（2021.11.08）
       - 奈飞会员6元/月,电报群https://t.me/lnafq 5
       - 奈飞会员6元/月,电报群https://t.me/lnafq 6
       - 奈飞会员6元/月,电报群https://t.me/lnafq 7
       - 奈飞会员6元/月,电报群https://t.me/lnafq 8
+      - CYL-科技（2021.11.08） 2
       - 奈飞会员6元/月,电报群https://t.me/lnafq 9
-      - 电报群https://t.me/lnafq
       - 奈飞会员6元/月,电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 2
-      - 🇸🇬 新加坡(Youtube技术分享室整理)
-      - 电报群https://t.me/lnafq 3
-      - CYL-科技（2021.11.06）
-      - 电报群https://t.me/lnafq 4
-      - CYL-科技（2021.11.07） 2
-      - 电报群https://t.me/lnafq 5
-      - 电报群https://t.me/lnafq 6
-      - 电报群https://t.me/lnafq 7
-      - 电报群https://t.me/lnafq 8
-      - 电报群https://t.me/lnafq 9
-      - 电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 11
-      - 🇸🇬 新加坡阿伟科技-油管5
-      - 🇸🇬 新加坡阿伟科技-油管5 2
-      - 电报群https://t.me/lnafq 12
-      - 电报群https://t.me/lnafq 13
-      - 电报群https://t.me/lnafq 14
       - 奈飞会员6元/月,电报群https://t.me/lnafq 11
-      - YouTube梦歌
+      - CYL-科技（2021.11.08） 3
+      - CYL-科技（2021.11.08） 4
+      - CYL-科技（2021.11.08） 5
       - 奈飞会员6元/月,电报群https://t.me/lnafq 12
+      - CYL-科技（2021.11.08） 6
       - 奈飞会员6元/月,电报群https://t.me/lnafq 13
-      - YouTube梦歌 2
+      - CYL-科技（2021.11.08） 7
+      - 电报群https://t.me/lnafq
+      - 电报群https://t.me/lnafq 2
+      - 电报群https://t.me/lnafq 3
+      - CYL-科技（2021.11.08） 8
       - 奈飞会员6元/月,电报群https://t.me/lnafq 14
+      - CYL-科技（2021.11.07）
+      - 电报群https://t.me/lnafq 4
+      - CYL-科技（2021.11.08） 9
+      - 电报群https://t.me/lnafq 5
+      - CYL-科技（2021.11.08） 10
+      - CYL-科技（2021.11.08） 11
+      - CYL-科技（2021.11.08） 12
+      - CYL-科技（2021.11.08） 13
+      - CYL-科技（2021.11.06）
+      - 🇯🇵 日本阿伟科技-油管6
+      - CYL-科技（2021.11.08） 14
+      - 🇰🇷 韩国阿伟科技-油管6
+      - 🇯🇵 日本阿伟科技-油管6 2
+      - 🇸🇬 新加坡阿伟科技-油管5
+      - 🇯🇵 日本阿伟科技-油管6 3
+      - 🇯🇵 日本阿伟科技-油管
+      - CYL-科技（2021.11.08） 15
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 15
+      - 🇸🇬 新加坡阿伟科技-油管5 2
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 16
+      - CYL-科技（2021.11.08） 16
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 17
+      - CYL-科技（2021.11.08） 17
+      - CYL-科技（2021.11.08） 18
+      - 电报群https://t.me/lnafq 6
+      - CYL-科技（2021.11.08） 19
+      - 电报群https://t.me/lnafq 7
+      - YouTube梦歌
+      - YouTube梦歌 2
+      - CYL-科技（2021.11.06） 2
+      - 电报群https://t.me/lnafq 8
       - YouTube梦歌 3
+      - CYL-科技（2021.11.08） 20
       - YouTube梦歌 4
       - YouTube梦歌 5
+      - CYL-科技（2021.11.08） 21
       - YouTube梦歌 6
-      - 奈飞会员6元/月,电报群https://t.me/lnafq 15
-      - CYL-科技（2021.11.06） 2
       - YouTube梦歌 7
+      - CYL-科技（2021.11.08） 22
+      - CYL-科技（2021.11.08） 23
+      - CYL-科技（2021.11.08） 24
       - YouTube梦歌 8
       - YouTube梦歌 9
       - YouTube梦歌 10
       - YouTube梦歌 11
+      - CYL-科技（2021.11.08） 25
       - YouTube梦歌 12
-      - 奈飞会员6元/月,电报群https://t.me/lnafq 16
+      - 阿伟科技-油管5
       - YouTube梦歌 13
       - YouTube梦歌 14
-      - YouTube梦歌 15
-      - YouTube梦歌 16
-      - YouTube梦歌 17
-      - YouTube梦歌 18
-      - YouTube梦歌 19
-      - YouTube梦歌 20
-      - YouTube梦歌 21
-      - CYL-科技（2021.11.07） 3
+      - CYL-科技（2021.11.08） 26
+      - CYL-科技（2021.11.08） 27
+      - CYL-科技（2021.11.08） 28
+      - CYL-科技（2021.11.08） 29
+      - CYL-科技（2021.11.08） 30
+      - CYL-科技（2021.11.08） 31
+      - CYL-科技（2021.11.08） 32
+      - CYL-科技（2021.11.08） 33
+      - CYL-科技（2021.11.08） 34
+      - CYL-科技（2021.11.08） 35
+      - CYL-科技（2021.11.08） 36
+      - 🇨🇭 瑞士（YouTube资源分享者）
+      - CYL-科技（2021.11.08） 37
+      - CYL-科技（2021.11.08） 38
+      - CYL-科技（2021.11.08） 39
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_2
-      - CYL-科技（2021.11.07） 4
-      - CYL-科技（2021.11.07） 5
-      - 阿伟科技-油管5
-      - CYL-科技（2021.11.07） 6
-      - CYL-科技（2021.11.06） 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_77
-      - CYL-科技（2021.11.06） 4
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_6
-      - CYL-科技（2021.11.06） 5
-      - CYL-科技（2021.11.06） 6
-      - CYL-科技（2021.11.06） 7
-      - CYL-科技（2021.11.07） 7
-      - CYL-科技（2021.11.07） 8
-      - 阿伟科技-油管5 2
-      - CYL-科技（2021.11.06） 8
-      - CYL-科技（2021.11.07） 9
-      - CYL-科技（2021.11.07） 10
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_32
-      - CYL-科技（2021.11.06） 9
-      - CYL-科技（2021.11.06） 10
+      - 🇰🇷 韩国阿伟科技-油管
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇬 新加坡阿伟科技-油管1
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_12
+      - 🇷🇴 罗马尼亚（YouTube资源分享者）
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_14
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_77
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_75
-      - CYL-科技（2021.11.06） 11
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_33
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_28
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_82
+      - 🇨🇭 瑞士（YouTube资源分享者） 2
+      - 🇺🇸 美国阿伟科技-油管1
+      - CYL-科技（2021.11.06） 3
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_83
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_66
-      - CYL-科技（2021.11.07） 11
-      - CYL-科技（2021.11.06） 12
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港[感谢订阅——科技网络]
-      - CYL-科技（2021.11.07）
       - 奈飞会员6元/月,电报群https://t.me/lnafq
       - 奈飞会员6元/月,电报群https://t.me/lnafq 2
       - 奈飞会员6元/月,电报群https://t.me/lnafq 3
       - 奈飞会员6元/月,电报群https://t.me/lnafq 4
+      - CYL-科技（2021.11.08）
       - 奈飞会员6元/月,电报群https://t.me/lnafq 5
       - 奈飞会员6元/月,电报群https://t.me/lnafq 6
       - 奈飞会员6元/月,电报群https://t.me/lnafq 7
       - 奈飞会员6元/月,电报群https://t.me/lnafq 8
+      - CYL-科技（2021.11.08） 2
       - 奈飞会员6元/月,电报群https://t.me/lnafq 9
-      - 电报群https://t.me/lnafq
       - 奈飞会员6元/月,电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 2
-      - 🇸🇬 新加坡(Youtube技术分享室整理)
-      - 电报群https://t.me/lnafq 3
-      - CYL-科技（2021.11.06）
-      - 电报群https://t.me/lnafq 4
-      - CYL-科技（2021.11.07） 2
-      - 电报群https://t.me/lnafq 5
-      - 电报群https://t.me/lnafq 6
-      - 电报群https://t.me/lnafq 7
-      - 电报群https://t.me/lnafq 8
-      - 电报群https://t.me/lnafq 9
-      - 电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 11
-      - 🇸🇬 新加坡阿伟科技-油管5
-      - 🇸🇬 新加坡阿伟科技-油管5 2
-      - 电报群https://t.me/lnafq 12
-      - 电报群https://t.me/lnafq 13
-      - 电报群https://t.me/lnafq 14
       - 奈飞会员6元/月,电报群https://t.me/lnafq 11
-      - YouTube梦歌
+      - CYL-科技（2021.11.08） 3
+      - CYL-科技（2021.11.08） 4
+      - CYL-科技（2021.11.08） 5
       - 奈飞会员6元/月,电报群https://t.me/lnafq 12
+      - CYL-科技（2021.11.08） 6
       - 奈飞会员6元/月,电报群https://t.me/lnafq 13
-      - YouTube梦歌 2
+      - CYL-科技（2021.11.08） 7
+      - 电报群https://t.me/lnafq
+      - 电报群https://t.me/lnafq 2
+      - 电报群https://t.me/lnafq 3
+      - CYL-科技（2021.11.08） 8
       - 奈飞会员6元/月,电报群https://t.me/lnafq 14
+      - CYL-科技（2021.11.07）
+      - 电报群https://t.me/lnafq 4
+      - CYL-科技（2021.11.08） 9
+      - 电报群https://t.me/lnafq 5
+      - CYL-科技（2021.11.08） 10
+      - CYL-科技（2021.11.08） 11
+      - CYL-科技（2021.11.08） 12
+      - CYL-科技（2021.11.08） 13
+      - CYL-科技（2021.11.06）
+      - 🇯🇵 日本阿伟科技-油管6
+      - CYL-科技（2021.11.08） 14
+      - 🇰🇷 韩国阿伟科技-油管6
+      - 🇯🇵 日本阿伟科技-油管6 2
+      - 🇸🇬 新加坡阿伟科技-油管5
+      - 🇯🇵 日本阿伟科技-油管6 3
+      - 🇯🇵 日本阿伟科技-油管
+      - CYL-科技（2021.11.08） 15
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 15
+      - 🇸🇬 新加坡阿伟科技-油管5 2
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 16
+      - CYL-科技（2021.11.08） 16
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 17
+      - CYL-科技（2021.11.08） 17
+      - CYL-科技（2021.11.08） 18
+      - 电报群https://t.me/lnafq 6
+      - CYL-科技（2021.11.08） 19
+      - 电报群https://t.me/lnafq 7
+      - YouTube梦歌
+      - YouTube梦歌 2
+      - CYL-科技（2021.11.06） 2
+      - 电报群https://t.me/lnafq 8
       - YouTube梦歌 3
+      - CYL-科技（2021.11.08） 20
       - YouTube梦歌 4
       - YouTube梦歌 5
+      - CYL-科技（2021.11.08） 21
       - YouTube梦歌 6
-      - 奈飞会员6元/月,电报群https://t.me/lnafq 15
-      - CYL-科技（2021.11.06） 2
       - YouTube梦歌 7
+      - CYL-科技（2021.11.08） 22
+      - CYL-科技（2021.11.08） 23
+      - CYL-科技（2021.11.08） 24
       - YouTube梦歌 8
       - YouTube梦歌 9
       - YouTube梦歌 10
       - YouTube梦歌 11
+      - CYL-科技（2021.11.08） 25
       - YouTube梦歌 12
-      - 奈飞会员6元/月,电报群https://t.me/lnafq 16
+      - 阿伟科技-油管5
       - YouTube梦歌 13
       - YouTube梦歌 14
-      - YouTube梦歌 15
-      - YouTube梦歌 16
-      - YouTube梦歌 17
-      - YouTube梦歌 18
-      - YouTube梦歌 19
-      - YouTube梦歌 20
-      - YouTube梦歌 21
-      - CYL-科技（2021.11.07） 3
+      - CYL-科技（2021.11.08） 26
+      - CYL-科技（2021.11.08） 27
+      - CYL-科技（2021.11.08） 28
+      - CYL-科技（2021.11.08） 29
+      - CYL-科技（2021.11.08） 30
+      - CYL-科技（2021.11.08） 31
+      - CYL-科技（2021.11.08） 32
+      - CYL-科技（2021.11.08） 33
+      - CYL-科技（2021.11.08） 34
+      - CYL-科技（2021.11.08） 35
+      - CYL-科技（2021.11.08） 36
+      - 🇨🇭 瑞士（YouTube资源分享者）
+      - CYL-科技（2021.11.08） 37
+      - CYL-科技（2021.11.08） 38
+      - CYL-科技（2021.11.08） 39
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_2
-      - CYL-科技（2021.11.07） 4
-      - CYL-科技（2021.11.07） 5
-      - 阿伟科技-油管5
-      - CYL-科技（2021.11.07） 6
-      - CYL-科技（2021.11.06） 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_77
-      - CYL-科技（2021.11.06） 4
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_6
-      - CYL-科技（2021.11.06） 5
-      - CYL-科技（2021.11.06） 6
-      - CYL-科技（2021.11.06） 7
-      - CYL-科技（2021.11.07） 7
-      - CYL-科技（2021.11.07） 8
-      - 阿伟科技-油管5 2
-      - CYL-科技（2021.11.06） 8
-      - CYL-科技（2021.11.07） 9
-      - CYL-科技（2021.11.07） 10
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_32
-      - CYL-科技（2021.11.06） 9
-      - CYL-科技（2021.11.06） 10
+      - 🇰🇷 韩国阿伟科技-油管
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇬 新加坡阿伟科技-油管1
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_12
+      - 🇷🇴 罗马尼亚（YouTube资源分享者）
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_14
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_77
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_75
-      - CYL-科技（2021.11.06） 11
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_33
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_28
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_82
+      - 🇨🇭 瑞士（YouTube资源分享者） 2
+      - 🇺🇸 美国阿伟科技-油管1
+      - CYL-科技（2021.11.06） 3
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_83
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_66
-      - CYL-科技（2021.11.07） 11
-      - CYL-科技（2021.11.06） 12
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -794,97 +938,115 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港[感谢订阅——科技网络]
-      - CYL-科技（2021.11.07）
       - 奈飞会员6元/月,电报群https://t.me/lnafq
       - 奈飞会员6元/月,电报群https://t.me/lnafq 2
       - 奈飞会员6元/月,电报群https://t.me/lnafq 3
       - 奈飞会员6元/月,电报群https://t.me/lnafq 4
+      - CYL-科技（2021.11.08）
       - 奈飞会员6元/月,电报群https://t.me/lnafq 5
       - 奈飞会员6元/月,电报群https://t.me/lnafq 6
       - 奈飞会员6元/月,电报群https://t.me/lnafq 7
       - 奈飞会员6元/月,电报群https://t.me/lnafq 8
+      - CYL-科技（2021.11.08） 2
       - 奈飞会员6元/月,电报群https://t.me/lnafq 9
-      - 电报群https://t.me/lnafq
       - 奈飞会员6元/月,电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 2
-      - 🇸🇬 新加坡(Youtube技术分享室整理)
-      - 电报群https://t.me/lnafq 3
-      - CYL-科技（2021.11.06）
-      - 电报群https://t.me/lnafq 4
-      - CYL-科技（2021.11.07） 2
-      - 电报群https://t.me/lnafq 5
-      - 电报群https://t.me/lnafq 6
-      - 电报群https://t.me/lnafq 7
-      - 电报群https://t.me/lnafq 8
-      - 电报群https://t.me/lnafq 9
-      - 电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 11
-      - 🇸🇬 新加坡阿伟科技-油管5
-      - 🇸🇬 新加坡阿伟科技-油管5 2
-      - 电报群https://t.me/lnafq 12
-      - 电报群https://t.me/lnafq 13
-      - 电报群https://t.me/lnafq 14
       - 奈飞会员6元/月,电报群https://t.me/lnafq 11
-      - YouTube梦歌
+      - CYL-科技（2021.11.08） 3
+      - CYL-科技（2021.11.08） 4
+      - CYL-科技（2021.11.08） 5
       - 奈飞会员6元/月,电报群https://t.me/lnafq 12
+      - CYL-科技（2021.11.08） 6
       - 奈飞会员6元/月,电报群https://t.me/lnafq 13
-      - YouTube梦歌 2
+      - CYL-科技（2021.11.08） 7
+      - 电报群https://t.me/lnafq
+      - 电报群https://t.me/lnafq 2
+      - 电报群https://t.me/lnafq 3
+      - CYL-科技（2021.11.08） 8
       - 奈飞会员6元/月,电报群https://t.me/lnafq 14
+      - CYL-科技（2021.11.07）
+      - 电报群https://t.me/lnafq 4
+      - CYL-科技（2021.11.08） 9
+      - 电报群https://t.me/lnafq 5
+      - CYL-科技（2021.11.08） 10
+      - CYL-科技（2021.11.08） 11
+      - CYL-科技（2021.11.08） 12
+      - CYL-科技（2021.11.08） 13
+      - CYL-科技（2021.11.06）
+      - 🇯🇵 日本阿伟科技-油管6
+      - CYL-科技（2021.11.08） 14
+      - 🇰🇷 韩国阿伟科技-油管6
+      - 🇯🇵 日本阿伟科技-油管6 2
+      - 🇸🇬 新加坡阿伟科技-油管5
+      - 🇯🇵 日本阿伟科技-油管6 3
+      - 🇯🇵 日本阿伟科技-油管
+      - CYL-科技（2021.11.08） 15
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 15
+      - 🇸🇬 新加坡阿伟科技-油管5 2
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 16
+      - CYL-科技（2021.11.08） 16
+      - 奈飞会员6元/月,电报群https://t.me/lnafq 17
+      - CYL-科技（2021.11.08） 17
+      - CYL-科技（2021.11.08） 18
+      - 电报群https://t.me/lnafq 6
+      - CYL-科技（2021.11.08） 19
+      - 电报群https://t.me/lnafq 7
+      - YouTube梦歌
+      - YouTube梦歌 2
+      - CYL-科技（2021.11.06） 2
+      - 电报群https://t.me/lnafq 8
       - YouTube梦歌 3
+      - CYL-科技（2021.11.08） 20
       - YouTube梦歌 4
       - YouTube梦歌 5
+      - CYL-科技（2021.11.08） 21
       - YouTube梦歌 6
-      - 奈飞会员6元/月,电报群https://t.me/lnafq 15
-      - CYL-科技（2021.11.06） 2
       - YouTube梦歌 7
+      - CYL-科技（2021.11.08） 22
+      - CYL-科技（2021.11.08） 23
+      - CYL-科技（2021.11.08） 24
       - YouTube梦歌 8
       - YouTube梦歌 9
       - YouTube梦歌 10
       - YouTube梦歌 11
+      - CYL-科技（2021.11.08） 25
       - YouTube梦歌 12
-      - 奈飞会员6元/月,电报群https://t.me/lnafq 16
+      - 阿伟科技-油管5
       - YouTube梦歌 13
       - YouTube梦歌 14
-      - YouTube梦歌 15
-      - YouTube梦歌 16
-      - YouTube梦歌 17
-      - YouTube梦歌 18
-      - YouTube梦歌 19
-      - YouTube梦歌 20
-      - YouTube梦歌 21
-      - CYL-科技（2021.11.07） 3
+      - CYL-科技（2021.11.08） 26
+      - CYL-科技（2021.11.08） 27
+      - CYL-科技（2021.11.08） 28
+      - CYL-科技（2021.11.08） 29
+      - CYL-科技（2021.11.08） 30
+      - CYL-科技（2021.11.08） 31
+      - CYL-科技（2021.11.08） 32
+      - CYL-科技（2021.11.08） 33
+      - CYL-科技（2021.11.08） 34
+      - CYL-科技（2021.11.08） 35
+      - CYL-科技（2021.11.08） 36
+      - 🇨🇭 瑞士（YouTube资源分享者）
+      - CYL-科技（2021.11.08） 37
+      - CYL-科技（2021.11.08） 38
+      - CYL-科技（2021.11.08） 39
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_2
-      - CYL-科技（2021.11.07） 4
-      - CYL-科技（2021.11.07） 5
-      - 阿伟科技-油管5
-      - CYL-科技（2021.11.07） 6
-      - CYL-科技（2021.11.06） 3
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
-      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_77
-      - CYL-科技（2021.11.06） 4
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_6
-      - CYL-科技（2021.11.06） 5
-      - CYL-科技（2021.11.06） 6
-      - CYL-科技（2021.11.06） 7
-      - CYL-科技（2021.11.07） 7
-      - CYL-科技（2021.11.07） 8
-      - 阿伟科技-油管5 2
-      - CYL-科技（2021.11.06） 8
-      - CYL-科技（2021.11.07） 9
-      - CYL-科技（2021.11.07） 10
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_32
-      - CYL-科技（2021.11.06） 9
-      - CYL-科技（2021.11.06） 10
+      - 🇰🇷 韩国阿伟科技-油管
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇬 新加坡阿伟科技-油管1
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_12
+      - 🇷🇴 罗马尼亚（YouTube资源分享者）
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_14
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_77
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_75
-      - CYL-科技（2021.11.06） 11
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_33
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_28
+      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_82
+      - 🇨🇭 瑞士（YouTube资源分享者） 2
+      - 🇺🇸 美国阿伟科技-油管1
+      - CYL-科技（2021.11.06） 3
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_83
       - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_66
-      - CYL-科技（2021.11.07） 11
-      - CYL-科技（2021.11.06） 12
-      - 🇸🇪 cfmem.com_🇸🇪_SE_瑞典_31
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
