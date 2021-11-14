@@ -5,98 +5,134 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 电报群https://t.me/lnafq, server: azhk4.zz123.xyz, port: 12819, type: vmess, uuid: 481fc685-93cb-34ee-8b99-aaee6233ae25, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk4.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 2, server: azhk4.zz123.xyz, port: 22164, type: vmess, uuid: bb8f13a2-779d-3072-9da2-80cb2c8c05ff, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk4.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 3, server: 13.75.104.106, port: 80, type: vmess, uuid: a75124f3-c100-3f7c-a649-ce5814ee453d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
-  - {name: 电报群https://t.me/lnafq 4, server: 13.75.104.106, port: 80, type: vmess, uuid: bb8f13a2-779d-3072-9da2-80cb2c8c05ff, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
-  - {name: 电报群https://t.me/lnafq 5, server: azhk4.zz123.xyz, port: 15724, type: vmess, uuid: 0416a295-4e0f-318d-987c-a6336febc968, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk4.zz123.xyz}}
-  - {name: 🇭🇰 香港（YouTube资源分享者）, server: 00.cn3.rocketdns.xyz, port: 65002, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
-  - {name: 电报群https://t.me/lnafq 6, server: azhk4.zz123.xyz, port: 22164, type: vmess, uuid: a75124f3-c100-3f7c-a649-ce5814ee453d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk4.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 7, server: azhk4.zz123.xyz, port: 12819, type: vmess, uuid: bb8f13a2-779d-3072-9da2-80cb2c8c05ff, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk4.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 8, server: azhk4.zz123.xyz, port: 15724, type: vmess, uuid: 481fc685-93cb-34ee-8b99-aaee6233ae25, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk4.zz123.xyz}}
-  - {name: CYL-科技（2021.11.11）, server: aws.774.gs, port: 8888, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: aws.774.gs}}
-  - {name: 电报群https://t.me/lnafq 9, server: 13.75.104.106, port: 80, type: vmess, uuid: 0416a295-4e0f-318d-987c-a6336febc968, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
-  - {name: CYL-科技（2021.11.09）, server: 00.cn1.rocketdns.xyz, port: 65015, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
-  - {name: 电报群https://t.me/lnafq 10, server: 157.245.57.245, port: 39000, type: vmess, uuid: df019b55-2f07-3caa-8609-24250af7e37d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 157.245.57.245}}
-  - {name: 电报群https://t.me/lnafq 11, server: 157.245.57.245, port: 39000, type: vmess, uuid: f9c458e0-2953-3913-9ff4-ad175bee6694, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 157.245.57.245}}
-  - {name: 电报群https://t.me/lnafq 12, server: azhk4.zz123.xyz, port: 33453, type: vmess, uuid: bb8f13a2-779d-3072-9da2-80cb2c8c05ff, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk4.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 13, server: 128.199.170.176, port: 39000, type: vmess, uuid: e73d8bfe-7dd9-3196-ae1f-dc8c41e8834c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 128.199.170.176}}
-  - {name: CYL-科技（2021.11.08）, server: 159.223.75.43, port: 56776, type: vmess, uuid: 2a1620a3-dc12-4d2e-faa9-809028d3e191, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 159.223.75.43}}
-  - {name: 电报群https://t.me/lnafq 14, server: azhk4.zz123.xyz, port: 12819, type: vmess, uuid: 0416a295-4e0f-318d-987c-a6336febc968, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk4.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 15, server: 13.75.104.106, port: 80, type: vmess, uuid: 481fc685-93cb-34ee-8b99-aaee6233ae25, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
+  - {name: 电报群https://t.me/lnafq, server: 65.52.169.176, port: 80, type: vmess, uuid: ef926893-a7ab-38e4-9ef8-c5495da375af, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
+  - {name: 电报群https://t.me/lnafq 2, server: 23.100.93.161, port: 80, type: vmess, uuid: 899dc498-f215-32ba-b47f-6c90265c89f4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
+  - {name: 电报群https://t.me/lnafq 3, server: 65.52.169.176, port: 80, type: vmess, uuid: 899dc498-f215-32ba-b47f-6c90265c89f4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
+  - {name: 电报群https://t.me/lnafq 4, server: 23.99.99.106, port: 80, type: vmess, uuid: 90f7fe29-8608-3fca-af75-732a2a5b2242, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
+  - {name: 电报群https://t.me/lnafq 5, server: 23.101.7.118, port: 80, type: vmess, uuid: ef926893-a7ab-38e4-9ef8-c5495da375af, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
+  - {name: 电报群https://t.me/lnafq 6, server: 23.101.7.118, port: 80, type: vmess, uuid: 899dc498-f215-32ba-b47f-6c90265c89f4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
+  - {name: 🇸🇬 新加坡阿伟科技-油管5, server: 13.75.52.74, port: 24325, type: vmess, uuid: 599a50f5-e30d-493e-be1f-0f8ffb2b5123, alterId: 0, cipher: auto, tls: false}
+  - {name: 电报群https://t.me/lnafq 7, server: 23.101.7.118, port: 80, type: vmess, uuid: 90f7fe29-8608-3fca-af75-732a2a5b2242, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
   - {name: CYL-科技（2021.11.06）, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}}
-  - {name: CYL-科技（2021.11.08） 2, server: 00.cn3.rocketdns.xyz, port: 65005, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
-  - {name: 电报群https://t.me/lnafq 16, server: azhk4.zz123.xyz, port: 33413, type: vmess, uuid: 481fc685-93cb-34ee-8b99-aaee6233ae25, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk4.zz123.xyz}}
-  - {name: 🇭🇰 香港（YouTube资源分享者） 2, server: 00.cn1.rocketdns.xyz, port: 65000, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
-  - {name: CYL-科技（2021.11.08） 3, server: 00.cn2.rocketdns.xyz, port: 65007, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
-  - {name: 电报群https://t.me/lnafq 17, server: azhk4.zz123.xyz, port: 33453, type: vmess, uuid: 481fc685-93cb-34ee-8b99-aaee6233ae25, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk4.zz123.xyz}}
-  - {name: 电报群https://t.me/lnafq 18, server: azhk4.zz123.xyz, port: 33453, type: vmess, uuid: 0416a295-4e0f-318d-987c-a6336febc968, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: azhk4.zz123.xyz}}
-  - {name: CYL-科技（2021.11.09） 2, server: 00.cn1.rocketdns.xyz, port: 65006, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
-  - {name: 欧洲（YouTube资源分享者）, server: 138.199.42.170, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: 🇸🇬 新加坡（YouTube资源分享者）, server: 00.cn1.rocketdns.xyz, port: 65015, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
-  - {name: CYL-科技（2021.11.10）, server: sg3c.futi.online, port: 443, type: vmess, uuid: fb354731-1f2d-4731-8cbf-3b071e49701d, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg3.futi.online}}
-  - {name: CYL-科技（2021.11.08） 4, server: 00.cn1.rocketdns.xyz, port: 65018, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
-  - {name: 🇭🇰 台湾香港阿伟科技-油管2, server: 1030tw.fans8.xyz, port: 80, type: vmess, uuid: 89a5e033-f2d6-3567-95f6-86bedb596cc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1030tw.fans8.xyz}}
-  - {name: 🇭🇰 台湾香港阿伟科技-油管2 2, server: 1030tw.fans8.xyz, port: 80, type: vmess, uuid: 89a5e033-f2d6-3567-95f6-86bedb596cc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1030tw.fans8.xyz}}
-  - {name: 由零开始YouTube, server: 159.223.67.223, port: 58443, type: vmess, uuid: 07c40cf6-db51-4179-cce7-5607cc0d301b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 159.223.67.223}}
-  - {name: CYL-科技（2021.11.08） 5, server: 00.cn2.rocketdns.xyz, port: 65016, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
-  - {name: CYL-科技（2021.11.08） 6, server: 00.cn3.rocketdns.xyz, port: 65017, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
-  - {name: 🇺🇸 美国（YouTube资源分享者）, server: 00.cn3.rocketdns.xyz, port: 65011, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
-  - {name: CYL-科技（2021.11.09） 3, server: 00.cn2.rocketdns.xyz, port: 65013, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
-  - {name: CYL-科技（2021.11.09） 4, server: 00.cn2.rocketdns.xyz, port: 65010, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
-  - {name: CYL-科技（2021.11.08） 7, server: 00.cn2.rocketdns.xyz, port: 65010, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
-  - {name: YouTube梦歌, server: 156.146.33.82, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
-  - {name: CYL-科技（2021.11.09） 5, server: 204.fbplay.net, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
-  - {name: CYL-科技（2021.11.09） 6, server: 00.cn3.rocketdns.xyz, port: 65011, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
-  - {name: CYL-科技（2021.11.06） 2, server: ahH4eihu.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: ahH4eihu.com}}
-  - {name: CYL-科技（2021.11.09） 7, server: 203.fbplay.net, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
-  - {name: YouTube梦歌 2, server: 84.17.53.167, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: YouTube梦歌 3, server: 156.146.33.86, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd}
-  - {name: YouTube梦歌 4, server: 84.17.53.218, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
-  - {name: CYL-科技（2021.11.08） 8, server: 00.cn2.rocketdns.xyz, port: 65019, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
-  - {name: YouTube梦歌 5, server: 84.17.53.169, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
-  - {name: 🇺🇸 美国阿伟科技-油管3, server: vmess.ifuckgfw.ga, port: 8443, type: vmess, uuid: 62ef0128-3f98-11ec-a732-00163cf0ed57, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /uaAovjKU/, ws-headers: {Host: vmess.ifuckgfw.ga}}
-  - {name: YouTube梦歌 6, server: 84.17.53.218, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: YouTube梦歌 7, server: 84.17.53.218, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: CYL-科技（2021.11.08） 9, server: 217.146.83.70, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
-  - {name: 🇷🇺 俄罗斯阿伟科技-油管5, server: 789.out04.nodeserver.top, port: 39069, type: vmess, uuid: 19916b2c-0a87-33df-8a42-a90f151fd2c9, alterId: 0, cipher: auto, tls: false}
-  - {name: CYL-科技（2021.11.08） 10, server: 89.46.223.87, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
-  - {name: YouTube梦歌 8, server: 156.146.33.80, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: CYL-科技（2021.11.08） 11, server: 89.46.223.182, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: YouTube梦歌 9, server: 84.17.53.218, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x}
-  - {name: YouTube梦歌 10, server: 84.17.53.169, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: CYL-科技（2021.11.08） 12, server: 00.cn3.rocketdns.xyz, port: 65008, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
-  - {name: CYL-科技（2021.11.08） 13, server: 217.146.83.66, port: 39171, type: ss, cipher: aes-256-gcm, password: z4pM2gA9QEEC6NRmqTQubm6Z}
-  - {name: YouTube梦歌 11, server: 84.17.53.169, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇩🇪 cfmem.com_🇩🇪_DE_德国_11, server: 193.176.86.196, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
-  - {name: 🇺🇸 cfmem.com_🇺🇸_US_美国_23, server: 167.88.61.15, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2021.11.09） 8, server: 00.cn1.rocketdns.xyz, port: 65003, type: vmess, uuid: 1a1a1583-8416-3009-b6de-46f911472d73, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
-  - {name: CYL-科技（2021.11.08） 14, server: 103.172.125.205, port: 35579, type: vmess, uuid: c2dcd19d-5397-4676-bbe1-ea4d9bc9c3d3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 103.172.125.205}}
-  - {name: CYL-科技（2021.11.09） 9, server: 156.146.33.66, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: CYL-科技（2021.11.09） 10, server: 193.176.86.198, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 cfmem.com_🇺🇸_US_美国_4, server: 167.88.61.15, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2021.11.10） 2, server: azhk.alink123.com, port: 11045, type: trojan, password: 765040cb-15f4-43da-9e07-4b92c767d222, sni: azhk.alink123.com}
-  - {name: CYL-科技（2021.11.11） 2, server: 167.88.61.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 电报群https://t.me/lnafq 5 2, server: 157.245.57.245, port: 39000, type: vmess, uuid: e30416a8-acbb-3b21-ac27-f077d7d38191, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 157.245.57.245}}
+  - {name: CYL-科技（2021.11.13）, server: 13.70.34.113, port: 80, type: vmess, uuid: e4b8db9c-244a-44de-b1d4-813abcb0cb44, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /baipiaofuli, ws-headers: {Host: 13.70.34.113}}
+  - {name: CYL-科技（2021.11.13） 2, server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: CYL-科技（2021.11.06） 2, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}}
+  - {name: CYL-科技（2021.11.08）, server: 159.223.75.43, port: 56776, type: vmess, uuid: 2a1620a3-dc12-4d2e-faa9-809028d3e191, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 159.223.75.43}}
+  - {name: CYL-科技（2021.11.12）, server: 789.out03.nodeserver.top, port: 39068, type: vmess, uuid: 19916b2c-0a87-33df-8a42-a90f151fd2c9, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡阿伟科技-油管2, server: v1-asw-sg-03.niaoyun.online, port: 80, type: vmess, uuid: c62eb338-070e-352f-a309-1b2ad6df7627, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-asw-sg-03.niaoyun.online}}
+  - {name: CYL-科技（2021.11.09）, server: 159.223.76.179, port: 25337, type: vmess, uuid: c2260617-20d9-40cd-c026-7d44a2406a2c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 159.223.76.179}}
+  - {name: 电报群https://t.me/lnafq 8, server: 157.245.57.245, port: 39000, type: vmess, uuid: e30416a8-acbb-3b21-ac27-f077d7d38191, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 157.245.57.245}}
+  - {name: CYL-科技（2021.11.13） 3, server: 104.26.9.74, port: 443, type: vmess, uuid: f6c1babe-416e-47d1-8726-049678e25c7a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /sshocean, ws-headers: {Host: us2.v2rayserv.com}}
+  - {name: CYL-科技（2021.11.06） 3, server: ahH4eihu.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: ahH4eihu.com}}
+  - {name: "🇫🇷 法国[感谢订阅——科技网络]", server: de.52jjyun.top, port: 80, type: vmess, uuid: 55cbe532-efe3-4e52-8ebc-06ef9997d7b6, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: de.52jjyun.top}}
+  - {name: 🇺🇸 美国阿伟科技-油管1, server: 120.232.215.153, port: 48931, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: CYL-科技（2021.11.14）, server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 US_13477, server: v2-xgb-v3.cl123.xyz, port: 80, type: vmess, uuid: 6d3faf56-93b6-33ca-a57d-673bb6ab696f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: v2-xgb-v3.cl123.xyz}}
   - {name: 🇷🇺 俄罗斯阿伟科技-油管5 2, server: 789.out03.nodeserver.top, port: 39070, type: vmess, uuid: 19916b2c-0a87-33df-8a42-a90f151fd2c9, alterId: 0, cipher: auto, tls: false}
-  - {name: CYL-科技（2021.11.09） 11, server: 156.146.33.66, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
-  - {name: 瑞典（YouTube资源分享者）, server: 185.76.9.56, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: 🇨🇳 中国（YouTube资源分享者）, server: 47.105.53.1, port: 31845, type: vmess, uuid: 3b7932fa-0fea-4682-8fb5-f42bd2dac957, alterId: 64, cipher: auto, tls: false}
+  - {name: CYL-科技（2021.11.06） 2 2, server: ahH4eihu.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: ahH4eihu.com}}
+  - {name: 🇺🇸 美国阿伟科技-油管1 2, server: 520yyds.zhqt.xyz, port: 50092, type: vmess, uuid: e71f0963-e272-41c9-ad1c-2c1d214cffeb, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 135.zhqt.xyz}}
+  - {name: CYL-科技（2021.11.09） 2, server: 185.124.240.146, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: CYL-科技（2021.11.09） 3, server: 167.88.61.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技（2021.11.09） 4, server: 185.124.240.146, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: CYL-科技（2021.11.08） 2, server: 89.46.223.65, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: CYL-科技（2021.11.14） 2, server: 156.146.62.45, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: CYL-科技（2021.11.08） 3, server: 217.146.83.66, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: YouTube梦歌, server: 156.146.33.80, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇳🇱 NL_5876 | 2.19Mb, server: 132.226.172.134, port: 37509, type: vmess, uuid: 7a44d386-e7eb-41d4-92ce-ffbfb32b7957, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a, server: 156.146.62.45, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: CYL-科技（2021.11.08） 4, server: 217.146.83.66, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: YouTube梦歌 2, server: 156.146.33.80, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: YouTube梦歌 3, server: 156.146.33.80, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: YouTube梦歌 4, server: 84.17.53.218, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: CYL-科技（2021.11.13） 4, server: 155.254.29.163, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: CYL-科技（2021.11.14） 3, server: 82.102.16.102, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: CYL-科技（2021.11.14） 4, server: 82.102.16.102, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: CYL-科技（2021.11.08） 5, server: 89.46.223.218, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: CYL-科技（2021.11.08） 6, server: 89.46.223.236, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: CYL-科技（2021.11.08） 7, server: 89.46.223.61, port: 39171, type: ss, cipher: aes-256-gcm, password: z4pM2gA9QEEC6NRmqTQubm6Z}
+  - {name: CYL-科技（2021.11.12） 2, server: 217.146.83.70, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: CYL-科技（2021.11.14） 5, server: 82.102.16.102, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: 🇺🇸 US_13482, server: inapus.mooncloud.bike, port: 10020, type: vmess, uuid: 792f7496-a1e2-4694-96f4-5fbe5e13d68b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: inapus.mooncloud.bike}}
+  - {name: 🇩🇪 v2rayse_🇩🇪_DE_德国_11, server: 82.102.16.102, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: YouTube梦歌 5, server: 156.146.33.80, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: YouTube梦歌 6, server: 156.146.33.80, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: YouTube梦歌 7, server: 156.146.33.80, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
+  - {name: YouTube梦歌 8, server: 84.17.53.218, port: 39171, type: ss, cipher: aes-256-gcm, password: z4pM2gA9QEEC6NRmqTQubm6Z}
+  - {name: 🇨🇳 中国（YouTube资源分享者） 2, server: 47.113.190.48, port: 47912, type: vmess, uuid: d1f1e8e0-bf5c-4219-8ba4-48de32c50557, alterId: 64, cipher: auto, tls: false}
+  - {name: CYL-科技（2021.11.14） 6, server: 185.76.8.218, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: 🇸🇪 v2rayse_🇸🇪_SE_瑞典_5, server: 185.76.9.56, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: CYL-科技（2021.11.08） 8, server: 217.146.83.66, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: CYL-科技（2021.11.09） 5, server: 156.146.33.74, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 电报群https://t.me/lnafq 18, server: 46.101.197.207, port: 39000, type: vmess, uuid: 0d7d2dc7-667c-3344-953f-ba491ddc864a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 46.101.197.207}}
+  - {name: CYL-科技（2021.11.14） 7, server: 107.189.14.137, port: 33009, type: vmess, uuid: 9d0ab632-2d98-45a2-b9c5-9ebc3f6951f6, alterId: 0, cipher: auto, tls: false}
+  - {name: CYL-科技（2021.11.14） 8, server: 82.102.16.102, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 🇨🇭 v2rayse_🇨🇭_CH_瑞士_1, server: 156.146.62.50, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 2, server: 156.146.62.50, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
+  - {name: 🇷🇴 RO_7402 |51.93Mb, server: 193.29.107.171, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 3, server: 156.146.62.45, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: 电报群https://t.me/lnafq 20, server: 46.101.197.207, port: 39000, type: vmess, uuid: d5776151-abc2-39d4-bc2b-1f8c3df6c61e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 46.101.197.207}}
+  - {name: 🇩🇪 德国（YouTube资源分享者）, server: 82.102.16.102, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 未知（YouTube资源分享者）, server: 789.out03.nodeserver.top, port: 39072, type: vmess, uuid: 19916b2c-0a87-33df-8a42-a90f151fd2c9, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 4, server: 156.146.62.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 5, server: 156.146.62.45, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 6, server: 156.146.62.45, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 7, server: 156.146.62.50, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: 电报群https://t.me/lnafq 9, server: 46.101.197.207, port: 39000, type: vmess, uuid: 0d7d2dc7-667c-3344-953f-ba491ddc864a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 46.101.197.207}}
+  - {name: 斯洛伐克（YouTube资源分享者）, server: 185.76.8.218, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 比利时（YouTube资源分享者）, server: 194.110.115.84, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: CYL-科技（2021.11.10）, server: azhk.alink123.com, port: 11045, type: trojan, password: 765040cb-15f4-43da-9e07-4b92c767d222, sni: azhk.alink123.com}
+  - {name: 🇸🇪 v2rayse_🇸🇪_SE_瑞典_1, server: 185.76.9.56, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: "@SSRSUB-V11-付费推荐:suo.yt/ssrsub", server: v2.leftvalues.xyz, port: 443, type: vmess, uuid: deb4643e-d10c-44f0-a7a2-62217c91cfb3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2.leftvalues.xyz}}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君), server: 66.115.177.133, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 8, server: 156.146.62.50, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 9, server: 156.146.62.45, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
   - {name: 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_6, server: 156.146.62.45, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇩🇪 cfmem.com_🇩🇪_DE_德国_48, server: 193.176.86.196, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
-  - {name: 🇩🇪 cfmem.com_🇩🇪_DE_德国_20, server: 193.176.86.198, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: CYL-科技（2021.11.10） 3, server: 156.146.33.66, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: CYL-科技（2021.11.11） 3, server: 156.146.62.37, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: CYL-科技（2021.11.11） 4, server: 185.124.240.146, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇳🇱 荷兰（YouTube资源分享者）, server: 89.46.223.238, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
-  - {name: 🇩🇪 cfmem.com_🇩🇪_DE_德国_14, server: 193.176.86.198, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: CYL-科技（2021.11.10） 4, server: 35.155.132.212, port: 8878, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 35.155.132.212}}
-  - {name: CYL-科技（2021.11.09） 12, server: 143.198.58.57, port: 1111, type: vmess, uuid: a92085ce-3148-4a48-9fe6-0a0763fbb5f4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 143.198.58.57}}
-  - {name: 瑞典（YouTube资源分享者） 2, server: 185.76.9.56, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
-  - {name: 瑞典（YouTube资源分享者） 3, server: 195.181.166.225, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: 🇩🇪 cfmem.com_🇩🇪_DE_德国_64, server: 193.176.86.196, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇩🇪 cfmem.com_🇩🇪_DE_德国_56, server: 193.176.86.196, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: 🇩🇪 cfmem.com_🇩🇪_DE_德国_47, server: 193.176.86.198, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇰🇷 韩国（YouTube资源分享者）, server: 102.fbplay.net, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: 斯洛伐克（YouTube资源分享者） 2, server: 185.76.8.218, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 斯洛伐克（YouTube资源分享者） 3, server: 185.76.8.218, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 斯洛伐克（YouTube资源分享者） 4, server: 185.76.8.218, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇩🇪 德国（YouTube资源分享者） 2, server: 82.102.16.102, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 中国（YouTube资源分享者） 3, server: 47.99.142.242, port: 38497, type: vmess, uuid: 4b6b4c48-dbd6-4743-8e33-0049006b3068, alterId: 64, cipher: auto, tls: false}
+  - {name: CYL-科技（2021.11.14） 9, server: v2.leftvalues.xyz, port: 443, type: vmess, uuid: deb4643e-d10c-44f0-a7a2-62217c91cfb3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2.leftvalues.xyz}}
+  - {name: 🇸🇪 SE_7969 |45.05Mb, server: 185.76.9.56, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: 🇸🇪 SE_8015 |39.41Mb, server: 185.76.9.56, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 10, server: 156.146.62.50, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: CYL-科技（2021.11.09） 6, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}}
+  - {name: 斯洛伐克（YouTube资源分享者） 5, server: 185.76.8.218, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 斯洛伐克（YouTube资源分享者） 6, server: 185.76.8.218, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇩🇪 德国（YouTube资源分享者） 3, server: 82.102.16.102, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 11, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 12, server: 156.146.62.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: "🇫🇷 法国[感谢订阅——科技网络] 2", server: 185.76.8.218, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 斯洛伐克（YouTube资源分享者） 7, server: 185.76.8.218, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 卢森堡阿伟科技-油管1, server: 520yyds.zhqt.xyz, port: 50090, type: vmess, uuid: e71f0963-e272-41c9-ad1c-2c1d214cffeb, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: free-3.joker007.top}}
+  - {name: 🇸🇪 v2rayse_🇸🇪_SE_瑞典_4, server: 185.76.9.56, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 13, server: 156.146.62.50, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 14, server: 156.146.62.45, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 15, server: 156.146.62.50, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 16, server: 156.146.62.45, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
   - {name: 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_2, server: 156.146.62.45, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 斯洛伐克（YouTube资源分享者） 8, server: 185.76.8.218, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇩🇪 德国（YouTube资源分享者） 4, server: 82.102.16.102, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇸🇪 SE_7999 |49.06Mb, server: 185.76.9.56, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: 🇸🇪 v2rayse_🇸🇪_SE_瑞典_3, server: 185.76.9.56, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇳🇱 v2rayse_🇳🇱_NL_荷兰_2, server: 89.46.223.186, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: "🇳🇱 荷兰[感谢订阅——科技网络]", server: 89.46.223.239, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: 🇫🇷 节点更新https://bit.ly/3uWuS7a _🇫🇷_FR_法国_1, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 阿尔巴尼亚（YouTube资源分享者）, server: 31.171.154.220, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 中国（YouTube资源分享者） 4, server: 101.132.173.78, port: 41906, type: vmess, uuid: e24ac30e-e296-4761-af23-7bda2781ba85, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a _🇺🇸_US_美国_2, server: 38.86.135.27, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 17, server: 156.146.62.45, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: CYL-科技（2021.11.09） 7, server: v1-do-ua-02.niaoyun.online, port: 666, type: vmess, uuid: 9abca0dd-b438-3bd9-b5db-487af35082d0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaocloud, ws-headers: {Host: v1-do-ua-02.niaoyun.online}}
+  - {name: 斯洛伐克（YouTube资源分享者） 9, server: 185.76.8.218, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 🇩🇪 德国（YouTube资源分享者） 5, server: 82.102.16.102, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 🇺🇸 US_8930, server: 143.198.237.214, port: 27489, type: vmess, uuid: d73f027b-9a37-4e79-dd29-3a0d1e1da128, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 143.198.237.214}}
+  - {name: 🇸🇬 节点更新https://bit.ly/3uWuS7a 18, server: 143.198.237.214, port: 27489, type: vmess, uuid: d73f027b-9a37-4e79-dd29-3a0d1e1da128, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 143.198.237.214}}
+  - {name: 🇷🇺 RU_7649 |35.99Mb, server: 45.141.102.51, port: 46354, type: vmess, uuid: d7bbbcad-0653-42a1-b101-db44624707aa, alterId: 0, cipher: auto, tls: false}
+  - {name: 138.199.42.170:49514, server: 138.199.42.170, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: "@SSRSUB-V03-付费推荐:suo.yt/ssrsub", server: ru.gfwglass.tk, port: 443, type: vmess, uuid: 8414177f-abd4-4af4-8beb-af4235a09248, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /114514, ws-headers: {Host: ru.gfwglass.tk}}
+  - {name: 🇷🇺 @SSRSUB-俄罗斯V04-付费推荐::suo.yt/ssrsub, server: v4.ssrsub.com, port: 168, type: vmess, uuid: 92a95e6d-cf89-42ee-8110-66fab6871e2f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -108,93 +144,129 @@ proxy-groups:
       - 电报群https://t.me/lnafq 3
       - 电报群https://t.me/lnafq 4
       - 电报群https://t.me/lnafq 5
-      - 🇭🇰 香港（YouTube资源分享者）
       - 电报群https://t.me/lnafq 6
+      - 🇸🇬 新加坡阿伟科技-油管5
       - 电报群https://t.me/lnafq 7
-      - 电报群https://t.me/lnafq 8
-      - CYL-科技（2021.11.11）
-      - 电报群https://t.me/lnafq 9
-      - CYL-科技（2021.11.09）
-      - 电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 11
-      - 电报群https://t.me/lnafq 12
-      - 电报群https://t.me/lnafq 13
-      - CYL-科技（2021.11.08）
-      - 电报群https://t.me/lnafq 14
-      - 电报群https://t.me/lnafq 15
       - CYL-科技（2021.11.06）
-      - CYL-科技（2021.11.08） 2
-      - 电报群https://t.me/lnafq 16
-      - 🇭🇰 香港（YouTube资源分享者） 2
-      - CYL-科技（2021.11.08） 3
-      - 电报群https://t.me/lnafq 17
-      - 电报群https://t.me/lnafq 18
+      - 电报群https://t.me/lnafq 5 2
+      - CYL-科技（2021.11.13）
+      - CYL-科技（2021.11.13） 2
+      - CYL-科技（2021.11.06） 2
+      - CYL-科技（2021.11.08）
+      - CYL-科技（2021.11.12）
+      - 🇸🇬 新加坡阿伟科技-油管2
+      - CYL-科技（2021.11.09）
+      - 电报群https://t.me/lnafq 8
+      - CYL-科技（2021.11.13） 3
+      - CYL-科技（2021.11.06） 3
+      - 🇫🇷 法国[感谢订阅——科技网络]
+      - 🇺🇸 美国阿伟科技-油管1
+      - CYL-科技（2021.11.14）
+      - 🇺🇸 US_13477
+      - 🇷🇺 俄罗斯阿伟科技-油管5 2
+      - 🇨🇳 中国（YouTube资源分享者）
+      - CYL-科技（2021.11.06） 2 2
+      - 🇺🇸 美国阿伟科技-油管1 2
       - CYL-科技（2021.11.09） 2
-      - 欧洲（YouTube资源分享者）
-      - 🇸🇬 新加坡（YouTube资源分享者）
-      - CYL-科技（2021.11.10）
-      - CYL-科技（2021.11.08） 4
-      - 🇭🇰 台湾香港阿伟科技-油管2
-      - 🇭🇰 台湾香港阿伟科技-油管2 2
-      - 由零开始YouTube
-      - CYL-科技（2021.11.08） 5
-      - CYL-科技（2021.11.08） 6
-      - 🇺🇸 美国（YouTube资源分享者）
       - CYL-科技（2021.11.09） 3
       - CYL-科技（2021.11.09） 4
-      - CYL-科技（2021.11.08） 7
+      - CYL-科技（2021.11.08） 2
+      - CYL-科技（2021.11.14） 2
+      - CYL-科技（2021.11.08） 3
       - YouTube梦歌
-      - CYL-科技（2021.11.09） 5
-      - CYL-科技（2021.11.09） 6
-      - CYL-科技（2021.11.06） 2
-      - CYL-科技（2021.11.09） 7
+      - 🇳🇱 NL_5876 | 2.19Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - CYL-科技（2021.11.08） 4
       - YouTube梦歌 2
       - YouTube梦歌 3
       - YouTube梦歌 4
-      - CYL-科技（2021.11.08） 8
+      - CYL-科技（2021.11.13） 4
+      - CYL-科技（2021.11.14） 3
+      - CYL-科技（2021.11.14） 4
+      - CYL-科技（2021.11.08） 5
+      - CYL-科技（2021.11.08） 6
+      - CYL-科技（2021.11.08） 7
+      - CYL-科技（2021.11.12） 2
+      - CYL-科技（2021.11.14） 5
+      - 🇺🇸 US_13482
+      - 🇩🇪 v2rayse_🇩🇪_DE_德国_11
       - YouTube梦歌 5
-      - 🇺🇸 美国阿伟科技-油管3
       - YouTube梦歌 6
       - YouTube梦歌 7
-      - CYL-科技（2021.11.08） 9
-      - 🇷🇺 俄罗斯阿伟科技-油管5
-      - CYL-科技（2021.11.08） 10
       - YouTube梦歌 8
-      - CYL-科技（2021.11.08） 11
-      - YouTube梦歌 9
-      - YouTube梦歌 10
-      - CYL-科技（2021.11.08） 12
-      - CYL-科技（2021.11.08） 13
-      - YouTube梦歌 11
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_11
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_23
-      - CYL-科技（2021.11.09） 8
-      - CYL-科技（2021.11.08） 14
-      - CYL-科技（2021.11.09） 9
-      - CYL-科技（2021.11.09） 10
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_4
-      - CYL-科技（2021.11.10） 2
-      - CYL-科技（2021.11.11） 2
-      - 🇷🇺 俄罗斯阿伟科技-油管5 2
-      - CYL-科技（2021.11.09） 11
-      - 瑞典（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者） 2
+      - CYL-科技（2021.11.14） 6
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_5
+      - CYL-科技（2021.11.08） 8
+      - CYL-科技（2021.11.09） 5
+      - 电报群https://t.me/lnafq 18
+      - CYL-科技（2021.11.14） 7
+      - CYL-科技（2021.11.14） 8
+      - 🇨🇭 v2rayse_🇨🇭_CH_瑞士_1
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - 🇷🇴 RO_7402 |51.93Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 电报群https://t.me/lnafq 20
+      - 🇩🇪 德国（YouTube资源分享者）
+      - 未知（YouTube资源分享者）
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
+      - 电报群https://t.me/lnafq 9
+      - 斯洛伐克（YouTube资源分享者）
+      - 比利时（YouTube资源分享者）
+      - CYL-科技（2021.11.10）
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_1
+      - "@SSRSUB-V11-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_6
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_48
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_20
-      - CYL-科技（2021.11.10） 3
-      - CYL-科技（2021.11.11） 3
-      - CYL-科技（2021.11.11） 4
-      - 🇳🇱 荷兰（YouTube资源分享者）
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_14
-      - CYL-科技（2021.11.10） 4
-      - CYL-科技（2021.11.09） 12
-      - 瑞典（YouTube资源分享者） 2
-      - 瑞典（YouTube资源分享者） 3
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_64
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_56
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_47
-      - 🇰🇷 韩国（YouTube资源分享者）
+      - 斯洛伐克（YouTube资源分享者） 2
+      - 斯洛伐克（YouTube资源分享者） 3
+      - 斯洛伐克（YouTube资源分享者） 4
+      - 🇩🇪 德国（YouTube资源分享者） 2
+      - 🇨🇳 中国（YouTube资源分享者） 3
+      - CYL-科技（2021.11.14） 9
+      - 🇸🇪 SE_7969 |45.05Mb
+      - 🇸🇪 SE_8015 |39.41Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 10
+      - CYL-科技（2021.11.09） 6
+      - 斯洛伐克（YouTube资源分享者） 5
+      - 斯洛伐克（YouTube资源分享者） 6
+      - 🇩🇪 德国（YouTube资源分享者） 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 11
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 12
+      - 🇫🇷 法国[感谢订阅——科技网络] 2
+      - 斯洛伐克（YouTube资源分享者） 7
+      - 卢森堡阿伟科技-油管1
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 13
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 14
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 16
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_2
+      - 斯洛伐克（YouTube资源分享者） 8
+      - 🇩🇪 德国（YouTube资源分享者） 4
+      - 🇸🇪 SE_7999 |49.06Mb
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_3
+      - 🇳🇱 v2rayse_🇳🇱_NL_荷兰_2
+      - 🇳🇱 荷兰[感谢订阅——科技网络]
+      - 🇫🇷 节点更新https://bit.ly/3uWuS7a _🇫🇷_FR_法国_1
+      - 阿尔巴尼亚（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者） 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a _🇺🇸_US_美国_2
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 17
+      - CYL-科技（2021.11.09） 7
+      - 斯洛伐克（YouTube资源分享者） 9
+      - 🇩🇪 德国（YouTube资源分享者） 5
+      - 🇺🇸 US_8930
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 18
+      - 🇷🇺 RU_7649 |35.99Mb
+      - 138.199.42.170:49514
+      - "@SSRSUB-V03-付费推荐:suo.yt/ssrsub"
+      - 🇷🇺 @SSRSUB-俄罗斯V04-付费推荐::suo.yt/ssrsub
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -206,93 +278,129 @@ proxy-groups:
       - 电报群https://t.me/lnafq 3
       - 电报群https://t.me/lnafq 4
       - 电报群https://t.me/lnafq 5
-      - 🇭🇰 香港（YouTube资源分享者）
       - 电报群https://t.me/lnafq 6
+      - 🇸🇬 新加坡阿伟科技-油管5
       - 电报群https://t.me/lnafq 7
-      - 电报群https://t.me/lnafq 8
-      - CYL-科技（2021.11.11）
-      - 电报群https://t.me/lnafq 9
-      - CYL-科技（2021.11.09）
-      - 电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 11
-      - 电报群https://t.me/lnafq 12
-      - 电报群https://t.me/lnafq 13
-      - CYL-科技（2021.11.08）
-      - 电报群https://t.me/lnafq 14
-      - 电报群https://t.me/lnafq 15
       - CYL-科技（2021.11.06）
-      - CYL-科技（2021.11.08） 2
-      - 电报群https://t.me/lnafq 16
-      - 🇭🇰 香港（YouTube资源分享者） 2
-      - CYL-科技（2021.11.08） 3
-      - 电报群https://t.me/lnafq 17
-      - 电报群https://t.me/lnafq 18
+      - 电报群https://t.me/lnafq 5 2
+      - CYL-科技（2021.11.13）
+      - CYL-科技（2021.11.13） 2
+      - CYL-科技（2021.11.06） 2
+      - CYL-科技（2021.11.08）
+      - CYL-科技（2021.11.12）
+      - 🇸🇬 新加坡阿伟科技-油管2
+      - CYL-科技（2021.11.09）
+      - 电报群https://t.me/lnafq 8
+      - CYL-科技（2021.11.13） 3
+      - CYL-科技（2021.11.06） 3
+      - 🇫🇷 法国[感谢订阅——科技网络]
+      - 🇺🇸 美国阿伟科技-油管1
+      - CYL-科技（2021.11.14）
+      - 🇺🇸 US_13477
+      - 🇷🇺 俄罗斯阿伟科技-油管5 2
+      - 🇨🇳 中国（YouTube资源分享者）
+      - CYL-科技（2021.11.06） 2 2
+      - 🇺🇸 美国阿伟科技-油管1 2
       - CYL-科技（2021.11.09） 2
-      - 欧洲（YouTube资源分享者）
-      - 🇸🇬 新加坡（YouTube资源分享者）
-      - CYL-科技（2021.11.10）
-      - CYL-科技（2021.11.08） 4
-      - 🇭🇰 台湾香港阿伟科技-油管2
-      - 🇭🇰 台湾香港阿伟科技-油管2 2
-      - 由零开始YouTube
-      - CYL-科技（2021.11.08） 5
-      - CYL-科技（2021.11.08） 6
-      - 🇺🇸 美国（YouTube资源分享者）
       - CYL-科技（2021.11.09） 3
       - CYL-科技（2021.11.09） 4
-      - CYL-科技（2021.11.08） 7
+      - CYL-科技（2021.11.08） 2
+      - CYL-科技（2021.11.14） 2
+      - CYL-科技（2021.11.08） 3
       - YouTube梦歌
-      - CYL-科技（2021.11.09） 5
-      - CYL-科技（2021.11.09） 6
-      - CYL-科技（2021.11.06） 2
-      - CYL-科技（2021.11.09） 7
+      - 🇳🇱 NL_5876 | 2.19Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - CYL-科技（2021.11.08） 4
       - YouTube梦歌 2
       - YouTube梦歌 3
       - YouTube梦歌 4
-      - CYL-科技（2021.11.08） 8
+      - CYL-科技（2021.11.13） 4
+      - CYL-科技（2021.11.14） 3
+      - CYL-科技（2021.11.14） 4
+      - CYL-科技（2021.11.08） 5
+      - CYL-科技（2021.11.08） 6
+      - CYL-科技（2021.11.08） 7
+      - CYL-科技（2021.11.12） 2
+      - CYL-科技（2021.11.14） 5
+      - 🇺🇸 US_13482
+      - 🇩🇪 v2rayse_🇩🇪_DE_德国_11
       - YouTube梦歌 5
-      - 🇺🇸 美国阿伟科技-油管3
       - YouTube梦歌 6
       - YouTube梦歌 7
-      - CYL-科技（2021.11.08） 9
-      - 🇷🇺 俄罗斯阿伟科技-油管5
-      - CYL-科技（2021.11.08） 10
       - YouTube梦歌 8
-      - CYL-科技（2021.11.08） 11
-      - YouTube梦歌 9
-      - YouTube梦歌 10
-      - CYL-科技（2021.11.08） 12
-      - CYL-科技（2021.11.08） 13
-      - YouTube梦歌 11
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_11
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_23
-      - CYL-科技（2021.11.09） 8
-      - CYL-科技（2021.11.08） 14
-      - CYL-科技（2021.11.09） 9
-      - CYL-科技（2021.11.09） 10
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_4
-      - CYL-科技（2021.11.10） 2
-      - CYL-科技（2021.11.11） 2
-      - 🇷🇺 俄罗斯阿伟科技-油管5 2
-      - CYL-科技（2021.11.09） 11
-      - 瑞典（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者） 2
+      - CYL-科技（2021.11.14） 6
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_5
+      - CYL-科技（2021.11.08） 8
+      - CYL-科技（2021.11.09） 5
+      - 电报群https://t.me/lnafq 18
+      - CYL-科技（2021.11.14） 7
+      - CYL-科技（2021.11.14） 8
+      - 🇨🇭 v2rayse_🇨🇭_CH_瑞士_1
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - 🇷🇴 RO_7402 |51.93Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 电报群https://t.me/lnafq 20
+      - 🇩🇪 德国（YouTube资源分享者）
+      - 未知（YouTube资源分享者）
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
+      - 电报群https://t.me/lnafq 9
+      - 斯洛伐克（YouTube资源分享者）
+      - 比利时（YouTube资源分享者）
+      - CYL-科技（2021.11.10）
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_1
+      - "@SSRSUB-V11-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_6
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_48
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_20
-      - CYL-科技（2021.11.10） 3
-      - CYL-科技（2021.11.11） 3
-      - CYL-科技（2021.11.11） 4
-      - 🇳🇱 荷兰（YouTube资源分享者）
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_14
-      - CYL-科技（2021.11.10） 4
-      - CYL-科技（2021.11.09） 12
-      - 瑞典（YouTube资源分享者） 2
-      - 瑞典（YouTube资源分享者） 3
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_64
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_56
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_47
-      - 🇰🇷 韩国（YouTube资源分享者）
+      - 斯洛伐克（YouTube资源分享者） 2
+      - 斯洛伐克（YouTube资源分享者） 3
+      - 斯洛伐克（YouTube资源分享者） 4
+      - 🇩🇪 德国（YouTube资源分享者） 2
+      - 🇨🇳 中国（YouTube资源分享者） 3
+      - CYL-科技（2021.11.14） 9
+      - 🇸🇪 SE_7969 |45.05Mb
+      - 🇸🇪 SE_8015 |39.41Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 10
+      - CYL-科技（2021.11.09） 6
+      - 斯洛伐克（YouTube资源分享者） 5
+      - 斯洛伐克（YouTube资源分享者） 6
+      - 🇩🇪 德国（YouTube资源分享者） 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 11
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 12
+      - 🇫🇷 法国[感谢订阅——科技网络] 2
+      - 斯洛伐克（YouTube资源分享者） 7
+      - 卢森堡阿伟科技-油管1
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 13
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 14
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 16
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_2
+      - 斯洛伐克（YouTube资源分享者） 8
+      - 🇩🇪 德国（YouTube资源分享者） 4
+      - 🇸🇪 SE_7999 |49.06Mb
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_3
+      - 🇳🇱 v2rayse_🇳🇱_NL_荷兰_2
+      - 🇳🇱 荷兰[感谢订阅——科技网络]
+      - 🇫🇷 节点更新https://bit.ly/3uWuS7a _🇫🇷_FR_法国_1
+      - 阿尔巴尼亚（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者） 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a _🇺🇸_US_美国_2
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 17
+      - CYL-科技（2021.11.09） 7
+      - 斯洛伐克（YouTube资源分享者） 9
+      - 🇩🇪 德国（YouTube资源分享者） 5
+      - 🇺🇸 US_8930
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 18
+      - 🇷🇺 RU_7649 |35.99Mb
+      - 138.199.42.170:49514
+      - "@SSRSUB-V03-付费推荐:suo.yt/ssrsub"
+      - 🇷🇺 @SSRSUB-俄罗斯V04-付费推荐::suo.yt/ssrsub
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -304,93 +412,129 @@ proxy-groups:
       - 电报群https://t.me/lnafq 3
       - 电报群https://t.me/lnafq 4
       - 电报群https://t.me/lnafq 5
-      - 🇭🇰 香港（YouTube资源分享者）
       - 电报群https://t.me/lnafq 6
+      - 🇸🇬 新加坡阿伟科技-油管5
       - 电报群https://t.me/lnafq 7
-      - 电报群https://t.me/lnafq 8
-      - CYL-科技（2021.11.11）
-      - 电报群https://t.me/lnafq 9
-      - CYL-科技（2021.11.09）
-      - 电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 11
-      - 电报群https://t.me/lnafq 12
-      - 电报群https://t.me/lnafq 13
-      - CYL-科技（2021.11.08）
-      - 电报群https://t.me/lnafq 14
-      - 电报群https://t.me/lnafq 15
       - CYL-科技（2021.11.06）
-      - CYL-科技（2021.11.08） 2
-      - 电报群https://t.me/lnafq 16
-      - 🇭🇰 香港（YouTube资源分享者） 2
-      - CYL-科技（2021.11.08） 3
-      - 电报群https://t.me/lnafq 17
-      - 电报群https://t.me/lnafq 18
+      - 电报群https://t.me/lnafq 5 2
+      - CYL-科技（2021.11.13）
+      - CYL-科技（2021.11.13） 2
+      - CYL-科技（2021.11.06） 2
+      - CYL-科技（2021.11.08）
+      - CYL-科技（2021.11.12）
+      - 🇸🇬 新加坡阿伟科技-油管2
+      - CYL-科技（2021.11.09）
+      - 电报群https://t.me/lnafq 8
+      - CYL-科技（2021.11.13） 3
+      - CYL-科技（2021.11.06） 3
+      - 🇫🇷 法国[感谢订阅——科技网络]
+      - 🇺🇸 美国阿伟科技-油管1
+      - CYL-科技（2021.11.14）
+      - 🇺🇸 US_13477
+      - 🇷🇺 俄罗斯阿伟科技-油管5 2
+      - 🇨🇳 中国（YouTube资源分享者）
+      - CYL-科技（2021.11.06） 2 2
+      - 🇺🇸 美国阿伟科技-油管1 2
       - CYL-科技（2021.11.09） 2
-      - 欧洲（YouTube资源分享者）
-      - 🇸🇬 新加坡（YouTube资源分享者）
-      - CYL-科技（2021.11.10）
-      - CYL-科技（2021.11.08） 4
-      - 🇭🇰 台湾香港阿伟科技-油管2
-      - 🇭🇰 台湾香港阿伟科技-油管2 2
-      - 由零开始YouTube
-      - CYL-科技（2021.11.08） 5
-      - CYL-科技（2021.11.08） 6
-      - 🇺🇸 美国（YouTube资源分享者）
       - CYL-科技（2021.11.09） 3
       - CYL-科技（2021.11.09） 4
-      - CYL-科技（2021.11.08） 7
+      - CYL-科技（2021.11.08） 2
+      - CYL-科技（2021.11.14） 2
+      - CYL-科技（2021.11.08） 3
       - YouTube梦歌
-      - CYL-科技（2021.11.09） 5
-      - CYL-科技（2021.11.09） 6
-      - CYL-科技（2021.11.06） 2
-      - CYL-科技（2021.11.09） 7
+      - 🇳🇱 NL_5876 | 2.19Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - CYL-科技（2021.11.08） 4
       - YouTube梦歌 2
       - YouTube梦歌 3
       - YouTube梦歌 4
-      - CYL-科技（2021.11.08） 8
+      - CYL-科技（2021.11.13） 4
+      - CYL-科技（2021.11.14） 3
+      - CYL-科技（2021.11.14） 4
+      - CYL-科技（2021.11.08） 5
+      - CYL-科技（2021.11.08） 6
+      - CYL-科技（2021.11.08） 7
+      - CYL-科技（2021.11.12） 2
+      - CYL-科技（2021.11.14） 5
+      - 🇺🇸 US_13482
+      - 🇩🇪 v2rayse_🇩🇪_DE_德国_11
       - YouTube梦歌 5
-      - 🇺🇸 美国阿伟科技-油管3
       - YouTube梦歌 6
       - YouTube梦歌 7
-      - CYL-科技（2021.11.08） 9
-      - 🇷🇺 俄罗斯阿伟科技-油管5
-      - CYL-科技（2021.11.08） 10
       - YouTube梦歌 8
-      - CYL-科技（2021.11.08） 11
-      - YouTube梦歌 9
-      - YouTube梦歌 10
-      - CYL-科技（2021.11.08） 12
-      - CYL-科技（2021.11.08） 13
-      - YouTube梦歌 11
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_11
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_23
-      - CYL-科技（2021.11.09） 8
-      - CYL-科技（2021.11.08） 14
-      - CYL-科技（2021.11.09） 9
-      - CYL-科技（2021.11.09） 10
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_4
-      - CYL-科技（2021.11.10） 2
-      - CYL-科技（2021.11.11） 2
-      - 🇷🇺 俄罗斯阿伟科技-油管5 2
-      - CYL-科技（2021.11.09） 11
-      - 瑞典（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者） 2
+      - CYL-科技（2021.11.14） 6
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_5
+      - CYL-科技（2021.11.08） 8
+      - CYL-科技（2021.11.09） 5
+      - 电报群https://t.me/lnafq 18
+      - CYL-科技（2021.11.14） 7
+      - CYL-科技（2021.11.14） 8
+      - 🇨🇭 v2rayse_🇨🇭_CH_瑞士_1
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - 🇷🇴 RO_7402 |51.93Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 电报群https://t.me/lnafq 20
+      - 🇩🇪 德国（YouTube资源分享者）
+      - 未知（YouTube资源分享者）
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
+      - 电报群https://t.me/lnafq 9
+      - 斯洛伐克（YouTube资源分享者）
+      - 比利时（YouTube资源分享者）
+      - CYL-科技（2021.11.10）
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_1
+      - "@SSRSUB-V11-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_6
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_48
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_20
-      - CYL-科技（2021.11.10） 3
-      - CYL-科技（2021.11.11） 3
-      - CYL-科技（2021.11.11） 4
-      - 🇳🇱 荷兰（YouTube资源分享者）
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_14
-      - CYL-科技（2021.11.10） 4
-      - CYL-科技（2021.11.09） 12
-      - 瑞典（YouTube资源分享者） 2
-      - 瑞典（YouTube资源分享者） 3
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_64
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_56
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_47
-      - 🇰🇷 韩国（YouTube资源分享者）
+      - 斯洛伐克（YouTube资源分享者） 2
+      - 斯洛伐克（YouTube资源分享者） 3
+      - 斯洛伐克（YouTube资源分享者） 4
+      - 🇩🇪 德国（YouTube资源分享者） 2
+      - 🇨🇳 中国（YouTube资源分享者） 3
+      - CYL-科技（2021.11.14） 9
+      - 🇸🇪 SE_7969 |45.05Mb
+      - 🇸🇪 SE_8015 |39.41Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 10
+      - CYL-科技（2021.11.09） 6
+      - 斯洛伐克（YouTube资源分享者） 5
+      - 斯洛伐克（YouTube资源分享者） 6
+      - 🇩🇪 德国（YouTube资源分享者） 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 11
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 12
+      - 🇫🇷 法国[感谢订阅——科技网络] 2
+      - 斯洛伐克（YouTube资源分享者） 7
+      - 卢森堡阿伟科技-油管1
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 13
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 14
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 16
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_2
+      - 斯洛伐克（YouTube资源分享者） 8
+      - 🇩🇪 德国（YouTube资源分享者） 4
+      - 🇸🇪 SE_7999 |49.06Mb
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_3
+      - 🇳🇱 v2rayse_🇳🇱_NL_荷兰_2
+      - 🇳🇱 荷兰[感谢订阅——科技网络]
+      - 🇫🇷 节点更新https://bit.ly/3uWuS7a _🇫🇷_FR_法国_1
+      - 阿尔巴尼亚（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者） 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a _🇺🇸_US_美国_2
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 17
+      - CYL-科技（2021.11.09） 7
+      - 斯洛伐克（YouTube资源分享者） 9
+      - 🇩🇪 德国（YouTube资源分享者） 5
+      - 🇺🇸 US_8930
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 18
+      - 🇷🇺 RU_7649 |35.99Mb
+      - 138.199.42.170:49514
+      - "@SSRSUB-V03-付费推荐:suo.yt/ssrsub"
+      - 🇷🇺 @SSRSUB-俄罗斯V04-付费推荐::suo.yt/ssrsub
   - name: 📲 电报信息
     type: select
     proxies:
@@ -401,93 +545,129 @@ proxy-groups:
       - 电报群https://t.me/lnafq 3
       - 电报群https://t.me/lnafq 4
       - 电报群https://t.me/lnafq 5
-      - 🇭🇰 香港（YouTube资源分享者）
       - 电报群https://t.me/lnafq 6
+      - 🇸🇬 新加坡阿伟科技-油管5
       - 电报群https://t.me/lnafq 7
-      - 电报群https://t.me/lnafq 8
-      - CYL-科技（2021.11.11）
-      - 电报群https://t.me/lnafq 9
-      - CYL-科技（2021.11.09）
-      - 电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 11
-      - 电报群https://t.me/lnafq 12
-      - 电报群https://t.me/lnafq 13
-      - CYL-科技（2021.11.08）
-      - 电报群https://t.me/lnafq 14
-      - 电报群https://t.me/lnafq 15
       - CYL-科技（2021.11.06）
-      - CYL-科技（2021.11.08） 2
-      - 电报群https://t.me/lnafq 16
-      - 🇭🇰 香港（YouTube资源分享者） 2
-      - CYL-科技（2021.11.08） 3
-      - 电报群https://t.me/lnafq 17
-      - 电报群https://t.me/lnafq 18
+      - 电报群https://t.me/lnafq 5 2
+      - CYL-科技（2021.11.13）
+      - CYL-科技（2021.11.13） 2
+      - CYL-科技（2021.11.06） 2
+      - CYL-科技（2021.11.08）
+      - CYL-科技（2021.11.12）
+      - 🇸🇬 新加坡阿伟科技-油管2
+      - CYL-科技（2021.11.09）
+      - 电报群https://t.me/lnafq 8
+      - CYL-科技（2021.11.13） 3
+      - CYL-科技（2021.11.06） 3
+      - 🇫🇷 法国[感谢订阅——科技网络]
+      - 🇺🇸 美国阿伟科技-油管1
+      - CYL-科技（2021.11.14）
+      - 🇺🇸 US_13477
+      - 🇷🇺 俄罗斯阿伟科技-油管5 2
+      - 🇨🇳 中国（YouTube资源分享者）
+      - CYL-科技（2021.11.06） 2 2
+      - 🇺🇸 美国阿伟科技-油管1 2
       - CYL-科技（2021.11.09） 2
-      - 欧洲（YouTube资源分享者）
-      - 🇸🇬 新加坡（YouTube资源分享者）
-      - CYL-科技（2021.11.10）
-      - CYL-科技（2021.11.08） 4
-      - 🇭🇰 台湾香港阿伟科技-油管2
-      - 🇭🇰 台湾香港阿伟科技-油管2 2
-      - 由零开始YouTube
-      - CYL-科技（2021.11.08） 5
-      - CYL-科技（2021.11.08） 6
-      - 🇺🇸 美国（YouTube资源分享者）
       - CYL-科技（2021.11.09） 3
       - CYL-科技（2021.11.09） 4
-      - CYL-科技（2021.11.08） 7
+      - CYL-科技（2021.11.08） 2
+      - CYL-科技（2021.11.14） 2
+      - CYL-科技（2021.11.08） 3
       - YouTube梦歌
-      - CYL-科技（2021.11.09） 5
-      - CYL-科技（2021.11.09） 6
-      - CYL-科技（2021.11.06） 2
-      - CYL-科技（2021.11.09） 7
+      - 🇳🇱 NL_5876 | 2.19Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - CYL-科技（2021.11.08） 4
       - YouTube梦歌 2
       - YouTube梦歌 3
       - YouTube梦歌 4
-      - CYL-科技（2021.11.08） 8
+      - CYL-科技（2021.11.13） 4
+      - CYL-科技（2021.11.14） 3
+      - CYL-科技（2021.11.14） 4
+      - CYL-科技（2021.11.08） 5
+      - CYL-科技（2021.11.08） 6
+      - CYL-科技（2021.11.08） 7
+      - CYL-科技（2021.11.12） 2
+      - CYL-科技（2021.11.14） 5
+      - 🇺🇸 US_13482
+      - 🇩🇪 v2rayse_🇩🇪_DE_德国_11
       - YouTube梦歌 5
-      - 🇺🇸 美国阿伟科技-油管3
       - YouTube梦歌 6
       - YouTube梦歌 7
-      - CYL-科技（2021.11.08） 9
-      - 🇷🇺 俄罗斯阿伟科技-油管5
-      - CYL-科技（2021.11.08） 10
       - YouTube梦歌 8
-      - CYL-科技（2021.11.08） 11
-      - YouTube梦歌 9
-      - YouTube梦歌 10
-      - CYL-科技（2021.11.08） 12
-      - CYL-科技（2021.11.08） 13
-      - YouTube梦歌 11
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_11
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_23
-      - CYL-科技（2021.11.09） 8
-      - CYL-科技（2021.11.08） 14
-      - CYL-科技（2021.11.09） 9
-      - CYL-科技（2021.11.09） 10
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_4
-      - CYL-科技（2021.11.10） 2
-      - CYL-科技（2021.11.11） 2
-      - 🇷🇺 俄罗斯阿伟科技-油管5 2
-      - CYL-科技（2021.11.09） 11
-      - 瑞典（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者） 2
+      - CYL-科技（2021.11.14） 6
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_5
+      - CYL-科技（2021.11.08） 8
+      - CYL-科技（2021.11.09） 5
+      - 电报群https://t.me/lnafq 18
+      - CYL-科技（2021.11.14） 7
+      - CYL-科技（2021.11.14） 8
+      - 🇨🇭 v2rayse_🇨🇭_CH_瑞士_1
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - 🇷🇴 RO_7402 |51.93Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 电报群https://t.me/lnafq 20
+      - 🇩🇪 德国（YouTube资源分享者）
+      - 未知（YouTube资源分享者）
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
+      - 电报群https://t.me/lnafq 9
+      - 斯洛伐克（YouTube资源分享者）
+      - 比利时（YouTube资源分享者）
+      - CYL-科技（2021.11.10）
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_1
+      - "@SSRSUB-V11-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_6
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_48
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_20
-      - CYL-科技（2021.11.10） 3
-      - CYL-科技（2021.11.11） 3
-      - CYL-科技（2021.11.11） 4
-      - 🇳🇱 荷兰（YouTube资源分享者）
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_14
-      - CYL-科技（2021.11.10） 4
-      - CYL-科技（2021.11.09） 12
-      - 瑞典（YouTube资源分享者） 2
-      - 瑞典（YouTube资源分享者） 3
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_64
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_56
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_47
-      - 🇰🇷 韩国（YouTube资源分享者）
+      - 斯洛伐克（YouTube资源分享者） 2
+      - 斯洛伐克（YouTube资源分享者） 3
+      - 斯洛伐克（YouTube资源分享者） 4
+      - 🇩🇪 德国（YouTube资源分享者） 2
+      - 🇨🇳 中国（YouTube资源分享者） 3
+      - CYL-科技（2021.11.14） 9
+      - 🇸🇪 SE_7969 |45.05Mb
+      - 🇸🇪 SE_8015 |39.41Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 10
+      - CYL-科技（2021.11.09） 6
+      - 斯洛伐克（YouTube资源分享者） 5
+      - 斯洛伐克（YouTube资源分享者） 6
+      - 🇩🇪 德国（YouTube资源分享者） 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 11
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 12
+      - 🇫🇷 法国[感谢订阅——科技网络] 2
+      - 斯洛伐克（YouTube资源分享者） 7
+      - 卢森堡阿伟科技-油管1
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 13
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 14
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 16
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_2
+      - 斯洛伐克（YouTube资源分享者） 8
+      - 🇩🇪 德国（YouTube资源分享者） 4
+      - 🇸🇪 SE_7999 |49.06Mb
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_3
+      - 🇳🇱 v2rayse_🇳🇱_NL_荷兰_2
+      - 🇳🇱 荷兰[感谢订阅——科技网络]
+      - 🇫🇷 节点更新https://bit.ly/3uWuS7a _🇫🇷_FR_法国_1
+      - 阿尔巴尼亚（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者） 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a _🇺🇸_US_美国_2
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 17
+      - CYL-科技（2021.11.09） 7
+      - 斯洛伐克（YouTube资源分享者） 9
+      - 🇩🇪 德国（YouTube资源分享者） 5
+      - 🇺🇸 US_8930
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 18
+      - 🇷🇺 RU_7649 |35.99Mb
+      - 138.199.42.170:49514
+      - "@SSRSUB-V03-付费推荐:suo.yt/ssrsub"
+      - 🇷🇺 @SSRSUB-俄罗斯V04-付费推荐::suo.yt/ssrsub
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -498,93 +678,129 @@ proxy-groups:
       - 电报群https://t.me/lnafq 3
       - 电报群https://t.me/lnafq 4
       - 电报群https://t.me/lnafq 5
-      - 🇭🇰 香港（YouTube资源分享者）
       - 电报群https://t.me/lnafq 6
+      - 🇸🇬 新加坡阿伟科技-油管5
       - 电报群https://t.me/lnafq 7
-      - 电报群https://t.me/lnafq 8
-      - CYL-科技（2021.11.11）
-      - 电报群https://t.me/lnafq 9
-      - CYL-科技（2021.11.09）
-      - 电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 11
-      - 电报群https://t.me/lnafq 12
-      - 电报群https://t.me/lnafq 13
-      - CYL-科技（2021.11.08）
-      - 电报群https://t.me/lnafq 14
-      - 电报群https://t.me/lnafq 15
       - CYL-科技（2021.11.06）
-      - CYL-科技（2021.11.08） 2
-      - 电报群https://t.me/lnafq 16
-      - 🇭🇰 香港（YouTube资源分享者） 2
-      - CYL-科技（2021.11.08） 3
-      - 电报群https://t.me/lnafq 17
-      - 电报群https://t.me/lnafq 18
+      - 电报群https://t.me/lnafq 5 2
+      - CYL-科技（2021.11.13）
+      - CYL-科技（2021.11.13） 2
+      - CYL-科技（2021.11.06） 2
+      - CYL-科技（2021.11.08）
+      - CYL-科技（2021.11.12）
+      - 🇸🇬 新加坡阿伟科技-油管2
+      - CYL-科技（2021.11.09）
+      - 电报群https://t.me/lnafq 8
+      - CYL-科技（2021.11.13） 3
+      - CYL-科技（2021.11.06） 3
+      - 🇫🇷 法国[感谢订阅——科技网络]
+      - 🇺🇸 美国阿伟科技-油管1
+      - CYL-科技（2021.11.14）
+      - 🇺🇸 US_13477
+      - 🇷🇺 俄罗斯阿伟科技-油管5 2
+      - 🇨🇳 中国（YouTube资源分享者）
+      - CYL-科技（2021.11.06） 2 2
+      - 🇺🇸 美国阿伟科技-油管1 2
       - CYL-科技（2021.11.09） 2
-      - 欧洲（YouTube资源分享者）
-      - 🇸🇬 新加坡（YouTube资源分享者）
-      - CYL-科技（2021.11.10）
-      - CYL-科技（2021.11.08） 4
-      - 🇭🇰 台湾香港阿伟科技-油管2
-      - 🇭🇰 台湾香港阿伟科技-油管2 2
-      - 由零开始YouTube
-      - CYL-科技（2021.11.08） 5
-      - CYL-科技（2021.11.08） 6
-      - 🇺🇸 美国（YouTube资源分享者）
       - CYL-科技（2021.11.09） 3
       - CYL-科技（2021.11.09） 4
-      - CYL-科技（2021.11.08） 7
+      - CYL-科技（2021.11.08） 2
+      - CYL-科技（2021.11.14） 2
+      - CYL-科技（2021.11.08） 3
       - YouTube梦歌
-      - CYL-科技（2021.11.09） 5
-      - CYL-科技（2021.11.09） 6
-      - CYL-科技（2021.11.06） 2
-      - CYL-科技（2021.11.09） 7
+      - 🇳🇱 NL_5876 | 2.19Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - CYL-科技（2021.11.08） 4
       - YouTube梦歌 2
       - YouTube梦歌 3
       - YouTube梦歌 4
-      - CYL-科技（2021.11.08） 8
+      - CYL-科技（2021.11.13） 4
+      - CYL-科技（2021.11.14） 3
+      - CYL-科技（2021.11.14） 4
+      - CYL-科技（2021.11.08） 5
+      - CYL-科技（2021.11.08） 6
+      - CYL-科技（2021.11.08） 7
+      - CYL-科技（2021.11.12） 2
+      - CYL-科技（2021.11.14） 5
+      - 🇺🇸 US_13482
+      - 🇩🇪 v2rayse_🇩🇪_DE_德国_11
       - YouTube梦歌 5
-      - 🇺🇸 美国阿伟科技-油管3
       - YouTube梦歌 6
       - YouTube梦歌 7
-      - CYL-科技（2021.11.08） 9
-      - 🇷🇺 俄罗斯阿伟科技-油管5
-      - CYL-科技（2021.11.08） 10
       - YouTube梦歌 8
-      - CYL-科技（2021.11.08） 11
-      - YouTube梦歌 9
-      - YouTube梦歌 10
-      - CYL-科技（2021.11.08） 12
-      - CYL-科技（2021.11.08） 13
-      - YouTube梦歌 11
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_11
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_23
-      - CYL-科技（2021.11.09） 8
-      - CYL-科技（2021.11.08） 14
-      - CYL-科技（2021.11.09） 9
-      - CYL-科技（2021.11.09） 10
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_4
-      - CYL-科技（2021.11.10） 2
-      - CYL-科技（2021.11.11） 2
-      - 🇷🇺 俄罗斯阿伟科技-油管5 2
-      - CYL-科技（2021.11.09） 11
-      - 瑞典（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者） 2
+      - CYL-科技（2021.11.14） 6
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_5
+      - CYL-科技（2021.11.08） 8
+      - CYL-科技（2021.11.09） 5
+      - 电报群https://t.me/lnafq 18
+      - CYL-科技（2021.11.14） 7
+      - CYL-科技（2021.11.14） 8
+      - 🇨🇭 v2rayse_🇨🇭_CH_瑞士_1
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - 🇷🇴 RO_7402 |51.93Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 电报群https://t.me/lnafq 20
+      - 🇩🇪 德国（YouTube资源分享者）
+      - 未知（YouTube资源分享者）
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
+      - 电报群https://t.me/lnafq 9
+      - 斯洛伐克（YouTube资源分享者）
+      - 比利时（YouTube资源分享者）
+      - CYL-科技（2021.11.10）
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_1
+      - "@SSRSUB-V11-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_6
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_48
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_20
-      - CYL-科技（2021.11.10） 3
-      - CYL-科技（2021.11.11） 3
-      - CYL-科技（2021.11.11） 4
-      - 🇳🇱 荷兰（YouTube资源分享者）
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_14
-      - CYL-科技（2021.11.10） 4
-      - CYL-科技（2021.11.09） 12
-      - 瑞典（YouTube资源分享者） 2
-      - 瑞典（YouTube资源分享者） 3
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_64
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_56
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_47
-      - 🇰🇷 韩国（YouTube资源分享者）
+      - 斯洛伐克（YouTube资源分享者） 2
+      - 斯洛伐克（YouTube资源分享者） 3
+      - 斯洛伐克（YouTube资源分享者） 4
+      - 🇩🇪 德国（YouTube资源分享者） 2
+      - 🇨🇳 中国（YouTube资源分享者） 3
+      - CYL-科技（2021.11.14） 9
+      - 🇸🇪 SE_7969 |45.05Mb
+      - 🇸🇪 SE_8015 |39.41Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 10
+      - CYL-科技（2021.11.09） 6
+      - 斯洛伐克（YouTube资源分享者） 5
+      - 斯洛伐克（YouTube资源分享者） 6
+      - 🇩🇪 德国（YouTube资源分享者） 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 11
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 12
+      - 🇫🇷 法国[感谢订阅——科技网络] 2
+      - 斯洛伐克（YouTube资源分享者） 7
+      - 卢森堡阿伟科技-油管1
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 13
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 14
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 16
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_2
+      - 斯洛伐克（YouTube资源分享者） 8
+      - 🇩🇪 德国（YouTube资源分享者） 4
+      - 🇸🇪 SE_7999 |49.06Mb
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_3
+      - 🇳🇱 v2rayse_🇳🇱_NL_荷兰_2
+      - 🇳🇱 荷兰[感谢订阅——科技网络]
+      - 🇫🇷 节点更新https://bit.ly/3uWuS7a _🇫🇷_FR_法国_1
+      - 阿尔巴尼亚（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者） 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a _🇺🇸_US_美国_2
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 17
+      - CYL-科技（2021.11.09） 7
+      - 斯洛伐克（YouTube资源分享者） 9
+      - 🇩🇪 德国（YouTube资源分享者） 5
+      - 🇺🇸 US_8930
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 18
+      - 🇷🇺 RU_7649 |35.99Mb
+      - 138.199.42.170:49514
+      - "@SSRSUB-V03-付费推荐:suo.yt/ssrsub"
+      - 🇷🇺 @SSRSUB-俄罗斯V04-付费推荐::suo.yt/ssrsub
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -595,93 +811,129 @@ proxy-groups:
       - 电报群https://t.me/lnafq 3
       - 电报群https://t.me/lnafq 4
       - 电报群https://t.me/lnafq 5
-      - 🇭🇰 香港（YouTube资源分享者）
       - 电报群https://t.me/lnafq 6
+      - 🇸🇬 新加坡阿伟科技-油管5
       - 电报群https://t.me/lnafq 7
-      - 电报群https://t.me/lnafq 8
-      - CYL-科技（2021.11.11）
-      - 电报群https://t.me/lnafq 9
-      - CYL-科技（2021.11.09）
-      - 电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 11
-      - 电报群https://t.me/lnafq 12
-      - 电报群https://t.me/lnafq 13
-      - CYL-科技（2021.11.08）
-      - 电报群https://t.me/lnafq 14
-      - 电报群https://t.me/lnafq 15
       - CYL-科技（2021.11.06）
-      - CYL-科技（2021.11.08） 2
-      - 电报群https://t.me/lnafq 16
-      - 🇭🇰 香港（YouTube资源分享者） 2
-      - CYL-科技（2021.11.08） 3
-      - 电报群https://t.me/lnafq 17
-      - 电报群https://t.me/lnafq 18
+      - 电报群https://t.me/lnafq 5 2
+      - CYL-科技（2021.11.13）
+      - CYL-科技（2021.11.13） 2
+      - CYL-科技（2021.11.06） 2
+      - CYL-科技（2021.11.08）
+      - CYL-科技（2021.11.12）
+      - 🇸🇬 新加坡阿伟科技-油管2
+      - CYL-科技（2021.11.09）
+      - 电报群https://t.me/lnafq 8
+      - CYL-科技（2021.11.13） 3
+      - CYL-科技（2021.11.06） 3
+      - 🇫🇷 法国[感谢订阅——科技网络]
+      - 🇺🇸 美国阿伟科技-油管1
+      - CYL-科技（2021.11.14）
+      - 🇺🇸 US_13477
+      - 🇷🇺 俄罗斯阿伟科技-油管5 2
+      - 🇨🇳 中国（YouTube资源分享者）
+      - CYL-科技（2021.11.06） 2 2
+      - 🇺🇸 美国阿伟科技-油管1 2
       - CYL-科技（2021.11.09） 2
-      - 欧洲（YouTube资源分享者）
-      - 🇸🇬 新加坡（YouTube资源分享者）
-      - CYL-科技（2021.11.10）
-      - CYL-科技（2021.11.08） 4
-      - 🇭🇰 台湾香港阿伟科技-油管2
-      - 🇭🇰 台湾香港阿伟科技-油管2 2
-      - 由零开始YouTube
-      - CYL-科技（2021.11.08） 5
-      - CYL-科技（2021.11.08） 6
-      - 🇺🇸 美国（YouTube资源分享者）
       - CYL-科技（2021.11.09） 3
       - CYL-科技（2021.11.09） 4
-      - CYL-科技（2021.11.08） 7
+      - CYL-科技（2021.11.08） 2
+      - CYL-科技（2021.11.14） 2
+      - CYL-科技（2021.11.08） 3
       - YouTube梦歌
-      - CYL-科技（2021.11.09） 5
-      - CYL-科技（2021.11.09） 6
-      - CYL-科技（2021.11.06） 2
-      - CYL-科技（2021.11.09） 7
+      - 🇳🇱 NL_5876 | 2.19Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - CYL-科技（2021.11.08） 4
       - YouTube梦歌 2
       - YouTube梦歌 3
       - YouTube梦歌 4
-      - CYL-科技（2021.11.08） 8
+      - CYL-科技（2021.11.13） 4
+      - CYL-科技（2021.11.14） 3
+      - CYL-科技（2021.11.14） 4
+      - CYL-科技（2021.11.08） 5
+      - CYL-科技（2021.11.08） 6
+      - CYL-科技（2021.11.08） 7
+      - CYL-科技（2021.11.12） 2
+      - CYL-科技（2021.11.14） 5
+      - 🇺🇸 US_13482
+      - 🇩🇪 v2rayse_🇩🇪_DE_德国_11
       - YouTube梦歌 5
-      - 🇺🇸 美国阿伟科技-油管3
       - YouTube梦歌 6
       - YouTube梦歌 7
-      - CYL-科技（2021.11.08） 9
-      - 🇷🇺 俄罗斯阿伟科技-油管5
-      - CYL-科技（2021.11.08） 10
       - YouTube梦歌 8
-      - CYL-科技（2021.11.08） 11
-      - YouTube梦歌 9
-      - YouTube梦歌 10
-      - CYL-科技（2021.11.08） 12
-      - CYL-科技（2021.11.08） 13
-      - YouTube梦歌 11
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_11
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_23
-      - CYL-科技（2021.11.09） 8
-      - CYL-科技（2021.11.08） 14
-      - CYL-科技（2021.11.09） 9
-      - CYL-科技（2021.11.09） 10
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_4
-      - CYL-科技（2021.11.10） 2
-      - CYL-科技（2021.11.11） 2
-      - 🇷🇺 俄罗斯阿伟科技-油管5 2
-      - CYL-科技（2021.11.09） 11
-      - 瑞典（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者） 2
+      - CYL-科技（2021.11.14） 6
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_5
+      - CYL-科技（2021.11.08） 8
+      - CYL-科技（2021.11.09） 5
+      - 电报群https://t.me/lnafq 18
+      - CYL-科技（2021.11.14） 7
+      - CYL-科技（2021.11.14） 8
+      - 🇨🇭 v2rayse_🇨🇭_CH_瑞士_1
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - 🇷🇴 RO_7402 |51.93Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 电报群https://t.me/lnafq 20
+      - 🇩🇪 德国（YouTube资源分享者）
+      - 未知（YouTube资源分享者）
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
+      - 电报群https://t.me/lnafq 9
+      - 斯洛伐克（YouTube资源分享者）
+      - 比利时（YouTube资源分享者）
+      - CYL-科技（2021.11.10）
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_1
+      - "@SSRSUB-V11-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_6
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_48
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_20
-      - CYL-科技（2021.11.10） 3
-      - CYL-科技（2021.11.11） 3
-      - CYL-科技（2021.11.11） 4
-      - 🇳🇱 荷兰（YouTube资源分享者）
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_14
-      - CYL-科技（2021.11.10） 4
-      - CYL-科技（2021.11.09） 12
-      - 瑞典（YouTube资源分享者） 2
-      - 瑞典（YouTube资源分享者） 3
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_64
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_56
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_47
-      - 🇰🇷 韩国（YouTube资源分享者）
+      - 斯洛伐克（YouTube资源分享者） 2
+      - 斯洛伐克（YouTube资源分享者） 3
+      - 斯洛伐克（YouTube资源分享者） 4
+      - 🇩🇪 德国（YouTube资源分享者） 2
+      - 🇨🇳 中国（YouTube资源分享者） 3
+      - CYL-科技（2021.11.14） 9
+      - 🇸🇪 SE_7969 |45.05Mb
+      - 🇸🇪 SE_8015 |39.41Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 10
+      - CYL-科技（2021.11.09） 6
+      - 斯洛伐克（YouTube资源分享者） 5
+      - 斯洛伐克（YouTube资源分享者） 6
+      - 🇩🇪 德国（YouTube资源分享者） 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 11
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 12
+      - 🇫🇷 法国[感谢订阅——科技网络] 2
+      - 斯洛伐克（YouTube资源分享者） 7
+      - 卢森堡阿伟科技-油管1
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 13
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 14
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 16
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_2
+      - 斯洛伐克（YouTube资源分享者） 8
+      - 🇩🇪 德国（YouTube资源分享者） 4
+      - 🇸🇪 SE_7999 |49.06Mb
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_3
+      - 🇳🇱 v2rayse_🇳🇱_NL_荷兰_2
+      - 🇳🇱 荷兰[感谢订阅——科技网络]
+      - 🇫🇷 节点更新https://bit.ly/3uWuS7a _🇫🇷_FR_法国_1
+      - 阿尔巴尼亚（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者） 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a _🇺🇸_US_美国_2
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 17
+      - CYL-科技（2021.11.09） 7
+      - 斯洛伐克（YouTube资源分享者） 9
+      - 🇩🇪 德国（YouTube资源分享者） 5
+      - 🇺🇸 US_8930
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 18
+      - 🇷🇺 RU_7649 |35.99Mb
+      - 138.199.42.170:49514
+      - "@SSRSUB-V03-付费推荐:suo.yt/ssrsub"
+      - 🇷🇺 @SSRSUB-俄罗斯V04-付费推荐::suo.yt/ssrsub
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -693,93 +945,129 @@ proxy-groups:
       - 电报群https://t.me/lnafq 3
       - 电报群https://t.me/lnafq 4
       - 电报群https://t.me/lnafq 5
-      - 🇭🇰 香港（YouTube资源分享者）
       - 电报群https://t.me/lnafq 6
+      - 🇸🇬 新加坡阿伟科技-油管5
       - 电报群https://t.me/lnafq 7
-      - 电报群https://t.me/lnafq 8
-      - CYL-科技（2021.11.11）
-      - 电报群https://t.me/lnafq 9
-      - CYL-科技（2021.11.09）
-      - 电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 11
-      - 电报群https://t.me/lnafq 12
-      - 电报群https://t.me/lnafq 13
-      - CYL-科技（2021.11.08）
-      - 电报群https://t.me/lnafq 14
-      - 电报群https://t.me/lnafq 15
       - CYL-科技（2021.11.06）
-      - CYL-科技（2021.11.08） 2
-      - 电报群https://t.me/lnafq 16
-      - 🇭🇰 香港（YouTube资源分享者） 2
-      - CYL-科技（2021.11.08） 3
-      - 电报群https://t.me/lnafq 17
-      - 电报群https://t.me/lnafq 18
+      - 电报群https://t.me/lnafq 5 2
+      - CYL-科技（2021.11.13）
+      - CYL-科技（2021.11.13） 2
+      - CYL-科技（2021.11.06） 2
+      - CYL-科技（2021.11.08）
+      - CYL-科技（2021.11.12）
+      - 🇸🇬 新加坡阿伟科技-油管2
+      - CYL-科技（2021.11.09）
+      - 电报群https://t.me/lnafq 8
+      - CYL-科技（2021.11.13） 3
+      - CYL-科技（2021.11.06） 3
+      - 🇫🇷 法国[感谢订阅——科技网络]
+      - 🇺🇸 美国阿伟科技-油管1
+      - CYL-科技（2021.11.14）
+      - 🇺🇸 US_13477
+      - 🇷🇺 俄罗斯阿伟科技-油管5 2
+      - 🇨🇳 中国（YouTube资源分享者）
+      - CYL-科技（2021.11.06） 2 2
+      - 🇺🇸 美国阿伟科技-油管1 2
       - CYL-科技（2021.11.09） 2
-      - 欧洲（YouTube资源分享者）
-      - 🇸🇬 新加坡（YouTube资源分享者）
-      - CYL-科技（2021.11.10）
-      - CYL-科技（2021.11.08） 4
-      - 🇭🇰 台湾香港阿伟科技-油管2
-      - 🇭🇰 台湾香港阿伟科技-油管2 2
-      - 由零开始YouTube
-      - CYL-科技（2021.11.08） 5
-      - CYL-科技（2021.11.08） 6
-      - 🇺🇸 美国（YouTube资源分享者）
       - CYL-科技（2021.11.09） 3
       - CYL-科技（2021.11.09） 4
-      - CYL-科技（2021.11.08） 7
+      - CYL-科技（2021.11.08） 2
+      - CYL-科技（2021.11.14） 2
+      - CYL-科技（2021.11.08） 3
       - YouTube梦歌
-      - CYL-科技（2021.11.09） 5
-      - CYL-科技（2021.11.09） 6
-      - CYL-科技（2021.11.06） 2
-      - CYL-科技（2021.11.09） 7
+      - 🇳🇱 NL_5876 | 2.19Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - CYL-科技（2021.11.08） 4
       - YouTube梦歌 2
       - YouTube梦歌 3
       - YouTube梦歌 4
-      - CYL-科技（2021.11.08） 8
+      - CYL-科技（2021.11.13） 4
+      - CYL-科技（2021.11.14） 3
+      - CYL-科技（2021.11.14） 4
+      - CYL-科技（2021.11.08） 5
+      - CYL-科技（2021.11.08） 6
+      - CYL-科技（2021.11.08） 7
+      - CYL-科技（2021.11.12） 2
+      - CYL-科技（2021.11.14） 5
+      - 🇺🇸 US_13482
+      - 🇩🇪 v2rayse_🇩🇪_DE_德国_11
       - YouTube梦歌 5
-      - 🇺🇸 美国阿伟科技-油管3
       - YouTube梦歌 6
       - YouTube梦歌 7
-      - CYL-科技（2021.11.08） 9
-      - 🇷🇺 俄罗斯阿伟科技-油管5
-      - CYL-科技（2021.11.08） 10
       - YouTube梦歌 8
-      - CYL-科技（2021.11.08） 11
-      - YouTube梦歌 9
-      - YouTube梦歌 10
-      - CYL-科技（2021.11.08） 12
-      - CYL-科技（2021.11.08） 13
-      - YouTube梦歌 11
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_11
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_23
-      - CYL-科技（2021.11.09） 8
-      - CYL-科技（2021.11.08） 14
-      - CYL-科技（2021.11.09） 9
-      - CYL-科技（2021.11.09） 10
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_4
-      - CYL-科技（2021.11.10） 2
-      - CYL-科技（2021.11.11） 2
-      - 🇷🇺 俄罗斯阿伟科技-油管5 2
-      - CYL-科技（2021.11.09） 11
-      - 瑞典（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者） 2
+      - CYL-科技（2021.11.14） 6
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_5
+      - CYL-科技（2021.11.08） 8
+      - CYL-科技（2021.11.09） 5
+      - 电报群https://t.me/lnafq 18
+      - CYL-科技（2021.11.14） 7
+      - CYL-科技（2021.11.14） 8
+      - 🇨🇭 v2rayse_🇨🇭_CH_瑞士_1
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - 🇷🇴 RO_7402 |51.93Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 电报群https://t.me/lnafq 20
+      - 🇩🇪 德国（YouTube资源分享者）
+      - 未知（YouTube资源分享者）
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
+      - 电报群https://t.me/lnafq 9
+      - 斯洛伐克（YouTube资源分享者）
+      - 比利时（YouTube资源分享者）
+      - CYL-科技（2021.11.10）
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_1
+      - "@SSRSUB-V11-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_6
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_48
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_20
-      - CYL-科技（2021.11.10） 3
-      - CYL-科技（2021.11.11） 3
-      - CYL-科技（2021.11.11） 4
-      - 🇳🇱 荷兰（YouTube资源分享者）
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_14
-      - CYL-科技（2021.11.10） 4
-      - CYL-科技（2021.11.09） 12
-      - 瑞典（YouTube资源分享者） 2
-      - 瑞典（YouTube资源分享者） 3
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_64
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_56
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_47
-      - 🇰🇷 韩国（YouTube资源分享者）
+      - 斯洛伐克（YouTube资源分享者） 2
+      - 斯洛伐克（YouTube资源分享者） 3
+      - 斯洛伐克（YouTube资源分享者） 4
+      - 🇩🇪 德国（YouTube资源分享者） 2
+      - 🇨🇳 中国（YouTube资源分享者） 3
+      - CYL-科技（2021.11.14） 9
+      - 🇸🇪 SE_7969 |45.05Mb
+      - 🇸🇪 SE_8015 |39.41Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 10
+      - CYL-科技（2021.11.09） 6
+      - 斯洛伐克（YouTube资源分享者） 5
+      - 斯洛伐克（YouTube资源分享者） 6
+      - 🇩🇪 德国（YouTube资源分享者） 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 11
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 12
+      - 🇫🇷 法国[感谢订阅——科技网络] 2
+      - 斯洛伐克（YouTube资源分享者） 7
+      - 卢森堡阿伟科技-油管1
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 13
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 14
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 16
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_2
+      - 斯洛伐克（YouTube资源分享者） 8
+      - 🇩🇪 德国（YouTube资源分享者） 4
+      - 🇸🇪 SE_7999 |49.06Mb
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_3
+      - 🇳🇱 v2rayse_🇳🇱_NL_荷兰_2
+      - 🇳🇱 荷兰[感谢订阅——科技网络]
+      - 🇫🇷 节点更新https://bit.ly/3uWuS7a _🇫🇷_FR_法国_1
+      - 阿尔巴尼亚（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者） 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a _🇺🇸_US_美国_2
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 17
+      - CYL-科技（2021.11.09） 7
+      - 斯洛伐克（YouTube资源分享者） 9
+      - 🇩🇪 德国（YouTube资源分享者） 5
+      - 🇺🇸 US_8930
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 18
+      - 🇷🇺 RU_7649 |35.99Mb
+      - 138.199.42.170:49514
+      - "@SSRSUB-V03-付费推荐:suo.yt/ssrsub"
+      - 🇷🇺 @SSRSUB-俄罗斯V04-付费推荐::suo.yt/ssrsub
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -807,93 +1095,129 @@ proxy-groups:
       - 电报群https://t.me/lnafq 3
       - 电报群https://t.me/lnafq 4
       - 电报群https://t.me/lnafq 5
-      - 🇭🇰 香港（YouTube资源分享者）
       - 电报群https://t.me/lnafq 6
+      - 🇸🇬 新加坡阿伟科技-油管5
       - 电报群https://t.me/lnafq 7
-      - 电报群https://t.me/lnafq 8
-      - CYL-科技（2021.11.11）
-      - 电报群https://t.me/lnafq 9
-      - CYL-科技（2021.11.09）
-      - 电报群https://t.me/lnafq 10
-      - 电报群https://t.me/lnafq 11
-      - 电报群https://t.me/lnafq 12
-      - 电报群https://t.me/lnafq 13
-      - CYL-科技（2021.11.08）
-      - 电报群https://t.me/lnafq 14
-      - 电报群https://t.me/lnafq 15
       - CYL-科技（2021.11.06）
-      - CYL-科技（2021.11.08） 2
-      - 电报群https://t.me/lnafq 16
-      - 🇭🇰 香港（YouTube资源分享者） 2
-      - CYL-科技（2021.11.08） 3
-      - 电报群https://t.me/lnafq 17
-      - 电报群https://t.me/lnafq 18
+      - 电报群https://t.me/lnafq 5 2
+      - CYL-科技（2021.11.13）
+      - CYL-科技（2021.11.13） 2
+      - CYL-科技（2021.11.06） 2
+      - CYL-科技（2021.11.08）
+      - CYL-科技（2021.11.12）
+      - 🇸🇬 新加坡阿伟科技-油管2
+      - CYL-科技（2021.11.09）
+      - 电报群https://t.me/lnafq 8
+      - CYL-科技（2021.11.13） 3
+      - CYL-科技（2021.11.06） 3
+      - 🇫🇷 法国[感谢订阅——科技网络]
+      - 🇺🇸 美国阿伟科技-油管1
+      - CYL-科技（2021.11.14）
+      - 🇺🇸 US_13477
+      - 🇷🇺 俄罗斯阿伟科技-油管5 2
+      - 🇨🇳 中国（YouTube资源分享者）
+      - CYL-科技（2021.11.06） 2 2
+      - 🇺🇸 美国阿伟科技-油管1 2
       - CYL-科技（2021.11.09） 2
-      - 欧洲（YouTube资源分享者）
-      - 🇸🇬 新加坡（YouTube资源分享者）
-      - CYL-科技（2021.11.10）
-      - CYL-科技（2021.11.08） 4
-      - 🇭🇰 台湾香港阿伟科技-油管2
-      - 🇭🇰 台湾香港阿伟科技-油管2 2
-      - 由零开始YouTube
-      - CYL-科技（2021.11.08） 5
-      - CYL-科技（2021.11.08） 6
-      - 🇺🇸 美国（YouTube资源分享者）
       - CYL-科技（2021.11.09） 3
       - CYL-科技（2021.11.09） 4
-      - CYL-科技（2021.11.08） 7
+      - CYL-科技（2021.11.08） 2
+      - CYL-科技（2021.11.14） 2
+      - CYL-科技（2021.11.08） 3
       - YouTube梦歌
-      - CYL-科技（2021.11.09） 5
-      - CYL-科技（2021.11.09） 6
-      - CYL-科技（2021.11.06） 2
-      - CYL-科技（2021.11.09） 7
+      - 🇳🇱 NL_5876 | 2.19Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a
+      - CYL-科技（2021.11.08） 4
       - YouTube梦歌 2
       - YouTube梦歌 3
       - YouTube梦歌 4
-      - CYL-科技（2021.11.08） 8
+      - CYL-科技（2021.11.13） 4
+      - CYL-科技（2021.11.14） 3
+      - CYL-科技（2021.11.14） 4
+      - CYL-科技（2021.11.08） 5
+      - CYL-科技（2021.11.08） 6
+      - CYL-科技（2021.11.08） 7
+      - CYL-科技（2021.11.12） 2
+      - CYL-科技（2021.11.14） 5
+      - 🇺🇸 US_13482
+      - 🇩🇪 v2rayse_🇩🇪_DE_德国_11
       - YouTube梦歌 5
-      - 🇺🇸 美国阿伟科技-油管3
       - YouTube梦歌 6
       - YouTube梦歌 7
-      - CYL-科技（2021.11.08） 9
-      - 🇷🇺 俄罗斯阿伟科技-油管5
-      - CYL-科技（2021.11.08） 10
       - YouTube梦歌 8
-      - CYL-科技（2021.11.08） 11
-      - YouTube梦歌 9
-      - YouTube梦歌 10
-      - CYL-科技（2021.11.08） 12
-      - CYL-科技（2021.11.08） 13
-      - YouTube梦歌 11
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_11
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_23
-      - CYL-科技（2021.11.09） 8
-      - CYL-科技（2021.11.08） 14
-      - CYL-科技（2021.11.09） 9
-      - CYL-科技（2021.11.09） 10
-      - 🇺🇸 cfmem.com_🇺🇸_US_美国_4
-      - CYL-科技（2021.11.10） 2
-      - CYL-科技（2021.11.11） 2
-      - 🇷🇺 俄罗斯阿伟科技-油管5 2
-      - CYL-科技（2021.11.09） 11
-      - 瑞典（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者） 2
+      - CYL-科技（2021.11.14） 6
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_5
+      - CYL-科技（2021.11.08） 8
+      - CYL-科技（2021.11.09） 5
+      - 电报群https://t.me/lnafq 18
+      - CYL-科技（2021.11.14） 7
+      - CYL-科技（2021.11.14） 8
+      - 🇨🇭 v2rayse_🇨🇭_CH_瑞士_1
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 2
+      - 🇷🇴 RO_7402 |51.93Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 3
+      - 电报群https://t.me/lnafq 20
+      - 🇩🇪 德国（YouTube资源分享者）
+      - 未知（YouTube资源分享者）
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 5
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 6
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 7
+      - 电报群https://t.me/lnafq 9
+      - 斯洛伐克（YouTube资源分享者）
+      - 比利时（YouTube资源分享者）
+      - CYL-科技（2021.11.10）
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_1
+      - "@SSRSUB-V11-付费推荐:suo.yt/ssrsub"
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 8
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 9
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_6
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_48
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_20
-      - CYL-科技（2021.11.10） 3
-      - CYL-科技（2021.11.11） 3
-      - CYL-科技（2021.11.11） 4
-      - 🇳🇱 荷兰（YouTube资源分享者）
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_14
-      - CYL-科技（2021.11.10） 4
-      - CYL-科技（2021.11.09） 12
-      - 瑞典（YouTube资源分享者） 2
-      - 瑞典（YouTube资源分享者） 3
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_64
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_56
-      - 🇩🇪 cfmem.com_🇩🇪_DE_德国_47
-      - 🇰🇷 韩国（YouTube资源分享者）
+      - 斯洛伐克（YouTube资源分享者） 2
+      - 斯洛伐克（YouTube资源分享者） 3
+      - 斯洛伐克（YouTube资源分享者） 4
+      - 🇩🇪 德国（YouTube资源分享者） 2
+      - 🇨🇳 中国（YouTube资源分享者） 3
+      - CYL-科技（2021.11.14） 9
+      - 🇸🇪 SE_7969 |45.05Mb
+      - 🇸🇪 SE_8015 |39.41Mb
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 10
+      - CYL-科技（2021.11.09） 6
+      - 斯洛伐克（YouTube资源分享者） 5
+      - 斯洛伐克（YouTube资源分享者） 6
+      - 🇩🇪 德国（YouTube资源分享者） 3
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 11
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 12
+      - 🇫🇷 法国[感谢订阅——科技网络] 2
+      - 斯洛伐克（YouTube资源分享者） 7
+      - 卢森堡阿伟科技-油管1
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 13
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 14
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 15
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 16
       - 🇨🇭 cfmem.com_🇨🇭_CH_瑞士_2
+      - 斯洛伐克（YouTube资源分享者） 8
+      - 🇩🇪 德国（YouTube资源分享者） 4
+      - 🇸🇪 SE_7999 |49.06Mb
+      - 🇸🇪 v2rayse_🇸🇪_SE_瑞典_3
+      - 🇳🇱 v2rayse_🇳🇱_NL_荷兰_2
+      - 🇳🇱 荷兰[感谢订阅——科技网络]
+      - 🇫🇷 节点更新https://bit.ly/3uWuS7a _🇫🇷_FR_法国_1
+      - 阿尔巴尼亚（YouTube资源分享者）
+      - 🇨🇳 中国（YouTube资源分享者） 4
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a _🇺🇸_US_美国_2
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 17
+      - CYL-科技（2021.11.09） 7
+      - 斯洛伐克（YouTube资源分享者） 9
+      - 🇩🇪 德国（YouTube资源分享者） 5
+      - 🇺🇸 US_8930
+      - 🇸🇬 节点更新https://bit.ly/3uWuS7a 18
+      - 🇷🇺 RU_7649 |35.99Mb
+      - 138.199.42.170:49514
+      - "@SSRSUB-V03-付费推荐:suo.yt/ssrsub"
+      - 🇷🇺 @SSRSUB-俄罗斯V04-付费推荐::suo.yt/ssrsub
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
