@@ -5,26 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: ok _506 | 7.88Mb  ok, server: ru.gfwglass.tk, port: 443, type: vmess, uuid: 8414177f-abd4-4af4-8beb-af4235a09248, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /114514, ws-headers: {Host: ru.gfwglass.tk}}
-  - {name: ok C 104 ok, server: switzerland-zurich.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: switzerland-zurich.mah3Hoet.com}}
-  - {name: ok CYL-科技（2021.11.18）ok, server: l2-uk-a.cn0.me, port: 443, type: trojan, password: 01cfa1e4-cdce-35f6-9d66-88723210601dcmynw, sni: l2-uk-a.cn0.me}
-  - {name: ok CYL-科技（2021.11.18）ok 2, server: kaizen-us-9.cn0.me, port: 443, type: trojan, password: 01cfa1e4-cdce-35f6-9d66-88723210601dcmynw, sni: kaizen-us-9.cn0.me}
-  - {name: ok CYL-科技（2021.11.18）ok 3, server: kaizen-jp-6.cn0.me, port: 443, type: trojan, password: 01cfa1e4-cdce-35f6-9d66-88723210601dcmynw, sni: kaizen-jp-6.cn0.me}
-  - {name: ok v2rayse_🇸🇰_SK_斯洛伐克_18 ok, server: 185.76.8.218, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
-  - {name: ok v2rayse_🇸🇰_SK_斯洛伐克_21 ok, server: 185.76.8.218, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
-  - {name: ok v2rayse_🇸🇰_SK_斯洛伐克_29 ok, server: 185.76.8.218, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇨🇳 ok 🇨🇳 CN_2055 | 2.22Mb ok, server: jpa.sttlink.xyz, port: 20189, type: vmess, uuid: ab60166b-d22d-3ae5-963f-e5867007ff08, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ka, ws-headers: {Host: jpa.sttlink.xyz}}
-  - {name: ok 🇺🇸 Te 5 ok, server: 104.16.104.198, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: green-recipe-bc49.tianzhen121.workers.dev}}
-  - {name: ok 🇺🇸(欢迎订阅youtube：钱科技)1120 ok, server: 213.59.118.169, port: 443, type: vmess, uuid: f47bb3d4-37dd-44ee-a7ee-1c485a0e2b90, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /9auVq7xCL7, ws-headers: {Host: dp.5599.buzz}}
-  - {name: 🇨🇦 ok 加拿大 🇨🇦(欢迎订阅youtube：钱科技)1120 ok, server: 37.19.211.63, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: ok 卢森堡阿伟科技-油管2ok, server: 520yyds.zhqt.xyz, port: 50090, type: vmess, uuid: c0023b32-b34b-4aca-ac22-dc39d126976e, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: free-3.joker007.top}}
-  - {name: 🇺🇸 ok 美国阿伟科技-油管3ok, server: 520yyds.zhqt.xyz, port: 50092, type: vmess, uuid: 93094b0e-e644-4adf-9c96-e3168ac5205a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 135.zhqt.xyz}}
-  - {name: ok 欧洲阿伟科技-油管3ok, server: 520yyds.zhqt.xyz, port: 50088, type: vmess, uuid: 93094b0e-e644-4adf-9c96-e3168ac5205a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: free-5.joker007.top}}
-  - {name: ok(欢迎订阅youtube：钱科技)1116ok, server: 101.132.173.78, port: 41906, type: vmess, uuid: e24ac30e-e296-4761-af23-7bda2781ba85, alterId: 64, cipher: auto, tls: false}
-  - {name: ok_@SSRSUB-V29-付费推荐:suo.yt/ssrsub ok, server: usaarm2.oracleusa.ml, port: 443, type: vmess, uuid: 13e34585-8988-4808-9819-a9f6ed47e373, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /LXZKNTbTnI, ws-headers: {Host: usaarm2.oracleusa.ml}}
-  - {name: okCYL-科技（2021.11.08）ok, server: 89.46.223.93, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: okCYL-科技（2021.11.18）ok, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}}
-  - {name: okCYL-科技（2021.11.18）ok 2, server: kaizen-us-10.cn0.me, port: 443, type: trojan, password: 01cfa1e4-cdce-35f6-9d66-88723210601dcmynw, sni: kaizen-us-10.cn0.me}
   - {name: okCYL-科技（2021.11.19）ok, server: t1.ssrsub.com, port: 11033, type: trojan, password: a0daa9d9-6257-4ae9-9959-ccfb993f122c, sni: t1.ssrsub.com}
   - {name: okCYL-科技（2021.11.19）ok 2, server: t8.ssrsub.com, port: 11033, type: trojan, password: a0daa9d9-6257-4ae9-9959-ccfb993f122c, sni: t8.ssrsub.com}
   - {name: okCYL-科技（2021.11.19）ok 3, server: t1.ssrsub.com, port: 11033, type: trojan, password: 0d0a53dd-6a0f-47ac-8d0c-6eca674926b2, sni: t1.ssrsub.com}
@@ -33,37 +13,78 @@ proxies:
   - {name: okCYL-科技（2021.11.19）ok 6, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: okCYL-科技（2021.11.19）ok 7, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: okCYL-科技（2021.11.19）ok 8, server: 172.105.251.193, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: okCYL-科技（2021.11.18）ok, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}}
+  - {name: okCYL-科技（2021.11.18）ok 2, server: kaizen-us-10.cn0.me, port: 443, type: trojan, password: 01cfa1e4-cdce-35f6-9d66-88723210601dcmynw, sni: kaizen-us-10.cn0.me}
+  - {name: okCYL-科技（2021.11.08）ok, server: 89.46.223.93, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: ok_@SSRSUB-V29-付费推荐:suo.yt/ssrsub ok, server: usaarm2.oracleusa.ml, port: 443, type: vmess, uuid: 13e34585-8988-4808-9819-a9f6ed47e373, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /LXZKNTbTnI, ws-headers: {Host: usaarm2.oracleusa.ml}}
+  - {name: ok(欢迎订阅youtube：钱科技)1116ok, server: 101.132.173.78, port: 41906, type: vmess, uuid: e24ac30e-e296-4761-af23-7bda2781ba85, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 ok 台湾阿伟科技-油管3 ok, server: 104.19.101.3, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /gdo93qerwtyuo, ws-headers: {Host: e.fovi.tk}}
+  - {name: ok 欧洲阿伟科技-油管3ok, server: 520yyds.zhqt.xyz, port: 50088, type: vmess, uuid: 93094b0e-e644-4adf-9c96-e3168ac5205a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: free-5.joker007.top}}
+  - {name: 🇺🇸 ok 美国阿伟科技-油管3ok, server: 520yyds.zhqt.xyz, port: 50092, type: vmess, uuid: 93094b0e-e644-4adf-9c96-e3168ac5205a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 135.zhqt.xyz}}
+  - {name: 🇺🇸 ok 美国阿伟科技-油管2 ok, server: 104.16.149.48, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: ok 卢森堡阿伟科技-油管2ok, server: 520yyds.zhqt.xyz, port: 50090, type: vmess, uuid: c0023b32-b34b-4aca-ac22-dc39d126976e, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: free-3.joker007.top}}
+  - {name: 🇨🇦 ok 加拿大 🇨🇦(欢迎订阅youtube：钱科技)1120 ok, server: 37.19.211.63, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: ok 电信测试可用10M ok, server: 104.25.255.229, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 ok 德国阿伟科技-油管2 ok, server: 104.18.253.38, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
   - {name: ok 阿伟科技-油管3ok, server: 520yyds.zhqt.xyz, port: 50090, type: vmess, uuid: 93094b0e-e644-4adf-9c96-e3168ac5205a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: free-3.joker007.top}}
+  - {name: ok 🇺🇸(欢迎订阅youtube：钱科技)1120 ok, server: 213.59.118.169, port: 443, type: vmess, uuid: f47bb3d4-37dd-44ee-a7ee-1c485a0e2b90, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /9auVq7xCL7, ws-headers: {Host: dp.5599.buzz}}
+  - {name: ok 🇺🇸 Te 5 ok, server: 104.16.104.198, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: green-recipe-bc49.tianzhen121.workers.dev}}
+  - {name: 🇸🇬 ok 🇸🇬SG_05(欢迎订阅youtube：钱科技)1121 ok, server: 217.197.161.166, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇨🇳 ok 🇨🇳 CN_2055 | 2.22Mb ok, server: jpa.sttlink.xyz, port: 20189, type: vmess, uuid: ab60166b-d22d-3ae5-963f-e5867007ff08, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ka, ws-headers: {Host: jpa.sttlink.xyz}}
+  - {name: ok v2rayse_🇸🇰_SK_斯洛伐克_29 ok, server: 185.76.8.218, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: ok v2rayse_🇸🇰_SK_斯洛伐克_21 ok, server: 185.76.8.218, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: ok v2rayse_🇸🇰_SK_斯洛伐克_18 ok, server: 185.76.8.218, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: ok CYL-科技（2021.11.20）ok, server: abnode13.makegamegoal.com, port: 8443, type: trojan, password: e903976a-dc98-4482-bfc6-8d502edc772e, sni: abnode13.makegamegoal.com}
+  - {name: ok CYL-科技（2021.11.20）ok 2, server: 45.141.102.51, port: 35465, type: vmess, uuid: d7bbbcad-0653-42a1-b101-db44624707aa, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.11.20）ok 3, server: usdsl.52jjyun.top, port: 80, type: vmess, uuid: 78fb08b7-7860-44a2-a41c-8edf9d7db0ad, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: usdsl.52jjyun.top}}
+  - {name: ok CYL-科技（2021.11.20）ok 4, server: 20.187.176.2, port: 61105, type: vmess, uuid: c14d29cc-9914-457b-9849-bcc8258af93b, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /tigerfelix, ws-headers: {Host: 20.187.176.2}}
+  - {name: ok CYL-科技（2021.11.20）ok 5, server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: 8aa86d85-aab3-46da-8fe9-406edd995a15, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: ok CYL-科技（2021.11.20）ok 6, server: abnode07.makegamegoal.com, port: 8443, type: trojan, password: e903976a-dc98-4482-bfc6-8d502edc772e, sni: abnode07.makegamegoal.com}
+  - {name: ok CYL-科技（2021.11.20）ok 7, server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: 8aa86d85-aab3-46da-8fe9-406edd995a15, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: ok CYL-科技（2021.11.20）ok 8, server: 185.172.113.85, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ok CYL-科技（2021.11.18）ok, server: l2-uk-a.cn0.me, port: 443, type: trojan, password: 01cfa1e4-cdce-35f6-9d66-88723210601dcmynw, sni: l2-uk-a.cn0.me}
+  - {name: ok CYL-科技（2021.11.18）ok 2, server: kaizen-us-9.cn0.me, port: 443, type: trojan, password: 01cfa1e4-cdce-35f6-9d66-88723210601dcmynw, sni: kaizen-us-9.cn0.me}
+  - {name: ok CYL-科技（2021.11.18）ok 3, server: kaizen-jp-6.cn0.me, port: 443, type: trojan, password: 01cfa1e4-cdce-35f6-9d66-88723210601dcmynw, sni: kaizen-jp-6.cn0.me}
   - {name: ok CYL-科技（2021.11.18）ok 4, server: jpa.sttlink.xyz, port: 20189, type: vmess, uuid: ab60166b-d22d-3ae5-963f-e5867007ff08, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ka, ws-headers: {Host: jpa.sttlink.xyz}}
-  - {name: ok 185.172.113.156:809  ok, server: 185.172.113.156, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ok C 104 ok, server: switzerland-zurich.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: switzerland-zurich.mah3Hoet.com}}
   - {name: ok 185.172.113.156:812  ok, server: 185.172.113.156, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ok 185.172.113.156:809  ok, server: 185.172.113.156, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: ok 185.172.113.156:807 ok, server: 185.172.113.156, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ok _506 | 7.88Mb  ok, server: ru.gfwglass.tk, port: 443, type: vmess, uuid: 8414177f-abd4-4af4-8beb-af4235a09248, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /114514, ws-headers: {Host: ru.gfwglass.tk}}
+  - {name: 🇺🇸 ok github.com/freefq - 美国CloudFlare节点ok, server: 198.41.212.234, port: 2052, type: vmess, uuid: 00000000-1111-2222-3333-444444444444, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /Telegram/@Loss_0_Vmess, ws-headers: {Host: free.jianguoyun.com}}
+  - {name: 🇺🇸 ok github.com/freefq - 北美地区  8 ok, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇸🇬 github.com/freefq - 新西兰CachedNet数据中心 9, server: 107.150.94.14, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇸🇬 github.com/freefq - 新西兰CachedNet数据中心 10, server: 107.150.94.14, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 🇺🇸 ok github.com/freefq - 北美地区  22 ok, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 ok github.com/freefq - 美国  25 ok, server: 143.198.237.214, port: 27489, type: vmess, uuid: d73f027b-9a37-4e79-dd29-3a0d1e1da128, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 143.198.237.214}}
+  - {name: 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok, server: 23.106.248.19, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: ZDYSyKNR8upjg9l36eR3ZySAaaEcOY2CaI0zp5xnX4733eSwqxCFlOTD8BCDFA}
+  - {name: 🇺🇸 ok github美国CloudFlare公司CDN节点 28 ok, server: sw.gfwglass.tk, port: 443, type: vmess, uuid: ecf3cf5e-8cb2-43c4-bc4c-1e946f7b87ec, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /d7KnHN, ws-headers: {Host: sw.gfwglass.tk}}
+  - {name: 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb 29 ok, server: 209.58.181.251, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3eC0KxS8ICjgp2N6OZ94x3DaXwyTRzaSqApFlF5cD3Y73luCYyn8eERDSAaOB}
+  - {name: 🇸🇬 ok github.com/freefq - 新加坡  30 ok, server: 43.249.39.154, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: T3YS0aCp8C5jgA736D834yCDaROEOezAyDqISBl39KSepnuZYN2FRwxlxcXFZa}
+  - {name: 🇸🇬 ok github.com/freefq 新加坡LeaseWeb  31 ok, server: 103.254.153.72, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: ZyYRnKlB8u5agc7IFAO3aC3D9XDNeEzS2wF6jpxOA4Z3SayYDCpCR8Tq0Sl3xe}
+  - {name: ok 瑞典 🇸🇪(Youtube频道：工具大师！) ok, server: 185.76.8.218, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: ok 瑞典 🇸🇪(Youtube频道：工具大师！) ok 2, server: 185.76.8.218, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇸🇬 ok 新加坡 🇸🇬(Youtube频道：工具大师！)ok, server: 217.197.161.166, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok, server: 185.76.8.218, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: ok 挪威(Youtube频道：工具大师！)ok, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 2, server: 185.76.8.218, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 3, server: 185.76.8.218, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 4, server: 185.76.8.218, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 5, server: 185.76.8.218, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: ok 🇳🇴NO(Youtube频道：工具大师！) ok, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok SK(Youtube频道：工具大师！)ok, server: 185.76.8.218, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ok 挪威 🇳🇴(Youtube频道：工具大师！)ok, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok (Youtube频道：工具大师！)ok, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 ok 加拿大🇨🇦(Youtube频道：工具大师！)ok, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇭🇰 ok 香港(Youtube频道：工具大师！)ok, server: 118.107.244.110, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 ok 美国(Youtube频道：工具大师！)ok, server: 23.106.33.156, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: R3wS0jxB8ARCZgapOF8a4CpFc5lSOqCDZYSXD2a3zuY7eETD6IANy39elnxKy3}
+  - {name: 🇺🇸 ok 美国(Youtube频道：工具大师！) ok, server: 23.106.33.152, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: S3YqACC58uajapxRy7S3D63xcXOeFnl2w9NZezAKDgSYD0RZBFTy3pI8ElCaO4}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ok _506 | 7.88Mb  ok
-      - ok C 104 ok
-      - ok CYL-科技（2021.11.18）ok
-      - ok CYL-科技（2021.11.18）ok 2
-      - ok CYL-科技（2021.11.18）ok 3
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_18 ok
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_21 ok
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_29 ok
-      - 🇨🇳 ok 🇨🇳 CN_2055 | 2.22Mb ok
-      - ok 🇺🇸 Te 5 ok
-      - ok 🇺🇸(欢迎订阅youtube：钱科技)1120 ok
-      - 🇨🇦 ok 加拿大 🇨🇦(欢迎订阅youtube：钱科技)1120 ok
-      - ok 卢森堡阿伟科技-油管2ok
-      - 🇺🇸 ok 美国阿伟科技-油管3ok
-      - ok 欧洲阿伟科技-油管3ok
-      - ok(欢迎订阅youtube：钱科技)1116ok
-      - ok_@SSRSUB-V29-付费推荐:suo.yt/ssrsub ok
-      - okCYL-科技（2021.11.08）ok
-      - okCYL-科技（2021.11.18）ok
-      - okCYL-科技（2021.11.18）ok 2
       - okCYL-科技（2021.11.19）ok
       - okCYL-科技（2021.11.19）ok 2
       - okCYL-科技（2021.11.19）ok 3
@@ -72,37 +93,78 @@ proxy-groups:
       - okCYL-科技（2021.11.19）ok 6
       - okCYL-科技（2021.11.19）ok 7
       - okCYL-科技（2021.11.19）ok 8
+      - okCYL-科技（2021.11.18）ok
+      - okCYL-科技（2021.11.18）ok 2
+      - okCYL-科技（2021.11.08）ok
+      - ok_@SSRSUB-V29-付费推荐:suo.yt/ssrsub ok
+      - ok(欢迎订阅youtube：钱科技)1116ok
+      - 🇨🇳 ok 台湾阿伟科技-油管3 ok
+      - ok 欧洲阿伟科技-油管3ok
+      - 🇺🇸 ok 美国阿伟科技-油管3ok
+      - 🇺🇸 ok 美国阿伟科技-油管2 ok
+      - ok 卢森堡阿伟科技-油管2ok
+      - 🇨🇦 ok 加拿大 🇨🇦(欢迎订阅youtube：钱科技)1120 ok
+      - ok 电信测试可用10M ok
+      - 🇩🇪 ok 德国阿伟科技-油管2 ok
       - ok 阿伟科技-油管3ok
+      - ok 🇺🇸(欢迎订阅youtube：钱科技)1120 ok
+      - ok 🇺🇸 Te 5 ok
+      - 🇸🇬 ok 🇸🇬SG_05(欢迎订阅youtube：钱科技)1121 ok
+      - 🇨🇳 ok 🇨🇳 CN_2055 | 2.22Mb ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_29 ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_21 ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_18 ok
+      - ok CYL-科技（2021.11.20）ok
+      - ok CYL-科技（2021.11.20）ok 2
+      - ok CYL-科技（2021.11.20）ok 3
+      - ok CYL-科技（2021.11.20）ok 4
+      - ok CYL-科技（2021.11.20）ok 5
+      - ok CYL-科技（2021.11.20）ok 6
+      - ok CYL-科技（2021.11.20）ok 7
+      - ok CYL-科技（2021.11.20）ok 8
+      - ok CYL-科技（2021.11.18）ok
+      - ok CYL-科技（2021.11.18）ok 2
+      - ok CYL-科技（2021.11.18）ok 3
       - ok CYL-科技（2021.11.18）ok 4
-      - ok 185.172.113.156:809  ok
+      - ok C 104 ok
       - ok 185.172.113.156:812  ok
+      - ok 185.172.113.156:809  ok
       - ok 185.172.113.156:807 ok
+      - ok _506 | 7.88Mb  ok
+      - 🇺🇸 ok github.com/freefq - 美国CloudFlare节点ok
+      - 🇺🇸 ok github.com/freefq - 北美地区  8 ok
+      - 🇸🇬 github.com/freefq - 新西兰CachedNet数据中心 9
+      - 🇸🇬 github.com/freefq - 新西兰CachedNet数据中心 10
+      - 🇺🇸 ok github.com/freefq - 北美地区  22 ok
+      - 🇺🇸 ok github.com/freefq - 美国  25 ok
+      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
+      - 🇺🇸 ok github美国CloudFlare公司CDN节点 28 ok
+      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb 29 ok
+      - 🇸🇬 ok github.com/freefq - 新加坡  30 ok
+      - 🇸🇬 ok github.com/freefq 新加坡LeaseWeb  31 ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！) ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！) ok 2
+      - 🇸🇬 ok 新加坡 🇸🇬(Youtube频道：工具大师！)ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok
+      - ok 挪威(Youtube频道：工具大师！)ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 2
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 3
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 4
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 5
+      - ok 🇳🇴NO(Youtube频道：工具大师！) ok
+      - ok SK(Youtube频道：工具大师！)ok
+      - ok 挪威 🇳🇴(Youtube频道：工具大师！)ok
+      - ok (Youtube频道：工具大师！)ok
+      - 🇨🇦 ok 加拿大🇨🇦(Youtube频道：工具大师！)ok
+      - 🇭🇰 ok 香港(Youtube频道：工具大师！)ok
+      - 🇺🇸 ok 美国(Youtube频道：工具大师！)ok
+      - 🇺🇸 ok 美国(Youtube频道：工具大师！) ok
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ok _506 | 7.88Mb  ok
-      - ok C 104 ok
-      - ok CYL-科技（2021.11.18）ok
-      - ok CYL-科技（2021.11.18）ok 2
-      - ok CYL-科技（2021.11.18）ok 3
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_18 ok
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_21 ok
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_29 ok
-      - 🇨🇳 ok 🇨🇳 CN_2055 | 2.22Mb ok
-      - ok 🇺🇸 Te 5 ok
-      - ok 🇺🇸(欢迎订阅youtube：钱科技)1120 ok
-      - 🇨🇦 ok 加拿大 🇨🇦(欢迎订阅youtube：钱科技)1120 ok
-      - ok 卢森堡阿伟科技-油管2ok
-      - 🇺🇸 ok 美国阿伟科技-油管3ok
-      - ok 欧洲阿伟科技-油管3ok
-      - ok(欢迎订阅youtube：钱科技)1116ok
-      - ok_@SSRSUB-V29-付费推荐:suo.yt/ssrsub ok
-      - okCYL-科技（2021.11.08）ok
-      - okCYL-科技（2021.11.18）ok
-      - okCYL-科技（2021.11.18）ok 2
       - okCYL-科技（2021.11.19）ok
       - okCYL-科技（2021.11.19）ok 2
       - okCYL-科技（2021.11.19）ok 3
@@ -111,37 +173,78 @@ proxy-groups:
       - okCYL-科技（2021.11.19）ok 6
       - okCYL-科技（2021.11.19）ok 7
       - okCYL-科技（2021.11.19）ok 8
+      - okCYL-科技（2021.11.18）ok
+      - okCYL-科技（2021.11.18）ok 2
+      - okCYL-科技（2021.11.08）ok
+      - ok_@SSRSUB-V29-付费推荐:suo.yt/ssrsub ok
+      - ok(欢迎订阅youtube：钱科技)1116ok
+      - 🇨🇳 ok 台湾阿伟科技-油管3 ok
+      - ok 欧洲阿伟科技-油管3ok
+      - 🇺🇸 ok 美国阿伟科技-油管3ok
+      - 🇺🇸 ok 美国阿伟科技-油管2 ok
+      - ok 卢森堡阿伟科技-油管2ok
+      - 🇨🇦 ok 加拿大 🇨🇦(欢迎订阅youtube：钱科技)1120 ok
+      - ok 电信测试可用10M ok
+      - 🇩🇪 ok 德国阿伟科技-油管2 ok
       - ok 阿伟科技-油管3ok
+      - ok 🇺🇸(欢迎订阅youtube：钱科技)1120 ok
+      - ok 🇺🇸 Te 5 ok
+      - 🇸🇬 ok 🇸🇬SG_05(欢迎订阅youtube：钱科技)1121 ok
+      - 🇨🇳 ok 🇨🇳 CN_2055 | 2.22Mb ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_29 ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_21 ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_18 ok
+      - ok CYL-科技（2021.11.20）ok
+      - ok CYL-科技（2021.11.20）ok 2
+      - ok CYL-科技（2021.11.20）ok 3
+      - ok CYL-科技（2021.11.20）ok 4
+      - ok CYL-科技（2021.11.20）ok 5
+      - ok CYL-科技（2021.11.20）ok 6
+      - ok CYL-科技（2021.11.20）ok 7
+      - ok CYL-科技（2021.11.20）ok 8
+      - ok CYL-科技（2021.11.18）ok
+      - ok CYL-科技（2021.11.18）ok 2
+      - ok CYL-科技（2021.11.18）ok 3
       - ok CYL-科技（2021.11.18）ok 4
-      - ok 185.172.113.156:809  ok
+      - ok C 104 ok
       - ok 185.172.113.156:812  ok
+      - ok 185.172.113.156:809  ok
       - ok 185.172.113.156:807 ok
+      - ok _506 | 7.88Mb  ok
+      - 🇺🇸 ok github.com/freefq - 美国CloudFlare节点ok
+      - 🇺🇸 ok github.com/freefq - 北美地区  8 ok
+      - 🇸🇬 github.com/freefq - 新西兰CachedNet数据中心 9
+      - 🇸🇬 github.com/freefq - 新西兰CachedNet数据中心 10
+      - 🇺🇸 ok github.com/freefq - 北美地区  22 ok
+      - 🇺🇸 ok github.com/freefq - 美国  25 ok
+      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
+      - 🇺🇸 ok github美国CloudFlare公司CDN节点 28 ok
+      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb 29 ok
+      - 🇸🇬 ok github.com/freefq - 新加坡  30 ok
+      - 🇸🇬 ok github.com/freefq 新加坡LeaseWeb  31 ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！) ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！) ok 2
+      - 🇸🇬 ok 新加坡 🇸🇬(Youtube频道：工具大师！)ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok
+      - ok 挪威(Youtube频道：工具大师！)ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 2
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 3
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 4
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 5
+      - ok 🇳🇴NO(Youtube频道：工具大师！) ok
+      - ok SK(Youtube频道：工具大师！)ok
+      - ok 挪威 🇳🇴(Youtube频道：工具大师！)ok
+      - ok (Youtube频道：工具大师！)ok
+      - 🇨🇦 ok 加拿大🇨🇦(Youtube频道：工具大师！)ok
+      - 🇭🇰 ok 香港(Youtube频道：工具大师！)ok
+      - 🇺🇸 ok 美国(Youtube频道：工具大师！)ok
+      - 🇺🇸 ok 美国(Youtube频道：工具大师！) ok
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ok _506 | 7.88Mb  ok
-      - ok C 104 ok
-      - ok CYL-科技（2021.11.18）ok
-      - ok CYL-科技（2021.11.18）ok 2
-      - ok CYL-科技（2021.11.18）ok 3
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_18 ok
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_21 ok
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_29 ok
-      - 🇨🇳 ok 🇨🇳 CN_2055 | 2.22Mb ok
-      - ok 🇺🇸 Te 5 ok
-      - ok 🇺🇸(欢迎订阅youtube：钱科技)1120 ok
-      - 🇨🇦 ok 加拿大 🇨🇦(欢迎订阅youtube：钱科技)1120 ok
-      - ok 卢森堡阿伟科技-油管2ok
-      - 🇺🇸 ok 美国阿伟科技-油管3ok
-      - ok 欧洲阿伟科技-油管3ok
-      - ok(欢迎订阅youtube：钱科技)1116ok
-      - ok_@SSRSUB-V29-付费推荐:suo.yt/ssrsub ok
-      - okCYL-科技（2021.11.08）ok
-      - okCYL-科技（2021.11.18）ok
-      - okCYL-科技（2021.11.18）ok 2
       - okCYL-科技（2021.11.19）ok
       - okCYL-科技（2021.11.19）ok 2
       - okCYL-科技（2021.11.19）ok 3
@@ -150,36 +253,77 @@ proxy-groups:
       - okCYL-科技（2021.11.19）ok 6
       - okCYL-科技（2021.11.19）ok 7
       - okCYL-科技（2021.11.19）ok 8
+      - okCYL-科技（2021.11.18）ok
+      - okCYL-科技（2021.11.18）ok 2
+      - okCYL-科技（2021.11.08）ok
+      - ok_@SSRSUB-V29-付费推荐:suo.yt/ssrsub ok
+      - ok(欢迎订阅youtube：钱科技)1116ok
+      - 🇨🇳 ok 台湾阿伟科技-油管3 ok
+      - ok 欧洲阿伟科技-油管3ok
+      - 🇺🇸 ok 美国阿伟科技-油管3ok
+      - 🇺🇸 ok 美国阿伟科技-油管2 ok
+      - ok 卢森堡阿伟科技-油管2ok
+      - 🇨🇦 ok 加拿大 🇨🇦(欢迎订阅youtube：钱科技)1120 ok
+      - ok 电信测试可用10M ok
+      - 🇩🇪 ok 德国阿伟科技-油管2 ok
       - ok 阿伟科技-油管3ok
+      - ok 🇺🇸(欢迎订阅youtube：钱科技)1120 ok
+      - ok 🇺🇸 Te 5 ok
+      - 🇸🇬 ok 🇸🇬SG_05(欢迎订阅youtube：钱科技)1121 ok
+      - 🇨🇳 ok 🇨🇳 CN_2055 | 2.22Mb ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_29 ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_21 ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_18 ok
+      - ok CYL-科技（2021.11.20）ok
+      - ok CYL-科技（2021.11.20）ok 2
+      - ok CYL-科技（2021.11.20）ok 3
+      - ok CYL-科技（2021.11.20）ok 4
+      - ok CYL-科技（2021.11.20）ok 5
+      - ok CYL-科技（2021.11.20）ok 6
+      - ok CYL-科技（2021.11.20）ok 7
+      - ok CYL-科技（2021.11.20）ok 8
+      - ok CYL-科技（2021.11.18）ok
+      - ok CYL-科技（2021.11.18）ok 2
+      - ok CYL-科技（2021.11.18）ok 3
       - ok CYL-科技（2021.11.18）ok 4
-      - ok 185.172.113.156:809  ok
+      - ok C 104 ok
       - ok 185.172.113.156:812  ok
+      - ok 185.172.113.156:809  ok
       - ok 185.172.113.156:807 ok
+      - ok _506 | 7.88Mb  ok
+      - 🇺🇸 ok github.com/freefq - 美国CloudFlare节点ok
+      - 🇺🇸 ok github.com/freefq - 北美地区  8 ok
+      - 🇸🇬 github.com/freefq - 新西兰CachedNet数据中心 9
+      - 🇸🇬 github.com/freefq - 新西兰CachedNet数据中心 10
+      - 🇺🇸 ok github.com/freefq - 北美地区  22 ok
+      - 🇺🇸 ok github.com/freefq - 美国  25 ok
+      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
+      - 🇺🇸 ok github美国CloudFlare公司CDN节点 28 ok
+      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb 29 ok
+      - 🇸🇬 ok github.com/freefq - 新加坡  30 ok
+      - 🇸🇬 ok github.com/freefq 新加坡LeaseWeb  31 ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！) ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！) ok 2
+      - 🇸🇬 ok 新加坡 🇸🇬(Youtube频道：工具大师！)ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok
+      - ok 挪威(Youtube频道：工具大师！)ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 2
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 3
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 4
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 5
+      - ok 🇳🇴NO(Youtube频道：工具大师！) ok
+      - ok SK(Youtube频道：工具大师！)ok
+      - ok 挪威 🇳🇴(Youtube频道：工具大师！)ok
+      - ok (Youtube频道：工具大师！)ok
+      - 🇨🇦 ok 加拿大🇨🇦(Youtube频道：工具大师！)ok
+      - 🇭🇰 ok 香港(Youtube频道：工具大师！)ok
+      - 🇺🇸 ok 美国(Youtube频道：工具大师！)ok
+      - 🇺🇸 ok 美国(Youtube频道：工具大师！) ok
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ok _506 | 7.88Mb  ok
-      - ok C 104 ok
-      - ok CYL-科技（2021.11.18）ok
-      - ok CYL-科技（2021.11.18）ok 2
-      - ok CYL-科技（2021.11.18）ok 3
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_18 ok
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_21 ok
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_29 ok
-      - 🇨🇳 ok 🇨🇳 CN_2055 | 2.22Mb ok
-      - ok 🇺🇸 Te 5 ok
-      - ok 🇺🇸(欢迎订阅youtube：钱科技)1120 ok
-      - 🇨🇦 ok 加拿大 🇨🇦(欢迎订阅youtube：钱科技)1120 ok
-      - ok 卢森堡阿伟科技-油管2ok
-      - 🇺🇸 ok 美国阿伟科技-油管3ok
-      - ok 欧洲阿伟科技-油管3ok
-      - ok(欢迎订阅youtube：钱科技)1116ok
-      - ok_@SSRSUB-V29-付费推荐:suo.yt/ssrsub ok
-      - okCYL-科技（2021.11.08）ok
-      - okCYL-科技（2021.11.18）ok
-      - okCYL-科技（2021.11.18）ok 2
       - okCYL-科技（2021.11.19）ok
       - okCYL-科技（2021.11.19）ok 2
       - okCYL-科技（2021.11.19）ok 3
@@ -188,36 +332,77 @@ proxy-groups:
       - okCYL-科技（2021.11.19）ok 6
       - okCYL-科技（2021.11.19）ok 7
       - okCYL-科技（2021.11.19）ok 8
+      - okCYL-科技（2021.11.18）ok
+      - okCYL-科技（2021.11.18）ok 2
+      - okCYL-科技（2021.11.08）ok
+      - ok_@SSRSUB-V29-付费推荐:suo.yt/ssrsub ok
+      - ok(欢迎订阅youtube：钱科技)1116ok
+      - 🇨🇳 ok 台湾阿伟科技-油管3 ok
+      - ok 欧洲阿伟科技-油管3ok
+      - 🇺🇸 ok 美国阿伟科技-油管3ok
+      - 🇺🇸 ok 美国阿伟科技-油管2 ok
+      - ok 卢森堡阿伟科技-油管2ok
+      - 🇨🇦 ok 加拿大 🇨🇦(欢迎订阅youtube：钱科技)1120 ok
+      - ok 电信测试可用10M ok
+      - 🇩🇪 ok 德国阿伟科技-油管2 ok
       - ok 阿伟科技-油管3ok
+      - ok 🇺🇸(欢迎订阅youtube：钱科技)1120 ok
+      - ok 🇺🇸 Te 5 ok
+      - 🇸🇬 ok 🇸🇬SG_05(欢迎订阅youtube：钱科技)1121 ok
+      - 🇨🇳 ok 🇨🇳 CN_2055 | 2.22Mb ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_29 ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_21 ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_18 ok
+      - ok CYL-科技（2021.11.20）ok
+      - ok CYL-科技（2021.11.20）ok 2
+      - ok CYL-科技（2021.11.20）ok 3
+      - ok CYL-科技（2021.11.20）ok 4
+      - ok CYL-科技（2021.11.20）ok 5
+      - ok CYL-科技（2021.11.20）ok 6
+      - ok CYL-科技（2021.11.20）ok 7
+      - ok CYL-科技（2021.11.20）ok 8
+      - ok CYL-科技（2021.11.18）ok
+      - ok CYL-科技（2021.11.18）ok 2
+      - ok CYL-科技（2021.11.18）ok 3
       - ok CYL-科技（2021.11.18）ok 4
-      - ok 185.172.113.156:809  ok
+      - ok C 104 ok
       - ok 185.172.113.156:812  ok
+      - ok 185.172.113.156:809  ok
       - ok 185.172.113.156:807 ok
+      - ok _506 | 7.88Mb  ok
+      - 🇺🇸 ok github.com/freefq - 美国CloudFlare节点ok
+      - 🇺🇸 ok github.com/freefq - 北美地区  8 ok
+      - 🇸🇬 github.com/freefq - 新西兰CachedNet数据中心 9
+      - 🇸🇬 github.com/freefq - 新西兰CachedNet数据中心 10
+      - 🇺🇸 ok github.com/freefq - 北美地区  22 ok
+      - 🇺🇸 ok github.com/freefq - 美国  25 ok
+      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
+      - 🇺🇸 ok github美国CloudFlare公司CDN节点 28 ok
+      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb 29 ok
+      - 🇸🇬 ok github.com/freefq - 新加坡  30 ok
+      - 🇸🇬 ok github.com/freefq 新加坡LeaseWeb  31 ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！) ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！) ok 2
+      - 🇸🇬 ok 新加坡 🇸🇬(Youtube频道：工具大师！)ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok
+      - ok 挪威(Youtube频道：工具大师！)ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 2
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 3
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 4
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 5
+      - ok 🇳🇴NO(Youtube频道：工具大师！) ok
+      - ok SK(Youtube频道：工具大师！)ok
+      - ok 挪威 🇳🇴(Youtube频道：工具大师！)ok
+      - ok (Youtube频道：工具大师！)ok
+      - 🇨🇦 ok 加拿大🇨🇦(Youtube频道：工具大师！)ok
+      - 🇭🇰 ok 香港(Youtube频道：工具大师！)ok
+      - 🇺🇸 ok 美国(Youtube频道：工具大师！)ok
+      - 🇺🇸 ok 美国(Youtube频道：工具大师！) ok
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ok _506 | 7.88Mb  ok
-      - ok C 104 ok
-      - ok CYL-科技（2021.11.18）ok
-      - ok CYL-科技（2021.11.18）ok 2
-      - ok CYL-科技（2021.11.18）ok 3
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_18 ok
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_21 ok
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_29 ok
-      - 🇨🇳 ok 🇨🇳 CN_2055 | 2.22Mb ok
-      - ok 🇺🇸 Te 5 ok
-      - ok 🇺🇸(欢迎订阅youtube：钱科技)1120 ok
-      - 🇨🇦 ok 加拿大 🇨🇦(欢迎订阅youtube：钱科技)1120 ok
-      - ok 卢森堡阿伟科技-油管2ok
-      - 🇺🇸 ok 美国阿伟科技-油管3ok
-      - ok 欧洲阿伟科技-油管3ok
-      - ok(欢迎订阅youtube：钱科技)1116ok
-      - ok_@SSRSUB-V29-付费推荐:suo.yt/ssrsub ok
-      - okCYL-科技（2021.11.08）ok
-      - okCYL-科技（2021.11.18）ok
-      - okCYL-科技（2021.11.18）ok 2
       - okCYL-科技（2021.11.19）ok
       - okCYL-科技（2021.11.19）ok 2
       - okCYL-科技（2021.11.19）ok 3
@@ -226,36 +411,77 @@ proxy-groups:
       - okCYL-科技（2021.11.19）ok 6
       - okCYL-科技（2021.11.19）ok 7
       - okCYL-科技（2021.11.19）ok 8
+      - okCYL-科技（2021.11.18）ok
+      - okCYL-科技（2021.11.18）ok 2
+      - okCYL-科技（2021.11.08）ok
+      - ok_@SSRSUB-V29-付费推荐:suo.yt/ssrsub ok
+      - ok(欢迎订阅youtube：钱科技)1116ok
+      - 🇨🇳 ok 台湾阿伟科技-油管3 ok
+      - ok 欧洲阿伟科技-油管3ok
+      - 🇺🇸 ok 美国阿伟科技-油管3ok
+      - 🇺🇸 ok 美国阿伟科技-油管2 ok
+      - ok 卢森堡阿伟科技-油管2ok
+      - 🇨🇦 ok 加拿大 🇨🇦(欢迎订阅youtube：钱科技)1120 ok
+      - ok 电信测试可用10M ok
+      - 🇩🇪 ok 德国阿伟科技-油管2 ok
       - ok 阿伟科技-油管3ok
+      - ok 🇺🇸(欢迎订阅youtube：钱科技)1120 ok
+      - ok 🇺🇸 Te 5 ok
+      - 🇸🇬 ok 🇸🇬SG_05(欢迎订阅youtube：钱科技)1121 ok
+      - 🇨🇳 ok 🇨🇳 CN_2055 | 2.22Mb ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_29 ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_21 ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_18 ok
+      - ok CYL-科技（2021.11.20）ok
+      - ok CYL-科技（2021.11.20）ok 2
+      - ok CYL-科技（2021.11.20）ok 3
+      - ok CYL-科技（2021.11.20）ok 4
+      - ok CYL-科技（2021.11.20）ok 5
+      - ok CYL-科技（2021.11.20）ok 6
+      - ok CYL-科技（2021.11.20）ok 7
+      - ok CYL-科技（2021.11.20）ok 8
+      - ok CYL-科技（2021.11.18）ok
+      - ok CYL-科技（2021.11.18）ok 2
+      - ok CYL-科技（2021.11.18）ok 3
       - ok CYL-科技（2021.11.18）ok 4
-      - ok 185.172.113.156:809  ok
+      - ok C 104 ok
       - ok 185.172.113.156:812  ok
+      - ok 185.172.113.156:809  ok
       - ok 185.172.113.156:807 ok
+      - ok _506 | 7.88Mb  ok
+      - 🇺🇸 ok github.com/freefq - 美国CloudFlare节点ok
+      - 🇺🇸 ok github.com/freefq - 北美地区  8 ok
+      - 🇸🇬 github.com/freefq - 新西兰CachedNet数据中心 9
+      - 🇸🇬 github.com/freefq - 新西兰CachedNet数据中心 10
+      - 🇺🇸 ok github.com/freefq - 北美地区  22 ok
+      - 🇺🇸 ok github.com/freefq - 美国  25 ok
+      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
+      - 🇺🇸 ok github美国CloudFlare公司CDN节点 28 ok
+      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb 29 ok
+      - 🇸🇬 ok github.com/freefq - 新加坡  30 ok
+      - 🇸🇬 ok github.com/freefq 新加坡LeaseWeb  31 ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！) ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！) ok 2
+      - 🇸🇬 ok 新加坡 🇸🇬(Youtube频道：工具大师！)ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok
+      - ok 挪威(Youtube频道：工具大师！)ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 2
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 3
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 4
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 5
+      - ok 🇳🇴NO(Youtube频道：工具大师！) ok
+      - ok SK(Youtube频道：工具大师！)ok
+      - ok 挪威 🇳🇴(Youtube频道：工具大师！)ok
+      - ok (Youtube频道：工具大师！)ok
+      - 🇨🇦 ok 加拿大🇨🇦(Youtube频道：工具大师！)ok
+      - 🇭🇰 ok 香港(Youtube频道：工具大师！)ok
+      - 🇺🇸 ok 美国(Youtube频道：工具大师！)ok
+      - 🇺🇸 ok 美国(Youtube频道：工具大师！) ok
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ok _506 | 7.88Mb  ok
-      - ok C 104 ok
-      - ok CYL-科技（2021.11.18）ok
-      - ok CYL-科技（2021.11.18）ok 2
-      - ok CYL-科技（2021.11.18）ok 3
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_18 ok
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_21 ok
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_29 ok
-      - 🇨🇳 ok 🇨🇳 CN_2055 | 2.22Mb ok
-      - ok 🇺🇸 Te 5 ok
-      - ok 🇺🇸(欢迎订阅youtube：钱科技)1120 ok
-      - 🇨🇦 ok 加拿大 🇨🇦(欢迎订阅youtube：钱科技)1120 ok
-      - ok 卢森堡阿伟科技-油管2ok
-      - 🇺🇸 ok 美国阿伟科技-油管3ok
-      - ok 欧洲阿伟科技-油管3ok
-      - ok(欢迎订阅youtube：钱科技)1116ok
-      - ok_@SSRSUB-V29-付费推荐:suo.yt/ssrsub ok
-      - okCYL-科技（2021.11.08）ok
-      - okCYL-科技（2021.11.18）ok
-      - okCYL-科技（2021.11.18）ok 2
       - okCYL-科技（2021.11.19）ok
       - okCYL-科技（2021.11.19）ok 2
       - okCYL-科技（2021.11.19）ok 3
@@ -264,37 +490,78 @@ proxy-groups:
       - okCYL-科技（2021.11.19）ok 6
       - okCYL-科技（2021.11.19）ok 7
       - okCYL-科技（2021.11.19）ok 8
+      - okCYL-科技（2021.11.18）ok
+      - okCYL-科技（2021.11.18）ok 2
+      - okCYL-科技（2021.11.08）ok
+      - ok_@SSRSUB-V29-付费推荐:suo.yt/ssrsub ok
+      - ok(欢迎订阅youtube：钱科技)1116ok
+      - 🇨🇳 ok 台湾阿伟科技-油管3 ok
+      - ok 欧洲阿伟科技-油管3ok
+      - 🇺🇸 ok 美国阿伟科技-油管3ok
+      - 🇺🇸 ok 美国阿伟科技-油管2 ok
+      - ok 卢森堡阿伟科技-油管2ok
+      - 🇨🇦 ok 加拿大 🇨🇦(欢迎订阅youtube：钱科技)1120 ok
+      - ok 电信测试可用10M ok
+      - 🇩🇪 ok 德国阿伟科技-油管2 ok
       - ok 阿伟科技-油管3ok
+      - ok 🇺🇸(欢迎订阅youtube：钱科技)1120 ok
+      - ok 🇺🇸 Te 5 ok
+      - 🇸🇬 ok 🇸🇬SG_05(欢迎订阅youtube：钱科技)1121 ok
+      - 🇨🇳 ok 🇨🇳 CN_2055 | 2.22Mb ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_29 ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_21 ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_18 ok
+      - ok CYL-科技（2021.11.20）ok
+      - ok CYL-科技（2021.11.20）ok 2
+      - ok CYL-科技（2021.11.20）ok 3
+      - ok CYL-科技（2021.11.20）ok 4
+      - ok CYL-科技（2021.11.20）ok 5
+      - ok CYL-科技（2021.11.20）ok 6
+      - ok CYL-科技（2021.11.20）ok 7
+      - ok CYL-科技（2021.11.20）ok 8
+      - ok CYL-科技（2021.11.18）ok
+      - ok CYL-科技（2021.11.18）ok 2
+      - ok CYL-科技（2021.11.18）ok 3
       - ok CYL-科技（2021.11.18）ok 4
-      - ok 185.172.113.156:809  ok
+      - ok C 104 ok
       - ok 185.172.113.156:812  ok
+      - ok 185.172.113.156:809  ok
       - ok 185.172.113.156:807 ok
+      - ok _506 | 7.88Mb  ok
+      - 🇺🇸 ok github.com/freefq - 美国CloudFlare节点ok
+      - 🇺🇸 ok github.com/freefq - 北美地区  8 ok
+      - 🇸🇬 github.com/freefq - 新西兰CachedNet数据中心 9
+      - 🇸🇬 github.com/freefq - 新西兰CachedNet数据中心 10
+      - 🇺🇸 ok github.com/freefq - 北美地区  22 ok
+      - 🇺🇸 ok github.com/freefq - 美国  25 ok
+      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
+      - 🇺🇸 ok github美国CloudFlare公司CDN节点 28 ok
+      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb 29 ok
+      - 🇸🇬 ok github.com/freefq - 新加坡  30 ok
+      - 🇸🇬 ok github.com/freefq 新加坡LeaseWeb  31 ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！) ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！) ok 2
+      - 🇸🇬 ok 新加坡 🇸🇬(Youtube频道：工具大师！)ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok
+      - ok 挪威(Youtube频道：工具大师！)ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 2
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 3
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 4
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 5
+      - ok 🇳🇴NO(Youtube频道：工具大师！) ok
+      - ok SK(Youtube频道：工具大师！)ok
+      - ok 挪威 🇳🇴(Youtube频道：工具大师！)ok
+      - ok (Youtube频道：工具大师！)ok
+      - 🇨🇦 ok 加拿大🇨🇦(Youtube频道：工具大师！)ok
+      - 🇭🇰 ok 香港(Youtube频道：工具大师！)ok
+      - 🇺🇸 ok 美国(Youtube频道：工具大师！)ok
+      - 🇺🇸 ok 美国(Youtube频道：工具大师！) ok
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ok _506 | 7.88Mb  ok
-      - ok C 104 ok
-      - ok CYL-科技（2021.11.18）ok
-      - ok CYL-科技（2021.11.18）ok 2
-      - ok CYL-科技（2021.11.18）ok 3
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_18 ok
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_21 ok
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_29 ok
-      - 🇨🇳 ok 🇨🇳 CN_2055 | 2.22Mb ok
-      - ok 🇺🇸 Te 5 ok
-      - ok 🇺🇸(欢迎订阅youtube：钱科技)1120 ok
-      - 🇨🇦 ok 加拿大 🇨🇦(欢迎订阅youtube：钱科技)1120 ok
-      - ok 卢森堡阿伟科技-油管2ok
-      - 🇺🇸 ok 美国阿伟科技-油管3ok
-      - ok 欧洲阿伟科技-油管3ok
-      - ok(欢迎订阅youtube：钱科技)1116ok
-      - ok_@SSRSUB-V29-付费推荐:suo.yt/ssrsub ok
-      - okCYL-科技（2021.11.08）ok
-      - okCYL-科技（2021.11.18）ok
-      - okCYL-科技（2021.11.18）ok 2
       - okCYL-科技（2021.11.19）ok
       - okCYL-科技（2021.11.19）ok 2
       - okCYL-科技（2021.11.19）ok 3
@@ -303,11 +570,72 @@ proxy-groups:
       - okCYL-科技（2021.11.19）ok 6
       - okCYL-科技（2021.11.19）ok 7
       - okCYL-科技（2021.11.19）ok 8
+      - okCYL-科技（2021.11.18）ok
+      - okCYL-科技（2021.11.18）ok 2
+      - okCYL-科技（2021.11.08）ok
+      - ok_@SSRSUB-V29-付费推荐:suo.yt/ssrsub ok
+      - ok(欢迎订阅youtube：钱科技)1116ok
+      - 🇨🇳 ok 台湾阿伟科技-油管3 ok
+      - ok 欧洲阿伟科技-油管3ok
+      - 🇺🇸 ok 美国阿伟科技-油管3ok
+      - 🇺🇸 ok 美国阿伟科技-油管2 ok
+      - ok 卢森堡阿伟科技-油管2ok
+      - 🇨🇦 ok 加拿大 🇨🇦(欢迎订阅youtube：钱科技)1120 ok
+      - ok 电信测试可用10M ok
+      - 🇩🇪 ok 德国阿伟科技-油管2 ok
       - ok 阿伟科技-油管3ok
+      - ok 🇺🇸(欢迎订阅youtube：钱科技)1120 ok
+      - ok 🇺🇸 Te 5 ok
+      - 🇸🇬 ok 🇸🇬SG_05(欢迎订阅youtube：钱科技)1121 ok
+      - 🇨🇳 ok 🇨🇳 CN_2055 | 2.22Mb ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_29 ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_21 ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_18 ok
+      - ok CYL-科技（2021.11.20）ok
+      - ok CYL-科技（2021.11.20）ok 2
+      - ok CYL-科技（2021.11.20）ok 3
+      - ok CYL-科技（2021.11.20）ok 4
+      - ok CYL-科技（2021.11.20）ok 5
+      - ok CYL-科技（2021.11.20）ok 6
+      - ok CYL-科技（2021.11.20）ok 7
+      - ok CYL-科技（2021.11.20）ok 8
+      - ok CYL-科技（2021.11.18）ok
+      - ok CYL-科技（2021.11.18）ok 2
+      - ok CYL-科技（2021.11.18）ok 3
       - ok CYL-科技（2021.11.18）ok 4
-      - ok 185.172.113.156:809  ok
+      - ok C 104 ok
       - ok 185.172.113.156:812  ok
+      - ok 185.172.113.156:809  ok
       - ok 185.172.113.156:807 ok
+      - ok _506 | 7.88Mb  ok
+      - 🇺🇸 ok github.com/freefq - 美国CloudFlare节点ok
+      - 🇺🇸 ok github.com/freefq - 北美地区  8 ok
+      - 🇸🇬 github.com/freefq - 新西兰CachedNet数据中心 9
+      - 🇸🇬 github.com/freefq - 新西兰CachedNet数据中心 10
+      - 🇺🇸 ok github.com/freefq - 北美地区  22 ok
+      - 🇺🇸 ok github.com/freefq - 美国  25 ok
+      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
+      - 🇺🇸 ok github美国CloudFlare公司CDN节点 28 ok
+      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb 29 ok
+      - 🇸🇬 ok github.com/freefq - 新加坡  30 ok
+      - 🇸🇬 ok github.com/freefq 新加坡LeaseWeb  31 ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！) ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！) ok 2
+      - 🇸🇬 ok 新加坡 🇸🇬(Youtube频道：工具大师！)ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok
+      - ok 挪威(Youtube频道：工具大师！)ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 2
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 3
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 4
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 5
+      - ok 🇳🇴NO(Youtube频道：工具大师！) ok
+      - ok SK(Youtube频道：工具大师！)ok
+      - ok 挪威 🇳🇴(Youtube频道：工具大师！)ok
+      - ok (Youtube频道：工具大师！)ok
+      - 🇨🇦 ok 加拿大🇨🇦(Youtube频道：工具大师！)ok
+      - 🇭🇰 ok 香港(Youtube频道：工具大师！)ok
+      - 🇺🇸 ok 美国(Youtube频道：工具大师！)ok
+      - 🇺🇸 ok 美国(Youtube频道：工具大师！) ok
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -330,26 +658,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ok _506 | 7.88Mb  ok
-      - ok C 104 ok
-      - ok CYL-科技（2021.11.18）ok
-      - ok CYL-科技（2021.11.18）ok 2
-      - ok CYL-科技（2021.11.18）ok 3
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_18 ok
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_21 ok
-      - ok v2rayse_🇸🇰_SK_斯洛伐克_29 ok
-      - 🇨🇳 ok 🇨🇳 CN_2055 | 2.22Mb ok
-      - ok 🇺🇸 Te 5 ok
-      - ok 🇺🇸(欢迎订阅youtube：钱科技)1120 ok
-      - 🇨🇦 ok 加拿大 🇨🇦(欢迎订阅youtube：钱科技)1120 ok
-      - ok 卢森堡阿伟科技-油管2ok
-      - 🇺🇸 ok 美国阿伟科技-油管3ok
-      - ok 欧洲阿伟科技-油管3ok
-      - ok(欢迎订阅youtube：钱科技)1116ok
-      - ok_@SSRSUB-V29-付费推荐:suo.yt/ssrsub ok
-      - okCYL-科技（2021.11.08）ok
-      - okCYL-科技（2021.11.18）ok
-      - okCYL-科技（2021.11.18）ok 2
       - okCYL-科技（2021.11.19）ok
       - okCYL-科技（2021.11.19）ok 2
       - okCYL-科技（2021.11.19）ok 3
@@ -358,11 +666,72 @@ proxy-groups:
       - okCYL-科技（2021.11.19）ok 6
       - okCYL-科技（2021.11.19）ok 7
       - okCYL-科技（2021.11.19）ok 8
+      - okCYL-科技（2021.11.18）ok
+      - okCYL-科技（2021.11.18）ok 2
+      - okCYL-科技（2021.11.08）ok
+      - ok_@SSRSUB-V29-付费推荐:suo.yt/ssrsub ok
+      - ok(欢迎订阅youtube：钱科技)1116ok
+      - 🇨🇳 ok 台湾阿伟科技-油管3 ok
+      - ok 欧洲阿伟科技-油管3ok
+      - 🇺🇸 ok 美国阿伟科技-油管3ok
+      - 🇺🇸 ok 美国阿伟科技-油管2 ok
+      - ok 卢森堡阿伟科技-油管2ok
+      - 🇨🇦 ok 加拿大 🇨🇦(欢迎订阅youtube：钱科技)1120 ok
+      - ok 电信测试可用10M ok
+      - 🇩🇪 ok 德国阿伟科技-油管2 ok
       - ok 阿伟科技-油管3ok
+      - ok 🇺🇸(欢迎订阅youtube：钱科技)1120 ok
+      - ok 🇺🇸 Te 5 ok
+      - 🇸🇬 ok 🇸🇬SG_05(欢迎订阅youtube：钱科技)1121 ok
+      - 🇨🇳 ok 🇨🇳 CN_2055 | 2.22Mb ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_29 ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_21 ok
+      - ok v2rayse_🇸🇰_SK_斯洛伐克_18 ok
+      - ok CYL-科技（2021.11.20）ok
+      - ok CYL-科技（2021.11.20）ok 2
+      - ok CYL-科技（2021.11.20）ok 3
+      - ok CYL-科技（2021.11.20）ok 4
+      - ok CYL-科技（2021.11.20）ok 5
+      - ok CYL-科技（2021.11.20）ok 6
+      - ok CYL-科技（2021.11.20）ok 7
+      - ok CYL-科技（2021.11.20）ok 8
+      - ok CYL-科技（2021.11.18）ok
+      - ok CYL-科技（2021.11.18）ok 2
+      - ok CYL-科技（2021.11.18）ok 3
       - ok CYL-科技（2021.11.18）ok 4
-      - ok 185.172.113.156:809  ok
+      - ok C 104 ok
       - ok 185.172.113.156:812  ok
+      - ok 185.172.113.156:809  ok
       - ok 185.172.113.156:807 ok
+      - ok _506 | 7.88Mb  ok
+      - 🇺🇸 ok github.com/freefq - 美国CloudFlare节点ok
+      - 🇺🇸 ok github.com/freefq - 北美地区  8 ok
+      - 🇸🇬 github.com/freefq - 新西兰CachedNet数据中心 9
+      - 🇸🇬 github.com/freefq - 新西兰CachedNet数据中心 10
+      - 🇺🇸 ok github.com/freefq - 北美地区  22 ok
+      - 🇺🇸 ok github.com/freefq - 美国  25 ok
+      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
+      - 🇺🇸 ok github美国CloudFlare公司CDN节点 28 ok
+      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb 29 ok
+      - 🇸🇬 ok github.com/freefq - 新加坡  30 ok
+      - 🇸🇬 ok github.com/freefq 新加坡LeaseWeb  31 ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！) ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！) ok 2
+      - 🇸🇬 ok 新加坡 🇸🇬(Youtube频道：工具大师！)ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok
+      - ok 挪威(Youtube频道：工具大师！)ok
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 2
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 3
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 4
+      - ok 瑞典 🇸🇪(Youtube频道：工具大师！)ok 5
+      - ok 🇳🇴NO(Youtube频道：工具大师！) ok
+      - ok SK(Youtube频道：工具大师！)ok
+      - ok 挪威 🇳🇴(Youtube频道：工具大师！)ok
+      - ok (Youtube频道：工具大师！)ok
+      - 🇨🇦 ok 加拿大🇨🇦(Youtube频道：工具大师！)ok
+      - 🇭🇰 ok 香港(Youtube频道：工具大师！)ok
+      - 🇺🇸 ok 美国(Youtube频道：工具大师！)ok
+      - 🇺🇸 ok 美国(Youtube频道：工具大师！) ok
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
