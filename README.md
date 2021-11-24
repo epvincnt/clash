@@ -5,399 +5,167 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 T2直连_26, server: hkawst2.biteb.club, port: 11832, type: vmess, uuid: 666eed33-cf37-3756-87fa-571c008db605, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: index, ws-headers: {Host: hkawst2.biteb.club}}
-  - {name: 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 D2 本土_23, server: hkhkt1.biteb.club, port: 10871, type: vmess, uuid: 666eed33-cf37-3756-87fa-571c008db605, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: index, ws-headers: {Host: hkhkt1.biteb.club}}
-  - {name: ok CYL-科技（2021.11.23）, server: hk.huanyumingle.xyz, port: 10021, type: ss, cipher: chacha20-ietf-poly1305, password: e3730d1d-6d14-407d-a9d0-86063a768d20}
   - {name: ok CYL-科技（2021.11.22）ok, server: zz.keaitz.xyz, port: 46519, type: vmess, uuid: d0d6545b-2f46-314c-8c38-070553b1e091, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.keaitz.xyz}}
-  - {name: ok CYL-科技（2021.11.23） 2, server: hk.huanyumingle.xyz, port: 10022, type: ss, cipher: chacha20-ietf-poly1305, password: e3730d1d-6d14-407d-a9d0-86063a768d20}
-  - {name: 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 08直连_17, server: hkaws8.biteb.club, port: 11564, type: vmess, uuid: 666eed33-cf37-3756-87fa-571c008db605, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: index, ws-headers: {Host: hkaws8.biteb.club}}
-  - {name: 🇨🇳 ok 🇹🇼 改我订阅死全家 TW x1.0 01中转 本土_1, server: hkaz1.biteb.club, port: 11556, type: vmess, uuid: 666eed33-cf37-3756-87fa-571c008db605, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: index, ws-headers: {Host: hkaz1.biteb.club}}
-  - {name: ok CYL-科技（2021.11.23） 3, server: hk.huanyumingle.xyz, port: 10020, type: ss, cipher: chacha20-ietf-poly1305, password: e3730d1d-6d14-407d-a9d0-86063a768d20}
-  - {name: 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 07直连_16, server: hkaws7.biteb.club, port: 11574, type: vmess, uuid: 666eed33-cf37-3756-87fa-571c008db605, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: index, ws-headers: {Host: hkaws7.biteb.club}}
-  - {name: ok CYL-科技（2021.11.23） 4, server: global-transit-hk-v2.pucdn.me, port: 10012, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-08.pucdn.me}}
-  - {name: 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb(SIN11)数据中心 15, server: 209.58.181.251, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3eC0KxS8ICjgp2N6OZ94x3DaXwyTRzaSqApFlF5cD3Y73luCYyn8eERDSAaOB}
-  - {name: 🇸🇬 ok github.com/freefq - 新加坡  14, server: 43.249.39.154, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: T3YS0aCp8C5jgA736D834yCDaROEOezAyDqISBl39KSepnuZYN2FRwxlxcXFZa}
-  - {name: 🇰🇷 ok 🇰🇷 改我订阅死全家 KR x1.0 01直连_12, server: kraws1.biteb.xyz, port: 11849, type: vmess, uuid: 666eed33-cf37-3756-87fa-571c008db605, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: index, ws-headers: {Host: kraws1.biteb.xyz}}
-  - {name: ok CYL-科技（2021.11.23） 5, server: guangzhou-lw-03.pucdn.me, port: 11114, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-hkt-a-07.pucdn.me}}
-  - {name: ok CYL-科技（2021.11.22）ok 2, server: global-transit-02-sg.pucdn.me, port: 61001, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-02.pucdn.me}}
-  - {name: ok CYL-科技（2021.11.22）ok 3, server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
-  - {name: ok (欢迎订阅youtube：钱科技)1123_����_NON_42, server: 154.17.1.130, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: ZDZSRKaS8uTjDpFAcC8OClnD2pISORz0Yya7a9xegxy33XC4wleFY3Eq3NA65B}
-  - {name: 🇩🇪 ok 🇩🇪 德国阿伟科技-油管4 3 ok, server: 104.21.235.84, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇯🇵 ok 🇯🇵 改我订阅死全家 JP x1.0 A4直连_7, server: jpaz4.biteb.club, port: 11742, type: vmess, uuid: 666eed33-cf37-3756-87fa-571c008db605, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: index, ws-headers: {Host: jpaz4.biteb.club}}
-  - {name: ok CYL-科技（2021.11.23） 6, server: 198.41.212.234, port: 2052, type: vmess, uuid: 00000000-1111-2222-3333-444444444444, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /Telegram/@Loss_0_Vmess, ws-headers: {Host: free.jianguoyun.com}}
-  - {name: ok CYL-科技（2021.11.23） 7, server: hk.huanyumingle.xyz, port: 10025, type: ss, cipher: chacha20-ietf-poly1305, password: e3730d1d-6d14-407d-a9d0-86063a768d20}
-  - {name: ok (欢迎订阅youtube：钱科技)1123_����_NON_12, server: 154.17.2.94, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: pAYSRy4Y8w5aST72CzNRayDeESlOBAxZnKD0363g39xFDuCqal8IcZep3OXjFC}
-  - {name: ok CYL-科技（2021.11.23） 8, server: hk.huanyumingle.xyz, port: 10023, type: ss, cipher: chacha20-ietf-poly1305, password: e3730d1d-6d14-407d-a9d0-86063a768d20}
-  - {name: ok CYL-科技（2021.11.23） 9, server: 198.41.196.123, port: 2052, type: vmess, uuid: 6e902fde-dcb1-4d5a-9079-8c086d867954, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us.cname.club}}
-  - {name: ok CYL-科技（2021.11.23） 10, server: 167.88.63.61, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok (欢迎订阅youtube：钱科技)1123_🏳_NON_26, server: chuch3go.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: chuch3go.com}}
-  - {name: ok CYL-科技（2021.11.23） 11, server: hk.huanyumingle.xyz, port: 10018, type: ss, cipher: chacha20-ietf-poly1305, password: e3730d1d-6d14-407d-a9d0-86063a768d20}
-  - {name: ok CYL-科技（2021.11.23） 12, server: hk.huanyumingle.xyz, port: 10024, type: ss, cipher: chacha20-ietf-poly1305, password: e3730d1d-6d14-407d-a9d0-86063a768d20}
-  - {name: 🇩🇪 ok 德国阿伟科技-油管2 ok, server: 194.163.134.104, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: dZpagSuA9Vxe}
-  - {name: 🇩🇪 ok 德国阿伟科技-油管2 ok 2, server: 194.163.134.102, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bpxC1p5UwZ8u}
-  - {name: 🇩🇪 ok 德国阿伟科技-油管2 ok 3, server: 161.97.64.163, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: KW5I1uEZBI0y}
-  - {name: ok CYL-科技（2021.11.23） 13, server: 213.167.242.16, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: BDybfjpcRuiW}
-  - {name: 🇺🇸 ok 🇺🇸 美国阿伟科技-油管2 3 ok, server: 104.19.101.3, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /gdo93qerwtyuo, ws-headers: {Host: e.fovi.tk}}
-  - {name: 🇩🇪 ok 德国阿伟科技-油管2 ok 4, server: 161.97.64.196, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 65OsnpZHYW5P}
-  - {name: ok CYL-科技（2021.11.23） 14, server: 154.17.2.109, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: B7wYOKgFl0YDIF3aOeCRl93eaSSa2pnzqZASDuxy4CN35CZpXAyjT6DEc8x38R}
-  - {name: 🇩🇪 ok 德国阿伟科技-油管2 ok 5, server: 194.163.134.101, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8doqA73pHheo}
-  - {name: ok 速度不行, server: 134.195.196.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok 速度不行 2, server: 134.195.196.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇩🇪 ok 德国阿伟科技-油管2 ok 6, server: 95.111.255.56, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Wh9NryUjBiKu}
-  - {name: 🇩🇪 ok 德国阿伟科技-油管2 ok 7, server: 161.97.64.169, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: czXXqP8K5Uya}
-  - {name: ok CYL-科技（2021.11.23） 15, server: 173.230.145.10, port: 11002, type: vmess, uuid: ab8ae6ed-973d-420a-f728-d73292a38be1, alterId: 0, cipher: auto, tls: false}
-  - {name: ok CYL-科技（2021.11.23） 16, server: eeh7iewe.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: eeh7iewe.com}}
-  - {name: ok CYL-科技（2021.11.23） 17, server: 134.195.198.178, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 ok github.com/freefq - 北美地区  9, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: ok 118.107.244.112:7307 ok, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok CYL-科技（2021.11.23） 18, server: iepl.marslink.icu, port: 35007, type: ss, cipher: chacha20-ietf-poly1305, password: 578c0374-3309-4f94-878a-bde0cf460b21}
-  - {name: ok CYL-科技（2021.11.22）ok 4, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
-  - {name: ok CYL-科技（2021.11.23） 19, server: 154.17.23.132, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: 0C9IaKy38uljOZ7Z6eC3na3XNA4lSYzTBx5ESqFyOYCaeR2pxFSDc3DDwA8gRp}
-  - {name: ok 速度不行 3, server: 134.195.196.110, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok CYL-科技（2021.11.23） 20, server: zz1.futi.online, port: 11006, type: vmess, uuid: cfa8162e-2485-4905-bb39-37654162caa1, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: krz2.futi.online}}
-  - {name: ok CYL-科技（2021.11.23） 21, server: 107.148.200.229, port: 10022, type: vmess, uuid: 6e6ce89a-42d5-11ec-ac9d-00163c0ad178, alterId: 0, cipher: auto, tls: false}
-  - {name: ok CYL-科技（2021.11.23） 22, server: 134.195.198.178, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇩🇪 ok 德国阿伟科技-油管2 ok 8, server: 194.163.134.108, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Tq5iJl9cYkzf}
-  - {name: ok CYL-科技（2021.11.23） 23, server: 134.195.198.178, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇩🇪 ok 德国阿伟科技-油管2 ok 9, server: 104.16.98.249, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: ok (欢迎订阅youtube：钱科技)1123_����_NON_39, server: 38.39.192.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 ok 美国阿伟科技-油管2 ok, server: 104.16.149.48, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: ok CYL-科技（2021.11.23） 24, server: usa-lasvegas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-lasvegas.lvuft.com}}
-  - {name: 🇺🇸 ok github.com/freefq - 美国CloudFlare公司CDN节点 16, server: v4.ssrsub.com, port: 443, type: vmess, uuid: 0d0a53dd-6a0f-47ac-8d0c-6eca674926b2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}}
-  - {name: ok 🇺🇸 Te 5 ok, server: 104.16.104.198, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: green-recipe-bc49.tianzhen121.workers.dev}}
-  - {name: 🇩🇪 ok 德国阿伟科技-油管2 ok 10, server: 104.18.253.38, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: ok 欧洲阿伟科技-油管3ok, server: 520yyds.zhqt.xyz, port: 50088, type: vmess, uuid: 93094b0e-e644-4adf-9c96-e3168ac5205a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: free-5.joker007.top}}
-  - {name: 🇺🇸 ok github.com/freefq - 北美地区  4, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇭🇰 ok 香港阿伟科技-油管2 ok, server: oaQuie3i.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: oaQuie3i.com}}
+  - {name: ok CYL-科技（2021.11.23）, server: 173.230.145.10, port: 11002, type: vmess, uuid: ab8ae6ed-973d-420a-f728-d73292a38be1, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.11.23） 2, server: 213.167.242.16, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: BDybfjpcRuiW}
+  - {name: 🇩🇪 ok 德国阿伟科技-油管2 ok, server: 194.163.134.101, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8doqA73pHheo}
+  - {name: ok CYL-科技（2021.11.23） 3, server: hk.huanyumingle.xyz, port: 10024, type: ss, cipher: chacha20-ietf-poly1305, password: e3730d1d-6d14-407d-a9d0-86063a768d20}
+  - {name: 🇩🇪 ok 德国阿伟科技-油管2 ok 2, server: 161.97.64.163, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: KW5I1uEZBI0y}
+  - {name: 🇩🇪 ok 德国阿伟科技-油管2 ok 3, server: 95.111.255.56, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Wh9NryUjBiKu}
+  - {name: ok CYL-科技（2021.11.22）ok 2, server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
+  - {name: 🇩🇪 ok 德国阿伟科技-油管2 ok 4, server: 161.97.64.169, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: czXXqP8K5Uya}
+  - {name: ok CYL-科技（2021.11.23） 4, server: iepl.marslink.icu, port: 35007, type: ss, cipher: chacha20-ietf-poly1305, password: 578c0374-3309-4f94-878a-bde0cf460b21}
   - {name: 🇸🇬 ok 新加坡阿伟科技-油管2 ok, server: zecjk.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: zecjk.com}}
-  - {name: ok (欢迎订阅youtube：钱科技)1123_����_NON_41, server: 38.39.192.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.23） 25, server: 38.39.192.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.23） 26, server: italy-milan.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: italy-milan.mah3Hoet.com}}
-  - {name: ok (欢迎订阅youtube：钱科技)1123_����_NON_54, server: t5.ssrsub.com, port: 11033, type: trojan, password: 0d0a53dd-6a0f-47ac-8d0c-6eca674926b2, sni: t5.ssrsub.com}
-  - {name: ok 185.172.113.156:807 ok, server: 185.172.113.156, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: ok CYL-科技（2021.11.22）ok 5, server: canada-vancouver.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: canada-vancouver.mah3Hoet.com}}
-  - {name: ok CYL-科技（2021.11.23） 27, server: shai7ein.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: shai7ein.com}}
-  - {name: ok CYL-科技（2021.11.23） 28, server: Eiha7iew.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: Eiha7iew.com}}
-  - {name: 🇺🇸 ok github.com/freefq - 美国CloudFlare节点 6, server: 172.67.69.244, port: 443, type: vmess, uuid: 119013ea-09ad-48f9-930c-c16056ea95ba, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /sshocean, ws-headers: {Host: ru1.v2rayserv.com}}
-  - {name: ok CYL-科技（2021.11.23） 29, server: 198.200.51.28, port: 600, type: vmess, uuid: 1d219570-0d1b-11ec-a57e-00163ca76936, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17, server: 103.254.153.72, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: ZyYRnKlB8u5agc7IFAO3aC3D9XDNeEzS2wF6jpxOA4Z3SayYDCpCR8Tq0Sl3xe}
-  - {name: 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok, server: 23.106.248.19, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: ZDYSyKNR8upjg9l36eR3ZySAaaEcOY2CaI0zp5xnX4733eSwqxCFlOTD8BCDFA}
-  - {name: ok github.com/freefq - 挪威  1, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok 🇸🇬(Youtube频道：工具大师！)ok, server: 103.254.153.138, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z39SqKxx8ZCjcC73nDEleyFDaAwSpYaB03NOlFRR2SCI5TpaYOg4ue3y6AzXD8}
-  - {name: ok 185.172.113.156:809  ok, server: 185.172.113.156, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇩🇪 ok 🇩🇪 德国阿伟科技-油管2 3 ok, server: 104.16.181.15, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇩🇪 ok 🇩🇪 德国阿伟科技-油管2 4 ok, server: 104.19.128.135, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇯🇵 ok 日本(Youtube频道：工具大师！)ok, server: 185.172.113.85, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: ok CYL-科技（2021.11.23） 30, server: 172.107.233.230, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok CYL-科技（2021.11.23） 31, server: lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: lvuft.com}}
+  - {name: ok (欢迎订阅youtube：钱科技)1123_����_NON_42, server: 154.17.1.130, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: ZDZSRKaS8uTjDpFAcC8OClnD2pISORz0Yya7a9xegxy33XC4wleFY3Eq3NA65B}
   - {name: 🇺🇸 ok 🇺🇸 美国阿伟科技-油管4 ok, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
-  - {name: ok 欧洲(Youtube频道：工具大师！)ok, server: 185.172.113.85, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 2, server: 185.172.113.156, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇷🇺 ok github.com/freefq - 俄罗斯  11, server: t8.ssrsub.com, port: 11033, type: trojan, password: a0daa9d9-6257-4ae9-9959-ccfb993f122c, sni: t8.ssrsub.com}
-  - {name: ok 🇯🇵(Youtube频道：工具大师！)ok, server: 185.172.113.85, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇩🇪 ok 德国 🇩🇪(Youtube频道：工具大师！)ok, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 3, server: 185.172.113.85, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 4, server: 185.172.113.85, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 5, server: 185.172.113.85, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 ok github.com/freefq - 新加坡  14, server: 43.249.39.154, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: T3YS0aCp8C5jgA736D834yCDaROEOezAyDqISBl39KSepnuZYN2FRwxlxcXFZa}
+  - {name: 🇩🇪 ok 德国阿伟科技-油管2 ok 5, server: 194.163.134.104, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: dZpagSuA9Vxe}
+  - {name: 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok, server: 23.106.248.19, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: ZDYSyKNR8upjg9l36eR3ZySAaaEcOY2CaI0zp5xnX4733eSwqxCFlOTD8BCDFA}
+  - {name: ok (欢迎订阅youtube：钱科技)1123_����_NON_41, server: 38.39.192.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17, server: 103.254.153.72, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: ZyYRnKlB8u5agc7IFAO3aC3D9XDNeEzS2wF6jpxOA4Z3SayYDCpCR8Tq0Sl3xe}
+  - {name: 🇭🇰 ok 香港阿伟科技-油管2 ok, server: oaQuie3i.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: oaQuie3i.com}}
+  - {name: ok CYL-科技（2021.11.23） 5, server: Eiha7iew.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: Eiha7iew.com}}
+  - {name: ok CYL-科技（2021.11.23） 6, server: eeh7iewe.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: eeh7iewe.com}}
+  - {name: ok CYL-科技（2021.11.23） 7, server: 107.148.200.229, port: 10022, type: vmess, uuid: 6e6ce89a-42d5-11ec-ac9d-00163c0ad178, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.11.23） 8, server: italy-milan.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: italy-milan.mah3Hoet.com}}
+  - {name: ok (欢迎订阅youtube：钱科技)1123_����_NON_12, server: 154.17.2.94, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: pAYSRy4Y8w5aST72CzNRayDeESlOBAxZnKD0363g39xFDuCqal8IcZep3OXjFC}
+  - {name: ok CYL-科技（2021.11.22）ok 3, server: canada-vancouver.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: canada-vancouver.mah3Hoet.com}}
+  - {name: ok CYL-科技（2021.11.23） 9, server: 154.17.23.132, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: 0C9IaKy38uljOZ7Z6eC3na3XNA4lSYzTBx5ESqFyOYCaeR2pxFSDc3DDwA8gRp}
+  - {name: ok CYL-科技（2021.11.23） 10, server: global-transit-hk-v2.pucdn.me, port: 10012, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-08.pucdn.me}}
+  - {name: ok CYL-科技（2021.11.22）ok 4, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
+  - {name: 🇺🇸 ok github.com/freefq - 北美地区  9, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok 🇸🇬(Youtube频道：工具大师！)ok, server: 103.254.153.138, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z39SqKxx8ZCjcC73nDEleyFDaAwSpYaB03NOlFRR2SCI5TpaYOg4ue3y6AzXD8}
+  - {name: ok github.com/freefq - 挪威  1, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb(SIN11)数据中心 15, server: 209.58.181.251, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3eC0KxS8ICjgp2N6OZ94x3DaXwyTRzaSqApFlF5cD3Y73luCYyn8eERDSAaOB}
+  - {name: ok CYL-科技（2021.11.23） 11, server: 38.39.192.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok 欧洲阿伟科技-油管3ok, server: 520yyds.zhqt.xyz, port: 50088, type: vmess, uuid: 93094b0e-e644-4adf-9c96-e3168ac5205a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: free-5.joker007.top}}
+  - {name: ok CYL-科技（2021.11.23） 12, server: usa-lasvegas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-lasvegas.lvuft.com}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 T2直连_26
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 D2 本土_23
-      - ok CYL-科技（2021.11.23）
       - ok CYL-科技（2021.11.22）ok
+      - ok 118.107.244.112:7307 ok
+      - ok CYL-科技（2021.11.23）
       - ok CYL-科技（2021.11.23） 2
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 08直连_17
-      - 🇨🇳 ok 🇹🇼 改我订阅死全家 TW x1.0 01中转 本土_1
-      - ok CYL-科技（2021.11.23） 3
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 07直连_16
-      - ok CYL-科技（2021.11.23） 4
-      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb(SIN11)数据中心 15
-      - 🇸🇬 ok github.com/freefq - 新加坡  14
-      - 🇰🇷 ok 🇰🇷 改我订阅死全家 KR x1.0 01直连_12
-      - ok CYL-科技（2021.11.23） 5
-      - ok CYL-科技（2021.11.22）ok 2
-      - ok CYL-科技（2021.11.22）ok 3
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_42
-      - 🇩🇪 ok 🇩🇪 德国阿伟科技-油管4 3 ok
-      - 🇯🇵 ok 🇯🇵 改我订阅死全家 JP x1.0 A4直连_7
-      - ok CYL-科技（2021.11.23） 6
-      - ok CYL-科技（2021.11.23） 7
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_12
-      - ok CYL-科技（2021.11.23） 8
-      - ok CYL-科技（2021.11.23） 9
-      - ok CYL-科技（2021.11.23） 10
-      - ok (欢迎订阅youtube：钱科技)1123_🏳_NON_26
-      - ok CYL-科技（2021.11.23） 11
-      - ok CYL-科技（2021.11.23） 12
       - 🇩🇪 ok 德国阿伟科技-油管2 ok
+      - ok CYL-科技（2021.11.23） 3
       - 🇩🇪 ok 德国阿伟科技-油管2 ok 2
       - 🇩🇪 ok 德国阿伟科技-油管2 ok 3
-      - ok CYL-科技（2021.11.23） 13
-      - 🇺🇸 ok 🇺🇸 美国阿伟科技-油管2 3 ok
+      - ok CYL-科技（2021.11.22）ok 2
       - 🇩🇪 ok 德国阿伟科技-油管2 ok 4
-      - ok CYL-科技（2021.11.23） 14
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 5
-      - ok 速度不行
-      - ok 速度不行 2
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 6
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 7
-      - ok CYL-科技（2021.11.23） 15
-      - ok CYL-科技（2021.11.23） 16
-      - ok CYL-科技（2021.11.23） 17
-      - 🇺🇸 ok github.com/freefq - 北美地区  9
-      - ok 118.107.244.112:7307 ok
-      - ok CYL-科技（2021.11.23） 18
-      - ok CYL-科技（2021.11.22）ok 4
-      - ok CYL-科技（2021.11.23） 19
-      - ok 速度不行 3
-      - ok CYL-科技（2021.11.23） 20
-      - ok CYL-科技（2021.11.23） 21
-      - ok CYL-科技（2021.11.23） 22
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 8
-      - ok CYL-科技（2021.11.23） 23
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 9
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_39
-      - 🇺🇸 ok 美国阿伟科技-油管2 ok
-      - ok CYL-科技（2021.11.23） 24
-      - 🇺🇸 ok github.com/freefq - 美国CloudFlare公司CDN节点 16
-      - ok 🇺🇸 Te 5 ok
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 10
-      - ok 欧洲阿伟科技-油管3ok
-      - 🇺🇸 ok github.com/freefq - 北美地区  4
-      - 🇭🇰 ok 香港阿伟科技-油管2 ok
+      - ok CYL-科技（2021.11.23） 4
       - 🇸🇬 ok 新加坡阿伟科技-油管2 ok
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_41
-      - ok CYL-科技（2021.11.23） 25
-      - ok CYL-科技（2021.11.23） 26
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_54
-      - ok 185.172.113.156:807 ok
-      - ok CYL-科技（2021.11.22）ok 5
-      - ok CYL-科技（2021.11.23） 27
-      - ok CYL-科技（2021.11.23） 28
-      - 🇺🇸 ok github.com/freefq - 美国CloudFlare节点 6
-      - ok CYL-科技（2021.11.23） 29
-      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17
-      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
-      - ok github.com/freefq - 挪威  1
-      - ok 🇸🇬(Youtube频道：工具大师！)ok
-      - ok 185.172.113.156:809  ok
-      - 🇩🇪 ok 🇩🇪 德国阿伟科技-油管2 3 ok
-      - 🇩🇪 ok 🇩🇪 德国阿伟科技-油管2 4 ok
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok
-      - ok CYL-科技（2021.11.23） 30
-      - ok CYL-科技（2021.11.23） 31
+      - ok (欢迎订阅youtube：钱科技)1123_����_NON_42
       - 🇺🇸 ok 🇺🇸 美国阿伟科技-油管4 ok
-      - ok 欧洲(Youtube频道：工具大师！)ok
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 2
-      - 🇷🇺 ok github.com/freefq - 俄罗斯  11
-      - ok 🇯🇵(Youtube频道：工具大师！)ok
-      - 🇩🇪 ok 德国 🇩🇪(Youtube频道：工具大师！)ok
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 3
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 4
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 5
+      - 🇸🇬 ok github.com/freefq - 新加坡  14
+      - 🇩🇪 ok 德国阿伟科技-油管2 ok 5
+      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
+      - ok (欢迎订阅youtube：钱科技)1123_����_NON_41
+      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17
+      - 🇭🇰 ok 香港阿伟科技-油管2 ok
+      - ok CYL-科技（2021.11.23） 5
+      - ok CYL-科技（2021.11.23） 6
+      - ok CYL-科技（2021.11.23） 7
+      - ok CYL-科技（2021.11.23） 8
+      - ok (欢迎订阅youtube：钱科技)1123_����_NON_12
+      - ok CYL-科技（2021.11.22）ok 3
+      - ok CYL-科技（2021.11.23） 9
+      - ok CYL-科技（2021.11.23） 10
+      - ok CYL-科技（2021.11.22）ok 4
+      - 🇺🇸 ok github.com/freefq - 北美地区  9
+      - ok 🇸🇬(Youtube频道：工具大师！)ok
+      - ok github.com/freefq - 挪威  1
+      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb(SIN11)数据中心 15
+      - ok CYL-科技（2021.11.23） 11
+      - ok 欧洲阿伟科技-油管3ok
+      - ok CYL-科技（2021.11.23） 12
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 T2直连_26
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 D2 本土_23
-      - ok CYL-科技（2021.11.23）
       - ok CYL-科技（2021.11.22）ok
+      - ok 118.107.244.112:7307 ok
+      - ok CYL-科技（2021.11.23）
       - ok CYL-科技（2021.11.23） 2
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 08直连_17
-      - 🇨🇳 ok 🇹🇼 改我订阅死全家 TW x1.0 01中转 本土_1
-      - ok CYL-科技（2021.11.23） 3
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 07直连_16
-      - ok CYL-科技（2021.11.23） 4
-      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb(SIN11)数据中心 15
-      - 🇸🇬 ok github.com/freefq - 新加坡  14
-      - 🇰🇷 ok 🇰🇷 改我订阅死全家 KR x1.0 01直连_12
-      - ok CYL-科技（2021.11.23） 5
-      - ok CYL-科技（2021.11.22）ok 2
-      - ok CYL-科技（2021.11.22）ok 3
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_42
-      - 🇩🇪 ok 🇩🇪 德国阿伟科技-油管4 3 ok
-      - 🇯🇵 ok 🇯🇵 改我订阅死全家 JP x1.0 A4直连_7
-      - ok CYL-科技（2021.11.23） 6
-      - ok CYL-科技（2021.11.23） 7
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_12
-      - ok CYL-科技（2021.11.23） 8
-      - ok CYL-科技（2021.11.23） 9
-      - ok CYL-科技（2021.11.23） 10
-      - ok (欢迎订阅youtube：钱科技)1123_🏳_NON_26
-      - ok CYL-科技（2021.11.23） 11
-      - ok CYL-科技（2021.11.23） 12
       - 🇩🇪 ok 德国阿伟科技-油管2 ok
+      - ok CYL-科技（2021.11.23） 3
       - 🇩🇪 ok 德国阿伟科技-油管2 ok 2
       - 🇩🇪 ok 德国阿伟科技-油管2 ok 3
-      - ok CYL-科技（2021.11.23） 13
-      - 🇺🇸 ok 🇺🇸 美国阿伟科技-油管2 3 ok
+      - ok CYL-科技（2021.11.22）ok 2
       - 🇩🇪 ok 德国阿伟科技-油管2 ok 4
-      - ok CYL-科技（2021.11.23） 14
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 5
-      - ok 速度不行
-      - ok 速度不行 2
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 6
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 7
-      - ok CYL-科技（2021.11.23） 15
-      - ok CYL-科技（2021.11.23） 16
-      - ok CYL-科技（2021.11.23） 17
-      - 🇺🇸 ok github.com/freefq - 北美地区  9
-      - ok 118.107.244.112:7307 ok
-      - ok CYL-科技（2021.11.23） 18
-      - ok CYL-科技（2021.11.22）ok 4
-      - ok CYL-科技（2021.11.23） 19
-      - ok 速度不行 3
-      - ok CYL-科技（2021.11.23） 20
-      - ok CYL-科技（2021.11.23） 21
-      - ok CYL-科技（2021.11.23） 22
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 8
-      - ok CYL-科技（2021.11.23） 23
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 9
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_39
-      - 🇺🇸 ok 美国阿伟科技-油管2 ok
-      - ok CYL-科技（2021.11.23） 24
-      - 🇺🇸 ok github.com/freefq - 美国CloudFlare公司CDN节点 16
-      - ok 🇺🇸 Te 5 ok
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 10
-      - ok 欧洲阿伟科技-油管3ok
-      - 🇺🇸 ok github.com/freefq - 北美地区  4
-      - 🇭🇰 ok 香港阿伟科技-油管2 ok
+      - ok CYL-科技（2021.11.23） 4
       - 🇸🇬 ok 新加坡阿伟科技-油管2 ok
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_41
-      - ok CYL-科技（2021.11.23） 25
-      - ok CYL-科技（2021.11.23） 26
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_54
-      - ok 185.172.113.156:807 ok
-      - ok CYL-科技（2021.11.22）ok 5
-      - ok CYL-科技（2021.11.23） 27
-      - ok CYL-科技（2021.11.23） 28
-      - 🇺🇸 ok github.com/freefq - 美国CloudFlare节点 6
-      - ok CYL-科技（2021.11.23） 29
-      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17
-      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
-      - ok github.com/freefq - 挪威  1
-      - ok 🇸🇬(Youtube频道：工具大师！)ok
-      - ok 185.172.113.156:809  ok
-      - 🇩🇪 ok 🇩🇪 德国阿伟科技-油管2 3 ok
-      - 🇩🇪 ok 🇩🇪 德国阿伟科技-油管2 4 ok
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok
-      - ok CYL-科技（2021.11.23） 30
-      - ok CYL-科技（2021.11.23） 31
+      - ok (欢迎订阅youtube：钱科技)1123_����_NON_42
       - 🇺🇸 ok 🇺🇸 美国阿伟科技-油管4 ok
-      - ok 欧洲(Youtube频道：工具大师！)ok
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 2
-      - 🇷🇺 ok github.com/freefq - 俄罗斯  11
-      - ok 🇯🇵(Youtube频道：工具大师！)ok
-      - 🇩🇪 ok 德国 🇩🇪(Youtube频道：工具大师！)ok
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 3
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 4
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 5
+      - 🇸🇬 ok github.com/freefq - 新加坡  14
+      - 🇩🇪 ok 德国阿伟科技-油管2 ok 5
+      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
+      - ok (欢迎订阅youtube：钱科技)1123_����_NON_41
+      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17
+      - 🇭🇰 ok 香港阿伟科技-油管2 ok
+      - ok CYL-科技（2021.11.23） 5
+      - ok CYL-科技（2021.11.23） 6
+      - ok CYL-科技（2021.11.23） 7
+      - ok CYL-科技（2021.11.23） 8
+      - ok (欢迎订阅youtube：钱科技)1123_����_NON_12
+      - ok CYL-科技（2021.11.22）ok 3
+      - ok CYL-科技（2021.11.23） 9
+      - ok CYL-科技（2021.11.23） 10
+      - ok CYL-科技（2021.11.22）ok 4
+      - 🇺🇸 ok github.com/freefq - 北美地区  9
+      - ok 🇸🇬(Youtube频道：工具大师！)ok
+      - ok github.com/freefq - 挪威  1
+      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb(SIN11)数据中心 15
+      - ok CYL-科技（2021.11.23） 11
+      - ok 欧洲阿伟科技-油管3ok
+      - ok CYL-科技（2021.11.23） 12
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 T2直连_26
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 D2 本土_23
-      - ok CYL-科技（2021.11.23）
       - ok CYL-科技（2021.11.22）ok
+      - ok 118.107.244.112:7307 ok
+      - ok CYL-科技（2021.11.23）
       - ok CYL-科技（2021.11.23） 2
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 08直连_17
-      - 🇨🇳 ok 🇹🇼 改我订阅死全家 TW x1.0 01中转 本土_1
-      - ok CYL-科技（2021.11.23） 3
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 07直连_16
-      - ok CYL-科技（2021.11.23） 4
-      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb(SIN11)数据中心 15
-      - 🇸🇬 ok github.com/freefq - 新加坡  14
-      - 🇰🇷 ok 🇰🇷 改我订阅死全家 KR x1.0 01直连_12
-      - ok CYL-科技（2021.11.23） 5
-      - ok CYL-科技（2021.11.22）ok 2
-      - ok CYL-科技（2021.11.22）ok 3
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_42
-      - 🇩🇪 ok 🇩🇪 德国阿伟科技-油管4 3 ok
-      - 🇯🇵 ok 🇯🇵 改我订阅死全家 JP x1.0 A4直连_7
-      - ok CYL-科技（2021.11.23） 6
-      - ok CYL-科技（2021.11.23） 7
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_12
-      - ok CYL-科技（2021.11.23） 8
-      - ok CYL-科技（2021.11.23） 9
-      - ok CYL-科技（2021.11.23） 10
-      - ok (欢迎订阅youtube：钱科技)1123_🏳_NON_26
-      - ok CYL-科技（2021.11.23） 11
-      - ok CYL-科技（2021.11.23） 12
       - 🇩🇪 ok 德国阿伟科技-油管2 ok
+      - ok CYL-科技（2021.11.23） 3
       - 🇩🇪 ok 德国阿伟科技-油管2 ok 2
       - 🇩🇪 ok 德国阿伟科技-油管2 ok 3
-      - ok CYL-科技（2021.11.23） 13
-      - 🇺🇸 ok 🇺🇸 美国阿伟科技-油管2 3 ok
+      - ok CYL-科技（2021.11.22）ok 2
       - 🇩🇪 ok 德国阿伟科技-油管2 ok 4
-      - ok CYL-科技（2021.11.23） 14
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 5
-      - ok 速度不行
-      - ok 速度不行 2
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 6
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 7
-      - ok CYL-科技（2021.11.23） 15
-      - ok CYL-科技（2021.11.23） 16
-      - ok CYL-科技（2021.11.23） 17
-      - 🇺🇸 ok github.com/freefq - 北美地区  9
-      - ok 118.107.244.112:7307 ok
-      - ok CYL-科技（2021.11.23） 18
-      - ok CYL-科技（2021.11.22）ok 4
-      - ok CYL-科技（2021.11.23） 19
-      - ok 速度不行 3
-      - ok CYL-科技（2021.11.23） 20
-      - ok CYL-科技（2021.11.23） 21
-      - ok CYL-科技（2021.11.23） 22
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 8
-      - ok CYL-科技（2021.11.23） 23
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 9
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_39
-      - 🇺🇸 ok 美国阿伟科技-油管2 ok
-      - ok CYL-科技（2021.11.23） 24
-      - 🇺🇸 ok github.com/freefq - 美国CloudFlare公司CDN节点 16
-      - ok 🇺🇸 Te 5 ok
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 10
-      - ok 欧洲阿伟科技-油管3ok
-      - 🇺🇸 ok github.com/freefq - 北美地区  4
-      - 🇭🇰 ok 香港阿伟科技-油管2 ok
+      - ok CYL-科技（2021.11.23） 4
       - 🇸🇬 ok 新加坡阿伟科技-油管2 ok
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_41
-      - ok CYL-科技（2021.11.23） 25
-      - ok CYL-科技（2021.11.23） 26
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_54
-      - ok 185.172.113.156:807 ok
-      - ok CYL-科技（2021.11.22）ok 5
-      - ok CYL-科技（2021.11.23） 27
-      - ok CYL-科技（2021.11.23） 28
-      - 🇺🇸 ok github.com/freefq - 美国CloudFlare节点 6
-      - ok CYL-科技（2021.11.23） 29
-      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17
-      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
-      - ok github.com/freefq - 挪威  1
-      - ok 🇸🇬(Youtube频道：工具大师！)ok
-      - ok 185.172.113.156:809  ok
-      - 🇩🇪 ok 🇩🇪 德国阿伟科技-油管2 3 ok
-      - 🇩🇪 ok 🇩🇪 德国阿伟科技-油管2 4 ok
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok
-      - ok CYL-科技（2021.11.23） 30
-      - ok CYL-科技（2021.11.23） 31
+      - ok (欢迎订阅youtube：钱科技)1123_����_NON_42
       - 🇺🇸 ok 🇺🇸 美国阿伟科技-油管4 ok
-      - ok 欧洲(Youtube频道：工具大师！)ok
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 2
-      - 🇷🇺 ok github.com/freefq - 俄罗斯  11
-      - ok 🇯🇵(Youtube频道：工具大师！)ok
-      - 🇩🇪 ok 德国 🇩🇪(Youtube频道：工具大师！)ok
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 3
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 4
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 5
+      - 🇸🇬 ok github.com/freefq - 新加坡  14
+      - 🇩🇪 ok 德国阿伟科技-油管2 ok 5
+      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
+      - ok (欢迎订阅youtube：钱科技)1123_����_NON_41
+      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17
+      - 🇭🇰 ok 香港阿伟科技-油管2 ok
+      - ok CYL-科技（2021.11.23） 5
+      - ok CYL-科技（2021.11.23） 6
+      - ok CYL-科技（2021.11.23） 7
+      - ok CYL-科技（2021.11.23） 8
+      - ok (欢迎订阅youtube：钱科技)1123_����_NON_12
+      - ok CYL-科技（2021.11.22）ok 3
+      - ok CYL-科技（2021.11.23） 9
+      - ok CYL-科技（2021.11.23） 10
+      - ok CYL-科技（2021.11.22）ok 4
+      - 🇺🇸 ok github.com/freefq - 北美地区  9
+      - ok 🇸🇬(Youtube频道：工具大师！)ok
+      - ok github.com/freefq - 挪威  1
+      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb(SIN11)数据中心 15
+      - ok CYL-科技（2021.11.23） 11
+      - ok 欧洲阿伟科技-油管3ok
+      - ok CYL-科技（2021.11.23） 12
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -409,299 +177,125 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 T2直连_26
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 D2 本土_23
-      - ok CYL-科技（2021.11.23）
       - ok CYL-科技（2021.11.22）ok
+      - ok 118.107.244.112:7307 ok
+      - ok CYL-科技（2021.11.23）
       - ok CYL-科技（2021.11.23） 2
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 08直连_17
-      - 🇨🇳 ok 🇹🇼 改我订阅死全家 TW x1.0 01中转 本土_1
-      - ok CYL-科技（2021.11.23） 3
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 07直连_16
-      - ok CYL-科技（2021.11.23） 4
-      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb(SIN11)数据中心 15
-      - 🇸🇬 ok github.com/freefq - 新加坡  14
-      - 🇰🇷 ok 🇰🇷 改我订阅死全家 KR x1.0 01直连_12
-      - ok CYL-科技（2021.11.23） 5
-      - ok CYL-科技（2021.11.22）ok 2
-      - ok CYL-科技（2021.11.22）ok 3
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_42
-      - 🇩🇪 ok 🇩🇪 德国阿伟科技-油管4 3 ok
-      - 🇯🇵 ok 🇯🇵 改我订阅死全家 JP x1.0 A4直连_7
-      - ok CYL-科技（2021.11.23） 6
-      - ok CYL-科技（2021.11.23） 7
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_12
-      - ok CYL-科技（2021.11.23） 8
-      - ok CYL-科技（2021.11.23） 9
-      - ok CYL-科技（2021.11.23） 10
-      - ok (欢迎订阅youtube：钱科技)1123_🏳_NON_26
-      - ok CYL-科技（2021.11.23） 11
-      - ok CYL-科技（2021.11.23） 12
       - 🇩🇪 ok 德国阿伟科技-油管2 ok
+      - ok CYL-科技（2021.11.23） 3
       - 🇩🇪 ok 德国阿伟科技-油管2 ok 2
       - 🇩🇪 ok 德国阿伟科技-油管2 ok 3
-      - ok CYL-科技（2021.11.23） 13
-      - 🇺🇸 ok 🇺🇸 美国阿伟科技-油管2 3 ok
+      - ok CYL-科技（2021.11.22）ok 2
       - 🇩🇪 ok 德国阿伟科技-油管2 ok 4
-      - ok CYL-科技（2021.11.23） 14
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 5
-      - ok 速度不行
-      - ok 速度不行 2
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 6
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 7
-      - ok CYL-科技（2021.11.23） 15
-      - ok CYL-科技（2021.11.23） 16
-      - ok CYL-科技（2021.11.23） 17
-      - 🇺🇸 ok github.com/freefq - 北美地区  9
-      - ok 118.107.244.112:7307 ok
-      - ok CYL-科技（2021.11.23） 18
-      - ok CYL-科技（2021.11.22）ok 4
-      - ok CYL-科技（2021.11.23） 19
-      - ok 速度不行 3
-      - ok CYL-科技（2021.11.23） 20
-      - ok CYL-科技（2021.11.23） 21
-      - ok CYL-科技（2021.11.23） 22
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 8
-      - ok CYL-科技（2021.11.23） 23
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 9
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_39
-      - 🇺🇸 ok 美国阿伟科技-油管2 ok
-      - ok CYL-科技（2021.11.23） 24
-      - 🇺🇸 ok github.com/freefq - 美国CloudFlare公司CDN节点 16
-      - ok 🇺🇸 Te 5 ok
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 10
-      - ok 欧洲阿伟科技-油管3ok
-      - 🇺🇸 ok github.com/freefq - 北美地区  4
-      - 🇭🇰 ok 香港阿伟科技-油管2 ok
+      - ok CYL-科技（2021.11.23） 4
       - 🇸🇬 ok 新加坡阿伟科技-油管2 ok
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_41
-      - ok CYL-科技（2021.11.23） 25
-      - ok CYL-科技（2021.11.23） 26
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_54
-      - ok 185.172.113.156:807 ok
-      - ok CYL-科技（2021.11.22）ok 5
-      - ok CYL-科技（2021.11.23） 27
-      - ok CYL-科技（2021.11.23） 28
-      - 🇺🇸 ok github.com/freefq - 美国CloudFlare节点 6
-      - ok CYL-科技（2021.11.23） 29
-      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17
-      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
-      - ok github.com/freefq - 挪威  1
-      - ok 🇸🇬(Youtube频道：工具大师！)ok
-      - ok 185.172.113.156:809  ok
-      - 🇩🇪 ok 🇩🇪 德国阿伟科技-油管2 3 ok
-      - 🇩🇪 ok 🇩🇪 德国阿伟科技-油管2 4 ok
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok
-      - ok CYL-科技（2021.11.23） 30
-      - ok CYL-科技（2021.11.23） 31
+      - ok (欢迎订阅youtube：钱科技)1123_����_NON_42
       - 🇺🇸 ok 🇺🇸 美国阿伟科技-油管4 ok
-      - ok 欧洲(Youtube频道：工具大师！)ok
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 2
-      - 🇷🇺 ok github.com/freefq - 俄罗斯  11
-      - ok 🇯🇵(Youtube频道：工具大师！)ok
-      - 🇩🇪 ok 德国 🇩🇪(Youtube频道：工具大师！)ok
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 3
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 4
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 5
+      - 🇸🇬 ok github.com/freefq - 新加坡  14
+      - 🇩🇪 ok 德国阿伟科技-油管2 ok 5
+      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
+      - ok (欢迎订阅youtube：钱科技)1123_����_NON_41
+      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17
+      - 🇭🇰 ok 香港阿伟科技-油管2 ok
+      - ok CYL-科技（2021.11.23） 5
+      - ok CYL-科技（2021.11.23） 6
+      - ok CYL-科技（2021.11.23） 7
+      - ok CYL-科技（2021.11.23） 8
+      - ok (欢迎订阅youtube：钱科技)1123_����_NON_12
+      - ok CYL-科技（2021.11.22）ok 3
+      - ok CYL-科技（2021.11.23） 9
+      - ok CYL-科技（2021.11.23） 10
+      - ok CYL-科技（2021.11.22）ok 4
+      - 🇺🇸 ok github.com/freefq - 北美地区  9
+      - ok 🇸🇬(Youtube频道：工具大师！)ok
+      - ok github.com/freefq - 挪威  1
+      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb(SIN11)数据中心 15
+      - ok CYL-科技（2021.11.23） 11
+      - ok 欧洲阿伟科技-油管3ok
+      - ok CYL-科技（2021.11.23） 12
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 T2直连_26
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 D2 本土_23
-      - ok CYL-科技（2021.11.23）
       - ok CYL-科技（2021.11.22）ok
+      - ok 118.107.244.112:7307 ok
+      - ok CYL-科技（2021.11.23）
       - ok CYL-科技（2021.11.23） 2
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 08直连_17
-      - 🇨🇳 ok 🇹🇼 改我订阅死全家 TW x1.0 01中转 本土_1
-      - ok CYL-科技（2021.11.23） 3
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 07直连_16
-      - ok CYL-科技（2021.11.23） 4
-      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb(SIN11)数据中心 15
-      - 🇸🇬 ok github.com/freefq - 新加坡  14
-      - 🇰🇷 ok 🇰🇷 改我订阅死全家 KR x1.0 01直连_12
-      - ok CYL-科技（2021.11.23） 5
-      - ok CYL-科技（2021.11.22）ok 2
-      - ok CYL-科技（2021.11.22）ok 3
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_42
-      - 🇩🇪 ok 🇩🇪 德国阿伟科技-油管4 3 ok
-      - 🇯🇵 ok 🇯🇵 改我订阅死全家 JP x1.0 A4直连_7
-      - ok CYL-科技（2021.11.23） 6
-      - ok CYL-科技（2021.11.23） 7
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_12
-      - ok CYL-科技（2021.11.23） 8
-      - ok CYL-科技（2021.11.23） 9
-      - ok CYL-科技（2021.11.23） 10
-      - ok (欢迎订阅youtube：钱科技)1123_🏳_NON_26
-      - ok CYL-科技（2021.11.23） 11
-      - ok CYL-科技（2021.11.23） 12
       - 🇩🇪 ok 德国阿伟科技-油管2 ok
+      - ok CYL-科技（2021.11.23） 3
       - 🇩🇪 ok 德国阿伟科技-油管2 ok 2
       - 🇩🇪 ok 德国阿伟科技-油管2 ok 3
-      - ok CYL-科技（2021.11.23） 13
-      - 🇺🇸 ok 🇺🇸 美国阿伟科技-油管2 3 ok
+      - ok CYL-科技（2021.11.22）ok 2
       - 🇩🇪 ok 德国阿伟科技-油管2 ok 4
-      - ok CYL-科技（2021.11.23） 14
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 5
-      - ok 速度不行
-      - ok 速度不行 2
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 6
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 7
-      - ok CYL-科技（2021.11.23） 15
-      - ok CYL-科技（2021.11.23） 16
-      - ok CYL-科技（2021.11.23） 17
-      - 🇺🇸 ok github.com/freefq - 北美地区  9
-      - ok 118.107.244.112:7307 ok
-      - ok CYL-科技（2021.11.23） 18
-      - ok CYL-科技（2021.11.22）ok 4
-      - ok CYL-科技（2021.11.23） 19
-      - ok 速度不行 3
-      - ok CYL-科技（2021.11.23） 20
-      - ok CYL-科技（2021.11.23） 21
-      - ok CYL-科技（2021.11.23） 22
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 8
-      - ok CYL-科技（2021.11.23） 23
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 9
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_39
-      - 🇺🇸 ok 美国阿伟科技-油管2 ok
-      - ok CYL-科技（2021.11.23） 24
-      - 🇺🇸 ok github.com/freefq - 美国CloudFlare公司CDN节点 16
-      - ok 🇺🇸 Te 5 ok
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 10
-      - ok 欧洲阿伟科技-油管3ok
-      - 🇺🇸 ok github.com/freefq - 北美地区  4
-      - 🇭🇰 ok 香港阿伟科技-油管2 ok
+      - ok CYL-科技（2021.11.23） 4
       - 🇸🇬 ok 新加坡阿伟科技-油管2 ok
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_41
-      - ok CYL-科技（2021.11.23） 25
-      - ok CYL-科技（2021.11.23） 26
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_54
-      - ok 185.172.113.156:807 ok
-      - ok CYL-科技（2021.11.22）ok 5
-      - ok CYL-科技（2021.11.23） 27
-      - ok CYL-科技（2021.11.23） 28
-      - 🇺🇸 ok github.com/freefq - 美国CloudFlare节点 6
-      - ok CYL-科技（2021.11.23） 29
-      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17
-      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
-      - ok github.com/freefq - 挪威  1
-      - ok 🇸🇬(Youtube频道：工具大师！)ok
-      - ok 185.172.113.156:809  ok
-      - 🇩🇪 ok 🇩🇪 德国阿伟科技-油管2 3 ok
-      - 🇩🇪 ok 🇩🇪 德国阿伟科技-油管2 4 ok
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok
-      - ok CYL-科技（2021.11.23） 30
-      - ok CYL-科技（2021.11.23） 31
+      - ok (欢迎订阅youtube：钱科技)1123_����_NON_42
       - 🇺🇸 ok 🇺🇸 美国阿伟科技-油管4 ok
-      - ok 欧洲(Youtube频道：工具大师！)ok
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 2
-      - 🇷🇺 ok github.com/freefq - 俄罗斯  11
-      - ok 🇯🇵(Youtube频道：工具大师！)ok
-      - 🇩🇪 ok 德国 🇩🇪(Youtube频道：工具大师！)ok
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 3
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 4
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 5
+      - 🇸🇬 ok github.com/freefq - 新加坡  14
+      - 🇩🇪 ok 德国阿伟科技-油管2 ok 5
+      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
+      - ok (欢迎订阅youtube：钱科技)1123_����_NON_41
+      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17
+      - 🇭🇰 ok 香港阿伟科技-油管2 ok
+      - ok CYL-科技（2021.11.23） 5
+      - ok CYL-科技（2021.11.23） 6
+      - ok CYL-科技（2021.11.23） 7
+      - ok CYL-科技（2021.11.23） 8
+      - ok (欢迎订阅youtube：钱科技)1123_����_NON_12
+      - ok CYL-科技（2021.11.22）ok 3
+      - ok CYL-科技（2021.11.23） 9
+      - ok CYL-科技（2021.11.23） 10
+      - ok CYL-科技（2021.11.22）ok 4
+      - 🇺🇸 ok github.com/freefq - 北美地区  9
+      - ok 🇸🇬(Youtube频道：工具大师！)ok
+      - ok github.com/freefq - 挪威  1
+      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb(SIN11)数据中心 15
+      - ok CYL-科技（2021.11.23） 11
+      - ok 欧洲阿伟科技-油管3ok
+      - ok CYL-科技（2021.11.23） 12
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 T2直连_26
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 D2 本土_23
-      - ok CYL-科技（2021.11.23）
       - ok CYL-科技（2021.11.22）ok
+      - ok 118.107.244.112:7307 ok
+      - ok CYL-科技（2021.11.23）
       - ok CYL-科技（2021.11.23） 2
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 08直连_17
-      - 🇨🇳 ok 🇹🇼 改我订阅死全家 TW x1.0 01中转 本土_1
-      - ok CYL-科技（2021.11.23） 3
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 07直连_16
-      - ok CYL-科技（2021.11.23） 4
-      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb(SIN11)数据中心 15
-      - 🇸🇬 ok github.com/freefq - 新加坡  14
-      - 🇰🇷 ok 🇰🇷 改我订阅死全家 KR x1.0 01直连_12
-      - ok CYL-科技（2021.11.23） 5
-      - ok CYL-科技（2021.11.22）ok 2
-      - ok CYL-科技（2021.11.22）ok 3
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_42
-      - 🇩🇪 ok 🇩🇪 德国阿伟科技-油管4 3 ok
-      - 🇯🇵 ok 🇯🇵 改我订阅死全家 JP x1.0 A4直连_7
-      - ok CYL-科技（2021.11.23） 6
-      - ok CYL-科技（2021.11.23） 7
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_12
-      - ok CYL-科技（2021.11.23） 8
-      - ok CYL-科技（2021.11.23） 9
-      - ok CYL-科技（2021.11.23） 10
-      - ok (欢迎订阅youtube：钱科技)1123_🏳_NON_26
-      - ok CYL-科技（2021.11.23） 11
-      - ok CYL-科技（2021.11.23） 12
       - 🇩🇪 ok 德国阿伟科技-油管2 ok
+      - ok CYL-科技（2021.11.23） 3
       - 🇩🇪 ok 德国阿伟科技-油管2 ok 2
       - 🇩🇪 ok 德国阿伟科技-油管2 ok 3
-      - ok CYL-科技（2021.11.23） 13
-      - 🇺🇸 ok 🇺🇸 美国阿伟科技-油管2 3 ok
+      - ok CYL-科技（2021.11.22）ok 2
       - 🇩🇪 ok 德国阿伟科技-油管2 ok 4
-      - ok CYL-科技（2021.11.23） 14
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 5
-      - ok 速度不行
-      - ok 速度不行 2
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 6
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 7
-      - ok CYL-科技（2021.11.23） 15
-      - ok CYL-科技（2021.11.23） 16
-      - ok CYL-科技（2021.11.23） 17
-      - 🇺🇸 ok github.com/freefq - 北美地区  9
-      - ok 118.107.244.112:7307 ok
-      - ok CYL-科技（2021.11.23） 18
-      - ok CYL-科技（2021.11.22）ok 4
-      - ok CYL-科技（2021.11.23） 19
-      - ok 速度不行 3
-      - ok CYL-科技（2021.11.23） 20
-      - ok CYL-科技（2021.11.23） 21
-      - ok CYL-科技（2021.11.23） 22
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 8
-      - ok CYL-科技（2021.11.23） 23
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 9
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_39
-      - 🇺🇸 ok 美国阿伟科技-油管2 ok
-      - ok CYL-科技（2021.11.23） 24
-      - 🇺🇸 ok github.com/freefq - 美国CloudFlare公司CDN节点 16
-      - ok 🇺🇸 Te 5 ok
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 10
-      - ok 欧洲阿伟科技-油管3ok
-      - 🇺🇸 ok github.com/freefq - 北美地区  4
-      - 🇭🇰 ok 香港阿伟科技-油管2 ok
+      - ok CYL-科技（2021.11.23） 4
       - 🇸🇬 ok 新加坡阿伟科技-油管2 ok
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_41
-      - ok CYL-科技（2021.11.23） 25
-      - ok CYL-科技（2021.11.23） 26
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_54
-      - ok 185.172.113.156:807 ok
-      - ok CYL-科技（2021.11.22）ok 5
-      - ok CYL-科技（2021.11.23） 27
-      - ok CYL-科技（2021.11.23） 28
-      - 🇺🇸 ok github.com/freefq - 美国CloudFlare节点 6
-      - ok CYL-科技（2021.11.23） 29
-      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17
-      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
-      - ok github.com/freefq - 挪威  1
-      - ok 🇸🇬(Youtube频道：工具大师！)ok
-      - ok 185.172.113.156:809  ok
-      - 🇩🇪 ok 🇩🇪 德国阿伟科技-油管2 3 ok
-      - 🇩🇪 ok 🇩🇪 德国阿伟科技-油管2 4 ok
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok
-      - ok CYL-科技（2021.11.23） 30
-      - ok CYL-科技（2021.11.23） 31
+      - ok (欢迎订阅youtube：钱科技)1123_����_NON_42
       - 🇺🇸 ok 🇺🇸 美国阿伟科技-油管4 ok
-      - ok 欧洲(Youtube频道：工具大师！)ok
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 2
-      - 🇷🇺 ok github.com/freefq - 俄罗斯  11
-      - ok 🇯🇵(Youtube频道：工具大师！)ok
-      - 🇩🇪 ok 德国 🇩🇪(Youtube频道：工具大师！)ok
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 3
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 4
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 5
+      - 🇸🇬 ok github.com/freefq - 新加坡  14
+      - 🇩🇪 ok 德国阿伟科技-油管2 ok 5
+      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
+      - ok (欢迎订阅youtube：钱科技)1123_����_NON_41
+      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17
+      - 🇭🇰 ok 香港阿伟科技-油管2 ok
+      - ok CYL-科技（2021.11.23） 5
+      - ok CYL-科技（2021.11.23） 6
+      - ok CYL-科技（2021.11.23） 7
+      - ok CYL-科技（2021.11.23） 8
+      - ok (欢迎订阅youtube：钱科技)1123_����_NON_12
+      - ok CYL-科技（2021.11.22）ok 3
+      - ok CYL-科技（2021.11.23） 9
+      - ok CYL-科技（2021.11.23） 10
+      - ok CYL-科技（2021.11.22）ok 4
+      - 🇺🇸 ok github.com/freefq - 北美地区  9
+      - ok 🇸🇬(Youtube频道：工具大师！)ok
+      - ok github.com/freefq - 挪威  1
+      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb(SIN11)数据中心 15
+      - ok CYL-科技（2021.11.23） 11
+      - ok 欧洲阿伟科技-油管3ok
+      - ok CYL-科技（2021.11.23） 12
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -717,100 +311,42 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 T2直连_26
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 D2 本土_23
-      - ok CYL-科技（2021.11.23）
       - ok CYL-科技（2021.11.22）ok
+      - ok 118.107.244.112:7307 ok
+      - ok CYL-科技（2021.11.23）
       - ok CYL-科技（2021.11.23） 2
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 08直连_17
-      - 🇨🇳 ok 🇹🇼 改我订阅死全家 TW x1.0 01中转 本土_1
-      - ok CYL-科技（2021.11.23） 3
-      - 🇭🇰 ok 🇭🇰 改我订阅死全家 HK x1.0 07直连_16
-      - ok CYL-科技（2021.11.23） 4
-      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb(SIN11)数据中心 15
-      - 🇸🇬 ok github.com/freefq - 新加坡  14
-      - 🇰🇷 ok 🇰🇷 改我订阅死全家 KR x1.0 01直连_12
-      - ok CYL-科技（2021.11.23） 5
-      - ok CYL-科技（2021.11.22）ok 2
-      - ok CYL-科技（2021.11.22）ok 3
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_42
-      - 🇩🇪 ok 🇩🇪 德国阿伟科技-油管4 3 ok
-      - 🇯🇵 ok 🇯🇵 改我订阅死全家 JP x1.0 A4直连_7
-      - ok CYL-科技（2021.11.23） 6
-      - ok CYL-科技（2021.11.23） 7
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_12
-      - ok CYL-科技（2021.11.23） 8
-      - ok CYL-科技（2021.11.23） 9
-      - ok CYL-科技（2021.11.23） 10
-      - ok (欢迎订阅youtube：钱科技)1123_🏳_NON_26
-      - ok CYL-科技（2021.11.23） 11
-      - ok CYL-科技（2021.11.23） 12
       - 🇩🇪 ok 德国阿伟科技-油管2 ok
+      - ok CYL-科技（2021.11.23） 3
       - 🇩🇪 ok 德国阿伟科技-油管2 ok 2
       - 🇩🇪 ok 德国阿伟科技-油管2 ok 3
-      - ok CYL-科技（2021.11.23） 13
-      - 🇺🇸 ok 🇺🇸 美国阿伟科技-油管2 3 ok
+      - ok CYL-科技（2021.11.22）ok 2
       - 🇩🇪 ok 德国阿伟科技-油管2 ok 4
-      - ok CYL-科技（2021.11.23） 14
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 5
-      - ok 速度不行
-      - ok 速度不行 2
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 6
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 7
-      - ok CYL-科技（2021.11.23） 15
-      - ok CYL-科技（2021.11.23） 16
-      - ok CYL-科技（2021.11.23） 17
-      - 🇺🇸 ok github.com/freefq - 北美地区  9
-      - ok 118.107.244.112:7307 ok
-      - ok CYL-科技（2021.11.23） 18
-      - ok CYL-科技（2021.11.22）ok 4
-      - ok CYL-科技（2021.11.23） 19
-      - ok 速度不行 3
-      - ok CYL-科技（2021.11.23） 20
-      - ok CYL-科技（2021.11.23） 21
-      - ok CYL-科技（2021.11.23） 22
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 8
-      - ok CYL-科技（2021.11.23） 23
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 9
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_39
-      - 🇺🇸 ok 美国阿伟科技-油管2 ok
-      - ok CYL-科技（2021.11.23） 24
-      - 🇺🇸 ok github.com/freefq - 美国CloudFlare公司CDN节点 16
-      - ok 🇺🇸 Te 5 ok
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 10
-      - ok 欧洲阿伟科技-油管3ok
-      - 🇺🇸 ok github.com/freefq - 北美地区  4
-      - 🇭🇰 ok 香港阿伟科技-油管2 ok
+      - ok CYL-科技（2021.11.23） 4
       - 🇸🇬 ok 新加坡阿伟科技-油管2 ok
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_41
-      - ok CYL-科技（2021.11.23） 25
-      - ok CYL-科技（2021.11.23） 26
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_54
-      - ok 185.172.113.156:807 ok
-      - ok CYL-科技（2021.11.22）ok 5
-      - ok CYL-科技（2021.11.23） 27
-      - ok CYL-科技（2021.11.23） 28
-      - 🇺🇸 ok github.com/freefq - 美国CloudFlare节点 6
-      - ok CYL-科技（2021.11.23） 29
-      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17
-      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
-      - ok github.com/freefq - 挪威  1
-      - ok 🇸🇬(Youtube频道：工具大师！)ok
-      - ok 185.172.113.156:809  ok
-      - 🇩🇪 ok 🇩🇪 德国阿伟科技-油管2 3 ok
-      - 🇩🇪 ok 🇩🇪 德国阿伟科技-油管2 4 ok
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok
-      - ok CYL-科技（2021.11.23） 30
-      - ok CYL-科技（2021.11.23） 31
+      - ok (欢迎订阅youtube：钱科技)1123_����_NON_42
       - 🇺🇸 ok 🇺🇸 美国阿伟科技-油管4 ok
-      - ok 欧洲(Youtube频道：工具大师！)ok
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 2
-      - 🇷🇺 ok github.com/freefq - 俄罗斯  11
-      - ok 🇯🇵(Youtube频道：工具大师！)ok
-      - 🇩🇪 ok 德国 🇩🇪(Youtube频道：工具大师！)ok
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 3
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 4
-      - 🇯🇵 ok 日本(Youtube频道：工具大师！)ok 5
+      - 🇸🇬 ok github.com/freefq - 新加坡  14
+      - 🇩🇪 ok 德国阿伟科技-油管2 ok 5
+      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
+      - ok (欢迎订阅youtube：钱科技)1123_����_NON_41
+      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17
+      - 🇭🇰 ok 香港阿伟科技-油管2 ok
+      - ok CYL-科技（2021.11.23） 5
+      - ok CYL-科技（2021.11.23） 6
+      - ok CYL-科技（2021.11.23） 7
+      - ok CYL-科技（2021.11.23） 8
+      - ok (欢迎订阅youtube：钱科技)1123_����_NON_12
+      - ok CYL-科技（2021.11.22）ok 3
+      - ok CYL-科技（2021.11.23） 9
+      - ok CYL-科技（2021.11.23） 10
+      - ok CYL-科技（2021.11.22）ok 4
+      - 🇺🇸 ok github.com/freefq - 北美地区  9
+      - ok 🇸🇬(Youtube频道：工具大师！)ok
+      - ok github.com/freefq - 挪威  1
+      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb(SIN11)数据中心 15
+      - ok CYL-科技（2021.11.23） 11
+      - ok 欧洲阿伟科技-油管3ok
+      - ok CYL-科技（2021.11.23） 12
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
