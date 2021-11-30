@@ -5,749 +5,1077 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信10|华中隧道[流媒体解锁]", server: cu-cs.okvpn.xyz, port: 30021, type: vmess, uuid: 8b01a256-4f75-4c5e-8389-fca90104ff47, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc, server: 43.249.39.154, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: T3YS0aCp8C5jgA736D834yCDaROEOezAyDqISBl39KSepnuZYN2FRwxlxcXFZa}
-  - {name: "🇭🇰 ok 节点更新https://bit.ly/3oOSZUc|香港HGC11|华南隧道[流媒体解锁]", server: cm-jm.okvpn.xyz, port: 20003, type: vmess, uuid: 8b01a256-4f75-4c5e-8389-fca90104ff47, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: "🇭🇰 ok 节点更新https://bit.ly/3oOSZUc|香港CMHK03|华南隧道[流媒体解锁]", server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 8b01a256-4f75-4c5e-8389-fca90104ff47, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: "🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾HiNet02|华南隧道[流媒体解锁]", server: cm-jm.okvpn.xyz, port: 20000, type: vmess, uuid: 8b01a256-4f75-4c5e-8389-fca90104ff47, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: "🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|新加坡Singtel02|华南隧道[流媒体解锁]", server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: 8b01a256-4f75-4c5e-8389-fca90104ff47, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: ok CYL-科技（2021.11.22）ok, server: zz.keaitz.xyz, port: 46519, type: vmess, uuid: d0d6545b-2f46-314c-8c38-070553b1e091, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zz.keaitz.xyz}}
-  - {name: "🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信03|华南隧道[流媒体解锁]", server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: 8b01a256-4f75-4c5e-8389-fca90104ff47, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: "🇯🇵 ok 节点更新https://bit.ly/3oOSZUc|日本GMO06|华南隧道[流媒体解锁]", server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: 8b01a256-4f75-4c5e-8389-fca90104ff47, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: "🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|美国NTT06|华南隧道[流媒体解锁]", server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: 8b01a256-4f75-4c5e-8389-fca90104ff47, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君), server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 2, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: "🇬🇧 ok 节点更新https://bit.ly/3oOSZUc|英国GTHost02|华南隧道[流媒体解锁]", server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: 8b01a256-4f75-4c5e-8389-fca90104ff47, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: "🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信05|华中隧道[流媒体解锁]", server: cu-cs.okvpn.xyz, port: 30012, type: vmess, uuid: 8b01a256-4f75-4c5e-8389-fca90104ff47, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君), server: 142.202.48.17, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君) 2, server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君), server: 172.99.190.90, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 2, server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇸🇬 ok 新加坡(欢迎订阅Youtube破解资源君), server: 209.58.181.251, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3eC0KxS8ICjgp2N6OZ94x3DaXwyTRzaSqApFlF5cD3Y73luCYyn8eERDSAaOB}
-  - {name: ok CYL-科技（2021.11.23）, server: 173.230.145.10, port: 11002, type: vmess, uuid: ab8ae6ed-973d-420a-f728-d73292a38be1, alterId: 0, cipher: auto, tls: false}
-  - {name: ok CYL-科技（2021.11.23） 2, server: 213.167.242.16, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: BDybfjpcRuiW}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 2, server: 167.88.61.204, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇩🇪 ok 德国阿伟科技-油管2 ok, server: 194.163.134.101, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8doqA73pHheo}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 3, server: 134.195.196.33, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 4, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 5, server: 172.99.190.186, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.23） 3, server: hk.huanyumingle.xyz, port: 10024, type: ss, cipher: chacha20-ietf-poly1305, password: e3730d1d-6d14-407d-a9d0-86063a768d20}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 6, server: 167.88.63.28, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 7, server: 142.202.48.43, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 8, server: 193.108.118.2, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 9, server: 193.108.118.2, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇩🇪 ok 德国阿伟科技-油管2 ok 2, server: 161.97.64.163, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: KW5I1uEZBI0y}
-  - {name: "🇬🇧 ok 节点更新https://bit.ly/3oOSZUc|英国GTHost05|华中隧道[流媒体解锁]", server: cu-cs.okvpn.xyz, port: 30016, type: vmess, uuid: 8b01a256-4f75-4c5e-8389-fca90104ff47, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 10, server: 134.195.198.250, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 11, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君) 3, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇩🇪 ok 德国阿伟科技-油管2 ok 3, server: 95.111.255.56, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Wh9NryUjBiKu}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 12, server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 13, server: 172.107.233.230, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 2, server: 134.195.198.178, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok 欧洲(欢迎订阅Youtube破解资源君), server: 172.99.190.90, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 2, server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 3, server: 134.195.196.214, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.27）, server: t9.ssrsub.com, port: 21033, type: trojan, password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb, sni: t9.ssrsub.com}
+  - {name: ok CYL-科技（2021.11.27） 2, server: 137.184.184.83, port: 2053, type: vmess, uuid: 5580bd79-ba49-3f67-a710-5b917bdac2d8, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 137.184.184.83}}
+  - {name: ok CYL-科技（2021.11.27） 3, server: t9.ssrsub.com, port: 21033, type: trojan, password: 1ed0dd9b-7c66-4738-be47-8e543b2126e4, sni: t9.ssrsub.com}
+  - {name: ok CYL-科技（2021.11.27） 4, server: zj.haojiahuo.club, port: 30077, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: ok CYL-科技（2021.11.27） 5, server: ukml.52jjyun.top, port: 80, type: vmess, uuid: 613eee52-bfd9-47d1-a47d-37bdf1367aab, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ukml.52jjyun.top}}
+  - {name: ok CYL-科技（2021.11.27） 6, server: zj.haojiahuo.club, port: 30045, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: ok CYL-科技（2021.11.27） 7, server: 134.195.196.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.11.27） 8, server: 146.0.36.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok CYL-科技（2021.11.27） 9, server: 142.202.48.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.27） 10, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.11.27） 11, server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
+  - {name: ok CYL-科技（2021.11.27） 12, server: 134.195.196.12, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.27） 13, server: 134.195.196.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: ok CYL-科技（2021.11.27） 14, server: 134.195.196.52, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.27） 15, server: 167.88.63.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.27） 16, server: 134.195.196.52, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.11.27） 17, server: 142.202.48.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok CYL-科技（2021.11.26）, server: 142.202.48.108, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok CYL-科技（2021.11.26） 2, server: 142.202.48.78, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.26） 3, server: 142.202.48.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: ok CYL-科技（2021.11.26） 4, server: 142.202.48.78, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26） 5, server: 134.195.196.12, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.11.26） 6, server: 142.202.48.105, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26） 7, server: 142.202.48.58, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.26） 8, server: 38.75.137.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok CYL-科技（2021.11.26） 9, server: 172.104.168.83, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok CYL-科技（2021.11.26） 10, server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok CYL-科技（2021.11.26） 11, server: 172.252.64.51, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: ok CYL-科技（2021.11.26） 12, server: 38.68.135.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26） 13, server: 38.68.134.37, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.11.26） 14, server: 167.88.62.68, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.26） 15, server: 38.68.134.37, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok CYL-科技（2021.11.26） 16, server: 167.88.62.68, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26） 17, server: 172.104.168.83, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26） 18, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26） 19, server: 167.88.63.89, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: ok CYL-科技（2021.11.26） 20, server: 134.195.196.217, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: ok CYL-科技（2021.11.26） 21, server: 167.88.62.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: ok CYL-科技（2021.11.26） 22, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.11.26） 23, server: 142.202.48.77, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.26） 24, server: 142.202.48.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26） 25, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok CYL-科技（2021.11.26） 26, server: 167.88.63.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.26） 27, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26） 28, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: ok CYL-科技（2021.11.26） 29, server: 142.202.48.77, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: ok CYL-科技（2021.11.26） 30, server: 198.57.27.184, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.26） 31, server: 142.202.48.55, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.26） 32, server: 142.202.48.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.26） 33, server: 198.57.27.184, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26） 34, server: 142.202.48.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: ok CYL-科技（2021.11.26） 35, server: 142.202.48.7, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok CYL-科技（2021.11.26） 36, server: 142.202.48.17, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: ok CYL-科技（2021.11.26） 37, server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok CYL-科技（2021.11.26） 38, server: 142.202.48.78, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok CYL-科技（2021.11.26） 39, server: 142.202.48.105, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.26） 40, server: 38.114.114.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26） 41, server: 167.88.63.74, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ok CYL-科技（2021.11.26） 42, server: 167.88.63.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.26） 43, server: 167.88.63.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26） 44, server: 167.88.63.89, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26） 45, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
+  - {name: ok CYL-科技（2021.11.26） 46, server: 38.75.136.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26） 47, server: 172.104.168.83, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26） 48, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26） 49, server: 38.68.134.37, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok CYL-科技（2021.11.26） 50, server: 38.75.137.66, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26） 51, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26） 52, server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.26） 53, server: 167.88.62.68, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.11.26） 54, server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26） 55, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.11.26） 56, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: ok CYL-科技（2021.11.26） 57, server: 167.88.62.68, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26） 58, server: 38.68.134.190, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.26） 59, server: 167.88.62.68, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ok CYL-科技（2021.11.26） 60, server: 38.68.134.37, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok CYL-科技（2021.11.26） 61, server: 38.68.135.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: ok CYL-科技（2021.11.26） 62, server: 172.104.168.83, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.11.26） 63, server: 172.104.168.83, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.26） 64, server: 38.114.114.68, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26） 65, server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: germany-dusseldorf.mah3Hoet.com}}
+  - {name: ok CYL-科技（2021.11.26） 66, server: 172.99.190.186, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26） 67, server: 38.114.114.69, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26） 68, server: 38.68.134.23, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok CYL-科技（2021.11.25）, server: ex.oracleusa.ml, port: 443, type: vmess, uuid: 29d8e9c2-c88f-4a86-a615-2a76dcc2458b, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: ex.oracleusa.ml}}
+  - {name: ok CYL-科技（2021.11.25） 2, server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ok CYL-科技（2021.11.25） 3, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok CYL-科技（2021.11.25） 4, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.25） 5, server: 134.195.196.214, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.25） 6, server: 134.195.198.95, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok CYL-科技（2021.11.25） 7, server: 134.195.198.178, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.11.25） 8, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: ok CYL-科技（2021.11.25） 9, server: 134.195.196.33, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.11.25） 10, server: 134.195.196.3, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.25） 11, server: 172.99.190.186, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.25） 12, server: 172.105.244.165, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ok CYL-科技（2021.11.25） 13, server: 172.99.190.90, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ok CYL-科技（2021.11.25） 14, server: ahH4eihu.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: ahH4eihu.com}}
+  - {name: ok CYL-科技（2021.11.25） 15, server: italy-milan.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: italy-milan.mah3Hoet.com}}
+  - {name: ok CYL-科技（2021.11.25） 16, server: 172.99.190.186, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.25） 17, server: 89.163.220.82, port: 11016, type: vmess, uuid: 842fcd78-475d-11ec-aa20-9cb6548b0ccc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /cOhjRn2G/, ws-headers: {Host: 89.163.220.82}}
+  - {name: ok CYL-科技（2021.11.25） 18, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
+  - {name: ok CYL-科技（2021.11.25） 19, server: ex.oracleusa.ml, port: 443, type: vmess, uuid: 29d8e9c2-c88f-4a86-a615-2a76dcc2458b, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: ex.oracleusa.ml}}
+  - {name: ok CYL-科技（2021.11.25） 20, server: 134.195.196.214, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.11.25） 21, server: kr3.futi.online, port: 2053, type: vmess, uuid: e60a3ed8-6620-4fce-b926-60af2c693f3f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr3.futi.online}}
+  - {name: ok CYL-科技（2021.11.25） 22, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.25） 23, server: Ze9baeS5.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: Ze9baeS5.com}}
+  - {name: ok CYL-科技（2021.11.25） 24, server: 172.105.171.80, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.25） 25, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
+  - {name: ok CYL-科技（2021.11.24）, server: 134.195.198.95, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.24） 2, server: 134.195.198.95, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.11.24） 3, server: shai7ein.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: shai7ein.com}}
+  - {name: ok CYL-科技（2021.11.24） 4, server: 172.99.190.186, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.11.24） 5, server: eeh7iewe.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: eeh7iewe.com}}
+  - {name: ok CYL-科技（2021.11.24） 6, server: 198.41.212.154, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/ws/?ed=2048", ws-headers: {Host: download.china666.ml}}
+  - {name: ok CYL-科技（2021.11.24） 7, server: www.digitalocean.com, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/ws/?ed=2048", ws-headers: {Host: download.china666.ml}}
+  - {name: ok CYL-科技（2021.11.24） 8, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}}
+  - {name: ok CYL-科技（2021.11.24） 9, server: chuch3go.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: chuch3go.com}}
+  - {name: ok CYL-科技（2021.11.24） 10, server: 134.195.196.214, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok CYL-科技（2021.11.22）ok, server: canada-vancouver.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: canada-vancouver.mah3Hoet.com}}
   - {name: ok CYL-科技（2021.11.22）ok 2, server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
-  - {name: ok CYL-科技（2021.11.23） 4, server: iepl.marslink.icu, port: 35007, type: ss, cipher: chacha20-ietf-poly1305, password: 578c0374-3309-4f94-878a-bde0cf460b21}
-  - {name: 🇩🇪 ok 德国阿伟科技-油管2 ok 4, server: 161.97.64.169, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: czXXqP8K5Uya}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 14, server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 15, server: 134.195.196.154, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: "🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|美国NTT09|华中隧道[流媒体解锁]", server: cu-cs.okvpn.xyz, port: 30013, type: vmess, uuid: 8b01a256-4f75-4c5e-8389-fca90104ff47, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: 🇸🇬 ok 新加坡阿伟科技-油管2 ok, server: zecjk.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: zecjk.com}}
-  - {name: ok (欢迎订阅youtube：钱科技)1123_����_NON_42, server: 154.17.1.130, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: ZDZSRKaS8uTjDpFAcC8OClnD2pISORz0Yya7a9xegxy33XC4wleFY3Eq3NA65B}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 16, server: 134.195.198.178, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: "🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信06|华南隧道[流媒体解锁]", server: cm-jm.okvpn.xyz, port: 20047, type: vmess, uuid: 8b01a256-4f75-4c5e-8389-fca90104ff47, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 3, server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 ok 🇺🇸 美国阿伟科技-油管4 ok, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
-  - {name: 🇩🇪 ok 德国阿伟科技-油管2 ok 5, server: 194.163.134.104, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: dZpagSuA9Vxe}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 17, server: 134.195.196.184, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ok (欢迎订阅youtube：钱科技)1123_����_NON_41, server: 38.39.192.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok, server: 23.106.248.19, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: ZDYSyKNR8upjg9l36eR3ZySAaaEcOY2CaI0zp5xnX4733eSwqxCFlOTD8BCDFA}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 18, server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17, server: 103.254.153.72, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: ZyYRnKlB8u5agc7IFAO3aC3D9XDNeEzS2wF6jpxOA4Z3SayYDCpCR8Tq0Sl3xe}
-  - {name: ok CYL-科技（2021.11.23） 5, server: Eiha7iew.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: Eiha7iew.com}}
-  - {name: ok CYL-科技（2021.11.23） 6, server: eeh7iewe.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: eeh7iewe.com}}
-  - {name: 🇭🇰 ok 香港阿伟科技-油管2 ok, server: oaQuie3i.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: oaQuie3i.com}}
-  - {name: ok CYL-科技（2021.11.23） 7, server: 107.148.200.229, port: 10022, type: vmess, uuid: 6e6ce89a-42d5-11ec-ac9d-00163c0ad178, alterId: 0, cipher: auto, tls: false}
-  - {name: ok CYL-科技（2021.11.23） 8, server: italy-milan.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: italy-milan.mah3Hoet.com}}
-  - {name: ok (欢迎订阅youtube：钱科技)1123_����_NON_12, server: 154.17.2.94, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: pAYSRy4Y8w5aST72CzNRayDeESlOBAxZnKD0363g39xFDuCqal8IcZep3OXjFC}
-  - {name: ok CYL-科技（2021.11.22）ok 3, server: canada-vancouver.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: canada-vancouver.mah3Hoet.com}}
-  - {name: ok CYL-科技（2021.11.23） 9, server: 154.17.23.132, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: 0C9IaKy38uljOZ7Z6eC3na3XNA4lSYzTBx5ESqFyOYCaeR2pxFSDc3DDwA8gRp}
-  - {name: ok CYL-科技（2021.11.22）ok 4, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
-  - {name: ok CYL-科技（2021.11.23） 10, server: global-transit-hk-v2.pucdn.me, port: 10012, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-08.pucdn.me}}
-  - {name: 🇺🇸 ok github.com/freefq - 北美地区  9, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok github.com/freefq - 挪威  1, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok 🇸🇬(Youtube频道：工具大师！)ok, server: 103.254.153.138, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z39SqKxx8ZCjcC73nDEleyFDaAwSpYaB03NOlFRR2SCI5TpaYOg4ue3y6AzXD8}
-  - {name: "🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|新加坡Singtel05|华中隧道[流媒体解锁]", server: cu-cs.okvpn.xyz, port: 30014, type: vmess, uuid: 8b01a256-4f75-4c5e-8389-fca90104ff47, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: ok CYL-科技（2021.11.23） 11, server: 38.39.192.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 4, server: 142.4.127.67, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.47727450.xyz}}
-  - {name: 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 5, server: 172.99.190.90, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 19, server: 172.99.190.90, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok CYL-科技（2021.11.23） 12, server: usa-lasvegas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-lasvegas.lvuft.com}}
-  - {name: 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 6, server: 38.39.192.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 7, server: 167.88.63.89, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 20, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok 欧洲阿伟科技-油管3ok, server: 520yyds.zhqt.xyz, port: 50088, type: vmess, uuid: 93094b0e-e644-4adf-9c96-e3168ac5205a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: free-5.joker007.top}}
-  - {name: 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 3, server: 172.99.190.186, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 21, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇯🇵 ok 日本(欢迎订阅Youtube破解资源君), server: 185.172.113.156, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 8, server: 172.107.233.234, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 22, server: 134.195.198.252, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 23, server: 134.195.198.95, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 24, server: 134.195.196.214, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇯🇵 ok 日本(欢迎订阅Youtube破解资源君) 2, server: 185.172.113.85, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇸 ok 110美国, server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3}
+  - {name: 🇺🇸 ok 109美国, server: 23.106.33.156, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: R3wS0jxB8ARCZgapOF8a4CpFc5lSOqCDZYSXD2a3zuY7eETD6IANy39elnxKy3}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信10|华中隧道[流媒体解锁]
       - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc
-      - 🇭🇰 ok 节点更新https://bit.ly/3oOSZUc|香港HGC11|华南隧道[流媒体解锁]
-      - 🇭🇰 ok 节点更新https://bit.ly/3oOSZUc|香港CMHK03|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾HiNet02|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|新加坡Singtel02|华南隧道[流媒体解锁]
-      - ok CYL-科技（2021.11.22）ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信03|华南隧道[流媒体解锁]
-      - 🇯🇵 ok 节点更新https://bit.ly/3oOSZUc|日本GMO06|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|美国NTT06|华南隧道[流媒体解锁]
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君)
       - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 2
-      - 🇬🇧 ok 节点更新https://bit.ly/3oOSZUc|英国GTHost02|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信05|华中隧道[流媒体解锁]
       - ok 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇸🇬 ok 新加坡(欢迎订阅Youtube破解资源君)
-      - ok CYL-科技（2021.11.23）
-      - ok CYL-科技（2021.11.23） 2
       - ok 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok
       - ok 欧洲(欢迎订阅Youtube破解资源君) 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 4
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 5
-      - ok CYL-科技（2021.11.23） 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 6
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 7
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 8
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 2
-      - 🇬🇧 ok 节点更新https://bit.ly/3oOSZUc|英国GTHost05|华中隧道[流媒体解锁]
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 10
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君) 3
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 12
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 13
+      - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.11.27） 3
+      - ok CYL-科技（2021.11.27） 4
+      - ok CYL-科技（2021.11.27） 5
+      - ok CYL-科技（2021.11.27） 6
+      - ok CYL-科技（2021.11.27） 7
+      - ok CYL-科技（2021.11.27） 8
+      - ok CYL-科技（2021.11.27） 9
+      - ok CYL-科技（2021.11.27） 10
+      - ok CYL-科技（2021.11.27） 11
+      - ok CYL-科技（2021.11.27） 12
+      - ok CYL-科技（2021.11.27） 13
+      - ok CYL-科技（2021.11.27） 14
+      - ok CYL-科技（2021.11.27） 15
+      - ok CYL-科技（2021.11.27） 16
+      - ok CYL-科技（2021.11.27） 17
+      - ok CYL-科技（2021.11.26）
+      - ok CYL-科技（2021.11.26） 2
+      - ok CYL-科技（2021.11.26） 3
+      - ok CYL-科技（2021.11.26） 4
+      - ok CYL-科技（2021.11.26） 5
+      - ok CYL-科技（2021.11.26） 6
+      - ok CYL-科技（2021.11.26） 7
+      - ok CYL-科技（2021.11.26） 8
+      - ok CYL-科技（2021.11.26） 9
+      - ok CYL-科技（2021.11.26） 10
+      - ok CYL-科技（2021.11.26） 11
+      - ok CYL-科技（2021.11.26） 12
+      - ok CYL-科技（2021.11.26） 13
+      - ok CYL-科技（2021.11.26） 14
+      - ok CYL-科技（2021.11.26） 15
+      - ok CYL-科技（2021.11.26） 16
+      - ok CYL-科技（2021.11.26） 17
+      - ok CYL-科技（2021.11.26） 18
+      - ok CYL-科技（2021.11.26） 19
+      - ok CYL-科技（2021.11.26） 20
+      - ok CYL-科技（2021.11.26） 21
+      - ok CYL-科技（2021.11.26） 22
+      - ok CYL-科技（2021.11.26） 23
+      - ok CYL-科技（2021.11.26） 24
+      - ok CYL-科技（2021.11.26） 25
+      - ok CYL-科技（2021.11.26） 26
+      - ok CYL-科技（2021.11.26） 27
+      - ok CYL-科技（2021.11.26） 28
+      - ok CYL-科技（2021.11.26） 29
+      - ok CYL-科技（2021.11.26） 30
+      - ok CYL-科技（2021.11.26） 31
+      - ok CYL-科技（2021.11.26） 32
+      - ok CYL-科技（2021.11.26） 33
+      - ok CYL-科技（2021.11.26） 34
+      - ok CYL-科技（2021.11.26） 35
+      - ok CYL-科技（2021.11.26） 36
+      - ok CYL-科技（2021.11.26） 37
+      - ok CYL-科技（2021.11.26） 38
+      - ok CYL-科技（2021.11.26） 39
+      - ok CYL-科技（2021.11.26） 40
+      - ok CYL-科技（2021.11.26） 41
+      - ok CYL-科技（2021.11.26） 42
+      - ok CYL-科技（2021.11.26） 43
+      - ok CYL-科技（2021.11.26） 44
+      - ok CYL-科技（2021.11.26） 45
+      - ok CYL-科技（2021.11.26） 46
+      - ok CYL-科技（2021.11.26） 47
+      - ok CYL-科技（2021.11.26） 48
+      - ok CYL-科技（2021.11.26） 49
+      - ok CYL-科技（2021.11.26） 50
+      - ok CYL-科技（2021.11.26） 51
+      - ok CYL-科技（2021.11.26） 52
+      - ok CYL-科技（2021.11.26） 53
+      - ok CYL-科技（2021.11.26） 54
+      - ok CYL-科技（2021.11.26） 55
+      - ok CYL-科技（2021.11.26） 56
+      - ok CYL-科技（2021.11.26） 57
+      - ok CYL-科技（2021.11.26） 58
+      - ok CYL-科技（2021.11.26） 59
+      - ok CYL-科技（2021.11.26） 60
+      - ok CYL-科技（2021.11.26） 61
+      - ok CYL-科技（2021.11.26） 62
+      - ok CYL-科技（2021.11.26） 63
+      - ok CYL-科技（2021.11.26） 64
+      - ok CYL-科技（2021.11.26） 65
+      - ok CYL-科技（2021.11.26） 66
+      - ok CYL-科技（2021.11.26） 67
+      - ok CYL-科技（2021.11.26） 68
+      - ok CYL-科技（2021.11.25）
+      - ok CYL-科技（2021.11.25） 2
+      - ok CYL-科技（2021.11.25） 3
+      - ok CYL-科技（2021.11.25） 4
+      - ok CYL-科技（2021.11.25） 5
+      - ok CYL-科技（2021.11.25） 6
+      - ok CYL-科技（2021.11.25） 7
+      - ok CYL-科技（2021.11.25） 8
+      - ok CYL-科技（2021.11.25） 9
+      - ok CYL-科技（2021.11.25） 10
+      - ok CYL-科技（2021.11.25） 11
+      - ok CYL-科技（2021.11.25） 12
+      - ok CYL-科技（2021.11.25） 13
+      - ok CYL-科技（2021.11.25） 14
+      - ok CYL-科技（2021.11.25） 15
+      - ok CYL-科技（2021.11.25） 16
+      - ok CYL-科技（2021.11.25） 17
+      - ok CYL-科技（2021.11.25） 18
+      - ok CYL-科技（2021.11.25） 19
+      - ok CYL-科技（2021.11.25） 20
+      - ok CYL-科技（2021.11.25） 21
+      - ok CYL-科技（2021.11.25） 22
+      - ok CYL-科技（2021.11.25） 23
+      - ok CYL-科技（2021.11.25） 24
+      - ok CYL-科技（2021.11.25） 25
+      - ok CYL-科技（2021.11.24）
+      - ok CYL-科技（2021.11.24） 2
+      - ok CYL-科技（2021.11.24） 3
+      - ok CYL-科技（2021.11.24） 4
+      - ok CYL-科技（2021.11.24） 5
+      - ok CYL-科技（2021.11.24） 6
+      - ok CYL-科技（2021.11.24） 7
+      - ok CYL-科技（2021.11.24） 8
+      - ok CYL-科技（2021.11.24） 9
+      - ok CYL-科技（2021.11.24） 10
+      - ok CYL-科技（2021.11.22）ok
       - ok CYL-科技（2021.11.22）ok 2
-      - ok CYL-科技（2021.11.23） 4
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 4
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 14
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|美国NTT09|华中隧道[流媒体解锁]
-      - 🇸🇬 ok 新加坡阿伟科技-油管2 ok
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_42
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信06|华南隧道[流媒体解锁]
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 ok 🇺🇸 美国阿伟科技-油管4 ok
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 5
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 17
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_41
-      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17
-      - ok CYL-科技（2021.11.23） 5
-      - ok CYL-科技（2021.11.23） 6
-      - 🇭🇰 ok 香港阿伟科技-油管2 ok
-      - ok CYL-科技（2021.11.23） 7
-      - ok CYL-科技（2021.11.23） 8
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_12
-      - ok CYL-科技（2021.11.22）ok 3
-      - ok CYL-科技（2021.11.23） 9
-      - ok CYL-科技（2021.11.22）ok 4
-      - ok CYL-科技（2021.11.23） 10
-      - 🇺🇸 ok github.com/freefq - 北美地区  9
-      - ok github.com/freefq - 挪威  1
-      - ok 🇸🇬(Youtube频道：工具大师！)ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|新加坡Singtel05|华中隧道[流媒体解锁]
-      - ok CYL-科技（2021.11.23） 11
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 5
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 19
-      - ok CYL-科技（2021.11.23） 12
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 7
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 20
-      - ok 欧洲阿伟科技-油管3ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 🇯🇵 ok 日本(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 8
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 22
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 23
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 🇯🇵 ok 日本(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 ok 110美国
+      - 🇺🇸 ok 109美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信10|华中隧道[流媒体解锁]
       - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc
-      - 🇭🇰 ok 节点更新https://bit.ly/3oOSZUc|香港HGC11|华南隧道[流媒体解锁]
-      - 🇭🇰 ok 节点更新https://bit.ly/3oOSZUc|香港CMHK03|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾HiNet02|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|新加坡Singtel02|华南隧道[流媒体解锁]
-      - ok CYL-科技（2021.11.22）ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信03|华南隧道[流媒体解锁]
-      - 🇯🇵 ok 节点更新https://bit.ly/3oOSZUc|日本GMO06|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|美国NTT06|华南隧道[流媒体解锁]
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君)
       - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 2
-      - 🇬🇧 ok 节点更新https://bit.ly/3oOSZUc|英国GTHost02|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信05|华中隧道[流媒体解锁]
       - ok 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇸🇬 ok 新加坡(欢迎订阅Youtube破解资源君)
-      - ok CYL-科技（2021.11.23）
-      - ok CYL-科技（2021.11.23） 2
       - ok 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok
       - ok 欧洲(欢迎订阅Youtube破解资源君) 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 4
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 5
-      - ok CYL-科技（2021.11.23） 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 6
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 7
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 8
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 2
-      - 🇬🇧 ok 节点更新https://bit.ly/3oOSZUc|英国GTHost05|华中隧道[流媒体解锁]
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 10
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君) 3
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 12
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 13
+      - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.11.27） 3
+      - ok CYL-科技（2021.11.27） 4
+      - ok CYL-科技（2021.11.27） 5
+      - ok CYL-科技（2021.11.27） 6
+      - ok CYL-科技（2021.11.27） 7
+      - ok CYL-科技（2021.11.27） 8
+      - ok CYL-科技（2021.11.27） 9
+      - ok CYL-科技（2021.11.27） 10
+      - ok CYL-科技（2021.11.27） 11
+      - ok CYL-科技（2021.11.27） 12
+      - ok CYL-科技（2021.11.27） 13
+      - ok CYL-科技（2021.11.27） 14
+      - ok CYL-科技（2021.11.27） 15
+      - ok CYL-科技（2021.11.27） 16
+      - ok CYL-科技（2021.11.27） 17
+      - ok CYL-科技（2021.11.26）
+      - ok CYL-科技（2021.11.26） 2
+      - ok CYL-科技（2021.11.26） 3
+      - ok CYL-科技（2021.11.26） 4
+      - ok CYL-科技（2021.11.26） 5
+      - ok CYL-科技（2021.11.26） 6
+      - ok CYL-科技（2021.11.26） 7
+      - ok CYL-科技（2021.11.26） 8
+      - ok CYL-科技（2021.11.26） 9
+      - ok CYL-科技（2021.11.26） 10
+      - ok CYL-科技（2021.11.26） 11
+      - ok CYL-科技（2021.11.26） 12
+      - ok CYL-科技（2021.11.26） 13
+      - ok CYL-科技（2021.11.26） 14
+      - ok CYL-科技（2021.11.26） 15
+      - ok CYL-科技（2021.11.26） 16
+      - ok CYL-科技（2021.11.26） 17
+      - ok CYL-科技（2021.11.26） 18
+      - ok CYL-科技（2021.11.26） 19
+      - ok CYL-科技（2021.11.26） 20
+      - ok CYL-科技（2021.11.26） 21
+      - ok CYL-科技（2021.11.26） 22
+      - ok CYL-科技（2021.11.26） 23
+      - ok CYL-科技（2021.11.26） 24
+      - ok CYL-科技（2021.11.26） 25
+      - ok CYL-科技（2021.11.26） 26
+      - ok CYL-科技（2021.11.26） 27
+      - ok CYL-科技（2021.11.26） 28
+      - ok CYL-科技（2021.11.26） 29
+      - ok CYL-科技（2021.11.26） 30
+      - ok CYL-科技（2021.11.26） 31
+      - ok CYL-科技（2021.11.26） 32
+      - ok CYL-科技（2021.11.26） 33
+      - ok CYL-科技（2021.11.26） 34
+      - ok CYL-科技（2021.11.26） 35
+      - ok CYL-科技（2021.11.26） 36
+      - ok CYL-科技（2021.11.26） 37
+      - ok CYL-科技（2021.11.26） 38
+      - ok CYL-科技（2021.11.26） 39
+      - ok CYL-科技（2021.11.26） 40
+      - ok CYL-科技（2021.11.26） 41
+      - ok CYL-科技（2021.11.26） 42
+      - ok CYL-科技（2021.11.26） 43
+      - ok CYL-科技（2021.11.26） 44
+      - ok CYL-科技（2021.11.26） 45
+      - ok CYL-科技（2021.11.26） 46
+      - ok CYL-科技（2021.11.26） 47
+      - ok CYL-科技（2021.11.26） 48
+      - ok CYL-科技（2021.11.26） 49
+      - ok CYL-科技（2021.11.26） 50
+      - ok CYL-科技（2021.11.26） 51
+      - ok CYL-科技（2021.11.26） 52
+      - ok CYL-科技（2021.11.26） 53
+      - ok CYL-科技（2021.11.26） 54
+      - ok CYL-科技（2021.11.26） 55
+      - ok CYL-科技（2021.11.26） 56
+      - ok CYL-科技（2021.11.26） 57
+      - ok CYL-科技（2021.11.26） 58
+      - ok CYL-科技（2021.11.26） 59
+      - ok CYL-科技（2021.11.26） 60
+      - ok CYL-科技（2021.11.26） 61
+      - ok CYL-科技（2021.11.26） 62
+      - ok CYL-科技（2021.11.26） 63
+      - ok CYL-科技（2021.11.26） 64
+      - ok CYL-科技（2021.11.26） 65
+      - ok CYL-科技（2021.11.26） 66
+      - ok CYL-科技（2021.11.26） 67
+      - ok CYL-科技（2021.11.26） 68
+      - ok CYL-科技（2021.11.25）
+      - ok CYL-科技（2021.11.25） 2
+      - ok CYL-科技（2021.11.25） 3
+      - ok CYL-科技（2021.11.25） 4
+      - ok CYL-科技（2021.11.25） 5
+      - ok CYL-科技（2021.11.25） 6
+      - ok CYL-科技（2021.11.25） 7
+      - ok CYL-科技（2021.11.25） 8
+      - ok CYL-科技（2021.11.25） 9
+      - ok CYL-科技（2021.11.25） 10
+      - ok CYL-科技（2021.11.25） 11
+      - ok CYL-科技（2021.11.25） 12
+      - ok CYL-科技（2021.11.25） 13
+      - ok CYL-科技（2021.11.25） 14
+      - ok CYL-科技（2021.11.25） 15
+      - ok CYL-科技（2021.11.25） 16
+      - ok CYL-科技（2021.11.25） 17
+      - ok CYL-科技（2021.11.25） 18
+      - ok CYL-科技（2021.11.25） 19
+      - ok CYL-科技（2021.11.25） 20
+      - ok CYL-科技（2021.11.25） 21
+      - ok CYL-科技（2021.11.25） 22
+      - ok CYL-科技（2021.11.25） 23
+      - ok CYL-科技（2021.11.25） 24
+      - ok CYL-科技（2021.11.25） 25
+      - ok CYL-科技（2021.11.24）
+      - ok CYL-科技（2021.11.24） 2
+      - ok CYL-科技（2021.11.24） 3
+      - ok CYL-科技（2021.11.24） 4
+      - ok CYL-科技（2021.11.24） 5
+      - ok CYL-科技（2021.11.24） 6
+      - ok CYL-科技（2021.11.24） 7
+      - ok CYL-科技（2021.11.24） 8
+      - ok CYL-科技（2021.11.24） 9
+      - ok CYL-科技（2021.11.24） 10
+      - ok CYL-科技（2021.11.22）ok
       - ok CYL-科技（2021.11.22）ok 2
-      - ok CYL-科技（2021.11.23） 4
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 4
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 14
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|美国NTT09|华中隧道[流媒体解锁]
-      - 🇸🇬 ok 新加坡阿伟科技-油管2 ok
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_42
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信06|华南隧道[流媒体解锁]
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 ok 🇺🇸 美国阿伟科技-油管4 ok
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 5
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 17
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_41
-      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17
-      - ok CYL-科技（2021.11.23） 5
-      - ok CYL-科技（2021.11.23） 6
-      - 🇭🇰 ok 香港阿伟科技-油管2 ok
-      - ok CYL-科技（2021.11.23） 7
-      - ok CYL-科技（2021.11.23） 8
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_12
-      - ok CYL-科技（2021.11.22）ok 3
-      - ok CYL-科技（2021.11.23） 9
-      - ok CYL-科技（2021.11.22）ok 4
-      - ok CYL-科技（2021.11.23） 10
-      - 🇺🇸 ok github.com/freefq - 北美地区  9
-      - ok github.com/freefq - 挪威  1
-      - ok 🇸🇬(Youtube频道：工具大师！)ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|新加坡Singtel05|华中隧道[流媒体解锁]
-      - ok CYL-科技（2021.11.23） 11
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 5
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 19
-      - ok CYL-科技（2021.11.23） 12
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 7
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 20
-      - ok 欧洲阿伟科技-油管3ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 🇯🇵 ok 日本(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 8
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 22
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 23
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 🇯🇵 ok 日本(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 ok 110美国
+      - 🇺🇸 ok 109美国
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信10|华中隧道[流媒体解锁]
       - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc
-      - 🇭🇰 ok 节点更新https://bit.ly/3oOSZUc|香港HGC11|华南隧道[流媒体解锁]
-      - 🇭🇰 ok 节点更新https://bit.ly/3oOSZUc|香港CMHK03|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾HiNet02|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|新加坡Singtel02|华南隧道[流媒体解锁]
-      - ok CYL-科技（2021.11.22）ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信03|华南隧道[流媒体解锁]
-      - 🇯🇵 ok 节点更新https://bit.ly/3oOSZUc|日本GMO06|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|美国NTT06|华南隧道[流媒体解锁]
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君)
       - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 2
-      - 🇬🇧 ok 节点更新https://bit.ly/3oOSZUc|英国GTHost02|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信05|华中隧道[流媒体解锁]
       - ok 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇸🇬 ok 新加坡(欢迎订阅Youtube破解资源君)
-      - ok CYL-科技（2021.11.23）
-      - ok CYL-科技（2021.11.23） 2
       - ok 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok
       - ok 欧洲(欢迎订阅Youtube破解资源君) 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 4
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 5
-      - ok CYL-科技（2021.11.23） 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 6
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 7
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 8
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 2
-      - 🇬🇧 ok 节点更新https://bit.ly/3oOSZUc|英国GTHost05|华中隧道[流媒体解锁]
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 10
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君) 3
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 12
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 13
+      - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.11.27） 3
+      - ok CYL-科技（2021.11.27） 4
+      - ok CYL-科技（2021.11.27） 5
+      - ok CYL-科技（2021.11.27） 6
+      - ok CYL-科技（2021.11.27） 7
+      - ok CYL-科技（2021.11.27） 8
+      - ok CYL-科技（2021.11.27） 9
+      - ok CYL-科技（2021.11.27） 10
+      - ok CYL-科技（2021.11.27） 11
+      - ok CYL-科技（2021.11.27） 12
+      - ok CYL-科技（2021.11.27） 13
+      - ok CYL-科技（2021.11.27） 14
+      - ok CYL-科技（2021.11.27） 15
+      - ok CYL-科技（2021.11.27） 16
+      - ok CYL-科技（2021.11.27） 17
+      - ok CYL-科技（2021.11.26）
+      - ok CYL-科技（2021.11.26） 2
+      - ok CYL-科技（2021.11.26） 3
+      - ok CYL-科技（2021.11.26） 4
+      - ok CYL-科技（2021.11.26） 5
+      - ok CYL-科技（2021.11.26） 6
+      - ok CYL-科技（2021.11.26） 7
+      - ok CYL-科技（2021.11.26） 8
+      - ok CYL-科技（2021.11.26） 9
+      - ok CYL-科技（2021.11.26） 10
+      - ok CYL-科技（2021.11.26） 11
+      - ok CYL-科技（2021.11.26） 12
+      - ok CYL-科技（2021.11.26） 13
+      - ok CYL-科技（2021.11.26） 14
+      - ok CYL-科技（2021.11.26） 15
+      - ok CYL-科技（2021.11.26） 16
+      - ok CYL-科技（2021.11.26） 17
+      - ok CYL-科技（2021.11.26） 18
+      - ok CYL-科技（2021.11.26） 19
+      - ok CYL-科技（2021.11.26） 20
+      - ok CYL-科技（2021.11.26） 21
+      - ok CYL-科技（2021.11.26） 22
+      - ok CYL-科技（2021.11.26） 23
+      - ok CYL-科技（2021.11.26） 24
+      - ok CYL-科技（2021.11.26） 25
+      - ok CYL-科技（2021.11.26） 26
+      - ok CYL-科技（2021.11.26） 27
+      - ok CYL-科技（2021.11.26） 28
+      - ok CYL-科技（2021.11.26） 29
+      - ok CYL-科技（2021.11.26） 30
+      - ok CYL-科技（2021.11.26） 31
+      - ok CYL-科技（2021.11.26） 32
+      - ok CYL-科技（2021.11.26） 33
+      - ok CYL-科技（2021.11.26） 34
+      - ok CYL-科技（2021.11.26） 35
+      - ok CYL-科技（2021.11.26） 36
+      - ok CYL-科技（2021.11.26） 37
+      - ok CYL-科技（2021.11.26） 38
+      - ok CYL-科技（2021.11.26） 39
+      - ok CYL-科技（2021.11.26） 40
+      - ok CYL-科技（2021.11.26） 41
+      - ok CYL-科技（2021.11.26） 42
+      - ok CYL-科技（2021.11.26） 43
+      - ok CYL-科技（2021.11.26） 44
+      - ok CYL-科技（2021.11.26） 45
+      - ok CYL-科技（2021.11.26） 46
+      - ok CYL-科技（2021.11.26） 47
+      - ok CYL-科技（2021.11.26） 48
+      - ok CYL-科技（2021.11.26） 49
+      - ok CYL-科技（2021.11.26） 50
+      - ok CYL-科技（2021.11.26） 51
+      - ok CYL-科技（2021.11.26） 52
+      - ok CYL-科技（2021.11.26） 53
+      - ok CYL-科技（2021.11.26） 54
+      - ok CYL-科技（2021.11.26） 55
+      - ok CYL-科技（2021.11.26） 56
+      - ok CYL-科技（2021.11.26） 57
+      - ok CYL-科技（2021.11.26） 58
+      - ok CYL-科技（2021.11.26） 59
+      - ok CYL-科技（2021.11.26） 60
+      - ok CYL-科技（2021.11.26） 61
+      - ok CYL-科技（2021.11.26） 62
+      - ok CYL-科技（2021.11.26） 63
+      - ok CYL-科技（2021.11.26） 64
+      - ok CYL-科技（2021.11.26） 65
+      - ok CYL-科技（2021.11.26） 66
+      - ok CYL-科技（2021.11.26） 67
+      - ok CYL-科技（2021.11.26） 68
+      - ok CYL-科技（2021.11.25）
+      - ok CYL-科技（2021.11.25） 2
+      - ok CYL-科技（2021.11.25） 3
+      - ok CYL-科技（2021.11.25） 4
+      - ok CYL-科技（2021.11.25） 5
+      - ok CYL-科技（2021.11.25） 6
+      - ok CYL-科技（2021.11.25） 7
+      - ok CYL-科技（2021.11.25） 8
+      - ok CYL-科技（2021.11.25） 9
+      - ok CYL-科技（2021.11.25） 10
+      - ok CYL-科技（2021.11.25） 11
+      - ok CYL-科技（2021.11.25） 12
+      - ok CYL-科技（2021.11.25） 13
+      - ok CYL-科技（2021.11.25） 14
+      - ok CYL-科技（2021.11.25） 15
+      - ok CYL-科技（2021.11.25） 16
+      - ok CYL-科技（2021.11.25） 17
+      - ok CYL-科技（2021.11.25） 18
+      - ok CYL-科技（2021.11.25） 19
+      - ok CYL-科技（2021.11.25） 20
+      - ok CYL-科技（2021.11.25） 21
+      - ok CYL-科技（2021.11.25） 22
+      - ok CYL-科技（2021.11.25） 23
+      - ok CYL-科技（2021.11.25） 24
+      - ok CYL-科技（2021.11.25） 25
+      - ok CYL-科技（2021.11.24）
+      - ok CYL-科技（2021.11.24） 2
+      - ok CYL-科技（2021.11.24） 3
+      - ok CYL-科技（2021.11.24） 4
+      - ok CYL-科技（2021.11.24） 5
+      - ok CYL-科技（2021.11.24） 6
+      - ok CYL-科技（2021.11.24） 7
+      - ok CYL-科技（2021.11.24） 8
+      - ok CYL-科技（2021.11.24） 9
+      - ok CYL-科技（2021.11.24） 10
+      - ok CYL-科技（2021.11.22）ok
       - ok CYL-科技（2021.11.22）ok 2
-      - ok CYL-科技（2021.11.23） 4
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 4
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 14
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|美国NTT09|华中隧道[流媒体解锁]
-      - 🇸🇬 ok 新加坡阿伟科技-油管2 ok
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_42
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信06|华南隧道[流媒体解锁]
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 ok 🇺🇸 美国阿伟科技-油管4 ok
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 5
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 17
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_41
-      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17
-      - ok CYL-科技（2021.11.23） 5
-      - ok CYL-科技（2021.11.23） 6
-      - 🇭🇰 ok 香港阿伟科技-油管2 ok
-      - ok CYL-科技（2021.11.23） 7
-      - ok CYL-科技（2021.11.23） 8
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_12
-      - ok CYL-科技（2021.11.22）ok 3
-      - ok CYL-科技（2021.11.23） 9
-      - ok CYL-科技（2021.11.22）ok 4
-      - ok CYL-科技（2021.11.23） 10
-      - 🇺🇸 ok github.com/freefq - 北美地区  9
-      - ok github.com/freefq - 挪威  1
-      - ok 🇸🇬(Youtube频道：工具大师！)ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|新加坡Singtel05|华中隧道[流媒体解锁]
-      - ok CYL-科技（2021.11.23） 11
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 5
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 19
-      - ok CYL-科技（2021.11.23） 12
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 7
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 20
-      - ok 欧洲阿伟科技-油管3ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 🇯🇵 ok 日本(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 8
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 22
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 23
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 🇯🇵 ok 日本(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 ok 110美国
+      - 🇺🇸 ok 109美国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信10|华中隧道[流媒体解锁]
       - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc
-      - 🇭🇰 ok 节点更新https://bit.ly/3oOSZUc|香港HGC11|华南隧道[流媒体解锁]
-      - 🇭🇰 ok 节点更新https://bit.ly/3oOSZUc|香港CMHK03|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾HiNet02|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|新加坡Singtel02|华南隧道[流媒体解锁]
-      - ok CYL-科技（2021.11.22）ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信03|华南隧道[流媒体解锁]
-      - 🇯🇵 ok 节点更新https://bit.ly/3oOSZUc|日本GMO06|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|美国NTT06|华南隧道[流媒体解锁]
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君)
       - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 2
-      - 🇬🇧 ok 节点更新https://bit.ly/3oOSZUc|英国GTHost02|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信05|华中隧道[流媒体解锁]
       - ok 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇸🇬 ok 新加坡(欢迎订阅Youtube破解资源君)
-      - ok CYL-科技（2021.11.23）
-      - ok CYL-科技（2021.11.23） 2
       - ok 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok
       - ok 欧洲(欢迎订阅Youtube破解资源君) 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 4
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 5
-      - ok CYL-科技（2021.11.23） 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 6
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 7
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 8
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 2
-      - 🇬🇧 ok 节点更新https://bit.ly/3oOSZUc|英国GTHost05|华中隧道[流媒体解锁]
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 10
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君) 3
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 12
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 13
+      - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.11.27） 3
+      - ok CYL-科技（2021.11.27） 4
+      - ok CYL-科技（2021.11.27） 5
+      - ok CYL-科技（2021.11.27） 6
+      - ok CYL-科技（2021.11.27） 7
+      - ok CYL-科技（2021.11.27） 8
+      - ok CYL-科技（2021.11.27） 9
+      - ok CYL-科技（2021.11.27） 10
+      - ok CYL-科技（2021.11.27） 11
+      - ok CYL-科技（2021.11.27） 12
+      - ok CYL-科技（2021.11.27） 13
+      - ok CYL-科技（2021.11.27） 14
+      - ok CYL-科技（2021.11.27） 15
+      - ok CYL-科技（2021.11.27） 16
+      - ok CYL-科技（2021.11.27） 17
+      - ok CYL-科技（2021.11.26）
+      - ok CYL-科技（2021.11.26） 2
+      - ok CYL-科技（2021.11.26） 3
+      - ok CYL-科技（2021.11.26） 4
+      - ok CYL-科技（2021.11.26） 5
+      - ok CYL-科技（2021.11.26） 6
+      - ok CYL-科技（2021.11.26） 7
+      - ok CYL-科技（2021.11.26） 8
+      - ok CYL-科技（2021.11.26） 9
+      - ok CYL-科技（2021.11.26） 10
+      - ok CYL-科技（2021.11.26） 11
+      - ok CYL-科技（2021.11.26） 12
+      - ok CYL-科技（2021.11.26） 13
+      - ok CYL-科技（2021.11.26） 14
+      - ok CYL-科技（2021.11.26） 15
+      - ok CYL-科技（2021.11.26） 16
+      - ok CYL-科技（2021.11.26） 17
+      - ok CYL-科技（2021.11.26） 18
+      - ok CYL-科技（2021.11.26） 19
+      - ok CYL-科技（2021.11.26） 20
+      - ok CYL-科技（2021.11.26） 21
+      - ok CYL-科技（2021.11.26） 22
+      - ok CYL-科技（2021.11.26） 23
+      - ok CYL-科技（2021.11.26） 24
+      - ok CYL-科技（2021.11.26） 25
+      - ok CYL-科技（2021.11.26） 26
+      - ok CYL-科技（2021.11.26） 27
+      - ok CYL-科技（2021.11.26） 28
+      - ok CYL-科技（2021.11.26） 29
+      - ok CYL-科技（2021.11.26） 30
+      - ok CYL-科技（2021.11.26） 31
+      - ok CYL-科技（2021.11.26） 32
+      - ok CYL-科技（2021.11.26） 33
+      - ok CYL-科技（2021.11.26） 34
+      - ok CYL-科技（2021.11.26） 35
+      - ok CYL-科技（2021.11.26） 36
+      - ok CYL-科技（2021.11.26） 37
+      - ok CYL-科技（2021.11.26） 38
+      - ok CYL-科技（2021.11.26） 39
+      - ok CYL-科技（2021.11.26） 40
+      - ok CYL-科技（2021.11.26） 41
+      - ok CYL-科技（2021.11.26） 42
+      - ok CYL-科技（2021.11.26） 43
+      - ok CYL-科技（2021.11.26） 44
+      - ok CYL-科技（2021.11.26） 45
+      - ok CYL-科技（2021.11.26） 46
+      - ok CYL-科技（2021.11.26） 47
+      - ok CYL-科技（2021.11.26） 48
+      - ok CYL-科技（2021.11.26） 49
+      - ok CYL-科技（2021.11.26） 50
+      - ok CYL-科技（2021.11.26） 51
+      - ok CYL-科技（2021.11.26） 52
+      - ok CYL-科技（2021.11.26） 53
+      - ok CYL-科技（2021.11.26） 54
+      - ok CYL-科技（2021.11.26） 55
+      - ok CYL-科技（2021.11.26） 56
+      - ok CYL-科技（2021.11.26） 57
+      - ok CYL-科技（2021.11.26） 58
+      - ok CYL-科技（2021.11.26） 59
+      - ok CYL-科技（2021.11.26） 60
+      - ok CYL-科技（2021.11.26） 61
+      - ok CYL-科技（2021.11.26） 62
+      - ok CYL-科技（2021.11.26） 63
+      - ok CYL-科技（2021.11.26） 64
+      - ok CYL-科技（2021.11.26） 65
+      - ok CYL-科技（2021.11.26） 66
+      - ok CYL-科技（2021.11.26） 67
+      - ok CYL-科技（2021.11.26） 68
+      - ok CYL-科技（2021.11.25）
+      - ok CYL-科技（2021.11.25） 2
+      - ok CYL-科技（2021.11.25） 3
+      - ok CYL-科技（2021.11.25） 4
+      - ok CYL-科技（2021.11.25） 5
+      - ok CYL-科技（2021.11.25） 6
+      - ok CYL-科技（2021.11.25） 7
+      - ok CYL-科技（2021.11.25） 8
+      - ok CYL-科技（2021.11.25） 9
+      - ok CYL-科技（2021.11.25） 10
+      - ok CYL-科技（2021.11.25） 11
+      - ok CYL-科技（2021.11.25） 12
+      - ok CYL-科技（2021.11.25） 13
+      - ok CYL-科技（2021.11.25） 14
+      - ok CYL-科技（2021.11.25） 15
+      - ok CYL-科技（2021.11.25） 16
+      - ok CYL-科技（2021.11.25） 17
+      - ok CYL-科技（2021.11.25） 18
+      - ok CYL-科技（2021.11.25） 19
+      - ok CYL-科技（2021.11.25） 20
+      - ok CYL-科技（2021.11.25） 21
+      - ok CYL-科技（2021.11.25） 22
+      - ok CYL-科技（2021.11.25） 23
+      - ok CYL-科技（2021.11.25） 24
+      - ok CYL-科技（2021.11.25） 25
+      - ok CYL-科技（2021.11.24）
+      - ok CYL-科技（2021.11.24） 2
+      - ok CYL-科技（2021.11.24） 3
+      - ok CYL-科技（2021.11.24） 4
+      - ok CYL-科技（2021.11.24） 5
+      - ok CYL-科技（2021.11.24） 6
+      - ok CYL-科技（2021.11.24） 7
+      - ok CYL-科技（2021.11.24） 8
+      - ok CYL-科技（2021.11.24） 9
+      - ok CYL-科技（2021.11.24） 10
+      - ok CYL-科技（2021.11.22）ok
       - ok CYL-科技（2021.11.22）ok 2
-      - ok CYL-科技（2021.11.23） 4
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 4
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 14
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|美国NTT09|华中隧道[流媒体解锁]
-      - 🇸🇬 ok 新加坡阿伟科技-油管2 ok
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_42
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信06|华南隧道[流媒体解锁]
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 ok 🇺🇸 美国阿伟科技-油管4 ok
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 5
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 17
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_41
-      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17
-      - ok CYL-科技（2021.11.23） 5
-      - ok CYL-科技（2021.11.23） 6
-      - 🇭🇰 ok 香港阿伟科技-油管2 ok
-      - ok CYL-科技（2021.11.23） 7
-      - ok CYL-科技（2021.11.23） 8
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_12
-      - ok CYL-科技（2021.11.22）ok 3
-      - ok CYL-科技（2021.11.23） 9
-      - ok CYL-科技（2021.11.22）ok 4
-      - ok CYL-科技（2021.11.23） 10
-      - 🇺🇸 ok github.com/freefq - 北美地区  9
-      - ok github.com/freefq - 挪威  1
-      - ok 🇸🇬(Youtube频道：工具大师！)ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|新加坡Singtel05|华中隧道[流媒体解锁]
-      - ok CYL-科技（2021.11.23） 11
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 5
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 19
-      - ok CYL-科技（2021.11.23） 12
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 7
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 20
-      - ok 欧洲阿伟科技-油管3ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 🇯🇵 ok 日本(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 8
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 22
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 23
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 🇯🇵 ok 日本(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 ok 110美国
+      - 🇺🇸 ok 109美国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信10|华中隧道[流媒体解锁]
       - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc
-      - 🇭🇰 ok 节点更新https://bit.ly/3oOSZUc|香港HGC11|华南隧道[流媒体解锁]
-      - 🇭🇰 ok 节点更新https://bit.ly/3oOSZUc|香港CMHK03|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾HiNet02|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|新加坡Singtel02|华南隧道[流媒体解锁]
-      - ok CYL-科技（2021.11.22）ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信03|华南隧道[流媒体解锁]
-      - 🇯🇵 ok 节点更新https://bit.ly/3oOSZUc|日本GMO06|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|美国NTT06|华南隧道[流媒体解锁]
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君)
       - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 2
-      - 🇬🇧 ok 节点更新https://bit.ly/3oOSZUc|英国GTHost02|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信05|华中隧道[流媒体解锁]
       - ok 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇸🇬 ok 新加坡(欢迎订阅Youtube破解资源君)
-      - ok CYL-科技（2021.11.23）
-      - ok CYL-科技（2021.11.23） 2
       - ok 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok
       - ok 欧洲(欢迎订阅Youtube破解资源君) 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 4
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 5
-      - ok CYL-科技（2021.11.23） 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 6
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 7
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 8
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 2
-      - 🇬🇧 ok 节点更新https://bit.ly/3oOSZUc|英国GTHost05|华中隧道[流媒体解锁]
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 10
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君) 3
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 12
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 13
+      - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.11.27） 3
+      - ok CYL-科技（2021.11.27） 4
+      - ok CYL-科技（2021.11.27） 5
+      - ok CYL-科技（2021.11.27） 6
+      - ok CYL-科技（2021.11.27） 7
+      - ok CYL-科技（2021.11.27） 8
+      - ok CYL-科技（2021.11.27） 9
+      - ok CYL-科技（2021.11.27） 10
+      - ok CYL-科技（2021.11.27） 11
+      - ok CYL-科技（2021.11.27） 12
+      - ok CYL-科技（2021.11.27） 13
+      - ok CYL-科技（2021.11.27） 14
+      - ok CYL-科技（2021.11.27） 15
+      - ok CYL-科技（2021.11.27） 16
+      - ok CYL-科技（2021.11.27） 17
+      - ok CYL-科技（2021.11.26）
+      - ok CYL-科技（2021.11.26） 2
+      - ok CYL-科技（2021.11.26） 3
+      - ok CYL-科技（2021.11.26） 4
+      - ok CYL-科技（2021.11.26） 5
+      - ok CYL-科技（2021.11.26） 6
+      - ok CYL-科技（2021.11.26） 7
+      - ok CYL-科技（2021.11.26） 8
+      - ok CYL-科技（2021.11.26） 9
+      - ok CYL-科技（2021.11.26） 10
+      - ok CYL-科技（2021.11.26） 11
+      - ok CYL-科技（2021.11.26） 12
+      - ok CYL-科技（2021.11.26） 13
+      - ok CYL-科技（2021.11.26） 14
+      - ok CYL-科技（2021.11.26） 15
+      - ok CYL-科技（2021.11.26） 16
+      - ok CYL-科技（2021.11.26） 17
+      - ok CYL-科技（2021.11.26） 18
+      - ok CYL-科技（2021.11.26） 19
+      - ok CYL-科技（2021.11.26） 20
+      - ok CYL-科技（2021.11.26） 21
+      - ok CYL-科技（2021.11.26） 22
+      - ok CYL-科技（2021.11.26） 23
+      - ok CYL-科技（2021.11.26） 24
+      - ok CYL-科技（2021.11.26） 25
+      - ok CYL-科技（2021.11.26） 26
+      - ok CYL-科技（2021.11.26） 27
+      - ok CYL-科技（2021.11.26） 28
+      - ok CYL-科技（2021.11.26） 29
+      - ok CYL-科技（2021.11.26） 30
+      - ok CYL-科技（2021.11.26） 31
+      - ok CYL-科技（2021.11.26） 32
+      - ok CYL-科技（2021.11.26） 33
+      - ok CYL-科技（2021.11.26） 34
+      - ok CYL-科技（2021.11.26） 35
+      - ok CYL-科技（2021.11.26） 36
+      - ok CYL-科技（2021.11.26） 37
+      - ok CYL-科技（2021.11.26） 38
+      - ok CYL-科技（2021.11.26） 39
+      - ok CYL-科技（2021.11.26） 40
+      - ok CYL-科技（2021.11.26） 41
+      - ok CYL-科技（2021.11.26） 42
+      - ok CYL-科技（2021.11.26） 43
+      - ok CYL-科技（2021.11.26） 44
+      - ok CYL-科技（2021.11.26） 45
+      - ok CYL-科技（2021.11.26） 46
+      - ok CYL-科技（2021.11.26） 47
+      - ok CYL-科技（2021.11.26） 48
+      - ok CYL-科技（2021.11.26） 49
+      - ok CYL-科技（2021.11.26） 50
+      - ok CYL-科技（2021.11.26） 51
+      - ok CYL-科技（2021.11.26） 52
+      - ok CYL-科技（2021.11.26） 53
+      - ok CYL-科技（2021.11.26） 54
+      - ok CYL-科技（2021.11.26） 55
+      - ok CYL-科技（2021.11.26） 56
+      - ok CYL-科技（2021.11.26） 57
+      - ok CYL-科技（2021.11.26） 58
+      - ok CYL-科技（2021.11.26） 59
+      - ok CYL-科技（2021.11.26） 60
+      - ok CYL-科技（2021.11.26） 61
+      - ok CYL-科技（2021.11.26） 62
+      - ok CYL-科技（2021.11.26） 63
+      - ok CYL-科技（2021.11.26） 64
+      - ok CYL-科技（2021.11.26） 65
+      - ok CYL-科技（2021.11.26） 66
+      - ok CYL-科技（2021.11.26） 67
+      - ok CYL-科技（2021.11.26） 68
+      - ok CYL-科技（2021.11.25）
+      - ok CYL-科技（2021.11.25） 2
+      - ok CYL-科技（2021.11.25） 3
+      - ok CYL-科技（2021.11.25） 4
+      - ok CYL-科技（2021.11.25） 5
+      - ok CYL-科技（2021.11.25） 6
+      - ok CYL-科技（2021.11.25） 7
+      - ok CYL-科技（2021.11.25） 8
+      - ok CYL-科技（2021.11.25） 9
+      - ok CYL-科技（2021.11.25） 10
+      - ok CYL-科技（2021.11.25） 11
+      - ok CYL-科技（2021.11.25） 12
+      - ok CYL-科技（2021.11.25） 13
+      - ok CYL-科技（2021.11.25） 14
+      - ok CYL-科技（2021.11.25） 15
+      - ok CYL-科技（2021.11.25） 16
+      - ok CYL-科技（2021.11.25） 17
+      - ok CYL-科技（2021.11.25） 18
+      - ok CYL-科技（2021.11.25） 19
+      - ok CYL-科技（2021.11.25） 20
+      - ok CYL-科技（2021.11.25） 21
+      - ok CYL-科技（2021.11.25） 22
+      - ok CYL-科技（2021.11.25） 23
+      - ok CYL-科技（2021.11.25） 24
+      - ok CYL-科技（2021.11.25） 25
+      - ok CYL-科技（2021.11.24）
+      - ok CYL-科技（2021.11.24） 2
+      - ok CYL-科技（2021.11.24） 3
+      - ok CYL-科技（2021.11.24） 4
+      - ok CYL-科技（2021.11.24） 5
+      - ok CYL-科技（2021.11.24） 6
+      - ok CYL-科技（2021.11.24） 7
+      - ok CYL-科技（2021.11.24） 8
+      - ok CYL-科技（2021.11.24） 9
+      - ok CYL-科技（2021.11.24） 10
+      - ok CYL-科技（2021.11.22）ok
       - ok CYL-科技（2021.11.22）ok 2
-      - ok CYL-科技（2021.11.23） 4
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 4
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 14
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|美国NTT09|华中隧道[流媒体解锁]
-      - 🇸🇬 ok 新加坡阿伟科技-油管2 ok
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_42
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信06|华南隧道[流媒体解锁]
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 ok 🇺🇸 美国阿伟科技-油管4 ok
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 5
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 17
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_41
-      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17
-      - ok CYL-科技（2021.11.23） 5
-      - ok CYL-科技（2021.11.23） 6
-      - 🇭🇰 ok 香港阿伟科技-油管2 ok
-      - ok CYL-科技（2021.11.23） 7
-      - ok CYL-科技（2021.11.23） 8
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_12
-      - ok CYL-科技（2021.11.22）ok 3
-      - ok CYL-科技（2021.11.23） 9
-      - ok CYL-科技（2021.11.22）ok 4
-      - ok CYL-科技（2021.11.23） 10
-      - 🇺🇸 ok github.com/freefq - 北美地区  9
-      - ok github.com/freefq - 挪威  1
-      - ok 🇸🇬(Youtube频道：工具大师！)ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|新加坡Singtel05|华中隧道[流媒体解锁]
-      - ok CYL-科技（2021.11.23） 11
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 5
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 19
-      - ok CYL-科技（2021.11.23） 12
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 7
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 20
-      - ok 欧洲阿伟科技-油管3ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 🇯🇵 ok 日本(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 8
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 22
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 23
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 🇯🇵 ok 日本(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 ok 110美国
+      - 🇺🇸 ok 109美国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信10|华中隧道[流媒体解锁]
       - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc
-      - 🇭🇰 ok 节点更新https://bit.ly/3oOSZUc|香港HGC11|华南隧道[流媒体解锁]
-      - 🇭🇰 ok 节点更新https://bit.ly/3oOSZUc|香港CMHK03|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾HiNet02|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|新加坡Singtel02|华南隧道[流媒体解锁]
-      - ok CYL-科技（2021.11.22）ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信03|华南隧道[流媒体解锁]
-      - 🇯🇵 ok 节点更新https://bit.ly/3oOSZUc|日本GMO06|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|美国NTT06|华南隧道[流媒体解锁]
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君)
       - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 2
-      - 🇬🇧 ok 节点更新https://bit.ly/3oOSZUc|英国GTHost02|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信05|华中隧道[流媒体解锁]
       - ok 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇸🇬 ok 新加坡(欢迎订阅Youtube破解资源君)
-      - ok CYL-科技（2021.11.23）
-      - ok CYL-科技（2021.11.23） 2
       - ok 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok
       - ok 欧洲(欢迎订阅Youtube破解资源君) 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 4
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 5
-      - ok CYL-科技（2021.11.23） 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 6
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 7
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 8
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 2
-      - 🇬🇧 ok 节点更新https://bit.ly/3oOSZUc|英国GTHost05|华中隧道[流媒体解锁]
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 10
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君) 3
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 12
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 13
+      - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.11.27） 3
+      - ok CYL-科技（2021.11.27） 4
+      - ok CYL-科技（2021.11.27） 5
+      - ok CYL-科技（2021.11.27） 6
+      - ok CYL-科技（2021.11.27） 7
+      - ok CYL-科技（2021.11.27） 8
+      - ok CYL-科技（2021.11.27） 9
+      - ok CYL-科技（2021.11.27） 10
+      - ok CYL-科技（2021.11.27） 11
+      - ok CYL-科技（2021.11.27） 12
+      - ok CYL-科技（2021.11.27） 13
+      - ok CYL-科技（2021.11.27） 14
+      - ok CYL-科技（2021.11.27） 15
+      - ok CYL-科技（2021.11.27） 16
+      - ok CYL-科技（2021.11.27） 17
+      - ok CYL-科技（2021.11.26）
+      - ok CYL-科技（2021.11.26） 2
+      - ok CYL-科技（2021.11.26） 3
+      - ok CYL-科技（2021.11.26） 4
+      - ok CYL-科技（2021.11.26） 5
+      - ok CYL-科技（2021.11.26） 6
+      - ok CYL-科技（2021.11.26） 7
+      - ok CYL-科技（2021.11.26） 8
+      - ok CYL-科技（2021.11.26） 9
+      - ok CYL-科技（2021.11.26） 10
+      - ok CYL-科技（2021.11.26） 11
+      - ok CYL-科技（2021.11.26） 12
+      - ok CYL-科技（2021.11.26） 13
+      - ok CYL-科技（2021.11.26） 14
+      - ok CYL-科技（2021.11.26） 15
+      - ok CYL-科技（2021.11.26） 16
+      - ok CYL-科技（2021.11.26） 17
+      - ok CYL-科技（2021.11.26） 18
+      - ok CYL-科技（2021.11.26） 19
+      - ok CYL-科技（2021.11.26） 20
+      - ok CYL-科技（2021.11.26） 21
+      - ok CYL-科技（2021.11.26） 22
+      - ok CYL-科技（2021.11.26） 23
+      - ok CYL-科技（2021.11.26） 24
+      - ok CYL-科技（2021.11.26） 25
+      - ok CYL-科技（2021.11.26） 26
+      - ok CYL-科技（2021.11.26） 27
+      - ok CYL-科技（2021.11.26） 28
+      - ok CYL-科技（2021.11.26） 29
+      - ok CYL-科技（2021.11.26） 30
+      - ok CYL-科技（2021.11.26） 31
+      - ok CYL-科技（2021.11.26） 32
+      - ok CYL-科技（2021.11.26） 33
+      - ok CYL-科技（2021.11.26） 34
+      - ok CYL-科技（2021.11.26） 35
+      - ok CYL-科技（2021.11.26） 36
+      - ok CYL-科技（2021.11.26） 37
+      - ok CYL-科技（2021.11.26） 38
+      - ok CYL-科技（2021.11.26） 39
+      - ok CYL-科技（2021.11.26） 40
+      - ok CYL-科技（2021.11.26） 41
+      - ok CYL-科技（2021.11.26） 42
+      - ok CYL-科技（2021.11.26） 43
+      - ok CYL-科技（2021.11.26） 44
+      - ok CYL-科技（2021.11.26） 45
+      - ok CYL-科技（2021.11.26） 46
+      - ok CYL-科技（2021.11.26） 47
+      - ok CYL-科技（2021.11.26） 48
+      - ok CYL-科技（2021.11.26） 49
+      - ok CYL-科技（2021.11.26） 50
+      - ok CYL-科技（2021.11.26） 51
+      - ok CYL-科技（2021.11.26） 52
+      - ok CYL-科技（2021.11.26） 53
+      - ok CYL-科技（2021.11.26） 54
+      - ok CYL-科技（2021.11.26） 55
+      - ok CYL-科技（2021.11.26） 56
+      - ok CYL-科技（2021.11.26） 57
+      - ok CYL-科技（2021.11.26） 58
+      - ok CYL-科技（2021.11.26） 59
+      - ok CYL-科技（2021.11.26） 60
+      - ok CYL-科技（2021.11.26） 61
+      - ok CYL-科技（2021.11.26） 62
+      - ok CYL-科技（2021.11.26） 63
+      - ok CYL-科技（2021.11.26） 64
+      - ok CYL-科技（2021.11.26） 65
+      - ok CYL-科技（2021.11.26） 66
+      - ok CYL-科技（2021.11.26） 67
+      - ok CYL-科技（2021.11.26） 68
+      - ok CYL-科技（2021.11.25）
+      - ok CYL-科技（2021.11.25） 2
+      - ok CYL-科技（2021.11.25） 3
+      - ok CYL-科技（2021.11.25） 4
+      - ok CYL-科技（2021.11.25） 5
+      - ok CYL-科技（2021.11.25） 6
+      - ok CYL-科技（2021.11.25） 7
+      - ok CYL-科技（2021.11.25） 8
+      - ok CYL-科技（2021.11.25） 9
+      - ok CYL-科技（2021.11.25） 10
+      - ok CYL-科技（2021.11.25） 11
+      - ok CYL-科技（2021.11.25） 12
+      - ok CYL-科技（2021.11.25） 13
+      - ok CYL-科技（2021.11.25） 14
+      - ok CYL-科技（2021.11.25） 15
+      - ok CYL-科技（2021.11.25） 16
+      - ok CYL-科技（2021.11.25） 17
+      - ok CYL-科技（2021.11.25） 18
+      - ok CYL-科技（2021.11.25） 19
+      - ok CYL-科技（2021.11.25） 20
+      - ok CYL-科技（2021.11.25） 21
+      - ok CYL-科技（2021.11.25） 22
+      - ok CYL-科技（2021.11.25） 23
+      - ok CYL-科技（2021.11.25） 24
+      - ok CYL-科技（2021.11.25） 25
+      - ok CYL-科技（2021.11.24）
+      - ok CYL-科技（2021.11.24） 2
+      - ok CYL-科技（2021.11.24） 3
+      - ok CYL-科技（2021.11.24） 4
+      - ok CYL-科技（2021.11.24） 5
+      - ok CYL-科技（2021.11.24） 6
+      - ok CYL-科技（2021.11.24） 7
+      - ok CYL-科技（2021.11.24） 8
+      - ok CYL-科技（2021.11.24） 9
+      - ok CYL-科技（2021.11.24） 10
+      - ok CYL-科技（2021.11.22）ok
       - ok CYL-科技（2021.11.22）ok 2
-      - ok CYL-科技（2021.11.23） 4
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 4
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 14
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|美国NTT09|华中隧道[流媒体解锁]
-      - 🇸🇬 ok 新加坡阿伟科技-油管2 ok
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_42
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信06|华南隧道[流媒体解锁]
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 ok 🇺🇸 美国阿伟科技-油管4 ok
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 5
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 17
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_41
-      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17
-      - ok CYL-科技（2021.11.23） 5
-      - ok CYL-科技（2021.11.23） 6
-      - 🇭🇰 ok 香港阿伟科技-油管2 ok
-      - ok CYL-科技（2021.11.23） 7
-      - ok CYL-科技（2021.11.23） 8
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_12
-      - ok CYL-科技（2021.11.22）ok 3
-      - ok CYL-科技（2021.11.23） 9
-      - ok CYL-科技（2021.11.22）ok 4
-      - ok CYL-科技（2021.11.23） 10
-      - 🇺🇸 ok github.com/freefq - 北美地区  9
-      - ok github.com/freefq - 挪威  1
-      - ok 🇸🇬(Youtube频道：工具大师！)ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|新加坡Singtel05|华中隧道[流媒体解锁]
-      - ok CYL-科技（2021.11.23） 11
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 5
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 19
-      - ok CYL-科技（2021.11.23） 12
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 7
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 20
-      - ok 欧洲阿伟科技-油管3ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 🇯🇵 ok 日本(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 8
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 22
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 23
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 🇯🇵 ok 日本(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 ok 110美国
+      - 🇺🇸 ok 109美国
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信10|华中隧道[流媒体解锁]
       - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc
-      - 🇭🇰 ok 节点更新https://bit.ly/3oOSZUc|香港HGC11|华南隧道[流媒体解锁]
-      - 🇭🇰 ok 节点更新https://bit.ly/3oOSZUc|香港CMHK03|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾HiNet02|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|新加坡Singtel02|华南隧道[流媒体解锁]
-      - ok CYL-科技（2021.11.22）ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信03|华南隧道[流媒体解锁]
-      - 🇯🇵 ok 节点更新https://bit.ly/3oOSZUc|日本GMO06|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|美国NTT06|华南隧道[流媒体解锁]
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君)
       - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 2
-      - 🇬🇧 ok 节点更新https://bit.ly/3oOSZUc|英国GTHost02|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信05|华中隧道[流媒体解锁]
       - ok 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇸🇬 ok 新加坡(欢迎订阅Youtube破解资源君)
-      - ok CYL-科技（2021.11.23）
-      - ok CYL-科技（2021.11.23） 2
       - ok 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok
       - ok 欧洲(欢迎订阅Youtube破解资源君) 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 4
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 5
-      - ok CYL-科技（2021.11.23） 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 6
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 7
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 8
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 2
-      - 🇬🇧 ok 节点更新https://bit.ly/3oOSZUc|英国GTHost05|华中隧道[流媒体解锁]
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 10
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君) 3
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 12
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 13
+      - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.11.27） 3
+      - ok CYL-科技（2021.11.27） 4
+      - ok CYL-科技（2021.11.27） 5
+      - ok CYL-科技（2021.11.27） 6
+      - ok CYL-科技（2021.11.27） 7
+      - ok CYL-科技（2021.11.27） 8
+      - ok CYL-科技（2021.11.27） 9
+      - ok CYL-科技（2021.11.27） 10
+      - ok CYL-科技（2021.11.27） 11
+      - ok CYL-科技（2021.11.27） 12
+      - ok CYL-科技（2021.11.27） 13
+      - ok CYL-科技（2021.11.27） 14
+      - ok CYL-科技（2021.11.27） 15
+      - ok CYL-科技（2021.11.27） 16
+      - ok CYL-科技（2021.11.27） 17
+      - ok CYL-科技（2021.11.26）
+      - ok CYL-科技（2021.11.26） 2
+      - ok CYL-科技（2021.11.26） 3
+      - ok CYL-科技（2021.11.26） 4
+      - ok CYL-科技（2021.11.26） 5
+      - ok CYL-科技（2021.11.26） 6
+      - ok CYL-科技（2021.11.26） 7
+      - ok CYL-科技（2021.11.26） 8
+      - ok CYL-科技（2021.11.26） 9
+      - ok CYL-科技（2021.11.26） 10
+      - ok CYL-科技（2021.11.26） 11
+      - ok CYL-科技（2021.11.26） 12
+      - ok CYL-科技（2021.11.26） 13
+      - ok CYL-科技（2021.11.26） 14
+      - ok CYL-科技（2021.11.26） 15
+      - ok CYL-科技（2021.11.26） 16
+      - ok CYL-科技（2021.11.26） 17
+      - ok CYL-科技（2021.11.26） 18
+      - ok CYL-科技（2021.11.26） 19
+      - ok CYL-科技（2021.11.26） 20
+      - ok CYL-科技（2021.11.26） 21
+      - ok CYL-科技（2021.11.26） 22
+      - ok CYL-科技（2021.11.26） 23
+      - ok CYL-科技（2021.11.26） 24
+      - ok CYL-科技（2021.11.26） 25
+      - ok CYL-科技（2021.11.26） 26
+      - ok CYL-科技（2021.11.26） 27
+      - ok CYL-科技（2021.11.26） 28
+      - ok CYL-科技（2021.11.26） 29
+      - ok CYL-科技（2021.11.26） 30
+      - ok CYL-科技（2021.11.26） 31
+      - ok CYL-科技（2021.11.26） 32
+      - ok CYL-科技（2021.11.26） 33
+      - ok CYL-科技（2021.11.26） 34
+      - ok CYL-科技（2021.11.26） 35
+      - ok CYL-科技（2021.11.26） 36
+      - ok CYL-科技（2021.11.26） 37
+      - ok CYL-科技（2021.11.26） 38
+      - ok CYL-科技（2021.11.26） 39
+      - ok CYL-科技（2021.11.26） 40
+      - ok CYL-科技（2021.11.26） 41
+      - ok CYL-科技（2021.11.26） 42
+      - ok CYL-科技（2021.11.26） 43
+      - ok CYL-科技（2021.11.26） 44
+      - ok CYL-科技（2021.11.26） 45
+      - ok CYL-科技（2021.11.26） 46
+      - ok CYL-科技（2021.11.26） 47
+      - ok CYL-科技（2021.11.26） 48
+      - ok CYL-科技（2021.11.26） 49
+      - ok CYL-科技（2021.11.26） 50
+      - ok CYL-科技（2021.11.26） 51
+      - ok CYL-科技（2021.11.26） 52
+      - ok CYL-科技（2021.11.26） 53
+      - ok CYL-科技（2021.11.26） 54
+      - ok CYL-科技（2021.11.26） 55
+      - ok CYL-科技（2021.11.26） 56
+      - ok CYL-科技（2021.11.26） 57
+      - ok CYL-科技（2021.11.26） 58
+      - ok CYL-科技（2021.11.26） 59
+      - ok CYL-科技（2021.11.26） 60
+      - ok CYL-科技（2021.11.26） 61
+      - ok CYL-科技（2021.11.26） 62
+      - ok CYL-科技（2021.11.26） 63
+      - ok CYL-科技（2021.11.26） 64
+      - ok CYL-科技（2021.11.26） 65
+      - ok CYL-科技（2021.11.26） 66
+      - ok CYL-科技（2021.11.26） 67
+      - ok CYL-科技（2021.11.26） 68
+      - ok CYL-科技（2021.11.25）
+      - ok CYL-科技（2021.11.25） 2
+      - ok CYL-科技（2021.11.25） 3
+      - ok CYL-科技（2021.11.25） 4
+      - ok CYL-科技（2021.11.25） 5
+      - ok CYL-科技（2021.11.25） 6
+      - ok CYL-科技（2021.11.25） 7
+      - ok CYL-科技（2021.11.25） 8
+      - ok CYL-科技（2021.11.25） 9
+      - ok CYL-科技（2021.11.25） 10
+      - ok CYL-科技（2021.11.25） 11
+      - ok CYL-科技（2021.11.25） 12
+      - ok CYL-科技（2021.11.25） 13
+      - ok CYL-科技（2021.11.25） 14
+      - ok CYL-科技（2021.11.25） 15
+      - ok CYL-科技（2021.11.25） 16
+      - ok CYL-科技（2021.11.25） 17
+      - ok CYL-科技（2021.11.25） 18
+      - ok CYL-科技（2021.11.25） 19
+      - ok CYL-科技（2021.11.25） 20
+      - ok CYL-科技（2021.11.25） 21
+      - ok CYL-科技（2021.11.25） 22
+      - ok CYL-科技（2021.11.25） 23
+      - ok CYL-科技（2021.11.25） 24
+      - ok CYL-科技（2021.11.25） 25
+      - ok CYL-科技（2021.11.24）
+      - ok CYL-科技（2021.11.24） 2
+      - ok CYL-科技（2021.11.24） 3
+      - ok CYL-科技（2021.11.24） 4
+      - ok CYL-科技（2021.11.24） 5
+      - ok CYL-科技（2021.11.24） 6
+      - ok CYL-科技（2021.11.24） 7
+      - ok CYL-科技（2021.11.24） 8
+      - ok CYL-科技（2021.11.24） 9
+      - ok CYL-科技（2021.11.24） 10
+      - ok CYL-科技（2021.11.22）ok
       - ok CYL-科技（2021.11.22）ok 2
-      - ok CYL-科技（2021.11.23） 4
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 4
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 14
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|美国NTT09|华中隧道[流媒体解锁]
-      - 🇸🇬 ok 新加坡阿伟科技-油管2 ok
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_42
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信06|华南隧道[流媒体解锁]
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 ok 🇺🇸 美国阿伟科技-油管4 ok
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 5
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 17
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_41
-      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17
-      - ok CYL-科技（2021.11.23） 5
-      - ok CYL-科技（2021.11.23） 6
-      - 🇭🇰 ok 香港阿伟科技-油管2 ok
-      - ok CYL-科技（2021.11.23） 7
-      - ok CYL-科技（2021.11.23） 8
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_12
-      - ok CYL-科技（2021.11.22）ok 3
-      - ok CYL-科技（2021.11.23） 9
-      - ok CYL-科技（2021.11.22）ok 4
-      - ok CYL-科技（2021.11.23） 10
-      - 🇺🇸 ok github.com/freefq - 北美地区  9
-      - ok github.com/freefq - 挪威  1
-      - ok 🇸🇬(Youtube频道：工具大师！)ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|新加坡Singtel05|华中隧道[流媒体解锁]
-      - ok CYL-科技（2021.11.23） 11
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 5
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 19
-      - ok CYL-科技（2021.11.23） 12
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 7
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 20
-      - ok 欧洲阿伟科技-油管3ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 🇯🇵 ok 日本(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 8
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 22
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 23
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 🇯🇵 ok 日本(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 ok 110美国
+      - 🇺🇸 ok 109美国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -770,94 +1098,135 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信10|华中隧道[流媒体解锁]
       - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc
-      - 🇭🇰 ok 节点更新https://bit.ly/3oOSZUc|香港HGC11|华南隧道[流媒体解锁]
-      - 🇭🇰 ok 节点更新https://bit.ly/3oOSZUc|香港CMHK03|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾HiNet02|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|新加坡Singtel02|华南隧道[流媒体解锁]
-      - ok CYL-科技（2021.11.22）ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信03|华南隧道[流媒体解锁]
-      - 🇯🇵 ok 节点更新https://bit.ly/3oOSZUc|日本GMO06|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|美国NTT06|华南隧道[流媒体解锁]
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君)
       - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 2
-      - 🇬🇧 ok 节点更新https://bit.ly/3oOSZUc|英国GTHost02|华南隧道[流媒体解锁]
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信05|华中隧道[流媒体解锁]
       - ok 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇸🇬 ok 新加坡(欢迎订阅Youtube破解资源君)
-      - ok CYL-科技（2021.11.23）
-      - ok CYL-科技（2021.11.23） 2
       - ok 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok
       - ok 欧洲(欢迎订阅Youtube破解资源君) 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 4
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 5
-      - ok CYL-科技（2021.11.23） 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 6
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 7
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 8
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 2
-      - 🇬🇧 ok 节点更新https://bit.ly/3oOSZUc|英国GTHost05|华中隧道[流媒体解锁]
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 10
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 🇭🇰 ok 香港(欢迎订阅Youtube破解资源君) 3
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 12
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 13
+      - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.11.27） 3
+      - ok CYL-科技（2021.11.27） 4
+      - ok CYL-科技（2021.11.27） 5
+      - ok CYL-科技（2021.11.27） 6
+      - ok CYL-科技（2021.11.27） 7
+      - ok CYL-科技（2021.11.27） 8
+      - ok CYL-科技（2021.11.27） 9
+      - ok CYL-科技（2021.11.27） 10
+      - ok CYL-科技（2021.11.27） 11
+      - ok CYL-科技（2021.11.27） 12
+      - ok CYL-科技（2021.11.27） 13
+      - ok CYL-科技（2021.11.27） 14
+      - ok CYL-科技（2021.11.27） 15
+      - ok CYL-科技（2021.11.27） 16
+      - ok CYL-科技（2021.11.27） 17
+      - ok CYL-科技（2021.11.26）
+      - ok CYL-科技（2021.11.26） 2
+      - ok CYL-科技（2021.11.26） 3
+      - ok CYL-科技（2021.11.26） 4
+      - ok CYL-科技（2021.11.26） 5
+      - ok CYL-科技（2021.11.26） 6
+      - ok CYL-科技（2021.11.26） 7
+      - ok CYL-科技（2021.11.26） 8
+      - ok CYL-科技（2021.11.26） 9
+      - ok CYL-科技（2021.11.26） 10
+      - ok CYL-科技（2021.11.26） 11
+      - ok CYL-科技（2021.11.26） 12
+      - ok CYL-科技（2021.11.26） 13
+      - ok CYL-科技（2021.11.26） 14
+      - ok CYL-科技（2021.11.26） 15
+      - ok CYL-科技（2021.11.26） 16
+      - ok CYL-科技（2021.11.26） 17
+      - ok CYL-科技（2021.11.26） 18
+      - ok CYL-科技（2021.11.26） 19
+      - ok CYL-科技（2021.11.26） 20
+      - ok CYL-科技（2021.11.26） 21
+      - ok CYL-科技（2021.11.26） 22
+      - ok CYL-科技（2021.11.26） 23
+      - ok CYL-科技（2021.11.26） 24
+      - ok CYL-科技（2021.11.26） 25
+      - ok CYL-科技（2021.11.26） 26
+      - ok CYL-科技（2021.11.26） 27
+      - ok CYL-科技（2021.11.26） 28
+      - ok CYL-科技（2021.11.26） 29
+      - ok CYL-科技（2021.11.26） 30
+      - ok CYL-科技（2021.11.26） 31
+      - ok CYL-科技（2021.11.26） 32
+      - ok CYL-科技（2021.11.26） 33
+      - ok CYL-科技（2021.11.26） 34
+      - ok CYL-科技（2021.11.26） 35
+      - ok CYL-科技（2021.11.26） 36
+      - ok CYL-科技（2021.11.26） 37
+      - ok CYL-科技（2021.11.26） 38
+      - ok CYL-科技（2021.11.26） 39
+      - ok CYL-科技（2021.11.26） 40
+      - ok CYL-科技（2021.11.26） 41
+      - ok CYL-科技（2021.11.26） 42
+      - ok CYL-科技（2021.11.26） 43
+      - ok CYL-科技（2021.11.26） 44
+      - ok CYL-科技（2021.11.26） 45
+      - ok CYL-科技（2021.11.26） 46
+      - ok CYL-科技（2021.11.26） 47
+      - ok CYL-科技（2021.11.26） 48
+      - ok CYL-科技（2021.11.26） 49
+      - ok CYL-科技（2021.11.26） 50
+      - ok CYL-科技（2021.11.26） 51
+      - ok CYL-科技（2021.11.26） 52
+      - ok CYL-科技（2021.11.26） 53
+      - ok CYL-科技（2021.11.26） 54
+      - ok CYL-科技（2021.11.26） 55
+      - ok CYL-科技（2021.11.26） 56
+      - ok CYL-科技（2021.11.26） 57
+      - ok CYL-科技（2021.11.26） 58
+      - ok CYL-科技（2021.11.26） 59
+      - ok CYL-科技（2021.11.26） 60
+      - ok CYL-科技（2021.11.26） 61
+      - ok CYL-科技（2021.11.26） 62
+      - ok CYL-科技（2021.11.26） 63
+      - ok CYL-科技（2021.11.26） 64
+      - ok CYL-科技（2021.11.26） 65
+      - ok CYL-科技（2021.11.26） 66
+      - ok CYL-科技（2021.11.26） 67
+      - ok CYL-科技（2021.11.26） 68
+      - ok CYL-科技（2021.11.25）
+      - ok CYL-科技（2021.11.25） 2
+      - ok CYL-科技（2021.11.25） 3
+      - ok CYL-科技（2021.11.25） 4
+      - ok CYL-科技（2021.11.25） 5
+      - ok CYL-科技（2021.11.25） 6
+      - ok CYL-科技（2021.11.25） 7
+      - ok CYL-科技（2021.11.25） 8
+      - ok CYL-科技（2021.11.25） 9
+      - ok CYL-科技（2021.11.25） 10
+      - ok CYL-科技（2021.11.25） 11
+      - ok CYL-科技（2021.11.25） 12
+      - ok CYL-科技（2021.11.25） 13
+      - ok CYL-科技（2021.11.25） 14
+      - ok CYL-科技（2021.11.25） 15
+      - ok CYL-科技（2021.11.25） 16
+      - ok CYL-科技（2021.11.25） 17
+      - ok CYL-科技（2021.11.25） 18
+      - ok CYL-科技（2021.11.25） 19
+      - ok CYL-科技（2021.11.25） 20
+      - ok CYL-科技（2021.11.25） 21
+      - ok CYL-科技（2021.11.25） 22
+      - ok CYL-科技（2021.11.25） 23
+      - ok CYL-科技（2021.11.25） 24
+      - ok CYL-科技（2021.11.25） 25
+      - ok CYL-科技（2021.11.24）
+      - ok CYL-科技（2021.11.24） 2
+      - ok CYL-科技（2021.11.24） 3
+      - ok CYL-科技（2021.11.24） 4
+      - ok CYL-科技（2021.11.24） 5
+      - ok CYL-科技（2021.11.24） 6
+      - ok CYL-科技（2021.11.24） 7
+      - ok CYL-科技（2021.11.24） 8
+      - ok CYL-科技（2021.11.24） 9
+      - ok CYL-科技（2021.11.24） 10
+      - ok CYL-科技（2021.11.22）ok
       - ok CYL-科技（2021.11.22）ok 2
-      - ok CYL-科技（2021.11.23） 4
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 4
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 14
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|美国NTT09|华中隧道[流媒体解锁]
-      - 🇸🇬 ok 新加坡阿伟科技-油管2 ok
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_42
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|台湾中华电信06|华南隧道[流媒体解锁]
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇸 ok 🇺🇸 美国阿伟科技-油管4 ok
-      - 🇩🇪 ok 德国阿伟科技-油管2 ok 5
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 17
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_41
-      - 🇺🇸 ok github.com/freefq 美国LeaseWeb数据 27ok
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 🇸🇬 ok github.com/freefq - 新加坡LeaseWeb IDC 17
-      - ok CYL-科技（2021.11.23） 5
-      - ok CYL-科技（2021.11.23） 6
-      - 🇭🇰 ok 香港阿伟科技-油管2 ok
-      - ok CYL-科技（2021.11.23） 7
-      - ok CYL-科技（2021.11.23） 8
-      - ok (欢迎订阅youtube：钱科技)1123_����_NON_12
-      - ok CYL-科技（2021.11.22）ok 3
-      - ok CYL-科技（2021.11.23） 9
-      - ok CYL-科技（2021.11.22）ok 4
-      - ok CYL-科技（2021.11.23） 10
-      - 🇺🇸 ok github.com/freefq - 北美地区  9
-      - ok github.com/freefq - 挪威  1
-      - ok 🇸🇬(Youtube频道：工具大师！)ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc|新加坡Singtel05|华中隧道[流媒体解锁]
-      - ok CYL-科技（2021.11.23） 11
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 5
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 19
-      - ok CYL-科技（2021.11.23） 12
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 7
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 20
-      - ok 欧洲阿伟科技-油管3ok
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 3
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 🇯🇵 ok 日本(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 ok 美国(欢迎订阅Youtube破解资源君) 8
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 22
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 23
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 🇯🇵 ok 日本(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 ok 110美国
+      - 🇺🇸 ok 109美国
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -885,23 +1254,6 @@ rules:
  - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
- - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
- - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
- - DOMAIN,dl.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
- - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
- - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
- - DOMAIN,xivanalysis.com,🎯 全球直连
- - DOMAIN,picanalysis.vivo.com.cn,🎯 全球直连
- - DOMAIN,fairplay.l.qq.com,🎯 全球直连
- - DOMAIN,livew.l.qq.com,🎯 全球直连
- - DOMAIN,vd.l.qq.com,🎯 全球直连
- - DOMAIN,analytics.strava.com,🎯 全球直连
- - DOMAIN,msg.umeng.com,🎯 全球直连
- - DOMAIN,msg.umengcloud.com,🎯 全球直连
- - DOMAIN,tracking.miui.com,🎯 全球直连
- - DOMAIN,app.adjust.com,🎯 全球直连
- - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -2728,18 +3080,6 @@ rules:
  - IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
  - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
  - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
- - DOMAIN-SUFFIX,t.me,📲 电报信息
- - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
- - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
- - DOMAIN-SUFFIX,telegram.me,📲 电报信息
- - DOMAIN-SUFFIX,telegram.org,📲 电报信息
- - DOMAIN-SUFFIX,telesco.pe,📲 电报信息
- - IP-CIDR,91.108.0.0/16,📲 电报信息,no-resolve
- - IP-CIDR,109.239.140.0/24,📲 电报信息,no-resolve
- - IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
- - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
- - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
- - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
  - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
  - DOMAIN-SUFFIX,go.com,🌍 国外媒体
  - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
@@ -3039,9 +3379,6 @@ rules:
  - DOMAIN-SUFFIX,youtu.be,🌍 国外媒体
  - DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
  - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
- - PROCESS-NAME,com.google.android.apps.youtube.music,🌍 国外媒体
- - PROCESS-NAME,com.google.android.youtube.tvmusicroot,🌍 国外媒体
- - PROCESS-NAME,com.vanced.android.apps.youtube.music,🌍 国外媒体
  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
  - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
  - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
@@ -3054,6 +3391,8 @@ rules:
  - DOMAIN-SUFFIX,hoyolab.com,🚀 节点选择
  - DOMAIN-SUFFIX,inoreader.com,🚀 节点选择
  - DOMAIN-SUFFIX,ip138.com,🚀 节点选择
+ - DOMAIN-SUFFIX,myteamspeak.com,🚀 节点选择
+ - DOMAIN-SUFFIX,notion.so,🚀 节点选择
  - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
  - DOMAIN-SUFFIX,reddit.com,🚀 节点选择
  - DOMAIN-SUFFIX,teddysun.com,🚀 节点选择
