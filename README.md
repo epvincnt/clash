@@ -5,1077 +5,541 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 2, server: 134.195.198.178, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君), server: 172.99.190.90, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 2, server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok 欧洲(欢迎订阅Youtube破解资源君) 3, server: 134.195.196.214, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.27）, server: t9.ssrsub.com, port: 21033, type: trojan, password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb, sni: t9.ssrsub.com}
-  - {name: ok CYL-科技（2021.11.27） 2, server: 137.184.184.83, port: 2053, type: vmess, uuid: 5580bd79-ba49-3f67-a710-5b917bdac2d8, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 137.184.184.83}}
-  - {name: ok CYL-科技（2021.11.27） 3, server: t9.ssrsub.com, port: 21033, type: trojan, password: 1ed0dd9b-7c66-4738-be47-8e543b2126e4, sni: t9.ssrsub.com}
-  - {name: ok CYL-科技（2021.11.27） 4, server: zj.haojiahuo.club, port: 30077, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: ok CYL-科技（2021.11.27） 5, server: ukml.52jjyun.top, port: 80, type: vmess, uuid: 613eee52-bfd9-47d1-a47d-37bdf1367aab, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ukml.52jjyun.top}}
-  - {name: ok CYL-科技（2021.11.27） 6, server: zj.haojiahuo.club, port: 30045, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: ok CYL-科技（2021.11.27） 7, server: 134.195.196.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok CYL-科技（2021.11.27） 8, server: 146.0.36.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ok CYL-科技（2021.11.27） 9, server: 142.202.48.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.27） 10, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: ok CYL-科技（2021.11.27） 11, server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
-  - {name: ok CYL-科技（2021.11.27） 12, server: 134.195.196.12, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.27） 13, server: 134.195.196.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: ok CYL-科技（2021.11.27） 14, server: 134.195.196.52, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.27） 15, server: 167.88.63.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.27） 16, server: 134.195.196.52, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok CYL-科技（2021.11.27） 17, server: 142.202.48.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ok CYL-科技（2021.11.26）, server: 142.202.48.108, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ok CYL-科技（2021.11.26） 2, server: 142.202.48.78, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.26） 3, server: 142.202.48.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: ok CYL-科技（2021.11.26） 4, server: 142.202.48.78, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.26） 5, server: 134.195.196.12, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok CYL-科技（2021.11.26） 6, server: 142.202.48.105, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.26） 7, server: 142.202.48.58, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.26） 8, server: 38.75.137.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ok CYL-科技（2021.11.26） 9, server: 172.104.168.83, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ok CYL-科技（2021.11.26） 10, server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ok CYL-科技（2021.11.26） 11, server: 172.252.64.51, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: ok CYL-科技（2021.11.26） 12, server: 38.68.135.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.26） 13, server: 38.68.134.37, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok CYL-科技（2021.11.26） 14, server: 167.88.62.68, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.26） 15, server: 38.68.134.37, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok CYL-科技（2021.11.26） 16, server: 167.88.62.68, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.26） 17, server: 172.104.168.83, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.26） 18, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.26） 19, server: 167.88.63.89, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: ok CYL-科技（2021.11.26） 20, server: 134.195.196.217, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: ok CYL-科技（2021.11.26） 21, server: 167.88.62.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: ok CYL-科技（2021.11.26） 22, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok CYL-科技（2021.11.26） 23, server: 142.202.48.77, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.26） 24, server: 142.202.48.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.26） 25, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ok CYL-科技（2021.11.26） 26, server: 167.88.63.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.26） 27, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.26） 28, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
-  - {name: ok CYL-科技（2021.11.26） 29, server: 142.202.48.77, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: ok CYL-科技（2021.11.26） 30, server: 198.57.27.184, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.26） 31, server: 142.202.48.55, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.26） 32, server: 142.202.48.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.26） 33, server: 198.57.27.184, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.26） 34, server: 142.202.48.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: ok CYL-科技（2021.11.26） 35, server: 142.202.48.7, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ok CYL-科技（2021.11.26） 36, server: 142.202.48.17, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: ok CYL-科技（2021.11.26） 37, server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ok CYL-科技（2021.11.26） 38, server: 142.202.48.78, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ok CYL-科技（2021.11.26） 39, server: 142.202.48.105, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.26） 40, server: 38.114.114.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.26） 41, server: 167.88.63.74, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: ok CYL-科技（2021.11.26） 42, server: 167.88.63.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.26） 43, server: 167.88.63.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.26） 44, server: 167.88.63.89, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.26） 45, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
-  - {name: ok CYL-科技（2021.11.26） 46, server: 38.75.136.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.26） 47, server: 172.104.168.83, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.26） 48, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.26） 49, server: 38.68.134.37, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ok CYL-科技（2021.11.26） 50, server: 38.75.137.66, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.26） 51, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.26） 52, server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.26） 53, server: 167.88.62.68, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok CYL-科技（2021.11.26） 54, server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.26） 55, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok CYL-科技（2021.11.26） 56, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: ok CYL-科技（2021.11.26） 57, server: 167.88.62.68, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.26） 58, server: 38.68.134.190, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.26） 59, server: 167.88.62.68, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: ok CYL-科技（2021.11.26） 60, server: 38.68.134.37, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok CYL-科技（2021.11.26） 61, server: 38.68.135.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: ok CYL-科技（2021.11.26） 62, server: 172.104.168.83, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok CYL-科技（2021.11.26） 63, server: 172.104.168.83, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.26） 64, server: 38.114.114.68, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.26） 65, server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: germany-dusseldorf.mah3Hoet.com}}
-  - {name: ok CYL-科技（2021.11.26） 66, server: 172.99.190.186, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.26） 67, server: 38.114.114.69, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.26） 68, server: 38.68.134.23, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ok CYL-科技（2021.11.25）, server: ex.oracleusa.ml, port: 443, type: vmess, uuid: 29d8e9c2-c88f-4a86-a615-2a76dcc2458b, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: ex.oracleusa.ml}}
-  - {name: ok CYL-科技（2021.11.25） 2, server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: ok CYL-科技（2021.11.25） 3, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok CYL-科技（2021.11.25） 4, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.25） 5, server: 134.195.196.214, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.25） 6, server: 134.195.198.95, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok CYL-科技（2021.11.25） 7, server: 134.195.198.178, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok CYL-科技（2021.11.25） 8, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: ok CYL-科技（2021.11.25） 9, server: 134.195.196.33, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok CYL-科技（2021.11.25） 10, server: 134.195.196.3, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.25） 11, server: 172.99.190.186, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.25） 12, server: 172.105.244.165, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: ok CYL-科技（2021.11.25） 13, server: 172.99.190.90, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: ok CYL-科技（2021.11.25） 14, server: ahH4eihu.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: ahH4eihu.com}}
-  - {name: ok CYL-科技（2021.11.25） 15, server: italy-milan.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: italy-milan.mah3Hoet.com}}
-  - {name: ok CYL-科技（2021.11.25） 16, server: 172.99.190.186, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.25） 17, server: 89.163.220.82, port: 11016, type: vmess, uuid: 842fcd78-475d-11ec-aa20-9cb6548b0ccc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /cOhjRn2G/, ws-headers: {Host: 89.163.220.82}}
-  - {name: ok CYL-科技（2021.11.25） 18, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
-  - {name: ok CYL-科技（2021.11.25） 19, server: ex.oracleusa.ml, port: 443, type: vmess, uuid: 29d8e9c2-c88f-4a86-a615-2a76dcc2458b, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: ex.oracleusa.ml}}
-  - {name: ok CYL-科技（2021.11.25） 20, server: 134.195.196.214, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok CYL-科技（2021.11.25） 21, server: kr3.futi.online, port: 2053, type: vmess, uuid: e60a3ed8-6620-4fce-b926-60af2c693f3f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr3.futi.online}}
-  - {name: ok CYL-科技（2021.11.25） 22, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.25） 23, server: Ze9baeS5.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: Ze9baeS5.com}}
-  - {name: ok CYL-科技（2021.11.25） 24, server: 172.105.171.80, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.11.25） 25, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
-  - {name: ok CYL-科技（2021.11.24）, server: 134.195.198.95, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.24） 2, server: 134.195.198.95, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok CYL-科技（2021.11.24） 3, server: shai7ein.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: shai7ein.com}}
-  - {name: ok CYL-科技（2021.11.24） 4, server: 172.99.190.186, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok CYL-科技（2021.11.24） 5, server: eeh7iewe.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: eeh7iewe.com}}
-  - {name: ok CYL-科技（2021.11.24） 6, server: 198.41.212.154, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/ws/?ed=2048", ws-headers: {Host: download.china666.ml}}
-  - {name: ok CYL-科技（2021.11.24） 7, server: www.digitalocean.com, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/ws/?ed=2048", ws-headers: {Host: download.china666.ml}}
-  - {name: ok CYL-科技（2021.11.24） 8, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}}
-  - {name: ok CYL-科技（2021.11.24） 9, server: chuch3go.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: chuch3go.com}}
-  - {name: ok CYL-科技（2021.11.24） 10, server: 134.195.196.214, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok CYL-科技（2021.11.22）ok, server: canada-vancouver.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: canada-vancouver.mah3Hoet.com}}
-  - {name: ok CYL-科技（2021.11.22）ok 2, server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
-  - {name: 🇺🇸 ok 110美国, server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3}
-  - {name: 🇺🇸 ok 109美国, server: 23.106.33.156, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: R3wS0jxB8ARCZgapOF8a4CpFc5lSOqCDZYSXD2a3zuY7eETD6IANy39elnxKy3}
+  - {name: ok CYL-科技（2021.12.02）, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.02） 2, server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.12.02） 3, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.02） 4, server: 142.202.48.7, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: ok CYL-科技（2021.12.02） 5, server: 142.202.48.83, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: ok CYL-科技（2021.11.30）, server: 38.91.100.27, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.30） 2, server: 38.91.100.27, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok CYL-科技（2021.12.02） 6, server: 142.202.48.7, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: ok CYL-科技（2021.12.02） 7, server: zj.haojiahuo.club, port: 30077, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: ok CYL-科技（2021.12.02） 8, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
+  - {name: ok CYL-科技（2021.12.01）, server: 38.91.100.27, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.27）, server: 134.195.196.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.12.02） 9, server: 134.195.196.3, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.12.02） 10, server: 85.208.108.194, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ok CYL-科技（2021.12.02） 11, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: ok CYL-科技（2021.11.30） 3, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
+  - {name: ok CYL-科技（2021.12.02） 12, server: 134.195.196.3, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok CYL-科技（2021.12.02） 13, server: canada-vancouver.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: canada-vancouver.mah3Hoet.com}}
+  - {name: ok CYL-科技（2021.12.02） 14, server: jp03-vm0.entry.ikuuu.casa, port: 444, type: vmess, uuid: 8f475d53-49d8-3d3d-96d0-d820fdcd9b92, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp03-vm0.entry.ikuuu.casa}}
+  - {name: ok CYL-科技（2021.12.02） 15, server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.11.30） 4, server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
+  - {name: ok CYL-科技（2021.11.27） 2, server: shcn2-06b.iplc188.com, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.02） 16, server: poo1faht.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: poo1faht.com}}
+  - {name: ok CYL-科技（2021.11.27） 3, server: 134.195.196.52, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.11.27） 4, server: 134.195.196.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok CYL-科技（2021.12.02） 17, server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ok CYL-科技（2021.12.02） 18, server: 172.99.190.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok CYL-科技（2021.12.01） 2, server: 134.195.196.52, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok CYL-科技（2021.12.02） 19, server: zecjk.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: zecjk.com}}
+  - {name: ok CYL-科技（2021.11.30） 5, server: 93.186.201.124, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ok CYL-科技（2021.11.30） 6, server: 64.32.13.3, port: 443, type: vmess, uuid: 4dc574eb-94e8-439e-aad6-4d74df1a38c5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.12001759.xyz}}
+  - {name: ok CYL-科技（2021.11.27） 5, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.02） 20, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.11.30） 7, server: viibah6u.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: viibah6u.com}}
+  - {name: ok CYL-科技（2021.11.27） 6, server: 134.195.196.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.11.27） 7, server: 134.195.196.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: ok CYL-科技（2021.12.02） 21, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: ok CYL-科技（2021.11.30） 8, server: 5.253.204.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qLzS7DF9qRYxJTHfckhC}
+  - {name: ok CYL-科技（2021.11.27） 8, server: 134.195.196.52, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.12.02） 22, server: ru.52jjyun.top, port: 80, type: vmess, uuid: 613eee52-bfd9-47d1-a47d-37bdf1367aab, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ru.52jjyun.top}}
+  - {name: ok CYL-科技（2021.11.27） 9, server: 146.0.36.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok CYL-科技（2021.12.02） 23, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.02） 24, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok CYL-科技（2021.12.02） 25, server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
+  - {name: ok CYL-科技（2021.11.30） 9, server: t6.ssrsub.com, port: 21033, type: trojan, password: 1ed0dd9b-7c66-4738-be47-8e543b2126e4, sni: t6.ssrsub.com}
+  - {name: ok CYL-科技（2021.11.27） 10, server: 134.195.196.52, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.11.24）, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}}
+  - {name: ok CYL-科技（2021.11.27） 11, server: t9.ssrsub.com, port: 21033, type: trojan, password: 1ed0dd9b-7c66-4738-be47-8e543b2126e4, sni: t9.ssrsub.com}
+  - {name: ok CYL-科技（2021.11.30） 10, server: 81.90.189.18, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ok CYL-科技（2021.11.30） 11, server: 107.189.12.75, port: 80, type: vmess, uuid: 261aeb5f-b6f7-359c-a321-9794bf344e12, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 107.189.12.75}}
+  - {name: ok CYL-科技（2021.11.25）, server: 134.195.198.178, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.11.30） 12, server: 81.90.189.18, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ok CYL-科技（2021.11.30） 13, server: 81.90.189.57, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ok CYL-科技（2021.11.30） 14, server: 81.90.189.18, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ok CYL-科技（2021.11.27） 12, server: ukml.52jjyun.top, port: 80, type: vmess, uuid: 613eee52-bfd9-47d1-a47d-37bdf1367aab, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ukml.52jjyun.top}}
+  - {name: ok CYL-科技（2021.12.01） 3, server: 38.91.100.27, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: ok CYL-科技（2021.12.01） 4, server: 38.91.100.27, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 ok 阿伟科技-油管🇺🇸US_1627, server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.26）, server: 142.202.48.105, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 ok 阿伟科技-油管🇺🇸US_1201, server: 38.114.114.68, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.27） 13, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
+  - {name: ok CYL-科技（2021.11.25） 2, server: ahH4eihu.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: ahH4eihu.com}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 2
-      - ok 欧洲(欢迎订阅Youtube破解资源君)
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 3
+      - ok CYL-科技（2021.12.02）
+      - ok CYL-科技（2021.12.02） 2
+      - ok CYL-科技（2021.12.02） 3
+      - ok CYL-科技（2021.12.02） 4
+      - ok CYL-科技（2021.12.02） 5
+      - ok CYL-科技（2021.11.30）
+      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.02） 6
+      - ok CYL-科技（2021.12.02） 7
+      - ok CYL-科技（2021.12.02） 8
+      - ok CYL-科技（2021.12.01）
       - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.12.02） 9
+      - ok CYL-科技（2021.12.02） 10
+      - ok CYL-科技（2021.12.02） 11
+      - ok CYL-科技（2021.11.30） 3
+      - ok CYL-科技（2021.12.02） 12
+      - ok CYL-科技（2021.12.02） 13
+      - ok CYL-科技（2021.12.02） 14
+      - ok CYL-科技（2021.12.02） 15
+      - ok CYL-科技（2021.11.30） 4
       - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.12.02） 16
       - ok CYL-科技（2021.11.27） 3
       - ok CYL-科技（2021.11.27） 4
+      - ok CYL-科技（2021.12.02） 17
+      - ok CYL-科技（2021.12.02） 18
+      - ok CYL-科技（2021.12.01） 2
+      - ok CYL-科技（2021.12.02） 19
+      - ok CYL-科技（2021.11.30） 5
+      - ok CYL-科技（2021.11.30） 6
       - ok CYL-科技（2021.11.27） 5
+      - ok CYL-科技（2021.12.02） 20
+      - ok CYL-科技（2021.11.30） 7
       - ok CYL-科技（2021.11.27） 6
       - ok CYL-科技（2021.11.27） 7
+      - ok CYL-科技（2021.12.02） 21
+      - ok CYL-科技（2021.11.30） 8
       - ok CYL-科技（2021.11.27） 8
+      - ok CYL-科技（2021.12.02） 22
       - ok CYL-科技（2021.11.27） 9
+      - ok CYL-科技（2021.12.02） 23
+      - ok CYL-科技（2021.12.02） 24
+      - ok CYL-科技（2021.12.02） 25
+      - ok CYL-科技（2021.11.30） 9
       - ok CYL-科技（2021.11.27） 10
-      - ok CYL-科技（2021.11.27） 11
-      - ok CYL-科技（2021.11.27） 12
-      - ok CYL-科技（2021.11.27） 13
-      - ok CYL-科技（2021.11.27） 14
-      - ok CYL-科技（2021.11.27） 15
-      - ok CYL-科技（2021.11.27） 16
-      - ok CYL-科技（2021.11.27） 17
-      - ok CYL-科技（2021.11.26）
-      - ok CYL-科技（2021.11.26） 2
-      - ok CYL-科技（2021.11.26） 3
-      - ok CYL-科技（2021.11.26） 4
-      - ok CYL-科技（2021.11.26） 5
-      - ok CYL-科技（2021.11.26） 6
-      - ok CYL-科技（2021.11.26） 7
-      - ok CYL-科技（2021.11.26） 8
-      - ok CYL-科技（2021.11.26） 9
-      - ok CYL-科技（2021.11.26） 10
-      - ok CYL-科技（2021.11.26） 11
-      - ok CYL-科技（2021.11.26） 12
-      - ok CYL-科技（2021.11.26） 13
-      - ok CYL-科技（2021.11.26） 14
-      - ok CYL-科技（2021.11.26） 15
-      - ok CYL-科技（2021.11.26） 16
-      - ok CYL-科技（2021.11.26） 17
-      - ok CYL-科技（2021.11.26） 18
-      - ok CYL-科技（2021.11.26） 19
-      - ok CYL-科技（2021.11.26） 20
-      - ok CYL-科技（2021.11.26） 21
-      - ok CYL-科技（2021.11.26） 22
-      - ok CYL-科技（2021.11.26） 23
-      - ok CYL-科技（2021.11.26） 24
-      - ok CYL-科技（2021.11.26） 25
-      - ok CYL-科技（2021.11.26） 26
-      - ok CYL-科技（2021.11.26） 27
-      - ok CYL-科技（2021.11.26） 28
-      - ok CYL-科技（2021.11.26） 29
-      - ok CYL-科技（2021.11.26） 30
-      - ok CYL-科技（2021.11.26） 31
-      - ok CYL-科技（2021.11.26） 32
-      - ok CYL-科技（2021.11.26） 33
-      - ok CYL-科技（2021.11.26） 34
-      - ok CYL-科技（2021.11.26） 35
-      - ok CYL-科技（2021.11.26） 36
-      - ok CYL-科技（2021.11.26） 37
-      - ok CYL-科技（2021.11.26） 38
-      - ok CYL-科技（2021.11.26） 39
-      - ok CYL-科技（2021.11.26） 40
-      - ok CYL-科技（2021.11.26） 41
-      - ok CYL-科技（2021.11.26） 42
-      - ok CYL-科技（2021.11.26） 43
-      - ok CYL-科技（2021.11.26） 44
-      - ok CYL-科技（2021.11.26） 45
-      - ok CYL-科技（2021.11.26） 46
-      - ok CYL-科技（2021.11.26） 47
-      - ok CYL-科技（2021.11.26） 48
-      - ok CYL-科技（2021.11.26） 49
-      - ok CYL-科技（2021.11.26） 50
-      - ok CYL-科技（2021.11.26） 51
-      - ok CYL-科技（2021.11.26） 52
-      - ok CYL-科技（2021.11.26） 53
-      - ok CYL-科技（2021.11.26） 54
-      - ok CYL-科技（2021.11.26） 55
-      - ok CYL-科技（2021.11.26） 56
-      - ok CYL-科技（2021.11.26） 57
-      - ok CYL-科技（2021.11.26） 58
-      - ok CYL-科技（2021.11.26） 59
-      - ok CYL-科技（2021.11.26） 60
-      - ok CYL-科技（2021.11.26） 61
-      - ok CYL-科技（2021.11.26） 62
-      - ok CYL-科技（2021.11.26） 63
-      - ok CYL-科技（2021.11.26） 64
-      - ok CYL-科技（2021.11.26） 65
-      - ok CYL-科技（2021.11.26） 66
-      - ok CYL-科技（2021.11.26） 67
-      - ok CYL-科技（2021.11.26） 68
-      - ok CYL-科技（2021.11.25）
-      - ok CYL-科技（2021.11.25） 2
-      - ok CYL-科技（2021.11.25） 3
-      - ok CYL-科技（2021.11.25） 4
-      - ok CYL-科技（2021.11.25） 5
-      - ok CYL-科技（2021.11.25） 6
-      - ok CYL-科技（2021.11.25） 7
-      - ok CYL-科技（2021.11.25） 8
-      - ok CYL-科技（2021.11.25） 9
-      - ok CYL-科技（2021.11.25） 10
-      - ok CYL-科技（2021.11.25） 11
-      - ok CYL-科技（2021.11.25） 12
-      - ok CYL-科技（2021.11.25） 13
-      - ok CYL-科技（2021.11.25） 14
-      - ok CYL-科技（2021.11.25） 15
-      - ok CYL-科技（2021.11.25） 16
-      - ok CYL-科技（2021.11.25） 17
-      - ok CYL-科技（2021.11.25） 18
-      - ok CYL-科技（2021.11.25） 19
-      - ok CYL-科技（2021.11.25） 20
-      - ok CYL-科技（2021.11.25） 21
-      - ok CYL-科技（2021.11.25） 22
-      - ok CYL-科技（2021.11.25） 23
-      - ok CYL-科技（2021.11.25） 24
-      - ok CYL-科技（2021.11.25） 25
       - ok CYL-科技（2021.11.24）
-      - ok CYL-科技（2021.11.24） 2
-      - ok CYL-科技（2021.11.24） 3
-      - ok CYL-科技（2021.11.24） 4
-      - ok CYL-科技（2021.11.24） 5
-      - ok CYL-科技（2021.11.24） 6
-      - ok CYL-科技（2021.11.24） 7
-      - ok CYL-科技（2021.11.24） 8
-      - ok CYL-科技（2021.11.24） 9
-      - ok CYL-科技（2021.11.24） 10
-      - ok CYL-科技（2021.11.22）ok
-      - ok CYL-科技（2021.11.22）ok 2
-      - 🇺🇸 ok 110美国
-      - 🇺🇸 ok 109美国
+      - ok CYL-科技（2021.11.27） 11
+      - ok CYL-科技（2021.11.30） 10
+      - ok CYL-科技（2021.11.30） 11
+      - ok CYL-科技（2021.11.25）
+      - ok CYL-科技（2021.11.30） 12
+      - ok CYL-科技（2021.11.30） 13
+      - ok CYL-科技（2021.11.30） 14
+      - ok CYL-科技（2021.11.27） 12
+      - ok CYL-科技（2021.12.01） 3
+      - ok CYL-科技（2021.12.01） 4
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1627
+      - ok CYL-科技（2021.11.26）
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1201
+      - ok CYL-科技（2021.11.27） 13
+      - ok CYL-科技（2021.11.25） 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 2
-      - ok 欧洲(欢迎订阅Youtube破解资源君)
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 3
+      - ok CYL-科技（2021.12.02）
+      - ok CYL-科技（2021.12.02） 2
+      - ok CYL-科技（2021.12.02） 3
+      - ok CYL-科技（2021.12.02） 4
+      - ok CYL-科技（2021.12.02） 5
+      - ok CYL-科技（2021.11.30）
+      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.02） 6
+      - ok CYL-科技（2021.12.02） 7
+      - ok CYL-科技（2021.12.02） 8
+      - ok CYL-科技（2021.12.01）
       - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.12.02） 9
+      - ok CYL-科技（2021.12.02） 10
+      - ok CYL-科技（2021.12.02） 11
+      - ok CYL-科技（2021.11.30） 3
+      - ok CYL-科技（2021.12.02） 12
+      - ok CYL-科技（2021.12.02） 13
+      - ok CYL-科技（2021.12.02） 14
+      - ok CYL-科技（2021.12.02） 15
+      - ok CYL-科技（2021.11.30） 4
       - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.12.02） 16
       - ok CYL-科技（2021.11.27） 3
       - ok CYL-科技（2021.11.27） 4
+      - ok CYL-科技（2021.12.02） 17
+      - ok CYL-科技（2021.12.02） 18
+      - ok CYL-科技（2021.12.01） 2
+      - ok CYL-科技（2021.12.02） 19
+      - ok CYL-科技（2021.11.30） 5
+      - ok CYL-科技（2021.11.30） 6
       - ok CYL-科技（2021.11.27） 5
+      - ok CYL-科技（2021.12.02） 20
+      - ok CYL-科技（2021.11.30） 7
       - ok CYL-科技（2021.11.27） 6
       - ok CYL-科技（2021.11.27） 7
+      - ok CYL-科技（2021.12.02） 21
+      - ok CYL-科技（2021.11.30） 8
       - ok CYL-科技（2021.11.27） 8
+      - ok CYL-科技（2021.12.02） 22
       - ok CYL-科技（2021.11.27） 9
+      - ok CYL-科技（2021.12.02） 23
+      - ok CYL-科技（2021.12.02） 24
+      - ok CYL-科技（2021.12.02） 25
+      - ok CYL-科技（2021.11.30） 9
       - ok CYL-科技（2021.11.27） 10
-      - ok CYL-科技（2021.11.27） 11
-      - ok CYL-科技（2021.11.27） 12
-      - ok CYL-科技（2021.11.27） 13
-      - ok CYL-科技（2021.11.27） 14
-      - ok CYL-科技（2021.11.27） 15
-      - ok CYL-科技（2021.11.27） 16
-      - ok CYL-科技（2021.11.27） 17
-      - ok CYL-科技（2021.11.26）
-      - ok CYL-科技（2021.11.26） 2
-      - ok CYL-科技（2021.11.26） 3
-      - ok CYL-科技（2021.11.26） 4
-      - ok CYL-科技（2021.11.26） 5
-      - ok CYL-科技（2021.11.26） 6
-      - ok CYL-科技（2021.11.26） 7
-      - ok CYL-科技（2021.11.26） 8
-      - ok CYL-科技（2021.11.26） 9
-      - ok CYL-科技（2021.11.26） 10
-      - ok CYL-科技（2021.11.26） 11
-      - ok CYL-科技（2021.11.26） 12
-      - ok CYL-科技（2021.11.26） 13
-      - ok CYL-科技（2021.11.26） 14
-      - ok CYL-科技（2021.11.26） 15
-      - ok CYL-科技（2021.11.26） 16
-      - ok CYL-科技（2021.11.26） 17
-      - ok CYL-科技（2021.11.26） 18
-      - ok CYL-科技（2021.11.26） 19
-      - ok CYL-科技（2021.11.26） 20
-      - ok CYL-科技（2021.11.26） 21
-      - ok CYL-科技（2021.11.26） 22
-      - ok CYL-科技（2021.11.26） 23
-      - ok CYL-科技（2021.11.26） 24
-      - ok CYL-科技（2021.11.26） 25
-      - ok CYL-科技（2021.11.26） 26
-      - ok CYL-科技（2021.11.26） 27
-      - ok CYL-科技（2021.11.26） 28
-      - ok CYL-科技（2021.11.26） 29
-      - ok CYL-科技（2021.11.26） 30
-      - ok CYL-科技（2021.11.26） 31
-      - ok CYL-科技（2021.11.26） 32
-      - ok CYL-科技（2021.11.26） 33
-      - ok CYL-科技（2021.11.26） 34
-      - ok CYL-科技（2021.11.26） 35
-      - ok CYL-科技（2021.11.26） 36
-      - ok CYL-科技（2021.11.26） 37
-      - ok CYL-科技（2021.11.26） 38
-      - ok CYL-科技（2021.11.26） 39
-      - ok CYL-科技（2021.11.26） 40
-      - ok CYL-科技（2021.11.26） 41
-      - ok CYL-科技（2021.11.26） 42
-      - ok CYL-科技（2021.11.26） 43
-      - ok CYL-科技（2021.11.26） 44
-      - ok CYL-科技（2021.11.26） 45
-      - ok CYL-科技（2021.11.26） 46
-      - ok CYL-科技（2021.11.26） 47
-      - ok CYL-科技（2021.11.26） 48
-      - ok CYL-科技（2021.11.26） 49
-      - ok CYL-科技（2021.11.26） 50
-      - ok CYL-科技（2021.11.26） 51
-      - ok CYL-科技（2021.11.26） 52
-      - ok CYL-科技（2021.11.26） 53
-      - ok CYL-科技（2021.11.26） 54
-      - ok CYL-科技（2021.11.26） 55
-      - ok CYL-科技（2021.11.26） 56
-      - ok CYL-科技（2021.11.26） 57
-      - ok CYL-科技（2021.11.26） 58
-      - ok CYL-科技（2021.11.26） 59
-      - ok CYL-科技（2021.11.26） 60
-      - ok CYL-科技（2021.11.26） 61
-      - ok CYL-科技（2021.11.26） 62
-      - ok CYL-科技（2021.11.26） 63
-      - ok CYL-科技（2021.11.26） 64
-      - ok CYL-科技（2021.11.26） 65
-      - ok CYL-科技（2021.11.26） 66
-      - ok CYL-科技（2021.11.26） 67
-      - ok CYL-科技（2021.11.26） 68
-      - ok CYL-科技（2021.11.25）
-      - ok CYL-科技（2021.11.25） 2
-      - ok CYL-科技（2021.11.25） 3
-      - ok CYL-科技（2021.11.25） 4
-      - ok CYL-科技（2021.11.25） 5
-      - ok CYL-科技（2021.11.25） 6
-      - ok CYL-科技（2021.11.25） 7
-      - ok CYL-科技（2021.11.25） 8
-      - ok CYL-科技（2021.11.25） 9
-      - ok CYL-科技（2021.11.25） 10
-      - ok CYL-科技（2021.11.25） 11
-      - ok CYL-科技（2021.11.25） 12
-      - ok CYL-科技（2021.11.25） 13
-      - ok CYL-科技（2021.11.25） 14
-      - ok CYL-科技（2021.11.25） 15
-      - ok CYL-科技（2021.11.25） 16
-      - ok CYL-科技（2021.11.25） 17
-      - ok CYL-科技（2021.11.25） 18
-      - ok CYL-科技（2021.11.25） 19
-      - ok CYL-科技（2021.11.25） 20
-      - ok CYL-科技（2021.11.25） 21
-      - ok CYL-科技（2021.11.25） 22
-      - ok CYL-科技（2021.11.25） 23
-      - ok CYL-科技（2021.11.25） 24
-      - ok CYL-科技（2021.11.25） 25
       - ok CYL-科技（2021.11.24）
-      - ok CYL-科技（2021.11.24） 2
-      - ok CYL-科技（2021.11.24） 3
-      - ok CYL-科技（2021.11.24） 4
-      - ok CYL-科技（2021.11.24） 5
-      - ok CYL-科技（2021.11.24） 6
-      - ok CYL-科技（2021.11.24） 7
-      - ok CYL-科技（2021.11.24） 8
-      - ok CYL-科技（2021.11.24） 9
-      - ok CYL-科技（2021.11.24） 10
-      - ok CYL-科技（2021.11.22）ok
-      - ok CYL-科技（2021.11.22）ok 2
-      - 🇺🇸 ok 110美国
-      - 🇺🇸 ok 109美国
+      - ok CYL-科技（2021.11.27） 11
+      - ok CYL-科技（2021.11.30） 10
+      - ok CYL-科技（2021.11.30） 11
+      - ok CYL-科技（2021.11.25）
+      - ok CYL-科技（2021.11.30） 12
+      - ok CYL-科技（2021.11.30） 13
+      - ok CYL-科技（2021.11.30） 14
+      - ok CYL-科技（2021.11.27） 12
+      - ok CYL-科技（2021.12.01） 3
+      - ok CYL-科技（2021.12.01） 4
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1627
+      - ok CYL-科技（2021.11.26）
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1201
+      - ok CYL-科技（2021.11.27） 13
+      - ok CYL-科技（2021.11.25） 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 2
-      - ok 欧洲(欢迎订阅Youtube破解资源君)
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 3
+      - ok CYL-科技（2021.12.02）
+      - ok CYL-科技（2021.12.02） 2
+      - ok CYL-科技（2021.12.02） 3
+      - ok CYL-科技（2021.12.02） 4
+      - ok CYL-科技（2021.12.02） 5
+      - ok CYL-科技（2021.11.30）
+      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.02） 6
+      - ok CYL-科技（2021.12.02） 7
+      - ok CYL-科技（2021.12.02） 8
+      - ok CYL-科技（2021.12.01）
       - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.12.02） 9
+      - ok CYL-科技（2021.12.02） 10
+      - ok CYL-科技（2021.12.02） 11
+      - ok CYL-科技（2021.11.30） 3
+      - ok CYL-科技（2021.12.02） 12
+      - ok CYL-科技（2021.12.02） 13
+      - ok CYL-科技（2021.12.02） 14
+      - ok CYL-科技（2021.12.02） 15
+      - ok CYL-科技（2021.11.30） 4
       - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.12.02） 16
       - ok CYL-科技（2021.11.27） 3
       - ok CYL-科技（2021.11.27） 4
+      - ok CYL-科技（2021.12.02） 17
+      - ok CYL-科技（2021.12.02） 18
+      - ok CYL-科技（2021.12.01） 2
+      - ok CYL-科技（2021.12.02） 19
+      - ok CYL-科技（2021.11.30） 5
+      - ok CYL-科技（2021.11.30） 6
       - ok CYL-科技（2021.11.27） 5
+      - ok CYL-科技（2021.12.02） 20
+      - ok CYL-科技（2021.11.30） 7
       - ok CYL-科技（2021.11.27） 6
       - ok CYL-科技（2021.11.27） 7
+      - ok CYL-科技（2021.12.02） 21
+      - ok CYL-科技（2021.11.30） 8
       - ok CYL-科技（2021.11.27） 8
+      - ok CYL-科技（2021.12.02） 22
       - ok CYL-科技（2021.11.27） 9
+      - ok CYL-科技（2021.12.02） 23
+      - ok CYL-科技（2021.12.02） 24
+      - ok CYL-科技（2021.12.02） 25
+      - ok CYL-科技（2021.11.30） 9
       - ok CYL-科技（2021.11.27） 10
-      - ok CYL-科技（2021.11.27） 11
-      - ok CYL-科技（2021.11.27） 12
-      - ok CYL-科技（2021.11.27） 13
-      - ok CYL-科技（2021.11.27） 14
-      - ok CYL-科技（2021.11.27） 15
-      - ok CYL-科技（2021.11.27） 16
-      - ok CYL-科技（2021.11.27） 17
-      - ok CYL-科技（2021.11.26）
-      - ok CYL-科技（2021.11.26） 2
-      - ok CYL-科技（2021.11.26） 3
-      - ok CYL-科技（2021.11.26） 4
-      - ok CYL-科技（2021.11.26） 5
-      - ok CYL-科技（2021.11.26） 6
-      - ok CYL-科技（2021.11.26） 7
-      - ok CYL-科技（2021.11.26） 8
-      - ok CYL-科技（2021.11.26） 9
-      - ok CYL-科技（2021.11.26） 10
-      - ok CYL-科技（2021.11.26） 11
-      - ok CYL-科技（2021.11.26） 12
-      - ok CYL-科技（2021.11.26） 13
-      - ok CYL-科技（2021.11.26） 14
-      - ok CYL-科技（2021.11.26） 15
-      - ok CYL-科技（2021.11.26） 16
-      - ok CYL-科技（2021.11.26） 17
-      - ok CYL-科技（2021.11.26） 18
-      - ok CYL-科技（2021.11.26） 19
-      - ok CYL-科技（2021.11.26） 20
-      - ok CYL-科技（2021.11.26） 21
-      - ok CYL-科技（2021.11.26） 22
-      - ok CYL-科技（2021.11.26） 23
-      - ok CYL-科技（2021.11.26） 24
-      - ok CYL-科技（2021.11.26） 25
-      - ok CYL-科技（2021.11.26） 26
-      - ok CYL-科技（2021.11.26） 27
-      - ok CYL-科技（2021.11.26） 28
-      - ok CYL-科技（2021.11.26） 29
-      - ok CYL-科技（2021.11.26） 30
-      - ok CYL-科技（2021.11.26） 31
-      - ok CYL-科技（2021.11.26） 32
-      - ok CYL-科技（2021.11.26） 33
-      - ok CYL-科技（2021.11.26） 34
-      - ok CYL-科技（2021.11.26） 35
-      - ok CYL-科技（2021.11.26） 36
-      - ok CYL-科技（2021.11.26） 37
-      - ok CYL-科技（2021.11.26） 38
-      - ok CYL-科技（2021.11.26） 39
-      - ok CYL-科技（2021.11.26） 40
-      - ok CYL-科技（2021.11.26） 41
-      - ok CYL-科技（2021.11.26） 42
-      - ok CYL-科技（2021.11.26） 43
-      - ok CYL-科技（2021.11.26） 44
-      - ok CYL-科技（2021.11.26） 45
-      - ok CYL-科技（2021.11.26） 46
-      - ok CYL-科技（2021.11.26） 47
-      - ok CYL-科技（2021.11.26） 48
-      - ok CYL-科技（2021.11.26） 49
-      - ok CYL-科技（2021.11.26） 50
-      - ok CYL-科技（2021.11.26） 51
-      - ok CYL-科技（2021.11.26） 52
-      - ok CYL-科技（2021.11.26） 53
-      - ok CYL-科技（2021.11.26） 54
-      - ok CYL-科技（2021.11.26） 55
-      - ok CYL-科技（2021.11.26） 56
-      - ok CYL-科技（2021.11.26） 57
-      - ok CYL-科技（2021.11.26） 58
-      - ok CYL-科技（2021.11.26） 59
-      - ok CYL-科技（2021.11.26） 60
-      - ok CYL-科技（2021.11.26） 61
-      - ok CYL-科技（2021.11.26） 62
-      - ok CYL-科技（2021.11.26） 63
-      - ok CYL-科技（2021.11.26） 64
-      - ok CYL-科技（2021.11.26） 65
-      - ok CYL-科技（2021.11.26） 66
-      - ok CYL-科技（2021.11.26） 67
-      - ok CYL-科技（2021.11.26） 68
-      - ok CYL-科技（2021.11.25）
-      - ok CYL-科技（2021.11.25） 2
-      - ok CYL-科技（2021.11.25） 3
-      - ok CYL-科技（2021.11.25） 4
-      - ok CYL-科技（2021.11.25） 5
-      - ok CYL-科技（2021.11.25） 6
-      - ok CYL-科技（2021.11.25） 7
-      - ok CYL-科技（2021.11.25） 8
-      - ok CYL-科技（2021.11.25） 9
-      - ok CYL-科技（2021.11.25） 10
-      - ok CYL-科技（2021.11.25） 11
-      - ok CYL-科技（2021.11.25） 12
-      - ok CYL-科技（2021.11.25） 13
-      - ok CYL-科技（2021.11.25） 14
-      - ok CYL-科技（2021.11.25） 15
-      - ok CYL-科技（2021.11.25） 16
-      - ok CYL-科技（2021.11.25） 17
-      - ok CYL-科技（2021.11.25） 18
-      - ok CYL-科技（2021.11.25） 19
-      - ok CYL-科技（2021.11.25） 20
-      - ok CYL-科技（2021.11.25） 21
-      - ok CYL-科技（2021.11.25） 22
-      - ok CYL-科技（2021.11.25） 23
-      - ok CYL-科技（2021.11.25） 24
-      - ok CYL-科技（2021.11.25） 25
       - ok CYL-科技（2021.11.24）
-      - ok CYL-科技（2021.11.24） 2
-      - ok CYL-科技（2021.11.24） 3
-      - ok CYL-科技（2021.11.24） 4
-      - ok CYL-科技（2021.11.24） 5
-      - ok CYL-科技（2021.11.24） 6
-      - ok CYL-科技（2021.11.24） 7
-      - ok CYL-科技（2021.11.24） 8
-      - ok CYL-科技（2021.11.24） 9
-      - ok CYL-科技（2021.11.24） 10
-      - ok CYL-科技（2021.11.22）ok
-      - ok CYL-科技（2021.11.22）ok 2
-      - 🇺🇸 ok 110美国
-      - 🇺🇸 ok 109美国
+      - ok CYL-科技（2021.11.27） 11
+      - ok CYL-科技（2021.11.30） 10
+      - ok CYL-科技（2021.11.30） 11
+      - ok CYL-科技（2021.11.25）
+      - ok CYL-科技（2021.11.30） 12
+      - ok CYL-科技（2021.11.30） 13
+      - ok CYL-科技（2021.11.30） 14
+      - ok CYL-科技（2021.11.27） 12
+      - ok CYL-科技（2021.12.01） 3
+      - ok CYL-科技（2021.12.01） 4
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1627
+      - ok CYL-科技（2021.11.26）
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1201
+      - ok CYL-科技（2021.11.27） 13
+      - ok CYL-科技（2021.11.25） 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 2
-      - ok 欧洲(欢迎订阅Youtube破解资源君)
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 3
+      - ok CYL-科技（2021.12.02）
+      - ok CYL-科技（2021.12.02） 2
+      - ok CYL-科技（2021.12.02） 3
+      - ok CYL-科技（2021.12.02） 4
+      - ok CYL-科技（2021.12.02） 5
+      - ok CYL-科技（2021.11.30）
+      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.02） 6
+      - ok CYL-科技（2021.12.02） 7
+      - ok CYL-科技（2021.12.02） 8
+      - ok CYL-科技（2021.12.01）
       - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.12.02） 9
+      - ok CYL-科技（2021.12.02） 10
+      - ok CYL-科技（2021.12.02） 11
+      - ok CYL-科技（2021.11.30） 3
+      - ok CYL-科技（2021.12.02） 12
+      - ok CYL-科技（2021.12.02） 13
+      - ok CYL-科技（2021.12.02） 14
+      - ok CYL-科技（2021.12.02） 15
+      - ok CYL-科技（2021.11.30） 4
       - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.12.02） 16
       - ok CYL-科技（2021.11.27） 3
       - ok CYL-科技（2021.11.27） 4
+      - ok CYL-科技（2021.12.02） 17
+      - ok CYL-科技（2021.12.02） 18
+      - ok CYL-科技（2021.12.01） 2
+      - ok CYL-科技（2021.12.02） 19
+      - ok CYL-科技（2021.11.30） 5
+      - ok CYL-科技（2021.11.30） 6
       - ok CYL-科技（2021.11.27） 5
+      - ok CYL-科技（2021.12.02） 20
+      - ok CYL-科技（2021.11.30） 7
       - ok CYL-科技（2021.11.27） 6
       - ok CYL-科技（2021.11.27） 7
+      - ok CYL-科技（2021.12.02） 21
+      - ok CYL-科技（2021.11.30） 8
       - ok CYL-科技（2021.11.27） 8
+      - ok CYL-科技（2021.12.02） 22
       - ok CYL-科技（2021.11.27） 9
+      - ok CYL-科技（2021.12.02） 23
+      - ok CYL-科技（2021.12.02） 24
+      - ok CYL-科技（2021.12.02） 25
+      - ok CYL-科技（2021.11.30） 9
       - ok CYL-科技（2021.11.27） 10
-      - ok CYL-科技（2021.11.27） 11
-      - ok CYL-科技（2021.11.27） 12
-      - ok CYL-科技（2021.11.27） 13
-      - ok CYL-科技（2021.11.27） 14
-      - ok CYL-科技（2021.11.27） 15
-      - ok CYL-科技（2021.11.27） 16
-      - ok CYL-科技（2021.11.27） 17
-      - ok CYL-科技（2021.11.26）
-      - ok CYL-科技（2021.11.26） 2
-      - ok CYL-科技（2021.11.26） 3
-      - ok CYL-科技（2021.11.26） 4
-      - ok CYL-科技（2021.11.26） 5
-      - ok CYL-科技（2021.11.26） 6
-      - ok CYL-科技（2021.11.26） 7
-      - ok CYL-科技（2021.11.26） 8
-      - ok CYL-科技（2021.11.26） 9
-      - ok CYL-科技（2021.11.26） 10
-      - ok CYL-科技（2021.11.26） 11
-      - ok CYL-科技（2021.11.26） 12
-      - ok CYL-科技（2021.11.26） 13
-      - ok CYL-科技（2021.11.26） 14
-      - ok CYL-科技（2021.11.26） 15
-      - ok CYL-科技（2021.11.26） 16
-      - ok CYL-科技（2021.11.26） 17
-      - ok CYL-科技（2021.11.26） 18
-      - ok CYL-科技（2021.11.26） 19
-      - ok CYL-科技（2021.11.26） 20
-      - ok CYL-科技（2021.11.26） 21
-      - ok CYL-科技（2021.11.26） 22
-      - ok CYL-科技（2021.11.26） 23
-      - ok CYL-科技（2021.11.26） 24
-      - ok CYL-科技（2021.11.26） 25
-      - ok CYL-科技（2021.11.26） 26
-      - ok CYL-科技（2021.11.26） 27
-      - ok CYL-科技（2021.11.26） 28
-      - ok CYL-科技（2021.11.26） 29
-      - ok CYL-科技（2021.11.26） 30
-      - ok CYL-科技（2021.11.26） 31
-      - ok CYL-科技（2021.11.26） 32
-      - ok CYL-科技（2021.11.26） 33
-      - ok CYL-科技（2021.11.26） 34
-      - ok CYL-科技（2021.11.26） 35
-      - ok CYL-科技（2021.11.26） 36
-      - ok CYL-科技（2021.11.26） 37
-      - ok CYL-科技（2021.11.26） 38
-      - ok CYL-科技（2021.11.26） 39
-      - ok CYL-科技（2021.11.26） 40
-      - ok CYL-科技（2021.11.26） 41
-      - ok CYL-科技（2021.11.26） 42
-      - ok CYL-科技（2021.11.26） 43
-      - ok CYL-科技（2021.11.26） 44
-      - ok CYL-科技（2021.11.26） 45
-      - ok CYL-科技（2021.11.26） 46
-      - ok CYL-科技（2021.11.26） 47
-      - ok CYL-科技（2021.11.26） 48
-      - ok CYL-科技（2021.11.26） 49
-      - ok CYL-科技（2021.11.26） 50
-      - ok CYL-科技（2021.11.26） 51
-      - ok CYL-科技（2021.11.26） 52
-      - ok CYL-科技（2021.11.26） 53
-      - ok CYL-科技（2021.11.26） 54
-      - ok CYL-科技（2021.11.26） 55
-      - ok CYL-科技（2021.11.26） 56
-      - ok CYL-科技（2021.11.26） 57
-      - ok CYL-科技（2021.11.26） 58
-      - ok CYL-科技（2021.11.26） 59
-      - ok CYL-科技（2021.11.26） 60
-      - ok CYL-科技（2021.11.26） 61
-      - ok CYL-科技（2021.11.26） 62
-      - ok CYL-科技（2021.11.26） 63
-      - ok CYL-科技（2021.11.26） 64
-      - ok CYL-科技（2021.11.26） 65
-      - ok CYL-科技（2021.11.26） 66
-      - ok CYL-科技（2021.11.26） 67
-      - ok CYL-科技（2021.11.26） 68
-      - ok CYL-科技（2021.11.25）
-      - ok CYL-科技（2021.11.25） 2
-      - ok CYL-科技（2021.11.25） 3
-      - ok CYL-科技（2021.11.25） 4
-      - ok CYL-科技（2021.11.25） 5
-      - ok CYL-科技（2021.11.25） 6
-      - ok CYL-科技（2021.11.25） 7
-      - ok CYL-科技（2021.11.25） 8
-      - ok CYL-科技（2021.11.25） 9
-      - ok CYL-科技（2021.11.25） 10
-      - ok CYL-科技（2021.11.25） 11
-      - ok CYL-科技（2021.11.25） 12
-      - ok CYL-科技（2021.11.25） 13
-      - ok CYL-科技（2021.11.25） 14
-      - ok CYL-科技（2021.11.25） 15
-      - ok CYL-科技（2021.11.25） 16
-      - ok CYL-科技（2021.11.25） 17
-      - ok CYL-科技（2021.11.25） 18
-      - ok CYL-科技（2021.11.25） 19
-      - ok CYL-科技（2021.11.25） 20
-      - ok CYL-科技（2021.11.25） 21
-      - ok CYL-科技（2021.11.25） 22
-      - ok CYL-科技（2021.11.25） 23
-      - ok CYL-科技（2021.11.25） 24
-      - ok CYL-科技（2021.11.25） 25
       - ok CYL-科技（2021.11.24）
-      - ok CYL-科技（2021.11.24） 2
-      - ok CYL-科技（2021.11.24） 3
-      - ok CYL-科技（2021.11.24） 4
-      - ok CYL-科技（2021.11.24） 5
-      - ok CYL-科技（2021.11.24） 6
-      - ok CYL-科技（2021.11.24） 7
-      - ok CYL-科技（2021.11.24） 8
-      - ok CYL-科技（2021.11.24） 9
-      - ok CYL-科技（2021.11.24） 10
-      - ok CYL-科技（2021.11.22）ok
-      - ok CYL-科技（2021.11.22）ok 2
-      - 🇺🇸 ok 110美国
-      - 🇺🇸 ok 109美国
+      - ok CYL-科技（2021.11.27） 11
+      - ok CYL-科技（2021.11.30） 10
+      - ok CYL-科技（2021.11.30） 11
+      - ok CYL-科技（2021.11.25）
+      - ok CYL-科技（2021.11.30） 12
+      - ok CYL-科技（2021.11.30） 13
+      - ok CYL-科技（2021.11.30） 14
+      - ok CYL-科技（2021.11.27） 12
+      - ok CYL-科技（2021.12.01） 3
+      - ok CYL-科技（2021.12.01） 4
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1627
+      - ok CYL-科技（2021.11.26）
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1201
+      - ok CYL-科技（2021.11.27） 13
+      - ok CYL-科技（2021.11.25） 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 2
-      - ok 欧洲(欢迎订阅Youtube破解资源君)
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 3
+      - ok CYL-科技（2021.12.02）
+      - ok CYL-科技（2021.12.02） 2
+      - ok CYL-科技（2021.12.02） 3
+      - ok CYL-科技（2021.12.02） 4
+      - ok CYL-科技（2021.12.02） 5
+      - ok CYL-科技（2021.11.30）
+      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.02） 6
+      - ok CYL-科技（2021.12.02） 7
+      - ok CYL-科技（2021.12.02） 8
+      - ok CYL-科技（2021.12.01）
       - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.12.02） 9
+      - ok CYL-科技（2021.12.02） 10
+      - ok CYL-科技（2021.12.02） 11
+      - ok CYL-科技（2021.11.30） 3
+      - ok CYL-科技（2021.12.02） 12
+      - ok CYL-科技（2021.12.02） 13
+      - ok CYL-科技（2021.12.02） 14
+      - ok CYL-科技（2021.12.02） 15
+      - ok CYL-科技（2021.11.30） 4
       - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.12.02） 16
       - ok CYL-科技（2021.11.27） 3
       - ok CYL-科技（2021.11.27） 4
+      - ok CYL-科技（2021.12.02） 17
+      - ok CYL-科技（2021.12.02） 18
+      - ok CYL-科技（2021.12.01） 2
+      - ok CYL-科技（2021.12.02） 19
+      - ok CYL-科技（2021.11.30） 5
+      - ok CYL-科技（2021.11.30） 6
       - ok CYL-科技（2021.11.27） 5
+      - ok CYL-科技（2021.12.02） 20
+      - ok CYL-科技（2021.11.30） 7
       - ok CYL-科技（2021.11.27） 6
       - ok CYL-科技（2021.11.27） 7
+      - ok CYL-科技（2021.12.02） 21
+      - ok CYL-科技（2021.11.30） 8
       - ok CYL-科技（2021.11.27） 8
+      - ok CYL-科技（2021.12.02） 22
       - ok CYL-科技（2021.11.27） 9
+      - ok CYL-科技（2021.12.02） 23
+      - ok CYL-科技（2021.12.02） 24
+      - ok CYL-科技（2021.12.02） 25
+      - ok CYL-科技（2021.11.30） 9
       - ok CYL-科技（2021.11.27） 10
-      - ok CYL-科技（2021.11.27） 11
-      - ok CYL-科技（2021.11.27） 12
-      - ok CYL-科技（2021.11.27） 13
-      - ok CYL-科技（2021.11.27） 14
-      - ok CYL-科技（2021.11.27） 15
-      - ok CYL-科技（2021.11.27） 16
-      - ok CYL-科技（2021.11.27） 17
-      - ok CYL-科技（2021.11.26）
-      - ok CYL-科技（2021.11.26） 2
-      - ok CYL-科技（2021.11.26） 3
-      - ok CYL-科技（2021.11.26） 4
-      - ok CYL-科技（2021.11.26） 5
-      - ok CYL-科技（2021.11.26） 6
-      - ok CYL-科技（2021.11.26） 7
-      - ok CYL-科技（2021.11.26） 8
-      - ok CYL-科技（2021.11.26） 9
-      - ok CYL-科技（2021.11.26） 10
-      - ok CYL-科技（2021.11.26） 11
-      - ok CYL-科技（2021.11.26） 12
-      - ok CYL-科技（2021.11.26） 13
-      - ok CYL-科技（2021.11.26） 14
-      - ok CYL-科技（2021.11.26） 15
-      - ok CYL-科技（2021.11.26） 16
-      - ok CYL-科技（2021.11.26） 17
-      - ok CYL-科技（2021.11.26） 18
-      - ok CYL-科技（2021.11.26） 19
-      - ok CYL-科技（2021.11.26） 20
-      - ok CYL-科技（2021.11.26） 21
-      - ok CYL-科技（2021.11.26） 22
-      - ok CYL-科技（2021.11.26） 23
-      - ok CYL-科技（2021.11.26） 24
-      - ok CYL-科技（2021.11.26） 25
-      - ok CYL-科技（2021.11.26） 26
-      - ok CYL-科技（2021.11.26） 27
-      - ok CYL-科技（2021.11.26） 28
-      - ok CYL-科技（2021.11.26） 29
-      - ok CYL-科技（2021.11.26） 30
-      - ok CYL-科技（2021.11.26） 31
-      - ok CYL-科技（2021.11.26） 32
-      - ok CYL-科技（2021.11.26） 33
-      - ok CYL-科技（2021.11.26） 34
-      - ok CYL-科技（2021.11.26） 35
-      - ok CYL-科技（2021.11.26） 36
-      - ok CYL-科技（2021.11.26） 37
-      - ok CYL-科技（2021.11.26） 38
-      - ok CYL-科技（2021.11.26） 39
-      - ok CYL-科技（2021.11.26） 40
-      - ok CYL-科技（2021.11.26） 41
-      - ok CYL-科技（2021.11.26） 42
-      - ok CYL-科技（2021.11.26） 43
-      - ok CYL-科技（2021.11.26） 44
-      - ok CYL-科技（2021.11.26） 45
-      - ok CYL-科技（2021.11.26） 46
-      - ok CYL-科技（2021.11.26） 47
-      - ok CYL-科技（2021.11.26） 48
-      - ok CYL-科技（2021.11.26） 49
-      - ok CYL-科技（2021.11.26） 50
-      - ok CYL-科技（2021.11.26） 51
-      - ok CYL-科技（2021.11.26） 52
-      - ok CYL-科技（2021.11.26） 53
-      - ok CYL-科技（2021.11.26） 54
-      - ok CYL-科技（2021.11.26） 55
-      - ok CYL-科技（2021.11.26） 56
-      - ok CYL-科技（2021.11.26） 57
-      - ok CYL-科技（2021.11.26） 58
-      - ok CYL-科技（2021.11.26） 59
-      - ok CYL-科技（2021.11.26） 60
-      - ok CYL-科技（2021.11.26） 61
-      - ok CYL-科技（2021.11.26） 62
-      - ok CYL-科技（2021.11.26） 63
-      - ok CYL-科技（2021.11.26） 64
-      - ok CYL-科技（2021.11.26） 65
-      - ok CYL-科技（2021.11.26） 66
-      - ok CYL-科技（2021.11.26） 67
-      - ok CYL-科技（2021.11.26） 68
-      - ok CYL-科技（2021.11.25）
-      - ok CYL-科技（2021.11.25） 2
-      - ok CYL-科技（2021.11.25） 3
-      - ok CYL-科技（2021.11.25） 4
-      - ok CYL-科技（2021.11.25） 5
-      - ok CYL-科技（2021.11.25） 6
-      - ok CYL-科技（2021.11.25） 7
-      - ok CYL-科技（2021.11.25） 8
-      - ok CYL-科技（2021.11.25） 9
-      - ok CYL-科技（2021.11.25） 10
-      - ok CYL-科技（2021.11.25） 11
-      - ok CYL-科技（2021.11.25） 12
-      - ok CYL-科技（2021.11.25） 13
-      - ok CYL-科技（2021.11.25） 14
-      - ok CYL-科技（2021.11.25） 15
-      - ok CYL-科技（2021.11.25） 16
-      - ok CYL-科技（2021.11.25） 17
-      - ok CYL-科技（2021.11.25） 18
-      - ok CYL-科技（2021.11.25） 19
-      - ok CYL-科技（2021.11.25） 20
-      - ok CYL-科技（2021.11.25） 21
-      - ok CYL-科技（2021.11.25） 22
-      - ok CYL-科技（2021.11.25） 23
-      - ok CYL-科技（2021.11.25） 24
-      - ok CYL-科技（2021.11.25） 25
       - ok CYL-科技（2021.11.24）
-      - ok CYL-科技（2021.11.24） 2
-      - ok CYL-科技（2021.11.24） 3
-      - ok CYL-科技（2021.11.24） 4
-      - ok CYL-科技（2021.11.24） 5
-      - ok CYL-科技（2021.11.24） 6
-      - ok CYL-科技（2021.11.24） 7
-      - ok CYL-科技（2021.11.24） 8
-      - ok CYL-科技（2021.11.24） 9
-      - ok CYL-科技（2021.11.24） 10
-      - ok CYL-科技（2021.11.22）ok
-      - ok CYL-科技（2021.11.22）ok 2
-      - 🇺🇸 ok 110美国
-      - 🇺🇸 ok 109美国
+      - ok CYL-科技（2021.11.27） 11
+      - ok CYL-科技（2021.11.30） 10
+      - ok CYL-科技（2021.11.30） 11
+      - ok CYL-科技（2021.11.25）
+      - ok CYL-科技（2021.11.30） 12
+      - ok CYL-科技（2021.11.30） 13
+      - ok CYL-科技（2021.11.30） 14
+      - ok CYL-科技（2021.11.27） 12
+      - ok CYL-科技（2021.12.01） 3
+      - ok CYL-科技（2021.12.01） 4
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1627
+      - ok CYL-科技（2021.11.26）
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1201
+      - ok CYL-科技（2021.11.27） 13
+      - ok CYL-科技（2021.11.25） 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 2
-      - ok 欧洲(欢迎订阅Youtube破解资源君)
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 3
+      - ok CYL-科技（2021.12.02）
+      - ok CYL-科技（2021.12.02） 2
+      - ok CYL-科技（2021.12.02） 3
+      - ok CYL-科技（2021.12.02） 4
+      - ok CYL-科技（2021.12.02） 5
+      - ok CYL-科技（2021.11.30）
+      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.02） 6
+      - ok CYL-科技（2021.12.02） 7
+      - ok CYL-科技（2021.12.02） 8
+      - ok CYL-科技（2021.12.01）
       - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.12.02） 9
+      - ok CYL-科技（2021.12.02） 10
+      - ok CYL-科技（2021.12.02） 11
+      - ok CYL-科技（2021.11.30） 3
+      - ok CYL-科技（2021.12.02） 12
+      - ok CYL-科技（2021.12.02） 13
+      - ok CYL-科技（2021.12.02） 14
+      - ok CYL-科技（2021.12.02） 15
+      - ok CYL-科技（2021.11.30） 4
       - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.12.02） 16
       - ok CYL-科技（2021.11.27） 3
       - ok CYL-科技（2021.11.27） 4
+      - ok CYL-科技（2021.12.02） 17
+      - ok CYL-科技（2021.12.02） 18
+      - ok CYL-科技（2021.12.01） 2
+      - ok CYL-科技（2021.12.02） 19
+      - ok CYL-科技（2021.11.30） 5
+      - ok CYL-科技（2021.11.30） 6
       - ok CYL-科技（2021.11.27） 5
+      - ok CYL-科技（2021.12.02） 20
+      - ok CYL-科技（2021.11.30） 7
       - ok CYL-科技（2021.11.27） 6
       - ok CYL-科技（2021.11.27） 7
+      - ok CYL-科技（2021.12.02） 21
+      - ok CYL-科技（2021.11.30） 8
       - ok CYL-科技（2021.11.27） 8
+      - ok CYL-科技（2021.12.02） 22
       - ok CYL-科技（2021.11.27） 9
+      - ok CYL-科技（2021.12.02） 23
+      - ok CYL-科技（2021.12.02） 24
+      - ok CYL-科技（2021.12.02） 25
+      - ok CYL-科技（2021.11.30） 9
       - ok CYL-科技（2021.11.27） 10
-      - ok CYL-科技（2021.11.27） 11
-      - ok CYL-科技（2021.11.27） 12
-      - ok CYL-科技（2021.11.27） 13
-      - ok CYL-科技（2021.11.27） 14
-      - ok CYL-科技（2021.11.27） 15
-      - ok CYL-科技（2021.11.27） 16
-      - ok CYL-科技（2021.11.27） 17
-      - ok CYL-科技（2021.11.26）
-      - ok CYL-科技（2021.11.26） 2
-      - ok CYL-科技（2021.11.26） 3
-      - ok CYL-科技（2021.11.26） 4
-      - ok CYL-科技（2021.11.26） 5
-      - ok CYL-科技（2021.11.26） 6
-      - ok CYL-科技（2021.11.26） 7
-      - ok CYL-科技（2021.11.26） 8
-      - ok CYL-科技（2021.11.26） 9
-      - ok CYL-科技（2021.11.26） 10
-      - ok CYL-科技（2021.11.26） 11
-      - ok CYL-科技（2021.11.26） 12
-      - ok CYL-科技（2021.11.26） 13
-      - ok CYL-科技（2021.11.26） 14
-      - ok CYL-科技（2021.11.26） 15
-      - ok CYL-科技（2021.11.26） 16
-      - ok CYL-科技（2021.11.26） 17
-      - ok CYL-科技（2021.11.26） 18
-      - ok CYL-科技（2021.11.26） 19
-      - ok CYL-科技（2021.11.26） 20
-      - ok CYL-科技（2021.11.26） 21
-      - ok CYL-科技（2021.11.26） 22
-      - ok CYL-科技（2021.11.26） 23
-      - ok CYL-科技（2021.11.26） 24
-      - ok CYL-科技（2021.11.26） 25
-      - ok CYL-科技（2021.11.26） 26
-      - ok CYL-科技（2021.11.26） 27
-      - ok CYL-科技（2021.11.26） 28
-      - ok CYL-科技（2021.11.26） 29
-      - ok CYL-科技（2021.11.26） 30
-      - ok CYL-科技（2021.11.26） 31
-      - ok CYL-科技（2021.11.26） 32
-      - ok CYL-科技（2021.11.26） 33
-      - ok CYL-科技（2021.11.26） 34
-      - ok CYL-科技（2021.11.26） 35
-      - ok CYL-科技（2021.11.26） 36
-      - ok CYL-科技（2021.11.26） 37
-      - ok CYL-科技（2021.11.26） 38
-      - ok CYL-科技（2021.11.26） 39
-      - ok CYL-科技（2021.11.26） 40
-      - ok CYL-科技（2021.11.26） 41
-      - ok CYL-科技（2021.11.26） 42
-      - ok CYL-科技（2021.11.26） 43
-      - ok CYL-科技（2021.11.26） 44
-      - ok CYL-科技（2021.11.26） 45
-      - ok CYL-科技（2021.11.26） 46
-      - ok CYL-科技（2021.11.26） 47
-      - ok CYL-科技（2021.11.26） 48
-      - ok CYL-科技（2021.11.26） 49
-      - ok CYL-科技（2021.11.26） 50
-      - ok CYL-科技（2021.11.26） 51
-      - ok CYL-科技（2021.11.26） 52
-      - ok CYL-科技（2021.11.26） 53
-      - ok CYL-科技（2021.11.26） 54
-      - ok CYL-科技（2021.11.26） 55
-      - ok CYL-科技（2021.11.26） 56
-      - ok CYL-科技（2021.11.26） 57
-      - ok CYL-科技（2021.11.26） 58
-      - ok CYL-科技（2021.11.26） 59
-      - ok CYL-科技（2021.11.26） 60
-      - ok CYL-科技（2021.11.26） 61
-      - ok CYL-科技（2021.11.26） 62
-      - ok CYL-科技（2021.11.26） 63
-      - ok CYL-科技（2021.11.26） 64
-      - ok CYL-科技（2021.11.26） 65
-      - ok CYL-科技（2021.11.26） 66
-      - ok CYL-科技（2021.11.26） 67
-      - ok CYL-科技（2021.11.26） 68
-      - ok CYL-科技（2021.11.25）
-      - ok CYL-科技（2021.11.25） 2
-      - ok CYL-科技（2021.11.25） 3
-      - ok CYL-科技（2021.11.25） 4
-      - ok CYL-科技（2021.11.25） 5
-      - ok CYL-科技（2021.11.25） 6
-      - ok CYL-科技（2021.11.25） 7
-      - ok CYL-科技（2021.11.25） 8
-      - ok CYL-科技（2021.11.25） 9
-      - ok CYL-科技（2021.11.25） 10
-      - ok CYL-科技（2021.11.25） 11
-      - ok CYL-科技（2021.11.25） 12
-      - ok CYL-科技（2021.11.25） 13
-      - ok CYL-科技（2021.11.25） 14
-      - ok CYL-科技（2021.11.25） 15
-      - ok CYL-科技（2021.11.25） 16
-      - ok CYL-科技（2021.11.25） 17
-      - ok CYL-科技（2021.11.25） 18
-      - ok CYL-科技（2021.11.25） 19
-      - ok CYL-科技（2021.11.25） 20
-      - ok CYL-科技（2021.11.25） 21
-      - ok CYL-科技（2021.11.25） 22
-      - ok CYL-科技（2021.11.25） 23
-      - ok CYL-科技（2021.11.25） 24
-      - ok CYL-科技（2021.11.25） 25
       - ok CYL-科技（2021.11.24）
-      - ok CYL-科技（2021.11.24） 2
-      - ok CYL-科技（2021.11.24） 3
-      - ok CYL-科技（2021.11.24） 4
-      - ok CYL-科技（2021.11.24） 5
-      - ok CYL-科技（2021.11.24） 6
-      - ok CYL-科技（2021.11.24） 7
-      - ok CYL-科技（2021.11.24） 8
-      - ok CYL-科技（2021.11.24） 9
-      - ok CYL-科技（2021.11.24） 10
-      - ok CYL-科技（2021.11.22）ok
-      - ok CYL-科技（2021.11.22）ok 2
-      - 🇺🇸 ok 110美国
-      - 🇺🇸 ok 109美国
+      - ok CYL-科技（2021.11.27） 11
+      - ok CYL-科技（2021.11.30） 10
+      - ok CYL-科技（2021.11.30） 11
+      - ok CYL-科技（2021.11.25）
+      - ok CYL-科技（2021.11.30） 12
+      - ok CYL-科技（2021.11.30） 13
+      - ok CYL-科技（2021.11.30） 14
+      - ok CYL-科技（2021.11.27） 12
+      - ok CYL-科技（2021.12.01） 3
+      - ok CYL-科技（2021.12.01） 4
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1627
+      - ok CYL-科技（2021.11.26）
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1201
+      - ok CYL-科技（2021.11.27） 13
+      - ok CYL-科技（2021.11.25） 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 2
-      - ok 欧洲(欢迎订阅Youtube破解资源君)
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 3
+      - ok CYL-科技（2021.12.02）
+      - ok CYL-科技（2021.12.02） 2
+      - ok CYL-科技（2021.12.02） 3
+      - ok CYL-科技（2021.12.02） 4
+      - ok CYL-科技（2021.12.02） 5
+      - ok CYL-科技（2021.11.30）
+      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.02） 6
+      - ok CYL-科技（2021.12.02） 7
+      - ok CYL-科技（2021.12.02） 8
+      - ok CYL-科技（2021.12.01）
       - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.12.02） 9
+      - ok CYL-科技（2021.12.02） 10
+      - ok CYL-科技（2021.12.02） 11
+      - ok CYL-科技（2021.11.30） 3
+      - ok CYL-科技（2021.12.02） 12
+      - ok CYL-科技（2021.12.02） 13
+      - ok CYL-科技（2021.12.02） 14
+      - ok CYL-科技（2021.12.02） 15
+      - ok CYL-科技（2021.11.30） 4
       - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.12.02） 16
       - ok CYL-科技（2021.11.27） 3
       - ok CYL-科技（2021.11.27） 4
+      - ok CYL-科技（2021.12.02） 17
+      - ok CYL-科技（2021.12.02） 18
+      - ok CYL-科技（2021.12.01） 2
+      - ok CYL-科技（2021.12.02） 19
+      - ok CYL-科技（2021.11.30） 5
+      - ok CYL-科技（2021.11.30） 6
       - ok CYL-科技（2021.11.27） 5
+      - ok CYL-科技（2021.12.02） 20
+      - ok CYL-科技（2021.11.30） 7
       - ok CYL-科技（2021.11.27） 6
       - ok CYL-科技（2021.11.27） 7
+      - ok CYL-科技（2021.12.02） 21
+      - ok CYL-科技（2021.11.30） 8
       - ok CYL-科技（2021.11.27） 8
+      - ok CYL-科技（2021.12.02） 22
       - ok CYL-科技（2021.11.27） 9
+      - ok CYL-科技（2021.12.02） 23
+      - ok CYL-科技（2021.12.02） 24
+      - ok CYL-科技（2021.12.02） 25
+      - ok CYL-科技（2021.11.30） 9
       - ok CYL-科技（2021.11.27） 10
-      - ok CYL-科技（2021.11.27） 11
-      - ok CYL-科技（2021.11.27） 12
-      - ok CYL-科技（2021.11.27） 13
-      - ok CYL-科技（2021.11.27） 14
-      - ok CYL-科技（2021.11.27） 15
-      - ok CYL-科技（2021.11.27） 16
-      - ok CYL-科技（2021.11.27） 17
-      - ok CYL-科技（2021.11.26）
-      - ok CYL-科技（2021.11.26） 2
-      - ok CYL-科技（2021.11.26） 3
-      - ok CYL-科技（2021.11.26） 4
-      - ok CYL-科技（2021.11.26） 5
-      - ok CYL-科技（2021.11.26） 6
-      - ok CYL-科技（2021.11.26） 7
-      - ok CYL-科技（2021.11.26） 8
-      - ok CYL-科技（2021.11.26） 9
-      - ok CYL-科技（2021.11.26） 10
-      - ok CYL-科技（2021.11.26） 11
-      - ok CYL-科技（2021.11.26） 12
-      - ok CYL-科技（2021.11.26） 13
-      - ok CYL-科技（2021.11.26） 14
-      - ok CYL-科技（2021.11.26） 15
-      - ok CYL-科技（2021.11.26） 16
-      - ok CYL-科技（2021.11.26） 17
-      - ok CYL-科技（2021.11.26） 18
-      - ok CYL-科技（2021.11.26） 19
-      - ok CYL-科技（2021.11.26） 20
-      - ok CYL-科技（2021.11.26） 21
-      - ok CYL-科技（2021.11.26） 22
-      - ok CYL-科技（2021.11.26） 23
-      - ok CYL-科技（2021.11.26） 24
-      - ok CYL-科技（2021.11.26） 25
-      - ok CYL-科技（2021.11.26） 26
-      - ok CYL-科技（2021.11.26） 27
-      - ok CYL-科技（2021.11.26） 28
-      - ok CYL-科技（2021.11.26） 29
-      - ok CYL-科技（2021.11.26） 30
-      - ok CYL-科技（2021.11.26） 31
-      - ok CYL-科技（2021.11.26） 32
-      - ok CYL-科技（2021.11.26） 33
-      - ok CYL-科技（2021.11.26） 34
-      - ok CYL-科技（2021.11.26） 35
-      - ok CYL-科技（2021.11.26） 36
-      - ok CYL-科技（2021.11.26） 37
-      - ok CYL-科技（2021.11.26） 38
-      - ok CYL-科技（2021.11.26） 39
-      - ok CYL-科技（2021.11.26） 40
-      - ok CYL-科技（2021.11.26） 41
-      - ok CYL-科技（2021.11.26） 42
-      - ok CYL-科技（2021.11.26） 43
-      - ok CYL-科技（2021.11.26） 44
-      - ok CYL-科技（2021.11.26） 45
-      - ok CYL-科技（2021.11.26） 46
-      - ok CYL-科技（2021.11.26） 47
-      - ok CYL-科技（2021.11.26） 48
-      - ok CYL-科技（2021.11.26） 49
-      - ok CYL-科技（2021.11.26） 50
-      - ok CYL-科技（2021.11.26） 51
-      - ok CYL-科技（2021.11.26） 52
-      - ok CYL-科技（2021.11.26） 53
-      - ok CYL-科技（2021.11.26） 54
-      - ok CYL-科技（2021.11.26） 55
-      - ok CYL-科技（2021.11.26） 56
-      - ok CYL-科技（2021.11.26） 57
-      - ok CYL-科技（2021.11.26） 58
-      - ok CYL-科技（2021.11.26） 59
-      - ok CYL-科技（2021.11.26） 60
-      - ok CYL-科技（2021.11.26） 61
-      - ok CYL-科技（2021.11.26） 62
-      - ok CYL-科技（2021.11.26） 63
-      - ok CYL-科技（2021.11.26） 64
-      - ok CYL-科技（2021.11.26） 65
-      - ok CYL-科技（2021.11.26） 66
-      - ok CYL-科技（2021.11.26） 67
-      - ok CYL-科技（2021.11.26） 68
-      - ok CYL-科技（2021.11.25）
-      - ok CYL-科技（2021.11.25） 2
-      - ok CYL-科技（2021.11.25） 3
-      - ok CYL-科技（2021.11.25） 4
-      - ok CYL-科技（2021.11.25） 5
-      - ok CYL-科技（2021.11.25） 6
-      - ok CYL-科技（2021.11.25） 7
-      - ok CYL-科技（2021.11.25） 8
-      - ok CYL-科技（2021.11.25） 9
-      - ok CYL-科技（2021.11.25） 10
-      - ok CYL-科技（2021.11.25） 11
-      - ok CYL-科技（2021.11.25） 12
-      - ok CYL-科技（2021.11.25） 13
-      - ok CYL-科技（2021.11.25） 14
-      - ok CYL-科技（2021.11.25） 15
-      - ok CYL-科技（2021.11.25） 16
-      - ok CYL-科技（2021.11.25） 17
-      - ok CYL-科技（2021.11.25） 18
-      - ok CYL-科技（2021.11.25） 19
-      - ok CYL-科技（2021.11.25） 20
-      - ok CYL-科技（2021.11.25） 21
-      - ok CYL-科技（2021.11.25） 22
-      - ok CYL-科技（2021.11.25） 23
-      - ok CYL-科技（2021.11.25） 24
-      - ok CYL-科技（2021.11.25） 25
       - ok CYL-科技（2021.11.24）
-      - ok CYL-科技（2021.11.24） 2
-      - ok CYL-科技（2021.11.24） 3
-      - ok CYL-科技（2021.11.24） 4
-      - ok CYL-科技（2021.11.24） 5
-      - ok CYL-科技（2021.11.24） 6
-      - ok CYL-科技（2021.11.24） 7
-      - ok CYL-科技（2021.11.24） 8
-      - ok CYL-科技（2021.11.24） 9
-      - ok CYL-科技（2021.11.24） 10
-      - ok CYL-科技（2021.11.22）ok
-      - ok CYL-科技（2021.11.22）ok 2
-      - 🇺🇸 ok 110美国
-      - 🇺🇸 ok 109美国
+      - ok CYL-科技（2021.11.27） 11
+      - ok CYL-科技（2021.11.30） 10
+      - ok CYL-科技（2021.11.30） 11
+      - ok CYL-科技（2021.11.25）
+      - ok CYL-科技（2021.11.30） 12
+      - ok CYL-科技（2021.11.30） 13
+      - ok CYL-科技（2021.11.30） 14
+      - ok CYL-科技（2021.11.27） 12
+      - ok CYL-科技（2021.12.01） 3
+      - ok CYL-科技（2021.12.01） 4
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1627
+      - ok CYL-科技（2021.11.26）
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1201
+      - ok CYL-科技（2021.11.27） 13
+      - ok CYL-科技（2021.11.25） 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1098,135 +562,68 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc
-      - 🇸🇬 ok 节点更新https://bit.ly/3oOSZUc 2
-      - ok 欧洲(欢迎订阅Youtube破解资源君)
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ok 欧洲(欢迎订阅Youtube破解资源君) 3
+      - ok CYL-科技（2021.12.02）
+      - ok CYL-科技（2021.12.02） 2
+      - ok CYL-科技（2021.12.02） 3
+      - ok CYL-科技（2021.12.02） 4
+      - ok CYL-科技（2021.12.02） 5
+      - ok CYL-科技（2021.11.30）
+      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.02） 6
+      - ok CYL-科技（2021.12.02） 7
+      - ok CYL-科技（2021.12.02） 8
+      - ok CYL-科技（2021.12.01）
       - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.12.02） 9
+      - ok CYL-科技（2021.12.02） 10
+      - ok CYL-科技（2021.12.02） 11
+      - ok CYL-科技（2021.11.30） 3
+      - ok CYL-科技（2021.12.02） 12
+      - ok CYL-科技（2021.12.02） 13
+      - ok CYL-科技（2021.12.02） 14
+      - ok CYL-科技（2021.12.02） 15
+      - ok CYL-科技（2021.11.30） 4
       - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.12.02） 16
       - ok CYL-科技（2021.11.27） 3
       - ok CYL-科技（2021.11.27） 4
+      - ok CYL-科技（2021.12.02） 17
+      - ok CYL-科技（2021.12.02） 18
+      - ok CYL-科技（2021.12.01） 2
+      - ok CYL-科技（2021.12.02） 19
+      - ok CYL-科技（2021.11.30） 5
+      - ok CYL-科技（2021.11.30） 6
       - ok CYL-科技（2021.11.27） 5
+      - ok CYL-科技（2021.12.02） 20
+      - ok CYL-科技（2021.11.30） 7
       - ok CYL-科技（2021.11.27） 6
       - ok CYL-科技（2021.11.27） 7
+      - ok CYL-科技（2021.12.02） 21
+      - ok CYL-科技（2021.11.30） 8
       - ok CYL-科技（2021.11.27） 8
+      - ok CYL-科技（2021.12.02） 22
       - ok CYL-科技（2021.11.27） 9
+      - ok CYL-科技（2021.12.02） 23
+      - ok CYL-科技（2021.12.02） 24
+      - ok CYL-科技（2021.12.02） 25
+      - ok CYL-科技（2021.11.30） 9
       - ok CYL-科技（2021.11.27） 10
-      - ok CYL-科技（2021.11.27） 11
-      - ok CYL-科技（2021.11.27） 12
-      - ok CYL-科技（2021.11.27） 13
-      - ok CYL-科技（2021.11.27） 14
-      - ok CYL-科技（2021.11.27） 15
-      - ok CYL-科技（2021.11.27） 16
-      - ok CYL-科技（2021.11.27） 17
-      - ok CYL-科技（2021.11.26）
-      - ok CYL-科技（2021.11.26） 2
-      - ok CYL-科技（2021.11.26） 3
-      - ok CYL-科技（2021.11.26） 4
-      - ok CYL-科技（2021.11.26） 5
-      - ok CYL-科技（2021.11.26） 6
-      - ok CYL-科技（2021.11.26） 7
-      - ok CYL-科技（2021.11.26） 8
-      - ok CYL-科技（2021.11.26） 9
-      - ok CYL-科技（2021.11.26） 10
-      - ok CYL-科技（2021.11.26） 11
-      - ok CYL-科技（2021.11.26） 12
-      - ok CYL-科技（2021.11.26） 13
-      - ok CYL-科技（2021.11.26） 14
-      - ok CYL-科技（2021.11.26） 15
-      - ok CYL-科技（2021.11.26） 16
-      - ok CYL-科技（2021.11.26） 17
-      - ok CYL-科技（2021.11.26） 18
-      - ok CYL-科技（2021.11.26） 19
-      - ok CYL-科技（2021.11.26） 20
-      - ok CYL-科技（2021.11.26） 21
-      - ok CYL-科技（2021.11.26） 22
-      - ok CYL-科技（2021.11.26） 23
-      - ok CYL-科技（2021.11.26） 24
-      - ok CYL-科技（2021.11.26） 25
-      - ok CYL-科技（2021.11.26） 26
-      - ok CYL-科技（2021.11.26） 27
-      - ok CYL-科技（2021.11.26） 28
-      - ok CYL-科技（2021.11.26） 29
-      - ok CYL-科技（2021.11.26） 30
-      - ok CYL-科技（2021.11.26） 31
-      - ok CYL-科技（2021.11.26） 32
-      - ok CYL-科技（2021.11.26） 33
-      - ok CYL-科技（2021.11.26） 34
-      - ok CYL-科技（2021.11.26） 35
-      - ok CYL-科技（2021.11.26） 36
-      - ok CYL-科技（2021.11.26） 37
-      - ok CYL-科技（2021.11.26） 38
-      - ok CYL-科技（2021.11.26） 39
-      - ok CYL-科技（2021.11.26） 40
-      - ok CYL-科技（2021.11.26） 41
-      - ok CYL-科技（2021.11.26） 42
-      - ok CYL-科技（2021.11.26） 43
-      - ok CYL-科技（2021.11.26） 44
-      - ok CYL-科技（2021.11.26） 45
-      - ok CYL-科技（2021.11.26） 46
-      - ok CYL-科技（2021.11.26） 47
-      - ok CYL-科技（2021.11.26） 48
-      - ok CYL-科技（2021.11.26） 49
-      - ok CYL-科技（2021.11.26） 50
-      - ok CYL-科技（2021.11.26） 51
-      - ok CYL-科技（2021.11.26） 52
-      - ok CYL-科技（2021.11.26） 53
-      - ok CYL-科技（2021.11.26） 54
-      - ok CYL-科技（2021.11.26） 55
-      - ok CYL-科技（2021.11.26） 56
-      - ok CYL-科技（2021.11.26） 57
-      - ok CYL-科技（2021.11.26） 58
-      - ok CYL-科技（2021.11.26） 59
-      - ok CYL-科技（2021.11.26） 60
-      - ok CYL-科技（2021.11.26） 61
-      - ok CYL-科技（2021.11.26） 62
-      - ok CYL-科技（2021.11.26） 63
-      - ok CYL-科技（2021.11.26） 64
-      - ok CYL-科技（2021.11.26） 65
-      - ok CYL-科技（2021.11.26） 66
-      - ok CYL-科技（2021.11.26） 67
-      - ok CYL-科技（2021.11.26） 68
-      - ok CYL-科技（2021.11.25）
-      - ok CYL-科技（2021.11.25） 2
-      - ok CYL-科技（2021.11.25） 3
-      - ok CYL-科技（2021.11.25） 4
-      - ok CYL-科技（2021.11.25） 5
-      - ok CYL-科技（2021.11.25） 6
-      - ok CYL-科技（2021.11.25） 7
-      - ok CYL-科技（2021.11.25） 8
-      - ok CYL-科技（2021.11.25） 9
-      - ok CYL-科技（2021.11.25） 10
-      - ok CYL-科技（2021.11.25） 11
-      - ok CYL-科技（2021.11.25） 12
-      - ok CYL-科技（2021.11.25） 13
-      - ok CYL-科技（2021.11.25） 14
-      - ok CYL-科技（2021.11.25） 15
-      - ok CYL-科技（2021.11.25） 16
-      - ok CYL-科技（2021.11.25） 17
-      - ok CYL-科技（2021.11.25） 18
-      - ok CYL-科技（2021.11.25） 19
-      - ok CYL-科技（2021.11.25） 20
-      - ok CYL-科技（2021.11.25） 21
-      - ok CYL-科技（2021.11.25） 22
-      - ok CYL-科技（2021.11.25） 23
-      - ok CYL-科技（2021.11.25） 24
-      - ok CYL-科技（2021.11.25） 25
       - ok CYL-科技（2021.11.24）
-      - ok CYL-科技（2021.11.24） 2
-      - ok CYL-科技（2021.11.24） 3
-      - ok CYL-科技（2021.11.24） 4
-      - ok CYL-科技（2021.11.24） 5
-      - ok CYL-科技（2021.11.24） 6
-      - ok CYL-科技（2021.11.24） 7
-      - ok CYL-科技（2021.11.24） 8
-      - ok CYL-科技（2021.11.24） 9
-      - ok CYL-科技（2021.11.24） 10
-      - ok CYL-科技（2021.11.22）ok
-      - ok CYL-科技（2021.11.22）ok 2
-      - 🇺🇸 ok 110美国
-      - 🇺🇸 ok 109美国
+      - ok CYL-科技（2021.11.27） 11
+      - ok CYL-科技（2021.11.30） 10
+      - ok CYL-科技（2021.11.30） 11
+      - ok CYL-科技（2021.11.25）
+      - ok CYL-科技（2021.11.30） 12
+      - ok CYL-科技（2021.11.30） 13
+      - ok CYL-科技（2021.11.30） 14
+      - ok CYL-科技（2021.11.27） 12
+      - ok CYL-科技（2021.12.01） 3
+      - ok CYL-科技（2021.12.01） 4
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1627
+      - ok CYL-科技（2021.11.26）
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1201
+      - ok CYL-科技（2021.11.27） 13
+      - ok CYL-科技（2021.11.25） 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1254,6 +651,23 @@ rules:
  - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
+ - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
+ - DOMAIN,dl.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
+ - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
+ - DOMAIN,xivanalysis.com,🎯 全球直连
+ - DOMAIN,picanalysis.vivo.com.cn,🎯 全球直连
+ - DOMAIN,fairplay.l.qq.com,🎯 全球直连
+ - DOMAIN,livew.l.qq.com,🎯 全球直连
+ - DOMAIN,vd.l.qq.com,🎯 全球直连
+ - DOMAIN,analytics.strava.com,🎯 全球直连
+ - DOMAIN,msg.umeng.com,🎯 全球直连
+ - DOMAIN,msg.umengcloud.com,🎯 全球直连
+ - DOMAIN,tracking.miui.com,🎯 全球直连
+ - DOMAIN,app.adjust.com,🎯 全球直连
+ - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -3080,6 +2494,18 @@ rules:
  - IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
  - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
  - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
+ - DOMAIN-SUFFIX,t.me,📲 电报信息
+ - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
+ - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
+ - DOMAIN-SUFFIX,telegram.me,📲 电报信息
+ - DOMAIN-SUFFIX,telegram.org,📲 电报信息
+ - DOMAIN-SUFFIX,telesco.pe,📲 电报信息
+ - IP-CIDR,91.108.0.0/16,📲 电报信息,no-resolve
+ - IP-CIDR,109.239.140.0/24,📲 电报信息,no-resolve
+ - IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
+ - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
+ - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
+ - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
  - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
  - DOMAIN-SUFFIX,go.com,🌍 国外媒体
  - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
