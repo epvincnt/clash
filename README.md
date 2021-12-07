@@ -5,517 +5,637 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: ok CYL-科技（2021.12.03）, server: t5.ssrsub.com, port: 8443, type: trojan, password: 1b89d065-8640-4010-a80e-dc0c46a72aaf, sni: t5.ssrsub.com}
-  - {name: ok CYL-科技（2021.12.03） 2, server: zecjk.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: zecjk.com}}
-  - {name: ok CYL-科技（2021.12.03） 3, server: 930tg.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 930tg.fans8.xyz}}
-  - {name: ok CYL-科技（2021.11.27）, server: 134.195.196.52, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.11.27） 2, server: 134.195.196.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: ok CYL-科技（2021.12.03） 4, server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
-  - {name: ok CYL-科技（2021.12.03） 5, server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1116yn.fans8.xyz}}
-  - {name: ok CYL-科技（2021.12.03） 6, server: 104.19.101.5, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /gdo93qerwtyuo, ws-headers: {Host: e.fovi.tk}}
-  - {name: ok CYL-科技（2021.11.30）, server: 81.90.189.18, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: ok CYL-科技（2021.12.03） 7, server: cu-cs.okvpn.xyz, port: 30013, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: ok CYL-科技（2021.11.30） 2, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
+  - {name: ok CYL-科技（2021.12.04）, server: fus1.uuv2.co.uk, port: 2082, type: vmess, uuid: 68188cc4-0e87-4da8-cd67-7c6dbcaccf6f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /media/, ws-headers: {Host: download.jianguoyun.com}}
+  - {name: ok CYL-科技（2021.12.06）, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
+  - {name: ok CYL-科技（2021.12.06） 2, server: 45.8.159.221, port: 443, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: ok CYL-科技（2021.12.04） 2, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
   - {name: ok CYL-科技（2021.12.02）, server: 134.195.196.3, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok CYL-科技（2021.11.27） 3, server: 134.195.196.52, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok CYL-科技（2021.12.02） 2, server: ru.52jjyun.top, port: 80, type: vmess, uuid: 613eee52-bfd9-47d1-a47d-37bdf1367aab, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ru.52jjyun.top}}
-  - {name: ok CYL-科技（2021.11.30） 3, server: 81.90.189.18, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ok CYL-科技（2021.12.05）, server: 198.57.27.16, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.12.06） 3, server: hkf1.dior.bar, port: 80, type: vmess, uuid: 579934ab-0b50-4e7f-b3c5-3923bbbaf41f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hkf1.dior.bar}}
+  - {name: ok CYL-科技（2021.12.06） 4, server: 45.89.228.53, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
+  - {name: ok CYL-科技（2021.12.06） 5, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: ok CYL-科技（2021.12.05） 2, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
+  - {name: ok CYL-科技（2021.12.03）, server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
+  - {name: ok CYL-科技（2021.12.04） 3, server: 52.48.89.93, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.48.89.93}}
+  - {name: ok CYL-科技（2021.12.06） 6, server: lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: lvuft.com}}
+  - {name: ok CYL-科技（2021.12.06） 7, server: 38.68.134.190, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.12.02） 2, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
   - {name: ok CYL-科技（2021.12.02） 3, server: 134.195.196.3, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ok CYL-科技（2021.11.27） 4, server: shcn2-06b.iplc188.com, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: ok CYL-科技（2021.12.03） 8, server: t6.ssrsub.com, port: 8443, type: trojan, password: 1b89d065-8640-4010-a80e-dc0c46a72aaf, sni: t6.ssrsub.com}
-  - {name: ok CYL-科技（2021.12.03） 9, server: cm-jm.okvpn.xyz, port: 20000, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: ok CYL-科技（2021.11.30） 4, server: 81.90.189.57, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: ok CYL-科技（2021.11.27） 5, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: ok CYL-科技（2021.12.03） 10, server: fus1.uuv2.co.uk, port: 2082, type: vmess, uuid: 68188cc4-0e87-4da8-cd67-7c6dbcaccf6f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /media/, ws-headers: {Host: download.jianguoyun.com}}
-  - {name: ok CYL-科技（2021.12.03） 11, server: 3.144.176.174, port: 443, type: vmess, uuid: 2299ad36-96c8-46f6-ad59-fcbc561780f6, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /Net.Hibey.cc, ws-headers: {Host: 3.144.176.174}}
-  - {name: ok CYL-科技（2021.12.03） 12, server: 3.144.176.174, port: 443, type: vmess, uuid: c52011ee-7c10-4717-94a4-302476537f8b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /Net.Hibey.cc, ws-headers: {Host: 3.144.176.174}}
-  - {name: ok CYL-科技（2021.12.03） 13, server: 3.144.176.174, port: 443, type: vmess, uuid: 44241f9d-9ff1-495c-8a3e-104196ed79f3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /Net.Hibey.cc, ws-headers: {Host: 3.144.176.174}}
-  - {name: ok CYL-科技（2021.12.02） 4, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: ok CYL-科技（2021.12.03） 14, server: 1023sg.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1023sg.fans8.xyz}}
-  - {name: ok CYL-科技（2021.12.03） 15, server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: ok CYL-科技（2021.12.03） 16, server: cm-jm.okvpn.xyz, port: 20006, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: ok CYL-科技（2021.12.03） 17, server: 1023sg.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1023sg.fans8.xyz}}
-  - {name: ok CYL-科技（2021.12.02） 5, server: canada-vancouver.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: canada-vancouver.mah3Hoet.com}}
-  - {name: ok CYL-科技（2021.12.03） 18, server: t7.ssrsub.com, port: 8443, type: trojan, password: 1b89d065-8640-4010-a80e-dc0c46a72aaf, sni: t7.ssrsub.com}
-  - {name: ok CYL-科技（2021.12.03） 19, server: cu-cs.okvpn.xyz, port: 30014, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: ok CYL-科技（2021.12.03） 20, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
-  - {name: ok CYL-科技（2021.12.03） 21, server: cu-cs.okvpn.xyz, port: 30022, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: ok CYL-科技（2021.12.03） 22, server: 1030us.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1030us.fans8.xyz}}
-  - {name: ok CYL-科技（2021.12.03） 23, server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: c574527c-8b4f-4abf-94b6-e8b1ca16b619, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: ok CYL-科技（2021.12.03） 24, server: 3.25.120.18, port: 8888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 3.25.120.18}}
-  - {name: ok CYL-科技（2021.12.03） 25, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
-  - {name: ok CYL-科技（2021.11.27） 6, server: 134.195.196.52, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok CYL-科技（2021.12.02） 6, server: 142.202.48.83, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: ok CYL-科技（2021.12.02） 7, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: ok CYL-科技（2021.12.03） 26, server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1116yn.fans8.xyz}}
-  - {name: 🇺🇸 ok 阿伟科技-油管🇺🇸US_1627, server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ok CYL-科技（2021.12.02） 8, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: ok CYL-科技（2021.12.02） 9, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: ok CYL-科技（2021.11.30） 5, server: 93.186.201.124, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: ok CYL-科技（2021.11.27） 7, server: 134.195.196.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok CYL-科技（2021.12.03） 27, server: 1030us.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1030us.fans8.xyz}}
-  - {name: ok CYL-科技（2021.12.03） 28, server: 715hk.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 715hk.fans8.xyz}}
-  - {name: ok CYL-科技（2021.12.03） 29, server: 52.48.89.93, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.48.89.93}}
-  - {name: ok CYL-科技（2021.12.02） 10, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false}
-  - {name: ok CYL-科技（2021.12.03） 30, server: 1116hk.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1116hk.fans8.xyz}}
-  - {name: ok CYL-科技（2021.12.03） 31, server: 1116hk.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1116hk.fans8.xyz}}
-  - {name: ok CYL-科技（2021.11.27） 8, server: 134.195.196.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok CYL-科技（2021.12.02） 11, server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
-  - {name: ok CYL-科技（2021.12.03） 32, server: t5.ssrsub.com, port: 8443, type: trojan, password: 0e13b5a9-cb62-44cd-b28e-47f137624694, sni: t5.ssrsub.com}
-  - {name: ok CYL-科技（2021.12.03） 33, server: t6.ssrsub.com, port: 8443, type: trojan, password: 0e13b5a9-cb62-44cd-b28e-47f137624694, sni: t6.ssrsub.com}
-  - {name: ok CYL-科技（2021.12.03） 34, server: 930tg.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 930tg.fans8.xyz}}
+  - {name: ok CYL-科技（2021.12.03） 2, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
+  - {name: ok CYL-科技（2021.12.06） 8, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.04） 4, server: 172.105.184.113, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok CYL-科技（2021.12.06） 9, server: 38.68.134.190, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok CYL-科技（2021.12.05） 3, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
+  - {name: ok CYL-科技（2021.12.04） 5, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: ok CYL-科技（2021.12.06） 10, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
+  - {name: ok CYL-科技（2021.12.04） 6, server: 198.41.212.234, port: 2082, type: vmess, uuid: 68188cc4-0e87-4da8-cd67-7c6dbcaccf6f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /media/, ws-headers: {Host: download.jianguoyun.com}}
+  - {name: ok CYL-科技（2021.12.03） 3, server: t5.ssrsub.com, port: 8443, type: trojan, password: 0e13b5a9-cb62-44cd-b28e-47f137624694, sni: t5.ssrsub.com}
+  - {name: ok CYL-科技（2021.12.06） 11, server: zhuzhu12.com, port: 33893, type: vmess, uuid: 76ba9ffb-38a7-37a1-9ffe-e9067984414b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: ok CYL-科技（2021.12.04） 7, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.12.06） 12, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.04） 8, server: 134.195.196.3, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok CYL-科技（2021.12.06） 13, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
+  - {name: ok CYL-科技（2021.12.02） 4, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.03） 4, server: 3.25.120.18, port: 8888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 3.25.120.18}}
+  - {name: ok CYL-科技（2021.12.04） 9, server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ok CYL-科技（2021.12.04） 10, server: 139.227.161.129, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.06） 14, server: 38.68.134.190, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ok CYL-科技（2021.12.02） 5, server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
+  - {name: ok CYL-科技（2021.12.06） 15, server: 38.68.134.190, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.12.06） 16, server: 193.108.118.2, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.12.04） 11, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.12.06） 17, server: 38.86.135.27, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.12.05） 4, server: 167.88.63.61, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok CYL-科技（2021.12.06） 18, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: c9031db0-50bd-11ec-8a58-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}}
+  - {name: ok CYL-科技（2021.12.05） 5, server: 158.247.226.61, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: ok CYL-科技（2021.12.05） 6, server: 198.57.27.16, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.12.06） 19, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.04） 12, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok CYL-科技（2021.12.06） 20, server: 172.105.251.193, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.11.27）, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.05） 7, server: 93.186.201.158, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ok CYL-科技（2021.11.27） 2, server: shcn2-06b.iplc188.com, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.04） 13, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok CYL-科技（2021.12.05） 8, server: 85.208.110.138, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.11.30）, server: 81.90.189.18, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ok CYL-科技（2021.12.06） 21, server: 5.188.108.155, port: 889, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz}
+  - {name: ok CYL-科技（2021.11.30） 2, server: 81.90.189.18, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ok CYL-科技（2021.12.04） 14, server: cm.cheapv2.xyz, port: 29901, type: vmess, uuid: 803c5d0a-3f17-391a-9fce-6e5ab49b6d13, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}}
+  - {name: ok CYL-科技（2021.12.03） 5, server: t7.ssrsub.com, port: 8443, type: trojan, password: 1b89d065-8640-4010-a80e-dc0c46a72aaf, sni: t7.ssrsub.com}
+  - {name: ok CYL-科技（2021.12.06） 22, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: bed4edbe-50bd-11ec-8a58-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}}
+  - {name: ok CYL-科技（2021.12.05） 9, server: t2.ssrsub.com, port: 8443, type: trojan, password: 1b89d065-8640-4010-a80e-dc0c46a72aaf, sni: t2.ssrsub.com}
+  - {name: ok CYL-科技（2021.12.04） 15, server: 141.164.35.41, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: ok CYL-科技（2021.12.03） 6, server: 104.19.101.5, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /gdo93qerwtyuo, ws-headers: {Host: e.fovi.tk}}
+  - {name: ok Channel of Dream Song 華人社區_33, server: cu-cs.okvpn.xyz, port: 30014, type: vmess, uuid: c346f5b6-5a40-4292-a0c9-4f9b0ee5f9a2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+  - {name: ok Channel of Dream Song 華人社區_27, server: cu-cs.okvpn.xyz, port: 30013, type: vmess, uuid: c346f5b6-5a40-4292-a0c9-4f9b0ee5f9a2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+  - {name: ok Channel of Dream Song 華人社區_48, server: cu-cs.okvpn.xyz, port: 30019, type: vmess, uuid: c346f5b6-5a40-4292-a0c9-4f9b0ee5f9a2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+  - {name: ok Channel of Dream Song 華人社區_38, server: cu-cs.okvpn.xyz, port: 30016, type: vmess, uuid: c346f5b6-5a40-4292-a0c9-4f9b0ee5f9a2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+  - {name: ok Channel of Dream Song 華人社區_42, server: cu-cs.okvpn.xyz, port: 30022, type: vmess, uuid: c346f5b6-5a40-4292-a0c9-4f9b0ee5f9a2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+  - {name: ok Channel of Dream Song 華人社區_34, server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: c346f5b6-5a40-4292-a0c9-4f9b0ee5f9a2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: ok Channel of Dream Song 華人社區_17, server: cu-cs.okvpn.xyz, port: 30012, type: vmess, uuid: c346f5b6-5a40-4292-a0c9-4f9b0ee5f9a2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+  - {name: ok Channel of Dream Song 華人社區_24, server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: c346f5b6-5a40-4292-a0c9-4f9b0ee5f9a2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: ok Channel of Dream Song 華人社區_44, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: c346f5b6-5a40-4292-a0c9-4f9b0ee5f9a2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: ok Channel of Dream Song 華人社區_29, server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: c346f5b6-5a40-4292-a0c9-4f9b0ee5f9a2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: ok Channel of Dream Song 華人社區_39, server: cm-jm.okvpn.xyz, port: 20006, type: vmess, uuid: c346f5b6-5a40-4292-a0c9-4f9b0ee5f9a2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: ok Channel of Dream Song 華人社區_14, server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: c346f5b6-5a40-4292-a0c9-4f9b0ee5f9a2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: ok Channel of Dream Song 華人社區_1, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: c346f5b6-5a40-4292-a0c9-4f9b0ee5f9a2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ok CYL-科技（2021.12.03）
-      - ok CYL-科技（2021.12.03） 2
-      - ok CYL-科技（2021.12.03） 3
-      - ok CYL-科技（2021.11.27）
-      - ok CYL-科技（2021.11.27） 2
-      - ok CYL-科技（2021.12.03） 4
-      - ok CYL-科技（2021.12.03） 5
-      - ok CYL-科技（2021.12.03） 6
-      - ok CYL-科技（2021.11.30）
-      - ok CYL-科技（2021.12.03） 7
-      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.04）
+      - ok CYL-科技（2021.12.06）
+      - ok CYL-科技（2021.12.06） 2
+      - ok CYL-科技（2021.12.04） 2
       - ok CYL-科技（2021.12.02）
-      - ok CYL-科技（2021.11.27） 3
+      - ok CYL-科技（2021.12.05）
+      - ok CYL-科技（2021.12.06） 3
+      - ok CYL-科技（2021.12.06） 4
+      - ok CYL-科技（2021.12.06） 5
+      - ok CYL-科技（2021.12.05） 2
+      - ok CYL-科技（2021.12.03）
+      - ok CYL-科技（2021.12.04） 3
+      - ok CYL-科技（2021.12.06） 6
+      - ok CYL-科技（2021.12.06） 7
       - ok CYL-科技（2021.12.02） 2
-      - ok CYL-科技（2021.11.30） 3
       - ok CYL-科技（2021.12.02） 3
-      - ok CYL-科技（2021.11.27） 4
-      - ok CYL-科技（2021.12.03） 8
-      - ok CYL-科技（2021.12.03） 9
-      - ok CYL-科技（2021.11.30） 4
-      - ok CYL-科技（2021.11.27） 5
-      - ok CYL-科技（2021.12.03） 10
-      - ok CYL-科技（2021.12.03） 11
-      - ok CYL-科技（2021.12.03） 12
-      - ok CYL-科技（2021.12.03） 13
+      - ok CYL-科技（2021.12.03） 2
+      - ok CYL-科技（2021.12.06） 8
+      - ok CYL-科技（2021.12.04） 4
+      - ok CYL-科技（2021.12.06） 9
+      - ok CYL-科技（2021.12.05） 3
+      - ok CYL-科技（2021.12.04） 5
+      - ok CYL-科技（2021.12.06） 10
+      - ok CYL-科技（2021.12.04） 6
+      - ok CYL-科技（2021.12.03） 3
+      - ok CYL-科技（2021.12.06） 11
+      - ok CYL-科技（2021.12.04） 7
+      - ok CYL-科技（2021.12.06） 12
+      - ok CYL-科技（2021.12.04） 8
+      - ok CYL-科技（2021.12.06） 13
       - ok CYL-科技（2021.12.02） 4
-      - ok CYL-科技（2021.12.03） 14
-      - ok CYL-科技（2021.12.03） 15
-      - ok CYL-科技（2021.12.03） 16
-      - ok CYL-科技（2021.12.03） 17
+      - ok CYL-科技（2021.12.03） 4
+      - ok CYL-科技（2021.12.04） 9
+      - ok CYL-科技（2021.12.04） 10
+      - ok CYL-科技（2021.12.06） 14
       - ok CYL-科技（2021.12.02） 5
-      - ok CYL-科技（2021.12.03） 18
-      - ok CYL-科技（2021.12.03） 19
-      - ok CYL-科技（2021.12.03） 20
-      - ok CYL-科技（2021.12.03） 21
-      - ok CYL-科技（2021.12.03） 22
-      - ok CYL-科技（2021.12.03） 23
-      - ok CYL-科技（2021.12.03） 24
-      - ok CYL-科技（2021.12.03） 25
-      - ok CYL-科技（2021.11.27） 6
-      - ok CYL-科技（2021.12.02） 6
-      - ok CYL-科技（2021.12.02） 7
-      - ok CYL-科技（2021.12.03） 26
-      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1627
-      - ok CYL-科技（2021.12.02） 8
-      - ok CYL-科技（2021.12.02） 9
-      - ok CYL-科技（2021.11.30） 5
-      - ok CYL-科技（2021.11.27） 7
-      - ok CYL-科技（2021.12.03） 27
-      - ok CYL-科技（2021.12.03） 28
-      - ok CYL-科技（2021.12.03） 29
-      - ok CYL-科技（2021.12.02） 10
-      - ok CYL-科技（2021.12.03） 30
-      - ok CYL-科技（2021.12.03） 31
-      - ok CYL-科技（2021.11.27） 8
-      - ok CYL-科技（2021.12.02） 11
-      - ok CYL-科技（2021.12.03） 32
-      - ok CYL-科技（2021.12.03） 33
-      - ok CYL-科技（2021.12.03） 34
+      - ok CYL-科技（2021.12.06） 15
+      - ok CYL-科技（2021.12.06） 16
+      - ok CYL-科技（2021.12.04） 11
+      - ok CYL-科技（2021.12.06） 17
+      - ok CYL-科技（2021.12.05） 4
+      - ok CYL-科技（2021.12.06） 18
+      - ok CYL-科技（2021.12.05） 5
+      - ok CYL-科技（2021.12.05） 6
+      - ok CYL-科技（2021.12.06） 19
+      - ok CYL-科技（2021.12.04） 12
+      - ok CYL-科技（2021.12.06） 20
+      - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.12.05） 7
+      - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.12.04） 13
+      - ok CYL-科技（2021.12.05） 8
+      - ok CYL-科技（2021.11.30）
+      - ok CYL-科技（2021.12.06） 21
+      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.04） 14
+      - ok CYL-科技（2021.12.03） 5
+      - ok CYL-科技（2021.12.06） 22
+      - ok CYL-科技（2021.12.05） 9
+      - ok CYL-科技（2021.12.04） 15
+      - ok CYL-科技（2021.12.03） 6
+      - ok Channel of Dream Song 華人社區_33
+      - ok Channel of Dream Song 華人社區_27
+      - ok Channel of Dream Song 華人社區_48
+      - ok Channel of Dream Song 華人社區_38
+      - ok Channel of Dream Song 華人社區_42
+      - ok Channel of Dream Song 華人社區_34
+      - ok Channel of Dream Song 華人社區_17
+      - ok Channel of Dream Song 華人社區_24
+      - ok Channel of Dream Song 華人社區_44
+      - ok Channel of Dream Song 華人社區_29
+      - ok Channel of Dream Song 華人社區_39
+      - ok Channel of Dream Song 華人社區_14
+      - ok Channel of Dream Song 華人社區_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ok CYL-科技（2021.12.03）
-      - ok CYL-科技（2021.12.03） 2
-      - ok CYL-科技（2021.12.03） 3
-      - ok CYL-科技（2021.11.27）
-      - ok CYL-科技（2021.11.27） 2
-      - ok CYL-科技（2021.12.03） 4
-      - ok CYL-科技（2021.12.03） 5
-      - ok CYL-科技（2021.12.03） 6
-      - ok CYL-科技（2021.11.30）
-      - ok CYL-科技（2021.12.03） 7
-      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.04）
+      - ok CYL-科技（2021.12.06）
+      - ok CYL-科技（2021.12.06） 2
+      - ok CYL-科技（2021.12.04） 2
       - ok CYL-科技（2021.12.02）
-      - ok CYL-科技（2021.11.27） 3
+      - ok CYL-科技（2021.12.05）
+      - ok CYL-科技（2021.12.06） 3
+      - ok CYL-科技（2021.12.06） 4
+      - ok CYL-科技（2021.12.06） 5
+      - ok CYL-科技（2021.12.05） 2
+      - ok CYL-科技（2021.12.03）
+      - ok CYL-科技（2021.12.04） 3
+      - ok CYL-科技（2021.12.06） 6
+      - ok CYL-科技（2021.12.06） 7
       - ok CYL-科技（2021.12.02） 2
-      - ok CYL-科技（2021.11.30） 3
       - ok CYL-科技（2021.12.02） 3
-      - ok CYL-科技（2021.11.27） 4
-      - ok CYL-科技（2021.12.03） 8
-      - ok CYL-科技（2021.12.03） 9
-      - ok CYL-科技（2021.11.30） 4
-      - ok CYL-科技（2021.11.27） 5
-      - ok CYL-科技（2021.12.03） 10
-      - ok CYL-科技（2021.12.03） 11
-      - ok CYL-科技（2021.12.03） 12
-      - ok CYL-科技（2021.12.03） 13
+      - ok CYL-科技（2021.12.03） 2
+      - ok CYL-科技（2021.12.06） 8
+      - ok CYL-科技（2021.12.04） 4
+      - ok CYL-科技（2021.12.06） 9
+      - ok CYL-科技（2021.12.05） 3
+      - ok CYL-科技（2021.12.04） 5
+      - ok CYL-科技（2021.12.06） 10
+      - ok CYL-科技（2021.12.04） 6
+      - ok CYL-科技（2021.12.03） 3
+      - ok CYL-科技（2021.12.06） 11
+      - ok CYL-科技（2021.12.04） 7
+      - ok CYL-科技（2021.12.06） 12
+      - ok CYL-科技（2021.12.04） 8
+      - ok CYL-科技（2021.12.06） 13
       - ok CYL-科技（2021.12.02） 4
-      - ok CYL-科技（2021.12.03） 14
-      - ok CYL-科技（2021.12.03） 15
-      - ok CYL-科技（2021.12.03） 16
-      - ok CYL-科技（2021.12.03） 17
+      - ok CYL-科技（2021.12.03） 4
+      - ok CYL-科技（2021.12.04） 9
+      - ok CYL-科技（2021.12.04） 10
+      - ok CYL-科技（2021.12.06） 14
       - ok CYL-科技（2021.12.02） 5
-      - ok CYL-科技（2021.12.03） 18
-      - ok CYL-科技（2021.12.03） 19
-      - ok CYL-科技（2021.12.03） 20
-      - ok CYL-科技（2021.12.03） 21
-      - ok CYL-科技（2021.12.03） 22
-      - ok CYL-科技（2021.12.03） 23
-      - ok CYL-科技（2021.12.03） 24
-      - ok CYL-科技（2021.12.03） 25
-      - ok CYL-科技（2021.11.27） 6
-      - ok CYL-科技（2021.12.02） 6
-      - ok CYL-科技（2021.12.02） 7
-      - ok CYL-科技（2021.12.03） 26
-      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1627
-      - ok CYL-科技（2021.12.02） 8
-      - ok CYL-科技（2021.12.02） 9
-      - ok CYL-科技（2021.11.30） 5
-      - ok CYL-科技（2021.11.27） 7
-      - ok CYL-科技（2021.12.03） 27
-      - ok CYL-科技（2021.12.03） 28
-      - ok CYL-科技（2021.12.03） 29
-      - ok CYL-科技（2021.12.02） 10
-      - ok CYL-科技（2021.12.03） 30
-      - ok CYL-科技（2021.12.03） 31
-      - ok CYL-科技（2021.11.27） 8
-      - ok CYL-科技（2021.12.02） 11
-      - ok CYL-科技（2021.12.03） 32
-      - ok CYL-科技（2021.12.03） 33
-      - ok CYL-科技（2021.12.03） 34
+      - ok CYL-科技（2021.12.06） 15
+      - ok CYL-科技（2021.12.06） 16
+      - ok CYL-科技（2021.12.04） 11
+      - ok CYL-科技（2021.12.06） 17
+      - ok CYL-科技（2021.12.05） 4
+      - ok CYL-科技（2021.12.06） 18
+      - ok CYL-科技（2021.12.05） 5
+      - ok CYL-科技（2021.12.05） 6
+      - ok CYL-科技（2021.12.06） 19
+      - ok CYL-科技（2021.12.04） 12
+      - ok CYL-科技（2021.12.06） 20
+      - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.12.05） 7
+      - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.12.04） 13
+      - ok CYL-科技（2021.12.05） 8
+      - ok CYL-科技（2021.11.30）
+      - ok CYL-科技（2021.12.06） 21
+      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.04） 14
+      - ok CYL-科技（2021.12.03） 5
+      - ok CYL-科技（2021.12.06） 22
+      - ok CYL-科技（2021.12.05） 9
+      - ok CYL-科技（2021.12.04） 15
+      - ok CYL-科技（2021.12.03） 6
+      - ok Channel of Dream Song 華人社區_33
+      - ok Channel of Dream Song 華人社區_27
+      - ok Channel of Dream Song 華人社區_48
+      - ok Channel of Dream Song 華人社區_38
+      - ok Channel of Dream Song 華人社區_42
+      - ok Channel of Dream Song 華人社區_34
+      - ok Channel of Dream Song 華人社區_17
+      - ok Channel of Dream Song 華人社區_24
+      - ok Channel of Dream Song 華人社區_44
+      - ok Channel of Dream Song 華人社區_29
+      - ok Channel of Dream Song 華人社區_39
+      - ok Channel of Dream Song 華人社區_14
+      - ok Channel of Dream Song 華人社區_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ok CYL-科技（2021.12.03）
-      - ok CYL-科技（2021.12.03） 2
-      - ok CYL-科技（2021.12.03） 3
-      - ok CYL-科技（2021.11.27）
-      - ok CYL-科技（2021.11.27） 2
-      - ok CYL-科技（2021.12.03） 4
-      - ok CYL-科技（2021.12.03） 5
-      - ok CYL-科技（2021.12.03） 6
-      - ok CYL-科技（2021.11.30）
-      - ok CYL-科技（2021.12.03） 7
-      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.04）
+      - ok CYL-科技（2021.12.06）
+      - ok CYL-科技（2021.12.06） 2
+      - ok CYL-科技（2021.12.04） 2
       - ok CYL-科技（2021.12.02）
-      - ok CYL-科技（2021.11.27） 3
+      - ok CYL-科技（2021.12.05）
+      - ok CYL-科技（2021.12.06） 3
+      - ok CYL-科技（2021.12.06） 4
+      - ok CYL-科技（2021.12.06） 5
+      - ok CYL-科技（2021.12.05） 2
+      - ok CYL-科技（2021.12.03）
+      - ok CYL-科技（2021.12.04） 3
+      - ok CYL-科技（2021.12.06） 6
+      - ok CYL-科技（2021.12.06） 7
       - ok CYL-科技（2021.12.02） 2
-      - ok CYL-科技（2021.11.30） 3
       - ok CYL-科技（2021.12.02） 3
-      - ok CYL-科技（2021.11.27） 4
-      - ok CYL-科技（2021.12.03） 8
-      - ok CYL-科技（2021.12.03） 9
-      - ok CYL-科技（2021.11.30） 4
-      - ok CYL-科技（2021.11.27） 5
-      - ok CYL-科技（2021.12.03） 10
-      - ok CYL-科技（2021.12.03） 11
-      - ok CYL-科技（2021.12.03） 12
-      - ok CYL-科技（2021.12.03） 13
+      - ok CYL-科技（2021.12.03） 2
+      - ok CYL-科技（2021.12.06） 8
+      - ok CYL-科技（2021.12.04） 4
+      - ok CYL-科技（2021.12.06） 9
+      - ok CYL-科技（2021.12.05） 3
+      - ok CYL-科技（2021.12.04） 5
+      - ok CYL-科技（2021.12.06） 10
+      - ok CYL-科技（2021.12.04） 6
+      - ok CYL-科技（2021.12.03） 3
+      - ok CYL-科技（2021.12.06） 11
+      - ok CYL-科技（2021.12.04） 7
+      - ok CYL-科技（2021.12.06） 12
+      - ok CYL-科技（2021.12.04） 8
+      - ok CYL-科技（2021.12.06） 13
       - ok CYL-科技（2021.12.02） 4
-      - ok CYL-科技（2021.12.03） 14
-      - ok CYL-科技（2021.12.03） 15
-      - ok CYL-科技（2021.12.03） 16
-      - ok CYL-科技（2021.12.03） 17
+      - ok CYL-科技（2021.12.03） 4
+      - ok CYL-科技（2021.12.04） 9
+      - ok CYL-科技（2021.12.04） 10
+      - ok CYL-科技（2021.12.06） 14
       - ok CYL-科技（2021.12.02） 5
-      - ok CYL-科技（2021.12.03） 18
-      - ok CYL-科技（2021.12.03） 19
-      - ok CYL-科技（2021.12.03） 20
-      - ok CYL-科技（2021.12.03） 21
-      - ok CYL-科技（2021.12.03） 22
-      - ok CYL-科技（2021.12.03） 23
-      - ok CYL-科技（2021.12.03） 24
-      - ok CYL-科技（2021.12.03） 25
-      - ok CYL-科技（2021.11.27） 6
-      - ok CYL-科技（2021.12.02） 6
-      - ok CYL-科技（2021.12.02） 7
-      - ok CYL-科技（2021.12.03） 26
-      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1627
-      - ok CYL-科技（2021.12.02） 8
-      - ok CYL-科技（2021.12.02） 9
-      - ok CYL-科技（2021.11.30） 5
-      - ok CYL-科技（2021.11.27） 7
-      - ok CYL-科技（2021.12.03） 27
-      - ok CYL-科技（2021.12.03） 28
-      - ok CYL-科技（2021.12.03） 29
-      - ok CYL-科技（2021.12.02） 10
-      - ok CYL-科技（2021.12.03） 30
-      - ok CYL-科技（2021.12.03） 31
-      - ok CYL-科技（2021.11.27） 8
-      - ok CYL-科技（2021.12.02） 11
-      - ok CYL-科技（2021.12.03） 32
-      - ok CYL-科技（2021.12.03） 33
-      - ok CYL-科技（2021.12.03） 34
+      - ok CYL-科技（2021.12.06） 15
+      - ok CYL-科技（2021.12.06） 16
+      - ok CYL-科技（2021.12.04） 11
+      - ok CYL-科技（2021.12.06） 17
+      - ok CYL-科技（2021.12.05） 4
+      - ok CYL-科技（2021.12.06） 18
+      - ok CYL-科技（2021.12.05） 5
+      - ok CYL-科技（2021.12.05） 6
+      - ok CYL-科技（2021.12.06） 19
+      - ok CYL-科技（2021.12.04） 12
+      - ok CYL-科技（2021.12.06） 20
+      - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.12.05） 7
+      - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.12.04） 13
+      - ok CYL-科技（2021.12.05） 8
+      - ok CYL-科技（2021.11.30）
+      - ok CYL-科技（2021.12.06） 21
+      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.04） 14
+      - ok CYL-科技（2021.12.03） 5
+      - ok CYL-科技（2021.12.06） 22
+      - ok CYL-科技（2021.12.05） 9
+      - ok CYL-科技（2021.12.04） 15
+      - ok CYL-科技（2021.12.03） 6
+      - ok Channel of Dream Song 華人社區_33
+      - ok Channel of Dream Song 華人社區_27
+      - ok Channel of Dream Song 華人社區_48
+      - ok Channel of Dream Song 華人社區_38
+      - ok Channel of Dream Song 華人社區_42
+      - ok Channel of Dream Song 華人社區_34
+      - ok Channel of Dream Song 華人社區_17
+      - ok Channel of Dream Song 華人社區_24
+      - ok Channel of Dream Song 華人社區_44
+      - ok Channel of Dream Song 華人社區_29
+      - ok Channel of Dream Song 華人社區_39
+      - ok Channel of Dream Song 華人社區_14
+      - ok Channel of Dream Song 華人社區_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ok CYL-科技（2021.12.03）
-      - ok CYL-科技（2021.12.03） 2
-      - ok CYL-科技（2021.12.03） 3
-      - ok CYL-科技（2021.11.27）
-      - ok CYL-科技（2021.11.27） 2
-      - ok CYL-科技（2021.12.03） 4
-      - ok CYL-科技（2021.12.03） 5
-      - ok CYL-科技（2021.12.03） 6
-      - ok CYL-科技（2021.11.30）
-      - ok CYL-科技（2021.12.03） 7
-      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.04）
+      - ok CYL-科技（2021.12.06）
+      - ok CYL-科技（2021.12.06） 2
+      - ok CYL-科技（2021.12.04） 2
       - ok CYL-科技（2021.12.02）
-      - ok CYL-科技（2021.11.27） 3
+      - ok CYL-科技（2021.12.05）
+      - ok CYL-科技（2021.12.06） 3
+      - ok CYL-科技（2021.12.06） 4
+      - ok CYL-科技（2021.12.06） 5
+      - ok CYL-科技（2021.12.05） 2
+      - ok CYL-科技（2021.12.03）
+      - ok CYL-科技（2021.12.04） 3
+      - ok CYL-科技（2021.12.06） 6
+      - ok CYL-科技（2021.12.06） 7
       - ok CYL-科技（2021.12.02） 2
-      - ok CYL-科技（2021.11.30） 3
       - ok CYL-科技（2021.12.02） 3
-      - ok CYL-科技（2021.11.27） 4
-      - ok CYL-科技（2021.12.03） 8
-      - ok CYL-科技（2021.12.03） 9
-      - ok CYL-科技（2021.11.30） 4
-      - ok CYL-科技（2021.11.27） 5
-      - ok CYL-科技（2021.12.03） 10
-      - ok CYL-科技（2021.12.03） 11
-      - ok CYL-科技（2021.12.03） 12
-      - ok CYL-科技（2021.12.03） 13
+      - ok CYL-科技（2021.12.03） 2
+      - ok CYL-科技（2021.12.06） 8
+      - ok CYL-科技（2021.12.04） 4
+      - ok CYL-科技（2021.12.06） 9
+      - ok CYL-科技（2021.12.05） 3
+      - ok CYL-科技（2021.12.04） 5
+      - ok CYL-科技（2021.12.06） 10
+      - ok CYL-科技（2021.12.04） 6
+      - ok CYL-科技（2021.12.03） 3
+      - ok CYL-科技（2021.12.06） 11
+      - ok CYL-科技（2021.12.04） 7
+      - ok CYL-科技（2021.12.06） 12
+      - ok CYL-科技（2021.12.04） 8
+      - ok CYL-科技（2021.12.06） 13
       - ok CYL-科技（2021.12.02） 4
-      - ok CYL-科技（2021.12.03） 14
-      - ok CYL-科技（2021.12.03） 15
-      - ok CYL-科技（2021.12.03） 16
-      - ok CYL-科技（2021.12.03） 17
+      - ok CYL-科技（2021.12.03） 4
+      - ok CYL-科技（2021.12.04） 9
+      - ok CYL-科技（2021.12.04） 10
+      - ok CYL-科技（2021.12.06） 14
       - ok CYL-科技（2021.12.02） 5
-      - ok CYL-科技（2021.12.03） 18
-      - ok CYL-科技（2021.12.03） 19
-      - ok CYL-科技（2021.12.03） 20
-      - ok CYL-科技（2021.12.03） 21
-      - ok CYL-科技（2021.12.03） 22
-      - ok CYL-科技（2021.12.03） 23
-      - ok CYL-科技（2021.12.03） 24
-      - ok CYL-科技（2021.12.03） 25
-      - ok CYL-科技（2021.11.27） 6
-      - ok CYL-科技（2021.12.02） 6
-      - ok CYL-科技（2021.12.02） 7
-      - ok CYL-科技（2021.12.03） 26
-      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1627
-      - ok CYL-科技（2021.12.02） 8
-      - ok CYL-科技（2021.12.02） 9
-      - ok CYL-科技（2021.11.30） 5
-      - ok CYL-科技（2021.11.27） 7
-      - ok CYL-科技（2021.12.03） 27
-      - ok CYL-科技（2021.12.03） 28
-      - ok CYL-科技（2021.12.03） 29
-      - ok CYL-科技（2021.12.02） 10
-      - ok CYL-科技（2021.12.03） 30
-      - ok CYL-科技（2021.12.03） 31
-      - ok CYL-科技（2021.11.27） 8
-      - ok CYL-科技（2021.12.02） 11
-      - ok CYL-科技（2021.12.03） 32
-      - ok CYL-科技（2021.12.03） 33
-      - ok CYL-科技（2021.12.03） 34
+      - ok CYL-科技（2021.12.06） 15
+      - ok CYL-科技（2021.12.06） 16
+      - ok CYL-科技（2021.12.04） 11
+      - ok CYL-科技（2021.12.06） 17
+      - ok CYL-科技（2021.12.05） 4
+      - ok CYL-科技（2021.12.06） 18
+      - ok CYL-科技（2021.12.05） 5
+      - ok CYL-科技（2021.12.05） 6
+      - ok CYL-科技（2021.12.06） 19
+      - ok CYL-科技（2021.12.04） 12
+      - ok CYL-科技（2021.12.06） 20
+      - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.12.05） 7
+      - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.12.04） 13
+      - ok CYL-科技（2021.12.05） 8
+      - ok CYL-科技（2021.11.30）
+      - ok CYL-科技（2021.12.06） 21
+      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.04） 14
+      - ok CYL-科技（2021.12.03） 5
+      - ok CYL-科技（2021.12.06） 22
+      - ok CYL-科技（2021.12.05） 9
+      - ok CYL-科技（2021.12.04） 15
+      - ok CYL-科技（2021.12.03） 6
+      - ok Channel of Dream Song 華人社區_33
+      - ok Channel of Dream Song 華人社區_27
+      - ok Channel of Dream Song 華人社區_48
+      - ok Channel of Dream Song 華人社區_38
+      - ok Channel of Dream Song 華人社區_42
+      - ok Channel of Dream Song 華人社區_34
+      - ok Channel of Dream Song 華人社區_17
+      - ok Channel of Dream Song 華人社區_24
+      - ok Channel of Dream Song 華人社區_44
+      - ok Channel of Dream Song 華人社區_29
+      - ok Channel of Dream Song 華人社區_39
+      - ok Channel of Dream Song 華人社區_14
+      - ok Channel of Dream Song 華人社區_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ok CYL-科技（2021.12.03）
-      - ok CYL-科技（2021.12.03） 2
-      - ok CYL-科技（2021.12.03） 3
-      - ok CYL-科技（2021.11.27）
-      - ok CYL-科技（2021.11.27） 2
-      - ok CYL-科技（2021.12.03） 4
-      - ok CYL-科技（2021.12.03） 5
-      - ok CYL-科技（2021.12.03） 6
-      - ok CYL-科技（2021.11.30）
-      - ok CYL-科技（2021.12.03） 7
-      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.04）
+      - ok CYL-科技（2021.12.06）
+      - ok CYL-科技（2021.12.06） 2
+      - ok CYL-科技（2021.12.04） 2
       - ok CYL-科技（2021.12.02）
-      - ok CYL-科技（2021.11.27） 3
+      - ok CYL-科技（2021.12.05）
+      - ok CYL-科技（2021.12.06） 3
+      - ok CYL-科技（2021.12.06） 4
+      - ok CYL-科技（2021.12.06） 5
+      - ok CYL-科技（2021.12.05） 2
+      - ok CYL-科技（2021.12.03）
+      - ok CYL-科技（2021.12.04） 3
+      - ok CYL-科技（2021.12.06） 6
+      - ok CYL-科技（2021.12.06） 7
       - ok CYL-科技（2021.12.02） 2
-      - ok CYL-科技（2021.11.30） 3
       - ok CYL-科技（2021.12.02） 3
-      - ok CYL-科技（2021.11.27） 4
-      - ok CYL-科技（2021.12.03） 8
-      - ok CYL-科技（2021.12.03） 9
-      - ok CYL-科技（2021.11.30） 4
-      - ok CYL-科技（2021.11.27） 5
-      - ok CYL-科技（2021.12.03） 10
-      - ok CYL-科技（2021.12.03） 11
-      - ok CYL-科技（2021.12.03） 12
-      - ok CYL-科技（2021.12.03） 13
+      - ok CYL-科技（2021.12.03） 2
+      - ok CYL-科技（2021.12.06） 8
+      - ok CYL-科技（2021.12.04） 4
+      - ok CYL-科技（2021.12.06） 9
+      - ok CYL-科技（2021.12.05） 3
+      - ok CYL-科技（2021.12.04） 5
+      - ok CYL-科技（2021.12.06） 10
+      - ok CYL-科技（2021.12.04） 6
+      - ok CYL-科技（2021.12.03） 3
+      - ok CYL-科技（2021.12.06） 11
+      - ok CYL-科技（2021.12.04） 7
+      - ok CYL-科技（2021.12.06） 12
+      - ok CYL-科技（2021.12.04） 8
+      - ok CYL-科技（2021.12.06） 13
       - ok CYL-科技（2021.12.02） 4
-      - ok CYL-科技（2021.12.03） 14
-      - ok CYL-科技（2021.12.03） 15
-      - ok CYL-科技（2021.12.03） 16
-      - ok CYL-科技（2021.12.03） 17
+      - ok CYL-科技（2021.12.03） 4
+      - ok CYL-科技（2021.12.04） 9
+      - ok CYL-科技（2021.12.04） 10
+      - ok CYL-科技（2021.12.06） 14
       - ok CYL-科技（2021.12.02） 5
-      - ok CYL-科技（2021.12.03） 18
-      - ok CYL-科技（2021.12.03） 19
-      - ok CYL-科技（2021.12.03） 20
-      - ok CYL-科技（2021.12.03） 21
-      - ok CYL-科技（2021.12.03） 22
-      - ok CYL-科技（2021.12.03） 23
-      - ok CYL-科技（2021.12.03） 24
-      - ok CYL-科技（2021.12.03） 25
-      - ok CYL-科技（2021.11.27） 6
-      - ok CYL-科技（2021.12.02） 6
-      - ok CYL-科技（2021.12.02） 7
-      - ok CYL-科技（2021.12.03） 26
-      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1627
-      - ok CYL-科技（2021.12.02） 8
-      - ok CYL-科技（2021.12.02） 9
-      - ok CYL-科技（2021.11.30） 5
-      - ok CYL-科技（2021.11.27） 7
-      - ok CYL-科技（2021.12.03） 27
-      - ok CYL-科技（2021.12.03） 28
-      - ok CYL-科技（2021.12.03） 29
-      - ok CYL-科技（2021.12.02） 10
-      - ok CYL-科技（2021.12.03） 30
-      - ok CYL-科技（2021.12.03） 31
-      - ok CYL-科技（2021.11.27） 8
-      - ok CYL-科技（2021.12.02） 11
-      - ok CYL-科技（2021.12.03） 32
-      - ok CYL-科技（2021.12.03） 33
-      - ok CYL-科技（2021.12.03） 34
+      - ok CYL-科技（2021.12.06） 15
+      - ok CYL-科技（2021.12.06） 16
+      - ok CYL-科技（2021.12.04） 11
+      - ok CYL-科技（2021.12.06） 17
+      - ok CYL-科技（2021.12.05） 4
+      - ok CYL-科技（2021.12.06） 18
+      - ok CYL-科技（2021.12.05） 5
+      - ok CYL-科技（2021.12.05） 6
+      - ok CYL-科技（2021.12.06） 19
+      - ok CYL-科技（2021.12.04） 12
+      - ok CYL-科技（2021.12.06） 20
+      - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.12.05） 7
+      - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.12.04） 13
+      - ok CYL-科技（2021.12.05） 8
+      - ok CYL-科技（2021.11.30）
+      - ok CYL-科技（2021.12.06） 21
+      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.04） 14
+      - ok CYL-科技（2021.12.03） 5
+      - ok CYL-科技（2021.12.06） 22
+      - ok CYL-科技（2021.12.05） 9
+      - ok CYL-科技（2021.12.04） 15
+      - ok CYL-科技（2021.12.03） 6
+      - ok Channel of Dream Song 華人社區_33
+      - ok Channel of Dream Song 華人社區_27
+      - ok Channel of Dream Song 華人社區_48
+      - ok Channel of Dream Song 華人社區_38
+      - ok Channel of Dream Song 華人社區_42
+      - ok Channel of Dream Song 華人社區_34
+      - ok Channel of Dream Song 華人社區_17
+      - ok Channel of Dream Song 華人社區_24
+      - ok Channel of Dream Song 華人社區_44
+      - ok Channel of Dream Song 華人社區_29
+      - ok Channel of Dream Song 華人社區_39
+      - ok Channel of Dream Song 華人社區_14
+      - ok Channel of Dream Song 華人社區_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ok CYL-科技（2021.12.03）
-      - ok CYL-科技（2021.12.03） 2
-      - ok CYL-科技（2021.12.03） 3
-      - ok CYL-科技（2021.11.27）
-      - ok CYL-科技（2021.11.27） 2
-      - ok CYL-科技（2021.12.03） 4
-      - ok CYL-科技（2021.12.03） 5
-      - ok CYL-科技（2021.12.03） 6
-      - ok CYL-科技（2021.11.30）
-      - ok CYL-科技（2021.12.03） 7
-      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.04）
+      - ok CYL-科技（2021.12.06）
+      - ok CYL-科技（2021.12.06） 2
+      - ok CYL-科技（2021.12.04） 2
       - ok CYL-科技（2021.12.02）
-      - ok CYL-科技（2021.11.27） 3
+      - ok CYL-科技（2021.12.05）
+      - ok CYL-科技（2021.12.06） 3
+      - ok CYL-科技（2021.12.06） 4
+      - ok CYL-科技（2021.12.06） 5
+      - ok CYL-科技（2021.12.05） 2
+      - ok CYL-科技（2021.12.03）
+      - ok CYL-科技（2021.12.04） 3
+      - ok CYL-科技（2021.12.06） 6
+      - ok CYL-科技（2021.12.06） 7
       - ok CYL-科技（2021.12.02） 2
-      - ok CYL-科技（2021.11.30） 3
       - ok CYL-科技（2021.12.02） 3
-      - ok CYL-科技（2021.11.27） 4
-      - ok CYL-科技（2021.12.03） 8
-      - ok CYL-科技（2021.12.03） 9
-      - ok CYL-科技（2021.11.30） 4
-      - ok CYL-科技（2021.11.27） 5
-      - ok CYL-科技（2021.12.03） 10
-      - ok CYL-科技（2021.12.03） 11
-      - ok CYL-科技（2021.12.03） 12
-      - ok CYL-科技（2021.12.03） 13
+      - ok CYL-科技（2021.12.03） 2
+      - ok CYL-科技（2021.12.06） 8
+      - ok CYL-科技（2021.12.04） 4
+      - ok CYL-科技（2021.12.06） 9
+      - ok CYL-科技（2021.12.05） 3
+      - ok CYL-科技（2021.12.04） 5
+      - ok CYL-科技（2021.12.06） 10
+      - ok CYL-科技（2021.12.04） 6
+      - ok CYL-科技（2021.12.03） 3
+      - ok CYL-科技（2021.12.06） 11
+      - ok CYL-科技（2021.12.04） 7
+      - ok CYL-科技（2021.12.06） 12
+      - ok CYL-科技（2021.12.04） 8
+      - ok CYL-科技（2021.12.06） 13
       - ok CYL-科技（2021.12.02） 4
-      - ok CYL-科技（2021.12.03） 14
-      - ok CYL-科技（2021.12.03） 15
-      - ok CYL-科技（2021.12.03） 16
-      - ok CYL-科技（2021.12.03） 17
+      - ok CYL-科技（2021.12.03） 4
+      - ok CYL-科技（2021.12.04） 9
+      - ok CYL-科技（2021.12.04） 10
+      - ok CYL-科技（2021.12.06） 14
       - ok CYL-科技（2021.12.02） 5
-      - ok CYL-科技（2021.12.03） 18
-      - ok CYL-科技（2021.12.03） 19
-      - ok CYL-科技（2021.12.03） 20
-      - ok CYL-科技（2021.12.03） 21
-      - ok CYL-科技（2021.12.03） 22
-      - ok CYL-科技（2021.12.03） 23
-      - ok CYL-科技（2021.12.03） 24
-      - ok CYL-科技（2021.12.03） 25
-      - ok CYL-科技（2021.11.27） 6
-      - ok CYL-科技（2021.12.02） 6
-      - ok CYL-科技（2021.12.02） 7
-      - ok CYL-科技（2021.12.03） 26
-      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1627
-      - ok CYL-科技（2021.12.02） 8
-      - ok CYL-科技（2021.12.02） 9
-      - ok CYL-科技（2021.11.30） 5
-      - ok CYL-科技（2021.11.27） 7
-      - ok CYL-科技（2021.12.03） 27
-      - ok CYL-科技（2021.12.03） 28
-      - ok CYL-科技（2021.12.03） 29
-      - ok CYL-科技（2021.12.02） 10
-      - ok CYL-科技（2021.12.03） 30
-      - ok CYL-科技（2021.12.03） 31
-      - ok CYL-科技（2021.11.27） 8
-      - ok CYL-科技（2021.12.02） 11
-      - ok CYL-科技（2021.12.03） 32
-      - ok CYL-科技（2021.12.03） 33
-      - ok CYL-科技（2021.12.03） 34
+      - ok CYL-科技（2021.12.06） 15
+      - ok CYL-科技（2021.12.06） 16
+      - ok CYL-科技（2021.12.04） 11
+      - ok CYL-科技（2021.12.06） 17
+      - ok CYL-科技（2021.12.05） 4
+      - ok CYL-科技（2021.12.06） 18
+      - ok CYL-科技（2021.12.05） 5
+      - ok CYL-科技（2021.12.05） 6
+      - ok CYL-科技（2021.12.06） 19
+      - ok CYL-科技（2021.12.04） 12
+      - ok CYL-科技（2021.12.06） 20
+      - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.12.05） 7
+      - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.12.04） 13
+      - ok CYL-科技（2021.12.05） 8
+      - ok CYL-科技（2021.11.30）
+      - ok CYL-科技（2021.12.06） 21
+      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.04） 14
+      - ok CYL-科技（2021.12.03） 5
+      - ok CYL-科技（2021.12.06） 22
+      - ok CYL-科技（2021.12.05） 9
+      - ok CYL-科技（2021.12.04） 15
+      - ok CYL-科技（2021.12.03） 6
+      - ok Channel of Dream Song 華人社區_33
+      - ok Channel of Dream Song 華人社區_27
+      - ok Channel of Dream Song 華人社區_48
+      - ok Channel of Dream Song 華人社區_38
+      - ok Channel of Dream Song 華人社區_42
+      - ok Channel of Dream Song 華人社區_34
+      - ok Channel of Dream Song 華人社區_17
+      - ok Channel of Dream Song 華人社區_24
+      - ok Channel of Dream Song 華人社區_44
+      - ok Channel of Dream Song 華人社區_29
+      - ok Channel of Dream Song 華人社區_39
+      - ok Channel of Dream Song 華人社區_14
+      - ok Channel of Dream Song 華人社區_1
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ok CYL-科技（2021.12.03）
-      - ok CYL-科技（2021.12.03） 2
-      - ok CYL-科技（2021.12.03） 3
-      - ok CYL-科技（2021.11.27）
-      - ok CYL-科技（2021.11.27） 2
-      - ok CYL-科技（2021.12.03） 4
-      - ok CYL-科技（2021.12.03） 5
-      - ok CYL-科技（2021.12.03） 6
-      - ok CYL-科技（2021.11.30）
-      - ok CYL-科技（2021.12.03） 7
-      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.04）
+      - ok CYL-科技（2021.12.06）
+      - ok CYL-科技（2021.12.06） 2
+      - ok CYL-科技（2021.12.04） 2
       - ok CYL-科技（2021.12.02）
-      - ok CYL-科技（2021.11.27） 3
+      - ok CYL-科技（2021.12.05）
+      - ok CYL-科技（2021.12.06） 3
+      - ok CYL-科技（2021.12.06） 4
+      - ok CYL-科技（2021.12.06） 5
+      - ok CYL-科技（2021.12.05） 2
+      - ok CYL-科技（2021.12.03）
+      - ok CYL-科技（2021.12.04） 3
+      - ok CYL-科技（2021.12.06） 6
+      - ok CYL-科技（2021.12.06） 7
       - ok CYL-科技（2021.12.02） 2
-      - ok CYL-科技（2021.11.30） 3
       - ok CYL-科技（2021.12.02） 3
-      - ok CYL-科技（2021.11.27） 4
-      - ok CYL-科技（2021.12.03） 8
-      - ok CYL-科技（2021.12.03） 9
-      - ok CYL-科技（2021.11.30） 4
-      - ok CYL-科技（2021.11.27） 5
-      - ok CYL-科技（2021.12.03） 10
-      - ok CYL-科技（2021.12.03） 11
-      - ok CYL-科技（2021.12.03） 12
-      - ok CYL-科技（2021.12.03） 13
+      - ok CYL-科技（2021.12.03） 2
+      - ok CYL-科技（2021.12.06） 8
+      - ok CYL-科技（2021.12.04） 4
+      - ok CYL-科技（2021.12.06） 9
+      - ok CYL-科技（2021.12.05） 3
+      - ok CYL-科技（2021.12.04） 5
+      - ok CYL-科技（2021.12.06） 10
+      - ok CYL-科技（2021.12.04） 6
+      - ok CYL-科技（2021.12.03） 3
+      - ok CYL-科技（2021.12.06） 11
+      - ok CYL-科技（2021.12.04） 7
+      - ok CYL-科技（2021.12.06） 12
+      - ok CYL-科技（2021.12.04） 8
+      - ok CYL-科技（2021.12.06） 13
       - ok CYL-科技（2021.12.02） 4
-      - ok CYL-科技（2021.12.03） 14
-      - ok CYL-科技（2021.12.03） 15
-      - ok CYL-科技（2021.12.03） 16
-      - ok CYL-科技（2021.12.03） 17
+      - ok CYL-科技（2021.12.03） 4
+      - ok CYL-科技（2021.12.04） 9
+      - ok CYL-科技（2021.12.04） 10
+      - ok CYL-科技（2021.12.06） 14
       - ok CYL-科技（2021.12.02） 5
-      - ok CYL-科技（2021.12.03） 18
-      - ok CYL-科技（2021.12.03） 19
-      - ok CYL-科技（2021.12.03） 20
-      - ok CYL-科技（2021.12.03） 21
-      - ok CYL-科技（2021.12.03） 22
-      - ok CYL-科技（2021.12.03） 23
-      - ok CYL-科技（2021.12.03） 24
-      - ok CYL-科技（2021.12.03） 25
-      - ok CYL-科技（2021.11.27） 6
-      - ok CYL-科技（2021.12.02） 6
-      - ok CYL-科技（2021.12.02） 7
-      - ok CYL-科技（2021.12.03） 26
-      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1627
-      - ok CYL-科技（2021.12.02） 8
-      - ok CYL-科技（2021.12.02） 9
-      - ok CYL-科技（2021.11.30） 5
-      - ok CYL-科技（2021.11.27） 7
-      - ok CYL-科技（2021.12.03） 27
-      - ok CYL-科技（2021.12.03） 28
-      - ok CYL-科技（2021.12.03） 29
-      - ok CYL-科技（2021.12.02） 10
-      - ok CYL-科技（2021.12.03） 30
-      - ok CYL-科技（2021.12.03） 31
-      - ok CYL-科技（2021.11.27） 8
-      - ok CYL-科技（2021.12.02） 11
-      - ok CYL-科技（2021.12.03） 32
-      - ok CYL-科技（2021.12.03） 33
-      - ok CYL-科技（2021.12.03） 34
+      - ok CYL-科技（2021.12.06） 15
+      - ok CYL-科技（2021.12.06） 16
+      - ok CYL-科技（2021.12.04） 11
+      - ok CYL-科技（2021.12.06） 17
+      - ok CYL-科技（2021.12.05） 4
+      - ok CYL-科技（2021.12.06） 18
+      - ok CYL-科技（2021.12.05） 5
+      - ok CYL-科技（2021.12.05） 6
+      - ok CYL-科技（2021.12.06） 19
+      - ok CYL-科技（2021.12.04） 12
+      - ok CYL-科技（2021.12.06） 20
+      - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.12.05） 7
+      - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.12.04） 13
+      - ok CYL-科技（2021.12.05） 8
+      - ok CYL-科技（2021.11.30）
+      - ok CYL-科技（2021.12.06） 21
+      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.04） 14
+      - ok CYL-科技（2021.12.03） 5
+      - ok CYL-科技（2021.12.06） 22
+      - ok CYL-科技（2021.12.05） 9
+      - ok CYL-科技（2021.12.04） 15
+      - ok CYL-科技（2021.12.03） 6
+      - ok Channel of Dream Song 華人社區_33
+      - ok Channel of Dream Song 華人社區_27
+      - ok Channel of Dream Song 華人社區_48
+      - ok Channel of Dream Song 華人社區_38
+      - ok Channel of Dream Song 華人社區_42
+      - ok Channel of Dream Song 華人社區_34
+      - ok Channel of Dream Song 華人社區_17
+      - ok Channel of Dream Song 華人社區_24
+      - ok Channel of Dream Song 華人社區_44
+      - ok Channel of Dream Song 華人社區_29
+      - ok Channel of Dream Song 華人社區_39
+      - ok Channel of Dream Song 華人社區_14
+      - ok Channel of Dream Song 華人社區_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -538,65 +658,80 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ok CYL-科技（2021.12.03）
-      - ok CYL-科技（2021.12.03） 2
-      - ok CYL-科技（2021.12.03） 3
-      - ok CYL-科技（2021.11.27）
-      - ok CYL-科技（2021.11.27） 2
-      - ok CYL-科技（2021.12.03） 4
-      - ok CYL-科技（2021.12.03） 5
-      - ok CYL-科技（2021.12.03） 6
-      - ok CYL-科技（2021.11.30）
-      - ok CYL-科技（2021.12.03） 7
-      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.04）
+      - ok CYL-科技（2021.12.06）
+      - ok CYL-科技（2021.12.06） 2
+      - ok CYL-科技（2021.12.04） 2
       - ok CYL-科技（2021.12.02）
-      - ok CYL-科技（2021.11.27） 3
+      - ok CYL-科技（2021.12.05）
+      - ok CYL-科技（2021.12.06） 3
+      - ok CYL-科技（2021.12.06） 4
+      - ok CYL-科技（2021.12.06） 5
+      - ok CYL-科技（2021.12.05） 2
+      - ok CYL-科技（2021.12.03）
+      - ok CYL-科技（2021.12.04） 3
+      - ok CYL-科技（2021.12.06） 6
+      - ok CYL-科技（2021.12.06） 7
       - ok CYL-科技（2021.12.02） 2
-      - ok CYL-科技（2021.11.30） 3
       - ok CYL-科技（2021.12.02） 3
-      - ok CYL-科技（2021.11.27） 4
-      - ok CYL-科技（2021.12.03） 8
-      - ok CYL-科技（2021.12.03） 9
-      - ok CYL-科技（2021.11.30） 4
-      - ok CYL-科技（2021.11.27） 5
-      - ok CYL-科技（2021.12.03） 10
-      - ok CYL-科技（2021.12.03） 11
-      - ok CYL-科技（2021.12.03） 12
-      - ok CYL-科技（2021.12.03） 13
+      - ok CYL-科技（2021.12.03） 2
+      - ok CYL-科技（2021.12.06） 8
+      - ok CYL-科技（2021.12.04） 4
+      - ok CYL-科技（2021.12.06） 9
+      - ok CYL-科技（2021.12.05） 3
+      - ok CYL-科技（2021.12.04） 5
+      - ok CYL-科技（2021.12.06） 10
+      - ok CYL-科技（2021.12.04） 6
+      - ok CYL-科技（2021.12.03） 3
+      - ok CYL-科技（2021.12.06） 11
+      - ok CYL-科技（2021.12.04） 7
+      - ok CYL-科技（2021.12.06） 12
+      - ok CYL-科技（2021.12.04） 8
+      - ok CYL-科技（2021.12.06） 13
       - ok CYL-科技（2021.12.02） 4
-      - ok CYL-科技（2021.12.03） 14
-      - ok CYL-科技（2021.12.03） 15
-      - ok CYL-科技（2021.12.03） 16
-      - ok CYL-科技（2021.12.03） 17
+      - ok CYL-科技（2021.12.03） 4
+      - ok CYL-科技（2021.12.04） 9
+      - ok CYL-科技（2021.12.04） 10
+      - ok CYL-科技（2021.12.06） 14
       - ok CYL-科技（2021.12.02） 5
-      - ok CYL-科技（2021.12.03） 18
-      - ok CYL-科技（2021.12.03） 19
-      - ok CYL-科技（2021.12.03） 20
-      - ok CYL-科技（2021.12.03） 21
-      - ok CYL-科技（2021.12.03） 22
-      - ok CYL-科技（2021.12.03） 23
-      - ok CYL-科技（2021.12.03） 24
-      - ok CYL-科技（2021.12.03） 25
-      - ok CYL-科技（2021.11.27） 6
-      - ok CYL-科技（2021.12.02） 6
-      - ok CYL-科技（2021.12.02） 7
-      - ok CYL-科技（2021.12.03） 26
-      - 🇺🇸 ok 阿伟科技-油管🇺🇸US_1627
-      - ok CYL-科技（2021.12.02） 8
-      - ok CYL-科技（2021.12.02） 9
-      - ok CYL-科技（2021.11.30） 5
-      - ok CYL-科技（2021.11.27） 7
-      - ok CYL-科技（2021.12.03） 27
-      - ok CYL-科技（2021.12.03） 28
-      - ok CYL-科技（2021.12.03） 29
-      - ok CYL-科技（2021.12.02） 10
-      - ok CYL-科技（2021.12.03） 30
-      - ok CYL-科技（2021.12.03） 31
-      - ok CYL-科技（2021.11.27） 8
-      - ok CYL-科技（2021.12.02） 11
-      - ok CYL-科技（2021.12.03） 32
-      - ok CYL-科技（2021.12.03） 33
-      - ok CYL-科技（2021.12.03） 34
+      - ok CYL-科技（2021.12.06） 15
+      - ok CYL-科技（2021.12.06） 16
+      - ok CYL-科技（2021.12.04） 11
+      - ok CYL-科技（2021.12.06） 17
+      - ok CYL-科技（2021.12.05） 4
+      - ok CYL-科技（2021.12.06） 18
+      - ok CYL-科技（2021.12.05） 5
+      - ok CYL-科技（2021.12.05） 6
+      - ok CYL-科技（2021.12.06） 19
+      - ok CYL-科技（2021.12.04） 12
+      - ok CYL-科技（2021.12.06） 20
+      - ok CYL-科技（2021.11.27）
+      - ok CYL-科技（2021.12.05） 7
+      - ok CYL-科技（2021.11.27） 2
+      - ok CYL-科技（2021.12.04） 13
+      - ok CYL-科技（2021.12.05） 8
+      - ok CYL-科技（2021.11.30）
+      - ok CYL-科技（2021.12.06） 21
+      - ok CYL-科技（2021.11.30） 2
+      - ok CYL-科技（2021.12.04） 14
+      - ok CYL-科技（2021.12.03） 5
+      - ok CYL-科技（2021.12.06） 22
+      - ok CYL-科技（2021.12.05） 9
+      - ok CYL-科技（2021.12.04） 15
+      - ok CYL-科技（2021.12.03） 6
+      - ok Channel of Dream Song 華人社區_33
+      - ok Channel of Dream Song 華人社區_27
+      - ok Channel of Dream Song 華人社區_48
+      - ok Channel of Dream Song 華人社區_38
+      - ok Channel of Dream Song 華人社區_42
+      - ok Channel of Dream Song 華人社區_34
+      - ok Channel of Dream Song 華人社區_17
+      - ok Channel of Dream Song 華人社區_24
+      - ok Channel of Dream Song 華人社區_44
+      - ok Channel of Dream Song 華人社區_29
+      - ok Channel of Dream Song 華人社區_39
+      - ok Channel of Dream Song 華人社區_14
+      - ok Channel of Dream Song 華人社區_1
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
