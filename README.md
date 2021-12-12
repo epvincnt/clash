@@ -5,693 +5,541 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 ok阿伟科技-油管🇺🇸US_1735 |19.68Mb, server: 107.148.200.123, port: 30033, type: vmess, uuid: e85a81e0-12a0-11ec-bc90-00163c1b189e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 ok阿伟科技-油管🇨🇳 CN_47, server: 112.33.32.136, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_23, server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikji}}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_38, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_9, server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_175, server: 120.232.173.88, port: 45319, type: vmess, uuid: 310948de-6c49-36f3-990e-2048adea5ab0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /inde, ws-headers: {Host: 120.232.173.88}}
-  - {name: 🇭🇰 ok阿伟科技-油管Relay_🇨🇳CN-🇭🇰HK_34, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikji}}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_20, server: zhuzhu12.com, port: 13125, type: vmess, uuid: dd627432-9996-3673-809e-599d953c45fb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: 🇰🇷 ok阿伟科技4-油管Relay_🇨🇳CN-🇰🇷KR_250, server: 139.227.161.129, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_48, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_128, server: usml.jjyun.ren, port: 80, type: vmess, uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /jjyunml, ws-headers: {Host: usml.jjyun.ren}}
-  - {name: ok CYL-科技（2021.12.09）, server: 120.232.173.88, port: 45319, type: vmess, uuid: 310948de-6c49-36f3-990e-2048adea5ab0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /inde, ws-headers: {Host: 120.232.173.88}}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_50, server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 ok阿伟科技-油管🇺🇸US_1759, server: 108.61.220.149, port: 4689, type: vmess, uuid: ac104d92-5809-11ec-a1a3-560003b9b5c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /nW5USgje/, ws-headers: {Host: 108.61.220.149}}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_57, server: 139.227.161.129, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_86, server: 108.61.220.149, port: 4689, type: vmess, uuid: ac104d92-5809-11ec-a1a3-560003b9b5c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /nW5USgje/, ws-headers: {Host: 108.61.220.149}}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_98, server: 194.135.32.208, port: 32551, type: vmess, uuid: 9d40aefc-54d9-11ec-af2d-f2c157360b1e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /W9s28k1i/, ws-headers: {Host: 194.135.32.208}}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_92, server: fus1.uuv2.co.uk, port: 2082, type: vmess, uuid: 68188cc4-0e87-4da8-cd67-7c6dbcaccf6f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /media/, ws-headers: {Host: download.jianguoyun.com}}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_69, server: 198.41.212.234, port: 2082, type: vmess, uuid: 68188cc4-0e87-4da8-cd67-7c6dbcaccf6f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /media/, ws-headers: {Host: download.jianguoyun.com}}
-  - {name: ok阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_406, server: ukml.52jjyun.top, port: 88, type: vmess, uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ukml.52jjyun.top}}
-  - {name: 🇦🇺 ok阿伟科技-油管Relay_🇦🇺AU-🇦🇺AU_13, server: Ze9baeS5.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: Ze9baeS5.com}}
-  - {name: ok CYL-科技（2021.12.06）, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: ok CYL-科技（2021.12.09） 2, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_120, server: ruzz.52jjyun.top, port: 51232, type: vmess, uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ruzz.52jjyun.top}}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_185, server: 134.195.196.107, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_134, server: cu-cs.okvpn.xyz, port: 30013, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_149, server: nl.52jjyun.top, port: 80, type: vmess, uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: nl.52jjyun.top}}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_186, server: 134.195.196.107, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_14, server: de.52jjyun.top, port: 80, type: vmess, uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: de.52jjyun.top}}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_19, server: zhuzhu12.com, port: 13959, type: vmess, uuid: f48e28a2-6187-3ff5-a900-084fa313de08, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: ok CYL-科技（2021.11.27）, server: shcn2-06b.iplc188.com, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_159, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_160, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_174, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 🇷🇺 ok阿伟科技-油管Relay_🇹🇼TW-🇷🇺RU_873, server: ruzz.52jjyun.top, port: 51232, type: vmess, uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: YouTube-aweikji}}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_102, server: cu-cs.okvpn.xyz, port: 30012, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_119, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_187, server: 134.195.196.107, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: ok阿伟科技-油管Relay_🇨🇦CA-🇨🇦CA_216, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_213, server: cu-cs.okvpn.xyz, port: 30012, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikji}}
-  - {name: 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_237, server: 120.232.173.88, port: 45319, type: vmess, uuid: 310948de-6c49-36f3-990e-2048adea5ab0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /inde, ws-headers: {Host: youtube-aweikji}}
-  - {name: ok CYL-科技（2021.12.09） 3, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 🇺🇸 ok阿伟科技-油管Relay_🇺🇸US-🇺🇸US_1880, server: 104.19.101.3, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /gdo93qerwtyuo, ws-headers: {Host: e.fovi.tk}}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_73, server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: ok CYL-科技（2021.12.09） 4, server: cu-cs.okvpn.xyz, port: 30019, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: ok CYL-科技（2021.12.09） 5, server: zhuzhu12.com, port: 14718, type: vmess, uuid: f48e28a2-6187-3ff5-a900-084fa313de08, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_70, server: 192.46.210.73, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_72, server: 172.105.35.61, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_85, server: 192.46.210.73, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_96, server: 192.46.210.73, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇷🇺 ok阿伟科技-油管Relay_🇹🇼TW-🇷🇺RU_875, server: ruzz.52jjyun.top, port: 51232, type: vmess, uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: youtube-aweikji}}
-  - {name: ok CYL-科技（2021.12.09） 6, server: shcn2-05.iplc188.com, port: 10005, type: vmess, uuid: 00231314-0d96-4dfc-bac8-cb52a989fd10, alterId: 1, cipher: auto, tls: false}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_95, server: 192.46.209.215, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_60, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: ok CYL-科技（2021.12.09） 7, server: shcn2-05.iplc188.com, port: 10001, type: vmess, uuid: 00231314-0d96-4dfc-bac8-cb52a989fd10, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 ok天美傳媒｜奈飛用戶專享_28, server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
   - {name: 🇭🇰 ok阿伟科技10-油管🇭🇰HK_478, server: cmhk04.xc188.net, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /clientarea, ws-headers: {Host: cmhk04.xc188.net}}
-  - {name: ok阿伟科技-油管Relay_-🇨🇦CA_06, server: v3.ssrsub.com, port: 8443, type: vmess, uuid: e795f820-9391-4a9d-bfaf-b5329386f82f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}}
-  - {name: 🇭🇰 ok阿伟科技10-油管🇭🇰HK_483, server: 161.81.195.100, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /clientarea, ws-headers: {Host: cmhk04.xc188.net}}
-  - {name: ok🇨🇦阿伟科技-油管CA_221, server: v3.ssrsub.com, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}}
-  - {name: ok CYL-科技（2021.12.06） 2, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_58, server: cu-cs.okvpn.xyz, port: 30022, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
-  - {name: ok CYL-科技（2021.12.09） 8, server: 149.7.16.10, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: ok CYL-科技（2021.12.09） 9, server: 149.7.16.10, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: ok CYL-科技（2021.12.09） 10, server: ru.52jjyun.top, port: 80, type: vmess, uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ru.52jjyun.top}}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_36, server: 139.227.161.129, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇨🇳 ok阿伟科技-油管🇨🇳 CN_40, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: ok CYL-科技（2021.12.09） 11, server: shcn2-05.iplc188.com, port: 10001, type: vmess, uuid: 00231314-0d96-4dfc-bac8-cb52a989fd10, alterId: 1, cipher: auto, tls: false}
-  - {name: ok CYL-科技（2021.12.09） 12, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_66, server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: ok CYL-科技（2021.12.09） 13, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: ok CYL-科技（2021.12.12）, server: zhuzhu12.com, port: 12819, type: vmess, uuid: dd627432-9996-3673-809e-599d953c45fb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇺🇸 ok天美傳媒｜奈飛用戶專享_3, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: ok CYL-科技（2021.12.12） 11, server: guangzou-yd-jy-03.pucdn.me, port: 62005, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-06.pucdn.me}}
+  - {name: ok CYL-科技（2021.12.12） 173, server: global-transit-02-sg.pucdn.me, port: 61006, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-07.pucdn.me}}
+  - {name: ok CYL-科技（2021.12.12） 8, server: zhuzhu12.com, port: 13125, type: vmess, uuid: dd627432-9996-3673-809e-599d953c45fb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: ok CYL-科技（2021.12.12） 21, server: global-transit-hk-v2.pucdn.me, port: 40012, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-12.pucdn.me}}
+  - {name: ok CYL-科技（2021.12.12） 23, server: global-transit-hk-v2.pucdn.me, port: 40009, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-09.pucdn.me}}
+  - {name: ok CYL-科技（2021.12.12） 116, server: 139.227.161.129, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.12） 44, server: guangzou-yd-jy-03.pucdn.me, port: 40001, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-01.pucdn.me}}
   - {name: ok CYL-科技（2021.12.02）, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: ok CYL-科技（2021.12.06） 3, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: bed4edbe-50bd-11ec-8a58-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}}
-  - {name: ok CYL-科技（2021.12.09） 14, server: hkf1.dior.bar, port: 80, type: vmess, uuid: 579934ab-0b50-4e7f-b3c5-3923bbbaf41f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hkf1.dior.bar}}
-  - {name: ok CYL-科技（2021.12.09） 15, server: 193.108.118.182, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_41, server: 1030tw.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: YouTube-aweikji}}
-  - {name: okCYL-科技（2021.12.09）, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
-  - {name: 🇦🇺 ok阿伟科技-油管Relay_🇦🇺AU-🇦🇺AU_18, server: Ze9baeS5.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: Ze9baeS5.com}}
-  - {name: ok CYL-科技（2021.12.04）, server: 139.227.161.129, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: ok CYL-科技（2021.12.06） 4, server: hkf1.dior.bar, port: 80, type: vmess, uuid: 579934ab-0b50-4e7f-b3c5-3923bbbaf41f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hkf1.dior.bar}}
-  - {name: ok CYL-科技（2021.12.09） 16, server: 1116hk.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: ok CYL-科技（2021.12.09） 17, server: 1116hk.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1116hk.fans8.xyz}}
+  - {name: ok CYL-科技（2021.12.12） 19, server: guangzou-yd-jy-03.pucdn.me, port: 40004, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-04.pucdn.me}}
+  - {name: 🇺🇸 ok天美傳媒｜奈飛用戶專享_25, server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: ok CYL-科技（2021.12.12） 27, server: global-transit-hk-v2.pucdn.me, port: 40006, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-06.pucdn.me}}
+  - {name: ok CYL-科技（2021.12.12） 156, server: global-transit-02-sg.pucdn.me, port: 49993, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-do-in-03.pucdn.me}}
+  - {name: 🇺🇸 ok天美傳媒｜奈飛用戶專享_13, server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: ok CYL-科技（2021.12.12） 22, server: global-transit-hk-v2.pucdn.me, port: 40010, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-10.pucdn.me}}
+  - {name: ok CYL-科技（2021.12.12） 50, server: global-transit-02-sg.pucdn.me, port: 62009, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-10.pucdn.me}}
+  - {name: 🇺🇸 ok天美傳媒｜奈飛用戶專享_39, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: ok CYL-科技（2021.12.12） 31, server: gzcm3.meimei1314.xyz, port: 45110, type: vmess, uuid: c064c19b-866f-3624-ab9b-35bdfad536b4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.amazon.com}}
+  - {name: ok CYL-科技（2021.11.27）, server: shcn2-06b.iplc188.com, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇰🇷 ok阿伟科技4-油管Relay_🇨🇳CN-🇰🇷KR_250, server: 139.227.161.129, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇨🇳 ok 阿伟科技5-油管🇨🇳 CN_485, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇨🇳 ok 阿伟科技5-油管🇨🇳CN, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikeji}}
+  - {name: 🇺🇸 ok天美傳媒｜奈飛用戶專享_34, server: cm-jm.okvpn.xyz, port: 20006, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: ok CYL-科技（2021.12.12） 142, server: global-transit-02-sg.pucdn.me, port: 49994, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-do-in-04.pucdn.me}}
+  - {name: 🇺🇸 ok阿伟科技-油管Relay_🇺🇸US-🇺🇸US_1880, server: 104.19.101.3, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /gdo93qerwtyuo, ws-headers: {Host: e.fovi.tk}}
+  - {name: ok CYL-科技（2021.12.09）, server: 120.232.173.88, port: 45319, type: vmess, uuid: 310948de-6c49-36f3-990e-2048adea5ab0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /inde, ws-headers: {Host: 120.232.173.88}}
+  - {name: ok CYL-科技（2021.12.12） 33, server: guangzou-yd-jy-03.pucdn.me, port: 40003, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-03.pucdn.me}}
+  - {name: ok CYL-科技（2021.12.12） 152, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikeji}}
+  - {name: ok CYL-科技（2021.12.12） 86, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.09） 2, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.06）, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.12） 165, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok CYL-科技（2021.12.12） 186, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: ok CYL-科技（2021.12.11） 36, server: 194.135.32.208, port: 32551, type: vmess, uuid: 9d40aefc-54d9-11ec-af2d-f2c157360b1e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /W9s28k1i/, ws-headers: {Host: 194.135.32.208}}
+  - {name: ok CYL-科技（2021.12.12） 160, server: cm-jm.okvpn.xyz, port: 20006, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikji}}
+  - {name: ok CYL-科技（2021.12.12） 20, server: global-transit-hk-v2.pucdn.me, port: 40011, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-11.pucdn.me}}
+  - {name: ok CYL-科技（2021.12.12） 187, server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: ok CYL-科技（2021.12.11） 40, server: 198.41.212.234, port: 2052, type: vmess, uuid: 00000000-1111-2222-3333-444444444444, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /Telegram/@Loss_0_Vmess, ws-headers: {Host: free.jianguoyun.com}}
+  - {name: ok CYL-科技（2021.12.12） 85, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
+  - {name: ok CYL-科技（2021.12.11） 96, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: ok 阿伟科技-油管Relay_ |29.84Mb, server: Ze9baeS5.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: Ze9baeS5.com}}
+  - {name: ok CYL-科技（2021.12.12） 164, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok CYL-科技（2021.12.12） 190, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.12.12） 109, server: ukml.52jjyun.top, port: 88, type: vmess, uuid: 13f16b00-81f2-48e1-904b-722aed52a86c, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ukml.52jjyun.top}}
+  - {name: 🇨🇳 ok 阿伟科技4-油管🇨🇳CN, server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: be0acefb-485f-4395-adb9-f15428d10ca4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikeji}}
+  - {name: ok CYL-科技（2021.12.12） 192, server: ruzz.52jjyun.top, port: 51232, type: vmess, uuid: 13f16b00-81f2-48e1-904b-722aed52a86c, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ruzz.52jjyun.top}}
+  - {name: ok CYL-科技（2021.12.11） 53, server: 172.105.251.193, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok CYL-科技（2021.12.12） 66, server: h701576.droplet.today, port: 13345, type: trojan, password: b6a7075fd6, sni: h701576.droplet.today}
+  - {name: ok CYL-科技（2021.12.12） 53, server: 139.227.161.129, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.12） 137, server: shcn2.meimei1314.xyz, port: 14162, type: vmess, uuid: c064c19b-866f-3624-ab9b-35bdfad536b4, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.amazon.com}}
+  - {name: 🇺🇸 ok 阿伟科技-油管🇺🇸 US_939 | 5.68Mb, server: 142.202.48.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: ok 阿伟科技8-油管Relay_🇬🇧GB-🇬🇧GB_473, server: ukml.52jjyun.top, port: 88, type: vmess, uuid: 13f16b00-81f2-48e1-904b-722aed52a86c, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ukml.52jjyun.top}}
+  - {name: 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_237, server: 120.232.173.88, port: 45319, type: vmess, uuid: 310948de-6c49-36f3-990e-2048adea5ab0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /inde, ws-headers: {Host: youtube-aweikji}}
+  - {name: ok CYL-科技（2021.12.12） 199, server: 107.148.200.123, port: 30033, type: vmess, uuid: e85a81e0-12a0-11ec-bc90-00163c1b189e, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.12） 147, server: global-transit-02-sg.pucdn.me, port: 62011, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-12.pucdn.me}}
+  - {name: ok CYL-科技（2021.12.12） 14, server: guangzou-yd-jy-03.pucdn.me, port: 62008, type: vmess, uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-09.pucdn.me}}
+  - {name: 🇩🇪 ok 阿伟科技2-油管🇩🇪DE_332, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: ok CYL-科技（2021.12.11） 106, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1031kr.fans8.xyz}}
+  - {name: 🇰🇷 ok 阿伟科技1-油管Relay_🇨🇳CN-🇰🇷KR_222, server: 139.227.161.129, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸 ok阿伟科技-油管🇺🇸US_1735 |19.68Mb
-      - 🇨🇳 ok阿伟科技-油管🇨🇳 CN_47
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_23
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_38
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_9
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_175
-      - 🇭🇰 ok阿伟科技-油管Relay_🇨🇳CN-🇭🇰HK_34
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_20
-      - 🇰🇷 ok阿伟科技4-油管Relay_🇨🇳CN-🇰🇷KR_250
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_48
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_128
-      - ok CYL-科技（2021.12.09）
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_50
-      - 🇺🇸 ok阿伟科技-油管🇺🇸US_1759
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_57
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_86
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_98
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_92
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_69
-      - ok阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_406
-      - 🇦🇺 ok阿伟科技-油管Relay_🇦🇺AU-🇦🇺AU_13
-      - ok CYL-科技（2021.12.06）
-      - ok CYL-科技（2021.12.09） 2
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_120
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_185
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_134
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_149
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_186
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_14
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_19
-      - ok CYL-科技（2021.11.27）
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_159
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_160
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_174
-      - 🇷🇺 ok阿伟科技-油管Relay_🇹🇼TW-🇷🇺RU_873
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_102
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_119
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_187
-      - ok阿伟科技-油管Relay_🇨🇦CA-🇨🇦CA_216
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_213
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_237
-      - ok CYL-科技（2021.12.09） 3
-      - 🇺🇸 ok阿伟科技-油管Relay_🇺🇸US-🇺🇸US_1880
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_73
-      - ok CYL-科技（2021.12.09） 4
-      - ok CYL-科技（2021.12.09） 5
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_70
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_72
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_85
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_96
-      - 🇷🇺 ok阿伟科技-油管Relay_🇹🇼TW-🇷🇺RU_875
-      - ok CYL-科技（2021.12.09） 6
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_95
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_60
-      - ok CYL-科技（2021.12.09） 7
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_28
       - 🇭🇰 ok阿伟科技10-油管🇭🇰HK_478
-      - ok阿伟科技-油管Relay_-🇨🇦CA_06
-      - 🇭🇰 ok阿伟科技10-油管🇭🇰HK_483
-      - ok🇨🇦阿伟科技-油管CA_221
-      - ok CYL-科技（2021.12.06） 2
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_58
-      - ok CYL-科技（2021.12.09） 8
-      - ok CYL-科技（2021.12.09） 9
-      - ok CYL-科技（2021.12.09） 10
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_36
-      - 🇨🇳 ok阿伟科技-油管🇨🇳 CN_40
-      - ok CYL-科技（2021.12.09） 11
-      - ok CYL-科技（2021.12.09） 12
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_66
-      - ok CYL-科技（2021.12.09） 13
+      - ok CYL-科技（2021.12.12）
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_3
+      - ok CYL-科技（2021.12.12） 11
+      - ok CYL-科技（2021.12.12） 173
+      - ok CYL-科技（2021.12.12） 8
+      - ok CYL-科技（2021.12.12） 21
+      - ok CYL-科技（2021.12.12） 23
+      - ok CYL-科技（2021.12.12） 116
+      - ok CYL-科技（2021.12.12） 44
       - ok CYL-科技（2021.12.02）
-      - ok CYL-科技（2021.12.06） 3
-      - ok CYL-科技（2021.12.09） 14
-      - ok CYL-科技（2021.12.09） 15
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_41
-      - okCYL-科技（2021.12.09）
-      - 🇦🇺 ok阿伟科技-油管Relay_🇦🇺AU-🇦🇺AU_18
-      - ok CYL-科技（2021.12.04）
-      - ok CYL-科技（2021.12.06） 4
-      - ok CYL-科技（2021.12.09） 16
-      - ok CYL-科技（2021.12.09） 17
+      - ok CYL-科技（2021.12.12） 19
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_25
+      - ok CYL-科技（2021.12.12） 27
+      - ok CYL-科技（2021.12.12） 156
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_13
+      - ok CYL-科技（2021.12.12） 22
+      - ok CYL-科技（2021.12.12） 50
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_39
+      - ok CYL-科技（2021.12.12） 31
+      - ok CYL-科技（2021.11.27）
+      - 🇰🇷 ok阿伟科技4-油管Relay_🇨🇳CN-🇰🇷KR_250
+      - 🇨🇳 ok 阿伟科技5-油管🇨🇳 CN_485
+      - 🇨🇳 ok 阿伟科技5-油管🇨🇳CN
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_34
+      - ok CYL-科技（2021.12.12） 142
+      - 🇺🇸 ok阿伟科技-油管Relay_🇺🇸US-🇺🇸US_1880
+      - ok CYL-科技（2021.12.09）
+      - ok CYL-科技（2021.12.12） 33
+      - ok CYL-科技（2021.12.12） 152
+      - ok CYL-科技（2021.12.12） 86
+      - ok CYL-科技（2021.12.09） 2
+      - ok CYL-科技（2021.12.06）
+      - ok CYL-科技（2021.12.12） 165
+      - ok CYL-科技（2021.12.12） 186
+      - ok CYL-科技（2021.12.11） 36
+      - ok CYL-科技（2021.12.12） 160
+      - ok CYL-科技（2021.12.12） 20
+      - ok CYL-科技（2021.12.12） 187
+      - ok CYL-科技（2021.12.11） 40
+      - ok CYL-科技（2021.12.12） 85
+      - ok CYL-科技（2021.12.11） 96
+      - ok 阿伟科技-油管Relay_ |29.84Mb
+      - ok CYL-科技（2021.12.12） 164
+      - ok CYL-科技（2021.12.12） 190
+      - ok CYL-科技（2021.12.12） 109
+      - 🇨🇳 ok 阿伟科技4-油管🇨🇳CN
+      - ok CYL-科技（2021.12.12） 192
+      - ok CYL-科技（2021.12.11） 53
+      - ok CYL-科技（2021.12.12） 66
+      - ok CYL-科技（2021.12.12） 53
+      - ok CYL-科技（2021.12.12） 137
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸 US_939 | 5.68Mb
+      - ok 阿伟科技8-油管Relay_🇬🇧GB-🇬🇧GB_473
+      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_237
+      - ok CYL-科技（2021.12.12） 199
+      - ok CYL-科技（2021.12.12） 147
+      - ok CYL-科技（2021.12.12） 14
+      - 🇩🇪 ok 阿伟科技2-油管🇩🇪DE_332
+      - ok CYL-科技（2021.12.11） 106
+      - 🇰🇷 ok 阿伟科技1-油管Relay_🇨🇳CN-🇰🇷KR_222
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 ok阿伟科技-油管🇺🇸US_1735 |19.68Mb
-      - 🇨🇳 ok阿伟科技-油管🇨🇳 CN_47
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_23
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_38
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_9
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_175
-      - 🇭🇰 ok阿伟科技-油管Relay_🇨🇳CN-🇭🇰HK_34
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_20
-      - 🇰🇷 ok阿伟科技4-油管Relay_🇨🇳CN-🇰🇷KR_250
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_48
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_128
-      - ok CYL-科技（2021.12.09）
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_50
-      - 🇺🇸 ok阿伟科技-油管🇺🇸US_1759
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_57
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_86
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_98
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_92
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_69
-      - ok阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_406
-      - 🇦🇺 ok阿伟科技-油管Relay_🇦🇺AU-🇦🇺AU_13
-      - ok CYL-科技（2021.12.06）
-      - ok CYL-科技（2021.12.09） 2
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_120
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_185
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_134
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_149
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_186
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_14
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_19
-      - ok CYL-科技（2021.11.27）
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_159
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_160
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_174
-      - 🇷🇺 ok阿伟科技-油管Relay_🇹🇼TW-🇷🇺RU_873
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_102
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_119
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_187
-      - ok阿伟科技-油管Relay_🇨🇦CA-🇨🇦CA_216
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_213
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_237
-      - ok CYL-科技（2021.12.09） 3
-      - 🇺🇸 ok阿伟科技-油管Relay_🇺🇸US-🇺🇸US_1880
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_73
-      - ok CYL-科技（2021.12.09） 4
-      - ok CYL-科技（2021.12.09） 5
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_70
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_72
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_85
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_96
-      - 🇷🇺 ok阿伟科技-油管Relay_🇹🇼TW-🇷🇺RU_875
-      - ok CYL-科技（2021.12.09） 6
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_95
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_60
-      - ok CYL-科技（2021.12.09） 7
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_28
       - 🇭🇰 ok阿伟科技10-油管🇭🇰HK_478
-      - ok阿伟科技-油管Relay_-🇨🇦CA_06
-      - 🇭🇰 ok阿伟科技10-油管🇭🇰HK_483
-      - ok🇨🇦阿伟科技-油管CA_221
-      - ok CYL-科技（2021.12.06） 2
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_58
-      - ok CYL-科技（2021.12.09） 8
-      - ok CYL-科技（2021.12.09） 9
-      - ok CYL-科技（2021.12.09） 10
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_36
-      - 🇨🇳 ok阿伟科技-油管🇨🇳 CN_40
-      - ok CYL-科技（2021.12.09） 11
-      - ok CYL-科技（2021.12.09） 12
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_66
-      - ok CYL-科技（2021.12.09） 13
+      - ok CYL-科技（2021.12.12）
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_3
+      - ok CYL-科技（2021.12.12） 11
+      - ok CYL-科技（2021.12.12） 173
+      - ok CYL-科技（2021.12.12） 8
+      - ok CYL-科技（2021.12.12） 21
+      - ok CYL-科技（2021.12.12） 23
+      - ok CYL-科技（2021.12.12） 116
+      - ok CYL-科技（2021.12.12） 44
       - ok CYL-科技（2021.12.02）
-      - ok CYL-科技（2021.12.06） 3
-      - ok CYL-科技（2021.12.09） 14
-      - ok CYL-科技（2021.12.09） 15
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_41
-      - okCYL-科技（2021.12.09）
-      - 🇦🇺 ok阿伟科技-油管Relay_🇦🇺AU-🇦🇺AU_18
-      - ok CYL-科技（2021.12.04）
-      - ok CYL-科技（2021.12.06） 4
-      - ok CYL-科技（2021.12.09） 16
-      - ok CYL-科技（2021.12.09） 17
+      - ok CYL-科技（2021.12.12） 19
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_25
+      - ok CYL-科技（2021.12.12） 27
+      - ok CYL-科技（2021.12.12） 156
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_13
+      - ok CYL-科技（2021.12.12） 22
+      - ok CYL-科技（2021.12.12） 50
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_39
+      - ok CYL-科技（2021.12.12） 31
+      - ok CYL-科技（2021.11.27）
+      - 🇰🇷 ok阿伟科技4-油管Relay_🇨🇳CN-🇰🇷KR_250
+      - 🇨🇳 ok 阿伟科技5-油管🇨🇳 CN_485
+      - 🇨🇳 ok 阿伟科技5-油管🇨🇳CN
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_34
+      - ok CYL-科技（2021.12.12） 142
+      - 🇺🇸 ok阿伟科技-油管Relay_🇺🇸US-🇺🇸US_1880
+      - ok CYL-科技（2021.12.09）
+      - ok CYL-科技（2021.12.12） 33
+      - ok CYL-科技（2021.12.12） 152
+      - ok CYL-科技（2021.12.12） 86
+      - ok CYL-科技（2021.12.09） 2
+      - ok CYL-科技（2021.12.06）
+      - ok CYL-科技（2021.12.12） 165
+      - ok CYL-科技（2021.12.12） 186
+      - ok CYL-科技（2021.12.11） 36
+      - ok CYL-科技（2021.12.12） 160
+      - ok CYL-科技（2021.12.12） 20
+      - ok CYL-科技（2021.12.12） 187
+      - ok CYL-科技（2021.12.11） 40
+      - ok CYL-科技（2021.12.12） 85
+      - ok CYL-科技（2021.12.11） 96
+      - ok 阿伟科技-油管Relay_ |29.84Mb
+      - ok CYL-科技（2021.12.12） 164
+      - ok CYL-科技（2021.12.12） 190
+      - ok CYL-科技（2021.12.12） 109
+      - 🇨🇳 ok 阿伟科技4-油管🇨🇳CN
+      - ok CYL-科技（2021.12.12） 192
+      - ok CYL-科技（2021.12.11） 53
+      - ok CYL-科技（2021.12.12） 66
+      - ok CYL-科技（2021.12.12） 53
+      - ok CYL-科技（2021.12.12） 137
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸 US_939 | 5.68Mb
+      - ok 阿伟科技8-油管Relay_🇬🇧GB-🇬🇧GB_473
+      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_237
+      - ok CYL-科技（2021.12.12） 199
+      - ok CYL-科技（2021.12.12） 147
+      - ok CYL-科技（2021.12.12） 14
+      - 🇩🇪 ok 阿伟科技2-油管🇩🇪DE_332
+      - ok CYL-科技（2021.12.11） 106
+      - 🇰🇷 ok 阿伟科技1-油管Relay_🇨🇳CN-🇰🇷KR_222
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 ok阿伟科技-油管🇺🇸US_1735 |19.68Mb
-      - 🇨🇳 ok阿伟科技-油管🇨🇳 CN_47
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_23
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_38
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_9
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_175
-      - 🇭🇰 ok阿伟科技-油管Relay_🇨🇳CN-🇭🇰HK_34
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_20
-      - 🇰🇷 ok阿伟科技4-油管Relay_🇨🇳CN-🇰🇷KR_250
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_48
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_128
-      - ok CYL-科技（2021.12.09）
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_50
-      - 🇺🇸 ok阿伟科技-油管🇺🇸US_1759
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_57
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_86
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_98
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_92
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_69
-      - ok阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_406
-      - 🇦🇺 ok阿伟科技-油管Relay_🇦🇺AU-🇦🇺AU_13
-      - ok CYL-科技（2021.12.06）
-      - ok CYL-科技（2021.12.09） 2
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_120
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_185
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_134
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_149
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_186
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_14
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_19
-      - ok CYL-科技（2021.11.27）
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_159
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_160
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_174
-      - 🇷🇺 ok阿伟科技-油管Relay_🇹🇼TW-🇷🇺RU_873
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_102
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_119
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_187
-      - ok阿伟科技-油管Relay_🇨🇦CA-🇨🇦CA_216
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_213
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_237
-      - ok CYL-科技（2021.12.09） 3
-      - 🇺🇸 ok阿伟科技-油管Relay_🇺🇸US-🇺🇸US_1880
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_73
-      - ok CYL-科技（2021.12.09） 4
-      - ok CYL-科技（2021.12.09） 5
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_70
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_72
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_85
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_96
-      - 🇷🇺 ok阿伟科技-油管Relay_🇹🇼TW-🇷🇺RU_875
-      - ok CYL-科技（2021.12.09） 6
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_95
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_60
-      - ok CYL-科技（2021.12.09） 7
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_28
       - 🇭🇰 ok阿伟科技10-油管🇭🇰HK_478
-      - ok阿伟科技-油管Relay_-🇨🇦CA_06
-      - 🇭🇰 ok阿伟科技10-油管🇭🇰HK_483
-      - ok🇨🇦阿伟科技-油管CA_221
-      - ok CYL-科技（2021.12.06） 2
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_58
-      - ok CYL-科技（2021.12.09） 8
-      - ok CYL-科技（2021.12.09） 9
-      - ok CYL-科技（2021.12.09） 10
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_36
-      - 🇨🇳 ok阿伟科技-油管🇨🇳 CN_40
-      - ok CYL-科技（2021.12.09） 11
-      - ok CYL-科技（2021.12.09） 12
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_66
-      - ok CYL-科技（2021.12.09） 13
+      - ok CYL-科技（2021.12.12）
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_3
+      - ok CYL-科技（2021.12.12） 11
+      - ok CYL-科技（2021.12.12） 173
+      - ok CYL-科技（2021.12.12） 8
+      - ok CYL-科技（2021.12.12） 21
+      - ok CYL-科技（2021.12.12） 23
+      - ok CYL-科技（2021.12.12） 116
+      - ok CYL-科技（2021.12.12） 44
       - ok CYL-科技（2021.12.02）
-      - ok CYL-科技（2021.12.06） 3
-      - ok CYL-科技（2021.12.09） 14
-      - ok CYL-科技（2021.12.09） 15
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_41
-      - okCYL-科技（2021.12.09）
-      - 🇦🇺 ok阿伟科技-油管Relay_🇦🇺AU-🇦🇺AU_18
-      - ok CYL-科技（2021.12.04）
-      - ok CYL-科技（2021.12.06） 4
-      - ok CYL-科技（2021.12.09） 16
-      - ok CYL-科技（2021.12.09） 17
+      - ok CYL-科技（2021.12.12） 19
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_25
+      - ok CYL-科技（2021.12.12） 27
+      - ok CYL-科技（2021.12.12） 156
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_13
+      - ok CYL-科技（2021.12.12） 22
+      - ok CYL-科技（2021.12.12） 50
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_39
+      - ok CYL-科技（2021.12.12） 31
+      - ok CYL-科技（2021.11.27）
+      - 🇰🇷 ok阿伟科技4-油管Relay_🇨🇳CN-🇰🇷KR_250
+      - 🇨🇳 ok 阿伟科技5-油管🇨🇳 CN_485
+      - 🇨🇳 ok 阿伟科技5-油管🇨🇳CN
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_34
+      - ok CYL-科技（2021.12.12） 142
+      - 🇺🇸 ok阿伟科技-油管Relay_🇺🇸US-🇺🇸US_1880
+      - ok CYL-科技（2021.12.09）
+      - ok CYL-科技（2021.12.12） 33
+      - ok CYL-科技（2021.12.12） 152
+      - ok CYL-科技（2021.12.12） 86
+      - ok CYL-科技（2021.12.09） 2
+      - ok CYL-科技（2021.12.06）
+      - ok CYL-科技（2021.12.12） 165
+      - ok CYL-科技（2021.12.12） 186
+      - ok CYL-科技（2021.12.11） 36
+      - ok CYL-科技（2021.12.12） 160
+      - ok CYL-科技（2021.12.12） 20
+      - ok CYL-科技（2021.12.12） 187
+      - ok CYL-科技（2021.12.11） 40
+      - ok CYL-科技（2021.12.12） 85
+      - ok CYL-科技（2021.12.11） 96
+      - ok 阿伟科技-油管Relay_ |29.84Mb
+      - ok CYL-科技（2021.12.12） 164
+      - ok CYL-科技（2021.12.12） 190
+      - ok CYL-科技（2021.12.12） 109
+      - 🇨🇳 ok 阿伟科技4-油管🇨🇳CN
+      - ok CYL-科技（2021.12.12） 192
+      - ok CYL-科技（2021.12.11） 53
+      - ok CYL-科技（2021.12.12） 66
+      - ok CYL-科技（2021.12.12） 53
+      - ok CYL-科技（2021.12.12） 137
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸 US_939 | 5.68Mb
+      - ok 阿伟科技8-油管Relay_🇬🇧GB-🇬🇧GB_473
+      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_237
+      - ok CYL-科技（2021.12.12） 199
+      - ok CYL-科技（2021.12.12） 147
+      - ok CYL-科技（2021.12.12） 14
+      - 🇩🇪 ok 阿伟科技2-油管🇩🇪DE_332
+      - ok CYL-科技（2021.12.11） 106
+      - 🇰🇷 ok 阿伟科技1-油管Relay_🇨🇳CN-🇰🇷KR_222
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 ok阿伟科技-油管🇺🇸US_1735 |19.68Mb
-      - 🇨🇳 ok阿伟科技-油管🇨🇳 CN_47
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_23
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_38
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_9
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_175
-      - 🇭🇰 ok阿伟科技-油管Relay_🇨🇳CN-🇭🇰HK_34
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_20
-      - 🇰🇷 ok阿伟科技4-油管Relay_🇨🇳CN-🇰🇷KR_250
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_48
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_128
-      - ok CYL-科技（2021.12.09）
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_50
-      - 🇺🇸 ok阿伟科技-油管🇺🇸US_1759
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_57
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_86
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_98
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_92
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_69
-      - ok阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_406
-      - 🇦🇺 ok阿伟科技-油管Relay_🇦🇺AU-🇦🇺AU_13
-      - ok CYL-科技（2021.12.06）
-      - ok CYL-科技（2021.12.09） 2
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_120
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_185
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_134
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_149
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_186
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_14
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_19
-      - ok CYL-科技（2021.11.27）
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_159
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_160
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_174
-      - 🇷🇺 ok阿伟科技-油管Relay_🇹🇼TW-🇷🇺RU_873
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_102
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_119
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_187
-      - ok阿伟科技-油管Relay_🇨🇦CA-🇨🇦CA_216
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_213
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_237
-      - ok CYL-科技（2021.12.09） 3
-      - 🇺🇸 ok阿伟科技-油管Relay_🇺🇸US-🇺🇸US_1880
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_73
-      - ok CYL-科技（2021.12.09） 4
-      - ok CYL-科技（2021.12.09） 5
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_70
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_72
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_85
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_96
-      - 🇷🇺 ok阿伟科技-油管Relay_🇹🇼TW-🇷🇺RU_875
-      - ok CYL-科技（2021.12.09） 6
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_95
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_60
-      - ok CYL-科技（2021.12.09） 7
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_28
       - 🇭🇰 ok阿伟科技10-油管🇭🇰HK_478
-      - ok阿伟科技-油管Relay_-🇨🇦CA_06
-      - 🇭🇰 ok阿伟科技10-油管🇭🇰HK_483
-      - ok🇨🇦阿伟科技-油管CA_221
-      - ok CYL-科技（2021.12.06） 2
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_58
-      - ok CYL-科技（2021.12.09） 8
-      - ok CYL-科技（2021.12.09） 9
-      - ok CYL-科技（2021.12.09） 10
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_36
-      - 🇨🇳 ok阿伟科技-油管🇨🇳 CN_40
-      - ok CYL-科技（2021.12.09） 11
-      - ok CYL-科技（2021.12.09） 12
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_66
-      - ok CYL-科技（2021.12.09） 13
+      - ok CYL-科技（2021.12.12）
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_3
+      - ok CYL-科技（2021.12.12） 11
+      - ok CYL-科技（2021.12.12） 173
+      - ok CYL-科技（2021.12.12） 8
+      - ok CYL-科技（2021.12.12） 21
+      - ok CYL-科技（2021.12.12） 23
+      - ok CYL-科技（2021.12.12） 116
+      - ok CYL-科技（2021.12.12） 44
       - ok CYL-科技（2021.12.02）
-      - ok CYL-科技（2021.12.06） 3
-      - ok CYL-科技（2021.12.09） 14
-      - ok CYL-科技（2021.12.09） 15
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_41
-      - okCYL-科技（2021.12.09）
-      - 🇦🇺 ok阿伟科技-油管Relay_🇦🇺AU-🇦🇺AU_18
-      - ok CYL-科技（2021.12.04）
-      - ok CYL-科技（2021.12.06） 4
-      - ok CYL-科技（2021.12.09） 16
-      - ok CYL-科技（2021.12.09） 17
+      - ok CYL-科技（2021.12.12） 19
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_25
+      - ok CYL-科技（2021.12.12） 27
+      - ok CYL-科技（2021.12.12） 156
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_13
+      - ok CYL-科技（2021.12.12） 22
+      - ok CYL-科技（2021.12.12） 50
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_39
+      - ok CYL-科技（2021.12.12） 31
+      - ok CYL-科技（2021.11.27）
+      - 🇰🇷 ok阿伟科技4-油管Relay_🇨🇳CN-🇰🇷KR_250
+      - 🇨🇳 ok 阿伟科技5-油管🇨🇳 CN_485
+      - 🇨🇳 ok 阿伟科技5-油管🇨🇳CN
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_34
+      - ok CYL-科技（2021.12.12） 142
+      - 🇺🇸 ok阿伟科技-油管Relay_🇺🇸US-🇺🇸US_1880
+      - ok CYL-科技（2021.12.09）
+      - ok CYL-科技（2021.12.12） 33
+      - ok CYL-科技（2021.12.12） 152
+      - ok CYL-科技（2021.12.12） 86
+      - ok CYL-科技（2021.12.09） 2
+      - ok CYL-科技（2021.12.06）
+      - ok CYL-科技（2021.12.12） 165
+      - ok CYL-科技（2021.12.12） 186
+      - ok CYL-科技（2021.12.11） 36
+      - ok CYL-科技（2021.12.12） 160
+      - ok CYL-科技（2021.12.12） 20
+      - ok CYL-科技（2021.12.12） 187
+      - ok CYL-科技（2021.12.11） 40
+      - ok CYL-科技（2021.12.12） 85
+      - ok CYL-科技（2021.12.11） 96
+      - ok 阿伟科技-油管Relay_ |29.84Mb
+      - ok CYL-科技（2021.12.12） 164
+      - ok CYL-科技（2021.12.12） 190
+      - ok CYL-科技（2021.12.12） 109
+      - 🇨🇳 ok 阿伟科技4-油管🇨🇳CN
+      - ok CYL-科技（2021.12.12） 192
+      - ok CYL-科技（2021.12.11） 53
+      - ok CYL-科技（2021.12.12） 66
+      - ok CYL-科技（2021.12.12） 53
+      - ok CYL-科技（2021.12.12） 137
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸 US_939 | 5.68Mb
+      - ok 阿伟科技8-油管Relay_🇬🇧GB-🇬🇧GB_473
+      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_237
+      - ok CYL-科技（2021.12.12） 199
+      - ok CYL-科技（2021.12.12） 147
+      - ok CYL-科技（2021.12.12） 14
+      - 🇩🇪 ok 阿伟科技2-油管🇩🇪DE_332
+      - ok CYL-科技（2021.12.11） 106
+      - 🇰🇷 ok 阿伟科技1-油管Relay_🇨🇳CN-🇰🇷KR_222
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸 ok阿伟科技-油管🇺🇸US_1735 |19.68Mb
-      - 🇨🇳 ok阿伟科技-油管🇨🇳 CN_47
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_23
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_38
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_9
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_175
-      - 🇭🇰 ok阿伟科技-油管Relay_🇨🇳CN-🇭🇰HK_34
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_20
-      - 🇰🇷 ok阿伟科技4-油管Relay_🇨🇳CN-🇰🇷KR_250
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_48
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_128
-      - ok CYL-科技（2021.12.09）
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_50
-      - 🇺🇸 ok阿伟科技-油管🇺🇸US_1759
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_57
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_86
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_98
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_92
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_69
-      - ok阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_406
-      - 🇦🇺 ok阿伟科技-油管Relay_🇦🇺AU-🇦🇺AU_13
-      - ok CYL-科技（2021.12.06）
-      - ok CYL-科技（2021.12.09） 2
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_120
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_185
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_134
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_149
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_186
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_14
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_19
-      - ok CYL-科技（2021.11.27）
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_159
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_160
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_174
-      - 🇷🇺 ok阿伟科技-油管Relay_🇹🇼TW-🇷🇺RU_873
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_102
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_119
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_187
-      - ok阿伟科技-油管Relay_🇨🇦CA-🇨🇦CA_216
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_213
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_237
-      - ok CYL-科技（2021.12.09） 3
-      - 🇺🇸 ok阿伟科技-油管Relay_🇺🇸US-🇺🇸US_1880
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_73
-      - ok CYL-科技（2021.12.09） 4
-      - ok CYL-科技（2021.12.09） 5
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_70
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_72
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_85
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_96
-      - 🇷🇺 ok阿伟科技-油管Relay_🇹🇼TW-🇷🇺RU_875
-      - ok CYL-科技（2021.12.09） 6
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_95
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_60
-      - ok CYL-科技（2021.12.09） 7
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_28
       - 🇭🇰 ok阿伟科技10-油管🇭🇰HK_478
-      - ok阿伟科技-油管Relay_-🇨🇦CA_06
-      - 🇭🇰 ok阿伟科技10-油管🇭🇰HK_483
-      - ok🇨🇦阿伟科技-油管CA_221
-      - ok CYL-科技（2021.12.06） 2
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_58
-      - ok CYL-科技（2021.12.09） 8
-      - ok CYL-科技（2021.12.09） 9
-      - ok CYL-科技（2021.12.09） 10
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_36
-      - 🇨🇳 ok阿伟科技-油管🇨🇳 CN_40
-      - ok CYL-科技（2021.12.09） 11
-      - ok CYL-科技（2021.12.09） 12
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_66
-      - ok CYL-科技（2021.12.09） 13
+      - ok CYL-科技（2021.12.12）
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_3
+      - ok CYL-科技（2021.12.12） 11
+      - ok CYL-科技（2021.12.12） 173
+      - ok CYL-科技（2021.12.12） 8
+      - ok CYL-科技（2021.12.12） 21
+      - ok CYL-科技（2021.12.12） 23
+      - ok CYL-科技（2021.12.12） 116
+      - ok CYL-科技（2021.12.12） 44
       - ok CYL-科技（2021.12.02）
-      - ok CYL-科技（2021.12.06） 3
-      - ok CYL-科技（2021.12.09） 14
-      - ok CYL-科技（2021.12.09） 15
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_41
-      - okCYL-科技（2021.12.09）
-      - 🇦🇺 ok阿伟科技-油管Relay_🇦🇺AU-🇦🇺AU_18
-      - ok CYL-科技（2021.12.04）
-      - ok CYL-科技（2021.12.06） 4
-      - ok CYL-科技（2021.12.09） 16
-      - ok CYL-科技（2021.12.09） 17
+      - ok CYL-科技（2021.12.12） 19
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_25
+      - ok CYL-科技（2021.12.12） 27
+      - ok CYL-科技（2021.12.12） 156
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_13
+      - ok CYL-科技（2021.12.12） 22
+      - ok CYL-科技（2021.12.12） 50
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_39
+      - ok CYL-科技（2021.12.12） 31
+      - ok CYL-科技（2021.11.27）
+      - 🇰🇷 ok阿伟科技4-油管Relay_🇨🇳CN-🇰🇷KR_250
+      - 🇨🇳 ok 阿伟科技5-油管🇨🇳 CN_485
+      - 🇨🇳 ok 阿伟科技5-油管🇨🇳CN
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_34
+      - ok CYL-科技（2021.12.12） 142
+      - 🇺🇸 ok阿伟科技-油管Relay_🇺🇸US-🇺🇸US_1880
+      - ok CYL-科技（2021.12.09）
+      - ok CYL-科技（2021.12.12） 33
+      - ok CYL-科技（2021.12.12） 152
+      - ok CYL-科技（2021.12.12） 86
+      - ok CYL-科技（2021.12.09） 2
+      - ok CYL-科技（2021.12.06）
+      - ok CYL-科技（2021.12.12） 165
+      - ok CYL-科技（2021.12.12） 186
+      - ok CYL-科技（2021.12.11） 36
+      - ok CYL-科技（2021.12.12） 160
+      - ok CYL-科技（2021.12.12） 20
+      - ok CYL-科技（2021.12.12） 187
+      - ok CYL-科技（2021.12.11） 40
+      - ok CYL-科技（2021.12.12） 85
+      - ok CYL-科技（2021.12.11） 96
+      - ok 阿伟科技-油管Relay_ |29.84Mb
+      - ok CYL-科技（2021.12.12） 164
+      - ok CYL-科技（2021.12.12） 190
+      - ok CYL-科技（2021.12.12） 109
+      - 🇨🇳 ok 阿伟科技4-油管🇨🇳CN
+      - ok CYL-科技（2021.12.12） 192
+      - ok CYL-科技（2021.12.11） 53
+      - ok CYL-科技（2021.12.12） 66
+      - ok CYL-科技（2021.12.12） 53
+      - ok CYL-科技（2021.12.12） 137
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸 US_939 | 5.68Mb
+      - ok 阿伟科技8-油管Relay_🇬🇧GB-🇬🇧GB_473
+      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_237
+      - ok CYL-科技（2021.12.12） 199
+      - ok CYL-科技（2021.12.12） 147
+      - ok CYL-科技（2021.12.12） 14
+      - 🇩🇪 ok 阿伟科技2-油管🇩🇪DE_332
+      - ok CYL-科技（2021.12.11） 106
+      - 🇰🇷 ok 阿伟科技1-油管Relay_🇨🇳CN-🇰🇷KR_222
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 ok阿伟科技-油管🇺🇸US_1735 |19.68Mb
-      - 🇨🇳 ok阿伟科技-油管🇨🇳 CN_47
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_23
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_38
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_9
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_175
-      - 🇭🇰 ok阿伟科技-油管Relay_🇨🇳CN-🇭🇰HK_34
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_20
-      - 🇰🇷 ok阿伟科技4-油管Relay_🇨🇳CN-🇰🇷KR_250
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_48
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_128
-      - ok CYL-科技（2021.12.09）
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_50
-      - 🇺🇸 ok阿伟科技-油管🇺🇸US_1759
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_57
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_86
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_98
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_92
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_69
-      - ok阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_406
-      - 🇦🇺 ok阿伟科技-油管Relay_🇦🇺AU-🇦🇺AU_13
-      - ok CYL-科技（2021.12.06）
-      - ok CYL-科技（2021.12.09） 2
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_120
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_185
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_134
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_149
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_186
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_14
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_19
-      - ok CYL-科技（2021.11.27）
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_159
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_160
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_174
-      - 🇷🇺 ok阿伟科技-油管Relay_🇹🇼TW-🇷🇺RU_873
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_102
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_119
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_187
-      - ok阿伟科技-油管Relay_🇨🇦CA-🇨🇦CA_216
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_213
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_237
-      - ok CYL-科技（2021.12.09） 3
-      - 🇺🇸 ok阿伟科技-油管Relay_🇺🇸US-🇺🇸US_1880
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_73
-      - ok CYL-科技（2021.12.09） 4
-      - ok CYL-科技（2021.12.09） 5
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_70
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_72
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_85
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_96
-      - 🇷🇺 ok阿伟科技-油管Relay_🇹🇼TW-🇷🇺RU_875
-      - ok CYL-科技（2021.12.09） 6
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_95
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_60
-      - ok CYL-科技（2021.12.09） 7
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_28
       - 🇭🇰 ok阿伟科技10-油管🇭🇰HK_478
-      - ok阿伟科技-油管Relay_-🇨🇦CA_06
-      - 🇭🇰 ok阿伟科技10-油管🇭🇰HK_483
-      - ok🇨🇦阿伟科技-油管CA_221
-      - ok CYL-科技（2021.12.06） 2
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_58
-      - ok CYL-科技（2021.12.09） 8
-      - ok CYL-科技（2021.12.09） 9
-      - ok CYL-科技（2021.12.09） 10
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_36
-      - 🇨🇳 ok阿伟科技-油管🇨🇳 CN_40
-      - ok CYL-科技（2021.12.09） 11
-      - ok CYL-科技（2021.12.09） 12
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_66
-      - ok CYL-科技（2021.12.09） 13
+      - ok CYL-科技（2021.12.12）
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_3
+      - ok CYL-科技（2021.12.12） 11
+      - ok CYL-科技（2021.12.12） 173
+      - ok CYL-科技（2021.12.12） 8
+      - ok CYL-科技（2021.12.12） 21
+      - ok CYL-科技（2021.12.12） 23
+      - ok CYL-科技（2021.12.12） 116
+      - ok CYL-科技（2021.12.12） 44
       - ok CYL-科技（2021.12.02）
-      - ok CYL-科技（2021.12.06） 3
-      - ok CYL-科技（2021.12.09） 14
-      - ok CYL-科技（2021.12.09） 15
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_41
-      - okCYL-科技（2021.12.09）
-      - 🇦🇺 ok阿伟科技-油管Relay_🇦🇺AU-🇦🇺AU_18
-      - ok CYL-科技（2021.12.04）
-      - ok CYL-科技（2021.12.06） 4
-      - ok CYL-科技（2021.12.09） 16
-      - ok CYL-科技（2021.12.09） 17
+      - ok CYL-科技（2021.12.12） 19
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_25
+      - ok CYL-科技（2021.12.12） 27
+      - ok CYL-科技（2021.12.12） 156
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_13
+      - ok CYL-科技（2021.12.12） 22
+      - ok CYL-科技（2021.12.12） 50
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_39
+      - ok CYL-科技（2021.12.12） 31
+      - ok CYL-科技（2021.11.27）
+      - 🇰🇷 ok阿伟科技4-油管Relay_🇨🇳CN-🇰🇷KR_250
+      - 🇨🇳 ok 阿伟科技5-油管🇨🇳 CN_485
+      - 🇨🇳 ok 阿伟科技5-油管🇨🇳CN
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_34
+      - ok CYL-科技（2021.12.12） 142
+      - 🇺🇸 ok阿伟科技-油管Relay_🇺🇸US-🇺🇸US_1880
+      - ok CYL-科技（2021.12.09）
+      - ok CYL-科技（2021.12.12） 33
+      - ok CYL-科技（2021.12.12） 152
+      - ok CYL-科技（2021.12.12） 86
+      - ok CYL-科技（2021.12.09） 2
+      - ok CYL-科技（2021.12.06）
+      - ok CYL-科技（2021.12.12） 165
+      - ok CYL-科技（2021.12.12） 186
+      - ok CYL-科技（2021.12.11） 36
+      - ok CYL-科技（2021.12.12） 160
+      - ok CYL-科技（2021.12.12） 20
+      - ok CYL-科技（2021.12.12） 187
+      - ok CYL-科技（2021.12.11） 40
+      - ok CYL-科技（2021.12.12） 85
+      - ok CYL-科技（2021.12.11） 96
+      - ok 阿伟科技-油管Relay_ |29.84Mb
+      - ok CYL-科技（2021.12.12） 164
+      - ok CYL-科技（2021.12.12） 190
+      - ok CYL-科技（2021.12.12） 109
+      - 🇨🇳 ok 阿伟科技4-油管🇨🇳CN
+      - ok CYL-科技（2021.12.12） 192
+      - ok CYL-科技（2021.12.11） 53
+      - ok CYL-科技（2021.12.12） 66
+      - ok CYL-科技（2021.12.12） 53
+      - ok CYL-科技（2021.12.12） 137
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸 US_939 | 5.68Mb
+      - ok 阿伟科技8-油管Relay_🇬🇧GB-🇬🇧GB_473
+      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_237
+      - ok CYL-科技（2021.12.12） 199
+      - ok CYL-科技（2021.12.12） 147
+      - ok CYL-科技（2021.12.12） 14
+      - 🇩🇪 ok 阿伟科技2-油管🇩🇪DE_332
+      - ok CYL-科技（2021.12.11） 106
+      - 🇰🇷 ok 阿伟科技1-油管Relay_🇨🇳CN-🇰🇷KR_222
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 ok阿伟科技-油管🇺🇸US_1735 |19.68Mb
-      - 🇨🇳 ok阿伟科技-油管🇨🇳 CN_47
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_23
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_38
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_9
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_175
-      - 🇭🇰 ok阿伟科技-油管Relay_🇨🇳CN-🇭🇰HK_34
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_20
-      - 🇰🇷 ok阿伟科技4-油管Relay_🇨🇳CN-🇰🇷KR_250
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_48
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_128
-      - ok CYL-科技（2021.12.09）
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_50
-      - 🇺🇸 ok阿伟科技-油管🇺🇸US_1759
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_57
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_86
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_98
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_92
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_69
-      - ok阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_406
-      - 🇦🇺 ok阿伟科技-油管Relay_🇦🇺AU-🇦🇺AU_13
-      - ok CYL-科技（2021.12.06）
-      - ok CYL-科技（2021.12.09） 2
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_120
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_185
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_134
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_149
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_186
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_14
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_19
-      - ok CYL-科技（2021.11.27）
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_159
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_160
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_174
-      - 🇷🇺 ok阿伟科技-油管Relay_🇹🇼TW-🇷🇺RU_873
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_102
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_119
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_187
-      - ok阿伟科技-油管Relay_🇨🇦CA-🇨🇦CA_216
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_213
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_237
-      - ok CYL-科技（2021.12.09） 3
-      - 🇺🇸 ok阿伟科技-油管Relay_🇺🇸US-🇺🇸US_1880
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_73
-      - ok CYL-科技（2021.12.09） 4
-      - ok CYL-科技（2021.12.09） 5
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_70
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_72
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_85
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_96
-      - 🇷🇺 ok阿伟科技-油管Relay_🇹🇼TW-🇷🇺RU_875
-      - ok CYL-科技（2021.12.09） 6
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_95
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_60
-      - ok CYL-科技（2021.12.09） 7
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_28
       - 🇭🇰 ok阿伟科技10-油管🇭🇰HK_478
-      - ok阿伟科技-油管Relay_-🇨🇦CA_06
-      - 🇭🇰 ok阿伟科技10-油管🇭🇰HK_483
-      - ok🇨🇦阿伟科技-油管CA_221
-      - ok CYL-科技（2021.12.06） 2
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_58
-      - ok CYL-科技（2021.12.09） 8
-      - ok CYL-科技（2021.12.09） 9
-      - ok CYL-科技（2021.12.09） 10
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_36
-      - 🇨🇳 ok阿伟科技-油管🇨🇳 CN_40
-      - ok CYL-科技（2021.12.09） 11
-      - ok CYL-科技（2021.12.09） 12
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_66
-      - ok CYL-科技（2021.12.09） 13
+      - ok CYL-科技（2021.12.12）
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_3
+      - ok CYL-科技（2021.12.12） 11
+      - ok CYL-科技（2021.12.12） 173
+      - ok CYL-科技（2021.12.12） 8
+      - ok CYL-科技（2021.12.12） 21
+      - ok CYL-科技（2021.12.12） 23
+      - ok CYL-科技（2021.12.12） 116
+      - ok CYL-科技（2021.12.12） 44
       - ok CYL-科技（2021.12.02）
-      - ok CYL-科技（2021.12.06） 3
-      - ok CYL-科技（2021.12.09） 14
-      - ok CYL-科技（2021.12.09） 15
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_41
-      - okCYL-科技（2021.12.09）
-      - 🇦🇺 ok阿伟科技-油管Relay_🇦🇺AU-🇦🇺AU_18
-      - ok CYL-科技（2021.12.04）
-      - ok CYL-科技（2021.12.06） 4
-      - ok CYL-科技（2021.12.09） 16
-      - ok CYL-科技（2021.12.09） 17
+      - ok CYL-科技（2021.12.12） 19
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_25
+      - ok CYL-科技（2021.12.12） 27
+      - ok CYL-科技（2021.12.12） 156
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_13
+      - ok CYL-科技（2021.12.12） 22
+      - ok CYL-科技（2021.12.12） 50
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_39
+      - ok CYL-科技（2021.12.12） 31
+      - ok CYL-科技（2021.11.27）
+      - 🇰🇷 ok阿伟科技4-油管Relay_🇨🇳CN-🇰🇷KR_250
+      - 🇨🇳 ok 阿伟科技5-油管🇨🇳 CN_485
+      - 🇨🇳 ok 阿伟科技5-油管🇨🇳CN
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_34
+      - ok CYL-科技（2021.12.12） 142
+      - 🇺🇸 ok阿伟科技-油管Relay_🇺🇸US-🇺🇸US_1880
+      - ok CYL-科技（2021.12.09）
+      - ok CYL-科技（2021.12.12） 33
+      - ok CYL-科技（2021.12.12） 152
+      - ok CYL-科技（2021.12.12） 86
+      - ok CYL-科技（2021.12.09） 2
+      - ok CYL-科技（2021.12.06）
+      - ok CYL-科技（2021.12.12） 165
+      - ok CYL-科技（2021.12.12） 186
+      - ok CYL-科技（2021.12.11） 36
+      - ok CYL-科技（2021.12.12） 160
+      - ok CYL-科技（2021.12.12） 20
+      - ok CYL-科技（2021.12.12） 187
+      - ok CYL-科技（2021.12.11） 40
+      - ok CYL-科技（2021.12.12） 85
+      - ok CYL-科技（2021.12.11） 96
+      - ok 阿伟科技-油管Relay_ |29.84Mb
+      - ok CYL-科技（2021.12.12） 164
+      - ok CYL-科技（2021.12.12） 190
+      - ok CYL-科技（2021.12.12） 109
+      - 🇨🇳 ok 阿伟科技4-油管🇨🇳CN
+      - ok CYL-科技（2021.12.12） 192
+      - ok CYL-科技（2021.12.11） 53
+      - ok CYL-科技（2021.12.12） 66
+      - ok CYL-科技（2021.12.12） 53
+      - ok CYL-科技（2021.12.12） 137
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸 US_939 | 5.68Mb
+      - ok 阿伟科技8-油管Relay_🇬🇧GB-🇬🇧GB_473
+      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_237
+      - ok CYL-科技（2021.12.12） 199
+      - ok CYL-科技（2021.12.12） 147
+      - ok CYL-科技（2021.12.12） 14
+      - 🇩🇪 ok 阿伟科技2-油管🇩🇪DE_332
+      - ok CYL-科技（2021.12.11） 106
+      - 🇰🇷 ok 阿伟科技1-油管Relay_🇨🇳CN-🇰🇷KR_222
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -714,87 +562,68 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 ok阿伟科技-油管🇺🇸US_1735 |19.68Mb
-      - 🇨🇳 ok阿伟科技-油管🇨🇳 CN_47
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_23
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_38
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_9
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_175
-      - 🇭🇰 ok阿伟科技-油管Relay_🇨🇳CN-🇭🇰HK_34
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_20
-      - 🇰🇷 ok阿伟科技4-油管Relay_🇨🇳CN-🇰🇷KR_250
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_48
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_128
-      - ok CYL-科技（2021.12.09）
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_50
-      - 🇺🇸 ok阿伟科技-油管🇺🇸US_1759
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_57
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_86
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_98
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_92
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_69
-      - ok阿伟科技-油管Relay_🇬🇧GB-🇬🇧GB_406
-      - 🇦🇺 ok阿伟科技-油管Relay_🇦🇺AU-🇦🇺AU_13
-      - ok CYL-科技（2021.12.06）
-      - ok CYL-科技（2021.12.09） 2
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_120
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_185
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_134
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_149
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_186
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_14
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_19
-      - ok CYL-科技（2021.11.27）
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_159
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_160
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_174
-      - 🇷🇺 ok阿伟科技-油管Relay_🇹🇼TW-🇷🇺RU_873
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_102
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_119
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_187
-      - ok阿伟科技-油管Relay_🇨🇦CA-🇨🇦CA_216
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🇹🇼TW_213
-      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_237
-      - ok CYL-科技（2021.12.09） 3
-      - 🇺🇸 ok阿伟科技-油管Relay_🇺🇸US-🇺🇸US_1880
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_73
-      - ok CYL-科技（2021.12.09） 4
-      - ok CYL-科技（2021.12.09） 5
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_70
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_72
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_85
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_96
-      - 🇷🇺 ok阿伟科技-油管Relay_🇹🇼TW-🇷🇺RU_875
-      - ok CYL-科技（2021.12.09） 6
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_95
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_60
-      - ok CYL-科技（2021.12.09） 7
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_28
       - 🇭🇰 ok阿伟科技10-油管🇭🇰HK_478
-      - ok阿伟科技-油管Relay_-🇨🇦CA_06
-      - 🇭🇰 ok阿伟科技10-油管🇭🇰HK_483
-      - ok🇨🇦阿伟科技-油管CA_221
-      - ok CYL-科技（2021.12.06） 2
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_58
-      - ok CYL-科技（2021.12.09） 8
-      - ok CYL-科技（2021.12.09） 9
-      - ok CYL-科技（2021.12.09） 10
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_36
-      - 🇨🇳 ok阿伟科技-油管🇨🇳 CN_40
-      - ok CYL-科技（2021.12.09） 11
-      - ok CYL-科技（2021.12.09） 12
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_66
-      - ok CYL-科技（2021.12.09） 13
+      - ok CYL-科技（2021.12.12）
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_3
+      - ok CYL-科技（2021.12.12） 11
+      - ok CYL-科技（2021.12.12） 173
+      - ok CYL-科技（2021.12.12） 8
+      - ok CYL-科技（2021.12.12） 21
+      - ok CYL-科技（2021.12.12） 23
+      - ok CYL-科技（2021.12.12） 116
+      - ok CYL-科技（2021.12.12） 44
       - ok CYL-科技（2021.12.02）
-      - ok CYL-科技（2021.12.06） 3
-      - ok CYL-科技（2021.12.09） 14
-      - ok CYL-科技（2021.12.09） 15
-      - ok⭐⭐星空無限傳媒｜大陸中轉⭐⭐_41
-      - okCYL-科技（2021.12.09）
-      - 🇦🇺 ok阿伟科技-油管Relay_🇦🇺AU-🇦🇺AU_18
-      - ok CYL-科技（2021.12.04）
-      - ok CYL-科技（2021.12.06） 4
-      - ok CYL-科技（2021.12.09） 16
-      - ok CYL-科技（2021.12.09） 17
+      - ok CYL-科技（2021.12.12） 19
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_25
+      - ok CYL-科技（2021.12.12） 27
+      - ok CYL-科技（2021.12.12） 156
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_13
+      - ok CYL-科技（2021.12.12） 22
+      - ok CYL-科技（2021.12.12） 50
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_39
+      - ok CYL-科技（2021.12.12） 31
+      - ok CYL-科技（2021.11.27）
+      - 🇰🇷 ok阿伟科技4-油管Relay_🇨🇳CN-🇰🇷KR_250
+      - 🇨🇳 ok 阿伟科技5-油管🇨🇳 CN_485
+      - 🇨🇳 ok 阿伟科技5-油管🇨🇳CN
+      - 🇺🇸 ok天美傳媒｜奈飛用戶專享_34
+      - ok CYL-科技（2021.12.12） 142
+      - 🇺🇸 ok阿伟科技-油管Relay_🇺🇸US-🇺🇸US_1880
+      - ok CYL-科技（2021.12.09）
+      - ok CYL-科技（2021.12.12） 33
+      - ok CYL-科技（2021.12.12） 152
+      - ok CYL-科技（2021.12.12） 86
+      - ok CYL-科技（2021.12.09） 2
+      - ok CYL-科技（2021.12.06）
+      - ok CYL-科技（2021.12.12） 165
+      - ok CYL-科技（2021.12.12） 186
+      - ok CYL-科技（2021.12.11） 36
+      - ok CYL-科技（2021.12.12） 160
+      - ok CYL-科技（2021.12.12） 20
+      - ok CYL-科技（2021.12.12） 187
+      - ok CYL-科技（2021.12.11） 40
+      - ok CYL-科技（2021.12.12） 85
+      - ok CYL-科技（2021.12.11） 96
+      - ok 阿伟科技-油管Relay_ |29.84Mb
+      - ok CYL-科技（2021.12.12） 164
+      - ok CYL-科技（2021.12.12） 190
+      - ok CYL-科技（2021.12.12） 109
+      - 🇨🇳 ok 阿伟科技4-油管🇨🇳CN
+      - ok CYL-科技（2021.12.12） 192
+      - ok CYL-科技（2021.12.11） 53
+      - ok CYL-科技（2021.12.12） 66
+      - ok CYL-科技（2021.12.12） 53
+      - ok CYL-科技（2021.12.12） 137
+      - 🇺🇸 ok 阿伟科技-油管🇺🇸 US_939 | 5.68Mb
+      - ok 阿伟科技8-油管Relay_🇬🇧GB-🇬🇧GB_473
+      - 🇨🇳 ok阿伟科技-油管Relay_🇨🇳CN-🏁ZZ_237
+      - ok CYL-科技（2021.12.12） 199
+      - ok CYL-科技（2021.12.12） 147
+      - ok CYL-科技（2021.12.12） 14
+      - 🇩🇪 ok 阿伟科技2-油管🇩🇪DE_332
+      - ok CYL-科技（2021.12.11） 106
+      - 🇰🇷 ok 阿伟科技1-油管Relay_🇨🇳CN-🇰🇷KR_222
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
