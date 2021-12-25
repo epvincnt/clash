@@ -5,6 +5,12 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: ok 稳定节点, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 ok 🇺🇸 美国-4.17MB/s(Youtube:不良林), server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
+  - {name: 🇺🇸 ok 🇺🇸 美国-2.04MB/s(Youtube:不良林), server: v8.ssrsub.com, port: 443, type: vmess, uuid: c4415de6-7548-4c8b-94c7-28c37179e84a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
+  - {name: 🇨🇳 ok 🇨🇳 中国-3.28MB/s(Youtube:不良林), server: 00.cn3.rocketdns.xyz, port: 65009, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
+  - {name: 🇨🇳 ok 🇨🇳 中国-1.47MB/s(Youtube:不良林), server: 00.cn2.rocketdns.xyz, port: 65019, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
+  - {name: ok Youtube:鹏哥分享_88, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: ok CYL-科技（2021.12.21）, server: iepl.hk.206f.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
   - {name: ok CYL-科技（2021.12.21） 2, server: 112.33.32.136, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
   - {name: ok CYL-科技（2021.12.21） 3, server: iepl.hk.023d.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
@@ -23,28 +29,43 @@ proxies:
   - {name: ok CYL-科技（2021.12.21） 16, server: 00.cn1.rocketdns.xyz, port: 65000, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
   - {name: ok CYL-科技（2021.12.21） 17, server: mf-aws-kr-08.xncloud.xyz, port: 18000, type: vmess, uuid: 42d97108-47ed-3357-86cd-88c434f8db4d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-08.xncloud.xyz}}
   - {name: ok CYL-科技（2021.12.21） 18, server: 18.218.198.254, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.218.198.254}}
-  - {name: ok CYL-科技（2021.12.21） 19, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: ok 🌈Channel, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: ok Youtube:鹏哥分享_88, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok CYL-科技（2021.12.21） 20, server: mf-aws-kr-04.xncloud.xyz, port: 18000, type: vmess, uuid: 16f4f61d-bb57-3ef7-9b5e-71255063b6c9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-04.xncloud.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 21, server: mf-aws-kr-06.xncloud.xyz, port: 18000, type: vmess, uuid: 16f4f61d-bb57-3ef7-9b5e-71255063b6c9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-06.xncloud.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 22, server: 00.cn3.rocketdns.xyz, port: 65005, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 23, server: mf-aws-kr-06.xncloud.xyz, port: 18000, type: vmess, uuid: 42d97108-47ed-3357-86cd-88c434f8db4d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-06.xncloud.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 24, server: mf-aws-kr-06.xncloud.xyz, port: 18000, type: vmess, uuid: 44606009-f8e0-37d3-99be-b59b7075f991, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-06.xncloud.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 25, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 649f95f3-ab9c-429c-9185-ff5e44b7805d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 26, server: 00.cn3.rocketdns.xyz, port: 65009, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 27, server: 00.cn3.rocketdns.xyz, port: 65009, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 28, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok CYL-科技（2021.12.21） 29, server: n19.emovpn.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 92b82bbb-c007-45eb-b159-6e43724f5c13}
-  - {name: ok CYL-科技（2021.12.21） 30, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1031kr.fans8.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 31, server: 00.cn3.rocketdns.xyz, port: 65008, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
-  - {name: ok 稳定节点, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: ok CYL-科技（2021.12.21） 19, server: mf-aws-kr-04.xncloud.xyz, port: 18000, type: vmess, uuid: 16f4f61d-bb57-3ef7-9b5e-71255063b6c9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-04.xncloud.xyz}}
+  - {name: ok CYL-科技（2021.12.21） 20, server: mf-aws-kr-06.xncloud.xyz, port: 18000, type: vmess, uuid: 16f4f61d-bb57-3ef7-9b5e-71255063b6c9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-06.xncloud.xyz}}
+  - {name: ok CYL-科技（2021.12.21） 21, server: 00.cn3.rocketdns.xyz, port: 65005, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
+  - {name: ok CYL-科技（2021.12.21） 22, server: mf-aws-kr-06.xncloud.xyz, port: 18000, type: vmess, uuid: 42d97108-47ed-3357-86cd-88c434f8db4d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-06.xncloud.xyz}}
+  - {name: ok CYL-科技（2021.12.21） 23, server: mf-aws-kr-06.xncloud.xyz, port: 18000, type: vmess, uuid: 44606009-f8e0-37d3-99be-b59b7075f991, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-06.xncloud.xyz}}
+  - {name: ok CYL-科技（2021.12.21） 24, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 649f95f3-ab9c-429c-9185-ff5e44b7805d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: ok CYL-科技（2021.12.21） 25, server: 00.cn3.rocketdns.xyz, port: 65009, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
+  - {name: ok CYL-科技（2021.12.21） 26, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok CYL-科技（2021.12.21） 27, server: n19.emovpn.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 92b82bbb-c007-45eb-b159-6e43724f5c13}
+  - {name: ok CYL-科技（2021.12.21） 28, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1031kr.fans8.xyz}}
+  - {name: ok CYL-科技（2021.12.21） 29, server: 00.cn3.rocketdns.xyz, port: 65008, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
+  - {name: ok 46.29.218.6:5001, server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok 46.29.218.6:443, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: ok 198.57.27.218:3389, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok 192.53.169.116:8080, server: 192.53.169.116, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ok 192.53.169.116:2376, server: 192.53.169.116, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok 192.46.210.73:5003, server: 192.46.210.73, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok 172.105.180.227:2376, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok 142.202.48.43:8091, server: 142.202.48.43, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok 134.195.196.81:2375, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok 134.195.196.51:7307, server: 134.195.196.51, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok 170.130.31.114:8388, server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
+  - {name: ok 142.202.48.99:2375, server: 142.202.48.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok 134.195.196.51:7306, server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ok 172.105.41.63:3306, server: 172.105.41.63, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - ok 稳定节点
+      - 🇺🇸 ok 🇺🇸 美国-4.17MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-2.04MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-3.28MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-1.47MB/s(Youtube:不良林)
+      - ok Youtube:鹏哥分享_88
       - ok CYL-科技（2021.12.21）
       - ok CYL-科技（2021.12.21） 2
       - ok CYL-科技（2021.12.21） 3
@@ -64,8 +85,6 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 17
       - ok CYL-科技（2021.12.21） 18
       - ok CYL-科技（2021.12.21） 19
-      - ok 🌈Channel
-      - ok Youtube:鹏哥分享_88
       - ok CYL-科技（2021.12.21） 20
       - ok CYL-科技（2021.12.21） 21
       - ok CYL-科技（2021.12.21） 22
@@ -76,15 +95,32 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 27
       - ok CYL-科技（2021.12.21） 28
       - ok CYL-科技（2021.12.21） 29
-      - ok CYL-科技（2021.12.21） 30
-      - ok CYL-科技（2021.12.21） 31
-      - ok 稳定节点
+      - ok 46.29.218.6:5001
+      - ok 46.29.218.6:443
+      - ok 198.57.27.218:3389
+      - ok 192.53.169.116:8080
+      - ok 192.53.169.116:2376
+      - ok 192.46.210.73:5003
+      - ok 172.105.180.227:2376
+      - ok 142.202.48.43:8091
+      - ok 134.195.196.81:2375
+      - ok 134.195.196.51:7307
+      - ok 170.130.31.114:8388
+      - ok 142.202.48.99:2375
+      - ok 134.195.196.51:7306
+      - ok 172.105.41.63:3306
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - ok 稳定节点
+      - 🇺🇸 ok 🇺🇸 美国-4.17MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-2.04MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-3.28MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-1.47MB/s(Youtube:不良林)
+      - ok Youtube:鹏哥分享_88
       - ok CYL-科技（2021.12.21）
       - ok CYL-科技（2021.12.21） 2
       - ok CYL-科技（2021.12.21） 3
@@ -104,8 +140,6 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 17
       - ok CYL-科技（2021.12.21） 18
       - ok CYL-科技（2021.12.21） 19
-      - ok 🌈Channel
-      - ok Youtube:鹏哥分享_88
       - ok CYL-科技（2021.12.21） 20
       - ok CYL-科技（2021.12.21） 21
       - ok CYL-科技（2021.12.21） 22
@@ -116,15 +150,32 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 27
       - ok CYL-科技（2021.12.21） 28
       - ok CYL-科技（2021.12.21） 29
-      - ok CYL-科技（2021.12.21） 30
-      - ok CYL-科技（2021.12.21） 31
-      - ok 稳定节点
+      - ok 46.29.218.6:5001
+      - ok 46.29.218.6:443
+      - ok 198.57.27.218:3389
+      - ok 192.53.169.116:8080
+      - ok 192.53.169.116:2376
+      - ok 192.46.210.73:5003
+      - ok 172.105.180.227:2376
+      - ok 142.202.48.43:8091
+      - ok 134.195.196.81:2375
+      - ok 134.195.196.51:7307
+      - ok 170.130.31.114:8388
+      - ok 142.202.48.99:2375
+      - ok 134.195.196.51:7306
+      - ok 172.105.41.63:3306
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - ok 稳定节点
+      - 🇺🇸 ok 🇺🇸 美国-4.17MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-2.04MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-3.28MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-1.47MB/s(Youtube:不良林)
+      - ok Youtube:鹏哥分享_88
       - ok CYL-科技（2021.12.21）
       - ok CYL-科技（2021.12.21） 2
       - ok CYL-科技（2021.12.21） 3
@@ -144,8 +195,6 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 17
       - ok CYL-科技（2021.12.21） 18
       - ok CYL-科技（2021.12.21） 19
-      - ok 🌈Channel
-      - ok Youtube:鹏哥分享_88
       - ok CYL-科技（2021.12.21） 20
       - ok CYL-科技（2021.12.21） 21
       - ok CYL-科技（2021.12.21） 22
@@ -156,14 +205,31 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 27
       - ok CYL-科技（2021.12.21） 28
       - ok CYL-科技（2021.12.21） 29
-      - ok CYL-科技（2021.12.21） 30
-      - ok CYL-科技（2021.12.21） 31
-      - ok 稳定节点
+      - ok 46.29.218.6:5001
+      - ok 46.29.218.6:443
+      - ok 198.57.27.218:3389
+      - ok 192.53.169.116:8080
+      - ok 192.53.169.116:2376
+      - ok 192.46.210.73:5003
+      - ok 172.105.180.227:2376
+      - ok 142.202.48.43:8091
+      - ok 134.195.196.81:2375
+      - ok 134.195.196.51:7307
+      - ok 170.130.31.114:8388
+      - ok 142.202.48.99:2375
+      - ok 134.195.196.51:7306
+      - ok 172.105.41.63:3306
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - ok 稳定节点
+      - 🇺🇸 ok 🇺🇸 美国-4.17MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-2.04MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-3.28MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-1.47MB/s(Youtube:不良林)
+      - ok Youtube:鹏哥分享_88
       - ok CYL-科技（2021.12.21）
       - ok CYL-科技（2021.12.21） 2
       - ok CYL-科技（2021.12.21） 3
@@ -183,8 +249,6 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 17
       - ok CYL-科技（2021.12.21） 18
       - ok CYL-科技（2021.12.21） 19
-      - ok 🌈Channel
-      - ok Youtube:鹏哥分享_88
       - ok CYL-科技（2021.12.21） 20
       - ok CYL-科技（2021.12.21） 21
       - ok CYL-科技（2021.12.21） 22
@@ -195,14 +259,31 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 27
       - ok CYL-科技（2021.12.21） 28
       - ok CYL-科技（2021.12.21） 29
-      - ok CYL-科技（2021.12.21） 30
-      - ok CYL-科技（2021.12.21） 31
-      - ok 稳定节点
+      - ok 46.29.218.6:5001
+      - ok 46.29.218.6:443
+      - ok 198.57.27.218:3389
+      - ok 192.53.169.116:8080
+      - ok 192.53.169.116:2376
+      - ok 192.46.210.73:5003
+      - ok 172.105.180.227:2376
+      - ok 142.202.48.43:8091
+      - ok 134.195.196.81:2375
+      - ok 134.195.196.51:7307
+      - ok 170.130.31.114:8388
+      - ok 142.202.48.99:2375
+      - ok 134.195.196.51:7306
+      - ok 172.105.41.63:3306
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - ok 稳定节点
+      - 🇺🇸 ok 🇺🇸 美国-4.17MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-2.04MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-3.28MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-1.47MB/s(Youtube:不良林)
+      - ok Youtube:鹏哥分享_88
       - ok CYL-科技（2021.12.21）
       - ok CYL-科技（2021.12.21） 2
       - ok CYL-科技（2021.12.21） 3
@@ -222,8 +303,6 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 17
       - ok CYL-科技（2021.12.21） 18
       - ok CYL-科技（2021.12.21） 19
-      - ok 🌈Channel
-      - ok Youtube:鹏哥分享_88
       - ok CYL-科技（2021.12.21） 20
       - ok CYL-科技（2021.12.21） 21
       - ok CYL-科技（2021.12.21） 22
@@ -234,14 +313,31 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 27
       - ok CYL-科技（2021.12.21） 28
       - ok CYL-科技（2021.12.21） 29
-      - ok CYL-科技（2021.12.21） 30
-      - ok CYL-科技（2021.12.21） 31
-      - ok 稳定节点
+      - ok 46.29.218.6:5001
+      - ok 46.29.218.6:443
+      - ok 198.57.27.218:3389
+      - ok 192.53.169.116:8080
+      - ok 192.53.169.116:2376
+      - ok 192.46.210.73:5003
+      - ok 172.105.180.227:2376
+      - ok 142.202.48.43:8091
+      - ok 134.195.196.81:2375
+      - ok 134.195.196.51:7307
+      - ok 170.130.31.114:8388
+      - ok 142.202.48.99:2375
+      - ok 134.195.196.51:7306
+      - ok 172.105.41.63:3306
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - ok 稳定节点
+      - 🇺🇸 ok 🇺🇸 美国-4.17MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-2.04MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-3.28MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-1.47MB/s(Youtube:不良林)
+      - ok Youtube:鹏哥分享_88
       - ok CYL-科技（2021.12.21）
       - ok CYL-科技（2021.12.21） 2
       - ok CYL-科技（2021.12.21） 3
@@ -261,8 +357,6 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 17
       - ok CYL-科技（2021.12.21） 18
       - ok CYL-科技（2021.12.21） 19
-      - ok 🌈Channel
-      - ok Youtube:鹏哥分享_88
       - ok CYL-科技（2021.12.21） 20
       - ok CYL-科技（2021.12.21） 21
       - ok CYL-科技（2021.12.21） 22
@@ -273,15 +367,32 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 27
       - ok CYL-科技（2021.12.21） 28
       - ok CYL-科技（2021.12.21） 29
-      - ok CYL-科技（2021.12.21） 30
-      - ok CYL-科技（2021.12.21） 31
-      - ok 稳定节点
+      - ok 46.29.218.6:5001
+      - ok 46.29.218.6:443
+      - ok 198.57.27.218:3389
+      - ok 192.53.169.116:8080
+      - ok 192.53.169.116:2376
+      - ok 192.46.210.73:5003
+      - ok 172.105.180.227:2376
+      - ok 142.202.48.43:8091
+      - ok 134.195.196.81:2375
+      - ok 134.195.196.51:7307
+      - ok 170.130.31.114:8388
+      - ok 142.202.48.99:2375
+      - ok 134.195.196.51:7306
+      - ok 172.105.41.63:3306
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - ok 稳定节点
+      - 🇺🇸 ok 🇺🇸 美国-4.17MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-2.04MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-3.28MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-1.47MB/s(Youtube:不良林)
+      - ok Youtube:鹏哥分享_88
       - ok CYL-科技（2021.12.21）
       - ok CYL-科技（2021.12.21） 2
       - ok CYL-科技（2021.12.21） 3
@@ -301,8 +412,6 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 17
       - ok CYL-科技（2021.12.21） 18
       - ok CYL-科技（2021.12.21） 19
-      - ok 🌈Channel
-      - ok Youtube:鹏哥分享_88
       - ok CYL-科技（2021.12.21） 20
       - ok CYL-科技（2021.12.21） 21
       - ok CYL-科技（2021.12.21） 22
@@ -313,9 +422,20 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 27
       - ok CYL-科技（2021.12.21） 28
       - ok CYL-科技（2021.12.21） 29
-      - ok CYL-科技（2021.12.21） 30
-      - ok CYL-科技（2021.12.21） 31
-      - ok 稳定节点
+      - ok 46.29.218.6:5001
+      - ok 46.29.218.6:443
+      - ok 198.57.27.218:3389
+      - ok 192.53.169.116:8080
+      - ok 192.53.169.116:2376
+      - ok 192.46.210.73:5003
+      - ok 172.105.180.227:2376
+      - ok 142.202.48.43:8091
+      - ok 134.195.196.81:2375
+      - ok 134.195.196.51:7307
+      - ok 170.130.31.114:8388
+      - ok 142.202.48.99:2375
+      - ok 134.195.196.51:7306
+      - ok 172.105.41.63:3306
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -338,6 +458,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - ok 稳定节点
+      - 🇺🇸 ok 🇺🇸 美国-4.17MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-2.04MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-3.28MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-1.47MB/s(Youtube:不良林)
+      - ok Youtube:鹏哥分享_88
       - ok CYL-科技（2021.12.21）
       - ok CYL-科技（2021.12.21） 2
       - ok CYL-科技（2021.12.21） 3
@@ -357,8 +483,6 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 17
       - ok CYL-科技（2021.12.21） 18
       - ok CYL-科技（2021.12.21） 19
-      - ok 🌈Channel
-      - ok Youtube:鹏哥分享_88
       - ok CYL-科技（2021.12.21） 20
       - ok CYL-科技（2021.12.21） 21
       - ok CYL-科技（2021.12.21） 22
@@ -369,9 +493,20 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 27
       - ok CYL-科技（2021.12.21） 28
       - ok CYL-科技（2021.12.21） 29
-      - ok CYL-科技（2021.12.21） 30
-      - ok CYL-科技（2021.12.21） 31
-      - ok 稳定节点
+      - ok 46.29.218.6:5001
+      - ok 46.29.218.6:443
+      - ok 198.57.27.218:3389
+      - ok 192.53.169.116:8080
+      - ok 192.53.169.116:2376
+      - ok 192.46.210.73:5003
+      - ok 172.105.180.227:2376
+      - ok 142.202.48.43:8091
+      - ok 134.195.196.81:2375
+      - ok 134.195.196.51:7307
+      - ok 170.130.31.114:8388
+      - ok 142.202.48.99:2375
+      - ok 134.195.196.51:7306
+      - ok 172.105.41.63:3306
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -399,23 +534,6 @@ rules:
  - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
- - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
- - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
- - DOMAIN,dl.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
- - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
- - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
- - DOMAIN,xivanalysis.com,🎯 全球直连
- - DOMAIN,picanalysis.vivo.com.cn,🎯 全球直连
- - DOMAIN,fairplay.l.qq.com,🎯 全球直连
- - DOMAIN,livew.l.qq.com,🎯 全球直连
- - DOMAIN,vd.l.qq.com,🎯 全球直连
- - DOMAIN,analytics.strava.com,🎯 全球直连
- - DOMAIN,msg.umeng.com,🎯 全球直连
- - DOMAIN,msg.umengcloud.com,🎯 全球直连
- - DOMAIN,tracking.miui.com,🎯 全球直连
- - DOMAIN,app.adjust.com,🎯 全球直连
- - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -2101,44 +2219,6 @@ rules:
  - IP-CIDR,173.194.175.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,173.194.218.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,209.85.233.188/32,📢 谷歌FCM,no-resolve
- - DOMAIN-SUFFIX,265.com,🎯 全球直连
- - DOMAIN-SUFFIX,2mdn.net,🎯 全球直连
- - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,alt2-mtalk.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,alt3-mtalk.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,alt4-mtalk.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,alt5-mtalk.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,alt6-mtalk.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,alt7-mtalk.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,alt8-mtalk.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,app-measurement.com,🎯 全球直连
- - DOMAIN-SUFFIX,c.android.clients.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,cache.pack.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,clickserve.dartsearch.net,🎯 全球直连
- - DOMAIN-SUFFIX,clientservices.googleapis.com,🎯 全球直连
- - DOMAIN-SUFFIX,crl.pki.goog,🎯 全球直连
- - DOMAIN-SUFFIX,dl.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,dl.l.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,fonts.googleapis.com,🎯 全球直连
- - DOMAIN-SUFFIX,fonts.gstatic.com,🎯 全球直连
- - DOMAIN-SUFFIX,googletagmanager.com,🎯 全球直连
- - DOMAIN-SUFFIX,googletagservices.com,🎯 全球直连
- - DOMAIN-SUFFIX,gtm.oasisfeng.com,🎯 全球直连
- - DOMAIN-SUFFIX,imasdk.googleapis.com,🎯 全球直连
- - DOMAIN-SUFFIX,mtalk.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 全球直连
- - DOMAIN-SUFFIX,recaptcha.net,🎯 全球直连
- - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 全球直连
- - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 全球直连
- - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,ssl.gstatic.com,🎯 全球直连
- - DOMAIN-SUFFIX,toolbarqueries.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,tools.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,tools.l.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
- - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
  - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
  - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
@@ -2215,6 +2295,33 @@ rules:
  - DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
+ - DOMAIN,apple.comscoreresearch.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.com.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
+ - DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,crashlytics.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,itunes.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,me.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,mzstatic.com,🍎 苹果服务
+ - IP-CIDR,17.0.0.0/8,🍎 苹果服务,no-resolve
+ - IP-CIDR,63.92.224.0/19,🍎 苹果服务,no-resolve
+ - IP-CIDR,65.199.22.0/23,🍎 苹果服务,no-resolve
+ - IP-CIDR,139.178.128.0/18,🍎 苹果服务,no-resolve
+ - IP-CIDR,144.178.0.0/19,🍎 苹果服务,no-resolve
+ - IP-CIDR,144.178.36.0/22,🍎 苹果服务,no-resolve
+ - IP-CIDR,144.178.48.0/20,🍎 苹果服务,no-resolve
+ - IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
+ - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
+ - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
  - DOMAIN-SUFFIX,t.me,📲 电报信息
  - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
  - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
