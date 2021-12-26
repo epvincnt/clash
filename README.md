@@ -5,67 +5,298 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇨🇳 中国-398.6KB/s(Youtube:不良林), server: 116.163.14.146, port: 65003, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 116.163.14.146}}
+  - {name: 🇨🇳 中国-3.24MB/s(Youtube:不良林), server: 116.163.10.145, port: 65016, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 116.163.10.145}}
   - {name: ok 稳定节点, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 ok 🇺🇸 美国-4.17MB/s(Youtube:不良林), server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
-  - {name: 🇺🇸 ok 🇺🇸 美国-2.04MB/s(Youtube:不良林), server: v8.ssrsub.com, port: 443, type: vmess, uuid: c4415de6-7548-4c8b-94c7-28c37179e84a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
+  - {name: 🇺🇸 ok 🇺🇸 美国-1.59MB/s(Youtube:不良林), server: v8.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
+  - {name: 🇺🇸 ok 🇺🇸 美国-1.45MB/s(Youtube:不良林), server: 142.4.123.249, port: 500, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 ok 🇨🇳 中国-565.6KB/s(Youtube:不良林), server: 120.241.72.84, port: 18005, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: 120.241.72.84}}
+  - {name: 🇨🇳 ok 🇨🇳 中国-461.8KB/s(Youtube:不良林), server: 116.163.14.146, port: 65018, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 116.163.14.146}}
+  - {name: 🇨🇳 ok 🇨🇳 中国-351.6KB/s(Youtube:不良林), server: 120.241.72.84, port: 18009, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: 120.241.72.84}}
+  - {name: 🇨🇳 ok 🇨🇳 中国-3.43MB/s(Youtube:不良林), server: 00.cn4.rocketdns.xyz, port: 65019, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn4.rocketdns.xyz}}
   - {name: 🇨🇳 ok 🇨🇳 中国-3.28MB/s(Youtube:不良林), server: 00.cn3.rocketdns.xyz, port: 65009, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
+  - {name: 🇨🇳 ok 🇨🇳 中国-2.86MB/s(Youtube:不良林), server: 00.cn2.rocketdns.xyz, port: 65005, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
   - {name: 🇨🇳 ok 🇨🇳 中国-1.47MB/s(Youtube:不良林), server: 00.cn2.rocketdns.xyz, port: 65019, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
+  - {name: 🇨🇳 ok 🇨🇳 中国-1.04MB/s(Youtube:不良林), server: 00.cn4.rocketdns.xyz, port: 65003, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn4.rocketdns.xyz}}
   - {name: ok Youtube:鹏哥分享_88, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok CYL-科技（2021.12.21）, server: iepl.hk.206f.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: ok CYL-科技（2021.12.21） 2, server: 112.33.32.136, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: ok CYL-科技（2021.12.21） 3, server: iepl.hk.023d.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
-  - {name: ok CYL-科技（2021.12.21） 4, server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: 2383d811-a0af-4c51-b9cf-450f42bb7c85, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 5, server: 00.cn2.rocketdns.xyz, port: 65001, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 6, server: jpaz3.biteb-ssx.xyz, port: 14464, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: index, ws-headers: {Host: jpaz3.biteb-ssx.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 7, server: mf-aws-kr-02.xncloud.xyz, port: 18000, type: vmess, uuid: 42d97108-47ed-3357-86cd-88c434f8db4d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-02.xncloud.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 8, server: 00.cn2.rocketdns.xyz, port: 65016, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 9, server: hk-hkg-shhk-001-tr.cdn.savoy.click, port: 20089, type: trojan, password: nodnqJmXykIChRXUqqodCfhcWhtFglJX, sni: hk-hkg-shhk-001-tr.cdn.savoy.click}
-  - {name: ok CYL-科技（2021.12.21） 10, server: 00.cn3.rocketdns.xyz, port: 65007, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 11, server: 00.cn3.rocketdns.xyz, port: 65008, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 12, server: 18.192.212.68, port: 21888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.192.212.68}}
-  - {name: ok CYL-科技（2021.12.21） 13, server: hk-hkg-sh-hk-02-tr.cdn.savoy.click, port: 21089, type: trojan, password: nodnqJmXykIChRXUqqodCfhcWhtFglJX, sni: hk-hkg-sh-hk-02-tr.cdn.savoy.click}
-  - {name: ok CYL-科技（2021.12.21） 14, server: mf-aws-kr-10.xncloud.xyz, port: 18000, type: vmess, uuid: 42d97108-47ed-3357-86cd-88c434f8db4d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-10.xncloud.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 15, server: mf-aws-kr-08.xncloud.xyz, port: 18000, type: vmess, uuid: 44606009-f8e0-37d3-99be-b59b7075f991, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-08.xncloud.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 16, server: 00.cn1.rocketdns.xyz, port: 65000, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 17, server: mf-aws-kr-08.xncloud.xyz, port: 18000, type: vmess, uuid: 42d97108-47ed-3357-86cd-88c434f8db4d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-08.xncloud.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 18, server: 18.218.198.254, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.218.198.254}}
-  - {name: ok CYL-科技（2021.12.21） 19, server: mf-aws-kr-04.xncloud.xyz, port: 18000, type: vmess, uuid: 16f4f61d-bb57-3ef7-9b5e-71255063b6c9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-04.xncloud.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 20, server: mf-aws-kr-06.xncloud.xyz, port: 18000, type: vmess, uuid: 16f4f61d-bb57-3ef7-9b5e-71255063b6c9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-06.xncloud.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 21, server: 00.cn3.rocketdns.xyz, port: 65005, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 22, server: mf-aws-kr-06.xncloud.xyz, port: 18000, type: vmess, uuid: 42d97108-47ed-3357-86cd-88c434f8db4d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-06.xncloud.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 23, server: mf-aws-kr-06.xncloud.xyz, port: 18000, type: vmess, uuid: 44606009-f8e0-37d3-99be-b59b7075f991, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-06.xncloud.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 24, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 649f95f3-ab9c-429c-9185-ff5e44b7805d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 25, server: 00.cn3.rocketdns.xyz, port: 65009, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 26, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ok CYL-科技（2021.12.21） 27, server: n19.emovpn.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 92b82bbb-c007-45eb-b159-6e43724f5c13}
-  - {name: ok CYL-科技（2021.12.21） 28, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1031kr.fans8.xyz}}
-  - {name: ok CYL-科技（2021.12.21） 29, server: 00.cn3.rocketdns.xyz, port: 65008, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
+  - {name: ok CYL-科技（2021.12.24） 98, server: v12.88host.buzz, port: 18118, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 94, server: 211.99.96.4, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: ok CYL-科技（2021.12.24） 85, server: v25.88host.buzz, port: 18029, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v25.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 82, server: iepl.hk.206f.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: ok CYL-科技（2021.12.24） 79, server: v13.88host.buzz, port: 18007, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 64, server: v36.88host.buzz, port: 18069, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 57, server: v21.88host.buzz, port: 18025, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v21.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 55, server: v35.88host.buzz, port: 18068, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 54, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ok CYL-科技（2021.12.24） 5, server: v24.88host.buzz, port: 18028, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v24.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 49, server: 178.62.224.119, port: 8888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 178.62.224.119}}
+  - {name: ok CYL-科技（2021.12.24） 47, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: fa2c02cf-bbc1-4da0-b051-3731d87ec785, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikeji}}
+  - {name: ok CYL-科技（2021.12.24） 46, server: v34.88host.buzz, port: 18045, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 440, server: 116.163.10.145, port: 65001, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
+  - {name: ok CYL-科技（2021.12.24） 437, server: v11.88host.buzz, port: 18005, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 436, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 435, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: ok CYL-科技（2021.12.24） 43, server: iepl.hk.4a75.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: ok CYL-科技（2021.12.24） 425, server: 116.163.14.146, port: 65017, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 116.163.14.146}}
+  - {name: ok CYL-科技（2021.12.24） 423, server: 00.cn3.rocketdns.xyz, port: 65014, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
+  - {name: ok CYL-科技（2021.12.24） 420, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 42, server: 00.cn3.rocketdns.xyz, port: 65020, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
+  - {name: ok CYL-科技（2021.12.24） 418, server: mf-justhost-ru-01.xncloud.xyz, port: 18000, type: vmess, uuid: 38ecde79-4031-3c86-b6c0-3d2ce9abab1d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-justhost-ru-01.xncloud.xyz}}
+  - {name: ok CYL-科技（2021.12.24） 416, server: 00.cn2.rocketdns.xyz, port: 65010, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
+  - {name: ok CYL-科技（2021.12.24） 405, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
+  - {name: ok CYL-科技（2021.12.24） 403, server: 18.192.212.68, port: 21888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.192.212.68}}
+  - {name: ok CYL-科技（2021.12.24） 403 2, server: v36.88host.buzz, port: 18058, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v36.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 4, server: iepl.hk.71bc.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: ok CYL-科技（2021.12.24） 399, server: 124.219.119.15, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22124.219.119.15%22%7D"}}
+  - {name: ok CYL-科技（2021.12.24） 378, server: 116.163.10.145, port: 65013, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 116.163.10.145}}
+  - {name: ok CYL-科技（2021.12.24） 377, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: ok CYL-科技（2021.12.24） 374, server: 00.cn1.rocketdns.xyz, port: 65018, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
+  - {name: ok CYL-科技（2021.12.24） 372, server: v22.88host.buzz, port: 18137, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v22.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 37, server: v21.88host.buzz, port: 18025, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v21.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 367, server: v24.88host.buzz, port: 18140, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v24.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 366, server: v31.88host.buzz, port: 18064, type: vmess, uuid: 8e101712-8380-3376-bbeb-ef6ef1eaafb9, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 363, server: 00.cn2.rocketdns.xyz, port: 65013, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
+  - {name: ok CYL-科技（2021.12.24） 361, server: v31.88host.buzz, port: 18053, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v31.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 359, server: v31.88host.buzz, port: 18042, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 358, server: ru03.ddns.99iplc.xyz, port: 10088, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 350, server: ru03.ddns.99iplc.xyz, port: 10086, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 345, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 342, server: v24.88host.buzz, port: 18140, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v24.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 342 2, server: iepl.hk.31c4.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: ok CYL-科技（2021.12.24） 341, server: v24.88host.buzz, port: 18140, type: vmess, uuid: 8e101712-8380-3376-bbeb-ef6ef1eaafb9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v24.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 340, server: v32.88host.buzz, port: 18054, type: vmess, uuid: 8e101712-8380-3376-bbeb-ef6ef1eaafb9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: youtube-aweikeji}}
+  - {name: ok CYL-科技（2021.12.24） 34, server: v22.88host.buzz, port: 18137, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v22.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 34 2, server: iepl.hk.fda0.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: ok CYL-科技（2021.12.24） 338, server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: fa2c02cf-bbc1-4da0-b051-3731d87ec785, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: ok CYL-科技（2021.12.24） 334, server: v34.88host.buzz, port: 18067, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 333, server: cm-jm.okvpn.xyz, port: 20047, type: vmess, uuid: fa2c02cf-bbc1-4da0-b051-3731d87ec785, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikeji}}
+  - {name: ok CYL-科技（2021.12.24） 327, server: v31.88host.buzz, port: 18084, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 325, server: ru02.ddns.99iplc.xyz, port: 10086, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 323, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: ok CYL-科技（2021.12.24） 306, server: v33.88host.buzz, port: 18044, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 304, server: 00.cn2.rocketdns.xyz, port: 65001, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
+  - {name: ok CYL-科技（2021.12.24） 300, server: 211.99.96.7, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: ok CYL-科技（2021.12.24） 291, server: v32.88host.buzz, port: 18054, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v32.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 290, server: 211.99.96.15, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: ok CYL-科技（2021.12.24） 289, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ok CYL-科技（2021.12.24） 286, server: ru02.ddns.99iplc.xyz, port: 10088, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 284, server: v31.88host.buzz, port: 18084, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 282, server: ru03.ddns.99iplc.xyz, port: 10088, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 278, server: iepl.tw.9548.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: ok CYL-科技（2021.12.24） 273, server: v32.88host.buzz, port: 18043, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 269, server: v31.88host.buzz, port: 18042, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 268, server: 3.106.142.132, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 3.106.142.132}}
+  - {name: ok CYL-科技（2021.12.24） 263, server: v32.88host.buzz, port: 18085, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 257, server: v31.88host.buzz, port: 18053, type: vmess, uuid: 8e101712-8380-3376-bbeb-ef6ef1eaafb9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: youtube-aweikeji}}
+  - {name: ok CYL-科技（2021.12.24） 254, server: v22.88host.buzz, port: 18026, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v22.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 253, server: v32.88host.buzz, port: 18043, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 252, server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: fa2c02cf-bbc1-4da0-b051-3731d87ec785, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikeji}}
+  - {name: ok CYL-科技（2021.12.24） 251, server: ru03.ddns.99iplc.xyz, port: 10086, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 25, server: 211.99.96.12, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: ok CYL-科技（2021.12.24） 245, server: v12.88host.buzz, port: 18118, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 244, server: v31.88host.buzz, port: 18053, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v31.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 243, server: v33.88host.buzz, port: 18055, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v33.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 237, server: v12.88host.buzz, port: 18009, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 232, server: v33.88host.buzz, port: 18066, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 231, server: v22.88host.buzz, port: 18026, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v22.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 230, server: 00.cn1.rocketdns.xyz, port: 65003, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
+  - {name: ok CYL-科技（2021.12.24） 23, server: v33.88host.buzz, port: 18044, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 229, server: v32.88host.buzz, port: 18065, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 219, server: 00.cn3.rocketdns.xyz, port: 65021, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
+  - {name: ok CYL-科技（2021.12.24） 216, server: v31.88host.buzz, port: 18082, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 212, server: v35.88host.buzz, port: 18079, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 204, server: v32.88host.buzz, port: 18065, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 203, server: 195.133.53.192, port: 27182, type: vmess, uuid: a22df2ec-6200-11ec-9070-fecccc2333dc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /AmrTCtbk/, ws-headers: {Host: 195.133.53.192}}
+  - {name: ok CYL-科技（2021.12.24） 201, server: v13.88host.buzz, port: 18007, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 199, server: v32.88host.buzz, port: 18083, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 198, server: 172.105.41.63, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok CYL-科技（2021.12.24） 190, server: v11.88host.buzz, port: 18008, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 187, server: v12.88host.buzz, port: 18006, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 18, server: iepl.tw.4edb.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: ok CYL-科技（2021.12.24） 176, server: v11.88host.buzz, port: 18120, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 172, server: 183.232.13.115, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22183.232.13.115%22%7D"}}
+  - {name: ok CYL-科技（2021.12.24） 17, server: iepl.hk.023d.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: ok CYL-科技（2021.12.24） 166, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok CYL-科技（2021.12.24） 160, server: 183.232.13.115, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 183.232.13.115}}
+  - {name: ok CYL-科技（2021.12.24） 16, server: 211.99.96.17, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: ok CYL-科技（2021.12.24） 154, server: v31.88host.buzz, port: 18064, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 152, server: v12.88host.buzz, port: 18117, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 150, server: v32.88host.buzz, port: 18054, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v32.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 144, server: v12.88host.buzz, port: 18009, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 140, server: v33.88host.buzz, port: 18066, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 139, server: v32.88host.buzz, port: 18083, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 139 2, server: v11.88host.buzz, port: 18005, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 133, server: v25.88host.buzz, port: 18029, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v25.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 132, server: 112.33.32.136, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 13, server: v23.88host.buzz, port: 18139, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v23.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 127, server: v13.88host.buzz, port: 18010, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 125, server: v31.88host.buzz, port: 18082, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 117, server: v11.88host.buzz, port: 18008, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 116, server: v34.88host.buzz, port: 18067, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 0, cipher: auto, tls: false}
+  - {name: ok CYL-科技（2021.12.24） 115, server: v13.88host.buzz, port: 18010, type: vmess, uuid: 0e634ac9-82bb-366b-86a6-99e02968e497, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.24） 114, server: 00.cn3.rocketdns.xyz, port: 65002, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
+  - {name: ok CYL-科技（2021.12.24） 109, server: v33.88host.buzz, port: 18055, type: vmess, uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v33.88host.buzz}}
+  - {name: ok CYL-科技（2021.12.21）, server: 00.cn3.rocketdns.xyz, port: 65008, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
+  - {name: ok CYL-科技（2021.12.21） 2, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok CYL-科技（2021.12.21） 3, server: 00.cn1.rocketdns.xyz, port: 65000, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}}
+  - {name: ok CYL-科技（2021.12.21） 4, server: 18.218.198.254, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.218.198.254}}
+  - {name: ok CYL-科技（2021.12.21） 5, server: 00.cn2.rocketdns.xyz, port: 65016, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}}
+  - {name: ok CYL-科技（2021.12.21） 6, server: hk-hkg-shhk-001-tr.cdn.savoy.click, port: 20089, type: trojan, password: nodnqJmXykIChRXUqqodCfhcWhtFglJX, sni: hk-hkg-shhk-001-tr.cdn.savoy.click}
+  - {name: ok CYL-科技（2021.12.21） 7, server: 00.cn3.rocketdns.xyz, port: 65009, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}}
+  - {name: ok 69.39.239.72:8388, server: 69.39.239.72, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
   - {name: ok 46.29.218.6:5001, server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: ok 46.29.218.6:443, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: ok 46.29.218.6:2375, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok 217.138.200.242:8389, server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
   - {name: ok 198.57.27.218:3389, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: ok 192.53.169.116:8080, server: 192.53.169.116, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: ok 192.53.169.116:2376, server: 192.53.169.116, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: ok 192.46.210.73:5003, server: 192.46.210.73, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: ok 172.105.180.227:2376, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ok 170.130.31.114:8388, server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
+  - {name: ok 142.202.48.99:2375, server: 142.202.48.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: ok 142.202.48.43:8091, server: 142.202.48.43, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: ok 134.195.196.81:2375, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: ok 134.195.196.51:7307, server: 134.195.196.51, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok 170.130.31.114:8388, server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
-  - {name: ok 142.202.48.99:2375, server: 142.202.48.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: ok 134.195.196.51:7306, server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ok 172.105.41.63:3306, server: 172.105.41.63, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ok 118.107.244.110:3389, server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇨🇳 中国-398.6KB/s(Youtube:不良林)
+      - 🇨🇳 中国-3.24MB/s(Youtube:不良林)
       - ok 稳定节点
-      - 🇺🇸 ok 🇺🇸 美国-4.17MB/s(Youtube:不良林)
-      - 🇺🇸 ok 🇺🇸 美国-2.04MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-1.59MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-1.45MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-565.6KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-461.8KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-351.6KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-3.43MB/s(Youtube:不良林)
       - 🇨🇳 ok 🇨🇳 中国-3.28MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-2.86MB/s(Youtube:不良林)
       - 🇨🇳 ok 🇨🇳 中国-1.47MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-1.04MB/s(Youtube:不良林)
       - ok Youtube:鹏哥分享_88
+      - ok CYL-科技（2021.12.24） 98
+      - ok CYL-科技（2021.12.24） 94
+      - ok CYL-科技（2021.12.24） 85
+      - ok CYL-科技（2021.12.24） 82
+      - ok CYL-科技（2021.12.24） 79
+      - ok CYL-科技（2021.12.24） 64
+      - ok CYL-科技（2021.12.24） 57
+      - ok CYL-科技（2021.12.24） 55
+      - ok CYL-科技（2021.12.24） 54
+      - ok CYL-科技（2021.12.24） 5
+      - ok CYL-科技（2021.12.24） 49
+      - ok CYL-科技（2021.12.24） 47
+      - ok CYL-科技（2021.12.24） 46
+      - ok CYL-科技（2021.12.24） 440
+      - ok CYL-科技（2021.12.24） 437
+      - ok CYL-科技（2021.12.24） 436
+      - ok CYL-科技（2021.12.24） 435
+      - ok CYL-科技（2021.12.24） 43
+      - ok CYL-科技（2021.12.24） 425
+      - ok CYL-科技（2021.12.24） 423
+      - ok CYL-科技（2021.12.24） 420
+      - ok CYL-科技（2021.12.24） 42
+      - ok CYL-科技（2021.12.24） 418
+      - ok CYL-科技（2021.12.24） 416
+      - ok CYL-科技（2021.12.24） 405
+      - ok CYL-科技（2021.12.24） 403
+      - ok CYL-科技（2021.12.24） 403 2
+      - ok CYL-科技（2021.12.24） 4
+      - ok CYL-科技（2021.12.24） 399
+      - ok CYL-科技（2021.12.24） 378
+      - ok CYL-科技（2021.12.24） 377
+      - ok CYL-科技（2021.12.24） 374
+      - ok CYL-科技（2021.12.24） 372
+      - ok CYL-科技（2021.12.24） 37
+      - ok CYL-科技（2021.12.24） 367
+      - ok CYL-科技（2021.12.24） 366
+      - ok CYL-科技（2021.12.24） 363
+      - ok CYL-科技（2021.12.24） 361
+      - ok CYL-科技（2021.12.24） 359
+      - ok CYL-科技（2021.12.24） 358
+      - ok CYL-科技（2021.12.24） 350
+      - ok CYL-科技（2021.12.24） 345
+      - ok CYL-科技（2021.12.24） 342
+      - ok CYL-科技（2021.12.24） 342 2
+      - ok CYL-科技（2021.12.24） 341
+      - ok CYL-科技（2021.12.24） 340
+      - ok CYL-科技（2021.12.24） 34
+      - ok CYL-科技（2021.12.24） 34 2
+      - ok CYL-科技（2021.12.24） 338
+      - ok CYL-科技（2021.12.24） 334
+      - ok CYL-科技（2021.12.24） 333
+      - ok CYL-科技（2021.12.24） 327
+      - ok CYL-科技（2021.12.24） 325
+      - ok CYL-科技（2021.12.24） 323
+      - ok CYL-科技（2021.12.24） 306
+      - ok CYL-科技（2021.12.24） 304
+      - ok CYL-科技（2021.12.24） 300
+      - ok CYL-科技（2021.12.24） 291
+      - ok CYL-科技（2021.12.24） 290
+      - ok CYL-科技（2021.12.24） 289
+      - ok CYL-科技（2021.12.24） 286
+      - ok CYL-科技（2021.12.24） 284
+      - ok CYL-科技（2021.12.24） 282
+      - ok CYL-科技（2021.12.24） 278
+      - ok CYL-科技（2021.12.24） 273
+      - ok CYL-科技（2021.12.24） 269
+      - ok CYL-科技（2021.12.24） 268
+      - ok CYL-科技（2021.12.24） 263
+      - ok CYL-科技（2021.12.24） 257
+      - ok CYL-科技（2021.12.24） 254
+      - ok CYL-科技（2021.12.24） 253
+      - ok CYL-科技（2021.12.24） 252
+      - ok CYL-科技（2021.12.24） 251
+      - ok CYL-科技（2021.12.24） 25
+      - ok CYL-科技（2021.12.24） 245
+      - ok CYL-科技（2021.12.24） 244
+      - ok CYL-科技（2021.12.24） 243
+      - ok CYL-科技（2021.12.24） 237
+      - ok CYL-科技（2021.12.24） 232
+      - ok CYL-科技（2021.12.24） 231
+      - ok CYL-科技（2021.12.24） 230
+      - ok CYL-科技（2021.12.24） 23
+      - ok CYL-科技（2021.12.24） 229
+      - ok CYL-科技（2021.12.24） 219
+      - ok CYL-科技（2021.12.24） 216
+      - ok CYL-科技（2021.12.24） 212
+      - ok CYL-科技（2021.12.24） 204
+      - ok CYL-科技（2021.12.24） 203
+      - ok CYL-科技（2021.12.24） 201
+      - ok CYL-科技（2021.12.24） 199
+      - ok CYL-科技（2021.12.24） 198
+      - ok CYL-科技（2021.12.24） 190
+      - ok CYL-科技（2021.12.24） 187
+      - ok CYL-科技（2021.12.24） 18
+      - ok CYL-科技（2021.12.24） 176
+      - ok CYL-科技（2021.12.24） 172
+      - ok CYL-科技（2021.12.24） 17
+      - ok CYL-科技（2021.12.24） 166
+      - ok CYL-科技（2021.12.24） 160
+      - ok CYL-科技（2021.12.24） 16
+      - ok CYL-科技（2021.12.24） 154
+      - ok CYL-科技（2021.12.24） 152
+      - ok CYL-科技（2021.12.24） 150
+      - ok CYL-科技（2021.12.24） 144
+      - ok CYL-科技（2021.12.24） 140
+      - ok CYL-科技（2021.12.24） 139
+      - ok CYL-科技（2021.12.24） 139 2
+      - ok CYL-科技（2021.12.24） 133
+      - ok CYL-科技（2021.12.24） 132
+      - ok CYL-科技（2021.12.24） 13
+      - ok CYL-科技（2021.12.24） 127
+      - ok CYL-科技（2021.12.24） 125
+      - ok CYL-科技（2021.12.24） 117
+      - ok CYL-科技（2021.12.24） 116
+      - ok CYL-科技（2021.12.24） 115
+      - ok CYL-科技（2021.12.24） 114
+      - ok CYL-科技（2021.12.24） 109
       - ok CYL-科技（2021.12.21）
       - ok CYL-科技（2021.12.21） 2
       - ok CYL-科技（2021.12.21） 3
@@ -73,54 +304,160 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 5
       - ok CYL-科技（2021.12.21） 6
       - ok CYL-科技（2021.12.21） 7
-      - ok CYL-科技（2021.12.21） 8
-      - ok CYL-科技（2021.12.21） 9
-      - ok CYL-科技（2021.12.21） 10
-      - ok CYL-科技（2021.12.21） 11
-      - ok CYL-科技（2021.12.21） 12
-      - ok CYL-科技（2021.12.21） 13
-      - ok CYL-科技（2021.12.21） 14
-      - ok CYL-科技（2021.12.21） 15
-      - ok CYL-科技（2021.12.21） 16
-      - ok CYL-科技（2021.12.21） 17
-      - ok CYL-科技（2021.12.21） 18
-      - ok CYL-科技（2021.12.21） 19
-      - ok CYL-科技（2021.12.21） 20
-      - ok CYL-科技（2021.12.21） 21
-      - ok CYL-科技（2021.12.21） 22
-      - ok CYL-科技（2021.12.21） 23
-      - ok CYL-科技（2021.12.21） 24
-      - ok CYL-科技（2021.12.21） 25
-      - ok CYL-科技（2021.12.21） 26
-      - ok CYL-科技（2021.12.21） 27
-      - ok CYL-科技（2021.12.21） 28
-      - ok CYL-科技（2021.12.21） 29
+      - ok 69.39.239.72:8388
       - ok 46.29.218.6:5001
       - ok 46.29.218.6:443
+      - ok 46.29.218.6:2375
+      - ok 217.138.200.242:8389
       - ok 198.57.27.218:3389
       - ok 192.53.169.116:8080
       - ok 192.53.169.116:2376
       - ok 192.46.210.73:5003
       - ok 172.105.180.227:2376
+      - ok 170.130.31.114:8388
+      - ok 142.202.48.99:2375
       - ok 142.202.48.43:8091
       - ok 134.195.196.81:2375
       - ok 134.195.196.51:7307
-      - ok 170.130.31.114:8388
-      - ok 142.202.48.99:2375
       - ok 134.195.196.51:7306
-      - ok 172.105.41.63:3306
+      - ok 118.107.244.110:3389
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳 中国-398.6KB/s(Youtube:不良林)
+      - 🇨🇳 中国-3.24MB/s(Youtube:不良林)
       - ok 稳定节点
-      - 🇺🇸 ok 🇺🇸 美国-4.17MB/s(Youtube:不良林)
-      - 🇺🇸 ok 🇺🇸 美国-2.04MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-1.59MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-1.45MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-565.6KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-461.8KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-351.6KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-3.43MB/s(Youtube:不良林)
       - 🇨🇳 ok 🇨🇳 中国-3.28MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-2.86MB/s(Youtube:不良林)
       - 🇨🇳 ok 🇨🇳 中国-1.47MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-1.04MB/s(Youtube:不良林)
       - ok Youtube:鹏哥分享_88
+      - ok CYL-科技（2021.12.24） 98
+      - ok CYL-科技（2021.12.24） 94
+      - ok CYL-科技（2021.12.24） 85
+      - ok CYL-科技（2021.12.24） 82
+      - ok CYL-科技（2021.12.24） 79
+      - ok CYL-科技（2021.12.24） 64
+      - ok CYL-科技（2021.12.24） 57
+      - ok CYL-科技（2021.12.24） 55
+      - ok CYL-科技（2021.12.24） 54
+      - ok CYL-科技（2021.12.24） 5
+      - ok CYL-科技（2021.12.24） 49
+      - ok CYL-科技（2021.12.24） 47
+      - ok CYL-科技（2021.12.24） 46
+      - ok CYL-科技（2021.12.24） 440
+      - ok CYL-科技（2021.12.24） 437
+      - ok CYL-科技（2021.12.24） 436
+      - ok CYL-科技（2021.12.24） 435
+      - ok CYL-科技（2021.12.24） 43
+      - ok CYL-科技（2021.12.24） 425
+      - ok CYL-科技（2021.12.24） 423
+      - ok CYL-科技（2021.12.24） 420
+      - ok CYL-科技（2021.12.24） 42
+      - ok CYL-科技（2021.12.24） 418
+      - ok CYL-科技（2021.12.24） 416
+      - ok CYL-科技（2021.12.24） 405
+      - ok CYL-科技（2021.12.24） 403
+      - ok CYL-科技（2021.12.24） 403 2
+      - ok CYL-科技（2021.12.24） 4
+      - ok CYL-科技（2021.12.24） 399
+      - ok CYL-科技（2021.12.24） 378
+      - ok CYL-科技（2021.12.24） 377
+      - ok CYL-科技（2021.12.24） 374
+      - ok CYL-科技（2021.12.24） 372
+      - ok CYL-科技（2021.12.24） 37
+      - ok CYL-科技（2021.12.24） 367
+      - ok CYL-科技（2021.12.24） 366
+      - ok CYL-科技（2021.12.24） 363
+      - ok CYL-科技（2021.12.24） 361
+      - ok CYL-科技（2021.12.24） 359
+      - ok CYL-科技（2021.12.24） 358
+      - ok CYL-科技（2021.12.24） 350
+      - ok CYL-科技（2021.12.24） 345
+      - ok CYL-科技（2021.12.24） 342
+      - ok CYL-科技（2021.12.24） 342 2
+      - ok CYL-科技（2021.12.24） 341
+      - ok CYL-科技（2021.12.24） 340
+      - ok CYL-科技（2021.12.24） 34
+      - ok CYL-科技（2021.12.24） 34 2
+      - ok CYL-科技（2021.12.24） 338
+      - ok CYL-科技（2021.12.24） 334
+      - ok CYL-科技（2021.12.24） 333
+      - ok CYL-科技（2021.12.24） 327
+      - ok CYL-科技（2021.12.24） 325
+      - ok CYL-科技（2021.12.24） 323
+      - ok CYL-科技（2021.12.24） 306
+      - ok CYL-科技（2021.12.24） 304
+      - ok CYL-科技（2021.12.24） 300
+      - ok CYL-科技（2021.12.24） 291
+      - ok CYL-科技（2021.12.24） 290
+      - ok CYL-科技（2021.12.24） 289
+      - ok CYL-科技（2021.12.24） 286
+      - ok CYL-科技（2021.12.24） 284
+      - ok CYL-科技（2021.12.24） 282
+      - ok CYL-科技（2021.12.24） 278
+      - ok CYL-科技（2021.12.24） 273
+      - ok CYL-科技（2021.12.24） 269
+      - ok CYL-科技（2021.12.24） 268
+      - ok CYL-科技（2021.12.24） 263
+      - ok CYL-科技（2021.12.24） 257
+      - ok CYL-科技（2021.12.24） 254
+      - ok CYL-科技（2021.12.24） 253
+      - ok CYL-科技（2021.12.24） 252
+      - ok CYL-科技（2021.12.24） 251
+      - ok CYL-科技（2021.12.24） 25
+      - ok CYL-科技（2021.12.24） 245
+      - ok CYL-科技（2021.12.24） 244
+      - ok CYL-科技（2021.12.24） 243
+      - ok CYL-科技（2021.12.24） 237
+      - ok CYL-科技（2021.12.24） 232
+      - ok CYL-科技（2021.12.24） 231
+      - ok CYL-科技（2021.12.24） 230
+      - ok CYL-科技（2021.12.24） 23
+      - ok CYL-科技（2021.12.24） 229
+      - ok CYL-科技（2021.12.24） 219
+      - ok CYL-科技（2021.12.24） 216
+      - ok CYL-科技（2021.12.24） 212
+      - ok CYL-科技（2021.12.24） 204
+      - ok CYL-科技（2021.12.24） 203
+      - ok CYL-科技（2021.12.24） 201
+      - ok CYL-科技（2021.12.24） 199
+      - ok CYL-科技（2021.12.24） 198
+      - ok CYL-科技（2021.12.24） 190
+      - ok CYL-科技（2021.12.24） 187
+      - ok CYL-科技（2021.12.24） 18
+      - ok CYL-科技（2021.12.24） 176
+      - ok CYL-科技（2021.12.24） 172
+      - ok CYL-科技（2021.12.24） 17
+      - ok CYL-科技（2021.12.24） 166
+      - ok CYL-科技（2021.12.24） 160
+      - ok CYL-科技（2021.12.24） 16
+      - ok CYL-科技（2021.12.24） 154
+      - ok CYL-科技（2021.12.24） 152
+      - ok CYL-科技（2021.12.24） 150
+      - ok CYL-科技（2021.12.24） 144
+      - ok CYL-科技（2021.12.24） 140
+      - ok CYL-科技（2021.12.24） 139
+      - ok CYL-科技（2021.12.24） 139 2
+      - ok CYL-科技（2021.12.24） 133
+      - ok CYL-科技（2021.12.24） 132
+      - ok CYL-科技（2021.12.24） 13
+      - ok CYL-科技（2021.12.24） 127
+      - ok CYL-科技（2021.12.24） 125
+      - ok CYL-科技（2021.12.24） 117
+      - ok CYL-科技（2021.12.24） 116
+      - ok CYL-科技（2021.12.24） 115
+      - ok CYL-科技（2021.12.24） 114
+      - ok CYL-科技（2021.12.24） 109
       - ok CYL-科技（2021.12.21）
       - ok CYL-科技（2021.12.21） 2
       - ok CYL-科技（2021.12.21） 3
@@ -128,54 +465,160 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 5
       - ok CYL-科技（2021.12.21） 6
       - ok CYL-科技（2021.12.21） 7
-      - ok CYL-科技（2021.12.21） 8
-      - ok CYL-科技（2021.12.21） 9
-      - ok CYL-科技（2021.12.21） 10
-      - ok CYL-科技（2021.12.21） 11
-      - ok CYL-科技（2021.12.21） 12
-      - ok CYL-科技（2021.12.21） 13
-      - ok CYL-科技（2021.12.21） 14
-      - ok CYL-科技（2021.12.21） 15
-      - ok CYL-科技（2021.12.21） 16
-      - ok CYL-科技（2021.12.21） 17
-      - ok CYL-科技（2021.12.21） 18
-      - ok CYL-科技（2021.12.21） 19
-      - ok CYL-科技（2021.12.21） 20
-      - ok CYL-科技（2021.12.21） 21
-      - ok CYL-科技（2021.12.21） 22
-      - ok CYL-科技（2021.12.21） 23
-      - ok CYL-科技（2021.12.21） 24
-      - ok CYL-科技（2021.12.21） 25
-      - ok CYL-科技（2021.12.21） 26
-      - ok CYL-科技（2021.12.21） 27
-      - ok CYL-科技（2021.12.21） 28
-      - ok CYL-科技（2021.12.21） 29
+      - ok 69.39.239.72:8388
       - ok 46.29.218.6:5001
       - ok 46.29.218.6:443
+      - ok 46.29.218.6:2375
+      - ok 217.138.200.242:8389
       - ok 198.57.27.218:3389
       - ok 192.53.169.116:8080
       - ok 192.53.169.116:2376
       - ok 192.46.210.73:5003
       - ok 172.105.180.227:2376
+      - ok 170.130.31.114:8388
+      - ok 142.202.48.99:2375
       - ok 142.202.48.43:8091
       - ok 134.195.196.81:2375
       - ok 134.195.196.51:7307
-      - ok 170.130.31.114:8388
-      - ok 142.202.48.99:2375
       - ok 134.195.196.51:7306
-      - ok 172.105.41.63:3306
+      - ok 118.107.244.110:3389
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇨🇳 中国-398.6KB/s(Youtube:不良林)
+      - 🇨🇳 中国-3.24MB/s(Youtube:不良林)
       - ok 稳定节点
-      - 🇺🇸 ok 🇺🇸 美国-4.17MB/s(Youtube:不良林)
-      - 🇺🇸 ok 🇺🇸 美国-2.04MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-1.59MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-1.45MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-565.6KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-461.8KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-351.6KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-3.43MB/s(Youtube:不良林)
       - 🇨🇳 ok 🇨🇳 中国-3.28MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-2.86MB/s(Youtube:不良林)
       - 🇨🇳 ok 🇨🇳 中国-1.47MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-1.04MB/s(Youtube:不良林)
       - ok Youtube:鹏哥分享_88
+      - ok CYL-科技（2021.12.24） 98
+      - ok CYL-科技（2021.12.24） 94
+      - ok CYL-科技（2021.12.24） 85
+      - ok CYL-科技（2021.12.24） 82
+      - ok CYL-科技（2021.12.24） 79
+      - ok CYL-科技（2021.12.24） 64
+      - ok CYL-科技（2021.12.24） 57
+      - ok CYL-科技（2021.12.24） 55
+      - ok CYL-科技（2021.12.24） 54
+      - ok CYL-科技（2021.12.24） 5
+      - ok CYL-科技（2021.12.24） 49
+      - ok CYL-科技（2021.12.24） 47
+      - ok CYL-科技（2021.12.24） 46
+      - ok CYL-科技（2021.12.24） 440
+      - ok CYL-科技（2021.12.24） 437
+      - ok CYL-科技（2021.12.24） 436
+      - ok CYL-科技（2021.12.24） 435
+      - ok CYL-科技（2021.12.24） 43
+      - ok CYL-科技（2021.12.24） 425
+      - ok CYL-科技（2021.12.24） 423
+      - ok CYL-科技（2021.12.24） 420
+      - ok CYL-科技（2021.12.24） 42
+      - ok CYL-科技（2021.12.24） 418
+      - ok CYL-科技（2021.12.24） 416
+      - ok CYL-科技（2021.12.24） 405
+      - ok CYL-科技（2021.12.24） 403
+      - ok CYL-科技（2021.12.24） 403 2
+      - ok CYL-科技（2021.12.24） 4
+      - ok CYL-科技（2021.12.24） 399
+      - ok CYL-科技（2021.12.24） 378
+      - ok CYL-科技（2021.12.24） 377
+      - ok CYL-科技（2021.12.24） 374
+      - ok CYL-科技（2021.12.24） 372
+      - ok CYL-科技（2021.12.24） 37
+      - ok CYL-科技（2021.12.24） 367
+      - ok CYL-科技（2021.12.24） 366
+      - ok CYL-科技（2021.12.24） 363
+      - ok CYL-科技（2021.12.24） 361
+      - ok CYL-科技（2021.12.24） 359
+      - ok CYL-科技（2021.12.24） 358
+      - ok CYL-科技（2021.12.24） 350
+      - ok CYL-科技（2021.12.24） 345
+      - ok CYL-科技（2021.12.24） 342
+      - ok CYL-科技（2021.12.24） 342 2
+      - ok CYL-科技（2021.12.24） 341
+      - ok CYL-科技（2021.12.24） 340
+      - ok CYL-科技（2021.12.24） 34
+      - ok CYL-科技（2021.12.24） 34 2
+      - ok CYL-科技（2021.12.24） 338
+      - ok CYL-科技（2021.12.24） 334
+      - ok CYL-科技（2021.12.24） 333
+      - ok CYL-科技（2021.12.24） 327
+      - ok CYL-科技（2021.12.24） 325
+      - ok CYL-科技（2021.12.24） 323
+      - ok CYL-科技（2021.12.24） 306
+      - ok CYL-科技（2021.12.24） 304
+      - ok CYL-科技（2021.12.24） 300
+      - ok CYL-科技（2021.12.24） 291
+      - ok CYL-科技（2021.12.24） 290
+      - ok CYL-科技（2021.12.24） 289
+      - ok CYL-科技（2021.12.24） 286
+      - ok CYL-科技（2021.12.24） 284
+      - ok CYL-科技（2021.12.24） 282
+      - ok CYL-科技（2021.12.24） 278
+      - ok CYL-科技（2021.12.24） 273
+      - ok CYL-科技（2021.12.24） 269
+      - ok CYL-科技（2021.12.24） 268
+      - ok CYL-科技（2021.12.24） 263
+      - ok CYL-科技（2021.12.24） 257
+      - ok CYL-科技（2021.12.24） 254
+      - ok CYL-科技（2021.12.24） 253
+      - ok CYL-科技（2021.12.24） 252
+      - ok CYL-科技（2021.12.24） 251
+      - ok CYL-科技（2021.12.24） 25
+      - ok CYL-科技（2021.12.24） 245
+      - ok CYL-科技（2021.12.24） 244
+      - ok CYL-科技（2021.12.24） 243
+      - ok CYL-科技（2021.12.24） 237
+      - ok CYL-科技（2021.12.24） 232
+      - ok CYL-科技（2021.12.24） 231
+      - ok CYL-科技（2021.12.24） 230
+      - ok CYL-科技（2021.12.24） 23
+      - ok CYL-科技（2021.12.24） 229
+      - ok CYL-科技（2021.12.24） 219
+      - ok CYL-科技（2021.12.24） 216
+      - ok CYL-科技（2021.12.24） 212
+      - ok CYL-科技（2021.12.24） 204
+      - ok CYL-科技（2021.12.24） 203
+      - ok CYL-科技（2021.12.24） 201
+      - ok CYL-科技（2021.12.24） 199
+      - ok CYL-科技（2021.12.24） 198
+      - ok CYL-科技（2021.12.24） 190
+      - ok CYL-科技（2021.12.24） 187
+      - ok CYL-科技（2021.12.24） 18
+      - ok CYL-科技（2021.12.24） 176
+      - ok CYL-科技（2021.12.24） 172
+      - ok CYL-科技（2021.12.24） 17
+      - ok CYL-科技（2021.12.24） 166
+      - ok CYL-科技（2021.12.24） 160
+      - ok CYL-科技（2021.12.24） 16
+      - ok CYL-科技（2021.12.24） 154
+      - ok CYL-科技（2021.12.24） 152
+      - ok CYL-科技（2021.12.24） 150
+      - ok CYL-科技（2021.12.24） 144
+      - ok CYL-科技（2021.12.24） 140
+      - ok CYL-科技（2021.12.24） 139
+      - ok CYL-科技（2021.12.24） 139 2
+      - ok CYL-科技（2021.12.24） 133
+      - ok CYL-科技（2021.12.24） 132
+      - ok CYL-科技（2021.12.24） 13
+      - ok CYL-科技（2021.12.24） 127
+      - ok CYL-科技（2021.12.24） 125
+      - ok CYL-科技（2021.12.24） 117
+      - ok CYL-科技（2021.12.24） 116
+      - ok CYL-科技（2021.12.24） 115
+      - ok CYL-科技（2021.12.24） 114
+      - ok CYL-科技（2021.12.24） 109
       - ok CYL-科技（2021.12.21）
       - ok CYL-科技（2021.12.21） 2
       - ok CYL-科技（2021.12.21） 3
@@ -183,53 +626,159 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 5
       - ok CYL-科技（2021.12.21） 6
       - ok CYL-科技（2021.12.21） 7
-      - ok CYL-科技（2021.12.21） 8
-      - ok CYL-科技（2021.12.21） 9
-      - ok CYL-科技（2021.12.21） 10
-      - ok CYL-科技（2021.12.21） 11
-      - ok CYL-科技（2021.12.21） 12
-      - ok CYL-科技（2021.12.21） 13
-      - ok CYL-科技（2021.12.21） 14
-      - ok CYL-科技（2021.12.21） 15
-      - ok CYL-科技（2021.12.21） 16
-      - ok CYL-科技（2021.12.21） 17
-      - ok CYL-科技（2021.12.21） 18
-      - ok CYL-科技（2021.12.21） 19
-      - ok CYL-科技（2021.12.21） 20
-      - ok CYL-科技（2021.12.21） 21
-      - ok CYL-科技（2021.12.21） 22
-      - ok CYL-科技（2021.12.21） 23
-      - ok CYL-科技（2021.12.21） 24
-      - ok CYL-科技（2021.12.21） 25
-      - ok CYL-科技（2021.12.21） 26
-      - ok CYL-科技（2021.12.21） 27
-      - ok CYL-科技（2021.12.21） 28
-      - ok CYL-科技（2021.12.21） 29
+      - ok 69.39.239.72:8388
       - ok 46.29.218.6:5001
       - ok 46.29.218.6:443
+      - ok 46.29.218.6:2375
+      - ok 217.138.200.242:8389
       - ok 198.57.27.218:3389
       - ok 192.53.169.116:8080
       - ok 192.53.169.116:2376
       - ok 192.46.210.73:5003
       - ok 172.105.180.227:2376
+      - ok 170.130.31.114:8388
+      - ok 142.202.48.99:2375
       - ok 142.202.48.43:8091
       - ok 134.195.196.81:2375
       - ok 134.195.196.51:7307
-      - ok 170.130.31.114:8388
-      - ok 142.202.48.99:2375
       - ok 134.195.196.51:7306
-      - ok 172.105.41.63:3306
+      - ok 118.107.244.110:3389
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇨🇳 中国-398.6KB/s(Youtube:不良林)
+      - 🇨🇳 中国-3.24MB/s(Youtube:不良林)
       - ok 稳定节点
-      - 🇺🇸 ok 🇺🇸 美国-4.17MB/s(Youtube:不良林)
-      - 🇺🇸 ok 🇺🇸 美国-2.04MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-1.59MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-1.45MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-565.6KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-461.8KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-351.6KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-3.43MB/s(Youtube:不良林)
       - 🇨🇳 ok 🇨🇳 中国-3.28MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-2.86MB/s(Youtube:不良林)
       - 🇨🇳 ok 🇨🇳 中国-1.47MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-1.04MB/s(Youtube:不良林)
       - ok Youtube:鹏哥分享_88
+      - ok CYL-科技（2021.12.24） 98
+      - ok CYL-科技（2021.12.24） 94
+      - ok CYL-科技（2021.12.24） 85
+      - ok CYL-科技（2021.12.24） 82
+      - ok CYL-科技（2021.12.24） 79
+      - ok CYL-科技（2021.12.24） 64
+      - ok CYL-科技（2021.12.24） 57
+      - ok CYL-科技（2021.12.24） 55
+      - ok CYL-科技（2021.12.24） 54
+      - ok CYL-科技（2021.12.24） 5
+      - ok CYL-科技（2021.12.24） 49
+      - ok CYL-科技（2021.12.24） 47
+      - ok CYL-科技（2021.12.24） 46
+      - ok CYL-科技（2021.12.24） 440
+      - ok CYL-科技（2021.12.24） 437
+      - ok CYL-科技（2021.12.24） 436
+      - ok CYL-科技（2021.12.24） 435
+      - ok CYL-科技（2021.12.24） 43
+      - ok CYL-科技（2021.12.24） 425
+      - ok CYL-科技（2021.12.24） 423
+      - ok CYL-科技（2021.12.24） 420
+      - ok CYL-科技（2021.12.24） 42
+      - ok CYL-科技（2021.12.24） 418
+      - ok CYL-科技（2021.12.24） 416
+      - ok CYL-科技（2021.12.24） 405
+      - ok CYL-科技（2021.12.24） 403
+      - ok CYL-科技（2021.12.24） 403 2
+      - ok CYL-科技（2021.12.24） 4
+      - ok CYL-科技（2021.12.24） 399
+      - ok CYL-科技（2021.12.24） 378
+      - ok CYL-科技（2021.12.24） 377
+      - ok CYL-科技（2021.12.24） 374
+      - ok CYL-科技（2021.12.24） 372
+      - ok CYL-科技（2021.12.24） 37
+      - ok CYL-科技（2021.12.24） 367
+      - ok CYL-科技（2021.12.24） 366
+      - ok CYL-科技（2021.12.24） 363
+      - ok CYL-科技（2021.12.24） 361
+      - ok CYL-科技（2021.12.24） 359
+      - ok CYL-科技（2021.12.24） 358
+      - ok CYL-科技（2021.12.24） 350
+      - ok CYL-科技（2021.12.24） 345
+      - ok CYL-科技（2021.12.24） 342
+      - ok CYL-科技（2021.12.24） 342 2
+      - ok CYL-科技（2021.12.24） 341
+      - ok CYL-科技（2021.12.24） 340
+      - ok CYL-科技（2021.12.24） 34
+      - ok CYL-科技（2021.12.24） 34 2
+      - ok CYL-科技（2021.12.24） 338
+      - ok CYL-科技（2021.12.24） 334
+      - ok CYL-科技（2021.12.24） 333
+      - ok CYL-科技（2021.12.24） 327
+      - ok CYL-科技（2021.12.24） 325
+      - ok CYL-科技（2021.12.24） 323
+      - ok CYL-科技（2021.12.24） 306
+      - ok CYL-科技（2021.12.24） 304
+      - ok CYL-科技（2021.12.24） 300
+      - ok CYL-科技（2021.12.24） 291
+      - ok CYL-科技（2021.12.24） 290
+      - ok CYL-科技（2021.12.24） 289
+      - ok CYL-科技（2021.12.24） 286
+      - ok CYL-科技（2021.12.24） 284
+      - ok CYL-科技（2021.12.24） 282
+      - ok CYL-科技（2021.12.24） 278
+      - ok CYL-科技（2021.12.24） 273
+      - ok CYL-科技（2021.12.24） 269
+      - ok CYL-科技（2021.12.24） 268
+      - ok CYL-科技（2021.12.24） 263
+      - ok CYL-科技（2021.12.24） 257
+      - ok CYL-科技（2021.12.24） 254
+      - ok CYL-科技（2021.12.24） 253
+      - ok CYL-科技（2021.12.24） 252
+      - ok CYL-科技（2021.12.24） 251
+      - ok CYL-科技（2021.12.24） 25
+      - ok CYL-科技（2021.12.24） 245
+      - ok CYL-科技（2021.12.24） 244
+      - ok CYL-科技（2021.12.24） 243
+      - ok CYL-科技（2021.12.24） 237
+      - ok CYL-科技（2021.12.24） 232
+      - ok CYL-科技（2021.12.24） 231
+      - ok CYL-科技（2021.12.24） 230
+      - ok CYL-科技（2021.12.24） 23
+      - ok CYL-科技（2021.12.24） 229
+      - ok CYL-科技（2021.12.24） 219
+      - ok CYL-科技（2021.12.24） 216
+      - ok CYL-科技（2021.12.24） 212
+      - ok CYL-科技（2021.12.24） 204
+      - ok CYL-科技（2021.12.24） 203
+      - ok CYL-科技（2021.12.24） 201
+      - ok CYL-科技（2021.12.24） 199
+      - ok CYL-科技（2021.12.24） 198
+      - ok CYL-科技（2021.12.24） 190
+      - ok CYL-科技（2021.12.24） 187
+      - ok CYL-科技（2021.12.24） 18
+      - ok CYL-科技（2021.12.24） 176
+      - ok CYL-科技（2021.12.24） 172
+      - ok CYL-科技（2021.12.24） 17
+      - ok CYL-科技（2021.12.24） 166
+      - ok CYL-科技（2021.12.24） 160
+      - ok CYL-科技（2021.12.24） 16
+      - ok CYL-科技（2021.12.24） 154
+      - ok CYL-科技（2021.12.24） 152
+      - ok CYL-科技（2021.12.24） 150
+      - ok CYL-科技（2021.12.24） 144
+      - ok CYL-科技（2021.12.24） 140
+      - ok CYL-科技（2021.12.24） 139
+      - ok CYL-科技（2021.12.24） 139 2
+      - ok CYL-科技（2021.12.24） 133
+      - ok CYL-科技（2021.12.24） 132
+      - ok CYL-科技（2021.12.24） 13
+      - ok CYL-科技（2021.12.24） 127
+      - ok CYL-科技（2021.12.24） 125
+      - ok CYL-科技（2021.12.24） 117
+      - ok CYL-科技（2021.12.24） 116
+      - ok CYL-科技（2021.12.24） 115
+      - ok CYL-科技（2021.12.24） 114
+      - ok CYL-科技（2021.12.24） 109
       - ok CYL-科技（2021.12.21）
       - ok CYL-科技（2021.12.21） 2
       - ok CYL-科技（2021.12.21） 3
@@ -237,53 +786,159 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 5
       - ok CYL-科技（2021.12.21） 6
       - ok CYL-科技（2021.12.21） 7
-      - ok CYL-科技（2021.12.21） 8
-      - ok CYL-科技（2021.12.21） 9
-      - ok CYL-科技（2021.12.21） 10
-      - ok CYL-科技（2021.12.21） 11
-      - ok CYL-科技（2021.12.21） 12
-      - ok CYL-科技（2021.12.21） 13
-      - ok CYL-科技（2021.12.21） 14
-      - ok CYL-科技（2021.12.21） 15
-      - ok CYL-科技（2021.12.21） 16
-      - ok CYL-科技（2021.12.21） 17
-      - ok CYL-科技（2021.12.21） 18
-      - ok CYL-科技（2021.12.21） 19
-      - ok CYL-科技（2021.12.21） 20
-      - ok CYL-科技（2021.12.21） 21
-      - ok CYL-科技（2021.12.21） 22
-      - ok CYL-科技（2021.12.21） 23
-      - ok CYL-科技（2021.12.21） 24
-      - ok CYL-科技（2021.12.21） 25
-      - ok CYL-科技（2021.12.21） 26
-      - ok CYL-科技（2021.12.21） 27
-      - ok CYL-科技（2021.12.21） 28
-      - ok CYL-科技（2021.12.21） 29
+      - ok 69.39.239.72:8388
       - ok 46.29.218.6:5001
       - ok 46.29.218.6:443
+      - ok 46.29.218.6:2375
+      - ok 217.138.200.242:8389
       - ok 198.57.27.218:3389
       - ok 192.53.169.116:8080
       - ok 192.53.169.116:2376
       - ok 192.46.210.73:5003
       - ok 172.105.180.227:2376
+      - ok 170.130.31.114:8388
+      - ok 142.202.48.99:2375
       - ok 142.202.48.43:8091
       - ok 134.195.196.81:2375
       - ok 134.195.196.51:7307
-      - ok 170.130.31.114:8388
-      - ok 142.202.48.99:2375
       - ok 134.195.196.51:7306
-      - ok 172.105.41.63:3306
+      - ok 118.107.244.110:3389
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇨🇳 中国-398.6KB/s(Youtube:不良林)
+      - 🇨🇳 中国-3.24MB/s(Youtube:不良林)
       - ok 稳定节点
-      - 🇺🇸 ok 🇺🇸 美国-4.17MB/s(Youtube:不良林)
-      - 🇺🇸 ok 🇺🇸 美国-2.04MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-1.59MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-1.45MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-565.6KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-461.8KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-351.6KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-3.43MB/s(Youtube:不良林)
       - 🇨🇳 ok 🇨🇳 中国-3.28MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-2.86MB/s(Youtube:不良林)
       - 🇨🇳 ok 🇨🇳 中国-1.47MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-1.04MB/s(Youtube:不良林)
       - ok Youtube:鹏哥分享_88
+      - ok CYL-科技（2021.12.24） 98
+      - ok CYL-科技（2021.12.24） 94
+      - ok CYL-科技（2021.12.24） 85
+      - ok CYL-科技（2021.12.24） 82
+      - ok CYL-科技（2021.12.24） 79
+      - ok CYL-科技（2021.12.24） 64
+      - ok CYL-科技（2021.12.24） 57
+      - ok CYL-科技（2021.12.24） 55
+      - ok CYL-科技（2021.12.24） 54
+      - ok CYL-科技（2021.12.24） 5
+      - ok CYL-科技（2021.12.24） 49
+      - ok CYL-科技（2021.12.24） 47
+      - ok CYL-科技（2021.12.24） 46
+      - ok CYL-科技（2021.12.24） 440
+      - ok CYL-科技（2021.12.24） 437
+      - ok CYL-科技（2021.12.24） 436
+      - ok CYL-科技（2021.12.24） 435
+      - ok CYL-科技（2021.12.24） 43
+      - ok CYL-科技（2021.12.24） 425
+      - ok CYL-科技（2021.12.24） 423
+      - ok CYL-科技（2021.12.24） 420
+      - ok CYL-科技（2021.12.24） 42
+      - ok CYL-科技（2021.12.24） 418
+      - ok CYL-科技（2021.12.24） 416
+      - ok CYL-科技（2021.12.24） 405
+      - ok CYL-科技（2021.12.24） 403
+      - ok CYL-科技（2021.12.24） 403 2
+      - ok CYL-科技（2021.12.24） 4
+      - ok CYL-科技（2021.12.24） 399
+      - ok CYL-科技（2021.12.24） 378
+      - ok CYL-科技（2021.12.24） 377
+      - ok CYL-科技（2021.12.24） 374
+      - ok CYL-科技（2021.12.24） 372
+      - ok CYL-科技（2021.12.24） 37
+      - ok CYL-科技（2021.12.24） 367
+      - ok CYL-科技（2021.12.24） 366
+      - ok CYL-科技（2021.12.24） 363
+      - ok CYL-科技（2021.12.24） 361
+      - ok CYL-科技（2021.12.24） 359
+      - ok CYL-科技（2021.12.24） 358
+      - ok CYL-科技（2021.12.24） 350
+      - ok CYL-科技（2021.12.24） 345
+      - ok CYL-科技（2021.12.24） 342
+      - ok CYL-科技（2021.12.24） 342 2
+      - ok CYL-科技（2021.12.24） 341
+      - ok CYL-科技（2021.12.24） 340
+      - ok CYL-科技（2021.12.24） 34
+      - ok CYL-科技（2021.12.24） 34 2
+      - ok CYL-科技（2021.12.24） 338
+      - ok CYL-科技（2021.12.24） 334
+      - ok CYL-科技（2021.12.24） 333
+      - ok CYL-科技（2021.12.24） 327
+      - ok CYL-科技（2021.12.24） 325
+      - ok CYL-科技（2021.12.24） 323
+      - ok CYL-科技（2021.12.24） 306
+      - ok CYL-科技（2021.12.24） 304
+      - ok CYL-科技（2021.12.24） 300
+      - ok CYL-科技（2021.12.24） 291
+      - ok CYL-科技（2021.12.24） 290
+      - ok CYL-科技（2021.12.24） 289
+      - ok CYL-科技（2021.12.24） 286
+      - ok CYL-科技（2021.12.24） 284
+      - ok CYL-科技（2021.12.24） 282
+      - ok CYL-科技（2021.12.24） 278
+      - ok CYL-科技（2021.12.24） 273
+      - ok CYL-科技（2021.12.24） 269
+      - ok CYL-科技（2021.12.24） 268
+      - ok CYL-科技（2021.12.24） 263
+      - ok CYL-科技（2021.12.24） 257
+      - ok CYL-科技（2021.12.24） 254
+      - ok CYL-科技（2021.12.24） 253
+      - ok CYL-科技（2021.12.24） 252
+      - ok CYL-科技（2021.12.24） 251
+      - ok CYL-科技（2021.12.24） 25
+      - ok CYL-科技（2021.12.24） 245
+      - ok CYL-科技（2021.12.24） 244
+      - ok CYL-科技（2021.12.24） 243
+      - ok CYL-科技（2021.12.24） 237
+      - ok CYL-科技（2021.12.24） 232
+      - ok CYL-科技（2021.12.24） 231
+      - ok CYL-科技（2021.12.24） 230
+      - ok CYL-科技（2021.12.24） 23
+      - ok CYL-科技（2021.12.24） 229
+      - ok CYL-科技（2021.12.24） 219
+      - ok CYL-科技（2021.12.24） 216
+      - ok CYL-科技（2021.12.24） 212
+      - ok CYL-科技（2021.12.24） 204
+      - ok CYL-科技（2021.12.24） 203
+      - ok CYL-科技（2021.12.24） 201
+      - ok CYL-科技（2021.12.24） 199
+      - ok CYL-科技（2021.12.24） 198
+      - ok CYL-科技（2021.12.24） 190
+      - ok CYL-科技（2021.12.24） 187
+      - ok CYL-科技（2021.12.24） 18
+      - ok CYL-科技（2021.12.24） 176
+      - ok CYL-科技（2021.12.24） 172
+      - ok CYL-科技（2021.12.24） 17
+      - ok CYL-科技（2021.12.24） 166
+      - ok CYL-科技（2021.12.24） 160
+      - ok CYL-科技（2021.12.24） 16
+      - ok CYL-科技（2021.12.24） 154
+      - ok CYL-科技（2021.12.24） 152
+      - ok CYL-科技（2021.12.24） 150
+      - ok CYL-科技（2021.12.24） 144
+      - ok CYL-科技（2021.12.24） 140
+      - ok CYL-科技（2021.12.24） 139
+      - ok CYL-科技（2021.12.24） 139 2
+      - ok CYL-科技（2021.12.24） 133
+      - ok CYL-科技（2021.12.24） 132
+      - ok CYL-科技（2021.12.24） 13
+      - ok CYL-科技（2021.12.24） 127
+      - ok CYL-科技（2021.12.24） 125
+      - ok CYL-科技（2021.12.24） 117
+      - ok CYL-科技（2021.12.24） 116
+      - ok CYL-科技（2021.12.24） 115
+      - ok CYL-科技（2021.12.24） 114
+      - ok CYL-科技（2021.12.24） 109
       - ok CYL-科技（2021.12.21）
       - ok CYL-科技（2021.12.21） 2
       - ok CYL-科技（2021.12.21） 3
@@ -291,53 +946,159 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 5
       - ok CYL-科技（2021.12.21） 6
       - ok CYL-科技（2021.12.21） 7
-      - ok CYL-科技（2021.12.21） 8
-      - ok CYL-科技（2021.12.21） 9
-      - ok CYL-科技（2021.12.21） 10
-      - ok CYL-科技（2021.12.21） 11
-      - ok CYL-科技（2021.12.21） 12
-      - ok CYL-科技（2021.12.21） 13
-      - ok CYL-科技（2021.12.21） 14
-      - ok CYL-科技（2021.12.21） 15
-      - ok CYL-科技（2021.12.21） 16
-      - ok CYL-科技（2021.12.21） 17
-      - ok CYL-科技（2021.12.21） 18
-      - ok CYL-科技（2021.12.21） 19
-      - ok CYL-科技（2021.12.21） 20
-      - ok CYL-科技（2021.12.21） 21
-      - ok CYL-科技（2021.12.21） 22
-      - ok CYL-科技（2021.12.21） 23
-      - ok CYL-科技（2021.12.21） 24
-      - ok CYL-科技（2021.12.21） 25
-      - ok CYL-科技（2021.12.21） 26
-      - ok CYL-科技（2021.12.21） 27
-      - ok CYL-科技（2021.12.21） 28
-      - ok CYL-科技（2021.12.21） 29
+      - ok 69.39.239.72:8388
       - ok 46.29.218.6:5001
       - ok 46.29.218.6:443
+      - ok 46.29.218.6:2375
+      - ok 217.138.200.242:8389
       - ok 198.57.27.218:3389
       - ok 192.53.169.116:8080
       - ok 192.53.169.116:2376
       - ok 192.46.210.73:5003
       - ok 172.105.180.227:2376
+      - ok 170.130.31.114:8388
+      - ok 142.202.48.99:2375
       - ok 142.202.48.43:8091
       - ok 134.195.196.81:2375
       - ok 134.195.196.51:7307
-      - ok 170.130.31.114:8388
-      - ok 142.202.48.99:2375
       - ok 134.195.196.51:7306
-      - ok 172.105.41.63:3306
+      - ok 118.107.244.110:3389
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇨🇳 中国-398.6KB/s(Youtube:不良林)
+      - 🇨🇳 中国-3.24MB/s(Youtube:不良林)
       - ok 稳定节点
-      - 🇺🇸 ok 🇺🇸 美国-4.17MB/s(Youtube:不良林)
-      - 🇺🇸 ok 🇺🇸 美国-2.04MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-1.59MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-1.45MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-565.6KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-461.8KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-351.6KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-3.43MB/s(Youtube:不良林)
       - 🇨🇳 ok 🇨🇳 中国-3.28MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-2.86MB/s(Youtube:不良林)
       - 🇨🇳 ok 🇨🇳 中国-1.47MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-1.04MB/s(Youtube:不良林)
       - ok Youtube:鹏哥分享_88
+      - ok CYL-科技（2021.12.24） 98
+      - ok CYL-科技（2021.12.24） 94
+      - ok CYL-科技（2021.12.24） 85
+      - ok CYL-科技（2021.12.24） 82
+      - ok CYL-科技（2021.12.24） 79
+      - ok CYL-科技（2021.12.24） 64
+      - ok CYL-科技（2021.12.24） 57
+      - ok CYL-科技（2021.12.24） 55
+      - ok CYL-科技（2021.12.24） 54
+      - ok CYL-科技（2021.12.24） 5
+      - ok CYL-科技（2021.12.24） 49
+      - ok CYL-科技（2021.12.24） 47
+      - ok CYL-科技（2021.12.24） 46
+      - ok CYL-科技（2021.12.24） 440
+      - ok CYL-科技（2021.12.24） 437
+      - ok CYL-科技（2021.12.24） 436
+      - ok CYL-科技（2021.12.24） 435
+      - ok CYL-科技（2021.12.24） 43
+      - ok CYL-科技（2021.12.24） 425
+      - ok CYL-科技（2021.12.24） 423
+      - ok CYL-科技（2021.12.24） 420
+      - ok CYL-科技（2021.12.24） 42
+      - ok CYL-科技（2021.12.24） 418
+      - ok CYL-科技（2021.12.24） 416
+      - ok CYL-科技（2021.12.24） 405
+      - ok CYL-科技（2021.12.24） 403
+      - ok CYL-科技（2021.12.24） 403 2
+      - ok CYL-科技（2021.12.24） 4
+      - ok CYL-科技（2021.12.24） 399
+      - ok CYL-科技（2021.12.24） 378
+      - ok CYL-科技（2021.12.24） 377
+      - ok CYL-科技（2021.12.24） 374
+      - ok CYL-科技（2021.12.24） 372
+      - ok CYL-科技（2021.12.24） 37
+      - ok CYL-科技（2021.12.24） 367
+      - ok CYL-科技（2021.12.24） 366
+      - ok CYL-科技（2021.12.24） 363
+      - ok CYL-科技（2021.12.24） 361
+      - ok CYL-科技（2021.12.24） 359
+      - ok CYL-科技（2021.12.24） 358
+      - ok CYL-科技（2021.12.24） 350
+      - ok CYL-科技（2021.12.24） 345
+      - ok CYL-科技（2021.12.24） 342
+      - ok CYL-科技（2021.12.24） 342 2
+      - ok CYL-科技（2021.12.24） 341
+      - ok CYL-科技（2021.12.24） 340
+      - ok CYL-科技（2021.12.24） 34
+      - ok CYL-科技（2021.12.24） 34 2
+      - ok CYL-科技（2021.12.24） 338
+      - ok CYL-科技（2021.12.24） 334
+      - ok CYL-科技（2021.12.24） 333
+      - ok CYL-科技（2021.12.24） 327
+      - ok CYL-科技（2021.12.24） 325
+      - ok CYL-科技（2021.12.24） 323
+      - ok CYL-科技（2021.12.24） 306
+      - ok CYL-科技（2021.12.24） 304
+      - ok CYL-科技（2021.12.24） 300
+      - ok CYL-科技（2021.12.24） 291
+      - ok CYL-科技（2021.12.24） 290
+      - ok CYL-科技（2021.12.24） 289
+      - ok CYL-科技（2021.12.24） 286
+      - ok CYL-科技（2021.12.24） 284
+      - ok CYL-科技（2021.12.24） 282
+      - ok CYL-科技（2021.12.24） 278
+      - ok CYL-科技（2021.12.24） 273
+      - ok CYL-科技（2021.12.24） 269
+      - ok CYL-科技（2021.12.24） 268
+      - ok CYL-科技（2021.12.24） 263
+      - ok CYL-科技（2021.12.24） 257
+      - ok CYL-科技（2021.12.24） 254
+      - ok CYL-科技（2021.12.24） 253
+      - ok CYL-科技（2021.12.24） 252
+      - ok CYL-科技（2021.12.24） 251
+      - ok CYL-科技（2021.12.24） 25
+      - ok CYL-科技（2021.12.24） 245
+      - ok CYL-科技（2021.12.24） 244
+      - ok CYL-科技（2021.12.24） 243
+      - ok CYL-科技（2021.12.24） 237
+      - ok CYL-科技（2021.12.24） 232
+      - ok CYL-科技（2021.12.24） 231
+      - ok CYL-科技（2021.12.24） 230
+      - ok CYL-科技（2021.12.24） 23
+      - ok CYL-科技（2021.12.24） 229
+      - ok CYL-科技（2021.12.24） 219
+      - ok CYL-科技（2021.12.24） 216
+      - ok CYL-科技（2021.12.24） 212
+      - ok CYL-科技（2021.12.24） 204
+      - ok CYL-科技（2021.12.24） 203
+      - ok CYL-科技（2021.12.24） 201
+      - ok CYL-科技（2021.12.24） 199
+      - ok CYL-科技（2021.12.24） 198
+      - ok CYL-科技（2021.12.24） 190
+      - ok CYL-科技（2021.12.24） 187
+      - ok CYL-科技（2021.12.24） 18
+      - ok CYL-科技（2021.12.24） 176
+      - ok CYL-科技（2021.12.24） 172
+      - ok CYL-科技（2021.12.24） 17
+      - ok CYL-科技（2021.12.24） 166
+      - ok CYL-科技（2021.12.24） 160
+      - ok CYL-科技（2021.12.24） 16
+      - ok CYL-科技（2021.12.24） 154
+      - ok CYL-科技（2021.12.24） 152
+      - ok CYL-科技（2021.12.24） 150
+      - ok CYL-科技（2021.12.24） 144
+      - ok CYL-科技（2021.12.24） 140
+      - ok CYL-科技（2021.12.24） 139
+      - ok CYL-科技（2021.12.24） 139 2
+      - ok CYL-科技（2021.12.24） 133
+      - ok CYL-科技（2021.12.24） 132
+      - ok CYL-科技（2021.12.24） 13
+      - ok CYL-科技（2021.12.24） 127
+      - ok CYL-科技（2021.12.24） 125
+      - ok CYL-科技（2021.12.24） 117
+      - ok CYL-科技（2021.12.24） 116
+      - ok CYL-科技（2021.12.24） 115
+      - ok CYL-科技（2021.12.24） 114
+      - ok CYL-科技（2021.12.24） 109
       - ok CYL-科技（2021.12.21）
       - ok CYL-科技（2021.12.21） 2
       - ok CYL-科技（2021.12.21） 3
@@ -345,54 +1106,160 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 5
       - ok CYL-科技（2021.12.21） 6
       - ok CYL-科技（2021.12.21） 7
-      - ok CYL-科技（2021.12.21） 8
-      - ok CYL-科技（2021.12.21） 9
-      - ok CYL-科技（2021.12.21） 10
-      - ok CYL-科技（2021.12.21） 11
-      - ok CYL-科技（2021.12.21） 12
-      - ok CYL-科技（2021.12.21） 13
-      - ok CYL-科技（2021.12.21） 14
-      - ok CYL-科技（2021.12.21） 15
-      - ok CYL-科技（2021.12.21） 16
-      - ok CYL-科技（2021.12.21） 17
-      - ok CYL-科技（2021.12.21） 18
-      - ok CYL-科技（2021.12.21） 19
-      - ok CYL-科技（2021.12.21） 20
-      - ok CYL-科技（2021.12.21） 21
-      - ok CYL-科技（2021.12.21） 22
-      - ok CYL-科技（2021.12.21） 23
-      - ok CYL-科技（2021.12.21） 24
-      - ok CYL-科技（2021.12.21） 25
-      - ok CYL-科技（2021.12.21） 26
-      - ok CYL-科技（2021.12.21） 27
-      - ok CYL-科技（2021.12.21） 28
-      - ok CYL-科技（2021.12.21） 29
+      - ok 69.39.239.72:8388
       - ok 46.29.218.6:5001
       - ok 46.29.218.6:443
+      - ok 46.29.218.6:2375
+      - ok 217.138.200.242:8389
       - ok 198.57.27.218:3389
       - ok 192.53.169.116:8080
       - ok 192.53.169.116:2376
       - ok 192.46.210.73:5003
       - ok 172.105.180.227:2376
+      - ok 170.130.31.114:8388
+      - ok 142.202.48.99:2375
       - ok 142.202.48.43:8091
       - ok 134.195.196.81:2375
       - ok 134.195.196.51:7307
-      - ok 170.130.31.114:8388
-      - ok 142.202.48.99:2375
       - ok 134.195.196.51:7306
-      - ok 172.105.41.63:3306
+      - ok 118.107.244.110:3389
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇨🇳 中国-398.6KB/s(Youtube:不良林)
+      - 🇨🇳 中国-3.24MB/s(Youtube:不良林)
       - ok 稳定节点
-      - 🇺🇸 ok 🇺🇸 美国-4.17MB/s(Youtube:不良林)
-      - 🇺🇸 ok 🇺🇸 美国-2.04MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-1.59MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-1.45MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-565.6KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-461.8KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-351.6KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-3.43MB/s(Youtube:不良林)
       - 🇨🇳 ok 🇨🇳 中国-3.28MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-2.86MB/s(Youtube:不良林)
       - 🇨🇳 ok 🇨🇳 中国-1.47MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-1.04MB/s(Youtube:不良林)
       - ok Youtube:鹏哥分享_88
+      - ok CYL-科技（2021.12.24） 98
+      - ok CYL-科技（2021.12.24） 94
+      - ok CYL-科技（2021.12.24） 85
+      - ok CYL-科技（2021.12.24） 82
+      - ok CYL-科技（2021.12.24） 79
+      - ok CYL-科技（2021.12.24） 64
+      - ok CYL-科技（2021.12.24） 57
+      - ok CYL-科技（2021.12.24） 55
+      - ok CYL-科技（2021.12.24） 54
+      - ok CYL-科技（2021.12.24） 5
+      - ok CYL-科技（2021.12.24） 49
+      - ok CYL-科技（2021.12.24） 47
+      - ok CYL-科技（2021.12.24） 46
+      - ok CYL-科技（2021.12.24） 440
+      - ok CYL-科技（2021.12.24） 437
+      - ok CYL-科技（2021.12.24） 436
+      - ok CYL-科技（2021.12.24） 435
+      - ok CYL-科技（2021.12.24） 43
+      - ok CYL-科技（2021.12.24） 425
+      - ok CYL-科技（2021.12.24） 423
+      - ok CYL-科技（2021.12.24） 420
+      - ok CYL-科技（2021.12.24） 42
+      - ok CYL-科技（2021.12.24） 418
+      - ok CYL-科技（2021.12.24） 416
+      - ok CYL-科技（2021.12.24） 405
+      - ok CYL-科技（2021.12.24） 403
+      - ok CYL-科技（2021.12.24） 403 2
+      - ok CYL-科技（2021.12.24） 4
+      - ok CYL-科技（2021.12.24） 399
+      - ok CYL-科技（2021.12.24） 378
+      - ok CYL-科技（2021.12.24） 377
+      - ok CYL-科技（2021.12.24） 374
+      - ok CYL-科技（2021.12.24） 372
+      - ok CYL-科技（2021.12.24） 37
+      - ok CYL-科技（2021.12.24） 367
+      - ok CYL-科技（2021.12.24） 366
+      - ok CYL-科技（2021.12.24） 363
+      - ok CYL-科技（2021.12.24） 361
+      - ok CYL-科技（2021.12.24） 359
+      - ok CYL-科技（2021.12.24） 358
+      - ok CYL-科技（2021.12.24） 350
+      - ok CYL-科技（2021.12.24） 345
+      - ok CYL-科技（2021.12.24） 342
+      - ok CYL-科技（2021.12.24） 342 2
+      - ok CYL-科技（2021.12.24） 341
+      - ok CYL-科技（2021.12.24） 340
+      - ok CYL-科技（2021.12.24） 34
+      - ok CYL-科技（2021.12.24） 34 2
+      - ok CYL-科技（2021.12.24） 338
+      - ok CYL-科技（2021.12.24） 334
+      - ok CYL-科技（2021.12.24） 333
+      - ok CYL-科技（2021.12.24） 327
+      - ok CYL-科技（2021.12.24） 325
+      - ok CYL-科技（2021.12.24） 323
+      - ok CYL-科技（2021.12.24） 306
+      - ok CYL-科技（2021.12.24） 304
+      - ok CYL-科技（2021.12.24） 300
+      - ok CYL-科技（2021.12.24） 291
+      - ok CYL-科技（2021.12.24） 290
+      - ok CYL-科技（2021.12.24） 289
+      - ok CYL-科技（2021.12.24） 286
+      - ok CYL-科技（2021.12.24） 284
+      - ok CYL-科技（2021.12.24） 282
+      - ok CYL-科技（2021.12.24） 278
+      - ok CYL-科技（2021.12.24） 273
+      - ok CYL-科技（2021.12.24） 269
+      - ok CYL-科技（2021.12.24） 268
+      - ok CYL-科技（2021.12.24） 263
+      - ok CYL-科技（2021.12.24） 257
+      - ok CYL-科技（2021.12.24） 254
+      - ok CYL-科技（2021.12.24） 253
+      - ok CYL-科技（2021.12.24） 252
+      - ok CYL-科技（2021.12.24） 251
+      - ok CYL-科技（2021.12.24） 25
+      - ok CYL-科技（2021.12.24） 245
+      - ok CYL-科技（2021.12.24） 244
+      - ok CYL-科技（2021.12.24） 243
+      - ok CYL-科技（2021.12.24） 237
+      - ok CYL-科技（2021.12.24） 232
+      - ok CYL-科技（2021.12.24） 231
+      - ok CYL-科技（2021.12.24） 230
+      - ok CYL-科技（2021.12.24） 23
+      - ok CYL-科技（2021.12.24） 229
+      - ok CYL-科技（2021.12.24） 219
+      - ok CYL-科技（2021.12.24） 216
+      - ok CYL-科技（2021.12.24） 212
+      - ok CYL-科技（2021.12.24） 204
+      - ok CYL-科技（2021.12.24） 203
+      - ok CYL-科技（2021.12.24） 201
+      - ok CYL-科技（2021.12.24） 199
+      - ok CYL-科技（2021.12.24） 198
+      - ok CYL-科技（2021.12.24） 190
+      - ok CYL-科技（2021.12.24） 187
+      - ok CYL-科技（2021.12.24） 18
+      - ok CYL-科技（2021.12.24） 176
+      - ok CYL-科技（2021.12.24） 172
+      - ok CYL-科技（2021.12.24） 17
+      - ok CYL-科技（2021.12.24） 166
+      - ok CYL-科技（2021.12.24） 160
+      - ok CYL-科技（2021.12.24） 16
+      - ok CYL-科技（2021.12.24） 154
+      - ok CYL-科技（2021.12.24） 152
+      - ok CYL-科技（2021.12.24） 150
+      - ok CYL-科技（2021.12.24） 144
+      - ok CYL-科技（2021.12.24） 140
+      - ok CYL-科技（2021.12.24） 139
+      - ok CYL-科技（2021.12.24） 139 2
+      - ok CYL-科技（2021.12.24） 133
+      - ok CYL-科技（2021.12.24） 132
+      - ok CYL-科技（2021.12.24） 13
+      - ok CYL-科技（2021.12.24） 127
+      - ok CYL-科技（2021.12.24） 125
+      - ok CYL-科技（2021.12.24） 117
+      - ok CYL-科技（2021.12.24） 116
+      - ok CYL-科技（2021.12.24） 115
+      - ok CYL-科技（2021.12.24） 114
+      - ok CYL-科技（2021.12.24） 109
       - ok CYL-科技（2021.12.21）
       - ok CYL-科技（2021.12.21） 2
       - ok CYL-科技（2021.12.21） 3
@@ -400,42 +1267,23 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 5
       - ok CYL-科技（2021.12.21） 6
       - ok CYL-科技（2021.12.21） 7
-      - ok CYL-科技（2021.12.21） 8
-      - ok CYL-科技（2021.12.21） 9
-      - ok CYL-科技（2021.12.21） 10
-      - ok CYL-科技（2021.12.21） 11
-      - ok CYL-科技（2021.12.21） 12
-      - ok CYL-科技（2021.12.21） 13
-      - ok CYL-科技（2021.12.21） 14
-      - ok CYL-科技（2021.12.21） 15
-      - ok CYL-科技（2021.12.21） 16
-      - ok CYL-科技（2021.12.21） 17
-      - ok CYL-科技（2021.12.21） 18
-      - ok CYL-科技（2021.12.21） 19
-      - ok CYL-科技（2021.12.21） 20
-      - ok CYL-科技（2021.12.21） 21
-      - ok CYL-科技（2021.12.21） 22
-      - ok CYL-科技（2021.12.21） 23
-      - ok CYL-科技（2021.12.21） 24
-      - ok CYL-科技（2021.12.21） 25
-      - ok CYL-科技（2021.12.21） 26
-      - ok CYL-科技（2021.12.21） 27
-      - ok CYL-科技（2021.12.21） 28
-      - ok CYL-科技（2021.12.21） 29
+      - ok 69.39.239.72:8388
       - ok 46.29.218.6:5001
       - ok 46.29.218.6:443
+      - ok 46.29.218.6:2375
+      - ok 217.138.200.242:8389
       - ok 198.57.27.218:3389
       - ok 192.53.169.116:8080
       - ok 192.53.169.116:2376
       - ok 192.46.210.73:5003
       - ok 172.105.180.227:2376
+      - ok 170.130.31.114:8388
+      - ok 142.202.48.99:2375
       - ok 142.202.48.43:8091
       - ok 134.195.196.81:2375
       - ok 134.195.196.51:7307
-      - ok 170.130.31.114:8388
-      - ok 142.202.48.99:2375
       - ok 134.195.196.51:7306
-      - ok 172.105.41.63:3306
+      - ok 118.107.244.110:3389
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -458,12 +1306,137 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇨🇳 中国-398.6KB/s(Youtube:不良林)
+      - 🇨🇳 中国-3.24MB/s(Youtube:不良林)
       - ok 稳定节点
-      - 🇺🇸 ok 🇺🇸 美国-4.17MB/s(Youtube:不良林)
-      - 🇺🇸 ok 🇺🇸 美国-2.04MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-1.59MB/s(Youtube:不良林)
+      - 🇺🇸 ok 🇺🇸 美国-1.45MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-565.6KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-461.8KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-351.6KB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-3.43MB/s(Youtube:不良林)
       - 🇨🇳 ok 🇨🇳 中国-3.28MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-2.86MB/s(Youtube:不良林)
       - 🇨🇳 ok 🇨🇳 中国-1.47MB/s(Youtube:不良林)
+      - 🇨🇳 ok 🇨🇳 中国-1.04MB/s(Youtube:不良林)
       - ok Youtube:鹏哥分享_88
+      - ok CYL-科技（2021.12.24） 98
+      - ok CYL-科技（2021.12.24） 94
+      - ok CYL-科技（2021.12.24） 85
+      - ok CYL-科技（2021.12.24） 82
+      - ok CYL-科技（2021.12.24） 79
+      - ok CYL-科技（2021.12.24） 64
+      - ok CYL-科技（2021.12.24） 57
+      - ok CYL-科技（2021.12.24） 55
+      - ok CYL-科技（2021.12.24） 54
+      - ok CYL-科技（2021.12.24） 5
+      - ok CYL-科技（2021.12.24） 49
+      - ok CYL-科技（2021.12.24） 47
+      - ok CYL-科技（2021.12.24） 46
+      - ok CYL-科技（2021.12.24） 440
+      - ok CYL-科技（2021.12.24） 437
+      - ok CYL-科技（2021.12.24） 436
+      - ok CYL-科技（2021.12.24） 435
+      - ok CYL-科技（2021.12.24） 43
+      - ok CYL-科技（2021.12.24） 425
+      - ok CYL-科技（2021.12.24） 423
+      - ok CYL-科技（2021.12.24） 420
+      - ok CYL-科技（2021.12.24） 42
+      - ok CYL-科技（2021.12.24） 418
+      - ok CYL-科技（2021.12.24） 416
+      - ok CYL-科技（2021.12.24） 405
+      - ok CYL-科技（2021.12.24） 403
+      - ok CYL-科技（2021.12.24） 403 2
+      - ok CYL-科技（2021.12.24） 4
+      - ok CYL-科技（2021.12.24） 399
+      - ok CYL-科技（2021.12.24） 378
+      - ok CYL-科技（2021.12.24） 377
+      - ok CYL-科技（2021.12.24） 374
+      - ok CYL-科技（2021.12.24） 372
+      - ok CYL-科技（2021.12.24） 37
+      - ok CYL-科技（2021.12.24） 367
+      - ok CYL-科技（2021.12.24） 366
+      - ok CYL-科技（2021.12.24） 363
+      - ok CYL-科技（2021.12.24） 361
+      - ok CYL-科技（2021.12.24） 359
+      - ok CYL-科技（2021.12.24） 358
+      - ok CYL-科技（2021.12.24） 350
+      - ok CYL-科技（2021.12.24） 345
+      - ok CYL-科技（2021.12.24） 342
+      - ok CYL-科技（2021.12.24） 342 2
+      - ok CYL-科技（2021.12.24） 341
+      - ok CYL-科技（2021.12.24） 340
+      - ok CYL-科技（2021.12.24） 34
+      - ok CYL-科技（2021.12.24） 34 2
+      - ok CYL-科技（2021.12.24） 338
+      - ok CYL-科技（2021.12.24） 334
+      - ok CYL-科技（2021.12.24） 333
+      - ok CYL-科技（2021.12.24） 327
+      - ok CYL-科技（2021.12.24） 325
+      - ok CYL-科技（2021.12.24） 323
+      - ok CYL-科技（2021.12.24） 306
+      - ok CYL-科技（2021.12.24） 304
+      - ok CYL-科技（2021.12.24） 300
+      - ok CYL-科技（2021.12.24） 291
+      - ok CYL-科技（2021.12.24） 290
+      - ok CYL-科技（2021.12.24） 289
+      - ok CYL-科技（2021.12.24） 286
+      - ok CYL-科技（2021.12.24） 284
+      - ok CYL-科技（2021.12.24） 282
+      - ok CYL-科技（2021.12.24） 278
+      - ok CYL-科技（2021.12.24） 273
+      - ok CYL-科技（2021.12.24） 269
+      - ok CYL-科技（2021.12.24） 268
+      - ok CYL-科技（2021.12.24） 263
+      - ok CYL-科技（2021.12.24） 257
+      - ok CYL-科技（2021.12.24） 254
+      - ok CYL-科技（2021.12.24） 253
+      - ok CYL-科技（2021.12.24） 252
+      - ok CYL-科技（2021.12.24） 251
+      - ok CYL-科技（2021.12.24） 25
+      - ok CYL-科技（2021.12.24） 245
+      - ok CYL-科技（2021.12.24） 244
+      - ok CYL-科技（2021.12.24） 243
+      - ok CYL-科技（2021.12.24） 237
+      - ok CYL-科技（2021.12.24） 232
+      - ok CYL-科技（2021.12.24） 231
+      - ok CYL-科技（2021.12.24） 230
+      - ok CYL-科技（2021.12.24） 23
+      - ok CYL-科技（2021.12.24） 229
+      - ok CYL-科技（2021.12.24） 219
+      - ok CYL-科技（2021.12.24） 216
+      - ok CYL-科技（2021.12.24） 212
+      - ok CYL-科技（2021.12.24） 204
+      - ok CYL-科技（2021.12.24） 203
+      - ok CYL-科技（2021.12.24） 201
+      - ok CYL-科技（2021.12.24） 199
+      - ok CYL-科技（2021.12.24） 198
+      - ok CYL-科技（2021.12.24） 190
+      - ok CYL-科技（2021.12.24） 187
+      - ok CYL-科技（2021.12.24） 18
+      - ok CYL-科技（2021.12.24） 176
+      - ok CYL-科技（2021.12.24） 172
+      - ok CYL-科技（2021.12.24） 17
+      - ok CYL-科技（2021.12.24） 166
+      - ok CYL-科技（2021.12.24） 160
+      - ok CYL-科技（2021.12.24） 16
+      - ok CYL-科技（2021.12.24） 154
+      - ok CYL-科技（2021.12.24） 152
+      - ok CYL-科技（2021.12.24） 150
+      - ok CYL-科技（2021.12.24） 144
+      - ok CYL-科技（2021.12.24） 140
+      - ok CYL-科技（2021.12.24） 139
+      - ok CYL-科技（2021.12.24） 139 2
+      - ok CYL-科技（2021.12.24） 133
+      - ok CYL-科技（2021.12.24） 132
+      - ok CYL-科技（2021.12.24） 13
+      - ok CYL-科技（2021.12.24） 127
+      - ok CYL-科技（2021.12.24） 125
+      - ok CYL-科技（2021.12.24） 117
+      - ok CYL-科技（2021.12.24） 116
+      - ok CYL-科技（2021.12.24） 115
+      - ok CYL-科技（2021.12.24） 114
+      - ok CYL-科技（2021.12.24） 109
       - ok CYL-科技（2021.12.21）
       - ok CYL-科技（2021.12.21） 2
       - ok CYL-科技（2021.12.21） 3
@@ -471,42 +1444,23 @@ proxy-groups:
       - ok CYL-科技（2021.12.21） 5
       - ok CYL-科技（2021.12.21） 6
       - ok CYL-科技（2021.12.21） 7
-      - ok CYL-科技（2021.12.21） 8
-      - ok CYL-科技（2021.12.21） 9
-      - ok CYL-科技（2021.12.21） 10
-      - ok CYL-科技（2021.12.21） 11
-      - ok CYL-科技（2021.12.21） 12
-      - ok CYL-科技（2021.12.21） 13
-      - ok CYL-科技（2021.12.21） 14
-      - ok CYL-科技（2021.12.21） 15
-      - ok CYL-科技（2021.12.21） 16
-      - ok CYL-科技（2021.12.21） 17
-      - ok CYL-科技（2021.12.21） 18
-      - ok CYL-科技（2021.12.21） 19
-      - ok CYL-科技（2021.12.21） 20
-      - ok CYL-科技（2021.12.21） 21
-      - ok CYL-科技（2021.12.21） 22
-      - ok CYL-科技（2021.12.21） 23
-      - ok CYL-科技（2021.12.21） 24
-      - ok CYL-科技（2021.12.21） 25
-      - ok CYL-科技（2021.12.21） 26
-      - ok CYL-科技（2021.12.21） 27
-      - ok CYL-科技（2021.12.21） 28
-      - ok CYL-科技（2021.12.21） 29
+      - ok 69.39.239.72:8388
       - ok 46.29.218.6:5001
       - ok 46.29.218.6:443
+      - ok 46.29.218.6:2375
+      - ok 217.138.200.242:8389
       - ok 198.57.27.218:3389
       - ok 192.53.169.116:8080
       - ok 192.53.169.116:2376
       - ok 192.46.210.73:5003
       - ok 172.105.180.227:2376
+      - ok 170.130.31.114:8388
+      - ok 142.202.48.99:2375
       - ok 142.202.48.43:8091
       - ok 134.195.196.81:2375
       - ok 134.195.196.51:7307
-      - ok 170.130.31.114:8388
-      - ok 142.202.48.99:2375
       - ok 134.195.196.51:7306
-      - ok 172.105.41.63:3306
+      - ok 118.107.244.110:3389
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -534,6 +1488,23 @@ rules:
  - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
+ - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
+ - DOMAIN,dl.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
+ - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
+ - DOMAIN,xivanalysis.com,🎯 全球直连
+ - DOMAIN,picanalysis.vivo.com.cn,🎯 全球直连
+ - DOMAIN,fairplay.l.qq.com,🎯 全球直连
+ - DOMAIN,livew.l.qq.com,🎯 全球直连
+ - DOMAIN,vd.l.qq.com,🎯 全球直连
+ - DOMAIN,analytics.strava.com,🎯 全球直连
+ - DOMAIN,msg.umeng.com,🎯 全球直连
+ - DOMAIN,msg.umengcloud.com,🎯 全球直连
+ - DOMAIN,tracking.miui.com,🎯 全球直连
+ - DOMAIN,app.adjust.com,🎯 全球直连
+ - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -2219,6 +3190,44 @@ rules:
  - IP-CIDR,173.194.175.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,173.194.218.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,209.85.233.188/32,📢 谷歌FCM,no-resolve
+ - DOMAIN-SUFFIX,265.com,🎯 全球直连
+ - DOMAIN-SUFFIX,2mdn.net,🎯 全球直连
+ - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alt2-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alt3-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alt4-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alt5-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alt6-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alt7-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alt8-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,app-measurement.com,🎯 全球直连
+ - DOMAIN-SUFFIX,c.android.clients.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cache.pack.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,clickserve.dartsearch.net,🎯 全球直连
+ - DOMAIN-SUFFIX,clientservices.googleapis.com,🎯 全球直连
+ - DOMAIN-SUFFIX,crl.pki.goog,🎯 全球直连
+ - DOMAIN-SUFFIX,dl.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dl.l.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,fonts.googleapis.com,🎯 全球直连
+ - DOMAIN-SUFFIX,fonts.gstatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,googletagmanager.com,🎯 全球直连
+ - DOMAIN-SUFFIX,googletagservices.com,🎯 全球直连
+ - DOMAIN-SUFFIX,gtm.oasisfeng.com,🎯 全球直连
+ - DOMAIN-SUFFIX,imasdk.googleapis.com,🎯 全球直连
+ - DOMAIN-SUFFIX,mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 全球直连
+ - DOMAIN-SUFFIX,recaptcha.net,🎯 全球直连
+ - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 全球直连
+ - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ssl.gstatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,toolbarqueries.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tools.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tools.l.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
+ - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
  - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
  - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
@@ -2343,15 +3352,22 @@ rules:
  - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
  - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
  - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
- - DOMAIN, atv-ps.amazon.com,🌍 国外媒体
- - DOMAIN, fls-na.amazon.com,🌍 国外媒体
- - DOMAIN-SUFFIX, media-amazon.com,🌍 国外媒体
+ - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
+ - DOMAIN,atv-ps.amazon.com,🌍 国外媒体
+ - DOMAIN,avodmp4s3ww-a.akamaihd.net,🌍 国外媒体
+ - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🌍 国外媒体
+ - DOMAIN,d1xfray82862hr.cloudfront.net,🌍 国外媒体
+ - DOMAIN,d22qjgkvxw22r6.cloudfront.net,🌍 国外媒体
+ - DOMAIN,d25xi40x97liuc.cloudfront.net,🌍 国外媒体
+ - DOMAIN,d27xxe7juh1us6.cloudfront.net,🌍 国外媒体
+ - DOMAIN,d3196yreox78o9.cloudfront.net,🌍 国外媒体
+ - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🌍 国外媒体
+ - DOMAIN,ktpx.amazon.com,🌍 国外媒体
  - DOMAIN-SUFFIX,aiv-cdn.net,🌍 国外媒体
- - DOMAIN-SUFFIX,amazonaws.co.uk,🌍 国外媒体
- - DOMAIN-SUFFIX,amazonaws.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,aiv-delivery.net,🌍 国外媒体
  - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
- - DOMAIN-SUFFIX,llnwd.net,🌍 国外媒体
- - DOMAIN-SUFFIX,primevideo.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
  - DOMAIN,gspe1-ssl.ls.apple.com,🌍 国外媒体
  - DOMAIN,np-edge.itunes.apple.com,🌍 国外媒体
  - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
@@ -2374,45 +3390,17 @@ rules:
  - DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
  - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
  - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
- - DOMAIN-SUFFIX,hinet.net,🌍 国外媒体
- - DOMAIN-KEYWORD,livedazn,🌍 国外媒体
- - DOMAIN-KEYWORD,vod2dazn,🌍 国外媒体
  - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
  - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
- - DOMAIN,edge.api.brightcove.com,🌍 国外媒体
- - DOMAIN,players.brightcove.net,🌍 国外媒体
- - DOMAIN-SUFFIX,amplify.outbrain.com,🌍 国外媒体
- - DOMAIN-SUFFIX,bluekai.com,🌍 国外媒体
- - DOMAIN-SUFFIX,control.kochava.com,🌍 国外媒体
- - DOMAIN-SUFFIX,cws.conviva.com,🌍 国外媒体
  - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,dazn-api.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dazn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dazndn.com,🌍 国外媒体
- - DOMAIN-SUFFIX,dc1-voddash-perform.secure.footprint.net,🌍 国外媒体
- - DOMAIN-SUFFIX,dc1live21715dazn.akamaized.net,🌍 国外媒体
- - DOMAIN-SUFFIX,dc2-live2dash-perform.secure.footprint.net,🌍 国外媒体
- - DOMAIN-SUFFIX,dc2-live2hls-perform.secure.footprint.net,🌍 国外媒体
- - DOMAIN-SUFFIX,dc2-vodhls-perform.secure.footprint.net,🌍 国外媒体
- - DOMAIN-SUFFIX,dca-livedash-perform.secure.footprint.net,🌍 国外媒体
- - DOMAIN-SUFFIX,dca-voddash-perform.secure.footprint.net,🌍 国外媒体
- - DOMAIN-SUFFIX,dca-vodhls-perform.secure.footprint.net,🌍 国外媒体
- - DOMAIN-SUFFIX,dcb-livedash-perform.secure.footprint.net,🌍 国外媒体
- - DOMAIN-SUFFIX,dcb-voddash-perform.secure.footprint.net,🌍 国外媒体
  - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,🌍 国外媒体
  - DOMAIN-SUFFIX,indazn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,indaznlab.com,🌍 国外媒体
- - DOMAIN-SUFFIX,intercom.io,🌍 国外媒体
- - DOMAIN-SUFFIX,perfops.doracdn.com,🌍 国外媒体
- - DOMAIN-SUFFIX,s.llnwi.net,🌍 国外媒体
- - DOMAIN-SUFFIX,s.yimg.jp,🌍 国外媒体
- - DOMAIN-SUFFIX,secure.footprint.net,🌍 国外媒体
  - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
- - DOMAIN-SUFFIX,urbanairship.com,🌍 国外媒体
- - DOMAIN-SUFFIX,vjs.zencdn.net,🌍 国外媒体
- - DOMAIN-SUFFIX,widevine.entitlement.us.theplatform.com,🌍 国外媒体
- - DOMAIN-SUFFIX,yahoo.co.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
  - DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
@@ -2443,25 +3431,13 @@ rules:
  - DOMAIN-SUFFIX,fox.com,🌍 国外媒体
  - DOMAIN-SUFFIX,foxdcg.com,🌍 国外媒体
  - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
- - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
- - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
- - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
- - DOMAIN,dai3fd1oh325y.cloudfront.net,🌍 国外媒体
- - DOMAIN,hboasia1-i.akamaihd.net,🌍 国外媒体
- - DOMAIN,hboasia2-i.akamaihd.net,🌍 国外媒体
- - DOMAIN,hboasia3-i.akamaihd.net,🌍 国外媒体
- - DOMAIN,hboasia4-i.akamaihd.net,🌍 国外媒体
- - DOMAIN,hboasia5-i.akamaihd.net,🌍 国外媒体
- - DOMAIN,players.brightcove.net,🌍 国外媒体
- - DOMAIN,s3-ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
- - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
- - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
  - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
  - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
+ - DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体
  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
@@ -2477,6 +3453,7 @@ rules:
  - DOMAIN,hbounify-prod.evergent.com,🌍 国外媒体
  - DOMAIN,players.brightcove.net,🌍 国外媒体
  - DOMAIN,s3-ap-southeast-1.amazonaws.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,hboasia.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
  - DOMAIN-SUFFIX,5itv.tv,🌍 国外媒体
@@ -2524,6 +3501,8 @@ rules:
  - DOMAIN,d349g9zuie06uo.cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,channel5.com,🌍 国外媒体
  - DOMAIN-SUFFIX,my5.tv,🌍 国外媒体
+ - DOMAIN-KEYWORD,nowtv100,🌍 国外媒体
+ - DOMAIN-KEYWORD,rthklive,🌍 国外媒体
  - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🌍 国外媒体
  - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🌍 国外媒体
  - DOMAIN-SUFFIX,mytvsuper.com,🌍 国外媒体
@@ -2633,6 +3612,7 @@ rules:
  - DOMAIN-SUFFIX,youtu.be,🌍 国外媒体
  - DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
  - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
+ - DOMAIN,music.youtube.com,🌍 国外媒体
  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
  - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
  - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
@@ -2645,6 +3625,7 @@ rules:
  - DOMAIN-SUFFIX,hoyolab.com,🚀 节点选择
  - DOMAIN-SUFFIX,inoreader.com,🚀 节点选择
  - DOMAIN-SUFFIX,ip138.com,🚀 节点选择
+ - DOMAIN-SUFFIX,linkedin.com,🚀 节点选择
  - DOMAIN-SUFFIX,myteamspeak.com,🚀 节点选择
  - DOMAIN-SUFFIX,notion.so,🚀 节点选择
  - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
@@ -2653,8 +3634,6 @@ rules:
  - DOMAIN-SUFFIX,tumbex.com,🚀 节点选择
  - DOMAIN-SUFFIX,twdvd.com,🚀 节点选择
  - DOMAIN-SUFFIX,unsplash.com,🚀 节点选择
- - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,🚀 节点选择
- - DOMAIN-SUFFIX,yunpanjingling.com,🚀 节点选择
  - DOMAIN-SUFFIX,eu,🚀 节点选择
  - DOMAIN-SUFFIX,hk,🚀 节点选择
  - DOMAIN-SUFFIX,jp,🚀 节点选择
@@ -3042,6 +4021,7 @@ rules:
  - DOMAIN-SUFFIX,msftconnecttest.com,🎯 全球直连
  - DOMAIN-SUFFIX,msftncsi.com,🎯 全球直连
  - DOMAIN-SUFFIX,qupu123.com,🎯 全球直连
+ - DOMAIN-SUFFIX,pdfwifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,cn,🎯 全球直连
  - DOMAIN-SUFFIX,中国,🎯 全球直连
  - DOMAIN-SUFFIX,公司,🎯 全球直连
@@ -3133,7 +4113,6 @@ rules:
  - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
  - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
  - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
- - DOMAIN-SUFFIX,bilibili.tv,🎯 全球直连
  - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
  - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
  - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
@@ -3387,7 +4366,6 @@ rules:
  - DOMAIN-SUFFIX,baomitu.com,🎯 全球直连
  - DOMAIN-SUFFIX,bootcss.com,🎯 全球直连
  - DOMAIN-SUFFIX,jiasule.com,🎯 全球直连
- - DOMAIN-SUFFIX,jsdelivr.net,🎯 全球直连
  - DOMAIN-SUFFIX,staticfile.org,🎯 全球直连
  - DOMAIN-SUFFIX,upaiyun.com,🎯 全球直连
  - DOMAIN-SUFFIX,10010.com,🎯 全球直连
@@ -3509,7 +4487,6 @@ rules:
  - DOMAIN-SUFFIX,lanzoux.com,🎯 全球直连
  - DOMAIN-SUFFIX,lemicp.com,🎯 全球直连
  - DOMAIN-SUFFIX,letitfly.me,🎯 全球直连
- - DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
  - DOMAIN-SUFFIX,lizhi.fm,🎯 全球直连
  - DOMAIN-SUFFIX,lizhi.io,🎯 全球直连
  - DOMAIN-SUFFIX,lizhifm.com,🎯 全球直连
