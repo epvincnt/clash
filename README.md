@@ -5,925 +5,965 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CYL-科技（2022.01.22） 25, server: 121.wgong.xyz, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.22） 37, server: 83.wgong.xyz, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.22） 125, server: 120.232.174.96, port: 44384, type: vmess, uuid: 7bb1b983-435b-3d8d-a5ff-cdc1ea7735ad, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: 120.232.174.96}, udp: true}
-  - {name: CYL-科技（2022.01.22） 107, server: 120.232.174.96, port: 44384, type: vmess, uuid: 84202087-a32f-3a5f-9534-b07695320ad5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: 120.232.174.96}, udp: true}
-  - {name: CYL-科技（2022.01.22） 76, server: 120.232.174.96, port: 44384, type: vmess, uuid: eb995ed5-d9a4-3ab4-b62d-95d8e9f24417, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: 120.232.174.96}, udp: true}
-  - {name: CYL-科技（2022.01.22） 86, server: 120.232.174.96, port: 44384, type: vmess, uuid: e8708a87-7f87-31f3-98b3-e9b07e70417e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: 120.232.174.96}, udp: true}
-  - {name: CYL-科技（2022.01.22） 106, server: tunnel-jp-a-01.xncloud.xyz, port: 207, type: vmess, uuid: d2b7d8e8-66ec-36b9-9a9c-5e85e198184f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-07.xncloud.xyz}, udp: true}
-  - {name: CYL-科技（2022.01.22） 24, server: 1.zhuzhu12.com, port: 443, type: vmess, uuid: 84202087-a32f-3a5f-9534-b07695320ad5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: 1.zhuzhu12.com}, udp: true}
-  - {name: CYL-科技（2022.01.22） 30, server: 133.wgong.xyz, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.22） 167, server: 233.ezydfdd.com, port: 443, type: vmess, uuid: 71e71266-c8b2-4dc7-8a19-f3390a7b1507, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 233.ezydfdd.com}, udp: true}
-  - {name: CYL-科技（2022.01.22） 120, server: 2.zhuzhu12.com, port: 44301, type: vmess, uuid: eb995ed5-d9a4-3ab4-b62d-95d8e9f24417, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: 2.zhuzhu12.com}, udp: true}
-  - {name: CYL-科技（2022.01.22） 234, server: tunnel-jp-a-01.xncloud.xyz, port: 209, type: vmess, uuid: d2b7d8e8-66ec-36b9-9a9c-5e85e198184f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-09.xncloud.xyz}, udp: true}
-  - {name: CYL-科技（2022.01.22） 47, server: 107.wgong.xyz, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.22） 214, server: tunnel-tw-a-01.xncloud.xyz, port: 504, type: vmess, uuid: d2b7d8e8-66ec-36b9-9a9c-5e85e198184f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-hinet-tw-04.xncloud.xyz}, udp: true}
-  - {name: CYL-科技（2022.01.22） 118, server: 2.zhuzhu12.com, port: 44301, type: vmess, uuid: 7bb1b983-435b-3d8d-a5ff-cdc1ea7735ad, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: 2.zhuzhu12.com}, udp: true}
-  - {name: CYL-科技（2022.01.22） 159, server: tunnel-tw-a-01.xncloud.xyz, port: 505, type: vmess, uuid: d2b7d8e8-66ec-36b9-9a9c-5e85e198184f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-hinet-tw-05.xncloud.xyz}, udp: true}
-  - {name: 117.28.243.173:4173, server: 117.28.243.173, port: 4173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: CYL-科技（2022.01.22） 260, server: tunnel-jp-a-01.xncloud.xyz, port: 201, type: vmess, uuid: d2b7d8e8-66ec-36b9-9a9c-5e85e198184f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-01.xncloud.xyz}, udp: true}
-  - {name: 169.197.142.99:8008, server: 169.197.142.99, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CYL-科技（2022.01.22） 107 2, server: inapus.mooncloud.bike, port: 8443, type: vmess, uuid: 997f97bc-1732-4a1c-98c8-3edb8349040f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: inapus1.mooncloud.bike}, udp: true}
-  - {name: 169.197.142.99:7002, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 38.75.136.49:2375, server: 38.75.136.49, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 38.75.136.49:8881, server: 38.75.136.49, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 38.75.136.49:7002, server: 38.75.136.49, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 169.197.142.99:6679, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 38.75.136.49:8118, server: 38.75.136.49, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 38.143.66.210:2375, server: 38.143.66.210, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 38.75.136.49:9101, server: 38.75.136.49, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 38.75.136.49:8091, server: 38.75.136.49, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 38.75.136.49:9102, server: 38.75.136.49, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 38.75.136.49:8008, server: 38.75.136.49, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: CYL-科技（2022.01.22）, server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 120.233.150.200:50301, server: 120.233.150.200, port: 50301, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9, udp: true}
+  - {name: CYL-科技（2022.01.22） 2, server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 120.233.150.200:50302, server: 120.233.150.200, port: 50302, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9, udp: true}
+  - {name: 香港_阿伟科技-油管, server: 121.wgong.xyz, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube由零开始-香港, server: 101.89.109.30, port: 10011, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.22） 3, server: 121.wgong.xyz, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国_阿伟科技-油管, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国_阿伟科技-油管 2, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube由零开始-香港 2, server: 101.89.109.30, port: 10015, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国_阿伟科技-油管 3, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技-油管, server: 101.89.109.30, port: 10011, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube由零开始-香港 3, server: 101.89.109.30, port: 10011, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube-由零开始-美国, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国_阿伟科技-油管 4, server: vipdedi.boom.ovh, port: 65521, type: vmess, uuid: a8d9724a-d61c-3d85-8cad-07e4d45a9441, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mydisk, ws-headers: {Host: vipdedi.boom.ovh}, udp: true}
+  - {name: YouTube由零开始-美国, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 974aeac3-c27c-4e20-86e4-03f526faaccd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
+  - {name: 中国_阿伟科技-油管 5, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube由零开始-美国 2, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 51273235-0995-455e-96e4-83b1811b4cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
+  - {name: CYL-科技（2022.01.22） 4, server: 169.197.142.99, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CYL-科技（2022.01.22） 5, server: 169.197.142.99, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CYL-科技（2022.01.22） 6, server: 169.197.142.99, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CYL-科技（2022.01.22） 7, server: 169.197.142.99, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国阿伟科技-油管, server: ddns04.r8o8c8k.xyz, port: 65012, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: ddns04.r8o8c8k.xyz}, udp: true}
+  - {name: YouTube由零开始-美国 3, server: ddns04.r8o8c8k.xyz, port: 65012, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: ddns04.r8o8c8k.xyz}, udp: true}
+  - {name: CYL-科技（2022.01.22） 8, server: 104.24.223.86, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: us.fovi.tk}, udp: true}
+  - {name: CYL-科技（2022.01.22） 9, server: 38.75.136.49, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: CYL-科技（2022.01.22） 10, server: 38.75.136.49, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CYL-科技（2022.01.22） 11, server: 38.75.136.45, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CYL-科技（2022.01.22） 12, server: 169.197.142.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CYL-科技（2022.01.22） 13, server: 169.197.142.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CYL-科技（2022.01.22） 14, server: 169.197.142.99, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CYL-科技（2022.01.22） 15, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CYL-科技（2022.01.22） 16, server: 38.75.136.49, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CYL-科技（2022.01.22） 17, server: 38.75.136.49, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CYL-科技（2022.01.22） 18, server: 38.75.136.49, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CYL-科技（2022.01.22） 19, server: 169.197.142.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: CYL-科技（2022.01.22） 20, server: 169.197.142.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CYL-科技（2022.01.22） 21, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CYL-科技（2022.01.22） 22, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CYL-科技（2022.01.22） 23, server: 38.114.114.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CYL-科技（2022.01.22） 24, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CYL-科技（2022.01.22） 25, server: 38.75.136.45, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: 38.75.136.49:7001, server: 38.75.136.49, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 38.75.136.49:5004, server: 38.75.136.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CYL-科技（2022.01.22） 286, server: 1222us.fans8.xyz, port: 80, type: vmess, uuid: 8e94f00e-bbe5-3eca-a352-e3771fd9520e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1222us.fans8.xyz}, udp: true}
-  - {name: 38.143.66.20:6697, server: 38.143.66.20, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 38.75.136.49:8009, server: 38.75.136.49, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 38.143.66.210:6697, server: 38.143.66.210, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 169.197.143.29:6697, server: 169.197.143.29, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CYL-科技（2022.01.22） 35, server: mf-do-ua-05.xncloud.xyz, port: 80, type: vmess, uuid: d2b7d8e8-66ec-36b9-9a9c-5e85e198184f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-05.xncloud.xyz}, udp: true}
-  - {name: 169.197.142.99:5003, server: 169.197.142.99, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 169.197.142.99:8090, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 38.143.66.20:5500, server: 38.143.66.20, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CYL-科技（2022.01.22） 104, server: 3.zhuzhu12.com, port: 443, type: vmess, uuid: 84202087-a32f-3a5f-9534-b07695320ad5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: 3.zhuzhu12.com}, udp: true}
-  - {name: 38.143.66.20:8008, server: 38.143.66.20, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 169.197.143.29:5004, server: 169.197.143.29, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 38.143.66.55:2376, server: 38.143.66.55, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 38.143.66.20:8118, server: 38.143.66.20, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 169.197.143.219:5003, server: 169.197.143.219, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 169.197.143.29:5500, server: 169.197.143.29, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 38.68.134.23:5004, server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 38.143.66.210:7001, server: 38.143.66.210, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CYL-科技（2022.01.22） 8, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 51273235-0995-455e-96e4-83b1811b4cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: 169.197.143.219:7307, server: 169.197.143.219, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 20.111.31.233:80, server: 20.111.31.233, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: 5401fcb0-2899-4c05-8eee-1728b8a1affc, udp: true}
-  - {name: 38.75.136.49:7307, server: 38.75.136.49, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 169.197.143.29:5003, server: 169.197.143.29, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CYL-科技（2022.01.22） 215, server: 116.wgong.xyz, port: 52216, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 38.143.66.87:7001, server: 38.143.66.87, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 38.143.66.87:8091, server: 38.143.66.87, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CYL-科技（2022.01.22） 300, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
-  - {name: 169.197.143.29:7307, server: 169.197.143.29, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CYL-科技（2022.01.22） 4, server: 20.205.96.84, port: 52224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 169.197.142.99:7001, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 169.197.143.219:8881, server: 169.197.143.219, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 38.143.66.20:7001, server: 38.143.66.20, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 38.68.134.190:8080, server: 38.68.134.190, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 38.114.114.49:5003, server: 38.114.114.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 38.143.66.187:9102, server: 38.143.66.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2022.01.22） 6, server: mf-do-ua-06.xncloud.xyz, port: 80, type: vmess, uuid: d2b7d8e8-66ec-36b9-9a9c-5e85e198184f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-06.xncloud.xyz}, udp: true}
-  - {name: 38.75.136.49:2376, server: 38.75.136.49, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 169.197.143.219:5004, server: 169.197.143.219, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 38.143.66.187:8882, server: 38.143.66.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 38.143.66.87:8009, server: 38.143.66.87, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 193.108.118.36:5004, server: 193.108.118.36, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CYL-科技（2022.01.22） 220, server: 218.78.22.199, port: 10006, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.15）, server: 123.wgong.xyz, port: 52223, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 169.197.143.219:6697, server: 169.197.143.219, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 38.143.66.55:8090, server: 38.143.66.55, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 38.143.66.187:8090, server: 38.143.66.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 38.143.66.55:6379, server: 38.143.66.55, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 38.68.134.23:2375, server: 38.68.134.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CYL-科技（2022.01.22） 261, server: 3.ezydfdd.com, port: 443, type: vmess, uuid: 7ab3f0d7-164c-4bde-8a45-2d6653da2ad1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 3.ezydfdd.com}, udp: true}
-  - {name: CYL-科技（2022.01.22） 202, server: 120.232.174.96, port: 41208, type: vmess, uuid: eb995ed5-d9a4-3ab4-b62d-95d8e9f24417, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: 120.232.174.96}, udp: true}
-  - {name: 38.143.66.20:5001, server: 38.143.66.20, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 38.143.66.210:5500, server: 38.143.66.210, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CYL-科技（2022.01.22） 195, server: mf-justhost-ru-03.xncloud.xyz, port: 80, type: vmess, uuid: d2b7d8e8-66ec-36b9-9a9c-5e85e198184f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-justhost-ru-03.xncloud.xyz}, udp: true}
-  - {name: 169.197.142.99:8080, server: 169.197.142.99, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 38.143.66.187:6697, server: 38.143.66.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 193.108.118.36:8118, server: 193.108.118.36, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 38.68.134.190:7306, server: 38.68.134.190, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 38.68.134.191:8091, server: 38.68.134.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 193.108.117.24:8080, server: 193.108.117.24, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 169.197.143.219:8080, server: 169.197.143.219, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 38.143.66.55:5001, server: 38.143.66.55, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 38.75.136.49:5003, server: 38.75.136.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 169.197.143.29:9101, server: 169.197.143.29, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 169.197.143.29:8888, server: 169.197.143.29, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 38.91.100.102:7002, server: 38.91.100.102, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 38.68.134.190:8090, server: 38.68.134.190, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CYL-科技（2022.01.22） 218, server: 112.64.69.187, port: 10003, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.15） 2, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CYL-科技（2022.01.22） 111, server: 2.zhuzhu12.com, port: 44301, type: vmess, uuid: 84202087-a32f-3a5f-9534-b07695320ad5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: 2.zhuzhu12.com}, udp: true}
-  - {name: CYL-科技（2022.01.22） 95, server: 3.zhuzhu12.com, port: 443, type: vmess, uuid: e8708a87-7f87-31f3-98b3-e9b07e70417e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: 3.zhuzhu12.com}, udp: true}
-  - {name: CYL-科技（2022.01.22） 13, server: 1.zhuzhu12.com, port: 443, type: vmess, uuid: 7bb1b983-435b-3d8d-a5ff-cdc1ea7735ad, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: 1.zhuzhu12.com}, udp: true}
-  - {name: CYL-科技（2022.01.22） 96, server: 3.zhuzhu12.com, port: 443, type: vmess, uuid: eb995ed5-d9a4-3ab4-b62d-95d8e9f24417, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: 3.zhuzhu12.com}, udp: true}
-  - {name: CYL-科技（2022.01.22） 114, server: 4.zhuzhu12.com, port: 8080, type: vmess, uuid: 84202087-a32f-3a5f-9534-b07695320ad5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: 4.zhuzhu12.com}, udp: true}
-  - {name: CYL-科技（2022.01.22） 3, server: 128.wgong.xyz, port: 52228, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.22） 123, server: 2.zhuzhu12.com, port: 44301, type: vmess, uuid: e8708a87-7f87-31f3-98b3-e9b07e70417e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: 2.zhuzhu12.com}, udp: true}
-  - {name: CYL-科技（2022.01.22） 108, server: 4.zhuzhu12.com, port: 8080, type: vmess, uuid: eb995ed5-d9a4-3ab4-b62d-95d8e9f24417, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: 4.zhuzhu12.com}, udp: true}
-  - {name: CYL-科技（2022.01.22） 106 2, server: 4.zhuzhu12.com, port: 8080, type: vmess, uuid: e8708a87-7f87-31f3-98b3-e9b07e70417e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: 4.zhuzhu12.com}, udp: true}
+  - {name: CYL-科技（2022.01.22） 26, server: 38.75.136.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CYL-科技（2022.01.22） 27, server: 38.75.136.45, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CYL-科技（2022.01.22） 28, server: 169.197.143.29, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 38.75.136.49:9101, server: 38.75.136.49, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CYL-科技（2022.01.22） 29, server: 117.28.243.220, port: 8254, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: CYL-科技（2022.01.22） 30, server: 38.143.66.87, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CYL-科技（2022.01.22） 31, server: 38.143.66.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CYL-科技（2022.01.22） 32, server: 38.75.136.49, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: CYL-科技（2022.01.22） 33, server: 169.197.142.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CYL-科技（2022.01.22） 34, server: 38.75.136.49, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CYL-科技（2022.01.22） 35, server: 38.143.66.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国_阿伟科技-油管, server: 156.251.189.244, port: 36837, type: vmess, uuid: d35c3589-6742-42a3-b86f-426f8a92ba44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.22） 36, server: 38.143.66.210, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: CYL-科技（2022.01.22） 37, server: 169.197.143.219, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CYL-科技（2022.01.22） 38, server: 169.197.142.99, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CYL-科技（2022.01.22） 39, server: 38.143.66.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CYL-科技（2022.01.22） 40, server: 169.197.143.29, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 38.143.66.187:5003, server: 38.143.66.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: YouTube由零开始-印尼, server: 20.205.106.28, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero1.a-yu.xyz}, udp: true}
+  - {name: CYL-科技（2022.01.22） 41, server: 169.197.143.219, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CYL-科技（2022.01.22） 42, server: 169.197.143.29, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CYL-科技（2022.01.22） 43, server: 38.143.66.87, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CYL-科技（2022.01.22） 44, server: 38.143.66.210, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: CYL-科技（2022.01.22） 45, server: 169.197.143.219, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CYL-科技（2022.01.22） 46, server: 38.143.66.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CYL-科技（2022.01.22） 47, server: 169.197.143.29, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: CYL-科技（2022.01.22） 48, server: 169.197.143.219, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: CYL-科技（2022.01.22） 49, server: 169.197.143.219, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CYL-科技（2022.01.22） 50, server: 169.197.143.29, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CYL-科技（2022.01.22） 51, server: 38.75.136.49, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CYL-科技（2022.01.22） 52, server: 38.143.66.210, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CYL-科技（2022.01.22） 53, server: 38.143.66.210, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CYL-科技（2022.01.22） 54, server: 169.197.143.29, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CYL-科技（2022.01.22） 55, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CYL-科技（2022.01.22） 56, server: 38.75.136.49, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CYL-科技（2022.01.22） 57, server: 169.197.143.29, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国_阿伟科技-油管 2, server: fly.littleonezy.cn, port: 12580, type: vmess, uuid: 644095d3-c64a-4b5c-a220-b3b162184b8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmess/, ws-headers: {Host: fly.littleonezy.cn}, udp: true}
+  - {name: CYL-科技（2022.01.22） 58, server: 38.143.66.20, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CYL-科技（2022.01.22） 59, server: 169.197.143.29, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CYL-科技（2022.01.22） 60, server: 38.75.136.49, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CYL-科技（2022.01.22） 61, server: 169.197.143.29, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CYL-科技（2022.01.22） 62, server: 38.143.66.20, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CYL-科技（2022.01.22） 63, server: 38.143.66.87, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CYL-科技（2022.01.22） 64, server: 38.143.66.20, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CYL-科技（2022.01.22） 65, server: 38.75.136.49, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: CYL-科技（2022.01.22） 66, server: 169.197.143.219, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CYL-科技（2022.01.22） 67, server: 38.143.66.210, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CYL-科技（2022.01.22） 68, server: 169.197.143.219, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: CYL-科技（2022.01.22） 69, server: 38.143.66.20, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CYL-科技（2022.01.22） 70, server: 38.143.66.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CYL-科技（2022.01.22） 71, server: 38.143.66.20, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CYL-科技（2022.01.22） 72, server: 38.143.66.87, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: CYL-科技（2022.01.22） 73, server: 169.197.143.219, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CYL-科技（2022.01.22） 74, server: 38.143.66.20, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CYL-科技（2022.01.22） 75, server: 169.197.143.29, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CYL-科技（2022.01.22） 76, server: 169.197.143.29, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: CYL-科技（2022.01.22） 77, server: 38.143.66.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CYL-科技（2022.01.22） 78, server: 135.wgong.xyz, port: 52335, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.22） 79, server: 100.wgong.xyz, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.22） 80, server: 100.wgong.xyz, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国_阿伟科技-油管 6, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港_阿伟科技-油管 2, server: 107.wgong.xyz, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube由零开始-新加坡, server: 96.wgong.xyz, port: 52296, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.22） 81, server: 120.wgong.xyz, port: 52220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.22） 82, server: 133.wgong.xyz, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.22） 83, server: 133.wgong.xyz, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.22） 84, server: 107.wgong.xyz, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.22） 85, server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube由零开始-日本, server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.22） 86, server: 134.wgong.xyz, port: 52334, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本阿伟科技-油管, server: 83.wgong.xyz, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国_阿伟科技-油管 7, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - CYL-科技（2022.01.22） 25
-      - CYL-科技（2022.01.22） 37
-      - CYL-科技（2022.01.22） 125
-      - CYL-科技（2022.01.22） 107
-      - CYL-科技（2022.01.22） 76
-      - CYL-科技（2022.01.22） 86
-      - CYL-科技（2022.01.22） 106
-      - CYL-科技（2022.01.22） 24
-      - CYL-科技（2022.01.22） 30
-      - CYL-科技（2022.01.22） 167
-      - CYL-科技（2022.01.22） 120
-      - CYL-科技（2022.01.22） 234
-      - CYL-科技（2022.01.22） 47
-      - CYL-科技（2022.01.22） 214
-      - CYL-科技（2022.01.22） 118
-      - CYL-科技（2022.01.22） 159
-      - 117.28.243.173:4173
-      - CYL-科技（2022.01.22） 260
-      - 169.197.142.99:8008
-      - CYL-科技（2022.01.22） 107 2
-      - 169.197.142.99:7002
-      - 38.75.136.49:2375
-      - 38.75.136.49:8881
-      - 38.75.136.49:7002
-      - 169.197.142.99:6679
-      - 38.75.136.49:8118
-      - 38.143.66.210:2375
-      - 38.75.136.49:9101
-      - 38.75.136.49:8091
-      - 38.75.136.49:9102
-      - 38.75.136.49:8008
-      - 38.75.136.49:7001
-      - 38.75.136.49:5004
-      - CYL-科技（2022.01.22） 286
-      - 38.143.66.20:6697
-      - 38.75.136.49:8009
-      - 38.143.66.210:6697
-      - 169.197.143.29:6697
-      - CYL-科技（2022.01.22） 35
-      - 169.197.142.99:5003
-      - 169.197.142.99:8090
-      - 38.143.66.20:5500
-      - CYL-科技（2022.01.22） 104
-      - 38.143.66.20:8008
-      - 169.197.143.29:5004
-      - 38.143.66.55:2376
-      - 38.143.66.20:8118
-      - 169.197.143.219:5003
-      - 169.197.143.29:5500
-      - 38.68.134.23:5004
-      - 38.143.66.210:7001
-      - CYL-科技（2022.01.22） 8
-      - 169.197.143.219:7307
-      - 20.111.31.233:80
-      - 38.75.136.49:7307
-      - 169.197.143.29:5003
-      - CYL-科技（2022.01.22） 215
-      - 38.143.66.87:7001
-      - 38.143.66.87:8091
-      - CYL-科技（2022.01.22） 300
-      - 169.197.143.29:7307
-      - CYL-科技（2022.01.22） 4
-      - 169.197.142.99:7001
-      - 169.197.143.219:8881
-      - 38.143.66.20:7001
-      - 38.68.134.190:8080
-      - 38.114.114.49:5003
-      - 38.143.66.187:9102
-      - CYL-科技（2022.01.22） 6
-      - 38.75.136.49:2376
-      - 169.197.143.219:5004
-      - 38.143.66.187:8882
-      - 38.143.66.87:8009
-      - 193.108.118.36:5004
-      - CYL-科技（2022.01.22） 220
-      - CYL-科技（2022.01.15）
-      - 169.197.143.219:6697
-      - 38.143.66.55:8090
-      - 38.143.66.187:8090
-      - 38.143.66.55:6379
-      - 38.68.134.23:2375
-      - CYL-科技（2022.01.22） 261
-      - CYL-科技（2022.01.22） 202
-      - 38.143.66.20:5001
-      - 38.143.66.210:5500
-      - CYL-科技（2022.01.22） 195
-      - 169.197.142.99:8080
-      - 38.143.66.187:6697
-      - 193.108.118.36:8118
-      - 38.68.134.190:7306
-      - 38.68.134.191:8091
-      - 193.108.117.24:8080
-      - 169.197.143.219:8080
-      - 38.143.66.55:5001
-      - 38.75.136.49:5003
-      - 169.197.143.29:9101
-      - 169.197.143.29:8888
-      - 38.91.100.102:7002
-      - 38.68.134.190:8090
-      - CYL-科技（2022.01.22） 218
-      - CYL-科技（2022.01.15） 2
-      - CYL-科技（2022.01.22） 111
-      - CYL-科技（2022.01.22） 95
-      - CYL-科技（2022.01.22） 13
-      - CYL-科技（2022.01.22） 96
-      - CYL-科技（2022.01.22） 114
+      - CYL-科技（2022.01.22）
+      - 120.233.150.200:50301
+      - CYL-科技（2022.01.22） 2
+      - 120.233.150.200:50302
+      - 香港_阿伟科技-油管
+      - YouTube由零开始-香港
       - CYL-科技（2022.01.22） 3
-      - CYL-科技（2022.01.22） 123
-      - CYL-科技（2022.01.22） 108
-      - CYL-科技（2022.01.22） 106 2
+      - 中国_阿伟科技-油管
+      - 中国_阿伟科技-油管 2
+      - YouTube由零开始-香港 2
+      - 中国_阿伟科技-油管 3
+      - 香港阿伟科技-油管
+      - YouTube由零开始-香港 3
+      - YouTube-由零开始-美国
+      - 中国_阿伟科技-油管 4
+      - YouTube由零开始-美国
+      - 中国_阿伟科技-油管 5
+      - YouTube由零开始-美国 2
+      - CYL-科技（2022.01.22） 4
+      - CYL-科技（2022.01.22） 5
+      - CYL-科技（2022.01.22） 6
+      - CYL-科技（2022.01.22） 7
+      - 美国阿伟科技-油管
+      - YouTube由零开始-美国 3
+      - CYL-科技（2022.01.22） 8
+      - CYL-科技（2022.01.22） 9
+      - CYL-科技（2022.01.22） 10
+      - CYL-科技（2022.01.22） 11
+      - CYL-科技（2022.01.22） 12
+      - CYL-科技（2022.01.22） 13
+      - CYL-科技（2022.01.22） 14
+      - CYL-科技（2022.01.22） 15
+      - CYL-科技（2022.01.22） 16
+      - CYL-科技（2022.01.22） 17
+      - CYL-科技（2022.01.22） 18
+      - CYL-科技（2022.01.22） 19
+      - CYL-科技（2022.01.22） 20
+      - CYL-科技（2022.01.22） 21
+      - CYL-科技（2022.01.22） 22
+      - CYL-科技（2022.01.22） 23
+      - CYL-科技（2022.01.22） 24
+      - CYL-科技（2022.01.22） 25
+      - 38.75.136.49:7001
+      - CYL-科技（2022.01.22） 26
+      - CYL-科技（2022.01.22） 27
+      - CYL-科技（2022.01.22） 28
+      - 38.75.136.49:9101
+      - CYL-科技（2022.01.22） 29
+      - CYL-科技（2022.01.22） 30
+      - CYL-科技（2022.01.22） 31
+      - CYL-科技（2022.01.22） 32
+      - CYL-科技（2022.01.22） 33
+      - CYL-科技（2022.01.22） 34
+      - CYL-科技（2022.01.22） 35
+      - 美国_阿伟科技-油管
+      - CYL-科技（2022.01.22） 36
+      - CYL-科技（2022.01.22） 37
+      - CYL-科技（2022.01.22） 38
+      - CYL-科技（2022.01.22） 39
+      - CYL-科技（2022.01.22） 40
+      - 38.143.66.187:5003
+      - YouTube由零开始-印尼
+      - CYL-科技（2022.01.22） 41
+      - CYL-科技（2022.01.22） 42
+      - CYL-科技（2022.01.22） 43
+      - CYL-科技（2022.01.22） 44
+      - CYL-科技（2022.01.22） 45
+      - CYL-科技（2022.01.22） 46
+      - CYL-科技（2022.01.22） 47
+      - CYL-科技（2022.01.22） 48
+      - CYL-科技（2022.01.22） 49
+      - CYL-科技（2022.01.22） 50
+      - CYL-科技（2022.01.22） 51
+      - CYL-科技（2022.01.22） 52
+      - CYL-科技（2022.01.22） 53
+      - CYL-科技（2022.01.22） 54
+      - CYL-科技（2022.01.22） 55
+      - CYL-科技（2022.01.22） 56
+      - CYL-科技（2022.01.22） 57
+      - 美国_阿伟科技-油管 2
+      - CYL-科技（2022.01.22） 58
+      - CYL-科技（2022.01.22） 59
+      - CYL-科技（2022.01.22） 60
+      - CYL-科技（2022.01.22） 61
+      - CYL-科技（2022.01.22） 62
+      - CYL-科技（2022.01.22） 63
+      - CYL-科技（2022.01.22） 64
+      - CYL-科技（2022.01.22） 65
+      - CYL-科技（2022.01.22） 66
+      - CYL-科技（2022.01.22） 67
+      - CYL-科技（2022.01.22） 68
+      - CYL-科技（2022.01.22） 69
+      - CYL-科技（2022.01.22） 70
+      - CYL-科技（2022.01.22） 71
+      - CYL-科技（2022.01.22） 72
+      - CYL-科技（2022.01.22） 73
+      - CYL-科技（2022.01.22） 74
+      - CYL-科技（2022.01.22） 75
+      - CYL-科技（2022.01.22） 76
+      - CYL-科技（2022.01.22） 77
+      - CYL-科技（2022.01.22） 78
+      - CYL-科技（2022.01.22） 79
+      - CYL-科技（2022.01.22） 80
+      - 中国_阿伟科技-油管 6
+      - 香港_阿伟科技-油管 2
+      - YouTube由零开始-新加坡
+      - CYL-科技（2022.01.22） 81
+      - CYL-科技（2022.01.22） 82
+      - CYL-科技（2022.01.22） 83
+      - CYL-科技（2022.01.22） 84
+      - CYL-科技（2022.01.22） 85
+      - YouTube由零开始-日本
+      - CYL-科技（2022.01.22） 86
+      - 日本阿伟科技-油管
+      - 中国_阿伟科技-油管 7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - CYL-科技（2022.01.22） 25
-      - CYL-科技（2022.01.22） 37
-      - CYL-科技（2022.01.22） 125
-      - CYL-科技（2022.01.22） 107
-      - CYL-科技（2022.01.22） 76
-      - CYL-科技（2022.01.22） 86
-      - CYL-科技（2022.01.22） 106
-      - CYL-科技（2022.01.22） 24
-      - CYL-科技（2022.01.22） 30
-      - CYL-科技（2022.01.22） 167
-      - CYL-科技（2022.01.22） 120
-      - CYL-科技（2022.01.22） 234
-      - CYL-科技（2022.01.22） 47
-      - CYL-科技（2022.01.22） 214
-      - CYL-科技（2022.01.22） 118
-      - CYL-科技（2022.01.22） 159
-      - 117.28.243.173:4173
-      - CYL-科技（2022.01.22） 260
-      - 169.197.142.99:8008
-      - CYL-科技（2022.01.22） 107 2
-      - 169.197.142.99:7002
-      - 38.75.136.49:2375
-      - 38.75.136.49:8881
-      - 38.75.136.49:7002
-      - 169.197.142.99:6679
-      - 38.75.136.49:8118
-      - 38.143.66.210:2375
-      - 38.75.136.49:9101
-      - 38.75.136.49:8091
-      - 38.75.136.49:9102
-      - 38.75.136.49:8008
-      - 38.75.136.49:7001
-      - 38.75.136.49:5004
-      - CYL-科技（2022.01.22） 286
-      - 38.143.66.20:6697
-      - 38.75.136.49:8009
-      - 38.143.66.210:6697
-      - 169.197.143.29:6697
-      - CYL-科技（2022.01.22） 35
-      - 169.197.142.99:5003
-      - 169.197.142.99:8090
-      - 38.143.66.20:5500
-      - CYL-科技（2022.01.22） 104
-      - 38.143.66.20:8008
-      - 169.197.143.29:5004
-      - 38.143.66.55:2376
-      - 38.143.66.20:8118
-      - 169.197.143.219:5003
-      - 169.197.143.29:5500
-      - 38.68.134.23:5004
-      - 38.143.66.210:7001
-      - CYL-科技（2022.01.22） 8
-      - 169.197.143.219:7307
-      - 20.111.31.233:80
-      - 38.75.136.49:7307
-      - 169.197.143.29:5003
-      - CYL-科技（2022.01.22） 215
-      - 38.143.66.87:7001
-      - 38.143.66.87:8091
-      - CYL-科技（2022.01.22） 300
-      - 169.197.143.29:7307
-      - CYL-科技（2022.01.22） 4
-      - 169.197.142.99:7001
-      - 169.197.143.219:8881
-      - 38.143.66.20:7001
-      - 38.68.134.190:8080
-      - 38.114.114.49:5003
-      - 38.143.66.187:9102
-      - CYL-科技（2022.01.22） 6
-      - 38.75.136.49:2376
-      - 169.197.143.219:5004
-      - 38.143.66.187:8882
-      - 38.143.66.87:8009
-      - 193.108.118.36:5004
-      - CYL-科技（2022.01.22） 220
-      - CYL-科技（2022.01.15）
-      - 169.197.143.219:6697
-      - 38.143.66.55:8090
-      - 38.143.66.187:8090
-      - 38.143.66.55:6379
-      - 38.68.134.23:2375
-      - CYL-科技（2022.01.22） 261
-      - CYL-科技（2022.01.22） 202
-      - 38.143.66.20:5001
-      - 38.143.66.210:5500
-      - CYL-科技（2022.01.22） 195
-      - 169.197.142.99:8080
-      - 38.143.66.187:6697
-      - 193.108.118.36:8118
-      - 38.68.134.190:7306
-      - 38.68.134.191:8091
-      - 193.108.117.24:8080
-      - 169.197.143.219:8080
-      - 38.143.66.55:5001
-      - 38.75.136.49:5003
-      - 169.197.143.29:9101
-      - 169.197.143.29:8888
-      - 38.91.100.102:7002
-      - 38.68.134.190:8090
-      - CYL-科技（2022.01.22） 218
-      - CYL-科技（2022.01.15） 2
-      - CYL-科技（2022.01.22） 111
-      - CYL-科技（2022.01.22） 95
-      - CYL-科技（2022.01.22） 13
-      - CYL-科技（2022.01.22） 96
-      - CYL-科技（2022.01.22） 114
+      - CYL-科技（2022.01.22）
+      - 120.233.150.200:50301
+      - CYL-科技（2022.01.22） 2
+      - 120.233.150.200:50302
+      - 香港_阿伟科技-油管
+      - YouTube由零开始-香港
       - CYL-科技（2022.01.22） 3
-      - CYL-科技（2022.01.22） 123
-      - CYL-科技（2022.01.22） 108
-      - CYL-科技（2022.01.22） 106 2
+      - 中国_阿伟科技-油管
+      - 中国_阿伟科技-油管 2
+      - YouTube由零开始-香港 2
+      - 中国_阿伟科技-油管 3
+      - 香港阿伟科技-油管
+      - YouTube由零开始-香港 3
+      - YouTube-由零开始-美国
+      - 中国_阿伟科技-油管 4
+      - YouTube由零开始-美国
+      - 中国_阿伟科技-油管 5
+      - YouTube由零开始-美国 2
+      - CYL-科技（2022.01.22） 4
+      - CYL-科技（2022.01.22） 5
+      - CYL-科技（2022.01.22） 6
+      - CYL-科技（2022.01.22） 7
+      - 美国阿伟科技-油管
+      - YouTube由零开始-美国 3
+      - CYL-科技（2022.01.22） 8
+      - CYL-科技（2022.01.22） 9
+      - CYL-科技（2022.01.22） 10
+      - CYL-科技（2022.01.22） 11
+      - CYL-科技（2022.01.22） 12
+      - CYL-科技（2022.01.22） 13
+      - CYL-科技（2022.01.22） 14
+      - CYL-科技（2022.01.22） 15
+      - CYL-科技（2022.01.22） 16
+      - CYL-科技（2022.01.22） 17
+      - CYL-科技（2022.01.22） 18
+      - CYL-科技（2022.01.22） 19
+      - CYL-科技（2022.01.22） 20
+      - CYL-科技（2022.01.22） 21
+      - CYL-科技（2022.01.22） 22
+      - CYL-科技（2022.01.22） 23
+      - CYL-科技（2022.01.22） 24
+      - CYL-科技（2022.01.22） 25
+      - 38.75.136.49:7001
+      - CYL-科技（2022.01.22） 26
+      - CYL-科技（2022.01.22） 27
+      - CYL-科技（2022.01.22） 28
+      - 38.75.136.49:9101
+      - CYL-科技（2022.01.22） 29
+      - CYL-科技（2022.01.22） 30
+      - CYL-科技（2022.01.22） 31
+      - CYL-科技（2022.01.22） 32
+      - CYL-科技（2022.01.22） 33
+      - CYL-科技（2022.01.22） 34
+      - CYL-科技（2022.01.22） 35
+      - 美国_阿伟科技-油管
+      - CYL-科技（2022.01.22） 36
+      - CYL-科技（2022.01.22） 37
+      - CYL-科技（2022.01.22） 38
+      - CYL-科技（2022.01.22） 39
+      - CYL-科技（2022.01.22） 40
+      - 38.143.66.187:5003
+      - YouTube由零开始-印尼
+      - CYL-科技（2022.01.22） 41
+      - CYL-科技（2022.01.22） 42
+      - CYL-科技（2022.01.22） 43
+      - CYL-科技（2022.01.22） 44
+      - CYL-科技（2022.01.22） 45
+      - CYL-科技（2022.01.22） 46
+      - CYL-科技（2022.01.22） 47
+      - CYL-科技（2022.01.22） 48
+      - CYL-科技（2022.01.22） 49
+      - CYL-科技（2022.01.22） 50
+      - CYL-科技（2022.01.22） 51
+      - CYL-科技（2022.01.22） 52
+      - CYL-科技（2022.01.22） 53
+      - CYL-科技（2022.01.22） 54
+      - CYL-科技（2022.01.22） 55
+      - CYL-科技（2022.01.22） 56
+      - CYL-科技（2022.01.22） 57
+      - 美国_阿伟科技-油管 2
+      - CYL-科技（2022.01.22） 58
+      - CYL-科技（2022.01.22） 59
+      - CYL-科技（2022.01.22） 60
+      - CYL-科技（2022.01.22） 61
+      - CYL-科技（2022.01.22） 62
+      - CYL-科技（2022.01.22） 63
+      - CYL-科技（2022.01.22） 64
+      - CYL-科技（2022.01.22） 65
+      - CYL-科技（2022.01.22） 66
+      - CYL-科技（2022.01.22） 67
+      - CYL-科技（2022.01.22） 68
+      - CYL-科技（2022.01.22） 69
+      - CYL-科技（2022.01.22） 70
+      - CYL-科技（2022.01.22） 71
+      - CYL-科技（2022.01.22） 72
+      - CYL-科技（2022.01.22） 73
+      - CYL-科技（2022.01.22） 74
+      - CYL-科技（2022.01.22） 75
+      - CYL-科技（2022.01.22） 76
+      - CYL-科技（2022.01.22） 77
+      - CYL-科技（2022.01.22） 78
+      - CYL-科技（2022.01.22） 79
+      - CYL-科技（2022.01.22） 80
+      - 中国_阿伟科技-油管 6
+      - 香港_阿伟科技-油管 2
+      - YouTube由零开始-新加坡
+      - CYL-科技（2022.01.22） 81
+      - CYL-科技（2022.01.22） 82
+      - CYL-科技（2022.01.22） 83
+      - CYL-科技（2022.01.22） 84
+      - CYL-科技（2022.01.22） 85
+      - YouTube由零开始-日本
+      - CYL-科技（2022.01.22） 86
+      - 日本阿伟科技-油管
+      - 中国_阿伟科技-油管 7
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CYL-科技（2022.01.22） 25
-      - CYL-科技（2022.01.22） 37
-      - CYL-科技（2022.01.22） 125
-      - CYL-科技（2022.01.22） 107
-      - CYL-科技（2022.01.22） 76
-      - CYL-科技（2022.01.22） 86
-      - CYL-科技（2022.01.22） 106
-      - CYL-科技（2022.01.22） 24
-      - CYL-科技（2022.01.22） 30
-      - CYL-科技（2022.01.22） 167
-      - CYL-科技（2022.01.22） 120
-      - CYL-科技（2022.01.22） 234
-      - CYL-科技（2022.01.22） 47
-      - CYL-科技（2022.01.22） 214
-      - CYL-科技（2022.01.22） 118
-      - CYL-科技（2022.01.22） 159
-      - 117.28.243.173:4173
-      - CYL-科技（2022.01.22） 260
-      - 169.197.142.99:8008
-      - CYL-科技（2022.01.22） 107 2
-      - 169.197.142.99:7002
-      - 38.75.136.49:2375
-      - 38.75.136.49:8881
-      - 38.75.136.49:7002
-      - 169.197.142.99:6679
-      - 38.75.136.49:8118
-      - 38.143.66.210:2375
-      - 38.75.136.49:9101
-      - 38.75.136.49:8091
-      - 38.75.136.49:9102
-      - 38.75.136.49:8008
-      - 38.75.136.49:7001
-      - 38.75.136.49:5004
-      - CYL-科技（2022.01.22） 286
-      - 38.143.66.20:6697
-      - 38.75.136.49:8009
-      - 38.143.66.210:6697
-      - 169.197.143.29:6697
-      - CYL-科技（2022.01.22） 35
-      - 169.197.142.99:5003
-      - 169.197.142.99:8090
-      - 38.143.66.20:5500
-      - CYL-科技（2022.01.22） 104
-      - 38.143.66.20:8008
-      - 169.197.143.29:5004
-      - 38.143.66.55:2376
-      - 38.143.66.20:8118
-      - 169.197.143.219:5003
-      - 169.197.143.29:5500
-      - 38.68.134.23:5004
-      - 38.143.66.210:7001
-      - CYL-科技（2022.01.22） 8
-      - 169.197.143.219:7307
-      - 20.111.31.233:80
-      - 38.75.136.49:7307
-      - 169.197.143.29:5003
-      - CYL-科技（2022.01.22） 215
-      - 38.143.66.87:7001
-      - 38.143.66.87:8091
-      - CYL-科技（2022.01.22） 300
-      - 169.197.143.29:7307
-      - CYL-科技（2022.01.22） 4
-      - 169.197.142.99:7001
-      - 169.197.143.219:8881
-      - 38.143.66.20:7001
-      - 38.68.134.190:8080
-      - 38.114.114.49:5003
-      - 38.143.66.187:9102
-      - CYL-科技（2022.01.22） 6
-      - 38.75.136.49:2376
-      - 169.197.143.219:5004
-      - 38.143.66.187:8882
-      - 38.143.66.87:8009
-      - 193.108.118.36:5004
-      - CYL-科技（2022.01.22） 220
-      - CYL-科技（2022.01.15）
-      - 169.197.143.219:6697
-      - 38.143.66.55:8090
-      - 38.143.66.187:8090
-      - 38.143.66.55:6379
-      - 38.68.134.23:2375
-      - CYL-科技（2022.01.22） 261
-      - CYL-科技（2022.01.22） 202
-      - 38.143.66.20:5001
-      - 38.143.66.210:5500
-      - CYL-科技（2022.01.22） 195
-      - 169.197.142.99:8080
-      - 38.143.66.187:6697
-      - 193.108.118.36:8118
-      - 38.68.134.190:7306
-      - 38.68.134.191:8091
-      - 193.108.117.24:8080
-      - 169.197.143.219:8080
-      - 38.143.66.55:5001
-      - 38.75.136.49:5003
-      - 169.197.143.29:9101
-      - 169.197.143.29:8888
-      - 38.91.100.102:7002
-      - 38.68.134.190:8090
-      - CYL-科技（2022.01.22） 218
-      - CYL-科技（2022.01.15） 2
-      - CYL-科技（2022.01.22） 111
-      - CYL-科技（2022.01.22） 95
-      - CYL-科技（2022.01.22） 13
-      - CYL-科技（2022.01.22） 96
-      - CYL-科技（2022.01.22） 114
+      - CYL-科技（2022.01.22）
+      - 120.233.150.200:50301
+      - CYL-科技（2022.01.22） 2
+      - 120.233.150.200:50302
+      - 香港_阿伟科技-油管
+      - YouTube由零开始-香港
       - CYL-科技（2022.01.22） 3
-      - CYL-科技（2022.01.22） 123
-      - CYL-科技（2022.01.22） 108
-      - CYL-科技（2022.01.22） 106 2
+      - 中国_阿伟科技-油管
+      - 中国_阿伟科技-油管 2
+      - YouTube由零开始-香港 2
+      - 中国_阿伟科技-油管 3
+      - 香港阿伟科技-油管
+      - YouTube由零开始-香港 3
+      - YouTube-由零开始-美国
+      - 中国_阿伟科技-油管 4
+      - YouTube由零开始-美国
+      - 中国_阿伟科技-油管 5
+      - YouTube由零开始-美国 2
+      - CYL-科技（2022.01.22） 4
+      - CYL-科技（2022.01.22） 5
+      - CYL-科技（2022.01.22） 6
+      - CYL-科技（2022.01.22） 7
+      - 美国阿伟科技-油管
+      - YouTube由零开始-美国 3
+      - CYL-科技（2022.01.22） 8
+      - CYL-科技（2022.01.22） 9
+      - CYL-科技（2022.01.22） 10
+      - CYL-科技（2022.01.22） 11
+      - CYL-科技（2022.01.22） 12
+      - CYL-科技（2022.01.22） 13
+      - CYL-科技（2022.01.22） 14
+      - CYL-科技（2022.01.22） 15
+      - CYL-科技（2022.01.22） 16
+      - CYL-科技（2022.01.22） 17
+      - CYL-科技（2022.01.22） 18
+      - CYL-科技（2022.01.22） 19
+      - CYL-科技（2022.01.22） 20
+      - CYL-科技（2022.01.22） 21
+      - CYL-科技（2022.01.22） 22
+      - CYL-科技（2022.01.22） 23
+      - CYL-科技（2022.01.22） 24
+      - CYL-科技（2022.01.22） 25
+      - 38.75.136.49:7001
+      - CYL-科技（2022.01.22） 26
+      - CYL-科技（2022.01.22） 27
+      - CYL-科技（2022.01.22） 28
+      - 38.75.136.49:9101
+      - CYL-科技（2022.01.22） 29
+      - CYL-科技（2022.01.22） 30
+      - CYL-科技（2022.01.22） 31
+      - CYL-科技（2022.01.22） 32
+      - CYL-科技（2022.01.22） 33
+      - CYL-科技（2022.01.22） 34
+      - CYL-科技（2022.01.22） 35
+      - 美国_阿伟科技-油管
+      - CYL-科技（2022.01.22） 36
+      - CYL-科技（2022.01.22） 37
+      - CYL-科技（2022.01.22） 38
+      - CYL-科技（2022.01.22） 39
+      - CYL-科技（2022.01.22） 40
+      - 38.143.66.187:5003
+      - YouTube由零开始-印尼
+      - CYL-科技（2022.01.22） 41
+      - CYL-科技（2022.01.22） 42
+      - CYL-科技（2022.01.22） 43
+      - CYL-科技（2022.01.22） 44
+      - CYL-科技（2022.01.22） 45
+      - CYL-科技（2022.01.22） 46
+      - CYL-科技（2022.01.22） 47
+      - CYL-科技（2022.01.22） 48
+      - CYL-科技（2022.01.22） 49
+      - CYL-科技（2022.01.22） 50
+      - CYL-科技（2022.01.22） 51
+      - CYL-科技（2022.01.22） 52
+      - CYL-科技（2022.01.22） 53
+      - CYL-科技（2022.01.22） 54
+      - CYL-科技（2022.01.22） 55
+      - CYL-科技（2022.01.22） 56
+      - CYL-科技（2022.01.22） 57
+      - 美国_阿伟科技-油管 2
+      - CYL-科技（2022.01.22） 58
+      - CYL-科技（2022.01.22） 59
+      - CYL-科技（2022.01.22） 60
+      - CYL-科技（2022.01.22） 61
+      - CYL-科技（2022.01.22） 62
+      - CYL-科技（2022.01.22） 63
+      - CYL-科技（2022.01.22） 64
+      - CYL-科技（2022.01.22） 65
+      - CYL-科技（2022.01.22） 66
+      - CYL-科技（2022.01.22） 67
+      - CYL-科技（2022.01.22） 68
+      - CYL-科技（2022.01.22） 69
+      - CYL-科技（2022.01.22） 70
+      - CYL-科技（2022.01.22） 71
+      - CYL-科技（2022.01.22） 72
+      - CYL-科技（2022.01.22） 73
+      - CYL-科技（2022.01.22） 74
+      - CYL-科技（2022.01.22） 75
+      - CYL-科技（2022.01.22） 76
+      - CYL-科技（2022.01.22） 77
+      - CYL-科技（2022.01.22） 78
+      - CYL-科技（2022.01.22） 79
+      - CYL-科技（2022.01.22） 80
+      - 中国_阿伟科技-油管 6
+      - 香港_阿伟科技-油管 2
+      - YouTube由零开始-新加坡
+      - CYL-科技（2022.01.22） 81
+      - CYL-科技（2022.01.22） 82
+      - CYL-科技（2022.01.22） 83
+      - CYL-科技（2022.01.22） 84
+      - CYL-科技（2022.01.22） 85
+      - YouTube由零开始-日本
+      - CYL-科技（2022.01.22） 86
+      - 日本阿伟科技-油管
+      - 中国_阿伟科技-油管 7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CYL-科技（2022.01.22） 25
-      - CYL-科技（2022.01.22） 37
-      - CYL-科技（2022.01.22） 125
-      - CYL-科技（2022.01.22） 107
-      - CYL-科技（2022.01.22） 76
-      - CYL-科技（2022.01.22） 86
-      - CYL-科技（2022.01.22） 106
-      - CYL-科技（2022.01.22） 24
-      - CYL-科技（2022.01.22） 30
-      - CYL-科技（2022.01.22） 167
-      - CYL-科技（2022.01.22） 120
-      - CYL-科技（2022.01.22） 234
-      - CYL-科技（2022.01.22） 47
-      - CYL-科技（2022.01.22） 214
-      - CYL-科技（2022.01.22） 118
-      - CYL-科技（2022.01.22） 159
-      - 117.28.243.173:4173
-      - CYL-科技（2022.01.22） 260
-      - 169.197.142.99:8008
-      - CYL-科技（2022.01.22） 107 2
-      - 169.197.142.99:7002
-      - 38.75.136.49:2375
-      - 38.75.136.49:8881
-      - 38.75.136.49:7002
-      - 169.197.142.99:6679
-      - 38.75.136.49:8118
-      - 38.143.66.210:2375
-      - 38.75.136.49:9101
-      - 38.75.136.49:8091
-      - 38.75.136.49:9102
-      - 38.75.136.49:8008
-      - 38.75.136.49:7001
-      - 38.75.136.49:5004
-      - CYL-科技（2022.01.22） 286
-      - 38.143.66.20:6697
-      - 38.75.136.49:8009
-      - 38.143.66.210:6697
-      - 169.197.143.29:6697
-      - CYL-科技（2022.01.22） 35
-      - 169.197.142.99:5003
-      - 169.197.142.99:8090
-      - 38.143.66.20:5500
-      - CYL-科技（2022.01.22） 104
-      - 38.143.66.20:8008
-      - 169.197.143.29:5004
-      - 38.143.66.55:2376
-      - 38.143.66.20:8118
-      - 169.197.143.219:5003
-      - 169.197.143.29:5500
-      - 38.68.134.23:5004
-      - 38.143.66.210:7001
-      - CYL-科技（2022.01.22） 8
-      - 169.197.143.219:7307
-      - 20.111.31.233:80
-      - 38.75.136.49:7307
-      - 169.197.143.29:5003
-      - CYL-科技（2022.01.22） 215
-      - 38.143.66.87:7001
-      - 38.143.66.87:8091
-      - CYL-科技（2022.01.22） 300
-      - 169.197.143.29:7307
-      - CYL-科技（2022.01.22） 4
-      - 169.197.142.99:7001
-      - 169.197.143.219:8881
-      - 38.143.66.20:7001
-      - 38.68.134.190:8080
-      - 38.114.114.49:5003
-      - 38.143.66.187:9102
-      - CYL-科技（2022.01.22） 6
-      - 38.75.136.49:2376
-      - 169.197.143.219:5004
-      - 38.143.66.187:8882
-      - 38.143.66.87:8009
-      - 193.108.118.36:5004
-      - CYL-科技（2022.01.22） 220
-      - CYL-科技（2022.01.15）
-      - 169.197.143.219:6697
-      - 38.143.66.55:8090
-      - 38.143.66.187:8090
-      - 38.143.66.55:6379
-      - 38.68.134.23:2375
-      - CYL-科技（2022.01.22） 261
-      - CYL-科技（2022.01.22） 202
-      - 38.143.66.20:5001
-      - 38.143.66.210:5500
-      - CYL-科技（2022.01.22） 195
-      - 169.197.142.99:8080
-      - 38.143.66.187:6697
-      - 193.108.118.36:8118
-      - 38.68.134.190:7306
-      - 38.68.134.191:8091
-      - 193.108.117.24:8080
-      - 169.197.143.219:8080
-      - 38.143.66.55:5001
-      - 38.75.136.49:5003
-      - 169.197.143.29:9101
-      - 169.197.143.29:8888
-      - 38.91.100.102:7002
-      - 38.68.134.190:8090
-      - CYL-科技（2022.01.22） 218
-      - CYL-科技（2022.01.15） 2
-      - CYL-科技（2022.01.22） 111
-      - CYL-科技（2022.01.22） 95
-      - CYL-科技（2022.01.22） 13
-      - CYL-科技（2022.01.22） 96
-      - CYL-科技（2022.01.22） 114
+      - CYL-科技（2022.01.22）
+      - 120.233.150.200:50301
+      - CYL-科技（2022.01.22） 2
+      - 120.233.150.200:50302
+      - 香港_阿伟科技-油管
+      - YouTube由零开始-香港
       - CYL-科技（2022.01.22） 3
-      - CYL-科技（2022.01.22） 123
-      - CYL-科技（2022.01.22） 108
-      - CYL-科技（2022.01.22） 106 2
+      - 中国_阿伟科技-油管
+      - 中国_阿伟科技-油管 2
+      - YouTube由零开始-香港 2
+      - 中国_阿伟科技-油管 3
+      - 香港阿伟科技-油管
+      - YouTube由零开始-香港 3
+      - YouTube-由零开始-美国
+      - 中国_阿伟科技-油管 4
+      - YouTube由零开始-美国
+      - 中国_阿伟科技-油管 5
+      - YouTube由零开始-美国 2
+      - CYL-科技（2022.01.22） 4
+      - CYL-科技（2022.01.22） 5
+      - CYL-科技（2022.01.22） 6
+      - CYL-科技（2022.01.22） 7
+      - 美国阿伟科技-油管
+      - YouTube由零开始-美国 3
+      - CYL-科技（2022.01.22） 8
+      - CYL-科技（2022.01.22） 9
+      - CYL-科技（2022.01.22） 10
+      - CYL-科技（2022.01.22） 11
+      - CYL-科技（2022.01.22） 12
+      - CYL-科技（2022.01.22） 13
+      - CYL-科技（2022.01.22） 14
+      - CYL-科技（2022.01.22） 15
+      - CYL-科技（2022.01.22） 16
+      - CYL-科技（2022.01.22） 17
+      - CYL-科技（2022.01.22） 18
+      - CYL-科技（2022.01.22） 19
+      - CYL-科技（2022.01.22） 20
+      - CYL-科技（2022.01.22） 21
+      - CYL-科技（2022.01.22） 22
+      - CYL-科技（2022.01.22） 23
+      - CYL-科技（2022.01.22） 24
+      - CYL-科技（2022.01.22） 25
+      - 38.75.136.49:7001
+      - CYL-科技（2022.01.22） 26
+      - CYL-科技（2022.01.22） 27
+      - CYL-科技（2022.01.22） 28
+      - 38.75.136.49:9101
+      - CYL-科技（2022.01.22） 29
+      - CYL-科技（2022.01.22） 30
+      - CYL-科技（2022.01.22） 31
+      - CYL-科技（2022.01.22） 32
+      - CYL-科技（2022.01.22） 33
+      - CYL-科技（2022.01.22） 34
+      - CYL-科技（2022.01.22） 35
+      - 美国_阿伟科技-油管
+      - CYL-科技（2022.01.22） 36
+      - CYL-科技（2022.01.22） 37
+      - CYL-科技（2022.01.22） 38
+      - CYL-科技（2022.01.22） 39
+      - CYL-科技（2022.01.22） 40
+      - 38.143.66.187:5003
+      - YouTube由零开始-印尼
+      - CYL-科技（2022.01.22） 41
+      - CYL-科技（2022.01.22） 42
+      - CYL-科技（2022.01.22） 43
+      - CYL-科技（2022.01.22） 44
+      - CYL-科技（2022.01.22） 45
+      - CYL-科技（2022.01.22） 46
+      - CYL-科技（2022.01.22） 47
+      - CYL-科技（2022.01.22） 48
+      - CYL-科技（2022.01.22） 49
+      - CYL-科技（2022.01.22） 50
+      - CYL-科技（2022.01.22） 51
+      - CYL-科技（2022.01.22） 52
+      - CYL-科技（2022.01.22） 53
+      - CYL-科技（2022.01.22） 54
+      - CYL-科技（2022.01.22） 55
+      - CYL-科技（2022.01.22） 56
+      - CYL-科技（2022.01.22） 57
+      - 美国_阿伟科技-油管 2
+      - CYL-科技（2022.01.22） 58
+      - CYL-科技（2022.01.22） 59
+      - CYL-科技（2022.01.22） 60
+      - CYL-科技（2022.01.22） 61
+      - CYL-科技（2022.01.22） 62
+      - CYL-科技（2022.01.22） 63
+      - CYL-科技（2022.01.22） 64
+      - CYL-科技（2022.01.22） 65
+      - CYL-科技（2022.01.22） 66
+      - CYL-科技（2022.01.22） 67
+      - CYL-科技（2022.01.22） 68
+      - CYL-科技（2022.01.22） 69
+      - CYL-科技（2022.01.22） 70
+      - CYL-科技（2022.01.22） 71
+      - CYL-科技（2022.01.22） 72
+      - CYL-科技（2022.01.22） 73
+      - CYL-科技（2022.01.22） 74
+      - CYL-科技（2022.01.22） 75
+      - CYL-科技（2022.01.22） 76
+      - CYL-科技（2022.01.22） 77
+      - CYL-科技（2022.01.22） 78
+      - CYL-科技（2022.01.22） 79
+      - CYL-科技（2022.01.22） 80
+      - 中国_阿伟科技-油管 6
+      - 香港_阿伟科技-油管 2
+      - YouTube由零开始-新加坡
+      - CYL-科技（2022.01.22） 81
+      - CYL-科技（2022.01.22） 82
+      - CYL-科技（2022.01.22） 83
+      - CYL-科技（2022.01.22） 84
+      - CYL-科技（2022.01.22） 85
+      - YouTube由零开始-日本
+      - CYL-科技（2022.01.22） 86
+      - 日本阿伟科技-油管
+      - 中国_阿伟科技-油管 7
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - CYL-科技（2022.01.22） 25
-      - CYL-科技（2022.01.22） 37
-      - CYL-科技（2022.01.22） 125
-      - CYL-科技（2022.01.22） 107
-      - CYL-科技（2022.01.22） 76
-      - CYL-科技（2022.01.22） 86
-      - CYL-科技（2022.01.22） 106
-      - CYL-科技（2022.01.22） 24
-      - CYL-科技（2022.01.22） 30
-      - CYL-科技（2022.01.22） 167
-      - CYL-科技（2022.01.22） 120
-      - CYL-科技（2022.01.22） 234
-      - CYL-科技（2022.01.22） 47
-      - CYL-科技（2022.01.22） 214
-      - CYL-科技（2022.01.22） 118
-      - CYL-科技（2022.01.22） 159
-      - 117.28.243.173:4173
-      - CYL-科技（2022.01.22） 260
-      - 169.197.142.99:8008
-      - CYL-科技（2022.01.22） 107 2
-      - 169.197.142.99:7002
-      - 38.75.136.49:2375
-      - 38.75.136.49:8881
-      - 38.75.136.49:7002
-      - 169.197.142.99:6679
-      - 38.75.136.49:8118
-      - 38.143.66.210:2375
-      - 38.75.136.49:9101
-      - 38.75.136.49:8091
-      - 38.75.136.49:9102
-      - 38.75.136.49:8008
-      - 38.75.136.49:7001
-      - 38.75.136.49:5004
-      - CYL-科技（2022.01.22） 286
-      - 38.143.66.20:6697
-      - 38.75.136.49:8009
-      - 38.143.66.210:6697
-      - 169.197.143.29:6697
-      - CYL-科技（2022.01.22） 35
-      - 169.197.142.99:5003
-      - 169.197.142.99:8090
-      - 38.143.66.20:5500
-      - CYL-科技（2022.01.22） 104
-      - 38.143.66.20:8008
-      - 169.197.143.29:5004
-      - 38.143.66.55:2376
-      - 38.143.66.20:8118
-      - 169.197.143.219:5003
-      - 169.197.143.29:5500
-      - 38.68.134.23:5004
-      - 38.143.66.210:7001
-      - CYL-科技（2022.01.22） 8
-      - 169.197.143.219:7307
-      - 20.111.31.233:80
-      - 38.75.136.49:7307
-      - 169.197.143.29:5003
-      - CYL-科技（2022.01.22） 215
-      - 38.143.66.87:7001
-      - 38.143.66.87:8091
-      - CYL-科技（2022.01.22） 300
-      - 169.197.143.29:7307
-      - CYL-科技（2022.01.22） 4
-      - 169.197.142.99:7001
-      - 169.197.143.219:8881
-      - 38.143.66.20:7001
-      - 38.68.134.190:8080
-      - 38.114.114.49:5003
-      - 38.143.66.187:9102
-      - CYL-科技（2022.01.22） 6
-      - 38.75.136.49:2376
-      - 169.197.143.219:5004
-      - 38.143.66.187:8882
-      - 38.143.66.87:8009
-      - 193.108.118.36:5004
-      - CYL-科技（2022.01.22） 220
-      - CYL-科技（2022.01.15）
-      - 169.197.143.219:6697
-      - 38.143.66.55:8090
-      - 38.143.66.187:8090
-      - 38.143.66.55:6379
-      - 38.68.134.23:2375
-      - CYL-科技（2022.01.22） 261
-      - CYL-科技（2022.01.22） 202
-      - 38.143.66.20:5001
-      - 38.143.66.210:5500
-      - CYL-科技（2022.01.22） 195
-      - 169.197.142.99:8080
-      - 38.143.66.187:6697
-      - 193.108.118.36:8118
-      - 38.68.134.190:7306
-      - 38.68.134.191:8091
-      - 193.108.117.24:8080
-      - 169.197.143.219:8080
-      - 38.143.66.55:5001
-      - 38.75.136.49:5003
-      - 169.197.143.29:9101
-      - 169.197.143.29:8888
-      - 38.91.100.102:7002
-      - 38.68.134.190:8090
-      - CYL-科技（2022.01.22） 218
-      - CYL-科技（2022.01.15） 2
-      - CYL-科技（2022.01.22） 111
-      - CYL-科技（2022.01.22） 95
-      - CYL-科技（2022.01.22） 13
-      - CYL-科技（2022.01.22） 96
-      - CYL-科技（2022.01.22） 114
+      - CYL-科技（2022.01.22）
+      - 120.233.150.200:50301
+      - CYL-科技（2022.01.22） 2
+      - 120.233.150.200:50302
+      - 香港_阿伟科技-油管
+      - YouTube由零开始-香港
       - CYL-科技（2022.01.22） 3
-      - CYL-科技（2022.01.22） 123
-      - CYL-科技（2022.01.22） 108
-      - CYL-科技（2022.01.22） 106 2
+      - 中国_阿伟科技-油管
+      - 中国_阿伟科技-油管 2
+      - YouTube由零开始-香港 2
+      - 中国_阿伟科技-油管 3
+      - 香港阿伟科技-油管
+      - YouTube由零开始-香港 3
+      - YouTube-由零开始-美国
+      - 中国_阿伟科技-油管 4
+      - YouTube由零开始-美国
+      - 中国_阿伟科技-油管 5
+      - YouTube由零开始-美国 2
+      - CYL-科技（2022.01.22） 4
+      - CYL-科技（2022.01.22） 5
+      - CYL-科技（2022.01.22） 6
+      - CYL-科技（2022.01.22） 7
+      - 美国阿伟科技-油管
+      - YouTube由零开始-美国 3
+      - CYL-科技（2022.01.22） 8
+      - CYL-科技（2022.01.22） 9
+      - CYL-科技（2022.01.22） 10
+      - CYL-科技（2022.01.22） 11
+      - CYL-科技（2022.01.22） 12
+      - CYL-科技（2022.01.22） 13
+      - CYL-科技（2022.01.22） 14
+      - CYL-科技（2022.01.22） 15
+      - CYL-科技（2022.01.22） 16
+      - CYL-科技（2022.01.22） 17
+      - CYL-科技（2022.01.22） 18
+      - CYL-科技（2022.01.22） 19
+      - CYL-科技（2022.01.22） 20
+      - CYL-科技（2022.01.22） 21
+      - CYL-科技（2022.01.22） 22
+      - CYL-科技（2022.01.22） 23
+      - CYL-科技（2022.01.22） 24
+      - CYL-科技（2022.01.22） 25
+      - 38.75.136.49:7001
+      - CYL-科技（2022.01.22） 26
+      - CYL-科技（2022.01.22） 27
+      - CYL-科技（2022.01.22） 28
+      - 38.75.136.49:9101
+      - CYL-科技（2022.01.22） 29
+      - CYL-科技（2022.01.22） 30
+      - CYL-科技（2022.01.22） 31
+      - CYL-科技（2022.01.22） 32
+      - CYL-科技（2022.01.22） 33
+      - CYL-科技（2022.01.22） 34
+      - CYL-科技（2022.01.22） 35
+      - 美国_阿伟科技-油管
+      - CYL-科技（2022.01.22） 36
+      - CYL-科技（2022.01.22） 37
+      - CYL-科技（2022.01.22） 38
+      - CYL-科技（2022.01.22） 39
+      - CYL-科技（2022.01.22） 40
+      - 38.143.66.187:5003
+      - YouTube由零开始-印尼
+      - CYL-科技（2022.01.22） 41
+      - CYL-科技（2022.01.22） 42
+      - CYL-科技（2022.01.22） 43
+      - CYL-科技（2022.01.22） 44
+      - CYL-科技（2022.01.22） 45
+      - CYL-科技（2022.01.22） 46
+      - CYL-科技（2022.01.22） 47
+      - CYL-科技（2022.01.22） 48
+      - CYL-科技（2022.01.22） 49
+      - CYL-科技（2022.01.22） 50
+      - CYL-科技（2022.01.22） 51
+      - CYL-科技（2022.01.22） 52
+      - CYL-科技（2022.01.22） 53
+      - CYL-科技（2022.01.22） 54
+      - CYL-科技（2022.01.22） 55
+      - CYL-科技（2022.01.22） 56
+      - CYL-科技（2022.01.22） 57
+      - 美国_阿伟科技-油管 2
+      - CYL-科技（2022.01.22） 58
+      - CYL-科技（2022.01.22） 59
+      - CYL-科技（2022.01.22） 60
+      - CYL-科技（2022.01.22） 61
+      - CYL-科技（2022.01.22） 62
+      - CYL-科技（2022.01.22） 63
+      - CYL-科技（2022.01.22） 64
+      - CYL-科技（2022.01.22） 65
+      - CYL-科技（2022.01.22） 66
+      - CYL-科技（2022.01.22） 67
+      - CYL-科技（2022.01.22） 68
+      - CYL-科技（2022.01.22） 69
+      - CYL-科技（2022.01.22） 70
+      - CYL-科技（2022.01.22） 71
+      - CYL-科技（2022.01.22） 72
+      - CYL-科技（2022.01.22） 73
+      - CYL-科技（2022.01.22） 74
+      - CYL-科技（2022.01.22） 75
+      - CYL-科技（2022.01.22） 76
+      - CYL-科技（2022.01.22） 77
+      - CYL-科技（2022.01.22） 78
+      - CYL-科技（2022.01.22） 79
+      - CYL-科技（2022.01.22） 80
+      - 中国_阿伟科技-油管 6
+      - 香港_阿伟科技-油管 2
+      - YouTube由零开始-新加坡
+      - CYL-科技（2022.01.22） 81
+      - CYL-科技（2022.01.22） 82
+      - CYL-科技（2022.01.22） 83
+      - CYL-科技（2022.01.22） 84
+      - CYL-科技（2022.01.22） 85
+      - YouTube由零开始-日本
+      - CYL-科技（2022.01.22） 86
+      - 日本阿伟科技-油管
+      - 中国_阿伟科技-油管 7
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CYL-科技（2022.01.22） 25
-      - CYL-科技（2022.01.22） 37
-      - CYL-科技（2022.01.22） 125
-      - CYL-科技（2022.01.22） 107
-      - CYL-科技（2022.01.22） 76
-      - CYL-科技（2022.01.22） 86
-      - CYL-科技（2022.01.22） 106
-      - CYL-科技（2022.01.22） 24
-      - CYL-科技（2022.01.22） 30
-      - CYL-科技（2022.01.22） 167
-      - CYL-科技（2022.01.22） 120
-      - CYL-科技（2022.01.22） 234
-      - CYL-科技（2022.01.22） 47
-      - CYL-科技（2022.01.22） 214
-      - CYL-科技（2022.01.22） 118
-      - CYL-科技（2022.01.22） 159
-      - 117.28.243.173:4173
-      - CYL-科技（2022.01.22） 260
-      - 169.197.142.99:8008
-      - CYL-科技（2022.01.22） 107 2
-      - 169.197.142.99:7002
-      - 38.75.136.49:2375
-      - 38.75.136.49:8881
-      - 38.75.136.49:7002
-      - 169.197.142.99:6679
-      - 38.75.136.49:8118
-      - 38.143.66.210:2375
-      - 38.75.136.49:9101
-      - 38.75.136.49:8091
-      - 38.75.136.49:9102
-      - 38.75.136.49:8008
-      - 38.75.136.49:7001
-      - 38.75.136.49:5004
-      - CYL-科技（2022.01.22） 286
-      - 38.143.66.20:6697
-      - 38.75.136.49:8009
-      - 38.143.66.210:6697
-      - 169.197.143.29:6697
-      - CYL-科技（2022.01.22） 35
-      - 169.197.142.99:5003
-      - 169.197.142.99:8090
-      - 38.143.66.20:5500
-      - CYL-科技（2022.01.22） 104
-      - 38.143.66.20:8008
-      - 169.197.143.29:5004
-      - 38.143.66.55:2376
-      - 38.143.66.20:8118
-      - 169.197.143.219:5003
-      - 169.197.143.29:5500
-      - 38.68.134.23:5004
-      - 38.143.66.210:7001
-      - CYL-科技（2022.01.22） 8
-      - 169.197.143.219:7307
-      - 20.111.31.233:80
-      - 38.75.136.49:7307
-      - 169.197.143.29:5003
-      - CYL-科技（2022.01.22） 215
-      - 38.143.66.87:7001
-      - 38.143.66.87:8091
-      - CYL-科技（2022.01.22） 300
-      - 169.197.143.29:7307
-      - CYL-科技（2022.01.22） 4
-      - 169.197.142.99:7001
-      - 169.197.143.219:8881
-      - 38.143.66.20:7001
-      - 38.68.134.190:8080
-      - 38.114.114.49:5003
-      - 38.143.66.187:9102
-      - CYL-科技（2022.01.22） 6
-      - 38.75.136.49:2376
-      - 169.197.143.219:5004
-      - 38.143.66.187:8882
-      - 38.143.66.87:8009
-      - 193.108.118.36:5004
-      - CYL-科技（2022.01.22） 220
-      - CYL-科技（2022.01.15）
-      - 169.197.143.219:6697
-      - 38.143.66.55:8090
-      - 38.143.66.187:8090
-      - 38.143.66.55:6379
-      - 38.68.134.23:2375
-      - CYL-科技（2022.01.22） 261
-      - CYL-科技（2022.01.22） 202
-      - 38.143.66.20:5001
-      - 38.143.66.210:5500
-      - CYL-科技（2022.01.22） 195
-      - 169.197.142.99:8080
-      - 38.143.66.187:6697
-      - 193.108.118.36:8118
-      - 38.68.134.190:7306
-      - 38.68.134.191:8091
-      - 193.108.117.24:8080
-      - 169.197.143.219:8080
-      - 38.143.66.55:5001
-      - 38.75.136.49:5003
-      - 169.197.143.29:9101
-      - 169.197.143.29:8888
-      - 38.91.100.102:7002
-      - 38.68.134.190:8090
-      - CYL-科技（2022.01.22） 218
-      - CYL-科技（2022.01.15） 2
-      - CYL-科技（2022.01.22） 111
-      - CYL-科技（2022.01.22） 95
-      - CYL-科技（2022.01.22） 13
-      - CYL-科技（2022.01.22） 96
-      - CYL-科技（2022.01.22） 114
+      - CYL-科技（2022.01.22）
+      - 120.233.150.200:50301
+      - CYL-科技（2022.01.22） 2
+      - 120.233.150.200:50302
+      - 香港_阿伟科技-油管
+      - YouTube由零开始-香港
       - CYL-科技（2022.01.22） 3
-      - CYL-科技（2022.01.22） 123
-      - CYL-科技（2022.01.22） 108
-      - CYL-科技（2022.01.22） 106 2
+      - 中国_阿伟科技-油管
+      - 中国_阿伟科技-油管 2
+      - YouTube由零开始-香港 2
+      - 中国_阿伟科技-油管 3
+      - 香港阿伟科技-油管
+      - YouTube由零开始-香港 3
+      - YouTube-由零开始-美国
+      - 中国_阿伟科技-油管 4
+      - YouTube由零开始-美国
+      - 中国_阿伟科技-油管 5
+      - YouTube由零开始-美国 2
+      - CYL-科技（2022.01.22） 4
+      - CYL-科技（2022.01.22） 5
+      - CYL-科技（2022.01.22） 6
+      - CYL-科技（2022.01.22） 7
+      - 美国阿伟科技-油管
+      - YouTube由零开始-美国 3
+      - CYL-科技（2022.01.22） 8
+      - CYL-科技（2022.01.22） 9
+      - CYL-科技（2022.01.22） 10
+      - CYL-科技（2022.01.22） 11
+      - CYL-科技（2022.01.22） 12
+      - CYL-科技（2022.01.22） 13
+      - CYL-科技（2022.01.22） 14
+      - CYL-科技（2022.01.22） 15
+      - CYL-科技（2022.01.22） 16
+      - CYL-科技（2022.01.22） 17
+      - CYL-科技（2022.01.22） 18
+      - CYL-科技（2022.01.22） 19
+      - CYL-科技（2022.01.22） 20
+      - CYL-科技（2022.01.22） 21
+      - CYL-科技（2022.01.22） 22
+      - CYL-科技（2022.01.22） 23
+      - CYL-科技（2022.01.22） 24
+      - CYL-科技（2022.01.22） 25
+      - 38.75.136.49:7001
+      - CYL-科技（2022.01.22） 26
+      - CYL-科技（2022.01.22） 27
+      - CYL-科技（2022.01.22） 28
+      - 38.75.136.49:9101
+      - CYL-科技（2022.01.22） 29
+      - CYL-科技（2022.01.22） 30
+      - CYL-科技（2022.01.22） 31
+      - CYL-科技（2022.01.22） 32
+      - CYL-科技（2022.01.22） 33
+      - CYL-科技（2022.01.22） 34
+      - CYL-科技（2022.01.22） 35
+      - 美国_阿伟科技-油管
+      - CYL-科技（2022.01.22） 36
+      - CYL-科技（2022.01.22） 37
+      - CYL-科技（2022.01.22） 38
+      - CYL-科技（2022.01.22） 39
+      - CYL-科技（2022.01.22） 40
+      - 38.143.66.187:5003
+      - YouTube由零开始-印尼
+      - CYL-科技（2022.01.22） 41
+      - CYL-科技（2022.01.22） 42
+      - CYL-科技（2022.01.22） 43
+      - CYL-科技（2022.01.22） 44
+      - CYL-科技（2022.01.22） 45
+      - CYL-科技（2022.01.22） 46
+      - CYL-科技（2022.01.22） 47
+      - CYL-科技（2022.01.22） 48
+      - CYL-科技（2022.01.22） 49
+      - CYL-科技（2022.01.22） 50
+      - CYL-科技（2022.01.22） 51
+      - CYL-科技（2022.01.22） 52
+      - CYL-科技（2022.01.22） 53
+      - CYL-科技（2022.01.22） 54
+      - CYL-科技（2022.01.22） 55
+      - CYL-科技（2022.01.22） 56
+      - CYL-科技（2022.01.22） 57
+      - 美国_阿伟科技-油管 2
+      - CYL-科技（2022.01.22） 58
+      - CYL-科技（2022.01.22） 59
+      - CYL-科技（2022.01.22） 60
+      - CYL-科技（2022.01.22） 61
+      - CYL-科技（2022.01.22） 62
+      - CYL-科技（2022.01.22） 63
+      - CYL-科技（2022.01.22） 64
+      - CYL-科技（2022.01.22） 65
+      - CYL-科技（2022.01.22） 66
+      - CYL-科技（2022.01.22） 67
+      - CYL-科技（2022.01.22） 68
+      - CYL-科技（2022.01.22） 69
+      - CYL-科技（2022.01.22） 70
+      - CYL-科技（2022.01.22） 71
+      - CYL-科技（2022.01.22） 72
+      - CYL-科技（2022.01.22） 73
+      - CYL-科技（2022.01.22） 74
+      - CYL-科技（2022.01.22） 75
+      - CYL-科技（2022.01.22） 76
+      - CYL-科技（2022.01.22） 77
+      - CYL-科技（2022.01.22） 78
+      - CYL-科技（2022.01.22） 79
+      - CYL-科技（2022.01.22） 80
+      - 中国_阿伟科技-油管 6
+      - 香港_阿伟科技-油管 2
+      - YouTube由零开始-新加坡
+      - CYL-科技（2022.01.22） 81
+      - CYL-科技（2022.01.22） 82
+      - CYL-科技（2022.01.22） 83
+      - CYL-科技（2022.01.22） 84
+      - CYL-科技（2022.01.22） 85
+      - YouTube由零开始-日本
+      - CYL-科技（2022.01.22） 86
+      - 日本阿伟科技-油管
+      - 中国_阿伟科技-油管 7
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CYL-科技（2022.01.22） 25
-      - CYL-科技（2022.01.22） 37
-      - CYL-科技（2022.01.22） 125
-      - CYL-科技（2022.01.22） 107
-      - CYL-科技（2022.01.22） 76
-      - CYL-科技（2022.01.22） 86
-      - CYL-科技（2022.01.22） 106
-      - CYL-科技（2022.01.22） 24
-      - CYL-科技（2022.01.22） 30
-      - CYL-科技（2022.01.22） 167
-      - CYL-科技（2022.01.22） 120
-      - CYL-科技（2022.01.22） 234
-      - CYL-科技（2022.01.22） 47
-      - CYL-科技（2022.01.22） 214
-      - CYL-科技（2022.01.22） 118
-      - CYL-科技（2022.01.22） 159
-      - 117.28.243.173:4173
-      - CYL-科技（2022.01.22） 260
-      - 169.197.142.99:8008
-      - CYL-科技（2022.01.22） 107 2
-      - 169.197.142.99:7002
-      - 38.75.136.49:2375
-      - 38.75.136.49:8881
-      - 38.75.136.49:7002
-      - 169.197.142.99:6679
-      - 38.75.136.49:8118
-      - 38.143.66.210:2375
-      - 38.75.136.49:9101
-      - 38.75.136.49:8091
-      - 38.75.136.49:9102
-      - 38.75.136.49:8008
-      - 38.75.136.49:7001
-      - 38.75.136.49:5004
-      - CYL-科技（2022.01.22） 286
-      - 38.143.66.20:6697
-      - 38.75.136.49:8009
-      - 38.143.66.210:6697
-      - 169.197.143.29:6697
-      - CYL-科技（2022.01.22） 35
-      - 169.197.142.99:5003
-      - 169.197.142.99:8090
-      - 38.143.66.20:5500
-      - CYL-科技（2022.01.22） 104
-      - 38.143.66.20:8008
-      - 169.197.143.29:5004
-      - 38.143.66.55:2376
-      - 38.143.66.20:8118
-      - 169.197.143.219:5003
-      - 169.197.143.29:5500
-      - 38.68.134.23:5004
-      - 38.143.66.210:7001
-      - CYL-科技（2022.01.22） 8
-      - 169.197.143.219:7307
-      - 20.111.31.233:80
-      - 38.75.136.49:7307
-      - 169.197.143.29:5003
-      - CYL-科技（2022.01.22） 215
-      - 38.143.66.87:7001
-      - 38.143.66.87:8091
-      - CYL-科技（2022.01.22） 300
-      - 169.197.143.29:7307
-      - CYL-科技（2022.01.22） 4
-      - 169.197.142.99:7001
-      - 169.197.143.219:8881
-      - 38.143.66.20:7001
-      - 38.68.134.190:8080
-      - 38.114.114.49:5003
-      - 38.143.66.187:9102
-      - CYL-科技（2022.01.22） 6
-      - 38.75.136.49:2376
-      - 169.197.143.219:5004
-      - 38.143.66.187:8882
-      - 38.143.66.87:8009
-      - 193.108.118.36:5004
-      - CYL-科技（2022.01.22） 220
-      - CYL-科技（2022.01.15）
-      - 169.197.143.219:6697
-      - 38.143.66.55:8090
-      - 38.143.66.187:8090
-      - 38.143.66.55:6379
-      - 38.68.134.23:2375
-      - CYL-科技（2022.01.22） 261
-      - CYL-科技（2022.01.22） 202
-      - 38.143.66.20:5001
-      - 38.143.66.210:5500
-      - CYL-科技（2022.01.22） 195
-      - 169.197.142.99:8080
-      - 38.143.66.187:6697
-      - 193.108.118.36:8118
-      - 38.68.134.190:7306
-      - 38.68.134.191:8091
-      - 193.108.117.24:8080
-      - 169.197.143.219:8080
-      - 38.143.66.55:5001
-      - 38.75.136.49:5003
-      - 169.197.143.29:9101
-      - 169.197.143.29:8888
-      - 38.91.100.102:7002
-      - 38.68.134.190:8090
-      - CYL-科技（2022.01.22） 218
-      - CYL-科技（2022.01.15） 2
-      - CYL-科技（2022.01.22） 111
-      - CYL-科技（2022.01.22） 95
-      - CYL-科技（2022.01.22） 13
-      - CYL-科技（2022.01.22） 96
-      - CYL-科技（2022.01.22） 114
+      - CYL-科技（2022.01.22）
+      - 120.233.150.200:50301
+      - CYL-科技（2022.01.22） 2
+      - 120.233.150.200:50302
+      - 香港_阿伟科技-油管
+      - YouTube由零开始-香港
       - CYL-科技（2022.01.22） 3
-      - CYL-科技（2022.01.22） 123
-      - CYL-科技（2022.01.22） 108
-      - CYL-科技（2022.01.22） 106 2
+      - 中国_阿伟科技-油管
+      - 中国_阿伟科技-油管 2
+      - YouTube由零开始-香港 2
+      - 中国_阿伟科技-油管 3
+      - 香港阿伟科技-油管
+      - YouTube由零开始-香港 3
+      - YouTube-由零开始-美国
+      - 中国_阿伟科技-油管 4
+      - YouTube由零开始-美国
+      - 中国_阿伟科技-油管 5
+      - YouTube由零开始-美国 2
+      - CYL-科技（2022.01.22） 4
+      - CYL-科技（2022.01.22） 5
+      - CYL-科技（2022.01.22） 6
+      - CYL-科技（2022.01.22） 7
+      - 美国阿伟科技-油管
+      - YouTube由零开始-美国 3
+      - CYL-科技（2022.01.22） 8
+      - CYL-科技（2022.01.22） 9
+      - CYL-科技（2022.01.22） 10
+      - CYL-科技（2022.01.22） 11
+      - CYL-科技（2022.01.22） 12
+      - CYL-科技（2022.01.22） 13
+      - CYL-科技（2022.01.22） 14
+      - CYL-科技（2022.01.22） 15
+      - CYL-科技（2022.01.22） 16
+      - CYL-科技（2022.01.22） 17
+      - CYL-科技（2022.01.22） 18
+      - CYL-科技（2022.01.22） 19
+      - CYL-科技（2022.01.22） 20
+      - CYL-科技（2022.01.22） 21
+      - CYL-科技（2022.01.22） 22
+      - CYL-科技（2022.01.22） 23
+      - CYL-科技（2022.01.22） 24
+      - CYL-科技（2022.01.22） 25
+      - 38.75.136.49:7001
+      - CYL-科技（2022.01.22） 26
+      - CYL-科技（2022.01.22） 27
+      - CYL-科技（2022.01.22） 28
+      - 38.75.136.49:9101
+      - CYL-科技（2022.01.22） 29
+      - CYL-科技（2022.01.22） 30
+      - CYL-科技（2022.01.22） 31
+      - CYL-科技（2022.01.22） 32
+      - CYL-科技（2022.01.22） 33
+      - CYL-科技（2022.01.22） 34
+      - CYL-科技（2022.01.22） 35
+      - 美国_阿伟科技-油管
+      - CYL-科技（2022.01.22） 36
+      - CYL-科技（2022.01.22） 37
+      - CYL-科技（2022.01.22） 38
+      - CYL-科技（2022.01.22） 39
+      - CYL-科技（2022.01.22） 40
+      - 38.143.66.187:5003
+      - YouTube由零开始-印尼
+      - CYL-科技（2022.01.22） 41
+      - CYL-科技（2022.01.22） 42
+      - CYL-科技（2022.01.22） 43
+      - CYL-科技（2022.01.22） 44
+      - CYL-科技（2022.01.22） 45
+      - CYL-科技（2022.01.22） 46
+      - CYL-科技（2022.01.22） 47
+      - CYL-科技（2022.01.22） 48
+      - CYL-科技（2022.01.22） 49
+      - CYL-科技（2022.01.22） 50
+      - CYL-科技（2022.01.22） 51
+      - CYL-科技（2022.01.22） 52
+      - CYL-科技（2022.01.22） 53
+      - CYL-科技（2022.01.22） 54
+      - CYL-科技（2022.01.22） 55
+      - CYL-科技（2022.01.22） 56
+      - CYL-科技（2022.01.22） 57
+      - 美国_阿伟科技-油管 2
+      - CYL-科技（2022.01.22） 58
+      - CYL-科技（2022.01.22） 59
+      - CYL-科技（2022.01.22） 60
+      - CYL-科技（2022.01.22） 61
+      - CYL-科技（2022.01.22） 62
+      - CYL-科技（2022.01.22） 63
+      - CYL-科技（2022.01.22） 64
+      - CYL-科技（2022.01.22） 65
+      - CYL-科技（2022.01.22） 66
+      - CYL-科技（2022.01.22） 67
+      - CYL-科技（2022.01.22） 68
+      - CYL-科技（2022.01.22） 69
+      - CYL-科技（2022.01.22） 70
+      - CYL-科技（2022.01.22） 71
+      - CYL-科技（2022.01.22） 72
+      - CYL-科技（2022.01.22） 73
+      - CYL-科技（2022.01.22） 74
+      - CYL-科技（2022.01.22） 75
+      - CYL-科技（2022.01.22） 76
+      - CYL-科技（2022.01.22） 77
+      - CYL-科技（2022.01.22） 78
+      - CYL-科技（2022.01.22） 79
+      - CYL-科技（2022.01.22） 80
+      - 中国_阿伟科技-油管 6
+      - 香港_阿伟科技-油管 2
+      - YouTube由零开始-新加坡
+      - CYL-科技（2022.01.22） 81
+      - CYL-科技（2022.01.22） 82
+      - CYL-科技（2022.01.22） 83
+      - CYL-科技（2022.01.22） 84
+      - CYL-科技（2022.01.22） 85
+      - YouTube由零开始-日本
+      - CYL-科技（2022.01.22） 86
+      - 日本阿伟科技-油管
+      - 中国_阿伟科技-油管 7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -946,116 +986,121 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CYL-科技（2022.01.22） 25
-      - CYL-科技（2022.01.22） 37
-      - CYL-科技（2022.01.22） 125
-      - CYL-科技（2022.01.22） 107
-      - CYL-科技（2022.01.22） 76
-      - CYL-科技（2022.01.22） 86
-      - CYL-科技（2022.01.22） 106
-      - CYL-科技（2022.01.22） 24
-      - CYL-科技（2022.01.22） 30
-      - CYL-科技（2022.01.22） 167
-      - CYL-科技（2022.01.22） 120
-      - CYL-科技（2022.01.22） 234
-      - CYL-科技（2022.01.22） 47
-      - CYL-科技（2022.01.22） 214
-      - CYL-科技（2022.01.22） 118
-      - CYL-科技（2022.01.22） 159
-      - 117.28.243.173:4173
-      - CYL-科技（2022.01.22） 260
-      - 169.197.142.99:8008
-      - CYL-科技（2022.01.22） 107 2
-      - 169.197.142.99:7002
-      - 38.75.136.49:2375
-      - 38.75.136.49:8881
-      - 38.75.136.49:7002
-      - 169.197.142.99:6679
-      - 38.75.136.49:8118
-      - 38.143.66.210:2375
-      - 38.75.136.49:9101
-      - 38.75.136.49:8091
-      - 38.75.136.49:9102
-      - 38.75.136.49:8008
-      - 38.75.136.49:7001
-      - 38.75.136.49:5004
-      - CYL-科技（2022.01.22） 286
-      - 38.143.66.20:6697
-      - 38.75.136.49:8009
-      - 38.143.66.210:6697
-      - 169.197.143.29:6697
-      - CYL-科技（2022.01.22） 35
-      - 169.197.142.99:5003
-      - 169.197.142.99:8090
-      - 38.143.66.20:5500
-      - CYL-科技（2022.01.22） 104
-      - 38.143.66.20:8008
-      - 169.197.143.29:5004
-      - 38.143.66.55:2376
-      - 38.143.66.20:8118
-      - 169.197.143.219:5003
-      - 169.197.143.29:5500
-      - 38.68.134.23:5004
-      - 38.143.66.210:7001
-      - CYL-科技（2022.01.22） 8
-      - 169.197.143.219:7307
-      - 20.111.31.233:80
-      - 38.75.136.49:7307
-      - 169.197.143.29:5003
-      - CYL-科技（2022.01.22） 215
-      - 38.143.66.87:7001
-      - 38.143.66.87:8091
-      - CYL-科技（2022.01.22） 300
-      - 169.197.143.29:7307
-      - CYL-科技（2022.01.22） 4
-      - 169.197.142.99:7001
-      - 169.197.143.219:8881
-      - 38.143.66.20:7001
-      - 38.68.134.190:8080
-      - 38.114.114.49:5003
-      - 38.143.66.187:9102
-      - CYL-科技（2022.01.22） 6
-      - 38.75.136.49:2376
-      - 169.197.143.219:5004
-      - 38.143.66.187:8882
-      - 38.143.66.87:8009
-      - 193.108.118.36:5004
-      - CYL-科技（2022.01.22） 220
-      - CYL-科技（2022.01.15）
-      - 169.197.143.219:6697
-      - 38.143.66.55:8090
-      - 38.143.66.187:8090
-      - 38.143.66.55:6379
-      - 38.68.134.23:2375
-      - CYL-科技（2022.01.22） 261
-      - CYL-科技（2022.01.22） 202
-      - 38.143.66.20:5001
-      - 38.143.66.210:5500
-      - CYL-科技（2022.01.22） 195
-      - 169.197.142.99:8080
-      - 38.143.66.187:6697
-      - 193.108.118.36:8118
-      - 38.68.134.190:7306
-      - 38.68.134.191:8091
-      - 193.108.117.24:8080
-      - 169.197.143.219:8080
-      - 38.143.66.55:5001
-      - 38.75.136.49:5003
-      - 169.197.143.29:9101
-      - 169.197.143.29:8888
-      - 38.91.100.102:7002
-      - 38.68.134.190:8090
-      - CYL-科技（2022.01.22） 218
-      - CYL-科技（2022.01.15） 2
-      - CYL-科技（2022.01.22） 111
-      - CYL-科技（2022.01.22） 95
-      - CYL-科技（2022.01.22） 13
-      - CYL-科技（2022.01.22） 96
-      - CYL-科技（2022.01.22） 114
+      - CYL-科技（2022.01.22）
+      - 120.233.150.200:50301
+      - CYL-科技（2022.01.22） 2
+      - 120.233.150.200:50302
+      - 香港_阿伟科技-油管
+      - YouTube由零开始-香港
       - CYL-科技（2022.01.22） 3
-      - CYL-科技（2022.01.22） 123
-      - CYL-科技（2022.01.22） 108
-      - CYL-科技（2022.01.22） 106 2
+      - 中国_阿伟科技-油管
+      - 中国_阿伟科技-油管 2
+      - YouTube由零开始-香港 2
+      - 中国_阿伟科技-油管 3
+      - 香港阿伟科技-油管
+      - YouTube由零开始-香港 3
+      - YouTube-由零开始-美国
+      - 中国_阿伟科技-油管 4
+      - YouTube由零开始-美国
+      - 中国_阿伟科技-油管 5
+      - YouTube由零开始-美国 2
+      - CYL-科技（2022.01.22） 4
+      - CYL-科技（2022.01.22） 5
+      - CYL-科技（2022.01.22） 6
+      - CYL-科技（2022.01.22） 7
+      - 美国阿伟科技-油管
+      - YouTube由零开始-美国 3
+      - CYL-科技（2022.01.22） 8
+      - CYL-科技（2022.01.22） 9
+      - CYL-科技（2022.01.22） 10
+      - CYL-科技（2022.01.22） 11
+      - CYL-科技（2022.01.22） 12
+      - CYL-科技（2022.01.22） 13
+      - CYL-科技（2022.01.22） 14
+      - CYL-科技（2022.01.22） 15
+      - CYL-科技（2022.01.22） 16
+      - CYL-科技（2022.01.22） 17
+      - CYL-科技（2022.01.22） 18
+      - CYL-科技（2022.01.22） 19
+      - CYL-科技（2022.01.22） 20
+      - CYL-科技（2022.01.22） 21
+      - CYL-科技（2022.01.22） 22
+      - CYL-科技（2022.01.22） 23
+      - CYL-科技（2022.01.22） 24
+      - CYL-科技（2022.01.22） 25
+      - 38.75.136.49:7001
+      - CYL-科技（2022.01.22） 26
+      - CYL-科技（2022.01.22） 27
+      - CYL-科技（2022.01.22） 28
+      - 38.75.136.49:9101
+      - CYL-科技（2022.01.22） 29
+      - CYL-科技（2022.01.22） 30
+      - CYL-科技（2022.01.22） 31
+      - CYL-科技（2022.01.22） 32
+      - CYL-科技（2022.01.22） 33
+      - CYL-科技（2022.01.22） 34
+      - CYL-科技（2022.01.22） 35
+      - 美国_阿伟科技-油管
+      - CYL-科技（2022.01.22） 36
+      - CYL-科技（2022.01.22） 37
+      - CYL-科技（2022.01.22） 38
+      - CYL-科技（2022.01.22） 39
+      - CYL-科技（2022.01.22） 40
+      - 38.143.66.187:5003
+      - YouTube由零开始-印尼
+      - CYL-科技（2022.01.22） 41
+      - CYL-科技（2022.01.22） 42
+      - CYL-科技（2022.01.22） 43
+      - CYL-科技（2022.01.22） 44
+      - CYL-科技（2022.01.22） 45
+      - CYL-科技（2022.01.22） 46
+      - CYL-科技（2022.01.22） 47
+      - CYL-科技（2022.01.22） 48
+      - CYL-科技（2022.01.22） 49
+      - CYL-科技（2022.01.22） 50
+      - CYL-科技（2022.01.22） 51
+      - CYL-科技（2022.01.22） 52
+      - CYL-科技（2022.01.22） 53
+      - CYL-科技（2022.01.22） 54
+      - CYL-科技（2022.01.22） 55
+      - CYL-科技（2022.01.22） 56
+      - CYL-科技（2022.01.22） 57
+      - 美国_阿伟科技-油管 2
+      - CYL-科技（2022.01.22） 58
+      - CYL-科技（2022.01.22） 59
+      - CYL-科技（2022.01.22） 60
+      - CYL-科技（2022.01.22） 61
+      - CYL-科技（2022.01.22） 62
+      - CYL-科技（2022.01.22） 63
+      - CYL-科技（2022.01.22） 64
+      - CYL-科技（2022.01.22） 65
+      - CYL-科技（2022.01.22） 66
+      - CYL-科技（2022.01.22） 67
+      - CYL-科技（2022.01.22） 68
+      - CYL-科技（2022.01.22） 69
+      - CYL-科技（2022.01.22） 70
+      - CYL-科技（2022.01.22） 71
+      - CYL-科技（2022.01.22） 72
+      - CYL-科技（2022.01.22） 73
+      - CYL-科技（2022.01.22） 74
+      - CYL-科技（2022.01.22） 75
+      - CYL-科技（2022.01.22） 76
+      - CYL-科技（2022.01.22） 77
+      - CYL-科技（2022.01.22） 78
+      - CYL-科技（2022.01.22） 79
+      - CYL-科技（2022.01.22） 80
+      - 中国_阿伟科技-油管 6
+      - 香港_阿伟科技-油管 2
+      - YouTube由零开始-新加坡
+      - CYL-科技（2022.01.22） 81
+      - CYL-科技（2022.01.22） 82
+      - CYL-科技（2022.01.22） 83
+      - CYL-科技（2022.01.22） 84
+      - CYL-科技（2022.01.22） 85
+      - YouTube由零开始-日本
+      - CYL-科技（2022.01.22） 86
+      - 日本阿伟科技-油管
+      - 中国_阿伟科技-油管 7
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
