@@ -5,399 +5,335 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 中国【YouTube由零開始】, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 日本阿伟科技-油管, server: 83.wgong.xyz, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube由零开始-新加坡, server: 96.wgong.xyz, port: 52296, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: CYL-科技（2022.01.22）, server: 119.wgong.xyz, port: 52219, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技-油管, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港【YouTube由零開始】, server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.22） 2, server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 120.233.150.200:50301, server: 120.233.150.200, port: 50301, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9, udp: true}
-  - {name: 中国【YouTube由零開始】 2, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国_阿伟科技-油管, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国【YouTube由零開始】 3, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国【YouTube由零開始】 4, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国_阿伟科技-油管 2, server: vipdedi.boom.ovh, port: 65521, type: vmess, uuid: a8d9724a-d61c-3d85-8cad-07e4d45a9441, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mydisk, ws-headers: {Host: vipdedi.boom.ovh}, udp: true}
-  - {name: CYL-科技（2022.01.22） 2, server: 104.24.223.86, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: us.fovi.tk}, udp: true}
-  - {name: 117.28.243.220:8254, server: 117.28.243.220, port: 8254, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 169.197.142.99:8000, server: 169.197.142.99, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 中国【YouTube由零開始】, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.22） 3, server: 104.24.223.86, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: us.fovi.tk}, udp: true}
+  - {name: 38.75.136.49:6697, server: 38.75.136.49, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 38.75.136.49:8118, server: 38.75.136.49, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 38.75.136.49:6679, server: 38.75.136.49, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 38.75.136.49:8091, server: 38.75.136.49, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 38.75.136.49:9101, server: 38.75.136.49, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 169.197.142.99:7001, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 38.75.136.45:6679, server: 38.75.136.45, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: 38.75.136.45:8000, server: 38.75.136.45, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 169.197.142.99:5500, server: 169.197.142.99, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 167.88.61.130:8000, server: 167.88.61.130, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 38.75.136.49:2375, server: 38.75.136.49, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国【YouTube由零開始】, server: 104.243.18.76, port: 40833, type: vmess, uuid: 68b0b2a9-f0cb-4c49-b343-5d2bd12ddb68, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 38.75.136.49:8080, server: 38.75.136.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 169.197.142.99:2376, server: 169.197.142.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 169.197.142.99:8882, server: 169.197.142.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 169.197.142.99:8118, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 38.75.136.49:8119, server: 38.75.136.49, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: 38.75.136.49:8009, server: 38.75.136.49, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 38.75.136.49:7307, server: 38.75.136.49, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 169.197.142.99:8009, server: 169.197.142.99, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 38.75.136.49:9101, server: 38.75.136.49, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 美国_阿伟科技-油管, server: 156.251.189.244, port: 36837, type: vmess, uuid: d35c3589-6742-42a3-b86f-426f8a92ba44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 169.197.142.99:6679, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 169.197.142.99:8080, server: 169.197.142.99, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 169.197.142.99:6379, server: 169.197.142.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 美国【YouTube由零開始】 2, server: 38.143.66.20, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 38.75.136.49:8118, server: 38.75.136.49, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 169.197.142.99:7002, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 169.197.142.99:8881, server: 169.197.142.99, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 38.75.136.49:8008, server: 38.75.136.49, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 169.197.142.99:7306, server: 169.197.142.99, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 38.143.66.187:8090, server: 38.143.66.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 169.197.143.29:6679, server: 169.197.143.29, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 169.197.143.29:8881, server: 169.197.143.29, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 169.197.142.99:7001, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 169.197.143.29:7001, server: 169.197.143.29, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 38.75.136.49:6679, server: 38.75.136.49, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 169.197.142.99:2375, server: 169.197.142.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 38.75.136.49:8882, server: 38.75.136.49, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 169.197.143.29:8882, server: 169.197.143.29, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 38.143.66.187:9102, server: 38.143.66.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 38.143.66.55:8882, server: 38.143.66.55, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 38.143.66.210:9101, server: 38.143.66.210, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国, server: 38.75.136.93, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 169.197.142.99:9102, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 38.143.66.87:8881, server: 38.143.66.87, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 169.197.142.99:5004, server: 169.197.142.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 38.143.66.187:6697, server: 38.143.66.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 38.75.136.49:2376, server: 38.75.136.49, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 169.197.143.29:7002, server: 169.197.143.29, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 38.75.136.49:9102, server: 38.75.136.49, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: 38.143.66.87:9102, server: 38.143.66.87, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 38.143.66.20:8090, server: 38.143.66.20, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 38.75.136.49:8119, server: 38.75.136.49, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 169.197.142.99:5500, server: 169.197.142.99, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 38.75.136.49:2375, server: 38.75.136.49, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 169.197.142.99:2375, server: 169.197.142.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 38.143.66.210:6679, server: 38.143.66.210, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 169.197.142.99:6679, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 38.75.136.49:9102, server: 38.75.136.49, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 169.197.142.99:8882, server: 169.197.142.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 38.143.66.20:8080, server: 38.143.66.20, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 38.143.66.20:9101, server: 38.143.66.20, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 38.75.136.93:7306, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 169.197.143.29:8008, server: 169.197.143.29, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国 2, server: 38.75.136.93, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 38.75.136.49:8091, server: 38.75.136.49, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 38.143.66.20:8118, server: 38.143.66.20, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 38.143.66.20:7001, server: 38.143.66.20, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 38.143.66.55:7306, server: 38.143.66.55, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 38.143.66.210:9102, server: 38.143.66.210, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 38.143.66.55:6379, server: 38.143.66.55, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 38.143.66.55:2375, server: 38.143.66.55, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 3, server: 38.75.136.93, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 38.143.66.20:8882, server: 38.143.66.20, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 38.143.66.87:7001, server: 38.143.66.87, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 38.143.66.210:8000, server: 38.143.66.210, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 4, server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 169.197.143.29:8090, server: 169.197.143.29, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 美国阿伟科技-油管, server: nmsl.ezydfdd.com, port: 443, type: trojan, password: gbflFU2N0S4IkM8c, sni: nmsl.ezydfdd.com, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 5, server: 38.75.136.93, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 38.143.66.55:5004, server: 38.143.66.55, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 38.143.66.87:5500, server: 38.143.66.87, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 38.143.66.87:2375, server: 38.143.66.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 38.75.136.49:8008, server: 38.75.136.49, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 169.197.142.99:2376, server: 169.197.142.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 38.143.66.20:7001, server: 38.143.66.20, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 38.143.66.87:6379, server: 38.143.66.87, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 169.197.143.29:7001, server: 169.197.143.29, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 169.197.142.99:8080, server: 169.197.142.99, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 169.197.143.29:8882, server: 169.197.143.29, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 38.143.66.187:5003, server: 38.143.66.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国_阿伟科技-油管, server: wq199879.gq, port: 34321, type: vmess, uuid: 9e42e8b4-31ef-4c00-be7d-e23ee7aeafe6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 38.143.66.20:7306, server: 38.143.66.20, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国_阿伟科技-油管 2, server: 156.251.189.244, port: 36837, type: vmess, uuid: d35c3589-6742-42a3-b86f-426f8a92ba44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 38.143.66.210:8000, server: 38.143.66.210, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 38.75.136.49:7001, server: 38.75.136.49, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 38.143.66.210:8882, server: 38.143.66.210, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 169.197.142.99:5004, server: 169.197.142.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 38.143.66.20:8882, server: 38.143.66.20, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 38.75.136.49:8882, server: 38.75.136.49, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 169.197.142.99:9102, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 38.143.66.187:6697, server: 38.143.66.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 169.197.143.29:7002, server: 169.197.143.29, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 38.143.66.20:9101, server: 38.143.66.20, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 38.143.66.20:5003, server: 38.143.66.20, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 169.197.142.99:8118, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国【YouTube由零開始】, server: 38.143.66.20, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 169.197.143.29:6679, server: 169.197.143.29, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 38.143.66.87:8881, server: 38.143.66.87, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 38.143.66.210:7307, server: 38.143.66.210, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 169.197.143.29:8881, server: 169.197.143.29, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 38.143.66.210:9101, server: 38.143.66.210, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: 38.143.66.55:5003, server: 38.143.66.55, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CYL-科技（2022.01.22） 3, server: 100.wgong.xyz, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.22） 4, server: 100.wgong.xyz, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国_阿伟科技-油管 3, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技-油管 2, server: azhk.pluscloud.top, port: 443, type: trojan, password: b231bb88-b550-4a6d-b36e-41a3d5b50419, sni: azhk.pluscloud.top, skip-cert-verify: true, udp: true}
-  - {name: 中国_阿伟科技-油管 4, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 38.143.66.210:8881, server: 38.143.66.210, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国阿伟科技-油管1, server: free-us01.starlink.cyou, port: 21168, type: vmess, uuid: 32eb227a-9819-45e4-95ee-f2d50de52007, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: free-us01.starlink.cyou}, udp: true}
+  - {name: 38.143.66.55:443, server: 38.143.66.55, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 169.197.143.29:9102, server: 169.197.143.29, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 38.143.66.187:9101, server: 38.143.66.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 169.197.142.99:6379, server: 169.197.142.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 38.143.66.87:5500, server: 38.143.66.87, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 38.143.66.210:2375, server: 38.143.66.210, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 169.197.142.99:8881, server: 169.197.142.99, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 38.143.66.87:7001, server: 38.143.66.87, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 38.143.66.55:5004, server: 38.143.66.55, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 香港阿伟科技-油管, server: azhk.pluscloud.top, port: 443, type: trojan, password: b231bb88-b550-4a6d-b36e-41a3d5b50419, sni: azhk.pluscloud.top, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技-油管 2, server: gg.piyun.bid, port: 10651, type: trojan, password: 2803debb-27c4-455f-9bff-46ba0bebb710, sni: gg.piyun.bid, skip-cert-verify: true, udp: true}
   - {name: 香港_阿伟科技-油管, server: 107.wgong.xyz, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技-油管 3, server: gg.piyun.bid, port: 10651, type: trojan, password: 2803debb-27c4-455f-9bff-46ba0bebb710, sni: gg.piyun.bid, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.22） 5, server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.22） 6, server: 134.wgong.xyz, port: 52334, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.22） 7, server: 120.wgong.xyz, port: 52220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港【YouTube由零開始】, server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.22） 4, server: 134.wgong.xyz, port: 52334, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.22） 5, server: 120.wgong.xyz, port: 52220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube由零开始-新加坡, server: 96.wgong.xyz, port: 52296, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国【YouTube由零開始】
       - 日本阿伟科技-油管
-      - YouTube由零开始-新加坡
       - CYL-科技（2022.01.22）
-      - 香港阿伟科技-油管
-      - 120.233.150.200:50301
-      - 中国【YouTube由零開始】 2
-      - 中国_阿伟科技-油管
-      - 中国【YouTube由零開始】 3
-      - 中国【YouTube由零開始】 4
-      - 中国_阿伟科技-油管 2
+      - 香港【YouTube由零開始】
       - CYL-科技（2022.01.22） 2
-      - 117.28.243.220:8254
-      - 169.197.142.99:8000
+      - 120.233.150.200:50301
+      - 中国【YouTube由零開始】
+      - CYL-科技（2022.01.22） 3
+      - 38.75.136.49:6697
+      - 38.75.136.49:8118
+      - 38.75.136.49:6679
+      - 38.75.136.49:8091
+      - 38.75.136.49:9101
+      - 169.197.142.99:7001
+      - 38.75.136.45:6679
       - 38.75.136.45:8000
-      - 169.197.142.99:5500
-      - 167.88.61.130:8000
-      - 38.75.136.49:2375
-      - 美国【YouTube由零開始】
       - 38.75.136.49:8080
-      - 169.197.142.99:2376
-      - 169.197.142.99:8882
-      - 169.197.142.99:8118
-      - 38.75.136.49:8119
       - 38.75.136.49:8009
       - 38.75.136.49:7307
-      - 169.197.142.99:8009
-      - 38.75.136.49:9101
-      - 美国_阿伟科技-油管
-      - 169.197.142.99:6679
-      - 169.197.142.99:8080
-      - 169.197.142.99:6379
-      - 美国【YouTube由零開始】 2
-      - 38.75.136.49:8118
-      - 169.197.142.99:7002
-      - 169.197.142.99:8881
-      - 38.75.136.49:8008
       - 169.197.142.99:7306
-      - 38.143.66.187:8090
-      - 169.197.143.29:6679
-      - 169.197.143.29:8881
-      - 169.197.142.99:7001
-      - 169.197.143.29:7001
-      - 38.75.136.49:6679
-      - 169.197.142.99:2375
-      - 38.75.136.49:8882
-      - 169.197.143.29:8882
-      - 38.143.66.187:9102
-      - 38.143.66.55:8882
-      - 38.143.66.210:9101
-      - _US_美国
-      - 169.197.142.99:9102
-      - 38.143.66.87:8881
-      - 169.197.142.99:5004
-      - 38.143.66.187:6697
-      - 38.75.136.49:2376
-      - 169.197.143.29:7002
-      - 38.75.136.49:9102
       - 38.143.66.87:9102
-      - 38.143.66.20:8090
+      - 38.75.136.49:8119
+      - 169.197.142.99:5500
+      - 38.75.136.49:2375
+      - 169.197.142.99:2375
+      - 38.143.66.210:6679
+      - 169.197.142.99:6679
+      - 38.75.136.49:9102
+      - 169.197.142.99:8882
       - 38.143.66.20:8080
-      - 38.143.66.20:9101
-      - 38.75.136.93:7306
-      - 169.197.143.29:8008
-      - _US_美国 2
-      - 38.75.136.49:8091
-      - 38.143.66.20:8118
-      - 38.143.66.20:7001
-      - 38.143.66.55:7306
-      - 38.143.66.210:9102
-      - 38.143.66.55:6379
-      - 38.143.66.55:2375
-      - _US_美国 3
-      - 38.143.66.20:8882
-      - 38.143.66.87:7001
-      - 38.143.66.210:8000
-      - _US_美国 4
-      - 169.197.143.29:8090
       - 美国阿伟科技-油管
-      - _US_美国 5
-      - 38.143.66.55:5004
-      - 38.143.66.87:5500
+      - 38.143.66.87:2375
+      - 38.75.136.49:8008
+      - 169.197.142.99:2376
+      - 38.143.66.20:7001
+      - 38.143.66.87:6379
+      - 169.197.143.29:7001
+      - 169.197.142.99:8080
+      - 169.197.143.29:8882
+      - 38.143.66.187:5003
+      - 美国_阿伟科技-油管
+      - 38.143.66.20:7306
+      - 美国_阿伟科技-油管 2
+      - 38.143.66.210:8000
+      - 38.75.136.49:7001
+      - 38.143.66.210:8882
+      - 169.197.142.99:5004
+      - 38.143.66.20:8882
+      - 38.75.136.49:8882
+      - 169.197.142.99:9102
+      - 38.143.66.187:6697
+      - 169.197.143.29:7002
+      - 38.143.66.20:9101
+      - 38.143.66.20:5003
+      - 169.197.142.99:8118
+      - 美国【YouTube由零開始】
+      - 169.197.143.29:6679
+      - 38.143.66.87:8881
+      - 38.143.66.210:7307
+      - 169.197.143.29:8881
+      - 38.143.66.210:9101
       - 38.143.66.55:5003
-      - CYL-科技（2022.01.22） 3
-      - CYL-科技（2022.01.22） 4
-      - 中国_阿伟科技-油管 3
+      - 38.143.66.210:8881
+      - 美国阿伟科技-油管1
+      - 38.143.66.55:443
+      - 169.197.143.29:9102
+      - 38.143.66.187:9101
+      - 169.197.142.99:6379
+      - 38.143.66.87:5500
+      - 38.143.66.210:2375
+      - 169.197.142.99:8881
+      - 38.143.66.87:7001
+      - 38.143.66.55:5004
+      - 香港阿伟科技-油管
       - 香港阿伟科技-油管 2
-      - 中国_阿伟科技-油管 4
       - 香港_阿伟科技-油管
-      - 香港阿伟科技-油管 3
+      - CYL-科技（2022.01.22） 4
       - CYL-科技（2022.01.22） 5
-      - CYL-科技（2022.01.22） 6
-      - CYL-科技（2022.01.22） 7
-      - 香港【YouTube由零開始】
+      - YouTube由零开始-新加坡
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 中国【YouTube由零開始】
       - 日本阿伟科技-油管
-      - YouTube由零开始-新加坡
       - CYL-科技（2022.01.22）
-      - 香港阿伟科技-油管
-      - 120.233.150.200:50301
-      - 中国【YouTube由零開始】 2
-      - 中国_阿伟科技-油管
-      - 中国【YouTube由零開始】 3
-      - 中国【YouTube由零開始】 4
-      - 中国_阿伟科技-油管 2
+      - 香港【YouTube由零開始】
       - CYL-科技（2022.01.22） 2
-      - 117.28.243.220:8254
-      - 169.197.142.99:8000
+      - 120.233.150.200:50301
+      - 中国【YouTube由零開始】
+      - CYL-科技（2022.01.22） 3
+      - 38.75.136.49:6697
+      - 38.75.136.49:8118
+      - 38.75.136.49:6679
+      - 38.75.136.49:8091
+      - 38.75.136.49:9101
+      - 169.197.142.99:7001
+      - 38.75.136.45:6679
       - 38.75.136.45:8000
-      - 169.197.142.99:5500
-      - 167.88.61.130:8000
-      - 38.75.136.49:2375
-      - 美国【YouTube由零開始】
       - 38.75.136.49:8080
-      - 169.197.142.99:2376
-      - 169.197.142.99:8882
-      - 169.197.142.99:8118
-      - 38.75.136.49:8119
       - 38.75.136.49:8009
       - 38.75.136.49:7307
-      - 169.197.142.99:8009
-      - 38.75.136.49:9101
-      - 美国_阿伟科技-油管
-      - 169.197.142.99:6679
-      - 169.197.142.99:8080
-      - 169.197.142.99:6379
-      - 美国【YouTube由零開始】 2
-      - 38.75.136.49:8118
-      - 169.197.142.99:7002
-      - 169.197.142.99:8881
-      - 38.75.136.49:8008
       - 169.197.142.99:7306
-      - 38.143.66.187:8090
-      - 169.197.143.29:6679
-      - 169.197.143.29:8881
-      - 169.197.142.99:7001
-      - 169.197.143.29:7001
-      - 38.75.136.49:6679
-      - 169.197.142.99:2375
-      - 38.75.136.49:8882
-      - 169.197.143.29:8882
-      - 38.143.66.187:9102
-      - 38.143.66.55:8882
-      - 38.143.66.210:9101
-      - _US_美国
-      - 169.197.142.99:9102
-      - 38.143.66.87:8881
-      - 169.197.142.99:5004
-      - 38.143.66.187:6697
-      - 38.75.136.49:2376
-      - 169.197.143.29:7002
-      - 38.75.136.49:9102
       - 38.143.66.87:9102
-      - 38.143.66.20:8090
+      - 38.75.136.49:8119
+      - 169.197.142.99:5500
+      - 38.75.136.49:2375
+      - 169.197.142.99:2375
+      - 38.143.66.210:6679
+      - 169.197.142.99:6679
+      - 38.75.136.49:9102
+      - 169.197.142.99:8882
       - 38.143.66.20:8080
-      - 38.143.66.20:9101
-      - 38.75.136.93:7306
-      - 169.197.143.29:8008
-      - _US_美国 2
-      - 38.75.136.49:8091
-      - 38.143.66.20:8118
-      - 38.143.66.20:7001
-      - 38.143.66.55:7306
-      - 38.143.66.210:9102
-      - 38.143.66.55:6379
-      - 38.143.66.55:2375
-      - _US_美国 3
-      - 38.143.66.20:8882
-      - 38.143.66.87:7001
-      - 38.143.66.210:8000
-      - _US_美国 4
-      - 169.197.143.29:8090
       - 美国阿伟科技-油管
-      - _US_美国 5
-      - 38.143.66.55:5004
-      - 38.143.66.87:5500
+      - 38.143.66.87:2375
+      - 38.75.136.49:8008
+      - 169.197.142.99:2376
+      - 38.143.66.20:7001
+      - 38.143.66.87:6379
+      - 169.197.143.29:7001
+      - 169.197.142.99:8080
+      - 169.197.143.29:8882
+      - 38.143.66.187:5003
+      - 美国_阿伟科技-油管
+      - 38.143.66.20:7306
+      - 美国_阿伟科技-油管 2
+      - 38.143.66.210:8000
+      - 38.75.136.49:7001
+      - 38.143.66.210:8882
+      - 169.197.142.99:5004
+      - 38.143.66.20:8882
+      - 38.75.136.49:8882
+      - 169.197.142.99:9102
+      - 38.143.66.187:6697
+      - 169.197.143.29:7002
+      - 38.143.66.20:9101
+      - 38.143.66.20:5003
+      - 169.197.142.99:8118
+      - 美国【YouTube由零開始】
+      - 169.197.143.29:6679
+      - 38.143.66.87:8881
+      - 38.143.66.210:7307
+      - 169.197.143.29:8881
+      - 38.143.66.210:9101
       - 38.143.66.55:5003
-      - CYL-科技（2022.01.22） 3
-      - CYL-科技（2022.01.22） 4
-      - 中国_阿伟科技-油管 3
+      - 38.143.66.210:8881
+      - 美国阿伟科技-油管1
+      - 38.143.66.55:443
+      - 169.197.143.29:9102
+      - 38.143.66.187:9101
+      - 169.197.142.99:6379
+      - 38.143.66.87:5500
+      - 38.143.66.210:2375
+      - 169.197.142.99:8881
+      - 38.143.66.87:7001
+      - 38.143.66.55:5004
+      - 香港阿伟科技-油管
       - 香港阿伟科技-油管 2
-      - 中国_阿伟科技-油管 4
       - 香港_阿伟科技-油管
-      - 香港阿伟科技-油管 3
+      - CYL-科技（2022.01.22） 4
       - CYL-科技（2022.01.22） 5
-      - CYL-科技（2022.01.22） 6
-      - CYL-科技（2022.01.22） 7
-      - 香港【YouTube由零開始】
+      - YouTube由零开始-新加坡
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国【YouTube由零開始】
       - 日本阿伟科技-油管
-      - YouTube由零开始-新加坡
       - CYL-科技（2022.01.22）
-      - 香港阿伟科技-油管
-      - 120.233.150.200:50301
-      - 中国【YouTube由零開始】 2
-      - 中国_阿伟科技-油管
-      - 中国【YouTube由零開始】 3
-      - 中国【YouTube由零開始】 4
-      - 中国_阿伟科技-油管 2
+      - 香港【YouTube由零開始】
       - CYL-科技（2022.01.22） 2
-      - 117.28.243.220:8254
-      - 169.197.142.99:8000
+      - 120.233.150.200:50301
+      - 中国【YouTube由零開始】
+      - CYL-科技（2022.01.22） 3
+      - 38.75.136.49:6697
+      - 38.75.136.49:8118
+      - 38.75.136.49:6679
+      - 38.75.136.49:8091
+      - 38.75.136.49:9101
+      - 169.197.142.99:7001
+      - 38.75.136.45:6679
       - 38.75.136.45:8000
-      - 169.197.142.99:5500
-      - 167.88.61.130:8000
-      - 38.75.136.49:2375
-      - 美国【YouTube由零開始】
       - 38.75.136.49:8080
-      - 169.197.142.99:2376
-      - 169.197.142.99:8882
-      - 169.197.142.99:8118
-      - 38.75.136.49:8119
       - 38.75.136.49:8009
       - 38.75.136.49:7307
-      - 169.197.142.99:8009
-      - 38.75.136.49:9101
-      - 美国_阿伟科技-油管
-      - 169.197.142.99:6679
-      - 169.197.142.99:8080
-      - 169.197.142.99:6379
-      - 美国【YouTube由零開始】 2
-      - 38.75.136.49:8118
-      - 169.197.142.99:7002
-      - 169.197.142.99:8881
-      - 38.75.136.49:8008
       - 169.197.142.99:7306
-      - 38.143.66.187:8090
-      - 169.197.143.29:6679
-      - 169.197.143.29:8881
-      - 169.197.142.99:7001
-      - 169.197.143.29:7001
-      - 38.75.136.49:6679
-      - 169.197.142.99:2375
-      - 38.75.136.49:8882
-      - 169.197.143.29:8882
-      - 38.143.66.187:9102
-      - 38.143.66.55:8882
-      - 38.143.66.210:9101
-      - _US_美国
-      - 169.197.142.99:9102
-      - 38.143.66.87:8881
-      - 169.197.142.99:5004
-      - 38.143.66.187:6697
-      - 38.75.136.49:2376
-      - 169.197.143.29:7002
-      - 38.75.136.49:9102
       - 38.143.66.87:9102
-      - 38.143.66.20:8090
+      - 38.75.136.49:8119
+      - 169.197.142.99:5500
+      - 38.75.136.49:2375
+      - 169.197.142.99:2375
+      - 38.143.66.210:6679
+      - 169.197.142.99:6679
+      - 38.75.136.49:9102
+      - 169.197.142.99:8882
       - 38.143.66.20:8080
-      - 38.143.66.20:9101
-      - 38.75.136.93:7306
-      - 169.197.143.29:8008
-      - _US_美国 2
-      - 38.75.136.49:8091
-      - 38.143.66.20:8118
-      - 38.143.66.20:7001
-      - 38.143.66.55:7306
-      - 38.143.66.210:9102
-      - 38.143.66.55:6379
-      - 38.143.66.55:2375
-      - _US_美国 3
-      - 38.143.66.20:8882
-      - 38.143.66.87:7001
-      - 38.143.66.210:8000
-      - _US_美国 4
-      - 169.197.143.29:8090
       - 美国阿伟科技-油管
-      - _US_美国 5
-      - 38.143.66.55:5004
-      - 38.143.66.87:5500
+      - 38.143.66.87:2375
+      - 38.75.136.49:8008
+      - 169.197.142.99:2376
+      - 38.143.66.20:7001
+      - 38.143.66.87:6379
+      - 169.197.143.29:7001
+      - 169.197.142.99:8080
+      - 169.197.143.29:8882
+      - 38.143.66.187:5003
+      - 美国_阿伟科技-油管
+      - 38.143.66.20:7306
+      - 美国_阿伟科技-油管 2
+      - 38.143.66.210:8000
+      - 38.75.136.49:7001
+      - 38.143.66.210:8882
+      - 169.197.142.99:5004
+      - 38.143.66.20:8882
+      - 38.75.136.49:8882
+      - 169.197.142.99:9102
+      - 38.143.66.187:6697
+      - 169.197.143.29:7002
+      - 38.143.66.20:9101
+      - 38.143.66.20:5003
+      - 169.197.142.99:8118
+      - 美国【YouTube由零開始】
+      - 169.197.143.29:6679
+      - 38.143.66.87:8881
+      - 38.143.66.210:7307
+      - 169.197.143.29:8881
+      - 38.143.66.210:9101
       - 38.143.66.55:5003
-      - CYL-科技（2022.01.22） 3
-      - CYL-科技（2022.01.22） 4
-      - 中国_阿伟科技-油管 3
+      - 38.143.66.210:8881
+      - 美国阿伟科技-油管1
+      - 38.143.66.55:443
+      - 169.197.143.29:9102
+      - 38.143.66.187:9101
+      - 169.197.142.99:6379
+      - 38.143.66.87:5500
+      - 38.143.66.210:2375
+      - 169.197.142.99:8881
+      - 38.143.66.87:7001
+      - 38.143.66.55:5004
+      - 香港阿伟科技-油管
       - 香港阿伟科技-油管 2
-      - 中国_阿伟科技-油管 4
       - 香港_阿伟科技-油管
-      - 香港阿伟科技-油管 3
+      - CYL-科技（2022.01.22） 4
       - CYL-科技（2022.01.22） 5
-      - CYL-科技（2022.01.22） 6
-      - CYL-科技（2022.01.22） 7
-      - 香港【YouTube由零開始】
+      - YouTube由零开始-新加坡
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -416,408 +352,343 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国【YouTube由零開始】
       - 日本阿伟科技-油管
-      - YouTube由零开始-新加坡
       - CYL-科技（2022.01.22）
-      - 香港阿伟科技-油管
-      - 120.233.150.200:50301
-      - 中国【YouTube由零開始】 2
-      - 中国_阿伟科技-油管
-      - 中国【YouTube由零開始】 3
-      - 中国【YouTube由零開始】 4
-      - 中国_阿伟科技-油管 2
+      - 香港【YouTube由零開始】
       - CYL-科技（2022.01.22） 2
-      - 117.28.243.220:8254
-      - 169.197.142.99:8000
+      - 120.233.150.200:50301
+      - 中国【YouTube由零開始】
+      - CYL-科技（2022.01.22） 3
+      - 38.75.136.49:6697
+      - 38.75.136.49:8118
+      - 38.75.136.49:6679
+      - 38.75.136.49:8091
+      - 38.75.136.49:9101
+      - 169.197.142.99:7001
+      - 38.75.136.45:6679
       - 38.75.136.45:8000
-      - 169.197.142.99:5500
-      - 167.88.61.130:8000
-      - 38.75.136.49:2375
-      - 美国【YouTube由零開始】
       - 38.75.136.49:8080
-      - 169.197.142.99:2376
-      - 169.197.142.99:8882
-      - 169.197.142.99:8118
-      - 38.75.136.49:8119
       - 38.75.136.49:8009
       - 38.75.136.49:7307
-      - 169.197.142.99:8009
-      - 38.75.136.49:9101
-      - 美国_阿伟科技-油管
-      - 169.197.142.99:6679
-      - 169.197.142.99:8080
-      - 169.197.142.99:6379
-      - 美国【YouTube由零開始】 2
-      - 38.75.136.49:8118
-      - 169.197.142.99:7002
-      - 169.197.142.99:8881
-      - 38.75.136.49:8008
       - 169.197.142.99:7306
-      - 38.143.66.187:8090
-      - 169.197.143.29:6679
-      - 169.197.143.29:8881
-      - 169.197.142.99:7001
-      - 169.197.143.29:7001
-      - 38.75.136.49:6679
-      - 169.197.142.99:2375
-      - 38.75.136.49:8882
-      - 169.197.143.29:8882
-      - 38.143.66.187:9102
-      - 38.143.66.55:8882
-      - 38.143.66.210:9101
-      - _US_美国
-      - 169.197.142.99:9102
-      - 38.143.66.87:8881
-      - 169.197.142.99:5004
-      - 38.143.66.187:6697
-      - 38.75.136.49:2376
-      - 169.197.143.29:7002
-      - 38.75.136.49:9102
       - 38.143.66.87:9102
-      - 38.143.66.20:8090
+      - 38.75.136.49:8119
+      - 169.197.142.99:5500
+      - 38.75.136.49:2375
+      - 169.197.142.99:2375
+      - 38.143.66.210:6679
+      - 169.197.142.99:6679
+      - 38.75.136.49:9102
+      - 169.197.142.99:8882
       - 38.143.66.20:8080
-      - 38.143.66.20:9101
-      - 38.75.136.93:7306
-      - 169.197.143.29:8008
-      - _US_美国 2
-      - 38.75.136.49:8091
-      - 38.143.66.20:8118
-      - 38.143.66.20:7001
-      - 38.143.66.55:7306
-      - 38.143.66.210:9102
-      - 38.143.66.55:6379
-      - 38.143.66.55:2375
-      - _US_美国 3
-      - 38.143.66.20:8882
-      - 38.143.66.87:7001
-      - 38.143.66.210:8000
-      - _US_美国 4
-      - 169.197.143.29:8090
       - 美国阿伟科技-油管
-      - _US_美国 5
-      - 38.143.66.55:5004
-      - 38.143.66.87:5500
+      - 38.143.66.87:2375
+      - 38.75.136.49:8008
+      - 169.197.142.99:2376
+      - 38.143.66.20:7001
+      - 38.143.66.87:6379
+      - 169.197.143.29:7001
+      - 169.197.142.99:8080
+      - 169.197.143.29:8882
+      - 38.143.66.187:5003
+      - 美国_阿伟科技-油管
+      - 38.143.66.20:7306
+      - 美国_阿伟科技-油管 2
+      - 38.143.66.210:8000
+      - 38.75.136.49:7001
+      - 38.143.66.210:8882
+      - 169.197.142.99:5004
+      - 38.143.66.20:8882
+      - 38.75.136.49:8882
+      - 169.197.142.99:9102
+      - 38.143.66.187:6697
+      - 169.197.143.29:7002
+      - 38.143.66.20:9101
+      - 38.143.66.20:5003
+      - 169.197.142.99:8118
+      - 美国【YouTube由零開始】
+      - 169.197.143.29:6679
+      - 38.143.66.87:8881
+      - 38.143.66.210:7307
+      - 169.197.143.29:8881
+      - 38.143.66.210:9101
       - 38.143.66.55:5003
-      - CYL-科技（2022.01.22） 3
-      - CYL-科技（2022.01.22） 4
-      - 中国_阿伟科技-油管 3
+      - 38.143.66.210:8881
+      - 美国阿伟科技-油管1
+      - 38.143.66.55:443
+      - 169.197.143.29:9102
+      - 38.143.66.187:9101
+      - 169.197.142.99:6379
+      - 38.143.66.87:5500
+      - 38.143.66.210:2375
+      - 169.197.142.99:8881
+      - 38.143.66.87:7001
+      - 38.143.66.55:5004
+      - 香港阿伟科技-油管
       - 香港阿伟科技-油管 2
-      - 中国_阿伟科技-油管 4
       - 香港_阿伟科技-油管
-      - 香港阿伟科技-油管 3
+      - CYL-科技（2022.01.22） 4
       - CYL-科技（2022.01.22） 5
-      - CYL-科技（2022.01.22） 6
-      - CYL-科技（2022.01.22） 7
-      - 香港【YouTube由零開始】
+      - YouTube由零开始-新加坡
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港【YouTube由零開始】
       - 香港阿伟科技-油管
       - 香港阿伟科技-油管 2
       - 香港_阿伟科技-油管
-      - 香港阿伟科技-油管 3
-      - 香港【YouTube由零開始】
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 中国【YouTube由零開始】
       - 日本阿伟科技-油管
-      - YouTube由零开始-新加坡
       - CYL-科技（2022.01.22）
-      - 香港阿伟科技-油管
-      - 120.233.150.200:50301
-      - 中国【YouTube由零開始】 2
-      - 中国_阿伟科技-油管
-      - 中国【YouTube由零開始】 3
-      - 中国【YouTube由零開始】 4
-      - 中国_阿伟科技-油管 2
+      - 香港【YouTube由零開始】
       - CYL-科技（2022.01.22） 2
-      - 117.28.243.220:8254
-      - 169.197.142.99:8000
+      - 120.233.150.200:50301
+      - 中国【YouTube由零開始】
+      - CYL-科技（2022.01.22） 3
+      - 38.75.136.49:6697
+      - 38.75.136.49:8118
+      - 38.75.136.49:6679
+      - 38.75.136.49:8091
+      - 38.75.136.49:9101
+      - 169.197.142.99:7001
+      - 38.75.136.45:6679
       - 38.75.136.45:8000
-      - 169.197.142.99:5500
-      - 167.88.61.130:8000
-      - 38.75.136.49:2375
-      - 美国【YouTube由零開始】
       - 38.75.136.49:8080
-      - 169.197.142.99:2376
-      - 169.197.142.99:8882
-      - 169.197.142.99:8118
-      - 38.75.136.49:8119
       - 38.75.136.49:8009
       - 38.75.136.49:7307
-      - 169.197.142.99:8009
-      - 38.75.136.49:9101
-      - 美国_阿伟科技-油管
-      - 169.197.142.99:6679
-      - 169.197.142.99:8080
-      - 169.197.142.99:6379
-      - 美国【YouTube由零開始】 2
-      - 38.75.136.49:8118
-      - 169.197.142.99:7002
-      - 169.197.142.99:8881
-      - 38.75.136.49:8008
       - 169.197.142.99:7306
-      - 38.143.66.187:8090
-      - 169.197.143.29:6679
-      - 169.197.143.29:8881
-      - 169.197.142.99:7001
-      - 169.197.143.29:7001
-      - 38.75.136.49:6679
-      - 169.197.142.99:2375
-      - 38.75.136.49:8882
-      - 169.197.143.29:8882
-      - 38.143.66.187:9102
-      - 38.143.66.55:8882
-      - 38.143.66.210:9101
-      - _US_美国
-      - 169.197.142.99:9102
-      - 38.143.66.87:8881
-      - 169.197.142.99:5004
-      - 38.143.66.187:6697
-      - 38.75.136.49:2376
-      - 169.197.143.29:7002
-      - 38.75.136.49:9102
       - 38.143.66.87:9102
-      - 38.143.66.20:8090
+      - 38.75.136.49:8119
+      - 169.197.142.99:5500
+      - 38.75.136.49:2375
+      - 169.197.142.99:2375
+      - 38.143.66.210:6679
+      - 169.197.142.99:6679
+      - 38.75.136.49:9102
+      - 169.197.142.99:8882
       - 38.143.66.20:8080
-      - 38.143.66.20:9101
-      - 38.75.136.93:7306
-      - 169.197.143.29:8008
-      - _US_美国 2
-      - 38.75.136.49:8091
-      - 38.143.66.20:8118
-      - 38.143.66.20:7001
-      - 38.143.66.55:7306
-      - 38.143.66.210:9102
-      - 38.143.66.55:6379
-      - 38.143.66.55:2375
-      - _US_美国 3
-      - 38.143.66.20:8882
-      - 38.143.66.87:7001
-      - 38.143.66.210:8000
-      - _US_美国 4
-      - 169.197.143.29:8090
       - 美国阿伟科技-油管
-      - _US_美国 5
-      - 38.143.66.55:5004
-      - 38.143.66.87:5500
+      - 38.143.66.87:2375
+      - 38.75.136.49:8008
+      - 169.197.142.99:2376
+      - 38.143.66.20:7001
+      - 38.143.66.87:6379
+      - 169.197.143.29:7001
+      - 169.197.142.99:8080
+      - 169.197.143.29:8882
+      - 38.143.66.187:5003
+      - 美国_阿伟科技-油管
+      - 38.143.66.20:7306
+      - 美国_阿伟科技-油管 2
+      - 38.143.66.210:8000
+      - 38.75.136.49:7001
+      - 38.143.66.210:8882
+      - 169.197.142.99:5004
+      - 38.143.66.20:8882
+      - 38.75.136.49:8882
+      - 169.197.142.99:9102
+      - 38.143.66.187:6697
+      - 169.197.143.29:7002
+      - 38.143.66.20:9101
+      - 38.143.66.20:5003
+      - 169.197.142.99:8118
+      - 美国【YouTube由零開始】
+      - 169.197.143.29:6679
+      - 38.143.66.87:8881
+      - 38.143.66.210:7307
+      - 169.197.143.29:8881
+      - 38.143.66.210:9101
       - 38.143.66.55:5003
-      - CYL-科技（2022.01.22） 3
-      - CYL-科技（2022.01.22） 4
-      - 中国_阿伟科技-油管 3
+      - 38.143.66.210:8881
+      - 美国阿伟科技-油管1
+      - 38.143.66.55:443
+      - 169.197.143.29:9102
+      - 38.143.66.187:9101
+      - 169.197.142.99:6379
+      - 38.143.66.87:5500
+      - 38.143.66.210:2375
+      - 169.197.142.99:8881
+      - 38.143.66.87:7001
+      - 38.143.66.55:5004
+      - 香港阿伟科技-油管
       - 香港阿伟科技-油管 2
-      - 中国_阿伟科技-油管 4
       - 香港_阿伟科技-油管
-      - 香港阿伟科技-油管 3
+      - CYL-科技（2022.01.22） 4
       - CYL-科技（2022.01.22） 5
-      - CYL-科技（2022.01.22） 6
-      - CYL-科技（2022.01.22） 7
-      - 香港【YouTube由零開始】
+      - YouTube由零开始-新加坡
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 中国【YouTube由零開始】
       - 日本阿伟科技-油管
-      - YouTube由零开始-新加坡
       - CYL-科技（2022.01.22）
-      - 香港阿伟科技-油管
-      - 120.233.150.200:50301
-      - 中国【YouTube由零開始】 2
-      - 中国_阿伟科技-油管
-      - 中国【YouTube由零開始】 3
-      - 中国【YouTube由零開始】 4
-      - 中国_阿伟科技-油管 2
+      - 香港【YouTube由零開始】
       - CYL-科技（2022.01.22） 2
-      - 117.28.243.220:8254
-      - 169.197.142.99:8000
+      - 120.233.150.200:50301
+      - 中国【YouTube由零開始】
+      - CYL-科技（2022.01.22） 3
+      - 38.75.136.49:6697
+      - 38.75.136.49:8118
+      - 38.75.136.49:6679
+      - 38.75.136.49:8091
+      - 38.75.136.49:9101
+      - 169.197.142.99:7001
+      - 38.75.136.45:6679
       - 38.75.136.45:8000
-      - 169.197.142.99:5500
-      - 167.88.61.130:8000
-      - 38.75.136.49:2375
-      - 美国【YouTube由零開始】
       - 38.75.136.49:8080
-      - 169.197.142.99:2376
-      - 169.197.142.99:8882
-      - 169.197.142.99:8118
-      - 38.75.136.49:8119
       - 38.75.136.49:8009
       - 38.75.136.49:7307
-      - 169.197.142.99:8009
-      - 38.75.136.49:9101
-      - 美国_阿伟科技-油管
-      - 169.197.142.99:6679
-      - 169.197.142.99:8080
-      - 169.197.142.99:6379
-      - 美国【YouTube由零開始】 2
-      - 38.75.136.49:8118
-      - 169.197.142.99:7002
-      - 169.197.142.99:8881
-      - 38.75.136.49:8008
       - 169.197.142.99:7306
-      - 38.143.66.187:8090
-      - 169.197.143.29:6679
-      - 169.197.143.29:8881
-      - 169.197.142.99:7001
-      - 169.197.143.29:7001
-      - 38.75.136.49:6679
-      - 169.197.142.99:2375
-      - 38.75.136.49:8882
-      - 169.197.143.29:8882
-      - 38.143.66.187:9102
-      - 38.143.66.55:8882
-      - 38.143.66.210:9101
-      - _US_美国
-      - 169.197.142.99:9102
-      - 38.143.66.87:8881
-      - 169.197.142.99:5004
-      - 38.143.66.187:6697
-      - 38.75.136.49:2376
-      - 169.197.143.29:7002
-      - 38.75.136.49:9102
       - 38.143.66.87:9102
-      - 38.143.66.20:8090
+      - 38.75.136.49:8119
+      - 169.197.142.99:5500
+      - 38.75.136.49:2375
+      - 169.197.142.99:2375
+      - 38.143.66.210:6679
+      - 169.197.142.99:6679
+      - 38.75.136.49:9102
+      - 169.197.142.99:8882
       - 38.143.66.20:8080
-      - 38.143.66.20:9101
-      - 38.75.136.93:7306
-      - 169.197.143.29:8008
-      - _US_美国 2
-      - 38.75.136.49:8091
-      - 38.143.66.20:8118
-      - 38.143.66.20:7001
-      - 38.143.66.55:7306
-      - 38.143.66.210:9102
-      - 38.143.66.55:6379
-      - 38.143.66.55:2375
-      - _US_美国 3
-      - 38.143.66.20:8882
-      - 38.143.66.87:7001
-      - 38.143.66.210:8000
-      - _US_美国 4
-      - 169.197.143.29:8090
       - 美国阿伟科技-油管
-      - _US_美国 5
-      - 38.143.66.55:5004
-      - 38.143.66.87:5500
+      - 38.143.66.87:2375
+      - 38.75.136.49:8008
+      - 169.197.142.99:2376
+      - 38.143.66.20:7001
+      - 38.143.66.87:6379
+      - 169.197.143.29:7001
+      - 169.197.142.99:8080
+      - 169.197.143.29:8882
+      - 38.143.66.187:5003
+      - 美国_阿伟科技-油管
+      - 38.143.66.20:7306
+      - 美国_阿伟科技-油管 2
+      - 38.143.66.210:8000
+      - 38.75.136.49:7001
+      - 38.143.66.210:8882
+      - 169.197.142.99:5004
+      - 38.143.66.20:8882
+      - 38.75.136.49:8882
+      - 169.197.142.99:9102
+      - 38.143.66.187:6697
+      - 169.197.143.29:7002
+      - 38.143.66.20:9101
+      - 38.143.66.20:5003
+      - 169.197.142.99:8118
+      - 美国【YouTube由零開始】
+      - 169.197.143.29:6679
+      - 38.143.66.87:8881
+      - 38.143.66.210:7307
+      - 169.197.143.29:8881
+      - 38.143.66.210:9101
       - 38.143.66.55:5003
-      - CYL-科技（2022.01.22） 3
-      - CYL-科技（2022.01.22） 4
-      - 中国_阿伟科技-油管 3
+      - 38.143.66.210:8881
+      - 美国阿伟科技-油管1
+      - 38.143.66.55:443
+      - 169.197.143.29:9102
+      - 38.143.66.187:9101
+      - 169.197.142.99:6379
+      - 38.143.66.87:5500
+      - 38.143.66.210:2375
+      - 169.197.142.99:8881
+      - 38.143.66.87:7001
+      - 38.143.66.55:5004
+      - 香港阿伟科技-油管
       - 香港阿伟科技-油管 2
-      - 中国_阿伟科技-油管 4
       - 香港_阿伟科技-油管
-      - 香港阿伟科技-油管 3
+      - CYL-科技（2022.01.22） 4
       - CYL-科技（2022.01.22） 5
-      - CYL-科技（2022.01.22） 6
-      - CYL-科技（2022.01.22） 7
-      - 香港【YouTube由零開始】
+      - YouTube由零开始-新加坡
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中国【YouTube由零開始】
       - 日本阿伟科技-油管
-      - YouTube由零开始-新加坡
       - CYL-科技（2022.01.22）
-      - 香港阿伟科技-油管
-      - 120.233.150.200:50301
-      - 中国【YouTube由零開始】 2
-      - 中国_阿伟科技-油管
-      - 中国【YouTube由零開始】 3
-      - 中国【YouTube由零開始】 4
-      - 中国_阿伟科技-油管 2
+      - 香港【YouTube由零開始】
       - CYL-科技（2022.01.22） 2
-      - 117.28.243.220:8254
-      - 169.197.142.99:8000
+      - 120.233.150.200:50301
+      - 中国【YouTube由零開始】
+      - CYL-科技（2022.01.22） 3
+      - 38.75.136.49:6697
+      - 38.75.136.49:8118
+      - 38.75.136.49:6679
+      - 38.75.136.49:8091
+      - 38.75.136.49:9101
+      - 169.197.142.99:7001
+      - 38.75.136.45:6679
       - 38.75.136.45:8000
-      - 169.197.142.99:5500
-      - 167.88.61.130:8000
-      - 38.75.136.49:2375
-      - 美国【YouTube由零開始】
       - 38.75.136.49:8080
-      - 169.197.142.99:2376
-      - 169.197.142.99:8882
-      - 169.197.142.99:8118
-      - 38.75.136.49:8119
       - 38.75.136.49:8009
       - 38.75.136.49:7307
-      - 169.197.142.99:8009
-      - 38.75.136.49:9101
-      - 美国_阿伟科技-油管
-      - 169.197.142.99:6679
-      - 169.197.142.99:8080
-      - 169.197.142.99:6379
-      - 美国【YouTube由零開始】 2
-      - 38.75.136.49:8118
-      - 169.197.142.99:7002
-      - 169.197.142.99:8881
-      - 38.75.136.49:8008
       - 169.197.142.99:7306
-      - 38.143.66.187:8090
-      - 169.197.143.29:6679
-      - 169.197.143.29:8881
-      - 169.197.142.99:7001
-      - 169.197.143.29:7001
-      - 38.75.136.49:6679
-      - 169.197.142.99:2375
-      - 38.75.136.49:8882
-      - 169.197.143.29:8882
-      - 38.143.66.187:9102
-      - 38.143.66.55:8882
-      - 38.143.66.210:9101
-      - _US_美国
-      - 169.197.142.99:9102
-      - 38.143.66.87:8881
-      - 169.197.142.99:5004
-      - 38.143.66.187:6697
-      - 38.75.136.49:2376
-      - 169.197.143.29:7002
-      - 38.75.136.49:9102
       - 38.143.66.87:9102
-      - 38.143.66.20:8090
+      - 38.75.136.49:8119
+      - 169.197.142.99:5500
+      - 38.75.136.49:2375
+      - 169.197.142.99:2375
+      - 38.143.66.210:6679
+      - 169.197.142.99:6679
+      - 38.75.136.49:9102
+      - 169.197.142.99:8882
       - 38.143.66.20:8080
-      - 38.143.66.20:9101
-      - 38.75.136.93:7306
-      - 169.197.143.29:8008
-      - _US_美国 2
-      - 38.75.136.49:8091
-      - 38.143.66.20:8118
-      - 38.143.66.20:7001
-      - 38.143.66.55:7306
-      - 38.143.66.210:9102
-      - 38.143.66.55:6379
-      - 38.143.66.55:2375
-      - _US_美国 3
-      - 38.143.66.20:8882
-      - 38.143.66.87:7001
-      - 38.143.66.210:8000
-      - _US_美国 4
-      - 169.197.143.29:8090
       - 美国阿伟科技-油管
-      - _US_美国 5
-      - 38.143.66.55:5004
-      - 38.143.66.87:5500
+      - 38.143.66.87:2375
+      - 38.75.136.49:8008
+      - 169.197.142.99:2376
+      - 38.143.66.20:7001
+      - 38.143.66.87:6379
+      - 169.197.143.29:7001
+      - 169.197.142.99:8080
+      - 169.197.143.29:8882
+      - 38.143.66.187:5003
+      - 美国_阿伟科技-油管
+      - 38.143.66.20:7306
+      - 美国_阿伟科技-油管 2
+      - 38.143.66.210:8000
+      - 38.75.136.49:7001
+      - 38.143.66.210:8882
+      - 169.197.142.99:5004
+      - 38.143.66.20:8882
+      - 38.75.136.49:8882
+      - 169.197.142.99:9102
+      - 38.143.66.187:6697
+      - 169.197.143.29:7002
+      - 38.143.66.20:9101
+      - 38.143.66.20:5003
+      - 169.197.142.99:8118
+      - 美国【YouTube由零開始】
+      - 169.197.143.29:6679
+      - 38.143.66.87:8881
+      - 38.143.66.210:7307
+      - 169.197.143.29:8881
+      - 38.143.66.210:9101
       - 38.143.66.55:5003
-      - CYL-科技（2022.01.22） 3
-      - CYL-科技（2022.01.22） 4
-      - 中国_阿伟科技-油管 3
+      - 38.143.66.210:8881
+      - 美国阿伟科技-油管1
+      - 38.143.66.55:443
+      - 169.197.143.29:9102
+      - 38.143.66.187:9101
+      - 169.197.142.99:6379
+      - 38.143.66.87:5500
+      - 38.143.66.210:2375
+      - 169.197.142.99:8881
+      - 38.143.66.87:7001
+      - 38.143.66.55:5004
+      - 香港阿伟科技-油管
       - 香港阿伟科技-油管 2
-      - 中国_阿伟科技-油管 4
       - 香港_阿伟科技-油管
-      - 香港阿伟科技-油管 3
+      - CYL-科技（2022.01.22） 4
       - CYL-科技（2022.01.22） 5
-      - CYL-科技（2022.01.22） 6
-      - CYL-科技（2022.01.22） 7
-      - 香港【YouTube由零開始】
+      - YouTube由零开始-新加坡
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -833,100 +704,84 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中国【YouTube由零開始】
       - 日本阿伟科技-油管
-      - YouTube由零开始-新加坡
       - CYL-科技（2022.01.22）
-      - 香港阿伟科技-油管
-      - 120.233.150.200:50301
-      - 中国【YouTube由零開始】 2
-      - 中国_阿伟科技-油管
-      - 中国【YouTube由零開始】 3
-      - 中国【YouTube由零開始】 4
-      - 中国_阿伟科技-油管 2
+      - 香港【YouTube由零開始】
       - CYL-科技（2022.01.22） 2
-      - 117.28.243.220:8254
-      - 169.197.142.99:8000
+      - 120.233.150.200:50301
+      - 中国【YouTube由零開始】
+      - CYL-科技（2022.01.22） 3
+      - 38.75.136.49:6697
+      - 38.75.136.49:8118
+      - 38.75.136.49:6679
+      - 38.75.136.49:8091
+      - 38.75.136.49:9101
+      - 169.197.142.99:7001
+      - 38.75.136.45:6679
       - 38.75.136.45:8000
-      - 169.197.142.99:5500
-      - 167.88.61.130:8000
-      - 38.75.136.49:2375
-      - 美国【YouTube由零開始】
       - 38.75.136.49:8080
-      - 169.197.142.99:2376
-      - 169.197.142.99:8882
-      - 169.197.142.99:8118
-      - 38.75.136.49:8119
       - 38.75.136.49:8009
       - 38.75.136.49:7307
-      - 169.197.142.99:8009
-      - 38.75.136.49:9101
-      - 美国_阿伟科技-油管
-      - 169.197.142.99:6679
-      - 169.197.142.99:8080
-      - 169.197.142.99:6379
-      - 美国【YouTube由零開始】 2
-      - 38.75.136.49:8118
-      - 169.197.142.99:7002
-      - 169.197.142.99:8881
-      - 38.75.136.49:8008
       - 169.197.142.99:7306
-      - 38.143.66.187:8090
-      - 169.197.143.29:6679
-      - 169.197.143.29:8881
-      - 169.197.142.99:7001
-      - 169.197.143.29:7001
-      - 38.75.136.49:6679
-      - 169.197.142.99:2375
-      - 38.75.136.49:8882
-      - 169.197.143.29:8882
-      - 38.143.66.187:9102
-      - 38.143.66.55:8882
-      - 38.143.66.210:9101
-      - _US_美国
-      - 169.197.142.99:9102
-      - 38.143.66.87:8881
-      - 169.197.142.99:5004
-      - 38.143.66.187:6697
-      - 38.75.136.49:2376
-      - 169.197.143.29:7002
-      - 38.75.136.49:9102
       - 38.143.66.87:9102
-      - 38.143.66.20:8090
+      - 38.75.136.49:8119
+      - 169.197.142.99:5500
+      - 38.75.136.49:2375
+      - 169.197.142.99:2375
+      - 38.143.66.210:6679
+      - 169.197.142.99:6679
+      - 38.75.136.49:9102
+      - 169.197.142.99:8882
       - 38.143.66.20:8080
-      - 38.143.66.20:9101
-      - 38.75.136.93:7306
-      - 169.197.143.29:8008
-      - _US_美国 2
-      - 38.75.136.49:8091
-      - 38.143.66.20:8118
-      - 38.143.66.20:7001
-      - 38.143.66.55:7306
-      - 38.143.66.210:9102
-      - 38.143.66.55:6379
-      - 38.143.66.55:2375
-      - _US_美国 3
-      - 38.143.66.20:8882
-      - 38.143.66.87:7001
-      - 38.143.66.210:8000
-      - _US_美国 4
-      - 169.197.143.29:8090
       - 美国阿伟科技-油管
-      - _US_美国 5
-      - 38.143.66.55:5004
-      - 38.143.66.87:5500
+      - 38.143.66.87:2375
+      - 38.75.136.49:8008
+      - 169.197.142.99:2376
+      - 38.143.66.20:7001
+      - 38.143.66.87:6379
+      - 169.197.143.29:7001
+      - 169.197.142.99:8080
+      - 169.197.143.29:8882
+      - 38.143.66.187:5003
+      - 美国_阿伟科技-油管
+      - 38.143.66.20:7306
+      - 美国_阿伟科技-油管 2
+      - 38.143.66.210:8000
+      - 38.75.136.49:7001
+      - 38.143.66.210:8882
+      - 169.197.142.99:5004
+      - 38.143.66.20:8882
+      - 38.75.136.49:8882
+      - 169.197.142.99:9102
+      - 38.143.66.187:6697
+      - 169.197.143.29:7002
+      - 38.143.66.20:9101
+      - 38.143.66.20:5003
+      - 169.197.142.99:8118
+      - 美国【YouTube由零開始】
+      - 169.197.143.29:6679
+      - 38.143.66.87:8881
+      - 38.143.66.210:7307
+      - 169.197.143.29:8881
+      - 38.143.66.210:9101
       - 38.143.66.55:5003
-      - CYL-科技（2022.01.22） 3
-      - CYL-科技（2022.01.22） 4
-      - 中国_阿伟科技-油管 3
+      - 38.143.66.210:8881
+      - 美国阿伟科技-油管1
+      - 38.143.66.55:443
+      - 169.197.143.29:9102
+      - 38.143.66.187:9101
+      - 169.197.142.99:6379
+      - 38.143.66.87:5500
+      - 38.143.66.210:2375
+      - 169.197.142.99:8881
+      - 38.143.66.87:7001
+      - 38.143.66.55:5004
+      - 香港阿伟科技-油管
       - 香港阿伟科技-油管 2
-      - 中国_阿伟科技-油管 4
       - 香港_阿伟科技-油管
-      - 香港阿伟科技-油管 3
+      - CYL-科技（2022.01.22） 4
       - CYL-科技（2022.01.22） 5
-      - CYL-科技（2022.01.22） 6
-      - CYL-科技（2022.01.22） 7
-      - 香港【YouTube由零開始】
+      - YouTube由零开始-新加坡
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
