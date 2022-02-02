@@ -5,1061 +5,533 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港-10.99MB/s(Youtube:不良林), server: 86.wgong.xyz, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31）, server: cogzcm.vproxy.us, port: 9055, type: ss, cipher: aes-256-gcm, password: e88c406d-d083-4fcc-801f-fc5155fbaef7, udp: true}
-  - {name: CYL-科技（2022.01.31） 2, server: dgcm.vproxy.us, port: 25011, type: ss, cipher: aes-256-gcm, password: e88c406d-d083-4fcc-801f-fc5155fbaef7, udp: true}
-  - {name: CYL-科技（2022.01.31） 3, server: 185.212.59.105, port: 15228, type: trojan, password: WQXZyuplhL, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 4, server: 120.232.192.136, port: 3384, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 5, server: 127.wgong.xyz, port: 52227, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_921, server: cm01.paofuvip.xyz, port: 1020, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: 123c733894.microsoft.com, udp: true}
-  - {name: CYL-科技（2022.01.31） 6, server: 183.232.163.134, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 7, server: mla.vproxy.us, port: 80, type: vmess, uuid: e88c406d-d083-4fcc-801f-fc5155fbaef7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mla.vproxy.us}, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_846, server: 183.232.226.171, port: 20013, type: vmess, uuid: c0fc2247-c778-31bf-81a6-18af5c0c41a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 183.232.226.171}, udp: true}
-  - {name: CYL-科技（2022.01.31） 8, server: mla.vproxy.us, port: 8080, type: vmess, uuid: e88c406d-d083-4fcc-801f-fc5155fbaef7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: CYL-科技（2022.01.31） 9, server: 127.wgong.xyz, port: 52227, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 10, server: 108.wgong.xyz, port: 11224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 11, server: 60.249.3.231, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 12, server: dgcm.vproxy.us, port: 25008, type: ss, cipher: aes-256-gcm, password: e88c406d-d083-4fcc-801f-fc5155fbaef7, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_845, server: 183.232.226.171, port: 20011, type: vmess, uuid: c0fc2247-c778-31bf-81a6-18af5c0c41a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 183.232.226.171}, udp: true}
-  - {name: CYL-科技（2022.01.31） 13, server: 116.163.14.85, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 14, server: 127.wgong.xyz, port: 52227, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 15, server: 130.wgong.xyz, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国-6.46MB/s(Youtube:不良林), server: 20.24.73.78, port: 52227, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 16, server: dgcm.vproxy.us, port: 25025, type: ss, cipher: aes-256-gcm, password: e88c406d-d083-4fcc-801f-fc5155fbaef7, udp: true}
-  - {name: CYL-科技（2022.01.31） 17, server: 116.163.10.156, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 18, server: 116.163.10.185, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 19, server: 106.75.154.24, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 20, server: 106.75.168.104, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 21, server: 113.31.155.165, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 22, server: 120.232.192.115, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 23, server: 120.232.192.136, port: 3383, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 24, server: 113.31.109.30, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 25, server: hzlt.tuboshu.space, port: 18809, type: vmess, uuid: e7a5c134-e032-3d31-b583-b1544cc21ac2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hzlt.tuboshu.space}, udp: true}
-  - {name: CYL-科技（2022.01.31） 26, server: 106.75.233.91, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 27, server: 122.192.154.54, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 28, server: 31.moons.team, port: 443, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, sni: 31.moons.team, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 29, server: 120.232.192.136, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 30, server: 123.59.87.29, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 31, server: 123.59.72.193, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 32, server: 120.132.50.158, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 33, server: 120.232.192.136, port: 3385, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 34, server: 89.208.252.110, port: 19698, type: trojan, password: 1w5vcK1KiD, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 35, server: 167.88.61.175, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2022.01.31） 36, server: 167.88.61.175, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CYL-科技（2022.01.31） 37, server: 167.88.61.213, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_686, server: 167.88.61.213, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CYL-科技（2022.01.31） 38, server: 167.88.61.175, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CYL-科技（2022.01.31） 39, server: 167.88.61.175, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CYL-科技（2022.01.31） 40, server: 167.88.61.213, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022.01.31） 41, server: 167.88.61.14, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CYL-科技（2022.01.31） 42, server: 167.88.61.175, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CYL-科技（2022.01.31） 43, server: 169.197.142.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_689, server: 167.88.61.213, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022.01.31） 44, server: 167.88.61.175, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_276, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_685, server: 167.88.61.213, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CYL-科技（2022.01.31） 45, server: 167.88.61.213, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CYL-科技（2022.01.31） 46, server: 167.88.61.175, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CYL-科技（2022.01.31） 47, server: 38.114.114.19, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CYL-科技（2022.01.31） 48, server: 167.88.61.175, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022.01.31） 49, server: us08.xqkj.cloud, port: 1118, type: vmess, uuid: 4c79a17e-b544-41b7-9097-cd4bec525301, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us08.xqkj.cloud}, udp: true}
-  - {name: CYL-科技（2022.01.31） 50, server: 167.88.61.213, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2022.01.31） 51, server: 167.88.61.213, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_1153, server: 1222us.fans8.xyz, port: 80, type: vmess, uuid: 745b504f-06da-345d-a389-c6e532334815, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1222us.fans8.xyz}, udp: true}
-  - {name: CYL-科技（2022.01.31） 52, server: 167.88.61.175, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CYL-科技（2022.01.31） 53, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CYL-科技（2022.01.31） 54, server: 167.88.61.213, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_697, server: 167.88.61.213, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CYL-科技（2022.01.31） 55, server: 167.88.61.213, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: CYL-科技（2022.01.31） 56, server: 167.88.61.213, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CYL-科技（2022.01.31） 57, server: 169.197.142.99, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CYL-科技（2022.01.31） 58, server: 167.88.61.213, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CYL-科技（2022.01.31） 59, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CYL-科技（2022.01.31） 60, server: 167.88.61.213, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2022.01.31） 61, server: us06.xqkj.cloud, port: 1116, type: vmess, uuid: 4c79a17e-b544-41b7-9097-cd4bec525301, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us06.xqkj.cloud}, udp: true}
-  - {name: CYL-科技（2022.01.22）, server: 104.24.223.86, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: us.fovi.tk}, udp: true}
-  - {name: CYL-科技（2022.01.31） 62, server: 167.88.61.213, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CYL-科技（2022.01.31） 63, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_650, server: 167.88.61.175, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CYL-科技（2022.01.31） 64, server: 167.88.61.175, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CYL-科技（2022.01.31） 65, server: 169.197.142.99, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CYL-科技（2022.01.31） 66, server: 167.88.61.175, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: CYL-科技（2022.01.31） 67, server: us10.xqkj.cloud, port: 1119, type: vmess, uuid: 4c79a17e-b544-41b7-9097-cd4bec525301, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us10.xqkj.cloud}, udp: true}
-  - {name: CYL-科技（2022.01.31） 68, server: 38.114.114.19, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CYL-科技（2022.01.31） 69, server: 167.88.61.175, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_526, server: 38.114.114.19, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022.01.31） 70, server: 167.88.61.175, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CYL-科技（2022.01.31） 71, server: 38.114.114.145, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CYL-科技（2022.01.31） 72, server: 167.88.61.14, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CYL-科技（2022.01.31） 73, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CYL-科技（2022.01.31） 74, server: 38.114.114.19, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CYL-科技（2022.01.31） 75, server: 38.114.114.145, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CYL-科技（2022.01.31） 76, server: 169.197.142.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022.01.31） 77, server: 167.88.61.213, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CYL-科技（2022.01.31） 78, server: 38.114.114.145, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: CYL-科技（2022.01.31） 79, server: 167.88.61.213, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CYL-科技（2022.01.31） 80, server: 167.88.61.14, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022.01.31） 81, server: 167.88.61.213, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CYL-科技（2022.01.31） 82, server: 167.88.61.14, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CYL-科技（2022.01.31） 83, server: 167.88.61.14, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CYL-科技（2022.01.31） 84, server: 169.197.142.99, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CYL-科技（2022.01.31） 85, server: 167.88.61.175, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022.01.31） 86, server: 167.88.61.175, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CYL-科技（2022.01.31） 87, server: 169.197.142.99, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CYL-科技（2022.01.31） 88, server: 167.88.61.14, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CYL-科技（2022.01.31） 89, server: 167.88.61.175, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CYL-科技（2022.01.31） 90, server: 38.114.114.145, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CYL-科技（2022.01.31） 91, server: 167.88.61.14, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022.01.31） 92, server: 38.75.136.127, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CYL-科技（2022.01.31） 93, server: 167.88.61.14, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_854, server: 183.232.226.171, port: 20008, type: vmess, uuid: c0fc2247-c778-31bf-81a6-18af5c0c41a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 183.232.226.171}, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_1468, server: 38.75.136.45, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CYL-科技（2022.01.31） 94, server: 167.88.61.14, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CYL-科技（2022.01.31） 95, server: 169.197.143.29, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_1137, server: gg.piyun.bid, port: 10651, type: trojan, password: 2803debb-27c4-455f-9bff-46ba0bebb710, sni: gg.piyun.bid, skip-cert-verify: true, udp: true}
+  - {name: 45.79.121.166:5003, server: 45.79.121.166, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: ♥️♥️梦歌♥️♥️_856, server: 183.232.226.171, port: 30006, type: ssr, cipher: rc4-md5, password: mfyun001, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1:123456789, obfs-param: 753361.bing.com, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_951, server: cm01.paofuvip.xyz, port: 1023, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: 123c733894.microsoft.com, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_950, server: cm01.paofuvip.xyz, port: 1021, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: 123c733894.microsoft.com, udp: true}
-  - {name: CYL-科技（2022.01.31） 96, server: 120.wgong.xyz, port: 52220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_923, server: cm01.paofuvip.xyz, port: 1024, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: 123c733894.microsoft.com, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_1268, server: 119.wgong.xyz, port: 52219, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 97, server: 121.wgong.xyz, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️梦歌♥️♥️_843, server: 183.232.226.171, port: 20010, type: vmess, uuid: c0fc2247-c778-31bf-81a6-18af5c0c41a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /5dyun.m3u8, ws-headers: {Host: 183.232.226.171}, udp: true}
-  - {name: CYL-科技（2022.01.31） 98, server: v114.wgong.xyz, port: 52214, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️梦歌♥️♥️_845, server: 183.232.226.171, port: 20011, type: vmess, uuid: c0fc2247-c778-31bf-81a6-18af5c0c41a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 183.232.226.171}, udp: true}
+  - {name: 香港阿伟科技-新年快乐, server: gg.piyun.bid, port: 10651, type: trojan, password: 2803debb-27c4-455f-9bff-46ba0bebb710, sni: gg.piyun.bid, skip-cert-verify: true, udp: true}
   - {name: ♥️♥️梦歌♥️♥️_844, server: 183.232.226.171, port: 20012, type: vmess, uuid: c0fc2247-c778-31bf-81a6-18af5c0c41a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 183.232.226.171}, udp: true}
-  - {name: CYL-科技（2022.01.31） 99, server: v115.wgong.xyz, port: 52215, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 100, server: 83.wgong.xyz, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 101, server: cogzcm.vproxy.us, port: 9325, type: ss, cipher: aes-256-gcm, password: e88c406d-d083-4fcc-801f-fc5155fbaef7, udp: true}
-  - {name: 香港-889.1KB/s(Youtube:不良林), server: 133.wgong.xyz, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.31） 102, server: mla.vproxy.us, port: 80, type: vmess, uuid: e88c406d-d083-4fcc-801f-fc5155fbaef7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mla.vproxy.us}, udp: true}
+  - {name: ♥️♥️梦歌♥️♥️_846, server: 183.232.226.171, port: 20013, type: vmess, uuid: c0fc2247-c778-31bf-81a6-18af5c0c41a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 183.232.226.171}, udp: true}
+  - {name: CYL-科技（2022.01.31）, server: 121.wgong.xyz, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️梦歌♥️♥️_843, server: 183.232.226.171, port: 20010, type: vmess, uuid: c0fc2247-c778-31bf-81a6-18af5c0c41a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /5dyun.m3u8, ws-headers: {Host: 183.232.226.171}, udp: true}
+  - {name: CYL-科技（2022.01.31） 29, server: 121.wgong.xyz, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 181, server: 120.232.192.136, port: 3384, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 2, server: 116.163.10.185, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 3, server: 120.232.192.136, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 4, server: v114.wgong.xyz, port: 52214, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 5, server: 120.wgong.xyz, port: 52220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_378, server: 119.wgong.xyz, port: 52219, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 6, server: 120.232.192.115, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 7, server: 120.232.192.136, port: 3383, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_117, server: 113.31.155.165, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 137, server: 122.192.189.5, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 8, server: 116.163.14.85, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 9, server: 123.59.87.29, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 218, server: 120.132.50.158, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技-新年快乐, server: 120.wgong.xyz, port: 52220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 10, server: 116.163.10.156, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 232, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: CYL-科技（2022.01.31） 11, server: 123.59.72.193, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 6 2, server: 106.wgong.xyz, port: 11223, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_107, server: cm01.paofuvip.xyz, port: 1021, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_19, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_360, server: 98.wgong.xyz, port: 52298, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 12, server: 122.192.154.54, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_348, server: 183.232.56.161, port: 8014, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}, udp: true}
+  - {name: CYL-科技（2022.01.31） 13, server: 185.212.62.19, port: 443, type: trojan, password: sxkKUbBydK, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_353, server: iepl.elaina.link, port: 50004, type: ss, cipher: chacha20-ietf-poly1305, password: 10a83674-1a4f-4c13-81c9-7b3becd90446, udp: true}
+  - {name: CYL-科技（2022.01.31） 14, server: v115.wgong.xyz, port: 52215, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 15, server: 106.75.154.24, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️梦歌♥️♥️_854, server: 183.232.226.171, port: 20008, type: vmess, uuid: c0fc2247-c778-31bf-81a6-18af5c0c41a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 183.232.226.171}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_363, server: 101.wgong.xyz, port: 52201, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_371, server: 109.wgong.xyz, port: 52209, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 16, server: 167.88.61.14, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_377, server: 118.wgong.xyz, port: 52218, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_20, server: iepl.elaina.link, port: 50006, type: ss, cipher: chacha20-ietf-poly1305, password: 10a83674-1a4f-4c13-81c9-7b3becd90446, udp: true}
+  - {name: CYL-科技（2022.01.31） 17, server: 89.208.252.110, port: 19698, type: trojan, password: 1w5vcK1KiD, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技-新年快乐 2, server: ddns04.r8o8c8k.xyz, port: 65012, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: ddns04.r8o8c8k.xyz}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_347, server: 183.232.56.161, port: 8004, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}, udp: true}
+  - {name: ♥️♥️梦歌♥️♥️_847, server: 183.232.226.171, port: 20007, type: ssr, cipher: rc4-md5, password: mfyun001, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1:123456789, obfs-param: 753361.bing.com, udp: true}
+  - {name: CYL-科技（2022.01.31） 18, server: 120.232.192.136, port: 3381, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 19, server: 120.232.192.136, port: 3385, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 20, server: us06.xqkj.cloud, port: 1116, type: vmess, uuid: 4c79a17e-b544-41b7-9097-cd4bec525301, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us06.xqkj.cloud}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_341, server: 101.230.149.1, port: 33661, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}, udp: true}
+  - {name: CYL-科技（2022.01.31） 21, server: 116.163.10.208, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_333, server: 183.232.56.161, port: 1951, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_167, server: 167.88.63.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CYL-科技（2022.01.31） 22, server: 83.wgong.xyz, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 23, server: 116.163.10.157, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 24, server: 116.163.10.228, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 25, server: 38.68.134.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 167.88.61.213:8119, server: 167.88.61.213, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: CYL-科技（2022.01.31） 26, server: 38.75.136.20, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CYL-科技（2022.01.31） 27, server: 108.wgong.xyz, port: 11224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.01.31） 28, server: 183.232.163.134, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 香港-10.99MB/s(Youtube:不良林)
+      - 45.79.121.166:5003
+      - ♥️♥️梦歌♥️♥️_856
+      - ♥️♥️梦歌♥️♥️_845
+      - 香港阿伟科技-新年快乐
+      - ♥️♥️梦歌♥️♥️_844
+      - ♥️♥️梦歌♥️♥️_846
       - CYL-科技（2022.01.31）
+      - ♥️♥️梦歌♥️♥️_843
+      - CYL-科技（2022.01.31） 29
+      - CYL-科技（2022.01.31） 181
       - CYL-科技（2022.01.31） 2
       - CYL-科技（2022.01.31） 3
       - CYL-科技（2022.01.31） 4
       - CYL-科技（2022.01.31） 5
-      - ♥️♥️梦歌♥️♥️_921
+      - ♥️♥️YouTube梦歌♥️♥️_378
       - CYL-科技（2022.01.31） 6
       - CYL-科技（2022.01.31） 7
-      - ♥️♥️梦歌♥️♥️_846
+      - ♥️♥️YouTube梦歌♥️♥️_117
+      - CYL-科技（2022.01.31） 137
       - CYL-科技（2022.01.31） 8
       - CYL-科技（2022.01.31） 9
+      - CYL-科技（2022.01.31） 218
+      - 美国阿伟科技-新年快乐
       - CYL-科技（2022.01.31） 10
+      - CYL-科技（2022.01.31） 232
       - CYL-科技（2022.01.31） 11
+      - CYL-科技（2022.01.31） 6 2
+      - ♥️♥️YouTube梦歌♥️♥️_107
+      - ♥️♥️YouTube梦歌♥️♥️_19
+      - ♥️♥️YouTube梦歌♥️♥️_360
       - CYL-科技（2022.01.31） 12
-      - ♥️♥️梦歌♥️♥️_845
+      - ♥️♥️YouTube梦歌♥️♥️_348
       - CYL-科技（2022.01.31） 13
+      - ♥️♥️YouTube梦歌♥️♥️_353
       - CYL-科技（2022.01.31） 14
       - CYL-科技（2022.01.31） 15
-      - 美国-6.46MB/s(Youtube:不良林)
+      - ♥️♥️梦歌♥️♥️_854
+      - ♥️♥️YouTube梦歌♥️♥️_363
+      - ♥️♥️YouTube梦歌♥️♥️_371
       - CYL-科技（2022.01.31） 16
+      - ♥️♥️YouTube梦歌♥️♥️_377
+      - ♥️♥️YouTube梦歌♥️♥️_20
       - CYL-科技（2022.01.31） 17
+      - 美国阿伟科技-新年快乐 2
+      - ♥️♥️YouTube梦歌♥️♥️_347
+      - ♥️♥️梦歌♥️♥️_847
       - CYL-科技（2022.01.31） 18
       - CYL-科技（2022.01.31） 19
       - CYL-科技（2022.01.31） 20
+      - ♥️♥️YouTube梦歌♥️♥️_341
       - CYL-科技（2022.01.31） 21
+      - ♥️♥️YouTube梦歌♥️♥️_333
+      - ♥️♥️YouTube梦歌♥️♥️_167
       - CYL-科技（2022.01.31） 22
       - CYL-科技（2022.01.31） 23
       - CYL-科技（2022.01.31） 24
       - CYL-科技（2022.01.31） 25
+      - 167.88.61.213:8119
       - CYL-科技（2022.01.31） 26
       - CYL-科技（2022.01.31） 27
       - CYL-科技（2022.01.31） 28
-      - CYL-科技（2022.01.31） 29
-      - CYL-科技（2022.01.31） 30
-      - CYL-科技（2022.01.31） 31
-      - CYL-科技（2022.01.31） 32
-      - CYL-科技（2022.01.31） 33
-      - CYL-科技（2022.01.31） 34
-      - CYL-科技（2022.01.31） 35
-      - CYL-科技（2022.01.31） 36
-      - CYL-科技（2022.01.31） 37
-      - ♥️♥️梦歌♥️♥️_686
-      - CYL-科技（2022.01.31） 38
-      - CYL-科技（2022.01.31） 39
-      - CYL-科技（2022.01.31） 40
-      - CYL-科技（2022.01.31） 41
-      - CYL-科技（2022.01.31） 42
-      - CYL-科技（2022.01.31） 43
-      - ♥️♥️梦歌♥️♥️_689
-      - CYL-科技（2022.01.31） 44
-      - ♥️♥️梦歌♥️♥️_276
-      - ♥️♥️梦歌♥️♥️_685
-      - CYL-科技（2022.01.31） 45
-      - CYL-科技（2022.01.31） 46
-      - CYL-科技（2022.01.31） 47
-      - CYL-科技（2022.01.31） 48
-      - CYL-科技（2022.01.31） 49
-      - CYL-科技（2022.01.31） 50
-      - CYL-科技（2022.01.31） 51
-      - ♥️♥️梦歌♥️♥️_1153
-      - CYL-科技（2022.01.31） 52
-      - CYL-科技（2022.01.31） 53
-      - CYL-科技（2022.01.31） 54
-      - ♥️♥️梦歌♥️♥️_697
-      - CYL-科技（2022.01.31） 55
-      - CYL-科技（2022.01.31） 56
-      - CYL-科技（2022.01.31） 57
-      - CYL-科技（2022.01.31） 58
-      - CYL-科技（2022.01.31） 59
-      - CYL-科技（2022.01.31） 60
-      - CYL-科技（2022.01.31） 61
-      - CYL-科技（2022.01.22）
-      - CYL-科技（2022.01.31） 62
-      - CYL-科技（2022.01.31） 63
-      - ♥️♥️梦歌♥️♥️_650
-      - CYL-科技（2022.01.31） 64
-      - CYL-科技（2022.01.31） 65
-      - CYL-科技（2022.01.31） 66
-      - CYL-科技（2022.01.31） 67
-      - CYL-科技（2022.01.31） 68
-      - CYL-科技（2022.01.31） 69
-      - ♥️♥️梦歌♥️♥️_526
-      - CYL-科技（2022.01.31） 70
-      - CYL-科技（2022.01.31） 71
-      - CYL-科技（2022.01.31） 72
-      - CYL-科技（2022.01.31） 73
-      - CYL-科技（2022.01.31） 74
-      - CYL-科技（2022.01.31） 75
-      - CYL-科技（2022.01.31） 76
-      - CYL-科技（2022.01.31） 77
-      - CYL-科技（2022.01.31） 78
-      - CYL-科技（2022.01.31） 79
-      - CYL-科技（2022.01.31） 80
-      - CYL-科技（2022.01.31） 81
-      - CYL-科技（2022.01.31） 82
-      - CYL-科技（2022.01.31） 83
-      - CYL-科技（2022.01.31） 84
-      - CYL-科技（2022.01.31） 85
-      - CYL-科技（2022.01.31） 86
-      - CYL-科技（2022.01.31） 87
-      - CYL-科技（2022.01.31） 88
-      - CYL-科技（2022.01.31） 89
-      - CYL-科技（2022.01.31） 90
-      - CYL-科技（2022.01.31） 91
-      - CYL-科技（2022.01.31） 92
-      - CYL-科技（2022.01.31） 93
-      - ♥️♥️梦歌♥️♥️_854
-      - ♥️♥️梦歌♥️♥️_1468
-      - CYL-科技（2022.01.31） 94
-      - CYL-科技（2022.01.31） 95
-      - ♥️♥️梦歌♥️♥️_1137
-      - ♥️♥️梦歌♥️♥️_856
-      - ♥️♥️梦歌♥️♥️_951
-      - ♥️♥️梦歌♥️♥️_950
-      - CYL-科技（2022.01.31） 96
-      - ♥️♥️梦歌♥️♥️_923
-      - ♥️♥️梦歌♥️♥️_1268
-      - CYL-科技（2022.01.31） 97
-      - ♥️♥️梦歌♥️♥️_843
-      - CYL-科技（2022.01.31） 98
-      - ♥️♥️梦歌♥️♥️_844
-      - CYL-科技（2022.01.31） 99
-      - CYL-科技（2022.01.31） 100
-      - CYL-科技（2022.01.31） 101
-      - 香港-889.1KB/s(Youtube:不良林)
-      - CYL-科技（2022.01.31） 102
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 香港-10.99MB/s(Youtube:不良林)
+      - 45.79.121.166:5003
+      - ♥️♥️梦歌♥️♥️_856
+      - ♥️♥️梦歌♥️♥️_845
+      - 香港阿伟科技-新年快乐
+      - ♥️♥️梦歌♥️♥️_844
+      - ♥️♥️梦歌♥️♥️_846
       - CYL-科技（2022.01.31）
+      - ♥️♥️梦歌♥️♥️_843
+      - CYL-科技（2022.01.31） 29
+      - CYL-科技（2022.01.31） 181
       - CYL-科技（2022.01.31） 2
       - CYL-科技（2022.01.31） 3
       - CYL-科技（2022.01.31） 4
       - CYL-科技（2022.01.31） 5
-      - ♥️♥️梦歌♥️♥️_921
+      - ♥️♥️YouTube梦歌♥️♥️_378
       - CYL-科技（2022.01.31） 6
       - CYL-科技（2022.01.31） 7
-      - ♥️♥️梦歌♥️♥️_846
+      - ♥️♥️YouTube梦歌♥️♥️_117
+      - CYL-科技（2022.01.31） 137
       - CYL-科技（2022.01.31） 8
       - CYL-科技（2022.01.31） 9
+      - CYL-科技（2022.01.31） 218
+      - 美国阿伟科技-新年快乐
       - CYL-科技（2022.01.31） 10
+      - CYL-科技（2022.01.31） 232
       - CYL-科技（2022.01.31） 11
+      - CYL-科技（2022.01.31） 6 2
+      - ♥️♥️YouTube梦歌♥️♥️_107
+      - ♥️♥️YouTube梦歌♥️♥️_19
+      - ♥️♥️YouTube梦歌♥️♥️_360
       - CYL-科技（2022.01.31） 12
-      - ♥️♥️梦歌♥️♥️_845
+      - ♥️♥️YouTube梦歌♥️♥️_348
       - CYL-科技（2022.01.31） 13
+      - ♥️♥️YouTube梦歌♥️♥️_353
       - CYL-科技（2022.01.31） 14
       - CYL-科技（2022.01.31） 15
-      - 美国-6.46MB/s(Youtube:不良林)
+      - ♥️♥️梦歌♥️♥️_854
+      - ♥️♥️YouTube梦歌♥️♥️_363
+      - ♥️♥️YouTube梦歌♥️♥️_371
       - CYL-科技（2022.01.31） 16
+      - ♥️♥️YouTube梦歌♥️♥️_377
+      - ♥️♥️YouTube梦歌♥️♥️_20
       - CYL-科技（2022.01.31） 17
+      - 美国阿伟科技-新年快乐 2
+      - ♥️♥️YouTube梦歌♥️♥️_347
+      - ♥️♥️梦歌♥️♥️_847
       - CYL-科技（2022.01.31） 18
       - CYL-科技（2022.01.31） 19
       - CYL-科技（2022.01.31） 20
+      - ♥️♥️YouTube梦歌♥️♥️_341
       - CYL-科技（2022.01.31） 21
+      - ♥️♥️YouTube梦歌♥️♥️_333
+      - ♥️♥️YouTube梦歌♥️♥️_167
       - CYL-科技（2022.01.31） 22
       - CYL-科技（2022.01.31） 23
       - CYL-科技（2022.01.31） 24
       - CYL-科技（2022.01.31） 25
+      - 167.88.61.213:8119
       - CYL-科技（2022.01.31） 26
       - CYL-科技（2022.01.31） 27
       - CYL-科技（2022.01.31） 28
-      - CYL-科技（2022.01.31） 29
-      - CYL-科技（2022.01.31） 30
-      - CYL-科技（2022.01.31） 31
-      - CYL-科技（2022.01.31） 32
-      - CYL-科技（2022.01.31） 33
-      - CYL-科技（2022.01.31） 34
-      - CYL-科技（2022.01.31） 35
-      - CYL-科技（2022.01.31） 36
-      - CYL-科技（2022.01.31） 37
-      - ♥️♥️梦歌♥️♥️_686
-      - CYL-科技（2022.01.31） 38
-      - CYL-科技（2022.01.31） 39
-      - CYL-科技（2022.01.31） 40
-      - CYL-科技（2022.01.31） 41
-      - CYL-科技（2022.01.31） 42
-      - CYL-科技（2022.01.31） 43
-      - ♥️♥️梦歌♥️♥️_689
-      - CYL-科技（2022.01.31） 44
-      - ♥️♥️梦歌♥️♥️_276
-      - ♥️♥️梦歌♥️♥️_685
-      - CYL-科技（2022.01.31） 45
-      - CYL-科技（2022.01.31） 46
-      - CYL-科技（2022.01.31） 47
-      - CYL-科技（2022.01.31） 48
-      - CYL-科技（2022.01.31） 49
-      - CYL-科技（2022.01.31） 50
-      - CYL-科技（2022.01.31） 51
-      - ♥️♥️梦歌♥️♥️_1153
-      - CYL-科技（2022.01.31） 52
-      - CYL-科技（2022.01.31） 53
-      - CYL-科技（2022.01.31） 54
-      - ♥️♥️梦歌♥️♥️_697
-      - CYL-科技（2022.01.31） 55
-      - CYL-科技（2022.01.31） 56
-      - CYL-科技（2022.01.31） 57
-      - CYL-科技（2022.01.31） 58
-      - CYL-科技（2022.01.31） 59
-      - CYL-科技（2022.01.31） 60
-      - CYL-科技（2022.01.31） 61
-      - CYL-科技（2022.01.22）
-      - CYL-科技（2022.01.31） 62
-      - CYL-科技（2022.01.31） 63
-      - ♥️♥️梦歌♥️♥️_650
-      - CYL-科技（2022.01.31） 64
-      - CYL-科技（2022.01.31） 65
-      - CYL-科技（2022.01.31） 66
-      - CYL-科技（2022.01.31） 67
-      - CYL-科技（2022.01.31） 68
-      - CYL-科技（2022.01.31） 69
-      - ♥️♥️梦歌♥️♥️_526
-      - CYL-科技（2022.01.31） 70
-      - CYL-科技（2022.01.31） 71
-      - CYL-科技（2022.01.31） 72
-      - CYL-科技（2022.01.31） 73
-      - CYL-科技（2022.01.31） 74
-      - CYL-科技（2022.01.31） 75
-      - CYL-科技（2022.01.31） 76
-      - CYL-科技（2022.01.31） 77
-      - CYL-科技（2022.01.31） 78
-      - CYL-科技（2022.01.31） 79
-      - CYL-科技（2022.01.31） 80
-      - CYL-科技（2022.01.31） 81
-      - CYL-科技（2022.01.31） 82
-      - CYL-科技（2022.01.31） 83
-      - CYL-科技（2022.01.31） 84
-      - CYL-科技（2022.01.31） 85
-      - CYL-科技（2022.01.31） 86
-      - CYL-科技（2022.01.31） 87
-      - CYL-科技（2022.01.31） 88
-      - CYL-科技（2022.01.31） 89
-      - CYL-科技（2022.01.31） 90
-      - CYL-科技（2022.01.31） 91
-      - CYL-科技（2022.01.31） 92
-      - CYL-科技（2022.01.31） 93
-      - ♥️♥️梦歌♥️♥️_854
-      - ♥️♥️梦歌♥️♥️_1468
-      - CYL-科技（2022.01.31） 94
-      - CYL-科技（2022.01.31） 95
-      - ♥️♥️梦歌♥️♥️_1137
-      - ♥️♥️梦歌♥️♥️_856
-      - ♥️♥️梦歌♥️♥️_951
-      - ♥️♥️梦歌♥️♥️_950
-      - CYL-科技（2022.01.31） 96
-      - ♥️♥️梦歌♥️♥️_923
-      - ♥️♥️梦歌♥️♥️_1268
-      - CYL-科技（2022.01.31） 97
-      - ♥️♥️梦歌♥️♥️_843
-      - CYL-科技（2022.01.31） 98
-      - ♥️♥️梦歌♥️♥️_844
-      - CYL-科技（2022.01.31） 99
-      - CYL-科技（2022.01.31） 100
-      - CYL-科技（2022.01.31） 101
-      - 香港-889.1KB/s(Youtube:不良林)
-      - CYL-科技（2022.01.31） 102
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港-10.99MB/s(Youtube:不良林)
+      - 45.79.121.166:5003
+      - ♥️♥️梦歌♥️♥️_856
+      - ♥️♥️梦歌♥️♥️_845
+      - 香港阿伟科技-新年快乐
+      - ♥️♥️梦歌♥️♥️_844
+      - ♥️♥️梦歌♥️♥️_846
       - CYL-科技（2022.01.31）
+      - ♥️♥️梦歌♥️♥️_843
+      - CYL-科技（2022.01.31） 29
+      - CYL-科技（2022.01.31） 181
       - CYL-科技（2022.01.31） 2
       - CYL-科技（2022.01.31） 3
       - CYL-科技（2022.01.31） 4
       - CYL-科技（2022.01.31） 5
-      - ♥️♥️梦歌♥️♥️_921
+      - ♥️♥️YouTube梦歌♥️♥️_378
       - CYL-科技（2022.01.31） 6
       - CYL-科技（2022.01.31） 7
-      - ♥️♥️梦歌♥️♥️_846
+      - ♥️♥️YouTube梦歌♥️♥️_117
+      - CYL-科技（2022.01.31） 137
       - CYL-科技（2022.01.31） 8
       - CYL-科技（2022.01.31） 9
+      - CYL-科技（2022.01.31） 218
+      - 美国阿伟科技-新年快乐
       - CYL-科技（2022.01.31） 10
+      - CYL-科技（2022.01.31） 232
       - CYL-科技（2022.01.31） 11
+      - CYL-科技（2022.01.31） 6 2
+      - ♥️♥️YouTube梦歌♥️♥️_107
+      - ♥️♥️YouTube梦歌♥️♥️_19
+      - ♥️♥️YouTube梦歌♥️♥️_360
       - CYL-科技（2022.01.31） 12
-      - ♥️♥️梦歌♥️♥️_845
+      - ♥️♥️YouTube梦歌♥️♥️_348
       - CYL-科技（2022.01.31） 13
+      - ♥️♥️YouTube梦歌♥️♥️_353
       - CYL-科技（2022.01.31） 14
       - CYL-科技（2022.01.31） 15
-      - 美国-6.46MB/s(Youtube:不良林)
+      - ♥️♥️梦歌♥️♥️_854
+      - ♥️♥️YouTube梦歌♥️♥️_363
+      - ♥️♥️YouTube梦歌♥️♥️_371
       - CYL-科技（2022.01.31） 16
+      - ♥️♥️YouTube梦歌♥️♥️_377
+      - ♥️♥️YouTube梦歌♥️♥️_20
       - CYL-科技（2022.01.31） 17
+      - 美国阿伟科技-新年快乐 2
+      - ♥️♥️YouTube梦歌♥️♥️_347
+      - ♥️♥️梦歌♥️♥️_847
       - CYL-科技（2022.01.31） 18
       - CYL-科技（2022.01.31） 19
       - CYL-科技（2022.01.31） 20
+      - ♥️♥️YouTube梦歌♥️♥️_341
       - CYL-科技（2022.01.31） 21
+      - ♥️♥️YouTube梦歌♥️♥️_333
+      - ♥️♥️YouTube梦歌♥️♥️_167
       - CYL-科技（2022.01.31） 22
       - CYL-科技（2022.01.31） 23
       - CYL-科技（2022.01.31） 24
       - CYL-科技（2022.01.31） 25
+      - 167.88.61.213:8119
       - CYL-科技（2022.01.31） 26
       - CYL-科技（2022.01.31） 27
       - CYL-科技（2022.01.31） 28
-      - CYL-科技（2022.01.31） 29
-      - CYL-科技（2022.01.31） 30
-      - CYL-科技（2022.01.31） 31
-      - CYL-科技（2022.01.31） 32
-      - CYL-科技（2022.01.31） 33
-      - CYL-科技（2022.01.31） 34
-      - CYL-科技（2022.01.31） 35
-      - CYL-科技（2022.01.31） 36
-      - CYL-科技（2022.01.31） 37
-      - ♥️♥️梦歌♥️♥️_686
-      - CYL-科技（2022.01.31） 38
-      - CYL-科技（2022.01.31） 39
-      - CYL-科技（2022.01.31） 40
-      - CYL-科技（2022.01.31） 41
-      - CYL-科技（2022.01.31） 42
-      - CYL-科技（2022.01.31） 43
-      - ♥️♥️梦歌♥️♥️_689
-      - CYL-科技（2022.01.31） 44
-      - ♥️♥️梦歌♥️♥️_276
-      - ♥️♥️梦歌♥️♥️_685
-      - CYL-科技（2022.01.31） 45
-      - CYL-科技（2022.01.31） 46
-      - CYL-科技（2022.01.31） 47
-      - CYL-科技（2022.01.31） 48
-      - CYL-科技（2022.01.31） 49
-      - CYL-科技（2022.01.31） 50
-      - CYL-科技（2022.01.31） 51
-      - ♥️♥️梦歌♥️♥️_1153
-      - CYL-科技（2022.01.31） 52
-      - CYL-科技（2022.01.31） 53
-      - CYL-科技（2022.01.31） 54
-      - ♥️♥️梦歌♥️♥️_697
-      - CYL-科技（2022.01.31） 55
-      - CYL-科技（2022.01.31） 56
-      - CYL-科技（2022.01.31） 57
-      - CYL-科技（2022.01.31） 58
-      - CYL-科技（2022.01.31） 59
-      - CYL-科技（2022.01.31） 60
-      - CYL-科技（2022.01.31） 61
-      - CYL-科技（2022.01.22）
-      - CYL-科技（2022.01.31） 62
-      - CYL-科技（2022.01.31） 63
-      - ♥️♥️梦歌♥️♥️_650
-      - CYL-科技（2022.01.31） 64
-      - CYL-科技（2022.01.31） 65
-      - CYL-科技（2022.01.31） 66
-      - CYL-科技（2022.01.31） 67
-      - CYL-科技（2022.01.31） 68
-      - CYL-科技（2022.01.31） 69
-      - ♥️♥️梦歌♥️♥️_526
-      - CYL-科技（2022.01.31） 70
-      - CYL-科技（2022.01.31） 71
-      - CYL-科技（2022.01.31） 72
-      - CYL-科技（2022.01.31） 73
-      - CYL-科技（2022.01.31） 74
-      - CYL-科技（2022.01.31） 75
-      - CYL-科技（2022.01.31） 76
-      - CYL-科技（2022.01.31） 77
-      - CYL-科技（2022.01.31） 78
-      - CYL-科技（2022.01.31） 79
-      - CYL-科技（2022.01.31） 80
-      - CYL-科技（2022.01.31） 81
-      - CYL-科技（2022.01.31） 82
-      - CYL-科技（2022.01.31） 83
-      - CYL-科技（2022.01.31） 84
-      - CYL-科技（2022.01.31） 85
-      - CYL-科技（2022.01.31） 86
-      - CYL-科技（2022.01.31） 87
-      - CYL-科技（2022.01.31） 88
-      - CYL-科技（2022.01.31） 89
-      - CYL-科技（2022.01.31） 90
-      - CYL-科技（2022.01.31） 91
-      - CYL-科技（2022.01.31） 92
-      - CYL-科技（2022.01.31） 93
-      - ♥️♥️梦歌♥️♥️_854
-      - ♥️♥️梦歌♥️♥️_1468
-      - CYL-科技（2022.01.31） 94
-      - CYL-科技（2022.01.31） 95
-      - ♥️♥️梦歌♥️♥️_1137
-      - ♥️♥️梦歌♥️♥️_856
-      - ♥️♥️梦歌♥️♥️_951
-      - ♥️♥️梦歌♥️♥️_950
-      - CYL-科技（2022.01.31） 96
-      - ♥️♥️梦歌♥️♥️_923
-      - ♥️♥️梦歌♥️♥️_1268
-      - CYL-科技（2022.01.31） 97
-      - ♥️♥️梦歌♥️♥️_843
-      - CYL-科技（2022.01.31） 98
-      - ♥️♥️梦歌♥️♥️_844
-      - CYL-科技（2022.01.31） 99
-      - CYL-科技（2022.01.31） 100
-      - CYL-科技（2022.01.31） 101
-      - 香港-889.1KB/s(Youtube:不良林)
-      - CYL-科技（2022.01.31） 102
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港-10.99MB/s(Youtube:不良林)
+      - 45.79.121.166:5003
+      - ♥️♥️梦歌♥️♥️_856
+      - ♥️♥️梦歌♥️♥️_845
+      - 香港阿伟科技-新年快乐
+      - ♥️♥️梦歌♥️♥️_844
+      - ♥️♥️梦歌♥️♥️_846
       - CYL-科技（2022.01.31）
+      - ♥️♥️梦歌♥️♥️_843
+      - CYL-科技（2022.01.31） 29
+      - CYL-科技（2022.01.31） 181
       - CYL-科技（2022.01.31） 2
       - CYL-科技（2022.01.31） 3
       - CYL-科技（2022.01.31） 4
       - CYL-科技（2022.01.31） 5
-      - ♥️♥️梦歌♥️♥️_921
+      - ♥️♥️YouTube梦歌♥️♥️_378
       - CYL-科技（2022.01.31） 6
       - CYL-科技（2022.01.31） 7
-      - ♥️♥️梦歌♥️♥️_846
+      - ♥️♥️YouTube梦歌♥️♥️_117
+      - CYL-科技（2022.01.31） 137
       - CYL-科技（2022.01.31） 8
       - CYL-科技（2022.01.31） 9
+      - CYL-科技（2022.01.31） 218
+      - 美国阿伟科技-新年快乐
       - CYL-科技（2022.01.31） 10
+      - CYL-科技（2022.01.31） 232
       - CYL-科技（2022.01.31） 11
+      - CYL-科技（2022.01.31） 6 2
+      - ♥️♥️YouTube梦歌♥️♥️_107
+      - ♥️♥️YouTube梦歌♥️♥️_19
+      - ♥️♥️YouTube梦歌♥️♥️_360
       - CYL-科技（2022.01.31） 12
-      - ♥️♥️梦歌♥️♥️_845
+      - ♥️♥️YouTube梦歌♥️♥️_348
       - CYL-科技（2022.01.31） 13
+      - ♥️♥️YouTube梦歌♥️♥️_353
       - CYL-科技（2022.01.31） 14
       - CYL-科技（2022.01.31） 15
-      - 美国-6.46MB/s(Youtube:不良林)
+      - ♥️♥️梦歌♥️♥️_854
+      - ♥️♥️YouTube梦歌♥️♥️_363
+      - ♥️♥️YouTube梦歌♥️♥️_371
       - CYL-科技（2022.01.31） 16
+      - ♥️♥️YouTube梦歌♥️♥️_377
+      - ♥️♥️YouTube梦歌♥️♥️_20
       - CYL-科技（2022.01.31） 17
+      - 美国阿伟科技-新年快乐 2
+      - ♥️♥️YouTube梦歌♥️♥️_347
+      - ♥️♥️梦歌♥️♥️_847
       - CYL-科技（2022.01.31） 18
       - CYL-科技（2022.01.31） 19
       - CYL-科技（2022.01.31） 20
+      - ♥️♥️YouTube梦歌♥️♥️_341
       - CYL-科技（2022.01.31） 21
+      - ♥️♥️YouTube梦歌♥️♥️_333
+      - ♥️♥️YouTube梦歌♥️♥️_167
       - CYL-科技（2022.01.31） 22
       - CYL-科技（2022.01.31） 23
       - CYL-科技（2022.01.31） 24
       - CYL-科技（2022.01.31） 25
+      - 167.88.61.213:8119
       - CYL-科技（2022.01.31） 26
       - CYL-科技（2022.01.31） 27
       - CYL-科技（2022.01.31） 28
-      - CYL-科技（2022.01.31） 29
-      - CYL-科技（2022.01.31） 30
-      - CYL-科技（2022.01.31） 31
-      - CYL-科技（2022.01.31） 32
-      - CYL-科技（2022.01.31） 33
-      - CYL-科技（2022.01.31） 34
-      - CYL-科技（2022.01.31） 35
-      - CYL-科技（2022.01.31） 36
-      - CYL-科技（2022.01.31） 37
-      - ♥️♥️梦歌♥️♥️_686
-      - CYL-科技（2022.01.31） 38
-      - CYL-科技（2022.01.31） 39
-      - CYL-科技（2022.01.31） 40
-      - CYL-科技（2022.01.31） 41
-      - CYL-科技（2022.01.31） 42
-      - CYL-科技（2022.01.31） 43
-      - ♥️♥️梦歌♥️♥️_689
-      - CYL-科技（2022.01.31） 44
-      - ♥️♥️梦歌♥️♥️_276
-      - ♥️♥️梦歌♥️♥️_685
-      - CYL-科技（2022.01.31） 45
-      - CYL-科技（2022.01.31） 46
-      - CYL-科技（2022.01.31） 47
-      - CYL-科技（2022.01.31） 48
-      - CYL-科技（2022.01.31） 49
-      - CYL-科技（2022.01.31） 50
-      - CYL-科技（2022.01.31） 51
-      - ♥️♥️梦歌♥️♥️_1153
-      - CYL-科技（2022.01.31） 52
-      - CYL-科技（2022.01.31） 53
-      - CYL-科技（2022.01.31） 54
-      - ♥️♥️梦歌♥️♥️_697
-      - CYL-科技（2022.01.31） 55
-      - CYL-科技（2022.01.31） 56
-      - CYL-科技（2022.01.31） 57
-      - CYL-科技（2022.01.31） 58
-      - CYL-科技（2022.01.31） 59
-      - CYL-科技（2022.01.31） 60
-      - CYL-科技（2022.01.31） 61
-      - CYL-科技（2022.01.22）
-      - CYL-科技（2022.01.31） 62
-      - CYL-科技（2022.01.31） 63
-      - ♥️♥️梦歌♥️♥️_650
-      - CYL-科技（2022.01.31） 64
-      - CYL-科技（2022.01.31） 65
-      - CYL-科技（2022.01.31） 66
-      - CYL-科技（2022.01.31） 67
-      - CYL-科技（2022.01.31） 68
-      - CYL-科技（2022.01.31） 69
-      - ♥️♥️梦歌♥️♥️_526
-      - CYL-科技（2022.01.31） 70
-      - CYL-科技（2022.01.31） 71
-      - CYL-科技（2022.01.31） 72
-      - CYL-科技（2022.01.31） 73
-      - CYL-科技（2022.01.31） 74
-      - CYL-科技（2022.01.31） 75
-      - CYL-科技（2022.01.31） 76
-      - CYL-科技（2022.01.31） 77
-      - CYL-科技（2022.01.31） 78
-      - CYL-科技（2022.01.31） 79
-      - CYL-科技（2022.01.31） 80
-      - CYL-科技（2022.01.31） 81
-      - CYL-科技（2022.01.31） 82
-      - CYL-科技（2022.01.31） 83
-      - CYL-科技（2022.01.31） 84
-      - CYL-科技（2022.01.31） 85
-      - CYL-科技（2022.01.31） 86
-      - CYL-科技（2022.01.31） 87
-      - CYL-科技（2022.01.31） 88
-      - CYL-科技（2022.01.31） 89
-      - CYL-科技（2022.01.31） 90
-      - CYL-科技（2022.01.31） 91
-      - CYL-科技（2022.01.31） 92
-      - CYL-科技（2022.01.31） 93
-      - ♥️♥️梦歌♥️♥️_854
-      - ♥️♥️梦歌♥️♥️_1468
-      - CYL-科技（2022.01.31） 94
-      - CYL-科技（2022.01.31） 95
-      - ♥️♥️梦歌♥️♥️_1137
-      - ♥️♥️梦歌♥️♥️_856
-      - ♥️♥️梦歌♥️♥️_951
-      - ♥️♥️梦歌♥️♥️_950
-      - CYL-科技（2022.01.31） 96
-      - ♥️♥️梦歌♥️♥️_923
-      - ♥️♥️梦歌♥️♥️_1268
-      - CYL-科技（2022.01.31） 97
-      - ♥️♥️梦歌♥️♥️_843
-      - CYL-科技（2022.01.31） 98
-      - ♥️♥️梦歌♥️♥️_844
-      - CYL-科技（2022.01.31） 99
-      - CYL-科技（2022.01.31） 100
-      - CYL-科技（2022.01.31） 101
-      - 香港-889.1KB/s(Youtube:不良林)
-      - CYL-科技（2022.01.31） 102
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 香港-10.99MB/s(Youtube:不良林)
+      - 45.79.121.166:5003
+      - ♥️♥️梦歌♥️♥️_856
+      - ♥️♥️梦歌♥️♥️_845
+      - 香港阿伟科技-新年快乐
+      - ♥️♥️梦歌♥️♥️_844
+      - ♥️♥️梦歌♥️♥️_846
       - CYL-科技（2022.01.31）
+      - ♥️♥️梦歌♥️♥️_843
+      - CYL-科技（2022.01.31） 29
+      - CYL-科技（2022.01.31） 181
       - CYL-科技（2022.01.31） 2
       - CYL-科技（2022.01.31） 3
       - CYL-科技（2022.01.31） 4
       - CYL-科技（2022.01.31） 5
-      - ♥️♥️梦歌♥️♥️_921
+      - ♥️♥️YouTube梦歌♥️♥️_378
       - CYL-科技（2022.01.31） 6
       - CYL-科技（2022.01.31） 7
-      - ♥️♥️梦歌♥️♥️_846
+      - ♥️♥️YouTube梦歌♥️♥️_117
+      - CYL-科技（2022.01.31） 137
       - CYL-科技（2022.01.31） 8
       - CYL-科技（2022.01.31） 9
+      - CYL-科技（2022.01.31） 218
+      - 美国阿伟科技-新年快乐
       - CYL-科技（2022.01.31） 10
+      - CYL-科技（2022.01.31） 232
       - CYL-科技（2022.01.31） 11
+      - CYL-科技（2022.01.31） 6 2
+      - ♥️♥️YouTube梦歌♥️♥️_107
+      - ♥️♥️YouTube梦歌♥️♥️_19
+      - ♥️♥️YouTube梦歌♥️♥️_360
       - CYL-科技（2022.01.31） 12
-      - ♥️♥️梦歌♥️♥️_845
+      - ♥️♥️YouTube梦歌♥️♥️_348
       - CYL-科技（2022.01.31） 13
+      - ♥️♥️YouTube梦歌♥️♥️_353
       - CYL-科技（2022.01.31） 14
       - CYL-科技（2022.01.31） 15
-      - 美国-6.46MB/s(Youtube:不良林)
+      - ♥️♥️梦歌♥️♥️_854
+      - ♥️♥️YouTube梦歌♥️♥️_363
+      - ♥️♥️YouTube梦歌♥️♥️_371
       - CYL-科技（2022.01.31） 16
+      - ♥️♥️YouTube梦歌♥️♥️_377
+      - ♥️♥️YouTube梦歌♥️♥️_20
       - CYL-科技（2022.01.31） 17
+      - 美国阿伟科技-新年快乐 2
+      - ♥️♥️YouTube梦歌♥️♥️_347
+      - ♥️♥️梦歌♥️♥️_847
       - CYL-科技（2022.01.31） 18
       - CYL-科技（2022.01.31） 19
       - CYL-科技（2022.01.31） 20
+      - ♥️♥️YouTube梦歌♥️♥️_341
       - CYL-科技（2022.01.31） 21
+      - ♥️♥️YouTube梦歌♥️♥️_333
+      - ♥️♥️YouTube梦歌♥️♥️_167
       - CYL-科技（2022.01.31） 22
       - CYL-科技（2022.01.31） 23
       - CYL-科技（2022.01.31） 24
       - CYL-科技（2022.01.31） 25
+      - 167.88.61.213:8119
       - CYL-科技（2022.01.31） 26
       - CYL-科技（2022.01.31） 27
       - CYL-科技（2022.01.31） 28
-      - CYL-科技（2022.01.31） 29
-      - CYL-科技（2022.01.31） 30
-      - CYL-科技（2022.01.31） 31
-      - CYL-科技（2022.01.31） 32
-      - CYL-科技（2022.01.31） 33
-      - CYL-科技（2022.01.31） 34
-      - CYL-科技（2022.01.31） 35
-      - CYL-科技（2022.01.31） 36
-      - CYL-科技（2022.01.31） 37
-      - ♥️♥️梦歌♥️♥️_686
-      - CYL-科技（2022.01.31） 38
-      - CYL-科技（2022.01.31） 39
-      - CYL-科技（2022.01.31） 40
-      - CYL-科技（2022.01.31） 41
-      - CYL-科技（2022.01.31） 42
-      - CYL-科技（2022.01.31） 43
-      - ♥️♥️梦歌♥️♥️_689
-      - CYL-科技（2022.01.31） 44
-      - ♥️♥️梦歌♥️♥️_276
-      - ♥️♥️梦歌♥️♥️_685
-      - CYL-科技（2022.01.31） 45
-      - CYL-科技（2022.01.31） 46
-      - CYL-科技（2022.01.31） 47
-      - CYL-科技（2022.01.31） 48
-      - CYL-科技（2022.01.31） 49
-      - CYL-科技（2022.01.31） 50
-      - CYL-科技（2022.01.31） 51
-      - ♥️♥️梦歌♥️♥️_1153
-      - CYL-科技（2022.01.31） 52
-      - CYL-科技（2022.01.31） 53
-      - CYL-科技（2022.01.31） 54
-      - ♥️♥️梦歌♥️♥️_697
-      - CYL-科技（2022.01.31） 55
-      - CYL-科技（2022.01.31） 56
-      - CYL-科技（2022.01.31） 57
-      - CYL-科技（2022.01.31） 58
-      - CYL-科技（2022.01.31） 59
-      - CYL-科技（2022.01.31） 60
-      - CYL-科技（2022.01.31） 61
-      - CYL-科技（2022.01.22）
-      - CYL-科技（2022.01.31） 62
-      - CYL-科技（2022.01.31） 63
-      - ♥️♥️梦歌♥️♥️_650
-      - CYL-科技（2022.01.31） 64
-      - CYL-科技（2022.01.31） 65
-      - CYL-科技（2022.01.31） 66
-      - CYL-科技（2022.01.31） 67
-      - CYL-科技（2022.01.31） 68
-      - CYL-科技（2022.01.31） 69
-      - ♥️♥️梦歌♥️♥️_526
-      - CYL-科技（2022.01.31） 70
-      - CYL-科技（2022.01.31） 71
-      - CYL-科技（2022.01.31） 72
-      - CYL-科技（2022.01.31） 73
-      - CYL-科技（2022.01.31） 74
-      - CYL-科技（2022.01.31） 75
-      - CYL-科技（2022.01.31） 76
-      - CYL-科技（2022.01.31） 77
-      - CYL-科技（2022.01.31） 78
-      - CYL-科技（2022.01.31） 79
-      - CYL-科技（2022.01.31） 80
-      - CYL-科技（2022.01.31） 81
-      - CYL-科技（2022.01.31） 82
-      - CYL-科技（2022.01.31） 83
-      - CYL-科技（2022.01.31） 84
-      - CYL-科技（2022.01.31） 85
-      - CYL-科技（2022.01.31） 86
-      - CYL-科技（2022.01.31） 87
-      - CYL-科技（2022.01.31） 88
-      - CYL-科技（2022.01.31） 89
-      - CYL-科技（2022.01.31） 90
-      - CYL-科技（2022.01.31） 91
-      - CYL-科技（2022.01.31） 92
-      - CYL-科技（2022.01.31） 93
-      - ♥️♥️梦歌♥️♥️_854
-      - ♥️♥️梦歌♥️♥️_1468
-      - CYL-科技（2022.01.31） 94
-      - CYL-科技（2022.01.31） 95
-      - ♥️♥️梦歌♥️♥️_1137
-      - ♥️♥️梦歌♥️♥️_856
-      - ♥️♥️梦歌♥️♥️_951
-      - ♥️♥️梦歌♥️♥️_950
-      - CYL-科技（2022.01.31） 96
-      - ♥️♥️梦歌♥️♥️_923
-      - ♥️♥️梦歌♥️♥️_1268
-      - CYL-科技（2022.01.31） 97
-      - ♥️♥️梦歌♥️♥️_843
-      - CYL-科技（2022.01.31） 98
-      - ♥️♥️梦歌♥️♥️_844
-      - CYL-科技（2022.01.31） 99
-      - CYL-科技（2022.01.31） 100
-      - CYL-科技（2022.01.31） 101
-      - 香港-889.1KB/s(Youtube:不良林)
-      - CYL-科技（2022.01.31） 102
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港-10.99MB/s(Youtube:不良林)
+      - 45.79.121.166:5003
+      - ♥️♥️梦歌♥️♥️_856
+      - ♥️♥️梦歌♥️♥️_845
+      - 香港阿伟科技-新年快乐
+      - ♥️♥️梦歌♥️♥️_844
+      - ♥️♥️梦歌♥️♥️_846
       - CYL-科技（2022.01.31）
+      - ♥️♥️梦歌♥️♥️_843
+      - CYL-科技（2022.01.31） 29
+      - CYL-科技（2022.01.31） 181
       - CYL-科技（2022.01.31） 2
       - CYL-科技（2022.01.31） 3
       - CYL-科技（2022.01.31） 4
       - CYL-科技（2022.01.31） 5
-      - ♥️♥️梦歌♥️♥️_921
+      - ♥️♥️YouTube梦歌♥️♥️_378
       - CYL-科技（2022.01.31） 6
       - CYL-科技（2022.01.31） 7
-      - ♥️♥️梦歌♥️♥️_846
+      - ♥️♥️YouTube梦歌♥️♥️_117
+      - CYL-科技（2022.01.31） 137
       - CYL-科技（2022.01.31） 8
       - CYL-科技（2022.01.31） 9
+      - CYL-科技（2022.01.31） 218
+      - 美国阿伟科技-新年快乐
       - CYL-科技（2022.01.31） 10
+      - CYL-科技（2022.01.31） 232
       - CYL-科技（2022.01.31） 11
+      - CYL-科技（2022.01.31） 6 2
+      - ♥️♥️YouTube梦歌♥️♥️_107
+      - ♥️♥️YouTube梦歌♥️♥️_19
+      - ♥️♥️YouTube梦歌♥️♥️_360
       - CYL-科技（2022.01.31） 12
-      - ♥️♥️梦歌♥️♥️_845
+      - ♥️♥️YouTube梦歌♥️♥️_348
       - CYL-科技（2022.01.31） 13
+      - ♥️♥️YouTube梦歌♥️♥️_353
       - CYL-科技（2022.01.31） 14
       - CYL-科技（2022.01.31） 15
-      - 美国-6.46MB/s(Youtube:不良林)
+      - ♥️♥️梦歌♥️♥️_854
+      - ♥️♥️YouTube梦歌♥️♥️_363
+      - ♥️♥️YouTube梦歌♥️♥️_371
       - CYL-科技（2022.01.31） 16
+      - ♥️♥️YouTube梦歌♥️♥️_377
+      - ♥️♥️YouTube梦歌♥️♥️_20
       - CYL-科技（2022.01.31） 17
+      - 美国阿伟科技-新年快乐 2
+      - ♥️♥️YouTube梦歌♥️♥️_347
+      - ♥️♥️梦歌♥️♥️_847
       - CYL-科技（2022.01.31） 18
       - CYL-科技（2022.01.31） 19
       - CYL-科技（2022.01.31） 20
+      - ♥️♥️YouTube梦歌♥️♥️_341
       - CYL-科技（2022.01.31） 21
+      - ♥️♥️YouTube梦歌♥️♥️_333
+      - ♥️♥️YouTube梦歌♥️♥️_167
       - CYL-科技（2022.01.31） 22
       - CYL-科技（2022.01.31） 23
       - CYL-科技（2022.01.31） 24
       - CYL-科技（2022.01.31） 25
+      - 167.88.61.213:8119
       - CYL-科技（2022.01.31） 26
       - CYL-科技（2022.01.31） 27
       - CYL-科技（2022.01.31） 28
-      - CYL-科技（2022.01.31） 29
-      - CYL-科技（2022.01.31） 30
-      - CYL-科技（2022.01.31） 31
-      - CYL-科技（2022.01.31） 32
-      - CYL-科技（2022.01.31） 33
-      - CYL-科技（2022.01.31） 34
-      - CYL-科技（2022.01.31） 35
-      - CYL-科技（2022.01.31） 36
-      - CYL-科技（2022.01.31） 37
-      - ♥️♥️梦歌♥️♥️_686
-      - CYL-科技（2022.01.31） 38
-      - CYL-科技（2022.01.31） 39
-      - CYL-科技（2022.01.31） 40
-      - CYL-科技（2022.01.31） 41
-      - CYL-科技（2022.01.31） 42
-      - CYL-科技（2022.01.31） 43
-      - ♥️♥️梦歌♥️♥️_689
-      - CYL-科技（2022.01.31） 44
-      - ♥️♥️梦歌♥️♥️_276
-      - ♥️♥️梦歌♥️♥️_685
-      - CYL-科技（2022.01.31） 45
-      - CYL-科技（2022.01.31） 46
-      - CYL-科技（2022.01.31） 47
-      - CYL-科技（2022.01.31） 48
-      - CYL-科技（2022.01.31） 49
-      - CYL-科技（2022.01.31） 50
-      - CYL-科技（2022.01.31） 51
-      - ♥️♥️梦歌♥️♥️_1153
-      - CYL-科技（2022.01.31） 52
-      - CYL-科技（2022.01.31） 53
-      - CYL-科技（2022.01.31） 54
-      - ♥️♥️梦歌♥️♥️_697
-      - CYL-科技（2022.01.31） 55
-      - CYL-科技（2022.01.31） 56
-      - CYL-科技（2022.01.31） 57
-      - CYL-科技（2022.01.31） 58
-      - CYL-科技（2022.01.31） 59
-      - CYL-科技（2022.01.31） 60
-      - CYL-科技（2022.01.31） 61
-      - CYL-科技（2022.01.22）
-      - CYL-科技（2022.01.31） 62
-      - CYL-科技（2022.01.31） 63
-      - ♥️♥️梦歌♥️♥️_650
-      - CYL-科技（2022.01.31） 64
-      - CYL-科技（2022.01.31） 65
-      - CYL-科技（2022.01.31） 66
-      - CYL-科技（2022.01.31） 67
-      - CYL-科技（2022.01.31） 68
-      - CYL-科技（2022.01.31） 69
-      - ♥️♥️梦歌♥️♥️_526
-      - CYL-科技（2022.01.31） 70
-      - CYL-科技（2022.01.31） 71
-      - CYL-科技（2022.01.31） 72
-      - CYL-科技（2022.01.31） 73
-      - CYL-科技（2022.01.31） 74
-      - CYL-科技（2022.01.31） 75
-      - CYL-科技（2022.01.31） 76
-      - CYL-科技（2022.01.31） 77
-      - CYL-科技（2022.01.31） 78
-      - CYL-科技（2022.01.31） 79
-      - CYL-科技（2022.01.31） 80
-      - CYL-科技（2022.01.31） 81
-      - CYL-科技（2022.01.31） 82
-      - CYL-科技（2022.01.31） 83
-      - CYL-科技（2022.01.31） 84
-      - CYL-科技（2022.01.31） 85
-      - CYL-科技（2022.01.31） 86
-      - CYL-科技（2022.01.31） 87
-      - CYL-科技（2022.01.31） 88
-      - CYL-科技（2022.01.31） 89
-      - CYL-科技（2022.01.31） 90
-      - CYL-科技（2022.01.31） 91
-      - CYL-科技（2022.01.31） 92
-      - CYL-科技（2022.01.31） 93
-      - ♥️♥️梦歌♥️♥️_854
-      - ♥️♥️梦歌♥️♥️_1468
-      - CYL-科技（2022.01.31） 94
-      - CYL-科技（2022.01.31） 95
-      - ♥️♥️梦歌♥️♥️_1137
-      - ♥️♥️梦歌♥️♥️_856
-      - ♥️♥️梦歌♥️♥️_951
-      - ♥️♥️梦歌♥️♥️_950
-      - CYL-科技（2022.01.31） 96
-      - ♥️♥️梦歌♥️♥️_923
-      - ♥️♥️梦歌♥️♥️_1268
-      - CYL-科技（2022.01.31） 97
-      - ♥️♥️梦歌♥️♥️_843
-      - CYL-科技（2022.01.31） 98
-      - ♥️♥️梦歌♥️♥️_844
-      - CYL-科技（2022.01.31） 99
-      - CYL-科技（2022.01.31） 100
-      - CYL-科技（2022.01.31） 101
-      - 香港-889.1KB/s(Youtube:不良林)
-      - CYL-科技（2022.01.31） 102
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港-10.99MB/s(Youtube:不良林)
+      - 45.79.121.166:5003
+      - ♥️♥️梦歌♥️♥️_856
+      - ♥️♥️梦歌♥️♥️_845
+      - 香港阿伟科技-新年快乐
+      - ♥️♥️梦歌♥️♥️_844
+      - ♥️♥️梦歌♥️♥️_846
       - CYL-科技（2022.01.31）
+      - ♥️♥️梦歌♥️♥️_843
+      - CYL-科技（2022.01.31） 29
+      - CYL-科技（2022.01.31） 181
       - CYL-科技（2022.01.31） 2
       - CYL-科技（2022.01.31） 3
       - CYL-科技（2022.01.31） 4
       - CYL-科技（2022.01.31） 5
-      - ♥️♥️梦歌♥️♥️_921
+      - ♥️♥️YouTube梦歌♥️♥️_378
       - CYL-科技（2022.01.31） 6
       - CYL-科技（2022.01.31） 7
-      - ♥️♥️梦歌♥️♥️_846
+      - ♥️♥️YouTube梦歌♥️♥️_117
+      - CYL-科技（2022.01.31） 137
       - CYL-科技（2022.01.31） 8
       - CYL-科技（2022.01.31） 9
+      - CYL-科技（2022.01.31） 218
+      - 美国阿伟科技-新年快乐
       - CYL-科技（2022.01.31） 10
+      - CYL-科技（2022.01.31） 232
       - CYL-科技（2022.01.31） 11
+      - CYL-科技（2022.01.31） 6 2
+      - ♥️♥️YouTube梦歌♥️♥️_107
+      - ♥️♥️YouTube梦歌♥️♥️_19
+      - ♥️♥️YouTube梦歌♥️♥️_360
       - CYL-科技（2022.01.31） 12
-      - ♥️♥️梦歌♥️♥️_845
+      - ♥️♥️YouTube梦歌♥️♥️_348
       - CYL-科技（2022.01.31） 13
+      - ♥️♥️YouTube梦歌♥️♥️_353
       - CYL-科技（2022.01.31） 14
       - CYL-科技（2022.01.31） 15
-      - 美国-6.46MB/s(Youtube:不良林)
+      - ♥️♥️梦歌♥️♥️_854
+      - ♥️♥️YouTube梦歌♥️♥️_363
+      - ♥️♥️YouTube梦歌♥️♥️_371
       - CYL-科技（2022.01.31） 16
+      - ♥️♥️YouTube梦歌♥️♥️_377
+      - ♥️♥️YouTube梦歌♥️♥️_20
       - CYL-科技（2022.01.31） 17
+      - 美国阿伟科技-新年快乐 2
+      - ♥️♥️YouTube梦歌♥️♥️_347
+      - ♥️♥️梦歌♥️♥️_847
       - CYL-科技（2022.01.31） 18
       - CYL-科技（2022.01.31） 19
       - CYL-科技（2022.01.31） 20
+      - ♥️♥️YouTube梦歌♥️♥️_341
       - CYL-科技（2022.01.31） 21
+      - ♥️♥️YouTube梦歌♥️♥️_333
+      - ♥️♥️YouTube梦歌♥️♥️_167
       - CYL-科技（2022.01.31） 22
       - CYL-科技（2022.01.31） 23
       - CYL-科技（2022.01.31） 24
       - CYL-科技（2022.01.31） 25
+      - 167.88.61.213:8119
       - CYL-科技（2022.01.31） 26
       - CYL-科技（2022.01.31） 27
       - CYL-科技（2022.01.31） 28
-      - CYL-科技（2022.01.31） 29
-      - CYL-科技（2022.01.31） 30
-      - CYL-科技（2022.01.31） 31
-      - CYL-科技（2022.01.31） 32
-      - CYL-科技（2022.01.31） 33
-      - CYL-科技（2022.01.31） 34
-      - CYL-科技（2022.01.31） 35
-      - CYL-科技（2022.01.31） 36
-      - CYL-科技（2022.01.31） 37
-      - ♥️♥️梦歌♥️♥️_686
-      - CYL-科技（2022.01.31） 38
-      - CYL-科技（2022.01.31） 39
-      - CYL-科技（2022.01.31） 40
-      - CYL-科技（2022.01.31） 41
-      - CYL-科技（2022.01.31） 42
-      - CYL-科技（2022.01.31） 43
-      - ♥️♥️梦歌♥️♥️_689
-      - CYL-科技（2022.01.31） 44
-      - ♥️♥️梦歌♥️♥️_276
-      - ♥️♥️梦歌♥️♥️_685
-      - CYL-科技（2022.01.31） 45
-      - CYL-科技（2022.01.31） 46
-      - CYL-科技（2022.01.31） 47
-      - CYL-科技（2022.01.31） 48
-      - CYL-科技（2022.01.31） 49
-      - CYL-科技（2022.01.31） 50
-      - CYL-科技（2022.01.31） 51
-      - ♥️♥️梦歌♥️♥️_1153
-      - CYL-科技（2022.01.31） 52
-      - CYL-科技（2022.01.31） 53
-      - CYL-科技（2022.01.31） 54
-      - ♥️♥️梦歌♥️♥️_697
-      - CYL-科技（2022.01.31） 55
-      - CYL-科技（2022.01.31） 56
-      - CYL-科技（2022.01.31） 57
-      - CYL-科技（2022.01.31） 58
-      - CYL-科技（2022.01.31） 59
-      - CYL-科技（2022.01.31） 60
-      - CYL-科技（2022.01.31） 61
-      - CYL-科技（2022.01.22）
-      - CYL-科技（2022.01.31） 62
-      - CYL-科技（2022.01.31） 63
-      - ♥️♥️梦歌♥️♥️_650
-      - CYL-科技（2022.01.31） 64
-      - CYL-科技（2022.01.31） 65
-      - CYL-科技（2022.01.31） 66
-      - CYL-科技（2022.01.31） 67
-      - CYL-科技（2022.01.31） 68
-      - CYL-科技（2022.01.31） 69
-      - ♥️♥️梦歌♥️♥️_526
-      - CYL-科技（2022.01.31） 70
-      - CYL-科技（2022.01.31） 71
-      - CYL-科技（2022.01.31） 72
-      - CYL-科技（2022.01.31） 73
-      - CYL-科技（2022.01.31） 74
-      - CYL-科技（2022.01.31） 75
-      - CYL-科技（2022.01.31） 76
-      - CYL-科技（2022.01.31） 77
-      - CYL-科技（2022.01.31） 78
-      - CYL-科技（2022.01.31） 79
-      - CYL-科技（2022.01.31） 80
-      - CYL-科技（2022.01.31） 81
-      - CYL-科技（2022.01.31） 82
-      - CYL-科技（2022.01.31） 83
-      - CYL-科技（2022.01.31） 84
-      - CYL-科技（2022.01.31） 85
-      - CYL-科技（2022.01.31） 86
-      - CYL-科技（2022.01.31） 87
-      - CYL-科技（2022.01.31） 88
-      - CYL-科技（2022.01.31） 89
-      - CYL-科技（2022.01.31） 90
-      - CYL-科技（2022.01.31） 91
-      - CYL-科技（2022.01.31） 92
-      - CYL-科技（2022.01.31） 93
-      - ♥️♥️梦歌♥️♥️_854
-      - ♥️♥️梦歌♥️♥️_1468
-      - CYL-科技（2022.01.31） 94
-      - CYL-科技（2022.01.31） 95
-      - ♥️♥️梦歌♥️♥️_1137
-      - ♥️♥️梦歌♥️♥️_856
-      - ♥️♥️梦歌♥️♥️_951
-      - ♥️♥️梦歌♥️♥️_950
-      - CYL-科技（2022.01.31） 96
-      - ♥️♥️梦歌♥️♥️_923
-      - ♥️♥️梦歌♥️♥️_1268
-      - CYL-科技（2022.01.31） 97
-      - ♥️♥️梦歌♥️♥️_843
-      - CYL-科技（2022.01.31） 98
-      - ♥️♥️梦歌♥️♥️_844
-      - CYL-科技（2022.01.31） 99
-      - CYL-科技（2022.01.31） 100
-      - CYL-科技（2022.01.31） 101
-      - 香港-889.1KB/s(Youtube:不良林)
-      - CYL-科技（2022.01.31） 102
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1082,133 +554,67 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港-10.99MB/s(Youtube:不良林)
+      - 45.79.121.166:5003
+      - ♥️♥️梦歌♥️♥️_856
+      - ♥️♥️梦歌♥️♥️_845
+      - 香港阿伟科技-新年快乐
+      - ♥️♥️梦歌♥️♥️_844
+      - ♥️♥️梦歌♥️♥️_846
       - CYL-科技（2022.01.31）
+      - ♥️♥️梦歌♥️♥️_843
+      - CYL-科技（2022.01.31） 29
+      - CYL-科技（2022.01.31） 181
       - CYL-科技（2022.01.31） 2
       - CYL-科技（2022.01.31） 3
       - CYL-科技（2022.01.31） 4
       - CYL-科技（2022.01.31） 5
-      - ♥️♥️梦歌♥️♥️_921
+      - ♥️♥️YouTube梦歌♥️♥️_378
       - CYL-科技（2022.01.31） 6
       - CYL-科技（2022.01.31） 7
-      - ♥️♥️梦歌♥️♥️_846
+      - ♥️♥️YouTube梦歌♥️♥️_117
+      - CYL-科技（2022.01.31） 137
       - CYL-科技（2022.01.31） 8
       - CYL-科技（2022.01.31） 9
+      - CYL-科技（2022.01.31） 218
+      - 美国阿伟科技-新年快乐
       - CYL-科技（2022.01.31） 10
+      - CYL-科技（2022.01.31） 232
       - CYL-科技（2022.01.31） 11
+      - CYL-科技（2022.01.31） 6 2
+      - ♥️♥️YouTube梦歌♥️♥️_107
+      - ♥️♥️YouTube梦歌♥️♥️_19
+      - ♥️♥️YouTube梦歌♥️♥️_360
       - CYL-科技（2022.01.31） 12
-      - ♥️♥️梦歌♥️♥️_845
+      - ♥️♥️YouTube梦歌♥️♥️_348
       - CYL-科技（2022.01.31） 13
+      - ♥️♥️YouTube梦歌♥️♥️_353
       - CYL-科技（2022.01.31） 14
       - CYL-科技（2022.01.31） 15
-      - 美国-6.46MB/s(Youtube:不良林)
+      - ♥️♥️梦歌♥️♥️_854
+      - ♥️♥️YouTube梦歌♥️♥️_363
+      - ♥️♥️YouTube梦歌♥️♥️_371
       - CYL-科技（2022.01.31） 16
+      - ♥️♥️YouTube梦歌♥️♥️_377
+      - ♥️♥️YouTube梦歌♥️♥️_20
       - CYL-科技（2022.01.31） 17
+      - 美国阿伟科技-新年快乐 2
+      - ♥️♥️YouTube梦歌♥️♥️_347
+      - ♥️♥️梦歌♥️♥️_847
       - CYL-科技（2022.01.31） 18
       - CYL-科技（2022.01.31） 19
       - CYL-科技（2022.01.31） 20
+      - ♥️♥️YouTube梦歌♥️♥️_341
       - CYL-科技（2022.01.31） 21
+      - ♥️♥️YouTube梦歌♥️♥️_333
+      - ♥️♥️YouTube梦歌♥️♥️_167
       - CYL-科技（2022.01.31） 22
       - CYL-科技（2022.01.31） 23
       - CYL-科技（2022.01.31） 24
       - CYL-科技（2022.01.31） 25
+      - 167.88.61.213:8119
       - CYL-科技（2022.01.31） 26
       - CYL-科技（2022.01.31） 27
       - CYL-科技（2022.01.31） 28
-      - CYL-科技（2022.01.31） 29
-      - CYL-科技（2022.01.31） 30
-      - CYL-科技（2022.01.31） 31
-      - CYL-科技（2022.01.31） 32
-      - CYL-科技（2022.01.31） 33
-      - CYL-科技（2022.01.31） 34
-      - CYL-科技（2022.01.31） 35
-      - CYL-科技（2022.01.31） 36
-      - CYL-科技（2022.01.31） 37
-      - ♥️♥️梦歌♥️♥️_686
-      - CYL-科技（2022.01.31） 38
-      - CYL-科技（2022.01.31） 39
-      - CYL-科技（2022.01.31） 40
-      - CYL-科技（2022.01.31） 41
-      - CYL-科技（2022.01.31） 42
-      - CYL-科技（2022.01.31） 43
-      - ♥️♥️梦歌♥️♥️_689
-      - CYL-科技（2022.01.31） 44
-      - ♥️♥️梦歌♥️♥️_276
-      - ♥️♥️梦歌♥️♥️_685
-      - CYL-科技（2022.01.31） 45
-      - CYL-科技（2022.01.31） 46
-      - CYL-科技（2022.01.31） 47
-      - CYL-科技（2022.01.31） 48
-      - CYL-科技（2022.01.31） 49
-      - CYL-科技（2022.01.31） 50
-      - CYL-科技（2022.01.31） 51
-      - ♥️♥️梦歌♥️♥️_1153
-      - CYL-科技（2022.01.31） 52
-      - CYL-科技（2022.01.31） 53
-      - CYL-科技（2022.01.31） 54
-      - ♥️♥️梦歌♥️♥️_697
-      - CYL-科技（2022.01.31） 55
-      - CYL-科技（2022.01.31） 56
-      - CYL-科技（2022.01.31） 57
-      - CYL-科技（2022.01.31） 58
-      - CYL-科技（2022.01.31） 59
-      - CYL-科技（2022.01.31） 60
-      - CYL-科技（2022.01.31） 61
-      - CYL-科技（2022.01.22）
-      - CYL-科技（2022.01.31） 62
-      - CYL-科技（2022.01.31） 63
-      - ♥️♥️梦歌♥️♥️_650
-      - CYL-科技（2022.01.31） 64
-      - CYL-科技（2022.01.31） 65
-      - CYL-科技（2022.01.31） 66
-      - CYL-科技（2022.01.31） 67
-      - CYL-科技（2022.01.31） 68
-      - CYL-科技（2022.01.31） 69
-      - ♥️♥️梦歌♥️♥️_526
-      - CYL-科技（2022.01.31） 70
-      - CYL-科技（2022.01.31） 71
-      - CYL-科技（2022.01.31） 72
-      - CYL-科技（2022.01.31） 73
-      - CYL-科技（2022.01.31） 74
-      - CYL-科技（2022.01.31） 75
-      - CYL-科技（2022.01.31） 76
-      - CYL-科技（2022.01.31） 77
-      - CYL-科技（2022.01.31） 78
-      - CYL-科技（2022.01.31） 79
-      - CYL-科技（2022.01.31） 80
-      - CYL-科技（2022.01.31） 81
-      - CYL-科技（2022.01.31） 82
-      - CYL-科技（2022.01.31） 83
-      - CYL-科技（2022.01.31） 84
-      - CYL-科技（2022.01.31） 85
-      - CYL-科技（2022.01.31） 86
-      - CYL-科技（2022.01.31） 87
-      - CYL-科技（2022.01.31） 88
-      - CYL-科技（2022.01.31） 89
-      - CYL-科技（2022.01.31） 90
-      - CYL-科技（2022.01.31） 91
-      - CYL-科技（2022.01.31） 92
-      - CYL-科技（2022.01.31） 93
-      - ♥️♥️梦歌♥️♥️_854
-      - ♥️♥️梦歌♥️♥️_1468
-      - CYL-科技（2022.01.31） 94
-      - CYL-科技（2022.01.31） 95
-      - ♥️♥️梦歌♥️♥️_1137
-      - ♥️♥️梦歌♥️♥️_856
-      - ♥️♥️梦歌♥️♥️_951
-      - ♥️♥️梦歌♥️♥️_950
-      - CYL-科技（2022.01.31） 96
-      - ♥️♥️梦歌♥️♥️_923
-      - ♥️♥️梦歌♥️♥️_1268
-      - CYL-科技（2022.01.31） 97
-      - ♥️♥️梦歌♥️♥️_843
-      - CYL-科技（2022.01.31） 98
-      - ♥️♥️梦歌♥️♥️_844
-      - CYL-科技（2022.01.31） 99
-      - CYL-科技（2022.01.31） 100
-      - CYL-科技（2022.01.31） 101
-      - 香港-889.1KB/s(Youtube:不良林)
-      - CYL-科技（2022.01.31） 102
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1976,12 +1382,10 @@ rules:
  - DOMAIN-SUFFIX,activate-sea.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,activate-sjc0.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,activate.adobe.com,🍃 应用净化
- - DOMAIN-SUFFIX,activate.wip3.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,adobe-dns-2.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,adobe-dns-3.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,adobe-dns.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,ereg.adobe.com,🍃 应用净化
- - DOMAIN-SUFFIX,ereg.wip3.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,geo2.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,hl2rcv.adobe.com,🍃 应用净化
  - DOMAIN-SUFFIX,hlrcv.stage.adobe.com,🍃 应用净化
@@ -2036,7 +1440,6 @@ rules:
  - DOMAIN-SUFFIX,baikebcs.bdimg.com,🍃 应用净化
  - DOMAIN-SUFFIX,banlv.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,bar.baidu.com,🍃 应用净化
- - DOMAIN-SUFFIX,bdimg.share.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,bdplus.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,btlaunch.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,c.baidu.cn,🍃 应用净化
@@ -2054,7 +1457,6 @@ rules:
  - DOMAIN-SUFFIX,click.hm.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,click.qianqian.com,🍃 应用净化
  - DOMAIN-SUFFIX,cm.baidu.com,🍃 应用净化
- - DOMAIN-SUFFIX,cm.pos.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,cpro.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,cpro.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,cpro.baidustatic.com,🍃 应用净化
@@ -2157,13 +1559,10 @@ rules:
  - DOMAIN-SUFFIX,rp.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,rplog.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,s.baidu.com,🍃 应用净化
- - DOMAIN-SUFFIX,s.cpro.baidu.com,🍃 应用净化
- - DOMAIN-SUFFIX,sa.tuisong.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,sclick.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,sestat.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,shadu.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,share.baidu.com,🍃 应用净化
- - DOMAIN-SUFFIX,snippet.pos.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,sobar.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,sobartop.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,spcode.baidu.cn,🍃 应用净化
@@ -2180,7 +1579,6 @@ rules:
  - DOMAIN-SUFFIX,tuijian.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,tuisong.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,tuisong.baidu.com,🍃 应用净化
- - DOMAIN-SUFFIX,uat1.bfsspadserver.8le8le.com,🍃 应用净化
  - DOMAIN-SUFFIX,ubmcmm.baidustatic.com,🍃 应用净化
  - DOMAIN-SUFFIX,ucstat.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,ucstat.baidu.com,🍃 应用净化
@@ -2205,7 +1603,6 @@ rules:
  - DOMAIN-SUFFIX,wisepush.video.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,wm.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,wm.baidu.com,🍃 应用净化
- - DOMAIN-SUFFIX,wn.pos.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,znsv.baidu.cn,🍃 应用净化
  - DOMAIN-SUFFIX,znsv.baidu.com,🍃 应用净化
  - DOMAIN-SUFFIX,zz.bdstatic.com,🍃 应用净化
@@ -2256,7 +1653,11 @@ rules:
  - DOMAIN-SUFFIX,ic.snssdk.com,🍃 应用净化
  - DOMAIN-SUFFIX,log.snssdk.com,🍃 应用净化
  - DOMAIN-SUFFIX,nativeapp.toutiao.com,🍃 应用净化
+ - DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,🍃 应用净化
+ - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,🍃 应用净化
+ - DOMAIN-SUFFIX,pangolin.snssdk.com,🍃 应用净化
  - DOMAIN-SUFFIX,partner.toutiao.com,🍃 应用净化
+ - DOMAIN-SUFFIX,pglstatp-toutiao.com,🍃 应用净化
  - DOMAIN-SUFFIX,sm.toutiao.com,🍃 应用净化
  - DOMAIN-SUFFIX,a.dangdang.com,🍃 应用净化
  - DOMAIN-SUFFIX,click.dangdang.com,🍃 应用净化
@@ -2779,7 +2180,6 @@ rules:
  - DOMAIN-SUFFIX,couchcoaster.jp,🍃 应用净化
  - DOMAIN-SUFFIX,delivery.dmkt-sp.jp,🍃 应用净化
  - DOMAIN-SUFFIX,ehg-youtube.hitbox.com,🍃 应用净化
- - DOMAIN-SUFFIX,m-78.jp,🍃 应用净化
  - DOMAIN-SUFFIX,nichibenren.or.jp,🍃 应用净化
  - DOMAIN-SUFFIX,nicorette.co.kr,🍃 应用净化
  - DOMAIN-SUFFIX,ssl-youtube.2cnt.net,🍃 应用净化
@@ -2790,8 +2190,6 @@ rules:
  - DOMAIN-SUFFIX,ads.wasu.tv,🍃 应用净化
  - DOMAIN-SUFFIX,afp.wasu.tv,🍃 应用净化
  - DOMAIN-SUFFIX,c.algovid.com,🍃 应用净化
- - DOMAIN-SUFFIX,cc.xtgreat.com,🍃 应用净化
- - DOMAIN-SUFFIX,d.dsp.imageter.com,🍃 应用净化
  - DOMAIN-SUFFIX,gg.jtertp.com,🍃 应用净化
  - DOMAIN-SUFFIX,gridsum-vd.cntv.cn,🍃 应用净化
  - DOMAIN-SUFFIX,kwflvcdn.000dn.com,🍃 应用净化
@@ -3111,8 +2509,10 @@ rules:
  - DOMAIN,d3196yreox78o9.cloudfront.net,🌍 国外媒体
  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🌍 国外媒体
  - DOMAIN,ktpx.amazon.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,aboutamazon.com,🌍 国外媒体
  - DOMAIN-SUFFIX,aiv-cdn.net,🌍 国外媒体
  - DOMAIN-SUFFIX,aiv-delivery.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,amazon.jobs,🌍 国外媒体
  - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
  - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
@@ -3179,7 +2579,6 @@ rules:
  - DOMAIN-SUFFIX,fox.com,🌍 国外媒体
  - DOMAIN-SUFFIX,foxdcg.com,🌍 国外媒体
  - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
- - DOMAIN,execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
@@ -3360,8 +2759,14 @@ rules:
  - DOMAIN,yt3.ggpht.com,🌍 国外媒体
  - DOMAIN-SUFFIX,googlevideo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,gvt2.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,withyoutube.com,🌍 国外媒体
  - DOMAIN-SUFFIX,youtu.be,🌍 国外媒体
+ - DOMAIN-SUFFIX,youtube-nocookie.com,🌍 国外媒体
  - DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,youtubeeducation.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,youtubegaming.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,youtubekids.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,yt.be,🌍 国外媒体
  - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
  - DOMAIN,music.youtube.com,🌍 国外媒体
  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
@@ -4302,9 +3707,7 @@ rules:
  - DOMAIN-SUFFIX,quanmin.tv,🎯 全球直连
  - DOMAIN-SUFFIX,qunar.com,🎯 全球直连
  - DOMAIN-SUFFIX,qunarzz.com,🎯 全球直连
- - DOMAIN-SUFFIX,rarbg.to,🎯 全球直连
  - DOMAIN-SUFFIX,repaik.com,🎯 全球直连
- - DOMAIN-SUFFIX,rrmj.tv,🎯 全球直连
  - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
  - DOMAIN-SUFFIX,runoob.com,🎯 全球直连
  - DOMAIN-SUFFIX,sankuai.com,🎯 全球直连
