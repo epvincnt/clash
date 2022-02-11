@@ -5,223 +5,391 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: ♥️♥️YouTube梦歌♥️♥️_615, server: 102.wowogg.cyou, port: 11221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_628, server: 91.wowogg.cyou, port: 52291, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_741, server: dajbxkr.naikonode.top, port: 15305, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:YGboFsDEkHqjABAz, obfs-param: 57cff6622.microsoft.com, udp: true}
+  - {name: 香港阿伟科技@TG/油管, server: 89.wowogg.cyou, port: 52289, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V25-付费推荐:suo.yt/ssrsub", server: 86.wgong.xyz, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_646, server: 95.wowogg.cyou, port: 52295, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_751, server: gz.soolos.com, port: 58806, type: trojan, password: a42c5cb1-2fff-319f-8da2-6a9978512964, sni: gz.soolos.com, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_753, server: fs.soolos.com, port: 58805, type: trojan, password: a42c5cb1-2fff-319f-8da2-6a9978512964, sni: fs.soolos.com, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG/油管 2, server: 115.wowogg.cyou, port: 52215, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V42-付费推荐:suo.yt/ssrsub", server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "@SSRSUB-V36-付费推荐:suo.yt/ssrsub", server: 125.wgong.xyz, port: 52225, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: ♥️♥️YouTube梦歌♥️♥️_654, server: 133.wowogg.cyou, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_668, server: 104.wowogg.cyou, port: 11222, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_679, server: 88.wowogg.cyou, port: 52288, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_743, server: dajbxkr.naikonode.top, port: 15307, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:YGboFsDEkHqjABAz, obfs-param: 57cff6622.microsoft.com, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_738, server: dajbxkr.naikonode.top, port: 15302, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:YGboFsDEkHqjABAz, obfs-param: 57cff6622.microsoft.com, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_670, server: 103.wowogg.cyou, port: 52203, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_744, server: dajbxkr.naikonode.top, port: 15308, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:YGboFsDEkHqjABAz, obfs-param: 57cff6622.microsoft.com, udp: true}
+  - {name: 香港_节点更新https://bit.ly/3oOSZUc_14, server: 104.208.64.48, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V24-付费推荐:suo.yt/ssrsub", server: 105.wgong.xyz, port: 52205, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: ♥️♥️YouTube梦歌♥️♥️_626, server: 92.wowogg.cyou, port: 52292, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_739, server: dajbxkr.naikonode.top, port: 15303, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:YGboFsDEkHqjABAz, obfs-param: 57cff6622.microsoft.com, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_737, server: dajbxkr.naikonode.top, port: 15301, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:YGboFsDEkHqjABAz, obfs-param: 57cff6622.microsoft.com, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_742, server: dajbxkr.naikonode.top, port: 15306, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:YGboFsDEkHqjABAz, obfs-param: 57cff6622.microsoft.com, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_692, server: 130.wowogg.cyou, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君), server: 120.232.214.89, port: 108, type: vmess, uuid: a063bc83-661e-37b4-861a-8b02a6d08ea9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vvv, ws-headers: {Host: qwertyproxypool426}, udp: true}
-  - {name: 香港w 11, server: az.moeai.cn, port: 32916, type: vmess, uuid: 3aed0e55-aa17-4001-b612-f18b649dfd08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_613, server: 109.wowogg.cyou, port: 52209, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_545, server: in02.dns2333.xyz, port: 63078, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_677, server: 89.wowogg.cyou, port: 52289, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V37-付费推荐:suo.yt/ssrsub", server: 82.wgong.xyz, port: 52282, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V26-付费推荐:suo.yt/ssrsub", server: 133.wgong.xyz, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.02.08） 2, server: 130.wgong.xyz, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_541, server: in02.dns2333.xyz, port: 63004, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-kr01.covid19.rip}, udp: true}
-  - {name: 日本阿伟科技@TG/油管, server: tunnel-jp-a-01.xncloud.xyz, port: 206, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: tunnel-jp-a-01.xncloud.xyz}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_547, server: in04.dns2333.xyz, port: 63078, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_733, server: dajbxus.naikonode.top, port: 15105, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:YGboFsDEkHqjABAz, obfs-param: 57cff6622.microsoft.com, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_735, server: dajbxus.naikonode.top, port: 15107, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:YGboFsDEkHqjABAz, obfs-param: 57cff6622.microsoft.com, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_731, server: dajbxus.naikonode.top, port: 15102, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:YGboFsDEkHqjABAz, obfs-param: 57cff6622.microsoft.com, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_730, server: dajbxus.naikonode.top, port: 15101, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:YGboFsDEkHqjABAz, obfs-param: 57cff6622.microsoft.com, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_1534, server: 107.wgong.xyz, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_684, server: 123.wowogg.cyou, port: 52223, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_734, server: dajbxus.naikonode.top, port: 15106, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:YGboFsDEkHqjABAz, obfs-param: 57cff6622.microsoft.com, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_736, server: dajbxus.naikonode.top, port: 15108, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:YGboFsDEkHqjABAz, obfs-param: 57cff6622.microsoft.com, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_687, server: 124.wowogg.cyou, port: 52224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）, server: 38.68.134.23, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "@SSRSUB-V28-付费推荐:suo.yt/ssrsub", server: 101.wgong.xyz, port: 52201, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_762, server: gz.soolos.com, port: 58810, type: trojan, password: a42c5cb1-2fff-319f-8da2-6a9978512964, sni: gz.soolos.com, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_754, server: gz.soolos.com, port: 58830, type: trojan, password: a42c5cb1-2fff-319f-8da2-6a9978512964, sni: gz.soolos.com, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V38-付费推荐:suo.yt/ssrsub", server: 103.wgong.xyz, port: 52203, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_791, server: fs.soolos.com, port: 58809, type: trojan, password: a42c5cb1-2fff-319f-8da2-6a9978512964, sni: fs.soolos.com, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_231, server: keli.scsevers.cf, port: 44444, type: vmess, uuid: 3fd63a1f-3f1c-4f62-8073-dfce344a2bcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG/油管 3, server: 137.wgong.xyz, port: 52437, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_749, server: gz.soolos.com, port: 58831, type: trojan, password: a42c5cb1-2fff-319f-8da2-6a9978512964, sni: gz.soolos.com, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_879, server: 120.232.214.89, port: 110, type: vmess, uuid: b5b579f4-3320-301c-a04b-c2473062b46c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vvv, ws-headers: {Host: qwertyproxypool426}, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_301, server: tunnel-sg-a-01.xncloud.xyz, port: 107, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: tunnel-sg-a-01.xncloud.xyz}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_874, server: 120.232.214.89, port: 115, type: vmess, uuid: b5b579f4-3320-301c-a04b-c2473062b46c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vvv, ws-headers: {Host: qwertyproxypool426}, udp: true}
+  - {name: 中国_节点更新https://bit.ly/3oOSZUc_24, server: 82.wgong.xyz, port: 52282, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_299, server: 120.232.214.89, port: 107, type: vmess, uuid: b5b579f4-3320-301c-a04b-c2473062b46c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vvv, ws-headers: {Host: qwertyproxypool426}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_876, server: 120.232.214.89, port: 108, type: vmess, uuid: b5b579f4-3320-301c-a04b-c2473062b46c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vvv, ws-headers: {Host: qwertyproxypool426}, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_330, server: 120.232.214.89, port: 104, type: vmess, uuid: b5b579f4-3320-301c-a04b-c2473062b46c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vvv, ws-headers: {Host: qwertyproxypool426}, udp: true}
   - {name: ♥️♥️YouTube梦歌♥️♥️_689, server: 118.wowogg.cyou, port: 52218, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_732, server: dajbxus.naikonode.top, port: 15104, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:YGboFsDEkHqjABAz, obfs-param: 57cff6622.microsoft.com, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_608, server: 167.88.61.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 台湾_节点更新https://bit.ly/3oOSZUc_125, server: nat.tw.tgproxy.wtf, port: 10562, type: vmess, uuid: 48e0a875-abf7-4fbf-930b-0a3ad8004cbb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: nat.tw.tgproxy.wtf}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_613, server: 109.wowogg.cyou, port: 52209, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国_节点更新https://bit.ly/3oOSZUc_26, server: 120.233.10.62, port: 52284, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_330, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_668, server: 104.wowogg.cyou, port: 11222, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_873, server: 120.232.214.89, port: 111, type: vmess, uuid: b5b579f4-3320-301c-a04b-c2473062b46c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vvv, ws-headers: {Host: qwertyproxypool426}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_778, server: gz.soolos.com, port: 58812, type: trojan, password: a42c5cb1-2fff-319f-8da2-6a9978512964, sni: gz.soolos.com, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_882, server: 120.232.214.89, port: 116, type: vmess, uuid: b5b579f4-3320-301c-a04b-c2473062b46c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vvv, ws-headers: {Host: qwertyproxypool426}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_430, server: 183.232.56.202, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: 183.232.56.202}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_429, server: 120.232.41.242, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: 120.232.41.242}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_606, server: 167.88.61.109, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_650, server: vm.wsaly.icu, port: 25960, type: vmess, uuid: a84d58cd-c499-48e0-9713-33addd1447e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xyz, ws-headers: {Host: vm.wsaly.icu}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_556, server: in02.dns2333.xyz, port: 63087, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: sg-balancer.tencent.best}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_689 2, server: in02.dns2333.xyz, port: 63086, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_683, server: 82.wowogg.cyou, port: 52282, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_645, server: tt2.tjvpn.top, port: 520, type: trojan, password: 0cb2cd1f-870b-485c-914a-60aba39eed39, sni: tt2.tjvpn.top, skip-cert-verify: true, udp: true}
+  - {name: 东京132-17@1Gbps节点更新https://bit.ly/3oOSZUc, server: 172.67.223.77, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2022.ga}, udp: true}
+  - {name: 东京132-35 联通14.07 节点更新https://bit.ly/3oOSZUc, server: 104.27.192.65, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2022.ga}, udp: true}
+  - {name: 东京184-14@1Gbps节点更新https://bit.ly/3oOSZUc, server: 104.22.3.3, port: 443, type: vmess, uuid: 188741f2-1f14-43cb-be7a-1200a9f4332e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2022.ml}, udp: true}
+  - {name: 东京184-29@1Gbps节点更新https://bit.ly/3oOSZUc, server: 104.19.23.24, port: 443, type: vmess, uuid: 188741f2-1f14-43cb-be7a-1200a9f4332e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2022.ml}, udp: true}
+  - {name: 东京132-14@1Gbps节点更新https://bit.ly/3oOSZUc, server: 104.22.3.3, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2022.ga}, udp: true}
+  - {name: 东京132-33 联通15.02m  节点更新https://bit.ly/3oOSZUc, server: 172.67.60.78, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2022.ga}, udp: true}
+  - {name: 东京184-9@1Gbps节点更新https://bit.ly/3oOSZUc, server: 104.16.160.114, port: 443, type: vmess, uuid: 188741f2-1f14-43cb-be7a-1200a9f4332e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2022.ml}, udp: true}
+  - {name: 东京132-29@1Gbps节点更新https://bit.ly/3oOSZUc, server: 104.19.23.24, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2022.ga}, udp: true}
+  - {name: 东京132-37 联通11.95 节点更新https://bit.ly/3oOSZUc, server: 104.27.207.5, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2022.ga}, udp: true}
+  - {name: 东京184-7@1Gbps节点更新https://bit.ly/3oOSZUc, server: 104.20.130.43, port: 443, type: vmess, uuid: 188741f2-1f14-43cb-be7a-1200a9f4332e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2022.ml}, udp: true}
+  - {name: 东京184-16@1Gbps节点更新https://bit.ly/3oOSZUc, server: 104.22.44.50, port: 443, type: vmess, uuid: 188741f2-1f14-43cb-be7a-1200a9f4332e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2022.ml}, udp: true}
+  - {name: 东京184-20@1Gbps节点更新https://bit.ly/3oOSZUc, server: 104.20.81.240, port: 443, type: vmess, uuid: 188741f2-1f14-43cb-be7a-1200a9f4332e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2022.ml}, udp: true}
+  - {name: 东京132-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG, server: 104.16.16.255, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2022.ga}, udp: true}
+  - {name: 美国_节点更新https://bit.ly/3oOSZUc_219, server: us.lv.buyvm.tgproxy.wtf, port: 21888, type: vmess, uuid: 48e0a875-abf7-4fbf-930b-0a3ad8004cbb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: us.lv.buyvm.tgproxy.wtf}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_549, server: hk1.qtycloud.link, port: 1507, type: vmess, uuid: f6c5e143-fbb2-3cc2-8388-cb74a2e5854e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk1.qtycloud.link}, udp: true}
+  - {name: 东京184-39 联通11.11 节点更新https://bit.ly/3oOSZUc, server: 104.22.66.8, port: 443, type: vmess, uuid: 188741f2-1f14-43cb-be7a-1200a9f4332e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2022.ml}, udp: true}
+  - {name: 东京184-4 联通100M+4K -2 节点更新https://bit.ly/3oOSZUc, server: 104.17.36.178, port: 443, type: vmess, uuid: 188741f2-1f14-43cb-be7a-1200a9f4332e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2022.ml}, udp: true}
+  - {name: 东京132-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc, server: www.digitalocean.com, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2022.ga}, udp: true}
+  - {name: 中国_节点更新https://bit.ly/3oOSZUc_4, server: 120.233.10.62, port: 52203, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_306, server: 183.232.56.202, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: in02.dns2333.xyz}, udp: true}
+  - {name: 美国【YouTube由零開始】, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 3, server: 134.195.196.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "@SSRSUB-V37-付费推荐:suo.yt/ssrsub", server: 82.wgong.xyz, port: 52282, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大 4, server: 134.195.196.41, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 法国【YouTube由零開始】, server: 62.210.209.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 5, server: 134.195.196.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 欧洲阿伟科技@TG/油管, server: oz1.mooncloud.bike, port: 8443, type: vmess, uuid: d3180565-3fe9-4f16-ac9f-0ce578b0ea08, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.mooncloud.bike}, udp: true}
+  - {name: 法国【YouTube由零開始】 2, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 法国【YouTube由零開始】 3, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 法国【YouTube由零開始】 4, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "@SSRSUB-V22-付费推荐:suo.yt/ssrsub", server: 109.wgong.xyz, port: 52209, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube由零開始】 2, server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "@SSRSUB-俄罗斯13-付费推荐::suo.yt/ssrsub", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
+  - {name: _FR_法国, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _RU_俄罗斯联邦, server: 5.188.35.120, port: 443, type: vmess, uuid: 0c7a06d0-8061-4df7-b521-960e2b9ce0f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 法国【YouTube由零開始】 5, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: ♥️♥️YouTube梦歌♥️♥️_823, server: fs.soolos.com, port: 58803, type: trojan, password: a42c5cb1-2fff-319f-8da2-6a9978512964, sni: fs.soolos.com, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V31-付费推荐:suo.yt/ssrsub", server: 122.wgong.xyz, port: 52222, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Ytb:鹏哥分享_加拿大_82, server: t4.ssrsub.com, port: 8443, type: trojan, password: 916251fa-6aa5-459d-b7a1-968b49a01e4e, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Ytb:鹏哥分享_加拿大_81, server: t4.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 142.202.48.34:3306, server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: "@SSRSUB-V29-付费推荐:suo.yt/ssrsub", server: 99.wgong.xyz, port: 52299, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_622, server: 96.wowogg.cyou, port: 52296, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_646, server: 95.wowogg.cyou, port: 52295, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: ♥️♥️YouTube梦歌♥️♥️_675, server: 94.wowogg.cyou, port: 52294, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V29-付费推荐:suo.yt/ssrsub", server: 99.wgong.xyz, port: 52299, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_677, server: 89.wowogg.cyou, port: 52289, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V26-付费推荐:suo.yt/ssrsub", server: 133.wgong.xyz, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港_节点更新https://bit.ly/3oOSZUc_205, server: 104.208.64.48, port: 52329, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V50-付费推荐:suo.yt/ssrsub", server: 137.wgong.xyz, port: 52437, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V33-付费推荐:suo.yt/ssrsub", server: 110.wgong.xyz, port: 52210, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_679, server: 88.wowogg.cyou, port: 52288, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ♥️♥️YouTube梦歌♥️♥️_615
-      - ♥️♥️YouTube梦歌♥️♥️_628
-      - ♥️♥️YouTube梦歌♥️♥️_741
+      - 香港阿伟科技@TG/油管
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_646
+      - ♥️♥️YouTube梦歌♥️♥️_751
+      - ♥️♥️YouTube梦歌♥️♥️_753
+      - 香港阿伟科技@TG/油管 2
+      - "@SSRSUB-V42-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V36-付费推荐:suo.yt/ssrsub"
       - ♥️♥️YouTube梦歌♥️♥️_654
-      - ♥️♥️YouTube梦歌♥️♥️_668
-      - ♥️♥️YouTube梦歌♥️♥️_679
-      - ♥️♥️YouTube梦歌♥️♥️_743
-      - ♥️♥️YouTube梦歌♥️♥️_738
-      - ♥️♥️YouTube梦歌♥️♥️_670
-      - ♥️♥️YouTube梦歌♥️♥️_744
+      - 香港_节点更新https://bit.ly/3oOSZUc_14
+      - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
       - ♥️♥️YouTube梦歌♥️♥️_626
-      - ♥️♥️YouTube梦歌♥️♥️_739
-      - ♥️♥️YouTube梦歌♥️♥️_737
-      - ♥️♥️YouTube梦歌♥️♥️_742
-      - ♥️♥️YouTube梦歌♥️♥️_692
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 香港w 11
-      - ♥️♥️YouTube梦歌♥️♥️_613
-      - ♥️♥️YouTube梦歌♥️♥️_545
-      - ♥️♥️YouTube梦歌♥️♥️_677
-      - "@SSRSUB-V37-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V26-付费推荐:suo.yt/ssrsub"
-      - CYL-科技（2022.02.08） 2
-      - ♥️♥️YouTube梦歌♥️♥️_541
-      - 日本阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_547
-      - ♥️♥️YouTube梦歌♥️♥️_733
-      - ♥️♥️YouTube梦歌♥️♥️_735
-      - ♥️♥️YouTube梦歌♥️♥️_731
-      - ♥️♥️YouTube梦歌♥️♥️_730
-      - ♥️♥️YouTube梦歌♥️♥️_1534
-      - ♥️♥️YouTube梦歌♥️♥️_684
-      - ♥️♥️YouTube梦歌♥️♥️_734
-      - ♥️♥️YouTube梦歌♥️♥️_736
-      - ♥️♥️YouTube梦歌♥️♥️_687
-      - 美国（YouTube订阅：侯老师网络学堂）
+      - "@SSRSUB-V28-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_762
+      - ♥️♥️YouTube梦歌♥️♥️_754
+      - "@SSRSUB-V38-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_791
+      - ♥️♥️YouTube梦歌♥️♥️_231
+      - 香港阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_749
+      - ♥️♥️YouTube梦歌♥️♥️_879
+      - Relay_🇨🇳CN-🇸🇬SG_301
+      - ♥️♥️YouTube梦歌♥️♥️_874
+      - 中国_节点更新https://bit.ly/3oOSZUc_24
+      - Relay_🇨🇳CN-🇹🇼TW_299
+      - ♥️♥️YouTube梦歌♥️♥️_876
+      - Relay_🇨🇳CN-🇹🇼TW_330
       - ♥️♥️YouTube梦歌♥️♥️_689
-      - ♥️♥️YouTube梦歌♥️♥️_732
-      - ♥️♥️YouTube梦歌♥️♥️_823
-      - "@SSRSUB-V31-付费推荐:suo.yt/ssrsub"
-      - Ytb:鹏哥分享_加拿大_82
-      - Ytb:鹏哥分享_加拿大_81
+      - ♥️♥️YouTube梦歌♥️♥️_608
+      - 台湾_节点更新https://bit.ly/3oOSZUc_125
+      - ♥️♥️YouTube梦歌♥️♥️_613
+      - 中国_节点更新https://bit.ly/3oOSZUc_26
+      - ♥️♥️YouTube梦歌♥️♥️_330
+      - ♥️♥️YouTube梦歌♥️♥️_668
+      - ♥️♥️YouTube梦歌♥️♥️_873
+      - ♥️♥️YouTube梦歌♥️♥️_778
+      - ♥️♥️YouTube梦歌♥️♥️_882
+      - ♥️♥️YouTube梦歌♥️♥️_430
+      - ♥️♥️YouTube梦歌♥️♥️_429
+      - ♥️♥️YouTube梦歌♥️♥️_606
+      - ♥️♥️YouTube梦歌♥️♥️_650
+      - ♥️♥️YouTube梦歌♥️♥️_556
+      - ♥️♥️YouTube梦歌♥️♥️_689 2
+      - ♥️♥️YouTube梦歌♥️♥️_683
+      - ♥️♥️YouTube梦歌♥️♥️_645
+      - 东京132-17@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-35 联通14.07 节点更新https://bit.ly/3oOSZUc
+      - 东京184-14@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-29@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-14@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-33 联通15.02m  节点更新https://bit.ly/3oOSZUc
+      - 东京184-9@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-29@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-37 联通11.95 节点更新https://bit.ly/3oOSZUc
+      - 东京184-7@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-16@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-20@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
+      - 美国_节点更新https://bit.ly/3oOSZUc_219
+      - ♥️♥️YouTube梦歌♥️♥️_549
+      - 东京184-39 联通11.11 节点更新https://bit.ly/3oOSZUc
+      - 东京184-4 联通100M+4K -2 节点更新https://bit.ly/3oOSZUc
+      - 东京132-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc
+      - 中国_节点更新https://bit.ly/3oOSZUc_4
+      - Relay_🇨🇳CN-🇹🇼TW_306
+      - 美国【YouTube由零開始】
       - _CA_加拿大
-      - 142.202.48.34:3306
-      - 科技网络
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_622
-      - ♥️♥️YouTube梦歌♥️♥️_646
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - "@SSRSUB-V37-付费推荐:suo.yt/ssrsub"
+      - _CA_加拿大 4
+      - 法国【YouTube由零開始】
+      - _CA_加拿大 5
+      - 欧洲阿伟科技@TG/油管
+      - 法国【YouTube由零開始】 2
+      - 法国【YouTube由零開始】 3
+      - 法国【YouTube由零開始】 4
+      - "@SSRSUB-V22-付费推荐:suo.yt/ssrsub"
+      - 美国【YouTube由零開始】 2
+      - "@SSRSUB-俄罗斯13-付费推荐::suo.yt/ssrsub"
+      - _FR_法国
+      - _RU_俄罗斯联邦
+      - 法国【YouTube由零開始】 5
+      - ♥️♥️YouTube梦歌♥️♥️_823
       - ♥️♥️YouTube梦歌♥️♥️_675
+      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_677
+      - "@SSRSUB-V26-付费推荐:suo.yt/ssrsub"
+      - 香港_节点更新https://bit.ly/3oOSZUc_205
+      - "@SSRSUB-V50-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V33-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_679
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - ♥️♥️YouTube梦歌♥️♥️_615
-      - ♥️♥️YouTube梦歌♥️♥️_628
-      - ♥️♥️YouTube梦歌♥️♥️_741
+      - 香港阿伟科技@TG/油管
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_646
+      - ♥️♥️YouTube梦歌♥️♥️_751
+      - ♥️♥️YouTube梦歌♥️♥️_753
+      - 香港阿伟科技@TG/油管 2
+      - "@SSRSUB-V42-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V36-付费推荐:suo.yt/ssrsub"
       - ♥️♥️YouTube梦歌♥️♥️_654
-      - ♥️♥️YouTube梦歌♥️♥️_668
-      - ♥️♥️YouTube梦歌♥️♥️_679
-      - ♥️♥️YouTube梦歌♥️♥️_743
-      - ♥️♥️YouTube梦歌♥️♥️_738
-      - ♥️♥️YouTube梦歌♥️♥️_670
-      - ♥️♥️YouTube梦歌♥️♥️_744
+      - 香港_节点更新https://bit.ly/3oOSZUc_14
+      - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
       - ♥️♥️YouTube梦歌♥️♥️_626
-      - ♥️♥️YouTube梦歌♥️♥️_739
-      - ♥️♥️YouTube梦歌♥️♥️_737
-      - ♥️♥️YouTube梦歌♥️♥️_742
-      - ♥️♥️YouTube梦歌♥️♥️_692
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 香港w 11
-      - ♥️♥️YouTube梦歌♥️♥️_613
-      - ♥️♥️YouTube梦歌♥️♥️_545
-      - ♥️♥️YouTube梦歌♥️♥️_677
-      - "@SSRSUB-V37-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V26-付费推荐:suo.yt/ssrsub"
-      - CYL-科技（2022.02.08） 2
-      - ♥️♥️YouTube梦歌♥️♥️_541
-      - 日本阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_547
-      - ♥️♥️YouTube梦歌♥️♥️_733
-      - ♥️♥️YouTube梦歌♥️♥️_735
-      - ♥️♥️YouTube梦歌♥️♥️_731
-      - ♥️♥️YouTube梦歌♥️♥️_730
-      - ♥️♥️YouTube梦歌♥️♥️_1534
-      - ♥️♥️YouTube梦歌♥️♥️_684
-      - ♥️♥️YouTube梦歌♥️♥️_734
-      - ♥️♥️YouTube梦歌♥️♥️_736
-      - ♥️♥️YouTube梦歌♥️♥️_687
-      - 美国（YouTube订阅：侯老师网络学堂）
+      - "@SSRSUB-V28-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_762
+      - ♥️♥️YouTube梦歌♥️♥️_754
+      - "@SSRSUB-V38-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_791
+      - ♥️♥️YouTube梦歌♥️♥️_231
+      - 香港阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_749
+      - ♥️♥️YouTube梦歌♥️♥️_879
+      - Relay_🇨🇳CN-🇸🇬SG_301
+      - ♥️♥️YouTube梦歌♥️♥️_874
+      - 中国_节点更新https://bit.ly/3oOSZUc_24
+      - Relay_🇨🇳CN-🇹🇼TW_299
+      - ♥️♥️YouTube梦歌♥️♥️_876
+      - Relay_🇨🇳CN-🇹🇼TW_330
       - ♥️♥️YouTube梦歌♥️♥️_689
-      - ♥️♥️YouTube梦歌♥️♥️_732
-      - ♥️♥️YouTube梦歌♥️♥️_823
-      - "@SSRSUB-V31-付费推荐:suo.yt/ssrsub"
-      - Ytb:鹏哥分享_加拿大_82
-      - Ytb:鹏哥分享_加拿大_81
+      - ♥️♥️YouTube梦歌♥️♥️_608
+      - 台湾_节点更新https://bit.ly/3oOSZUc_125
+      - ♥️♥️YouTube梦歌♥️♥️_613
+      - 中国_节点更新https://bit.ly/3oOSZUc_26
+      - ♥️♥️YouTube梦歌♥️♥️_330
+      - ♥️♥️YouTube梦歌♥️♥️_668
+      - ♥️♥️YouTube梦歌♥️♥️_873
+      - ♥️♥️YouTube梦歌♥️♥️_778
+      - ♥️♥️YouTube梦歌♥️♥️_882
+      - ♥️♥️YouTube梦歌♥️♥️_430
+      - ♥️♥️YouTube梦歌♥️♥️_429
+      - ♥️♥️YouTube梦歌♥️♥️_606
+      - ♥️♥️YouTube梦歌♥️♥️_650
+      - ♥️♥️YouTube梦歌♥️♥️_556
+      - ♥️♥️YouTube梦歌♥️♥️_689 2
+      - ♥️♥️YouTube梦歌♥️♥️_683
+      - ♥️♥️YouTube梦歌♥️♥️_645
+      - 东京132-17@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-35 联通14.07 节点更新https://bit.ly/3oOSZUc
+      - 东京184-14@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-29@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-14@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-33 联通15.02m  节点更新https://bit.ly/3oOSZUc
+      - 东京184-9@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-29@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-37 联通11.95 节点更新https://bit.ly/3oOSZUc
+      - 东京184-7@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-16@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-20@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
+      - 美国_节点更新https://bit.ly/3oOSZUc_219
+      - ♥️♥️YouTube梦歌♥️♥️_549
+      - 东京184-39 联通11.11 节点更新https://bit.ly/3oOSZUc
+      - 东京184-4 联通100M+4K -2 节点更新https://bit.ly/3oOSZUc
+      - 东京132-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc
+      - 中国_节点更新https://bit.ly/3oOSZUc_4
+      - Relay_🇨🇳CN-🇹🇼TW_306
+      - 美国【YouTube由零開始】
       - _CA_加拿大
-      - 142.202.48.34:3306
-      - 科技网络
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_622
-      - ♥️♥️YouTube梦歌♥️♥️_646
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - "@SSRSUB-V37-付费推荐:suo.yt/ssrsub"
+      - _CA_加拿大 4
+      - 法国【YouTube由零開始】
+      - _CA_加拿大 5
+      - 欧洲阿伟科技@TG/油管
+      - 法国【YouTube由零開始】 2
+      - 法国【YouTube由零開始】 3
+      - 法国【YouTube由零開始】 4
+      - "@SSRSUB-V22-付费推荐:suo.yt/ssrsub"
+      - 美国【YouTube由零開始】 2
+      - "@SSRSUB-俄罗斯13-付费推荐::suo.yt/ssrsub"
+      - _FR_法国
+      - _RU_俄罗斯联邦
+      - 法国【YouTube由零開始】 5
+      - ♥️♥️YouTube梦歌♥️♥️_823
       - ♥️♥️YouTube梦歌♥️♥️_675
+      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_677
+      - "@SSRSUB-V26-付费推荐:suo.yt/ssrsub"
+      - 香港_节点更新https://bit.ly/3oOSZUc_205
+      - "@SSRSUB-V50-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V33-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_679
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ♥️♥️YouTube梦歌♥️♥️_615
-      - ♥️♥️YouTube梦歌♥️♥️_628
-      - ♥️♥️YouTube梦歌♥️♥️_741
+      - 香港阿伟科技@TG/油管
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_646
+      - ♥️♥️YouTube梦歌♥️♥️_751
+      - ♥️♥️YouTube梦歌♥️♥️_753
+      - 香港阿伟科技@TG/油管 2
+      - "@SSRSUB-V42-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V36-付费推荐:suo.yt/ssrsub"
       - ♥️♥️YouTube梦歌♥️♥️_654
-      - ♥️♥️YouTube梦歌♥️♥️_668
-      - ♥️♥️YouTube梦歌♥️♥️_679
-      - ♥️♥️YouTube梦歌♥️♥️_743
-      - ♥️♥️YouTube梦歌♥️♥️_738
-      - ♥️♥️YouTube梦歌♥️♥️_670
-      - ♥️♥️YouTube梦歌♥️♥️_744
+      - 香港_节点更新https://bit.ly/3oOSZUc_14
+      - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
       - ♥️♥️YouTube梦歌♥️♥️_626
-      - ♥️♥️YouTube梦歌♥️♥️_739
-      - ♥️♥️YouTube梦歌♥️♥️_737
-      - ♥️♥️YouTube梦歌♥️♥️_742
-      - ♥️♥️YouTube梦歌♥️♥️_692
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 香港w 11
-      - ♥️♥️YouTube梦歌♥️♥️_613
-      - ♥️♥️YouTube梦歌♥️♥️_545
-      - ♥️♥️YouTube梦歌♥️♥️_677
-      - "@SSRSUB-V37-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V26-付费推荐:suo.yt/ssrsub"
-      - CYL-科技（2022.02.08） 2
-      - ♥️♥️YouTube梦歌♥️♥️_541
-      - 日本阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_547
-      - ♥️♥️YouTube梦歌♥️♥️_733
-      - ♥️♥️YouTube梦歌♥️♥️_735
-      - ♥️♥️YouTube梦歌♥️♥️_731
-      - ♥️♥️YouTube梦歌♥️♥️_730
-      - ♥️♥️YouTube梦歌♥️♥️_1534
-      - ♥️♥️YouTube梦歌♥️♥️_684
-      - ♥️♥️YouTube梦歌♥️♥️_734
-      - ♥️♥️YouTube梦歌♥️♥️_736
-      - ♥️♥️YouTube梦歌♥️♥️_687
-      - 美国（YouTube订阅：侯老师网络学堂）
+      - "@SSRSUB-V28-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_762
+      - ♥️♥️YouTube梦歌♥️♥️_754
+      - "@SSRSUB-V38-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_791
+      - ♥️♥️YouTube梦歌♥️♥️_231
+      - 香港阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_749
+      - ♥️♥️YouTube梦歌♥️♥️_879
+      - Relay_🇨🇳CN-🇸🇬SG_301
+      - ♥️♥️YouTube梦歌♥️♥️_874
+      - 中国_节点更新https://bit.ly/3oOSZUc_24
+      - Relay_🇨🇳CN-🇹🇼TW_299
+      - ♥️♥️YouTube梦歌♥️♥️_876
+      - Relay_🇨🇳CN-🇹🇼TW_330
       - ♥️♥️YouTube梦歌♥️♥️_689
-      - ♥️♥️YouTube梦歌♥️♥️_732
-      - ♥️♥️YouTube梦歌♥️♥️_823
-      - "@SSRSUB-V31-付费推荐:suo.yt/ssrsub"
-      - Ytb:鹏哥分享_加拿大_82
-      - Ytb:鹏哥分享_加拿大_81
+      - ♥️♥️YouTube梦歌♥️♥️_608
+      - 台湾_节点更新https://bit.ly/3oOSZUc_125
+      - ♥️♥️YouTube梦歌♥️♥️_613
+      - 中国_节点更新https://bit.ly/3oOSZUc_26
+      - ♥️♥️YouTube梦歌♥️♥️_330
+      - ♥️♥️YouTube梦歌♥️♥️_668
+      - ♥️♥️YouTube梦歌♥️♥️_873
+      - ♥️♥️YouTube梦歌♥️♥️_778
+      - ♥️♥️YouTube梦歌♥️♥️_882
+      - ♥️♥️YouTube梦歌♥️♥️_430
+      - ♥️♥️YouTube梦歌♥️♥️_429
+      - ♥️♥️YouTube梦歌♥️♥️_606
+      - ♥️♥️YouTube梦歌♥️♥️_650
+      - ♥️♥️YouTube梦歌♥️♥️_556
+      - ♥️♥️YouTube梦歌♥️♥️_689 2
+      - ♥️♥️YouTube梦歌♥️♥️_683
+      - ♥️♥️YouTube梦歌♥️♥️_645
+      - 东京132-17@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-35 联通14.07 节点更新https://bit.ly/3oOSZUc
+      - 东京184-14@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-29@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-14@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-33 联通15.02m  节点更新https://bit.ly/3oOSZUc
+      - 东京184-9@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-29@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-37 联通11.95 节点更新https://bit.ly/3oOSZUc
+      - 东京184-7@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-16@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-20@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
+      - 美国_节点更新https://bit.ly/3oOSZUc_219
+      - ♥️♥️YouTube梦歌♥️♥️_549
+      - 东京184-39 联通11.11 节点更新https://bit.ly/3oOSZUc
+      - 东京184-4 联通100M+4K -2 节点更新https://bit.ly/3oOSZUc
+      - 东京132-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc
+      - 中国_节点更新https://bit.ly/3oOSZUc_4
+      - Relay_🇨🇳CN-🇹🇼TW_306
+      - 美国【YouTube由零開始】
       - _CA_加拿大
-      - 142.202.48.34:3306
-      - 科技网络
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_622
-      - ♥️♥️YouTube梦歌♥️♥️_646
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - "@SSRSUB-V37-付费推荐:suo.yt/ssrsub"
+      - _CA_加拿大 4
+      - 法国【YouTube由零開始】
+      - _CA_加拿大 5
+      - 欧洲阿伟科技@TG/油管
+      - 法国【YouTube由零開始】 2
+      - 法国【YouTube由零開始】 3
+      - 法国【YouTube由零開始】 4
+      - "@SSRSUB-V22-付费推荐:suo.yt/ssrsub"
+      - 美国【YouTube由零開始】 2
+      - "@SSRSUB-俄罗斯13-付费推荐::suo.yt/ssrsub"
+      - _FR_法国
+      - _RU_俄罗斯联邦
+      - 法国【YouTube由零開始】 5
+      - ♥️♥️YouTube梦歌♥️♥️_823
       - ♥️♥️YouTube梦歌♥️♥️_675
+      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_677
+      - "@SSRSUB-V26-付费推荐:suo.yt/ssrsub"
+      - 香港_节点更新https://bit.ly/3oOSZUc_205
+      - "@SSRSUB-V50-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V33-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_679
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -240,229 +408,401 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ♥️♥️YouTube梦歌♥️♥️_615
-      - ♥️♥️YouTube梦歌♥️♥️_628
-      - ♥️♥️YouTube梦歌♥️♥️_741
+      - 香港阿伟科技@TG/油管
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_646
+      - ♥️♥️YouTube梦歌♥️♥️_751
+      - ♥️♥️YouTube梦歌♥️♥️_753
+      - 香港阿伟科技@TG/油管 2
+      - "@SSRSUB-V42-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V36-付费推荐:suo.yt/ssrsub"
       - ♥️♥️YouTube梦歌♥️♥️_654
-      - ♥️♥️YouTube梦歌♥️♥️_668
-      - ♥️♥️YouTube梦歌♥️♥️_679
-      - ♥️♥️YouTube梦歌♥️♥️_743
-      - ♥️♥️YouTube梦歌♥️♥️_738
-      - ♥️♥️YouTube梦歌♥️♥️_670
-      - ♥️♥️YouTube梦歌♥️♥️_744
+      - 香港_节点更新https://bit.ly/3oOSZUc_14
+      - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
       - ♥️♥️YouTube梦歌♥️♥️_626
-      - ♥️♥️YouTube梦歌♥️♥️_739
-      - ♥️♥️YouTube梦歌♥️♥️_737
-      - ♥️♥️YouTube梦歌♥️♥️_742
-      - ♥️♥️YouTube梦歌♥️♥️_692
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 香港w 11
-      - ♥️♥️YouTube梦歌♥️♥️_613
-      - ♥️♥️YouTube梦歌♥️♥️_545
-      - ♥️♥️YouTube梦歌♥️♥️_677
-      - "@SSRSUB-V37-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V26-付费推荐:suo.yt/ssrsub"
-      - CYL-科技（2022.02.08） 2
-      - ♥️♥️YouTube梦歌♥️♥️_541
-      - 日本阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_547
-      - ♥️♥️YouTube梦歌♥️♥️_733
-      - ♥️♥️YouTube梦歌♥️♥️_735
-      - ♥️♥️YouTube梦歌♥️♥️_731
-      - ♥️♥️YouTube梦歌♥️♥️_730
-      - ♥️♥️YouTube梦歌♥️♥️_1534
-      - ♥️♥️YouTube梦歌♥️♥️_684
-      - ♥️♥️YouTube梦歌♥️♥️_734
-      - ♥️♥️YouTube梦歌♥️♥️_736
-      - ♥️♥️YouTube梦歌♥️♥️_687
-      - 美国（YouTube订阅：侯老师网络学堂）
+      - "@SSRSUB-V28-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_762
+      - ♥️♥️YouTube梦歌♥️♥️_754
+      - "@SSRSUB-V38-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_791
+      - ♥️♥️YouTube梦歌♥️♥️_231
+      - 香港阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_749
+      - ♥️♥️YouTube梦歌♥️♥️_879
+      - Relay_🇨🇳CN-🇸🇬SG_301
+      - ♥️♥️YouTube梦歌♥️♥️_874
+      - 中国_节点更新https://bit.ly/3oOSZUc_24
+      - Relay_🇨🇳CN-🇹🇼TW_299
+      - ♥️♥️YouTube梦歌♥️♥️_876
+      - Relay_🇨🇳CN-🇹🇼TW_330
       - ♥️♥️YouTube梦歌♥️♥️_689
-      - ♥️♥️YouTube梦歌♥️♥️_732
-      - ♥️♥️YouTube梦歌♥️♥️_823
-      - "@SSRSUB-V31-付费推荐:suo.yt/ssrsub"
-      - Ytb:鹏哥分享_加拿大_82
-      - Ytb:鹏哥分享_加拿大_81
+      - ♥️♥️YouTube梦歌♥️♥️_608
+      - 台湾_节点更新https://bit.ly/3oOSZUc_125
+      - ♥️♥️YouTube梦歌♥️♥️_613
+      - 中国_节点更新https://bit.ly/3oOSZUc_26
+      - ♥️♥️YouTube梦歌♥️♥️_330
+      - ♥️♥️YouTube梦歌♥️♥️_668
+      - ♥️♥️YouTube梦歌♥️♥️_873
+      - ♥️♥️YouTube梦歌♥️♥️_778
+      - ♥️♥️YouTube梦歌♥️♥️_882
+      - ♥️♥️YouTube梦歌♥️♥️_430
+      - ♥️♥️YouTube梦歌♥️♥️_429
+      - ♥️♥️YouTube梦歌♥️♥️_606
+      - ♥️♥️YouTube梦歌♥️♥️_650
+      - ♥️♥️YouTube梦歌♥️♥️_556
+      - ♥️♥️YouTube梦歌♥️♥️_689 2
+      - ♥️♥️YouTube梦歌♥️♥️_683
+      - ♥️♥️YouTube梦歌♥️♥️_645
+      - 东京132-17@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-35 联通14.07 节点更新https://bit.ly/3oOSZUc
+      - 东京184-14@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-29@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-14@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-33 联通15.02m  节点更新https://bit.ly/3oOSZUc
+      - 东京184-9@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-29@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-37 联通11.95 节点更新https://bit.ly/3oOSZUc
+      - 东京184-7@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-16@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-20@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
+      - 美国_节点更新https://bit.ly/3oOSZUc_219
+      - ♥️♥️YouTube梦歌♥️♥️_549
+      - 东京184-39 联通11.11 节点更新https://bit.ly/3oOSZUc
+      - 东京184-4 联通100M+4K -2 节点更新https://bit.ly/3oOSZUc
+      - 东京132-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc
+      - 中国_节点更新https://bit.ly/3oOSZUc_4
+      - Relay_🇨🇳CN-🇹🇼TW_306
+      - 美国【YouTube由零開始】
       - _CA_加拿大
-      - 142.202.48.34:3306
-      - 科技网络
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_622
-      - ♥️♥️YouTube梦歌♥️♥️_646
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - "@SSRSUB-V37-付费推荐:suo.yt/ssrsub"
+      - _CA_加拿大 4
+      - 法国【YouTube由零開始】
+      - _CA_加拿大 5
+      - 欧洲阿伟科技@TG/油管
+      - 法国【YouTube由零開始】 2
+      - 法国【YouTube由零開始】 3
+      - 法国【YouTube由零開始】 4
+      - "@SSRSUB-V22-付费推荐:suo.yt/ssrsub"
+      - 美国【YouTube由零開始】 2
+      - "@SSRSUB-俄罗斯13-付费推荐::suo.yt/ssrsub"
+      - _FR_法国
+      - _RU_俄罗斯联邦
+      - 法国【YouTube由零開始】 5
+      - ♥️♥️YouTube梦歌♥️♥️_823
       - ♥️♥️YouTube梦歌♥️♥️_675
+      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_677
+      - "@SSRSUB-V26-付费推荐:suo.yt/ssrsub"
+      - 香港_节点更新https://bit.ly/3oOSZUc_205
+      - "@SSRSUB-V50-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V33-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_679
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 香港w 11
+      - 香港阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 2
+      - 香港_节点更新https://bit.ly/3oOSZUc_14
+      - 香港阿伟科技@TG/油管 3
+      - 台湾_节点更新https://bit.ly/3oOSZUc_125
+      - 香港_节点更新https://bit.ly/3oOSZUc_205
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - ♥️♥️YouTube梦歌♥️♥️_615
-      - ♥️♥️YouTube梦歌♥️♥️_628
-      - ♥️♥️YouTube梦歌♥️♥️_741
+      - 香港阿伟科技@TG/油管
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_646
+      - ♥️♥️YouTube梦歌♥️♥️_751
+      - ♥️♥️YouTube梦歌♥️♥️_753
+      - 香港阿伟科技@TG/油管 2
+      - "@SSRSUB-V42-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V36-付费推荐:suo.yt/ssrsub"
       - ♥️♥️YouTube梦歌♥️♥️_654
-      - ♥️♥️YouTube梦歌♥️♥️_668
-      - ♥️♥️YouTube梦歌♥️♥️_679
-      - ♥️♥️YouTube梦歌♥️♥️_743
-      - ♥️♥️YouTube梦歌♥️♥️_738
-      - ♥️♥️YouTube梦歌♥️♥️_670
-      - ♥️♥️YouTube梦歌♥️♥️_744
+      - 香港_节点更新https://bit.ly/3oOSZUc_14
+      - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
       - ♥️♥️YouTube梦歌♥️♥️_626
-      - ♥️♥️YouTube梦歌♥️♥️_739
-      - ♥️♥️YouTube梦歌♥️♥️_737
-      - ♥️♥️YouTube梦歌♥️♥️_742
-      - ♥️♥️YouTube梦歌♥️♥️_692
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 香港w 11
-      - ♥️♥️YouTube梦歌♥️♥️_613
-      - ♥️♥️YouTube梦歌♥️♥️_545
-      - ♥️♥️YouTube梦歌♥️♥️_677
-      - "@SSRSUB-V37-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V26-付费推荐:suo.yt/ssrsub"
-      - CYL-科技（2022.02.08） 2
-      - ♥️♥️YouTube梦歌♥️♥️_541
-      - 日本阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_547
-      - ♥️♥️YouTube梦歌♥️♥️_733
-      - ♥️♥️YouTube梦歌♥️♥️_735
-      - ♥️♥️YouTube梦歌♥️♥️_731
-      - ♥️♥️YouTube梦歌♥️♥️_730
-      - ♥️♥️YouTube梦歌♥️♥️_1534
-      - ♥️♥️YouTube梦歌♥️♥️_684
-      - ♥️♥️YouTube梦歌♥️♥️_734
-      - ♥️♥️YouTube梦歌♥️♥️_736
-      - ♥️♥️YouTube梦歌♥️♥️_687
-      - 美国（YouTube订阅：侯老师网络学堂）
+      - "@SSRSUB-V28-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_762
+      - ♥️♥️YouTube梦歌♥️♥️_754
+      - "@SSRSUB-V38-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_791
+      - ♥️♥️YouTube梦歌♥️♥️_231
+      - 香港阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_749
+      - ♥️♥️YouTube梦歌♥️♥️_879
+      - Relay_🇨🇳CN-🇸🇬SG_301
+      - ♥️♥️YouTube梦歌♥️♥️_874
+      - 中国_节点更新https://bit.ly/3oOSZUc_24
+      - Relay_🇨🇳CN-🇹🇼TW_299
+      - ♥️♥️YouTube梦歌♥️♥️_876
+      - Relay_🇨🇳CN-🇹🇼TW_330
       - ♥️♥️YouTube梦歌♥️♥️_689
-      - ♥️♥️YouTube梦歌♥️♥️_732
-      - ♥️♥️YouTube梦歌♥️♥️_823
-      - "@SSRSUB-V31-付费推荐:suo.yt/ssrsub"
-      - Ytb:鹏哥分享_加拿大_82
-      - Ytb:鹏哥分享_加拿大_81
+      - ♥️♥️YouTube梦歌♥️♥️_608
+      - 台湾_节点更新https://bit.ly/3oOSZUc_125
+      - ♥️♥️YouTube梦歌♥️♥️_613
+      - 中国_节点更新https://bit.ly/3oOSZUc_26
+      - ♥️♥️YouTube梦歌♥️♥️_330
+      - ♥️♥️YouTube梦歌♥️♥️_668
+      - ♥️♥️YouTube梦歌♥️♥️_873
+      - ♥️♥️YouTube梦歌♥️♥️_778
+      - ♥️♥️YouTube梦歌♥️♥️_882
+      - ♥️♥️YouTube梦歌♥️♥️_430
+      - ♥️♥️YouTube梦歌♥️♥️_429
+      - ♥️♥️YouTube梦歌♥️♥️_606
+      - ♥️♥️YouTube梦歌♥️♥️_650
+      - ♥️♥️YouTube梦歌♥️♥️_556
+      - ♥️♥️YouTube梦歌♥️♥️_689 2
+      - ♥️♥️YouTube梦歌♥️♥️_683
+      - ♥️♥️YouTube梦歌♥️♥️_645
+      - 东京132-17@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-35 联通14.07 节点更新https://bit.ly/3oOSZUc
+      - 东京184-14@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-29@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-14@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-33 联通15.02m  节点更新https://bit.ly/3oOSZUc
+      - 东京184-9@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-29@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-37 联通11.95 节点更新https://bit.ly/3oOSZUc
+      - 东京184-7@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-16@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-20@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
+      - 美国_节点更新https://bit.ly/3oOSZUc_219
+      - ♥️♥️YouTube梦歌♥️♥️_549
+      - 东京184-39 联通11.11 节点更新https://bit.ly/3oOSZUc
+      - 东京184-4 联通100M+4K -2 节点更新https://bit.ly/3oOSZUc
+      - 东京132-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc
+      - 中国_节点更新https://bit.ly/3oOSZUc_4
+      - Relay_🇨🇳CN-🇹🇼TW_306
+      - 美国【YouTube由零開始】
       - _CA_加拿大
-      - 142.202.48.34:3306
-      - 科技网络
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_622
-      - ♥️♥️YouTube梦歌♥️♥️_646
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - "@SSRSUB-V37-付费推荐:suo.yt/ssrsub"
+      - _CA_加拿大 4
+      - 法国【YouTube由零開始】
+      - _CA_加拿大 5
+      - 欧洲阿伟科技@TG/油管
+      - 法国【YouTube由零開始】 2
+      - 法国【YouTube由零開始】 3
+      - 法国【YouTube由零開始】 4
+      - "@SSRSUB-V22-付费推荐:suo.yt/ssrsub"
+      - 美国【YouTube由零開始】 2
+      - "@SSRSUB-俄罗斯13-付费推荐::suo.yt/ssrsub"
+      - _FR_法国
+      - _RU_俄罗斯联邦
+      - 法国【YouTube由零開始】 5
+      - ♥️♥️YouTube梦歌♥️♥️_823
       - ♥️♥️YouTube梦歌♥️♥️_675
+      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_677
+      - "@SSRSUB-V26-付费推荐:suo.yt/ssrsub"
+      - 香港_节点更新https://bit.ly/3oOSZUc_205
+      - "@SSRSUB-V50-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V33-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_679
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - ♥️♥️YouTube梦歌♥️♥️_615
-      - ♥️♥️YouTube梦歌♥️♥️_628
-      - ♥️♥️YouTube梦歌♥️♥️_741
+      - 香港阿伟科技@TG/油管
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_646
+      - ♥️♥️YouTube梦歌♥️♥️_751
+      - ♥️♥️YouTube梦歌♥️♥️_753
+      - 香港阿伟科技@TG/油管 2
+      - "@SSRSUB-V42-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V36-付费推荐:suo.yt/ssrsub"
       - ♥️♥️YouTube梦歌♥️♥️_654
-      - ♥️♥️YouTube梦歌♥️♥️_668
-      - ♥️♥️YouTube梦歌♥️♥️_679
-      - ♥️♥️YouTube梦歌♥️♥️_743
-      - ♥️♥️YouTube梦歌♥️♥️_738
-      - ♥️♥️YouTube梦歌♥️♥️_670
-      - ♥️♥️YouTube梦歌♥️♥️_744
+      - 香港_节点更新https://bit.ly/3oOSZUc_14
+      - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
       - ♥️♥️YouTube梦歌♥️♥️_626
-      - ♥️♥️YouTube梦歌♥️♥️_739
-      - ♥️♥️YouTube梦歌♥️♥️_737
-      - ♥️♥️YouTube梦歌♥️♥️_742
-      - ♥️♥️YouTube梦歌♥️♥️_692
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 香港w 11
-      - ♥️♥️YouTube梦歌♥️♥️_613
-      - ♥️♥️YouTube梦歌♥️♥️_545
-      - ♥️♥️YouTube梦歌♥️♥️_677
-      - "@SSRSUB-V37-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V26-付费推荐:suo.yt/ssrsub"
-      - CYL-科技（2022.02.08） 2
-      - ♥️♥️YouTube梦歌♥️♥️_541
-      - 日本阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_547
-      - ♥️♥️YouTube梦歌♥️♥️_733
-      - ♥️♥️YouTube梦歌♥️♥️_735
-      - ♥️♥️YouTube梦歌♥️♥️_731
-      - ♥️♥️YouTube梦歌♥️♥️_730
-      - ♥️♥️YouTube梦歌♥️♥️_1534
-      - ♥️♥️YouTube梦歌♥️♥️_684
-      - ♥️♥️YouTube梦歌♥️♥️_734
-      - ♥️♥️YouTube梦歌♥️♥️_736
-      - ♥️♥️YouTube梦歌♥️♥️_687
-      - 美国（YouTube订阅：侯老师网络学堂）
+      - "@SSRSUB-V28-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_762
+      - ♥️♥️YouTube梦歌♥️♥️_754
+      - "@SSRSUB-V38-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_791
+      - ♥️♥️YouTube梦歌♥️♥️_231
+      - 香港阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_749
+      - ♥️♥️YouTube梦歌♥️♥️_879
+      - Relay_🇨🇳CN-🇸🇬SG_301
+      - ♥️♥️YouTube梦歌♥️♥️_874
+      - 中国_节点更新https://bit.ly/3oOSZUc_24
+      - Relay_🇨🇳CN-🇹🇼TW_299
+      - ♥️♥️YouTube梦歌♥️♥️_876
+      - Relay_🇨🇳CN-🇹🇼TW_330
       - ♥️♥️YouTube梦歌♥️♥️_689
-      - ♥️♥️YouTube梦歌♥️♥️_732
-      - ♥️♥️YouTube梦歌♥️♥️_823
-      - "@SSRSUB-V31-付费推荐:suo.yt/ssrsub"
-      - Ytb:鹏哥分享_加拿大_82
-      - Ytb:鹏哥分享_加拿大_81
+      - ♥️♥️YouTube梦歌♥️♥️_608
+      - 台湾_节点更新https://bit.ly/3oOSZUc_125
+      - ♥️♥️YouTube梦歌♥️♥️_613
+      - 中国_节点更新https://bit.ly/3oOSZUc_26
+      - ♥️♥️YouTube梦歌♥️♥️_330
+      - ♥️♥️YouTube梦歌♥️♥️_668
+      - ♥️♥️YouTube梦歌♥️♥️_873
+      - ♥️♥️YouTube梦歌♥️♥️_778
+      - ♥️♥️YouTube梦歌♥️♥️_882
+      - ♥️♥️YouTube梦歌♥️♥️_430
+      - ♥️♥️YouTube梦歌♥️♥️_429
+      - ♥️♥️YouTube梦歌♥️♥️_606
+      - ♥️♥️YouTube梦歌♥️♥️_650
+      - ♥️♥️YouTube梦歌♥️♥️_556
+      - ♥️♥️YouTube梦歌♥️♥️_689 2
+      - ♥️♥️YouTube梦歌♥️♥️_683
+      - ♥️♥️YouTube梦歌♥️♥️_645
+      - 东京132-17@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-35 联通14.07 节点更新https://bit.ly/3oOSZUc
+      - 东京184-14@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-29@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-14@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-33 联通15.02m  节点更新https://bit.ly/3oOSZUc
+      - 东京184-9@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-29@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-37 联通11.95 节点更新https://bit.ly/3oOSZUc
+      - 东京184-7@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-16@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-20@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
+      - 美国_节点更新https://bit.ly/3oOSZUc_219
+      - ♥️♥️YouTube梦歌♥️♥️_549
+      - 东京184-39 联通11.11 节点更新https://bit.ly/3oOSZUc
+      - 东京184-4 联通100M+4K -2 节点更新https://bit.ly/3oOSZUc
+      - 东京132-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc
+      - 中国_节点更新https://bit.ly/3oOSZUc_4
+      - Relay_🇨🇳CN-🇹🇼TW_306
+      - 美国【YouTube由零開始】
       - _CA_加拿大
-      - 142.202.48.34:3306
-      - 科技网络
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_622
-      - ♥️♥️YouTube梦歌♥️♥️_646
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - "@SSRSUB-V37-付费推荐:suo.yt/ssrsub"
+      - _CA_加拿大 4
+      - 法国【YouTube由零開始】
+      - _CA_加拿大 5
+      - 欧洲阿伟科技@TG/油管
+      - 法国【YouTube由零開始】 2
+      - 法国【YouTube由零開始】 3
+      - 法国【YouTube由零開始】 4
+      - "@SSRSUB-V22-付费推荐:suo.yt/ssrsub"
+      - 美国【YouTube由零開始】 2
+      - "@SSRSUB-俄罗斯13-付费推荐::suo.yt/ssrsub"
+      - _FR_法国
+      - _RU_俄罗斯联邦
+      - 法国【YouTube由零開始】 5
+      - ♥️♥️YouTube梦歌♥️♥️_823
       - ♥️♥️YouTube梦歌♥️♥️_675
+      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_677
+      - "@SSRSUB-V26-付费推荐:suo.yt/ssrsub"
+      - 香港_节点更新https://bit.ly/3oOSZUc_205
+      - "@SSRSUB-V50-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V33-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_679
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ♥️♥️YouTube梦歌♥️♥️_615
-      - ♥️♥️YouTube梦歌♥️♥️_628
-      - ♥️♥️YouTube梦歌♥️♥️_741
+      - 香港阿伟科技@TG/油管
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_646
+      - ♥️♥️YouTube梦歌♥️♥️_751
+      - ♥️♥️YouTube梦歌♥️♥️_753
+      - 香港阿伟科技@TG/油管 2
+      - "@SSRSUB-V42-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V36-付费推荐:suo.yt/ssrsub"
       - ♥️♥️YouTube梦歌♥️♥️_654
-      - ♥️♥️YouTube梦歌♥️♥️_668
-      - ♥️♥️YouTube梦歌♥️♥️_679
-      - ♥️♥️YouTube梦歌♥️♥️_743
-      - ♥️♥️YouTube梦歌♥️♥️_738
-      - ♥️♥️YouTube梦歌♥️♥️_670
-      - ♥️♥️YouTube梦歌♥️♥️_744
+      - 香港_节点更新https://bit.ly/3oOSZUc_14
+      - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
       - ♥️♥️YouTube梦歌♥️♥️_626
-      - ♥️♥️YouTube梦歌♥️♥️_739
-      - ♥️♥️YouTube梦歌♥️♥️_737
-      - ♥️♥️YouTube梦歌♥️♥️_742
-      - ♥️♥️YouTube梦歌♥️♥️_692
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 香港w 11
-      - ♥️♥️YouTube梦歌♥️♥️_613
-      - ♥️♥️YouTube梦歌♥️♥️_545
-      - ♥️♥️YouTube梦歌♥️♥️_677
-      - "@SSRSUB-V37-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V26-付费推荐:suo.yt/ssrsub"
-      - CYL-科技（2022.02.08） 2
-      - ♥️♥️YouTube梦歌♥️♥️_541
-      - 日本阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_547
-      - ♥️♥️YouTube梦歌♥️♥️_733
-      - ♥️♥️YouTube梦歌♥️♥️_735
-      - ♥️♥️YouTube梦歌♥️♥️_731
-      - ♥️♥️YouTube梦歌♥️♥️_730
-      - ♥️♥️YouTube梦歌♥️♥️_1534
-      - ♥️♥️YouTube梦歌♥️♥️_684
-      - ♥️♥️YouTube梦歌♥️♥️_734
-      - ♥️♥️YouTube梦歌♥️♥️_736
-      - ♥️♥️YouTube梦歌♥️♥️_687
-      - 美国（YouTube订阅：侯老师网络学堂）
+      - "@SSRSUB-V28-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_762
+      - ♥️♥️YouTube梦歌♥️♥️_754
+      - "@SSRSUB-V38-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_791
+      - ♥️♥️YouTube梦歌♥️♥️_231
+      - 香港阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_749
+      - ♥️♥️YouTube梦歌♥️♥️_879
+      - Relay_🇨🇳CN-🇸🇬SG_301
+      - ♥️♥️YouTube梦歌♥️♥️_874
+      - 中国_节点更新https://bit.ly/3oOSZUc_24
+      - Relay_🇨🇳CN-🇹🇼TW_299
+      - ♥️♥️YouTube梦歌♥️♥️_876
+      - Relay_🇨🇳CN-🇹🇼TW_330
       - ♥️♥️YouTube梦歌♥️♥️_689
-      - ♥️♥️YouTube梦歌♥️♥️_732
-      - ♥️♥️YouTube梦歌♥️♥️_823
-      - "@SSRSUB-V31-付费推荐:suo.yt/ssrsub"
-      - Ytb:鹏哥分享_加拿大_82
-      - Ytb:鹏哥分享_加拿大_81
+      - ♥️♥️YouTube梦歌♥️♥️_608
+      - 台湾_节点更新https://bit.ly/3oOSZUc_125
+      - ♥️♥️YouTube梦歌♥️♥️_613
+      - 中国_节点更新https://bit.ly/3oOSZUc_26
+      - ♥️♥️YouTube梦歌♥️♥️_330
+      - ♥️♥️YouTube梦歌♥️♥️_668
+      - ♥️♥️YouTube梦歌♥️♥️_873
+      - ♥️♥️YouTube梦歌♥️♥️_778
+      - ♥️♥️YouTube梦歌♥️♥️_882
+      - ♥️♥️YouTube梦歌♥️♥️_430
+      - ♥️♥️YouTube梦歌♥️♥️_429
+      - ♥️♥️YouTube梦歌♥️♥️_606
+      - ♥️♥️YouTube梦歌♥️♥️_650
+      - ♥️♥️YouTube梦歌♥️♥️_556
+      - ♥️♥️YouTube梦歌♥️♥️_689 2
+      - ♥️♥️YouTube梦歌♥️♥️_683
+      - ♥️♥️YouTube梦歌♥️♥️_645
+      - 东京132-17@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-35 联通14.07 节点更新https://bit.ly/3oOSZUc
+      - 东京184-14@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-29@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-14@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-33 联通15.02m  节点更新https://bit.ly/3oOSZUc
+      - 东京184-9@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-29@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-37 联通11.95 节点更新https://bit.ly/3oOSZUc
+      - 东京184-7@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-16@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-20@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
+      - 美国_节点更新https://bit.ly/3oOSZUc_219
+      - ♥️♥️YouTube梦歌♥️♥️_549
+      - 东京184-39 联通11.11 节点更新https://bit.ly/3oOSZUc
+      - 东京184-4 联通100M+4K -2 节点更新https://bit.ly/3oOSZUc
+      - 东京132-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc
+      - 中国_节点更新https://bit.ly/3oOSZUc_4
+      - Relay_🇨🇳CN-🇹🇼TW_306
+      - 美国【YouTube由零開始】
       - _CA_加拿大
-      - 142.202.48.34:3306
-      - 科技网络
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_622
-      - ♥️♥️YouTube梦歌♥️♥️_646
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - "@SSRSUB-V37-付费推荐:suo.yt/ssrsub"
+      - _CA_加拿大 4
+      - 法国【YouTube由零開始】
+      - _CA_加拿大 5
+      - 欧洲阿伟科技@TG/油管
+      - 法国【YouTube由零開始】 2
+      - 法国【YouTube由零開始】 3
+      - 法国【YouTube由零開始】 4
+      - "@SSRSUB-V22-付费推荐:suo.yt/ssrsub"
+      - 美国【YouTube由零開始】 2
+      - "@SSRSUB-俄罗斯13-付费推荐::suo.yt/ssrsub"
+      - _FR_法国
+      - _RU_俄罗斯联邦
+      - 法国【YouTube由零開始】 5
+      - ♥️♥️YouTube梦歌♥️♥️_823
       - ♥️♥️YouTube梦歌♥️♥️_675
+      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_677
+      - "@SSRSUB-V26-付费推荐:suo.yt/ssrsub"
+      - 香港_节点更新https://bit.ly/3oOSZUc_205
+      - "@SSRSUB-V50-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V33-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_679
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -478,56 +818,98 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ♥️♥️YouTube梦歌♥️♥️_615
-      - ♥️♥️YouTube梦歌♥️♥️_628
-      - ♥️♥️YouTube梦歌♥️♥️_741
+      - 香港阿伟科技@TG/油管
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_646
+      - ♥️♥️YouTube梦歌♥️♥️_751
+      - ♥️♥️YouTube梦歌♥️♥️_753
+      - 香港阿伟科技@TG/油管 2
+      - "@SSRSUB-V42-付费推荐:suo.yt/ssrsub"
       - "@SSRSUB-V36-付费推荐:suo.yt/ssrsub"
       - ♥️♥️YouTube梦歌♥️♥️_654
-      - ♥️♥️YouTube梦歌♥️♥️_668
-      - ♥️♥️YouTube梦歌♥️♥️_679
-      - ♥️♥️YouTube梦歌♥️♥️_743
-      - ♥️♥️YouTube梦歌♥️♥️_738
-      - ♥️♥️YouTube梦歌♥️♥️_670
-      - ♥️♥️YouTube梦歌♥️♥️_744
+      - 香港_节点更新https://bit.ly/3oOSZUc_14
+      - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
       - ♥️♥️YouTube梦歌♥️♥️_626
-      - ♥️♥️YouTube梦歌♥️♥️_739
-      - ♥️♥️YouTube梦歌♥️♥️_737
-      - ♥️♥️YouTube梦歌♥️♥️_742
-      - ♥️♥️YouTube梦歌♥️♥️_692
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 香港w 11
-      - ♥️♥️YouTube梦歌♥️♥️_613
-      - ♥️♥️YouTube梦歌♥️♥️_545
-      - ♥️♥️YouTube梦歌♥️♥️_677
-      - "@SSRSUB-V37-付费推荐:suo.yt/ssrsub"
-      - "@SSRSUB-V26-付费推荐:suo.yt/ssrsub"
-      - CYL-科技（2022.02.08） 2
-      - ♥️♥️YouTube梦歌♥️♥️_541
-      - 日本阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_547
-      - ♥️♥️YouTube梦歌♥️♥️_733
-      - ♥️♥️YouTube梦歌♥️♥️_735
-      - ♥️♥️YouTube梦歌♥️♥️_731
-      - ♥️♥️YouTube梦歌♥️♥️_730
-      - ♥️♥️YouTube梦歌♥️♥️_1534
-      - ♥️♥️YouTube梦歌♥️♥️_684
-      - ♥️♥️YouTube梦歌♥️♥️_734
-      - ♥️♥️YouTube梦歌♥️♥️_736
-      - ♥️♥️YouTube梦歌♥️♥️_687
-      - 美国（YouTube订阅：侯老师网络学堂）
+      - "@SSRSUB-V28-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_762
+      - ♥️♥️YouTube梦歌♥️♥️_754
+      - "@SSRSUB-V38-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_791
+      - ♥️♥️YouTube梦歌♥️♥️_231
+      - 香港阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_749
+      - ♥️♥️YouTube梦歌♥️♥️_879
+      - Relay_🇨🇳CN-🇸🇬SG_301
+      - ♥️♥️YouTube梦歌♥️♥️_874
+      - 中国_节点更新https://bit.ly/3oOSZUc_24
+      - Relay_🇨🇳CN-🇹🇼TW_299
+      - ♥️♥️YouTube梦歌♥️♥️_876
+      - Relay_🇨🇳CN-🇹🇼TW_330
       - ♥️♥️YouTube梦歌♥️♥️_689
-      - ♥️♥️YouTube梦歌♥️♥️_732
-      - ♥️♥️YouTube梦歌♥️♥️_823
-      - "@SSRSUB-V31-付费推荐:suo.yt/ssrsub"
-      - Ytb:鹏哥分享_加拿大_82
-      - Ytb:鹏哥分享_加拿大_81
+      - ♥️♥️YouTube梦歌♥️♥️_608
+      - 台湾_节点更新https://bit.ly/3oOSZUc_125
+      - ♥️♥️YouTube梦歌♥️♥️_613
+      - 中国_节点更新https://bit.ly/3oOSZUc_26
+      - ♥️♥️YouTube梦歌♥️♥️_330
+      - ♥️♥️YouTube梦歌♥️♥️_668
+      - ♥️♥️YouTube梦歌♥️♥️_873
+      - ♥️♥️YouTube梦歌♥️♥️_778
+      - ♥️♥️YouTube梦歌♥️♥️_882
+      - ♥️♥️YouTube梦歌♥️♥️_430
+      - ♥️♥️YouTube梦歌♥️♥️_429
+      - ♥️♥️YouTube梦歌♥️♥️_606
+      - ♥️♥️YouTube梦歌♥️♥️_650
+      - ♥️♥️YouTube梦歌♥️♥️_556
+      - ♥️♥️YouTube梦歌♥️♥️_689 2
+      - ♥️♥️YouTube梦歌♥️♥️_683
+      - ♥️♥️YouTube梦歌♥️♥️_645
+      - 东京132-17@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-35 联通14.07 节点更新https://bit.ly/3oOSZUc
+      - 东京184-14@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-29@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-14@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-33 联通15.02m  节点更新https://bit.ly/3oOSZUc
+      - 东京184-9@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-29@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-37 联通11.95 节点更新https://bit.ly/3oOSZUc
+      - 东京184-7@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-16@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京184-20@1Gbps节点更新https://bit.ly/3oOSZUc
+      - 东京132-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
+      - 美国_节点更新https://bit.ly/3oOSZUc_219
+      - ♥️♥️YouTube梦歌♥️♥️_549
+      - 东京184-39 联通11.11 节点更新https://bit.ly/3oOSZUc
+      - 东京184-4 联通100M+4K -2 节点更新https://bit.ly/3oOSZUc
+      - 东京132-1电信@1Gbps 节点更新https://bit.ly/3oOSZUc
+      - 中国_节点更新https://bit.ly/3oOSZUc_4
+      - Relay_🇨🇳CN-🇹🇼TW_306
+      - 美国【YouTube由零開始】
       - _CA_加拿大
-      - 142.202.48.34:3306
-      - 科技网络
-      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_622
-      - ♥️♥️YouTube梦歌♥️♥️_646
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - "@SSRSUB-V37-付费推荐:suo.yt/ssrsub"
+      - _CA_加拿大 4
+      - 法国【YouTube由零開始】
+      - _CA_加拿大 5
+      - 欧洲阿伟科技@TG/油管
+      - 法国【YouTube由零開始】 2
+      - 法国【YouTube由零開始】 3
+      - 法国【YouTube由零開始】 4
+      - "@SSRSUB-V22-付费推荐:suo.yt/ssrsub"
+      - 美国【YouTube由零開始】 2
+      - "@SSRSUB-俄罗斯13-付费推荐::suo.yt/ssrsub"
+      - _FR_法国
+      - _RU_俄罗斯联邦
+      - 法国【YouTube由零開始】 5
+      - ♥️♥️YouTube梦歌♥️♥️_823
       - ♥️♥️YouTube梦歌♥️♥️_675
+      - "@SSRSUB-V29-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_677
+      - "@SSRSUB-V26-付费推荐:suo.yt/ssrsub"
+      - 香港_节点更新https://bit.ly/3oOSZUc_205
+      - "@SSRSUB-V50-付费推荐:suo.yt/ssrsub"
+      - "@SSRSUB-V33-付费推荐:suo.yt/ssrsub"
+      - ♥️♥️YouTube梦歌♥️♥️_679
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
