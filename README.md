@@ -5,781 +5,269 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港P3, server: p3.centaur.network, port: 16803, type: trojan, password: 00635f3d-2c64-4281-9367-f3c26ebb6a44, sni: p3.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: _美国_YouTube:VV科技_62, server: 87.wowogg.cyou, port: 52287, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V13-付费推荐:suo.yt/ssrsub", server: 110.wgong.xyz, port: 52210, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港【YouTube由零開始】, server: 132.wgong.xyz, port: 52332, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN阿伟科技@TG/油管, server: 120.232.208.195, port: 19084, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_32, server: 87.wowogg.cyou, port: 52287, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港-13.36MB/s(Youtube:不良林), server: 115.wowogg.cyou, port: 52215, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 115.wowogg.cyou, port: 52215, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本阿伟科技@TG/油管, server: 87.wowogg.cyou, port: 52287, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本, server: china-zj-hz-1.forwardserver.xyz, port: 34304, type: vmess, uuid: 5638fc1a-c3c0-41fd-acb6-2e302e7be794, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lrb1.moonfree.top}, udp: true}
-  - {name: 香港-9.14MB/s(Youtube:不良林), server: 88.wowogg.cyou, port: 52288, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN阿伟科技@TG/油管 2, server: 120.232.182.190, port: 19057, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: CN阿伟科技@TG/油管 3, server: 120.232.182.190, port: 19085, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: 日本港阿伟科技@TG/油管, server: 83.wgong.xyz, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管, server: 85.wgong.xyz, port: 52285, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN阿伟科技@TG/油管 4, server: 120.232.208.195, port: 19085, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: 日本阿伟科技@TG/油管, server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 意大利-2.58MB/s(Youtube:不良林), server: 137.wgong.xyz, port: 52437, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君), server: 111.28.3.106, port: 60017, type: vmess, uuid: 19ff88ff-a3c1-3a90-82fd-e7daf29f7b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
+  - {name: 中国阿伟科技, server: 111.28.3.117, port: 60020, type: vmess, uuid: 19ff88ff-a3c1-3a90-82fd-e7daf29f7b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
+  - {name: 中国阿伟科技 2, server: 111.28.3.117, port: 60017, type: vmess, uuid: 19ff88ff-a3c1-3a90-82fd-e7daf29f7b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
+  - {name: 香港阿伟科技@TG/油管, server: v111.wgong.xyz, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _香港_YouTube:VV科技_64, server: 83.wgong.xyz, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国-6.42MB/s(Youtube:不良林), server: h4r.centaur.network, port: 16801, type: trojan, password: 134b2dad-1ba4-49f6-a8b8-721525213356, sni: h4r.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管 2, server: 86.wgong.xyz, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _香港_YouTube:VV科技_60, server: 88.wowogg.cyou, port: 52288, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YouTube:VV科技_44, server: 95.wowogg.cyou, port: 52295, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡阿伟科技@TG/油管, server: 4.vpnbro.ml, port: 9999, type: trojan, password: 04a2dba8-1af1-4b30-aabf-a2eeca2a3cb3, sni: 4.vpnbro.ml, skip-cert-verify: true, udp: true}
-  - {name: 日本阿伟科技@TG/油管 2, server: ggc.sf66.cf, port: 45641, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ggc.sf66.cf}, udp: true}
-  - {name: 韩国阿伟科技@TG/油管, server: oracle.kr.tgproxy.wtf, port: 21888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: oracle.kr.tgproxy.wtf}, udp: true}
-  - {name: 香港阿伟科技@TG/油管 3, server: v111.wgong.xyz, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国阿伟科技@TG/油管 2, server: 146.56.111.194, port: 18408, type: vmess, uuid: 92a5db6f-e3bb-422e-caba-fb52df9350c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _香港_YouTube:VV科技_63, server: 130.wowogg.cyou, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN阿伟科技@TG/油管 5, server: 120.232.182.190, port: 19084, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: CN阿伟科技@TG/油管 6, server: 112.14.22.104, port: 19084, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: CN阿伟科技@TG/油管 7, server: 120.232.208.195, port: 19057, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: HK阿伟科技@TG/油管, server: 20.205.107.99, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 亚太H4R, server: h4r.centaur.network, port: 16801, type: trojan, password: 134b2dad-1ba4-49f6-a8b8-721525213356, sni: h4r.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: 【YouTube由零開始】, server: 104.16.42.170, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
+  - {name: 香港阿伟科技, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: ♥️♥️YouTube梦歌♥️♥️_30, server: 130.wowogg.cyou, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN阿伟科技@TG/油管 8, server: 112.14.22.104, port: 19094, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: CN阿伟科技@TG/油管 9, server: 112.14.22.104, port: 19085, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: 日本H1R, server: h1r.centaur.network, port: 16802, type: trojan, password: fb39b0bb-acb7-45b8-a896-0ff6b56beb5f, sni: h1r.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: CN阿伟科技@TG/油管 10, server: 120.232.40.42, port: 19085, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: CN阿伟科技@TG/油管 11, server: 120.232.208.195, port: 19048, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: CN阿伟科技@TG/油管 12, server: 120.232.182.190, port: 19094, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: 阿伟科技@TG/油管, server: hkt.jslist.tk, port: 8880, type: vmess, uuid: efe08abe-e627-4f72-f02f-af00692a0bf4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/images, ws-headers: {Host: hkt.jslist.tk}, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: 196.247.24.156, port: 443, type: vmess, uuid: c028c1ff-c006-4dc7-bd7e-a61c99b4f306, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 20, server: 198.41.212.9, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero1.a-yu.xyz}, udp: true}
-  - {name: 香港阿伟科技@TG/油管 4, server: ggc.sf66.cf, port: 45118, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN阿伟科技@TG/油管 13, server: 112.14.22.104, port: 19048, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_24, server: ggc.sf66.cf, port: 45118, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管 2, server: styd.sf66.cf, port: 16990, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: ggz.jgw.tgproxy.wtf}, udp: true}
-  - {name: _香港_YouTube:VV科技_19, server: 112.wowogg.cyou, port: 52212, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 迪拜阿伟科技@TG/油管, server: 193.123.95.114, port: 21999, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 193.123.95.114}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_25, server: shrink.qingshenshen.tk, port: 2083, type: vmess, uuid: ad0c8193-f8f7-4e51-b477-a63255e8e9aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ad0c8193-f8f7-4e51-b477-a63255e8e9aa, ws-headers: {Host: shrink.qingshenshen.tk}, udp: true}
-  - {name: 香港阿伟科技@TG/油管 5, server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_34, server: 112.wowogg.cyou, port: 52212, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本阿伟科技@TG/油管 3, server: arm.50k.one, port: 39966, type: vmess, uuid: 608408f6-fd79-49a3-96ef-003266a773a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN阿伟科技@TG/油管 14, server: 120.232.40.42, port: 19084, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: _US_美国, server: 169.197.143.219, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 俄罗斯阿伟科技@TG/油管, server: 5.188.35.120, port: 443, type: vmess, uuid: 0c7a06d0-8061-4df7-b521-960e2b9ce0f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: 德国阿伟科技@TG/油管, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: 英国_YouTube：8度科技, server: 37.120.134.207, port: 443, type: vmess, uuid: 5c0beec7-9b91-4e28-85b0-e3ff49b4ac50, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_31, server: 95.wowogg.cyou, port: 52295, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本N178, server: n178.centaur.network, port: 8082, type: trojan, password: 12d66073-1c21-45d7-b7e2-6b0ed7eed556, sni: n178.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: 韩国阿伟科技@TG/油管 3, server: dali-hz.8n4t.cn, port: 37211, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: oracle.kr.tgproxy.wtf}, udp: true}
-  - {name: 香港阿伟科技@TG/油管 6, server: 5.vpnbro.ml, port: 6666, type: trojan, password: 04a2dba8-1af1-4b30-aabf-a2eeca2a3cb3, sni: 5.vpnbro.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube由零開始】, server: aws.us.tgproxy.wtf, port: 21888, type: vmess, uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: aws.us.tgproxy.wtf}, udp: true}
+  - {name: 中国阿伟科技 3, server: 111.28.3.106, port: 60010, type: vmess, uuid: 19ff88ff-a3c1-3a90-82fd-e7daf29f7b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
+  - {name: 中国阿伟科技 4, server: gzcm.v2hub.top, port: 19221, type: trojan, password: da8f4c57-d022-3ccc-ae2a-a70256d68c32, sni: gzcm.v2hub.top, skip-cert-verify: true, udp: true}
   - {name: 美国-5.54MB/s(Youtube:不良林), server: n150.centaur.network, port: 8082, type: trojan, password: a00a413d-85f2-4b72-a396-b96e1b3d11a6, sni: n150.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.02.13） 236, server: 1211hk1.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1211hk1.fans8.xyz}, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CYL-科技（2022.02.13）, server: aws.us.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: aws.us.tgproxy.wtf}, udp: true}
-  - {name: _GB_英国, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 2, server: 134.195.196.187, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 3, server: 134.195.196.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CYL-科技（2022.02.13） 2, server: 1211hk1.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1211hk1.fans8.xyz}, udp: true}
-  - {name: _CA_加拿大 4, server: 134.195.196.187, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 德国阿伟科技@TG/油管 2, server: dg.jgw.tgproxy.wtf, port: 443, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: dg.jgw.tgproxy.wtf}, udp: true}
-  - {name: 法国【YouTube由零開始】, server: fg.jgw.tgproxy.wtf, port: 443, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: fg.jgw.tgproxy.wtf}, udp: true}
-  - {name: _CA_加拿大 5, server: 134.195.196.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: v2cross.com, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
-  - {name: 德国阿伟科技@TG/油管 3, server: gia.uk.tgproxy.wtf, port: 443, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: gia.uk.tgproxy.wtf}, udp: true}
-  - {name: CYL-科技（2022.02.13） 203, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 8a233a34-36f4-400d-b7c8-93024e518ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
-  - {name: _GB_英国 2, server: 172.99.190.87, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CYL-科技（2022.02.13） 3, server: 0122us.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0122us.fans8.xyz}, udp: true}
-  - {name: _香港_YouTube:VV科技_17, server: 0107hk.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0107hk.fans8.xyz}, udp: true}
-  - {name: _GB_英国 3, server: 172.99.190.87, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 台湾(欢迎订阅Youtube破解资源君), server: 120.232.182.190, port: 19038, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: 香港阿伟科技 2, server: 121.wgong.xyz, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube由零開始】, server: 38.75.136.116, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国-1.70MB/s(Youtube:不良林), server: n200.centaur.network, port: 8081, type: trojan, password: 5106d626-ddc5-452c-8983-c4ba957eb509, sni: n200.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: 香港-9.14MB/s(Youtube:不良林), server: 88.wowogg.cyou, port: 52288, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港P3, server: p3.centaur.network, port: 16803, type: trojan, password: 00635f3d-2c64-4281-9367-f3c26ebb6a44, sni: p3.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: CN阿伟科技@TG/油管, server: 120.232.208.195, port: 19094, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: 美国阿伟科技, server: 137.wgong.xyz, port: 52437, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CYL-科技（2022.02.13）, server: 1211hk1.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1211hk1.fans8.xyz}, udp: true}
+  - {name: 英国_YouTube：8度科技, server: 37.120.134.207, port: 443, type: vmess, uuid: 5c0beec7-9b91-4e28-85b0-e3ff49b4ac50, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
   - {name: _中国跳转_YouTube:VV科技_71, server: tunnel-tw-a-01.xncloud.xyz, port: 504, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-hinet-tw-04.xncloud.xyz}, udp: true}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 21627f29-0d0f-4dfa-9740-b5ee360bf061, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
-  - {name: CN阿伟科技@TG/油管 15, server: 120.232.182.190, port: 19083, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: 中国-8.52MB/s(Youtube:不良林), server: h2r.centaur.network, port: 16801, type: trojan, password: 9be5458a-6a1e-4784-823e-45149d6c0ffc, sni: h2r.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管 3, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 172.99.190.205, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国-4.30MB/s(Youtube:不良林), server: 198.148.92.246, port: 443, type: vmess, uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 英国（YouTube订阅：侯老师网络学堂）, server: 172.99.190.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CA加拿大(Youtube频道：工具大师！), server: 196.247.59.212, port: 443, type: vmess, uuid: 145ce2a4-f290-49e9-87c2-8b3051c74fc1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 香港阿伟科技 3, server: 130.wowogg.cyou, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(Youtube频道：工具大师！), server: 38.68.134.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_英国, server: 172.99.190.87, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_56, server: 172.99.190.39, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 香港P3
-      - _美国_YouTube:VV科技_62
-      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
-      - 香港【YouTube由零開始】
-      - CN阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_32
-      - 香港-13.36MB/s(Youtube:不良林)
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 日本阿伟科技@TG/油管
-      - _CN_中国->🇯🇵_JP_日本
-      - 香港-9.14MB/s(Youtube:不良林)
-      - CN阿伟科技@TG/油管 2
-      - CN阿伟科技@TG/油管 3
-      - 日本港阿伟科技@TG/油管
+      - 意大利-2.58MB/s(Youtube:不良林)
+      - 亚洲(欢迎订阅Youtube破解资源君)
+      - 中国阿伟科技
+      - 中国阿伟科技 2
       - 香港阿伟科技@TG/油管
-      - CN阿伟科技@TG/油管 4
       - _香港_YouTube:VV科技_64
-      - 中国-6.42MB/s(Youtube:不良林)
-      - 香港阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_60
-      - _美国_YouTube:VV科技_44
-      - 新加坡阿伟科技@TG/油管
-      - 日本阿伟科技@TG/油管 2
-      - 韩国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_63
-      - CN阿伟科技@TG/油管 5
-      - CN阿伟科技@TG/油管 6
-      - CN阿伟科技@TG/油管 7
-      - HK阿伟科技@TG/油管
-      - 亚太H4R
-      - 【YouTube由零開始】
+      - 香港阿伟科技
       - ♥️♥️YouTube梦歌♥️♥️_30
-      - CN阿伟科技@TG/油管 8
-      - CN阿伟科技@TG/油管 9
-      - 日本H1R
-      - CN阿伟科技@TG/油管 10
-      - CN阿伟科技@TG/油管 11
-      - CN阿伟科技@TG/油管 12
-      - 阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - github.com/freefq - 美国CloudFlare节点 20
-      - 香港阿伟科技@TG/油管 4
-      - CN阿伟科技@TG/油管 13
-      - ♥️♥️YouTube梦歌♥️♥️_24
-      - 美国阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_19
-      - 迪拜阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_25
-      - 香港阿伟科技@TG/油管 5
-      - ♥️♥️YouTube梦歌♥️♥️_34
-      - 日本阿伟科技@TG/油管 3
-      - CN阿伟科技@TG/油管 14
-      - _US_美国
-      - 俄罗斯阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
-      - 英国_YouTube：8度科技
-      - ♥️♥️YouTube梦歌♥️♥️_31
-      - 日本N178
-      - 韩国阿伟科技@TG/油管 3
-      - 香港阿伟科技@TG/油管 6
-      - 美国【YouTube由零開始】
+      - 中国阿伟科技 3
+      - 中国阿伟科技 4
       - 美国-5.54MB/s(Youtube:不良林)
-      - CYL-科技（2022.02.13） 236
-      - _CA_加拿大
+      - 台湾(欢迎订阅Youtube破解资源君)
+      - 香港阿伟科技 2
+      - 美国【YouTube由零開始】
+      - 美国-1.70MB/s(Youtube:不良林)
+      - 香港-9.14MB/s(Youtube:不良林)
+      - 香港P3
+      - CN阿伟科技@TG/油管
+      - 美国阿伟科技
       - CYL-科技（2022.02.13）
-      - _GB_英国
-      - _CA_加拿大 2
-      - _CA_加拿大 3
-      - CYL-科技（2022.02.13） 2
-      - _CA_加拿大 4
-      - 德国阿伟科技@TG/油管 2
-      - 法国【YouTube由零開始】
-      - _CA_加拿大 5
-      - v2cross.com
-      - 德国阿伟科技@TG/油管 3
-      - CYL-科技（2022.02.13） 203
-      - _GB_英国 2
-      - CYL-科技（2022.02.13） 3
-      - _香港_YouTube:VV科技_17
-      - _GB_英国 3
+      - 英国_YouTube：8度科技
       - _中国跳转_YouTube:VV科技_71
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - CN阿伟科技@TG/油管 15
-      - 中国-8.52MB/s(Youtube:不良林)
-      - 美国阿伟科技@TG/油管 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国-4.30MB/s(Youtube:不良林)
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 英国（YouTube订阅：侯老师网络学堂）
+      - CA加拿大(Youtube频道：工具大师！)
+      - 香港阿伟科技 3
+      - US美国(Youtube频道：工具大师！)
+      - _GB_英国
+      - ♥️♥️YouTube梦歌♥️♥️_56
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 香港P3
-      - _美国_YouTube:VV科技_62
-      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
-      - 香港【YouTube由零開始】
-      - CN阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_32
-      - 香港-13.36MB/s(Youtube:不良林)
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 日本阿伟科技@TG/油管
-      - _CN_中国->🇯🇵_JP_日本
-      - 香港-9.14MB/s(Youtube:不良林)
-      - CN阿伟科技@TG/油管 2
-      - CN阿伟科技@TG/油管 3
-      - 日本港阿伟科技@TG/油管
+      - 意大利-2.58MB/s(Youtube:不良林)
+      - 亚洲(欢迎订阅Youtube破解资源君)
+      - 中国阿伟科技
+      - 中国阿伟科技 2
       - 香港阿伟科技@TG/油管
-      - CN阿伟科技@TG/油管 4
       - _香港_YouTube:VV科技_64
-      - 中国-6.42MB/s(Youtube:不良林)
-      - 香港阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_60
-      - _美国_YouTube:VV科技_44
-      - 新加坡阿伟科技@TG/油管
-      - 日本阿伟科技@TG/油管 2
-      - 韩国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_63
-      - CN阿伟科技@TG/油管 5
-      - CN阿伟科技@TG/油管 6
-      - CN阿伟科技@TG/油管 7
-      - HK阿伟科技@TG/油管
-      - 亚太H4R
-      - 【YouTube由零開始】
+      - 香港阿伟科技
       - ♥️♥️YouTube梦歌♥️♥️_30
-      - CN阿伟科技@TG/油管 8
-      - CN阿伟科技@TG/油管 9
-      - 日本H1R
-      - CN阿伟科技@TG/油管 10
-      - CN阿伟科技@TG/油管 11
-      - CN阿伟科技@TG/油管 12
-      - 阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - github.com/freefq - 美国CloudFlare节点 20
-      - 香港阿伟科技@TG/油管 4
-      - CN阿伟科技@TG/油管 13
-      - ♥️♥️YouTube梦歌♥️♥️_24
-      - 美国阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_19
-      - 迪拜阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_25
-      - 香港阿伟科技@TG/油管 5
-      - ♥️♥️YouTube梦歌♥️♥️_34
-      - 日本阿伟科技@TG/油管 3
-      - CN阿伟科技@TG/油管 14
-      - _US_美国
-      - 俄罗斯阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
-      - 英国_YouTube：8度科技
-      - ♥️♥️YouTube梦歌♥️♥️_31
-      - 日本N178
-      - 韩国阿伟科技@TG/油管 3
-      - 香港阿伟科技@TG/油管 6
-      - 美国【YouTube由零開始】
+      - 中国阿伟科技 3
+      - 中国阿伟科技 4
       - 美国-5.54MB/s(Youtube:不良林)
-      - CYL-科技（2022.02.13） 236
-      - _CA_加拿大
+      - 台湾(欢迎订阅Youtube破解资源君)
+      - 香港阿伟科技 2
+      - 美国【YouTube由零開始】
+      - 美国-1.70MB/s(Youtube:不良林)
+      - 香港-9.14MB/s(Youtube:不良林)
+      - 香港P3
+      - CN阿伟科技@TG/油管
+      - 美国阿伟科技
       - CYL-科技（2022.02.13）
-      - _GB_英国
-      - _CA_加拿大 2
-      - _CA_加拿大 3
-      - CYL-科技（2022.02.13） 2
-      - _CA_加拿大 4
-      - 德国阿伟科技@TG/油管 2
-      - 法国【YouTube由零開始】
-      - _CA_加拿大 5
-      - v2cross.com
-      - 德国阿伟科技@TG/油管 3
-      - CYL-科技（2022.02.13） 203
-      - _GB_英国 2
-      - CYL-科技（2022.02.13） 3
-      - _香港_YouTube:VV科技_17
-      - _GB_英国 3
+      - 英国_YouTube：8度科技
       - _中国跳转_YouTube:VV科技_71
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - CN阿伟科技@TG/油管 15
-      - 中国-8.52MB/s(Youtube:不良林)
-      - 美国阿伟科技@TG/油管 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国-4.30MB/s(Youtube:不良林)
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 英国（YouTube订阅：侯老师网络学堂）
+      - CA加拿大(Youtube频道：工具大师！)
+      - 香港阿伟科技 3
+      - US美国(Youtube频道：工具大师！)
+      - _GB_英国
+      - ♥️♥️YouTube梦歌♥️♥️_56
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港P3
-      - _美国_YouTube:VV科技_62
-      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
-      - 香港【YouTube由零開始】
-      - CN阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_32
-      - 香港-13.36MB/s(Youtube:不良林)
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 日本阿伟科技@TG/油管
-      - _CN_中国->🇯🇵_JP_日本
-      - 香港-9.14MB/s(Youtube:不良林)
-      - CN阿伟科技@TG/油管 2
-      - CN阿伟科技@TG/油管 3
-      - 日本港阿伟科技@TG/油管
+      - 意大利-2.58MB/s(Youtube:不良林)
+      - 亚洲(欢迎订阅Youtube破解资源君)
+      - 中国阿伟科技
+      - 中国阿伟科技 2
       - 香港阿伟科技@TG/油管
-      - CN阿伟科技@TG/油管 4
       - _香港_YouTube:VV科技_64
-      - 中国-6.42MB/s(Youtube:不良林)
-      - 香港阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_60
-      - _美国_YouTube:VV科技_44
-      - 新加坡阿伟科技@TG/油管
-      - 日本阿伟科技@TG/油管 2
-      - 韩国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_63
-      - CN阿伟科技@TG/油管 5
-      - CN阿伟科技@TG/油管 6
-      - CN阿伟科技@TG/油管 7
-      - HK阿伟科技@TG/油管
-      - 亚太H4R
-      - 【YouTube由零開始】
+      - 香港阿伟科技
       - ♥️♥️YouTube梦歌♥️♥️_30
-      - CN阿伟科技@TG/油管 8
-      - CN阿伟科技@TG/油管 9
-      - 日本H1R
-      - CN阿伟科技@TG/油管 10
-      - CN阿伟科技@TG/油管 11
-      - CN阿伟科技@TG/油管 12
-      - 阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - github.com/freefq - 美国CloudFlare节点 20
-      - 香港阿伟科技@TG/油管 4
-      - CN阿伟科技@TG/油管 13
-      - ♥️♥️YouTube梦歌♥️♥️_24
-      - 美国阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_19
-      - 迪拜阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_25
-      - 香港阿伟科技@TG/油管 5
-      - ♥️♥️YouTube梦歌♥️♥️_34
-      - 日本阿伟科技@TG/油管 3
-      - CN阿伟科技@TG/油管 14
-      - _US_美国
-      - 俄罗斯阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
-      - 英国_YouTube：8度科技
-      - ♥️♥️YouTube梦歌♥️♥️_31
-      - 日本N178
-      - 韩国阿伟科技@TG/油管 3
-      - 香港阿伟科技@TG/油管 6
-      - 美国【YouTube由零開始】
+      - 中国阿伟科技 3
+      - 中国阿伟科技 4
       - 美国-5.54MB/s(Youtube:不良林)
-      - CYL-科技（2022.02.13） 236
-      - _CA_加拿大
+      - 台湾(欢迎订阅Youtube破解资源君)
+      - 香港阿伟科技 2
+      - 美国【YouTube由零開始】
+      - 美国-1.70MB/s(Youtube:不良林)
+      - 香港-9.14MB/s(Youtube:不良林)
+      - 香港P3
+      - CN阿伟科技@TG/油管
+      - 美国阿伟科技
       - CYL-科技（2022.02.13）
-      - _GB_英国
-      - _CA_加拿大 2
-      - _CA_加拿大 3
-      - CYL-科技（2022.02.13） 2
-      - _CA_加拿大 4
-      - 德国阿伟科技@TG/油管 2
-      - 法国【YouTube由零開始】
-      - _CA_加拿大 5
-      - v2cross.com
-      - 德国阿伟科技@TG/油管 3
-      - CYL-科技（2022.02.13） 203
-      - _GB_英国 2
-      - CYL-科技（2022.02.13） 3
-      - _香港_YouTube:VV科技_17
-      - _GB_英国 3
+      - 英国_YouTube：8度科技
       - _中国跳转_YouTube:VV科技_71
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - CN阿伟科技@TG/油管 15
-      - 中国-8.52MB/s(Youtube:不良林)
-      - 美国阿伟科技@TG/油管 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国-4.30MB/s(Youtube:不良林)
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 英国（YouTube订阅：侯老师网络学堂）
+      - CA加拿大(Youtube频道：工具大师！)
+      - 香港阿伟科技 3
+      - US美国(Youtube频道：工具大师！)
+      - _GB_英国
+      - ♥️♥️YouTube梦歌♥️♥️_56
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港P3
-      - _美国_YouTube:VV科技_62
-      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
-      - 香港【YouTube由零開始】
-      - CN阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_32
-      - 香港-13.36MB/s(Youtube:不良林)
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 日本阿伟科技@TG/油管
-      - _CN_中国->🇯🇵_JP_日本
-      - 香港-9.14MB/s(Youtube:不良林)
-      - CN阿伟科技@TG/油管 2
-      - CN阿伟科技@TG/油管 3
-      - 日本港阿伟科技@TG/油管
+      - 意大利-2.58MB/s(Youtube:不良林)
+      - 亚洲(欢迎订阅Youtube破解资源君)
+      - 中国阿伟科技
+      - 中国阿伟科技 2
       - 香港阿伟科技@TG/油管
-      - CN阿伟科技@TG/油管 4
       - _香港_YouTube:VV科技_64
-      - 中国-6.42MB/s(Youtube:不良林)
-      - 香港阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_60
-      - _美国_YouTube:VV科技_44
-      - 新加坡阿伟科技@TG/油管
-      - 日本阿伟科技@TG/油管 2
-      - 韩国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_63
-      - CN阿伟科技@TG/油管 5
-      - CN阿伟科技@TG/油管 6
-      - CN阿伟科技@TG/油管 7
-      - HK阿伟科技@TG/油管
-      - 亚太H4R
-      - 【YouTube由零開始】
+      - 香港阿伟科技
       - ♥️♥️YouTube梦歌♥️♥️_30
-      - CN阿伟科技@TG/油管 8
-      - CN阿伟科技@TG/油管 9
-      - 日本H1R
-      - CN阿伟科技@TG/油管 10
-      - CN阿伟科技@TG/油管 11
-      - CN阿伟科技@TG/油管 12
-      - 阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - github.com/freefq - 美国CloudFlare节点 20
-      - 香港阿伟科技@TG/油管 4
-      - CN阿伟科技@TG/油管 13
-      - ♥️♥️YouTube梦歌♥️♥️_24
-      - 美国阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_19
-      - 迪拜阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_25
-      - 香港阿伟科技@TG/油管 5
-      - ♥️♥️YouTube梦歌♥️♥️_34
-      - 日本阿伟科技@TG/油管 3
-      - CN阿伟科技@TG/油管 14
-      - _US_美国
-      - 俄罗斯阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
-      - 英国_YouTube：8度科技
-      - ♥️♥️YouTube梦歌♥️♥️_31
-      - 日本N178
-      - 韩国阿伟科技@TG/油管 3
-      - 香港阿伟科技@TG/油管 6
-      - 美国【YouTube由零開始】
+      - 中国阿伟科技 3
+      - 中国阿伟科技 4
       - 美国-5.54MB/s(Youtube:不良林)
-      - CYL-科技（2022.02.13） 236
-      - _CA_加拿大
+      - 台湾(欢迎订阅Youtube破解资源君)
+      - 香港阿伟科技 2
+      - 美国【YouTube由零開始】
+      - 美国-1.70MB/s(Youtube:不良林)
+      - 香港-9.14MB/s(Youtube:不良林)
+      - 香港P3
+      - CN阿伟科技@TG/油管
+      - 美国阿伟科技
       - CYL-科技（2022.02.13）
-      - _GB_英国
-      - _CA_加拿大 2
-      - _CA_加拿大 3
-      - CYL-科技（2022.02.13） 2
-      - _CA_加拿大 4
-      - 德国阿伟科技@TG/油管 2
-      - 法国【YouTube由零開始】
-      - _CA_加拿大 5
-      - v2cross.com
-      - 德国阿伟科技@TG/油管 3
-      - CYL-科技（2022.02.13） 203
-      - _GB_英国 2
-      - CYL-科技（2022.02.13） 3
-      - _香港_YouTube:VV科技_17
-      - _GB_英国 3
+      - 英国_YouTube：8度科技
       - _中国跳转_YouTube:VV科技_71
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - CN阿伟科技@TG/油管 15
-      - 中国-8.52MB/s(Youtube:不良林)
-      - 美国阿伟科技@TG/油管 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国-4.30MB/s(Youtube:不良林)
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 英国（YouTube订阅：侯老师网络学堂）
+      - CA加拿大(Youtube频道：工具大师！)
+      - 香港阿伟科技 3
+      - US美国(Youtube频道：工具大师！)
+      - _GB_英国
+      - ♥️♥️YouTube梦歌♥️♥️_56
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 香港P3
-      - _美国_YouTube:VV科技_62
-      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
-      - 香港【YouTube由零開始】
-      - CN阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_32
-      - 香港-13.36MB/s(Youtube:不良林)
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 日本阿伟科技@TG/油管
-      - _CN_中国->🇯🇵_JP_日本
-      - 香港-9.14MB/s(Youtube:不良林)
-      - CN阿伟科技@TG/油管 2
-      - CN阿伟科技@TG/油管 3
-      - 日本港阿伟科技@TG/油管
+      - 意大利-2.58MB/s(Youtube:不良林)
+      - 亚洲(欢迎订阅Youtube破解资源君)
+      - 中国阿伟科技
+      - 中国阿伟科技 2
       - 香港阿伟科技@TG/油管
-      - CN阿伟科技@TG/油管 4
       - _香港_YouTube:VV科技_64
-      - 中国-6.42MB/s(Youtube:不良林)
-      - 香港阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_60
-      - _美国_YouTube:VV科技_44
-      - 新加坡阿伟科技@TG/油管
-      - 日本阿伟科技@TG/油管 2
-      - 韩国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_63
-      - CN阿伟科技@TG/油管 5
-      - CN阿伟科技@TG/油管 6
-      - CN阿伟科技@TG/油管 7
-      - HK阿伟科技@TG/油管
-      - 亚太H4R
-      - 【YouTube由零開始】
+      - 香港阿伟科技
       - ♥️♥️YouTube梦歌♥️♥️_30
-      - CN阿伟科技@TG/油管 8
-      - CN阿伟科技@TG/油管 9
-      - 日本H1R
-      - CN阿伟科技@TG/油管 10
-      - CN阿伟科技@TG/油管 11
-      - CN阿伟科技@TG/油管 12
-      - 阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - github.com/freefq - 美国CloudFlare节点 20
-      - 香港阿伟科技@TG/油管 4
-      - CN阿伟科技@TG/油管 13
-      - ♥️♥️YouTube梦歌♥️♥️_24
-      - 美国阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_19
-      - 迪拜阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_25
-      - 香港阿伟科技@TG/油管 5
-      - ♥️♥️YouTube梦歌♥️♥️_34
-      - 日本阿伟科技@TG/油管 3
-      - CN阿伟科技@TG/油管 14
-      - _US_美国
-      - 俄罗斯阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
-      - 英国_YouTube：8度科技
-      - ♥️♥️YouTube梦歌♥️♥️_31
-      - 日本N178
-      - 韩国阿伟科技@TG/油管 3
-      - 香港阿伟科技@TG/油管 6
-      - 美国【YouTube由零開始】
+      - 中国阿伟科技 3
+      - 中国阿伟科技 4
       - 美国-5.54MB/s(Youtube:不良林)
-      - CYL-科技（2022.02.13） 236
-      - _CA_加拿大
+      - 台湾(欢迎订阅Youtube破解资源君)
+      - 香港阿伟科技 2
+      - 美国【YouTube由零開始】
+      - 美国-1.70MB/s(Youtube:不良林)
+      - 香港-9.14MB/s(Youtube:不良林)
+      - 香港P3
+      - CN阿伟科技@TG/油管
+      - 美国阿伟科技
       - CYL-科技（2022.02.13）
-      - _GB_英国
-      - _CA_加拿大 2
-      - _CA_加拿大 3
-      - CYL-科技（2022.02.13） 2
-      - _CA_加拿大 4
-      - 德国阿伟科技@TG/油管 2
-      - 法国【YouTube由零開始】
-      - _CA_加拿大 5
-      - v2cross.com
-      - 德国阿伟科技@TG/油管 3
-      - CYL-科技（2022.02.13） 203
-      - _GB_英国 2
-      - CYL-科技（2022.02.13） 3
-      - _香港_YouTube:VV科技_17
-      - _GB_英国 3
+      - 英国_YouTube：8度科技
       - _中国跳转_YouTube:VV科技_71
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - CN阿伟科技@TG/油管 15
-      - 中国-8.52MB/s(Youtube:不良林)
-      - 美国阿伟科技@TG/油管 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国-4.30MB/s(Youtube:不良林)
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 英国（YouTube订阅：侯老师网络学堂）
+      - CA加拿大(Youtube频道：工具大师！)
+      - 香港阿伟科技 3
+      - US美国(Youtube频道：工具大师！)
+      - _GB_英国
+      - ♥️♥️YouTube梦歌♥️♥️_56
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港P3
-      - _美国_YouTube:VV科技_62
-      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
-      - 香港【YouTube由零開始】
-      - CN阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_32
-      - 香港-13.36MB/s(Youtube:不良林)
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 日本阿伟科技@TG/油管
-      - _CN_中国->🇯🇵_JP_日本
-      - 香港-9.14MB/s(Youtube:不良林)
-      - CN阿伟科技@TG/油管 2
-      - CN阿伟科技@TG/油管 3
-      - 日本港阿伟科技@TG/油管
+      - 意大利-2.58MB/s(Youtube:不良林)
+      - 亚洲(欢迎订阅Youtube破解资源君)
+      - 中国阿伟科技
+      - 中国阿伟科技 2
       - 香港阿伟科技@TG/油管
-      - CN阿伟科技@TG/油管 4
       - _香港_YouTube:VV科技_64
-      - 中国-6.42MB/s(Youtube:不良林)
-      - 香港阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_60
-      - _美国_YouTube:VV科技_44
-      - 新加坡阿伟科技@TG/油管
-      - 日本阿伟科技@TG/油管 2
-      - 韩国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_63
-      - CN阿伟科技@TG/油管 5
-      - CN阿伟科技@TG/油管 6
-      - CN阿伟科技@TG/油管 7
-      - HK阿伟科技@TG/油管
-      - 亚太H4R
-      - 【YouTube由零開始】
+      - 香港阿伟科技
       - ♥️♥️YouTube梦歌♥️♥️_30
-      - CN阿伟科技@TG/油管 8
-      - CN阿伟科技@TG/油管 9
-      - 日本H1R
-      - CN阿伟科技@TG/油管 10
-      - CN阿伟科技@TG/油管 11
-      - CN阿伟科技@TG/油管 12
-      - 阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - github.com/freefq - 美国CloudFlare节点 20
-      - 香港阿伟科技@TG/油管 4
-      - CN阿伟科技@TG/油管 13
-      - ♥️♥️YouTube梦歌♥️♥️_24
-      - 美国阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_19
-      - 迪拜阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_25
-      - 香港阿伟科技@TG/油管 5
-      - ♥️♥️YouTube梦歌♥️♥️_34
-      - 日本阿伟科技@TG/油管 3
-      - CN阿伟科技@TG/油管 14
-      - _US_美国
-      - 俄罗斯阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
-      - 英国_YouTube：8度科技
-      - ♥️♥️YouTube梦歌♥️♥️_31
-      - 日本N178
-      - 韩国阿伟科技@TG/油管 3
-      - 香港阿伟科技@TG/油管 6
-      - 美国【YouTube由零開始】
+      - 中国阿伟科技 3
+      - 中国阿伟科技 4
       - 美国-5.54MB/s(Youtube:不良林)
-      - CYL-科技（2022.02.13） 236
-      - _CA_加拿大
+      - 台湾(欢迎订阅Youtube破解资源君)
+      - 香港阿伟科技 2
+      - 美国【YouTube由零開始】
+      - 美国-1.70MB/s(Youtube:不良林)
+      - 香港-9.14MB/s(Youtube:不良林)
+      - 香港P3
+      - CN阿伟科技@TG/油管
+      - 美国阿伟科技
       - CYL-科技（2022.02.13）
-      - _GB_英国
-      - _CA_加拿大 2
-      - _CA_加拿大 3
-      - CYL-科技（2022.02.13） 2
-      - _CA_加拿大 4
-      - 德国阿伟科技@TG/油管 2
-      - 法国【YouTube由零開始】
-      - _CA_加拿大 5
-      - v2cross.com
-      - 德国阿伟科技@TG/油管 3
-      - CYL-科技（2022.02.13） 203
-      - _GB_英国 2
-      - CYL-科技（2022.02.13） 3
-      - _香港_YouTube:VV科技_17
-      - _GB_英国 3
+      - 英国_YouTube：8度科技
       - _中国跳转_YouTube:VV科技_71
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - CN阿伟科技@TG/油管 15
-      - 中国-8.52MB/s(Youtube:不良林)
-      - 美国阿伟科技@TG/油管 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国-4.30MB/s(Youtube:不良林)
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 英国（YouTube订阅：侯老师网络学堂）
+      - CA加拿大(Youtube频道：工具大师！)
+      - 香港阿伟科技 3
+      - US美国(Youtube频道：工具大师！)
+      - _GB_英国
+      - ♥️♥️YouTube梦歌♥️♥️_56
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港P3
-      - _美国_YouTube:VV科技_62
-      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
-      - 香港【YouTube由零開始】
-      - CN阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_32
-      - 香港-13.36MB/s(Youtube:不良林)
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 日本阿伟科技@TG/油管
-      - _CN_中国->🇯🇵_JP_日本
-      - 香港-9.14MB/s(Youtube:不良林)
-      - CN阿伟科技@TG/油管 2
-      - CN阿伟科技@TG/油管 3
-      - 日本港阿伟科技@TG/油管
+      - 意大利-2.58MB/s(Youtube:不良林)
+      - 亚洲(欢迎订阅Youtube破解资源君)
+      - 中国阿伟科技
+      - 中国阿伟科技 2
       - 香港阿伟科技@TG/油管
-      - CN阿伟科技@TG/油管 4
       - _香港_YouTube:VV科技_64
-      - 中国-6.42MB/s(Youtube:不良林)
-      - 香港阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_60
-      - _美国_YouTube:VV科技_44
-      - 新加坡阿伟科技@TG/油管
-      - 日本阿伟科技@TG/油管 2
-      - 韩国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_63
-      - CN阿伟科技@TG/油管 5
-      - CN阿伟科技@TG/油管 6
-      - CN阿伟科技@TG/油管 7
-      - HK阿伟科技@TG/油管
-      - 亚太H4R
-      - 【YouTube由零開始】
+      - 香港阿伟科技
       - ♥️♥️YouTube梦歌♥️♥️_30
-      - CN阿伟科技@TG/油管 8
-      - CN阿伟科技@TG/油管 9
-      - 日本H1R
-      - CN阿伟科技@TG/油管 10
-      - CN阿伟科技@TG/油管 11
-      - CN阿伟科技@TG/油管 12
-      - 阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - github.com/freefq - 美国CloudFlare节点 20
-      - 香港阿伟科技@TG/油管 4
-      - CN阿伟科技@TG/油管 13
-      - ♥️♥️YouTube梦歌♥️♥️_24
-      - 美国阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_19
-      - 迪拜阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_25
-      - 香港阿伟科技@TG/油管 5
-      - ♥️♥️YouTube梦歌♥️♥️_34
-      - 日本阿伟科技@TG/油管 3
-      - CN阿伟科技@TG/油管 14
-      - _US_美国
-      - 俄罗斯阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
-      - 英国_YouTube：8度科技
-      - ♥️♥️YouTube梦歌♥️♥️_31
-      - 日本N178
-      - 韩国阿伟科技@TG/油管 3
-      - 香港阿伟科技@TG/油管 6
-      - 美国【YouTube由零開始】
+      - 中国阿伟科技 3
+      - 中国阿伟科技 4
       - 美国-5.54MB/s(Youtube:不良林)
-      - CYL-科技（2022.02.13） 236
-      - _CA_加拿大
+      - 台湾(欢迎订阅Youtube破解资源君)
+      - 香港阿伟科技 2
+      - 美国【YouTube由零開始】
+      - 美国-1.70MB/s(Youtube:不良林)
+      - 香港-9.14MB/s(Youtube:不良林)
+      - 香港P3
+      - CN阿伟科技@TG/油管
+      - 美国阿伟科技
       - CYL-科技（2022.02.13）
-      - _GB_英国
-      - _CA_加拿大 2
-      - _CA_加拿大 3
-      - CYL-科技（2022.02.13） 2
-      - _CA_加拿大 4
-      - 德国阿伟科技@TG/油管 2
-      - 法国【YouTube由零開始】
-      - _CA_加拿大 5
-      - v2cross.com
-      - 德国阿伟科技@TG/油管 3
-      - CYL-科技（2022.02.13） 203
-      - _GB_英国 2
-      - CYL-科技（2022.02.13） 3
-      - _香港_YouTube:VV科技_17
-      - _GB_英国 3
+      - 英国_YouTube：8度科技
       - _中国跳转_YouTube:VV科技_71
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - CN阿伟科技@TG/油管 15
-      - 中国-8.52MB/s(Youtube:不良林)
-      - 美国阿伟科技@TG/油管 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国-4.30MB/s(Youtube:不良林)
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 英国（YouTube订阅：侯老师网络学堂）
+      - CA加拿大(Youtube频道：工具大师！)
+      - 香港阿伟科技 3
+      - US美国(Youtube频道：工具大师！)
+      - _GB_英国
+      - ♥️♥️YouTube梦歌♥️♥️_56
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -802,98 +290,34 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港P3
-      - _美国_YouTube:VV科技_62
-      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
-      - 香港【YouTube由零開始】
-      - CN阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_32
-      - 香港-13.36MB/s(Youtube:不良林)
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 日本阿伟科技@TG/油管
-      - _CN_中国->🇯🇵_JP_日本
-      - 香港-9.14MB/s(Youtube:不良林)
-      - CN阿伟科技@TG/油管 2
-      - CN阿伟科技@TG/油管 3
-      - 日本港阿伟科技@TG/油管
+      - 意大利-2.58MB/s(Youtube:不良林)
+      - 亚洲(欢迎订阅Youtube破解资源君)
+      - 中国阿伟科技
+      - 中国阿伟科技 2
       - 香港阿伟科技@TG/油管
-      - CN阿伟科技@TG/油管 4
       - _香港_YouTube:VV科技_64
-      - 中国-6.42MB/s(Youtube:不良林)
-      - 香港阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_60
-      - _美国_YouTube:VV科技_44
-      - 新加坡阿伟科技@TG/油管
-      - 日本阿伟科技@TG/油管 2
-      - 韩国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_63
-      - CN阿伟科技@TG/油管 5
-      - CN阿伟科技@TG/油管 6
-      - CN阿伟科技@TG/油管 7
-      - HK阿伟科技@TG/油管
-      - 亚太H4R
-      - 【YouTube由零開始】
+      - 香港阿伟科技
       - ♥️♥️YouTube梦歌♥️♥️_30
-      - CN阿伟科技@TG/油管 8
-      - CN阿伟科技@TG/油管 9
-      - 日本H1R
-      - CN阿伟科技@TG/油管 10
-      - CN阿伟科技@TG/油管 11
-      - CN阿伟科技@TG/油管 12
-      - 阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - github.com/freefq - 美国CloudFlare节点 20
-      - 香港阿伟科技@TG/油管 4
-      - CN阿伟科技@TG/油管 13
-      - ♥️♥️YouTube梦歌♥️♥️_24
-      - 美国阿伟科技@TG/油管 2
-      - _香港_YouTube:VV科技_19
-      - 迪拜阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_25
-      - 香港阿伟科技@TG/油管 5
-      - ♥️♥️YouTube梦歌♥️♥️_34
-      - 日本阿伟科技@TG/油管 3
-      - CN阿伟科技@TG/油管 14
-      - _US_美国
-      - 俄罗斯阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
-      - 英国_YouTube：8度科技
-      - ♥️♥️YouTube梦歌♥️♥️_31
-      - 日本N178
-      - 韩国阿伟科技@TG/油管 3
-      - 香港阿伟科技@TG/油管 6
-      - 美国【YouTube由零開始】
+      - 中国阿伟科技 3
+      - 中国阿伟科技 4
       - 美国-5.54MB/s(Youtube:不良林)
-      - CYL-科技（2022.02.13） 236
-      - _CA_加拿大
+      - 台湾(欢迎订阅Youtube破解资源君)
+      - 香港阿伟科技 2
+      - 美国【YouTube由零開始】
+      - 美国-1.70MB/s(Youtube:不良林)
+      - 香港-9.14MB/s(Youtube:不良林)
+      - 香港P3
+      - CN阿伟科技@TG/油管
+      - 美国阿伟科技
       - CYL-科技（2022.02.13）
-      - _GB_英国
-      - _CA_加拿大 2
-      - _CA_加拿大 3
-      - CYL-科技（2022.02.13） 2
-      - _CA_加拿大 4
-      - 德国阿伟科技@TG/油管 2
-      - 法国【YouTube由零開始】
-      - _CA_加拿大 5
-      - v2cross.com
-      - 德国阿伟科技@TG/油管 3
-      - CYL-科技（2022.02.13） 203
-      - _GB_英国 2
-      - CYL-科技（2022.02.13） 3
-      - _香港_YouTube:VV科技_17
-      - _GB_英国 3
+      - 英国_YouTube：8度科技
       - _中国跳转_YouTube:VV科技_71
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - CN阿伟科技@TG/油管 15
-      - 中国-8.52MB/s(Youtube:不良林)
-      - 美国阿伟科技@TG/油管 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国-4.30MB/s(Youtube:不良林)
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 英国（YouTube订阅：侯老师网络学堂）
+      - CA加拿大(Youtube频道：工具大师！)
+      - 香港阿伟科技 3
+      - US美国(Youtube频道：工具大师！)
+      - _GB_英国
+      - ♥️♥️YouTube梦歌♥️♥️_56
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
