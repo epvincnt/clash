@@ -5,565 +5,925 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国阿伟科技, server: 100.wgong.xyz, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技, server: 86.wgong.xyz, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管, server: 86.wgong.xyz, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_349, server: iplc01.dns2333.xyz, port: 3053, type: vmess, uuid: 2b192163-3b72-3e58-ba10-6bffb69edd93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_179, server: 100.wgong.xyz, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_353, server: iplc01.dns2333.xyz, port: 3173, type: vmess, uuid: 2b192163-3b72-3e58-ba10-6bffb69edd93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK_香港_油管 TG 8度科技, server: 85.wgong.xyz, port: 52285, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_中国_油管 TG 8度科技, server: 120.232.173.119, port: 13017, type: ss, cipher: chacha20-ietf-poly1305, password: 3f448e67-ad9e-4cc2-ab6b-51f69445fdd9, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_242, server: iplc01.dns2333.xyz, port: 3123, type: vmess, uuid: 2b192163-3b72-3e58-ba10-6bffb69edd93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 120.232.173.119, port: 13005, type: ss, cipher: chacha20-ietf-poly1305, password: 3f448e67-ad9e-4cc2-ab6b-51f69445fdd9, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港, server: mg04.nfeng6.pp.ua, port: 63078, type: vmess, uuid: 042250a0-5c14-3394-b57e-cf4970f5dcfc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: 111.wowogg.cyou, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_460, server: 83.wgong.xyz, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK_香港_油管 TG 8度科技 2, server: 120.wgong.xyz, port: 52220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_361, server: iplc01.dns2333.xyz, port: 3193, type: vmess, uuid: 2b192163-3b72-3e58-ba10-6bffb69edd93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 46, server: v1.ssrsub.com, port: 443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 5, server: 130.wowogg.cyou, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管 2, server: 133.wgong.xyz, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_354, server: iplc01.dns2333.xyz, port: 3163, type: vmess, uuid: 2b192163-3b72-3e58-ba10-6bffb69edd93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_239, server: iplc01.dns2333.xyz, port: 3023, type: vmess, uuid: 2b192163-3b72-3e58-ba10-6bffb69edd93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub", server: v8.ssrsub.com, port: 443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
-  - {name: "@SSRSUB-美国V18-付费推荐::suo.yt/ssrsub", server: v8.ssrsub.com, port: 443, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_23, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 61690, type: vmess, uuid: b7aa90f0-8be1-4420-a860-147e980a198e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}, udp: true}
-  - {name: 荷兰（YouTube订阅：侯老师网络学堂）, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 9b04ac52-8a11-11ec-9aeb-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
+  - {name: 香港阿伟科技@TG/油管, server: c.azzhuangaping.tw, port: 8080, type: vmess, uuid: cebeb605-6e5e-3a13-a0ce-1ee247f91bf7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /adobe, ws-headers: {Host: c.azzhuangaping.tw}, udp: true}
+  - {name: 香港阿伟科技@TG/油管 2, server: c.azzhuangaping.tw, port: 8080, type: vmess, uuid: cebeb605-6e5e-3a13-a0ce-1ee247f91bf7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /adobe, ws-headers: {Host: c.azzhuangaping.tw}, udp: true}
   - {name: 香港阿伟科技@TG/油管 3, server: 113.wowogg.cyou, port: 52213, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_404, server: 38.143.66.33, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CN_中国_油管 TG 8度科技 2, server: 120.232.173.119, port: 13000, type: ss, cipher: chacha20-ietf-poly1305, password: 3f448e67-ad9e-4cc2-ab6b-51f69445fdd9, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_351, server: iplc01.dns2333.xyz, port: 3033, type: vmess, uuid: 2b192163-3b72-3e58-ba10-6bffb69edd93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-俄罗斯12-付费推荐::suo.yt/ssrsub", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
-  - {name: "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_357, server: iplc01.dns2333.xyz, port: 3083, type: vmess, uuid: 2b192163-3b72-3e58-ba10-6bffb69edd93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_407, server: 38.143.66.33, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_350, server: iplc01.dns2333.xyz, port: 3013, type: vmess, uuid: 2b192163-3b72-3e58-ba10-6bffb69edd93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_346, server: iplc01.dns2333.xyz, port: 3133, type: vmess, uuid: 2b192163-3b72-3e58-ba10-6bffb69edd93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_392, server: 38.143.66.33, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 科技网络 2, server: 172.99.190.149, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_402, server: 38.143.66.33, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_504, server: 133.wgong.xyz, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_396, server: 38.143.66.33, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_411, server: 38.143.66.33, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_403, server: 38.143.66.33, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 台湾(欢迎订阅Youtube破解资源君), server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 128tw02.fans8.xyz}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_408, server: 38.143.66.33, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_406, server: 38.143.66.33, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _GB_英国, server: 172.99.190.205, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络 3, server: 172.99.190.205, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_273, server: iplc01.dns2333.xyz, port: 3133, type: vmess, uuid: 2b192163-3b72-3e58-ba10-6bffb69edd93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 科技网络 4, server: 172.99.190.149, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_310, server: 217.79.184.107, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_389, server: 38.143.66.33, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_327, server: 217.79.184.107, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 香港阿伟科技@TG/油管 4, server: 86.wgong.xyz, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CA加拿大(Youtube频道：工具大师！), server: 134.195.196.147, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 香港阿伟科技@TG/油管 4, server: hygz.doggogogo.top, port: 53021, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
+  - {name: 新加坡阿伟科技@TG/油管, server: cn2.wecanfly.top, port: 51134, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cn2.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG/油管 5, server: 102.wowogg.cyou, port: 11221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技, server: 86.wgong.xyz, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 香港阿伟科技@TG/油管 2 2, server: 86.wgong.xyz, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_432, server: 137.wgong.xyz, port: 52437, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube小露分享, server: 128hk8.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 128hk8.fans8.xyz}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_21, server: 16.163.192.29, port: 37528, type: ss, cipher: aes-256-gcm, password: b7aa90f0-8be1-4420-a860-147e980a198e, udp: true}
+  - {name: HK_香港_油管 TG 8度科技, server: 120.wgong.xyz, port: 52220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾阿伟科技@TG/油管, server: fsyd.wecanfly.top, port: 51133, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG/油管, server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG/油管 6, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG/油管 7, server: 120.wgong.xyz, port: 52220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube小露分享, server: 110.wowogg.cyou, port: 52210, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG/油管 8, server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG/油管 9, server: 85.wgong.xyz, port: 52285, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本阿伟科技@TG/油管, server: fsyd.wecanfly.top, port: 51221, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: HK_香港_油管 TG 8度科技 2, server: 85.wgong.xyz, port: 52285, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(Youtube频道：工具大师！), server: 88.wowogg.cyou, port: 52288, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG/油管 10, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG/油管 11, server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技, server: 100.wgong.xyz, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG/油管 12, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
+  - {name: 韩国阿伟科技@TG/油管, server: chun2.515223.xyz, port: 43992, type: vmess, uuid: 99e191b5-6515-47b8-f0c0-f6053afeb75a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_179, server: 100.wgong.xyz, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK_香港_油管 TG 8度科技 3, server: 85.wgong.xyz, port: 52285, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本阿伟科技@TG/油管 2, server: hygz.doggogogo.top, port: 53030, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub", server: v8.ssrsub.com, port: 443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
+  - {name: 日本阿伟科技@TG/油管 3, server: 116.wgong.xyz, port: 52216, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韩国阿伟科技@TG/油管 2, server: chun2.515223.xyz, port: 43992, type: vmess, uuid: 99e191b5-6515-47b8-f0c0-f6053afeb75a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(欢迎订阅Youtube破解资源君), server: 112.wowogg.cyou, port: 52212, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube小露分享 2, server: 130.wowogg.cyou, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_506, server: 115.wowogg.cyou, port: 52215, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本阿伟科技@TG/油管 4, server: 85.wgong.xyz, port: 52285, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG/油管 13, server: 86.wgong.xyz, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ww 894, server: 38.75.136.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国（YouTube订阅：侯老师网络学堂）, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero1.a-yu.xyz}, udp: true}
+  - {name: (ios软件代购小火箭|ioskaka.com), server: 104.16.181.197, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/ws/?ed=2048", ws-headers: {Host: download.china666.ml}, udp: true}
+  - {name: 韩国阿伟科技@TG/油管 3, server: cu.mj-cn.cyou, port: 16619, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_175, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 97ab5d71-96b7-4ab1-b77b-093685658d7f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 1.ezydfdd.com}, udp: true}
+  - {name: Youtube小露分享 3, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: a1effd82-8a11-11ec-9aeb-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
+  - {name: ww 1400, server: 38.75.136.49, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国阿伟科技@TG/油管 2, server: chun2.515223.xyz, port: 43992, type: vmess, uuid: 99e191b5-6515-47b8-f0c0-f6053afeb75a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG/油管 3, server: 123.wgong.xyz, port: 52223, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 科技网络, server: 0122us.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0122us.fans8.xyz}, udp: true}
+  - {name: Youtube小露分享 4, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 98b20eea-8a11-11ec-9aeb-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_176, server: 120.233.10.62, port: 52284, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本阿伟科技@TG/油管 5, server: japanfastnetwork.club, port: 443, type: vmess, uuid: fb8ed8a9-ad61-4a12-90c6-55670a4a3332, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /neuromancer, ws-headers: {Host: japanfastnetwork.club}, udp: true}
+  - {name: 香港阿伟科技@TG/油管 14, server: 16.163.148.47, port: 38957, type: ss, cipher: aes-256-gcm, password: b7aa90f0-8be1-4420-a860-147e980a198e, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_525, server: 113.wowogg.cyou, port: 52213, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本阿伟科技@TG/油管 6, server: 146.56.108.108, port: 37749, type: vmess, uuid: e0e06b1c-ee1e-4dbf-a17a-89f06ff2753c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
+  - {name: Youtube小露分享 5, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: Ytb:鹏哥分享_中国_39, server: 116.wgong.xyz, port: 52216, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
+  - {name: Youtube小露分享 6, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 9d48914a-8a11-11ec-9aeb-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
+  - {name: Youtube小露分享 7, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 9f943f3a-8a11-11ec-9aeb-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_116, server: 217.79.184.107, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_310, server: 217.79.184.107, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_327, server: 217.79.184.107, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Ytb:鹏哥分享_台湾_32, server: 1207tw.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1207tw.fans8.xyz}, udp: true}
+  - {name: Youtube小露分享 8, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂）, server: 172.99.190.205, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_311, server: 217.79.184.107, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Youtube小露分享 9, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 韩国阿伟科技@TG/油管 4, server: 146.56.108.108, port: 37749, type: vmess, uuid: e0e06b1c-ee1e-4dbf-a17a-89f06ff2753c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本阿伟科技@TG/油管 7, server: 105.wgong.xyz, port: 52205, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube小露分享 10, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: 香港阿伟科技@TG/油管 15, server: 18.166.193.83, port: 38297, type: ss, cipher: chacha20-ietf-poly1305, password: b7aa90f0-8be1-4420-a860-147e980a198e, udp: true}
+  - {name: Youtube小露分享 11, server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 128tw02.fans8.xyz}, udp: true}
+  - {name: Youtube小露分享 12, server: 172.99.190.205, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ww 1282, server: 92.243.24.68, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bIS3QQFwFIm1, udp: true}
+  - {name: Youtube小露分享 13, server: 172.99.190.205, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_312, server: 217.79.184.107, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Youtube小露分享 14, server: www.darkwater.xyz, port: 41759, type: trojan, password: ixkIc4mCzH, sni: www.darkwater.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG/油管 4, server: 111.wowogg.cyou, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube小露分享 15, server: 172.99.190.205, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube小露分享 16, server: 172.99.190.205, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
+  - {name: 新加坡阿伟科技@TG/油管 2, server: xjp.azzhuangaping.tw, port: 80, type: vmess, uuid: cebeb605-6e5e-3a13-a0ce-1ee247f91bf7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /adobe, ws-headers: {Host: xjp.azzhuangaping.tw}, udp: true}
+  - {name: Youtube小露分享 17, server: 172.99.190.205, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_204, server: 172.99.190.205, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_319, server: 217.79.184.107, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 美国（YouTube订阅：侯老师网络学堂） 2, server: 198.41.212.9, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero1.a-yu.xyz}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_336, server: 172.99.190.188, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Youtube小露分享 18, server: niaop.tk, port: 443, type: vmess, uuid: a0b0df87-bda2-440e-830f-347da6cc7760, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wsssdr1, ws-headers: {Host: niaop.tk}, udp: true}
+  - {name: 日本阿伟科技@TG/油管 8, server: jp2.azzhuangaping.tw, port: 80, type: vmess, uuid: cebeb605-6e5e-3a13-a0ce-1ee247f91bf7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /adobe, ws-headers: {Host: jp2.azzhuangaping.tw}, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_193, server: 172.99.190.205, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_322, server: 217.79.184.107, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_330, server: 217.79.184.107, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_318, server: 217.79.184.107, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 香港阿伟科技@TG/油管 16, server: 86.wgong.xyz, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 科技网络 2, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_313, server: 217.79.184.107, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ww 22 2, server: 198.57.27.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: ♥️♥️YouTube梦歌♥️♥️_119, server: 217.79.184.107, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Youtube小露分享 19, server: 172.99.190.205, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 俄罗斯联邦（YouTube订阅：侯老师网络学堂）, server: 92.223.65.119, port: 443, type: vmess, uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: Youtube小露分享 20, server: 172.99.190.205, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Youtube小露分享 21, server: 172.99.190.205, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube小露分享 22, server: 172.99.190.205, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Youtube小露分享 23, server: 134.195.196.193, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国【YouTube由零開始】, server: hkt.jslist.tk, port: 8880, type: vmess, uuid: efe08abe-e627-4f72-f02f-af00692a0bf4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/images, ws-headers: {Host: hkt.jslist.tk}, udp: true}
+  - {name: （YouTube订阅：侯老师网络学堂）_6.10Mb, server: 134.195.196.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube小露分享 24, server: 134.195.196.147, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: （YouTube订阅：侯老师网络学堂）_6.45Mb, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大【YouTube由零開始】, server: 134.195.196.193, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: GB英国(Youtube频道：工具大师！), server: 172.99.190.205, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君), server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_271, server: iplc01.dns2333.xyz, port: 3113, type: vmess, uuid: 2b192163-3b72-3e58-ba10-6bffb69edd93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_316, server: 217.79.184.107, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 科技网络 5, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_272, server: iplc01.dns2333.xyz, port: 3143, type: vmess, uuid: 2b192163-3b72-3e58-ba10-6bffb69edd93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 科技网络 3, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 美国阿伟科技
-      - 香港阿伟科技
       - 香港阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_349
-      - ♥️♥️YouTube梦歌♥️♥️_179
-      - ♥️♥️YouTube梦歌♥️♥️_353
-      - HK_香港_油管 TG 8度科技
-      - CN_中国_油管 TG 8度科技
-      - ♥️♥️YouTube梦歌♥️♥️_242
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _CN_中国->🇭🇰_HK_香港
-      - 美国阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_460
-      - HK_香港_油管 TG 8度科技 2
-      - ♥️♥️YouTube梦歌♥️♥️_361
-      - github.com/freefq - 美国CloudFlare公司CDN节点 46
-      - github.com/freefq - 美国Microsoft数据中心 5
       - 香港阿伟科技@TG/油管 2
-      - ♥️♥️YouTube梦歌♥️♥️_354
-      - ♥️♥️YouTube梦歌♥️♥️_239
-      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
-      - "@SSRSUB-美国V18-付费推荐::suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_23
-      - 荷兰（YouTube订阅：侯老师网络学堂）
       - 香港阿伟科技@TG/油管 3
-      - ♥️♥️YouTube梦歌♥️♥️_404
-      - CN_中国_油管 TG 8度科技 2
-      - ♥️♥️YouTube梦歌♥️♥️_351
-      - "@SSRSUB-俄罗斯12-付费推荐::suo.yt/ssrsub"
-      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_357
-      - ♥️♥️YouTube梦歌♥️♥️_407
-      - ♥️♥️YouTube梦歌♥️♥️_350
-      - ♥️♥️YouTube梦歌♥️♥️_346
-      - _CA_加拿大
-      - 科技网络
-      - ♥️♥️YouTube梦歌♥️♥️_392
-      - 科技网络 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_402
-      - ♥️♥️YouTube梦歌♥️♥️_504
-      - ♥️♥️YouTube梦歌♥️♥️_396
-      - ♥️♥️YouTube梦歌♥️♥️_411
-      - ♥️♥️YouTube梦歌♥️♥️_403
-      - 台湾(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_408
-      - ♥️♥️YouTube梦歌♥️♥️_406
-      - _GB_英国
-      - 科技网络 3
-      - ♥️♥️YouTube梦歌♥️♥️_273
-      - 科技网络 4
-      - ♥️♥️YouTube梦歌♥️♥️_310
-      - ♥️♥️YouTube梦歌♥️♥️_389
-      - ♥️♥️YouTube梦歌♥️♥️_327
       - 香港阿伟科技@TG/油管 4
-      - CA加拿大(Youtube频道：工具大师！)
+      - 新加坡阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 5
+      - 香港阿伟科技
       - 香港阿伟科技@TG/油管 2 2
-      - ♥️♥️YouTube梦歌♥️♥️_432
+      - HK_香港_油管 TG 8度科技
+      - 台湾阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 6
+      - 香港阿伟科技@TG/油管 7
       - Youtube小露分享
-      - ♥️♥️YouTube梦歌♥️♥️_21
+      - 香港阿伟科技@TG/油管 8
+      - 香港阿伟科技@TG/油管 9
+      - 日本阿伟科技@TG/油管
+      - HK_香港_油管 TG 8度科技 2
+      - 香港(Youtube频道：工具大师！)
+      - 香港阿伟科技@TG/油管 10
+      - 香港阿伟科技@TG/油管 11
+      - 美国阿伟科技
+      - 香港阿伟科技@TG/油管 12
+      - 韩国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_179
+      - HK_香港_油管 TG 8度科技 3
+      - 日本阿伟科技@TG/油管 2
+      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
+      - 日本阿伟科技@TG/油管 3
+      - 韩国阿伟科技@TG/油管 2
+      - 香港(欢迎订阅Youtube破解资源君)
+      - Youtube小露分享 2
+      - ♥️♥️YouTube梦歌♥️♥️_506
+      - 日本阿伟科技@TG/油管 4
+      - 香港阿伟科技@TG/油管 13
+      - ww 894
+      - 美国（YouTube订阅：侯老师网络学堂）
+      - (ios软件代购小火箭|ioskaka.com)
+      - 韩国阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_175
+      - Youtube小露分享 3
+      - ww 1400
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 科技网络
+      - Youtube小露分享 4
+      - ♥️♥️YouTube梦歌♥️♥️_176
+      - 日本阿伟科技@TG/油管 5
+      - 香港阿伟科技@TG/油管 14
+      - ♥️♥️YouTube梦歌♥️♥️_525
+      - 日本阿伟科技@TG/油管 6
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - Youtube小露分享 5
+      - Ytb:鹏哥分享_中国_39
+      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
+      - Youtube小露分享 6
+      - Youtube小露分享 7
+      - ♥️♥️YouTube梦歌♥️♥️_116
+      - ♥️♥️YouTube梦歌♥️♥️_310
+      - ♥️♥️YouTube梦歌♥️♥️_327
+      - Ytb:鹏哥分享_台湾_32
+      - Youtube小露分享 8
+      - 英国（YouTube订阅：侯老师网络学堂）
+      - ♥️♥️YouTube梦歌♥️♥️_311
+      - Youtube小露分享 9
+      - 韩国阿伟科技@TG/油管 4
+      - 日本阿伟科技@TG/油管 7
+      - Youtube小露分享 10
+      - 香港阿伟科技@TG/油管 15
+      - Youtube小露分享 11
+      - Youtube小露分享 12
+      - ww 1282
+      - Youtube小露分享 13
+      - ♥️♥️YouTube梦歌♥️♥️_312
+      - Youtube小露分享 14
+      - 美国阿伟科技@TG/油管 4
+      - Youtube小露分享 15
+      - Youtube小露分享 16
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 新加坡阿伟科技@TG/油管 2
+      - Youtube小露分享 17
+      - ♥️♥️YouTube梦歌♥️♥️_204
+      - ♥️♥️YouTube梦歌♥️♥️_319
+      - 美国（YouTube订阅：侯老师网络学堂） 2
+      - ♥️♥️YouTube梦歌♥️♥️_336
+      - Youtube小露分享 18
+      - 日本阿伟科技@TG/油管 8
+      - ♥️♥️YouTube梦歌♥️♥️_193
+      - ♥️♥️YouTube梦歌♥️♥️_322
+      - ♥️♥️YouTube梦歌♥️♥️_330
+      - ♥️♥️YouTube梦歌♥️♥️_318
+      - 香港阿伟科技@TG/油管 16
+      - 科技网络 2
+      - ♥️♥️YouTube梦歌♥️♥️_313
+      - ww 22 2
+      - ♥️♥️YouTube梦歌♥️♥️_119
+      - Youtube小露分享 19
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
+      - Youtube小露分享 20
+      - Youtube小露分享 21
+      - Youtube小露分享 22
+      - Youtube小露分享 23
+      - 美国【YouTube由零開始】
+      - （YouTube订阅：侯老师网络学堂）_6.10Mb
+      - Youtube小露分享 24
+      - （YouTube订阅：侯老师网络学堂）_6.45Mb
+      - 加拿大【YouTube由零開始】
+      - GB英国(Youtube频道：工具大师！)
       - 亚洲(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_271
-      - ♥️♥️YouTube梦歌♥️♥️_316
-      - 科技网络 5
-      - ♥️♥️YouTube梦歌♥️♥️_272
+      - 科技网络 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 美国阿伟科技
-      - 香港阿伟科技
       - 香港阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_349
-      - ♥️♥️YouTube梦歌♥️♥️_179
-      - ♥️♥️YouTube梦歌♥️♥️_353
-      - HK_香港_油管 TG 8度科技
-      - CN_中国_油管 TG 8度科技
-      - ♥️♥️YouTube梦歌♥️♥️_242
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _CN_中国->🇭🇰_HK_香港
-      - 美国阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_460
-      - HK_香港_油管 TG 8度科技 2
-      - ♥️♥️YouTube梦歌♥️♥️_361
-      - github.com/freefq - 美国CloudFlare公司CDN节点 46
-      - github.com/freefq - 美国Microsoft数据中心 5
       - 香港阿伟科技@TG/油管 2
-      - ♥️♥️YouTube梦歌♥️♥️_354
-      - ♥️♥️YouTube梦歌♥️♥️_239
-      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
-      - "@SSRSUB-美国V18-付费推荐::suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_23
-      - 荷兰（YouTube订阅：侯老师网络学堂）
       - 香港阿伟科技@TG/油管 3
-      - ♥️♥️YouTube梦歌♥️♥️_404
-      - CN_中国_油管 TG 8度科技 2
-      - ♥️♥️YouTube梦歌♥️♥️_351
-      - "@SSRSUB-俄罗斯12-付费推荐::suo.yt/ssrsub"
-      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_357
-      - ♥️♥️YouTube梦歌♥️♥️_407
-      - ♥️♥️YouTube梦歌♥️♥️_350
-      - ♥️♥️YouTube梦歌♥️♥️_346
-      - _CA_加拿大
-      - 科技网络
-      - ♥️♥️YouTube梦歌♥️♥️_392
-      - 科技网络 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_402
-      - ♥️♥️YouTube梦歌♥️♥️_504
-      - ♥️♥️YouTube梦歌♥️♥️_396
-      - ♥️♥️YouTube梦歌♥️♥️_411
-      - ♥️♥️YouTube梦歌♥️♥️_403
-      - 台湾(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_408
-      - ♥️♥️YouTube梦歌♥️♥️_406
-      - _GB_英国
-      - 科技网络 3
-      - ♥️♥️YouTube梦歌♥️♥️_273
-      - 科技网络 4
-      - ♥️♥️YouTube梦歌♥️♥️_310
-      - ♥️♥️YouTube梦歌♥️♥️_389
-      - ♥️♥️YouTube梦歌♥️♥️_327
       - 香港阿伟科技@TG/油管 4
-      - CA加拿大(Youtube频道：工具大师！)
+      - 新加坡阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 5
+      - 香港阿伟科技
       - 香港阿伟科技@TG/油管 2 2
-      - ♥️♥️YouTube梦歌♥️♥️_432
+      - HK_香港_油管 TG 8度科技
+      - 台湾阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 6
+      - 香港阿伟科技@TG/油管 7
       - Youtube小露分享
-      - ♥️♥️YouTube梦歌♥️♥️_21
+      - 香港阿伟科技@TG/油管 8
+      - 香港阿伟科技@TG/油管 9
+      - 日本阿伟科技@TG/油管
+      - HK_香港_油管 TG 8度科技 2
+      - 香港(Youtube频道：工具大师！)
+      - 香港阿伟科技@TG/油管 10
+      - 香港阿伟科技@TG/油管 11
+      - 美国阿伟科技
+      - 香港阿伟科技@TG/油管 12
+      - 韩国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_179
+      - HK_香港_油管 TG 8度科技 3
+      - 日本阿伟科技@TG/油管 2
+      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
+      - 日本阿伟科技@TG/油管 3
+      - 韩国阿伟科技@TG/油管 2
+      - 香港(欢迎订阅Youtube破解资源君)
+      - Youtube小露分享 2
+      - ♥️♥️YouTube梦歌♥️♥️_506
+      - 日本阿伟科技@TG/油管 4
+      - 香港阿伟科技@TG/油管 13
+      - ww 894
+      - 美国（YouTube订阅：侯老师网络学堂）
+      - (ios软件代购小火箭|ioskaka.com)
+      - 韩国阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_175
+      - Youtube小露分享 3
+      - ww 1400
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 科技网络
+      - Youtube小露分享 4
+      - ♥️♥️YouTube梦歌♥️♥️_176
+      - 日本阿伟科技@TG/油管 5
+      - 香港阿伟科技@TG/油管 14
+      - ♥️♥️YouTube梦歌♥️♥️_525
+      - 日本阿伟科技@TG/油管 6
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - Youtube小露分享 5
+      - Ytb:鹏哥分享_中国_39
+      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
+      - Youtube小露分享 6
+      - Youtube小露分享 7
+      - ♥️♥️YouTube梦歌♥️♥️_116
+      - ♥️♥️YouTube梦歌♥️♥️_310
+      - ♥️♥️YouTube梦歌♥️♥️_327
+      - Ytb:鹏哥分享_台湾_32
+      - Youtube小露分享 8
+      - 英国（YouTube订阅：侯老师网络学堂）
+      - ♥️♥️YouTube梦歌♥️♥️_311
+      - Youtube小露分享 9
+      - 韩国阿伟科技@TG/油管 4
+      - 日本阿伟科技@TG/油管 7
+      - Youtube小露分享 10
+      - 香港阿伟科技@TG/油管 15
+      - Youtube小露分享 11
+      - Youtube小露分享 12
+      - ww 1282
+      - Youtube小露分享 13
+      - ♥️♥️YouTube梦歌♥️♥️_312
+      - Youtube小露分享 14
+      - 美国阿伟科技@TG/油管 4
+      - Youtube小露分享 15
+      - Youtube小露分享 16
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 新加坡阿伟科技@TG/油管 2
+      - Youtube小露分享 17
+      - ♥️♥️YouTube梦歌♥️♥️_204
+      - ♥️♥️YouTube梦歌♥️♥️_319
+      - 美国（YouTube订阅：侯老师网络学堂） 2
+      - ♥️♥️YouTube梦歌♥️♥️_336
+      - Youtube小露分享 18
+      - 日本阿伟科技@TG/油管 8
+      - ♥️♥️YouTube梦歌♥️♥️_193
+      - ♥️♥️YouTube梦歌♥️♥️_322
+      - ♥️♥️YouTube梦歌♥️♥️_330
+      - ♥️♥️YouTube梦歌♥️♥️_318
+      - 香港阿伟科技@TG/油管 16
+      - 科技网络 2
+      - ♥️♥️YouTube梦歌♥️♥️_313
+      - ww 22 2
+      - ♥️♥️YouTube梦歌♥️♥️_119
+      - Youtube小露分享 19
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
+      - Youtube小露分享 20
+      - Youtube小露分享 21
+      - Youtube小露分享 22
+      - Youtube小露分享 23
+      - 美国【YouTube由零開始】
+      - （YouTube订阅：侯老师网络学堂）_6.10Mb
+      - Youtube小露分享 24
+      - （YouTube订阅：侯老师网络学堂）_6.45Mb
+      - 加拿大【YouTube由零開始】
+      - GB英国(Youtube频道：工具大师！)
       - 亚洲(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_271
-      - ♥️♥️YouTube梦歌♥️♥️_316
-      - 科技网络 5
-      - ♥️♥️YouTube梦歌♥️♥️_272
+      - 科技网络 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国阿伟科技
-      - 香港阿伟科技
       - 香港阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_349
-      - ♥️♥️YouTube梦歌♥️♥️_179
-      - ♥️♥️YouTube梦歌♥️♥️_353
-      - HK_香港_油管 TG 8度科技
-      - CN_中国_油管 TG 8度科技
-      - ♥️♥️YouTube梦歌♥️♥️_242
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _CN_中国->🇭🇰_HK_香港
-      - 美国阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_460
-      - HK_香港_油管 TG 8度科技 2
-      - ♥️♥️YouTube梦歌♥️♥️_361
-      - github.com/freefq - 美国CloudFlare公司CDN节点 46
-      - github.com/freefq - 美国Microsoft数据中心 5
       - 香港阿伟科技@TG/油管 2
-      - ♥️♥️YouTube梦歌♥️♥️_354
-      - ♥️♥️YouTube梦歌♥️♥️_239
-      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
-      - "@SSRSUB-美国V18-付费推荐::suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_23
-      - 荷兰（YouTube订阅：侯老师网络学堂）
       - 香港阿伟科技@TG/油管 3
-      - ♥️♥️YouTube梦歌♥️♥️_404
-      - CN_中国_油管 TG 8度科技 2
-      - ♥️♥️YouTube梦歌♥️♥️_351
-      - "@SSRSUB-俄罗斯12-付费推荐::suo.yt/ssrsub"
-      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_357
-      - ♥️♥️YouTube梦歌♥️♥️_407
-      - ♥️♥️YouTube梦歌♥️♥️_350
-      - ♥️♥️YouTube梦歌♥️♥️_346
-      - _CA_加拿大
-      - 科技网络
-      - ♥️♥️YouTube梦歌♥️♥️_392
-      - 科技网络 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_402
-      - ♥️♥️YouTube梦歌♥️♥️_504
-      - ♥️♥️YouTube梦歌♥️♥️_396
-      - ♥️♥️YouTube梦歌♥️♥️_411
-      - ♥️♥️YouTube梦歌♥️♥️_403
-      - 台湾(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_408
-      - ♥️♥️YouTube梦歌♥️♥️_406
-      - _GB_英国
-      - 科技网络 3
-      - ♥️♥️YouTube梦歌♥️♥️_273
-      - 科技网络 4
-      - ♥️♥️YouTube梦歌♥️♥️_310
-      - ♥️♥️YouTube梦歌♥️♥️_389
-      - ♥️♥️YouTube梦歌♥️♥️_327
       - 香港阿伟科技@TG/油管 4
-      - CA加拿大(Youtube频道：工具大师！)
+      - 新加坡阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 5
+      - 香港阿伟科技
       - 香港阿伟科技@TG/油管 2 2
-      - ♥️♥️YouTube梦歌♥️♥️_432
+      - HK_香港_油管 TG 8度科技
+      - 台湾阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 6
+      - 香港阿伟科技@TG/油管 7
       - Youtube小露分享
-      - ♥️♥️YouTube梦歌♥️♥️_21
+      - 香港阿伟科技@TG/油管 8
+      - 香港阿伟科技@TG/油管 9
+      - 日本阿伟科技@TG/油管
+      - HK_香港_油管 TG 8度科技 2
+      - 香港(Youtube频道：工具大师！)
+      - 香港阿伟科技@TG/油管 10
+      - 香港阿伟科技@TG/油管 11
+      - 美国阿伟科技
+      - 香港阿伟科技@TG/油管 12
+      - 韩国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_179
+      - HK_香港_油管 TG 8度科技 3
+      - 日本阿伟科技@TG/油管 2
+      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
+      - 日本阿伟科技@TG/油管 3
+      - 韩国阿伟科技@TG/油管 2
+      - 香港(欢迎订阅Youtube破解资源君)
+      - Youtube小露分享 2
+      - ♥️♥️YouTube梦歌♥️♥️_506
+      - 日本阿伟科技@TG/油管 4
+      - 香港阿伟科技@TG/油管 13
+      - ww 894
+      - 美国（YouTube订阅：侯老师网络学堂）
+      - (ios软件代购小火箭|ioskaka.com)
+      - 韩国阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_175
+      - Youtube小露分享 3
+      - ww 1400
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 科技网络
+      - Youtube小露分享 4
+      - ♥️♥️YouTube梦歌♥️♥️_176
+      - 日本阿伟科技@TG/油管 5
+      - 香港阿伟科技@TG/油管 14
+      - ♥️♥️YouTube梦歌♥️♥️_525
+      - 日本阿伟科技@TG/油管 6
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - Youtube小露分享 5
+      - Ytb:鹏哥分享_中国_39
+      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
+      - Youtube小露分享 6
+      - Youtube小露分享 7
+      - ♥️♥️YouTube梦歌♥️♥️_116
+      - ♥️♥️YouTube梦歌♥️♥️_310
+      - ♥️♥️YouTube梦歌♥️♥️_327
+      - Ytb:鹏哥分享_台湾_32
+      - Youtube小露分享 8
+      - 英国（YouTube订阅：侯老师网络学堂）
+      - ♥️♥️YouTube梦歌♥️♥️_311
+      - Youtube小露分享 9
+      - 韩国阿伟科技@TG/油管 4
+      - 日本阿伟科技@TG/油管 7
+      - Youtube小露分享 10
+      - 香港阿伟科技@TG/油管 15
+      - Youtube小露分享 11
+      - Youtube小露分享 12
+      - ww 1282
+      - Youtube小露分享 13
+      - ♥️♥️YouTube梦歌♥️♥️_312
+      - Youtube小露分享 14
+      - 美国阿伟科技@TG/油管 4
+      - Youtube小露分享 15
+      - Youtube小露分享 16
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 新加坡阿伟科技@TG/油管 2
+      - Youtube小露分享 17
+      - ♥️♥️YouTube梦歌♥️♥️_204
+      - ♥️♥️YouTube梦歌♥️♥️_319
+      - 美国（YouTube订阅：侯老师网络学堂） 2
+      - ♥️♥️YouTube梦歌♥️♥️_336
+      - Youtube小露分享 18
+      - 日本阿伟科技@TG/油管 8
+      - ♥️♥️YouTube梦歌♥️♥️_193
+      - ♥️♥️YouTube梦歌♥️♥️_322
+      - ♥️♥️YouTube梦歌♥️♥️_330
+      - ♥️♥️YouTube梦歌♥️♥️_318
+      - 香港阿伟科技@TG/油管 16
+      - 科技网络 2
+      - ♥️♥️YouTube梦歌♥️♥️_313
+      - ww 22 2
+      - ♥️♥️YouTube梦歌♥️♥️_119
+      - Youtube小露分享 19
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
+      - Youtube小露分享 20
+      - Youtube小露分享 21
+      - Youtube小露分享 22
+      - Youtube小露分享 23
+      - 美国【YouTube由零開始】
+      - （YouTube订阅：侯老师网络学堂）_6.10Mb
+      - Youtube小露分享 24
+      - （YouTube订阅：侯老师网络学堂）_6.45Mb
+      - 加拿大【YouTube由零開始】
+      - GB英国(Youtube频道：工具大师！)
       - 亚洲(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_271
-      - ♥️♥️YouTube梦歌♥️♥️_316
-      - 科技网络 5
-      - ♥️♥️YouTube梦歌♥️♥️_272
+      - 科技网络 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国阿伟科技
-      - 香港阿伟科技
       - 香港阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_349
-      - ♥️♥️YouTube梦歌♥️♥️_179
-      - ♥️♥️YouTube梦歌♥️♥️_353
-      - HK_香港_油管 TG 8度科技
-      - CN_中国_油管 TG 8度科技
-      - ♥️♥️YouTube梦歌♥️♥️_242
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _CN_中国->🇭🇰_HK_香港
-      - 美国阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_460
-      - HK_香港_油管 TG 8度科技 2
-      - ♥️♥️YouTube梦歌♥️♥️_361
-      - github.com/freefq - 美国CloudFlare公司CDN节点 46
-      - github.com/freefq - 美国Microsoft数据中心 5
       - 香港阿伟科技@TG/油管 2
-      - ♥️♥️YouTube梦歌♥️♥️_354
-      - ♥️♥️YouTube梦歌♥️♥️_239
-      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
-      - "@SSRSUB-美国V18-付费推荐::suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_23
-      - 荷兰（YouTube订阅：侯老师网络学堂）
       - 香港阿伟科技@TG/油管 3
-      - ♥️♥️YouTube梦歌♥️♥️_404
-      - CN_中国_油管 TG 8度科技 2
-      - ♥️♥️YouTube梦歌♥️♥️_351
-      - "@SSRSUB-俄罗斯12-付费推荐::suo.yt/ssrsub"
-      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_357
-      - ♥️♥️YouTube梦歌♥️♥️_407
-      - ♥️♥️YouTube梦歌♥️♥️_350
-      - ♥️♥️YouTube梦歌♥️♥️_346
-      - _CA_加拿大
-      - 科技网络
-      - ♥️♥️YouTube梦歌♥️♥️_392
-      - 科技网络 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_402
-      - ♥️♥️YouTube梦歌♥️♥️_504
-      - ♥️♥️YouTube梦歌♥️♥️_396
-      - ♥️♥️YouTube梦歌♥️♥️_411
-      - ♥️♥️YouTube梦歌♥️♥️_403
-      - 台湾(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_408
-      - ♥️♥️YouTube梦歌♥️♥️_406
-      - _GB_英国
-      - 科技网络 3
-      - ♥️♥️YouTube梦歌♥️♥️_273
-      - 科技网络 4
-      - ♥️♥️YouTube梦歌♥️♥️_310
-      - ♥️♥️YouTube梦歌♥️♥️_389
-      - ♥️♥️YouTube梦歌♥️♥️_327
       - 香港阿伟科技@TG/油管 4
-      - CA加拿大(Youtube频道：工具大师！)
+      - 新加坡阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 5
+      - 香港阿伟科技
       - 香港阿伟科技@TG/油管 2 2
-      - ♥️♥️YouTube梦歌♥️♥️_432
+      - HK_香港_油管 TG 8度科技
+      - 台湾阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 6
+      - 香港阿伟科技@TG/油管 7
       - Youtube小露分享
-      - ♥️♥️YouTube梦歌♥️♥️_21
+      - 香港阿伟科技@TG/油管 8
+      - 香港阿伟科技@TG/油管 9
+      - 日本阿伟科技@TG/油管
+      - HK_香港_油管 TG 8度科技 2
+      - 香港(Youtube频道：工具大师！)
+      - 香港阿伟科技@TG/油管 10
+      - 香港阿伟科技@TG/油管 11
+      - 美国阿伟科技
+      - 香港阿伟科技@TG/油管 12
+      - 韩国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_179
+      - HK_香港_油管 TG 8度科技 3
+      - 日本阿伟科技@TG/油管 2
+      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
+      - 日本阿伟科技@TG/油管 3
+      - 韩国阿伟科技@TG/油管 2
+      - 香港(欢迎订阅Youtube破解资源君)
+      - Youtube小露分享 2
+      - ♥️♥️YouTube梦歌♥️♥️_506
+      - 日本阿伟科技@TG/油管 4
+      - 香港阿伟科技@TG/油管 13
+      - ww 894
+      - 美国（YouTube订阅：侯老师网络学堂）
+      - (ios软件代购小火箭|ioskaka.com)
+      - 韩国阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_175
+      - Youtube小露分享 3
+      - ww 1400
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 科技网络
+      - Youtube小露分享 4
+      - ♥️♥️YouTube梦歌♥️♥️_176
+      - 日本阿伟科技@TG/油管 5
+      - 香港阿伟科技@TG/油管 14
+      - ♥️♥️YouTube梦歌♥️♥️_525
+      - 日本阿伟科技@TG/油管 6
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - Youtube小露分享 5
+      - Ytb:鹏哥分享_中国_39
+      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
+      - Youtube小露分享 6
+      - Youtube小露分享 7
+      - ♥️♥️YouTube梦歌♥️♥️_116
+      - ♥️♥️YouTube梦歌♥️♥️_310
+      - ♥️♥️YouTube梦歌♥️♥️_327
+      - Ytb:鹏哥分享_台湾_32
+      - Youtube小露分享 8
+      - 英国（YouTube订阅：侯老师网络学堂）
+      - ♥️♥️YouTube梦歌♥️♥️_311
+      - Youtube小露分享 9
+      - 韩国阿伟科技@TG/油管 4
+      - 日本阿伟科技@TG/油管 7
+      - Youtube小露分享 10
+      - 香港阿伟科技@TG/油管 15
+      - Youtube小露分享 11
+      - Youtube小露分享 12
+      - ww 1282
+      - Youtube小露分享 13
+      - ♥️♥️YouTube梦歌♥️♥️_312
+      - Youtube小露分享 14
+      - 美国阿伟科技@TG/油管 4
+      - Youtube小露分享 15
+      - Youtube小露分享 16
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 新加坡阿伟科技@TG/油管 2
+      - Youtube小露分享 17
+      - ♥️♥️YouTube梦歌♥️♥️_204
+      - ♥️♥️YouTube梦歌♥️♥️_319
+      - 美国（YouTube订阅：侯老师网络学堂） 2
+      - ♥️♥️YouTube梦歌♥️♥️_336
+      - Youtube小露分享 18
+      - 日本阿伟科技@TG/油管 8
+      - ♥️♥️YouTube梦歌♥️♥️_193
+      - ♥️♥️YouTube梦歌♥️♥️_322
+      - ♥️♥️YouTube梦歌♥️♥️_330
+      - ♥️♥️YouTube梦歌♥️♥️_318
+      - 香港阿伟科技@TG/油管 16
+      - 科技网络 2
+      - ♥️♥️YouTube梦歌♥️♥️_313
+      - ww 22 2
+      - ♥️♥️YouTube梦歌♥️♥️_119
+      - Youtube小露分享 19
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
+      - Youtube小露分享 20
+      - Youtube小露分享 21
+      - Youtube小露分享 22
+      - Youtube小露分享 23
+      - 美国【YouTube由零開始】
+      - （YouTube订阅：侯老师网络学堂）_6.10Mb
+      - Youtube小露分享 24
+      - （YouTube订阅：侯老师网络学堂）_6.45Mb
+      - 加拿大【YouTube由零開始】
+      - GB英国(Youtube频道：工具大师！)
       - 亚洲(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_271
-      - ♥️♥️YouTube梦歌♥️♥️_316
-      - 科技网络 5
-      - ♥️♥️YouTube梦歌♥️♥️_272
+      - 科技网络 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 美国阿伟科技
-      - 香港阿伟科技
       - 香港阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_349
-      - ♥️♥️YouTube梦歌♥️♥️_179
-      - ♥️♥️YouTube梦歌♥️♥️_353
-      - HK_香港_油管 TG 8度科技
-      - CN_中国_油管 TG 8度科技
-      - ♥️♥️YouTube梦歌♥️♥️_242
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _CN_中国->🇭🇰_HK_香港
-      - 美国阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_460
-      - HK_香港_油管 TG 8度科技 2
-      - ♥️♥️YouTube梦歌♥️♥️_361
-      - github.com/freefq - 美国CloudFlare公司CDN节点 46
-      - github.com/freefq - 美国Microsoft数据中心 5
       - 香港阿伟科技@TG/油管 2
-      - ♥️♥️YouTube梦歌♥️♥️_354
-      - ♥️♥️YouTube梦歌♥️♥️_239
-      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
-      - "@SSRSUB-美国V18-付费推荐::suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_23
-      - 荷兰（YouTube订阅：侯老师网络学堂）
       - 香港阿伟科技@TG/油管 3
-      - ♥️♥️YouTube梦歌♥️♥️_404
-      - CN_中国_油管 TG 8度科技 2
-      - ♥️♥️YouTube梦歌♥️♥️_351
-      - "@SSRSUB-俄罗斯12-付费推荐::suo.yt/ssrsub"
-      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_357
-      - ♥️♥️YouTube梦歌♥️♥️_407
-      - ♥️♥️YouTube梦歌♥️♥️_350
-      - ♥️♥️YouTube梦歌♥️♥️_346
-      - _CA_加拿大
-      - 科技网络
-      - ♥️♥️YouTube梦歌♥️♥️_392
-      - 科技网络 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_402
-      - ♥️♥️YouTube梦歌♥️♥️_504
-      - ♥️♥️YouTube梦歌♥️♥️_396
-      - ♥️♥️YouTube梦歌♥️♥️_411
-      - ♥️♥️YouTube梦歌♥️♥️_403
-      - 台湾(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_408
-      - ♥️♥️YouTube梦歌♥️♥️_406
-      - _GB_英国
-      - 科技网络 3
-      - ♥️♥️YouTube梦歌♥️♥️_273
-      - 科技网络 4
-      - ♥️♥️YouTube梦歌♥️♥️_310
-      - ♥️♥️YouTube梦歌♥️♥️_389
-      - ♥️♥️YouTube梦歌♥️♥️_327
       - 香港阿伟科技@TG/油管 4
-      - CA加拿大(Youtube频道：工具大师！)
+      - 新加坡阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 5
+      - 香港阿伟科技
       - 香港阿伟科技@TG/油管 2 2
-      - ♥️♥️YouTube梦歌♥️♥️_432
+      - HK_香港_油管 TG 8度科技
+      - 台湾阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 6
+      - 香港阿伟科技@TG/油管 7
       - Youtube小露分享
-      - ♥️♥️YouTube梦歌♥️♥️_21
+      - 香港阿伟科技@TG/油管 8
+      - 香港阿伟科技@TG/油管 9
+      - 日本阿伟科技@TG/油管
+      - HK_香港_油管 TG 8度科技 2
+      - 香港(Youtube频道：工具大师！)
+      - 香港阿伟科技@TG/油管 10
+      - 香港阿伟科技@TG/油管 11
+      - 美国阿伟科技
+      - 香港阿伟科技@TG/油管 12
+      - 韩国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_179
+      - HK_香港_油管 TG 8度科技 3
+      - 日本阿伟科技@TG/油管 2
+      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
+      - 日本阿伟科技@TG/油管 3
+      - 韩国阿伟科技@TG/油管 2
+      - 香港(欢迎订阅Youtube破解资源君)
+      - Youtube小露分享 2
+      - ♥️♥️YouTube梦歌♥️♥️_506
+      - 日本阿伟科技@TG/油管 4
+      - 香港阿伟科技@TG/油管 13
+      - ww 894
+      - 美国（YouTube订阅：侯老师网络学堂）
+      - (ios软件代购小火箭|ioskaka.com)
+      - 韩国阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_175
+      - Youtube小露分享 3
+      - ww 1400
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 科技网络
+      - Youtube小露分享 4
+      - ♥️♥️YouTube梦歌♥️♥️_176
+      - 日本阿伟科技@TG/油管 5
+      - 香港阿伟科技@TG/油管 14
+      - ♥️♥️YouTube梦歌♥️♥️_525
+      - 日本阿伟科技@TG/油管 6
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - Youtube小露分享 5
+      - Ytb:鹏哥分享_中国_39
+      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
+      - Youtube小露分享 6
+      - Youtube小露分享 7
+      - ♥️♥️YouTube梦歌♥️♥️_116
+      - ♥️♥️YouTube梦歌♥️♥️_310
+      - ♥️♥️YouTube梦歌♥️♥️_327
+      - Ytb:鹏哥分享_台湾_32
+      - Youtube小露分享 8
+      - 英国（YouTube订阅：侯老师网络学堂）
+      - ♥️♥️YouTube梦歌♥️♥️_311
+      - Youtube小露分享 9
+      - 韩国阿伟科技@TG/油管 4
+      - 日本阿伟科技@TG/油管 7
+      - Youtube小露分享 10
+      - 香港阿伟科技@TG/油管 15
+      - Youtube小露分享 11
+      - Youtube小露分享 12
+      - ww 1282
+      - Youtube小露分享 13
+      - ♥️♥️YouTube梦歌♥️♥️_312
+      - Youtube小露分享 14
+      - 美国阿伟科技@TG/油管 4
+      - Youtube小露分享 15
+      - Youtube小露分享 16
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 新加坡阿伟科技@TG/油管 2
+      - Youtube小露分享 17
+      - ♥️♥️YouTube梦歌♥️♥️_204
+      - ♥️♥️YouTube梦歌♥️♥️_319
+      - 美国（YouTube订阅：侯老师网络学堂） 2
+      - ♥️♥️YouTube梦歌♥️♥️_336
+      - Youtube小露分享 18
+      - 日本阿伟科技@TG/油管 8
+      - ♥️♥️YouTube梦歌♥️♥️_193
+      - ♥️♥️YouTube梦歌♥️♥️_322
+      - ♥️♥️YouTube梦歌♥️♥️_330
+      - ♥️♥️YouTube梦歌♥️♥️_318
+      - 香港阿伟科技@TG/油管 16
+      - 科技网络 2
+      - ♥️♥️YouTube梦歌♥️♥️_313
+      - ww 22 2
+      - ♥️♥️YouTube梦歌♥️♥️_119
+      - Youtube小露分享 19
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
+      - Youtube小露分享 20
+      - Youtube小露分享 21
+      - Youtube小露分享 22
+      - Youtube小露分享 23
+      - 美国【YouTube由零開始】
+      - （YouTube订阅：侯老师网络学堂）_6.10Mb
+      - Youtube小露分享 24
+      - （YouTube订阅：侯老师网络学堂）_6.45Mb
+      - 加拿大【YouTube由零開始】
+      - GB英国(Youtube频道：工具大师！)
       - 亚洲(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_271
-      - ♥️♥️YouTube梦歌♥️♥️_316
-      - 科技网络 5
-      - ♥️♥️YouTube梦歌♥️♥️_272
+      - 科技网络 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国阿伟科技
-      - 香港阿伟科技
       - 香港阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_349
-      - ♥️♥️YouTube梦歌♥️♥️_179
-      - ♥️♥️YouTube梦歌♥️♥️_353
-      - HK_香港_油管 TG 8度科技
-      - CN_中国_油管 TG 8度科技
-      - ♥️♥️YouTube梦歌♥️♥️_242
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _CN_中国->🇭🇰_HK_香港
-      - 美国阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_460
-      - HK_香港_油管 TG 8度科技 2
-      - ♥️♥️YouTube梦歌♥️♥️_361
-      - github.com/freefq - 美国CloudFlare公司CDN节点 46
-      - github.com/freefq - 美国Microsoft数据中心 5
       - 香港阿伟科技@TG/油管 2
-      - ♥️♥️YouTube梦歌♥️♥️_354
-      - ♥️♥️YouTube梦歌♥️♥️_239
-      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
-      - "@SSRSUB-美国V18-付费推荐::suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_23
-      - 荷兰（YouTube订阅：侯老师网络学堂）
       - 香港阿伟科技@TG/油管 3
-      - ♥️♥️YouTube梦歌♥️♥️_404
-      - CN_中国_油管 TG 8度科技 2
-      - ♥️♥️YouTube梦歌♥️♥️_351
-      - "@SSRSUB-俄罗斯12-付费推荐::suo.yt/ssrsub"
-      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_357
-      - ♥️♥️YouTube梦歌♥️♥️_407
-      - ♥️♥️YouTube梦歌♥️♥️_350
-      - ♥️♥️YouTube梦歌♥️♥️_346
-      - _CA_加拿大
-      - 科技网络
-      - ♥️♥️YouTube梦歌♥️♥️_392
-      - 科技网络 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_402
-      - ♥️♥️YouTube梦歌♥️♥️_504
-      - ♥️♥️YouTube梦歌♥️♥️_396
-      - ♥️♥️YouTube梦歌♥️♥️_411
-      - ♥️♥️YouTube梦歌♥️♥️_403
-      - 台湾(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_408
-      - ♥️♥️YouTube梦歌♥️♥️_406
-      - _GB_英国
-      - 科技网络 3
-      - ♥️♥️YouTube梦歌♥️♥️_273
-      - 科技网络 4
-      - ♥️♥️YouTube梦歌♥️♥️_310
-      - ♥️♥️YouTube梦歌♥️♥️_389
-      - ♥️♥️YouTube梦歌♥️♥️_327
       - 香港阿伟科技@TG/油管 4
-      - CA加拿大(Youtube频道：工具大师！)
+      - 新加坡阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 5
+      - 香港阿伟科技
       - 香港阿伟科技@TG/油管 2 2
-      - ♥️♥️YouTube梦歌♥️♥️_432
+      - HK_香港_油管 TG 8度科技
+      - 台湾阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 6
+      - 香港阿伟科技@TG/油管 7
       - Youtube小露分享
-      - ♥️♥️YouTube梦歌♥️♥️_21
+      - 香港阿伟科技@TG/油管 8
+      - 香港阿伟科技@TG/油管 9
+      - 日本阿伟科技@TG/油管
+      - HK_香港_油管 TG 8度科技 2
+      - 香港(Youtube频道：工具大师！)
+      - 香港阿伟科技@TG/油管 10
+      - 香港阿伟科技@TG/油管 11
+      - 美国阿伟科技
+      - 香港阿伟科技@TG/油管 12
+      - 韩国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_179
+      - HK_香港_油管 TG 8度科技 3
+      - 日本阿伟科技@TG/油管 2
+      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
+      - 日本阿伟科技@TG/油管 3
+      - 韩国阿伟科技@TG/油管 2
+      - 香港(欢迎订阅Youtube破解资源君)
+      - Youtube小露分享 2
+      - ♥️♥️YouTube梦歌♥️♥️_506
+      - 日本阿伟科技@TG/油管 4
+      - 香港阿伟科技@TG/油管 13
+      - ww 894
+      - 美国（YouTube订阅：侯老师网络学堂）
+      - (ios软件代购小火箭|ioskaka.com)
+      - 韩国阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_175
+      - Youtube小露分享 3
+      - ww 1400
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 科技网络
+      - Youtube小露分享 4
+      - ♥️♥️YouTube梦歌♥️♥️_176
+      - 日本阿伟科技@TG/油管 5
+      - 香港阿伟科技@TG/油管 14
+      - ♥️♥️YouTube梦歌♥️♥️_525
+      - 日本阿伟科技@TG/油管 6
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - Youtube小露分享 5
+      - Ytb:鹏哥分享_中国_39
+      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
+      - Youtube小露分享 6
+      - Youtube小露分享 7
+      - ♥️♥️YouTube梦歌♥️♥️_116
+      - ♥️♥️YouTube梦歌♥️♥️_310
+      - ♥️♥️YouTube梦歌♥️♥️_327
+      - Ytb:鹏哥分享_台湾_32
+      - Youtube小露分享 8
+      - 英国（YouTube订阅：侯老师网络学堂）
+      - ♥️♥️YouTube梦歌♥️♥️_311
+      - Youtube小露分享 9
+      - 韩国阿伟科技@TG/油管 4
+      - 日本阿伟科技@TG/油管 7
+      - Youtube小露分享 10
+      - 香港阿伟科技@TG/油管 15
+      - Youtube小露分享 11
+      - Youtube小露分享 12
+      - ww 1282
+      - Youtube小露分享 13
+      - ♥️♥️YouTube梦歌♥️♥️_312
+      - Youtube小露分享 14
+      - 美国阿伟科技@TG/油管 4
+      - Youtube小露分享 15
+      - Youtube小露分享 16
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 新加坡阿伟科技@TG/油管 2
+      - Youtube小露分享 17
+      - ♥️♥️YouTube梦歌♥️♥️_204
+      - ♥️♥️YouTube梦歌♥️♥️_319
+      - 美国（YouTube订阅：侯老师网络学堂） 2
+      - ♥️♥️YouTube梦歌♥️♥️_336
+      - Youtube小露分享 18
+      - 日本阿伟科技@TG/油管 8
+      - ♥️♥️YouTube梦歌♥️♥️_193
+      - ♥️♥️YouTube梦歌♥️♥️_322
+      - ♥️♥️YouTube梦歌♥️♥️_330
+      - ♥️♥️YouTube梦歌♥️♥️_318
+      - 香港阿伟科技@TG/油管 16
+      - 科技网络 2
+      - ♥️♥️YouTube梦歌♥️♥️_313
+      - ww 22 2
+      - ♥️♥️YouTube梦歌♥️♥️_119
+      - Youtube小露分享 19
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
+      - Youtube小露分享 20
+      - Youtube小露分享 21
+      - Youtube小露分享 22
+      - Youtube小露分享 23
+      - 美国【YouTube由零開始】
+      - （YouTube订阅：侯老师网络学堂）_6.10Mb
+      - Youtube小露分享 24
+      - （YouTube订阅：侯老师网络学堂）_6.45Mb
+      - 加拿大【YouTube由零開始】
+      - GB英国(Youtube频道：工具大师！)
       - 亚洲(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_271
-      - ♥️♥️YouTube梦歌♥️♥️_316
-      - 科技网络 5
-      - ♥️♥️YouTube梦歌♥️♥️_272
+      - 科技网络 3
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国阿伟科技
-      - 香港阿伟科技
       - 香港阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_349
-      - ♥️♥️YouTube梦歌♥️♥️_179
-      - ♥️♥️YouTube梦歌♥️♥️_353
-      - HK_香港_油管 TG 8度科技
-      - CN_中国_油管 TG 8度科技
-      - ♥️♥️YouTube梦歌♥️♥️_242
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _CN_中国->🇭🇰_HK_香港
-      - 美国阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_460
-      - HK_香港_油管 TG 8度科技 2
-      - ♥️♥️YouTube梦歌♥️♥️_361
-      - github.com/freefq - 美国CloudFlare公司CDN节点 46
-      - github.com/freefq - 美国Microsoft数据中心 5
       - 香港阿伟科技@TG/油管 2
-      - ♥️♥️YouTube梦歌♥️♥️_354
-      - ♥️♥️YouTube梦歌♥️♥️_239
-      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
-      - "@SSRSUB-美国V18-付费推荐::suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_23
-      - 荷兰（YouTube订阅：侯老师网络学堂）
       - 香港阿伟科技@TG/油管 3
-      - ♥️♥️YouTube梦歌♥️♥️_404
-      - CN_中国_油管 TG 8度科技 2
-      - ♥️♥️YouTube梦歌♥️♥️_351
-      - "@SSRSUB-俄罗斯12-付费推荐::suo.yt/ssrsub"
-      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_357
-      - ♥️♥️YouTube梦歌♥️♥️_407
-      - ♥️♥️YouTube梦歌♥️♥️_350
-      - ♥️♥️YouTube梦歌♥️♥️_346
-      - _CA_加拿大
-      - 科技网络
-      - ♥️♥️YouTube梦歌♥️♥️_392
-      - 科技网络 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_402
-      - ♥️♥️YouTube梦歌♥️♥️_504
-      - ♥️♥️YouTube梦歌♥️♥️_396
-      - ♥️♥️YouTube梦歌♥️♥️_411
-      - ♥️♥️YouTube梦歌♥️♥️_403
-      - 台湾(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_408
-      - ♥️♥️YouTube梦歌♥️♥️_406
-      - _GB_英国
-      - 科技网络 3
-      - ♥️♥️YouTube梦歌♥️♥️_273
-      - 科技网络 4
-      - ♥️♥️YouTube梦歌♥️♥️_310
-      - ♥️♥️YouTube梦歌♥️♥️_389
-      - ♥️♥️YouTube梦歌♥️♥️_327
       - 香港阿伟科技@TG/油管 4
-      - CA加拿大(Youtube频道：工具大师！)
+      - 新加坡阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 5
+      - 香港阿伟科技
       - 香港阿伟科技@TG/油管 2 2
-      - ♥️♥️YouTube梦歌♥️♥️_432
+      - HK_香港_油管 TG 8度科技
+      - 台湾阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 6
+      - 香港阿伟科技@TG/油管 7
       - Youtube小露分享
-      - ♥️♥️YouTube梦歌♥️♥️_21
+      - 香港阿伟科技@TG/油管 8
+      - 香港阿伟科技@TG/油管 9
+      - 日本阿伟科技@TG/油管
+      - HK_香港_油管 TG 8度科技 2
+      - 香港(Youtube频道：工具大师！)
+      - 香港阿伟科技@TG/油管 10
+      - 香港阿伟科技@TG/油管 11
+      - 美国阿伟科技
+      - 香港阿伟科技@TG/油管 12
+      - 韩国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_179
+      - HK_香港_油管 TG 8度科技 3
+      - 日本阿伟科技@TG/油管 2
+      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
+      - 日本阿伟科技@TG/油管 3
+      - 韩国阿伟科技@TG/油管 2
+      - 香港(欢迎订阅Youtube破解资源君)
+      - Youtube小露分享 2
+      - ♥️♥️YouTube梦歌♥️♥️_506
+      - 日本阿伟科技@TG/油管 4
+      - 香港阿伟科技@TG/油管 13
+      - ww 894
+      - 美国（YouTube订阅：侯老师网络学堂）
+      - (ios软件代购小火箭|ioskaka.com)
+      - 韩国阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_175
+      - Youtube小露分享 3
+      - ww 1400
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 科技网络
+      - Youtube小露分享 4
+      - ♥️♥️YouTube梦歌♥️♥️_176
+      - 日本阿伟科技@TG/油管 5
+      - 香港阿伟科技@TG/油管 14
+      - ♥️♥️YouTube梦歌♥️♥️_525
+      - 日本阿伟科技@TG/油管 6
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - Youtube小露分享 5
+      - Ytb:鹏哥分享_中国_39
+      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
+      - Youtube小露分享 6
+      - Youtube小露分享 7
+      - ♥️♥️YouTube梦歌♥️♥️_116
+      - ♥️♥️YouTube梦歌♥️♥️_310
+      - ♥️♥️YouTube梦歌♥️♥️_327
+      - Ytb:鹏哥分享_台湾_32
+      - Youtube小露分享 8
+      - 英国（YouTube订阅：侯老师网络学堂）
+      - ♥️♥️YouTube梦歌♥️♥️_311
+      - Youtube小露分享 9
+      - 韩国阿伟科技@TG/油管 4
+      - 日本阿伟科技@TG/油管 7
+      - Youtube小露分享 10
+      - 香港阿伟科技@TG/油管 15
+      - Youtube小露分享 11
+      - Youtube小露分享 12
+      - ww 1282
+      - Youtube小露分享 13
+      - ♥️♥️YouTube梦歌♥️♥️_312
+      - Youtube小露分享 14
+      - 美国阿伟科技@TG/油管 4
+      - Youtube小露分享 15
+      - Youtube小露分享 16
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 新加坡阿伟科技@TG/油管 2
+      - Youtube小露分享 17
+      - ♥️♥️YouTube梦歌♥️♥️_204
+      - ♥️♥️YouTube梦歌♥️♥️_319
+      - 美国（YouTube订阅：侯老师网络学堂） 2
+      - ♥️♥️YouTube梦歌♥️♥️_336
+      - Youtube小露分享 18
+      - 日本阿伟科技@TG/油管 8
+      - ♥️♥️YouTube梦歌♥️♥️_193
+      - ♥️♥️YouTube梦歌♥️♥️_322
+      - ♥️♥️YouTube梦歌♥️♥️_330
+      - ♥️♥️YouTube梦歌♥️♥️_318
+      - 香港阿伟科技@TG/油管 16
+      - 科技网络 2
+      - ♥️♥️YouTube梦歌♥️♥️_313
+      - ww 22 2
+      - ♥️♥️YouTube梦歌♥️♥️_119
+      - Youtube小露分享 19
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
+      - Youtube小露分享 20
+      - Youtube小露分享 21
+      - Youtube小露分享 22
+      - Youtube小露分享 23
+      - 美国【YouTube由零開始】
+      - （YouTube订阅：侯老师网络学堂）_6.10Mb
+      - Youtube小露分享 24
+      - （YouTube订阅：侯老师网络学堂）_6.45Mb
+      - 加拿大【YouTube由零開始】
+      - GB英国(Youtube频道：工具大师！)
       - 亚洲(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_271
-      - ♥️♥️YouTube梦歌♥️♥️_316
-      - 科技网络 5
-      - ♥️♥️YouTube梦歌♥️♥️_272
+      - 科技网络 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -586,71 +946,116 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国阿伟科技
-      - 香港阿伟科技
       - 香港阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_349
-      - ♥️♥️YouTube梦歌♥️♥️_179
-      - ♥️♥️YouTube梦歌♥️♥️_353
-      - HK_香港_油管 TG 8度科技
-      - CN_中国_油管 TG 8度科技
-      - ♥️♥️YouTube梦歌♥️♥️_242
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _CN_中国->🇭🇰_HK_香港
-      - 美国阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_460
-      - HK_香港_油管 TG 8度科技 2
-      - ♥️♥️YouTube梦歌♥️♥️_361
-      - github.com/freefq - 美国CloudFlare公司CDN节点 46
-      - github.com/freefq - 美国Microsoft数据中心 5
       - 香港阿伟科技@TG/油管 2
-      - ♥️♥️YouTube梦歌♥️♥️_354
-      - ♥️♥️YouTube梦歌♥️♥️_239
-      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
-      - "@SSRSUB-美国V18-付费推荐::suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_23
-      - 荷兰（YouTube订阅：侯老师网络学堂）
       - 香港阿伟科技@TG/油管 3
-      - ♥️♥️YouTube梦歌♥️♥️_404
-      - CN_中国_油管 TG 8度科技 2
-      - ♥️♥️YouTube梦歌♥️♥️_351
-      - "@SSRSUB-俄罗斯12-付费推荐::suo.yt/ssrsub"
-      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
-      - ♥️♥️YouTube梦歌♥️♥️_357
-      - ♥️♥️YouTube梦歌♥️♥️_407
-      - ♥️♥️YouTube梦歌♥️♥️_350
-      - ♥️♥️YouTube梦歌♥️♥️_346
-      - _CA_加拿大
-      - 科技网络
-      - ♥️♥️YouTube梦歌♥️♥️_392
-      - 科技网络 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_402
-      - ♥️♥️YouTube梦歌♥️♥️_504
-      - ♥️♥️YouTube梦歌♥️♥️_396
-      - ♥️♥️YouTube梦歌♥️♥️_411
-      - ♥️♥️YouTube梦歌♥️♥️_403
-      - 台湾(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_408
-      - ♥️♥️YouTube梦歌♥️♥️_406
-      - _GB_英国
-      - 科技网络 3
-      - ♥️♥️YouTube梦歌♥️♥️_273
-      - 科技网络 4
-      - ♥️♥️YouTube梦歌♥️♥️_310
-      - ♥️♥️YouTube梦歌♥️♥️_389
-      - ♥️♥️YouTube梦歌♥️♥️_327
       - 香港阿伟科技@TG/油管 4
-      - CA加拿大(Youtube频道：工具大师！)
+      - 新加坡阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 5
+      - 香港阿伟科技
       - 香港阿伟科技@TG/油管 2 2
-      - ♥️♥️YouTube梦歌♥️♥️_432
+      - HK_香港_油管 TG 8度科技
+      - 台湾阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 6
+      - 香港阿伟科技@TG/油管 7
       - Youtube小露分享
-      - ♥️♥️YouTube梦歌♥️♥️_21
+      - 香港阿伟科技@TG/油管 8
+      - 香港阿伟科技@TG/油管 9
+      - 日本阿伟科技@TG/油管
+      - HK_香港_油管 TG 8度科技 2
+      - 香港(Youtube频道：工具大师！)
+      - 香港阿伟科技@TG/油管 10
+      - 香港阿伟科技@TG/油管 11
+      - 美国阿伟科技
+      - 香港阿伟科技@TG/油管 12
+      - 韩国阿伟科技@TG/油管
+      - ♥️♥️YouTube梦歌♥️♥️_179
+      - HK_香港_油管 TG 8度科技 3
+      - 日本阿伟科技@TG/油管 2
+      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
+      - 日本阿伟科技@TG/油管 3
+      - 韩国阿伟科技@TG/油管 2
+      - 香港(欢迎订阅Youtube破解资源君)
+      - Youtube小露分享 2
+      - ♥️♥️YouTube梦歌♥️♥️_506
+      - 日本阿伟科技@TG/油管 4
+      - 香港阿伟科技@TG/油管 13
+      - ww 894
+      - 美国（YouTube订阅：侯老师网络学堂）
+      - (ios软件代购小火箭|ioskaka.com)
+      - 韩国阿伟科技@TG/油管 3
+      - ♥️♥️YouTube梦歌♥️♥️_175
+      - Youtube小露分享 3
+      - ww 1400
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 科技网络
+      - Youtube小露分享 4
+      - ♥️♥️YouTube梦歌♥️♥️_176
+      - 日本阿伟科技@TG/油管 5
+      - 香港阿伟科技@TG/油管 14
+      - ♥️♥️YouTube梦歌♥️♥️_525
+      - 日本阿伟科技@TG/油管 6
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - Youtube小露分享 5
+      - Ytb:鹏哥分享_中国_39
+      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
+      - Youtube小露分享 6
+      - Youtube小露分享 7
+      - ♥️♥️YouTube梦歌♥️♥️_116
+      - ♥️♥️YouTube梦歌♥️♥️_310
+      - ♥️♥️YouTube梦歌♥️♥️_327
+      - Ytb:鹏哥分享_台湾_32
+      - Youtube小露分享 8
+      - 英国（YouTube订阅：侯老师网络学堂）
+      - ♥️♥️YouTube梦歌♥️♥️_311
+      - Youtube小露分享 9
+      - 韩国阿伟科技@TG/油管 4
+      - 日本阿伟科技@TG/油管 7
+      - Youtube小露分享 10
+      - 香港阿伟科技@TG/油管 15
+      - Youtube小露分享 11
+      - Youtube小露分享 12
+      - ww 1282
+      - Youtube小露分享 13
+      - ♥️♥️YouTube梦歌♥️♥️_312
+      - Youtube小露分享 14
+      - 美国阿伟科技@TG/油管 4
+      - Youtube小露分享 15
+      - Youtube小露分享 16
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 新加坡阿伟科技@TG/油管 2
+      - Youtube小露分享 17
+      - ♥️♥️YouTube梦歌♥️♥️_204
+      - ♥️♥️YouTube梦歌♥️♥️_319
+      - 美国（YouTube订阅：侯老师网络学堂） 2
+      - ♥️♥️YouTube梦歌♥️♥️_336
+      - Youtube小露分享 18
+      - 日本阿伟科技@TG/油管 8
+      - ♥️♥️YouTube梦歌♥️♥️_193
+      - ♥️♥️YouTube梦歌♥️♥️_322
+      - ♥️♥️YouTube梦歌♥️♥️_330
+      - ♥️♥️YouTube梦歌♥️♥️_318
+      - 香港阿伟科技@TG/油管 16
+      - 科技网络 2
+      - ♥️♥️YouTube梦歌♥️♥️_313
+      - ww 22 2
+      - ♥️♥️YouTube梦歌♥️♥️_119
+      - Youtube小露分享 19
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
+      - Youtube小露分享 20
+      - Youtube小露分享 21
+      - Youtube小露分享 22
+      - Youtube小露分享 23
+      - 美国【YouTube由零開始】
+      - （YouTube订阅：侯老师网络学堂）_6.10Mb
+      - Youtube小露分享 24
+      - （YouTube订阅：侯老师网络学堂）_6.45Mb
+      - 加拿大【YouTube由零開始】
+      - GB英国(Youtube频道：工具大师！)
       - 亚洲(欢迎订阅Youtube破解资源君)
-      - ♥️♥️YouTube梦歌♥️♥️_271
-      - ♥️♥️YouTube梦歌♥️♥️_316
-      - 科技网络 5
-      - ♥️♥️YouTube梦歌♥️♥️_272
+      - 科技网络 3
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
