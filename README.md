@@ -5,925 +5,1325 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港阿伟科技@TG/油管, server: c.azzhuangaping.tw, port: 8080, type: vmess, uuid: cebeb605-6e5e-3a13-a0ce-1ee247f91bf7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /adobe, ws-headers: {Host: c.azzhuangaping.tw}, udp: true}
-  - {name: 香港阿伟科技@TG/油管 2, server: c.azzhuangaping.tw, port: 8080, type: vmess, uuid: cebeb605-6e5e-3a13-a0ce-1ee247f91bf7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /adobe, ws-headers: {Host: c.azzhuangaping.tw}, udp: true}
-  - {name: 香港阿伟科技@TG/油管 3, server: 113.wowogg.cyou, port: 52213, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管 4, server: hygz.doggogogo.top, port: 53021, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
-  - {name: 新加坡阿伟科技@TG/油管, server: cn2.wecanfly.top, port: 51134, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cn2.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管 5, server: 102.wowogg.cyou, port: 11221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技, server: 86.wgong.xyz, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管 2 2, server: 86.wgong.xyz, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK_香港_油管 TG 8度科技, server: 120.wgong.xyz, port: 52220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾阿伟科技@TG/油管, server: fsyd.wecanfly.top, port: 51133, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管 6, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管 7, server: 120.wgong.xyz, port: 52220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube小露分享, server: 110.wowogg.cyou, port: 52210, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管 8, server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管 9, server: 85.wgong.xyz, port: 52285, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本阿伟科技@TG/油管, server: fsyd.wecanfly.top, port: 51221, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: HK_香港_油管 TG 8度科技 2, server: 85.wgong.xyz, port: 52285, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(Youtube频道：工具大师！), server: 88.wowogg.cyou, port: 52288, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管 10, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管 11, server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技, server: 100.wgong.xyz, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管 12, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
-  - {name: 韩国阿伟科技@TG/油管, server: chun2.515223.xyz, port: 43992, type: vmess, uuid: 99e191b5-6515-47b8-f0c0-f6053afeb75a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_179, server: 100.wgong.xyz, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK_香港_油管 TG 8度科技 3, server: 85.wgong.xyz, port: 52285, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本阿伟科技@TG/油管 2, server: hygz.doggogogo.top, port: 53030, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub", server: v8.ssrsub.com, port: 443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
-  - {name: 日本阿伟科技@TG/油管 3, server: 116.wgong.xyz, port: 52216, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国阿伟科技@TG/油管 2, server: chun2.515223.xyz, port: 43992, type: vmess, uuid: 99e191b5-6515-47b8-f0c0-f6053afeb75a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君), server: 112.wowogg.cyou, port: 52212, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube小露分享 2, server: 130.wowogg.cyou, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_506, server: 115.wowogg.cyou, port: 52215, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本阿伟科技@TG/油管 4, server: 85.wgong.xyz, port: 52285, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管 13, server: 86.wgong.xyz, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ww 894, server: 38.75.136.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero1.a-yu.xyz}, udp: true}
-  - {name: (ios软件代购小火箭|ioskaka.com), server: 104.16.181.197, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/ws/?ed=2048", ws-headers: {Host: download.china666.ml}, udp: true}
-  - {name: 韩国阿伟科技@TG/油管 3, server: cu.mj-cn.cyou, port: 16619, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_175, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 97ab5d71-96b7-4ab1-b77b-093685658d7f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 1.ezydfdd.com}, udp: true}
-  - {name: Youtube小露分享 3, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: a1effd82-8a11-11ec-9aeb-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
-  - {name: ww 1400, server: 38.75.136.49, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国阿伟科技@TG/油管 2, server: chun2.515223.xyz, port: 43992, type: vmess, uuid: 99e191b5-6515-47b8-f0c0-f6053afeb75a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管 3, server: 123.wgong.xyz, port: 52223, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 科技网络, server: 0122us.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0122us.fans8.xyz}, udp: true}
-  - {name: Youtube小露分享 4, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 98b20eea-8a11-11ec-9aeb-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_176, server: 120.233.10.62, port: 52284, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本阿伟科技@TG/油管 5, server: japanfastnetwork.club, port: 443, type: vmess, uuid: fb8ed8a9-ad61-4a12-90c6-55670a4a3332, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /neuromancer, ws-headers: {Host: japanfastnetwork.club}, udp: true}
-  - {name: 香港阿伟科技@TG/油管 14, server: 16.163.148.47, port: 38957, type: ss, cipher: aes-256-gcm, password: b7aa90f0-8be1-4420-a860-147e980a198e, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_525, server: 113.wowogg.cyou, port: 52213, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本阿伟科技@TG/油管 6, server: 146.56.108.108, port: 37749, type: vmess, uuid: e0e06b1c-ee1e-4dbf-a17a-89f06ff2753c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
-  - {name: Youtube小露分享 5, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_39, server: 116.wgong.xyz, port: 52216, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub", server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
-  - {name: Youtube小露分享 6, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 9d48914a-8a11-11ec-9aeb-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
-  - {name: Youtube小露分享 7, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 9f943f3a-8a11-11ec-9aeb-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_116, server: 217.79.184.107, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_310, server: 217.79.184.107, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_327, server: 217.79.184.107, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Ytb:鹏哥分享_台湾_32, server: 1207tw.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1207tw.fans8.xyz}, udp: true}
-  - {name: Youtube小露分享 8, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
-  - {name: 英国（YouTube订阅：侯老师网络学堂）, server: 172.99.190.205, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_311, server: 217.79.184.107, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Youtube小露分享 9, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 韩国阿伟科技@TG/油管 4, server: 146.56.108.108, port: 37749, type: vmess, uuid: e0e06b1c-ee1e-4dbf-a17a-89f06ff2753c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本阿伟科技@TG/油管 7, server: 105.wgong.xyz, port: 52205, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube小露分享 10, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: 香港阿伟科技@TG/油管 15, server: 18.166.193.83, port: 38297, type: ss, cipher: chacha20-ietf-poly1305, password: b7aa90f0-8be1-4420-a860-147e980a198e, udp: true}
-  - {name: Youtube小露分享 11, server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 128tw02.fans8.xyz}, udp: true}
-  - {name: Youtube小露分享 12, server: 172.99.190.205, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ww 1282, server: 92.243.24.68, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bIS3QQFwFIm1, udp: true}
-  - {name: Youtube小露分享 13, server: 172.99.190.205, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_312, server: 217.79.184.107, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Youtube小露分享 14, server: www.darkwater.xyz, port: 41759, type: trojan, password: ixkIc4mCzH, sni: www.darkwater.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管 4, server: 111.wowogg.cyou, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube小露分享 15, server: 172.99.190.205, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube小露分享 16, server: 172.99.190.205, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
-  - {name: 新加坡阿伟科技@TG/油管 2, server: xjp.azzhuangaping.tw, port: 80, type: vmess, uuid: cebeb605-6e5e-3a13-a0ce-1ee247f91bf7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /adobe, ws-headers: {Host: xjp.azzhuangaping.tw}, udp: true}
-  - {name: Youtube小露分享 17, server: 172.99.190.205, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_204, server: 172.99.190.205, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_319, server: 217.79.184.107, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂） 2, server: 198.41.212.9, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero1.a-yu.xyz}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_336, server: 172.99.190.188, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Youtube小露分享 18, server: niaop.tk, port: 443, type: vmess, uuid: a0b0df87-bda2-440e-830f-347da6cc7760, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wsssdr1, ws-headers: {Host: niaop.tk}, udp: true}
-  - {name: 日本阿伟科技@TG/油管 8, server: jp2.azzhuangaping.tw, port: 80, type: vmess, uuid: cebeb605-6e5e-3a13-a0ce-1ee247f91bf7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /adobe, ws-headers: {Host: jp2.azzhuangaping.tw}, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_193, server: 172.99.190.205, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_322, server: 217.79.184.107, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_330, server: 217.79.184.107, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_318, server: 217.79.184.107, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 香港阿伟科技@TG/油管 16, server: 86.wgong.xyz, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 科技网络 2, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_313, server: 217.79.184.107, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ww 22 2, server: 198.57.27.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ♥️♥️YouTube梦歌♥️♥️_119, server: 217.79.184.107, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Youtube小露分享 19, server: 172.99.190.205, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 俄罗斯联邦（YouTube订阅：侯老师网络学堂）, server: 92.223.65.119, port: 443, type: vmess, uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: Youtube小露分享 20, server: 172.99.190.205, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Youtube小露分享 21, server: 172.99.190.205, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube小露分享 22, server: 172.99.190.205, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Youtube小露分享 23, server: 134.195.196.193, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国【YouTube由零開始】, server: hkt.jslist.tk, port: 8880, type: vmess, uuid: efe08abe-e627-4f72-f02f-af00692a0bf4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/images, ws-headers: {Host: hkt.jslist.tk}, udp: true}
-  - {name: （YouTube订阅：侯老师网络学堂）_6.10Mb, server: 134.195.196.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube小露分享 24, server: 134.195.196.147, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: （YouTube订阅：侯老师网络学堂）_6.45Mb, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 加拿大【YouTube由零開始】, server: 134.195.196.193, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: GB英国(Youtube频道：工具大师！), server: 172.99.190.205, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君), server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: 科技网络 3, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇸🇬 新加坡阿伟科技@TG/油管, server: 101.wowogg.cyou, port: 52201, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管, server: 99.wowogg.cyou, port: 52299, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 2, server: 99.wowogg.cyou, port: 52299, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港阿伟科技@TG/油管, server: 40.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 40.earths.team}
+  - {name: ♥️YouTube梦歌♥️_104, server: 136.wowogg.cyou, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管, server: 121.wowogg.cyou, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港阿伟科技@TG/油管 2, server: 40.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 40.earths.team}
+  - {name: ♥️YouTube梦歌♥️_89, server: 121.wowogg.cyou, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 2, server: 106.wowogg.cyou, port: 11223, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港阿伟科技@TG/油管 3, server: 40.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 40.earths.team}
+  - {name: ♥️YouTube梦歌♥️_62, server: 93.wowogg.cyou, port: 52293, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 3, server: 104.wowogg.cyou, port: 11222, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 4, server: 84.wowogg.cyou, port: 52284, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_60, server: 81.wowogg.cyou, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 5, server: 109.wowogg.cyou, port: 52209, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 3, server: 86.wowogg.cyou, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 6, server: 132.wowogg.cyou, port: 52332, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_90, server: 106.wowogg.cyou, port: 11223, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 7, server: 83.wowogg.cyou, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_84, server: 136.wowogg.cyou, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_82, server: 112.wowogg.cyou, port: 52212, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 8, server: 132.wowogg.cyou, port: 52332, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 9, server: 103.wowogg.cyou, port: 52203, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 10, server: 91.wowogg.cyou, port: 52291, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 11, server: 84.wowogg.cyou, port: 52284, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_54, server: 99.wowogg.cyou, port: 52299, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 12, server: 83.wowogg.cyou, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_93, server: 83.wowogg.cyou, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 13, server: 84.wowogg.cyou, port: 52284, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 14, server: 106.wowogg.cyou, port: 11223, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡阿伟科技@TG/油管 2, server: s1.kaxff.com, port: 15654, type: trojan, password: 6Uu5c0cJUV, sni: s1.kaxff.com}
+  - {name: ♥️YouTube梦歌♥️_85, server: 84.wowogg.cyou, port: 52284, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 4, server: 133.wowogg.cyou, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港阿伟科技@TG/油管 4, server: 40.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 40.earths.team}
+  - {name: 🇸🇬 新加坡阿伟科技@TG/油管 3, server: mb22.ml, port: 52343, type: vmess, uuid: af20e9ba-3f30-48e9-9d52-9620954b1d67, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 15, server: 109.wowogg.cyou, port: 52209, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 16, server: 90.wowogg.cyou, port: 52290, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 5, server: 81.wowogg.cyou, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港阿伟科技@TG/油管 5, server: 81.wowogg.cyou, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_80, server: 81.wowogg.cyou, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_55, server: 99.wowogg.cyou, port: 52299, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 17, server: 92.wowogg.cyou, port: 52292, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 18, server: 128.wowogg.cyou, port: 52228, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_102, server: 100.wowogg.cyou, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 19, server: 92.wowogg.cyou, port: 52292, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_83, server: 90.wowogg.cyou, port: 52290, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 20, server: 90.wowogg.cyou, port: 52290, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 6, server: 98.wowogg.cyou, port: 52298, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 7, server: 136.wowogg.cyou, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 21, server: 125.wowogg.cyou, port: 52225, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 22, server: 92.wowogg.cyou, port: 52292, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港阿伟科技@TG/油管 6, server: 40.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 40.earths.team}
+  - {name: ♥️YouTube梦歌♥️_99, server: 101.wowogg.cyou, port: 52201, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 23, server: 128.wowogg.cyou, port: 52228, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_91, server: 109.wowogg.cyou, port: 52209, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_101, server: 91.wowogg.cyou, port: 52291, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 24, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_88, server: 125.wowogg.cyou, port: 52225, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 25, server: 125.wowogg.cyou, port: 52225, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港阿伟科技@TG/油管 7, server: 40.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 40.earths.team}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 26, server: 84.wowogg.cyou, port: 52284, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡阿伟科技@TG/油管 4, server: s1.kaxff.com, port: 15654, type: trojan, password: 6Uu5c0cJUV, sni: s1.kaxff.com}
+  - {name: ♥️YouTube梦歌♥️_1, server: s5.kaxff.com, port: 20585, type: trojan, password: JWOLs1gJ0X, sni: s5.kaxff.com}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 8, server: 101.wowogg.cyou, port: 52201, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_97, server: 82.wowogg.cyou, port: 52282, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_95, server: 109.wowogg.cyou, port: 52209, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 27, server: 82.wowogg.cyou, port: 52282, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 28, server: 106.wowogg.cyou, port: 11223, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 29, server: 121.wowogg.cyou, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾阿伟科技@TG/油管, server: 0218tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube-TG}}
+  - {name: 🇨🇳 台湾阿伟科技@TG/油管 2, server: 0218tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube-TG}}
+  - {name: ♥️YouTube梦歌♥️_86, server: pmhz.wokuaitule.xyz, port: 20004, type: vmess, uuid: 156a3437-a9e7-3358-9d0d-f04229ab0e44, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: aweikeji-YouTube-TG}}
+  - {name: ♥️YouTube梦歌♥️_24, server: hzlt.tuboshu.space, port: 18809, type: vmess, uuid: 89ad04b4-a702-3753-ac97-9e693709f9ff, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hzlt.tuboshu.space}}
+  - {name: ♥️YouTube梦歌♥️_103, server: 136.wowogg.cyou, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_98, server: 91.wowogg.cyou, port: 52291, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 30, server: 100.wowogg.cyou, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 31, server: 121.wowogg.cyou, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 32, server: 30.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 30.earths.team}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 33, server: 0227jp.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube-TG}}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 34, server: pmhz.wokuaitule.xyz, port: 20004, type: vmess, uuid: 156a3437-a9e7-3358-9d0d-f04229ab0e44, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: aweikeji-YouTube-TG}}
+  - {name: 🇰🇷 韩国阿伟科技@TG/油管, server: 152.70.237.92, port: 80, type: vmess, uuid: 9cac569c-fb38-4a71-cae7-2ac1739ecdf0, alterId: 0, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_76, server: 104.16.160.114, port: 443, type: vmess, uuid: 4daecd66-d4e2-4577-bf79-47c90daa716d, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /jackson2025_vws, ws-headers: {Host: jackson2025.cf}}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 9, server: 104.16.160.114, port: 443, type: vmess, uuid: 4daecd66-d4e2-4577-bf79-47c90daa716d, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /jackson2025_vws, ws-headers: {Host: jackson2025.cf}}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 10, server: 104.16.160.114, port: 443, type: vmess, uuid: 4daecd66-d4e2-4577-bf79-47c90daa716d, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /jackson2025_vws, ws-headers: {Host: jackson2025.cf}}
+  - {name: 🇰🇷 韩国阿伟科技@TG/油管 2, server: 152.70.237.92, port: 80, type: vmess, uuid: 9cac569c-fb38-4a71-cae7-2ac1739ecdf0, alterId: 0, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_90 2, server: 169.197.142.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 11, server: 104.16.160.114, port: 443, type: vmess, uuid: 4daecd66-d4e2-4577-bf79-47c90daa716d, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /jackson2025_vws, ws-headers: {Host: jackson2025.cf}}
+  - {name: ♥️YouTube梦歌♥️_85 2, server: 169.197.142.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 12, server: 123.wowogg.cyou, port: 52223, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_4, server: 38.75.136.102, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: ♥️YouTube梦歌♥️_84 2, server: 169.197.142.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 13, server: 124.wowogg.cyou, port: 52224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_78, server: 124.wowogg.cyou, port: 52224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_30, server: 149.202.82.172, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ♥️YouTube梦歌♥️_111, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 9b04ac52-8a11-11ec-9aeb-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}}
+  - {name: ♥️YouTube梦歌♥️_7, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ♥️YouTube梦歌♥️_6, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 14, server: 124.wowogg.cyou, port: 52224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 35, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_105, server: 38.64.138.145, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: ♥️YouTube梦歌♥️_1 2, server: 142.202.48.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: ♥️YouTube梦歌♥️_86 2, server: 169.197.142.187, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ♥️YouTube梦歌♥️_40, server: 142.202.48.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 36, server: japanfastnetwork.club, port: 443, type: vmess, uuid: fb8ed8a9-ad61-4a12-90c6-55670a4a3332, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /neuromancer, ws-headers: {Host: japanfastnetwork.club}}
+  - {name: ♥️YouTube梦歌♥️_75, server: 167.88.63.89, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: ♥️YouTube梦歌♥️_69, server: 167.88.63.79, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: ♥️YouTube梦歌♥️_89 2, server: 169.197.142.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ♥️YouTube梦歌♥️_70, server: 167.88.63.79, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: ♥️YouTube梦歌♥️_21, server: 134.195.196.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: ♥️YouTube梦歌♥️_94, server: 134.195.196.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: ♥️YouTube梦歌♥️_92, server: 169.197.142.187, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ♥️YouTube梦歌♥️_88 2, server: 169.197.142.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ♥️YouTube梦歌♥️_71, server: 167.88.63.79, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: ♥️YouTube梦歌♥️_79, server: 134.195.196.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ♥️YouTube梦歌♥️_16, server: 134.195.196.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 15, server: 7.earths.team, port: 443, type: trojan, password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f, sni: 7.earths.team}
+  - {name: ♥️YouTube梦歌♥️_82 2, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ♥️YouTube梦歌♥️_73, server: 167.88.63.79, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: ♥️YouTube梦歌♥️_12, server: 134.195.196.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: ♥️YouTube梦歌♥️_53, server: 38.64.138.145, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: ♥️YouTube梦歌♥️_65, server: 142.202.48.83, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: ♥️YouTube梦歌♥️_23, server: fosyd.tuboshu.space, port: 18809, type: vmess, uuid: 89ad04b4-a702-3753-ac97-9e693709f9ff, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: fosyd.tuboshu.space}}
+  - {name: ♥️YouTube梦歌♥️_52, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ♥️YouTube梦歌♥️_50, server: 167.88.63.79, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ♥️YouTube梦歌♥️_72, server: 167.88.63.79, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: ♥️YouTube梦歌♥️_17, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ♥️YouTube梦歌♥️_46, server: 142.202.48.81, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ♥️YouTube梦歌♥️_81, server: 134.195.196.12, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ♥️YouTube梦歌♥️_91 2, server: 169.197.142.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇭🇰 香港阿伟科技@TG/油管 8, server: 42.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 42.earths.team}
+  - {name: ♥️YouTube梦歌♥️_80 2, server: 134.195.196.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ♥️YouTube梦歌♥️_23 2, server: 134.195.196.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 16, server: 185.173.224.45, port: 6228, type: vmess, uuid: 4b6861bc-bf07-4bd7-9e08-e5967460d941, alterId: 0, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_37, server: 142.202.48.43, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 17, server: 45.32.94.166, port: 31676, type: vmess, uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 18, server: 35.153.162.49, port: 27080, type: vmess, uuid: 6334db00-f39b-49d7-d12a-2e3c037c5d97, alterId: 0, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_104 2, server: 193.110.203.58, port: 36258, type: vmess, uuid: 16d956e1-9bc0-4bd4-e123-bab79b40a3b9, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 193.110.203.58}}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 19, server: 7.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 7.earths.team}
+  - {name: ♥️YouTube梦歌♥️_83 2, server: 134.195.196.12, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ♥️YouTube梦歌♥️_48, server: 142.202.48.43, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ♥️YouTube梦歌♥️_44, server: 142.202.48.43, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ♥️YouTube梦歌♥️_46 2, server: 134.195.196.193, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 20, server: 7.earths.team, port: 443, type: trojan, password: cd1561db-c5b3-4e37-960d-39825cae663c, sni: 7.earths.team}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 37, server: 160.16.115.151, port: 443, type: vmess, uuid: fb8ed8a9-ad61-4a12-90c6-55670a4a3332, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /neuromancer, ws-headers: {Host: japanfastnetwork.club}}
+  - {name: ♥️YouTube梦歌♥️_36, server: 142.202.48.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ♥️YouTube梦歌♥️_21 2, server: 134.195.196.193, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: ♥️YouTube梦歌♥️_9, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇭🇰 香港阿伟科技@TG/油管 9, server: 42.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 42.earths.team}
+  - {name: 🇯🇵 日本阿伟科技@TG/油管 38, server: 0227jp.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube-TG}}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 21, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: ahdaeph8.com}}
+  - {name: ♥️YouTube梦歌♥️_44 2, server: 146.56.143.17, port: 29613, type: vmess, uuid: b5ce4178-89f9-451e-e7c7-ba61d208b252, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 22, server: 35.153.162.49, port: 27080, type: vmess, uuid: 6334db00-f39b-49d7-d12a-2e3c037c5d97, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 23, server: 35.153.162.49, port: 27080, type: vmess, uuid: 6334db00-f39b-49d7-d12a-2e3c037c5d97, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 24, server: 7.earths.team, port: 443, type: trojan, password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f, sni: 7.earths.team}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 25, server: 45.32.94.166, port: 31676, type: vmess, uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753, alterId: 0, cipher: auto, tls: false}
+  - {name: ♥️YouTube梦歌♥️_110, server: 134.195.196.147, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: ♥️YouTube梦歌♥️_87, server: 169.197.142.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ♥️YouTube梦歌♥️_8, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ♥️YouTube梦歌♥️_74, server: 167.88.63.89, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ♥️YouTube梦歌♥️_20, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 香港阿伟科技@TG/油管 3
-      - 香港阿伟科技@TG/油管 4
-      - 新加坡阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 5
-      - 香港阿伟科技
-      - 香港阿伟科技@TG/油管 2 2
-      - HK_香港_油管 TG 8度科技
-      - 台湾阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 6
-      - 香港阿伟科技@TG/油管 7
-      - Youtube小露分享
-      - 香港阿伟科技@TG/油管 8
-      - 香港阿伟科技@TG/油管 9
-      - 日本阿伟科技@TG/油管
-      - HK_香港_油管 TG 8度科技 2
-      - 香港(Youtube频道：工具大师！)
-      - 香港阿伟科技@TG/油管 10
-      - 香港阿伟科技@TG/油管 11
-      - 美国阿伟科技
-      - 香港阿伟科技@TG/油管 12
-      - 韩国阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_179
-      - HK_香港_油管 TG 8度科技 3
-      - 日本阿伟科技@TG/油管 2
-      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
-      - 日本阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 2
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Youtube小露分享 2
-      - ♥️♥️YouTube梦歌♥️♥️_506
-      - 日本阿伟科技@TG/油管 4
-      - 香港阿伟科技@TG/油管 13
-      - ww 894
-      - 美国（YouTube订阅：侯老师网络学堂）
-      - (ios软件代购小火箭|ioskaka.com)
-      - 韩国阿伟科技@TG/油管 3
-      - ♥️♥️YouTube梦歌♥️♥️_175
-      - Youtube小露分享 3
-      - ww 1400
-      - 美国阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 3
-      - 科技网络
-      - Youtube小露分享 4
-      - ♥️♥️YouTube梦歌♥️♥️_176
-      - 日本阿伟科技@TG/油管 5
-      - 香港阿伟科技@TG/油管 14
-      - ♥️♥️YouTube梦歌♥️♥️_525
-      - 日本阿伟科技@TG/油管 6
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - Youtube小露分享 5
-      - Ytb:鹏哥分享_中国_39
-      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
-      - Youtube小露分享 6
-      - Youtube小露分享 7
-      - ♥️♥️YouTube梦歌♥️♥️_116
-      - ♥️♥️YouTube梦歌♥️♥️_310
-      - ♥️♥️YouTube梦歌♥️♥️_327
-      - Ytb:鹏哥分享_台湾_32
-      - Youtube小露分享 8
-      - 英国（YouTube订阅：侯老师网络学堂）
-      - ♥️♥️YouTube梦歌♥️♥️_311
-      - Youtube小露分享 9
-      - 韩国阿伟科技@TG/油管 4
-      - 日本阿伟科技@TG/油管 7
-      - Youtube小露分享 10
-      - 香港阿伟科技@TG/油管 15
-      - Youtube小露分享 11
-      - Youtube小露分享 12
-      - ww 1282
-      - Youtube小露分享 13
-      - ♥️♥️YouTube梦歌♥️♥️_312
-      - Youtube小露分享 14
-      - 美国阿伟科技@TG/油管 4
-      - Youtube小露分享 15
-      - Youtube小露分享 16
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 新加坡阿伟科技@TG/油管 2
-      - Youtube小露分享 17
-      - ♥️♥️YouTube梦歌♥️♥️_204
-      - ♥️♥️YouTube梦歌♥️♥️_319
-      - 美国（YouTube订阅：侯老师网络学堂） 2
-      - ♥️♥️YouTube梦歌♥️♥️_336
-      - Youtube小露分享 18
-      - 日本阿伟科技@TG/油管 8
-      - ♥️♥️YouTube梦歌♥️♥️_193
-      - ♥️♥️YouTube梦歌♥️♥️_322
-      - ♥️♥️YouTube梦歌♥️♥️_330
-      - ♥️♥️YouTube梦歌♥️♥️_318
-      - 香港阿伟科技@TG/油管 16
-      - 科技网络 2
-      - ♥️♥️YouTube梦歌♥️♥️_313
-      - ww 22 2
-      - ♥️♥️YouTube梦歌♥️♥️_119
-      - Youtube小露分享 19
-      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
-      - Youtube小露分享 20
-      - Youtube小露分享 21
-      - Youtube小露分享 22
-      - Youtube小露分享 23
-      - 美国【YouTube由零開始】
-      - （YouTube订阅：侯老师网络学堂）_6.10Mb
-      - Youtube小露分享 24
-      - （YouTube订阅：侯老师网络学堂）_6.45Mb
-      - 加拿大【YouTube由零開始】
-      - GB英国(Youtube频道：工具大师！)
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - 科技网络 3
+      - 🇸🇬 新加坡阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管
+      - ♥️YouTube梦歌♥️_104
+      - 🇯🇵 日本阿伟科技@TG/油管
+      - 🇭🇰 香港阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_89
+      - 🇯🇵 日本阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管 3
+      - ♥️YouTube梦歌♥️_62
+      - 🇯🇵 日本阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 4
+      - ♥️YouTube梦歌♥️_60
+      - 🇯🇵 日本阿伟科技@TG/油管 5
+      - 🇺🇸 美国阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 6
+      - ♥️YouTube梦歌♥️_90
+      - 🇯🇵 日本阿伟科技@TG/油管 7
+      - ♥️YouTube梦歌♥️_84
+      - ♥️YouTube梦歌♥️_82
+      - 🇯🇵 日本阿伟科技@TG/油管 8
+      - 🇯🇵 日本阿伟科技@TG/油管 9
+      - 🇯🇵 日本阿伟科技@TG/油管 10
+      - 🇯🇵 日本阿伟科技@TG/油管 11
+      - ♥️YouTube梦歌♥️_54
+      - 🇯🇵 日本阿伟科技@TG/油管 12
+      - ♥️YouTube梦歌♥️_93
+      - 🇯🇵 日本阿伟科技@TG/油管 13
+      - 🇯🇵 日本阿伟科技@TG/油管 14
+      - 🇸🇬 新加坡阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_85
+      - 🇺🇸 美国阿伟科技@TG/油管 4
+      - 🇭🇰 香港阿伟科技@TG/油管 4
+      - 🇸🇬 新加坡阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 15
+      - 🇯🇵 日本阿伟科技@TG/油管 16
+      - 🇺🇸 美国阿伟科技@TG/油管 5
+      - 🇭🇰 香港阿伟科技@TG/油管 5
+      - ♥️YouTube梦歌♥️_80
+      - ♥️YouTube梦歌♥️_55
+      - 🇯🇵 日本阿伟科技@TG/油管 17
+      - 🇯🇵 日本阿伟科技@TG/油管 18
+      - ♥️YouTube梦歌♥️_102
+      - 🇯🇵 日本阿伟科技@TG/油管 19
+      - ♥️YouTube梦歌♥️_83
+      - 🇯🇵 日本阿伟科技@TG/油管 20
+      - 🇺🇸 美国阿伟科技@TG/油管 6
+      - 🇺🇸 美国阿伟科技@TG/油管 7
+      - 🇯🇵 日本阿伟科技@TG/油管 21
+      - 🇯🇵 日本阿伟科技@TG/油管 22
+      - 🇭🇰 香港阿伟科技@TG/油管 6
+      - ♥️YouTube梦歌♥️_99
+      - 🇯🇵 日本阿伟科技@TG/油管 23
+      - ♥️YouTube梦歌♥️_91
+      - ♥️YouTube梦歌♥️_101
+      - 🇯🇵 日本阿伟科技@TG/油管 24
+      - ♥️YouTube梦歌♥️_88
+      - 🇯🇵 日本阿伟科技@TG/油管 25
+      - 🇭🇰 香港阿伟科技@TG/油管 7
+      - 🇯🇵 日本阿伟科技@TG/油管 26
+      - 🇸🇬 新加坡阿伟科技@TG/油管 4
+      - ♥️YouTube梦歌♥️_1
+      - 🇺🇸 美国阿伟科技@TG/油管 8
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_95
+      - 🇯🇵 日本阿伟科技@TG/油管 27
+      - 🇯🇵 日本阿伟科技@TG/油管 28
+      - 🇯🇵 日本阿伟科技@TG/油管 29
+      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇨🇳 台湾阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_86
+      - ♥️YouTube梦歌♥️_24
+      - ♥️YouTube梦歌♥️_103
+      - ♥️YouTube梦歌♥️_98
+      - 🇯🇵 日本阿伟科技@TG/油管 30
+      - 🇯🇵 日本阿伟科技@TG/油管 31
+      - 🇯🇵 日本阿伟科技@TG/油管 32
+      - 🇯🇵 日本阿伟科技@TG/油管 33
+      - 🇯🇵 日本阿伟科技@TG/油管 34
+      - 🇰🇷 韩国阿伟科技@TG/油管
+      - ♥️YouTube梦歌♥️_76
+      - 🇺🇸 美国阿伟科技@TG/油管 9
+      - 🇺🇸 美国阿伟科技@TG/油管 10
+      - 🇰🇷 韩国阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_90 2
+      - 🇺🇸 美国阿伟科技@TG/油管 11
+      - ♥️YouTube梦歌♥️_85 2
+      - 🇺🇸 美国阿伟科技@TG/油管 12
+      - ♥️YouTube梦歌♥️_4
+      - ♥️YouTube梦歌♥️_84 2
+      - 🇺🇸 美国阿伟科技@TG/油管 13
+      - ♥️YouTube梦歌♥️_78
+      - ♥️YouTube梦歌♥️_30
+      - ♥️YouTube梦歌♥️_111
+      - ♥️YouTube梦歌♥️_7
+      - ♥️YouTube梦歌♥️_6
+      - 🇺🇸 美国阿伟科技@TG/油管 14
+      - 🇯🇵 日本阿伟科技@TG/油管 35
+      - ♥️YouTube梦歌♥️_105
+      - ♥️YouTube梦歌♥️_1 2
+      - ♥️YouTube梦歌♥️_86 2
+      - ♥️YouTube梦歌♥️_40
+      - 🇯🇵 日本阿伟科技@TG/油管 36
+      - ♥️YouTube梦歌♥️_75
+      - ♥️YouTube梦歌♥️_69
+      - ♥️YouTube梦歌♥️_89 2
+      - ♥️YouTube梦歌♥️_70
+      - ♥️YouTube梦歌♥️_21
+      - ♥️YouTube梦歌♥️_94
+      - ♥️YouTube梦歌♥️_92
+      - ♥️YouTube梦歌♥️_88 2
+      - ♥️YouTube梦歌♥️_71
+      - ♥️YouTube梦歌♥️_79
+      - ♥️YouTube梦歌♥️_16
+      - 🇺🇸 美国阿伟科技@TG/油管 15
+      - ♥️YouTube梦歌♥️_82 2
+      - ♥️YouTube梦歌♥️_73
+      - ♥️YouTube梦歌♥️_12
+      - ♥️YouTube梦歌♥️_53
+      - ♥️YouTube梦歌♥️_65
+      - ♥️YouTube梦歌♥️_23
+      - ♥️YouTube梦歌♥️_52
+      - ♥️YouTube梦歌♥️_50
+      - ♥️YouTube梦歌♥️_72
+      - ♥️YouTube梦歌♥️_17
+      - ♥️YouTube梦歌♥️_46
+      - ♥️YouTube梦歌♥️_81
+      - ♥️YouTube梦歌♥️_91 2
+      - 🇭🇰 香港阿伟科技@TG/油管 8
+      - ♥️YouTube梦歌♥️_80 2
+      - ♥️YouTube梦歌♥️_23 2
+      - 🇺🇸 美国阿伟科技@TG/油管 16
+      - ♥️YouTube梦歌♥️_37
+      - 🇺🇸 美国阿伟科技@TG/油管 17
+      - 🇺🇸 美国阿伟科技@TG/油管 18
+      - ♥️YouTube梦歌♥️_104 2
+      - 🇺🇸 美国阿伟科技@TG/油管 19
+      - ♥️YouTube梦歌♥️_83 2
+      - ♥️YouTube梦歌♥️_48
+      - ♥️YouTube梦歌♥️_44
+      - ♥️YouTube梦歌♥️_46 2
+      - 🇺🇸 美国阿伟科技@TG/油管 20
+      - 🇯🇵 日本阿伟科技@TG/油管 37
+      - ♥️YouTube梦歌♥️_36
+      - ♥️YouTube梦歌♥️_21 2
+      - ♥️YouTube梦歌♥️_9
+      - 🇭🇰 香港阿伟科技@TG/油管 9
+      - 🇯🇵 日本阿伟科技@TG/油管 38
+      - 🇺🇸 美国阿伟科技@TG/油管 21
+      - ♥️YouTube梦歌♥️_44 2
+      - 🇺🇸 美国阿伟科技@TG/油管 22
+      - 🇺🇸 美国阿伟科技@TG/油管 23
+      - 🇺🇸 美国阿伟科技@TG/油管 24
+      - 🇺🇸 美国阿伟科技@TG/油管 25
+      - ♥️YouTube梦歌♥️_110
+      - ♥️YouTube梦歌♥️_87
+      - ♥️YouTube梦歌♥️_8
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_20
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 香港阿伟科技@TG/油管 3
-      - 香港阿伟科技@TG/油管 4
-      - 新加坡阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 5
-      - 香港阿伟科技
-      - 香港阿伟科技@TG/油管 2 2
-      - HK_香港_油管 TG 8度科技
-      - 台湾阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 6
-      - 香港阿伟科技@TG/油管 7
-      - Youtube小露分享
-      - 香港阿伟科技@TG/油管 8
-      - 香港阿伟科技@TG/油管 9
-      - 日本阿伟科技@TG/油管
-      - HK_香港_油管 TG 8度科技 2
-      - 香港(Youtube频道：工具大师！)
-      - 香港阿伟科技@TG/油管 10
-      - 香港阿伟科技@TG/油管 11
-      - 美国阿伟科技
-      - 香港阿伟科技@TG/油管 12
-      - 韩国阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_179
-      - HK_香港_油管 TG 8度科技 3
-      - 日本阿伟科技@TG/油管 2
-      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
-      - 日本阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 2
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Youtube小露分享 2
-      - ♥️♥️YouTube梦歌♥️♥️_506
-      - 日本阿伟科技@TG/油管 4
-      - 香港阿伟科技@TG/油管 13
-      - ww 894
-      - 美国（YouTube订阅：侯老师网络学堂）
-      - (ios软件代购小火箭|ioskaka.com)
-      - 韩国阿伟科技@TG/油管 3
-      - ♥️♥️YouTube梦歌♥️♥️_175
-      - Youtube小露分享 3
-      - ww 1400
-      - 美国阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 3
-      - 科技网络
-      - Youtube小露分享 4
-      - ♥️♥️YouTube梦歌♥️♥️_176
-      - 日本阿伟科技@TG/油管 5
-      - 香港阿伟科技@TG/油管 14
-      - ♥️♥️YouTube梦歌♥️♥️_525
-      - 日本阿伟科技@TG/油管 6
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - Youtube小露分享 5
-      - Ytb:鹏哥分享_中国_39
-      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
-      - Youtube小露分享 6
-      - Youtube小露分享 7
-      - ♥️♥️YouTube梦歌♥️♥️_116
-      - ♥️♥️YouTube梦歌♥️♥️_310
-      - ♥️♥️YouTube梦歌♥️♥️_327
-      - Ytb:鹏哥分享_台湾_32
-      - Youtube小露分享 8
-      - 英国（YouTube订阅：侯老师网络学堂）
-      - ♥️♥️YouTube梦歌♥️♥️_311
-      - Youtube小露分享 9
-      - 韩国阿伟科技@TG/油管 4
-      - 日本阿伟科技@TG/油管 7
-      - Youtube小露分享 10
-      - 香港阿伟科技@TG/油管 15
-      - Youtube小露分享 11
-      - Youtube小露分享 12
-      - ww 1282
-      - Youtube小露分享 13
-      - ♥️♥️YouTube梦歌♥️♥️_312
-      - Youtube小露分享 14
-      - 美国阿伟科技@TG/油管 4
-      - Youtube小露分享 15
-      - Youtube小露分享 16
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 新加坡阿伟科技@TG/油管 2
-      - Youtube小露分享 17
-      - ♥️♥️YouTube梦歌♥️♥️_204
-      - ♥️♥️YouTube梦歌♥️♥️_319
-      - 美国（YouTube订阅：侯老师网络学堂） 2
-      - ♥️♥️YouTube梦歌♥️♥️_336
-      - Youtube小露分享 18
-      - 日本阿伟科技@TG/油管 8
-      - ♥️♥️YouTube梦歌♥️♥️_193
-      - ♥️♥️YouTube梦歌♥️♥️_322
-      - ♥️♥️YouTube梦歌♥️♥️_330
-      - ♥️♥️YouTube梦歌♥️♥️_318
-      - 香港阿伟科技@TG/油管 16
-      - 科技网络 2
-      - ♥️♥️YouTube梦歌♥️♥️_313
-      - ww 22 2
-      - ♥️♥️YouTube梦歌♥️♥️_119
-      - Youtube小露分享 19
-      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
-      - Youtube小露分享 20
-      - Youtube小露分享 21
-      - Youtube小露分享 22
-      - Youtube小露分享 23
-      - 美国【YouTube由零開始】
-      - （YouTube订阅：侯老师网络学堂）_6.10Mb
-      - Youtube小露分享 24
-      - （YouTube订阅：侯老师网络学堂）_6.45Mb
-      - 加拿大【YouTube由零開始】
-      - GB英国(Youtube频道：工具大师！)
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - 科技网络 3
+      - 🇸🇬 新加坡阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管
+      - ♥️YouTube梦歌♥️_104
+      - 🇯🇵 日本阿伟科技@TG/油管
+      - 🇭🇰 香港阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_89
+      - 🇯🇵 日本阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管 3
+      - ♥️YouTube梦歌♥️_62
+      - 🇯🇵 日本阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 4
+      - ♥️YouTube梦歌♥️_60
+      - 🇯🇵 日本阿伟科技@TG/油管 5
+      - 🇺🇸 美国阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 6
+      - ♥️YouTube梦歌♥️_90
+      - 🇯🇵 日本阿伟科技@TG/油管 7
+      - ♥️YouTube梦歌♥️_84
+      - ♥️YouTube梦歌♥️_82
+      - 🇯🇵 日本阿伟科技@TG/油管 8
+      - 🇯🇵 日本阿伟科技@TG/油管 9
+      - 🇯🇵 日本阿伟科技@TG/油管 10
+      - 🇯🇵 日本阿伟科技@TG/油管 11
+      - ♥️YouTube梦歌♥️_54
+      - 🇯🇵 日本阿伟科技@TG/油管 12
+      - ♥️YouTube梦歌♥️_93
+      - 🇯🇵 日本阿伟科技@TG/油管 13
+      - 🇯🇵 日本阿伟科技@TG/油管 14
+      - 🇸🇬 新加坡阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_85
+      - 🇺🇸 美国阿伟科技@TG/油管 4
+      - 🇭🇰 香港阿伟科技@TG/油管 4
+      - 🇸🇬 新加坡阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 15
+      - 🇯🇵 日本阿伟科技@TG/油管 16
+      - 🇺🇸 美国阿伟科技@TG/油管 5
+      - 🇭🇰 香港阿伟科技@TG/油管 5
+      - ♥️YouTube梦歌♥️_80
+      - ♥️YouTube梦歌♥️_55
+      - 🇯🇵 日本阿伟科技@TG/油管 17
+      - 🇯🇵 日本阿伟科技@TG/油管 18
+      - ♥️YouTube梦歌♥️_102
+      - 🇯🇵 日本阿伟科技@TG/油管 19
+      - ♥️YouTube梦歌♥️_83
+      - 🇯🇵 日本阿伟科技@TG/油管 20
+      - 🇺🇸 美国阿伟科技@TG/油管 6
+      - 🇺🇸 美国阿伟科技@TG/油管 7
+      - 🇯🇵 日本阿伟科技@TG/油管 21
+      - 🇯🇵 日本阿伟科技@TG/油管 22
+      - 🇭🇰 香港阿伟科技@TG/油管 6
+      - ♥️YouTube梦歌♥️_99
+      - 🇯🇵 日本阿伟科技@TG/油管 23
+      - ♥️YouTube梦歌♥️_91
+      - ♥️YouTube梦歌♥️_101
+      - 🇯🇵 日本阿伟科技@TG/油管 24
+      - ♥️YouTube梦歌♥️_88
+      - 🇯🇵 日本阿伟科技@TG/油管 25
+      - 🇭🇰 香港阿伟科技@TG/油管 7
+      - 🇯🇵 日本阿伟科技@TG/油管 26
+      - 🇸🇬 新加坡阿伟科技@TG/油管 4
+      - ♥️YouTube梦歌♥️_1
+      - 🇺🇸 美国阿伟科技@TG/油管 8
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_95
+      - 🇯🇵 日本阿伟科技@TG/油管 27
+      - 🇯🇵 日本阿伟科技@TG/油管 28
+      - 🇯🇵 日本阿伟科技@TG/油管 29
+      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇨🇳 台湾阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_86
+      - ♥️YouTube梦歌♥️_24
+      - ♥️YouTube梦歌♥️_103
+      - ♥️YouTube梦歌♥️_98
+      - 🇯🇵 日本阿伟科技@TG/油管 30
+      - 🇯🇵 日本阿伟科技@TG/油管 31
+      - 🇯🇵 日本阿伟科技@TG/油管 32
+      - 🇯🇵 日本阿伟科技@TG/油管 33
+      - 🇯🇵 日本阿伟科技@TG/油管 34
+      - 🇰🇷 韩国阿伟科技@TG/油管
+      - ♥️YouTube梦歌♥️_76
+      - 🇺🇸 美国阿伟科技@TG/油管 9
+      - 🇺🇸 美国阿伟科技@TG/油管 10
+      - 🇰🇷 韩国阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_90 2
+      - 🇺🇸 美国阿伟科技@TG/油管 11
+      - ♥️YouTube梦歌♥️_85 2
+      - 🇺🇸 美国阿伟科技@TG/油管 12
+      - ♥️YouTube梦歌♥️_4
+      - ♥️YouTube梦歌♥️_84 2
+      - 🇺🇸 美国阿伟科技@TG/油管 13
+      - ♥️YouTube梦歌♥️_78
+      - ♥️YouTube梦歌♥️_30
+      - ♥️YouTube梦歌♥️_111
+      - ♥️YouTube梦歌♥️_7
+      - ♥️YouTube梦歌♥️_6
+      - 🇺🇸 美国阿伟科技@TG/油管 14
+      - 🇯🇵 日本阿伟科技@TG/油管 35
+      - ♥️YouTube梦歌♥️_105
+      - ♥️YouTube梦歌♥️_1 2
+      - ♥️YouTube梦歌♥️_86 2
+      - ♥️YouTube梦歌♥️_40
+      - 🇯🇵 日本阿伟科技@TG/油管 36
+      - ♥️YouTube梦歌♥️_75
+      - ♥️YouTube梦歌♥️_69
+      - ♥️YouTube梦歌♥️_89 2
+      - ♥️YouTube梦歌♥️_70
+      - ♥️YouTube梦歌♥️_21
+      - ♥️YouTube梦歌♥️_94
+      - ♥️YouTube梦歌♥️_92
+      - ♥️YouTube梦歌♥️_88 2
+      - ♥️YouTube梦歌♥️_71
+      - ♥️YouTube梦歌♥️_79
+      - ♥️YouTube梦歌♥️_16
+      - 🇺🇸 美国阿伟科技@TG/油管 15
+      - ♥️YouTube梦歌♥️_82 2
+      - ♥️YouTube梦歌♥️_73
+      - ♥️YouTube梦歌♥️_12
+      - ♥️YouTube梦歌♥️_53
+      - ♥️YouTube梦歌♥️_65
+      - ♥️YouTube梦歌♥️_23
+      - ♥️YouTube梦歌♥️_52
+      - ♥️YouTube梦歌♥️_50
+      - ♥️YouTube梦歌♥️_72
+      - ♥️YouTube梦歌♥️_17
+      - ♥️YouTube梦歌♥️_46
+      - ♥️YouTube梦歌♥️_81
+      - ♥️YouTube梦歌♥️_91 2
+      - 🇭🇰 香港阿伟科技@TG/油管 8
+      - ♥️YouTube梦歌♥️_80 2
+      - ♥️YouTube梦歌♥️_23 2
+      - 🇺🇸 美国阿伟科技@TG/油管 16
+      - ♥️YouTube梦歌♥️_37
+      - 🇺🇸 美国阿伟科技@TG/油管 17
+      - 🇺🇸 美国阿伟科技@TG/油管 18
+      - ♥️YouTube梦歌♥️_104 2
+      - 🇺🇸 美国阿伟科技@TG/油管 19
+      - ♥️YouTube梦歌♥️_83 2
+      - ♥️YouTube梦歌♥️_48
+      - ♥️YouTube梦歌♥️_44
+      - ♥️YouTube梦歌♥️_46 2
+      - 🇺🇸 美国阿伟科技@TG/油管 20
+      - 🇯🇵 日本阿伟科技@TG/油管 37
+      - ♥️YouTube梦歌♥️_36
+      - ♥️YouTube梦歌♥️_21 2
+      - ♥️YouTube梦歌♥️_9
+      - 🇭🇰 香港阿伟科技@TG/油管 9
+      - 🇯🇵 日本阿伟科技@TG/油管 38
+      - 🇺🇸 美国阿伟科技@TG/油管 21
+      - ♥️YouTube梦歌♥️_44 2
+      - 🇺🇸 美国阿伟科技@TG/油管 22
+      - 🇺🇸 美国阿伟科技@TG/油管 23
+      - 🇺🇸 美国阿伟科技@TG/油管 24
+      - 🇺🇸 美国阿伟科技@TG/油管 25
+      - ♥️YouTube梦歌♥️_110
+      - ♥️YouTube梦歌♥️_87
+      - ♥️YouTube梦歌♥️_8
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_20
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 香港阿伟科技@TG/油管 3
-      - 香港阿伟科技@TG/油管 4
-      - 新加坡阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 5
-      - 香港阿伟科技
-      - 香港阿伟科技@TG/油管 2 2
-      - HK_香港_油管 TG 8度科技
-      - 台湾阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 6
-      - 香港阿伟科技@TG/油管 7
-      - Youtube小露分享
-      - 香港阿伟科技@TG/油管 8
-      - 香港阿伟科技@TG/油管 9
-      - 日本阿伟科技@TG/油管
-      - HK_香港_油管 TG 8度科技 2
-      - 香港(Youtube频道：工具大师！)
-      - 香港阿伟科技@TG/油管 10
-      - 香港阿伟科技@TG/油管 11
-      - 美国阿伟科技
-      - 香港阿伟科技@TG/油管 12
-      - 韩国阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_179
-      - HK_香港_油管 TG 8度科技 3
-      - 日本阿伟科技@TG/油管 2
-      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
-      - 日本阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 2
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Youtube小露分享 2
-      - ♥️♥️YouTube梦歌♥️♥️_506
-      - 日本阿伟科技@TG/油管 4
-      - 香港阿伟科技@TG/油管 13
-      - ww 894
-      - 美国（YouTube订阅：侯老师网络学堂）
-      - (ios软件代购小火箭|ioskaka.com)
-      - 韩国阿伟科技@TG/油管 3
-      - ♥️♥️YouTube梦歌♥️♥️_175
-      - Youtube小露分享 3
-      - ww 1400
-      - 美国阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 3
-      - 科技网络
-      - Youtube小露分享 4
-      - ♥️♥️YouTube梦歌♥️♥️_176
-      - 日本阿伟科技@TG/油管 5
-      - 香港阿伟科技@TG/油管 14
-      - ♥️♥️YouTube梦歌♥️♥️_525
-      - 日本阿伟科技@TG/油管 6
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - Youtube小露分享 5
-      - Ytb:鹏哥分享_中国_39
-      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
-      - Youtube小露分享 6
-      - Youtube小露分享 7
-      - ♥️♥️YouTube梦歌♥️♥️_116
-      - ♥️♥️YouTube梦歌♥️♥️_310
-      - ♥️♥️YouTube梦歌♥️♥️_327
-      - Ytb:鹏哥分享_台湾_32
-      - Youtube小露分享 8
-      - 英国（YouTube订阅：侯老师网络学堂）
-      - ♥️♥️YouTube梦歌♥️♥️_311
-      - Youtube小露分享 9
-      - 韩国阿伟科技@TG/油管 4
-      - 日本阿伟科技@TG/油管 7
-      - Youtube小露分享 10
-      - 香港阿伟科技@TG/油管 15
-      - Youtube小露分享 11
-      - Youtube小露分享 12
-      - ww 1282
-      - Youtube小露分享 13
-      - ♥️♥️YouTube梦歌♥️♥️_312
-      - Youtube小露分享 14
-      - 美国阿伟科技@TG/油管 4
-      - Youtube小露分享 15
-      - Youtube小露分享 16
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 新加坡阿伟科技@TG/油管 2
-      - Youtube小露分享 17
-      - ♥️♥️YouTube梦歌♥️♥️_204
-      - ♥️♥️YouTube梦歌♥️♥️_319
-      - 美国（YouTube订阅：侯老师网络学堂） 2
-      - ♥️♥️YouTube梦歌♥️♥️_336
-      - Youtube小露分享 18
-      - 日本阿伟科技@TG/油管 8
-      - ♥️♥️YouTube梦歌♥️♥️_193
-      - ♥️♥️YouTube梦歌♥️♥️_322
-      - ♥️♥️YouTube梦歌♥️♥️_330
-      - ♥️♥️YouTube梦歌♥️♥️_318
-      - 香港阿伟科技@TG/油管 16
-      - 科技网络 2
-      - ♥️♥️YouTube梦歌♥️♥️_313
-      - ww 22 2
-      - ♥️♥️YouTube梦歌♥️♥️_119
-      - Youtube小露分享 19
-      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
-      - Youtube小露分享 20
-      - Youtube小露分享 21
-      - Youtube小露分享 22
-      - Youtube小露分享 23
-      - 美国【YouTube由零開始】
-      - （YouTube订阅：侯老师网络学堂）_6.10Mb
-      - Youtube小露分享 24
-      - （YouTube订阅：侯老师网络学堂）_6.45Mb
-      - 加拿大【YouTube由零開始】
-      - GB英国(Youtube频道：工具大师！)
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - 科技网络 3
+      - 🇸🇬 新加坡阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管
+      - ♥️YouTube梦歌♥️_104
+      - 🇯🇵 日本阿伟科技@TG/油管
+      - 🇭🇰 香港阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_89
+      - 🇯🇵 日本阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管 3
+      - ♥️YouTube梦歌♥️_62
+      - 🇯🇵 日本阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 4
+      - ♥️YouTube梦歌♥️_60
+      - 🇯🇵 日本阿伟科技@TG/油管 5
+      - 🇺🇸 美国阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 6
+      - ♥️YouTube梦歌♥️_90
+      - 🇯🇵 日本阿伟科技@TG/油管 7
+      - ♥️YouTube梦歌♥️_84
+      - ♥️YouTube梦歌♥️_82
+      - 🇯🇵 日本阿伟科技@TG/油管 8
+      - 🇯🇵 日本阿伟科技@TG/油管 9
+      - 🇯🇵 日本阿伟科技@TG/油管 10
+      - 🇯🇵 日本阿伟科技@TG/油管 11
+      - ♥️YouTube梦歌♥️_54
+      - 🇯🇵 日本阿伟科技@TG/油管 12
+      - ♥️YouTube梦歌♥️_93
+      - 🇯🇵 日本阿伟科技@TG/油管 13
+      - 🇯🇵 日本阿伟科技@TG/油管 14
+      - 🇸🇬 新加坡阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_85
+      - 🇺🇸 美国阿伟科技@TG/油管 4
+      - 🇭🇰 香港阿伟科技@TG/油管 4
+      - 🇸🇬 新加坡阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 15
+      - 🇯🇵 日本阿伟科技@TG/油管 16
+      - 🇺🇸 美国阿伟科技@TG/油管 5
+      - 🇭🇰 香港阿伟科技@TG/油管 5
+      - ♥️YouTube梦歌♥️_80
+      - ♥️YouTube梦歌♥️_55
+      - 🇯🇵 日本阿伟科技@TG/油管 17
+      - 🇯🇵 日本阿伟科技@TG/油管 18
+      - ♥️YouTube梦歌♥️_102
+      - 🇯🇵 日本阿伟科技@TG/油管 19
+      - ♥️YouTube梦歌♥️_83
+      - 🇯🇵 日本阿伟科技@TG/油管 20
+      - 🇺🇸 美国阿伟科技@TG/油管 6
+      - 🇺🇸 美国阿伟科技@TG/油管 7
+      - 🇯🇵 日本阿伟科技@TG/油管 21
+      - 🇯🇵 日本阿伟科技@TG/油管 22
+      - 🇭🇰 香港阿伟科技@TG/油管 6
+      - ♥️YouTube梦歌♥️_99
+      - 🇯🇵 日本阿伟科技@TG/油管 23
+      - ♥️YouTube梦歌♥️_91
+      - ♥️YouTube梦歌♥️_101
+      - 🇯🇵 日本阿伟科技@TG/油管 24
+      - ♥️YouTube梦歌♥️_88
+      - 🇯🇵 日本阿伟科技@TG/油管 25
+      - 🇭🇰 香港阿伟科技@TG/油管 7
+      - 🇯🇵 日本阿伟科技@TG/油管 26
+      - 🇸🇬 新加坡阿伟科技@TG/油管 4
+      - ♥️YouTube梦歌♥️_1
+      - 🇺🇸 美国阿伟科技@TG/油管 8
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_95
+      - 🇯🇵 日本阿伟科技@TG/油管 27
+      - 🇯🇵 日本阿伟科技@TG/油管 28
+      - 🇯🇵 日本阿伟科技@TG/油管 29
+      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇨🇳 台湾阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_86
+      - ♥️YouTube梦歌♥️_24
+      - ♥️YouTube梦歌♥️_103
+      - ♥️YouTube梦歌♥️_98
+      - 🇯🇵 日本阿伟科技@TG/油管 30
+      - 🇯🇵 日本阿伟科技@TG/油管 31
+      - 🇯🇵 日本阿伟科技@TG/油管 32
+      - 🇯🇵 日本阿伟科技@TG/油管 33
+      - 🇯🇵 日本阿伟科技@TG/油管 34
+      - 🇰🇷 韩国阿伟科技@TG/油管
+      - ♥️YouTube梦歌♥️_76
+      - 🇺🇸 美国阿伟科技@TG/油管 9
+      - 🇺🇸 美国阿伟科技@TG/油管 10
+      - 🇰🇷 韩国阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_90 2
+      - 🇺🇸 美国阿伟科技@TG/油管 11
+      - ♥️YouTube梦歌♥️_85 2
+      - 🇺🇸 美国阿伟科技@TG/油管 12
+      - ♥️YouTube梦歌♥️_4
+      - ♥️YouTube梦歌♥️_84 2
+      - 🇺🇸 美国阿伟科技@TG/油管 13
+      - ♥️YouTube梦歌♥️_78
+      - ♥️YouTube梦歌♥️_30
+      - ♥️YouTube梦歌♥️_111
+      - ♥️YouTube梦歌♥️_7
+      - ♥️YouTube梦歌♥️_6
+      - 🇺🇸 美国阿伟科技@TG/油管 14
+      - 🇯🇵 日本阿伟科技@TG/油管 35
+      - ♥️YouTube梦歌♥️_105
+      - ♥️YouTube梦歌♥️_1 2
+      - ♥️YouTube梦歌♥️_86 2
+      - ♥️YouTube梦歌♥️_40
+      - 🇯🇵 日本阿伟科技@TG/油管 36
+      - ♥️YouTube梦歌♥️_75
+      - ♥️YouTube梦歌♥️_69
+      - ♥️YouTube梦歌♥️_89 2
+      - ♥️YouTube梦歌♥️_70
+      - ♥️YouTube梦歌♥️_21
+      - ♥️YouTube梦歌♥️_94
+      - ♥️YouTube梦歌♥️_92
+      - ♥️YouTube梦歌♥️_88 2
+      - ♥️YouTube梦歌♥️_71
+      - ♥️YouTube梦歌♥️_79
+      - ♥️YouTube梦歌♥️_16
+      - 🇺🇸 美国阿伟科技@TG/油管 15
+      - ♥️YouTube梦歌♥️_82 2
+      - ♥️YouTube梦歌♥️_73
+      - ♥️YouTube梦歌♥️_12
+      - ♥️YouTube梦歌♥️_53
+      - ♥️YouTube梦歌♥️_65
+      - ♥️YouTube梦歌♥️_23
+      - ♥️YouTube梦歌♥️_52
+      - ♥️YouTube梦歌♥️_50
+      - ♥️YouTube梦歌♥️_72
+      - ♥️YouTube梦歌♥️_17
+      - ♥️YouTube梦歌♥️_46
+      - ♥️YouTube梦歌♥️_81
+      - ♥️YouTube梦歌♥️_91 2
+      - 🇭🇰 香港阿伟科技@TG/油管 8
+      - ♥️YouTube梦歌♥️_80 2
+      - ♥️YouTube梦歌♥️_23 2
+      - 🇺🇸 美国阿伟科技@TG/油管 16
+      - ♥️YouTube梦歌♥️_37
+      - 🇺🇸 美国阿伟科技@TG/油管 17
+      - 🇺🇸 美国阿伟科技@TG/油管 18
+      - ♥️YouTube梦歌♥️_104 2
+      - 🇺🇸 美国阿伟科技@TG/油管 19
+      - ♥️YouTube梦歌♥️_83 2
+      - ♥️YouTube梦歌♥️_48
+      - ♥️YouTube梦歌♥️_44
+      - ♥️YouTube梦歌♥️_46 2
+      - 🇺🇸 美国阿伟科技@TG/油管 20
+      - 🇯🇵 日本阿伟科技@TG/油管 37
+      - ♥️YouTube梦歌♥️_36
+      - ♥️YouTube梦歌♥️_21 2
+      - ♥️YouTube梦歌♥️_9
+      - 🇭🇰 香港阿伟科技@TG/油管 9
+      - 🇯🇵 日本阿伟科技@TG/油管 38
+      - 🇺🇸 美国阿伟科技@TG/油管 21
+      - ♥️YouTube梦歌♥️_44 2
+      - 🇺🇸 美国阿伟科技@TG/油管 22
+      - 🇺🇸 美国阿伟科技@TG/油管 23
+      - 🇺🇸 美国阿伟科技@TG/油管 24
+      - 🇺🇸 美国阿伟科技@TG/油管 25
+      - ♥️YouTube梦歌♥️_110
+      - ♥️YouTube梦歌♥️_87
+      - ♥️YouTube梦歌♥️_8
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_20
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 香港阿伟科技@TG/油管 3
-      - 香港阿伟科技@TG/油管 4
-      - 新加坡阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 5
-      - 香港阿伟科技
-      - 香港阿伟科技@TG/油管 2 2
-      - HK_香港_油管 TG 8度科技
-      - 台湾阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 6
-      - 香港阿伟科技@TG/油管 7
-      - Youtube小露分享
-      - 香港阿伟科技@TG/油管 8
-      - 香港阿伟科技@TG/油管 9
-      - 日本阿伟科技@TG/油管
-      - HK_香港_油管 TG 8度科技 2
-      - 香港(Youtube频道：工具大师！)
-      - 香港阿伟科技@TG/油管 10
-      - 香港阿伟科技@TG/油管 11
-      - 美国阿伟科技
-      - 香港阿伟科技@TG/油管 12
-      - 韩国阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_179
-      - HK_香港_油管 TG 8度科技 3
-      - 日本阿伟科技@TG/油管 2
-      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
-      - 日本阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 2
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Youtube小露分享 2
-      - ♥️♥️YouTube梦歌♥️♥️_506
-      - 日本阿伟科技@TG/油管 4
-      - 香港阿伟科技@TG/油管 13
-      - ww 894
-      - 美国（YouTube订阅：侯老师网络学堂）
-      - (ios软件代购小火箭|ioskaka.com)
-      - 韩国阿伟科技@TG/油管 3
-      - ♥️♥️YouTube梦歌♥️♥️_175
-      - Youtube小露分享 3
-      - ww 1400
-      - 美国阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 3
-      - 科技网络
-      - Youtube小露分享 4
-      - ♥️♥️YouTube梦歌♥️♥️_176
-      - 日本阿伟科技@TG/油管 5
-      - 香港阿伟科技@TG/油管 14
-      - ♥️♥️YouTube梦歌♥️♥️_525
-      - 日本阿伟科技@TG/油管 6
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - Youtube小露分享 5
-      - Ytb:鹏哥分享_中国_39
-      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
-      - Youtube小露分享 6
-      - Youtube小露分享 7
-      - ♥️♥️YouTube梦歌♥️♥️_116
-      - ♥️♥️YouTube梦歌♥️♥️_310
-      - ♥️♥️YouTube梦歌♥️♥️_327
-      - Ytb:鹏哥分享_台湾_32
-      - Youtube小露分享 8
-      - 英国（YouTube订阅：侯老师网络学堂）
-      - ♥️♥️YouTube梦歌♥️♥️_311
-      - Youtube小露分享 9
-      - 韩国阿伟科技@TG/油管 4
-      - 日本阿伟科技@TG/油管 7
-      - Youtube小露分享 10
-      - 香港阿伟科技@TG/油管 15
-      - Youtube小露分享 11
-      - Youtube小露分享 12
-      - ww 1282
-      - Youtube小露分享 13
-      - ♥️♥️YouTube梦歌♥️♥️_312
-      - Youtube小露分享 14
-      - 美国阿伟科技@TG/油管 4
-      - Youtube小露分享 15
-      - Youtube小露分享 16
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 新加坡阿伟科技@TG/油管 2
-      - Youtube小露分享 17
-      - ♥️♥️YouTube梦歌♥️♥️_204
-      - ♥️♥️YouTube梦歌♥️♥️_319
-      - 美国（YouTube订阅：侯老师网络学堂） 2
-      - ♥️♥️YouTube梦歌♥️♥️_336
-      - Youtube小露分享 18
-      - 日本阿伟科技@TG/油管 8
-      - ♥️♥️YouTube梦歌♥️♥️_193
-      - ♥️♥️YouTube梦歌♥️♥️_322
-      - ♥️♥️YouTube梦歌♥️♥️_330
-      - ♥️♥️YouTube梦歌♥️♥️_318
-      - 香港阿伟科技@TG/油管 16
-      - 科技网络 2
-      - ♥️♥️YouTube梦歌♥️♥️_313
-      - ww 22 2
-      - ♥️♥️YouTube梦歌♥️♥️_119
-      - Youtube小露分享 19
-      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
-      - Youtube小露分享 20
-      - Youtube小露分享 21
-      - Youtube小露分享 22
-      - Youtube小露分享 23
-      - 美国【YouTube由零開始】
-      - （YouTube订阅：侯老师网络学堂）_6.10Mb
-      - Youtube小露分享 24
-      - （YouTube订阅：侯老师网络学堂）_6.45Mb
-      - 加拿大【YouTube由零開始】
-      - GB英国(Youtube频道：工具大师！)
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - 科技网络 3
+      - 🇸🇬 新加坡阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管
+      - ♥️YouTube梦歌♥️_104
+      - 🇯🇵 日本阿伟科技@TG/油管
+      - 🇭🇰 香港阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_89
+      - 🇯🇵 日本阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管 3
+      - ♥️YouTube梦歌♥️_62
+      - 🇯🇵 日本阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 4
+      - ♥️YouTube梦歌♥️_60
+      - 🇯🇵 日本阿伟科技@TG/油管 5
+      - 🇺🇸 美国阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 6
+      - ♥️YouTube梦歌♥️_90
+      - 🇯🇵 日本阿伟科技@TG/油管 7
+      - ♥️YouTube梦歌♥️_84
+      - ♥️YouTube梦歌♥️_82
+      - 🇯🇵 日本阿伟科技@TG/油管 8
+      - 🇯🇵 日本阿伟科技@TG/油管 9
+      - 🇯🇵 日本阿伟科技@TG/油管 10
+      - 🇯🇵 日本阿伟科技@TG/油管 11
+      - ♥️YouTube梦歌♥️_54
+      - 🇯🇵 日本阿伟科技@TG/油管 12
+      - ♥️YouTube梦歌♥️_93
+      - 🇯🇵 日本阿伟科技@TG/油管 13
+      - 🇯🇵 日本阿伟科技@TG/油管 14
+      - 🇸🇬 新加坡阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_85
+      - 🇺🇸 美国阿伟科技@TG/油管 4
+      - 🇭🇰 香港阿伟科技@TG/油管 4
+      - 🇸🇬 新加坡阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 15
+      - 🇯🇵 日本阿伟科技@TG/油管 16
+      - 🇺🇸 美国阿伟科技@TG/油管 5
+      - 🇭🇰 香港阿伟科技@TG/油管 5
+      - ♥️YouTube梦歌♥️_80
+      - ♥️YouTube梦歌♥️_55
+      - 🇯🇵 日本阿伟科技@TG/油管 17
+      - 🇯🇵 日本阿伟科技@TG/油管 18
+      - ♥️YouTube梦歌♥️_102
+      - 🇯🇵 日本阿伟科技@TG/油管 19
+      - ♥️YouTube梦歌♥️_83
+      - 🇯🇵 日本阿伟科技@TG/油管 20
+      - 🇺🇸 美国阿伟科技@TG/油管 6
+      - 🇺🇸 美国阿伟科技@TG/油管 7
+      - 🇯🇵 日本阿伟科技@TG/油管 21
+      - 🇯🇵 日本阿伟科技@TG/油管 22
+      - 🇭🇰 香港阿伟科技@TG/油管 6
+      - ♥️YouTube梦歌♥️_99
+      - 🇯🇵 日本阿伟科技@TG/油管 23
+      - ♥️YouTube梦歌♥️_91
+      - ♥️YouTube梦歌♥️_101
+      - 🇯🇵 日本阿伟科技@TG/油管 24
+      - ♥️YouTube梦歌♥️_88
+      - 🇯🇵 日本阿伟科技@TG/油管 25
+      - 🇭🇰 香港阿伟科技@TG/油管 7
+      - 🇯🇵 日本阿伟科技@TG/油管 26
+      - 🇸🇬 新加坡阿伟科技@TG/油管 4
+      - ♥️YouTube梦歌♥️_1
+      - 🇺🇸 美国阿伟科技@TG/油管 8
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_95
+      - 🇯🇵 日本阿伟科技@TG/油管 27
+      - 🇯🇵 日本阿伟科技@TG/油管 28
+      - 🇯🇵 日本阿伟科技@TG/油管 29
+      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇨🇳 台湾阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_86
+      - ♥️YouTube梦歌♥️_24
+      - ♥️YouTube梦歌♥️_103
+      - ♥️YouTube梦歌♥️_98
+      - 🇯🇵 日本阿伟科技@TG/油管 30
+      - 🇯🇵 日本阿伟科技@TG/油管 31
+      - 🇯🇵 日本阿伟科技@TG/油管 32
+      - 🇯🇵 日本阿伟科技@TG/油管 33
+      - 🇯🇵 日本阿伟科技@TG/油管 34
+      - 🇰🇷 韩国阿伟科技@TG/油管
+      - ♥️YouTube梦歌♥️_76
+      - 🇺🇸 美国阿伟科技@TG/油管 9
+      - 🇺🇸 美国阿伟科技@TG/油管 10
+      - 🇰🇷 韩国阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_90 2
+      - 🇺🇸 美国阿伟科技@TG/油管 11
+      - ♥️YouTube梦歌♥️_85 2
+      - 🇺🇸 美国阿伟科技@TG/油管 12
+      - ♥️YouTube梦歌♥️_4
+      - ♥️YouTube梦歌♥️_84 2
+      - 🇺🇸 美国阿伟科技@TG/油管 13
+      - ♥️YouTube梦歌♥️_78
+      - ♥️YouTube梦歌♥️_30
+      - ♥️YouTube梦歌♥️_111
+      - ♥️YouTube梦歌♥️_7
+      - ♥️YouTube梦歌♥️_6
+      - 🇺🇸 美国阿伟科技@TG/油管 14
+      - 🇯🇵 日本阿伟科技@TG/油管 35
+      - ♥️YouTube梦歌♥️_105
+      - ♥️YouTube梦歌♥️_1 2
+      - ♥️YouTube梦歌♥️_86 2
+      - ♥️YouTube梦歌♥️_40
+      - 🇯🇵 日本阿伟科技@TG/油管 36
+      - ♥️YouTube梦歌♥️_75
+      - ♥️YouTube梦歌♥️_69
+      - ♥️YouTube梦歌♥️_89 2
+      - ♥️YouTube梦歌♥️_70
+      - ♥️YouTube梦歌♥️_21
+      - ♥️YouTube梦歌♥️_94
+      - ♥️YouTube梦歌♥️_92
+      - ♥️YouTube梦歌♥️_88 2
+      - ♥️YouTube梦歌♥️_71
+      - ♥️YouTube梦歌♥️_79
+      - ♥️YouTube梦歌♥️_16
+      - 🇺🇸 美国阿伟科技@TG/油管 15
+      - ♥️YouTube梦歌♥️_82 2
+      - ♥️YouTube梦歌♥️_73
+      - ♥️YouTube梦歌♥️_12
+      - ♥️YouTube梦歌♥️_53
+      - ♥️YouTube梦歌♥️_65
+      - ♥️YouTube梦歌♥️_23
+      - ♥️YouTube梦歌♥️_52
+      - ♥️YouTube梦歌♥️_50
+      - ♥️YouTube梦歌♥️_72
+      - ♥️YouTube梦歌♥️_17
+      - ♥️YouTube梦歌♥️_46
+      - ♥️YouTube梦歌♥️_81
+      - ♥️YouTube梦歌♥️_91 2
+      - 🇭🇰 香港阿伟科技@TG/油管 8
+      - ♥️YouTube梦歌♥️_80 2
+      - ♥️YouTube梦歌♥️_23 2
+      - 🇺🇸 美国阿伟科技@TG/油管 16
+      - ♥️YouTube梦歌♥️_37
+      - 🇺🇸 美国阿伟科技@TG/油管 17
+      - 🇺🇸 美国阿伟科技@TG/油管 18
+      - ♥️YouTube梦歌♥️_104 2
+      - 🇺🇸 美国阿伟科技@TG/油管 19
+      - ♥️YouTube梦歌♥️_83 2
+      - ♥️YouTube梦歌♥️_48
+      - ♥️YouTube梦歌♥️_44
+      - ♥️YouTube梦歌♥️_46 2
+      - 🇺🇸 美国阿伟科技@TG/油管 20
+      - 🇯🇵 日本阿伟科技@TG/油管 37
+      - ♥️YouTube梦歌♥️_36
+      - ♥️YouTube梦歌♥️_21 2
+      - ♥️YouTube梦歌♥️_9
+      - 🇭🇰 香港阿伟科技@TG/油管 9
+      - 🇯🇵 日本阿伟科技@TG/油管 38
+      - 🇺🇸 美国阿伟科技@TG/油管 21
+      - ♥️YouTube梦歌♥️_44 2
+      - 🇺🇸 美国阿伟科技@TG/油管 22
+      - 🇺🇸 美国阿伟科技@TG/油管 23
+      - 🇺🇸 美国阿伟科技@TG/油管 24
+      - 🇺🇸 美国阿伟科技@TG/油管 25
+      - ♥️YouTube梦歌♥️_110
+      - ♥️YouTube梦歌♥️_87
+      - ♥️YouTube梦歌♥️_8
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_20
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 香港阿伟科技@TG/油管 3
-      - 香港阿伟科技@TG/油管 4
-      - 新加坡阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 5
-      - 香港阿伟科技
-      - 香港阿伟科技@TG/油管 2 2
-      - HK_香港_油管 TG 8度科技
-      - 台湾阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 6
-      - 香港阿伟科技@TG/油管 7
-      - Youtube小露分享
-      - 香港阿伟科技@TG/油管 8
-      - 香港阿伟科技@TG/油管 9
-      - 日本阿伟科技@TG/油管
-      - HK_香港_油管 TG 8度科技 2
-      - 香港(Youtube频道：工具大师！)
-      - 香港阿伟科技@TG/油管 10
-      - 香港阿伟科技@TG/油管 11
-      - 美国阿伟科技
-      - 香港阿伟科技@TG/油管 12
-      - 韩国阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_179
-      - HK_香港_油管 TG 8度科技 3
-      - 日本阿伟科技@TG/油管 2
-      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
-      - 日本阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 2
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Youtube小露分享 2
-      - ♥️♥️YouTube梦歌♥️♥️_506
-      - 日本阿伟科技@TG/油管 4
-      - 香港阿伟科技@TG/油管 13
-      - ww 894
-      - 美国（YouTube订阅：侯老师网络学堂）
-      - (ios软件代购小火箭|ioskaka.com)
-      - 韩国阿伟科技@TG/油管 3
-      - ♥️♥️YouTube梦歌♥️♥️_175
-      - Youtube小露分享 3
-      - ww 1400
-      - 美国阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 3
-      - 科技网络
-      - Youtube小露分享 4
-      - ♥️♥️YouTube梦歌♥️♥️_176
-      - 日本阿伟科技@TG/油管 5
-      - 香港阿伟科技@TG/油管 14
-      - ♥️♥️YouTube梦歌♥️♥️_525
-      - 日本阿伟科技@TG/油管 6
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - Youtube小露分享 5
-      - Ytb:鹏哥分享_中国_39
-      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
-      - Youtube小露分享 6
-      - Youtube小露分享 7
-      - ♥️♥️YouTube梦歌♥️♥️_116
-      - ♥️♥️YouTube梦歌♥️♥️_310
-      - ♥️♥️YouTube梦歌♥️♥️_327
-      - Ytb:鹏哥分享_台湾_32
-      - Youtube小露分享 8
-      - 英国（YouTube订阅：侯老师网络学堂）
-      - ♥️♥️YouTube梦歌♥️♥️_311
-      - Youtube小露分享 9
-      - 韩国阿伟科技@TG/油管 4
-      - 日本阿伟科技@TG/油管 7
-      - Youtube小露分享 10
-      - 香港阿伟科技@TG/油管 15
-      - Youtube小露分享 11
-      - Youtube小露分享 12
-      - ww 1282
-      - Youtube小露分享 13
-      - ♥️♥️YouTube梦歌♥️♥️_312
-      - Youtube小露分享 14
-      - 美国阿伟科技@TG/油管 4
-      - Youtube小露分享 15
-      - Youtube小露分享 16
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 新加坡阿伟科技@TG/油管 2
-      - Youtube小露分享 17
-      - ♥️♥️YouTube梦歌♥️♥️_204
-      - ♥️♥️YouTube梦歌♥️♥️_319
-      - 美国（YouTube订阅：侯老师网络学堂） 2
-      - ♥️♥️YouTube梦歌♥️♥️_336
-      - Youtube小露分享 18
-      - 日本阿伟科技@TG/油管 8
-      - ♥️♥️YouTube梦歌♥️♥️_193
-      - ♥️♥️YouTube梦歌♥️♥️_322
-      - ♥️♥️YouTube梦歌♥️♥️_330
-      - ♥️♥️YouTube梦歌♥️♥️_318
-      - 香港阿伟科技@TG/油管 16
-      - 科技网络 2
-      - ♥️♥️YouTube梦歌♥️♥️_313
-      - ww 22 2
-      - ♥️♥️YouTube梦歌♥️♥️_119
-      - Youtube小露分享 19
-      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
-      - Youtube小露分享 20
-      - Youtube小露分享 21
-      - Youtube小露分享 22
-      - Youtube小露分享 23
-      - 美国【YouTube由零開始】
-      - （YouTube订阅：侯老师网络学堂）_6.10Mb
-      - Youtube小露分享 24
-      - （YouTube订阅：侯老师网络学堂）_6.45Mb
-      - 加拿大【YouTube由零開始】
-      - GB英国(Youtube频道：工具大师！)
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - 科技网络 3
+      - 🇸🇬 新加坡阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管
+      - ♥️YouTube梦歌♥️_104
+      - 🇯🇵 日本阿伟科技@TG/油管
+      - 🇭🇰 香港阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_89
+      - 🇯🇵 日本阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管 3
+      - ♥️YouTube梦歌♥️_62
+      - 🇯🇵 日本阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 4
+      - ♥️YouTube梦歌♥️_60
+      - 🇯🇵 日本阿伟科技@TG/油管 5
+      - 🇺🇸 美国阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 6
+      - ♥️YouTube梦歌♥️_90
+      - 🇯🇵 日本阿伟科技@TG/油管 7
+      - ♥️YouTube梦歌♥️_84
+      - ♥️YouTube梦歌♥️_82
+      - 🇯🇵 日本阿伟科技@TG/油管 8
+      - 🇯🇵 日本阿伟科技@TG/油管 9
+      - 🇯🇵 日本阿伟科技@TG/油管 10
+      - 🇯🇵 日本阿伟科技@TG/油管 11
+      - ♥️YouTube梦歌♥️_54
+      - 🇯🇵 日本阿伟科技@TG/油管 12
+      - ♥️YouTube梦歌♥️_93
+      - 🇯🇵 日本阿伟科技@TG/油管 13
+      - 🇯🇵 日本阿伟科技@TG/油管 14
+      - 🇸🇬 新加坡阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_85
+      - 🇺🇸 美国阿伟科技@TG/油管 4
+      - 🇭🇰 香港阿伟科技@TG/油管 4
+      - 🇸🇬 新加坡阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 15
+      - 🇯🇵 日本阿伟科技@TG/油管 16
+      - 🇺🇸 美国阿伟科技@TG/油管 5
+      - 🇭🇰 香港阿伟科技@TG/油管 5
+      - ♥️YouTube梦歌♥️_80
+      - ♥️YouTube梦歌♥️_55
+      - 🇯🇵 日本阿伟科技@TG/油管 17
+      - 🇯🇵 日本阿伟科技@TG/油管 18
+      - ♥️YouTube梦歌♥️_102
+      - 🇯🇵 日本阿伟科技@TG/油管 19
+      - ♥️YouTube梦歌♥️_83
+      - 🇯🇵 日本阿伟科技@TG/油管 20
+      - 🇺🇸 美国阿伟科技@TG/油管 6
+      - 🇺🇸 美国阿伟科技@TG/油管 7
+      - 🇯🇵 日本阿伟科技@TG/油管 21
+      - 🇯🇵 日本阿伟科技@TG/油管 22
+      - 🇭🇰 香港阿伟科技@TG/油管 6
+      - ♥️YouTube梦歌♥️_99
+      - 🇯🇵 日本阿伟科技@TG/油管 23
+      - ♥️YouTube梦歌♥️_91
+      - ♥️YouTube梦歌♥️_101
+      - 🇯🇵 日本阿伟科技@TG/油管 24
+      - ♥️YouTube梦歌♥️_88
+      - 🇯🇵 日本阿伟科技@TG/油管 25
+      - 🇭🇰 香港阿伟科技@TG/油管 7
+      - 🇯🇵 日本阿伟科技@TG/油管 26
+      - 🇸🇬 新加坡阿伟科技@TG/油管 4
+      - ♥️YouTube梦歌♥️_1
+      - 🇺🇸 美国阿伟科技@TG/油管 8
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_95
+      - 🇯🇵 日本阿伟科技@TG/油管 27
+      - 🇯🇵 日本阿伟科技@TG/油管 28
+      - 🇯🇵 日本阿伟科技@TG/油管 29
+      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇨🇳 台湾阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_86
+      - ♥️YouTube梦歌♥️_24
+      - ♥️YouTube梦歌♥️_103
+      - ♥️YouTube梦歌♥️_98
+      - 🇯🇵 日本阿伟科技@TG/油管 30
+      - 🇯🇵 日本阿伟科技@TG/油管 31
+      - 🇯🇵 日本阿伟科技@TG/油管 32
+      - 🇯🇵 日本阿伟科技@TG/油管 33
+      - 🇯🇵 日本阿伟科技@TG/油管 34
+      - 🇰🇷 韩国阿伟科技@TG/油管
+      - ♥️YouTube梦歌♥️_76
+      - 🇺🇸 美国阿伟科技@TG/油管 9
+      - 🇺🇸 美国阿伟科技@TG/油管 10
+      - 🇰🇷 韩国阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_90 2
+      - 🇺🇸 美国阿伟科技@TG/油管 11
+      - ♥️YouTube梦歌♥️_85 2
+      - 🇺🇸 美国阿伟科技@TG/油管 12
+      - ♥️YouTube梦歌♥️_4
+      - ♥️YouTube梦歌♥️_84 2
+      - 🇺🇸 美国阿伟科技@TG/油管 13
+      - ♥️YouTube梦歌♥️_78
+      - ♥️YouTube梦歌♥️_30
+      - ♥️YouTube梦歌♥️_111
+      - ♥️YouTube梦歌♥️_7
+      - ♥️YouTube梦歌♥️_6
+      - 🇺🇸 美国阿伟科技@TG/油管 14
+      - 🇯🇵 日本阿伟科技@TG/油管 35
+      - ♥️YouTube梦歌♥️_105
+      - ♥️YouTube梦歌♥️_1 2
+      - ♥️YouTube梦歌♥️_86 2
+      - ♥️YouTube梦歌♥️_40
+      - 🇯🇵 日本阿伟科技@TG/油管 36
+      - ♥️YouTube梦歌♥️_75
+      - ♥️YouTube梦歌♥️_69
+      - ♥️YouTube梦歌♥️_89 2
+      - ♥️YouTube梦歌♥️_70
+      - ♥️YouTube梦歌♥️_21
+      - ♥️YouTube梦歌♥️_94
+      - ♥️YouTube梦歌♥️_92
+      - ♥️YouTube梦歌♥️_88 2
+      - ♥️YouTube梦歌♥️_71
+      - ♥️YouTube梦歌♥️_79
+      - ♥️YouTube梦歌♥️_16
+      - 🇺🇸 美国阿伟科技@TG/油管 15
+      - ♥️YouTube梦歌♥️_82 2
+      - ♥️YouTube梦歌♥️_73
+      - ♥️YouTube梦歌♥️_12
+      - ♥️YouTube梦歌♥️_53
+      - ♥️YouTube梦歌♥️_65
+      - ♥️YouTube梦歌♥️_23
+      - ♥️YouTube梦歌♥️_52
+      - ♥️YouTube梦歌♥️_50
+      - ♥️YouTube梦歌♥️_72
+      - ♥️YouTube梦歌♥️_17
+      - ♥️YouTube梦歌♥️_46
+      - ♥️YouTube梦歌♥️_81
+      - ♥️YouTube梦歌♥️_91 2
+      - 🇭🇰 香港阿伟科技@TG/油管 8
+      - ♥️YouTube梦歌♥️_80 2
+      - ♥️YouTube梦歌♥️_23 2
+      - 🇺🇸 美国阿伟科技@TG/油管 16
+      - ♥️YouTube梦歌♥️_37
+      - 🇺🇸 美国阿伟科技@TG/油管 17
+      - 🇺🇸 美国阿伟科技@TG/油管 18
+      - ♥️YouTube梦歌♥️_104 2
+      - 🇺🇸 美国阿伟科技@TG/油管 19
+      - ♥️YouTube梦歌♥️_83 2
+      - ♥️YouTube梦歌♥️_48
+      - ♥️YouTube梦歌♥️_44
+      - ♥️YouTube梦歌♥️_46 2
+      - 🇺🇸 美国阿伟科技@TG/油管 20
+      - 🇯🇵 日本阿伟科技@TG/油管 37
+      - ♥️YouTube梦歌♥️_36
+      - ♥️YouTube梦歌♥️_21 2
+      - ♥️YouTube梦歌♥️_9
+      - 🇭🇰 香港阿伟科技@TG/油管 9
+      - 🇯🇵 日本阿伟科技@TG/油管 38
+      - 🇺🇸 美国阿伟科技@TG/油管 21
+      - ♥️YouTube梦歌♥️_44 2
+      - 🇺🇸 美国阿伟科技@TG/油管 22
+      - 🇺🇸 美国阿伟科技@TG/油管 23
+      - 🇺🇸 美国阿伟科技@TG/油管 24
+      - 🇺🇸 美国阿伟科技@TG/油管 25
+      - ♥️YouTube梦歌♥️_110
+      - ♥️YouTube梦歌♥️_87
+      - ♥️YouTube梦歌♥️_8
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_20
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 香港阿伟科技@TG/油管 3
-      - 香港阿伟科技@TG/油管 4
-      - 新加坡阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 5
-      - 香港阿伟科技
-      - 香港阿伟科技@TG/油管 2 2
-      - HK_香港_油管 TG 8度科技
-      - 台湾阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 6
-      - 香港阿伟科技@TG/油管 7
-      - Youtube小露分享
-      - 香港阿伟科技@TG/油管 8
-      - 香港阿伟科技@TG/油管 9
-      - 日本阿伟科技@TG/油管
-      - HK_香港_油管 TG 8度科技 2
-      - 香港(Youtube频道：工具大师！)
-      - 香港阿伟科技@TG/油管 10
-      - 香港阿伟科技@TG/油管 11
-      - 美国阿伟科技
-      - 香港阿伟科技@TG/油管 12
-      - 韩国阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_179
-      - HK_香港_油管 TG 8度科技 3
-      - 日本阿伟科技@TG/油管 2
-      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
-      - 日本阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 2
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Youtube小露分享 2
-      - ♥️♥️YouTube梦歌♥️♥️_506
-      - 日本阿伟科技@TG/油管 4
-      - 香港阿伟科技@TG/油管 13
-      - ww 894
-      - 美国（YouTube订阅：侯老师网络学堂）
-      - (ios软件代购小火箭|ioskaka.com)
-      - 韩国阿伟科技@TG/油管 3
-      - ♥️♥️YouTube梦歌♥️♥️_175
-      - Youtube小露分享 3
-      - ww 1400
-      - 美国阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 3
-      - 科技网络
-      - Youtube小露分享 4
-      - ♥️♥️YouTube梦歌♥️♥️_176
-      - 日本阿伟科技@TG/油管 5
-      - 香港阿伟科技@TG/油管 14
-      - ♥️♥️YouTube梦歌♥️♥️_525
-      - 日本阿伟科技@TG/油管 6
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - Youtube小露分享 5
-      - Ytb:鹏哥分享_中国_39
-      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
-      - Youtube小露分享 6
-      - Youtube小露分享 7
-      - ♥️♥️YouTube梦歌♥️♥️_116
-      - ♥️♥️YouTube梦歌♥️♥️_310
-      - ♥️♥️YouTube梦歌♥️♥️_327
-      - Ytb:鹏哥分享_台湾_32
-      - Youtube小露分享 8
-      - 英国（YouTube订阅：侯老师网络学堂）
-      - ♥️♥️YouTube梦歌♥️♥️_311
-      - Youtube小露分享 9
-      - 韩国阿伟科技@TG/油管 4
-      - 日本阿伟科技@TG/油管 7
-      - Youtube小露分享 10
-      - 香港阿伟科技@TG/油管 15
-      - Youtube小露分享 11
-      - Youtube小露分享 12
-      - ww 1282
-      - Youtube小露分享 13
-      - ♥️♥️YouTube梦歌♥️♥️_312
-      - Youtube小露分享 14
-      - 美国阿伟科技@TG/油管 4
-      - Youtube小露分享 15
-      - Youtube小露分享 16
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 新加坡阿伟科技@TG/油管 2
-      - Youtube小露分享 17
-      - ♥️♥️YouTube梦歌♥️♥️_204
-      - ♥️♥️YouTube梦歌♥️♥️_319
-      - 美国（YouTube订阅：侯老师网络学堂） 2
-      - ♥️♥️YouTube梦歌♥️♥️_336
-      - Youtube小露分享 18
-      - 日本阿伟科技@TG/油管 8
-      - ♥️♥️YouTube梦歌♥️♥️_193
-      - ♥️♥️YouTube梦歌♥️♥️_322
-      - ♥️♥️YouTube梦歌♥️♥️_330
-      - ♥️♥️YouTube梦歌♥️♥️_318
-      - 香港阿伟科技@TG/油管 16
-      - 科技网络 2
-      - ♥️♥️YouTube梦歌♥️♥️_313
-      - ww 22 2
-      - ♥️♥️YouTube梦歌♥️♥️_119
-      - Youtube小露分享 19
-      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
-      - Youtube小露分享 20
-      - Youtube小露分享 21
-      - Youtube小露分享 22
-      - Youtube小露分享 23
-      - 美国【YouTube由零開始】
-      - （YouTube订阅：侯老师网络学堂）_6.10Mb
-      - Youtube小露分享 24
-      - （YouTube订阅：侯老师网络学堂）_6.45Mb
-      - 加拿大【YouTube由零開始】
-      - GB英国(Youtube频道：工具大师！)
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - 科技网络 3
+      - 🇸🇬 新加坡阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管
+      - ♥️YouTube梦歌♥️_104
+      - 🇯🇵 日本阿伟科技@TG/油管
+      - 🇭🇰 香港阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_89
+      - 🇯🇵 日本阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管 3
+      - ♥️YouTube梦歌♥️_62
+      - 🇯🇵 日本阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 4
+      - ♥️YouTube梦歌♥️_60
+      - 🇯🇵 日本阿伟科技@TG/油管 5
+      - 🇺🇸 美国阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 6
+      - ♥️YouTube梦歌♥️_90
+      - 🇯🇵 日本阿伟科技@TG/油管 7
+      - ♥️YouTube梦歌♥️_84
+      - ♥️YouTube梦歌♥️_82
+      - 🇯🇵 日本阿伟科技@TG/油管 8
+      - 🇯🇵 日本阿伟科技@TG/油管 9
+      - 🇯🇵 日本阿伟科技@TG/油管 10
+      - 🇯🇵 日本阿伟科技@TG/油管 11
+      - ♥️YouTube梦歌♥️_54
+      - 🇯🇵 日本阿伟科技@TG/油管 12
+      - ♥️YouTube梦歌♥️_93
+      - 🇯🇵 日本阿伟科技@TG/油管 13
+      - 🇯🇵 日本阿伟科技@TG/油管 14
+      - 🇸🇬 新加坡阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_85
+      - 🇺🇸 美国阿伟科技@TG/油管 4
+      - 🇭🇰 香港阿伟科技@TG/油管 4
+      - 🇸🇬 新加坡阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 15
+      - 🇯🇵 日本阿伟科技@TG/油管 16
+      - 🇺🇸 美国阿伟科技@TG/油管 5
+      - 🇭🇰 香港阿伟科技@TG/油管 5
+      - ♥️YouTube梦歌♥️_80
+      - ♥️YouTube梦歌♥️_55
+      - 🇯🇵 日本阿伟科技@TG/油管 17
+      - 🇯🇵 日本阿伟科技@TG/油管 18
+      - ♥️YouTube梦歌♥️_102
+      - 🇯🇵 日本阿伟科技@TG/油管 19
+      - ♥️YouTube梦歌♥️_83
+      - 🇯🇵 日本阿伟科技@TG/油管 20
+      - 🇺🇸 美国阿伟科技@TG/油管 6
+      - 🇺🇸 美国阿伟科技@TG/油管 7
+      - 🇯🇵 日本阿伟科技@TG/油管 21
+      - 🇯🇵 日本阿伟科技@TG/油管 22
+      - 🇭🇰 香港阿伟科技@TG/油管 6
+      - ♥️YouTube梦歌♥️_99
+      - 🇯🇵 日本阿伟科技@TG/油管 23
+      - ♥️YouTube梦歌♥️_91
+      - ♥️YouTube梦歌♥️_101
+      - 🇯🇵 日本阿伟科技@TG/油管 24
+      - ♥️YouTube梦歌♥️_88
+      - 🇯🇵 日本阿伟科技@TG/油管 25
+      - 🇭🇰 香港阿伟科技@TG/油管 7
+      - 🇯🇵 日本阿伟科技@TG/油管 26
+      - 🇸🇬 新加坡阿伟科技@TG/油管 4
+      - ♥️YouTube梦歌♥️_1
+      - 🇺🇸 美国阿伟科技@TG/油管 8
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_95
+      - 🇯🇵 日本阿伟科技@TG/油管 27
+      - 🇯🇵 日本阿伟科技@TG/油管 28
+      - 🇯🇵 日本阿伟科技@TG/油管 29
+      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇨🇳 台湾阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_86
+      - ♥️YouTube梦歌♥️_24
+      - ♥️YouTube梦歌♥️_103
+      - ♥️YouTube梦歌♥️_98
+      - 🇯🇵 日本阿伟科技@TG/油管 30
+      - 🇯🇵 日本阿伟科技@TG/油管 31
+      - 🇯🇵 日本阿伟科技@TG/油管 32
+      - 🇯🇵 日本阿伟科技@TG/油管 33
+      - 🇯🇵 日本阿伟科技@TG/油管 34
+      - 🇰🇷 韩国阿伟科技@TG/油管
+      - ♥️YouTube梦歌♥️_76
+      - 🇺🇸 美国阿伟科技@TG/油管 9
+      - 🇺🇸 美国阿伟科技@TG/油管 10
+      - 🇰🇷 韩国阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_90 2
+      - 🇺🇸 美国阿伟科技@TG/油管 11
+      - ♥️YouTube梦歌♥️_85 2
+      - 🇺🇸 美国阿伟科技@TG/油管 12
+      - ♥️YouTube梦歌♥️_4
+      - ♥️YouTube梦歌♥️_84 2
+      - 🇺🇸 美国阿伟科技@TG/油管 13
+      - ♥️YouTube梦歌♥️_78
+      - ♥️YouTube梦歌♥️_30
+      - ♥️YouTube梦歌♥️_111
+      - ♥️YouTube梦歌♥️_7
+      - ♥️YouTube梦歌♥️_6
+      - 🇺🇸 美国阿伟科技@TG/油管 14
+      - 🇯🇵 日本阿伟科技@TG/油管 35
+      - ♥️YouTube梦歌♥️_105
+      - ♥️YouTube梦歌♥️_1 2
+      - ♥️YouTube梦歌♥️_86 2
+      - ♥️YouTube梦歌♥️_40
+      - 🇯🇵 日本阿伟科技@TG/油管 36
+      - ♥️YouTube梦歌♥️_75
+      - ♥️YouTube梦歌♥️_69
+      - ♥️YouTube梦歌♥️_89 2
+      - ♥️YouTube梦歌♥️_70
+      - ♥️YouTube梦歌♥️_21
+      - ♥️YouTube梦歌♥️_94
+      - ♥️YouTube梦歌♥️_92
+      - ♥️YouTube梦歌♥️_88 2
+      - ♥️YouTube梦歌♥️_71
+      - ♥️YouTube梦歌♥️_79
+      - ♥️YouTube梦歌♥️_16
+      - 🇺🇸 美国阿伟科技@TG/油管 15
+      - ♥️YouTube梦歌♥️_82 2
+      - ♥️YouTube梦歌♥️_73
+      - ♥️YouTube梦歌♥️_12
+      - ♥️YouTube梦歌♥️_53
+      - ♥️YouTube梦歌♥️_65
+      - ♥️YouTube梦歌♥️_23
+      - ♥️YouTube梦歌♥️_52
+      - ♥️YouTube梦歌♥️_50
+      - ♥️YouTube梦歌♥️_72
+      - ♥️YouTube梦歌♥️_17
+      - ♥️YouTube梦歌♥️_46
+      - ♥️YouTube梦歌♥️_81
+      - ♥️YouTube梦歌♥️_91 2
+      - 🇭🇰 香港阿伟科技@TG/油管 8
+      - ♥️YouTube梦歌♥️_80 2
+      - ♥️YouTube梦歌♥️_23 2
+      - 🇺🇸 美国阿伟科技@TG/油管 16
+      - ♥️YouTube梦歌♥️_37
+      - 🇺🇸 美国阿伟科技@TG/油管 17
+      - 🇺🇸 美国阿伟科技@TG/油管 18
+      - ♥️YouTube梦歌♥️_104 2
+      - 🇺🇸 美国阿伟科技@TG/油管 19
+      - ♥️YouTube梦歌♥️_83 2
+      - ♥️YouTube梦歌♥️_48
+      - ♥️YouTube梦歌♥️_44
+      - ♥️YouTube梦歌♥️_46 2
+      - 🇺🇸 美国阿伟科技@TG/油管 20
+      - 🇯🇵 日本阿伟科技@TG/油管 37
+      - ♥️YouTube梦歌♥️_36
+      - ♥️YouTube梦歌♥️_21 2
+      - ♥️YouTube梦歌♥️_9
+      - 🇭🇰 香港阿伟科技@TG/油管 9
+      - 🇯🇵 日本阿伟科技@TG/油管 38
+      - 🇺🇸 美国阿伟科技@TG/油管 21
+      - ♥️YouTube梦歌♥️_44 2
+      - 🇺🇸 美国阿伟科技@TG/油管 22
+      - 🇺🇸 美国阿伟科技@TG/油管 23
+      - 🇺🇸 美国阿伟科技@TG/油管 24
+      - 🇺🇸 美国阿伟科技@TG/油管 25
+      - ♥️YouTube梦歌♥️_110
+      - ♥️YouTube梦歌♥️_87
+      - ♥️YouTube梦歌♥️_8
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_20
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 香港阿伟科技@TG/油管 3
-      - 香港阿伟科技@TG/油管 4
-      - 新加坡阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 5
-      - 香港阿伟科技
-      - 香港阿伟科技@TG/油管 2 2
-      - HK_香港_油管 TG 8度科技
-      - 台湾阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 6
-      - 香港阿伟科技@TG/油管 7
-      - Youtube小露分享
-      - 香港阿伟科技@TG/油管 8
-      - 香港阿伟科技@TG/油管 9
-      - 日本阿伟科技@TG/油管
-      - HK_香港_油管 TG 8度科技 2
-      - 香港(Youtube频道：工具大师！)
-      - 香港阿伟科技@TG/油管 10
-      - 香港阿伟科技@TG/油管 11
-      - 美国阿伟科技
-      - 香港阿伟科技@TG/油管 12
-      - 韩国阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_179
-      - HK_香港_油管 TG 8度科技 3
-      - 日本阿伟科技@TG/油管 2
-      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
-      - 日本阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 2
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Youtube小露分享 2
-      - ♥️♥️YouTube梦歌♥️♥️_506
-      - 日本阿伟科技@TG/油管 4
-      - 香港阿伟科技@TG/油管 13
-      - ww 894
-      - 美国（YouTube订阅：侯老师网络学堂）
-      - (ios软件代购小火箭|ioskaka.com)
-      - 韩国阿伟科技@TG/油管 3
-      - ♥️♥️YouTube梦歌♥️♥️_175
-      - Youtube小露分享 3
-      - ww 1400
-      - 美国阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 3
-      - 科技网络
-      - Youtube小露分享 4
-      - ♥️♥️YouTube梦歌♥️♥️_176
-      - 日本阿伟科技@TG/油管 5
-      - 香港阿伟科技@TG/油管 14
-      - ♥️♥️YouTube梦歌♥️♥️_525
-      - 日本阿伟科技@TG/油管 6
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - Youtube小露分享 5
-      - Ytb:鹏哥分享_中国_39
-      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
-      - Youtube小露分享 6
-      - Youtube小露分享 7
-      - ♥️♥️YouTube梦歌♥️♥️_116
-      - ♥️♥️YouTube梦歌♥️♥️_310
-      - ♥️♥️YouTube梦歌♥️♥️_327
-      - Ytb:鹏哥分享_台湾_32
-      - Youtube小露分享 8
-      - 英国（YouTube订阅：侯老师网络学堂）
-      - ♥️♥️YouTube梦歌♥️♥️_311
-      - Youtube小露分享 9
-      - 韩国阿伟科技@TG/油管 4
-      - 日本阿伟科技@TG/油管 7
-      - Youtube小露分享 10
-      - 香港阿伟科技@TG/油管 15
-      - Youtube小露分享 11
-      - Youtube小露分享 12
-      - ww 1282
-      - Youtube小露分享 13
-      - ♥️♥️YouTube梦歌♥️♥️_312
-      - Youtube小露分享 14
-      - 美国阿伟科技@TG/油管 4
-      - Youtube小露分享 15
-      - Youtube小露分享 16
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 新加坡阿伟科技@TG/油管 2
-      - Youtube小露分享 17
-      - ♥️♥️YouTube梦歌♥️♥️_204
-      - ♥️♥️YouTube梦歌♥️♥️_319
-      - 美国（YouTube订阅：侯老师网络学堂） 2
-      - ♥️♥️YouTube梦歌♥️♥️_336
-      - Youtube小露分享 18
-      - 日本阿伟科技@TG/油管 8
-      - ♥️♥️YouTube梦歌♥️♥️_193
-      - ♥️♥️YouTube梦歌♥️♥️_322
-      - ♥️♥️YouTube梦歌♥️♥️_330
-      - ♥️♥️YouTube梦歌♥️♥️_318
-      - 香港阿伟科技@TG/油管 16
-      - 科技网络 2
-      - ♥️♥️YouTube梦歌♥️♥️_313
-      - ww 22 2
-      - ♥️♥️YouTube梦歌♥️♥️_119
-      - Youtube小露分享 19
-      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
-      - Youtube小露分享 20
-      - Youtube小露分享 21
-      - Youtube小露分享 22
-      - Youtube小露分享 23
-      - 美国【YouTube由零開始】
-      - （YouTube订阅：侯老师网络学堂）_6.10Mb
-      - Youtube小露分享 24
-      - （YouTube订阅：侯老师网络学堂）_6.45Mb
-      - 加拿大【YouTube由零開始】
-      - GB英国(Youtube频道：工具大师！)
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - 科技网络 3
+      - 🇸🇬 新加坡阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管
+      - ♥️YouTube梦歌♥️_104
+      - 🇯🇵 日本阿伟科技@TG/油管
+      - 🇭🇰 香港阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_89
+      - 🇯🇵 日本阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管 3
+      - ♥️YouTube梦歌♥️_62
+      - 🇯🇵 日本阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 4
+      - ♥️YouTube梦歌♥️_60
+      - 🇯🇵 日本阿伟科技@TG/油管 5
+      - 🇺🇸 美国阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 6
+      - ♥️YouTube梦歌♥️_90
+      - 🇯🇵 日本阿伟科技@TG/油管 7
+      - ♥️YouTube梦歌♥️_84
+      - ♥️YouTube梦歌♥️_82
+      - 🇯🇵 日本阿伟科技@TG/油管 8
+      - 🇯🇵 日本阿伟科技@TG/油管 9
+      - 🇯🇵 日本阿伟科技@TG/油管 10
+      - 🇯🇵 日本阿伟科技@TG/油管 11
+      - ♥️YouTube梦歌♥️_54
+      - 🇯🇵 日本阿伟科技@TG/油管 12
+      - ♥️YouTube梦歌♥️_93
+      - 🇯🇵 日本阿伟科技@TG/油管 13
+      - 🇯🇵 日本阿伟科技@TG/油管 14
+      - 🇸🇬 新加坡阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_85
+      - 🇺🇸 美国阿伟科技@TG/油管 4
+      - 🇭🇰 香港阿伟科技@TG/油管 4
+      - 🇸🇬 新加坡阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 15
+      - 🇯🇵 日本阿伟科技@TG/油管 16
+      - 🇺🇸 美国阿伟科技@TG/油管 5
+      - 🇭🇰 香港阿伟科技@TG/油管 5
+      - ♥️YouTube梦歌♥️_80
+      - ♥️YouTube梦歌♥️_55
+      - 🇯🇵 日本阿伟科技@TG/油管 17
+      - 🇯🇵 日本阿伟科技@TG/油管 18
+      - ♥️YouTube梦歌♥️_102
+      - 🇯🇵 日本阿伟科技@TG/油管 19
+      - ♥️YouTube梦歌♥️_83
+      - 🇯🇵 日本阿伟科技@TG/油管 20
+      - 🇺🇸 美国阿伟科技@TG/油管 6
+      - 🇺🇸 美国阿伟科技@TG/油管 7
+      - 🇯🇵 日本阿伟科技@TG/油管 21
+      - 🇯🇵 日本阿伟科技@TG/油管 22
+      - 🇭🇰 香港阿伟科技@TG/油管 6
+      - ♥️YouTube梦歌♥️_99
+      - 🇯🇵 日本阿伟科技@TG/油管 23
+      - ♥️YouTube梦歌♥️_91
+      - ♥️YouTube梦歌♥️_101
+      - 🇯🇵 日本阿伟科技@TG/油管 24
+      - ♥️YouTube梦歌♥️_88
+      - 🇯🇵 日本阿伟科技@TG/油管 25
+      - 🇭🇰 香港阿伟科技@TG/油管 7
+      - 🇯🇵 日本阿伟科技@TG/油管 26
+      - 🇸🇬 新加坡阿伟科技@TG/油管 4
+      - ♥️YouTube梦歌♥️_1
+      - 🇺🇸 美国阿伟科技@TG/油管 8
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_95
+      - 🇯🇵 日本阿伟科技@TG/油管 27
+      - 🇯🇵 日本阿伟科技@TG/油管 28
+      - 🇯🇵 日本阿伟科技@TG/油管 29
+      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇨🇳 台湾阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_86
+      - ♥️YouTube梦歌♥️_24
+      - ♥️YouTube梦歌♥️_103
+      - ♥️YouTube梦歌♥️_98
+      - 🇯🇵 日本阿伟科技@TG/油管 30
+      - 🇯🇵 日本阿伟科技@TG/油管 31
+      - 🇯🇵 日本阿伟科技@TG/油管 32
+      - 🇯🇵 日本阿伟科技@TG/油管 33
+      - 🇯🇵 日本阿伟科技@TG/油管 34
+      - 🇰🇷 韩国阿伟科技@TG/油管
+      - ♥️YouTube梦歌♥️_76
+      - 🇺🇸 美国阿伟科技@TG/油管 9
+      - 🇺🇸 美国阿伟科技@TG/油管 10
+      - 🇰🇷 韩国阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_90 2
+      - 🇺🇸 美国阿伟科技@TG/油管 11
+      - ♥️YouTube梦歌♥️_85 2
+      - 🇺🇸 美国阿伟科技@TG/油管 12
+      - ♥️YouTube梦歌♥️_4
+      - ♥️YouTube梦歌♥️_84 2
+      - 🇺🇸 美国阿伟科技@TG/油管 13
+      - ♥️YouTube梦歌♥️_78
+      - ♥️YouTube梦歌♥️_30
+      - ♥️YouTube梦歌♥️_111
+      - ♥️YouTube梦歌♥️_7
+      - ♥️YouTube梦歌♥️_6
+      - 🇺🇸 美国阿伟科技@TG/油管 14
+      - 🇯🇵 日本阿伟科技@TG/油管 35
+      - ♥️YouTube梦歌♥️_105
+      - ♥️YouTube梦歌♥️_1 2
+      - ♥️YouTube梦歌♥️_86 2
+      - ♥️YouTube梦歌♥️_40
+      - 🇯🇵 日本阿伟科技@TG/油管 36
+      - ♥️YouTube梦歌♥️_75
+      - ♥️YouTube梦歌♥️_69
+      - ♥️YouTube梦歌♥️_89 2
+      - ♥️YouTube梦歌♥️_70
+      - ♥️YouTube梦歌♥️_21
+      - ♥️YouTube梦歌♥️_94
+      - ♥️YouTube梦歌♥️_92
+      - ♥️YouTube梦歌♥️_88 2
+      - ♥️YouTube梦歌♥️_71
+      - ♥️YouTube梦歌♥️_79
+      - ♥️YouTube梦歌♥️_16
+      - 🇺🇸 美国阿伟科技@TG/油管 15
+      - ♥️YouTube梦歌♥️_82 2
+      - ♥️YouTube梦歌♥️_73
+      - ♥️YouTube梦歌♥️_12
+      - ♥️YouTube梦歌♥️_53
+      - ♥️YouTube梦歌♥️_65
+      - ♥️YouTube梦歌♥️_23
+      - ♥️YouTube梦歌♥️_52
+      - ♥️YouTube梦歌♥️_50
+      - ♥️YouTube梦歌♥️_72
+      - ♥️YouTube梦歌♥️_17
+      - ♥️YouTube梦歌♥️_46
+      - ♥️YouTube梦歌♥️_81
+      - ♥️YouTube梦歌♥️_91 2
+      - 🇭🇰 香港阿伟科技@TG/油管 8
+      - ♥️YouTube梦歌♥️_80 2
+      - ♥️YouTube梦歌♥️_23 2
+      - 🇺🇸 美国阿伟科技@TG/油管 16
+      - ♥️YouTube梦歌♥️_37
+      - 🇺🇸 美国阿伟科技@TG/油管 17
+      - 🇺🇸 美国阿伟科技@TG/油管 18
+      - ♥️YouTube梦歌♥️_104 2
+      - 🇺🇸 美国阿伟科技@TG/油管 19
+      - ♥️YouTube梦歌♥️_83 2
+      - ♥️YouTube梦歌♥️_48
+      - ♥️YouTube梦歌♥️_44
+      - ♥️YouTube梦歌♥️_46 2
+      - 🇺🇸 美国阿伟科技@TG/油管 20
+      - 🇯🇵 日本阿伟科技@TG/油管 37
+      - ♥️YouTube梦歌♥️_36
+      - ♥️YouTube梦歌♥️_21 2
+      - ♥️YouTube梦歌♥️_9
+      - 🇭🇰 香港阿伟科技@TG/油管 9
+      - 🇯🇵 日本阿伟科技@TG/油管 38
+      - 🇺🇸 美国阿伟科技@TG/油管 21
+      - ♥️YouTube梦歌♥️_44 2
+      - 🇺🇸 美国阿伟科技@TG/油管 22
+      - 🇺🇸 美国阿伟科技@TG/油管 23
+      - 🇺🇸 美国阿伟科技@TG/油管 24
+      - 🇺🇸 美国阿伟科技@TG/油管 25
+      - ♥️YouTube梦歌♥️_110
+      - ♥️YouTube梦歌♥️_87
+      - ♥️YouTube梦歌♥️_8
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_20
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -946,116 +1346,166 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 香港阿伟科技@TG/油管 3
-      - 香港阿伟科技@TG/油管 4
-      - 新加坡阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 5
-      - 香港阿伟科技
-      - 香港阿伟科技@TG/油管 2 2
-      - HK_香港_油管 TG 8度科技
-      - 台湾阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 6
-      - 香港阿伟科技@TG/油管 7
-      - Youtube小露分享
-      - 香港阿伟科技@TG/油管 8
-      - 香港阿伟科技@TG/油管 9
-      - 日本阿伟科技@TG/油管
-      - HK_香港_油管 TG 8度科技 2
-      - 香港(Youtube频道：工具大师！)
-      - 香港阿伟科技@TG/油管 10
-      - 香港阿伟科技@TG/油管 11
-      - 美国阿伟科技
-      - 香港阿伟科技@TG/油管 12
-      - 韩国阿伟科技@TG/油管
-      - ♥️♥️YouTube梦歌♥️♥️_179
-      - HK_香港_油管 TG 8度科技 3
-      - 日本阿伟科技@TG/油管 2
-      - "@SSRSUB-美国V08-付费推荐::suo.yt/ssrsub"
-      - 日本阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 2
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Youtube小露分享 2
-      - ♥️♥️YouTube梦歌♥️♥️_506
-      - 日本阿伟科技@TG/油管 4
-      - 香港阿伟科技@TG/油管 13
-      - ww 894
-      - 美国（YouTube订阅：侯老师网络学堂）
-      - (ios软件代购小火箭|ioskaka.com)
-      - 韩国阿伟科技@TG/油管 3
-      - ♥️♥️YouTube梦歌♥️♥️_175
-      - Youtube小露分享 3
-      - ww 1400
-      - 美国阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 3
-      - 科技网络
-      - Youtube小露分享 4
-      - ♥️♥️YouTube梦歌♥️♥️_176
-      - 日本阿伟科技@TG/油管 5
-      - 香港阿伟科技@TG/油管 14
-      - ♥️♥️YouTube梦歌♥️♥️_525
-      - 日本阿伟科技@TG/油管 6
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - Youtube小露分享 5
-      - Ytb:鹏哥分享_中国_39
-      - "@SSRSUB-俄罗斯02-付费推荐::suo.yt/ssrsub"
-      - Youtube小露分享 6
-      - Youtube小露分享 7
-      - ♥️♥️YouTube梦歌♥️♥️_116
-      - ♥️♥️YouTube梦歌♥️♥️_310
-      - ♥️♥️YouTube梦歌♥️♥️_327
-      - Ytb:鹏哥分享_台湾_32
-      - Youtube小露分享 8
-      - 英国（YouTube订阅：侯老师网络学堂）
-      - ♥️♥️YouTube梦歌♥️♥️_311
-      - Youtube小露分享 9
-      - 韩国阿伟科技@TG/油管 4
-      - 日本阿伟科技@TG/油管 7
-      - Youtube小露分享 10
-      - 香港阿伟科技@TG/油管 15
-      - Youtube小露分享 11
-      - Youtube小露分享 12
-      - ww 1282
-      - Youtube小露分享 13
-      - ♥️♥️YouTube梦歌♥️♥️_312
-      - Youtube小露分享 14
-      - 美国阿伟科技@TG/油管 4
-      - Youtube小露分享 15
-      - Youtube小露分享 16
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 新加坡阿伟科技@TG/油管 2
-      - Youtube小露分享 17
-      - ♥️♥️YouTube梦歌♥️♥️_204
-      - ♥️♥️YouTube梦歌♥️♥️_319
-      - 美国（YouTube订阅：侯老师网络学堂） 2
-      - ♥️♥️YouTube梦歌♥️♥️_336
-      - Youtube小露分享 18
-      - 日本阿伟科技@TG/油管 8
-      - ♥️♥️YouTube梦歌♥️♥️_193
-      - ♥️♥️YouTube梦歌♥️♥️_322
-      - ♥️♥️YouTube梦歌♥️♥️_330
-      - ♥️♥️YouTube梦歌♥️♥️_318
-      - 香港阿伟科技@TG/油管 16
-      - 科技网络 2
-      - ♥️♥️YouTube梦歌♥️♥️_313
-      - ww 22 2
-      - ♥️♥️YouTube梦歌♥️♥️_119
-      - Youtube小露分享 19
-      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
-      - Youtube小露分享 20
-      - Youtube小露分享 21
-      - Youtube小露分享 22
-      - Youtube小露分享 23
-      - 美国【YouTube由零開始】
-      - （YouTube订阅：侯老师网络学堂）_6.10Mb
-      - Youtube小露分享 24
-      - （YouTube订阅：侯老师网络学堂）_6.45Mb
-      - 加拿大【YouTube由零開始】
-      - GB英国(Youtube频道：工具大师！)
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - 科技网络 3
+      - 🇸🇬 新加坡阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管
+      - ♥️YouTube梦歌♥️_104
+      - 🇯🇵 日本阿伟科技@TG/油管
+      - 🇭🇰 香港阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_89
+      - 🇯🇵 日本阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管 3
+      - ♥️YouTube梦歌♥️_62
+      - 🇯🇵 日本阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 4
+      - ♥️YouTube梦歌♥️_60
+      - 🇯🇵 日本阿伟科技@TG/油管 5
+      - 🇺🇸 美国阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 6
+      - ♥️YouTube梦歌♥️_90
+      - 🇯🇵 日本阿伟科技@TG/油管 7
+      - ♥️YouTube梦歌♥️_84
+      - ♥️YouTube梦歌♥️_82
+      - 🇯🇵 日本阿伟科技@TG/油管 8
+      - 🇯🇵 日本阿伟科技@TG/油管 9
+      - 🇯🇵 日本阿伟科技@TG/油管 10
+      - 🇯🇵 日本阿伟科技@TG/油管 11
+      - ♥️YouTube梦歌♥️_54
+      - 🇯🇵 日本阿伟科技@TG/油管 12
+      - ♥️YouTube梦歌♥️_93
+      - 🇯🇵 日本阿伟科技@TG/油管 13
+      - 🇯🇵 日本阿伟科技@TG/油管 14
+      - 🇸🇬 新加坡阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_85
+      - 🇺🇸 美国阿伟科技@TG/油管 4
+      - 🇭🇰 香港阿伟科技@TG/油管 4
+      - 🇸🇬 新加坡阿伟科技@TG/油管 3
+      - 🇯🇵 日本阿伟科技@TG/油管 15
+      - 🇯🇵 日本阿伟科技@TG/油管 16
+      - 🇺🇸 美国阿伟科技@TG/油管 5
+      - 🇭🇰 香港阿伟科技@TG/油管 5
+      - ♥️YouTube梦歌♥️_80
+      - ♥️YouTube梦歌♥️_55
+      - 🇯🇵 日本阿伟科技@TG/油管 17
+      - 🇯🇵 日本阿伟科技@TG/油管 18
+      - ♥️YouTube梦歌♥️_102
+      - 🇯🇵 日本阿伟科技@TG/油管 19
+      - ♥️YouTube梦歌♥️_83
+      - 🇯🇵 日本阿伟科技@TG/油管 20
+      - 🇺🇸 美国阿伟科技@TG/油管 6
+      - 🇺🇸 美国阿伟科技@TG/油管 7
+      - 🇯🇵 日本阿伟科技@TG/油管 21
+      - 🇯🇵 日本阿伟科技@TG/油管 22
+      - 🇭🇰 香港阿伟科技@TG/油管 6
+      - ♥️YouTube梦歌♥️_99
+      - 🇯🇵 日本阿伟科技@TG/油管 23
+      - ♥️YouTube梦歌♥️_91
+      - ♥️YouTube梦歌♥️_101
+      - 🇯🇵 日本阿伟科技@TG/油管 24
+      - ♥️YouTube梦歌♥️_88
+      - 🇯🇵 日本阿伟科技@TG/油管 25
+      - 🇭🇰 香港阿伟科技@TG/油管 7
+      - 🇯🇵 日本阿伟科技@TG/油管 26
+      - 🇸🇬 新加坡阿伟科技@TG/油管 4
+      - ♥️YouTube梦歌♥️_1
+      - 🇺🇸 美国阿伟科技@TG/油管 8
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_95
+      - 🇯🇵 日本阿伟科技@TG/油管 27
+      - 🇯🇵 日本阿伟科技@TG/油管 28
+      - 🇯🇵 日本阿伟科技@TG/油管 29
+      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇨🇳 台湾阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_86
+      - ♥️YouTube梦歌♥️_24
+      - ♥️YouTube梦歌♥️_103
+      - ♥️YouTube梦歌♥️_98
+      - 🇯🇵 日本阿伟科技@TG/油管 30
+      - 🇯🇵 日本阿伟科技@TG/油管 31
+      - 🇯🇵 日本阿伟科技@TG/油管 32
+      - 🇯🇵 日本阿伟科技@TG/油管 33
+      - 🇯🇵 日本阿伟科技@TG/油管 34
+      - 🇰🇷 韩国阿伟科技@TG/油管
+      - ♥️YouTube梦歌♥️_76
+      - 🇺🇸 美国阿伟科技@TG/油管 9
+      - 🇺🇸 美国阿伟科技@TG/油管 10
+      - 🇰🇷 韩国阿伟科技@TG/油管 2
+      - ♥️YouTube梦歌♥️_90 2
+      - 🇺🇸 美国阿伟科技@TG/油管 11
+      - ♥️YouTube梦歌♥️_85 2
+      - 🇺🇸 美国阿伟科技@TG/油管 12
+      - ♥️YouTube梦歌♥️_4
+      - ♥️YouTube梦歌♥️_84 2
+      - 🇺🇸 美国阿伟科技@TG/油管 13
+      - ♥️YouTube梦歌♥️_78
+      - ♥️YouTube梦歌♥️_30
+      - ♥️YouTube梦歌♥️_111
+      - ♥️YouTube梦歌♥️_7
+      - ♥️YouTube梦歌♥️_6
+      - 🇺🇸 美国阿伟科技@TG/油管 14
+      - 🇯🇵 日本阿伟科技@TG/油管 35
+      - ♥️YouTube梦歌♥️_105
+      - ♥️YouTube梦歌♥️_1 2
+      - ♥️YouTube梦歌♥️_86 2
+      - ♥️YouTube梦歌♥️_40
+      - 🇯🇵 日本阿伟科技@TG/油管 36
+      - ♥️YouTube梦歌♥️_75
+      - ♥️YouTube梦歌♥️_69
+      - ♥️YouTube梦歌♥️_89 2
+      - ♥️YouTube梦歌♥️_70
+      - ♥️YouTube梦歌♥️_21
+      - ♥️YouTube梦歌♥️_94
+      - ♥️YouTube梦歌♥️_92
+      - ♥️YouTube梦歌♥️_88 2
+      - ♥️YouTube梦歌♥️_71
+      - ♥️YouTube梦歌♥️_79
+      - ♥️YouTube梦歌♥️_16
+      - 🇺🇸 美国阿伟科技@TG/油管 15
+      - ♥️YouTube梦歌♥️_82 2
+      - ♥️YouTube梦歌♥️_73
+      - ♥️YouTube梦歌♥️_12
+      - ♥️YouTube梦歌♥️_53
+      - ♥️YouTube梦歌♥️_65
+      - ♥️YouTube梦歌♥️_23
+      - ♥️YouTube梦歌♥️_52
+      - ♥️YouTube梦歌♥️_50
+      - ♥️YouTube梦歌♥️_72
+      - ♥️YouTube梦歌♥️_17
+      - ♥️YouTube梦歌♥️_46
+      - ♥️YouTube梦歌♥️_81
+      - ♥️YouTube梦歌♥️_91 2
+      - 🇭🇰 香港阿伟科技@TG/油管 8
+      - ♥️YouTube梦歌♥️_80 2
+      - ♥️YouTube梦歌♥️_23 2
+      - 🇺🇸 美国阿伟科技@TG/油管 16
+      - ♥️YouTube梦歌♥️_37
+      - 🇺🇸 美国阿伟科技@TG/油管 17
+      - 🇺🇸 美国阿伟科技@TG/油管 18
+      - ♥️YouTube梦歌♥️_104 2
+      - 🇺🇸 美国阿伟科技@TG/油管 19
+      - ♥️YouTube梦歌♥️_83 2
+      - ♥️YouTube梦歌♥️_48
+      - ♥️YouTube梦歌♥️_44
+      - ♥️YouTube梦歌♥️_46 2
+      - 🇺🇸 美国阿伟科技@TG/油管 20
+      - 🇯🇵 日本阿伟科技@TG/油管 37
+      - ♥️YouTube梦歌♥️_36
+      - ♥️YouTube梦歌♥️_21 2
+      - ♥️YouTube梦歌♥️_9
+      - 🇭🇰 香港阿伟科技@TG/油管 9
+      - 🇯🇵 日本阿伟科技@TG/油管 38
+      - 🇺🇸 美国阿伟科技@TG/油管 21
+      - ♥️YouTube梦歌♥️_44 2
+      - 🇺🇸 美国阿伟科技@TG/油管 22
+      - 🇺🇸 美国阿伟科技@TG/油管 23
+      - 🇺🇸 美国阿伟科技@TG/油管 24
+      - 🇺🇸 美国阿伟科技@TG/油管 25
+      - ♥️YouTube梦歌♥️_110
+      - ♥️YouTube梦歌♥️_87
+      - ♥️YouTube梦歌♥️_8
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_20
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1095,6 +1545,7 @@ rules:
  - DOMAIN,livew.l.qq.com,🎯 全球直连
  - DOMAIN,vd.l.qq.com,🎯 全球直连
  - DOMAIN,analytics.strava.com,🎯 全球直连
+ - DOMAIN,errlog.umeng.com,🎯 全球直连
  - DOMAIN,msg.umeng.com,🎯 全球直连
  - DOMAIN,msg.umengcloud.com,🎯 全球直连
  - DOMAIN,tracking.miui.com,🎯 全球直连
