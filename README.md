@@ -5,237 +5,701 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 CN中国TG/油管@阿伟科技, server: yd.soolos.com, port: 58827, type: trojan, password: 7e257628-a693-3f58-9396-e60279346a33, sni: yd.soolos.com}
-  - {name: sg2.31vpn.com, server: sg2.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /fastssh/ep20200601/62337f0a487b2/, ws-headers: {Host: sg2.31vpn.com}}
-  - {name: sg2.31vpn.com 2, server: sg2.31vpn.com, port: 80, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /fastssh/ep20200601/62337f0a487b2/, ws-headers: {Host: sg2.31vpn.com}}
-  - {name: 🇫🇷 FR法国TG/油管@阿伟科技, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id}
-  - {name: 🇨🇳 CN中国TG/油管@阿伟科技 2, server: 183.240.132.27, port: 21203, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false}
-  - {name: sg2.31vpn.com 3, server: sg2.31vpn.com, port: 80, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /fastssh/ep20200601/62337f0a487b2/, ws-headers: {Host: sg2.31vpn.com}}
-  - {name: 🇷🇺 RU俄罗斯联邦TG/油管@阿伟科技, server: ru2.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /helloman, ws-headers: {Host: ru2.peakerselling.com}}
-  - {name: 🇫🇷 FR法国TG/油管@阿伟科技 2, server: 147.135.164.113, port: 44423, type: vmess, uuid: e6ee3fe5-7602-47b0-8d8f-52853321107f, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 147.135.164.113}}
-  - {name: 🇨🇳 CN中国TG/油管@阿伟科技 3, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /hkt, ws-headers: {Host: cu2.worldmuseum.buzz}}
-  - {name: 🇨🇳 CN中国TG/油管@阿伟科技 4, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /in, ws-headers: {Host: www.189.cn}}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇬🇧 GB英国TG/油管@阿伟科技, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇰🇷 KR韩国TG/油管@阿伟科技, server: 132.145.83.55, port: 38134, type: vmess, uuid: 3b1331b6-879b-4ba0-878f-3d286927cf94, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 KR韩国TG/油管@阿伟科技 2, server: 132.145.83.55, port: 38134, type: vmess, uuid: 3b1331b6-879b-4ba0-878f-3d286927cf94, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN中国TG/油管@阿伟科技 5, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /wtt, ws-headers: {Host: telegram.channel.p2psharing}}
-  - {name: 🇭🇰 HK香港TG/油管@阿伟科技, server: tj-hk06.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-hk06.yiyodns.xyz}
-  - {name: 🇺🇸 US美国TG/油管@阿伟科技, server: 38.75.137.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇬🇧 英国【YouTube由零開始】, server: 172.99.190.92, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 US美国TG/油管@阿伟科技 2, server: 38.75.137.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 2, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇺🇸 us2.31vpn.com, server: us2.31vpn.com, port: 443, type: vmess, uuid: bb4b9e95-c9ff-411c-9a47-483570e169aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /fastssh/ep20200601mailcom/62337e247cc4f/, ws-headers: {Host: us2.31vpn.com}}
-  - {name: 🇬🇧 GB英国TG/油管@阿伟科技 2, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇰🇷 KR韩国TG/油管@阿伟科技 3, server: 193.123.239.153, port: 55199, type: vmess, uuid: bd729199-efe9-4c6b-a7b8-beb0927b4061, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 KR韩国TG/油管@阿伟科技 4, server: 132.145.92.147, port: 29660, type: vmess, uuid: 2c02504a-1067-4835-9235-5d50840b4530, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 132.145.92.147}}
+  - {name: 中国阿伟科技@TG*油管, server: 183.232.56.161, port: 1202, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
+  - {name: 香港阿伟科技@TG*油管, server: 20.189.71.180, port: 27312, type: vmess, uuid: 15757b80-9dd4-4896-b28d-9cac6061321b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG*油管, server: 20.239.79.15, port: 52973, type: vmess, uuid: 87a5fbb3-315d-4750-bd2d-e34b7878a939, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG*油管 2, server: 13.75.44.200, port: 40903, type: vmess, uuid: 6d1f4a41-f79e-45f5-8268-460e4f9f5d63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国阿伟科技@TG*油管 2, server: 183.232.56.161, port: 1101, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
+  - {name: 马来西亚阿伟科技@TG/油管, server: 183.232.56.161, port: 5019, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
+  - {name: 中国阿伟科技@TG*油管 3, server: gye.51ssrr.cn, port: 47013, type: vmess, uuid: d91b1f09-a05b-3a07-b589-f59e7ba167aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 中国阿伟科技@TG*油管 4, server: china-gzyd-1.forwardserver.xyz, port: 52024, type: vmess, uuid: 9e2c37d4-ab58-4730-8869-cb7b923d55d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sakura, ws-headers: {Host: az1.14530529.xyz}, udp: true}
+  - {name: 香港阿伟科技@TG*油管 3, server: 13.75.44.200, port: 40903, type: vmess, uuid: 6d1f4a41-f79e-45f5-8268-460e4f9f5d63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG*油管 2, server: us06.xiaohouzi.club, port: 10082, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.ibm.com}, udp: true}
+  - {name: 美国阿伟科技@TG*油管 3, server: us06.xiaohouzi.club, port: 10082, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: us06.xiaohouzi.club}, udp: true}
+  - {name: 俄罗斯联邦阿伟科技@TG*油管, server: v2-r03.xiaohouzi.club, port: 10083, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: v2-r03.xiaohouzi.club}, udp: true}
+  - {name: 美国阿伟科技@TG*油管 4, server: vv01.xiaohouzi.club, port: 10083, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: vv01.xiaohouzi.club}, udp: true}
+  - {name: 美国阿伟科技@TG*油管 5, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us01.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯联邦阿伟科技@TG*油管 2, server: v2-r01.xiaohouzi.club, port: 10082, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: v2-r01.xiaohouzi.club}, udp: true}
+  - {name: 俄罗斯联邦阿伟科技@TG*油管 3, server: v2-r01.xiaohouzi.club, port: 10082, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: v2-r01.xiaohouzi.club}, udp: true}
+  - {name: 中国阿伟科技@TG*油管 5, server: 183.232.56.161, port: 6111, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
+  - {name: 中国阿伟科技@TG*油管 6, server: china-gy1-axecc.898868.xyz, port: 42222, type: trojan, password: de439ecc-731c-4ceb-bbe8-8429a3dbc469, sni: china-gy1-axecc.898868.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG*油管 6, server: awsxjp.moonfree.top, port: 443, type: vmess, uuid: b0a2370c-508b-427d-be3e-8efe70ae2f4d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: awsxjp.moonfree.top}, udp: true}
+  - {name: 中国阿伟科技@TG*油管 7, server: gye.51ssrr.cn, port: 47009, type: vmess, uuid: d91b1f09-a05b-3a07-b589-f59e7ba167aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯联邦阿伟科技@TG*油管 4, server: v2-r03.xiaohouzi.club, port: 10083, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: v2-r03.xiaohouzi.club}, udp: true}
+  - {name: 美国阿伟科技@TG*油管 7, server: 192.9.248.151, port: 23326, type: vmess, uuid: ace2e8da-5c52-45c1-8ccc-089e738fb54b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国阿伟科技@TG*油管 8, server: 183.232.56.161, port: 1611, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
+  - {name: 韩国阿伟科技@TG*油管, server: 146.56.108.108, port: 26113, type: vmess, uuid: 1071810b-8a51-4fba-de7f-1efe88c87ea8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG*油管 8, server: vv01.xiaohouzi.club, port: 10083, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: vv01.xiaohouzi.club}, udp: true}
+  - {name: 香港阿伟科技@TG*油管 4, server: shk01.xiaohouzi.club, port: 10050, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.ibm.com}, udp: true}
+  - {name: 中国阿伟科技@TG*油管 9, server: cu3.sgdns.club, port: 31267, type: vmess, uuid: 2dc10784-c7fb-377d-a579-2b541eb16d7b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sgy, ws-headers: {Host: cu3.sgdns.club}, udp: true}
+  - {name: CYL-科技（2022.03.20）, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 2, server: 14.29.124.168, port: 25274, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 3, server: 14.29.124.168, port: 25253, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 4, server: 14.29.124.168, port: 25221, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 5, server: 14.29.124.168, port: 25281, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 6, server: 14.29.124.168, port: 25255, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 7, server: 14.29.124.168, port: 25214, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 8, server: 14.29.124.168, port: 25285, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 9, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 10, server: 14.29.124.168, port: 25215, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 11, server: 14.29.124.168, port: 25263, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 12, server: 14.29.124.168, port: 25244, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 13, server: 14.29.124.168, port: 25282, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 14, server: 14.29.124.168, port: 25205, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 15, server: 14.29.124.168, port: 25290, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 16, server: 14.29.124.168, port: 25211, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 17, server: 14.29.124.168, port: 25234, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 18, server: 14.29.124.168, port: 25257, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 19, server: 14.29.124.168, port: 25261, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 20, server: 14.29.124.168, port: 25273, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 21, server: 14.29.124.168, port: 25280, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 22, server: 14.29.124.168, port: 25248, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 23, server: 14.29.124.168, port: 25225, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 24, server: 14.29.124.168, port: 25213, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 25, server: 14.29.124.168, port: 25208, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 26, server: 14.29.124.168, port: 25200, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 27, server: 14.29.124.168, port: 25204, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 28, server: 14.29.124.168, port: 25229, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 29, server: 14.29.124.168, port: 25242, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 30, server: 14.29.124.168, port: 25277, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 31, server: 14.29.124.168, port: 25223, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 32, server: 14.29.124.168, port: 25260, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 33, server: 14.29.124.168, port: 25232, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 34, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 35, server: 14.29.124.168, port: 25269, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 36, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 37, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 38, server: 14.29.124.168, port: 31046, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 39, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 40, server: 14.29.124.168, port: 25227, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 41, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 42, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 43, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 44, server: 14.29.124.168, port: 25212, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 45, server: 14.29.124.168, port: 25240, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 46, server: 14.29.124.168, port: 25299, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 47, server: 14.29.124.168, port: 25264, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 48, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 49, server: 14.29.124.168, port: 25258, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 50, server: 14.29.124.168, port: 25207, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 51, server: 14.29.124.168, port: 25203, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 52, server: 14.29.124.168, port: 25284, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 53, server: 14.29.124.168, port: 25209, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国阿伟科技@TG*油管 10, server: shk02.xiaohouzi.club, port: 10053, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: shk02.xiaohouzi.club}, udp: true}
+  - {name: CYL-科技（2022.03.20） 54, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 CN中国TG/油管@阿伟科技
-      - sg2.31vpn.com
-      - sg2.31vpn.com 2
-      - 🇫🇷 FR法国TG/油管@阿伟科技
-      - 🇨🇳 CN中国TG/油管@阿伟科技 2
-      - sg2.31vpn.com 3
-      - 🇷🇺 RU俄罗斯联邦TG/油管@阿伟科技
-      - 🇫🇷 FR法国TG/油管@阿伟科技 2
-      - 🇨🇳 CN中国TG/油管@阿伟科技 3
-      - 🇨🇳 CN中国TG/油管@阿伟科技 4
-      - 🇨🇦 加拿大【YouTube由零開始】
-      - 🇬🇧 GB英国TG/油管@阿伟科技
-      - 🇰🇷 KR韩国TG/油管@阿伟科技
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 2
-      - 🇨🇳 CN中国TG/油管@阿伟科技 5
-      - 🇭🇰 HK香港TG/油管@阿伟科技
-      - 🇺🇸 US美国TG/油管@阿伟科技
-      - 🇬🇧 英国【YouTube由零開始】
-      - 🇺🇸 US美国TG/油管@阿伟科技 2
-      - 🇨🇦 加拿大【YouTube由零開始】 2
-      - 🇺🇸 us2.31vpn.com
-      - 🇬🇧 GB英国TG/油管@阿伟科技 2
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 3
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 4
+      - 中国阿伟科技@TG*油管
+      - 香港阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管
+      - 香港阿伟科技@TG*油管 2
+      - 中国阿伟科技@TG*油管 2
+      - 马来西亚阿伟科技@TG/油管
+      - 中国阿伟科技@TG*油管 3
+      - 中国阿伟科技@TG*油管 4
+      - 香港阿伟科技@TG*油管 3
+      - 美国阿伟科技@TG*油管 2
+      - 美国阿伟科技@TG*油管 3
+      - 俄罗斯联邦阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管 4
+      - 美国阿伟科技@TG*油管 5
+      - 俄罗斯联邦阿伟科技@TG*油管 2
+      - 俄罗斯联邦阿伟科技@TG*油管 3
+      - 中国阿伟科技@TG*油管 5
+      - 中国阿伟科技@TG*油管 6
+      - 美国阿伟科技@TG*油管 6
+      - 中国阿伟科技@TG*油管 7
+      - 俄罗斯联邦阿伟科技@TG*油管 4
+      - 美国阿伟科技@TG*油管 7
+      - 中国阿伟科技@TG*油管 8
+      - 韩国阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管 8
+      - 香港阿伟科技@TG*油管 4
+      - 中国阿伟科技@TG*油管 9
+      - CYL-科技（2022.03.20）
+      - CYL-科技（2022.03.20） 2
+      - CYL-科技（2022.03.20） 3
+      - CYL-科技（2022.03.20） 4
+      - CYL-科技（2022.03.20） 5
+      - CYL-科技（2022.03.20） 6
+      - CYL-科技（2022.03.20） 7
+      - CYL-科技（2022.03.20） 8
+      - CYL-科技（2022.03.20） 9
+      - CYL-科技（2022.03.20） 10
+      - CYL-科技（2022.03.20） 11
+      - CYL-科技（2022.03.20） 12
+      - CYL-科技（2022.03.20） 13
+      - CYL-科技（2022.03.20） 14
+      - CYL-科技（2022.03.20） 15
+      - CYL-科技（2022.03.20） 16
+      - CYL-科技（2022.03.20） 17
+      - CYL-科技（2022.03.20） 18
+      - CYL-科技（2022.03.20） 19
+      - CYL-科技（2022.03.20） 20
+      - CYL-科技（2022.03.20） 21
+      - CYL-科技（2022.03.20） 22
+      - CYL-科技（2022.03.20） 23
+      - CYL-科技（2022.03.20） 24
+      - CYL-科技（2022.03.20） 25
+      - CYL-科技（2022.03.20） 26
+      - CYL-科技（2022.03.20） 27
+      - CYL-科技（2022.03.20） 28
+      - CYL-科技（2022.03.20） 29
+      - CYL-科技（2022.03.20） 30
+      - CYL-科技（2022.03.20） 31
+      - CYL-科技（2022.03.20） 32
+      - CYL-科技（2022.03.20） 33
+      - CYL-科技（2022.03.20） 34
+      - CYL-科技（2022.03.20） 35
+      - CYL-科技（2022.03.20） 36
+      - CYL-科技（2022.03.20） 37
+      - CYL-科技（2022.03.20） 38
+      - CYL-科技（2022.03.20） 39
+      - CYL-科技（2022.03.20） 40
+      - CYL-科技（2022.03.20） 41
+      - CYL-科技（2022.03.20） 42
+      - CYL-科技（2022.03.20） 43
+      - CYL-科技（2022.03.20） 44
+      - CYL-科技（2022.03.20） 45
+      - CYL-科技（2022.03.20） 46
+      - CYL-科技（2022.03.20） 47
+      - CYL-科技（2022.03.20） 48
+      - CYL-科技（2022.03.20） 49
+      - CYL-科技（2022.03.20） 50
+      - CYL-科技（2022.03.20） 51
+      - CYL-科技（2022.03.20） 52
+      - CYL-科技（2022.03.20） 53
+      - 中国阿伟科技@TG*油管 10
+      - CYL-科技（2022.03.20） 54
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 CN中国TG/油管@阿伟科技
-      - sg2.31vpn.com
-      - sg2.31vpn.com 2
-      - 🇫🇷 FR法国TG/油管@阿伟科技
-      - 🇨🇳 CN中国TG/油管@阿伟科技 2
-      - sg2.31vpn.com 3
-      - 🇷🇺 RU俄罗斯联邦TG/油管@阿伟科技
-      - 🇫🇷 FR法国TG/油管@阿伟科技 2
-      - 🇨🇳 CN中国TG/油管@阿伟科技 3
-      - 🇨🇳 CN中国TG/油管@阿伟科技 4
-      - 🇨🇦 加拿大【YouTube由零開始】
-      - 🇬🇧 GB英国TG/油管@阿伟科技
-      - 🇰🇷 KR韩国TG/油管@阿伟科技
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 2
-      - 🇨🇳 CN中国TG/油管@阿伟科技 5
-      - 🇭🇰 HK香港TG/油管@阿伟科技
-      - 🇺🇸 US美国TG/油管@阿伟科技
-      - 🇬🇧 英国【YouTube由零開始】
-      - 🇺🇸 US美国TG/油管@阿伟科技 2
-      - 🇨🇦 加拿大【YouTube由零開始】 2
-      - 🇺🇸 us2.31vpn.com
-      - 🇬🇧 GB英国TG/油管@阿伟科技 2
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 3
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 4
+      - 中国阿伟科技@TG*油管
+      - 香港阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管
+      - 香港阿伟科技@TG*油管 2
+      - 中国阿伟科技@TG*油管 2
+      - 马来西亚阿伟科技@TG/油管
+      - 中国阿伟科技@TG*油管 3
+      - 中国阿伟科技@TG*油管 4
+      - 香港阿伟科技@TG*油管 3
+      - 美国阿伟科技@TG*油管 2
+      - 美国阿伟科技@TG*油管 3
+      - 俄罗斯联邦阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管 4
+      - 美国阿伟科技@TG*油管 5
+      - 俄罗斯联邦阿伟科技@TG*油管 2
+      - 俄罗斯联邦阿伟科技@TG*油管 3
+      - 中国阿伟科技@TG*油管 5
+      - 中国阿伟科技@TG*油管 6
+      - 美国阿伟科技@TG*油管 6
+      - 中国阿伟科技@TG*油管 7
+      - 俄罗斯联邦阿伟科技@TG*油管 4
+      - 美国阿伟科技@TG*油管 7
+      - 中国阿伟科技@TG*油管 8
+      - 韩国阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管 8
+      - 香港阿伟科技@TG*油管 4
+      - 中国阿伟科技@TG*油管 9
+      - CYL-科技（2022.03.20）
+      - CYL-科技（2022.03.20） 2
+      - CYL-科技（2022.03.20） 3
+      - CYL-科技（2022.03.20） 4
+      - CYL-科技（2022.03.20） 5
+      - CYL-科技（2022.03.20） 6
+      - CYL-科技（2022.03.20） 7
+      - CYL-科技（2022.03.20） 8
+      - CYL-科技（2022.03.20） 9
+      - CYL-科技（2022.03.20） 10
+      - CYL-科技（2022.03.20） 11
+      - CYL-科技（2022.03.20） 12
+      - CYL-科技（2022.03.20） 13
+      - CYL-科技（2022.03.20） 14
+      - CYL-科技（2022.03.20） 15
+      - CYL-科技（2022.03.20） 16
+      - CYL-科技（2022.03.20） 17
+      - CYL-科技（2022.03.20） 18
+      - CYL-科技（2022.03.20） 19
+      - CYL-科技（2022.03.20） 20
+      - CYL-科技（2022.03.20） 21
+      - CYL-科技（2022.03.20） 22
+      - CYL-科技（2022.03.20） 23
+      - CYL-科技（2022.03.20） 24
+      - CYL-科技（2022.03.20） 25
+      - CYL-科技（2022.03.20） 26
+      - CYL-科技（2022.03.20） 27
+      - CYL-科技（2022.03.20） 28
+      - CYL-科技（2022.03.20） 29
+      - CYL-科技（2022.03.20） 30
+      - CYL-科技（2022.03.20） 31
+      - CYL-科技（2022.03.20） 32
+      - CYL-科技（2022.03.20） 33
+      - CYL-科技（2022.03.20） 34
+      - CYL-科技（2022.03.20） 35
+      - CYL-科技（2022.03.20） 36
+      - CYL-科技（2022.03.20） 37
+      - CYL-科技（2022.03.20） 38
+      - CYL-科技（2022.03.20） 39
+      - CYL-科技（2022.03.20） 40
+      - CYL-科技（2022.03.20） 41
+      - CYL-科技（2022.03.20） 42
+      - CYL-科技（2022.03.20） 43
+      - CYL-科技（2022.03.20） 44
+      - CYL-科技（2022.03.20） 45
+      - CYL-科技（2022.03.20） 46
+      - CYL-科技（2022.03.20） 47
+      - CYL-科技（2022.03.20） 48
+      - CYL-科技（2022.03.20） 49
+      - CYL-科技（2022.03.20） 50
+      - CYL-科技（2022.03.20） 51
+      - CYL-科技（2022.03.20） 52
+      - CYL-科技（2022.03.20） 53
+      - 中国阿伟科技@TG*油管 10
+      - CYL-科技（2022.03.20） 54
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 CN中国TG/油管@阿伟科技
-      - sg2.31vpn.com
-      - sg2.31vpn.com 2
-      - 🇫🇷 FR法国TG/油管@阿伟科技
-      - 🇨🇳 CN中国TG/油管@阿伟科技 2
-      - sg2.31vpn.com 3
-      - 🇷🇺 RU俄罗斯联邦TG/油管@阿伟科技
-      - 🇫🇷 FR法国TG/油管@阿伟科技 2
-      - 🇨🇳 CN中国TG/油管@阿伟科技 3
-      - 🇨🇳 CN中国TG/油管@阿伟科技 4
-      - 🇨🇦 加拿大【YouTube由零開始】
-      - 🇬🇧 GB英国TG/油管@阿伟科技
-      - 🇰🇷 KR韩国TG/油管@阿伟科技
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 2
-      - 🇨🇳 CN中国TG/油管@阿伟科技 5
-      - 🇭🇰 HK香港TG/油管@阿伟科技
-      - 🇺🇸 US美国TG/油管@阿伟科技
-      - 🇬🇧 英国【YouTube由零開始】
-      - 🇺🇸 US美国TG/油管@阿伟科技 2
-      - 🇨🇦 加拿大【YouTube由零開始】 2
-      - 🇺🇸 us2.31vpn.com
-      - 🇬🇧 GB英国TG/油管@阿伟科技 2
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 3
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 4
+      - 中国阿伟科技@TG*油管
+      - 香港阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管
+      - 香港阿伟科技@TG*油管 2
+      - 中国阿伟科技@TG*油管 2
+      - 马来西亚阿伟科技@TG/油管
+      - 中国阿伟科技@TG*油管 3
+      - 中国阿伟科技@TG*油管 4
+      - 香港阿伟科技@TG*油管 3
+      - 美国阿伟科技@TG*油管 2
+      - 美国阿伟科技@TG*油管 3
+      - 俄罗斯联邦阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管 4
+      - 美国阿伟科技@TG*油管 5
+      - 俄罗斯联邦阿伟科技@TG*油管 2
+      - 俄罗斯联邦阿伟科技@TG*油管 3
+      - 中国阿伟科技@TG*油管 5
+      - 中国阿伟科技@TG*油管 6
+      - 美国阿伟科技@TG*油管 6
+      - 中国阿伟科技@TG*油管 7
+      - 俄罗斯联邦阿伟科技@TG*油管 4
+      - 美国阿伟科技@TG*油管 7
+      - 中国阿伟科技@TG*油管 8
+      - 韩国阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管 8
+      - 香港阿伟科技@TG*油管 4
+      - 中国阿伟科技@TG*油管 9
+      - CYL-科技（2022.03.20）
+      - CYL-科技（2022.03.20） 2
+      - CYL-科技（2022.03.20） 3
+      - CYL-科技（2022.03.20） 4
+      - CYL-科技（2022.03.20） 5
+      - CYL-科技（2022.03.20） 6
+      - CYL-科技（2022.03.20） 7
+      - CYL-科技（2022.03.20） 8
+      - CYL-科技（2022.03.20） 9
+      - CYL-科技（2022.03.20） 10
+      - CYL-科技（2022.03.20） 11
+      - CYL-科技（2022.03.20） 12
+      - CYL-科技（2022.03.20） 13
+      - CYL-科技（2022.03.20） 14
+      - CYL-科技（2022.03.20） 15
+      - CYL-科技（2022.03.20） 16
+      - CYL-科技（2022.03.20） 17
+      - CYL-科技（2022.03.20） 18
+      - CYL-科技（2022.03.20） 19
+      - CYL-科技（2022.03.20） 20
+      - CYL-科技（2022.03.20） 21
+      - CYL-科技（2022.03.20） 22
+      - CYL-科技（2022.03.20） 23
+      - CYL-科技（2022.03.20） 24
+      - CYL-科技（2022.03.20） 25
+      - CYL-科技（2022.03.20） 26
+      - CYL-科技（2022.03.20） 27
+      - CYL-科技（2022.03.20） 28
+      - CYL-科技（2022.03.20） 29
+      - CYL-科技（2022.03.20） 30
+      - CYL-科技（2022.03.20） 31
+      - CYL-科技（2022.03.20） 32
+      - CYL-科技（2022.03.20） 33
+      - CYL-科技（2022.03.20） 34
+      - CYL-科技（2022.03.20） 35
+      - CYL-科技（2022.03.20） 36
+      - CYL-科技（2022.03.20） 37
+      - CYL-科技（2022.03.20） 38
+      - CYL-科技（2022.03.20） 39
+      - CYL-科技（2022.03.20） 40
+      - CYL-科技（2022.03.20） 41
+      - CYL-科技（2022.03.20） 42
+      - CYL-科技（2022.03.20） 43
+      - CYL-科技（2022.03.20） 44
+      - CYL-科技（2022.03.20） 45
+      - CYL-科技（2022.03.20） 46
+      - CYL-科技（2022.03.20） 47
+      - CYL-科技（2022.03.20） 48
+      - CYL-科技（2022.03.20） 49
+      - CYL-科技（2022.03.20） 50
+      - CYL-科技（2022.03.20） 51
+      - CYL-科技（2022.03.20） 52
+      - CYL-科技（2022.03.20） 53
+      - 中国阿伟科技@TG*油管 10
+      - CYL-科技（2022.03.20） 54
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 CN中国TG/油管@阿伟科技
-      - sg2.31vpn.com
-      - sg2.31vpn.com 2
-      - 🇫🇷 FR法国TG/油管@阿伟科技
-      - 🇨🇳 CN中国TG/油管@阿伟科技 2
-      - sg2.31vpn.com 3
-      - 🇷🇺 RU俄罗斯联邦TG/油管@阿伟科技
-      - 🇫🇷 FR法国TG/油管@阿伟科技 2
-      - 🇨🇳 CN中国TG/油管@阿伟科技 3
-      - 🇨🇳 CN中国TG/油管@阿伟科技 4
-      - 🇨🇦 加拿大【YouTube由零開始】
-      - 🇬🇧 GB英国TG/油管@阿伟科技
-      - 🇰🇷 KR韩国TG/油管@阿伟科技
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 2
-      - 🇨🇳 CN中国TG/油管@阿伟科技 5
-      - 🇭🇰 HK香港TG/油管@阿伟科技
-      - 🇺🇸 US美国TG/油管@阿伟科技
-      - 🇬🇧 英国【YouTube由零開始】
-      - 🇺🇸 US美国TG/油管@阿伟科技 2
-      - 🇨🇦 加拿大【YouTube由零開始】 2
-      - 🇺🇸 us2.31vpn.com
-      - 🇬🇧 GB英国TG/油管@阿伟科技 2
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 3
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 4
+      - 中国阿伟科技@TG*油管
+      - 香港阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管
+      - 香港阿伟科技@TG*油管 2
+      - 中国阿伟科技@TG*油管 2
+      - 马来西亚阿伟科技@TG/油管
+      - 中国阿伟科技@TG*油管 3
+      - 中国阿伟科技@TG*油管 4
+      - 香港阿伟科技@TG*油管 3
+      - 美国阿伟科技@TG*油管 2
+      - 美国阿伟科技@TG*油管 3
+      - 俄罗斯联邦阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管 4
+      - 美国阿伟科技@TG*油管 5
+      - 俄罗斯联邦阿伟科技@TG*油管 2
+      - 俄罗斯联邦阿伟科技@TG*油管 3
+      - 中国阿伟科技@TG*油管 5
+      - 中国阿伟科技@TG*油管 6
+      - 美国阿伟科技@TG*油管 6
+      - 中国阿伟科技@TG*油管 7
+      - 俄罗斯联邦阿伟科技@TG*油管 4
+      - 美国阿伟科技@TG*油管 7
+      - 中国阿伟科技@TG*油管 8
+      - 韩国阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管 8
+      - 香港阿伟科技@TG*油管 4
+      - 中国阿伟科技@TG*油管 9
+      - CYL-科技（2022.03.20）
+      - CYL-科技（2022.03.20） 2
+      - CYL-科技（2022.03.20） 3
+      - CYL-科技（2022.03.20） 4
+      - CYL-科技（2022.03.20） 5
+      - CYL-科技（2022.03.20） 6
+      - CYL-科技（2022.03.20） 7
+      - CYL-科技（2022.03.20） 8
+      - CYL-科技（2022.03.20） 9
+      - CYL-科技（2022.03.20） 10
+      - CYL-科技（2022.03.20） 11
+      - CYL-科技（2022.03.20） 12
+      - CYL-科技（2022.03.20） 13
+      - CYL-科技（2022.03.20） 14
+      - CYL-科技（2022.03.20） 15
+      - CYL-科技（2022.03.20） 16
+      - CYL-科技（2022.03.20） 17
+      - CYL-科技（2022.03.20） 18
+      - CYL-科技（2022.03.20） 19
+      - CYL-科技（2022.03.20） 20
+      - CYL-科技（2022.03.20） 21
+      - CYL-科技（2022.03.20） 22
+      - CYL-科技（2022.03.20） 23
+      - CYL-科技（2022.03.20） 24
+      - CYL-科技（2022.03.20） 25
+      - CYL-科技（2022.03.20） 26
+      - CYL-科技（2022.03.20） 27
+      - CYL-科技（2022.03.20） 28
+      - CYL-科技（2022.03.20） 29
+      - CYL-科技（2022.03.20） 30
+      - CYL-科技（2022.03.20） 31
+      - CYL-科技（2022.03.20） 32
+      - CYL-科技（2022.03.20） 33
+      - CYL-科技（2022.03.20） 34
+      - CYL-科技（2022.03.20） 35
+      - CYL-科技（2022.03.20） 36
+      - CYL-科技（2022.03.20） 37
+      - CYL-科技（2022.03.20） 38
+      - CYL-科技（2022.03.20） 39
+      - CYL-科技（2022.03.20） 40
+      - CYL-科技（2022.03.20） 41
+      - CYL-科技（2022.03.20） 42
+      - CYL-科技（2022.03.20） 43
+      - CYL-科技（2022.03.20） 44
+      - CYL-科技（2022.03.20） 45
+      - CYL-科技（2022.03.20） 46
+      - CYL-科技（2022.03.20） 47
+      - CYL-科技（2022.03.20） 48
+      - CYL-科技（2022.03.20） 49
+      - CYL-科技（2022.03.20） 50
+      - CYL-科技（2022.03.20） 51
+      - CYL-科技（2022.03.20） 52
+      - CYL-科技（2022.03.20） 53
+      - 中国阿伟科技@TG*油管 10
+      - CYL-科技（2022.03.20） 54
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳 CN中国TG/油管@阿伟科技
-      - sg2.31vpn.com
-      - sg2.31vpn.com 2
-      - 🇫🇷 FR法国TG/油管@阿伟科技
-      - 🇨🇳 CN中国TG/油管@阿伟科技 2
-      - sg2.31vpn.com 3
-      - 🇷🇺 RU俄罗斯联邦TG/油管@阿伟科技
-      - 🇫🇷 FR法国TG/油管@阿伟科技 2
-      - 🇨🇳 CN中国TG/油管@阿伟科技 3
-      - 🇨🇳 CN中国TG/油管@阿伟科技 4
-      - 🇨🇦 加拿大【YouTube由零開始】
-      - 🇬🇧 GB英国TG/油管@阿伟科技
-      - 🇰🇷 KR韩国TG/油管@阿伟科技
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 2
-      - 🇨🇳 CN中国TG/油管@阿伟科技 5
-      - 🇭🇰 HK香港TG/油管@阿伟科技
-      - 🇺🇸 US美国TG/油管@阿伟科技
-      - 🇬🇧 英国【YouTube由零開始】
-      - 🇺🇸 US美国TG/油管@阿伟科技 2
-      - 🇨🇦 加拿大【YouTube由零開始】 2
-      - 🇺🇸 us2.31vpn.com
-      - 🇬🇧 GB英国TG/油管@阿伟科技 2
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 3
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 4
+      - 中国阿伟科技@TG*油管
+      - 香港阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管
+      - 香港阿伟科技@TG*油管 2
+      - 中国阿伟科技@TG*油管 2
+      - 马来西亚阿伟科技@TG/油管
+      - 中国阿伟科技@TG*油管 3
+      - 中国阿伟科技@TG*油管 4
+      - 香港阿伟科技@TG*油管 3
+      - 美国阿伟科技@TG*油管 2
+      - 美国阿伟科技@TG*油管 3
+      - 俄罗斯联邦阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管 4
+      - 美国阿伟科技@TG*油管 5
+      - 俄罗斯联邦阿伟科技@TG*油管 2
+      - 俄罗斯联邦阿伟科技@TG*油管 3
+      - 中国阿伟科技@TG*油管 5
+      - 中国阿伟科技@TG*油管 6
+      - 美国阿伟科技@TG*油管 6
+      - 中国阿伟科技@TG*油管 7
+      - 俄罗斯联邦阿伟科技@TG*油管 4
+      - 美国阿伟科技@TG*油管 7
+      - 中国阿伟科技@TG*油管 8
+      - 韩国阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管 8
+      - 香港阿伟科技@TG*油管 4
+      - 中国阿伟科技@TG*油管 9
+      - CYL-科技（2022.03.20）
+      - CYL-科技（2022.03.20） 2
+      - CYL-科技（2022.03.20） 3
+      - CYL-科技（2022.03.20） 4
+      - CYL-科技（2022.03.20） 5
+      - CYL-科技（2022.03.20） 6
+      - CYL-科技（2022.03.20） 7
+      - CYL-科技（2022.03.20） 8
+      - CYL-科技（2022.03.20） 9
+      - CYL-科技（2022.03.20） 10
+      - CYL-科技（2022.03.20） 11
+      - CYL-科技（2022.03.20） 12
+      - CYL-科技（2022.03.20） 13
+      - CYL-科技（2022.03.20） 14
+      - CYL-科技（2022.03.20） 15
+      - CYL-科技（2022.03.20） 16
+      - CYL-科技（2022.03.20） 17
+      - CYL-科技（2022.03.20） 18
+      - CYL-科技（2022.03.20） 19
+      - CYL-科技（2022.03.20） 20
+      - CYL-科技（2022.03.20） 21
+      - CYL-科技（2022.03.20） 22
+      - CYL-科技（2022.03.20） 23
+      - CYL-科技（2022.03.20） 24
+      - CYL-科技（2022.03.20） 25
+      - CYL-科技（2022.03.20） 26
+      - CYL-科技（2022.03.20） 27
+      - CYL-科技（2022.03.20） 28
+      - CYL-科技（2022.03.20） 29
+      - CYL-科技（2022.03.20） 30
+      - CYL-科技（2022.03.20） 31
+      - CYL-科技（2022.03.20） 32
+      - CYL-科技（2022.03.20） 33
+      - CYL-科技（2022.03.20） 34
+      - CYL-科技（2022.03.20） 35
+      - CYL-科技（2022.03.20） 36
+      - CYL-科技（2022.03.20） 37
+      - CYL-科技（2022.03.20） 38
+      - CYL-科技（2022.03.20） 39
+      - CYL-科技（2022.03.20） 40
+      - CYL-科技（2022.03.20） 41
+      - CYL-科技（2022.03.20） 42
+      - CYL-科技（2022.03.20） 43
+      - CYL-科技（2022.03.20） 44
+      - CYL-科技（2022.03.20） 45
+      - CYL-科技（2022.03.20） 46
+      - CYL-科技（2022.03.20） 47
+      - CYL-科技（2022.03.20） 48
+      - CYL-科技（2022.03.20） 49
+      - CYL-科技（2022.03.20） 50
+      - CYL-科技（2022.03.20） 51
+      - CYL-科技（2022.03.20） 52
+      - CYL-科技（2022.03.20） 53
+      - 中国阿伟科技@TG*油管 10
+      - CYL-科技（2022.03.20） 54
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 CN中国TG/油管@阿伟科技
-      - sg2.31vpn.com
-      - sg2.31vpn.com 2
-      - 🇫🇷 FR法国TG/油管@阿伟科技
-      - 🇨🇳 CN中国TG/油管@阿伟科技 2
-      - sg2.31vpn.com 3
-      - 🇷🇺 RU俄罗斯联邦TG/油管@阿伟科技
-      - 🇫🇷 FR法国TG/油管@阿伟科技 2
-      - 🇨🇳 CN中国TG/油管@阿伟科技 3
-      - 🇨🇳 CN中国TG/油管@阿伟科技 4
-      - 🇨🇦 加拿大【YouTube由零開始】
-      - 🇬🇧 GB英国TG/油管@阿伟科技
-      - 🇰🇷 KR韩国TG/油管@阿伟科技
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 2
-      - 🇨🇳 CN中国TG/油管@阿伟科技 5
-      - 🇭🇰 HK香港TG/油管@阿伟科技
-      - 🇺🇸 US美国TG/油管@阿伟科技
-      - 🇬🇧 英国【YouTube由零開始】
-      - 🇺🇸 US美国TG/油管@阿伟科技 2
-      - 🇨🇦 加拿大【YouTube由零開始】 2
-      - 🇺🇸 us2.31vpn.com
-      - 🇬🇧 GB英国TG/油管@阿伟科技 2
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 3
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 4
+      - 中国阿伟科技@TG*油管
+      - 香港阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管
+      - 香港阿伟科技@TG*油管 2
+      - 中国阿伟科技@TG*油管 2
+      - 马来西亚阿伟科技@TG/油管
+      - 中国阿伟科技@TG*油管 3
+      - 中国阿伟科技@TG*油管 4
+      - 香港阿伟科技@TG*油管 3
+      - 美国阿伟科技@TG*油管 2
+      - 美国阿伟科技@TG*油管 3
+      - 俄罗斯联邦阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管 4
+      - 美国阿伟科技@TG*油管 5
+      - 俄罗斯联邦阿伟科技@TG*油管 2
+      - 俄罗斯联邦阿伟科技@TG*油管 3
+      - 中国阿伟科技@TG*油管 5
+      - 中国阿伟科技@TG*油管 6
+      - 美国阿伟科技@TG*油管 6
+      - 中国阿伟科技@TG*油管 7
+      - 俄罗斯联邦阿伟科技@TG*油管 4
+      - 美国阿伟科技@TG*油管 7
+      - 中国阿伟科技@TG*油管 8
+      - 韩国阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管 8
+      - 香港阿伟科技@TG*油管 4
+      - 中国阿伟科技@TG*油管 9
+      - CYL-科技（2022.03.20）
+      - CYL-科技（2022.03.20） 2
+      - CYL-科技（2022.03.20） 3
+      - CYL-科技（2022.03.20） 4
+      - CYL-科技（2022.03.20） 5
+      - CYL-科技（2022.03.20） 6
+      - CYL-科技（2022.03.20） 7
+      - CYL-科技（2022.03.20） 8
+      - CYL-科技（2022.03.20） 9
+      - CYL-科技（2022.03.20） 10
+      - CYL-科技（2022.03.20） 11
+      - CYL-科技（2022.03.20） 12
+      - CYL-科技（2022.03.20） 13
+      - CYL-科技（2022.03.20） 14
+      - CYL-科技（2022.03.20） 15
+      - CYL-科技（2022.03.20） 16
+      - CYL-科技（2022.03.20） 17
+      - CYL-科技（2022.03.20） 18
+      - CYL-科技（2022.03.20） 19
+      - CYL-科技（2022.03.20） 20
+      - CYL-科技（2022.03.20） 21
+      - CYL-科技（2022.03.20） 22
+      - CYL-科技（2022.03.20） 23
+      - CYL-科技（2022.03.20） 24
+      - CYL-科技（2022.03.20） 25
+      - CYL-科技（2022.03.20） 26
+      - CYL-科技（2022.03.20） 27
+      - CYL-科技（2022.03.20） 28
+      - CYL-科技（2022.03.20） 29
+      - CYL-科技（2022.03.20） 30
+      - CYL-科技（2022.03.20） 31
+      - CYL-科技（2022.03.20） 32
+      - CYL-科技（2022.03.20） 33
+      - CYL-科技（2022.03.20） 34
+      - CYL-科技（2022.03.20） 35
+      - CYL-科技（2022.03.20） 36
+      - CYL-科技（2022.03.20） 37
+      - CYL-科技（2022.03.20） 38
+      - CYL-科技（2022.03.20） 39
+      - CYL-科技（2022.03.20） 40
+      - CYL-科技（2022.03.20） 41
+      - CYL-科技（2022.03.20） 42
+      - CYL-科技（2022.03.20） 43
+      - CYL-科技（2022.03.20） 44
+      - CYL-科技（2022.03.20） 45
+      - CYL-科技（2022.03.20） 46
+      - CYL-科技（2022.03.20） 47
+      - CYL-科技（2022.03.20） 48
+      - CYL-科技（2022.03.20） 49
+      - CYL-科技（2022.03.20） 50
+      - CYL-科技（2022.03.20） 51
+      - CYL-科技（2022.03.20） 52
+      - CYL-科技（2022.03.20） 53
+      - 中国阿伟科技@TG*油管 10
+      - CYL-科技（2022.03.20） 54
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 CN中国TG/油管@阿伟科技
-      - sg2.31vpn.com
-      - sg2.31vpn.com 2
-      - 🇫🇷 FR法国TG/油管@阿伟科技
-      - 🇨🇳 CN中国TG/油管@阿伟科技 2
-      - sg2.31vpn.com 3
-      - 🇷🇺 RU俄罗斯联邦TG/油管@阿伟科技
-      - 🇫🇷 FR法国TG/油管@阿伟科技 2
-      - 🇨🇳 CN中国TG/油管@阿伟科技 3
-      - 🇨🇳 CN中国TG/油管@阿伟科技 4
-      - 🇨🇦 加拿大【YouTube由零開始】
-      - 🇬🇧 GB英国TG/油管@阿伟科技
-      - 🇰🇷 KR韩国TG/油管@阿伟科技
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 2
-      - 🇨🇳 CN中国TG/油管@阿伟科技 5
-      - 🇭🇰 HK香港TG/油管@阿伟科技
-      - 🇺🇸 US美国TG/油管@阿伟科技
-      - 🇬🇧 英国【YouTube由零開始】
-      - 🇺🇸 US美国TG/油管@阿伟科技 2
-      - 🇨🇦 加拿大【YouTube由零開始】 2
-      - 🇺🇸 us2.31vpn.com
-      - 🇬🇧 GB英国TG/油管@阿伟科技 2
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 3
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 4
+      - 中国阿伟科技@TG*油管
+      - 香港阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管
+      - 香港阿伟科技@TG*油管 2
+      - 中国阿伟科技@TG*油管 2
+      - 马来西亚阿伟科技@TG/油管
+      - 中国阿伟科技@TG*油管 3
+      - 中国阿伟科技@TG*油管 4
+      - 香港阿伟科技@TG*油管 3
+      - 美国阿伟科技@TG*油管 2
+      - 美国阿伟科技@TG*油管 3
+      - 俄罗斯联邦阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管 4
+      - 美国阿伟科技@TG*油管 5
+      - 俄罗斯联邦阿伟科技@TG*油管 2
+      - 俄罗斯联邦阿伟科技@TG*油管 3
+      - 中国阿伟科技@TG*油管 5
+      - 中国阿伟科技@TG*油管 6
+      - 美国阿伟科技@TG*油管 6
+      - 中国阿伟科技@TG*油管 7
+      - 俄罗斯联邦阿伟科技@TG*油管 4
+      - 美国阿伟科技@TG*油管 7
+      - 中国阿伟科技@TG*油管 8
+      - 韩国阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管 8
+      - 香港阿伟科技@TG*油管 4
+      - 中国阿伟科技@TG*油管 9
+      - CYL-科技（2022.03.20）
+      - CYL-科技（2022.03.20） 2
+      - CYL-科技（2022.03.20） 3
+      - CYL-科技（2022.03.20） 4
+      - CYL-科技（2022.03.20） 5
+      - CYL-科技（2022.03.20） 6
+      - CYL-科技（2022.03.20） 7
+      - CYL-科技（2022.03.20） 8
+      - CYL-科技（2022.03.20） 9
+      - CYL-科技（2022.03.20） 10
+      - CYL-科技（2022.03.20） 11
+      - CYL-科技（2022.03.20） 12
+      - CYL-科技（2022.03.20） 13
+      - CYL-科技（2022.03.20） 14
+      - CYL-科技（2022.03.20） 15
+      - CYL-科技（2022.03.20） 16
+      - CYL-科技（2022.03.20） 17
+      - CYL-科技（2022.03.20） 18
+      - CYL-科技（2022.03.20） 19
+      - CYL-科技（2022.03.20） 20
+      - CYL-科技（2022.03.20） 21
+      - CYL-科技（2022.03.20） 22
+      - CYL-科技（2022.03.20） 23
+      - CYL-科技（2022.03.20） 24
+      - CYL-科技（2022.03.20） 25
+      - CYL-科技（2022.03.20） 26
+      - CYL-科技（2022.03.20） 27
+      - CYL-科技（2022.03.20） 28
+      - CYL-科技（2022.03.20） 29
+      - CYL-科技（2022.03.20） 30
+      - CYL-科技（2022.03.20） 31
+      - CYL-科技（2022.03.20） 32
+      - CYL-科技（2022.03.20） 33
+      - CYL-科技（2022.03.20） 34
+      - CYL-科技（2022.03.20） 35
+      - CYL-科技（2022.03.20） 36
+      - CYL-科技（2022.03.20） 37
+      - CYL-科技（2022.03.20） 38
+      - CYL-科技（2022.03.20） 39
+      - CYL-科技（2022.03.20） 40
+      - CYL-科技（2022.03.20） 41
+      - CYL-科技（2022.03.20） 42
+      - CYL-科技（2022.03.20） 43
+      - CYL-科技（2022.03.20） 44
+      - CYL-科技（2022.03.20） 45
+      - CYL-科技（2022.03.20） 46
+      - CYL-科技（2022.03.20） 47
+      - CYL-科技（2022.03.20） 48
+      - CYL-科技（2022.03.20） 49
+      - CYL-科技（2022.03.20） 50
+      - CYL-科技（2022.03.20） 51
+      - CYL-科技（2022.03.20） 52
+      - CYL-科技（2022.03.20） 53
+      - 中国阿伟科技@TG*油管 10
+      - CYL-科技（2022.03.20） 54
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -258,30 +722,88 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 CN中国TG/油管@阿伟科技
-      - sg2.31vpn.com
-      - sg2.31vpn.com 2
-      - 🇫🇷 FR法国TG/油管@阿伟科技
-      - 🇨🇳 CN中国TG/油管@阿伟科技 2
-      - sg2.31vpn.com 3
-      - 🇷🇺 RU俄罗斯联邦TG/油管@阿伟科技
-      - 🇫🇷 FR法国TG/油管@阿伟科技 2
-      - 🇨🇳 CN中国TG/油管@阿伟科技 3
-      - 🇨🇳 CN中国TG/油管@阿伟科技 4
-      - 🇨🇦 加拿大【YouTube由零開始】
-      - 🇬🇧 GB英国TG/油管@阿伟科技
-      - 🇰🇷 KR韩国TG/油管@阿伟科技
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 2
-      - 🇨🇳 CN中国TG/油管@阿伟科技 5
-      - 🇭🇰 HK香港TG/油管@阿伟科技
-      - 🇺🇸 US美国TG/油管@阿伟科技
-      - 🇬🇧 英国【YouTube由零開始】
-      - 🇺🇸 US美国TG/油管@阿伟科技 2
-      - 🇨🇦 加拿大【YouTube由零開始】 2
-      - 🇺🇸 us2.31vpn.com
-      - 🇬🇧 GB英国TG/油管@阿伟科技 2
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 3
-      - 🇰🇷 KR韩国TG/油管@阿伟科技 4
+      - 中国阿伟科技@TG*油管
+      - 香港阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管
+      - 香港阿伟科技@TG*油管 2
+      - 中国阿伟科技@TG*油管 2
+      - 马来西亚阿伟科技@TG/油管
+      - 中国阿伟科技@TG*油管 3
+      - 中国阿伟科技@TG*油管 4
+      - 香港阿伟科技@TG*油管 3
+      - 美国阿伟科技@TG*油管 2
+      - 美国阿伟科技@TG*油管 3
+      - 俄罗斯联邦阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管 4
+      - 美国阿伟科技@TG*油管 5
+      - 俄罗斯联邦阿伟科技@TG*油管 2
+      - 俄罗斯联邦阿伟科技@TG*油管 3
+      - 中国阿伟科技@TG*油管 5
+      - 中国阿伟科技@TG*油管 6
+      - 美国阿伟科技@TG*油管 6
+      - 中国阿伟科技@TG*油管 7
+      - 俄罗斯联邦阿伟科技@TG*油管 4
+      - 美国阿伟科技@TG*油管 7
+      - 中国阿伟科技@TG*油管 8
+      - 韩国阿伟科技@TG*油管
+      - 美国阿伟科技@TG*油管 8
+      - 香港阿伟科技@TG*油管 4
+      - 中国阿伟科技@TG*油管 9
+      - CYL-科技（2022.03.20）
+      - CYL-科技（2022.03.20） 2
+      - CYL-科技（2022.03.20） 3
+      - CYL-科技（2022.03.20） 4
+      - CYL-科技（2022.03.20） 5
+      - CYL-科技（2022.03.20） 6
+      - CYL-科技（2022.03.20） 7
+      - CYL-科技（2022.03.20） 8
+      - CYL-科技（2022.03.20） 9
+      - CYL-科技（2022.03.20） 10
+      - CYL-科技（2022.03.20） 11
+      - CYL-科技（2022.03.20） 12
+      - CYL-科技（2022.03.20） 13
+      - CYL-科技（2022.03.20） 14
+      - CYL-科技（2022.03.20） 15
+      - CYL-科技（2022.03.20） 16
+      - CYL-科技（2022.03.20） 17
+      - CYL-科技（2022.03.20） 18
+      - CYL-科技（2022.03.20） 19
+      - CYL-科技（2022.03.20） 20
+      - CYL-科技（2022.03.20） 21
+      - CYL-科技（2022.03.20） 22
+      - CYL-科技（2022.03.20） 23
+      - CYL-科技（2022.03.20） 24
+      - CYL-科技（2022.03.20） 25
+      - CYL-科技（2022.03.20） 26
+      - CYL-科技（2022.03.20） 27
+      - CYL-科技（2022.03.20） 28
+      - CYL-科技（2022.03.20） 29
+      - CYL-科技（2022.03.20） 30
+      - CYL-科技（2022.03.20） 31
+      - CYL-科技（2022.03.20） 32
+      - CYL-科技（2022.03.20） 33
+      - CYL-科技（2022.03.20） 34
+      - CYL-科技（2022.03.20） 35
+      - CYL-科技（2022.03.20） 36
+      - CYL-科技（2022.03.20） 37
+      - CYL-科技（2022.03.20） 38
+      - CYL-科技（2022.03.20） 39
+      - CYL-科技（2022.03.20） 40
+      - CYL-科技（2022.03.20） 41
+      - CYL-科技（2022.03.20） 42
+      - CYL-科技（2022.03.20） 43
+      - CYL-科技（2022.03.20） 44
+      - CYL-科技（2022.03.20） 45
+      - CYL-科技（2022.03.20） 46
+      - CYL-科技（2022.03.20） 47
+      - CYL-科技（2022.03.20） 48
+      - CYL-科技（2022.03.20） 49
+      - CYL-科技（2022.03.20） 50
+      - CYL-科技（2022.03.20） 51
+      - CYL-科技（2022.03.20） 52
+      - CYL-科技（2022.03.20） 53
+      - 中国阿伟科技@TG*油管 10
+      - CYL-科技（2022.03.20） 54
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
