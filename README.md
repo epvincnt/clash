@@ -5,1141 +5,2381 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: ♥️YouTube梦歌♥️_35, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21005, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_33, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21008, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_29, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21004, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_14, server: cmjm.senlinss.link, port: 21122, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: cmjm.senlinss.link}}
-  - {name: ♥️YouTube梦歌♥️_5, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21006, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_16, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21001, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_4, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21005, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_2, server: cmjm.senlinss.link, port: 21112, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: cmjm.senlinss.link}}
-  - {name: ♥️YouTube梦歌♥️_48, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21006, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_87, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21002, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_83, server: cmjm.senlinss.link, port: 21122, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: cmjm.senlinss.link}}
-  - {name: 🇸🇬 新加坡【由零开始YouTube】, server: cmjm.senlinss.link, port: 21122, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: cmjm.senlinss.link}}
-  - {name: ♥️YouTube梦歌♥️_89, server: cmjm.senlinss.link, port: 21122, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: cmjm.senlinss.link}}
-  - {name: ♥️YouTube梦歌♥️_39, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21002, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_15, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21008, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_12, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21002, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_38, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21007, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_52, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11002, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_41, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21009, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com}}
-  - {name: 🇭🇰 香港（TG@阿伟科技/油管）, server: hk1.qingyun123.xyz, port: 10050, type: trojan, password: f1cf7724-37db-43d7-8d41-459323fa7eef, sni: hk1.qingyun123.xyz}
-  - {name: ♥️YouTube梦歌♥️_58, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21009, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_47, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11004, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_9, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21004, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_17, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21008, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_10, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11005, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_50, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11003, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_24, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11001, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_36, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21007, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_22, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11003, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_34, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11001, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_42, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21004, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_31, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21005, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_8, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21010, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_20, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11002, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com}}
-  - {name: 🇯🇵 日本（TG@阿伟科技/油管）, server: nfjp1.qingyun123.xyz, port: 10000, type: trojan, password: 9722b10f-062c-4429-a63d-ecaf7502f562, sni: nfjp1.qingyun123.xyz}
-  - {name: ♥️YouTube梦歌♥️_14 2, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21005, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_23, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11005, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com}}
-  - {name: 🇰🇷 韩国（TG@阿伟科技/油管）, server: kr1.qingyun123.xyz, port: 10050, type: trojan, password: f1cf7724-37db-43d7-8d41-459323fa7eef, sni: kr1.qingyun123.xyz}
-  - {name: TG群https://t.me/aweikeji, server: in1.qingyun123.xyz, port: 443, type: trojan, password: 9722b10f-062c-4429-a63d-ecaf7502f562, sni: in1.qingyun123.xyz}
-  - {name: ♥️YouTube梦歌♥️_44, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 31001, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com}}
-  - {name: 🇨🇳 台湾（TG@阿伟科技/油管）, server: kaizen-tw-2.mielink-dns.com, port: 443, type: trojan, password: 6d2fb75a-c119-3cc9-bf30-8f5278e02a14mielink, sni: kaizen-tw-2.mielink-dns.com}
-  - {name: ♥️YouTube梦歌♥️_101, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 31004, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_21, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11004, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com}}
-  - {name: 🇭🇰 香港（TG@阿伟科技/油管） 2, server: 183.232.226.213, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: f71f0a92-5155-4700-ba4e-bcb3223cbf2c}
-  - {name: ♥️YouTube梦歌♥️_63, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 41002, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_55, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 31004, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_61, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 31005, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_56, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 31003, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_43, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21006, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_57, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 31003, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_62, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 31002, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_76, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 31003, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_19, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11005, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_71, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 31001, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_23 2, server: kaizen-us-13.mielink-dns.com, port: 443, type: trojan, password: 6d2fb75a-c119-3cc9-bf30-8f5278e02a14mielink, sni: kaizen-us-13.mielink-dns.com}
-  - {name: 🇺🇸 美国（TG@阿伟科技/油管）, server: cmjm.senlinss.link, port: 21130, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: cmjm.senlinss.link}}
-  - {name: ♥️YouTube梦歌♥️_49, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 31001, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_45, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 31004, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_95, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 31002, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_79, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41001, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com}}
-  - {name: 🇭🇰 香港（TG@阿伟科技/油管） 3, server: in03.dns2333.xyz, port: 63004, type: vmess, uuid: 61fefbce-2368-3809-8979-de696ffd3841, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: mugua-kr01.covid19.rip}}
-  - {name: ♥️YouTube梦歌♥️_75, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 31005, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_105, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21001, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_32, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 41001, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_81, server: 56c918c15a09403d93c037772a69dwd.jkcloud.xyz, port: 6599, type: ss, cipher: chacha20-ietf-poly1305, password: 816518db-ea90-408e-ae2b-84c3f06c371a}
-  - {name: ♥️YouTube梦歌♥️_66, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41002, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_50 2, server: cu.fanqie.world, port: 10008, type: vmess, uuid: 892a5d33-5965-3914-8a2e-e9bec0ef5d76, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu.fanqie.world}}
-  - {name: ♥️YouTube梦歌♥️_18, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21006, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_11, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21007, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_85, server: kr02.ayanami.best, port: 80, type: vmess, uuid: 3a294af3-7cff-48f3-bb4b-595961b895cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}}
-  - {name: 🇺🇸 美国（TG@阿伟科技/油管） 2, server: nfus.qingyun123.xyz, port: 10050, type: trojan, password: 9722b10f-062c-4429-a63d-ecaf7502f562, sni: nfus.qingyun123.xyz}
-  - {name: ♥️YouTube梦歌♥️_108, server: hex.eeeqq.tk, port: 443, type: vmess, uuid: ce36b301-63d8-40b3-f701-aae480998267, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: hex.eeeqq.tk}}
-  - {name: ♥️YouTube梦歌♥️_51, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: v4.xrenblog.com}}
-  - {name: ♥️YouTube梦歌♥️_59, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 41003, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_78, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 31002, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com}}
-  - {name: ♥️YouTube梦歌♥️_39 2, server: eb0453114ec45064654e57eeb394d6671csda.jkcloud.xyz, port: 6599, type: ss, cipher: chacha20-ietf-poly1305, password: 816518db-ea90-408e-ae2b-84c3f06c371a}
-  - {name: ♥️YouTube梦歌♥️_96, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: v4.xrenblog.com}}
-  - {name: 🇭🇰 香港【由零开始YouTube】, server: 165.154.225.231, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 330hk02.fans8.xyz}}
-  - {name: ♥️YouTube梦歌♥️_3, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21009, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com}}
-  - {name: 🇺🇸 美国（TG@阿伟科技/油管） 3, server: node.zxcairport.xyz, port: 443, type: vmess, uuid: 7b198651-f526-44b5-a156-6badfe346dbf, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us2.zxcairport.xyz}}
-  - {name: 🇺🇸 美国（TG@阿伟科技/油管） 4, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: v4.xrenblog.com}}
-  - {name: ♥️YouTube梦歌♥️_41 2, server: 8.ezydfdd.com, port: 443, type: vmess, uuid: dc0887b9-4c05-428c-adce-4235d1636341, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /qwe, ws-headers: {Host: 8.ezydfdd.com}}
-  - {name: 🇭🇰 香港（TG@阿伟科技/油管） 4, server: eb0453114ec45064654e57eeb394d6671csda.jkcloud.xyz, port: 6599, type: ss, cipher: chacha20-ietf-poly1305, password: 816518db-ea90-408e-ae2b-84c3f06c371a}
-  - {name: ♥️YouTube梦歌♥️_86, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /xrenblog/, ws-headers: {Host: ipv6.xrenblog.com}}
-  - {name: 🇯🇵 日本【由零开始YouTube】, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false}
-  - {name: ♥️YouTube梦歌♥️_32 2, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: v4.xrenblog.com}}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 183.232.56.161, port: 1952, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 183.232.56.161, port: 5019, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
-  - {name: ♥️YouTube梦歌♥️_64, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 31005, type: vmess, uuid: f944c8c3-2a96-4c6f-be69-9b0af30d7a73, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com}}
-  - {name: 🇺🇸 美国【由零开始YouTube】, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: v4.xrenblog.com}}
-  - {name: 🇩🇪 德国TG@阿伟科技/油管）, server: hex.eeeqq.tk, port: 443, type: vmess, uuid: ce36b301-63d8-40b3-f701-aae480998267, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: hex.eeeqq.tk}}
-  - {name: ♥️YouTube梦歌♥️_182, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: v4.xrenblog.com}}
-  - {name: 🇺🇸 美国（TG@阿伟科技/油管） 5, server: 183.232.226.213, port: 30004, type: ss, cipher: chacha20-ietf-poly1305, password: f71f0a92-5155-4700-ba4e-bcb3223cbf2c}
-  - {name: 🇭🇰 香港（TG@阿伟科技/油管） 5, server: azhk05.yitaiml.xyz, port: 443, type: vmess, uuid: 08f91f07-9506-41b4-b115-0b45640fe701, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /JJkuv3, ws-headers: {Host: a.189.cn}}
-  - {name: ♥️YouTube梦歌♥️_40, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: v4.xrenblog.com}}
-  - {name: 🇨🇳 CN_42 TG@peekfun, server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}}
-  - {name: 🇹🇭 THE WORLD, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: v4.xrenblog.com}}
-  - {name: 🇭🇰 香港（TG@阿伟科技/油管） 6, server: eb0453114ec45064654e57eeb394d6671csda.jkcloud.xyz, port: 6599, type: ss, cipher: chacha20-ietf-poly1305, password: 816518db-ea90-408e-ae2b-84c3f06c371a}
-  - {name: 🇺🇸 美国（TG@阿伟科技/油管） 6, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: v4.xrenblog.com}}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君), server: 183.232.56.161, port: 1952, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}}
-  - {name: ♥️YouTube梦歌♥️_97, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: v4.xrenblog.com}}
-  - {name: 🇸🇬 新加坡（TG@阿伟科技/油管）, server: sg.gtss.tk, port: 443, type: trojan, password: NWGdxI6dQo, sni: sg.gtss.tk}
-  - {name: 🇭🇰 香港（TG@阿伟科技/油管） 7, server: hk1.azure.infininode.xyz, port: 34634, type: vmess, uuid: f81fe6ec-d426-4fcf-ae9a-fe00dd40b48f, alterId: 0, cipher: auto, tls: true}
-  - {name: ♥️YouTube梦歌♥️_51 2, server: hk1.azure.infininode.xyz, port: 34634, type: vmess, uuid: f81fe6ec-d426-4fcf-ae9a-fe00dd40b48f, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇭🇰 香港（TG@阿伟科技/油管） 8, server: hk1.azure.infininode.xyz, port: 34634, type: vmess, uuid: f81fe6ec-d426-4fcf-ae9a-fe00dd40b48f, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇨🇳 台湾（TG@阿伟科技/油管） 2, server: 183.232.226.213, port: 30006, type: ss, cipher: chacha20-ietf-poly1305, password: f71f0a92-5155-4700-ba4e-bcb3223cbf2c}
-  - {name: ♥️YouTube梦歌♥️_48 2, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: v4.xrenblog.com}}
-  - {name: 🇺🇸 美国（TG@阿伟科技/油管） 7, server: v2.520guge.com, port: 443, type: vmess, uuid: cf1819c8-e530-4626-aec0-87ac04200385, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /happy, ws-headers: {Host: v2.520guge.com}}
-  - {name: 立陶宛（TG@阿伟科技/油管）, server: n24.fnyun.ml, port: 22552, type: ss, cipher: chacha20-ietf-poly1305, password: KiMShrsdskKf}
-  - {name: YouTube@阿阳AYANG, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online}
-  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君), server: 13.70.16.197, port: 33507, type: trojan, password: 5b192068-f80d-497a-aad0-7a52af7ef4df}
-  - {name: 【由零开始YouTube】, server: niaop.tk, port: 443, type: vmess, uuid: a0b0df87-bda2-440e-830f-347da6cc7760, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /wsssdr1, ws-headers: {Host: niaop.tk}}
-  - {name: ♥️YouTube梦歌♥️_102, server: node.zxcairport.xyz, port: 443, type: vmess, uuid: 7b198651-f526-44b5-a156-6badfe346dbf, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us2.zxcairport.xyz}}
-  - {name: 🇨🇦 加拿大【由零开始YouTube】, server: 134.195.198.252, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇸 github.com/freefq - 美国Microsoft数据中心 9, server: hk1.azure.infininode.xyz, port: 34634, type: vmess, uuid: f81fe6ec-d426-4fcf-ae9a-fe00dd40b48f, alterId: 0, cipher: auto, tls: true}
-  - {name: ♥️YouTube梦歌♥️_74, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /xrenblog/, ws-headers: {Host: ipv6.xrenblog.com}}
-  - {name: 🇺🇸 美国【由零开始YouTube】 2, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /xrenblog/, ws-headers: {Host: ipv6.xrenblog.com}}
-  - {name: 🇺🇸 美国【由零开始YouTube】 3, server: us1.31vpn.com, port: 80, type: vmess, uuid: bb4b9e95-c9ff-411c-9a47-483570e169aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /fastssh/remaoqi/624ca41d72e6d/, ws-headers: {Host: us1.31vpn.com}}
-  - {name: 🇺🇸 美国（TG@阿伟科技/油管） 8, server: eu.licom.ga, port: 62013, type: vmess, uuid: f81e990e-1283-48f9-9eff-acacad6fb661, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: eu.licom.ga}}
-  - {name: ♥️YouTube梦歌♥️_20 2, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online}
-  - {name: YouTube@阿阳AYANG 2, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online}
-  - {name: YouTube@阿阳AYANG 3, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online}
-  - {name: 卢森堡（TG@阿伟科技/油管）, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ♥️YouTube梦歌♥️_44 2, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online}
-  - {name: 🇳🇱 荷兰（TG@阿伟科技/油管）, server: 5.255.98.18, port: 2587, type: vmess, uuid: 53509e20-2854-44d1-9961-955a821f61bb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /tKibkGXI, ws-headers: {Host: shu.q-sj.vip}}
-  - {name: ♥️YouTube梦歌♥️_107, server: 48us.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 48us.fans8.xyz}}
-  - {name: 🇩🇪 德国（TG@阿伟科技/油管）, server: v6d1.moonfree.top, port: 443, type: vmess, uuid: 8fb115e3-4870-4396-b276-7fee9964298e, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v6d1.moonfree.top}}
-  - {name: 🇺🇸 美国【由零开始YouTube】 4, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 美国【YouTube由零开始】, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇺🇸 美国【由零开始YouTube】 5, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇯🇵 日本【由零开始YouTube】 2, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国【由零开始YouTube】 6, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国（TG@阿伟科技/油管） 9, server: 48us.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 48us.fans8.xyz}}
-  - {name: 立陶宛【由零开始YouTube】, server: vpn-eu-node00a-bb.hi-l.eu, port: 35780, type: ss, cipher: chacha20-ietf-poly1305, password: 7LaxzNQTLnd3}
-  - {name: 立陶宛【由零开始YouTube】 2, server: vpn-eu-node00a-bb.hi-l.eu, port: 35780, type: ss, cipher: chacha20-ietf-poly1305, password: XWXsTus9BXj4}
-  - {name: 立陶宛（TG@阿伟科技/油管） 2, server: node00a.fnyun.ml, port: 35780, type: ss, cipher: chacha20-ietf-poly1305, password: xejo6fsZM6MJ}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 2, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_14, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 4, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_5, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 5, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港（TG@阿伟科技/油管）, server: pro.tls.hongkongaz.dnsfree.top, port: 55092, type: trojan, password: 92ccfcfa-8ba2-45ca-893c-ce28d0f0dfce, sni: pro.tls.hongkongaz.dnsfree.top}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_12, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 6, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_51, server: cucu-aa.txwd.xyz, port: 50003, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 7, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_2, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 華人社區 | 臨時高速_32, server: aaa-666.txwd.xyz, port: 60017, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 8, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 9, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 華人社區 | 臨時高速_67, server: cmcm-a.txwd.xyz, port: 50222, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_11, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 10, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_9, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 11, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 12, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 13, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 14, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 15, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 16, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 17, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_6, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_48, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 18, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 2, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 19, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_12, server: aaa-666.txwd.xyz, port: 60017, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_3, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_36, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 20, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_8, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 21, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 22, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_15, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 23, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 24, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_8 2, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_6 2, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 華人社區 | 臨時高速_79, server: cm.newhua99.ga, port: 21691, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 25, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 26, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 2, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 27, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_3 2, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 28, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 4, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_11 2, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 29, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 30, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 31, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 32, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 33, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 34, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 35, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 36, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 5, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 6, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 37, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 7, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 38, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 8, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 9, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 39, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 40, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 41, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 42, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 43, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 44, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 45, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 46, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_2, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 47, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 48, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 49, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 10, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 11, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 50, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 51, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 52, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 53, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 54, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 55, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 12, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_12 2, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 13, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 56, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 57, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 58, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 59, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 60, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 14, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 4, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 華人社區 | 臨時高速_49, server: cm2.newhua99.ga, port: 21697, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 61, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_30, server: cm.newhua99.ga, port: 21691, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 15, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 華人社區 | 臨時高速_72, server: cu.newhua99.ga, port: 21682, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 16, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_1, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_27, server: cm2.newhua99.ga, port: 21697, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 62, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 63, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 華人社區 | 臨時高速_24, server: aaa-666.txwd.xyz, port: 60006, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 17, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_10, server: cu.newhua99.ga, port: 21682, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_13, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_31, server: cm2.newhua99.ga, port: 21696, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 64, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港（TG@阿伟科技/油管） 2, server: global.sggov.anycast2.sggovcloud.com, port: 51163, type: vmess, uuid: 5072ea16-08cf-4ab0-9e64-e158aa52c9a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: global.sggov.anycast2.sggovcloud.com}}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 65, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 66, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 18, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 67, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_11, server: cu.newhua99.ga, port: 21695, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 68, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 69, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 華人社區 | 臨時高速_27, server: aaa-666.txwd.xyz, port: 60021, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_14 2, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 華人社區 | 臨時高速_73, server: cm.newhua99.ga, port: 21694, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 19, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 20, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 70, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_2 2, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 21, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 71, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_13 2, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 華人社區 | 臨時高速_50, server: cm2.newhua99.ga, port: 21699, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 22, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 23, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 華人社區 | 臨時高速_60, server: cm.newhua99.ga, port: 21699, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 72, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 73, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 24, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 74, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 25, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_4, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_5, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 5, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 75, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 76, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 26, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_17, server: hgmf.speedcncnforward2.tk, port: 10001, type: trojan, password: 5dd5e318-134d-461c-b9c1-b37de88a234e, sni: hgmf.speedcncnforward2.tk}
+  - {name: 華人社區 | 臨時高速_110, server: cu.newhua99.ga, port: 21695, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: ♥️YouTube梦歌♥️_24, server: cm.newhua99.ga, port: 21696, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 27, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 77, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 華人社區 | 臨時高速_65, server: cm.newhua99.ga, port: 21682, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: ♥️YouTube梦歌♥️_38, server: cm.newhua99.ga, port: 21686, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: ♥️YouTube梦歌♥️_45, server: cm.newhua99.ga, port: 21682, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 6, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_37, server: cm.newhua99.ga, port: 21694, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_4 2, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_52, server: cm2.newhua99.ga, port: 21699, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 78, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 79, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本（TG@阿伟科技/油管）, server: rbmf.speedcncnforward3.tk, port: 10001, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, sni: rbmf.speedcncnforward3.tk}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 80, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 28, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_24 2, server: cu.newhua99.ga, port: 21685, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: 華人社區 | 臨時高速_94, server: cu.newhua99.ga, port: 21685, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 29, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 30, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 81, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 82, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_1, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 83, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 31, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 84, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 2, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港（TG@阿伟科技/油管） 3, server: hkmf1.speedcncnforward2.tk, port: 10001, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, sni: hkmf1.speedcncnforward2.tk}
+  - {name: 🇸🇬 新加坡（TG@阿伟科技/油管）, server: 120.233.10.230, port: 50500, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 85, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_25, server: cu.newhua99.ga, port: 21684, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: ♥️YouTube梦歌♥️_56, server: cu.newhua99.ga, port: 21684, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: ♥️YouTube梦歌♥️_18, server: y155k1rt.ted1.xyz, port: 26586, type: trojan, password: dc838a4f-4b2d-3cca-a82f-8f1f0963929e, sni: y155k1rt.ted1.xyz}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 86, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_10, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 7, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_27 2, server: b-mc.txwd.xyz, port: 50052, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge}
+  - {name: 🇸🇬 新加坡（TG@阿伟科技/油管） 2, server: cn1.iepl.starlink.st, port: 50500, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 華人社區 | 臨時高速_105, server: b-mc.txwd.xyz, port: 50052, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge}
+  - {name: 華人社區 | 臨時高速_93, server: cu.newhua99.ga, port: 21684, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: ♥️YouTube梦歌♥️_29, server: cu.newhua99.ga, port: 21682, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: ♥️YouTube梦歌♥️_58, server: cu.newhua99.ga, port: 21689, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_15 2, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 87, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: "@SSRSUB-V09-付费推荐:suo.yt/ssrsub", server: 165.154.225.231, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 330hk02.fans8.xyz}}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 88, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_38 2, server: jpcu.dfnode.top, port: 19305, type: vmess, uuid: a6ef37c5-1a0f-3204-8ca6-fa7a18c062c1, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
+  - {name: 華人社區 | 臨時高速_107, server: cm.newhua99.ga, port: 21690, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: ♥️YouTube梦歌♥️_40, server: jpcu.dfnode.top, port: 19309, type: vmess, uuid: a6ef37c5-1a0f-3204-8ca6-fa7a18c062c1, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
+  - {name: ♥️YouTube梦歌♥️_33, server: jpcu.dfnode.top, port: 19308, type: vmess, uuid: a6ef37c5-1a0f-3204-8ca6-fa7a18c062c1, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
+  - {name: ♥️YouTube梦歌♥️_41, server: ftq-unicom.0098dns02in.work, port: 13037, type: vmess, uuid: 763cd34d-c007-39f1-926b-73a8902ff192, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 3, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 華人社區 | 臨時高速_95, server: cu.newhua99.ga, port: 21689, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 89, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_32, server: cu.newhua99.ga, port: 21689, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 90, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_73, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml}
+  - {name: 🇭🇰 香港（TG@阿伟科技/油管） 4, server: hk2.frp6.top, port: 443, type: vmess, uuid: f0ce45f6-6c45-4c8b-9432-2c40667c495a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: hk2.frp6.top}}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 91, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 32, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 92, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 33, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_7, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_7 2, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 34, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 35, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 93, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_63, server: b-mc.txwd.xyz, port: 50052, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 94, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 科技网络, server: 0326kr.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 0326kr.fans8.xyz}}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 95, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_62, server: b-mc.txwd.xyz, port: 50058, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge}
+  - {name: 🇨🇳 CN, server: cn1.iepl.starlink.st, port: 50600, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 華人社區 | 臨時高速_111, server: b-mc.txwd.xyz, port: 50058, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 96, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 97, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 98, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_21, server: sgpcu.dfnode.top, port: 19253, type: vmess, uuid: a6ef37c5-1a0f-3204-8ca6-fa7a18c062c1, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
+  - {name: 🇺🇸 github.com/freefq - 美国Microsoft数据中心 1, server: hkml.fenglingcloud.com, port: 80, type: vmess, uuid: f2102f6b-431d-4760-8b1c-c43a1a7ed77a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hkml.fenglingcloud.com}}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 99, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_68, server: b-mc.txwd.xyz, port: 50057, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge}
+  - {name: 🇰🇷 韩国（TG@阿伟科技/油管）, server: cn1.iepl.starlink.st, port: 50400, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 🇺🇸 美国（TG@阿伟科技/油管）, server: nfus.qingyun123.xyz, port: 10050, type: trojan, password: a3259dbf-88d4-477e-9716-ca07d0c1b136, sni: nfus.qingyun123.xyz}
+  - {name: 華人社區 | 臨時高速_113, server: b-mc.txwd.xyz, port: 50057, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge}
+  - {name: 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 8, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇩🇪 德国（TG@阿伟科技/油管）, server: 192.248.171.227, port: 8650, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 192.248.171.227}}
+  - {name: ♥️YouTube梦歌♥️_3 2, server: cn1.iepl.starlink.st, port: 50500, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 100, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇺🇸 美国（TG@阿伟科技/油管） 2, server: 208.85.17.99, port: 8650, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 208.85.17.99}}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 101, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 4, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇨🇳 台湾【YouTube由零开始】, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 科技网络 2, server: cn1.iepl.starlink.st, port: 50200, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 🇯🇵 日本（TG@阿伟科技/油管） 2, server: nfjp1.qingyun123.xyz, port: 10000, type: trojan, password: a3259dbf-88d4-477e-9716-ca07d0c1b136, sni: nfjp1.qingyun123.xyz}
+  - {name: 🇨🇳 台湾（TG@阿伟科技/油管）, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 331tw.fans8.xyz}}
+  - {name: 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_10 2, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 36, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 5, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31004, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇸🇬 新加坡（TG@阿伟科技/油管） 3, server: cn1.iepl.starlink.st, port: 50500, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 🇨🇳 CN 2, server: cn1.iepl.starlink.st, port: 50500, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: ♥️YouTube梦歌♥️_76, server: cn1.iepl.starlink.st, port: 50600, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: ♥️YouTube梦歌♥️_74, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: ♥️YouTube梦歌♥️_67, server: cn1.iepl.starlink.st, port: 50400, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: ♥️YouTube梦歌♥️_77, server: cn1.iepl.starlink.st, port: 50200, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 🇯🇵 日本（TG@阿伟科技/油管） 3, server: cn1.iepl.starlink.st, port: 50300, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 102, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇰🇷 韩国【由零开始YouTube】, server: cn1.iepl.starlink.st, port: 50400, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: ♥️YouTube梦歌♥️_78, server: cn1.iepl.starlink.st, port: 50500, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 華人社區 | 臨時高速_104, server: cn1.iepl.starlink.st, port: 50300, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 37, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: ♥️YouTube梦歌♥️_65, server: 120.233.10.230, port: 50600, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 🇨🇳 台湾【YouTube由零开始】 2, server: 120.233.10.230, port: 50200, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: ♥️YouTube梦歌♥️_69, server: 120.233.10.230, port: 50200, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 6, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31002, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 103, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: ♥️YouTube梦歌♥️_10 2, server: cn1.iepl.starlink.st, port: 50300, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 🇨🇳 _CN_中国, server: 120.233.10.230, port: 50500, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 🇯🇵 日本（TG@阿伟科技/油管） 4, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 7, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 104, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇿🇦 南非（TG@阿伟科技/油管）, server: za02.holiganfan.com, port: 10088, type: trojan, password: 8c0a7502-0343-43d4-8551-030668fceab1, sni: za02.holiganfan.com}
+  - {name: 🇭🇰 香港（TG@阿伟科技/油管） 5, server: 120.233.10.230, port: 50100, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: ♥️YouTube梦歌♥️_97, server: 120.233.10.230, port: 50400, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: ♥️YouTube梦歌♥️_48 2, server: cn1.iepl.starlink.st, port: 50200, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 🇷🇺 俄罗斯（TG@阿伟科技/油管）, server: cn1.iepl.starlink.st, port: 50700, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 8, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇭🇰 香港（TG@阿伟科技/油管） 6, server: ali.pengyuxin.top, port: 443, type: vmess, uuid: 1a2e87f6-9193-4ac3-b1cd-90b1e52aa179, alterId: 443, cipher: auto, tls: true, network: ws, ws-path: /955e70f4/, ws-headers: {Host: ali.pengyuxin.top}}
+  - {name: 🇰🇷 韩国（TG@阿伟科技/油管） 2, server: 120.233.10.230, port: 50400, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: ♥️YouTube梦歌♥️_84, server: cn1.iepl.starlink.st, port: 50700, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 🇷🇺 俄罗斯（TG@阿伟科技/油管） 2, server: cn1.iepl.starlink.st, port: 50700, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 🇫🇮 芬兰（TG@阿伟科技/油管）, server: 120.233.10.230, port: 50600, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 105, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇷🇺 RU1(IEPL) - 负载均衡专线, server: cn1.iepl.starlink.st, port: 50700, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
+  - {name: 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 9, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 10, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31003, type: ss, cipher: chacha20-ietf-poly1305, password: 2819268c-b46b-4a63-a9d9-3111ae637858}
+  - {name: 🇷🇺 俄罗斯联邦-2.00MB/s(Youtube:不良林), server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 331tw.fans8.xyz}}
+  - {name: 🇨🇳 CN 3, server: cn1.iepl.starlink.st, port: 50300, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ♥️YouTube梦歌♥️_35
-      - ♥️YouTube梦歌♥️_33
-      - ♥️YouTube梦歌♥️_29
-      - ♥️YouTube梦歌♥️_14
-      - ♥️YouTube梦歌♥️_5
-      - ♥️YouTube梦歌♥️_16
-      - ♥️YouTube梦歌♥️_4
-      - ♥️YouTube梦歌♥️_2
-      - ♥️YouTube梦歌♥️_48
-      - ♥️YouTube梦歌♥️_87
-      - ♥️YouTube梦歌♥️_83
-      - 🇸🇬 新加坡【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_89
-      - ♥️YouTube梦歌♥️_39
-      - ♥️YouTube梦歌♥️_15
-      - ♥️YouTube梦歌♥️_12
-      - ♥️YouTube梦歌♥️_38
-      - ♥️YouTube梦歌♥️_52
-      - ♥️YouTube梦歌♥️_41
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 2
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_14
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 4
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_5
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 5
       - 🇭🇰 香港（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_58
-      - ♥️YouTube梦歌♥️_47
-      - ♥️YouTube梦歌♥️_9
-      - ♥️YouTube梦歌♥️_17
-      - ♥️YouTube梦歌♥️_10
-      - ♥️YouTube梦歌♥️_50
-      - ♥️YouTube梦歌♥️_24
-      - ♥️YouTube梦歌♥️_36
-      - ♥️YouTube梦歌♥️_22
-      - ♥️YouTube梦歌♥️_34
-      - ♥️YouTube梦歌♥️_42
-      - ♥️YouTube梦歌♥️_31
-      - ♥️YouTube梦歌♥️_8
-      - ♥️YouTube梦歌♥️_20
-      - 🇯🇵 日本（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_14 2
-      - ♥️YouTube梦歌♥️_23
-      - 🇰🇷 韩国（TG@阿伟科技/油管）
-      - TG群https://t.me/aweikeji
-      - ♥️YouTube梦歌♥️_44
-      - 🇨🇳 台湾（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_101
-      - ♥️YouTube梦歌♥️_21
-      - 🇭🇰 香港（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_63
-      - ♥️YouTube梦歌♥️_55
-      - ♥️YouTube梦歌♥️_61
-      - ♥️YouTube梦歌♥️_56
-      - ♥️YouTube梦歌♥️_43
-      - ♥️YouTube梦歌♥️_57
-      - ♥️YouTube梦歌♥️_62
-      - ♥️YouTube梦歌♥️_76
-      - ♥️YouTube梦歌♥️_19
-      - ♥️YouTube梦歌♥️_71
-      - ♥️YouTube梦歌♥️_23 2
-      - 🇺🇸 美国（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_49
-      - ♥️YouTube梦歌♥️_45
-      - ♥️YouTube梦歌♥️_95
-      - ♥️YouTube梦歌♥️_79
-      - 🇭🇰 香港（TG@阿伟科技/油管） 3
-      - ♥️YouTube梦歌♥️_75
-      - ♥️YouTube梦歌♥️_105
-      - ♥️YouTube梦歌♥️_32
-      - ♥️YouTube梦歌♥️_81
-      - ♥️YouTube梦歌♥️_66
-      - ♥️YouTube梦歌♥️_50 2
-      - ♥️YouTube梦歌♥️_18
-      - ♥️YouTube梦歌♥️_11
-      - ♥️YouTube梦歌♥️_85
-      - 🇺🇸 美国（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_108
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_12
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 6
       - ♥️YouTube梦歌♥️_51
-      - ♥️YouTube梦歌♥️_59
-      - ♥️YouTube梦歌♥️_78
-      - ♥️YouTube梦歌♥️_39 2
-      - ♥️YouTube梦歌♥️_96
-      - 🇭🇰 香港【由零开始YouTube】
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 7
+      - ♥️YouTube梦歌♥️_2
+      - 華人社區 | 臨時高速_32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 8
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 9
+      - 華人社區 | 臨時高速_67
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 10
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_9
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 12
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 13
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 14
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 15
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 16
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 17
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_6
+      - ♥️YouTube梦歌♥️_48
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 18
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 19
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 3
+      - ♥️YouTube梦歌♥️_12
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_3
+      - ♥️YouTube梦歌♥️_36
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 20
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_8
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 21
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 22
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_15
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 23
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 24
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_8 2
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_6 2
+      - 華人社區 | 臨時高速_79
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 25
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 26
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 2
       - ♥️YouTube梦歌♥️_3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 4
-      - ♥️YouTube梦歌♥️_41 2
-      - 🇭🇰 香港（TG@阿伟科技/油管） 4
-      - ♥️YouTube梦歌♥️_86
-      - 🇯🇵 日本【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_32 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ♥️YouTube梦歌♥️_64
-      - 🇺🇸 美国【由零开始YouTube】
-      - 🇩🇪 德国TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_182
-      - 🇺🇸 美国（TG@阿伟科技/油管） 5
-      - 🇭🇰 香港（TG@阿伟科技/油管） 5
-      - ♥️YouTube梦歌♥️_40
-      - 🇨🇳 CN_42 TG@peekfun
-      - 🇹🇭 THE WORLD
-      - 🇭🇰 香港（TG@阿伟科技/油管） 6
-      - 🇺🇸 美国（TG@阿伟科技/油管） 6
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - ♥️YouTube梦歌♥️_97
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 27
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_3 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 28
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 4
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_11 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 29
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 30
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 33
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 34
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 35
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 36
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 5
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 6
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 37
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 7
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 38
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 8
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 9
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 39
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 40
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 41
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 42
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 43
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 44
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 45
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 46
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 47
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 48
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 49
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 10
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 50
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 51
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 52
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 53
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 54
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 55
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 12
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_12 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 13
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 56
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 57
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 58
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 59
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 60
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 14
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 4
+      - 華人社區 | 臨時高速_49
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 61
+      - ♥️YouTube梦歌♥️_30
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 15
+      - 華人社區 | 臨時高速_72
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 16
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_1
+      - ♥️YouTube梦歌♥️_27
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 62
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 63
+      - 華人社區 | 臨時高速_24
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 17
+      - ♥️YouTube梦歌♥️_10
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_13
+      - ♥️YouTube梦歌♥️_31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 64
+      - 🇭🇰 香港（TG@阿伟科技/油管） 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 65
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 66
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 18
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 67
+      - ♥️YouTube梦歌♥️_11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 68
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 69
+      - 華人社區 | 臨時高速_27
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_14 2
+      - 華人社區 | 臨時高速_73
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 19
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 20
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 70
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_2 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 21
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 71
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_13 2
+      - 華人社區 | 臨時高速_50
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 22
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 23
+      - 華人社區 | 臨時高速_60
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 72
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 73
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 24
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 74
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 25
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_4
+      - ♥️YouTube梦歌♥️_5
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 5
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 75
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 76
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 26
+      - ♥️YouTube梦歌♥️_17
+      - 華人社區 | 臨時高速_110
+      - ♥️YouTube梦歌♥️_24
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 27
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 77
+      - 華人社區 | 臨時高速_65
+      - ♥️YouTube梦歌♥️_38
+      - ♥️YouTube梦歌♥️_45
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 6
+      - ♥️YouTube梦歌♥️_37
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_4 2
+      - ♥️YouTube梦歌♥️_52
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 78
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 79
+      - 🇯🇵 日本（TG@阿伟科技/油管）
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 80
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 28
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体
+      - ♥️YouTube梦歌♥️_24 2
+      - 華人社區 | 臨時高速_94
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 29
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 30
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 81
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 82
+      - ♥️YouTube梦歌♥️_1
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 83
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 84
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 2
+      - 🇭🇰 香港（TG@阿伟科技/油管） 3
       - 🇸🇬 新加坡（TG@阿伟科技/油管）
-      - 🇭🇰 香港（TG@阿伟科技/油管） 7
-      - ♥️YouTube梦歌♥️_51 2
-      - 🇭🇰 香港（TG@阿伟科技/油管） 8
-      - 🇨🇳 台湾（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_48 2
-      - 🇺🇸 美国（TG@阿伟科技/油管） 7
-      - 立陶宛（TG@阿伟科技/油管）
-      - YouTube@阿阳AYANG
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_102
-      - 🇨🇦 加拿大【由零开始YouTube】
-      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 9
-      - ♥️YouTube梦歌♥️_74
-      - 🇺🇸 美国【由零开始YouTube】 2
-      - 🇺🇸 美国【由零开始YouTube】 3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 8
-      - ♥️YouTube梦歌♥️_20 2
-      - YouTube@阿阳AYANG 2
-      - YouTube@阿阳AYANG 3
-      - 卢森堡（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - ♥️YouTube梦歌♥️_44 2
-      - 🇳🇱 荷兰（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_107
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 85
+      - ♥️YouTube梦歌♥️_25
+      - ♥️YouTube梦歌♥️_56
+      - ♥️YouTube梦歌♥️_18
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 86
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_10
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 7
+      - ♥️YouTube梦歌♥️_27 2
+      - 🇸🇬 新加坡（TG@阿伟科技/油管） 2
+      - 華人社區 | 臨時高速_105
+      - 華人社區 | 臨時高速_93
+      - ♥️YouTube梦歌♥️_29
+      - ♥️YouTube梦歌♥️_58
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_15 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 87
+      - "@SSRSUB-V09-付费推荐:suo.yt/ssrsub"
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 88
+      - ♥️YouTube梦歌♥️_38 2
+      - 華人社區 | 臨時高速_107
+      - ♥️YouTube梦歌♥️_40
+      - ♥️YouTube梦歌♥️_33
+      - ♥️YouTube梦歌♥️_41
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 3
+      - 華人社區 | 臨時高速_95
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 89
+      - ♥️YouTube梦歌♥️_32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 90
+      - ♥️YouTube梦歌♥️_73
+      - 🇭🇰 香港（TG@阿伟科技/油管） 4
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 91
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 92
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 33
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_7
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_7 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 34
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 35
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 93
+      - ♥️YouTube梦歌♥️_63
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 94
+      - 科技网络
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 95
+      - ♥️YouTube梦歌♥️_62
+      - 🇨🇳 CN
+      - 華人社區 | 臨時高速_111
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 96
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 97
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 98
+      - ♥️YouTube梦歌♥️_21
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 1
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 99
+      - ♥️YouTube梦歌♥️_68
+      - 🇰🇷 韩国（TG@阿伟科技/油管）
+      - 🇺🇸 美国（TG@阿伟科技/油管）
+      - 華人社區 | 臨時高速_113
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 8
       - 🇩🇪 德国（TG@阿伟科技/油管）
-      - 🇺🇸 美国【由零开始YouTube】 4
-      - 🇺🇸 美国【YouTube由零开始】
-      - 🇺🇸 美国【由零开始YouTube】 5
-      - 🇯🇵 日本【由零开始YouTube】 2
-      - 🇺🇸 美国【由零开始YouTube】 6
-      - 🇺🇸 美国（TG@阿伟科技/油管） 9
-      - 立陶宛【由零开始YouTube】
-      - 立陶宛【由零开始YouTube】 2
-      - 立陶宛（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_3 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 100
+      - 🇺🇸 美国（TG@阿伟科技/油管） 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 101
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 4
+      - 🇨🇳 台湾【YouTube由零开始】
+      - 科技网络 2
+      - 🇯🇵 日本（TG@阿伟科技/油管） 2
+      - 🇨🇳 台湾（TG@阿伟科技/油管）
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_10 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 36
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 5
+      - 🇸🇬 新加坡（TG@阿伟科技/油管） 3
+      - 🇨🇳 CN 2
+      - ♥️YouTube梦歌♥️_76
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_67
+      - ♥️YouTube梦歌♥️_77
+      - 🇯🇵 日本（TG@阿伟科技/油管） 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 102
+      - 🇰🇷 韩国【由零开始YouTube】
+      - ♥️YouTube梦歌♥️_78
+      - 華人社區 | 臨時高速_104
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 37
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - ♥️YouTube梦歌♥️_65
+      - 🇨🇳 台湾【YouTube由零开始】 2
+      - ♥️YouTube梦歌♥️_69
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 6
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 103
+      - ♥️YouTube梦歌♥️_10 2
+      - 🇨🇳 _CN_中国
+      - 🇯🇵 日本（TG@阿伟科技/油管） 4
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 7
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 104
+      - 🇿🇦 南非（TG@阿伟科技/油管）
+      - 🇭🇰 香港（TG@阿伟科技/油管） 5
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_48 2
+      - 🇷🇺 俄罗斯（TG@阿伟科技/油管）
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 8
+      - 🇭🇰 香港（TG@阿伟科技/油管） 6
+      - 🇰🇷 韩国（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_84
+      - 🇷🇺 俄罗斯（TG@阿伟科技/油管） 2
+      - 🇫🇮 芬兰（TG@阿伟科技/油管）
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 105
+      - 🇷🇺 RU1(IEPL) - 负载均衡专线
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 9
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 10
+      - 🇷🇺 俄罗斯联邦-2.00MB/s(Youtube:不良林)
+      - 🇨🇳 CN 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ♥️YouTube梦歌♥️_35
-      - ♥️YouTube梦歌♥️_33
-      - ♥️YouTube梦歌♥️_29
-      - ♥️YouTube梦歌♥️_14
-      - ♥️YouTube梦歌♥️_5
-      - ♥️YouTube梦歌♥️_16
-      - ♥️YouTube梦歌♥️_4
-      - ♥️YouTube梦歌♥️_2
-      - ♥️YouTube梦歌♥️_48
-      - ♥️YouTube梦歌♥️_87
-      - ♥️YouTube梦歌♥️_83
-      - 🇸🇬 新加坡【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_89
-      - ♥️YouTube梦歌♥️_39
-      - ♥️YouTube梦歌♥️_15
-      - ♥️YouTube梦歌♥️_12
-      - ♥️YouTube梦歌♥️_38
-      - ♥️YouTube梦歌♥️_52
-      - ♥️YouTube梦歌♥️_41
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 2
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_14
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 4
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_5
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 5
       - 🇭🇰 香港（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_58
-      - ♥️YouTube梦歌♥️_47
-      - ♥️YouTube梦歌♥️_9
-      - ♥️YouTube梦歌♥️_17
-      - ♥️YouTube梦歌♥️_10
-      - ♥️YouTube梦歌♥️_50
-      - ♥️YouTube梦歌♥️_24
-      - ♥️YouTube梦歌♥️_36
-      - ♥️YouTube梦歌♥️_22
-      - ♥️YouTube梦歌♥️_34
-      - ♥️YouTube梦歌♥️_42
-      - ♥️YouTube梦歌♥️_31
-      - ♥️YouTube梦歌♥️_8
-      - ♥️YouTube梦歌♥️_20
-      - 🇯🇵 日本（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_14 2
-      - ♥️YouTube梦歌♥️_23
-      - 🇰🇷 韩国（TG@阿伟科技/油管）
-      - TG群https://t.me/aweikeji
-      - ♥️YouTube梦歌♥️_44
-      - 🇨🇳 台湾（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_101
-      - ♥️YouTube梦歌♥️_21
-      - 🇭🇰 香港（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_63
-      - ♥️YouTube梦歌♥️_55
-      - ♥️YouTube梦歌♥️_61
-      - ♥️YouTube梦歌♥️_56
-      - ♥️YouTube梦歌♥️_43
-      - ♥️YouTube梦歌♥️_57
-      - ♥️YouTube梦歌♥️_62
-      - ♥️YouTube梦歌♥️_76
-      - ♥️YouTube梦歌♥️_19
-      - ♥️YouTube梦歌♥️_71
-      - ♥️YouTube梦歌♥️_23 2
-      - 🇺🇸 美国（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_49
-      - ♥️YouTube梦歌♥️_45
-      - ♥️YouTube梦歌♥️_95
-      - ♥️YouTube梦歌♥️_79
-      - 🇭🇰 香港（TG@阿伟科技/油管） 3
-      - ♥️YouTube梦歌♥️_75
-      - ♥️YouTube梦歌♥️_105
-      - ♥️YouTube梦歌♥️_32
-      - ♥️YouTube梦歌♥️_81
-      - ♥️YouTube梦歌♥️_66
-      - ♥️YouTube梦歌♥️_50 2
-      - ♥️YouTube梦歌♥️_18
-      - ♥️YouTube梦歌♥️_11
-      - ♥️YouTube梦歌♥️_85
-      - 🇺🇸 美国（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_108
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_12
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 6
       - ♥️YouTube梦歌♥️_51
-      - ♥️YouTube梦歌♥️_59
-      - ♥️YouTube梦歌♥️_78
-      - ♥️YouTube梦歌♥️_39 2
-      - ♥️YouTube梦歌♥️_96
-      - 🇭🇰 香港【由零开始YouTube】
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 7
+      - ♥️YouTube梦歌♥️_2
+      - 華人社區 | 臨時高速_32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 8
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 9
+      - 華人社區 | 臨時高速_67
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 10
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_9
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 12
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 13
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 14
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 15
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 16
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 17
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_6
+      - ♥️YouTube梦歌♥️_48
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 18
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 19
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 3
+      - ♥️YouTube梦歌♥️_12
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_3
+      - ♥️YouTube梦歌♥️_36
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 20
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_8
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 21
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 22
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_15
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 23
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 24
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_8 2
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_6 2
+      - 華人社區 | 臨時高速_79
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 25
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 26
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 2
       - ♥️YouTube梦歌♥️_3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 4
-      - ♥️YouTube梦歌♥️_41 2
-      - 🇭🇰 香港（TG@阿伟科技/油管） 4
-      - ♥️YouTube梦歌♥️_86
-      - 🇯🇵 日本【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_32 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ♥️YouTube梦歌♥️_64
-      - 🇺🇸 美国【由零开始YouTube】
-      - 🇩🇪 德国TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_182
-      - 🇺🇸 美国（TG@阿伟科技/油管） 5
-      - 🇭🇰 香港（TG@阿伟科技/油管） 5
-      - ♥️YouTube梦歌♥️_40
-      - 🇨🇳 CN_42 TG@peekfun
-      - 🇹🇭 THE WORLD
-      - 🇭🇰 香港（TG@阿伟科技/油管） 6
-      - 🇺🇸 美国（TG@阿伟科技/油管） 6
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - ♥️YouTube梦歌♥️_97
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 27
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_3 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 28
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 4
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_11 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 29
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 30
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 33
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 34
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 35
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 36
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 5
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 6
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 37
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 7
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 38
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 8
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 9
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 39
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 40
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 41
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 42
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 43
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 44
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 45
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 46
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 47
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 48
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 49
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 10
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 50
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 51
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 52
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 53
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 54
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 55
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 12
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_12 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 13
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 56
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 57
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 58
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 59
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 60
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 14
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 4
+      - 華人社區 | 臨時高速_49
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 61
+      - ♥️YouTube梦歌♥️_30
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 15
+      - 華人社區 | 臨時高速_72
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 16
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_1
+      - ♥️YouTube梦歌♥️_27
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 62
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 63
+      - 華人社區 | 臨時高速_24
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 17
+      - ♥️YouTube梦歌♥️_10
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_13
+      - ♥️YouTube梦歌♥️_31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 64
+      - 🇭🇰 香港（TG@阿伟科技/油管） 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 65
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 66
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 18
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 67
+      - ♥️YouTube梦歌♥️_11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 68
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 69
+      - 華人社區 | 臨時高速_27
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_14 2
+      - 華人社區 | 臨時高速_73
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 19
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 20
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 70
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_2 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 21
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 71
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_13 2
+      - 華人社區 | 臨時高速_50
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 22
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 23
+      - 華人社區 | 臨時高速_60
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 72
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 73
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 24
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 74
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 25
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_4
+      - ♥️YouTube梦歌♥️_5
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 5
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 75
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 76
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 26
+      - ♥️YouTube梦歌♥️_17
+      - 華人社區 | 臨時高速_110
+      - ♥️YouTube梦歌♥️_24
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 27
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 77
+      - 華人社區 | 臨時高速_65
+      - ♥️YouTube梦歌♥️_38
+      - ♥️YouTube梦歌♥️_45
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 6
+      - ♥️YouTube梦歌♥️_37
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_4 2
+      - ♥️YouTube梦歌♥️_52
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 78
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 79
+      - 🇯🇵 日本（TG@阿伟科技/油管）
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 80
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 28
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体
+      - ♥️YouTube梦歌♥️_24 2
+      - 華人社區 | 臨時高速_94
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 29
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 30
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 81
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 82
+      - ♥️YouTube梦歌♥️_1
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 83
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 84
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 2
+      - 🇭🇰 香港（TG@阿伟科技/油管） 3
       - 🇸🇬 新加坡（TG@阿伟科技/油管）
-      - 🇭🇰 香港（TG@阿伟科技/油管） 7
-      - ♥️YouTube梦歌♥️_51 2
-      - 🇭🇰 香港（TG@阿伟科技/油管） 8
-      - 🇨🇳 台湾（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_48 2
-      - 🇺🇸 美国（TG@阿伟科技/油管） 7
-      - 立陶宛（TG@阿伟科技/油管）
-      - YouTube@阿阳AYANG
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_102
-      - 🇨🇦 加拿大【由零开始YouTube】
-      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 9
-      - ♥️YouTube梦歌♥️_74
-      - 🇺🇸 美国【由零开始YouTube】 2
-      - 🇺🇸 美国【由零开始YouTube】 3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 8
-      - ♥️YouTube梦歌♥️_20 2
-      - YouTube@阿阳AYANG 2
-      - YouTube@阿阳AYANG 3
-      - 卢森堡（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - ♥️YouTube梦歌♥️_44 2
-      - 🇳🇱 荷兰（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_107
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 85
+      - ♥️YouTube梦歌♥️_25
+      - ♥️YouTube梦歌♥️_56
+      - ♥️YouTube梦歌♥️_18
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 86
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_10
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 7
+      - ♥️YouTube梦歌♥️_27 2
+      - 🇸🇬 新加坡（TG@阿伟科技/油管） 2
+      - 華人社區 | 臨時高速_105
+      - 華人社區 | 臨時高速_93
+      - ♥️YouTube梦歌♥️_29
+      - ♥️YouTube梦歌♥️_58
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_15 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 87
+      - "@SSRSUB-V09-付费推荐:suo.yt/ssrsub"
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 88
+      - ♥️YouTube梦歌♥️_38 2
+      - 華人社區 | 臨時高速_107
+      - ♥️YouTube梦歌♥️_40
+      - ♥️YouTube梦歌♥️_33
+      - ♥️YouTube梦歌♥️_41
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 3
+      - 華人社區 | 臨時高速_95
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 89
+      - ♥️YouTube梦歌♥️_32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 90
+      - ♥️YouTube梦歌♥️_73
+      - 🇭🇰 香港（TG@阿伟科技/油管） 4
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 91
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 92
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 33
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_7
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_7 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 34
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 35
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 93
+      - ♥️YouTube梦歌♥️_63
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 94
+      - 科技网络
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 95
+      - ♥️YouTube梦歌♥️_62
+      - 🇨🇳 CN
+      - 華人社區 | 臨時高速_111
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 96
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 97
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 98
+      - ♥️YouTube梦歌♥️_21
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 1
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 99
+      - ♥️YouTube梦歌♥️_68
+      - 🇰🇷 韩国（TG@阿伟科技/油管）
+      - 🇺🇸 美国（TG@阿伟科技/油管）
+      - 華人社區 | 臨時高速_113
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 8
       - 🇩🇪 德国（TG@阿伟科技/油管）
-      - 🇺🇸 美国【由零开始YouTube】 4
-      - 🇺🇸 美国【YouTube由零开始】
-      - 🇺🇸 美国【由零开始YouTube】 5
-      - 🇯🇵 日本【由零开始YouTube】 2
-      - 🇺🇸 美国【由零开始YouTube】 6
-      - 🇺🇸 美国（TG@阿伟科技/油管） 9
-      - 立陶宛【由零开始YouTube】
-      - 立陶宛【由零开始YouTube】 2
-      - 立陶宛（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_3 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 100
+      - 🇺🇸 美国（TG@阿伟科技/油管） 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 101
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 4
+      - 🇨🇳 台湾【YouTube由零开始】
+      - 科技网络 2
+      - 🇯🇵 日本（TG@阿伟科技/油管） 2
+      - 🇨🇳 台湾（TG@阿伟科技/油管）
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_10 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 36
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 5
+      - 🇸🇬 新加坡（TG@阿伟科技/油管） 3
+      - 🇨🇳 CN 2
+      - ♥️YouTube梦歌♥️_76
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_67
+      - ♥️YouTube梦歌♥️_77
+      - 🇯🇵 日本（TG@阿伟科技/油管） 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 102
+      - 🇰🇷 韩国【由零开始YouTube】
+      - ♥️YouTube梦歌♥️_78
+      - 華人社區 | 臨時高速_104
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 37
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - ♥️YouTube梦歌♥️_65
+      - 🇨🇳 台湾【YouTube由零开始】 2
+      - ♥️YouTube梦歌♥️_69
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 6
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 103
+      - ♥️YouTube梦歌♥️_10 2
+      - 🇨🇳 _CN_中国
+      - 🇯🇵 日本（TG@阿伟科技/油管） 4
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 7
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 104
+      - 🇿🇦 南非（TG@阿伟科技/油管）
+      - 🇭🇰 香港（TG@阿伟科技/油管） 5
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_48 2
+      - 🇷🇺 俄罗斯（TG@阿伟科技/油管）
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 8
+      - 🇭🇰 香港（TG@阿伟科技/油管） 6
+      - 🇰🇷 韩国（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_84
+      - 🇷🇺 俄罗斯（TG@阿伟科技/油管） 2
+      - 🇫🇮 芬兰（TG@阿伟科技/油管）
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 105
+      - 🇷🇺 RU1(IEPL) - 负载均衡专线
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 9
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 10
+      - 🇷🇺 俄罗斯联邦-2.00MB/s(Youtube:不良林)
+      - 🇨🇳 CN 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ♥️YouTube梦歌♥️_35
-      - ♥️YouTube梦歌♥️_33
-      - ♥️YouTube梦歌♥️_29
-      - ♥️YouTube梦歌♥️_14
-      - ♥️YouTube梦歌♥️_5
-      - ♥️YouTube梦歌♥️_16
-      - ♥️YouTube梦歌♥️_4
-      - ♥️YouTube梦歌♥️_2
-      - ♥️YouTube梦歌♥️_48
-      - ♥️YouTube梦歌♥️_87
-      - ♥️YouTube梦歌♥️_83
-      - 🇸🇬 新加坡【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_89
-      - ♥️YouTube梦歌♥️_39
-      - ♥️YouTube梦歌♥️_15
-      - ♥️YouTube梦歌♥️_12
-      - ♥️YouTube梦歌♥️_38
-      - ♥️YouTube梦歌♥️_52
-      - ♥️YouTube梦歌♥️_41
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 2
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_14
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 4
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_5
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 5
       - 🇭🇰 香港（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_58
-      - ♥️YouTube梦歌♥️_47
-      - ♥️YouTube梦歌♥️_9
-      - ♥️YouTube梦歌♥️_17
-      - ♥️YouTube梦歌♥️_10
-      - ♥️YouTube梦歌♥️_50
-      - ♥️YouTube梦歌♥️_24
-      - ♥️YouTube梦歌♥️_36
-      - ♥️YouTube梦歌♥️_22
-      - ♥️YouTube梦歌♥️_34
-      - ♥️YouTube梦歌♥️_42
-      - ♥️YouTube梦歌♥️_31
-      - ♥️YouTube梦歌♥️_8
-      - ♥️YouTube梦歌♥️_20
-      - 🇯🇵 日本（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_14 2
-      - ♥️YouTube梦歌♥️_23
-      - 🇰🇷 韩国（TG@阿伟科技/油管）
-      - TG群https://t.me/aweikeji
-      - ♥️YouTube梦歌♥️_44
-      - 🇨🇳 台湾（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_101
-      - ♥️YouTube梦歌♥️_21
-      - 🇭🇰 香港（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_63
-      - ♥️YouTube梦歌♥️_55
-      - ♥️YouTube梦歌♥️_61
-      - ♥️YouTube梦歌♥️_56
-      - ♥️YouTube梦歌♥️_43
-      - ♥️YouTube梦歌♥️_57
-      - ♥️YouTube梦歌♥️_62
-      - ♥️YouTube梦歌♥️_76
-      - ♥️YouTube梦歌♥️_19
-      - ♥️YouTube梦歌♥️_71
-      - ♥️YouTube梦歌♥️_23 2
-      - 🇺🇸 美国（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_49
-      - ♥️YouTube梦歌♥️_45
-      - ♥️YouTube梦歌♥️_95
-      - ♥️YouTube梦歌♥️_79
-      - 🇭🇰 香港（TG@阿伟科技/油管） 3
-      - ♥️YouTube梦歌♥️_75
-      - ♥️YouTube梦歌♥️_105
-      - ♥️YouTube梦歌♥️_32
-      - ♥️YouTube梦歌♥️_81
-      - ♥️YouTube梦歌♥️_66
-      - ♥️YouTube梦歌♥️_50 2
-      - ♥️YouTube梦歌♥️_18
-      - ♥️YouTube梦歌♥️_11
-      - ♥️YouTube梦歌♥️_85
-      - 🇺🇸 美国（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_108
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_12
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 6
       - ♥️YouTube梦歌♥️_51
-      - ♥️YouTube梦歌♥️_59
-      - ♥️YouTube梦歌♥️_78
-      - ♥️YouTube梦歌♥️_39 2
-      - ♥️YouTube梦歌♥️_96
-      - 🇭🇰 香港【由零开始YouTube】
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 7
+      - ♥️YouTube梦歌♥️_2
+      - 華人社區 | 臨時高速_32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 8
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 9
+      - 華人社區 | 臨時高速_67
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 10
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_9
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 12
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 13
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 14
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 15
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 16
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 17
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_6
+      - ♥️YouTube梦歌♥️_48
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 18
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 19
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 3
+      - ♥️YouTube梦歌♥️_12
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_3
+      - ♥️YouTube梦歌♥️_36
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 20
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_8
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 21
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 22
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_15
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 23
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 24
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_8 2
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_6 2
+      - 華人社區 | 臨時高速_79
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 25
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 26
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 2
       - ♥️YouTube梦歌♥️_3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 4
-      - ♥️YouTube梦歌♥️_41 2
-      - 🇭🇰 香港（TG@阿伟科技/油管） 4
-      - ♥️YouTube梦歌♥️_86
-      - 🇯🇵 日本【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_32 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ♥️YouTube梦歌♥️_64
-      - 🇺🇸 美国【由零开始YouTube】
-      - 🇩🇪 德国TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_182
-      - 🇺🇸 美国（TG@阿伟科技/油管） 5
-      - 🇭🇰 香港（TG@阿伟科技/油管） 5
-      - ♥️YouTube梦歌♥️_40
-      - 🇨🇳 CN_42 TG@peekfun
-      - 🇹🇭 THE WORLD
-      - 🇭🇰 香港（TG@阿伟科技/油管） 6
-      - 🇺🇸 美国（TG@阿伟科技/油管） 6
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - ♥️YouTube梦歌♥️_97
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 27
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_3 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 28
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 4
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_11 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 29
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 30
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 33
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 34
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 35
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 36
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 5
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 6
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 37
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 7
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 38
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 8
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 9
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 39
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 40
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 41
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 42
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 43
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 44
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 45
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 46
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 47
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 48
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 49
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 10
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 50
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 51
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 52
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 53
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 54
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 55
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 12
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_12 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 13
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 56
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 57
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 58
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 59
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 60
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 14
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 4
+      - 華人社區 | 臨時高速_49
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 61
+      - ♥️YouTube梦歌♥️_30
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 15
+      - 華人社區 | 臨時高速_72
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 16
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_1
+      - ♥️YouTube梦歌♥️_27
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 62
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 63
+      - 華人社區 | 臨時高速_24
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 17
+      - ♥️YouTube梦歌♥️_10
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_13
+      - ♥️YouTube梦歌♥️_31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 64
+      - 🇭🇰 香港（TG@阿伟科技/油管） 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 65
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 66
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 18
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 67
+      - ♥️YouTube梦歌♥️_11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 68
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 69
+      - 華人社區 | 臨時高速_27
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_14 2
+      - 華人社區 | 臨時高速_73
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 19
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 20
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 70
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_2 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 21
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 71
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_13 2
+      - 華人社區 | 臨時高速_50
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 22
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 23
+      - 華人社區 | 臨時高速_60
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 72
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 73
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 24
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 74
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 25
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_4
+      - ♥️YouTube梦歌♥️_5
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 5
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 75
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 76
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 26
+      - ♥️YouTube梦歌♥️_17
+      - 華人社區 | 臨時高速_110
+      - ♥️YouTube梦歌♥️_24
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 27
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 77
+      - 華人社區 | 臨時高速_65
+      - ♥️YouTube梦歌♥️_38
+      - ♥️YouTube梦歌♥️_45
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 6
+      - ♥️YouTube梦歌♥️_37
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_4 2
+      - ♥️YouTube梦歌♥️_52
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 78
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 79
+      - 🇯🇵 日本（TG@阿伟科技/油管）
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 80
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 28
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体
+      - ♥️YouTube梦歌♥️_24 2
+      - 華人社區 | 臨時高速_94
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 29
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 30
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 81
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 82
+      - ♥️YouTube梦歌♥️_1
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 83
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 84
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 2
+      - 🇭🇰 香港（TG@阿伟科技/油管） 3
       - 🇸🇬 新加坡（TG@阿伟科技/油管）
-      - 🇭🇰 香港（TG@阿伟科技/油管） 7
-      - ♥️YouTube梦歌♥️_51 2
-      - 🇭🇰 香港（TG@阿伟科技/油管） 8
-      - 🇨🇳 台湾（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_48 2
-      - 🇺🇸 美国（TG@阿伟科技/油管） 7
-      - 立陶宛（TG@阿伟科技/油管）
-      - YouTube@阿阳AYANG
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_102
-      - 🇨🇦 加拿大【由零开始YouTube】
-      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 9
-      - ♥️YouTube梦歌♥️_74
-      - 🇺🇸 美国【由零开始YouTube】 2
-      - 🇺🇸 美国【由零开始YouTube】 3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 8
-      - ♥️YouTube梦歌♥️_20 2
-      - YouTube@阿阳AYANG 2
-      - YouTube@阿阳AYANG 3
-      - 卢森堡（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - ♥️YouTube梦歌♥️_44 2
-      - 🇳🇱 荷兰（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_107
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 85
+      - ♥️YouTube梦歌♥️_25
+      - ♥️YouTube梦歌♥️_56
+      - ♥️YouTube梦歌♥️_18
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 86
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_10
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 7
+      - ♥️YouTube梦歌♥️_27 2
+      - 🇸🇬 新加坡（TG@阿伟科技/油管） 2
+      - 華人社區 | 臨時高速_105
+      - 華人社區 | 臨時高速_93
+      - ♥️YouTube梦歌♥️_29
+      - ♥️YouTube梦歌♥️_58
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_15 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 87
+      - "@SSRSUB-V09-付费推荐:suo.yt/ssrsub"
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 88
+      - ♥️YouTube梦歌♥️_38 2
+      - 華人社區 | 臨時高速_107
+      - ♥️YouTube梦歌♥️_40
+      - ♥️YouTube梦歌♥️_33
+      - ♥️YouTube梦歌♥️_41
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 3
+      - 華人社區 | 臨時高速_95
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 89
+      - ♥️YouTube梦歌♥️_32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 90
+      - ♥️YouTube梦歌♥️_73
+      - 🇭🇰 香港（TG@阿伟科技/油管） 4
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 91
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 92
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 33
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_7
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_7 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 34
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 35
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 93
+      - ♥️YouTube梦歌♥️_63
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 94
+      - 科技网络
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 95
+      - ♥️YouTube梦歌♥️_62
+      - 🇨🇳 CN
+      - 華人社區 | 臨時高速_111
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 96
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 97
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 98
+      - ♥️YouTube梦歌♥️_21
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 1
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 99
+      - ♥️YouTube梦歌♥️_68
+      - 🇰🇷 韩国（TG@阿伟科技/油管）
+      - 🇺🇸 美国（TG@阿伟科技/油管）
+      - 華人社區 | 臨時高速_113
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 8
       - 🇩🇪 德国（TG@阿伟科技/油管）
-      - 🇺🇸 美国【由零开始YouTube】 4
-      - 🇺🇸 美国【YouTube由零开始】
-      - 🇺🇸 美国【由零开始YouTube】 5
-      - 🇯🇵 日本【由零开始YouTube】 2
-      - 🇺🇸 美国【由零开始YouTube】 6
-      - 🇺🇸 美国（TG@阿伟科技/油管） 9
-      - 立陶宛【由零开始YouTube】
-      - 立陶宛【由零开始YouTube】 2
-      - 立陶宛（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_3 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 100
+      - 🇺🇸 美国（TG@阿伟科技/油管） 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 101
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 4
+      - 🇨🇳 台湾【YouTube由零开始】
+      - 科技网络 2
+      - 🇯🇵 日本（TG@阿伟科技/油管） 2
+      - 🇨🇳 台湾（TG@阿伟科技/油管）
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_10 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 36
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 5
+      - 🇸🇬 新加坡（TG@阿伟科技/油管） 3
+      - 🇨🇳 CN 2
+      - ♥️YouTube梦歌♥️_76
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_67
+      - ♥️YouTube梦歌♥️_77
+      - 🇯🇵 日本（TG@阿伟科技/油管） 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 102
+      - 🇰🇷 韩国【由零开始YouTube】
+      - ♥️YouTube梦歌♥️_78
+      - 華人社區 | 臨時高速_104
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 37
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - ♥️YouTube梦歌♥️_65
+      - 🇨🇳 台湾【YouTube由零开始】 2
+      - ♥️YouTube梦歌♥️_69
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 6
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 103
+      - ♥️YouTube梦歌♥️_10 2
+      - 🇨🇳 _CN_中国
+      - 🇯🇵 日本（TG@阿伟科技/油管） 4
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 7
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 104
+      - 🇿🇦 南非（TG@阿伟科技/油管）
+      - 🇭🇰 香港（TG@阿伟科技/油管） 5
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_48 2
+      - 🇷🇺 俄罗斯（TG@阿伟科技/油管）
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 8
+      - 🇭🇰 香港（TG@阿伟科技/油管） 6
+      - 🇰🇷 韩国（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_84
+      - 🇷🇺 俄罗斯（TG@阿伟科技/油管） 2
+      - 🇫🇮 芬兰（TG@阿伟科技/油管）
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 105
+      - 🇷🇺 RU1(IEPL) - 负载均衡专线
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 9
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 10
+      - 🇷🇺 俄罗斯联邦-2.00MB/s(Youtube:不良林)
+      - 🇨🇳 CN 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ♥️YouTube梦歌♥️_35
-      - ♥️YouTube梦歌♥️_33
-      - ♥️YouTube梦歌♥️_29
-      - ♥️YouTube梦歌♥️_14
-      - ♥️YouTube梦歌♥️_5
-      - ♥️YouTube梦歌♥️_16
-      - ♥️YouTube梦歌♥️_4
-      - ♥️YouTube梦歌♥️_2
-      - ♥️YouTube梦歌♥️_48
-      - ♥️YouTube梦歌♥️_87
-      - ♥️YouTube梦歌♥️_83
-      - 🇸🇬 新加坡【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_89
-      - ♥️YouTube梦歌♥️_39
-      - ♥️YouTube梦歌♥️_15
-      - ♥️YouTube梦歌♥️_12
-      - ♥️YouTube梦歌♥️_38
-      - ♥️YouTube梦歌♥️_52
-      - ♥️YouTube梦歌♥️_41
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 2
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_14
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 4
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_5
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 5
       - 🇭🇰 香港（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_58
-      - ♥️YouTube梦歌♥️_47
-      - ♥️YouTube梦歌♥️_9
-      - ♥️YouTube梦歌♥️_17
-      - ♥️YouTube梦歌♥️_10
-      - ♥️YouTube梦歌♥️_50
-      - ♥️YouTube梦歌♥️_24
-      - ♥️YouTube梦歌♥️_36
-      - ♥️YouTube梦歌♥️_22
-      - ♥️YouTube梦歌♥️_34
-      - ♥️YouTube梦歌♥️_42
-      - ♥️YouTube梦歌♥️_31
-      - ♥️YouTube梦歌♥️_8
-      - ♥️YouTube梦歌♥️_20
-      - 🇯🇵 日本（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_14 2
-      - ♥️YouTube梦歌♥️_23
-      - 🇰🇷 韩国（TG@阿伟科技/油管）
-      - TG群https://t.me/aweikeji
-      - ♥️YouTube梦歌♥️_44
-      - 🇨🇳 台湾（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_101
-      - ♥️YouTube梦歌♥️_21
-      - 🇭🇰 香港（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_63
-      - ♥️YouTube梦歌♥️_55
-      - ♥️YouTube梦歌♥️_61
-      - ♥️YouTube梦歌♥️_56
-      - ♥️YouTube梦歌♥️_43
-      - ♥️YouTube梦歌♥️_57
-      - ♥️YouTube梦歌♥️_62
-      - ♥️YouTube梦歌♥️_76
-      - ♥️YouTube梦歌♥️_19
-      - ♥️YouTube梦歌♥️_71
-      - ♥️YouTube梦歌♥️_23 2
-      - 🇺🇸 美国（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_49
-      - ♥️YouTube梦歌♥️_45
-      - ♥️YouTube梦歌♥️_95
-      - ♥️YouTube梦歌♥️_79
-      - 🇭🇰 香港（TG@阿伟科技/油管） 3
-      - ♥️YouTube梦歌♥️_75
-      - ♥️YouTube梦歌♥️_105
-      - ♥️YouTube梦歌♥️_32
-      - ♥️YouTube梦歌♥️_81
-      - ♥️YouTube梦歌♥️_66
-      - ♥️YouTube梦歌♥️_50 2
-      - ♥️YouTube梦歌♥️_18
-      - ♥️YouTube梦歌♥️_11
-      - ♥️YouTube梦歌♥️_85
-      - 🇺🇸 美国（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_108
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_12
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 6
       - ♥️YouTube梦歌♥️_51
-      - ♥️YouTube梦歌♥️_59
-      - ♥️YouTube梦歌♥️_78
-      - ♥️YouTube梦歌♥️_39 2
-      - ♥️YouTube梦歌♥️_96
-      - 🇭🇰 香港【由零开始YouTube】
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 7
+      - ♥️YouTube梦歌♥️_2
+      - 華人社區 | 臨時高速_32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 8
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 9
+      - 華人社區 | 臨時高速_67
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 10
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_9
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 12
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 13
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 14
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 15
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 16
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 17
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_6
+      - ♥️YouTube梦歌♥️_48
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 18
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 19
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 3
+      - ♥️YouTube梦歌♥️_12
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_3
+      - ♥️YouTube梦歌♥️_36
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 20
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_8
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 21
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 22
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_15
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 23
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 24
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_8 2
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_6 2
+      - 華人社區 | 臨時高速_79
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 25
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 26
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 2
       - ♥️YouTube梦歌♥️_3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 4
-      - ♥️YouTube梦歌♥️_41 2
-      - 🇭🇰 香港（TG@阿伟科技/油管） 4
-      - ♥️YouTube梦歌♥️_86
-      - 🇯🇵 日本【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_32 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ♥️YouTube梦歌♥️_64
-      - 🇺🇸 美国【由零开始YouTube】
-      - 🇩🇪 德国TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_182
-      - 🇺🇸 美国（TG@阿伟科技/油管） 5
-      - 🇭🇰 香港（TG@阿伟科技/油管） 5
-      - ♥️YouTube梦歌♥️_40
-      - 🇨🇳 CN_42 TG@peekfun
-      - 🇹🇭 THE WORLD
-      - 🇭🇰 香港（TG@阿伟科技/油管） 6
-      - 🇺🇸 美国（TG@阿伟科技/油管） 6
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - ♥️YouTube梦歌♥️_97
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 27
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_3 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 28
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 4
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_11 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 29
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 30
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 33
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 34
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 35
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 36
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 5
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 6
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 37
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 7
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 38
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 8
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 9
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 39
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 40
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 41
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 42
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 43
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 44
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 45
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 46
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 47
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 48
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 49
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 10
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 50
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 51
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 52
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 53
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 54
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 55
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 12
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_12 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 13
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 56
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 57
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 58
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 59
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 60
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 14
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 4
+      - 華人社區 | 臨時高速_49
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 61
+      - ♥️YouTube梦歌♥️_30
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 15
+      - 華人社區 | 臨時高速_72
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 16
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_1
+      - ♥️YouTube梦歌♥️_27
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 62
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 63
+      - 華人社區 | 臨時高速_24
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 17
+      - ♥️YouTube梦歌♥️_10
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_13
+      - ♥️YouTube梦歌♥️_31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 64
+      - 🇭🇰 香港（TG@阿伟科技/油管） 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 65
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 66
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 18
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 67
+      - ♥️YouTube梦歌♥️_11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 68
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 69
+      - 華人社區 | 臨時高速_27
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_14 2
+      - 華人社區 | 臨時高速_73
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 19
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 20
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 70
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_2 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 21
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 71
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_13 2
+      - 華人社區 | 臨時高速_50
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 22
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 23
+      - 華人社區 | 臨時高速_60
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 72
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 73
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 24
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 74
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 25
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_4
+      - ♥️YouTube梦歌♥️_5
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 5
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 75
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 76
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 26
+      - ♥️YouTube梦歌♥️_17
+      - 華人社區 | 臨時高速_110
+      - ♥️YouTube梦歌♥️_24
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 27
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 77
+      - 華人社區 | 臨時高速_65
+      - ♥️YouTube梦歌♥️_38
+      - ♥️YouTube梦歌♥️_45
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 6
+      - ♥️YouTube梦歌♥️_37
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_4 2
+      - ♥️YouTube梦歌♥️_52
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 78
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 79
+      - 🇯🇵 日本（TG@阿伟科技/油管）
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 80
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 28
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体
+      - ♥️YouTube梦歌♥️_24 2
+      - 華人社區 | 臨時高速_94
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 29
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 30
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 81
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 82
+      - ♥️YouTube梦歌♥️_1
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 83
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 84
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 2
+      - 🇭🇰 香港（TG@阿伟科技/油管） 3
       - 🇸🇬 新加坡（TG@阿伟科技/油管）
-      - 🇭🇰 香港（TG@阿伟科技/油管） 7
-      - ♥️YouTube梦歌♥️_51 2
-      - 🇭🇰 香港（TG@阿伟科技/油管） 8
-      - 🇨🇳 台湾（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_48 2
-      - 🇺🇸 美国（TG@阿伟科技/油管） 7
-      - 立陶宛（TG@阿伟科技/油管）
-      - YouTube@阿阳AYANG
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_102
-      - 🇨🇦 加拿大【由零开始YouTube】
-      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 9
-      - ♥️YouTube梦歌♥️_74
-      - 🇺🇸 美国【由零开始YouTube】 2
-      - 🇺🇸 美国【由零开始YouTube】 3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 8
-      - ♥️YouTube梦歌♥️_20 2
-      - YouTube@阿阳AYANG 2
-      - YouTube@阿阳AYANG 3
-      - 卢森堡（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - ♥️YouTube梦歌♥️_44 2
-      - 🇳🇱 荷兰（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_107
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 85
+      - ♥️YouTube梦歌♥️_25
+      - ♥️YouTube梦歌♥️_56
+      - ♥️YouTube梦歌♥️_18
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 86
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_10
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 7
+      - ♥️YouTube梦歌♥️_27 2
+      - 🇸🇬 新加坡（TG@阿伟科技/油管） 2
+      - 華人社區 | 臨時高速_105
+      - 華人社區 | 臨時高速_93
+      - ♥️YouTube梦歌♥️_29
+      - ♥️YouTube梦歌♥️_58
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_15 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 87
+      - "@SSRSUB-V09-付费推荐:suo.yt/ssrsub"
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 88
+      - ♥️YouTube梦歌♥️_38 2
+      - 華人社區 | 臨時高速_107
+      - ♥️YouTube梦歌♥️_40
+      - ♥️YouTube梦歌♥️_33
+      - ♥️YouTube梦歌♥️_41
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 3
+      - 華人社區 | 臨時高速_95
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 89
+      - ♥️YouTube梦歌♥️_32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 90
+      - ♥️YouTube梦歌♥️_73
+      - 🇭🇰 香港（TG@阿伟科技/油管） 4
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 91
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 92
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 33
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_7
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_7 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 34
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 35
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 93
+      - ♥️YouTube梦歌♥️_63
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 94
+      - 科技网络
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 95
+      - ♥️YouTube梦歌♥️_62
+      - 🇨🇳 CN
+      - 華人社區 | 臨時高速_111
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 96
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 97
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 98
+      - ♥️YouTube梦歌♥️_21
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 1
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 99
+      - ♥️YouTube梦歌♥️_68
+      - 🇰🇷 韩国（TG@阿伟科技/油管）
+      - 🇺🇸 美国（TG@阿伟科技/油管）
+      - 華人社區 | 臨時高速_113
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 8
       - 🇩🇪 德国（TG@阿伟科技/油管）
-      - 🇺🇸 美国【由零开始YouTube】 4
-      - 🇺🇸 美国【YouTube由零开始】
-      - 🇺🇸 美国【由零开始YouTube】 5
-      - 🇯🇵 日本【由零开始YouTube】 2
-      - 🇺🇸 美国【由零开始YouTube】 6
-      - 🇺🇸 美国（TG@阿伟科技/油管） 9
-      - 立陶宛【由零开始YouTube】
-      - 立陶宛【由零开始YouTube】 2
-      - 立陶宛（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_3 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 100
+      - 🇺🇸 美国（TG@阿伟科技/油管） 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 101
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 4
+      - 🇨🇳 台湾【YouTube由零开始】
+      - 科技网络 2
+      - 🇯🇵 日本（TG@阿伟科技/油管） 2
+      - 🇨🇳 台湾（TG@阿伟科技/油管）
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_10 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 36
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 5
+      - 🇸🇬 新加坡（TG@阿伟科技/油管） 3
+      - 🇨🇳 CN 2
+      - ♥️YouTube梦歌♥️_76
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_67
+      - ♥️YouTube梦歌♥️_77
+      - 🇯🇵 日本（TG@阿伟科技/油管） 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 102
+      - 🇰🇷 韩国【由零开始YouTube】
+      - ♥️YouTube梦歌♥️_78
+      - 華人社區 | 臨時高速_104
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 37
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - ♥️YouTube梦歌♥️_65
+      - 🇨🇳 台湾【YouTube由零开始】 2
+      - ♥️YouTube梦歌♥️_69
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 6
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 103
+      - ♥️YouTube梦歌♥️_10 2
+      - 🇨🇳 _CN_中国
+      - 🇯🇵 日本（TG@阿伟科技/油管） 4
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 7
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 104
+      - 🇿🇦 南非（TG@阿伟科技/油管）
+      - 🇭🇰 香港（TG@阿伟科技/油管） 5
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_48 2
+      - 🇷🇺 俄罗斯（TG@阿伟科技/油管）
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 8
+      - 🇭🇰 香港（TG@阿伟科技/油管） 6
+      - 🇰🇷 韩国（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_84
+      - 🇷🇺 俄罗斯（TG@阿伟科技/油管） 2
+      - 🇫🇮 芬兰（TG@阿伟科技/油管）
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 105
+      - 🇷🇺 RU1(IEPL) - 负载均衡专线
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 9
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 10
+      - 🇷🇺 俄罗斯联邦-2.00MB/s(Youtube:不良林)
+      - 🇨🇳 CN 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ♥️YouTube梦歌♥️_35
-      - ♥️YouTube梦歌♥️_33
-      - ♥️YouTube梦歌♥️_29
-      - ♥️YouTube梦歌♥️_14
-      - ♥️YouTube梦歌♥️_5
-      - ♥️YouTube梦歌♥️_16
-      - ♥️YouTube梦歌♥️_4
-      - ♥️YouTube梦歌♥️_2
-      - ♥️YouTube梦歌♥️_48
-      - ♥️YouTube梦歌♥️_87
-      - ♥️YouTube梦歌♥️_83
-      - 🇸🇬 新加坡【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_89
-      - ♥️YouTube梦歌♥️_39
-      - ♥️YouTube梦歌♥️_15
-      - ♥️YouTube梦歌♥️_12
-      - ♥️YouTube梦歌♥️_38
-      - ♥️YouTube梦歌♥️_52
-      - ♥️YouTube梦歌♥️_41
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 2
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_14
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 4
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_5
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 5
       - 🇭🇰 香港（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_58
-      - ♥️YouTube梦歌♥️_47
-      - ♥️YouTube梦歌♥️_9
-      - ♥️YouTube梦歌♥️_17
-      - ♥️YouTube梦歌♥️_10
-      - ♥️YouTube梦歌♥️_50
-      - ♥️YouTube梦歌♥️_24
-      - ♥️YouTube梦歌♥️_36
-      - ♥️YouTube梦歌♥️_22
-      - ♥️YouTube梦歌♥️_34
-      - ♥️YouTube梦歌♥️_42
-      - ♥️YouTube梦歌♥️_31
-      - ♥️YouTube梦歌♥️_8
-      - ♥️YouTube梦歌♥️_20
-      - 🇯🇵 日本（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_14 2
-      - ♥️YouTube梦歌♥️_23
-      - 🇰🇷 韩国（TG@阿伟科技/油管）
-      - TG群https://t.me/aweikeji
-      - ♥️YouTube梦歌♥️_44
-      - 🇨🇳 台湾（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_101
-      - ♥️YouTube梦歌♥️_21
-      - 🇭🇰 香港（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_63
-      - ♥️YouTube梦歌♥️_55
-      - ♥️YouTube梦歌♥️_61
-      - ♥️YouTube梦歌♥️_56
-      - ♥️YouTube梦歌♥️_43
-      - ♥️YouTube梦歌♥️_57
-      - ♥️YouTube梦歌♥️_62
-      - ♥️YouTube梦歌♥️_76
-      - ♥️YouTube梦歌♥️_19
-      - ♥️YouTube梦歌♥️_71
-      - ♥️YouTube梦歌♥️_23 2
-      - 🇺🇸 美国（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_49
-      - ♥️YouTube梦歌♥️_45
-      - ♥️YouTube梦歌♥️_95
-      - ♥️YouTube梦歌♥️_79
-      - 🇭🇰 香港（TG@阿伟科技/油管） 3
-      - ♥️YouTube梦歌♥️_75
-      - ♥️YouTube梦歌♥️_105
-      - ♥️YouTube梦歌♥️_32
-      - ♥️YouTube梦歌♥️_81
-      - ♥️YouTube梦歌♥️_66
-      - ♥️YouTube梦歌♥️_50 2
-      - ♥️YouTube梦歌♥️_18
-      - ♥️YouTube梦歌♥️_11
-      - ♥️YouTube梦歌♥️_85
-      - 🇺🇸 美国（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_108
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_12
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 6
       - ♥️YouTube梦歌♥️_51
-      - ♥️YouTube梦歌♥️_59
-      - ♥️YouTube梦歌♥️_78
-      - ♥️YouTube梦歌♥️_39 2
-      - ♥️YouTube梦歌♥️_96
-      - 🇭🇰 香港【由零开始YouTube】
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 7
+      - ♥️YouTube梦歌♥️_2
+      - 華人社區 | 臨時高速_32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 8
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 9
+      - 華人社區 | 臨時高速_67
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 10
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_9
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 12
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 13
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 14
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 15
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 16
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 17
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_6
+      - ♥️YouTube梦歌♥️_48
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 18
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 19
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 3
+      - ♥️YouTube梦歌♥️_12
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_3
+      - ♥️YouTube梦歌♥️_36
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 20
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_8
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 21
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 22
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_15
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 23
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 24
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_8 2
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_6 2
+      - 華人社區 | 臨時高速_79
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 25
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 26
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 2
       - ♥️YouTube梦歌♥️_3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 4
-      - ♥️YouTube梦歌♥️_41 2
-      - 🇭🇰 香港（TG@阿伟科技/油管） 4
-      - ♥️YouTube梦歌♥️_86
-      - 🇯🇵 日本【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_32 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ♥️YouTube梦歌♥️_64
-      - 🇺🇸 美国【由零开始YouTube】
-      - 🇩🇪 德国TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_182
-      - 🇺🇸 美国（TG@阿伟科技/油管） 5
-      - 🇭🇰 香港（TG@阿伟科技/油管） 5
-      - ♥️YouTube梦歌♥️_40
-      - 🇨🇳 CN_42 TG@peekfun
-      - 🇹🇭 THE WORLD
-      - 🇭🇰 香港（TG@阿伟科技/油管） 6
-      - 🇺🇸 美国（TG@阿伟科技/油管） 6
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - ♥️YouTube梦歌♥️_97
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 27
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_3 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 28
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 4
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_11 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 29
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 30
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 33
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 34
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 35
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 36
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 5
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 6
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 37
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 7
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 38
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 8
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 9
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 39
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 40
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 41
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 42
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 43
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 44
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 45
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 46
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 47
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 48
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 49
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 10
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 50
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 51
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 52
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 53
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 54
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 55
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 12
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_12 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 13
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 56
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 57
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 58
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 59
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 60
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 14
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 4
+      - 華人社區 | 臨時高速_49
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 61
+      - ♥️YouTube梦歌♥️_30
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 15
+      - 華人社區 | 臨時高速_72
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 16
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_1
+      - ♥️YouTube梦歌♥️_27
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 62
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 63
+      - 華人社區 | 臨時高速_24
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 17
+      - ♥️YouTube梦歌♥️_10
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_13
+      - ♥️YouTube梦歌♥️_31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 64
+      - 🇭🇰 香港（TG@阿伟科技/油管） 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 65
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 66
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 18
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 67
+      - ♥️YouTube梦歌♥️_11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 68
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 69
+      - 華人社區 | 臨時高速_27
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_14 2
+      - 華人社區 | 臨時高速_73
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 19
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 20
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 70
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_2 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 21
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 71
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_13 2
+      - 華人社區 | 臨時高速_50
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 22
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 23
+      - 華人社區 | 臨時高速_60
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 72
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 73
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 24
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 74
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 25
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_4
+      - ♥️YouTube梦歌♥️_5
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 5
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 75
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 76
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 26
+      - ♥️YouTube梦歌♥️_17
+      - 華人社區 | 臨時高速_110
+      - ♥️YouTube梦歌♥️_24
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 27
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 77
+      - 華人社區 | 臨時高速_65
+      - ♥️YouTube梦歌♥️_38
+      - ♥️YouTube梦歌♥️_45
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 6
+      - ♥️YouTube梦歌♥️_37
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_4 2
+      - ♥️YouTube梦歌♥️_52
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 78
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 79
+      - 🇯🇵 日本（TG@阿伟科技/油管）
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 80
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 28
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体
+      - ♥️YouTube梦歌♥️_24 2
+      - 華人社區 | 臨時高速_94
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 29
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 30
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 81
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 82
+      - ♥️YouTube梦歌♥️_1
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 83
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 84
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 2
+      - 🇭🇰 香港（TG@阿伟科技/油管） 3
       - 🇸🇬 新加坡（TG@阿伟科技/油管）
-      - 🇭🇰 香港（TG@阿伟科技/油管） 7
-      - ♥️YouTube梦歌♥️_51 2
-      - 🇭🇰 香港（TG@阿伟科技/油管） 8
-      - 🇨🇳 台湾（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_48 2
-      - 🇺🇸 美国（TG@阿伟科技/油管） 7
-      - 立陶宛（TG@阿伟科技/油管）
-      - YouTube@阿阳AYANG
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_102
-      - 🇨🇦 加拿大【由零开始YouTube】
-      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 9
-      - ♥️YouTube梦歌♥️_74
-      - 🇺🇸 美国【由零开始YouTube】 2
-      - 🇺🇸 美国【由零开始YouTube】 3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 8
-      - ♥️YouTube梦歌♥️_20 2
-      - YouTube@阿阳AYANG 2
-      - YouTube@阿阳AYANG 3
-      - 卢森堡（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - ♥️YouTube梦歌♥️_44 2
-      - 🇳🇱 荷兰（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_107
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 85
+      - ♥️YouTube梦歌♥️_25
+      - ♥️YouTube梦歌♥️_56
+      - ♥️YouTube梦歌♥️_18
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 86
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_10
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 7
+      - ♥️YouTube梦歌♥️_27 2
+      - 🇸🇬 新加坡（TG@阿伟科技/油管） 2
+      - 華人社區 | 臨時高速_105
+      - 華人社區 | 臨時高速_93
+      - ♥️YouTube梦歌♥️_29
+      - ♥️YouTube梦歌♥️_58
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_15 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 87
+      - "@SSRSUB-V09-付费推荐:suo.yt/ssrsub"
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 88
+      - ♥️YouTube梦歌♥️_38 2
+      - 華人社區 | 臨時高速_107
+      - ♥️YouTube梦歌♥️_40
+      - ♥️YouTube梦歌♥️_33
+      - ♥️YouTube梦歌♥️_41
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 3
+      - 華人社區 | 臨時高速_95
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 89
+      - ♥️YouTube梦歌♥️_32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 90
+      - ♥️YouTube梦歌♥️_73
+      - 🇭🇰 香港（TG@阿伟科技/油管） 4
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 91
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 92
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 33
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_7
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_7 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 34
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 35
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 93
+      - ♥️YouTube梦歌♥️_63
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 94
+      - 科技网络
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 95
+      - ♥️YouTube梦歌♥️_62
+      - 🇨🇳 CN
+      - 華人社區 | 臨時高速_111
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 96
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 97
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 98
+      - ♥️YouTube梦歌♥️_21
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 1
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 99
+      - ♥️YouTube梦歌♥️_68
+      - 🇰🇷 韩国（TG@阿伟科技/油管）
+      - 🇺🇸 美国（TG@阿伟科技/油管）
+      - 華人社區 | 臨時高速_113
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 8
       - 🇩🇪 德国（TG@阿伟科技/油管）
-      - 🇺🇸 美国【由零开始YouTube】 4
-      - 🇺🇸 美国【YouTube由零开始】
-      - 🇺🇸 美国【由零开始YouTube】 5
-      - 🇯🇵 日本【由零开始YouTube】 2
-      - 🇺🇸 美国【由零开始YouTube】 6
-      - 🇺🇸 美国（TG@阿伟科技/油管） 9
-      - 立陶宛【由零开始YouTube】
-      - 立陶宛【由零开始YouTube】 2
-      - 立陶宛（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_3 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 100
+      - 🇺🇸 美国（TG@阿伟科技/油管） 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 101
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 4
+      - 🇨🇳 台湾【YouTube由零开始】
+      - 科技网络 2
+      - 🇯🇵 日本（TG@阿伟科技/油管） 2
+      - 🇨🇳 台湾（TG@阿伟科技/油管）
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_10 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 36
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 5
+      - 🇸🇬 新加坡（TG@阿伟科技/油管） 3
+      - 🇨🇳 CN 2
+      - ♥️YouTube梦歌♥️_76
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_67
+      - ♥️YouTube梦歌♥️_77
+      - 🇯🇵 日本（TG@阿伟科技/油管） 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 102
+      - 🇰🇷 韩国【由零开始YouTube】
+      - ♥️YouTube梦歌♥️_78
+      - 華人社區 | 臨時高速_104
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 37
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - ♥️YouTube梦歌♥️_65
+      - 🇨🇳 台湾【YouTube由零开始】 2
+      - ♥️YouTube梦歌♥️_69
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 6
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 103
+      - ♥️YouTube梦歌♥️_10 2
+      - 🇨🇳 _CN_中国
+      - 🇯🇵 日本（TG@阿伟科技/油管） 4
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 7
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 104
+      - 🇿🇦 南非（TG@阿伟科技/油管）
+      - 🇭🇰 香港（TG@阿伟科技/油管） 5
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_48 2
+      - 🇷🇺 俄罗斯（TG@阿伟科技/油管）
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 8
+      - 🇭🇰 香港（TG@阿伟科技/油管） 6
+      - 🇰🇷 韩国（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_84
+      - 🇷🇺 俄罗斯（TG@阿伟科技/油管） 2
+      - 🇫🇮 芬兰（TG@阿伟科技/油管）
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 105
+      - 🇷🇺 RU1(IEPL) - 负载均衡专线
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 9
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 10
+      - 🇷🇺 俄罗斯联邦-2.00MB/s(Youtube:不良林)
+      - 🇨🇳 CN 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ♥️YouTube梦歌♥️_35
-      - ♥️YouTube梦歌♥️_33
-      - ♥️YouTube梦歌♥️_29
-      - ♥️YouTube梦歌♥️_14
-      - ♥️YouTube梦歌♥️_5
-      - ♥️YouTube梦歌♥️_16
-      - ♥️YouTube梦歌♥️_4
-      - ♥️YouTube梦歌♥️_2
-      - ♥️YouTube梦歌♥️_48
-      - ♥️YouTube梦歌♥️_87
-      - ♥️YouTube梦歌♥️_83
-      - 🇸🇬 新加坡【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_89
-      - ♥️YouTube梦歌♥️_39
-      - ♥️YouTube梦歌♥️_15
-      - ♥️YouTube梦歌♥️_12
-      - ♥️YouTube梦歌♥️_38
-      - ♥️YouTube梦歌♥️_52
-      - ♥️YouTube梦歌♥️_41
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 2
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_14
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 4
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_5
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 5
       - 🇭🇰 香港（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_58
-      - ♥️YouTube梦歌♥️_47
-      - ♥️YouTube梦歌♥️_9
-      - ♥️YouTube梦歌♥️_17
-      - ♥️YouTube梦歌♥️_10
-      - ♥️YouTube梦歌♥️_50
-      - ♥️YouTube梦歌♥️_24
-      - ♥️YouTube梦歌♥️_36
-      - ♥️YouTube梦歌♥️_22
-      - ♥️YouTube梦歌♥️_34
-      - ♥️YouTube梦歌♥️_42
-      - ♥️YouTube梦歌♥️_31
-      - ♥️YouTube梦歌♥️_8
-      - ♥️YouTube梦歌♥️_20
-      - 🇯🇵 日本（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_14 2
-      - ♥️YouTube梦歌♥️_23
-      - 🇰🇷 韩国（TG@阿伟科技/油管）
-      - TG群https://t.me/aweikeji
-      - ♥️YouTube梦歌♥️_44
-      - 🇨🇳 台湾（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_101
-      - ♥️YouTube梦歌♥️_21
-      - 🇭🇰 香港（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_63
-      - ♥️YouTube梦歌♥️_55
-      - ♥️YouTube梦歌♥️_61
-      - ♥️YouTube梦歌♥️_56
-      - ♥️YouTube梦歌♥️_43
-      - ♥️YouTube梦歌♥️_57
-      - ♥️YouTube梦歌♥️_62
-      - ♥️YouTube梦歌♥️_76
-      - ♥️YouTube梦歌♥️_19
-      - ♥️YouTube梦歌♥️_71
-      - ♥️YouTube梦歌♥️_23 2
-      - 🇺🇸 美国（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_49
-      - ♥️YouTube梦歌♥️_45
-      - ♥️YouTube梦歌♥️_95
-      - ♥️YouTube梦歌♥️_79
-      - 🇭🇰 香港（TG@阿伟科技/油管） 3
-      - ♥️YouTube梦歌♥️_75
-      - ♥️YouTube梦歌♥️_105
-      - ♥️YouTube梦歌♥️_32
-      - ♥️YouTube梦歌♥️_81
-      - ♥️YouTube梦歌♥️_66
-      - ♥️YouTube梦歌♥️_50 2
-      - ♥️YouTube梦歌♥️_18
-      - ♥️YouTube梦歌♥️_11
-      - ♥️YouTube梦歌♥️_85
-      - 🇺🇸 美国（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_108
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_12
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 6
       - ♥️YouTube梦歌♥️_51
-      - ♥️YouTube梦歌♥️_59
-      - ♥️YouTube梦歌♥️_78
-      - ♥️YouTube梦歌♥️_39 2
-      - ♥️YouTube梦歌♥️_96
-      - 🇭🇰 香港【由零开始YouTube】
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 7
+      - ♥️YouTube梦歌♥️_2
+      - 華人社區 | 臨時高速_32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 8
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 9
+      - 華人社區 | 臨時高速_67
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 10
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_9
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 12
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 13
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 14
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 15
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 16
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 17
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_6
+      - ♥️YouTube梦歌♥️_48
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 18
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 19
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 3
+      - ♥️YouTube梦歌♥️_12
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_3
+      - ♥️YouTube梦歌♥️_36
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 20
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_8
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 21
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 22
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_15
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 23
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 24
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_8 2
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_6 2
+      - 華人社區 | 臨時高速_79
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 25
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 26
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 2
       - ♥️YouTube梦歌♥️_3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 4
-      - ♥️YouTube梦歌♥️_41 2
-      - 🇭🇰 香港（TG@阿伟科技/油管） 4
-      - ♥️YouTube梦歌♥️_86
-      - 🇯🇵 日本【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_32 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ♥️YouTube梦歌♥️_64
-      - 🇺🇸 美国【由零开始YouTube】
-      - 🇩🇪 德国TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_182
-      - 🇺🇸 美国（TG@阿伟科技/油管） 5
-      - 🇭🇰 香港（TG@阿伟科技/油管） 5
-      - ♥️YouTube梦歌♥️_40
-      - 🇨🇳 CN_42 TG@peekfun
-      - 🇹🇭 THE WORLD
-      - 🇭🇰 香港（TG@阿伟科技/油管） 6
-      - 🇺🇸 美国（TG@阿伟科技/油管） 6
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - ♥️YouTube梦歌♥️_97
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 27
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_3 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 28
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 4
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_11 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 29
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 30
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 33
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 34
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 35
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 36
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 5
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 6
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 37
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 7
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 38
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 8
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 9
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 39
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 40
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 41
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 42
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 43
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 44
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 45
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 46
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 47
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 48
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 49
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 10
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 50
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 51
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 52
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 53
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 54
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 55
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 12
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_12 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 13
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 56
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 57
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 58
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 59
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 60
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 14
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 4
+      - 華人社區 | 臨時高速_49
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 61
+      - ♥️YouTube梦歌♥️_30
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 15
+      - 華人社區 | 臨時高速_72
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 16
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_1
+      - ♥️YouTube梦歌♥️_27
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 62
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 63
+      - 華人社區 | 臨時高速_24
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 17
+      - ♥️YouTube梦歌♥️_10
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_13
+      - ♥️YouTube梦歌♥️_31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 64
+      - 🇭🇰 香港（TG@阿伟科技/油管） 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 65
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 66
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 18
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 67
+      - ♥️YouTube梦歌♥️_11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 68
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 69
+      - 華人社區 | 臨時高速_27
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_14 2
+      - 華人社區 | 臨時高速_73
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 19
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 20
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 70
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_2 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 21
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 71
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_13 2
+      - 華人社區 | 臨時高速_50
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 22
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 23
+      - 華人社區 | 臨時高速_60
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 72
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 73
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 24
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 74
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 25
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_4
+      - ♥️YouTube梦歌♥️_5
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 5
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 75
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 76
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 26
+      - ♥️YouTube梦歌♥️_17
+      - 華人社區 | 臨時高速_110
+      - ♥️YouTube梦歌♥️_24
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 27
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 77
+      - 華人社區 | 臨時高速_65
+      - ♥️YouTube梦歌♥️_38
+      - ♥️YouTube梦歌♥️_45
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 6
+      - ♥️YouTube梦歌♥️_37
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_4 2
+      - ♥️YouTube梦歌♥️_52
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 78
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 79
+      - 🇯🇵 日本（TG@阿伟科技/油管）
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 80
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 28
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体
+      - ♥️YouTube梦歌♥️_24 2
+      - 華人社區 | 臨時高速_94
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 29
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 30
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 81
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 82
+      - ♥️YouTube梦歌♥️_1
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 83
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 84
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 2
+      - 🇭🇰 香港（TG@阿伟科技/油管） 3
       - 🇸🇬 新加坡（TG@阿伟科技/油管）
-      - 🇭🇰 香港（TG@阿伟科技/油管） 7
-      - ♥️YouTube梦歌♥️_51 2
-      - 🇭🇰 香港（TG@阿伟科技/油管） 8
-      - 🇨🇳 台湾（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_48 2
-      - 🇺🇸 美国（TG@阿伟科技/油管） 7
-      - 立陶宛（TG@阿伟科技/油管）
-      - YouTube@阿阳AYANG
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_102
-      - 🇨🇦 加拿大【由零开始YouTube】
-      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 9
-      - ♥️YouTube梦歌♥️_74
-      - 🇺🇸 美国【由零开始YouTube】 2
-      - 🇺🇸 美国【由零开始YouTube】 3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 8
-      - ♥️YouTube梦歌♥️_20 2
-      - YouTube@阿阳AYANG 2
-      - YouTube@阿阳AYANG 3
-      - 卢森堡（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - ♥️YouTube梦歌♥️_44 2
-      - 🇳🇱 荷兰（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_107
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 85
+      - ♥️YouTube梦歌♥️_25
+      - ♥️YouTube梦歌♥️_56
+      - ♥️YouTube梦歌♥️_18
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 86
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_10
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 7
+      - ♥️YouTube梦歌♥️_27 2
+      - 🇸🇬 新加坡（TG@阿伟科技/油管） 2
+      - 華人社區 | 臨時高速_105
+      - 華人社區 | 臨時高速_93
+      - ♥️YouTube梦歌♥️_29
+      - ♥️YouTube梦歌♥️_58
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_15 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 87
+      - "@SSRSUB-V09-付费推荐:suo.yt/ssrsub"
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 88
+      - ♥️YouTube梦歌♥️_38 2
+      - 華人社區 | 臨時高速_107
+      - ♥️YouTube梦歌♥️_40
+      - ♥️YouTube梦歌♥️_33
+      - ♥️YouTube梦歌♥️_41
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 3
+      - 華人社區 | 臨時高速_95
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 89
+      - ♥️YouTube梦歌♥️_32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 90
+      - ♥️YouTube梦歌♥️_73
+      - 🇭🇰 香港（TG@阿伟科技/油管） 4
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 91
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 92
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 33
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_7
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_7 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 34
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 35
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 93
+      - ♥️YouTube梦歌♥️_63
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 94
+      - 科技网络
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 95
+      - ♥️YouTube梦歌♥️_62
+      - 🇨🇳 CN
+      - 華人社區 | 臨時高速_111
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 96
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 97
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 98
+      - ♥️YouTube梦歌♥️_21
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 1
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 99
+      - ♥️YouTube梦歌♥️_68
+      - 🇰🇷 韩国（TG@阿伟科技/油管）
+      - 🇺🇸 美国（TG@阿伟科技/油管）
+      - 華人社區 | 臨時高速_113
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 8
       - 🇩🇪 德国（TG@阿伟科技/油管）
-      - 🇺🇸 美国【由零开始YouTube】 4
-      - 🇺🇸 美国【YouTube由零开始】
-      - 🇺🇸 美国【由零开始YouTube】 5
-      - 🇯🇵 日本【由零开始YouTube】 2
-      - 🇺🇸 美国【由零开始YouTube】 6
-      - 🇺🇸 美国（TG@阿伟科技/油管） 9
-      - 立陶宛【由零开始YouTube】
-      - 立陶宛【由零开始YouTube】 2
-      - 立陶宛（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_3 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 100
+      - 🇺🇸 美国（TG@阿伟科技/油管） 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 101
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 4
+      - 🇨🇳 台湾【YouTube由零开始】
+      - 科技网络 2
+      - 🇯🇵 日本（TG@阿伟科技/油管） 2
+      - 🇨🇳 台湾（TG@阿伟科技/油管）
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_10 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 36
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 5
+      - 🇸🇬 新加坡（TG@阿伟科技/油管） 3
+      - 🇨🇳 CN 2
+      - ♥️YouTube梦歌♥️_76
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_67
+      - ♥️YouTube梦歌♥️_77
+      - 🇯🇵 日本（TG@阿伟科技/油管） 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 102
+      - 🇰🇷 韩国【由零开始YouTube】
+      - ♥️YouTube梦歌♥️_78
+      - 華人社區 | 臨時高速_104
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 37
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - ♥️YouTube梦歌♥️_65
+      - 🇨🇳 台湾【YouTube由零开始】 2
+      - ♥️YouTube梦歌♥️_69
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 6
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 103
+      - ♥️YouTube梦歌♥️_10 2
+      - 🇨🇳 _CN_中国
+      - 🇯🇵 日本（TG@阿伟科技/油管） 4
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 7
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 104
+      - 🇿🇦 南非（TG@阿伟科技/油管）
+      - 🇭🇰 香港（TG@阿伟科技/油管） 5
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_48 2
+      - 🇷🇺 俄罗斯（TG@阿伟科技/油管）
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 8
+      - 🇭🇰 香港（TG@阿伟科技/油管） 6
+      - 🇰🇷 韩国（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_84
+      - 🇷🇺 俄罗斯（TG@阿伟科技/油管） 2
+      - 🇫🇮 芬兰（TG@阿伟科技/油管）
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 105
+      - 🇷🇺 RU1(IEPL) - 负载均衡专线
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 9
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 10
+      - 🇷🇺 俄罗斯联邦-2.00MB/s(Youtube:不良林)
+      - 🇨🇳 CN 3
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ♥️YouTube梦歌♥️_35
-      - ♥️YouTube梦歌♥️_33
-      - ♥️YouTube梦歌♥️_29
-      - ♥️YouTube梦歌♥️_14
-      - ♥️YouTube梦歌♥️_5
-      - ♥️YouTube梦歌♥️_16
-      - ♥️YouTube梦歌♥️_4
-      - ♥️YouTube梦歌♥️_2
-      - ♥️YouTube梦歌♥️_48
-      - ♥️YouTube梦歌♥️_87
-      - ♥️YouTube梦歌♥️_83
-      - 🇸🇬 新加坡【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_89
-      - ♥️YouTube梦歌♥️_39
-      - ♥️YouTube梦歌♥️_15
-      - ♥️YouTube梦歌♥️_12
-      - ♥️YouTube梦歌♥️_38
-      - ♥️YouTube梦歌♥️_52
-      - ♥️YouTube梦歌♥️_41
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 2
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_14
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 4
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_5
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 5
       - 🇭🇰 香港（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_58
-      - ♥️YouTube梦歌♥️_47
-      - ♥️YouTube梦歌♥️_9
-      - ♥️YouTube梦歌♥️_17
-      - ♥️YouTube梦歌♥️_10
-      - ♥️YouTube梦歌♥️_50
-      - ♥️YouTube梦歌♥️_24
-      - ♥️YouTube梦歌♥️_36
-      - ♥️YouTube梦歌♥️_22
-      - ♥️YouTube梦歌♥️_34
-      - ♥️YouTube梦歌♥️_42
-      - ♥️YouTube梦歌♥️_31
-      - ♥️YouTube梦歌♥️_8
-      - ♥️YouTube梦歌♥️_20
-      - 🇯🇵 日本（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_14 2
-      - ♥️YouTube梦歌♥️_23
-      - 🇰🇷 韩国（TG@阿伟科技/油管）
-      - TG群https://t.me/aweikeji
-      - ♥️YouTube梦歌♥️_44
-      - 🇨🇳 台湾（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_101
-      - ♥️YouTube梦歌♥️_21
-      - 🇭🇰 香港（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_63
-      - ♥️YouTube梦歌♥️_55
-      - ♥️YouTube梦歌♥️_61
-      - ♥️YouTube梦歌♥️_56
-      - ♥️YouTube梦歌♥️_43
-      - ♥️YouTube梦歌♥️_57
-      - ♥️YouTube梦歌♥️_62
-      - ♥️YouTube梦歌♥️_76
-      - ♥️YouTube梦歌♥️_19
-      - ♥️YouTube梦歌♥️_71
-      - ♥️YouTube梦歌♥️_23 2
-      - 🇺🇸 美国（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_49
-      - ♥️YouTube梦歌♥️_45
-      - ♥️YouTube梦歌♥️_95
-      - ♥️YouTube梦歌♥️_79
-      - 🇭🇰 香港（TG@阿伟科技/油管） 3
-      - ♥️YouTube梦歌♥️_75
-      - ♥️YouTube梦歌♥️_105
-      - ♥️YouTube梦歌♥️_32
-      - ♥️YouTube梦歌♥️_81
-      - ♥️YouTube梦歌♥️_66
-      - ♥️YouTube梦歌♥️_50 2
-      - ♥️YouTube梦歌♥️_18
-      - ♥️YouTube梦歌♥️_11
-      - ♥️YouTube梦歌♥️_85
-      - 🇺🇸 美国（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_108
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_12
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 6
       - ♥️YouTube梦歌♥️_51
-      - ♥️YouTube梦歌♥️_59
-      - ♥️YouTube梦歌♥️_78
-      - ♥️YouTube梦歌♥️_39 2
-      - ♥️YouTube梦歌♥️_96
-      - 🇭🇰 香港【由零开始YouTube】
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 7
+      - ♥️YouTube梦歌♥️_2
+      - 華人社區 | 臨時高速_32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 8
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 9
+      - 華人社區 | 臨時高速_67
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 10
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_9
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 12
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 13
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 14
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 15
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 16
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 17
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_6
+      - ♥️YouTube梦歌♥️_48
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 18
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 19
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 3
+      - ♥️YouTube梦歌♥️_12
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_3
+      - ♥️YouTube梦歌♥️_36
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 20
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_8
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 21
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 22
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_15
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 23
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 24
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_8 2
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_6 2
+      - 華人社區 | 臨時高速_79
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 25
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 26
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 2
       - ♥️YouTube梦歌♥️_3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 4
-      - ♥️YouTube梦歌♥️_41 2
-      - 🇭🇰 香港（TG@阿伟科技/油管） 4
-      - ♥️YouTube梦歌♥️_86
-      - 🇯🇵 日本【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_32 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ♥️YouTube梦歌♥️_64
-      - 🇺🇸 美国【由零开始YouTube】
-      - 🇩🇪 德国TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_182
-      - 🇺🇸 美国（TG@阿伟科技/油管） 5
-      - 🇭🇰 香港（TG@阿伟科技/油管） 5
-      - ♥️YouTube梦歌♥️_40
-      - 🇨🇳 CN_42 TG@peekfun
-      - 🇹🇭 THE WORLD
-      - 🇭🇰 香港（TG@阿伟科技/油管） 6
-      - 🇺🇸 美国（TG@阿伟科技/油管） 6
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - ♥️YouTube梦歌♥️_97
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 27
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_3 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 28
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 4
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_11 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 29
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 30
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 33
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 34
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 35
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 36
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 5
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 6
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 37
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 7
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 38
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 8
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 9
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 39
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 40
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 41
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 42
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 43
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 44
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 45
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 46
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 47
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 48
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 49
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 10
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 50
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 51
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 52
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 53
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 54
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 55
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 12
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_12 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 13
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 56
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 57
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 58
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 59
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 60
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 14
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 4
+      - 華人社區 | 臨時高速_49
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 61
+      - ♥️YouTube梦歌♥️_30
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 15
+      - 華人社區 | 臨時高速_72
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 16
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_1
+      - ♥️YouTube梦歌♥️_27
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 62
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 63
+      - 華人社區 | 臨時高速_24
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 17
+      - ♥️YouTube梦歌♥️_10
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_13
+      - ♥️YouTube梦歌♥️_31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 64
+      - 🇭🇰 香港（TG@阿伟科技/油管） 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 65
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 66
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 18
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 67
+      - ♥️YouTube梦歌♥️_11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 68
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 69
+      - 華人社區 | 臨時高速_27
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_14 2
+      - 華人社區 | 臨時高速_73
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 19
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 20
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 70
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_2 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 21
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 71
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_13 2
+      - 華人社區 | 臨時高速_50
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 22
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 23
+      - 華人社區 | 臨時高速_60
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 72
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 73
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 24
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 74
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 25
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_4
+      - ♥️YouTube梦歌♥️_5
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 5
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 75
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 76
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 26
+      - ♥️YouTube梦歌♥️_17
+      - 華人社區 | 臨時高速_110
+      - ♥️YouTube梦歌♥️_24
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 27
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 77
+      - 華人社區 | 臨時高速_65
+      - ♥️YouTube梦歌♥️_38
+      - ♥️YouTube梦歌♥️_45
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 6
+      - ♥️YouTube梦歌♥️_37
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_4 2
+      - ♥️YouTube梦歌♥️_52
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 78
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 79
+      - 🇯🇵 日本（TG@阿伟科技/油管）
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 80
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 28
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体
+      - ♥️YouTube梦歌♥️_24 2
+      - 華人社區 | 臨時高速_94
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 29
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 30
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 81
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 82
+      - ♥️YouTube梦歌♥️_1
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 83
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 84
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 2
+      - 🇭🇰 香港（TG@阿伟科技/油管） 3
       - 🇸🇬 新加坡（TG@阿伟科技/油管）
-      - 🇭🇰 香港（TG@阿伟科技/油管） 7
-      - ♥️YouTube梦歌♥️_51 2
-      - 🇭🇰 香港（TG@阿伟科技/油管） 8
-      - 🇨🇳 台湾（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_48 2
-      - 🇺🇸 美国（TG@阿伟科技/油管） 7
-      - 立陶宛（TG@阿伟科技/油管）
-      - YouTube@阿阳AYANG
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_102
-      - 🇨🇦 加拿大【由零开始YouTube】
-      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 9
-      - ♥️YouTube梦歌♥️_74
-      - 🇺🇸 美国【由零开始YouTube】 2
-      - 🇺🇸 美国【由零开始YouTube】 3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 8
-      - ♥️YouTube梦歌♥️_20 2
-      - YouTube@阿阳AYANG 2
-      - YouTube@阿阳AYANG 3
-      - 卢森堡（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - ♥️YouTube梦歌♥️_44 2
-      - 🇳🇱 荷兰（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_107
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 85
+      - ♥️YouTube梦歌♥️_25
+      - ♥️YouTube梦歌♥️_56
+      - ♥️YouTube梦歌♥️_18
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 86
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_10
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 7
+      - ♥️YouTube梦歌♥️_27 2
+      - 🇸🇬 新加坡（TG@阿伟科技/油管） 2
+      - 華人社區 | 臨時高速_105
+      - 華人社區 | 臨時高速_93
+      - ♥️YouTube梦歌♥️_29
+      - ♥️YouTube梦歌♥️_58
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_15 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 87
+      - "@SSRSUB-V09-付费推荐:suo.yt/ssrsub"
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 88
+      - ♥️YouTube梦歌♥️_38 2
+      - 華人社區 | 臨時高速_107
+      - ♥️YouTube梦歌♥️_40
+      - ♥️YouTube梦歌♥️_33
+      - ♥️YouTube梦歌♥️_41
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 3
+      - 華人社區 | 臨時高速_95
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 89
+      - ♥️YouTube梦歌♥️_32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 90
+      - ♥️YouTube梦歌♥️_73
+      - 🇭🇰 香港（TG@阿伟科技/油管） 4
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 91
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 92
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 33
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_7
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_7 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 34
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 35
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 93
+      - ♥️YouTube梦歌♥️_63
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 94
+      - 科技网络
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 95
+      - ♥️YouTube梦歌♥️_62
+      - 🇨🇳 CN
+      - 華人社區 | 臨時高速_111
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 96
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 97
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 98
+      - ♥️YouTube梦歌♥️_21
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 1
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 99
+      - ♥️YouTube梦歌♥️_68
+      - 🇰🇷 韩国（TG@阿伟科技/油管）
+      - 🇺🇸 美国（TG@阿伟科技/油管）
+      - 華人社區 | 臨時高速_113
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 8
       - 🇩🇪 德国（TG@阿伟科技/油管）
-      - 🇺🇸 美国【由零开始YouTube】 4
-      - 🇺🇸 美国【YouTube由零开始】
-      - 🇺🇸 美国【由零开始YouTube】 5
-      - 🇯🇵 日本【由零开始YouTube】 2
-      - 🇺🇸 美国【由零开始YouTube】 6
-      - 🇺🇸 美国（TG@阿伟科技/油管） 9
-      - 立陶宛【由零开始YouTube】
-      - 立陶宛【由零开始YouTube】 2
-      - 立陶宛（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_3 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 100
+      - 🇺🇸 美国（TG@阿伟科技/油管） 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 101
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 4
+      - 🇨🇳 台湾【YouTube由零开始】
+      - 科技网络 2
+      - 🇯🇵 日本（TG@阿伟科技/油管） 2
+      - 🇨🇳 台湾（TG@阿伟科技/油管）
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_10 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 36
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 5
+      - 🇸🇬 新加坡（TG@阿伟科技/油管） 3
+      - 🇨🇳 CN 2
+      - ♥️YouTube梦歌♥️_76
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_67
+      - ♥️YouTube梦歌♥️_77
+      - 🇯🇵 日本（TG@阿伟科技/油管） 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 102
+      - 🇰🇷 韩国【由零开始YouTube】
+      - ♥️YouTube梦歌♥️_78
+      - 華人社區 | 臨時高速_104
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 37
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - ♥️YouTube梦歌♥️_65
+      - 🇨🇳 台湾【YouTube由零开始】 2
+      - ♥️YouTube梦歌♥️_69
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 6
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 103
+      - ♥️YouTube梦歌♥️_10 2
+      - 🇨🇳 _CN_中国
+      - 🇯🇵 日本（TG@阿伟科技/油管） 4
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 7
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 104
+      - 🇿🇦 南非（TG@阿伟科技/油管）
+      - 🇭🇰 香港（TG@阿伟科技/油管） 5
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_48 2
+      - 🇷🇺 俄罗斯（TG@阿伟科技/油管）
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 8
+      - 🇭🇰 香港（TG@阿伟科技/油管） 6
+      - 🇰🇷 韩国（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_84
+      - 🇷🇺 俄罗斯（TG@阿伟科技/油管） 2
+      - 🇫🇮 芬兰（TG@阿伟科技/油管）
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 105
+      - 🇷🇺 RU1(IEPL) - 负载均衡专线
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 9
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 10
+      - 🇷🇺 俄罗斯联邦-2.00MB/s(Youtube:不良林)
+      - 🇨🇳 CN 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1162,143 +2402,298 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ♥️YouTube梦歌♥️_35
-      - ♥️YouTube梦歌♥️_33
-      - ♥️YouTube梦歌♥️_29
-      - ♥️YouTube梦歌♥️_14
-      - ♥️YouTube梦歌♥️_5
-      - ♥️YouTube梦歌♥️_16
-      - ♥️YouTube梦歌♥️_4
-      - ♥️YouTube梦歌♥️_2
-      - ♥️YouTube梦歌♥️_48
-      - ♥️YouTube梦歌♥️_87
-      - ♥️YouTube梦歌♥️_83
-      - 🇸🇬 新加坡【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_89
-      - ♥️YouTube梦歌♥️_39
-      - ♥️YouTube梦歌♥️_15
-      - ♥️YouTube梦歌♥️_12
-      - ♥️YouTube梦歌♥️_38
-      - ♥️YouTube梦歌♥️_52
-      - ♥️YouTube梦歌♥️_41
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 2
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_14
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 4
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_5
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 5
       - 🇭🇰 香港（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_58
-      - ♥️YouTube梦歌♥️_47
-      - ♥️YouTube梦歌♥️_9
-      - ♥️YouTube梦歌♥️_17
-      - ♥️YouTube梦歌♥️_10
-      - ♥️YouTube梦歌♥️_50
-      - ♥️YouTube梦歌♥️_24
-      - ♥️YouTube梦歌♥️_36
-      - ♥️YouTube梦歌♥️_22
-      - ♥️YouTube梦歌♥️_34
-      - ♥️YouTube梦歌♥️_42
-      - ♥️YouTube梦歌♥️_31
-      - ♥️YouTube梦歌♥️_8
-      - ♥️YouTube梦歌♥️_20
-      - 🇯🇵 日本（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_14 2
-      - ♥️YouTube梦歌♥️_23
-      - 🇰🇷 韩国（TG@阿伟科技/油管）
-      - TG群https://t.me/aweikeji
-      - ♥️YouTube梦歌♥️_44
-      - 🇨🇳 台湾（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_101
-      - ♥️YouTube梦歌♥️_21
-      - 🇭🇰 香港（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_63
-      - ♥️YouTube梦歌♥️_55
-      - ♥️YouTube梦歌♥️_61
-      - ♥️YouTube梦歌♥️_56
-      - ♥️YouTube梦歌♥️_43
-      - ♥️YouTube梦歌♥️_57
-      - ♥️YouTube梦歌♥️_62
-      - ♥️YouTube梦歌♥️_76
-      - ♥️YouTube梦歌♥️_19
-      - ♥️YouTube梦歌♥️_71
-      - ♥️YouTube梦歌♥️_23 2
-      - 🇺🇸 美国（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_49
-      - ♥️YouTube梦歌♥️_45
-      - ♥️YouTube梦歌♥️_95
-      - ♥️YouTube梦歌♥️_79
-      - 🇭🇰 香港（TG@阿伟科技/油管） 3
-      - ♥️YouTube梦歌♥️_75
-      - ♥️YouTube梦歌♥️_105
-      - ♥️YouTube梦歌♥️_32
-      - ♥️YouTube梦歌♥️_81
-      - ♥️YouTube梦歌♥️_66
-      - ♥️YouTube梦歌♥️_50 2
-      - ♥️YouTube梦歌♥️_18
-      - ♥️YouTube梦歌♥️_11
-      - ♥️YouTube梦歌♥️_85
-      - 🇺🇸 美国（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_108
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_12
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 6
       - ♥️YouTube梦歌♥️_51
-      - ♥️YouTube梦歌♥️_59
-      - ♥️YouTube梦歌♥️_78
-      - ♥️YouTube梦歌♥️_39 2
-      - ♥️YouTube梦歌♥️_96
-      - 🇭🇰 香港【由零开始YouTube】
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 7
+      - ♥️YouTube梦歌♥️_2
+      - 華人社區 | 臨時高速_32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 8
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 9
+      - 華人社區 | 臨時高速_67
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 10
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_9
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 12
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 13
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 14
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 15
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 16
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 17
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_6
+      - ♥️YouTube梦歌♥️_48
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 18
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 19
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 3
+      - ♥️YouTube梦歌♥️_12
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_3
+      - ♥️YouTube梦歌♥️_36
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 20
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_8
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 21
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 22
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_15
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 23
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 24
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_8 2
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_6 2
+      - 華人社區 | 臨時高速_79
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 25
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 26
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 2
       - ♥️YouTube梦歌♥️_3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 4
-      - ♥️YouTube梦歌♥️_41 2
-      - 🇭🇰 香港（TG@阿伟科技/油管） 4
-      - ♥️YouTube梦歌♥️_86
-      - 🇯🇵 日本【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_32 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ♥️YouTube梦歌♥️_64
-      - 🇺🇸 美国【由零开始YouTube】
-      - 🇩🇪 德国TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_182
-      - 🇺🇸 美国（TG@阿伟科技/油管） 5
-      - 🇭🇰 香港（TG@阿伟科技/油管） 5
-      - ♥️YouTube梦歌♥️_40
-      - 🇨🇳 CN_42 TG@peekfun
-      - 🇹🇭 THE WORLD
-      - 🇭🇰 香港（TG@阿伟科技/油管） 6
-      - 🇺🇸 美国（TG@阿伟科技/油管） 6
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - ♥️YouTube梦歌♥️_97
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 27
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_3 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 28
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 4
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_11 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 29
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 30
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 33
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 34
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 35
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 36
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 5
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 6
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 37
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 7
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 38
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 8
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 9
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 39
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 40
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 41
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 42
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 43
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 44
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 45
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 46
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 47
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 48
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 49
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 10
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 50
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 51
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 52
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 53
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 54
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 55
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 12
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_12 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 13
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 56
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 57
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 58
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 59
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 60
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 14
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 4
+      - 華人社區 | 臨時高速_49
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 61
+      - ♥️YouTube梦歌♥️_30
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 15
+      - 華人社區 | 臨時高速_72
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 16
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_1
+      - ♥️YouTube梦歌♥️_27
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 62
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 63
+      - 華人社區 | 臨時高速_24
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 17
+      - ♥️YouTube梦歌♥️_10
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_13
+      - ♥️YouTube梦歌♥️_31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 64
+      - 🇭🇰 香港（TG@阿伟科技/油管） 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 65
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 66
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 18
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 67
+      - ♥️YouTube梦歌♥️_11
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 68
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 69
+      - 華人社區 | 臨時高速_27
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_14 2
+      - 華人社區 | 臨時高速_73
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 19
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 20
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 70
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_2 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 21
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 71
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_13 2
+      - 華人社區 | 臨時高速_50
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 22
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 23
+      - 華人社區 | 臨時高速_60
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 72
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 73
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 24
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 74
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 25
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_4
+      - ♥️YouTube梦歌♥️_5
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 5
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 75
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 76
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 26
+      - ♥️YouTube梦歌♥️_17
+      - 華人社區 | 臨時高速_110
+      - ♥️YouTube梦歌♥️_24
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 27
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 77
+      - 華人社區 | 臨時高速_65
+      - ♥️YouTube梦歌♥️_38
+      - ♥️YouTube梦歌♥️_45
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 6
+      - ♥️YouTube梦歌♥️_37
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_4 2
+      - ♥️YouTube梦歌♥️_52
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 78
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 79
+      - 🇯🇵 日本（TG@阿伟科技/油管）
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 80
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 28
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体
+      - ♥️YouTube梦歌♥️_24 2
+      - 華人社區 | 臨時高速_94
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 29
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 30
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 81
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 82
+      - ♥️YouTube梦歌♥️_1
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 83
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 31
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 84
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 2
+      - 🇭🇰 香港（TG@阿伟科技/油管） 3
       - 🇸🇬 新加坡（TG@阿伟科技/油管）
-      - 🇭🇰 香港（TG@阿伟科技/油管） 7
-      - ♥️YouTube梦歌♥️_51 2
-      - 🇭🇰 香港（TG@阿伟科技/油管） 8
-      - 🇨🇳 台湾（TG@阿伟科技/油管） 2
-      - ♥️YouTube梦歌♥️_48 2
-      - 🇺🇸 美国（TG@阿伟科技/油管） 7
-      - 立陶宛（TG@阿伟科技/油管）
-      - YouTube@阿阳AYANG
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 【由零开始YouTube】
-      - ♥️YouTube梦歌♥️_102
-      - 🇨🇦 加拿大【由零开始YouTube】
-      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 9
-      - ♥️YouTube梦歌♥️_74
-      - 🇺🇸 美国【由零开始YouTube】 2
-      - 🇺🇸 美国【由零开始YouTube】 3
-      - 🇺🇸 美国（TG@阿伟科技/油管） 8
-      - ♥️YouTube梦歌♥️_20 2
-      - YouTube@阿阳AYANG 2
-      - YouTube@阿阳AYANG 3
-      - 卢森堡（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - ♥️YouTube梦歌♥️_44 2
-      - 🇳🇱 荷兰（TG@阿伟科技/油管）
-      - ♥️YouTube梦歌♥️_107
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 85
+      - ♥️YouTube梦歌♥️_25
+      - ♥️YouTube梦歌♥️_56
+      - ♥️YouTube梦歌♥️_18
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 86
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_10
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 7
+      - ♥️YouTube梦歌♥️_27 2
+      - 🇸🇬 新加坡（TG@阿伟科技/油管） 2
+      - 華人社區 | 臨時高速_105
+      - 華人社區 | 臨時高速_93
+      - ♥️YouTube梦歌♥️_29
+      - ♥️YouTube梦歌♥️_58
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_15 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 87
+      - "@SSRSUB-V09-付费推荐:suo.yt/ssrsub"
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 88
+      - ♥️YouTube梦歌♥️_38 2
+      - 華人社區 | 臨時高速_107
+      - ♥️YouTube梦歌♥️_40
+      - ♥️YouTube梦歌♥️_33
+      - ♥️YouTube梦歌♥️_41
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 3
+      - 華人社區 | 臨時高速_95
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 89
+      - ♥️YouTube梦歌♥️_32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 90
+      - ♥️YouTube梦歌♥️_73
+      - 🇭🇰 香港（TG@阿伟科技/油管） 4
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 91
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 32
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 92
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 33
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_7
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_7 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 34
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 35
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 93
+      - ♥️YouTube梦歌♥️_63
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 94
+      - 科技网络
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 95
+      - ♥️YouTube梦歌♥️_62
+      - 🇨🇳 CN
+      - 華人社區 | 臨時高速_111
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 96
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 97
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 98
+      - ♥️YouTube梦歌♥️_21
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 1
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 99
+      - ♥️YouTube梦歌♥️_68
+      - 🇰🇷 韩国（TG@阿伟科技/油管）
+      - 🇺🇸 美国（TG@阿伟科技/油管）
+      - 華人社區 | 臨時高速_113
+      - 🇨🇳 台湾 | 梦歌IEPL | 解锁流媒体 8
       - 🇩🇪 德国（TG@阿伟科技/油管）
-      - 🇺🇸 美国【由零开始YouTube】 4
-      - 🇺🇸 美国【YouTube由零开始】
-      - 🇺🇸 美国【由零开始YouTube】 5
-      - 🇯🇵 日本【由零开始YouTube】 2
-      - 🇺🇸 美国【由零开始YouTube】 6
-      - 🇺🇸 美国（TG@阿伟科技/油管） 9
-      - 立陶宛【由零开始YouTube】
-      - 立陶宛【由零开始YouTube】 2
-      - 立陶宛（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_3 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 100
+      - 🇺🇸 美国（TG@阿伟科技/油管） 2
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 101
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 4
+      - 🇨🇳 台湾【YouTube由零开始】
+      - 科技网络 2
+      - 🇯🇵 日本（TG@阿伟科技/油管） 2
+      - 🇨🇳 台湾（TG@阿伟科技/油管）
+      - 🇸🇬 新加坡 | 梦歌IEPL | 解锁流媒体_10 2
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 36
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 5
+      - 🇸🇬 新加坡（TG@阿伟科技/油管） 3
+      - 🇨🇳 CN 2
+      - ♥️YouTube梦歌♥️_76
+      - ♥️YouTube梦歌♥️_74
+      - ♥️YouTube梦歌♥️_67
+      - ♥️YouTube梦歌♥️_77
+      - 🇯🇵 日本（TG@阿伟科技/油管） 3
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 102
+      - 🇰🇷 韩国【由零开始YouTube】
+      - ♥️YouTube梦歌♥️_78
+      - 華人社區 | 臨時高速_104
+      - 🇯🇵 日本 | 梦歌CN2 | 解锁流媒体 37
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - ♥️YouTube梦歌♥️_65
+      - 🇨🇳 台湾【YouTube由零开始】 2
+      - ♥️YouTube梦歌♥️_69
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 6
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 103
+      - ♥️YouTube梦歌♥️_10 2
+      - 🇨🇳 _CN_中国
+      - 🇯🇵 日本（TG@阿伟科技/油管） 4
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 7
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 104
+      - 🇿🇦 南非（TG@阿伟科技/油管）
+      - 🇭🇰 香港（TG@阿伟科技/油管） 5
+      - ♥️YouTube梦歌♥️_97
+      - ♥️YouTube梦歌♥️_48 2
+      - 🇷🇺 俄罗斯（TG@阿伟科技/油管）
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 8
+      - 🇭🇰 香港（TG@阿伟科技/油管） 6
+      - 🇰🇷 韩国（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_84
+      - 🇷🇺 俄罗斯（TG@阿伟科技/油管） 2
+      - 🇫🇮 芬兰（TG@阿伟科技/油管）
+      - 🇭🇰 香港 | 梦歌CMI | 解锁流媒体 105
+      - 🇷🇺 RU1(IEPL) - 负载均衡专线
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 9
+      - 🇺🇸 美国 | 梦歌IEPL | 解锁流媒体 10
+      - 🇷🇺 俄罗斯联邦-2.00MB/s(Youtube:不良林)
+      - 🇨🇳 CN 3
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
