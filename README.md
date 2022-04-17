@@ -5,115 +5,955 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 节点池捡的垃圾_7, server: 54.254.241.111, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 217.30.10.64:9038, server: 217.30.10.64, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: 217.30.10.64:9079, server: 217.30.10.64, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: 217.30.10.64:9097, server: 217.30.10.64, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: 217.30.10.64:9041, server: 217.30.10.64, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: 节点池捡的垃圾_4, server: 13.212.75.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 节点池捡的垃圾_11, server: 18.138.253.154, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 152.89.210.84:9046, server: 152.89.210.84, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: 节点池捡的垃圾_22, server: vpn2.52tgds666.tk, port: 443, type: vmess, uuid: 976cf9fb-3ff1-48f7-939d-56a0e25f7376, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: vpnb.tgds.workers.dev}, udp: true}
-  - {name: 217.30.10.64:9094, server: 217.30.10.64, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 152.89.210.84:9060, server: 152.89.210.84, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: 217.30.10.64:9003, server: 217.30.10.64, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: 217.30.10.64:9001, server: 217.30.10.64, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: 185.167.116.252:9014, server: 185.167.116.252, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: CYL-科技（2022.03.20）, server: 14.29.124.168, port: 25285, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CYL-科技（2022.03.20） 2, server: 14.29.124.168, port: 25213, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: ♥️YouTube梦歌♥️_48, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 节点池捡的垃圾_32, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CYL-科技（2022.03.20） 3, server: 14.29.124.168, port: 25207, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _YouTube阿伟科技 152, server: 20.24.83.247, port: 80, type: vmess, uuid: 296c78e7-c4d7-456b-805a-3db82fe06edc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.83.247}, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_39, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_7, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_18, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_40, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_10, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_14, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_19, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_54, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_43, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_4, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_2, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_58, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_51, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_50, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_17, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_41, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_53, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_12, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_48, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_56, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_6, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_57, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_22, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_8, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_49, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +新加坡|梦歌BGP|解锁流媒体_6, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61004, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_5, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_27, server: in4ba0929902b470.404sx.com, port: 21011, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_21, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +日本|梦歌CN2|解锁流媒体_18, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +台湾|梦歌GIA|解锁流媒体_2, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +日本|梦歌CN2|解锁流媒体_21, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11005, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: _YouTube阿伟科技 10, server: hknf1.qingyun123.xyz, port: 10050, type: trojan, password: 868f097d-cb8d-4d37-beb4-a0c84d82b8bf, sni: hknf1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: +日本|梦歌CN2|解锁流媒体_19, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +新加坡|梦歌BGP|解锁流媒体_4, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_9, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +日本|梦歌CN2|解锁流媒体_20, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11004, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
   - {name: 节点池捡的垃圾_13, server: 54.179.181.151, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 节点池捡的垃圾_34, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 联合国|YouTube梦歌|流媒体解锁_49, server: 120.232.173.119, port: 20004, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, skip-cert-verify: true, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_24, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +新加坡|梦歌BGP|解锁流媒体_5, server: in4ba0929902b470.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +日本|梦歌CN2|解锁流媒体_8, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +日本|梦歌CN2|解锁流媒体_2, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_25, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +日本|梦歌CN2|解锁流媒体_1, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_55, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +新加坡|梦歌BGP|解锁流媒体_1, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61004, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +日本|梦歌CN2|解锁流媒体_6, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +日本|梦歌CN2|解锁流媒体_7, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +台湾|梦歌GIA|解锁流媒体_3, server: in4ba0929902b470.404sx.com, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +日本|梦歌CN2|解锁流媒体_4, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11004, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +日本|梦歌CN2|解锁流媒体_16, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11005, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_47, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: 联合国|YouTube梦歌|流媒体解锁_9, server: 120.232.173.119, port: 20003, type: trojan, password: e511e8c9-fa7a-3441-82ad-5219e9d47213, skip-cert-verify: true, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_44, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_46, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +新加坡|梦歌BGP|解锁流媒体_2, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_52, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +台湾|梦歌GIA|解锁流媒体_5, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +日本|梦歌CN2|解锁流媒体_9, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11004, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +日本|梦歌CN2|解锁流媒体_10, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11005, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +新加坡|梦歌BGP|解锁流媒体_3, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61004, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +日本|梦歌CN2|解锁流媒体_5, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11005, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_13, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_23, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +日本|梦歌CN2|解锁流媒体_3, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_42, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_26, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +台湾|梦歌GIA|解锁流媒体_1, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +日本|梦歌CN2|解锁流媒体_13, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_1, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_16, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_20, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21011, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +台湾|梦歌GIA|解锁流媒体_4, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_31, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_15, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +日本|梦歌CN2|解锁流媒体_14, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +日本|梦歌CN2|解锁流媒体_17, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_35, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_30, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +日本|梦歌CN2|解锁流媒体_12, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 19, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
+  - {name: +美国|梦歌IEPL|解锁流媒体_5, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31005, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_33, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_37, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_32, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +美国|梦歌IEPL|解锁流媒体_4, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31004, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +美国|梦歌IEPL|解锁流媒体_3, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31003, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: _US_美国, server: 45.32.94.166, port: 31676, type: vmess, uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [45.32.94.166]}}, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_36, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 25, server: 154.3.6.247, port: 40000, type: ssr, cipher: dummy, password: banana@@, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: +日本|梦歌CN2|解锁流媒体_15, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11004, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 24, server: 45.142.157.69, port: 40002, type: ssr, cipher: dummy, password: sealplus001, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_29, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_34, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +日本|梦歌CN2|解锁流媒体_11, server: in4ba0929902b470.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: _YouTube阿伟科技 12, server: yin1.qingyun123.xyz, port: 10000, type: trojan, password: 868f097d-cb8d-4d37-beb4-a0c84d82b8bf, sni: yin1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 213.183.51.172:9088, server: 213.183.51.172, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: _YouTube阿伟科技 131, server: 173.82.186.25, port: 60001, type: ssr, cipher: dummy, password: enterpassword, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_45, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: _YouTube阿伟科技 11, server: us1.qingyun123.xyz, port: 10050, type: trojan, password: 868f097d-cb8d-4d37-beb4-a0c84d82b8bf, sni: us1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 2, server: jgwdj1.gaox.ml, port: 443, type: trojan, password: e8553fc5-f3a0-409c-ac06-1cd93b026cf4, sni: jgwdj1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 213.183.51.172:9024, server: 213.183.51.172, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: 英国（TG@阿伟科技/油管）, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub", server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}, udp: true}
+  - {name: 美国【由零开始YouTube】, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xrenblog/, ws-headers: {Host: ipv6.xrenblog.com}, udp: true}
+  - {name: 213.183.51.172:9056, server: 213.183.51.172, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: 217.30.10.65:9041, server: 217.30.10.65, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: 217.30.10.65:9088, server: 217.30.10.65, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: 217.30.10.65:9097, server: 217.30.10.65, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: 185.167.117.171:9005, server: 185.167.117.171, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_28, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: 217.30.10.66:9019, server: 217.30.10.66, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: 217.30.10.66:9014, server: 217.30.10.66, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: 217.30.10.66:9079, server: 217.30.10.66, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: 217.30.10.66:9000, server: 217.30.10.66, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: 217.30.10.66:9025, server: 217.30.10.66, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: 213.183.51.172:9031, server: 213.183.51.172, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: 213.183.51.171:9003, server: 213.183.51.171, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: 213.183.51.172:9079, server: 213.183.51.172, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: 213.183.51.172:9040, server: 213.183.51.172, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: 217.30.10.65:9000, server: 217.30.10.65, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: 217.30.10.66:9070, server: 217.30.10.66, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: 美国【由零开始YouTube】 2, server: 4.ezydfdd.com, port: 443, type: vmess, uuid: c0cb6989-5967-447d-ea34-b4b0aa70b9f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 4.ezydfdd.com}, udp: true}
+  - {name: 217.30.10.65:9006, server: 217.30.10.65, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: _US_美国 3, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, sni: jgwdj2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 217.30.10.66:9031, server: 217.30.10.66, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: 217.30.10.66:9015, server: 217.30.10.66, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: 217.30.10.66:9008, server: 217.30.10.66, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: 65.108.246.232:443, server: 65.108.246.232, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: KRA0vhajiMhB, udp: true}
+  - {name: 217.30.10.65:9064, server: 217.30.10.65, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: 213.183.51.171:9010, server: 213.183.51.171, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: 185.167.117.171:9050, server: 185.167.117.171, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: 217.30.10.66:9043, server: 217.30.10.66, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: 217.30.10.66:9041, server: 217.30.10.66, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 9, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sakura/, ws-headers: {Host: v4.xrenblog.com}, udp: true}
+  - {name: 217.30.10.66:9094, server: 217.30.10.66, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: 217.30.10.65:9014, server: 217.30.10.65, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: 217.30.10.65:9073, server: 217.30.10.65, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: 217.30.10.65:9027, server: 217.30.10.65, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: +香港|梦歌CMI|解锁流媒体_38, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: 217.30.10.65:9070, server: 217.30.10.65, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: 185.167.117.171:9003, server: 185.167.117.171, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: 185.167.116.253:9026, server: 185.167.116.253, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: +美国|梦歌IEPL|解锁流媒体_1, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: 217.30.10.66:9045, server: 217.30.10.66, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
   - {name: 217.30.10.64:9020, server: 217.30.10.64, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: 美国-2.53MB/s(Youtube:不良林), server: 149.28.66.87, port: 22135, type: vmess, uuid: 92cf0366-bcca-11ec-8cef-560003f2ffbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /i7qcJo6E/, ws-headers: {Host: 149.28.66.87}, udp: true}
+  - {name: 217.30.10.65:9026, server: 217.30.10.65, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: 217.30.10.66:9046, server: 217.30.10.66, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: 185.167.116.253:9003, server: 185.167.116.253, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: 217.30.10.66:9027, server: 217.30.10.66, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: 217.30.10.65:9025, server: 217.30.10.65, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: 185.167.116.253:9031, server: 185.167.116.253, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: 217.30.10.65:9037, server: 217.30.10.65, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: 217.30.10.64:9097, server: 217.30.10.64, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: 217.30.10.65:9005, server: 217.30.10.65, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: 217.30.10.65:9001, server: 217.30.10.65, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: 152.89.210.84:9000, server: 152.89.210.84, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: 美国【由零开始YouTube】 3, server: 142.4.127.67, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.47727450.xyz}, udp: true}
+  - {name: 217.30.10.65:9040, server: 217.30.10.65, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: 185.167.116.252:9015, server: 185.167.116.252, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: 217.30.10.65:9053, server: 217.30.10.65, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: 185.167.116.253:9005, server: 185.167.116.253, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: 185.167.117.171:9060, server: 185.167.117.171, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: 185.167.116.253:9038, server: 185.167.116.253, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: 152.89.210.84:9027, server: 152.89.210.84, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: 217.30.10.66:9001, server: 217.30.10.66, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: 217.30.10.64:9003, server: 217.30.10.64, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: 217.30.10.64:9041, server: 217.30.10.64, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: 217.30.10.64:9038, server: 217.30.10.64, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: 217.30.10.66:9097, server: 217.30.10.66, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: 185.167.116.252:9027, server: 185.167.116.252, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: 217.30.10.65:9061, server: 217.30.10.65, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP, udp: true}
+  - {name: 217.30.10.64:9094, server: 217.30.10.64, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: 217.30.10.66:9024, server: 217.30.10.66, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: 185.167.116.253:9001, server: 185.167.116.253, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: 217.30.10.66:9032, server: 217.30.10.66, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: gz2.52168.xyz:2101, server: gz2.52168.xyz, port: 2101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 213.183.51.171:9014, server: 213.183.51.171, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: 217.30.10.66:9040, server: 217.30.10.66, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: （欢迎订阅钱科技0416）_🇺🇸_US_美国_82, server: niaop.tk, port: 443, type: vmess, uuid: a0b0df87-bda2-440e-830f-347da6cc7760, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wsssdr1, ws-headers: {Host: niaop.tk}, udp: true}
+  - {name: 185.167.116.252:9014, server: 185.167.116.252, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: CN, server: in05.dns2333.xyz, port: 63021, type: vmess, uuid: e701a942-fba5-3381-b15e-2838689b9c23, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uk01-cdn.airport-v2.com}, udp: true}
+  - {name: US, server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /happy, ws-headers: {Host: v2ray.788644.xyz}, udp: true}
+  - {name: 217.30.10.65:9050, server: 217.30.10.65, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: 185.167.116.253:9043, server: 185.167.116.253, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: 217.30.10.66:9037, server: 217.30.10.66, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: 185.167.116.253:9011, server: 185.167.116.253, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: 217.30.10.65:9098, server: 217.30.10.65, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: 217.30.10.66:9050, server: 217.30.10.66, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: 217.30.10.66:9038, server: 217.30.10.66, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: 185.167.116.253:9019, server: 185.167.116.253, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: 217.30.10.65:9038, server: 217.30.10.65, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: 217.30.10.66:9059, server: 217.30.10.66, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: _KR_韩国, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 217.30.10.65:9046, server: 217.30.10.65, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: +新加坡|梦歌BGP|解锁流媒体_7, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: +美国|梦歌IEPL|解锁流媒体_2, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31002, type: ss, cipher: chacha20-ietf-poly1305, password: 70ad15a5-d182-4dc6-985b-aa5ab3b9d44c, udp: true}
+  - {name: 217.30.10.65:9018, server: 217.30.10.65, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: 185.167.116.253:9060, server: 185.167.116.253, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: 152.89.210.84:9056, server: 152.89.210.84, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: 185.167.116.253:9080, server: 185.167.116.253, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
+  - {name: 185.167.116.253:9014, server: 185.167.116.253, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: 213.183.51.172:9038, server: 213.183.51.172, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: gz1.52168.xyz:1109, server: gz1.52168.xyz, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 节点池捡的垃圾_7, server: 54.254.241.111, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 185.167.116.253:9097, server: 185.167.116.253, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: 185.167.116.253:9079, server: 185.167.116.253, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: CYL-科技（2022.03.20）, server: 14.29.124.168, port: 25285, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _YouTube阿伟科技 141, server: clash2.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: ♥️YouTube梦歌♥️_48, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _YouTube阿伟科技 129, server: clash4.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _YouTube阿伟科技 140, server: clash3.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 14.29.124.168:25247, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CYL-科技（2022.03.20） 2, server: 14.29.124.168, port: 25207, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 45.66.157.212:10077, server: 45.66.157.212, port: 10077, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
+  - {name: _YouTube阿伟科技 133, server: 45.66.157.106, port: 33333, type: ssr, cipher: aes-256-cfb, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 【由零开始YouTube】, server: oz.moonfree.top, port: 443, type: vmess, uuid: 861e9cd0-cd1d-4f8c-b7d9-b47409dda333, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
+  - {name: CYL-科技（2022.03.20） 3, server: 14.29.124.168, port: 25213, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 14.29.124.168:25235, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: gz1.52168.xyz:1102, server: gz1.52168.xyz, port: 1102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: US 2, server: v4.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}, udp: true}
+  - {name: 217.30.10.64:9001, server: 217.30.10.64, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: 217.30.10.65:9015, server: 217.30.10.65, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: gz1.52168.xyz:1112, server: gz1.52168.xyz, port: 1112, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: _YouTube阿伟科技 3, server: 144.24.88.101, port: 16833, type: vmess, uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 14.29.124.168:25220, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 217.30.10.65:9007, server: 217.30.10.65, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: 213.183.51.172:9003, server: 213.183.51.172, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: 217.30.10.65:9060, server: 217.30.10.65, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: 213.183.51.172:9097, server: 213.183.51.172, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 节点池捡的垃圾_7
-      - 217.30.10.64:9038
-      - 217.30.10.64:9079
-      - 217.30.10.64:9097
-      - 217.30.10.64:9041
-      - 节点池捡的垃圾_4
-      - 节点池捡的垃圾_11
-      - 152.89.210.84:9046
-      - 节点池捡的垃圾_22
-      - 217.30.10.64:9094
-      - 152.89.210.84:9060
-      - 217.30.10.64:9003
-      - 217.30.10.64:9001
-      - 185.167.116.252:9014
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 2
-      - ♥️YouTube梦歌♥️_48
-      - 节点池捡的垃圾_32
-      - CYL-科技（2022.03.20） 3
+      - _YouTube阿伟科技 152
+      - +香港|梦歌CMI|解锁流媒体_39
+      - +香港|梦歌CMI|解锁流媒体_7
+      - +香港|梦歌CMI|解锁流媒体_18
+      - +香港|梦歌CMI|解锁流媒体_40
+      - +香港|梦歌CMI|解锁流媒体_10
+      - +香港|梦歌CMI|解锁流媒体_14
+      - +香港|梦歌CMI|解锁流媒体_19
+      - +香港|梦歌CMI|解锁流媒体_54
+      - +香港|梦歌CMI|解锁流媒体_43
+      - +香港|梦歌CMI|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_58
+      - +香港|梦歌CMI|解锁流媒体_51
+      - +香港|梦歌CMI|解锁流媒体_50
+      - +香港|梦歌CMI|解锁流媒体_17
+      - +香港|梦歌CMI|解锁流媒体_41
+      - +香港|梦歌CMI|解锁流媒体_53
+      - +香港|梦歌CMI|解锁流媒体_12
+      - +香港|梦歌CMI|解锁流媒体_48
+      - +香港|梦歌CMI|解锁流媒体_56
+      - +香港|梦歌CMI|解锁流媒体_6
+      - +香港|梦歌CMI|解锁流媒体_57
+      - +香港|梦歌CMI|解锁流媒体_22
+      - +香港|梦歌CMI|解锁流媒体_8
+      - +香港|梦歌CMI|解锁流媒体_49
+      - +新加坡|梦歌BGP|解锁流媒体_6
+      - +香港|梦歌CMI|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_27
+      - +香港|梦歌CMI|解锁流媒体_21
+      - +香港|梦歌CMI|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_18
+      - +台湾|梦歌GIA|解锁流媒体_2
+      - +日本|梦歌CN2|解锁流媒体_21
+      - _YouTube阿伟科技 10
+      - +日本|梦歌CN2|解锁流媒体_19
+      - +新加坡|梦歌BGP|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_9
+      - +日本|梦歌CN2|解锁流媒体_20
       - 节点池捡的垃圾_13
-      - 节点池捡的垃圾_34
+      - 联合国|YouTube梦歌|流媒体解锁_49
+      - +香港|梦歌CMI|解锁流媒体_24
+      - +新加坡|梦歌BGP|解锁流媒体_5
+      - +日本|梦歌CN2|解锁流媒体_8
+      - +日本|梦歌CN2|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_25
+      - +日本|梦歌CN2|解锁流媒体_1
+      - +香港|梦歌CMI|解锁流媒体_55
+      - +新加坡|梦歌BGP|解锁流媒体_1
+      - +日本|梦歌CN2|解锁流媒体_6
+      - +日本|梦歌CN2|解锁流媒体_7
+      - +台湾|梦歌GIA|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_4
+      - +日本|梦歌CN2|解锁流媒体_16
+      - +香港|梦歌CMI|解锁流媒体_47
+      - 联合国|YouTube梦歌|流媒体解锁_9
+      - +香港|梦歌CMI|解锁流媒体_44
+      - +香港|梦歌CMI|解锁流媒体_46
+      - +新加坡|梦歌BGP|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_52
+      - +台湾|梦歌GIA|解锁流媒体_5
+      - +日本|梦歌CN2|解锁流媒体_9
+      - +日本|梦歌CN2|解锁流媒体_10
+      - +新加坡|梦歌BGP|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_13
+      - +香港|梦歌CMI|解锁流媒体_23
+      - +日本|梦歌CN2|解锁流媒体_3
+      - +香港|梦歌CMI|解锁流媒体_42
+      - +香港|梦歌CMI|解锁流媒体_26
+      - +台湾|梦歌GIA|解锁流媒体_1
+      - +日本|梦歌CN2|解锁流媒体_13
+      - +香港|梦歌CMI|解锁流媒体_1
+      - +香港|梦歌CMI|解锁流媒体_16
+      - +香港|梦歌CMI|解锁流媒体_20
+      - +台湾|梦歌GIA|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_31
+      - +香港|梦歌CMI|解锁流媒体_15
+      - +日本|梦歌CN2|解锁流媒体_14
+      - +日本|梦歌CN2|解锁流媒体_17
+      - +香港|梦歌CMI|解锁流媒体_35
+      - +香港|梦歌CMI|解锁流媒体_30
+      - +日本|梦歌CN2|解锁流媒体_12
+      - github.com/freefq - 美国CloudFlare公司CDN节点 19
+      - +美国|梦歌IEPL|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_33
+      - +香港|梦歌CMI|解锁流媒体_37
+      - +香港|梦歌CMI|解锁流媒体_32
+      - +美国|梦歌IEPL|解锁流媒体_4
+      - +美国|梦歌IEPL|解锁流媒体_3
+      - _US_美国
+      - +香港|梦歌CMI|解锁流媒体_36
+      - 美国（TG@阿伟科技/油管） 25
+      - +日本|梦歌CN2|解锁流媒体_15
+      - 美国（TG@阿伟科技/油管） 24
+      - +香港|梦歌CMI|解锁流媒体_29
+      - +香港|梦歌CMI|解锁流媒体_34
+      - +日本|梦歌CN2|解锁流媒体_11
+      - _YouTube阿伟科技 12
+      - 213.183.51.172:9088
+      - _YouTube阿伟科技 131
+      - +香港|梦歌CMI|解锁流媒体_45
+      - _YouTube阿伟科技 11
+      - _US_美国 2
+      - 213.183.51.172:9024
+      - 英国（TG@阿伟科技/油管）
+      - "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub"
+      - 美国【由零开始YouTube】
+      - 213.183.51.172:9056
+      - 217.30.10.65:9041
+      - 217.30.10.65:9088
+      - 217.30.10.65:9097
+      - 185.167.117.171:9005
+      - +香港|梦歌CMI|解锁流媒体_28
+      - 217.30.10.66:9019
+      - 217.30.10.66:9014
+      - 217.30.10.66:9079
+      - 217.30.10.66:9000
+      - 217.30.10.66:9025
+      - 213.183.51.172:9031
+      - 213.183.51.171:9003
+      - 213.183.51.172:9079
+      - 213.183.51.172:9040
+      - 217.30.10.65:9000
+      - 217.30.10.66:9070
+      - 美国【由零开始YouTube】 2
+      - 217.30.10.65:9006
+      - _US_美国 3
+      - 217.30.10.66:9031
+      - 217.30.10.66:9015
+      - 217.30.10.66:9008
+      - 65.108.246.232:443
+      - 217.30.10.65:9064
+      - 213.183.51.171:9010
+      - 185.167.117.171:9050
+      - 217.30.10.66:9043
+      - 217.30.10.66:9041
+      - github.com/freefq - 美国CloudFlare节点 9
+      - 217.30.10.66:9094
+      - 217.30.10.65:9014
+      - 217.30.10.65:9073
+      - 217.30.10.65:9027
+      - +香港|梦歌CMI|解锁流媒体_38
+      - 217.30.10.65:9070
+      - 185.167.117.171:9003
+      - 185.167.116.253:9026
+      - +美国|梦歌IEPL|解锁流媒体_1
+      - 217.30.10.66:9045
       - 217.30.10.64:9020
-      - 美国-2.53MB/s(Youtube:不良林)
+      - 217.30.10.65:9026
+      - 217.30.10.66:9046
+      - 185.167.116.253:9003
+      - 217.30.10.66:9027
+      - 217.30.10.65:9025
+      - 185.167.116.253:9031
+      - 217.30.10.65:9037
+      - 217.30.10.64:9097
+      - 217.30.10.65:9005
+      - 217.30.10.65:9001
+      - 152.89.210.84:9000
+      - 美国【由零开始YouTube】 3
+      - 217.30.10.65:9040
+      - 185.167.116.252:9015
+      - 217.30.10.65:9053
+      - 185.167.116.253:9005
+      - 185.167.117.171:9060
+      - 185.167.116.253:9038
+      - 152.89.210.84:9027
+      - 217.30.10.66:9001
+      - 217.30.10.64:9003
+      - 217.30.10.64:9041
+      - 217.30.10.64:9038
+      - 217.30.10.66:9097
+      - 185.167.116.252:9027
+      - 217.30.10.65:9061
+      - 217.30.10.64:9094
+      - 217.30.10.66:9024
+      - 185.167.116.253:9001
+      - 217.30.10.66:9032
+      - gz2.52168.xyz:2101
+      - 213.183.51.171:9014
+      - 217.30.10.66:9040
+      - （欢迎订阅钱科技0416）_🇺🇸_US_美国_82
+      - 185.167.116.252:9014
+      - CN
+      - US
+      - 217.30.10.65:9050
+      - 185.167.116.253:9043
+      - 217.30.10.66:9037
+      - 185.167.116.253:9011
+      - 217.30.10.65:9098
+      - 217.30.10.66:9050
+      - 217.30.10.66:9038
+      - 185.167.116.253:9019
+      - 217.30.10.65:9038
+      - 217.30.10.66:9059
+      - _KR_韩国
+      - 217.30.10.65:9046
+      - +新加坡|梦歌BGP|解锁流媒体_7
+      - +美国|梦歌IEPL|解锁流媒体_2
+      - 217.30.10.65:9018
+      - 185.167.116.253:9060
+      - 152.89.210.84:9056
+      - 185.167.116.253:9080
+      - 185.167.116.253:9014
+      - 213.183.51.172:9038
+      - gz1.52168.xyz:1109
+      - 节点池捡的垃圾_7
+      - 185.167.116.253:9097
+      - 185.167.116.253:9079
+      - CYL-科技（2022.03.20）
+      - _YouTube阿伟科技 141
+      - ♥️YouTube梦歌♥️_48
+      - _YouTube阿伟科技 129
+      - _YouTube阿伟科技 140
+      - 14.29.124.168:25247
+      - CYL-科技（2022.03.20） 2
+      - 45.66.157.212:10077
+      - _YouTube阿伟科技 133
+      - 【由零开始YouTube】
+      - CYL-科技（2022.03.20） 3
+      - 14.29.124.168:25235
+      - gz1.52168.xyz:1102
+      - US 2
+      - 217.30.10.64:9001
+      - 217.30.10.65:9015
+      - gz1.52168.xyz:1112
+      - _YouTube阿伟科技 3
+      - 14.29.124.168:25220
+      - 217.30.10.65:9007
+      - 213.183.51.172:9003
+      - 217.30.10.65:9060
+      - 213.183.51.172:9097
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 节点池捡的垃圾_7
-      - 217.30.10.64:9038
-      - 217.30.10.64:9079
-      - 217.30.10.64:9097
-      - 217.30.10.64:9041
-      - 节点池捡的垃圾_4
-      - 节点池捡的垃圾_11
-      - 152.89.210.84:9046
-      - 节点池捡的垃圾_22
-      - 217.30.10.64:9094
-      - 152.89.210.84:9060
-      - 217.30.10.64:9003
-      - 217.30.10.64:9001
-      - 185.167.116.252:9014
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 2
-      - ♥️YouTube梦歌♥️_48
-      - 节点池捡的垃圾_32
-      - CYL-科技（2022.03.20） 3
+      - _YouTube阿伟科技 152
+      - +香港|梦歌CMI|解锁流媒体_39
+      - +香港|梦歌CMI|解锁流媒体_7
+      - +香港|梦歌CMI|解锁流媒体_18
+      - +香港|梦歌CMI|解锁流媒体_40
+      - +香港|梦歌CMI|解锁流媒体_10
+      - +香港|梦歌CMI|解锁流媒体_14
+      - +香港|梦歌CMI|解锁流媒体_19
+      - +香港|梦歌CMI|解锁流媒体_54
+      - +香港|梦歌CMI|解锁流媒体_43
+      - +香港|梦歌CMI|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_58
+      - +香港|梦歌CMI|解锁流媒体_51
+      - +香港|梦歌CMI|解锁流媒体_50
+      - +香港|梦歌CMI|解锁流媒体_17
+      - +香港|梦歌CMI|解锁流媒体_41
+      - +香港|梦歌CMI|解锁流媒体_53
+      - +香港|梦歌CMI|解锁流媒体_12
+      - +香港|梦歌CMI|解锁流媒体_48
+      - +香港|梦歌CMI|解锁流媒体_56
+      - +香港|梦歌CMI|解锁流媒体_6
+      - +香港|梦歌CMI|解锁流媒体_57
+      - +香港|梦歌CMI|解锁流媒体_22
+      - +香港|梦歌CMI|解锁流媒体_8
+      - +香港|梦歌CMI|解锁流媒体_49
+      - +新加坡|梦歌BGP|解锁流媒体_6
+      - +香港|梦歌CMI|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_27
+      - +香港|梦歌CMI|解锁流媒体_21
+      - +香港|梦歌CMI|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_18
+      - +台湾|梦歌GIA|解锁流媒体_2
+      - +日本|梦歌CN2|解锁流媒体_21
+      - _YouTube阿伟科技 10
+      - +日本|梦歌CN2|解锁流媒体_19
+      - +新加坡|梦歌BGP|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_9
+      - +日本|梦歌CN2|解锁流媒体_20
       - 节点池捡的垃圾_13
-      - 节点池捡的垃圾_34
+      - 联合国|YouTube梦歌|流媒体解锁_49
+      - +香港|梦歌CMI|解锁流媒体_24
+      - +新加坡|梦歌BGP|解锁流媒体_5
+      - +日本|梦歌CN2|解锁流媒体_8
+      - +日本|梦歌CN2|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_25
+      - +日本|梦歌CN2|解锁流媒体_1
+      - +香港|梦歌CMI|解锁流媒体_55
+      - +新加坡|梦歌BGP|解锁流媒体_1
+      - +日本|梦歌CN2|解锁流媒体_6
+      - +日本|梦歌CN2|解锁流媒体_7
+      - +台湾|梦歌GIA|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_4
+      - +日本|梦歌CN2|解锁流媒体_16
+      - +香港|梦歌CMI|解锁流媒体_47
+      - 联合国|YouTube梦歌|流媒体解锁_9
+      - +香港|梦歌CMI|解锁流媒体_44
+      - +香港|梦歌CMI|解锁流媒体_46
+      - +新加坡|梦歌BGP|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_52
+      - +台湾|梦歌GIA|解锁流媒体_5
+      - +日本|梦歌CN2|解锁流媒体_9
+      - +日本|梦歌CN2|解锁流媒体_10
+      - +新加坡|梦歌BGP|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_13
+      - +香港|梦歌CMI|解锁流媒体_23
+      - +日本|梦歌CN2|解锁流媒体_3
+      - +香港|梦歌CMI|解锁流媒体_42
+      - +香港|梦歌CMI|解锁流媒体_26
+      - +台湾|梦歌GIA|解锁流媒体_1
+      - +日本|梦歌CN2|解锁流媒体_13
+      - +香港|梦歌CMI|解锁流媒体_1
+      - +香港|梦歌CMI|解锁流媒体_16
+      - +香港|梦歌CMI|解锁流媒体_20
+      - +台湾|梦歌GIA|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_31
+      - +香港|梦歌CMI|解锁流媒体_15
+      - +日本|梦歌CN2|解锁流媒体_14
+      - +日本|梦歌CN2|解锁流媒体_17
+      - +香港|梦歌CMI|解锁流媒体_35
+      - +香港|梦歌CMI|解锁流媒体_30
+      - +日本|梦歌CN2|解锁流媒体_12
+      - github.com/freefq - 美国CloudFlare公司CDN节点 19
+      - +美国|梦歌IEPL|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_33
+      - +香港|梦歌CMI|解锁流媒体_37
+      - +香港|梦歌CMI|解锁流媒体_32
+      - +美国|梦歌IEPL|解锁流媒体_4
+      - +美国|梦歌IEPL|解锁流媒体_3
+      - _US_美国
+      - +香港|梦歌CMI|解锁流媒体_36
+      - 美国（TG@阿伟科技/油管） 25
+      - +日本|梦歌CN2|解锁流媒体_15
+      - 美国（TG@阿伟科技/油管） 24
+      - +香港|梦歌CMI|解锁流媒体_29
+      - +香港|梦歌CMI|解锁流媒体_34
+      - +日本|梦歌CN2|解锁流媒体_11
+      - _YouTube阿伟科技 12
+      - 213.183.51.172:9088
+      - _YouTube阿伟科技 131
+      - +香港|梦歌CMI|解锁流媒体_45
+      - _YouTube阿伟科技 11
+      - _US_美国 2
+      - 213.183.51.172:9024
+      - 英国（TG@阿伟科技/油管）
+      - "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub"
+      - 美国【由零开始YouTube】
+      - 213.183.51.172:9056
+      - 217.30.10.65:9041
+      - 217.30.10.65:9088
+      - 217.30.10.65:9097
+      - 185.167.117.171:9005
+      - +香港|梦歌CMI|解锁流媒体_28
+      - 217.30.10.66:9019
+      - 217.30.10.66:9014
+      - 217.30.10.66:9079
+      - 217.30.10.66:9000
+      - 217.30.10.66:9025
+      - 213.183.51.172:9031
+      - 213.183.51.171:9003
+      - 213.183.51.172:9079
+      - 213.183.51.172:9040
+      - 217.30.10.65:9000
+      - 217.30.10.66:9070
+      - 美国【由零开始YouTube】 2
+      - 217.30.10.65:9006
+      - _US_美国 3
+      - 217.30.10.66:9031
+      - 217.30.10.66:9015
+      - 217.30.10.66:9008
+      - 65.108.246.232:443
+      - 217.30.10.65:9064
+      - 213.183.51.171:9010
+      - 185.167.117.171:9050
+      - 217.30.10.66:9043
+      - 217.30.10.66:9041
+      - github.com/freefq - 美国CloudFlare节点 9
+      - 217.30.10.66:9094
+      - 217.30.10.65:9014
+      - 217.30.10.65:9073
+      - 217.30.10.65:9027
+      - +香港|梦歌CMI|解锁流媒体_38
+      - 217.30.10.65:9070
+      - 185.167.117.171:9003
+      - 185.167.116.253:9026
+      - +美国|梦歌IEPL|解锁流媒体_1
+      - 217.30.10.66:9045
       - 217.30.10.64:9020
-      - 美国-2.53MB/s(Youtube:不良林)
+      - 217.30.10.65:9026
+      - 217.30.10.66:9046
+      - 185.167.116.253:9003
+      - 217.30.10.66:9027
+      - 217.30.10.65:9025
+      - 185.167.116.253:9031
+      - 217.30.10.65:9037
+      - 217.30.10.64:9097
+      - 217.30.10.65:9005
+      - 217.30.10.65:9001
+      - 152.89.210.84:9000
+      - 美国【由零开始YouTube】 3
+      - 217.30.10.65:9040
+      - 185.167.116.252:9015
+      - 217.30.10.65:9053
+      - 185.167.116.253:9005
+      - 185.167.117.171:9060
+      - 185.167.116.253:9038
+      - 152.89.210.84:9027
+      - 217.30.10.66:9001
+      - 217.30.10.64:9003
+      - 217.30.10.64:9041
+      - 217.30.10.64:9038
+      - 217.30.10.66:9097
+      - 185.167.116.252:9027
+      - 217.30.10.65:9061
+      - 217.30.10.64:9094
+      - 217.30.10.66:9024
+      - 185.167.116.253:9001
+      - 217.30.10.66:9032
+      - gz2.52168.xyz:2101
+      - 213.183.51.171:9014
+      - 217.30.10.66:9040
+      - （欢迎订阅钱科技0416）_🇺🇸_US_美国_82
+      - 185.167.116.252:9014
+      - CN
+      - US
+      - 217.30.10.65:9050
+      - 185.167.116.253:9043
+      - 217.30.10.66:9037
+      - 185.167.116.253:9011
+      - 217.30.10.65:9098
+      - 217.30.10.66:9050
+      - 217.30.10.66:9038
+      - 185.167.116.253:9019
+      - 217.30.10.65:9038
+      - 217.30.10.66:9059
+      - _KR_韩国
+      - 217.30.10.65:9046
+      - +新加坡|梦歌BGP|解锁流媒体_7
+      - +美国|梦歌IEPL|解锁流媒体_2
+      - 217.30.10.65:9018
+      - 185.167.116.253:9060
+      - 152.89.210.84:9056
+      - 185.167.116.253:9080
+      - 185.167.116.253:9014
+      - 213.183.51.172:9038
+      - gz1.52168.xyz:1109
+      - 节点池捡的垃圾_7
+      - 185.167.116.253:9097
+      - 185.167.116.253:9079
+      - CYL-科技（2022.03.20）
+      - _YouTube阿伟科技 141
+      - ♥️YouTube梦歌♥️_48
+      - _YouTube阿伟科技 129
+      - _YouTube阿伟科技 140
+      - 14.29.124.168:25247
+      - CYL-科技（2022.03.20） 2
+      - 45.66.157.212:10077
+      - _YouTube阿伟科技 133
+      - 【由零开始YouTube】
+      - CYL-科技（2022.03.20） 3
+      - 14.29.124.168:25235
+      - gz1.52168.xyz:1102
+      - US 2
+      - 217.30.10.64:9001
+      - 217.30.10.65:9015
+      - gz1.52168.xyz:1112
+      - _YouTube阿伟科技 3
+      - 14.29.124.168:25220
+      - 217.30.10.65:9007
+      - 213.183.51.172:9003
+      - 217.30.10.65:9060
+      - 213.183.51.172:9097
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 节点池捡的垃圾_7
-      - 217.30.10.64:9038
-      - 217.30.10.64:9079
-      - 217.30.10.64:9097
-      - 217.30.10.64:9041
-      - 节点池捡的垃圾_4
-      - 节点池捡的垃圾_11
-      - 152.89.210.84:9046
-      - 节点池捡的垃圾_22
-      - 217.30.10.64:9094
-      - 152.89.210.84:9060
-      - 217.30.10.64:9003
-      - 217.30.10.64:9001
-      - 185.167.116.252:9014
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 2
-      - ♥️YouTube梦歌♥️_48
-      - 节点池捡的垃圾_32
-      - CYL-科技（2022.03.20） 3
+      - _YouTube阿伟科技 152
+      - +香港|梦歌CMI|解锁流媒体_39
+      - +香港|梦歌CMI|解锁流媒体_7
+      - +香港|梦歌CMI|解锁流媒体_18
+      - +香港|梦歌CMI|解锁流媒体_40
+      - +香港|梦歌CMI|解锁流媒体_10
+      - +香港|梦歌CMI|解锁流媒体_14
+      - +香港|梦歌CMI|解锁流媒体_19
+      - +香港|梦歌CMI|解锁流媒体_54
+      - +香港|梦歌CMI|解锁流媒体_43
+      - +香港|梦歌CMI|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_58
+      - +香港|梦歌CMI|解锁流媒体_51
+      - +香港|梦歌CMI|解锁流媒体_50
+      - +香港|梦歌CMI|解锁流媒体_17
+      - +香港|梦歌CMI|解锁流媒体_41
+      - +香港|梦歌CMI|解锁流媒体_53
+      - +香港|梦歌CMI|解锁流媒体_12
+      - +香港|梦歌CMI|解锁流媒体_48
+      - +香港|梦歌CMI|解锁流媒体_56
+      - +香港|梦歌CMI|解锁流媒体_6
+      - +香港|梦歌CMI|解锁流媒体_57
+      - +香港|梦歌CMI|解锁流媒体_22
+      - +香港|梦歌CMI|解锁流媒体_8
+      - +香港|梦歌CMI|解锁流媒体_49
+      - +新加坡|梦歌BGP|解锁流媒体_6
+      - +香港|梦歌CMI|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_27
+      - +香港|梦歌CMI|解锁流媒体_21
+      - +香港|梦歌CMI|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_18
+      - +台湾|梦歌GIA|解锁流媒体_2
+      - +日本|梦歌CN2|解锁流媒体_21
+      - _YouTube阿伟科技 10
+      - +日本|梦歌CN2|解锁流媒体_19
+      - +新加坡|梦歌BGP|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_9
+      - +日本|梦歌CN2|解锁流媒体_20
       - 节点池捡的垃圾_13
-      - 节点池捡的垃圾_34
+      - 联合国|YouTube梦歌|流媒体解锁_49
+      - +香港|梦歌CMI|解锁流媒体_24
+      - +新加坡|梦歌BGP|解锁流媒体_5
+      - +日本|梦歌CN2|解锁流媒体_8
+      - +日本|梦歌CN2|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_25
+      - +日本|梦歌CN2|解锁流媒体_1
+      - +香港|梦歌CMI|解锁流媒体_55
+      - +新加坡|梦歌BGP|解锁流媒体_1
+      - +日本|梦歌CN2|解锁流媒体_6
+      - +日本|梦歌CN2|解锁流媒体_7
+      - +台湾|梦歌GIA|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_4
+      - +日本|梦歌CN2|解锁流媒体_16
+      - +香港|梦歌CMI|解锁流媒体_47
+      - 联合国|YouTube梦歌|流媒体解锁_9
+      - +香港|梦歌CMI|解锁流媒体_44
+      - +香港|梦歌CMI|解锁流媒体_46
+      - +新加坡|梦歌BGP|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_52
+      - +台湾|梦歌GIA|解锁流媒体_5
+      - +日本|梦歌CN2|解锁流媒体_9
+      - +日本|梦歌CN2|解锁流媒体_10
+      - +新加坡|梦歌BGP|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_13
+      - +香港|梦歌CMI|解锁流媒体_23
+      - +日本|梦歌CN2|解锁流媒体_3
+      - +香港|梦歌CMI|解锁流媒体_42
+      - +香港|梦歌CMI|解锁流媒体_26
+      - +台湾|梦歌GIA|解锁流媒体_1
+      - +日本|梦歌CN2|解锁流媒体_13
+      - +香港|梦歌CMI|解锁流媒体_1
+      - +香港|梦歌CMI|解锁流媒体_16
+      - +香港|梦歌CMI|解锁流媒体_20
+      - +台湾|梦歌GIA|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_31
+      - +香港|梦歌CMI|解锁流媒体_15
+      - +日本|梦歌CN2|解锁流媒体_14
+      - +日本|梦歌CN2|解锁流媒体_17
+      - +香港|梦歌CMI|解锁流媒体_35
+      - +香港|梦歌CMI|解锁流媒体_30
+      - +日本|梦歌CN2|解锁流媒体_12
+      - github.com/freefq - 美国CloudFlare公司CDN节点 19
+      - +美国|梦歌IEPL|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_33
+      - +香港|梦歌CMI|解锁流媒体_37
+      - +香港|梦歌CMI|解锁流媒体_32
+      - +美国|梦歌IEPL|解锁流媒体_4
+      - +美国|梦歌IEPL|解锁流媒体_3
+      - _US_美国
+      - +香港|梦歌CMI|解锁流媒体_36
+      - 美国（TG@阿伟科技/油管） 25
+      - +日本|梦歌CN2|解锁流媒体_15
+      - 美国（TG@阿伟科技/油管） 24
+      - +香港|梦歌CMI|解锁流媒体_29
+      - +香港|梦歌CMI|解锁流媒体_34
+      - +日本|梦歌CN2|解锁流媒体_11
+      - _YouTube阿伟科技 12
+      - 213.183.51.172:9088
+      - _YouTube阿伟科技 131
+      - +香港|梦歌CMI|解锁流媒体_45
+      - _YouTube阿伟科技 11
+      - _US_美国 2
+      - 213.183.51.172:9024
+      - 英国（TG@阿伟科技/油管）
+      - "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub"
+      - 美国【由零开始YouTube】
+      - 213.183.51.172:9056
+      - 217.30.10.65:9041
+      - 217.30.10.65:9088
+      - 217.30.10.65:9097
+      - 185.167.117.171:9005
+      - +香港|梦歌CMI|解锁流媒体_28
+      - 217.30.10.66:9019
+      - 217.30.10.66:9014
+      - 217.30.10.66:9079
+      - 217.30.10.66:9000
+      - 217.30.10.66:9025
+      - 213.183.51.172:9031
+      - 213.183.51.171:9003
+      - 213.183.51.172:9079
+      - 213.183.51.172:9040
+      - 217.30.10.65:9000
+      - 217.30.10.66:9070
+      - 美国【由零开始YouTube】 2
+      - 217.30.10.65:9006
+      - _US_美国 3
+      - 217.30.10.66:9031
+      - 217.30.10.66:9015
+      - 217.30.10.66:9008
+      - 65.108.246.232:443
+      - 217.30.10.65:9064
+      - 213.183.51.171:9010
+      - 185.167.117.171:9050
+      - 217.30.10.66:9043
+      - 217.30.10.66:9041
+      - github.com/freefq - 美国CloudFlare节点 9
+      - 217.30.10.66:9094
+      - 217.30.10.65:9014
+      - 217.30.10.65:9073
+      - 217.30.10.65:9027
+      - +香港|梦歌CMI|解锁流媒体_38
+      - 217.30.10.65:9070
+      - 185.167.117.171:9003
+      - 185.167.116.253:9026
+      - +美国|梦歌IEPL|解锁流媒体_1
+      - 217.30.10.66:9045
       - 217.30.10.64:9020
-      - 美国-2.53MB/s(Youtube:不良林)
+      - 217.30.10.65:9026
+      - 217.30.10.66:9046
+      - 185.167.116.253:9003
+      - 217.30.10.66:9027
+      - 217.30.10.65:9025
+      - 185.167.116.253:9031
+      - 217.30.10.65:9037
+      - 217.30.10.64:9097
+      - 217.30.10.65:9005
+      - 217.30.10.65:9001
+      - 152.89.210.84:9000
+      - 美国【由零开始YouTube】 3
+      - 217.30.10.65:9040
+      - 185.167.116.252:9015
+      - 217.30.10.65:9053
+      - 185.167.116.253:9005
+      - 185.167.117.171:9060
+      - 185.167.116.253:9038
+      - 152.89.210.84:9027
+      - 217.30.10.66:9001
+      - 217.30.10.64:9003
+      - 217.30.10.64:9041
+      - 217.30.10.64:9038
+      - 217.30.10.66:9097
+      - 185.167.116.252:9027
+      - 217.30.10.65:9061
+      - 217.30.10.64:9094
+      - 217.30.10.66:9024
+      - 185.167.116.253:9001
+      - 217.30.10.66:9032
+      - gz2.52168.xyz:2101
+      - 213.183.51.171:9014
+      - 217.30.10.66:9040
+      - （欢迎订阅钱科技0416）_🇺🇸_US_美国_82
+      - 185.167.116.252:9014
+      - CN
+      - US
+      - 217.30.10.65:9050
+      - 185.167.116.253:9043
+      - 217.30.10.66:9037
+      - 185.167.116.253:9011
+      - 217.30.10.65:9098
+      - 217.30.10.66:9050
+      - 217.30.10.66:9038
+      - 185.167.116.253:9019
+      - 217.30.10.65:9038
+      - 217.30.10.66:9059
+      - _KR_韩国
+      - 217.30.10.65:9046
+      - +新加坡|梦歌BGP|解锁流媒体_7
+      - +美国|梦歌IEPL|解锁流媒体_2
+      - 217.30.10.65:9018
+      - 185.167.116.253:9060
+      - 152.89.210.84:9056
+      - 185.167.116.253:9080
+      - 185.167.116.253:9014
+      - 213.183.51.172:9038
+      - gz1.52168.xyz:1109
+      - 节点池捡的垃圾_7
+      - 185.167.116.253:9097
+      - 185.167.116.253:9079
+      - CYL-科技（2022.03.20）
+      - _YouTube阿伟科技 141
+      - ♥️YouTube梦歌♥️_48
+      - _YouTube阿伟科技 129
+      - _YouTube阿伟科技 140
+      - 14.29.124.168:25247
+      - CYL-科技（2022.03.20） 2
+      - 45.66.157.212:10077
+      - _YouTube阿伟科技 133
+      - 【由零开始YouTube】
+      - CYL-科技（2022.03.20） 3
+      - 14.29.124.168:25235
+      - gz1.52168.xyz:1102
+      - US 2
+      - 217.30.10.64:9001
+      - 217.30.10.65:9015
+      - gz1.52168.xyz:1112
+      - _YouTube阿伟科技 3
+      - 14.29.124.168:25220
+      - 217.30.10.65:9007
+      - 213.183.51.172:9003
+      - 217.30.10.65:9060
+      - 213.183.51.172:9097
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -132,119 +972,1021 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 节点池捡的垃圾_7
-      - 217.30.10.64:9038
-      - 217.30.10.64:9079
-      - 217.30.10.64:9097
-      - 217.30.10.64:9041
-      - 节点池捡的垃圾_4
-      - 节点池捡的垃圾_11
-      - 152.89.210.84:9046
-      - 节点池捡的垃圾_22
-      - 217.30.10.64:9094
-      - 152.89.210.84:9060
-      - 217.30.10.64:9003
-      - 217.30.10.64:9001
-      - 185.167.116.252:9014
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 2
-      - ♥️YouTube梦歌♥️_48
-      - 节点池捡的垃圾_32
-      - CYL-科技（2022.03.20） 3
+      - _YouTube阿伟科技 152
+      - +香港|梦歌CMI|解锁流媒体_39
+      - +香港|梦歌CMI|解锁流媒体_7
+      - +香港|梦歌CMI|解锁流媒体_18
+      - +香港|梦歌CMI|解锁流媒体_40
+      - +香港|梦歌CMI|解锁流媒体_10
+      - +香港|梦歌CMI|解锁流媒体_14
+      - +香港|梦歌CMI|解锁流媒体_19
+      - +香港|梦歌CMI|解锁流媒体_54
+      - +香港|梦歌CMI|解锁流媒体_43
+      - +香港|梦歌CMI|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_58
+      - +香港|梦歌CMI|解锁流媒体_51
+      - +香港|梦歌CMI|解锁流媒体_50
+      - +香港|梦歌CMI|解锁流媒体_17
+      - +香港|梦歌CMI|解锁流媒体_41
+      - +香港|梦歌CMI|解锁流媒体_53
+      - +香港|梦歌CMI|解锁流媒体_12
+      - +香港|梦歌CMI|解锁流媒体_48
+      - +香港|梦歌CMI|解锁流媒体_56
+      - +香港|梦歌CMI|解锁流媒体_6
+      - +香港|梦歌CMI|解锁流媒体_57
+      - +香港|梦歌CMI|解锁流媒体_22
+      - +香港|梦歌CMI|解锁流媒体_8
+      - +香港|梦歌CMI|解锁流媒体_49
+      - +新加坡|梦歌BGP|解锁流媒体_6
+      - +香港|梦歌CMI|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_27
+      - +香港|梦歌CMI|解锁流媒体_21
+      - +香港|梦歌CMI|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_18
+      - +台湾|梦歌GIA|解锁流媒体_2
+      - +日本|梦歌CN2|解锁流媒体_21
+      - _YouTube阿伟科技 10
+      - +日本|梦歌CN2|解锁流媒体_19
+      - +新加坡|梦歌BGP|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_9
+      - +日本|梦歌CN2|解锁流媒体_20
       - 节点池捡的垃圾_13
-      - 节点池捡的垃圾_34
+      - 联合国|YouTube梦歌|流媒体解锁_49
+      - +香港|梦歌CMI|解锁流媒体_24
+      - +新加坡|梦歌BGP|解锁流媒体_5
+      - +日本|梦歌CN2|解锁流媒体_8
+      - +日本|梦歌CN2|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_25
+      - +日本|梦歌CN2|解锁流媒体_1
+      - +香港|梦歌CMI|解锁流媒体_55
+      - +新加坡|梦歌BGP|解锁流媒体_1
+      - +日本|梦歌CN2|解锁流媒体_6
+      - +日本|梦歌CN2|解锁流媒体_7
+      - +台湾|梦歌GIA|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_4
+      - +日本|梦歌CN2|解锁流媒体_16
+      - +香港|梦歌CMI|解锁流媒体_47
+      - 联合国|YouTube梦歌|流媒体解锁_9
+      - +香港|梦歌CMI|解锁流媒体_44
+      - +香港|梦歌CMI|解锁流媒体_46
+      - +新加坡|梦歌BGP|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_52
+      - +台湾|梦歌GIA|解锁流媒体_5
+      - +日本|梦歌CN2|解锁流媒体_9
+      - +日本|梦歌CN2|解锁流媒体_10
+      - +新加坡|梦歌BGP|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_13
+      - +香港|梦歌CMI|解锁流媒体_23
+      - +日本|梦歌CN2|解锁流媒体_3
+      - +香港|梦歌CMI|解锁流媒体_42
+      - +香港|梦歌CMI|解锁流媒体_26
+      - +台湾|梦歌GIA|解锁流媒体_1
+      - +日本|梦歌CN2|解锁流媒体_13
+      - +香港|梦歌CMI|解锁流媒体_1
+      - +香港|梦歌CMI|解锁流媒体_16
+      - +香港|梦歌CMI|解锁流媒体_20
+      - +台湾|梦歌GIA|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_31
+      - +香港|梦歌CMI|解锁流媒体_15
+      - +日本|梦歌CN2|解锁流媒体_14
+      - +日本|梦歌CN2|解锁流媒体_17
+      - +香港|梦歌CMI|解锁流媒体_35
+      - +香港|梦歌CMI|解锁流媒体_30
+      - +日本|梦歌CN2|解锁流媒体_12
+      - github.com/freefq - 美国CloudFlare公司CDN节点 19
+      - +美国|梦歌IEPL|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_33
+      - +香港|梦歌CMI|解锁流媒体_37
+      - +香港|梦歌CMI|解锁流媒体_32
+      - +美国|梦歌IEPL|解锁流媒体_4
+      - +美国|梦歌IEPL|解锁流媒体_3
+      - _US_美国
+      - +香港|梦歌CMI|解锁流媒体_36
+      - 美国（TG@阿伟科技/油管） 25
+      - +日本|梦歌CN2|解锁流媒体_15
+      - 美国（TG@阿伟科技/油管） 24
+      - +香港|梦歌CMI|解锁流媒体_29
+      - +香港|梦歌CMI|解锁流媒体_34
+      - +日本|梦歌CN2|解锁流媒体_11
+      - _YouTube阿伟科技 12
+      - 213.183.51.172:9088
+      - _YouTube阿伟科技 131
+      - +香港|梦歌CMI|解锁流媒体_45
+      - _YouTube阿伟科技 11
+      - _US_美国 2
+      - 213.183.51.172:9024
+      - 英国（TG@阿伟科技/油管）
+      - "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub"
+      - 美国【由零开始YouTube】
+      - 213.183.51.172:9056
+      - 217.30.10.65:9041
+      - 217.30.10.65:9088
+      - 217.30.10.65:9097
+      - 185.167.117.171:9005
+      - +香港|梦歌CMI|解锁流媒体_28
+      - 217.30.10.66:9019
+      - 217.30.10.66:9014
+      - 217.30.10.66:9079
+      - 217.30.10.66:9000
+      - 217.30.10.66:9025
+      - 213.183.51.172:9031
+      - 213.183.51.171:9003
+      - 213.183.51.172:9079
+      - 213.183.51.172:9040
+      - 217.30.10.65:9000
+      - 217.30.10.66:9070
+      - 美国【由零开始YouTube】 2
+      - 217.30.10.65:9006
+      - _US_美国 3
+      - 217.30.10.66:9031
+      - 217.30.10.66:9015
+      - 217.30.10.66:9008
+      - 65.108.246.232:443
+      - 217.30.10.65:9064
+      - 213.183.51.171:9010
+      - 185.167.117.171:9050
+      - 217.30.10.66:9043
+      - 217.30.10.66:9041
+      - github.com/freefq - 美国CloudFlare节点 9
+      - 217.30.10.66:9094
+      - 217.30.10.65:9014
+      - 217.30.10.65:9073
+      - 217.30.10.65:9027
+      - +香港|梦歌CMI|解锁流媒体_38
+      - 217.30.10.65:9070
+      - 185.167.117.171:9003
+      - 185.167.116.253:9026
+      - +美国|梦歌IEPL|解锁流媒体_1
+      - 217.30.10.66:9045
       - 217.30.10.64:9020
-      - 美国-2.53MB/s(Youtube:不良林)
+      - 217.30.10.65:9026
+      - 217.30.10.66:9046
+      - 185.167.116.253:9003
+      - 217.30.10.66:9027
+      - 217.30.10.65:9025
+      - 185.167.116.253:9031
+      - 217.30.10.65:9037
+      - 217.30.10.64:9097
+      - 217.30.10.65:9005
+      - 217.30.10.65:9001
+      - 152.89.210.84:9000
+      - 美国【由零开始YouTube】 3
+      - 217.30.10.65:9040
+      - 185.167.116.252:9015
+      - 217.30.10.65:9053
+      - 185.167.116.253:9005
+      - 185.167.117.171:9060
+      - 185.167.116.253:9038
+      - 152.89.210.84:9027
+      - 217.30.10.66:9001
+      - 217.30.10.64:9003
+      - 217.30.10.64:9041
+      - 217.30.10.64:9038
+      - 217.30.10.66:9097
+      - 185.167.116.252:9027
+      - 217.30.10.65:9061
+      - 217.30.10.64:9094
+      - 217.30.10.66:9024
+      - 185.167.116.253:9001
+      - 217.30.10.66:9032
+      - gz2.52168.xyz:2101
+      - 213.183.51.171:9014
+      - 217.30.10.66:9040
+      - （欢迎订阅钱科技0416）_🇺🇸_US_美国_82
+      - 185.167.116.252:9014
+      - CN
+      - US
+      - 217.30.10.65:9050
+      - 185.167.116.253:9043
+      - 217.30.10.66:9037
+      - 185.167.116.253:9011
+      - 217.30.10.65:9098
+      - 217.30.10.66:9050
+      - 217.30.10.66:9038
+      - 185.167.116.253:9019
+      - 217.30.10.65:9038
+      - 217.30.10.66:9059
+      - _KR_韩国
+      - 217.30.10.65:9046
+      - +新加坡|梦歌BGP|解锁流媒体_7
+      - +美国|梦歌IEPL|解锁流媒体_2
+      - 217.30.10.65:9018
+      - 185.167.116.253:9060
+      - 152.89.210.84:9056
+      - 185.167.116.253:9080
+      - 185.167.116.253:9014
+      - 213.183.51.172:9038
+      - gz1.52168.xyz:1109
+      - 节点池捡的垃圾_7
+      - 185.167.116.253:9097
+      - 185.167.116.253:9079
+      - CYL-科技（2022.03.20）
+      - _YouTube阿伟科技 141
+      - ♥️YouTube梦歌♥️_48
+      - _YouTube阿伟科技 129
+      - _YouTube阿伟科技 140
+      - 14.29.124.168:25247
+      - CYL-科技（2022.03.20） 2
+      - 45.66.157.212:10077
+      - _YouTube阿伟科技 133
+      - 【由零开始YouTube】
+      - CYL-科技（2022.03.20） 3
+      - 14.29.124.168:25235
+      - gz1.52168.xyz:1102
+      - US 2
+      - 217.30.10.64:9001
+      - 217.30.10.65:9015
+      - gz1.52168.xyz:1112
+      - _YouTube阿伟科技 3
+      - 14.29.124.168:25220
+      - 217.30.10.65:9007
+      - 213.183.51.172:9003
+      - 217.30.10.65:9060
+      - 213.183.51.172:9097
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - +香港|梦歌CMI|解锁流媒体_39
+      - +香港|梦歌CMI|解锁流媒体_7
+      - +香港|梦歌CMI|解锁流媒体_18
+      - +香港|梦歌CMI|解锁流媒体_40
+      - +香港|梦歌CMI|解锁流媒体_10
+      - +香港|梦歌CMI|解锁流媒体_14
+      - +香港|梦歌CMI|解锁流媒体_19
+      - +香港|梦歌CMI|解锁流媒体_54
+      - +香港|梦歌CMI|解锁流媒体_43
+      - +香港|梦歌CMI|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_58
+      - +香港|梦歌CMI|解锁流媒体_51
+      - +香港|梦歌CMI|解锁流媒体_50
+      - +香港|梦歌CMI|解锁流媒体_17
+      - +香港|梦歌CMI|解锁流媒体_41
+      - +香港|梦歌CMI|解锁流媒体_53
+      - +香港|梦歌CMI|解锁流媒体_12
+      - +香港|梦歌CMI|解锁流媒体_48
+      - +香港|梦歌CMI|解锁流媒体_56
+      - +香港|梦歌CMI|解锁流媒体_6
+      - +香港|梦歌CMI|解锁流媒体_57
+      - +香港|梦歌CMI|解锁流媒体_22
+      - +香港|梦歌CMI|解锁流媒体_8
+      - +香港|梦歌CMI|解锁流媒体_49
+      - +香港|梦歌CMI|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_27
+      - +香港|梦歌CMI|解锁流媒体_21
+      - +香港|梦歌CMI|解锁流媒体_3
+      - +台湾|梦歌GIA|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_9
+      - +香港|梦歌CMI|解锁流媒体_24
+      - +香港|梦歌CMI|解锁流媒体_25
+      - +香港|梦歌CMI|解锁流媒体_55
+      - +台湾|梦歌GIA|解锁流媒体_3
+      - +香港|梦歌CMI|解锁流媒体_47
+      - +香港|梦歌CMI|解锁流媒体_44
+      - +香港|梦歌CMI|解锁流媒体_46
+      - +香港|梦歌CMI|解锁流媒体_52
+      - +台湾|梦歌GIA|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_13
+      - +香港|梦歌CMI|解锁流媒体_23
+      - +香港|梦歌CMI|解锁流媒体_42
+      - +香港|梦歌CMI|解锁流媒体_26
+      - +台湾|梦歌GIA|解锁流媒体_1
+      - +香港|梦歌CMI|解锁流媒体_1
+      - +香港|梦歌CMI|解锁流媒体_16
+      - +香港|梦歌CMI|解锁流媒体_20
+      - +台湾|梦歌GIA|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_31
+      - +香港|梦歌CMI|解锁流媒体_15
+      - +香港|梦歌CMI|解锁流媒体_35
+      - +香港|梦歌CMI|解锁流媒体_30
+      - +香港|梦歌CMI|解锁流媒体_33
+      - +香港|梦歌CMI|解锁流媒体_37
+      - +香港|梦歌CMI|解锁流媒体_32
+      - +香港|梦歌CMI|解锁流媒体_36
+      - +香港|梦歌CMI|解锁流媒体_29
+      - +香港|梦歌CMI|解锁流媒体_34
+      - +香港|梦歌CMI|解锁流媒体_45
+      - +香港|梦歌CMI|解锁流媒体_28
+      - +香港|梦歌CMI|解锁流媒体_38
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 节点池捡的垃圾_7
-      - 217.30.10.64:9038
-      - 217.30.10.64:9079
-      - 217.30.10.64:9097
-      - 217.30.10.64:9041
-      - 节点池捡的垃圾_4
-      - 节点池捡的垃圾_11
-      - 152.89.210.84:9046
-      - 节点池捡的垃圾_22
-      - 217.30.10.64:9094
-      - 152.89.210.84:9060
-      - 217.30.10.64:9003
-      - 217.30.10.64:9001
-      - 185.167.116.252:9014
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 2
-      - ♥️YouTube梦歌♥️_48
-      - 节点池捡的垃圾_32
-      - CYL-科技（2022.03.20） 3
+      - _YouTube阿伟科技 152
+      - +香港|梦歌CMI|解锁流媒体_39
+      - +香港|梦歌CMI|解锁流媒体_7
+      - +香港|梦歌CMI|解锁流媒体_18
+      - +香港|梦歌CMI|解锁流媒体_40
+      - +香港|梦歌CMI|解锁流媒体_10
+      - +香港|梦歌CMI|解锁流媒体_14
+      - +香港|梦歌CMI|解锁流媒体_19
+      - +香港|梦歌CMI|解锁流媒体_54
+      - +香港|梦歌CMI|解锁流媒体_43
+      - +香港|梦歌CMI|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_58
+      - +香港|梦歌CMI|解锁流媒体_51
+      - +香港|梦歌CMI|解锁流媒体_50
+      - +香港|梦歌CMI|解锁流媒体_17
+      - +香港|梦歌CMI|解锁流媒体_41
+      - +香港|梦歌CMI|解锁流媒体_53
+      - +香港|梦歌CMI|解锁流媒体_12
+      - +香港|梦歌CMI|解锁流媒体_48
+      - +香港|梦歌CMI|解锁流媒体_56
+      - +香港|梦歌CMI|解锁流媒体_6
+      - +香港|梦歌CMI|解锁流媒体_57
+      - +香港|梦歌CMI|解锁流媒体_22
+      - +香港|梦歌CMI|解锁流媒体_8
+      - +香港|梦歌CMI|解锁流媒体_49
+      - +新加坡|梦歌BGP|解锁流媒体_6
+      - +香港|梦歌CMI|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_27
+      - +香港|梦歌CMI|解锁流媒体_21
+      - +香港|梦歌CMI|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_18
+      - +台湾|梦歌GIA|解锁流媒体_2
+      - +日本|梦歌CN2|解锁流媒体_21
+      - _YouTube阿伟科技 10
+      - +日本|梦歌CN2|解锁流媒体_19
+      - +新加坡|梦歌BGP|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_9
+      - +日本|梦歌CN2|解锁流媒体_20
       - 节点池捡的垃圾_13
-      - 节点池捡的垃圾_34
+      - 联合国|YouTube梦歌|流媒体解锁_49
+      - +香港|梦歌CMI|解锁流媒体_24
+      - +新加坡|梦歌BGP|解锁流媒体_5
+      - +日本|梦歌CN2|解锁流媒体_8
+      - +日本|梦歌CN2|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_25
+      - +日本|梦歌CN2|解锁流媒体_1
+      - +香港|梦歌CMI|解锁流媒体_55
+      - +新加坡|梦歌BGP|解锁流媒体_1
+      - +日本|梦歌CN2|解锁流媒体_6
+      - +日本|梦歌CN2|解锁流媒体_7
+      - +台湾|梦歌GIA|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_4
+      - +日本|梦歌CN2|解锁流媒体_16
+      - +香港|梦歌CMI|解锁流媒体_47
+      - 联合国|YouTube梦歌|流媒体解锁_9
+      - +香港|梦歌CMI|解锁流媒体_44
+      - +香港|梦歌CMI|解锁流媒体_46
+      - +新加坡|梦歌BGP|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_52
+      - +台湾|梦歌GIA|解锁流媒体_5
+      - +日本|梦歌CN2|解锁流媒体_9
+      - +日本|梦歌CN2|解锁流媒体_10
+      - +新加坡|梦歌BGP|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_13
+      - +香港|梦歌CMI|解锁流媒体_23
+      - +日本|梦歌CN2|解锁流媒体_3
+      - +香港|梦歌CMI|解锁流媒体_42
+      - +香港|梦歌CMI|解锁流媒体_26
+      - +台湾|梦歌GIA|解锁流媒体_1
+      - +日本|梦歌CN2|解锁流媒体_13
+      - +香港|梦歌CMI|解锁流媒体_1
+      - +香港|梦歌CMI|解锁流媒体_16
+      - +香港|梦歌CMI|解锁流媒体_20
+      - +台湾|梦歌GIA|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_31
+      - +香港|梦歌CMI|解锁流媒体_15
+      - +日本|梦歌CN2|解锁流媒体_14
+      - +日本|梦歌CN2|解锁流媒体_17
+      - +香港|梦歌CMI|解锁流媒体_35
+      - +香港|梦歌CMI|解锁流媒体_30
+      - +日本|梦歌CN2|解锁流媒体_12
+      - github.com/freefq - 美国CloudFlare公司CDN节点 19
+      - +美国|梦歌IEPL|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_33
+      - +香港|梦歌CMI|解锁流媒体_37
+      - +香港|梦歌CMI|解锁流媒体_32
+      - +美国|梦歌IEPL|解锁流媒体_4
+      - +美国|梦歌IEPL|解锁流媒体_3
+      - _US_美国
+      - +香港|梦歌CMI|解锁流媒体_36
+      - 美国（TG@阿伟科技/油管） 25
+      - +日本|梦歌CN2|解锁流媒体_15
+      - 美国（TG@阿伟科技/油管） 24
+      - +香港|梦歌CMI|解锁流媒体_29
+      - +香港|梦歌CMI|解锁流媒体_34
+      - +日本|梦歌CN2|解锁流媒体_11
+      - _YouTube阿伟科技 12
+      - 213.183.51.172:9088
+      - _YouTube阿伟科技 131
+      - +香港|梦歌CMI|解锁流媒体_45
+      - _YouTube阿伟科技 11
+      - _US_美国 2
+      - 213.183.51.172:9024
+      - 英国（TG@阿伟科技/油管）
+      - "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub"
+      - 美国【由零开始YouTube】
+      - 213.183.51.172:9056
+      - 217.30.10.65:9041
+      - 217.30.10.65:9088
+      - 217.30.10.65:9097
+      - 185.167.117.171:9005
+      - +香港|梦歌CMI|解锁流媒体_28
+      - 217.30.10.66:9019
+      - 217.30.10.66:9014
+      - 217.30.10.66:9079
+      - 217.30.10.66:9000
+      - 217.30.10.66:9025
+      - 213.183.51.172:9031
+      - 213.183.51.171:9003
+      - 213.183.51.172:9079
+      - 213.183.51.172:9040
+      - 217.30.10.65:9000
+      - 217.30.10.66:9070
+      - 美国【由零开始YouTube】 2
+      - 217.30.10.65:9006
+      - _US_美国 3
+      - 217.30.10.66:9031
+      - 217.30.10.66:9015
+      - 217.30.10.66:9008
+      - 65.108.246.232:443
+      - 217.30.10.65:9064
+      - 213.183.51.171:9010
+      - 185.167.117.171:9050
+      - 217.30.10.66:9043
+      - 217.30.10.66:9041
+      - github.com/freefq - 美国CloudFlare节点 9
+      - 217.30.10.66:9094
+      - 217.30.10.65:9014
+      - 217.30.10.65:9073
+      - 217.30.10.65:9027
+      - +香港|梦歌CMI|解锁流媒体_38
+      - 217.30.10.65:9070
+      - 185.167.117.171:9003
+      - 185.167.116.253:9026
+      - +美国|梦歌IEPL|解锁流媒体_1
+      - 217.30.10.66:9045
       - 217.30.10.64:9020
-      - 美国-2.53MB/s(Youtube:不良林)
+      - 217.30.10.65:9026
+      - 217.30.10.66:9046
+      - 185.167.116.253:9003
+      - 217.30.10.66:9027
+      - 217.30.10.65:9025
+      - 185.167.116.253:9031
+      - 217.30.10.65:9037
+      - 217.30.10.64:9097
+      - 217.30.10.65:9005
+      - 217.30.10.65:9001
+      - 152.89.210.84:9000
+      - 美国【由零开始YouTube】 3
+      - 217.30.10.65:9040
+      - 185.167.116.252:9015
+      - 217.30.10.65:9053
+      - 185.167.116.253:9005
+      - 185.167.117.171:9060
+      - 185.167.116.253:9038
+      - 152.89.210.84:9027
+      - 217.30.10.66:9001
+      - 217.30.10.64:9003
+      - 217.30.10.64:9041
+      - 217.30.10.64:9038
+      - 217.30.10.66:9097
+      - 185.167.116.252:9027
+      - 217.30.10.65:9061
+      - 217.30.10.64:9094
+      - 217.30.10.66:9024
+      - 185.167.116.253:9001
+      - 217.30.10.66:9032
+      - gz2.52168.xyz:2101
+      - 213.183.51.171:9014
+      - 217.30.10.66:9040
+      - （欢迎订阅钱科技0416）_🇺🇸_US_美国_82
+      - 185.167.116.252:9014
+      - CN
+      - US
+      - 217.30.10.65:9050
+      - 185.167.116.253:9043
+      - 217.30.10.66:9037
+      - 185.167.116.253:9011
+      - 217.30.10.65:9098
+      - 217.30.10.66:9050
+      - 217.30.10.66:9038
+      - 185.167.116.253:9019
+      - 217.30.10.65:9038
+      - 217.30.10.66:9059
+      - _KR_韩国
+      - 217.30.10.65:9046
+      - +新加坡|梦歌BGP|解锁流媒体_7
+      - +美国|梦歌IEPL|解锁流媒体_2
+      - 217.30.10.65:9018
+      - 185.167.116.253:9060
+      - 152.89.210.84:9056
+      - 185.167.116.253:9080
+      - 185.167.116.253:9014
+      - 213.183.51.172:9038
+      - gz1.52168.xyz:1109
+      - 节点池捡的垃圾_7
+      - 185.167.116.253:9097
+      - 185.167.116.253:9079
+      - CYL-科技（2022.03.20）
+      - _YouTube阿伟科技 141
+      - ♥️YouTube梦歌♥️_48
+      - _YouTube阿伟科技 129
+      - _YouTube阿伟科技 140
+      - 14.29.124.168:25247
+      - CYL-科技（2022.03.20） 2
+      - 45.66.157.212:10077
+      - _YouTube阿伟科技 133
+      - 【由零开始YouTube】
+      - CYL-科技（2022.03.20） 3
+      - 14.29.124.168:25235
+      - gz1.52168.xyz:1102
+      - US 2
+      - 217.30.10.64:9001
+      - 217.30.10.65:9015
+      - gz1.52168.xyz:1112
+      - _YouTube阿伟科技 3
+      - 14.29.124.168:25220
+      - 217.30.10.65:9007
+      - 213.183.51.172:9003
+      - 217.30.10.65:9060
+      - 213.183.51.172:9097
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 节点池捡的垃圾_7
-      - 217.30.10.64:9038
-      - 217.30.10.64:9079
-      - 217.30.10.64:9097
-      - 217.30.10.64:9041
-      - 节点池捡的垃圾_4
-      - 节点池捡的垃圾_11
-      - 152.89.210.84:9046
-      - 节点池捡的垃圾_22
-      - 217.30.10.64:9094
-      - 152.89.210.84:9060
-      - 217.30.10.64:9003
-      - 217.30.10.64:9001
-      - 185.167.116.252:9014
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 2
-      - ♥️YouTube梦歌♥️_48
-      - 节点池捡的垃圾_32
-      - CYL-科技（2022.03.20） 3
+      - _YouTube阿伟科技 152
+      - +香港|梦歌CMI|解锁流媒体_39
+      - +香港|梦歌CMI|解锁流媒体_7
+      - +香港|梦歌CMI|解锁流媒体_18
+      - +香港|梦歌CMI|解锁流媒体_40
+      - +香港|梦歌CMI|解锁流媒体_10
+      - +香港|梦歌CMI|解锁流媒体_14
+      - +香港|梦歌CMI|解锁流媒体_19
+      - +香港|梦歌CMI|解锁流媒体_54
+      - +香港|梦歌CMI|解锁流媒体_43
+      - +香港|梦歌CMI|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_58
+      - +香港|梦歌CMI|解锁流媒体_51
+      - +香港|梦歌CMI|解锁流媒体_50
+      - +香港|梦歌CMI|解锁流媒体_17
+      - +香港|梦歌CMI|解锁流媒体_41
+      - +香港|梦歌CMI|解锁流媒体_53
+      - +香港|梦歌CMI|解锁流媒体_12
+      - +香港|梦歌CMI|解锁流媒体_48
+      - +香港|梦歌CMI|解锁流媒体_56
+      - +香港|梦歌CMI|解锁流媒体_6
+      - +香港|梦歌CMI|解锁流媒体_57
+      - +香港|梦歌CMI|解锁流媒体_22
+      - +香港|梦歌CMI|解锁流媒体_8
+      - +香港|梦歌CMI|解锁流媒体_49
+      - +新加坡|梦歌BGP|解锁流媒体_6
+      - +香港|梦歌CMI|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_27
+      - +香港|梦歌CMI|解锁流媒体_21
+      - +香港|梦歌CMI|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_18
+      - +台湾|梦歌GIA|解锁流媒体_2
+      - +日本|梦歌CN2|解锁流媒体_21
+      - _YouTube阿伟科技 10
+      - +日本|梦歌CN2|解锁流媒体_19
+      - +新加坡|梦歌BGP|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_9
+      - +日本|梦歌CN2|解锁流媒体_20
       - 节点池捡的垃圾_13
-      - 节点池捡的垃圾_34
+      - 联合国|YouTube梦歌|流媒体解锁_49
+      - +香港|梦歌CMI|解锁流媒体_24
+      - +新加坡|梦歌BGP|解锁流媒体_5
+      - +日本|梦歌CN2|解锁流媒体_8
+      - +日本|梦歌CN2|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_25
+      - +日本|梦歌CN2|解锁流媒体_1
+      - +香港|梦歌CMI|解锁流媒体_55
+      - +新加坡|梦歌BGP|解锁流媒体_1
+      - +日本|梦歌CN2|解锁流媒体_6
+      - +日本|梦歌CN2|解锁流媒体_7
+      - +台湾|梦歌GIA|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_4
+      - +日本|梦歌CN2|解锁流媒体_16
+      - +香港|梦歌CMI|解锁流媒体_47
+      - 联合国|YouTube梦歌|流媒体解锁_9
+      - +香港|梦歌CMI|解锁流媒体_44
+      - +香港|梦歌CMI|解锁流媒体_46
+      - +新加坡|梦歌BGP|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_52
+      - +台湾|梦歌GIA|解锁流媒体_5
+      - +日本|梦歌CN2|解锁流媒体_9
+      - +日本|梦歌CN2|解锁流媒体_10
+      - +新加坡|梦歌BGP|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_13
+      - +香港|梦歌CMI|解锁流媒体_23
+      - +日本|梦歌CN2|解锁流媒体_3
+      - +香港|梦歌CMI|解锁流媒体_42
+      - +香港|梦歌CMI|解锁流媒体_26
+      - +台湾|梦歌GIA|解锁流媒体_1
+      - +日本|梦歌CN2|解锁流媒体_13
+      - +香港|梦歌CMI|解锁流媒体_1
+      - +香港|梦歌CMI|解锁流媒体_16
+      - +香港|梦歌CMI|解锁流媒体_20
+      - +台湾|梦歌GIA|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_31
+      - +香港|梦歌CMI|解锁流媒体_15
+      - +日本|梦歌CN2|解锁流媒体_14
+      - +日本|梦歌CN2|解锁流媒体_17
+      - +香港|梦歌CMI|解锁流媒体_35
+      - +香港|梦歌CMI|解锁流媒体_30
+      - +日本|梦歌CN2|解锁流媒体_12
+      - github.com/freefq - 美国CloudFlare公司CDN节点 19
+      - +美国|梦歌IEPL|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_33
+      - +香港|梦歌CMI|解锁流媒体_37
+      - +香港|梦歌CMI|解锁流媒体_32
+      - +美国|梦歌IEPL|解锁流媒体_4
+      - +美国|梦歌IEPL|解锁流媒体_3
+      - _US_美国
+      - +香港|梦歌CMI|解锁流媒体_36
+      - 美国（TG@阿伟科技/油管） 25
+      - +日本|梦歌CN2|解锁流媒体_15
+      - 美国（TG@阿伟科技/油管） 24
+      - +香港|梦歌CMI|解锁流媒体_29
+      - +香港|梦歌CMI|解锁流媒体_34
+      - +日本|梦歌CN2|解锁流媒体_11
+      - _YouTube阿伟科技 12
+      - 213.183.51.172:9088
+      - _YouTube阿伟科技 131
+      - +香港|梦歌CMI|解锁流媒体_45
+      - _YouTube阿伟科技 11
+      - _US_美国 2
+      - 213.183.51.172:9024
+      - 英国（TG@阿伟科技/油管）
+      - "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub"
+      - 美国【由零开始YouTube】
+      - 213.183.51.172:9056
+      - 217.30.10.65:9041
+      - 217.30.10.65:9088
+      - 217.30.10.65:9097
+      - 185.167.117.171:9005
+      - +香港|梦歌CMI|解锁流媒体_28
+      - 217.30.10.66:9019
+      - 217.30.10.66:9014
+      - 217.30.10.66:9079
+      - 217.30.10.66:9000
+      - 217.30.10.66:9025
+      - 213.183.51.172:9031
+      - 213.183.51.171:9003
+      - 213.183.51.172:9079
+      - 213.183.51.172:9040
+      - 217.30.10.65:9000
+      - 217.30.10.66:9070
+      - 美国【由零开始YouTube】 2
+      - 217.30.10.65:9006
+      - _US_美国 3
+      - 217.30.10.66:9031
+      - 217.30.10.66:9015
+      - 217.30.10.66:9008
+      - 65.108.246.232:443
+      - 217.30.10.65:9064
+      - 213.183.51.171:9010
+      - 185.167.117.171:9050
+      - 217.30.10.66:9043
+      - 217.30.10.66:9041
+      - github.com/freefq - 美国CloudFlare节点 9
+      - 217.30.10.66:9094
+      - 217.30.10.65:9014
+      - 217.30.10.65:9073
+      - 217.30.10.65:9027
+      - +香港|梦歌CMI|解锁流媒体_38
+      - 217.30.10.65:9070
+      - 185.167.117.171:9003
+      - 185.167.116.253:9026
+      - +美国|梦歌IEPL|解锁流媒体_1
+      - 217.30.10.66:9045
       - 217.30.10.64:9020
-      - 美国-2.53MB/s(Youtube:不良林)
+      - 217.30.10.65:9026
+      - 217.30.10.66:9046
+      - 185.167.116.253:9003
+      - 217.30.10.66:9027
+      - 217.30.10.65:9025
+      - 185.167.116.253:9031
+      - 217.30.10.65:9037
+      - 217.30.10.64:9097
+      - 217.30.10.65:9005
+      - 217.30.10.65:9001
+      - 152.89.210.84:9000
+      - 美国【由零开始YouTube】 3
+      - 217.30.10.65:9040
+      - 185.167.116.252:9015
+      - 217.30.10.65:9053
+      - 185.167.116.253:9005
+      - 185.167.117.171:9060
+      - 185.167.116.253:9038
+      - 152.89.210.84:9027
+      - 217.30.10.66:9001
+      - 217.30.10.64:9003
+      - 217.30.10.64:9041
+      - 217.30.10.64:9038
+      - 217.30.10.66:9097
+      - 185.167.116.252:9027
+      - 217.30.10.65:9061
+      - 217.30.10.64:9094
+      - 217.30.10.66:9024
+      - 185.167.116.253:9001
+      - 217.30.10.66:9032
+      - gz2.52168.xyz:2101
+      - 213.183.51.171:9014
+      - 217.30.10.66:9040
+      - （欢迎订阅钱科技0416）_🇺🇸_US_美国_82
+      - 185.167.116.252:9014
+      - CN
+      - US
+      - 217.30.10.65:9050
+      - 185.167.116.253:9043
+      - 217.30.10.66:9037
+      - 185.167.116.253:9011
+      - 217.30.10.65:9098
+      - 217.30.10.66:9050
+      - 217.30.10.66:9038
+      - 185.167.116.253:9019
+      - 217.30.10.65:9038
+      - 217.30.10.66:9059
+      - _KR_韩国
+      - 217.30.10.65:9046
+      - +新加坡|梦歌BGP|解锁流媒体_7
+      - +美国|梦歌IEPL|解锁流媒体_2
+      - 217.30.10.65:9018
+      - 185.167.116.253:9060
+      - 152.89.210.84:9056
+      - 185.167.116.253:9080
+      - 185.167.116.253:9014
+      - 213.183.51.172:9038
+      - gz1.52168.xyz:1109
+      - 节点池捡的垃圾_7
+      - 185.167.116.253:9097
+      - 185.167.116.253:9079
+      - CYL-科技（2022.03.20）
+      - _YouTube阿伟科技 141
+      - ♥️YouTube梦歌♥️_48
+      - _YouTube阿伟科技 129
+      - _YouTube阿伟科技 140
+      - 14.29.124.168:25247
+      - CYL-科技（2022.03.20） 2
+      - 45.66.157.212:10077
+      - _YouTube阿伟科技 133
+      - 【由零开始YouTube】
+      - CYL-科技（2022.03.20） 3
+      - 14.29.124.168:25235
+      - gz1.52168.xyz:1102
+      - US 2
+      - 217.30.10.64:9001
+      - 217.30.10.65:9015
+      - gz1.52168.xyz:1112
+      - _YouTube阿伟科技 3
+      - 14.29.124.168:25220
+      - 217.30.10.65:9007
+      - 213.183.51.172:9003
+      - 217.30.10.65:9060
+      - 213.183.51.172:9097
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 节点池捡的垃圾_7
-      - 217.30.10.64:9038
-      - 217.30.10.64:9079
-      - 217.30.10.64:9097
-      - 217.30.10.64:9041
-      - 节点池捡的垃圾_4
-      - 节点池捡的垃圾_11
-      - 152.89.210.84:9046
-      - 节点池捡的垃圾_22
-      - 217.30.10.64:9094
-      - 152.89.210.84:9060
-      - 217.30.10.64:9003
-      - 217.30.10.64:9001
-      - 185.167.116.252:9014
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 2
-      - ♥️YouTube梦歌♥️_48
-      - 节点池捡的垃圾_32
-      - CYL-科技（2022.03.20） 3
+      - _YouTube阿伟科技 152
+      - +香港|梦歌CMI|解锁流媒体_39
+      - +香港|梦歌CMI|解锁流媒体_7
+      - +香港|梦歌CMI|解锁流媒体_18
+      - +香港|梦歌CMI|解锁流媒体_40
+      - +香港|梦歌CMI|解锁流媒体_10
+      - +香港|梦歌CMI|解锁流媒体_14
+      - +香港|梦歌CMI|解锁流媒体_19
+      - +香港|梦歌CMI|解锁流媒体_54
+      - +香港|梦歌CMI|解锁流媒体_43
+      - +香港|梦歌CMI|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_58
+      - +香港|梦歌CMI|解锁流媒体_51
+      - +香港|梦歌CMI|解锁流媒体_50
+      - +香港|梦歌CMI|解锁流媒体_17
+      - +香港|梦歌CMI|解锁流媒体_41
+      - +香港|梦歌CMI|解锁流媒体_53
+      - +香港|梦歌CMI|解锁流媒体_12
+      - +香港|梦歌CMI|解锁流媒体_48
+      - +香港|梦歌CMI|解锁流媒体_56
+      - +香港|梦歌CMI|解锁流媒体_6
+      - +香港|梦歌CMI|解锁流媒体_57
+      - +香港|梦歌CMI|解锁流媒体_22
+      - +香港|梦歌CMI|解锁流媒体_8
+      - +香港|梦歌CMI|解锁流媒体_49
+      - +新加坡|梦歌BGP|解锁流媒体_6
+      - +香港|梦歌CMI|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_27
+      - +香港|梦歌CMI|解锁流媒体_21
+      - +香港|梦歌CMI|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_18
+      - +台湾|梦歌GIA|解锁流媒体_2
+      - +日本|梦歌CN2|解锁流媒体_21
+      - _YouTube阿伟科技 10
+      - +日本|梦歌CN2|解锁流媒体_19
+      - +新加坡|梦歌BGP|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_9
+      - +日本|梦歌CN2|解锁流媒体_20
       - 节点池捡的垃圾_13
-      - 节点池捡的垃圾_34
+      - 联合国|YouTube梦歌|流媒体解锁_49
+      - +香港|梦歌CMI|解锁流媒体_24
+      - +新加坡|梦歌BGP|解锁流媒体_5
+      - +日本|梦歌CN2|解锁流媒体_8
+      - +日本|梦歌CN2|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_25
+      - +日本|梦歌CN2|解锁流媒体_1
+      - +香港|梦歌CMI|解锁流媒体_55
+      - +新加坡|梦歌BGP|解锁流媒体_1
+      - +日本|梦歌CN2|解锁流媒体_6
+      - +日本|梦歌CN2|解锁流媒体_7
+      - +台湾|梦歌GIA|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_4
+      - +日本|梦歌CN2|解锁流媒体_16
+      - +香港|梦歌CMI|解锁流媒体_47
+      - 联合国|YouTube梦歌|流媒体解锁_9
+      - +香港|梦歌CMI|解锁流媒体_44
+      - +香港|梦歌CMI|解锁流媒体_46
+      - +新加坡|梦歌BGP|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_52
+      - +台湾|梦歌GIA|解锁流媒体_5
+      - +日本|梦歌CN2|解锁流媒体_9
+      - +日本|梦歌CN2|解锁流媒体_10
+      - +新加坡|梦歌BGP|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_13
+      - +香港|梦歌CMI|解锁流媒体_23
+      - +日本|梦歌CN2|解锁流媒体_3
+      - +香港|梦歌CMI|解锁流媒体_42
+      - +香港|梦歌CMI|解锁流媒体_26
+      - +台湾|梦歌GIA|解锁流媒体_1
+      - +日本|梦歌CN2|解锁流媒体_13
+      - +香港|梦歌CMI|解锁流媒体_1
+      - +香港|梦歌CMI|解锁流媒体_16
+      - +香港|梦歌CMI|解锁流媒体_20
+      - +台湾|梦歌GIA|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_31
+      - +香港|梦歌CMI|解锁流媒体_15
+      - +日本|梦歌CN2|解锁流媒体_14
+      - +日本|梦歌CN2|解锁流媒体_17
+      - +香港|梦歌CMI|解锁流媒体_35
+      - +香港|梦歌CMI|解锁流媒体_30
+      - +日本|梦歌CN2|解锁流媒体_12
+      - github.com/freefq - 美国CloudFlare公司CDN节点 19
+      - +美国|梦歌IEPL|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_33
+      - +香港|梦歌CMI|解锁流媒体_37
+      - +香港|梦歌CMI|解锁流媒体_32
+      - +美国|梦歌IEPL|解锁流媒体_4
+      - +美国|梦歌IEPL|解锁流媒体_3
+      - _US_美国
+      - +香港|梦歌CMI|解锁流媒体_36
+      - 美国（TG@阿伟科技/油管） 25
+      - +日本|梦歌CN2|解锁流媒体_15
+      - 美国（TG@阿伟科技/油管） 24
+      - +香港|梦歌CMI|解锁流媒体_29
+      - +香港|梦歌CMI|解锁流媒体_34
+      - +日本|梦歌CN2|解锁流媒体_11
+      - _YouTube阿伟科技 12
+      - 213.183.51.172:9088
+      - _YouTube阿伟科技 131
+      - +香港|梦歌CMI|解锁流媒体_45
+      - _YouTube阿伟科技 11
+      - _US_美国 2
+      - 213.183.51.172:9024
+      - 英国（TG@阿伟科技/油管）
+      - "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub"
+      - 美国【由零开始YouTube】
+      - 213.183.51.172:9056
+      - 217.30.10.65:9041
+      - 217.30.10.65:9088
+      - 217.30.10.65:9097
+      - 185.167.117.171:9005
+      - +香港|梦歌CMI|解锁流媒体_28
+      - 217.30.10.66:9019
+      - 217.30.10.66:9014
+      - 217.30.10.66:9079
+      - 217.30.10.66:9000
+      - 217.30.10.66:9025
+      - 213.183.51.172:9031
+      - 213.183.51.171:9003
+      - 213.183.51.172:9079
+      - 213.183.51.172:9040
+      - 217.30.10.65:9000
+      - 217.30.10.66:9070
+      - 美国【由零开始YouTube】 2
+      - 217.30.10.65:9006
+      - _US_美国 3
+      - 217.30.10.66:9031
+      - 217.30.10.66:9015
+      - 217.30.10.66:9008
+      - 65.108.246.232:443
+      - 217.30.10.65:9064
+      - 213.183.51.171:9010
+      - 185.167.117.171:9050
+      - 217.30.10.66:9043
+      - 217.30.10.66:9041
+      - github.com/freefq - 美国CloudFlare节点 9
+      - 217.30.10.66:9094
+      - 217.30.10.65:9014
+      - 217.30.10.65:9073
+      - 217.30.10.65:9027
+      - +香港|梦歌CMI|解锁流媒体_38
+      - 217.30.10.65:9070
+      - 185.167.117.171:9003
+      - 185.167.116.253:9026
+      - +美国|梦歌IEPL|解锁流媒体_1
+      - 217.30.10.66:9045
       - 217.30.10.64:9020
-      - 美国-2.53MB/s(Youtube:不良林)
+      - 217.30.10.65:9026
+      - 217.30.10.66:9046
+      - 185.167.116.253:9003
+      - 217.30.10.66:9027
+      - 217.30.10.65:9025
+      - 185.167.116.253:9031
+      - 217.30.10.65:9037
+      - 217.30.10.64:9097
+      - 217.30.10.65:9005
+      - 217.30.10.65:9001
+      - 152.89.210.84:9000
+      - 美国【由零开始YouTube】 3
+      - 217.30.10.65:9040
+      - 185.167.116.252:9015
+      - 217.30.10.65:9053
+      - 185.167.116.253:9005
+      - 185.167.117.171:9060
+      - 185.167.116.253:9038
+      - 152.89.210.84:9027
+      - 217.30.10.66:9001
+      - 217.30.10.64:9003
+      - 217.30.10.64:9041
+      - 217.30.10.64:9038
+      - 217.30.10.66:9097
+      - 185.167.116.252:9027
+      - 217.30.10.65:9061
+      - 217.30.10.64:9094
+      - 217.30.10.66:9024
+      - 185.167.116.253:9001
+      - 217.30.10.66:9032
+      - gz2.52168.xyz:2101
+      - 213.183.51.171:9014
+      - 217.30.10.66:9040
+      - （欢迎订阅钱科技0416）_🇺🇸_US_美国_82
+      - 185.167.116.252:9014
+      - CN
+      - US
+      - 217.30.10.65:9050
+      - 185.167.116.253:9043
+      - 217.30.10.66:9037
+      - 185.167.116.253:9011
+      - 217.30.10.65:9098
+      - 217.30.10.66:9050
+      - 217.30.10.66:9038
+      - 185.167.116.253:9019
+      - 217.30.10.65:9038
+      - 217.30.10.66:9059
+      - _KR_韩国
+      - 217.30.10.65:9046
+      - +新加坡|梦歌BGP|解锁流媒体_7
+      - +美国|梦歌IEPL|解锁流媒体_2
+      - 217.30.10.65:9018
+      - 185.167.116.253:9060
+      - 152.89.210.84:9056
+      - 185.167.116.253:9080
+      - 185.167.116.253:9014
+      - 213.183.51.172:9038
+      - gz1.52168.xyz:1109
+      - 节点池捡的垃圾_7
+      - 185.167.116.253:9097
+      - 185.167.116.253:9079
+      - CYL-科技（2022.03.20）
+      - _YouTube阿伟科技 141
+      - ♥️YouTube梦歌♥️_48
+      - _YouTube阿伟科技 129
+      - _YouTube阿伟科技 140
+      - 14.29.124.168:25247
+      - CYL-科技（2022.03.20） 2
+      - 45.66.157.212:10077
+      - _YouTube阿伟科技 133
+      - 【由零开始YouTube】
+      - CYL-科技（2022.03.20） 3
+      - 14.29.124.168:25235
+      - gz1.52168.xyz:1102
+      - US 2
+      - 217.30.10.64:9001
+      - 217.30.10.65:9015
+      - gz1.52168.xyz:1112
+      - _YouTube阿伟科技 3
+      - 14.29.124.168:25220
+      - 217.30.10.65:9007
+      - 213.183.51.172:9003
+      - 217.30.10.65:9060
+      - 213.183.51.172:9097
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -260,29 +2002,239 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 节点池捡的垃圾_7
-      - 217.30.10.64:9038
-      - 217.30.10.64:9079
-      - 217.30.10.64:9097
-      - 217.30.10.64:9041
-      - 节点池捡的垃圾_4
-      - 节点池捡的垃圾_11
-      - 152.89.210.84:9046
-      - 节点池捡的垃圾_22
-      - 217.30.10.64:9094
-      - 152.89.210.84:9060
-      - 217.30.10.64:9003
-      - 217.30.10.64:9001
-      - 185.167.116.252:9014
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 2
-      - ♥️YouTube梦歌♥️_48
-      - 节点池捡的垃圾_32
-      - CYL-科技（2022.03.20） 3
+      - _YouTube阿伟科技 152
+      - +香港|梦歌CMI|解锁流媒体_39
+      - +香港|梦歌CMI|解锁流媒体_7
+      - +香港|梦歌CMI|解锁流媒体_18
+      - +香港|梦歌CMI|解锁流媒体_40
+      - +香港|梦歌CMI|解锁流媒体_10
+      - +香港|梦歌CMI|解锁流媒体_14
+      - +香港|梦歌CMI|解锁流媒体_19
+      - +香港|梦歌CMI|解锁流媒体_54
+      - +香港|梦歌CMI|解锁流媒体_43
+      - +香港|梦歌CMI|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_58
+      - +香港|梦歌CMI|解锁流媒体_51
+      - +香港|梦歌CMI|解锁流媒体_50
+      - +香港|梦歌CMI|解锁流媒体_17
+      - +香港|梦歌CMI|解锁流媒体_41
+      - +香港|梦歌CMI|解锁流媒体_53
+      - +香港|梦歌CMI|解锁流媒体_12
+      - +香港|梦歌CMI|解锁流媒体_48
+      - +香港|梦歌CMI|解锁流媒体_56
+      - +香港|梦歌CMI|解锁流媒体_6
+      - +香港|梦歌CMI|解锁流媒体_57
+      - +香港|梦歌CMI|解锁流媒体_22
+      - +香港|梦歌CMI|解锁流媒体_8
+      - +香港|梦歌CMI|解锁流媒体_49
+      - +新加坡|梦歌BGP|解锁流媒体_6
+      - +香港|梦歌CMI|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_27
+      - +香港|梦歌CMI|解锁流媒体_21
+      - +香港|梦歌CMI|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_18
+      - +台湾|梦歌GIA|解锁流媒体_2
+      - +日本|梦歌CN2|解锁流媒体_21
+      - _YouTube阿伟科技 10
+      - +日本|梦歌CN2|解锁流媒体_19
+      - +新加坡|梦歌BGP|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_9
+      - +日本|梦歌CN2|解锁流媒体_20
       - 节点池捡的垃圾_13
-      - 节点池捡的垃圾_34
+      - 联合国|YouTube梦歌|流媒体解锁_49
+      - +香港|梦歌CMI|解锁流媒体_24
+      - +新加坡|梦歌BGP|解锁流媒体_5
+      - +日本|梦歌CN2|解锁流媒体_8
+      - +日本|梦歌CN2|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_25
+      - +日本|梦歌CN2|解锁流媒体_1
+      - +香港|梦歌CMI|解锁流媒体_55
+      - +新加坡|梦歌BGP|解锁流媒体_1
+      - +日本|梦歌CN2|解锁流媒体_6
+      - +日本|梦歌CN2|解锁流媒体_7
+      - +台湾|梦歌GIA|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_4
+      - +日本|梦歌CN2|解锁流媒体_16
+      - +香港|梦歌CMI|解锁流媒体_47
+      - 联合国|YouTube梦歌|流媒体解锁_9
+      - +香港|梦歌CMI|解锁流媒体_44
+      - +香港|梦歌CMI|解锁流媒体_46
+      - +新加坡|梦歌BGP|解锁流媒体_2
+      - +香港|梦歌CMI|解锁流媒体_52
+      - +台湾|梦歌GIA|解锁流媒体_5
+      - +日本|梦歌CN2|解锁流媒体_9
+      - +日本|梦歌CN2|解锁流媒体_10
+      - +新加坡|梦歌BGP|解锁流媒体_3
+      - +日本|梦歌CN2|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_13
+      - +香港|梦歌CMI|解锁流媒体_23
+      - +日本|梦歌CN2|解锁流媒体_3
+      - +香港|梦歌CMI|解锁流媒体_42
+      - +香港|梦歌CMI|解锁流媒体_26
+      - +台湾|梦歌GIA|解锁流媒体_1
+      - +日本|梦歌CN2|解锁流媒体_13
+      - +香港|梦歌CMI|解锁流媒体_1
+      - +香港|梦歌CMI|解锁流媒体_16
+      - +香港|梦歌CMI|解锁流媒体_20
+      - +台湾|梦歌GIA|解锁流媒体_4
+      - +香港|梦歌CMI|解锁流媒体_31
+      - +香港|梦歌CMI|解锁流媒体_15
+      - +日本|梦歌CN2|解锁流媒体_14
+      - +日本|梦歌CN2|解锁流媒体_17
+      - +香港|梦歌CMI|解锁流媒体_35
+      - +香港|梦歌CMI|解锁流媒体_30
+      - +日本|梦歌CN2|解锁流媒体_12
+      - github.com/freefq - 美国CloudFlare公司CDN节点 19
+      - +美国|梦歌IEPL|解锁流媒体_5
+      - +香港|梦歌CMI|解锁流媒体_33
+      - +香港|梦歌CMI|解锁流媒体_37
+      - +香港|梦歌CMI|解锁流媒体_32
+      - +美国|梦歌IEPL|解锁流媒体_4
+      - +美国|梦歌IEPL|解锁流媒体_3
+      - _US_美国
+      - +香港|梦歌CMI|解锁流媒体_36
+      - 美国（TG@阿伟科技/油管） 25
+      - +日本|梦歌CN2|解锁流媒体_15
+      - 美国（TG@阿伟科技/油管） 24
+      - +香港|梦歌CMI|解锁流媒体_29
+      - +香港|梦歌CMI|解锁流媒体_34
+      - +日本|梦歌CN2|解锁流媒体_11
+      - _YouTube阿伟科技 12
+      - 213.183.51.172:9088
+      - _YouTube阿伟科技 131
+      - +香港|梦歌CMI|解锁流媒体_45
+      - _YouTube阿伟科技 11
+      - _US_美国 2
+      - 213.183.51.172:9024
+      - 英国（TG@阿伟科技/油管）
+      - "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub"
+      - 美国【由零开始YouTube】
+      - 213.183.51.172:9056
+      - 217.30.10.65:9041
+      - 217.30.10.65:9088
+      - 217.30.10.65:9097
+      - 185.167.117.171:9005
+      - +香港|梦歌CMI|解锁流媒体_28
+      - 217.30.10.66:9019
+      - 217.30.10.66:9014
+      - 217.30.10.66:9079
+      - 217.30.10.66:9000
+      - 217.30.10.66:9025
+      - 213.183.51.172:9031
+      - 213.183.51.171:9003
+      - 213.183.51.172:9079
+      - 213.183.51.172:9040
+      - 217.30.10.65:9000
+      - 217.30.10.66:9070
+      - 美国【由零开始YouTube】 2
+      - 217.30.10.65:9006
+      - _US_美国 3
+      - 217.30.10.66:9031
+      - 217.30.10.66:9015
+      - 217.30.10.66:9008
+      - 65.108.246.232:443
+      - 217.30.10.65:9064
+      - 213.183.51.171:9010
+      - 185.167.117.171:9050
+      - 217.30.10.66:9043
+      - 217.30.10.66:9041
+      - github.com/freefq - 美国CloudFlare节点 9
+      - 217.30.10.66:9094
+      - 217.30.10.65:9014
+      - 217.30.10.65:9073
+      - 217.30.10.65:9027
+      - +香港|梦歌CMI|解锁流媒体_38
+      - 217.30.10.65:9070
+      - 185.167.117.171:9003
+      - 185.167.116.253:9026
+      - +美国|梦歌IEPL|解锁流媒体_1
+      - 217.30.10.66:9045
       - 217.30.10.64:9020
-      - 美国-2.53MB/s(Youtube:不良林)
+      - 217.30.10.65:9026
+      - 217.30.10.66:9046
+      - 185.167.116.253:9003
+      - 217.30.10.66:9027
+      - 217.30.10.65:9025
+      - 185.167.116.253:9031
+      - 217.30.10.65:9037
+      - 217.30.10.64:9097
+      - 217.30.10.65:9005
+      - 217.30.10.65:9001
+      - 152.89.210.84:9000
+      - 美国【由零开始YouTube】 3
+      - 217.30.10.65:9040
+      - 185.167.116.252:9015
+      - 217.30.10.65:9053
+      - 185.167.116.253:9005
+      - 185.167.117.171:9060
+      - 185.167.116.253:9038
+      - 152.89.210.84:9027
+      - 217.30.10.66:9001
+      - 217.30.10.64:9003
+      - 217.30.10.64:9041
+      - 217.30.10.64:9038
+      - 217.30.10.66:9097
+      - 185.167.116.252:9027
+      - 217.30.10.65:9061
+      - 217.30.10.64:9094
+      - 217.30.10.66:9024
+      - 185.167.116.253:9001
+      - 217.30.10.66:9032
+      - gz2.52168.xyz:2101
+      - 213.183.51.171:9014
+      - 217.30.10.66:9040
+      - （欢迎订阅钱科技0416）_🇺🇸_US_美国_82
+      - 185.167.116.252:9014
+      - CN
+      - US
+      - 217.30.10.65:9050
+      - 185.167.116.253:9043
+      - 217.30.10.66:9037
+      - 185.167.116.253:9011
+      - 217.30.10.65:9098
+      - 217.30.10.66:9050
+      - 217.30.10.66:9038
+      - 185.167.116.253:9019
+      - 217.30.10.65:9038
+      - 217.30.10.66:9059
+      - _KR_韩国
+      - 217.30.10.65:9046
+      - +新加坡|梦歌BGP|解锁流媒体_7
+      - +美国|梦歌IEPL|解锁流媒体_2
+      - 217.30.10.65:9018
+      - 185.167.116.253:9060
+      - 152.89.210.84:9056
+      - 185.167.116.253:9080
+      - 185.167.116.253:9014
+      - 213.183.51.172:9038
+      - gz1.52168.xyz:1109
+      - 节点池捡的垃圾_7
+      - 185.167.116.253:9097
+      - 185.167.116.253:9079
+      - CYL-科技（2022.03.20）
+      - _YouTube阿伟科技 141
+      - ♥️YouTube梦歌♥️_48
+      - _YouTube阿伟科技 129
+      - _YouTube阿伟科技 140
+      - 14.29.124.168:25247
+      - CYL-科技（2022.03.20） 2
+      - 45.66.157.212:10077
+      - _YouTube阿伟科技 133
+      - 【由零开始YouTube】
+      - CYL-科技（2022.03.20） 3
+      - 14.29.124.168:25235
+      - gz1.52168.xyz:1102
+      - US 2
+      - 217.30.10.64:9001
+      - 217.30.10.65:9015
+      - gz1.52168.xyz:1112
+      - _YouTube阿伟科技 3
+      - 14.29.124.168:25220
+      - 217.30.10.65:9007
+      - 213.183.51.172:9003
+      - 217.30.10.65:9060
+      - 213.183.51.172:9097
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
