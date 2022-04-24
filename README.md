@@ -5,54 +5,62 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国（TG@阿伟科技/油管）, server: zz.vip341.xyz, port: 48003, type: vmess, uuid: 721a3144-2a49-3fe2-b79c-325979d4ecf1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: zz.vip341.xyz}, udp: true}
-  - {name: 韩国（TG@阿伟科技/油管）, server: zz.vip341.xyz, port: 48008, type: vmess, uuid: 721a3144-2a49-3fe2-b79c-325979d4ecf1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: zz.vip341.xyz}, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 2, server: c11s3.jamjams.net, port: 17938, type: vmess, uuid: e8d5a966-8093-4d4e-8977-0baca9c8ab55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 4, server: c11s3.jamjams.net, port: 17938, type: vmess, uuid: e8d5a966-8093-4d4e-8977-0baca9c8ab55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: cn1.relay.iepl.pw:50300, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
-  - {name: Youtube/ONE·资源核, server: 43.129.227.60, port: 27727, type: vmess, uuid: d00f5ea9-4658-4f0a-a6c3-e29ef711cf3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.129.227.60]}}, udp: true}
-  - {name: ♥️YouTube梦歌♥️_4, server: in04.dns2333.xyz, port: 64078, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in04.dns2333.xyz}, udp: true}
-  - {name: 韩国（TG@阿伟科技/油管） 2, server: kr2.qingyun123.xyz, port: 10050, type: trojan, password: 928bb264-85ee-48f7-9e1d-6f78e625caf8, sni: kr2.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: cn1.relay.iepl.pw:50400, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
-  - {name: 梦歌|隧道中转|流媒体解锁_7, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: b5eb1c91-0e7c-4157-88c1-5421dd47a26d, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|VPN|直连_13, server: gz1.52168.xyz, port: 1102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 3, server: 50cera.moonfree.top, port: 8443, type: vmess, uuid: 6a856d0a-c374-4d25-b4db-327801ca9dc2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 50cera.moonfree.top}, udp: true}
-  - {name: 梦歌|临时节点_26, server: v2ray.wefuckgfw.ga, port: 8443, type: vmess, uuid: 135284c6-b353-11ec-a378-52ac00ea1411, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /E94olUFf/, ws-headers: {Host: v2ray.wefuckgfw.ga}, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 18, server: 50cera.moonfree.top, port: 8443, type: vmess, uuid: 6a856d0a-c374-4d25-b4db-327801ca9dc2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 50cera.moonfree.top}, udp: true}
-  - {name: cn1.relay.iepl.pw:50500, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
-  - {name: 英国（TG@阿伟科技/油管）, server: yin1.qingyun123.xyz, port: 10000, type: trojan, password: 72871649-31f7-4c30-8e54-cb65c3213fb8, sni: yin1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯（TG@阿伟科技/油管）, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
-  - {name: 日本（TG@阿伟科技/油管） 3, server: azjp.vmess.top, port: 24502, type: trojan, password: 16987731-e606-40da-a4db-a41251b7b65b, sni: azjp.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 15, server: 104.243.26.112, port: 21735, type: vmess, uuid: 045f5957-157d-4664-8b8d-1b2fda202388, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 104.243.26.112}, udp: true}
-  - {name: 梦歌|隧道中转|流媒体解锁_17, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: b5eb1c91-0e7c-4157-88c1-5421dd47a26d, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 5, server: nfus.qingyun123.xyz, port: 10050, type: trojan, password: 928bb264-85ee-48f7-9e1d-6f78e625caf8, sni: nfus.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 5 2, server: c11s801.jamjams.net, port: 17938, type: vmess, uuid: e8d5a966-8093-4d4e-8977-0baca9c8ab55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 6, server: c11s801.jamjams.net, port: 17938, type: vmess, uuid: e8d5a966-8093-4d4e-8977-0baca9c8ab55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: SG_(ios小火箭软件|ioskaka.com), server: v2-2.godlight.xyz, port: 30523, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /54f634fs, ws-headers: {Host: v2-2.godlight.xyz}, udp: true}
-  - {name: US_(ios小火箭软件|ioskaka.com), server: 45.66.157.174, port: 49192, type: vmess, uuid: 9451e6e0-c125-11ec-8012-00163c76ea30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /atG37YNW/, ws-headers: {Host: 45.66.157.174}, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 7, server: winter.top-pc.workers.dev, port: 443, type: vmess, uuid: b9d62af8-ae33-4630-92cb-8b9b54560416, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: winter.top-pc.workers.dev}, udp: true}
-  - {name: 日本阿伟科技atTG/油管_1096_1424 |55.21Mb, server: c11s4.jamjams.net, port: 17938, type: vmess, uuid: e8d5a966-8093-4d4e-8977-0baca9c8ab55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 8, server: vry.beeos.xyz, port: 443, type: vmess, uuid: b9d62af8-ae33-4630-92cb-8b9b54560416, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: vry.beeos.xyz}, udp: true}
-  - {name: 梦歌|流量跑完失效_25, server: www.digitalocean.com, port: 443, type: vmess, uuid: 589756d8-2214-49d5-995b-ed3b43f8cb78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctvvws, ws-headers: {Host: olo.aoyyds.tk}, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 9, server: 104.243.26.112, port: 21735, type: vmess, uuid: 045f5957-157d-4664-8b8d-1b2fda202388, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 104.243.26.112}, udp: true}
-  - {name: 日本阿伟科技atTG/油管_1096_1424 |55.21Mb 2, server: c11s4.jamjams.net, port: 17938, type: vmess, uuid: e8d5a966-8093-4d4e-8977-0baca9c8ab55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|隧道中转|流媒体解锁_13, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: b5eb1c91-0e7c-4157-88c1-5421dd47a26d, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Youtube/ONE·资源核 2, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: US_(ios小火箭软件|ioskaka.com) 2, server: 85.209.159.107, port: 20403, type: vmess, uuid: b3b08b1c-c0a4-11ec-8151-00163c3fe0cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Asq7j5Mb/, ws-headers: {Host: 85.209.159.107}, udp: true}
-  - {name: 14.29.124.168:25286, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 德国（TG@阿伟科技/油管）, server: v6d1.moonfree.top, port: 443, type: vmess, uuid: 6a856d0a-c374-4d25-b4db-327801ca9dc2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v6d1.moonfree.top}, udp: true}
-  - {name: 欢迎订阅钱科技0422_🇨🇳_CN_中国_7, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 德国（TG@阿伟科技/油管） 2, server: v6d1.moonfree.top, port: 443, type: vmess, uuid: 6a856d0a-c374-4d25-b4db-327801ca9dc2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v6d1.moonfree.top}, udp: true}
-  - {name: 香港（TG@阿伟科技/油管）, server: 112.48.177.74, port: 61118, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 112.48.177.74}, udp: true}
-  - {name: 新加坡（TG@阿伟科技/油管）, server: sg.guiqing.ml, port: 43956, type: vmess, uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (ios小火箭软件|ioskaka.com)_🇨🇳_中国_31, server: 43.154.102.246, port: 39509, type: vmess, uuid: 9555680d-9857-4266-a97b-cb8b393d6e98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本（TG@阿伟科技/油管）, server: cs.anoob.icu, port: 12001, type: ss, cipher: chacha20-ietf-poly1305, password: 72b8aca3-ddcc-4c84-980a-98e853b3b10c, udp: true}
+  - {name: 中国 【YouTube由零开始】, server: bjbgp.9218561.xyz, port: 11456, type: trojan, password: 88a9f78d-b899-47af-b84a-60fbffbd0ec1, sni: bjbgp.9218561.xyz, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|VPN|直连_16, server: gz1.52168.xyz, port: 1111, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 梦歌|VPN|直连_15, server: gz2.52168.xyz, port: 2103, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
   - {name: ♥️YouTube梦歌♥️_13, server: top.njiang.tk, port: 443, type: vmess, uuid: b2d062be-1912-4523-96c9-4f0f101c931b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wivhvws, ws-headers: {Host: top.njiang.tk}, udp: true}
+  - {name: Youtube/ONE·资源核, server: 43.129.227.60, port: 27727, type: vmess, uuid: d00f5ea9-4658-4f0a-a6c3-e29ef711cf3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.129.227.60]}}, udp: true}
+  - {name: 韩国（TG@阿伟科技/油管）, server: kr2.qingyun123.xyz, port: 10050, type: trojan, password: 928bb264-85ee-48f7-9e1d-6f78e625caf8, sni: kr2.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 西美高速2, server: 2.ezydfdd.com, port: 443, type: vmess, uuid: 8f826e79-4ee0-436b-9b68-5aa7c1094a82, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 2.ezydfdd.com}, udp: true}
+  - {name: 梦歌|VPN|直连_18, server: gz1.52168.xyz, port: 1101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 香港（TG@阿伟科技/油管）, server: hknf1.qingyun123.xyz, port: 10050, type: trojan, password: f29d8ac6-4ffd-48c1-84ad-6adcfd13db2a, sni: hknf1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|流量跑完失效_25, server: www.digitalocean.com, port: 443, type: vmess, uuid: 589756d8-2214-49d5-995b-ed3b43f8cb78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctvvws, ws-headers: {Host: olo.aoyyds.tk}, udp: true}
+  - {name: 荷兰（欢迎订阅YouTube晓柒科技）, server: hl01.xqkj.cloud, port: 1911, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hl01.xqkj.cloud}, udp: true}
+  - {name: 美国 【YouTube由零开始】, server: 8.ezydfdd.com, port: 443, type: vmess, uuid: dc0887b9-4c05-428c-adce-4235d1636341, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 8.ezydfdd.com}, udp: true}
+  - {name: 梦歌|隧道中转|流媒体解锁_7, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: b5eb1c91-0e7c-4157-88c1-5421dd47a26d, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|隧道中转|流媒体解锁_2, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: b5eb1c91-0e7c-4157-88c1-5421dd47a26d, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|VPN|直连_11, server: gz2.52168.xyz, port: 2105, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 荷兰（欢迎订阅YouTube晓柒科技） 2, server: hl05.xqkj.cloud, port: 1915, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hl05.xqkj.cloud}, udp: true}
+  - {name: 梦歌|临时节点_26, server: v2ray.wefuckgfw.ga, port: 8443, type: vmess, uuid: 135284c6-b353-11ec-a378-52ac00ea1411, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /E94olUFf/, ws-headers: {Host: v2ray.wefuckgfw.ga}, udp: true}
+  - {name: 英国（TG@阿伟科技/油管）, server: yin1.qingyun123.xyz, port: 10000, type: trojan, password: f29d8ac6-4ffd-48c1-84ad-6adcfd13db2a, sni: yin1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国（欢迎订阅YouTube晓柒科技）, server: us02.xqkj.cloud, port: 1112, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us02.xqkj.cloud}, udp: true}
+  - {name: 荷兰（欢迎订阅YouTube晓柒科技） 3, server: hl03.xqkj.cloud, port: 1913, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hl03.xqkj.cloud}, udp: true}
+  - {name: 澳大利亚（TG@阿伟科技/油管） 4, server: gzcm.relay02.insnow.xyz, port: 19937, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: gzcm.relay02.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚（TG@阿伟科技/油管）, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|VPN|直连_5, server: gz2.52168.xyz, port: 2109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 香港（TG@阿伟科技/油管） 2, server: hk3.fdns.cloudlink123.com, port: 80, type: vmess, uuid: d8e513f9-8d0e-41f7-b552-7702ca05b259, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk3.fdns.cloudlink123.com}, udp: true}
+  - {name: 美国（欢迎订阅YouTube晓柒科技） 2, server: us03.xqkj.cloud, port: 1113, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us03.xqkj.cloud}, udp: true}
+  - {name: 美国（欢迎订阅YouTube晓柒科技） 3, server: us04.xqkj.cloud, port: 1114, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us04.xqkj.cloud}, udp: true}
+  - {name: 印度（欢迎订阅YouTube晓柒科技）, server: ind01.xqkj.cloud, port: 1916, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ind01.xqkj.cloud}, udp: true}
+  - {name: 印度（欢迎订阅YouTube晓柒科技） 2, server: ind04.xqkj.cloud, port: 1916, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ind04.xqkj.cloud}, udp: true}
+  - {name: 美国（欢迎订阅YouTube晓柒科技） 4, server: us06.xqkj.cloud, port: 1116, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us06.xqkj.cloud}, udp: true}
+  - {name: 14.29.124.168:25297, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 14.29.124.168:25294, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Youtube/ONE·资源核 2, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Youtube/ONE·资源核 3, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Youtube/ONE·资源核 4, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Youtube/ONE·资源核 5, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 14.29.124.168:25283, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 美国（TG@阿伟科技/油管）, server: bgp.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us.fnyun.cyou}, udp: true}
+  - {name: 香港（TG@阿伟科技/油管） 5, server: hk3.fdns.cloudlink123.com, port: 80, type: vmess, uuid: d8e513f9-8d0e-41f7-b552-7702ca05b259, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk3.fdns.cloudlink123.com}, udp: true}
+  - {name: 荷兰（TG@阿伟科技/油管）, server: 45.147.160.86, port: 813, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: 14.29.124.168:25286, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 14.29.124.168:25259, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 梦歌|隧道中转|流媒体解锁_13, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: b5eb1c91-0e7c-4157-88c1-5421dd47a26d, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop, server: 120.240.48.20, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 120.240.48.20}, udp: true}
+  - {name: 澳大利亚（TG@阿伟科技/油管） 3, server: jgwxn1.gaox.ml, port: 443, type: trojan, password: 0f715619-0037-4358-a7c6-958106bc6b49, sni: jgwxn1.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: (ios小火箭软件|ioskaka.com), server: 1chuan.top, port: 443, type: vmess, uuid: fa8f90e0-2fae-4b05-df7a-ea325bc517d8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /evo, ws-headers: {Host: 1chuan.top}, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 10, server: very.top-pc.workers.dev, port: 443, type: vmess, uuid: b9d62af8-ae33-4630-92cb-8b9b54560416, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: very.top-pc.workers.dev}, udp: true}
-  - {name: CN_8du.shop, server: ru21701.cloudmatrix.xyz, port: 21701, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 新加坡（TG@阿伟科技/油管） 3, server: sg.guiqing.ml, port: 43956, type: vmess, uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 印度（TG@阿伟科技/油管）, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: CA-高速节点购买：v1.mk/vip（浏览器打开）, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 荷兰（欢迎订阅YouTube晓柒科技） 4, server: hl02.xqkj.cloud, port: 1912, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hl02.xqkj.cloud}, udp: true}
+  - {name: 14.29.124.168:25230, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 梦歌|VPN|直连_24, server: gz1.52168.xyz, port: 1117, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: github.com/freefq - 广东省广州市黄埔区珠江宽频 30, server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 120.240.48.19}, udp: true}
+  - {name: Youtube/ONE·资源核 6, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 荷兰（欢迎订阅YouTube晓柒科技） 5, server: hl04.xqkj.cloud, port: 1914, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hl04.xqkj.cloud}, udp: true}
+  - {name: 新加坡（TG@阿伟科技/油管）, server: cm.newhua99.xyz, port: 22801, type: ss, cipher: aes-128-gcm, password: d2143b25-6a10-440f-a513-6b720be505f4, udp: true}
+  - {name: CN_8du.shop 2, server: gzcm.relay02.insnow.xyz, port: 19921, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: gzcm.relay02.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 2, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 17, server: fumetsuseiko.tk, port: 443, type: vmess, uuid: 3364a992-7e4a-4551-d488-e3fad37421ad, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fumetsuseiko.tk}, udp: true}
   - {name: 🇸🇬 粉丝投稿🍄新103.157.250.20, server: 183.240.9.28, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
   - {name: 🇭🇰 粉丝投稿🍄港103.157.250.19, server: 183.240.9.28, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
   - {name: 🇸🇬 粉丝投稿🍄新103.157.250.21, server: 183.240.9.28, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
@@ -116,54 +124,62 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国（TG@阿伟科技/油管）
-      - 韩国（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管） 4
-      - cn1.relay.iepl.pw:50300
-      - Youtube/ONE·资源核
-      - ♥️YouTube梦歌♥️_4
-      - 韩国（TG@阿伟科技/油管） 2
-      - cn1.relay.iepl.pw:50400
-      - 梦歌|隧道中转|流媒体解锁_7
-      - 梦歌|VPN|直连_13
-      - 美国（TG@阿伟科技/油管） 3
-      - 梦歌|临时节点_26
-      - 美国（TG@阿伟科技/油管） 18
-      - cn1.relay.iepl.pw:50500
-      - 英国（TG@阿伟科技/油管）
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管） 3
-      - 美国（TG@阿伟科技/油管） 15
-      - 梦歌|隧道中转|流媒体解锁_17
-      - 美国（TG@阿伟科技/油管） 5
-      - 美国（TG@阿伟科技/油管） 5 2
-      - 美国（TG@阿伟科技/油管） 6
-      - SG_(ios小火箭软件|ioskaka.com)
-      - US_(ios小火箭软件|ioskaka.com)
-      - 美国（TG@阿伟科技/油管） 7
-      - 日本阿伟科技atTG/油管_1096_1424 |55.21Mb
-      - 美国（TG@阿伟科技/油管） 8
-      - 梦歌|流量跑完失效_25
-      - 美国（TG@阿伟科技/油管） 9
-      - 日本阿伟科技atTG/油管_1096_1424 |55.21Mb 2
-      - 梦歌|隧道中转|流媒体解锁_13
-      - Youtube/ONE·资源核 2
-      - US_(ios小火箭软件|ioskaka.com) 2
-      - 14.29.124.168:25286
-      - 德国（TG@阿伟科技/油管）
-      - 欢迎订阅钱科技0422_🇨🇳_CN_中国_7
-      - 德国（TG@阿伟科技/油管） 2
-      - 香港（TG@阿伟科技/油管）
-      - 新加坡（TG@阿伟科技/油管）
-      - (ios小火箭软件|ioskaka.com)_🇨🇳_中国_31
+      - 日本（TG@阿伟科技/油管）
+      - 中国 【YouTube由零开始】
+      - 梦歌|VPN|直连_16
+      - 梦歌|VPN|直连_15
       - ♥️YouTube梦歌♥️_13
-      - (ios小火箭软件|ioskaka.com)
-      - 美国（TG@阿伟科技/油管） 10
+      - Youtube/ONE·资源核
+      - 韩国（TG@阿伟科技/油管）
+      - 西美高速2
+      - 梦歌|VPN|直连_18
+      - 香港（TG@阿伟科技/油管）
+      - 梦歌|流量跑完失效_25
+      - 荷兰（欢迎订阅YouTube晓柒科技）
+      - 美国 【YouTube由零开始】
+      - 梦歌|隧道中转|流媒体解锁_7
+      - 梦歌|隧道中转|流媒体解锁_2
+      - 梦歌|VPN|直连_11
+      - 荷兰（欢迎订阅YouTube晓柒科技） 2
+      - 梦歌|临时节点_26
+      - 英国（TG@阿伟科技/油管）
+      - 美国（欢迎订阅YouTube晓柒科技）
+      - 荷兰（欢迎订阅YouTube晓柒科技） 3
+      - 澳大利亚（TG@阿伟科技/油管） 4
+      - 澳大利亚（TG@阿伟科技/油管）
+      - 梦歌|VPN|直连_5
+      - 香港（TG@阿伟科技/油管） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 3
+      - 印度（欢迎订阅YouTube晓柒科技）
+      - 印度（欢迎订阅YouTube晓柒科技） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 4
+      - 14.29.124.168:25297
+      - 14.29.124.168:25294
+      - Youtube/ONE·资源核 2
+      - Youtube/ONE·资源核 3
+      - Youtube/ONE·资源核 4
+      - Youtube/ONE·资源核 5
+      - 14.29.124.168:25283
+      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 5
+      - 荷兰（TG@阿伟科技/油管）
+      - 14.29.124.168:25286
+      - 14.29.124.168:25259
+      - 梦歌|隧道中转|流媒体解锁_13
       - CN_8du.shop
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 印度（TG@阿伟科技/油管）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - 澳大利亚（TG@阿伟科技/油管） 3
+      - (ios小火箭软件|ioskaka.com)
+      - 荷兰（欢迎订阅YouTube晓柒科技） 4
+      - 14.29.124.168:25230
+      - 梦歌|VPN|直连_24
+      - github.com/freefq - 广东省广州市黄埔区珠江宽频 30
+      - Youtube/ONE·资源核 6
+      - 荷兰（欢迎订阅YouTube晓柒科技） 5
+      - 新加坡（TG@阿伟科技/油管）
+      - CN_8du.shop 2
+      - 美国（TG@阿伟科技/油管） 2
+      - github.com/freefq - 美国CloudFlare节点 17
       - 🇸🇬 粉丝投稿🍄新103.157.250.20
       - 🇭🇰 粉丝投稿🍄港103.157.250.19
       - 🇸🇬 粉丝投稿🍄新103.157.250.21
@@ -226,54 +242,62 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国（TG@阿伟科技/油管）
-      - 韩国（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管） 4
-      - cn1.relay.iepl.pw:50300
-      - Youtube/ONE·资源核
-      - ♥️YouTube梦歌♥️_4
-      - 韩国（TG@阿伟科技/油管） 2
-      - cn1.relay.iepl.pw:50400
-      - 梦歌|隧道中转|流媒体解锁_7
-      - 梦歌|VPN|直连_13
-      - 美国（TG@阿伟科技/油管） 3
-      - 梦歌|临时节点_26
-      - 美国（TG@阿伟科技/油管） 18
-      - cn1.relay.iepl.pw:50500
-      - 英国（TG@阿伟科技/油管）
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管） 3
-      - 美国（TG@阿伟科技/油管） 15
-      - 梦歌|隧道中转|流媒体解锁_17
-      - 美国（TG@阿伟科技/油管） 5
-      - 美国（TG@阿伟科技/油管） 5 2
-      - 美国（TG@阿伟科技/油管） 6
-      - SG_(ios小火箭软件|ioskaka.com)
-      - US_(ios小火箭软件|ioskaka.com)
-      - 美国（TG@阿伟科技/油管） 7
-      - 日本阿伟科技atTG/油管_1096_1424 |55.21Mb
-      - 美国（TG@阿伟科技/油管） 8
-      - 梦歌|流量跑完失效_25
-      - 美国（TG@阿伟科技/油管） 9
-      - 日本阿伟科技atTG/油管_1096_1424 |55.21Mb 2
-      - 梦歌|隧道中转|流媒体解锁_13
-      - Youtube/ONE·资源核 2
-      - US_(ios小火箭软件|ioskaka.com) 2
-      - 14.29.124.168:25286
-      - 德国（TG@阿伟科技/油管）
-      - 欢迎订阅钱科技0422_🇨🇳_CN_中国_7
-      - 德国（TG@阿伟科技/油管） 2
-      - 香港（TG@阿伟科技/油管）
-      - 新加坡（TG@阿伟科技/油管）
-      - (ios小火箭软件|ioskaka.com)_🇨🇳_中国_31
+      - 日本（TG@阿伟科技/油管）
+      - 中国 【YouTube由零开始】
+      - 梦歌|VPN|直连_16
+      - 梦歌|VPN|直连_15
       - ♥️YouTube梦歌♥️_13
-      - (ios小火箭软件|ioskaka.com)
-      - 美国（TG@阿伟科技/油管） 10
+      - Youtube/ONE·资源核
+      - 韩国（TG@阿伟科技/油管）
+      - 西美高速2
+      - 梦歌|VPN|直连_18
+      - 香港（TG@阿伟科技/油管）
+      - 梦歌|流量跑完失效_25
+      - 荷兰（欢迎订阅YouTube晓柒科技）
+      - 美国 【YouTube由零开始】
+      - 梦歌|隧道中转|流媒体解锁_7
+      - 梦歌|隧道中转|流媒体解锁_2
+      - 梦歌|VPN|直连_11
+      - 荷兰（欢迎订阅YouTube晓柒科技） 2
+      - 梦歌|临时节点_26
+      - 英国（TG@阿伟科技/油管）
+      - 美国（欢迎订阅YouTube晓柒科技）
+      - 荷兰（欢迎订阅YouTube晓柒科技） 3
+      - 澳大利亚（TG@阿伟科技/油管） 4
+      - 澳大利亚（TG@阿伟科技/油管）
+      - 梦歌|VPN|直连_5
+      - 香港（TG@阿伟科技/油管） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 3
+      - 印度（欢迎订阅YouTube晓柒科技）
+      - 印度（欢迎订阅YouTube晓柒科技） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 4
+      - 14.29.124.168:25297
+      - 14.29.124.168:25294
+      - Youtube/ONE·资源核 2
+      - Youtube/ONE·资源核 3
+      - Youtube/ONE·资源核 4
+      - Youtube/ONE·资源核 5
+      - 14.29.124.168:25283
+      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 5
+      - 荷兰（TG@阿伟科技/油管）
+      - 14.29.124.168:25286
+      - 14.29.124.168:25259
+      - 梦歌|隧道中转|流媒体解锁_13
       - CN_8du.shop
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 印度（TG@阿伟科技/油管）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - 澳大利亚（TG@阿伟科技/油管） 3
+      - (ios小火箭软件|ioskaka.com)
+      - 荷兰（欢迎订阅YouTube晓柒科技） 4
+      - 14.29.124.168:25230
+      - 梦歌|VPN|直连_24
+      - github.com/freefq - 广东省广州市黄埔区珠江宽频 30
+      - Youtube/ONE·资源核 6
+      - 荷兰（欢迎订阅YouTube晓柒科技） 5
+      - 新加坡（TG@阿伟科技/油管）
+      - CN_8du.shop 2
+      - 美国（TG@阿伟科技/油管） 2
+      - github.com/freefq - 美国CloudFlare节点 17
       - 🇸🇬 粉丝投稿🍄新103.157.250.20
       - 🇭🇰 粉丝投稿🍄港103.157.250.19
       - 🇸🇬 粉丝投稿🍄新103.157.250.21
@@ -337,54 +361,62 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国（TG@阿伟科技/油管）
-      - 韩国（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管） 4
-      - cn1.relay.iepl.pw:50300
-      - Youtube/ONE·资源核
-      - ♥️YouTube梦歌♥️_4
-      - 韩国（TG@阿伟科技/油管） 2
-      - cn1.relay.iepl.pw:50400
-      - 梦歌|隧道中转|流媒体解锁_7
-      - 梦歌|VPN|直连_13
-      - 美国（TG@阿伟科技/油管） 3
-      - 梦歌|临时节点_26
-      - 美国（TG@阿伟科技/油管） 18
-      - cn1.relay.iepl.pw:50500
-      - 英国（TG@阿伟科技/油管）
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管） 3
-      - 美国（TG@阿伟科技/油管） 15
-      - 梦歌|隧道中转|流媒体解锁_17
-      - 美国（TG@阿伟科技/油管） 5
-      - 美国（TG@阿伟科技/油管） 5 2
-      - 美国（TG@阿伟科技/油管） 6
-      - SG_(ios小火箭软件|ioskaka.com)
-      - US_(ios小火箭软件|ioskaka.com)
-      - 美国（TG@阿伟科技/油管） 7
-      - 日本阿伟科技atTG/油管_1096_1424 |55.21Mb
-      - 美国（TG@阿伟科技/油管） 8
-      - 梦歌|流量跑完失效_25
-      - 美国（TG@阿伟科技/油管） 9
-      - 日本阿伟科技atTG/油管_1096_1424 |55.21Mb 2
-      - 梦歌|隧道中转|流媒体解锁_13
-      - Youtube/ONE·资源核 2
-      - US_(ios小火箭软件|ioskaka.com) 2
-      - 14.29.124.168:25286
-      - 德国（TG@阿伟科技/油管）
-      - 欢迎订阅钱科技0422_🇨🇳_CN_中国_7
-      - 德国（TG@阿伟科技/油管） 2
-      - 香港（TG@阿伟科技/油管）
-      - 新加坡（TG@阿伟科技/油管）
-      - (ios小火箭软件|ioskaka.com)_🇨🇳_中国_31
+      - 日本（TG@阿伟科技/油管）
+      - 中国 【YouTube由零开始】
+      - 梦歌|VPN|直连_16
+      - 梦歌|VPN|直连_15
       - ♥️YouTube梦歌♥️_13
-      - (ios小火箭软件|ioskaka.com)
-      - 美国（TG@阿伟科技/油管） 10
+      - Youtube/ONE·资源核
+      - 韩国（TG@阿伟科技/油管）
+      - 西美高速2
+      - 梦歌|VPN|直连_18
+      - 香港（TG@阿伟科技/油管）
+      - 梦歌|流量跑完失效_25
+      - 荷兰（欢迎订阅YouTube晓柒科技）
+      - 美国 【YouTube由零开始】
+      - 梦歌|隧道中转|流媒体解锁_7
+      - 梦歌|隧道中转|流媒体解锁_2
+      - 梦歌|VPN|直连_11
+      - 荷兰（欢迎订阅YouTube晓柒科技） 2
+      - 梦歌|临时节点_26
+      - 英国（TG@阿伟科技/油管）
+      - 美国（欢迎订阅YouTube晓柒科技）
+      - 荷兰（欢迎订阅YouTube晓柒科技） 3
+      - 澳大利亚（TG@阿伟科技/油管） 4
+      - 澳大利亚（TG@阿伟科技/油管）
+      - 梦歌|VPN|直连_5
+      - 香港（TG@阿伟科技/油管） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 3
+      - 印度（欢迎订阅YouTube晓柒科技）
+      - 印度（欢迎订阅YouTube晓柒科技） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 4
+      - 14.29.124.168:25297
+      - 14.29.124.168:25294
+      - Youtube/ONE·资源核 2
+      - Youtube/ONE·资源核 3
+      - Youtube/ONE·资源核 4
+      - Youtube/ONE·资源核 5
+      - 14.29.124.168:25283
+      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 5
+      - 荷兰（TG@阿伟科技/油管）
+      - 14.29.124.168:25286
+      - 14.29.124.168:25259
+      - 梦歌|隧道中转|流媒体解锁_13
       - CN_8du.shop
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 印度（TG@阿伟科技/油管）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - 澳大利亚（TG@阿伟科技/油管） 3
+      - (ios小火箭软件|ioskaka.com)
+      - 荷兰（欢迎订阅YouTube晓柒科技） 4
+      - 14.29.124.168:25230
+      - 梦歌|VPN|直连_24
+      - github.com/freefq - 广东省广州市黄埔区珠江宽频 30
+      - Youtube/ONE·资源核 6
+      - 荷兰（欢迎订阅YouTube晓柒科技） 5
+      - 新加坡（TG@阿伟科技/油管）
+      - CN_8du.shop 2
+      - 美国（TG@阿伟科技/油管） 2
+      - github.com/freefq - 美国CloudFlare节点 17
       - 🇸🇬 粉丝投稿🍄新103.157.250.20
       - 🇭🇰 粉丝投稿🍄港103.157.250.19
       - 🇸🇬 粉丝投稿🍄新103.157.250.21
@@ -460,54 +492,62 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国（TG@阿伟科技/油管）
-      - 韩国（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管） 4
-      - cn1.relay.iepl.pw:50300
-      - Youtube/ONE·资源核
-      - ♥️YouTube梦歌♥️_4
-      - 韩国（TG@阿伟科技/油管） 2
-      - cn1.relay.iepl.pw:50400
-      - 梦歌|隧道中转|流媒体解锁_7
-      - 梦歌|VPN|直连_13
-      - 美国（TG@阿伟科技/油管） 3
-      - 梦歌|临时节点_26
-      - 美国（TG@阿伟科技/油管） 18
-      - cn1.relay.iepl.pw:50500
-      - 英国（TG@阿伟科技/油管）
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管） 3
-      - 美国（TG@阿伟科技/油管） 15
-      - 梦歌|隧道中转|流媒体解锁_17
-      - 美国（TG@阿伟科技/油管） 5
-      - 美国（TG@阿伟科技/油管） 5 2
-      - 美国（TG@阿伟科技/油管） 6
-      - SG_(ios小火箭软件|ioskaka.com)
-      - US_(ios小火箭软件|ioskaka.com)
-      - 美国（TG@阿伟科技/油管） 7
-      - 日本阿伟科技atTG/油管_1096_1424 |55.21Mb
-      - 美国（TG@阿伟科技/油管） 8
-      - 梦歌|流量跑完失效_25
-      - 美国（TG@阿伟科技/油管） 9
-      - 日本阿伟科技atTG/油管_1096_1424 |55.21Mb 2
-      - 梦歌|隧道中转|流媒体解锁_13
-      - Youtube/ONE·资源核 2
-      - US_(ios小火箭软件|ioskaka.com) 2
-      - 14.29.124.168:25286
-      - 德国（TG@阿伟科技/油管）
-      - 欢迎订阅钱科技0422_🇨🇳_CN_中国_7
-      - 德国（TG@阿伟科技/油管） 2
-      - 香港（TG@阿伟科技/油管）
-      - 新加坡（TG@阿伟科技/油管）
-      - (ios小火箭软件|ioskaka.com)_🇨🇳_中国_31
+      - 日本（TG@阿伟科技/油管）
+      - 中国 【YouTube由零开始】
+      - 梦歌|VPN|直连_16
+      - 梦歌|VPN|直连_15
       - ♥️YouTube梦歌♥️_13
-      - (ios小火箭软件|ioskaka.com)
-      - 美国（TG@阿伟科技/油管） 10
+      - Youtube/ONE·资源核
+      - 韩国（TG@阿伟科技/油管）
+      - 西美高速2
+      - 梦歌|VPN|直连_18
+      - 香港（TG@阿伟科技/油管）
+      - 梦歌|流量跑完失效_25
+      - 荷兰（欢迎订阅YouTube晓柒科技）
+      - 美国 【YouTube由零开始】
+      - 梦歌|隧道中转|流媒体解锁_7
+      - 梦歌|隧道中转|流媒体解锁_2
+      - 梦歌|VPN|直连_11
+      - 荷兰（欢迎订阅YouTube晓柒科技） 2
+      - 梦歌|临时节点_26
+      - 英国（TG@阿伟科技/油管）
+      - 美国（欢迎订阅YouTube晓柒科技）
+      - 荷兰（欢迎订阅YouTube晓柒科技） 3
+      - 澳大利亚（TG@阿伟科技/油管） 4
+      - 澳大利亚（TG@阿伟科技/油管）
+      - 梦歌|VPN|直连_5
+      - 香港（TG@阿伟科技/油管） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 3
+      - 印度（欢迎订阅YouTube晓柒科技）
+      - 印度（欢迎订阅YouTube晓柒科技） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 4
+      - 14.29.124.168:25297
+      - 14.29.124.168:25294
+      - Youtube/ONE·资源核 2
+      - Youtube/ONE·资源核 3
+      - Youtube/ONE·资源核 4
+      - Youtube/ONE·资源核 5
+      - 14.29.124.168:25283
+      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 5
+      - 荷兰（TG@阿伟科技/油管）
+      - 14.29.124.168:25286
+      - 14.29.124.168:25259
+      - 梦歌|隧道中转|流媒体解锁_13
       - CN_8du.shop
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 印度（TG@阿伟科技/油管）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - 澳大利亚（TG@阿伟科技/油管） 3
+      - (ios小火箭软件|ioskaka.com)
+      - 荷兰（欢迎订阅YouTube晓柒科技） 4
+      - 14.29.124.168:25230
+      - 梦歌|VPN|直连_24
+      - github.com/freefq - 广东省广州市黄埔区珠江宽频 30
+      - Youtube/ONE·资源核 6
+      - 荷兰（欢迎订阅YouTube晓柒科技） 5
+      - 新加坡（TG@阿伟科技/油管）
+      - CN_8du.shop 2
+      - 美国（TG@阿伟科技/油管） 2
+      - github.com/freefq - 美国CloudFlare节点 17
       - 🇸🇬 粉丝投稿🍄新103.157.250.20
       - 🇭🇰 粉丝投稿🍄港103.157.250.19
       - 🇸🇬 粉丝投稿🍄新103.157.250.21
@@ -570,60 +610,70 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 香港（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 2
+      - 香港（TG@阿伟科技/油管） 5
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国（TG@阿伟科技/油管）
-      - 韩国（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管） 4
-      - cn1.relay.iepl.pw:50300
-      - Youtube/ONE·资源核
-      - ♥️YouTube梦歌♥️_4
-      - 韩国（TG@阿伟科技/油管） 2
-      - cn1.relay.iepl.pw:50400
-      - 梦歌|隧道中转|流媒体解锁_7
-      - 梦歌|VPN|直连_13
-      - 美国（TG@阿伟科技/油管） 3
-      - 梦歌|临时节点_26
-      - 美国（TG@阿伟科技/油管） 18
-      - cn1.relay.iepl.pw:50500
-      - 英国（TG@阿伟科技/油管）
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管） 3
-      - 美国（TG@阿伟科技/油管） 15
-      - 梦歌|隧道中转|流媒体解锁_17
-      - 美国（TG@阿伟科技/油管） 5
-      - 美国（TG@阿伟科技/油管） 5 2
-      - 美国（TG@阿伟科技/油管） 6
-      - SG_(ios小火箭软件|ioskaka.com)
-      - US_(ios小火箭软件|ioskaka.com)
-      - 美国（TG@阿伟科技/油管） 7
-      - 日本阿伟科技atTG/油管_1096_1424 |55.21Mb
-      - 美国（TG@阿伟科技/油管） 8
-      - 梦歌|流量跑完失效_25
-      - 美国（TG@阿伟科技/油管） 9
-      - 日本阿伟科技atTG/油管_1096_1424 |55.21Mb 2
-      - 梦歌|隧道中转|流媒体解锁_13
-      - Youtube/ONE·资源核 2
-      - US_(ios小火箭软件|ioskaka.com) 2
-      - 14.29.124.168:25286
-      - 德国（TG@阿伟科技/油管）
-      - 欢迎订阅钱科技0422_🇨🇳_CN_中国_7
-      - 德国（TG@阿伟科技/油管） 2
-      - 香港（TG@阿伟科技/油管）
-      - 新加坡（TG@阿伟科技/油管）
-      - (ios小火箭软件|ioskaka.com)_🇨🇳_中国_31
+      - 日本（TG@阿伟科技/油管）
+      - 中国 【YouTube由零开始】
+      - 梦歌|VPN|直连_16
+      - 梦歌|VPN|直连_15
       - ♥️YouTube梦歌♥️_13
-      - (ios小火箭软件|ioskaka.com)
-      - 美国（TG@阿伟科技/油管） 10
+      - Youtube/ONE·资源核
+      - 韩国（TG@阿伟科技/油管）
+      - 西美高速2
+      - 梦歌|VPN|直连_18
+      - 香港（TG@阿伟科技/油管）
+      - 梦歌|流量跑完失效_25
+      - 荷兰（欢迎订阅YouTube晓柒科技）
+      - 美国 【YouTube由零开始】
+      - 梦歌|隧道中转|流媒体解锁_7
+      - 梦歌|隧道中转|流媒体解锁_2
+      - 梦歌|VPN|直连_11
+      - 荷兰（欢迎订阅YouTube晓柒科技） 2
+      - 梦歌|临时节点_26
+      - 英国（TG@阿伟科技/油管）
+      - 美国（欢迎订阅YouTube晓柒科技）
+      - 荷兰（欢迎订阅YouTube晓柒科技） 3
+      - 澳大利亚（TG@阿伟科技/油管） 4
+      - 澳大利亚（TG@阿伟科技/油管）
+      - 梦歌|VPN|直连_5
+      - 香港（TG@阿伟科技/油管） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 3
+      - 印度（欢迎订阅YouTube晓柒科技）
+      - 印度（欢迎订阅YouTube晓柒科技） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 4
+      - 14.29.124.168:25297
+      - 14.29.124.168:25294
+      - Youtube/ONE·资源核 2
+      - Youtube/ONE·资源核 3
+      - Youtube/ONE·资源核 4
+      - Youtube/ONE·资源核 5
+      - 14.29.124.168:25283
+      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 5
+      - 荷兰（TG@阿伟科技/油管）
+      - 14.29.124.168:25286
+      - 14.29.124.168:25259
+      - 梦歌|隧道中转|流媒体解锁_13
       - CN_8du.shop
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 印度（TG@阿伟科技/油管）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - 澳大利亚（TG@阿伟科技/油管） 3
+      - (ios小火箭软件|ioskaka.com)
+      - 荷兰（欢迎订阅YouTube晓柒科技） 4
+      - 14.29.124.168:25230
+      - 梦歌|VPN|直连_24
+      - github.com/freefq - 广东省广州市黄埔区珠江宽频 30
+      - Youtube/ONE·资源核 6
+      - 荷兰（欢迎订阅YouTube晓柒科技） 5
+      - 新加坡（TG@阿伟科技/油管）
+      - CN_8du.shop 2
+      - 美国（TG@阿伟科技/油管） 2
+      - github.com/freefq - 美国CloudFlare节点 17
       - 🇸🇬 粉丝投稿🍄新103.157.250.20
       - 🇭🇰 粉丝投稿🍄港103.157.250.19
       - 🇸🇬 粉丝投稿🍄新103.157.250.21
@@ -686,54 +736,62 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国（TG@阿伟科技/油管）
-      - 韩国（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管） 4
-      - cn1.relay.iepl.pw:50300
-      - Youtube/ONE·资源核
-      - ♥️YouTube梦歌♥️_4
-      - 韩国（TG@阿伟科技/油管） 2
-      - cn1.relay.iepl.pw:50400
-      - 梦歌|隧道中转|流媒体解锁_7
-      - 梦歌|VPN|直连_13
-      - 美国（TG@阿伟科技/油管） 3
-      - 梦歌|临时节点_26
-      - 美国（TG@阿伟科技/油管） 18
-      - cn1.relay.iepl.pw:50500
-      - 英国（TG@阿伟科技/油管）
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管） 3
-      - 美国（TG@阿伟科技/油管） 15
-      - 梦歌|隧道中转|流媒体解锁_17
-      - 美国（TG@阿伟科技/油管） 5
-      - 美国（TG@阿伟科技/油管） 5 2
-      - 美国（TG@阿伟科技/油管） 6
-      - SG_(ios小火箭软件|ioskaka.com)
-      - US_(ios小火箭软件|ioskaka.com)
-      - 美国（TG@阿伟科技/油管） 7
-      - 日本阿伟科技atTG/油管_1096_1424 |55.21Mb
-      - 美国（TG@阿伟科技/油管） 8
-      - 梦歌|流量跑完失效_25
-      - 美国（TG@阿伟科技/油管） 9
-      - 日本阿伟科技atTG/油管_1096_1424 |55.21Mb 2
-      - 梦歌|隧道中转|流媒体解锁_13
-      - Youtube/ONE·资源核 2
-      - US_(ios小火箭软件|ioskaka.com) 2
-      - 14.29.124.168:25286
-      - 德国（TG@阿伟科技/油管）
-      - 欢迎订阅钱科技0422_🇨🇳_CN_中国_7
-      - 德国（TG@阿伟科技/油管） 2
-      - 香港（TG@阿伟科技/油管）
-      - 新加坡（TG@阿伟科技/油管）
-      - (ios小火箭软件|ioskaka.com)_🇨🇳_中国_31
+      - 日本（TG@阿伟科技/油管）
+      - 中国 【YouTube由零开始】
+      - 梦歌|VPN|直连_16
+      - 梦歌|VPN|直连_15
       - ♥️YouTube梦歌♥️_13
-      - (ios小火箭软件|ioskaka.com)
-      - 美国（TG@阿伟科技/油管） 10
+      - Youtube/ONE·资源核
+      - 韩国（TG@阿伟科技/油管）
+      - 西美高速2
+      - 梦歌|VPN|直连_18
+      - 香港（TG@阿伟科技/油管）
+      - 梦歌|流量跑完失效_25
+      - 荷兰（欢迎订阅YouTube晓柒科技）
+      - 美国 【YouTube由零开始】
+      - 梦歌|隧道中转|流媒体解锁_7
+      - 梦歌|隧道中转|流媒体解锁_2
+      - 梦歌|VPN|直连_11
+      - 荷兰（欢迎订阅YouTube晓柒科技） 2
+      - 梦歌|临时节点_26
+      - 英国（TG@阿伟科技/油管）
+      - 美国（欢迎订阅YouTube晓柒科技）
+      - 荷兰（欢迎订阅YouTube晓柒科技） 3
+      - 澳大利亚（TG@阿伟科技/油管） 4
+      - 澳大利亚（TG@阿伟科技/油管）
+      - 梦歌|VPN|直连_5
+      - 香港（TG@阿伟科技/油管） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 3
+      - 印度（欢迎订阅YouTube晓柒科技）
+      - 印度（欢迎订阅YouTube晓柒科技） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 4
+      - 14.29.124.168:25297
+      - 14.29.124.168:25294
+      - Youtube/ONE·资源核 2
+      - Youtube/ONE·资源核 3
+      - Youtube/ONE·资源核 4
+      - Youtube/ONE·资源核 5
+      - 14.29.124.168:25283
+      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 5
+      - 荷兰（TG@阿伟科技/油管）
+      - 14.29.124.168:25286
+      - 14.29.124.168:25259
+      - 梦歌|隧道中转|流媒体解锁_13
       - CN_8du.shop
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 印度（TG@阿伟科技/油管）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - 澳大利亚（TG@阿伟科技/油管） 3
+      - (ios小火箭软件|ioskaka.com)
+      - 荷兰（欢迎订阅YouTube晓柒科技） 4
+      - 14.29.124.168:25230
+      - 梦歌|VPN|直连_24
+      - github.com/freefq - 广东省广州市黄埔区珠江宽频 30
+      - Youtube/ONE·资源核 6
+      - 荷兰（欢迎订阅YouTube晓柒科技） 5
+      - 新加坡（TG@阿伟科技/油管）
+      - CN_8du.shop 2
+      - 美国（TG@阿伟科技/油管） 2
+      - github.com/freefq - 美国CloudFlare节点 17
       - 🇸🇬 粉丝投稿🍄新103.157.250.20
       - 🇭🇰 粉丝投稿🍄港103.157.250.19
       - 🇸🇬 粉丝投稿🍄新103.157.250.21
@@ -797,54 +855,62 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国（TG@阿伟科技/油管）
-      - 韩国（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管） 4
-      - cn1.relay.iepl.pw:50300
-      - Youtube/ONE·资源核
-      - ♥️YouTube梦歌♥️_4
-      - 韩国（TG@阿伟科技/油管） 2
-      - cn1.relay.iepl.pw:50400
-      - 梦歌|隧道中转|流媒体解锁_7
-      - 梦歌|VPN|直连_13
-      - 美国（TG@阿伟科技/油管） 3
-      - 梦歌|临时节点_26
-      - 美国（TG@阿伟科技/油管） 18
-      - cn1.relay.iepl.pw:50500
-      - 英国（TG@阿伟科技/油管）
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管） 3
-      - 美国（TG@阿伟科技/油管） 15
-      - 梦歌|隧道中转|流媒体解锁_17
-      - 美国（TG@阿伟科技/油管） 5
-      - 美国（TG@阿伟科技/油管） 5 2
-      - 美国（TG@阿伟科技/油管） 6
-      - SG_(ios小火箭软件|ioskaka.com)
-      - US_(ios小火箭软件|ioskaka.com)
-      - 美国（TG@阿伟科技/油管） 7
-      - 日本阿伟科技atTG/油管_1096_1424 |55.21Mb
-      - 美国（TG@阿伟科技/油管） 8
-      - 梦歌|流量跑完失效_25
-      - 美国（TG@阿伟科技/油管） 9
-      - 日本阿伟科技atTG/油管_1096_1424 |55.21Mb 2
-      - 梦歌|隧道中转|流媒体解锁_13
-      - Youtube/ONE·资源核 2
-      - US_(ios小火箭软件|ioskaka.com) 2
-      - 14.29.124.168:25286
-      - 德国（TG@阿伟科技/油管）
-      - 欢迎订阅钱科技0422_🇨🇳_CN_中国_7
-      - 德国（TG@阿伟科技/油管） 2
-      - 香港（TG@阿伟科技/油管）
-      - 新加坡（TG@阿伟科技/油管）
-      - (ios小火箭软件|ioskaka.com)_🇨🇳_中国_31
+      - 日本（TG@阿伟科技/油管）
+      - 中国 【YouTube由零开始】
+      - 梦歌|VPN|直连_16
+      - 梦歌|VPN|直连_15
       - ♥️YouTube梦歌♥️_13
-      - (ios小火箭软件|ioskaka.com)
-      - 美国（TG@阿伟科技/油管） 10
+      - Youtube/ONE·资源核
+      - 韩国（TG@阿伟科技/油管）
+      - 西美高速2
+      - 梦歌|VPN|直连_18
+      - 香港（TG@阿伟科技/油管）
+      - 梦歌|流量跑完失效_25
+      - 荷兰（欢迎订阅YouTube晓柒科技）
+      - 美国 【YouTube由零开始】
+      - 梦歌|隧道中转|流媒体解锁_7
+      - 梦歌|隧道中转|流媒体解锁_2
+      - 梦歌|VPN|直连_11
+      - 荷兰（欢迎订阅YouTube晓柒科技） 2
+      - 梦歌|临时节点_26
+      - 英国（TG@阿伟科技/油管）
+      - 美国（欢迎订阅YouTube晓柒科技）
+      - 荷兰（欢迎订阅YouTube晓柒科技） 3
+      - 澳大利亚（TG@阿伟科技/油管） 4
+      - 澳大利亚（TG@阿伟科技/油管）
+      - 梦歌|VPN|直连_5
+      - 香港（TG@阿伟科技/油管） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 3
+      - 印度（欢迎订阅YouTube晓柒科技）
+      - 印度（欢迎订阅YouTube晓柒科技） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 4
+      - 14.29.124.168:25297
+      - 14.29.124.168:25294
+      - Youtube/ONE·资源核 2
+      - Youtube/ONE·资源核 3
+      - Youtube/ONE·资源核 4
+      - Youtube/ONE·资源核 5
+      - 14.29.124.168:25283
+      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 5
+      - 荷兰（TG@阿伟科技/油管）
+      - 14.29.124.168:25286
+      - 14.29.124.168:25259
+      - 梦歌|隧道中转|流媒体解锁_13
       - CN_8du.shop
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 印度（TG@阿伟科技/油管）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - 澳大利亚（TG@阿伟科技/油管） 3
+      - (ios小火箭软件|ioskaka.com)
+      - 荷兰（欢迎订阅YouTube晓柒科技） 4
+      - 14.29.124.168:25230
+      - 梦歌|VPN|直连_24
+      - github.com/freefq - 广东省广州市黄埔区珠江宽频 30
+      - Youtube/ONE·资源核 6
+      - 荷兰（欢迎订阅YouTube晓柒科技） 5
+      - 新加坡（TG@阿伟科技/油管）
+      - CN_8du.shop 2
+      - 美国（TG@阿伟科技/油管） 2
+      - github.com/freefq - 美国CloudFlare节点 17
       - 🇸🇬 粉丝投稿🍄新103.157.250.20
       - 🇭🇰 粉丝投稿🍄港103.157.250.19
       - 🇸🇬 粉丝投稿🍄新103.157.250.21
@@ -917,54 +983,62 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国（TG@阿伟科技/油管）
-      - 韩国（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管） 4
-      - cn1.relay.iepl.pw:50300
-      - Youtube/ONE·资源核
-      - ♥️YouTube梦歌♥️_4
-      - 韩国（TG@阿伟科技/油管） 2
-      - cn1.relay.iepl.pw:50400
-      - 梦歌|隧道中转|流媒体解锁_7
-      - 梦歌|VPN|直连_13
-      - 美国（TG@阿伟科技/油管） 3
-      - 梦歌|临时节点_26
-      - 美国（TG@阿伟科技/油管） 18
-      - cn1.relay.iepl.pw:50500
-      - 英国（TG@阿伟科技/油管）
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管） 3
-      - 美国（TG@阿伟科技/油管） 15
-      - 梦歌|隧道中转|流媒体解锁_17
-      - 美国（TG@阿伟科技/油管） 5
-      - 美国（TG@阿伟科技/油管） 5 2
-      - 美国（TG@阿伟科技/油管） 6
-      - SG_(ios小火箭软件|ioskaka.com)
-      - US_(ios小火箭软件|ioskaka.com)
-      - 美国（TG@阿伟科技/油管） 7
-      - 日本阿伟科技atTG/油管_1096_1424 |55.21Mb
-      - 美国（TG@阿伟科技/油管） 8
-      - 梦歌|流量跑完失效_25
-      - 美国（TG@阿伟科技/油管） 9
-      - 日本阿伟科技atTG/油管_1096_1424 |55.21Mb 2
-      - 梦歌|隧道中转|流媒体解锁_13
-      - Youtube/ONE·资源核 2
-      - US_(ios小火箭软件|ioskaka.com) 2
-      - 14.29.124.168:25286
-      - 德国（TG@阿伟科技/油管）
-      - 欢迎订阅钱科技0422_🇨🇳_CN_中国_7
-      - 德国（TG@阿伟科技/油管） 2
-      - 香港（TG@阿伟科技/油管）
-      - 新加坡（TG@阿伟科技/油管）
-      - (ios小火箭软件|ioskaka.com)_🇨🇳_中国_31
+      - 日本（TG@阿伟科技/油管）
+      - 中国 【YouTube由零开始】
+      - 梦歌|VPN|直连_16
+      - 梦歌|VPN|直连_15
       - ♥️YouTube梦歌♥️_13
-      - (ios小火箭软件|ioskaka.com)
-      - 美国（TG@阿伟科技/油管） 10
+      - Youtube/ONE·资源核
+      - 韩国（TG@阿伟科技/油管）
+      - 西美高速2
+      - 梦歌|VPN|直连_18
+      - 香港（TG@阿伟科技/油管）
+      - 梦歌|流量跑完失效_25
+      - 荷兰（欢迎订阅YouTube晓柒科技）
+      - 美国 【YouTube由零开始】
+      - 梦歌|隧道中转|流媒体解锁_7
+      - 梦歌|隧道中转|流媒体解锁_2
+      - 梦歌|VPN|直连_11
+      - 荷兰（欢迎订阅YouTube晓柒科技） 2
+      - 梦歌|临时节点_26
+      - 英国（TG@阿伟科技/油管）
+      - 美国（欢迎订阅YouTube晓柒科技）
+      - 荷兰（欢迎订阅YouTube晓柒科技） 3
+      - 澳大利亚（TG@阿伟科技/油管） 4
+      - 澳大利亚（TG@阿伟科技/油管）
+      - 梦歌|VPN|直连_5
+      - 香港（TG@阿伟科技/油管） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 3
+      - 印度（欢迎订阅YouTube晓柒科技）
+      - 印度（欢迎订阅YouTube晓柒科技） 2
+      - 美国（欢迎订阅YouTube晓柒科技） 4
+      - 14.29.124.168:25297
+      - 14.29.124.168:25294
+      - Youtube/ONE·资源核 2
+      - Youtube/ONE·资源核 3
+      - Youtube/ONE·资源核 4
+      - Youtube/ONE·资源核 5
+      - 14.29.124.168:25283
+      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 5
+      - 荷兰（TG@阿伟科技/油管）
+      - 14.29.124.168:25286
+      - 14.29.124.168:25259
+      - 梦歌|隧道中转|流媒体解锁_13
       - CN_8du.shop
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 印度（TG@阿伟科技/油管）
-      - CA-高速节点购买：v1.mk/vip（浏览器打开）
+      - 澳大利亚（TG@阿伟科技/油管） 3
+      - (ios小火箭软件|ioskaka.com)
+      - 荷兰（欢迎订阅YouTube晓柒科技） 4
+      - 14.29.124.168:25230
+      - 梦歌|VPN|直连_24
+      - github.com/freefq - 广东省广州市黄埔区珠江宽频 30
+      - Youtube/ONE·资源核 6
+      - 荷兰（欢迎订阅YouTube晓柒科技） 5
+      - 新加坡（TG@阿伟科技/油管）
+      - CN_8du.shop 2
+      - 美国（TG@阿伟科技/油管） 2
+      - github.com/freefq - 美国CloudFlare节点 17
       - 🇸🇬 粉丝投稿🍄新103.157.250.20
       - 🇭🇰 粉丝投稿🍄港103.157.250.19
       - 🇸🇬 粉丝投稿🍄新103.157.250.21
