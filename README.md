@@ -5,411 +5,1111 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港杨枝甘露 03, server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq12xdq7a.com, port: 10003, type: ss, cipher: aes-256-gcm, password: 84acbd63-a965-466f-8fec-17cb7f532011, udp: true}
-  - {name: 香港丝袜奶茶 02, server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq12xdq7a.com, port: 10002, type: ss, cipher: aes-256-gcm, password: 84acbd63-a965-466f-8fec-17cb7f532011, udp: true}
-  - {name: ♥️YouTube梦歌♥️_41, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: e337ee02-3ce7-4ec1-9409-1db48c29192c, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇲🇾_MY_马来西亚, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 印度（TG@阿伟科技/油管）, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 2, server: gy.sharecentrepro.tk, port: 13397, type: trojan, password: d3b04e55-f2ae-4500-b317-e23946dde463, sni: gy.sharecentrepro.tk, skip-cert-verify: true, udp: true}
-  - {name: us 直连-美国-T-A | 节点更新 https://bit.ly/36b6iJh, server: 143.198.66.103, port: 42236, type: vmess, uuid: 525e4d7c-fa07-4a21-c8f9-4f22442f0bd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtue/ONE·资源核, server: hka.quickconnect.buzz, port: 80, type: vmess, uuid: 1c9a05c2-1e06-45e1-a94b-b6910b2ae29c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}, udp: true}
+  - {name: Youtue/ONE·资源核 2, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
+  - {name: 香港（TG@阿伟科技/油管） 7, server: azhk2.mayiyun.vip, port: 80, type: vmess, uuid: 54b3ef87-0084-4362-af57-2fb494d8ca15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: azhk2.mayiyun.vip}, udp: true}
+  - {name: 新加坡（TG@阿伟科技/油管）, server: v2-3.godlight.xyz, port: 39276, type: vmess, uuid: 6a52f259-4367-468c-a828-7b8283c2f059, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /f45361465j175, ws-headers: {Host: v2-3.godlight.xyz}, udp: true}
+  - {name: 香港（TG@阿伟科技/油管）, server: azhk2.mayiyun.vip, port: 80, type: vmess, uuid: 54b3ef87-0084-4362-af57-2fb494d8ca15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: vali-dns.cp31.ott.cibntv.net}, udp: true}
+  - {name: 美国（TG@阿伟科技/油管）, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 香港（TG@阿伟科技/油管） 2, server: azhk2.mayiyun.vip, port: 10015, type: ss, cipher: aes-256-gcm, password: 54b3ef87-0084-4362-af57-2fb494d8ca15, udp: true}
+  - {name: Youtue/ONE·资源核 3, server: hkaz1.xmrth-node.xyz, port: 10062, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: hkaz1.xmrth-node.xyz}, udp: true}
+  - {name: Youtue/ONE·资源核 4, server: gtm-sg-6wr2na7z604.gtm-i1d9.com, port: 47010, type: vmess, uuid: 63d9a40c-5ce9-3025-8e7e-8630cba33480, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: gtm-sg-6wr2na7z604.gtm-i1d9.com}, udp: true}
+  - {name: github.com/freefq - 日本东京Linode数据中心 17, server: jp.567568.ml, port: 443, type: trojan, password: 1293e022-6347-4d7e-8425-e65576b6ae0e, sni: jp.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: 日本（TG@阿伟科技/油管）, server: jp3.mayiyun.vip, port: 8080, type: vmess, uuid: 54b3ef87-0084-4362-af57-2fb494d8ca15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: Youtue/ONE·资源核 5, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_8, server: yyyy.wwwbhjy.com, port: 2443, type: vmess, uuid: dee32eb7-e190-4c6f-dd27-aa9c82cd5490, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /8a76fb13/, ws-headers: {Host: yyyy.wwwbhjy.com}, udp: true}
+  - {name: Youtue/ONE·资源核 6, server: 167.88.61.70, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ♥️YouTube梦歌♥️_11, server: yyyy.wwwbhjy.com, port: 2443, type: vmess, uuid: dee32eb7-e190-4c6f-dd27-aa9c82cd5490, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /8a76fb13/, ws-headers: {Host: yyyy.wwwbhjy.com}, udp: true}
+  - {name: 台湾（TG@阿伟科技/油管）, server: tw.thissitesucks.top, port: 443, type: vmess, uuid: ce758a08-003f-4b05-982e-5264cbd13f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /822950b47896/, ws-headers: {Host: tw.thissitesucks.top}, udp: true}
+  - {name: 日本（TG@阿伟科技/油管） 2, server: jp.thissitesucks.top, port: 443, type: vmess, uuid: 74e86db5-1c8b-4913-87ad-1a1e314a1e34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /2dc13452a/, ws-headers: {Host: jp.thissitesucks.top}, udp: true}
+  - {name: 德国（TG@阿伟科技/油管）, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: hkaz1.xmrth-node.xyz}, udp: true}
+  - {name: _US_美国, server: 167.88.61.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Youtue/ONE·资源核 7, server: 38.114.114.19, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Youtue/ONE·资源核 8, server: hkaz5.xmrth-node.xyz, port: 13889, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: hkaz5.xmrth-node.xyz}, udp: true}
+  - {name: Youtue/ONE·资源核 9, server: 38.114.114.19, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Youtue/ONE·资源核 10, server: 38.114.114.19, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 日本（TG@阿伟科技/油管） 6, server: jp3.mayiyun.vip, port: 8080, type: vmess, uuid: 54b3ef87-0084-4362-af57-2fb494d8ca15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp3.mayiyun.vip}, udp: true}
+  - {name: 科技网络, server: 167.88.61.60, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 科技网络 2, server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Youtue/ONE·资源核 11, server: 167.88.61.213, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Youtue/ONE·资源核 12, server: 167.88.61.213, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 科技网络 3, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 167.88.61.70:8119, server: 167.88.61.70, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Youtue/ONE·资源核 13, server: 38.114.114.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: Youtue/ONE·资源核 14, server: 167.88.61.70, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 科技网络 4, server: 167.88.61.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 科技网络 5, server: 167.88.61.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Youtue/ONE·资源核 15, server: 167.88.61.70, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: tcp us 【直连】, server: 143.198.66.103, port: 27262, type: vmess, uuid: e1d79f41-816a-4881-84e4-d69be4c1ddc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 印度184-24@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.21.76.229, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 香港煎酿三宝 04, server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq12xdq7a.com, port: 10004, type: ss, cipher: aes-256-gcm, password: 84acbd63-a965-466f-8fec-17cb7f532011, udp: true}
-  - {name: 直连-日本T-A 2_vmess_ws, server: 104.25.234.170, port: 443, type: vmess, uuid: f78db9ae-24c2-4a83-9d96-e8def79d0379, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: jp02.884899.cf}, udp: true}
-  - {name: Youtube/ONE·资源核, server: 43.129.227.60, port: 27727, type: vmess, uuid: d00f5ea9-4658-4f0a-a6c3-e29ef711cf3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.129.227.60]}}, udp: true}
-  - {name: 美国（TG@阿伟科技/油管）, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 印度184-17@1Gbps节点更新 https://bit.ly/36b6iJh, server: 172.67.223.77, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-36 联通12.71 节点更新 https://bit.ly/36b6iJh, server: 172.67.62.214, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-9@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.16.160.114, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-8@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.25.104.240, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-19@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.25.175.69, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-27@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.16.181.15, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-10@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.16.110.238, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-38 联通11.55 节点更新 https://bit.ly/36b6iJh, server: 172.67.54.193, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-15@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.22.4.180, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-12@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.20.130.175, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: (ios小火箭软件|ioskaka.com), server: 1chuan.top, port: 443, type: vmess, uuid: fa8f90e0-2fae-4b05-df7a-ea325bc517d8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /evo, ws-headers: {Host: 1chuan.top}, udp: true}
-  - {name: 印度184-13@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.21.239.147, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: ♥️YouTube梦歌♥️_25, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: e337ee02-3ce7-4ec1-9409-1db48c29192c, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 印度184-11@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.18.8.157, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-26@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.16.182.15, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-29@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.19.23.24, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-1电信@1Gbps 节点更新 https://bit.ly/36b6iJh, server: www.digitalocean.com, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-39 联通11.11 节点更新 https://bit.ly/36b6iJh, server: 104.22.66.8, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-7@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.20.130.43, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: _CN_中国->🇬🇧_GB_英国, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 英国 【YouTube由零开始】, server: gkdcm.gkdcn.top, port: 25884, type: vmess, uuid: cdf87157-574b-4dd0-983e-8a1031ec6029, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.18.135.208, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-37 联通11.95 节点更新 https://bit.ly/36b6iJh, server: 104.27.207.5, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-35 联通14.07 节点更新 https://bit.ly/36b6iJh, server: 104.27.192.65, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 英国 【YouTube由零开始】 2, server: gkdcu.gkdcn.top, port: 25884, type: vmess, uuid: cdf87157-574b-4dd0-983e-8a1031ec6029, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: 印度184-4 联通100M+4K -2 节点更新 https://bit.ly/36b6iJh, server: 104.17.36.178, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-28@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.16.148.48, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG, server: 104.16.16.255, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾 2, server: guangzhou.kuli888.xyz, port: 52004, type: trojan, password: 54acbfdc-34ec-3d72-8182-3b437e4747eb, sni: guangzhou.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh, server: www.garmin.com, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-23@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.16.149.48, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-21联通100M+4K   节点更新 https://bit.ly/36b6iJh, server: 104.18.27.64, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s, server: 104.16.167.138, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
+  - {name: 科技网络 6, server: 167.88.61.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Youtue/ONE·资源核 16, server: 167.88.61.70, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Youtue/ONE·资源核 17, server: 38.75.136.21, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国 2, server: 167.88.61.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 3, server: 167.88.61.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 科技网络 7, server: 167.88.61.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 4, server: 38.75.136.21, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 科技网络 8, server: 167.88.61.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Youtue/ONE·资源核 18, server: 38.75.136.21, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 直连-日本T-A _vmess_ws  172.104.64.47, server: jp.567568.ml, port: 443, type: vmess, uuid: 1293e022-6347-4d7e-8425-e65576b6ae0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: jp.567568.ml}, udp: true}
+  - {name: Youtue/ONE·资源核 19, server: 38.114.114.19, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 科技网络 9, server: 167.88.61.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 5, server: 38.75.136.21, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Youtue/ONE·资源核 20, server: 38.114.114.19, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Youtue/ONE·资源核 21, server: 167.88.61.70, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Youtue/ONE·资源核 22, server: 167.88.61.70, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 6, server: 38.75.136.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ♥️YouTube梦歌♥️_16, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: e337ee02-3ce7-4ec1-9409-1db48c29192c, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 7, server: 38.75.136.21, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 8, server: 38.75.136.21, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Youtue/ONE·资源核 23, server: 167.88.61.70, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 9, server: 38.75.136.49, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 10, server: 38.75.136.21, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 科技网络 10, server: 167.88.61.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 科技网络 11, server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ♥️YouTube梦歌♥️_38, server: bj2.quickconnect.buzz, port: 80, type: vmess, uuid: 1c9a05c2-1e06-45e1-a94b-b6910b2ae29c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v9-dy.ixigua.com}, udp: true}
+  - {name: Youtue/ONE·资源核 24, server: asd1v.baozipay.top, port: 443, type: trojan, password: rYA8dFQI6R2qTwP0, sni: asd1v.baozipay.top, skip-cert-verify: true, udp: true}
+  - {name: Youtue/ONE·资源核 25, server: 167.88.61.70, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Youtue/ONE·资源核 26, server: 167.88.61.70, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 11, server: 38.75.136.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Youtue/ONE·资源核 27, server: 167.88.61.70, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Youtue/ONE·资源核 28, server: 167.88.61.70, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 【YouTube由零开始】, server: www.digitalocean.com, port: 443, type: vmess, uuid: 589756d8-2214-49d5-995b-ed3b43f8cb78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctvvws, ws-headers: {Host: olo.aoyyds.tk}, udp: true}
-  - {name: 印度184-33 联通15.02m  节点更新 https://bit.ly/36b6iJh, server: 172.67.60.78, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 英国 【YouTube由零开始】 3, server: 172.99.190.90, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _GB_英国, server: 172.99.190.90, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 2, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: a67ad154-cfea-4305-8e25-ddd50809a5e2, udp: true}
-  - {name: 印度184-18@1Gbps节点更新 https://bit.ly/36b6iJh, server: 172.67.209.58, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 新加坡（TG@阿伟科技/油管）, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: a67ad154-cfea-4305-8e25-ddd50809a5e2, udp: true}
-  - {name: 印度184-34 联通14.9 节点更新 https://bit.ly/36b6iJh, server: 104.25.140.153, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: _US_美国, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, sni: jgwdj2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: Youtue/ONE·资源核 29, server: 167.88.61.70, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Youtue/ONE·资源核 30, server: 38.114.114.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 科技网络 12, server: 167.88.61.60, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国 12, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, sni: jgwdj2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: Youtue/ONE·资源核 31, server: 167.88.61.70, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 13, server: 167.88.61.70, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 科技网络 13, server: 167.88.61.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Youtue/ONE·资源核 32, server: 167.88.61.213, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 科技网络 14, server: 167.88.61.60, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Youtue/ONE·资源核 33, server: 167.88.61.213, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 科技网络 15, server: 167.88.61.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 14, server: 38.75.136.116, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 科技网络 16, server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 科技网络 17, server: 167.88.61.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 15, server: 167.88.61.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: ♥️YouTube梦歌♥️_61, server: leonguangzhou.asuscomm.com, port: 20000, type: vmess, uuid: 5b059403-c05c-4609-ab01-a9352041d2e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray-path, ws-headers: {Host: leonguangzhou.asuscomm.com}, udp: true}
-  - {name: 日本（TG@阿伟科技/油管）, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: a67ad154-cfea-4305-8e25-ddd50809a5e2, udp: true}
-  - {name: _GB_英国 2, server: 172.99.190.90, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: us2 【直连】, server: 172.104.64.47, port: 14683, type: vmess, uuid: 7d1e6851-c43f-4000-dc58-e81bf45f595c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians, ws-headers: {Host: 172.104.64.47}, udp: true}
-  - {name: _GB_英国 3, server: 172.99.190.90, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _GB_英国 4, server: 172.99.190.90, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _GB_英国 5, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国 6, server: 172.99.190.90, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 韩国（TG@阿伟科技/油管）, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: a67ad154-cfea-4305-8e25-ddd50809a5e2, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 3, server: 66.42.111.55, port: 35874, type: vmess, uuid: b0602b3e-c3e2-11ec-9e4a-560003f65c5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /0BFK7hzT/, ws-headers: {Host: 66.42.111.55}, udp: true}
+  - {name: Youtue/ONE·资源核 34, server: 167.88.61.70, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtue/ONE·资源核 35, server: 104.19.3.16, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
+  - {name: _US_美国 16, server: 38.68.134.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 17, server: 38.68.134.190, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_欢迎下载软件库app, server: trojan2.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan2.free4444.xyz, skip-cert-verify: true, udp: true}
+  - {name: Youtue/ONE·资源核 36, server: 38.68.134.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: us 直连-美国-T-A | 节点更新 https://bit.ly/36b6iJh, server: 143.198.66.103, port: 42236, type: vmess, uuid: 525e4d7c-fa07-4a21-c8f9-4f22442f0bd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本（TG@阿伟科技/油管） 3, server: v2-1.godlight.xyz, port: 12236, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /j75g1461x, ws-headers: {Host: v2-1.godlight.xyz}, udp: true}
+  - {name: _US_美国 18, server: 38.68.134.190, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 19, server: 38.75.136.21, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtue/ONE·资源核 37, server: 38.68.134.190, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: Youtue/ONE·资源核 38, server: 38.68.134.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Youtue/ONE·资源核 39, server: v2-5.godlight.xyz, port: 39786, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /71h4b3s1f53, ws-headers: {Host: v2-5.godlight.xyz}, udp: true}
+  - {name: Youtue/ONE·资源核 40, server: 38.68.134.190, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Youtue/ONE·资源核 41, server: 38.68.134.190, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 20, server: 38.68.134.190, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 21, server: 38.75.136.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 22, server: 38.68.134.190, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Youtue/ONE·资源核 42, server: jp03-vm0.entry.ikuuu.casa, port: 446, type: vmess, uuid: 7a3260de-b844-393a-93d2-ecad918439a3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp03-vm0.entry.ikuuu.casa}, udp: true}
+  - {name: Youtue/ONE·资源核 43, server: 38.68.134.190, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Youtue/ONE·资源核 44, server: 134.195.196.133, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 2, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 科技网络 18, server: 167.88.61.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 23, server: 38.68.134.190, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Youtue/ONE·资源核 45, server: 38.68.134.190, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 24, server: 142.202.48.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 科技网络 19, server: 167.88.61.204, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国 25, server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Youtue/ONE·资源核 46, server: 38.68.134.190, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 26, server: 167.88.63.117, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 27, server: 142.202.48.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Youtue/ONE·资源核 47, server: 137.175.40.171, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/181012123433, ws-headers: {Host: www.45043834.xyz}, udp: true}
+  - {name: Youtue/ONE·资源核 48, server: 38.121.43.204, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 28, server: 142.202.48.52, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Youtue/ONE·资源核 49, server: 134.195.196.51, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Youtue/ONE·资源核 50, server: 134.195.196.51, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _US_美国 29, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Youtue/ONE·资源核 51, server: 134.195.196.51, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _GB_英国, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_英国 2, server: 172.99.190.92, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: Youtue/ONE·资源核 52, server: 142.4.112.60, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/181012123433, ws-headers: {Host: www.32754213.xyz}, udp: true}
+  - {name: Youtue/ONE·资源核 53, server: 172.104.157.118, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _GB_英国 3, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Youtue/ONE·资源核 54, server: 172.104.157.118, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _GB_英国 4, server: 172.99.190.92, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国 5, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ♥️YouTube梦歌♥️_32, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: Youtue/ONE·资源核 55, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 45.35.84.162}, udp: true}
+  - {name: _GB_英国 6, server: 172.99.190.92, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 台湾（TG@阿伟科技/油管） 2, server: hkaz1.xmrth-node.xyz, port: 10062, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
+  - {name: Youtue/ONE·资源核 56, server: 172.104.157.118, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Youtue/ONE·资源核 57, server: 172.104.157.118, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Youtue/ONE·资源核 58, server: 172.104.157.118, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Youtue/ONE·资源核 59, server: 172.104.157.118, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: ♥️YouTube梦歌♥️_25, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: e337ee02-3ce7-4ec1-9409-1db48c29192c, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: Youtue/ONE·资源核 60, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
+  - {name: Youtue/ONE·资源核 61, server: misaka1433.tk, port: 443, type: trojan, password: YcQgIbGZNNd1PwsF, sni: misaka1433.tk, skip-cert-verify: true, udp: true}
+  - {name: 韩国（TG@阿伟科技/油管）, server: kr5.mayiyun.vip, port: 80, type: vmess, uuid: 54b3ef87-0084-4362-af57-2fb494d8ca15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_37, server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ♥️YouTube梦歌♥️_24, server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtue/ONE·资源核 62, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 45.35.84.162}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_14, server: v2ray.wefuckgfw.ga, port: 8443, type: vmess, uuid: 135284c6-b353-11ec-a378-52ac00ea1411, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /E94olUFf/, ws-headers: {Host: v2ray.wefuckgfw.ga}, udp: true}
+  - {name: _US_美国 30, server: 167.88.63.108, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ♥️YouTube梦歌♥️_32 2, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: e337ee02-3ce7-4ec1-9409-1db48c29192c, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: Youtue/ONE·资源核 63, server: 172.105.162.49, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 乌克兰（TG@阿伟科技/油管）, server: v2ray.wefuckgfw.ga, port: 8443, type: vmess, uuid: 104ce500-b353-11ec-a378-52ac00ea1411, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /E94olUFf/, ws-headers: {Host: v2ray.wefuckgfw.ga}, udp: true}
+  - {name: _US_美国 31, server: 167.88.63.108, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ♥️YouTube梦歌♥️_19, server: bj1.quickconnect.buzz, port: 80, type: vmess, uuid: 1c9a05c2-1e06-45e1-a94b-b6910b2ae29c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: Youtue/ONE·资源核 64, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
+  - {name: _US_美国 32, server: 142.202.48.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 科技网络 20, server: 167.88.61.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Youtue/ONE·资源核 65, server: 103.62.49.141, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: ♥️YouTube梦歌♥️_41, server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 213.183.51.172:9024, server: 213.183.51.172, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: 科技网络 21, server: 167.88.61.204, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Youtue/ONE·资源核 66, server: 167.88.63.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ♥️YouTube梦歌♥️_21, server: jpe.quickconnect.buzz, port: 80, type: vmess, uuid: 1c9a05c2-1e06-45e1-a94b-b6910b2ae29c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtue/ONE·资源核 67, server: hkaz5.xmrth-node.xyz, port: 13889, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
+  - {name: 香港（TG@阿伟科技/油管） 3, server: 120.233.10.71, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本, server: hncu.relay.qchwnd.moe, port: 10201, type: trojan, password: 5b059403-c05c-4609-ab01-a9352041d2e4, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: Youtue/ONE·资源核 68, server: 167.88.61.60, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 科技网络 22, server: 167.88.61.60, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtue/ONE·资源核 69, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 82a96743-115b-356d-90ae-2928f32d8958, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 330tw.fans8.xyz}, udp: true}
+  - {name: Youtue/ONE·资源核 70, server: 38.75.136.49, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtue/ONE·资源核 71, server: 172.104.157.118, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ♥️YouTube梦歌♥️_27, server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 科技网络 23, server: 167.88.61.60, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 33, server: 167.88.63.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Youtue/ONE·资源核 72, server: 38.68.134.71, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 韩国（TG@阿伟科技/油管） 2, server: kr.mayiyun.vip, port: 80, type: vmess, uuid: 54b3ef87-0084-4362-af57-2fb494d8ca15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: 西美高速2, server: 2.ezydfdd.com, port: 443, type: vmess, uuid: 8f826e79-4ee0-436b-9b68-5aa7c1094a82, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 2.ezydfdd.com}, udp: true}
+  - {name: 香港（TG@阿伟科技/油管） 4, server: 104.16.80.38, port: 443, type: vmess, uuid: cb76d9c8-682e-4721-950c-1455caa3e5a8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /km_ws, ws-headers: {Host: hello.km12.tk}, udp: true}
+  - {name: Youtue/ONE·资源核 73, server: gy.sharecentrepro.tk, port: 10001, type: vmess, uuid: 6731a7a4-cac0-4218-d3e7-a4fe8c933b5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xrenblog, ws-headers: {Host: gy.sharecentrepro.tk}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_4, server: cm-jm.okvpn.xyz, port: 20004, type: trojan, password: e337ee02-3ce7-4ec1-9409-1db48c29192c, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: Youtue/ONE·资源核 8 2, server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtue/ONE·资源核 74, server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 34, server: 38.114.114.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 英国（TG@阿伟科技/油管）, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 35, server: 167.88.63.108, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ♥️YouTube梦歌♥️_33, server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 36, server: 167.88.63.108, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 英国（TG@阿伟科技/油管） 2, server: uk.mayiyun.vip, port: 10014, type: ss, cipher: aes-256-gcm, password: 54b3ef87-0084-4362-af57-2fb494d8ca15, udp: true}
+  - {name: 亚洲(ios小火箭软件|ioskaka.com), server: 120.240.48.20, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 120.240.48.20}, udp: true}
+  - {name: 新加坡（TG@阿伟科技/油管） 2, server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: sg3.31vpn.com}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_51, server: hkaz1.xmrth-node.xyz, port: 10973, type: vmess, uuid: ebb8920a-63c4-368f-b3fd-3794f4fa1c98, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 3, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan33.free4444.xyz, skip-cert-verify: true, udp: true}
+  - {name: ♥️YouTube梦歌♥️_55, server: asr-farda.ir, port: 49110, type: vmess, uuid: 47bce6b8-c260-11ec-b514-000c297a3bfd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /pdOa1847/, ws-headers: {Host: asr-farda.ir}, udp: true}
+  - {name: us2 【直连】, server: 172.104.64.47, port: 14683, type: vmess, uuid: 7d1e6851-c43f-4000-dc58-e81bf45f595c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians, ws-headers: {Host: 172.104.64.47}, udp: true}
+  - {name: _US_美国 37, server: 38.114.114.19, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: github.com/freefq - 美国  16, server: 45.147.160.86, port: 813, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: 荷兰（TG@阿伟科技/油管）, server: 85.209.159.107, port: 20403, type: vmess, uuid: b3b08b1c-c0a4-11ec-8151-00163c3fe0cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Asq7j5Mb/, ws-headers: {Host: 85.209.159.107}, udp: true}
+  - {name: Youtube/ONE·资源核, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: Youtube/ONE·资源核 2, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 印度184-16@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.22.44.50, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: ♥️YouTube梦歌♥️_32, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: e337ee02-3ce7-4ec1-9409-1db48c29192c, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 14.29.124.168:25294, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: Youtube/ONE·资源核 3, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: Youtube/ONE·资源核 4, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: Youtube/ONE·资源核 5, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 14.29.124.168:25259, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _GB_英国 7, server: 172.99.190.90, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 台湾（TG@阿伟科技/油管）, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: a67ad154-cfea-4305-8e25-ddd50809a5e2, udp: true}
-  - {name: 香港（TG@阿伟科技/油管）, server: cn1.relay.iepl.pw, port: 50100, type: ss, cipher: aes-128-gcm, password: a67ad154-cfea-4305-8e25-ddd50809a5e2, udp: true}
-  - {name: Youtube/ONE·资源核 6, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25230, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 印度184-40 联通10.26 节点更新 https://bit.ly/36b6iJh, server: 104.27.197.63, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-20@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.20.81.240, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: ♥️YouTube梦歌♥️_4, server: cm-jm.okvpn.xyz, port: 20004, type: trojan, password: e337ee02-3ce7-4ec1-9409-1db48c29192c, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯（TG@阿伟科技/油管）, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: a67ad154-cfea-4305-8e25-ddd50809a5e2, udp: true}
-  - {name: 印度184-14@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.22.3.3, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-32 联通28.64m 节点更新 https://bit.ly/36b6iJh, server: 104.27.200.69, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: cm-jm.okvpn.xyz, port: 20004, type: trojan, password: fdb88add-f0a3-4984-8a54-2969d84d6aef, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 4, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: us02.gogogoo.cyou}, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 5, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_14, server: v2ray.wefuckgfw.ga, port: 8443, type: vmess, uuid: 135284c6-b353-11ec-a378-52ac00ea1411, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /E94olUFf/, ws-headers: {Host: v2ray.wefuckgfw.ga}, udp: true}
-  - {name: 西美高速2, server: 2.ezydfdd.com, port: 443, type: vmess, uuid: 8f826e79-4ee0-436b-9b68-5aa7c1094a82, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 2.ezydfdd.com}, udp: true}
-  - {name: 直连-日本T-A _vmess_ws  172.104.64.47, server: jp.567568.ml, port: 443, type: vmess, uuid: 1293e022-6347-4d7e-8425-e65576b6ae0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: jp.567568.ml}, udp: true}
-  - {name: 英国 【YouTube由零开始】 4, server: 172.99.190.90, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国 8, server: 172.99.190.90, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 英国 【YouTube由零开始】 5, server: 172.99.190.90, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 6, server: 88.218.92.145, port: 22407, type: vmess, uuid: 7a894129-eb94-43e3-b48e-25a255a0f346, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 88.218.92.145}, udp: true}
+  - {name: 韩国（TG@阿伟科技/油管） 2 2, server: kr.mayiyun.vip, port: 80, type: vmess, uuid: 54b3ef87-0084-4362-af57-2fb494d8ca15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr.mayiyun.vip}, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 4, server: trojan12.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan12.free4444.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 5, server: gy.sharecentrepro.tk, port: 10001, type: vmess, uuid: 6731a7a4-cac0-4218-d3e7-a4fe8c933b5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xrenblog, ws-headers: {Host: sgp.xrenblog.com}, udp: true}
+  - {name: 韩国（TG@阿伟科技/油管） 3, server: kr5.mayiyun.vip, port: 80, type: vmess, uuid: 54b3ef87-0084-4362-af57-2fb494d8ca15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr5.mayiyun.vip}, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 7, server: hkaz4.xmrth-node.xyz, port: 13302, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_4 2, server: jpb.quickconnect.buzz, port: 80, type: vmess, uuid: 1c9a05c2-1e06-45e1-a94b-b6910b2ae29c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 14.29.124.168:25294, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: ♥️YouTube梦歌♥️_41 2, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: e337ee02-3ce7-4ec1-9409-1db48c29192c, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 日本  12, server: kr4.mayiyun.vip, port: 80, type: vmess, uuid: 54b3ef87-0084-4362-af57-2fb494d8ca15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 6, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 4ee48ad8-178c-40a2-9c52-a14e90a06e49, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nmsl, ws-headers: {Host: 1.ezydfdd.com}, udp: true}
+  - {name: 亚洲(ios小火箭软件|ioskaka.com) 2, server: 101.230.149.29, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 101.230.149.29}, udp: true}
+  - {name: 新加坡（TG@阿伟科技/油管） 3, server: sg3.31vpn.com, port: 443, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: sg3.31vpn.com}, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 7, server: sg.guiqing.ml, port: 43956, type: vmess, uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.20, server: 183.240.9.28, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿🍄港103.157.250.19, server: 183.240.9.28, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.21, server: 183.240.9.28, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.22, server: 183.240.9.28, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.23, server: 183.240.9.28, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.26, server: 183.240.9.28, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.27, server: 183.240.9.28, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.20 2, server: 183.240.9.29, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿🍄港103.157.250.19 2, server: 183.240.9.29, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.21 2, server: 183.240.9.29, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.22 2, server: 183.240.9.29, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.23 2, server: 183.240.9.29, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.26 2, server: 183.240.9.29, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.27 2, server: 183.240.9.29, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.20 3, server: 183.240.9.30, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿🍄港103.157.250.19 3, server: 183.240.9.30, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.21 3, server: 183.240.9.30, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.22 3, server: 183.240.9.30, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.23 3, server: 183.240.9.30, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.26 3, server: 183.240.9.30, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.27 3, server: 183.240.9.30, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.20 4, server: 183.240.9.31, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿🍄港103.157.250.19 4, server: 183.240.9.31, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.21 4, server: 183.240.9.31, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.22 4, server: 183.240.9.31, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.23 4, server: 183.240.9.31, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.26 4, server: 183.240.9.31, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.27 4, server: 183.240.9.31, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.251.20, server: 120.232.251.206, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿🍄港103.157.251.19, server: 120.232.251.206, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 粉丝投稿, server: 120.232.251.206, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 粉丝投稿 2, server: 120.232.251.206, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 粉丝投稿 3, server: 120.232.251.206, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 粉丝投稿 4, server: 120.232.251.206, port: 29985, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 粉丝投稿 5, server: 120.232.251.206, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 粉丝投稿 6, server: 120.232.251.206, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 粉丝投稿 7, server: 120.232.251.206, port: 29994, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 粉丝投稿 8, server: 120.232.251.206, port: 29996, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 粉丝投稿 9, server: 120.232.251.206, port: 29998, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿 1--无限流量, server: 183.240.9.28, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿 2--无限流量, server: 183.240.9.28, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿 3--无限流量, server: 183.240.9.28, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿 4--无限流量, server: 183.240.9.28, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿 5--无限流量, server: 183.240.9.28, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿 6--无限流量, server: 183.240.9.28, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿 7--无限流量, server: 183.240.9.28, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 无限流量 1--无限流量, server: 120.232.251.206, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 无限流量 2--无限流量, server: 120.232.251.206, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 无限流量 3--无限流量, server: 120.232.251.206, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 无限流量 4--无限流量, server: 120.232.251.206, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 无限流量 5--无限流量, server: 120.232.251.206, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 无限流量 6--无限流量, server: 120.232.251.206, port: 29985, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 无限流量 7--无限流量, server: 120.232.251.206, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 无限流量 8--无限流量, server: 120.232.251.206, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 无限流量 9--无限流量, server: 120.232.251.206, port: 29994, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 无限流量 10--无限流量, server: 120.232.251.206, port: 29996, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 无限流量 11--无限流量, server: 120.232.251.206, port: 29998, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港杨枝甘露 03
-      - 香港丝袜奶茶 02
-      - ♥️YouTube梦歌♥️_41
-      - _CN_中国->🇲🇾_MY_马来西亚
-      - 印度（TG@阿伟科技/油管）
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国->🇭🇰_HK_香港 2
-      - us 直连-美国-T-A | 节点更新 https://bit.ly/36b6iJh
-      - tcp us 【直连】
-      - 印度184-24@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 香港煎酿三宝 04
-      - 直连-日本T-A 2_vmess_ws
-      - Youtube/ONE·资源核
-      - 美国（TG@阿伟科技/油管）
-      - 印度184-17@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-36 联通12.71 节点更新 https://bit.ly/36b6iJh
-      - 印度184-9@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-8@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-19@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-27@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-10@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-38 联通11.55 节点更新 https://bit.ly/36b6iJh
-      - 印度184-15@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-12@1Gbps节点更新 https://bit.ly/36b6iJh
-      - (ios小火箭软件|ioskaka.com)
-      - 印度184-13@1Gbps节点更新 https://bit.ly/36b6iJh
-      - ♥️YouTube梦歌♥️_25
-      - 印度184-11@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-26@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-29@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-1电信@1Gbps 节点更新 https://bit.ly/36b6iJh
-      - 印度184-39 联通11.11 节点更新 https://bit.ly/36b6iJh
-      - 印度184-7@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _CN_中国->🇬🇧_GB_英国
-      - 英国 【YouTube由零开始】
-      - 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-37 联通11.95 节点更新 https://bit.ly/36b6iJh
-      - 印度184-35 联通14.07 节点更新 https://bit.ly/36b6iJh
-      - 英国 【YouTube由零开始】 2
-      - 印度184-4 联通100M+4K -2 节点更新 https://bit.ly/36b6iJh
-      - 印度184-28@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - _CN_中国->🇹🇼_TW_台湾 2
-      - 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-23@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-21联通100M+4K   节点更新 https://bit.ly/36b6iJh
-      - 印度184-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 【YouTube由零开始】
-      - 印度184-33 联通15.02m  节点更新 https://bit.ly/36b6iJh
-      - 英国 【YouTube由零开始】 3
-      - _GB_英国
-      - 美国（TG@阿伟科技/油管） 2
-      - 印度184-18@1Gbps节点更新 https://bit.ly/36b6iJh
+      - Youtue/ONE·资源核
+      - Youtue/ONE·资源核 2
+      - 香港（TG@阿伟科技/油管） 7
       - 新加坡（TG@阿伟科技/油管）
-      - 印度184-34 联通14.9 节点更新 https://bit.ly/36b6iJh
-      - _US_美国
-      - ♥️YouTube梦歌♥️_61
+      - 香港（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 2
+      - Youtue/ONE·资源核 3
+      - Youtue/ONE·资源核 4
+      - github.com/freefq - 日本东京Linode数据中心 17
       - 日本（TG@阿伟科技/油管）
+      - Youtue/ONE·资源核 5
+      - ♥️YouTube梦歌♥️_8
+      - Youtue/ONE·资源核 6
+      - ♥️YouTube梦歌♥️_11
+      - 台湾（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管） 2
+      - 德国（TG@阿伟科技/油管）
+      - _US_美国
+      - Youtue/ONE·资源核 7
+      - Youtue/ONE·资源核 8
+      - Youtue/ONE·资源核 9
+      - Youtue/ONE·资源核 10
+      - 日本（TG@阿伟科技/油管） 6
+      - 科技网络
+      - 科技网络 2
+      - Youtue/ONE·资源核 11
+      - Youtue/ONE·资源核 12
+      - 科技网络 3
+      - 167.88.61.70:8119
+      - Youtue/ONE·资源核 13
+      - Youtue/ONE·资源核 14
+      - 科技网络 4
+      - 科技网络 5
+      - Youtue/ONE·资源核 15
+      - tcp us 【直连】
+      - 科技网络 6
+      - Youtue/ONE·资源核 16
+      - Youtue/ONE·资源核 17
+      - _US_美国 2
+      - _US_美国 3
+      - 科技网络 7
+      - _US_美国 4
+      - 科技网络 8
+      - Youtue/ONE·资源核 18
+      - 直连-日本T-A _vmess_ws  172.104.64.47
+      - Youtue/ONE·资源核 19
+      - 科技网络 9
+      - _US_美国 5
+      - Youtue/ONE·资源核 20
+      - Youtue/ONE·资源核 21
+      - Youtue/ONE·资源核 22
+      - _US_美国 6
+      - ♥️YouTube梦歌♥️_16
+      - _US_美国 7
+      - _US_美国 8
+      - Youtue/ONE·资源核 23
+      - _US_美国 9
+      - _US_美国 10
+      - 科技网络 10
+      - 科技网络 11
+      - ♥️YouTube梦歌♥️_38
+      - Youtue/ONE·资源核 24
+      - Youtue/ONE·资源核 25
+      - Youtue/ONE·资源核 26
+      - _US_美国 11
+      - Youtue/ONE·资源核 27
+      - Youtue/ONE·资源核 28
+      - 【YouTube由零开始】
+      - Youtue/ONE·资源核 29
+      - Youtue/ONE·资源核 30
+      - 科技网络 12
+      - _US_美国 12
+      - Youtue/ONE·资源核 31
+      - _US_美国 13
+      - 科技网络 13
+      - Youtue/ONE·资源核 32
+      - 科技网络 14
+      - Youtue/ONE·资源核 33
+      - 科技网络 15
+      - _US_美国 14
+      - 科技网络 16
+      - 科技网络 17
+      - _US_美国 15
+      - ♥️YouTube梦歌♥️_61
+      - Youtue/ONE·资源核 34
+      - Youtue/ONE·资源核 35
+      - _US_美国 16
+      - _US_美国 17
+      - US_欢迎下载软件库app
+      - Youtue/ONE·资源核 36
+      - us 直连-美国-T-A | 节点更新 https://bit.ly/36b6iJh
+      - 日本（TG@阿伟科技/油管） 3
+      - _US_美国 18
+      - _US_美国 19
+      - Youtue/ONE·资源核 37
+      - Youtue/ONE·资源核 38
+      - Youtue/ONE·资源核 39
+      - Youtue/ONE·资源核 40
+      - Youtue/ONE·资源核 41
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - Youtue/ONE·资源核 42
+      - Youtue/ONE·资源核 43
+      - Youtue/ONE·资源核 44
+      - 美国（TG@阿伟科技/油管） 2
+      - 科技网络 18
+      - _US_美国 23
+      - Youtue/ONE·资源核 45
+      - _US_美国 24
+      - 科技网络 19
+      - _US_美国 25
+      - Youtue/ONE·资源核 46
+      - _US_美国 26
+      - _US_美国 27
+      - Youtue/ONE·资源核 47
+      - Youtue/ONE·资源核 48
+      - _US_美国 28
+      - Youtue/ONE·资源核 49
+      - Youtue/ONE·资源核 50
+      - _US_美国 29
+      - Youtue/ONE·资源核 51
+      - _GB_英国
       - _GB_英国 2
-      - us2 【直连】
+      - Youtue/ONE·资源核 52
+      - Youtue/ONE·资源核 53
       - _GB_英国 3
+      - Youtue/ONE·资源核 54
       - _GB_英国 4
       - _GB_英国 5
-      - _GB_英国 6
-      - 韩国（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管） 3
-      - 乌克兰（TG@阿伟科技/油管）
-      - Youtube/ONE·资源核 2
-      - 印度184-16@1Gbps节点更新 https://bit.ly/36b6iJh
       - ♥️YouTube梦歌♥️_32
-      - 14.29.124.168:25294
+      - Youtue/ONE·资源核 55
+      - _GB_英国 6
+      - 台湾（TG@阿伟科技/油管） 2
+      - Youtue/ONE·资源核 56
+      - Youtue/ONE·资源核 57
+      - Youtue/ONE·资源核 58
+      - Youtue/ONE·资源核 59
+      - ♥️YouTube梦歌♥️_25
+      - Youtue/ONE·资源核 60
+      - Youtue/ONE·资源核 61
+      - 韩国（TG@阿伟科技/油管）
+      - ♥️YouTube梦歌♥️_37
+      - ♥️YouTube梦歌♥️_24
+      - Youtue/ONE·资源核 62
+      - ♥️YouTube梦歌♥️_14
+      - _US_美国 30
+      - ♥️YouTube梦歌♥️_32 2
+      - Youtue/ONE·资源核 63
+      - 乌克兰（TG@阿伟科技/油管）
+      - _US_美国 31
+      - ♥️YouTube梦歌♥️_19
+      - Youtue/ONE·资源核 64
+      - _US_美国 32
+      - 科技网络 20
+      - Youtue/ONE·资源核 65
+      - ♥️YouTube梦歌♥️_41
+      - 213.183.51.172:9024
+      - 科技网络 21
+      - Youtue/ONE·资源核 66
+      - ♥️YouTube梦歌♥️_21
+      - Youtue/ONE·资源核 67
+      - 香港（TG@阿伟科技/油管） 3
+      - _CN_中国->🇯🇵_JP_日本
+      - Youtue/ONE·资源核 68
+      - 科技网络 22
+      - Youtue/ONE·资源核 69
+      - Youtue/ONE·资源核 70
+      - Youtue/ONE·资源核 71
+      - ♥️YouTube梦歌♥️_27
+      - 科技网络 23
+      - _US_美国 33
+      - Youtue/ONE·资源核 72
+      - 韩国（TG@阿伟科技/油管） 2
+      - 西美高速2
+      - 香港（TG@阿伟科技/油管） 4
+      - Youtue/ONE·资源核 73
+      - ♥️YouTube梦歌♥️_4
+      - Youtue/ONE·资源核 8 2
+      - Youtue/ONE·资源核 74
+      - _US_美国 34
+      - 英国（TG@阿伟科技/油管）
+      - _US_美国 35
+      - ♥️YouTube梦歌♥️_33
+      - _US_美国 36
+      - 英国（TG@阿伟科技/油管） 2
+      - 亚洲(ios小火箭软件|ioskaka.com)
+      - 新加坡（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_51
+      - 美国（TG@阿伟科技/油管） 3
+      - ♥️YouTube梦歌♥️_55
+      - us2 【直连】
+      - _US_美国 37
+      - github.com/freefq - 美国  16
+      - 荷兰（TG@阿伟科技/油管）
+      - Youtube/ONE·资源核
+      - Youtube/ONE·资源核 2
       - Youtube/ONE·资源核 3
       - Youtube/ONE·资源核 4
       - Youtube/ONE·资源核 5
       - 14.29.124.168:25259
-      - _GB_英国 7
-      - 台湾（TG@阿伟科技/油管）
-      - 香港（TG@阿伟科技/油管）
-      - Youtube/ONE·资源核 6
-      - 14.29.124.168:25230
-      - 印度184-40 联通10.26 节点更新 https://bit.ly/36b6iJh
-      - 印度184-20@1Gbps节点更新 https://bit.ly/36b6iJh
-      - ♥️YouTube梦歌♥️_4
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 印度184-14@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-32 联通28.64m 节点更新 https://bit.ly/36b6iJh
-      - _CN_中国->🇺🇸_US_美国
+      - 韩国（TG@阿伟科技/油管） 2 2
       - 美国（TG@阿伟科技/油管） 4
       - 美国（TG@阿伟科技/油管） 5
-      - ♥️YouTube梦歌♥️_14
-      - 西美高速2
-      - 直连-日本T-A _vmess_ws  172.104.64.47
-      - 英国 【YouTube由零开始】 4
-      - _GB_英国 8
-      - 英国 【YouTube由零开始】 5
+      - 韩国（TG@阿伟科技/油管） 3
+      - github.com/freefq - 美国Microsoft数据中心 7
+      - ♥️YouTube梦歌♥️_4 2
+      - 14.29.124.168:25294
+      - ♥️YouTube梦歌♥️_41 2
+      - github.com/freefq - 日本  12
       - 美国（TG@阿伟科技/油管） 6
+      - 亚洲(ios小火箭软件|ioskaka.com) 2
+      - 新加坡（TG@阿伟科技/油管） 3
+      - 美国（TG@阿伟科技/油管） 7
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 2
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 3
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 4
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 4
+      - 🇸🇬 粉丝投稿🍄新103.157.251.20
+      - 🇭🇰 粉丝投稿🍄港103.157.251.19
+      - 粉丝投稿
+      - 粉丝投稿 2
+      - 粉丝投稿 3
+      - 粉丝投稿 4
+      - 粉丝投稿 5
+      - 粉丝投稿 6
+      - 粉丝投稿 7
+      - 粉丝投稿 8
+      - 粉丝投稿 9
+      - 🇭🇰 粉丝投稿 1--无限流量
+      - 🇭🇰 粉丝投稿 2--无限流量
+      - 🇭🇰 粉丝投稿 3--无限流量
+      - 🇭🇰 粉丝投稿 4--无限流量
+      - 🇭🇰 粉丝投稿 5--无限流量
+      - 🇭🇰 粉丝投稿 6--无限流量
+      - 🇭🇰 粉丝投稿 7--无限流量
+      - 🇭🇰 无限流量 1--无限流量
+      - 🇭🇰 无限流量 2--无限流量
+      - 🇭🇰 无限流量 3--无限流量
+      - 🇭🇰 无限流量 4--无限流量
+      - 🇭🇰 无限流量 5--无限流量
+      - 🇭🇰 无限流量 6--无限流量
+      - 🇭🇰 无限流量 7--无限流量
+      - 🇭🇰 无限流量 8--无限流量
+      - 🇭🇰 无限流量 9--无限流量
+      - 🇭🇰 无限流量 10--无限流量
+      - 🇭🇰 无限流量 11--无限流量
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港杨枝甘露 03
-      - 香港丝袜奶茶 02
-      - ♥️YouTube梦歌♥️_41
-      - _CN_中国->🇲🇾_MY_马来西亚
-      - 印度（TG@阿伟科技/油管）
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国->🇭🇰_HK_香港 2
-      - us 直连-美国-T-A | 节点更新 https://bit.ly/36b6iJh
-      - tcp us 【直连】
-      - 印度184-24@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 香港煎酿三宝 04
-      - 直连-日本T-A 2_vmess_ws
-      - Youtube/ONE·资源核
-      - 美国（TG@阿伟科技/油管）
-      - 印度184-17@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-36 联通12.71 节点更新 https://bit.ly/36b6iJh
-      - 印度184-9@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-8@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-19@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-27@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-10@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-38 联通11.55 节点更新 https://bit.ly/36b6iJh
-      - 印度184-15@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-12@1Gbps节点更新 https://bit.ly/36b6iJh
-      - (ios小火箭软件|ioskaka.com)
-      - 印度184-13@1Gbps节点更新 https://bit.ly/36b6iJh
-      - ♥️YouTube梦歌♥️_25
-      - 印度184-11@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-26@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-29@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-1电信@1Gbps 节点更新 https://bit.ly/36b6iJh
-      - 印度184-39 联通11.11 节点更新 https://bit.ly/36b6iJh
-      - 印度184-7@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _CN_中国->🇬🇧_GB_英国
-      - 英国 【YouTube由零开始】
-      - 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-37 联通11.95 节点更新 https://bit.ly/36b6iJh
-      - 印度184-35 联通14.07 节点更新 https://bit.ly/36b6iJh
-      - 英国 【YouTube由零开始】 2
-      - 印度184-4 联通100M+4K -2 节点更新 https://bit.ly/36b6iJh
-      - 印度184-28@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - _CN_中国->🇹🇼_TW_台湾 2
-      - 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-23@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-21联通100M+4K   节点更新 https://bit.ly/36b6iJh
-      - 印度184-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 【YouTube由零开始】
-      - 印度184-33 联通15.02m  节点更新 https://bit.ly/36b6iJh
-      - 英国 【YouTube由零开始】 3
-      - _GB_英国
-      - 美国（TG@阿伟科技/油管） 2
-      - 印度184-18@1Gbps节点更新 https://bit.ly/36b6iJh
+      - Youtue/ONE·资源核
+      - Youtue/ONE·资源核 2
+      - 香港（TG@阿伟科技/油管） 7
       - 新加坡（TG@阿伟科技/油管）
-      - 印度184-34 联通14.9 节点更新 https://bit.ly/36b6iJh
-      - _US_美国
-      - ♥️YouTube梦歌♥️_61
+      - 香港（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 2
+      - Youtue/ONE·资源核 3
+      - Youtue/ONE·资源核 4
+      - github.com/freefq - 日本东京Linode数据中心 17
       - 日本（TG@阿伟科技/油管）
+      - Youtue/ONE·资源核 5
+      - ♥️YouTube梦歌♥️_8
+      - Youtue/ONE·资源核 6
+      - ♥️YouTube梦歌♥️_11
+      - 台湾（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管） 2
+      - 德国（TG@阿伟科技/油管）
+      - _US_美国
+      - Youtue/ONE·资源核 7
+      - Youtue/ONE·资源核 8
+      - Youtue/ONE·资源核 9
+      - Youtue/ONE·资源核 10
+      - 日本（TG@阿伟科技/油管） 6
+      - 科技网络
+      - 科技网络 2
+      - Youtue/ONE·资源核 11
+      - Youtue/ONE·资源核 12
+      - 科技网络 3
+      - 167.88.61.70:8119
+      - Youtue/ONE·资源核 13
+      - Youtue/ONE·资源核 14
+      - 科技网络 4
+      - 科技网络 5
+      - Youtue/ONE·资源核 15
+      - tcp us 【直连】
+      - 科技网络 6
+      - Youtue/ONE·资源核 16
+      - Youtue/ONE·资源核 17
+      - _US_美国 2
+      - _US_美国 3
+      - 科技网络 7
+      - _US_美国 4
+      - 科技网络 8
+      - Youtue/ONE·资源核 18
+      - 直连-日本T-A _vmess_ws  172.104.64.47
+      - Youtue/ONE·资源核 19
+      - 科技网络 9
+      - _US_美国 5
+      - Youtue/ONE·资源核 20
+      - Youtue/ONE·资源核 21
+      - Youtue/ONE·资源核 22
+      - _US_美国 6
+      - ♥️YouTube梦歌♥️_16
+      - _US_美国 7
+      - _US_美国 8
+      - Youtue/ONE·资源核 23
+      - _US_美国 9
+      - _US_美国 10
+      - 科技网络 10
+      - 科技网络 11
+      - ♥️YouTube梦歌♥️_38
+      - Youtue/ONE·资源核 24
+      - Youtue/ONE·资源核 25
+      - Youtue/ONE·资源核 26
+      - _US_美国 11
+      - Youtue/ONE·资源核 27
+      - Youtue/ONE·资源核 28
+      - 【YouTube由零开始】
+      - Youtue/ONE·资源核 29
+      - Youtue/ONE·资源核 30
+      - 科技网络 12
+      - _US_美国 12
+      - Youtue/ONE·资源核 31
+      - _US_美国 13
+      - 科技网络 13
+      - Youtue/ONE·资源核 32
+      - 科技网络 14
+      - Youtue/ONE·资源核 33
+      - 科技网络 15
+      - _US_美国 14
+      - 科技网络 16
+      - 科技网络 17
+      - _US_美国 15
+      - ♥️YouTube梦歌♥️_61
+      - Youtue/ONE·资源核 34
+      - Youtue/ONE·资源核 35
+      - _US_美国 16
+      - _US_美国 17
+      - US_欢迎下载软件库app
+      - Youtue/ONE·资源核 36
+      - us 直连-美国-T-A | 节点更新 https://bit.ly/36b6iJh
+      - 日本（TG@阿伟科技/油管） 3
+      - _US_美国 18
+      - _US_美国 19
+      - Youtue/ONE·资源核 37
+      - Youtue/ONE·资源核 38
+      - Youtue/ONE·资源核 39
+      - Youtue/ONE·资源核 40
+      - Youtue/ONE·资源核 41
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - Youtue/ONE·资源核 42
+      - Youtue/ONE·资源核 43
+      - Youtue/ONE·资源核 44
+      - 美国（TG@阿伟科技/油管） 2
+      - 科技网络 18
+      - _US_美国 23
+      - Youtue/ONE·资源核 45
+      - _US_美国 24
+      - 科技网络 19
+      - _US_美国 25
+      - Youtue/ONE·资源核 46
+      - _US_美国 26
+      - _US_美国 27
+      - Youtue/ONE·资源核 47
+      - Youtue/ONE·资源核 48
+      - _US_美国 28
+      - Youtue/ONE·资源核 49
+      - Youtue/ONE·资源核 50
+      - _US_美国 29
+      - Youtue/ONE·资源核 51
+      - _GB_英国
       - _GB_英国 2
-      - us2 【直连】
+      - Youtue/ONE·资源核 52
+      - Youtue/ONE·资源核 53
       - _GB_英国 3
+      - Youtue/ONE·资源核 54
       - _GB_英国 4
       - _GB_英国 5
-      - _GB_英国 6
-      - 韩国（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管） 3
-      - 乌克兰（TG@阿伟科技/油管）
-      - Youtube/ONE·资源核 2
-      - 印度184-16@1Gbps节点更新 https://bit.ly/36b6iJh
       - ♥️YouTube梦歌♥️_32
-      - 14.29.124.168:25294
+      - Youtue/ONE·资源核 55
+      - _GB_英国 6
+      - 台湾（TG@阿伟科技/油管） 2
+      - Youtue/ONE·资源核 56
+      - Youtue/ONE·资源核 57
+      - Youtue/ONE·资源核 58
+      - Youtue/ONE·资源核 59
+      - ♥️YouTube梦歌♥️_25
+      - Youtue/ONE·资源核 60
+      - Youtue/ONE·资源核 61
+      - 韩国（TG@阿伟科技/油管）
+      - ♥️YouTube梦歌♥️_37
+      - ♥️YouTube梦歌♥️_24
+      - Youtue/ONE·资源核 62
+      - ♥️YouTube梦歌♥️_14
+      - _US_美国 30
+      - ♥️YouTube梦歌♥️_32 2
+      - Youtue/ONE·资源核 63
+      - 乌克兰（TG@阿伟科技/油管）
+      - _US_美国 31
+      - ♥️YouTube梦歌♥️_19
+      - Youtue/ONE·资源核 64
+      - _US_美国 32
+      - 科技网络 20
+      - Youtue/ONE·资源核 65
+      - ♥️YouTube梦歌♥️_41
+      - 213.183.51.172:9024
+      - 科技网络 21
+      - Youtue/ONE·资源核 66
+      - ♥️YouTube梦歌♥️_21
+      - Youtue/ONE·资源核 67
+      - 香港（TG@阿伟科技/油管） 3
+      - _CN_中国->🇯🇵_JP_日本
+      - Youtue/ONE·资源核 68
+      - 科技网络 22
+      - Youtue/ONE·资源核 69
+      - Youtue/ONE·资源核 70
+      - Youtue/ONE·资源核 71
+      - ♥️YouTube梦歌♥️_27
+      - 科技网络 23
+      - _US_美国 33
+      - Youtue/ONE·资源核 72
+      - 韩国（TG@阿伟科技/油管） 2
+      - 西美高速2
+      - 香港（TG@阿伟科技/油管） 4
+      - Youtue/ONE·资源核 73
+      - ♥️YouTube梦歌♥️_4
+      - Youtue/ONE·资源核 8 2
+      - Youtue/ONE·资源核 74
+      - _US_美国 34
+      - 英国（TG@阿伟科技/油管）
+      - _US_美国 35
+      - ♥️YouTube梦歌♥️_33
+      - _US_美国 36
+      - 英国（TG@阿伟科技/油管） 2
+      - 亚洲(ios小火箭软件|ioskaka.com)
+      - 新加坡（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_51
+      - 美国（TG@阿伟科技/油管） 3
+      - ♥️YouTube梦歌♥️_55
+      - us2 【直连】
+      - _US_美国 37
+      - github.com/freefq - 美国  16
+      - 荷兰（TG@阿伟科技/油管）
+      - Youtube/ONE·资源核
+      - Youtube/ONE·资源核 2
       - Youtube/ONE·资源核 3
       - Youtube/ONE·资源核 4
       - Youtube/ONE·资源核 5
       - 14.29.124.168:25259
-      - _GB_英国 7
-      - 台湾（TG@阿伟科技/油管）
-      - 香港（TG@阿伟科技/油管）
-      - Youtube/ONE·资源核 6
-      - 14.29.124.168:25230
-      - 印度184-40 联通10.26 节点更新 https://bit.ly/36b6iJh
-      - 印度184-20@1Gbps节点更新 https://bit.ly/36b6iJh
-      - ♥️YouTube梦歌♥️_4
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 印度184-14@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-32 联通28.64m 节点更新 https://bit.ly/36b6iJh
-      - _CN_中国->🇺🇸_US_美国
+      - 韩国（TG@阿伟科技/油管） 2 2
       - 美国（TG@阿伟科技/油管） 4
       - 美国（TG@阿伟科技/油管） 5
-      - ♥️YouTube梦歌♥️_14
-      - 西美高速2
-      - 直连-日本T-A _vmess_ws  172.104.64.47
-      - 英国 【YouTube由零开始】 4
-      - _GB_英国 8
-      - 英国 【YouTube由零开始】 5
+      - 韩国（TG@阿伟科技/油管） 3
+      - github.com/freefq - 美国Microsoft数据中心 7
+      - ♥️YouTube梦歌♥️_4 2
+      - 14.29.124.168:25294
+      - ♥️YouTube梦歌♥️_41 2
+      - github.com/freefq - 日本  12
       - 美国（TG@阿伟科技/油管） 6
+      - 亚洲(ios小火箭软件|ioskaka.com) 2
+      - 新加坡（TG@阿伟科技/油管） 3
+      - 美国（TG@阿伟科技/油管） 7
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 2
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 3
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 4
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 4
+      - 🇸🇬 粉丝投稿🍄新103.157.251.20
+      - 🇭🇰 粉丝投稿🍄港103.157.251.19
+      - 粉丝投稿
+      - 粉丝投稿 2
+      - 粉丝投稿 3
+      - 粉丝投稿 4
+      - 粉丝投稿 5
+      - 粉丝投稿 6
+      - 粉丝投稿 7
+      - 粉丝投稿 8
+      - 粉丝投稿 9
+      - 🇭🇰 粉丝投稿 1--无限流量
+      - 🇭🇰 粉丝投稿 2--无限流量
+      - 🇭🇰 粉丝投稿 3--无限流量
+      - 🇭🇰 粉丝投稿 4--无限流量
+      - 🇭🇰 粉丝投稿 5--无限流量
+      - 🇭🇰 粉丝投稿 6--无限流量
+      - 🇭🇰 粉丝投稿 7--无限流量
+      - 🇭🇰 无限流量 1--无限流量
+      - 🇭🇰 无限流量 2--无限流量
+      - 🇭🇰 无限流量 3--无限流量
+      - 🇭🇰 无限流量 4--无限流量
+      - 🇭🇰 无限流量 5--无限流量
+      - 🇭🇰 无限流量 6--无限流量
+      - 🇭🇰 无限流量 7--无限流量
+      - 🇭🇰 无限流量 8--无限流量
+      - 🇭🇰 无限流量 9--无限流量
+      - 🇭🇰 无限流量 10--无限流量
+      - 🇭🇰 无限流量 11--无限流量
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港杨枝甘露 03
-      - 香港丝袜奶茶 02
-      - ♥️YouTube梦歌♥️_41
-      - _CN_中国->🇲🇾_MY_马来西亚
-      - 印度（TG@阿伟科技/油管）
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国->🇭🇰_HK_香港 2
-      - us 直连-美国-T-A | 节点更新 https://bit.ly/36b6iJh
-      - tcp us 【直连】
-      - 印度184-24@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 香港煎酿三宝 04
-      - 直连-日本T-A 2_vmess_ws
-      - Youtube/ONE·资源核
-      - 美国（TG@阿伟科技/油管）
-      - 印度184-17@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-36 联通12.71 节点更新 https://bit.ly/36b6iJh
-      - 印度184-9@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-8@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-19@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-27@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-10@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-38 联通11.55 节点更新 https://bit.ly/36b6iJh
-      - 印度184-15@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-12@1Gbps节点更新 https://bit.ly/36b6iJh
-      - (ios小火箭软件|ioskaka.com)
-      - 印度184-13@1Gbps节点更新 https://bit.ly/36b6iJh
-      - ♥️YouTube梦歌♥️_25
-      - 印度184-11@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-26@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-29@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-1电信@1Gbps 节点更新 https://bit.ly/36b6iJh
-      - 印度184-39 联通11.11 节点更新 https://bit.ly/36b6iJh
-      - 印度184-7@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _CN_中国->🇬🇧_GB_英国
-      - 英国 【YouTube由零开始】
-      - 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-37 联通11.95 节点更新 https://bit.ly/36b6iJh
-      - 印度184-35 联通14.07 节点更新 https://bit.ly/36b6iJh
-      - 英国 【YouTube由零开始】 2
-      - 印度184-4 联通100M+4K -2 节点更新 https://bit.ly/36b6iJh
-      - 印度184-28@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - _CN_中国->🇹🇼_TW_台湾 2
-      - 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-23@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-21联通100M+4K   节点更新 https://bit.ly/36b6iJh
-      - 印度184-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 【YouTube由零开始】
-      - 印度184-33 联通15.02m  节点更新 https://bit.ly/36b6iJh
-      - 英国 【YouTube由零开始】 3
-      - _GB_英国
-      - 美国（TG@阿伟科技/油管） 2
-      - 印度184-18@1Gbps节点更新 https://bit.ly/36b6iJh
+      - Youtue/ONE·资源核
+      - Youtue/ONE·资源核 2
+      - 香港（TG@阿伟科技/油管） 7
       - 新加坡（TG@阿伟科技/油管）
-      - 印度184-34 联通14.9 节点更新 https://bit.ly/36b6iJh
-      - _US_美国
-      - ♥️YouTube梦歌♥️_61
+      - 香港（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 2
+      - Youtue/ONE·资源核 3
+      - Youtue/ONE·资源核 4
+      - github.com/freefq - 日本东京Linode数据中心 17
       - 日本（TG@阿伟科技/油管）
+      - Youtue/ONE·资源核 5
+      - ♥️YouTube梦歌♥️_8
+      - Youtue/ONE·资源核 6
+      - ♥️YouTube梦歌♥️_11
+      - 台湾（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管） 2
+      - 德国（TG@阿伟科技/油管）
+      - _US_美国
+      - Youtue/ONE·资源核 7
+      - Youtue/ONE·资源核 8
+      - Youtue/ONE·资源核 9
+      - Youtue/ONE·资源核 10
+      - 日本（TG@阿伟科技/油管） 6
+      - 科技网络
+      - 科技网络 2
+      - Youtue/ONE·资源核 11
+      - Youtue/ONE·资源核 12
+      - 科技网络 3
+      - 167.88.61.70:8119
+      - Youtue/ONE·资源核 13
+      - Youtue/ONE·资源核 14
+      - 科技网络 4
+      - 科技网络 5
+      - Youtue/ONE·资源核 15
+      - tcp us 【直连】
+      - 科技网络 6
+      - Youtue/ONE·资源核 16
+      - Youtue/ONE·资源核 17
+      - _US_美国 2
+      - _US_美国 3
+      - 科技网络 7
+      - _US_美国 4
+      - 科技网络 8
+      - Youtue/ONE·资源核 18
+      - 直连-日本T-A _vmess_ws  172.104.64.47
+      - Youtue/ONE·资源核 19
+      - 科技网络 9
+      - _US_美国 5
+      - Youtue/ONE·资源核 20
+      - Youtue/ONE·资源核 21
+      - Youtue/ONE·资源核 22
+      - _US_美国 6
+      - ♥️YouTube梦歌♥️_16
+      - _US_美国 7
+      - _US_美国 8
+      - Youtue/ONE·资源核 23
+      - _US_美国 9
+      - _US_美国 10
+      - 科技网络 10
+      - 科技网络 11
+      - ♥️YouTube梦歌♥️_38
+      - Youtue/ONE·资源核 24
+      - Youtue/ONE·资源核 25
+      - Youtue/ONE·资源核 26
+      - _US_美国 11
+      - Youtue/ONE·资源核 27
+      - Youtue/ONE·资源核 28
+      - 【YouTube由零开始】
+      - Youtue/ONE·资源核 29
+      - Youtue/ONE·资源核 30
+      - 科技网络 12
+      - _US_美国 12
+      - Youtue/ONE·资源核 31
+      - _US_美国 13
+      - 科技网络 13
+      - Youtue/ONE·资源核 32
+      - 科技网络 14
+      - Youtue/ONE·资源核 33
+      - 科技网络 15
+      - _US_美国 14
+      - 科技网络 16
+      - 科技网络 17
+      - _US_美国 15
+      - ♥️YouTube梦歌♥️_61
+      - Youtue/ONE·资源核 34
+      - Youtue/ONE·资源核 35
+      - _US_美国 16
+      - _US_美国 17
+      - US_欢迎下载软件库app
+      - Youtue/ONE·资源核 36
+      - us 直连-美国-T-A | 节点更新 https://bit.ly/36b6iJh
+      - 日本（TG@阿伟科技/油管） 3
+      - _US_美国 18
+      - _US_美国 19
+      - Youtue/ONE·资源核 37
+      - Youtue/ONE·资源核 38
+      - Youtue/ONE·资源核 39
+      - Youtue/ONE·资源核 40
+      - Youtue/ONE·资源核 41
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - Youtue/ONE·资源核 42
+      - Youtue/ONE·资源核 43
+      - Youtue/ONE·资源核 44
+      - 美国（TG@阿伟科技/油管） 2
+      - 科技网络 18
+      - _US_美国 23
+      - Youtue/ONE·资源核 45
+      - _US_美国 24
+      - 科技网络 19
+      - _US_美国 25
+      - Youtue/ONE·资源核 46
+      - _US_美国 26
+      - _US_美国 27
+      - Youtue/ONE·资源核 47
+      - Youtue/ONE·资源核 48
+      - _US_美国 28
+      - Youtue/ONE·资源核 49
+      - Youtue/ONE·资源核 50
+      - _US_美国 29
+      - Youtue/ONE·资源核 51
+      - _GB_英国
       - _GB_英国 2
-      - us2 【直连】
+      - Youtue/ONE·资源核 52
+      - Youtue/ONE·资源核 53
       - _GB_英国 3
+      - Youtue/ONE·资源核 54
       - _GB_英国 4
       - _GB_英国 5
-      - _GB_英国 6
-      - 韩国（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管） 3
-      - 乌克兰（TG@阿伟科技/油管）
-      - Youtube/ONE·资源核 2
-      - 印度184-16@1Gbps节点更新 https://bit.ly/36b6iJh
       - ♥️YouTube梦歌♥️_32
-      - 14.29.124.168:25294
+      - Youtue/ONE·资源核 55
+      - _GB_英国 6
+      - 台湾（TG@阿伟科技/油管） 2
+      - Youtue/ONE·资源核 56
+      - Youtue/ONE·资源核 57
+      - Youtue/ONE·资源核 58
+      - Youtue/ONE·资源核 59
+      - ♥️YouTube梦歌♥️_25
+      - Youtue/ONE·资源核 60
+      - Youtue/ONE·资源核 61
+      - 韩国（TG@阿伟科技/油管）
+      - ♥️YouTube梦歌♥️_37
+      - ♥️YouTube梦歌♥️_24
+      - Youtue/ONE·资源核 62
+      - ♥️YouTube梦歌♥️_14
+      - _US_美国 30
+      - ♥️YouTube梦歌♥️_32 2
+      - Youtue/ONE·资源核 63
+      - 乌克兰（TG@阿伟科技/油管）
+      - _US_美国 31
+      - ♥️YouTube梦歌♥️_19
+      - Youtue/ONE·资源核 64
+      - _US_美国 32
+      - 科技网络 20
+      - Youtue/ONE·资源核 65
+      - ♥️YouTube梦歌♥️_41
+      - 213.183.51.172:9024
+      - 科技网络 21
+      - Youtue/ONE·资源核 66
+      - ♥️YouTube梦歌♥️_21
+      - Youtue/ONE·资源核 67
+      - 香港（TG@阿伟科技/油管） 3
+      - _CN_中国->🇯🇵_JP_日本
+      - Youtue/ONE·资源核 68
+      - 科技网络 22
+      - Youtue/ONE·资源核 69
+      - Youtue/ONE·资源核 70
+      - Youtue/ONE·资源核 71
+      - ♥️YouTube梦歌♥️_27
+      - 科技网络 23
+      - _US_美国 33
+      - Youtue/ONE·资源核 72
+      - 韩国（TG@阿伟科技/油管） 2
+      - 西美高速2
+      - 香港（TG@阿伟科技/油管） 4
+      - Youtue/ONE·资源核 73
+      - ♥️YouTube梦歌♥️_4
+      - Youtue/ONE·资源核 8 2
+      - Youtue/ONE·资源核 74
+      - _US_美国 34
+      - 英国（TG@阿伟科技/油管）
+      - _US_美国 35
+      - ♥️YouTube梦歌♥️_33
+      - _US_美国 36
+      - 英国（TG@阿伟科技/油管） 2
+      - 亚洲(ios小火箭软件|ioskaka.com)
+      - 新加坡（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_51
+      - 美国（TG@阿伟科技/油管） 3
+      - ♥️YouTube梦歌♥️_55
+      - us2 【直连】
+      - _US_美国 37
+      - github.com/freefq - 美国  16
+      - 荷兰（TG@阿伟科技/油管）
+      - Youtube/ONE·资源核
+      - Youtube/ONE·资源核 2
       - Youtube/ONE·资源核 3
       - Youtube/ONE·资源核 4
       - Youtube/ONE·资源核 5
       - 14.29.124.168:25259
-      - _GB_英国 7
-      - 台湾（TG@阿伟科技/油管）
-      - 香港（TG@阿伟科技/油管）
-      - Youtube/ONE·资源核 6
-      - 14.29.124.168:25230
-      - 印度184-40 联通10.26 节点更新 https://bit.ly/36b6iJh
-      - 印度184-20@1Gbps节点更新 https://bit.ly/36b6iJh
-      - ♥️YouTube梦歌♥️_4
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 印度184-14@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-32 联通28.64m 节点更新 https://bit.ly/36b6iJh
-      - _CN_中国->🇺🇸_US_美国
+      - 韩国（TG@阿伟科技/油管） 2 2
       - 美国（TG@阿伟科技/油管） 4
       - 美国（TG@阿伟科技/油管） 5
-      - ♥️YouTube梦歌♥️_14
-      - 西美高速2
-      - 直连-日本T-A _vmess_ws  172.104.64.47
-      - 英国 【YouTube由零开始】 4
-      - _GB_英国 8
-      - 英国 【YouTube由零开始】 5
+      - 韩国（TG@阿伟科技/油管） 3
+      - github.com/freefq - 美国Microsoft数据中心 7
+      - ♥️YouTube梦歌♥️_4 2
+      - 14.29.124.168:25294
+      - ♥️YouTube梦歌♥️_41 2
+      - github.com/freefq - 日本  12
       - 美国（TG@阿伟科技/油管） 6
+      - 亚洲(ios小火箭软件|ioskaka.com) 2
+      - 新加坡（TG@阿伟科技/油管） 3
+      - 美国（TG@阿伟科技/油管） 7
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 2
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 3
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 4
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 4
+      - 🇸🇬 粉丝投稿🍄新103.157.251.20
+      - 🇭🇰 粉丝投稿🍄港103.157.251.19
+      - 粉丝投稿
+      - 粉丝投稿 2
+      - 粉丝投稿 3
+      - 粉丝投稿 4
+      - 粉丝投稿 5
+      - 粉丝投稿 6
+      - 粉丝投稿 7
+      - 粉丝投稿 8
+      - 粉丝投稿 9
+      - 🇭🇰 粉丝投稿 1--无限流量
+      - 🇭🇰 粉丝投稿 2--无限流量
+      - 🇭🇰 粉丝投稿 3--无限流量
+      - 🇭🇰 粉丝投稿 4--无限流量
+      - 🇭🇰 粉丝投稿 5--无限流量
+      - 🇭🇰 粉丝投稿 6--无限流量
+      - 🇭🇰 粉丝投稿 7--无限流量
+      - 🇭🇰 无限流量 1--无限流量
+      - 🇭🇰 无限流量 2--无限流量
+      - 🇭🇰 无限流量 3--无限流量
+      - 🇭🇰 无限流量 4--无限流量
+      - 🇭🇰 无限流量 5--无限流量
+      - 🇭🇰 无限流量 6--无限流量
+      - 🇭🇰 无限流量 7--无限流量
+      - 🇭🇰 无限流量 8--无限流量
+      - 🇭🇰 无限流量 9--无限流量
+      - 🇭🇰 无限流量 10--无限流量
+      - 🇭🇰 无限流量 11--无限流量
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -428,424 +1128,1065 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港杨枝甘露 03
-      - 香港丝袜奶茶 02
-      - ♥️YouTube梦歌♥️_41
-      - _CN_中国->🇲🇾_MY_马来西亚
-      - 印度（TG@阿伟科技/油管）
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国->🇭🇰_HK_香港 2
-      - us 直连-美国-T-A | 节点更新 https://bit.ly/36b6iJh
-      - tcp us 【直连】
-      - 印度184-24@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 香港煎酿三宝 04
-      - 直连-日本T-A 2_vmess_ws
-      - Youtube/ONE·资源核
-      - 美国（TG@阿伟科技/油管）
-      - 印度184-17@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-36 联通12.71 节点更新 https://bit.ly/36b6iJh
-      - 印度184-9@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-8@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-19@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-27@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-10@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-38 联通11.55 节点更新 https://bit.ly/36b6iJh
-      - 印度184-15@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-12@1Gbps节点更新 https://bit.ly/36b6iJh
-      - (ios小火箭软件|ioskaka.com)
-      - 印度184-13@1Gbps节点更新 https://bit.ly/36b6iJh
-      - ♥️YouTube梦歌♥️_25
-      - 印度184-11@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-26@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-29@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-1电信@1Gbps 节点更新 https://bit.ly/36b6iJh
-      - 印度184-39 联通11.11 节点更新 https://bit.ly/36b6iJh
-      - 印度184-7@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _CN_中国->🇬🇧_GB_英国
-      - 英国 【YouTube由零开始】
-      - 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-37 联通11.95 节点更新 https://bit.ly/36b6iJh
-      - 印度184-35 联通14.07 节点更新 https://bit.ly/36b6iJh
-      - 英国 【YouTube由零开始】 2
-      - 印度184-4 联通100M+4K -2 节点更新 https://bit.ly/36b6iJh
-      - 印度184-28@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - _CN_中国->🇹🇼_TW_台湾 2
-      - 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-23@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-21联通100M+4K   节点更新 https://bit.ly/36b6iJh
-      - 印度184-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 【YouTube由零开始】
-      - 印度184-33 联通15.02m  节点更新 https://bit.ly/36b6iJh
-      - 英国 【YouTube由零开始】 3
-      - _GB_英国
-      - 美国（TG@阿伟科技/油管） 2
-      - 印度184-18@1Gbps节点更新 https://bit.ly/36b6iJh
+      - Youtue/ONE·资源核
+      - Youtue/ONE·资源核 2
+      - 香港（TG@阿伟科技/油管） 7
       - 新加坡（TG@阿伟科技/油管）
-      - 印度184-34 联通14.9 节点更新 https://bit.ly/36b6iJh
-      - _US_美国
-      - ♥️YouTube梦歌♥️_61
+      - 香港（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 2
+      - Youtue/ONE·资源核 3
+      - Youtue/ONE·资源核 4
+      - github.com/freefq - 日本东京Linode数据中心 17
       - 日本（TG@阿伟科技/油管）
+      - Youtue/ONE·资源核 5
+      - ♥️YouTube梦歌♥️_8
+      - Youtue/ONE·资源核 6
+      - ♥️YouTube梦歌♥️_11
+      - 台湾（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管） 2
+      - 德国（TG@阿伟科技/油管）
+      - _US_美国
+      - Youtue/ONE·资源核 7
+      - Youtue/ONE·资源核 8
+      - Youtue/ONE·资源核 9
+      - Youtue/ONE·资源核 10
+      - 日本（TG@阿伟科技/油管） 6
+      - 科技网络
+      - 科技网络 2
+      - Youtue/ONE·资源核 11
+      - Youtue/ONE·资源核 12
+      - 科技网络 3
+      - 167.88.61.70:8119
+      - Youtue/ONE·资源核 13
+      - Youtue/ONE·资源核 14
+      - 科技网络 4
+      - 科技网络 5
+      - Youtue/ONE·资源核 15
+      - tcp us 【直连】
+      - 科技网络 6
+      - Youtue/ONE·资源核 16
+      - Youtue/ONE·资源核 17
+      - _US_美国 2
+      - _US_美国 3
+      - 科技网络 7
+      - _US_美国 4
+      - 科技网络 8
+      - Youtue/ONE·资源核 18
+      - 直连-日本T-A _vmess_ws  172.104.64.47
+      - Youtue/ONE·资源核 19
+      - 科技网络 9
+      - _US_美国 5
+      - Youtue/ONE·资源核 20
+      - Youtue/ONE·资源核 21
+      - Youtue/ONE·资源核 22
+      - _US_美国 6
+      - ♥️YouTube梦歌♥️_16
+      - _US_美国 7
+      - _US_美国 8
+      - Youtue/ONE·资源核 23
+      - _US_美国 9
+      - _US_美国 10
+      - 科技网络 10
+      - 科技网络 11
+      - ♥️YouTube梦歌♥️_38
+      - Youtue/ONE·资源核 24
+      - Youtue/ONE·资源核 25
+      - Youtue/ONE·资源核 26
+      - _US_美国 11
+      - Youtue/ONE·资源核 27
+      - Youtue/ONE·资源核 28
+      - 【YouTube由零开始】
+      - Youtue/ONE·资源核 29
+      - Youtue/ONE·资源核 30
+      - 科技网络 12
+      - _US_美国 12
+      - Youtue/ONE·资源核 31
+      - _US_美国 13
+      - 科技网络 13
+      - Youtue/ONE·资源核 32
+      - 科技网络 14
+      - Youtue/ONE·资源核 33
+      - 科技网络 15
+      - _US_美国 14
+      - 科技网络 16
+      - 科技网络 17
+      - _US_美国 15
+      - ♥️YouTube梦歌♥️_61
+      - Youtue/ONE·资源核 34
+      - Youtue/ONE·资源核 35
+      - _US_美国 16
+      - _US_美国 17
+      - US_欢迎下载软件库app
+      - Youtue/ONE·资源核 36
+      - us 直连-美国-T-A | 节点更新 https://bit.ly/36b6iJh
+      - 日本（TG@阿伟科技/油管） 3
+      - _US_美国 18
+      - _US_美国 19
+      - Youtue/ONE·资源核 37
+      - Youtue/ONE·资源核 38
+      - Youtue/ONE·资源核 39
+      - Youtue/ONE·资源核 40
+      - Youtue/ONE·资源核 41
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - Youtue/ONE·资源核 42
+      - Youtue/ONE·资源核 43
+      - Youtue/ONE·资源核 44
+      - 美国（TG@阿伟科技/油管） 2
+      - 科技网络 18
+      - _US_美国 23
+      - Youtue/ONE·资源核 45
+      - _US_美国 24
+      - 科技网络 19
+      - _US_美国 25
+      - Youtue/ONE·资源核 46
+      - _US_美国 26
+      - _US_美国 27
+      - Youtue/ONE·资源核 47
+      - Youtue/ONE·资源核 48
+      - _US_美国 28
+      - Youtue/ONE·资源核 49
+      - Youtue/ONE·资源核 50
+      - _US_美国 29
+      - Youtue/ONE·资源核 51
+      - _GB_英国
       - _GB_英国 2
-      - us2 【直连】
+      - Youtue/ONE·资源核 52
+      - Youtue/ONE·资源核 53
       - _GB_英国 3
+      - Youtue/ONE·资源核 54
       - _GB_英国 4
       - _GB_英国 5
-      - _GB_英国 6
-      - 韩国（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管） 3
-      - 乌克兰（TG@阿伟科技/油管）
-      - Youtube/ONE·资源核 2
-      - 印度184-16@1Gbps节点更新 https://bit.ly/36b6iJh
       - ♥️YouTube梦歌♥️_32
-      - 14.29.124.168:25294
+      - Youtue/ONE·资源核 55
+      - _GB_英国 6
+      - 台湾（TG@阿伟科技/油管） 2
+      - Youtue/ONE·资源核 56
+      - Youtue/ONE·资源核 57
+      - Youtue/ONE·资源核 58
+      - Youtue/ONE·资源核 59
+      - ♥️YouTube梦歌♥️_25
+      - Youtue/ONE·资源核 60
+      - Youtue/ONE·资源核 61
+      - 韩国（TG@阿伟科技/油管）
+      - ♥️YouTube梦歌♥️_37
+      - ♥️YouTube梦歌♥️_24
+      - Youtue/ONE·资源核 62
+      - ♥️YouTube梦歌♥️_14
+      - _US_美国 30
+      - ♥️YouTube梦歌♥️_32 2
+      - Youtue/ONE·资源核 63
+      - 乌克兰（TG@阿伟科技/油管）
+      - _US_美国 31
+      - ♥️YouTube梦歌♥️_19
+      - Youtue/ONE·资源核 64
+      - _US_美国 32
+      - 科技网络 20
+      - Youtue/ONE·资源核 65
+      - ♥️YouTube梦歌♥️_41
+      - 213.183.51.172:9024
+      - 科技网络 21
+      - Youtue/ONE·资源核 66
+      - ♥️YouTube梦歌♥️_21
+      - Youtue/ONE·资源核 67
+      - 香港（TG@阿伟科技/油管） 3
+      - _CN_中国->🇯🇵_JP_日本
+      - Youtue/ONE·资源核 68
+      - 科技网络 22
+      - Youtue/ONE·资源核 69
+      - Youtue/ONE·资源核 70
+      - Youtue/ONE·资源核 71
+      - ♥️YouTube梦歌♥️_27
+      - 科技网络 23
+      - _US_美国 33
+      - Youtue/ONE·资源核 72
+      - 韩国（TG@阿伟科技/油管） 2
+      - 西美高速2
+      - 香港（TG@阿伟科技/油管） 4
+      - Youtue/ONE·资源核 73
+      - ♥️YouTube梦歌♥️_4
+      - Youtue/ONE·资源核 8 2
+      - Youtue/ONE·资源核 74
+      - _US_美国 34
+      - 英国（TG@阿伟科技/油管）
+      - _US_美国 35
+      - ♥️YouTube梦歌♥️_33
+      - _US_美国 36
+      - 英国（TG@阿伟科技/油管） 2
+      - 亚洲(ios小火箭软件|ioskaka.com)
+      - 新加坡（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_51
+      - 美国（TG@阿伟科技/油管） 3
+      - ♥️YouTube梦歌♥️_55
+      - us2 【直连】
+      - _US_美国 37
+      - github.com/freefq - 美国  16
+      - 荷兰（TG@阿伟科技/油管）
+      - Youtube/ONE·资源核
+      - Youtube/ONE·资源核 2
       - Youtube/ONE·资源核 3
       - Youtube/ONE·资源核 4
       - Youtube/ONE·资源核 5
       - 14.29.124.168:25259
-      - _GB_英国 7
-      - 台湾（TG@阿伟科技/油管）
-      - 香港（TG@阿伟科技/油管）
-      - Youtube/ONE·资源核 6
-      - 14.29.124.168:25230
-      - 印度184-40 联通10.26 节点更新 https://bit.ly/36b6iJh
-      - 印度184-20@1Gbps节点更新 https://bit.ly/36b6iJh
-      - ♥️YouTube梦歌♥️_4
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 印度184-14@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-32 联通28.64m 节点更新 https://bit.ly/36b6iJh
-      - _CN_中国->🇺🇸_US_美国
+      - 韩国（TG@阿伟科技/油管） 2 2
       - 美国（TG@阿伟科技/油管） 4
       - 美国（TG@阿伟科技/油管） 5
-      - ♥️YouTube梦歌♥️_14
-      - 西美高速2
-      - 直连-日本T-A _vmess_ws  172.104.64.47
-      - 英国 【YouTube由零开始】 4
-      - _GB_英国 8
-      - 英国 【YouTube由零开始】 5
+      - 韩国（TG@阿伟科技/油管） 3
+      - github.com/freefq - 美国Microsoft数据中心 7
+      - ♥️YouTube梦歌♥️_4 2
+      - 14.29.124.168:25294
+      - ♥️YouTube梦歌♥️_41 2
+      - github.com/freefq - 日本  12
       - 美国（TG@阿伟科技/油管） 6
+      - 亚洲(ios小火箭软件|ioskaka.com) 2
+      - 新加坡（TG@阿伟科技/油管） 3
+      - 美国（TG@阿伟科技/油管） 7
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 2
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 3
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 4
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 4
+      - 🇸🇬 粉丝投稿🍄新103.157.251.20
+      - 🇭🇰 粉丝投稿🍄港103.157.251.19
+      - 粉丝投稿
+      - 粉丝投稿 2
+      - 粉丝投稿 3
+      - 粉丝投稿 4
+      - 粉丝投稿 5
+      - 粉丝投稿 6
+      - 粉丝投稿 7
+      - 粉丝投稿 8
+      - 粉丝投稿 9
+      - 🇭🇰 粉丝投稿 1--无限流量
+      - 🇭🇰 粉丝投稿 2--无限流量
+      - 🇭🇰 粉丝投稿 3--无限流量
+      - 🇭🇰 粉丝投稿 4--无限流量
+      - 🇭🇰 粉丝投稿 5--无限流量
+      - 🇭🇰 粉丝投稿 6--无限流量
+      - 🇭🇰 粉丝投稿 7--无限流量
+      - 🇭🇰 无限流量 1--无限流量
+      - 🇭🇰 无限流量 2--无限流量
+      - 🇭🇰 无限流量 3--无限流量
+      - 🇭🇰 无限流量 4--无限流量
+      - 🇭🇰 无限流量 5--无限流量
+      - 🇭🇰 无限流量 6--无限流量
+      - 🇭🇰 无限流量 7--无限流量
+      - 🇭🇰 无限流量 8--无限流量
+      - 🇭🇰 无限流量 9--无限流量
+      - 🇭🇰 无限流量 10--无限流量
+      - 🇭🇰 无限流量 11--无限流量
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港杨枝甘露 03
-      - 香港丝袜奶茶 02
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国->🇭🇰_HK_香港 2
-      - 香港煎酿三宝 04
-      - _CN_中国->🇹🇼_TW_台湾 2
-      - 台湾（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 7
       - 香港（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 2
+      - 台湾（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管） 2
+      - 香港（TG@阿伟科技/油管） 3
+      - 香港（TG@阿伟科技/油管） 4
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港杨枝甘露 03
-      - 香港丝袜奶茶 02
-      - ♥️YouTube梦歌♥️_41
-      - _CN_中国->🇲🇾_MY_马来西亚
-      - 印度（TG@阿伟科技/油管）
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国->🇭🇰_HK_香港 2
-      - us 直连-美国-T-A | 节点更新 https://bit.ly/36b6iJh
-      - tcp us 【直连】
-      - 印度184-24@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 香港煎酿三宝 04
-      - 直连-日本T-A 2_vmess_ws
-      - Youtube/ONE·资源核
-      - 美国（TG@阿伟科技/油管）
-      - 印度184-17@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-36 联通12.71 节点更新 https://bit.ly/36b6iJh
-      - 印度184-9@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-8@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-19@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-27@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-10@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-38 联通11.55 节点更新 https://bit.ly/36b6iJh
-      - 印度184-15@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-12@1Gbps节点更新 https://bit.ly/36b6iJh
-      - (ios小火箭软件|ioskaka.com)
-      - 印度184-13@1Gbps节点更新 https://bit.ly/36b6iJh
-      - ♥️YouTube梦歌♥️_25
-      - 印度184-11@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-26@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-29@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-1电信@1Gbps 节点更新 https://bit.ly/36b6iJh
-      - 印度184-39 联通11.11 节点更新 https://bit.ly/36b6iJh
-      - 印度184-7@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _CN_中国->🇬🇧_GB_英国
-      - 英国 【YouTube由零开始】
-      - 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-37 联通11.95 节点更新 https://bit.ly/36b6iJh
-      - 印度184-35 联通14.07 节点更新 https://bit.ly/36b6iJh
-      - 英国 【YouTube由零开始】 2
-      - 印度184-4 联通100M+4K -2 节点更新 https://bit.ly/36b6iJh
-      - 印度184-28@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - _CN_中国->🇹🇼_TW_台湾 2
-      - 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-23@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-21联通100M+4K   节点更新 https://bit.ly/36b6iJh
-      - 印度184-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 【YouTube由零开始】
-      - 印度184-33 联通15.02m  节点更新 https://bit.ly/36b6iJh
-      - 英国 【YouTube由零开始】 3
-      - _GB_英国
-      - 美国（TG@阿伟科技/油管） 2
-      - 印度184-18@1Gbps节点更新 https://bit.ly/36b6iJh
+      - Youtue/ONE·资源核
+      - Youtue/ONE·资源核 2
+      - 香港（TG@阿伟科技/油管） 7
       - 新加坡（TG@阿伟科技/油管）
-      - 印度184-34 联通14.9 节点更新 https://bit.ly/36b6iJh
-      - _US_美国
-      - ♥️YouTube梦歌♥️_61
+      - 香港（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 2
+      - Youtue/ONE·资源核 3
+      - Youtue/ONE·资源核 4
+      - github.com/freefq - 日本东京Linode数据中心 17
       - 日本（TG@阿伟科技/油管）
+      - Youtue/ONE·资源核 5
+      - ♥️YouTube梦歌♥️_8
+      - Youtue/ONE·资源核 6
+      - ♥️YouTube梦歌♥️_11
+      - 台湾（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管） 2
+      - 德国（TG@阿伟科技/油管）
+      - _US_美国
+      - Youtue/ONE·资源核 7
+      - Youtue/ONE·资源核 8
+      - Youtue/ONE·资源核 9
+      - Youtue/ONE·资源核 10
+      - 日本（TG@阿伟科技/油管） 6
+      - 科技网络
+      - 科技网络 2
+      - Youtue/ONE·资源核 11
+      - Youtue/ONE·资源核 12
+      - 科技网络 3
+      - 167.88.61.70:8119
+      - Youtue/ONE·资源核 13
+      - Youtue/ONE·资源核 14
+      - 科技网络 4
+      - 科技网络 5
+      - Youtue/ONE·资源核 15
+      - tcp us 【直连】
+      - 科技网络 6
+      - Youtue/ONE·资源核 16
+      - Youtue/ONE·资源核 17
+      - _US_美国 2
+      - _US_美国 3
+      - 科技网络 7
+      - _US_美国 4
+      - 科技网络 8
+      - Youtue/ONE·资源核 18
+      - 直连-日本T-A _vmess_ws  172.104.64.47
+      - Youtue/ONE·资源核 19
+      - 科技网络 9
+      - _US_美国 5
+      - Youtue/ONE·资源核 20
+      - Youtue/ONE·资源核 21
+      - Youtue/ONE·资源核 22
+      - _US_美国 6
+      - ♥️YouTube梦歌♥️_16
+      - _US_美国 7
+      - _US_美国 8
+      - Youtue/ONE·资源核 23
+      - _US_美国 9
+      - _US_美国 10
+      - 科技网络 10
+      - 科技网络 11
+      - ♥️YouTube梦歌♥️_38
+      - Youtue/ONE·资源核 24
+      - Youtue/ONE·资源核 25
+      - Youtue/ONE·资源核 26
+      - _US_美国 11
+      - Youtue/ONE·资源核 27
+      - Youtue/ONE·资源核 28
+      - 【YouTube由零开始】
+      - Youtue/ONE·资源核 29
+      - Youtue/ONE·资源核 30
+      - 科技网络 12
+      - _US_美国 12
+      - Youtue/ONE·资源核 31
+      - _US_美国 13
+      - 科技网络 13
+      - Youtue/ONE·资源核 32
+      - 科技网络 14
+      - Youtue/ONE·资源核 33
+      - 科技网络 15
+      - _US_美国 14
+      - 科技网络 16
+      - 科技网络 17
+      - _US_美国 15
+      - ♥️YouTube梦歌♥️_61
+      - Youtue/ONE·资源核 34
+      - Youtue/ONE·资源核 35
+      - _US_美国 16
+      - _US_美国 17
+      - US_欢迎下载软件库app
+      - Youtue/ONE·资源核 36
+      - us 直连-美国-T-A | 节点更新 https://bit.ly/36b6iJh
+      - 日本（TG@阿伟科技/油管） 3
+      - _US_美国 18
+      - _US_美国 19
+      - Youtue/ONE·资源核 37
+      - Youtue/ONE·资源核 38
+      - Youtue/ONE·资源核 39
+      - Youtue/ONE·资源核 40
+      - Youtue/ONE·资源核 41
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - Youtue/ONE·资源核 42
+      - Youtue/ONE·资源核 43
+      - Youtue/ONE·资源核 44
+      - 美国（TG@阿伟科技/油管） 2
+      - 科技网络 18
+      - _US_美国 23
+      - Youtue/ONE·资源核 45
+      - _US_美国 24
+      - 科技网络 19
+      - _US_美国 25
+      - Youtue/ONE·资源核 46
+      - _US_美国 26
+      - _US_美国 27
+      - Youtue/ONE·资源核 47
+      - Youtue/ONE·资源核 48
+      - _US_美国 28
+      - Youtue/ONE·资源核 49
+      - Youtue/ONE·资源核 50
+      - _US_美国 29
+      - Youtue/ONE·资源核 51
+      - _GB_英国
       - _GB_英国 2
-      - us2 【直连】
+      - Youtue/ONE·资源核 52
+      - Youtue/ONE·资源核 53
       - _GB_英国 3
+      - Youtue/ONE·资源核 54
       - _GB_英国 4
       - _GB_英国 5
-      - _GB_英国 6
-      - 韩国（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管） 3
-      - 乌克兰（TG@阿伟科技/油管）
-      - Youtube/ONE·资源核 2
-      - 印度184-16@1Gbps节点更新 https://bit.ly/36b6iJh
       - ♥️YouTube梦歌♥️_32
-      - 14.29.124.168:25294
+      - Youtue/ONE·资源核 55
+      - _GB_英国 6
+      - 台湾（TG@阿伟科技/油管） 2
+      - Youtue/ONE·资源核 56
+      - Youtue/ONE·资源核 57
+      - Youtue/ONE·资源核 58
+      - Youtue/ONE·资源核 59
+      - ♥️YouTube梦歌♥️_25
+      - Youtue/ONE·资源核 60
+      - Youtue/ONE·资源核 61
+      - 韩国（TG@阿伟科技/油管）
+      - ♥️YouTube梦歌♥️_37
+      - ♥️YouTube梦歌♥️_24
+      - Youtue/ONE·资源核 62
+      - ♥️YouTube梦歌♥️_14
+      - _US_美国 30
+      - ♥️YouTube梦歌♥️_32 2
+      - Youtue/ONE·资源核 63
+      - 乌克兰（TG@阿伟科技/油管）
+      - _US_美国 31
+      - ♥️YouTube梦歌♥️_19
+      - Youtue/ONE·资源核 64
+      - _US_美国 32
+      - 科技网络 20
+      - Youtue/ONE·资源核 65
+      - ♥️YouTube梦歌♥️_41
+      - 213.183.51.172:9024
+      - 科技网络 21
+      - Youtue/ONE·资源核 66
+      - ♥️YouTube梦歌♥️_21
+      - Youtue/ONE·资源核 67
+      - 香港（TG@阿伟科技/油管） 3
+      - _CN_中国->🇯🇵_JP_日本
+      - Youtue/ONE·资源核 68
+      - 科技网络 22
+      - Youtue/ONE·资源核 69
+      - Youtue/ONE·资源核 70
+      - Youtue/ONE·资源核 71
+      - ♥️YouTube梦歌♥️_27
+      - 科技网络 23
+      - _US_美国 33
+      - Youtue/ONE·资源核 72
+      - 韩国（TG@阿伟科技/油管） 2
+      - 西美高速2
+      - 香港（TG@阿伟科技/油管） 4
+      - Youtue/ONE·资源核 73
+      - ♥️YouTube梦歌♥️_4
+      - Youtue/ONE·资源核 8 2
+      - Youtue/ONE·资源核 74
+      - _US_美国 34
+      - 英国（TG@阿伟科技/油管）
+      - _US_美国 35
+      - ♥️YouTube梦歌♥️_33
+      - _US_美国 36
+      - 英国（TG@阿伟科技/油管） 2
+      - 亚洲(ios小火箭软件|ioskaka.com)
+      - 新加坡（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_51
+      - 美国（TG@阿伟科技/油管） 3
+      - ♥️YouTube梦歌♥️_55
+      - us2 【直连】
+      - _US_美国 37
+      - github.com/freefq - 美国  16
+      - 荷兰（TG@阿伟科技/油管）
+      - Youtube/ONE·资源核
+      - Youtube/ONE·资源核 2
       - Youtube/ONE·资源核 3
       - Youtube/ONE·资源核 4
       - Youtube/ONE·资源核 5
       - 14.29.124.168:25259
-      - _GB_英国 7
-      - 台湾（TG@阿伟科技/油管）
-      - 香港（TG@阿伟科技/油管）
-      - Youtube/ONE·资源核 6
-      - 14.29.124.168:25230
-      - 印度184-40 联通10.26 节点更新 https://bit.ly/36b6iJh
-      - 印度184-20@1Gbps节点更新 https://bit.ly/36b6iJh
-      - ♥️YouTube梦歌♥️_4
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 印度184-14@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-32 联通28.64m 节点更新 https://bit.ly/36b6iJh
-      - _CN_中国->🇺🇸_US_美国
+      - 韩国（TG@阿伟科技/油管） 2 2
       - 美国（TG@阿伟科技/油管） 4
       - 美国（TG@阿伟科技/油管） 5
-      - ♥️YouTube梦歌♥️_14
-      - 西美高速2
-      - 直连-日本T-A _vmess_ws  172.104.64.47
-      - 英国 【YouTube由零开始】 4
-      - _GB_英国 8
-      - 英国 【YouTube由零开始】 5
+      - 韩国（TG@阿伟科技/油管） 3
+      - github.com/freefq - 美国Microsoft数据中心 7
+      - ♥️YouTube梦歌♥️_4 2
+      - 14.29.124.168:25294
+      - ♥️YouTube梦歌♥️_41 2
+      - github.com/freefq - 日本  12
       - 美国（TG@阿伟科技/油管） 6
+      - 亚洲(ios小火箭软件|ioskaka.com) 2
+      - 新加坡（TG@阿伟科技/油管） 3
+      - 美国（TG@阿伟科技/油管） 7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港杨枝甘露 03
-      - 香港丝袜奶茶 02
-      - ♥️YouTube梦歌♥️_41
-      - _CN_中国->🇲🇾_MY_马来西亚
-      - 印度（TG@阿伟科技/油管）
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国->🇭🇰_HK_香港 2
-      - us 直连-美国-T-A | 节点更新 https://bit.ly/36b6iJh
-      - tcp us 【直连】
-      - 印度184-24@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 香港煎酿三宝 04
-      - 直连-日本T-A 2_vmess_ws
-      - Youtube/ONE·资源核
-      - 美国（TG@阿伟科技/油管）
-      - 印度184-17@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-36 联通12.71 节点更新 https://bit.ly/36b6iJh
-      - 印度184-9@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-8@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-19@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-27@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-10@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-38 联通11.55 节点更新 https://bit.ly/36b6iJh
-      - 印度184-15@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-12@1Gbps节点更新 https://bit.ly/36b6iJh
-      - (ios小火箭软件|ioskaka.com)
-      - 印度184-13@1Gbps节点更新 https://bit.ly/36b6iJh
-      - ♥️YouTube梦歌♥️_25
-      - 印度184-11@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-26@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-29@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-1电信@1Gbps 节点更新 https://bit.ly/36b6iJh
-      - 印度184-39 联通11.11 节点更新 https://bit.ly/36b6iJh
-      - 印度184-7@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _CN_中国->🇬🇧_GB_英国
-      - 英国 【YouTube由零开始】
-      - 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-37 联通11.95 节点更新 https://bit.ly/36b6iJh
-      - 印度184-35 联通14.07 节点更新 https://bit.ly/36b6iJh
-      - 英国 【YouTube由零开始】 2
-      - 印度184-4 联通100M+4K -2 节点更新 https://bit.ly/36b6iJh
-      - 印度184-28@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - _CN_中国->🇹🇼_TW_台湾 2
-      - 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-23@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-21联通100M+4K   节点更新 https://bit.ly/36b6iJh
-      - 印度184-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 【YouTube由零开始】
-      - 印度184-33 联通15.02m  节点更新 https://bit.ly/36b6iJh
-      - 英国 【YouTube由零开始】 3
-      - _GB_英国
-      - 美国（TG@阿伟科技/油管） 2
-      - 印度184-18@1Gbps节点更新 https://bit.ly/36b6iJh
+      - Youtue/ONE·资源核
+      - Youtue/ONE·资源核 2
+      - 香港（TG@阿伟科技/油管） 7
       - 新加坡（TG@阿伟科技/油管）
-      - 印度184-34 联通14.9 节点更新 https://bit.ly/36b6iJh
-      - _US_美国
-      - ♥️YouTube梦歌♥️_61
+      - 香港（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 2
+      - Youtue/ONE·资源核 3
+      - Youtue/ONE·资源核 4
+      - github.com/freefq - 日本东京Linode数据中心 17
       - 日本（TG@阿伟科技/油管）
+      - Youtue/ONE·资源核 5
+      - ♥️YouTube梦歌♥️_8
+      - Youtue/ONE·资源核 6
+      - ♥️YouTube梦歌♥️_11
+      - 台湾（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管） 2
+      - 德国（TG@阿伟科技/油管）
+      - _US_美国
+      - Youtue/ONE·资源核 7
+      - Youtue/ONE·资源核 8
+      - Youtue/ONE·资源核 9
+      - Youtue/ONE·资源核 10
+      - 日本（TG@阿伟科技/油管） 6
+      - 科技网络
+      - 科技网络 2
+      - Youtue/ONE·资源核 11
+      - Youtue/ONE·资源核 12
+      - 科技网络 3
+      - 167.88.61.70:8119
+      - Youtue/ONE·资源核 13
+      - Youtue/ONE·资源核 14
+      - 科技网络 4
+      - 科技网络 5
+      - Youtue/ONE·资源核 15
+      - tcp us 【直连】
+      - 科技网络 6
+      - Youtue/ONE·资源核 16
+      - Youtue/ONE·资源核 17
+      - _US_美国 2
+      - _US_美国 3
+      - 科技网络 7
+      - _US_美国 4
+      - 科技网络 8
+      - Youtue/ONE·资源核 18
+      - 直连-日本T-A _vmess_ws  172.104.64.47
+      - Youtue/ONE·资源核 19
+      - 科技网络 9
+      - _US_美国 5
+      - Youtue/ONE·资源核 20
+      - Youtue/ONE·资源核 21
+      - Youtue/ONE·资源核 22
+      - _US_美国 6
+      - ♥️YouTube梦歌♥️_16
+      - _US_美国 7
+      - _US_美国 8
+      - Youtue/ONE·资源核 23
+      - _US_美国 9
+      - _US_美国 10
+      - 科技网络 10
+      - 科技网络 11
+      - ♥️YouTube梦歌♥️_38
+      - Youtue/ONE·资源核 24
+      - Youtue/ONE·资源核 25
+      - Youtue/ONE·资源核 26
+      - _US_美国 11
+      - Youtue/ONE·资源核 27
+      - Youtue/ONE·资源核 28
+      - 【YouTube由零开始】
+      - Youtue/ONE·资源核 29
+      - Youtue/ONE·资源核 30
+      - 科技网络 12
+      - _US_美国 12
+      - Youtue/ONE·资源核 31
+      - _US_美国 13
+      - 科技网络 13
+      - Youtue/ONE·资源核 32
+      - 科技网络 14
+      - Youtue/ONE·资源核 33
+      - 科技网络 15
+      - _US_美国 14
+      - 科技网络 16
+      - 科技网络 17
+      - _US_美国 15
+      - ♥️YouTube梦歌♥️_61
+      - Youtue/ONE·资源核 34
+      - Youtue/ONE·资源核 35
+      - _US_美国 16
+      - _US_美国 17
+      - US_欢迎下载软件库app
+      - Youtue/ONE·资源核 36
+      - us 直连-美国-T-A | 节点更新 https://bit.ly/36b6iJh
+      - 日本（TG@阿伟科技/油管） 3
+      - _US_美国 18
+      - _US_美国 19
+      - Youtue/ONE·资源核 37
+      - Youtue/ONE·资源核 38
+      - Youtue/ONE·资源核 39
+      - Youtue/ONE·资源核 40
+      - Youtue/ONE·资源核 41
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - Youtue/ONE·资源核 42
+      - Youtue/ONE·资源核 43
+      - Youtue/ONE·资源核 44
+      - 美国（TG@阿伟科技/油管） 2
+      - 科技网络 18
+      - _US_美国 23
+      - Youtue/ONE·资源核 45
+      - _US_美国 24
+      - 科技网络 19
+      - _US_美国 25
+      - Youtue/ONE·资源核 46
+      - _US_美国 26
+      - _US_美国 27
+      - Youtue/ONE·资源核 47
+      - Youtue/ONE·资源核 48
+      - _US_美国 28
+      - Youtue/ONE·资源核 49
+      - Youtue/ONE·资源核 50
+      - _US_美国 29
+      - Youtue/ONE·资源核 51
+      - _GB_英国
       - _GB_英国 2
-      - us2 【直连】
+      - Youtue/ONE·资源核 52
+      - Youtue/ONE·资源核 53
       - _GB_英国 3
+      - Youtue/ONE·资源核 54
       - _GB_英国 4
       - _GB_英国 5
-      - _GB_英国 6
-      - 韩国（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管） 3
-      - 乌克兰（TG@阿伟科技/油管）
-      - Youtube/ONE·资源核 2
-      - 印度184-16@1Gbps节点更新 https://bit.ly/36b6iJh
       - ♥️YouTube梦歌♥️_32
-      - 14.29.124.168:25294
+      - Youtue/ONE·资源核 55
+      - _GB_英国 6
+      - 台湾（TG@阿伟科技/油管） 2
+      - Youtue/ONE·资源核 56
+      - Youtue/ONE·资源核 57
+      - Youtue/ONE·资源核 58
+      - Youtue/ONE·资源核 59
+      - ♥️YouTube梦歌♥️_25
+      - Youtue/ONE·资源核 60
+      - Youtue/ONE·资源核 61
+      - 韩国（TG@阿伟科技/油管）
+      - ♥️YouTube梦歌♥️_37
+      - ♥️YouTube梦歌♥️_24
+      - Youtue/ONE·资源核 62
+      - ♥️YouTube梦歌♥️_14
+      - _US_美国 30
+      - ♥️YouTube梦歌♥️_32 2
+      - Youtue/ONE·资源核 63
+      - 乌克兰（TG@阿伟科技/油管）
+      - _US_美国 31
+      - ♥️YouTube梦歌♥️_19
+      - Youtue/ONE·资源核 64
+      - _US_美国 32
+      - 科技网络 20
+      - Youtue/ONE·资源核 65
+      - ♥️YouTube梦歌♥️_41
+      - 213.183.51.172:9024
+      - 科技网络 21
+      - Youtue/ONE·资源核 66
+      - ♥️YouTube梦歌♥️_21
+      - Youtue/ONE·资源核 67
+      - 香港（TG@阿伟科技/油管） 3
+      - _CN_中国->🇯🇵_JP_日本
+      - Youtue/ONE·资源核 68
+      - 科技网络 22
+      - Youtue/ONE·资源核 69
+      - Youtue/ONE·资源核 70
+      - Youtue/ONE·资源核 71
+      - ♥️YouTube梦歌♥️_27
+      - 科技网络 23
+      - _US_美国 33
+      - Youtue/ONE·资源核 72
+      - 韩国（TG@阿伟科技/油管） 2
+      - 西美高速2
+      - 香港（TG@阿伟科技/油管） 4
+      - Youtue/ONE·资源核 73
+      - ♥️YouTube梦歌♥️_4
+      - Youtue/ONE·资源核 8 2
+      - Youtue/ONE·资源核 74
+      - _US_美国 34
+      - 英国（TG@阿伟科技/油管）
+      - _US_美国 35
+      - ♥️YouTube梦歌♥️_33
+      - _US_美国 36
+      - 英国（TG@阿伟科技/油管） 2
+      - 亚洲(ios小火箭软件|ioskaka.com)
+      - 新加坡（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_51
+      - 美国（TG@阿伟科技/油管） 3
+      - ♥️YouTube梦歌♥️_55
+      - us2 【直连】
+      - _US_美国 37
+      - github.com/freefq - 美国  16
+      - 荷兰（TG@阿伟科技/油管）
+      - Youtube/ONE·资源核
+      - Youtube/ONE·资源核 2
       - Youtube/ONE·资源核 3
       - Youtube/ONE·资源核 4
       - Youtube/ONE·资源核 5
       - 14.29.124.168:25259
-      - _GB_英国 7
-      - 台湾（TG@阿伟科技/油管）
-      - 香港（TG@阿伟科技/油管）
-      - Youtube/ONE·资源核 6
-      - 14.29.124.168:25230
-      - 印度184-40 联通10.26 节点更新 https://bit.ly/36b6iJh
-      - 印度184-20@1Gbps节点更新 https://bit.ly/36b6iJh
-      - ♥️YouTube梦歌♥️_4
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 印度184-14@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-32 联通28.64m 节点更新 https://bit.ly/36b6iJh
-      - _CN_中国->🇺🇸_US_美国
+      - 韩国（TG@阿伟科技/油管） 2 2
       - 美国（TG@阿伟科技/油管） 4
       - 美国（TG@阿伟科技/油管） 5
-      - ♥️YouTube梦歌♥️_14
-      - 西美高速2
-      - 直连-日本T-A _vmess_ws  172.104.64.47
-      - 英国 【YouTube由零开始】 4
-      - _GB_英国 8
-      - 英国 【YouTube由零开始】 5
+      - 韩国（TG@阿伟科技/油管） 3
+      - github.com/freefq - 美国Microsoft数据中心 7
+      - ♥️YouTube梦歌♥️_4 2
+      - 14.29.124.168:25294
+      - ♥️YouTube梦歌♥️_41 2
+      - github.com/freefq - 日本  12
       - 美国（TG@阿伟科技/油管） 6
+      - 亚洲(ios小火箭软件|ioskaka.com) 2
+      - 新加坡（TG@阿伟科技/油管） 3
+      - 美国（TG@阿伟科技/油管） 7
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 2
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 3
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 4
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 4
+      - 🇸🇬 粉丝投稿🍄新103.157.251.20
+      - 🇭🇰 粉丝投稿🍄港103.157.251.19
+      - 粉丝投稿
+      - 粉丝投稿 2
+      - 粉丝投稿 3
+      - 粉丝投稿 4
+      - 粉丝投稿 5
+      - 粉丝投稿 6
+      - 粉丝投稿 7
+      - 粉丝投稿 8
+      - 粉丝投稿 9
+      - 🇭🇰 粉丝投稿 1--无限流量
+      - 🇭🇰 粉丝投稿 2--无限流量
+      - 🇭🇰 粉丝投稿 3--无限流量
+      - 🇭🇰 粉丝投稿 4--无限流量
+      - 🇭🇰 粉丝投稿 5--无限流量
+      - 🇭🇰 粉丝投稿 6--无限流量
+      - 🇭🇰 粉丝投稿 7--无限流量
+      - 🇭🇰 无限流量 1--无限流量
+      - 🇭🇰 无限流量 2--无限流量
+      - 🇭🇰 无限流量 3--无限流量
+      - 🇭🇰 无限流量 4--无限流量
+      - 🇭🇰 无限流量 5--无限流量
+      - 🇭🇰 无限流量 6--无限流量
+      - 🇭🇰 无限流量 7--无限流量
+      - 🇭🇰 无限流量 8--无限流量
+      - 🇭🇰 无限流量 9--无限流量
+      - 🇭🇰 无限流量 10--无限流量
+      - 🇭🇰 无限流量 11--无限流量
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港杨枝甘露 03
-      - 香港丝袜奶茶 02
-      - ♥️YouTube梦歌♥️_41
-      - _CN_中国->🇲🇾_MY_马来西亚
-      - 印度（TG@阿伟科技/油管）
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国->🇭🇰_HK_香港 2
-      - us 直连-美国-T-A | 节点更新 https://bit.ly/36b6iJh
-      - tcp us 【直连】
-      - 印度184-24@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 香港煎酿三宝 04
-      - 直连-日本T-A 2_vmess_ws
-      - Youtube/ONE·资源核
-      - 美国（TG@阿伟科技/油管）
-      - 印度184-17@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-36 联通12.71 节点更新 https://bit.ly/36b6iJh
-      - 印度184-9@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-8@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-19@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-27@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-10@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-38 联通11.55 节点更新 https://bit.ly/36b6iJh
-      - 印度184-15@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-12@1Gbps节点更新 https://bit.ly/36b6iJh
-      - (ios小火箭软件|ioskaka.com)
-      - 印度184-13@1Gbps节点更新 https://bit.ly/36b6iJh
-      - ♥️YouTube梦歌♥️_25
-      - 印度184-11@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-26@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-29@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-1电信@1Gbps 节点更新 https://bit.ly/36b6iJh
-      - 印度184-39 联通11.11 节点更新 https://bit.ly/36b6iJh
-      - 印度184-7@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _CN_中国->🇬🇧_GB_英国
-      - 英国 【YouTube由零开始】
-      - 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-37 联通11.95 节点更新 https://bit.ly/36b6iJh
-      - 印度184-35 联通14.07 节点更新 https://bit.ly/36b6iJh
-      - 英国 【YouTube由零开始】 2
-      - 印度184-4 联通100M+4K -2 节点更新 https://bit.ly/36b6iJh
-      - 印度184-28@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - _CN_中国->🇹🇼_TW_台湾 2
-      - 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-23@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-21联通100M+4K   节点更新 https://bit.ly/36b6iJh
-      - 印度184-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 【YouTube由零开始】
-      - 印度184-33 联通15.02m  节点更新 https://bit.ly/36b6iJh
-      - 英国 【YouTube由零开始】 3
-      - _GB_英国
-      - 美国（TG@阿伟科技/油管） 2
-      - 印度184-18@1Gbps节点更新 https://bit.ly/36b6iJh
+      - Youtue/ONE·资源核
+      - Youtue/ONE·资源核 2
+      - 香港（TG@阿伟科技/油管） 7
       - 新加坡（TG@阿伟科技/油管）
-      - 印度184-34 联通14.9 节点更新 https://bit.ly/36b6iJh
-      - _US_美国
-      - ♥️YouTube梦歌♥️_61
+      - 香港（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 2
+      - Youtue/ONE·资源核 3
+      - Youtue/ONE·资源核 4
+      - github.com/freefq - 日本东京Linode数据中心 17
       - 日本（TG@阿伟科技/油管）
+      - Youtue/ONE·资源核 5
+      - ♥️YouTube梦歌♥️_8
+      - Youtue/ONE·资源核 6
+      - ♥️YouTube梦歌♥️_11
+      - 台湾（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管） 2
+      - 德国（TG@阿伟科技/油管）
+      - _US_美国
+      - Youtue/ONE·资源核 7
+      - Youtue/ONE·资源核 8
+      - Youtue/ONE·资源核 9
+      - Youtue/ONE·资源核 10
+      - 日本（TG@阿伟科技/油管） 6
+      - 科技网络
+      - 科技网络 2
+      - Youtue/ONE·资源核 11
+      - Youtue/ONE·资源核 12
+      - 科技网络 3
+      - 167.88.61.70:8119
+      - Youtue/ONE·资源核 13
+      - Youtue/ONE·资源核 14
+      - 科技网络 4
+      - 科技网络 5
+      - Youtue/ONE·资源核 15
+      - tcp us 【直连】
+      - 科技网络 6
+      - Youtue/ONE·资源核 16
+      - Youtue/ONE·资源核 17
+      - _US_美国 2
+      - _US_美国 3
+      - 科技网络 7
+      - _US_美国 4
+      - 科技网络 8
+      - Youtue/ONE·资源核 18
+      - 直连-日本T-A _vmess_ws  172.104.64.47
+      - Youtue/ONE·资源核 19
+      - 科技网络 9
+      - _US_美国 5
+      - Youtue/ONE·资源核 20
+      - Youtue/ONE·资源核 21
+      - Youtue/ONE·资源核 22
+      - _US_美国 6
+      - ♥️YouTube梦歌♥️_16
+      - _US_美国 7
+      - _US_美国 8
+      - Youtue/ONE·资源核 23
+      - _US_美国 9
+      - _US_美国 10
+      - 科技网络 10
+      - 科技网络 11
+      - ♥️YouTube梦歌♥️_38
+      - Youtue/ONE·资源核 24
+      - Youtue/ONE·资源核 25
+      - Youtue/ONE·资源核 26
+      - _US_美国 11
+      - Youtue/ONE·资源核 27
+      - Youtue/ONE·资源核 28
+      - 【YouTube由零开始】
+      - Youtue/ONE·资源核 29
+      - Youtue/ONE·资源核 30
+      - 科技网络 12
+      - _US_美国 12
+      - Youtue/ONE·资源核 31
+      - _US_美国 13
+      - 科技网络 13
+      - Youtue/ONE·资源核 32
+      - 科技网络 14
+      - Youtue/ONE·资源核 33
+      - 科技网络 15
+      - _US_美国 14
+      - 科技网络 16
+      - 科技网络 17
+      - _US_美国 15
+      - ♥️YouTube梦歌♥️_61
+      - Youtue/ONE·资源核 34
+      - Youtue/ONE·资源核 35
+      - _US_美国 16
+      - _US_美国 17
+      - US_欢迎下载软件库app
+      - Youtue/ONE·资源核 36
+      - us 直连-美国-T-A | 节点更新 https://bit.ly/36b6iJh
+      - 日本（TG@阿伟科技/油管） 3
+      - _US_美国 18
+      - _US_美国 19
+      - Youtue/ONE·资源核 37
+      - Youtue/ONE·资源核 38
+      - Youtue/ONE·资源核 39
+      - Youtue/ONE·资源核 40
+      - Youtue/ONE·资源核 41
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - Youtue/ONE·资源核 42
+      - Youtue/ONE·资源核 43
+      - Youtue/ONE·资源核 44
+      - 美国（TG@阿伟科技/油管） 2
+      - 科技网络 18
+      - _US_美国 23
+      - Youtue/ONE·资源核 45
+      - _US_美国 24
+      - 科技网络 19
+      - _US_美国 25
+      - Youtue/ONE·资源核 46
+      - _US_美国 26
+      - _US_美国 27
+      - Youtue/ONE·资源核 47
+      - Youtue/ONE·资源核 48
+      - _US_美国 28
+      - Youtue/ONE·资源核 49
+      - Youtue/ONE·资源核 50
+      - _US_美国 29
+      - Youtue/ONE·资源核 51
+      - _GB_英国
       - _GB_英国 2
-      - us2 【直连】
+      - Youtue/ONE·资源核 52
+      - Youtue/ONE·资源核 53
       - _GB_英国 3
+      - Youtue/ONE·资源核 54
       - _GB_英国 4
       - _GB_英国 5
-      - _GB_英国 6
-      - 韩国（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管） 3
-      - 乌克兰（TG@阿伟科技/油管）
-      - Youtube/ONE·资源核 2
-      - 印度184-16@1Gbps节点更新 https://bit.ly/36b6iJh
       - ♥️YouTube梦歌♥️_32
-      - 14.29.124.168:25294
+      - Youtue/ONE·资源核 55
+      - _GB_英国 6
+      - 台湾（TG@阿伟科技/油管） 2
+      - Youtue/ONE·资源核 56
+      - Youtue/ONE·资源核 57
+      - Youtue/ONE·资源核 58
+      - Youtue/ONE·资源核 59
+      - ♥️YouTube梦歌♥️_25
+      - Youtue/ONE·资源核 60
+      - Youtue/ONE·资源核 61
+      - 韩国（TG@阿伟科技/油管）
+      - ♥️YouTube梦歌♥️_37
+      - ♥️YouTube梦歌♥️_24
+      - Youtue/ONE·资源核 62
+      - ♥️YouTube梦歌♥️_14
+      - _US_美国 30
+      - ♥️YouTube梦歌♥️_32 2
+      - Youtue/ONE·资源核 63
+      - 乌克兰（TG@阿伟科技/油管）
+      - _US_美国 31
+      - ♥️YouTube梦歌♥️_19
+      - Youtue/ONE·资源核 64
+      - _US_美国 32
+      - 科技网络 20
+      - Youtue/ONE·资源核 65
+      - ♥️YouTube梦歌♥️_41
+      - 213.183.51.172:9024
+      - 科技网络 21
+      - Youtue/ONE·资源核 66
+      - ♥️YouTube梦歌♥️_21
+      - Youtue/ONE·资源核 67
+      - 香港（TG@阿伟科技/油管） 3
+      - _CN_中国->🇯🇵_JP_日本
+      - Youtue/ONE·资源核 68
+      - 科技网络 22
+      - Youtue/ONE·资源核 69
+      - Youtue/ONE·资源核 70
+      - Youtue/ONE·资源核 71
+      - ♥️YouTube梦歌♥️_27
+      - 科技网络 23
+      - _US_美国 33
+      - Youtue/ONE·资源核 72
+      - 韩国（TG@阿伟科技/油管） 2
+      - 西美高速2
+      - 香港（TG@阿伟科技/油管） 4
+      - Youtue/ONE·资源核 73
+      - ♥️YouTube梦歌♥️_4
+      - Youtue/ONE·资源核 8 2
+      - Youtue/ONE·资源核 74
+      - _US_美国 34
+      - 英国（TG@阿伟科技/油管）
+      - _US_美国 35
+      - ♥️YouTube梦歌♥️_33
+      - _US_美国 36
+      - 英国（TG@阿伟科技/油管） 2
+      - 亚洲(ios小火箭软件|ioskaka.com)
+      - 新加坡（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_51
+      - 美国（TG@阿伟科技/油管） 3
+      - ♥️YouTube梦歌♥️_55
+      - us2 【直连】
+      - _US_美国 37
+      - github.com/freefq - 美国  16
+      - 荷兰（TG@阿伟科技/油管）
+      - Youtube/ONE·资源核
+      - Youtube/ONE·资源核 2
       - Youtube/ONE·资源核 3
       - Youtube/ONE·资源核 4
       - Youtube/ONE·资源核 5
       - 14.29.124.168:25259
-      - _GB_英国 7
-      - 台湾（TG@阿伟科技/油管）
-      - 香港（TG@阿伟科技/油管）
-      - Youtube/ONE·资源核 6
-      - 14.29.124.168:25230
-      - 印度184-40 联通10.26 节点更新 https://bit.ly/36b6iJh
-      - 印度184-20@1Gbps节点更新 https://bit.ly/36b6iJh
-      - ♥️YouTube梦歌♥️_4
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 印度184-14@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-32 联通28.64m 节点更新 https://bit.ly/36b6iJh
-      - _CN_中国->🇺🇸_US_美国
+      - 韩国（TG@阿伟科技/油管） 2 2
       - 美国（TG@阿伟科技/油管） 4
       - 美国（TG@阿伟科技/油管） 5
-      - ♥️YouTube梦歌♥️_14
-      - 西美高速2
-      - 直连-日本T-A _vmess_ws  172.104.64.47
-      - 英国 【YouTube由零开始】 4
-      - _GB_英国 8
-      - 英国 【YouTube由零开始】 5
+      - 韩国（TG@阿伟科技/油管） 3
+      - github.com/freefq - 美国Microsoft数据中心 7
+      - ♥️YouTube梦歌♥️_4 2
+      - 14.29.124.168:25294
+      - ♥️YouTube梦歌♥️_41 2
+      - github.com/freefq - 日本  12
       - 美国（TG@阿伟科技/油管） 6
+      - 亚洲(ios小火箭软件|ioskaka.com) 2
+      - 新加坡（TG@阿伟科技/油管） 3
+      - 美国（TG@阿伟科技/油管） 7
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 2
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 3
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 4
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 4
+      - 🇸🇬 粉丝投稿🍄新103.157.251.20
+      - 🇭🇰 粉丝投稿🍄港103.157.251.19
+      - 粉丝投稿
+      - 粉丝投稿 2
+      - 粉丝投稿 3
+      - 粉丝投稿 4
+      - 粉丝投稿 5
+      - 粉丝投稿 6
+      - 粉丝投稿 7
+      - 粉丝投稿 8
+      - 粉丝投稿 9
+      - 🇭🇰 粉丝投稿 1--无限流量
+      - 🇭🇰 粉丝投稿 2--无限流量
+      - 🇭🇰 粉丝投稿 3--无限流量
+      - 🇭🇰 粉丝投稿 4--无限流量
+      - 🇭🇰 粉丝投稿 5--无限流量
+      - 🇭🇰 粉丝投稿 6--无限流量
+      - 🇭🇰 粉丝投稿 7--无限流量
+      - 🇭🇰 无限流量 1--无限流量
+      - 🇭🇰 无限流量 2--无限流量
+      - 🇭🇰 无限流量 3--无限流量
+      - 🇭🇰 无限流量 4--无限流量
+      - 🇭🇰 无限流量 5--无限流量
+      - 🇭🇰 无限流量 6--无限流量
+      - 🇭🇰 无限流量 7--无限流量
+      - 🇭🇰 无限流量 8--无限流量
+      - 🇭🇰 无限流量 9--无限流量
+      - 🇭🇰 无限流量 10--无限流量
+      - 🇭🇰 无限流量 11--无限流量
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -861,103 +2202,278 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港杨枝甘露 03
-      - 香港丝袜奶茶 02
-      - ♥️YouTube梦歌♥️_41
-      - _CN_中国->🇲🇾_MY_马来西亚
-      - 印度（TG@阿伟科技/油管）
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国->🇭🇰_HK_香港 2
-      - us 直连-美国-T-A | 节点更新 https://bit.ly/36b6iJh
-      - tcp us 【直连】
-      - 印度184-24@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 香港煎酿三宝 04
-      - 直连-日本T-A 2_vmess_ws
-      - Youtube/ONE·资源核
-      - 美国（TG@阿伟科技/油管）
-      - 印度184-17@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-36 联通12.71 节点更新 https://bit.ly/36b6iJh
-      - 印度184-9@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-8@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-19@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-27@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-10@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-38 联通11.55 节点更新 https://bit.ly/36b6iJh
-      - 印度184-15@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-12@1Gbps节点更新 https://bit.ly/36b6iJh
-      - (ios小火箭软件|ioskaka.com)
-      - 印度184-13@1Gbps节点更新 https://bit.ly/36b6iJh
-      - ♥️YouTube梦歌♥️_25
-      - 印度184-11@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-26@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-29@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-1电信@1Gbps 节点更新 https://bit.ly/36b6iJh
-      - 印度184-39 联通11.11 节点更新 https://bit.ly/36b6iJh
-      - 印度184-7@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _CN_中国->🇬🇧_GB_英国
-      - 英国 【YouTube由零开始】
-      - 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-37 联通11.95 节点更新 https://bit.ly/36b6iJh
-      - 印度184-35 联通14.07 节点更新 https://bit.ly/36b6iJh
-      - 英国 【YouTube由零开始】 2
-      - 印度184-4 联通100M+4K -2 节点更新 https://bit.ly/36b6iJh
-      - 印度184-28@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - _CN_中国->🇹🇼_TW_台湾 2
-      - 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-23@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-21联通100M+4K   节点更新 https://bit.ly/36b6iJh
-      - 印度184-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - 【YouTube由零开始】
-      - 印度184-33 联通15.02m  节点更新 https://bit.ly/36b6iJh
-      - 英国 【YouTube由零开始】 3
-      - _GB_英国
-      - 美国（TG@阿伟科技/油管） 2
-      - 印度184-18@1Gbps节点更新 https://bit.ly/36b6iJh
+      - Youtue/ONE·资源核
+      - Youtue/ONE·资源核 2
+      - 香港（TG@阿伟科技/油管） 7
       - 新加坡（TG@阿伟科技/油管）
-      - 印度184-34 联通14.9 节点更新 https://bit.ly/36b6iJh
-      - _US_美国
-      - ♥️YouTube梦歌♥️_61
+      - 香港（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 2
+      - Youtue/ONE·资源核 3
+      - Youtue/ONE·资源核 4
+      - github.com/freefq - 日本东京Linode数据中心 17
       - 日本（TG@阿伟科技/油管）
+      - Youtue/ONE·资源核 5
+      - ♥️YouTube梦歌♥️_8
+      - Youtue/ONE·资源核 6
+      - ♥️YouTube梦歌♥️_11
+      - 台湾（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管） 2
+      - 德国（TG@阿伟科技/油管）
+      - _US_美国
+      - Youtue/ONE·资源核 7
+      - Youtue/ONE·资源核 8
+      - Youtue/ONE·资源核 9
+      - Youtue/ONE·资源核 10
+      - 日本（TG@阿伟科技/油管） 6
+      - 科技网络
+      - 科技网络 2
+      - Youtue/ONE·资源核 11
+      - Youtue/ONE·资源核 12
+      - 科技网络 3
+      - 167.88.61.70:8119
+      - Youtue/ONE·资源核 13
+      - Youtue/ONE·资源核 14
+      - 科技网络 4
+      - 科技网络 5
+      - Youtue/ONE·资源核 15
+      - tcp us 【直连】
+      - 科技网络 6
+      - Youtue/ONE·资源核 16
+      - Youtue/ONE·资源核 17
+      - _US_美国 2
+      - _US_美国 3
+      - 科技网络 7
+      - _US_美国 4
+      - 科技网络 8
+      - Youtue/ONE·资源核 18
+      - 直连-日本T-A _vmess_ws  172.104.64.47
+      - Youtue/ONE·资源核 19
+      - 科技网络 9
+      - _US_美国 5
+      - Youtue/ONE·资源核 20
+      - Youtue/ONE·资源核 21
+      - Youtue/ONE·资源核 22
+      - _US_美国 6
+      - ♥️YouTube梦歌♥️_16
+      - _US_美国 7
+      - _US_美国 8
+      - Youtue/ONE·资源核 23
+      - _US_美国 9
+      - _US_美国 10
+      - 科技网络 10
+      - 科技网络 11
+      - ♥️YouTube梦歌♥️_38
+      - Youtue/ONE·资源核 24
+      - Youtue/ONE·资源核 25
+      - Youtue/ONE·资源核 26
+      - _US_美国 11
+      - Youtue/ONE·资源核 27
+      - Youtue/ONE·资源核 28
+      - 【YouTube由零开始】
+      - Youtue/ONE·资源核 29
+      - Youtue/ONE·资源核 30
+      - 科技网络 12
+      - _US_美国 12
+      - Youtue/ONE·资源核 31
+      - _US_美国 13
+      - 科技网络 13
+      - Youtue/ONE·资源核 32
+      - 科技网络 14
+      - Youtue/ONE·资源核 33
+      - 科技网络 15
+      - _US_美国 14
+      - 科技网络 16
+      - 科技网络 17
+      - _US_美国 15
+      - ♥️YouTube梦歌♥️_61
+      - Youtue/ONE·资源核 34
+      - Youtue/ONE·资源核 35
+      - _US_美国 16
+      - _US_美国 17
+      - US_欢迎下载软件库app
+      - Youtue/ONE·资源核 36
+      - us 直连-美国-T-A | 节点更新 https://bit.ly/36b6iJh
+      - 日本（TG@阿伟科技/油管） 3
+      - _US_美国 18
+      - _US_美国 19
+      - Youtue/ONE·资源核 37
+      - Youtue/ONE·资源核 38
+      - Youtue/ONE·资源核 39
+      - Youtue/ONE·资源核 40
+      - Youtue/ONE·资源核 41
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - Youtue/ONE·资源核 42
+      - Youtue/ONE·资源核 43
+      - Youtue/ONE·资源核 44
+      - 美国（TG@阿伟科技/油管） 2
+      - 科技网络 18
+      - _US_美国 23
+      - Youtue/ONE·资源核 45
+      - _US_美国 24
+      - 科技网络 19
+      - _US_美国 25
+      - Youtue/ONE·资源核 46
+      - _US_美国 26
+      - _US_美国 27
+      - Youtue/ONE·资源核 47
+      - Youtue/ONE·资源核 48
+      - _US_美国 28
+      - Youtue/ONE·资源核 49
+      - Youtue/ONE·资源核 50
+      - _US_美国 29
+      - Youtue/ONE·资源核 51
+      - _GB_英国
       - _GB_英国 2
-      - us2 【直连】
+      - Youtue/ONE·资源核 52
+      - Youtue/ONE·资源核 53
       - _GB_英国 3
+      - Youtue/ONE·资源核 54
       - _GB_英国 4
       - _GB_英国 5
-      - _GB_英国 6
-      - 韩国（TG@阿伟科技/油管）
-      - 美国（TG@阿伟科技/油管） 3
-      - 乌克兰（TG@阿伟科技/油管）
-      - Youtube/ONE·资源核 2
-      - 印度184-16@1Gbps节点更新 https://bit.ly/36b6iJh
       - ♥️YouTube梦歌♥️_32
-      - 14.29.124.168:25294
+      - Youtue/ONE·资源核 55
+      - _GB_英国 6
+      - 台湾（TG@阿伟科技/油管） 2
+      - Youtue/ONE·资源核 56
+      - Youtue/ONE·资源核 57
+      - Youtue/ONE·资源核 58
+      - Youtue/ONE·资源核 59
+      - ♥️YouTube梦歌♥️_25
+      - Youtue/ONE·资源核 60
+      - Youtue/ONE·资源核 61
+      - 韩国（TG@阿伟科技/油管）
+      - ♥️YouTube梦歌♥️_37
+      - ♥️YouTube梦歌♥️_24
+      - Youtue/ONE·资源核 62
+      - ♥️YouTube梦歌♥️_14
+      - _US_美国 30
+      - ♥️YouTube梦歌♥️_32 2
+      - Youtue/ONE·资源核 63
+      - 乌克兰（TG@阿伟科技/油管）
+      - _US_美国 31
+      - ♥️YouTube梦歌♥️_19
+      - Youtue/ONE·资源核 64
+      - _US_美国 32
+      - 科技网络 20
+      - Youtue/ONE·资源核 65
+      - ♥️YouTube梦歌♥️_41
+      - 213.183.51.172:9024
+      - 科技网络 21
+      - Youtue/ONE·资源核 66
+      - ♥️YouTube梦歌♥️_21
+      - Youtue/ONE·资源核 67
+      - 香港（TG@阿伟科技/油管） 3
+      - _CN_中国->🇯🇵_JP_日本
+      - Youtue/ONE·资源核 68
+      - 科技网络 22
+      - Youtue/ONE·资源核 69
+      - Youtue/ONE·资源核 70
+      - Youtue/ONE·资源核 71
+      - ♥️YouTube梦歌♥️_27
+      - 科技网络 23
+      - _US_美国 33
+      - Youtue/ONE·资源核 72
+      - 韩国（TG@阿伟科技/油管） 2
+      - 西美高速2
+      - 香港（TG@阿伟科技/油管） 4
+      - Youtue/ONE·资源核 73
+      - ♥️YouTube梦歌♥️_4
+      - Youtue/ONE·资源核 8 2
+      - Youtue/ONE·资源核 74
+      - _US_美国 34
+      - 英国（TG@阿伟科技/油管）
+      - _US_美国 35
+      - ♥️YouTube梦歌♥️_33
+      - _US_美国 36
+      - 英国（TG@阿伟科技/油管） 2
+      - 亚洲(ios小火箭软件|ioskaka.com)
+      - 新加坡（TG@阿伟科技/油管） 2
+      - ♥️YouTube梦歌♥️_51
+      - 美国（TG@阿伟科技/油管） 3
+      - ♥️YouTube梦歌♥️_55
+      - us2 【直连】
+      - _US_美国 37
+      - github.com/freefq - 美国  16
+      - 荷兰（TG@阿伟科技/油管）
+      - Youtube/ONE·资源核
+      - Youtube/ONE·资源核 2
       - Youtube/ONE·资源核 3
       - Youtube/ONE·资源核 4
       - Youtube/ONE·资源核 5
       - 14.29.124.168:25259
-      - _GB_英国 7
-      - 台湾（TG@阿伟科技/油管）
-      - 香港（TG@阿伟科技/油管）
-      - Youtube/ONE·资源核 6
-      - 14.29.124.168:25230
-      - 印度184-40 联通10.26 节点更新 https://bit.ly/36b6iJh
-      - 印度184-20@1Gbps节点更新 https://bit.ly/36b6iJh
-      - ♥️YouTube梦歌♥️_4
-      - 俄罗斯（TG@阿伟科技/油管）
-      - 印度184-14@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-32 联通28.64m 节点更新 https://bit.ly/36b6iJh
-      - _CN_中国->🇺🇸_US_美国
+      - 韩国（TG@阿伟科技/油管） 2 2
       - 美国（TG@阿伟科技/油管） 4
       - 美国（TG@阿伟科技/油管） 5
-      - ♥️YouTube梦歌♥️_14
-      - 西美高速2
-      - 直连-日本T-A _vmess_ws  172.104.64.47
-      - 英国 【YouTube由零开始】 4
-      - _GB_英国 8
-      - 英国 【YouTube由零开始】 5
+      - 韩国（TG@阿伟科技/油管） 3
+      - github.com/freefq - 美国Microsoft数据中心 7
+      - ♥️YouTube梦歌♥️_4 2
+      - 14.29.124.168:25294
+      - ♥️YouTube梦歌♥️_41 2
+      - github.com/freefq - 日本  12
       - 美国（TG@阿伟科技/油管） 6
+      - 亚洲(ios小火箭软件|ioskaka.com) 2
+      - 新加坡（TG@阿伟科技/油管） 3
+      - 美国（TG@阿伟科技/油管） 7
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 2
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 3
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 4
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 4
+      - 🇸🇬 粉丝投稿🍄新103.157.251.20
+      - 🇭🇰 粉丝投稿🍄港103.157.251.19
+      - 粉丝投稿
+      - 粉丝投稿 2
+      - 粉丝投稿 3
+      - 粉丝投稿 4
+      - 粉丝投稿 5
+      - 粉丝投稿 6
+      - 粉丝投稿 7
+      - 粉丝投稿 8
+      - 粉丝投稿 9
+      - 🇭🇰 粉丝投稿 1--无限流量
+      - 🇭🇰 粉丝投稿 2--无限流量
+      - 🇭🇰 粉丝投稿 3--无限流量
+      - 🇭🇰 粉丝投稿 4--无限流量
+      - 🇭🇰 粉丝投稿 5--无限流量
+      - 🇭🇰 粉丝投稿 6--无限流量
+      - 🇭🇰 粉丝投稿 7--无限流量
+      - 🇭🇰 无限流量 1--无限流量
+      - 🇭🇰 无限流量 2--无限流量
+      - 🇭🇰 无限流量 3--无限流量
+      - 🇭🇰 无限流量 4--无限流量
+      - 🇭🇰 无限流量 5--无限流量
+      - 🇭🇰 无限流量 6--无限流量
+      - 🇭🇰 无限流量 7--无限流量
+      - 🇭🇰 无限流量 8--无限流量
+      - 🇭🇰 无限流量 9--无限流量
+      - 🇭🇰 无限流量 10--无限流量
+      - 🇭🇰 无限流量 11--无限流量
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
