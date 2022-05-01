@@ -5,3099 +5,559 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 梦歌|BGP中转|解锁流媒体_57, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: cucu-aa.txwd.xyz:50007, server: cucu-aa.txwd.xyz, port: 50007, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_106, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_105, server: v4zx.v6speed.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_41, server: v4zx.v6speed.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_212, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_73, server: in1a18ba11dfa254.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: ♥️YouTube梦歌♥️_53, server: v4zx.v6speed.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_68, server: v4zx.v6speed.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 香港【YouTube由零开始】, server: hk3.fdns.cloudlink123.com, port: 80, type: vmess, uuid: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk3.fdns.cloudlink123.com}, udp: true}
-  - {name: 香港（TG@阿伟科技/油管）, server: v4zx.v6speed.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Ytb:鹏哥分享_美国_90, server: hkaz4.xmrth-node.xyz, port: 13302, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: hkaz4.xmrth-node.xyz}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_55, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_270, server: v1hugang3.kuli888.xyz, port: 11150, type: trojan, password: 0ea4ffba-f5d3-324b-946b-8db5c50266cb, sni: v1hugang3.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_77, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_5, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: cmcm-a.txwd.xyz:50222, server: cmcm-a.txwd.xyz, port: 50222, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_301, server: tw.jjzgy.live, port: 18888, type: vmess, uuid: 32b546f7-05c5-346c-a7ad-8ad58c903c4b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: tw.jjzgy.live}, udp: true}
-  - {name: 台湾（TG@阿伟科技/油管）, server: tw-1.qwqjsq.top, port: 443, type: vmess, uuid: b0543a3b-d690-3ed9-9a81-f24f852e74f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: 日本（TG@阿伟科技/油管）, server: v4zx.v6speed.com, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_51, server: awssg.yeem.cc, port: 21210, type: trojan, password: 59c465d4-e3ad-4a30-9067-887786a2ca2d, sni: awssg.yeem.cc, skip-cert-verify: true, udp: true}
-  - {name: 香港煎酿三宝 04, server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq12xdq7a.com, port: 10004, type: ss, cipher: aes-256-gcm, password: 321787d5-f29b-492a-a0dc-1628e1d0edb6, udp: true}
-  - {name: 新加坡（TG@阿伟科技/油管）, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_19, server: v4zx.v6speed.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_32, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_127, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 新加坡（TG@阿伟科技/油管） 2, server: sg2.bcyituan.xyz, port: 443, type: trojan, password: bd03979c-a3d0-46e0-956f-f7b031ee8ad1, sni: sg2.bcyituan.xyz, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_34, server: v4zx.v6speed.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_88, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 台湾（TG@阿伟科技/油管） 2, server: v4zx.v6speed.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 香港杨枝甘露 03-D, server: 20.187.74.186, port: 12369, type: trojan, password: 321787d5-f29b-492a-a0dc-1628e1d0edb6, skip-cert-verify: true, udp: true}
-  - {name: 台湾-04_15, server: v4zx.v6speed.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 台湾-01_12, server: v4zx.v6speed.com, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_24, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 日本（TG@阿伟科技/油管） 2, server: in4ba0929902b470.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_125, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_44, server: v4zx.v6speed.com, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_65, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_45, server: in4ba0929902b470.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: ♥️YouTube梦歌♥️_56, server: v4zx.v6speed.com, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_81, server: in4ba0929902b470.404sx.com, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 台湾（TG@阿伟科技/油管） 3, server: v4zx.v6speed.com, port: 38105, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_12, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3771, server: hk3.fdns.cloudlink123.com, port: 80, type: vmess, uuid: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk3.fdns.cloudlink123.com}, udp: true}
-  - {name: +HK_38003+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_4, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 新加坡 【由零开始YouTube】, server: v2-3.godlight.xyz, port: 39276, type: vmess, uuid: 6a52f259-4367-468c-a828-7b8283c2f059, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /f45361465j175, ws-headers: {Host: v2-3.godlight.xyz}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_30, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 香港（TG@阿伟科技/油管） 2, server: az.gzfxd.xyz, port: 16650, type: vmess, uuid: 04bc191c-aeb8-453a-ba80-fac958363a68, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: 台湾-02_13, server: v4zx.v6speed.com, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_25, server: r47909e1-5ce9-4095-97a4-bc26f18a5d89.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_8, server: in4ba0929902b470.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 印度（TG@阿伟科技/油管）, server: v4zx.v6speed.com, port: 38613, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: YouTube阿伟科技 5, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇷🇴RO_478, server: dajbxjp.naikonode.top, port: 15202, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 3187:1zqtep70txk, obfs-param: fb5843187.microsoft.com, udp: true}
-  - {name: 日本（TG@阿伟科技/油管） 3, server: cucu-aa.txwd.xyz, port: 50003, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_15, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: +HK_38007+@WangCai_1+13, server: fliplc.getxlx.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_50, server: in4ba0929902b470.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: (资源分享师)🇨🇳zg++14, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_53, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_49, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: YouTube阿伟科技 4, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, sni: jgwdj2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: +HK_38007+@WangCai_1+3, server: 124.71.118.225, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +JP_38305+@WangCai_1+3, server: 124.71.118.225, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_2, server: v4zx.v6speed.com, port: 38204, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 美国 【由零开始YouTube】, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_74, server: in4ba0929902b470.404sx.com, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_174, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 新加坡（TG@阿伟科技/油管） 3, server: v4zx.v6speed.com, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_157, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: ♥️YouTube梦歌♥️_10, server: v4zx.v6speed.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_256, server: v4zx.v6speed.com, port: 38303, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: YouTube阿伟科技, server: 20.214.159.88, port: 1021, type: trojan, password: da581cfe-683f-3169-9933-f221a5c0426c, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|BGP中转|解锁Netflix_6, server: api-01.malibaba.xyz, port: 38599, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-01.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开）, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本（TG@阿伟科技/油管）, server: cn.speedabc.xyz, port: 32002, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|BGP中转|解锁Netflix_26, server: api-01.malibaba.xyz, port: 31769, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-01.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG:YouTubeAYANG科技大师, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|BGP中转|解锁Netflix_46, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|BGP中转|解锁Netflix_7, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: a03140dd-d914-4aed-aa9e-97a4a5988a31, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本1丨筋斗云丨Weoworks提供, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 香港（TG@阿伟科技/油管）, server: cn.speedabc.xyz, port: 42011, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
   - {name: 香港煎酿三宝 04-D, server: 20.24.70.46, port: 12388, type: trojan, password: 321787d5-f29b-492a-a0dc-1628e1d0edb6, skip-cert-verify: true, udp: true}
-  - {name: 香港（TG@阿伟科技/油管） 3, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:), server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: hkaz1.xmrth-node.xyz}, udp: true}
-  - {name: PH_38603+@WangCai_1, server: flzz-hk.yixuedianzishu.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_33, server: in4ba0929902b470.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_147, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_86, server: yyyy.wwwbhjy.com, port: 2443, type: vmess, uuid: dee32eb7-e190-4c6f-dd27-aa9c82cd5490, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /8a76fb13/, ws-headers: {Host: yyyy.wwwbhjy.com}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_26, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_150, server: v4zx.v6speed.com, port: 38201, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 美国（TG@阿伟科技/油管）, server: ublubeu.fly.dev, port: 443, type: vmess, uuid: 18656003-e8b6-49e4-90f7-85fe53fcf7c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /18656003-e8b6-49e4-90f7-85fe53fcf7c7-vmess, ws-headers: {Host: ublubeu.fly.dev}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_17, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_35, server: in4ba0929902b470.404sx.com, port: 41002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: YouTube阿伟科技 2, server: gz-1.jiasugou.one, port: 15000, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: gz-1.jiasugou.one}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_43, server: v1hugang4.kuli888.xyz, port: 11151, type: trojan, password: 0ea4ffba-f5d3-324b-946b-8db5c50266cb, sni: v1hugang4.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_120, server: gz-1.jiasugou.one, port: 15000, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
-  - {name: aaa-666.txwd.xyz:60017, server: aaa-666.txwd.xyz, port: 60017, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_63, server: nas5.travelerv2.xyz, port: 21871, type: vmess, uuid: b69f3735-a1a1-3dbf-889b-4594d140752f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: nas5.travelerv2.xyz}, udp: true}
-  - {name: YouTube阿伟科技 3, server: gz-1.jiasugou.one, port: 15004, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
-  - {name: ♥️YouTube梦歌♥️_165, server: gy.sharecentrepro.tk, port: 10001, type: vmess, uuid: 6731a7a4-cac0-4218-d3e7-a4fe8c933b5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xrenblog, ws-headers: {Host: gy.sharecentrepro.tk}, udp: true}
-  - {name: +PH_38603+@WangCai_1+3, server: 124.71.118.225, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_480, server: dajbxkr.naikonode.top, port: 15308, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 3187:1zqtep70txk, obfs-param: fb5843187.microsoft.com, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_76, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: +HK_38007+@WangCai_1+17, server: gzjpiplc.hntgxxjc.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Ytb:鹏哥分享_中国_67, server: gz-1.jiasugou.one, port: 15004, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: gz-1.jiasugou.one}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_62, server: v4zx.v6speed.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_92, server: v4zx.v6speed.com, port: 38302, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +JP_38304+@WangCai_1+19, server: huaweibgp.hntgxxjc.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 香港咖喱鱼蛋 01-D, server: 20.24.76.30, port: 12377, type: trojan, password: 321787d5-f29b-492a-a0dc-1628e1d0edb6, skip-cert-verify: true, udp: true}
-  - {name: 中国 【由零开始YouTube】, server: gy.sharecentrepro.tk, port: 10001, type: vmess, uuid: 6731a7a4-cac0-4218-d3e7-a4fe8c933b5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xrenblog, ws-headers: {Host: sgp.xrenblog.com}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_42, server: v1shengang.kuli888.xyz, port: 52016, type: trojan, password: 0ea4ffba-f5d3-324b-946b-8db5c50266cb, sni: v1shengang.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: 印度【YouTube由零开始】, server: gkdcm.gkdcn.top, port: 25882, type: vmess, uuid: 99f71944-40c6-4b7b-97d2-37651c37a120, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: aaa-666.txwd.xyz:60006, server: aaa-666.txwd.xyz, port: 60006, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
-  - {name: 台湾（TG@阿伟科技/油管） 4, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_182, server: gz-1.jiasugou.one, port: 15002, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: gz-1.jiasugou.one}, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 2, server: v4zx.v6speed.com, port: 38504, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 新加坡（TG@阿伟科技/油管） 4, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_84, server: in4ba0929902b470.404sx.com, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: +HK_38006+@WangCai_1+2, server: 120.240.168.126, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 节点更新 https://bit.ly/36b6iJh, server: v4zx.v6speed.com, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_58, server: v4zx.v6speed.com, port: 38505, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +SG_38201+@WangCai_1+3, server: 124.71.118.225, port: 38201, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: _HK_香港, server: 43.129.227.60, port: 27727, type: vmess, uuid: d00f5ea9-4658-4f0a-a6c3-e29ef711cf3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.129.227.60]}}, udp: true}
-  - {name: +US_38501+@WangCai_1+22, server: v4zx.v6speed.com, port: 38501, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: (资源分享师)SSR+7, server: iepl7.dcnode.me, port: 10037, type: ss, cipher: aes-128-gcm, password: d307b05c-2341-4ffa-b376-9d3a46cf7ac9, udp: true}
-  - {name: +HK_38006+@WangCai_1+20, server: sgiplc01.hntgxxjc.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 香港（TG@阿伟科技/油管） 4, server: hk.omgwtf.website, port: 443, type: trojan, password: t4UzK3V1dXXumlz8, sni: hk.omgwtf.website, skip-cert-verify: true, udp: true}
-  - {name: 台湾（TG@阿伟科技/油管） 5, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 41002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: Youtue/ONE·资源核, server: 167.88.61.70, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国, server: 169.197.142.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: USA IEPL.A/03 x1.0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 28, server: vfly5.xyz, port: 443, type: vmess, uuid: 825136bb-fc0a-4f43-8307-dc2e36f27e2d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /myblog, ws-headers: {Host: vfly5.xyz}, udp: true}
-  - {name: 印度【YouTube由零开始】 2, server: gkdcm.gkdcn.top, port: 25882, type: vmess, uuid: c22b0107-a6c0-4010-8767-0b33c43efcaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: _US_美国 2, server: 38.75.136.21, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 马恩岛（TG@阿伟科技/油管）, server: cmcm-a.txwd.xyz, port: 50066, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_499, server: dajbxus.naikonode.top, port: 15105, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 3187:1zqtep70txk, obfs-param: fb5843187.microsoft.com, udp: true}
-  - {name: 科技网络, server: 167.88.61.204, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: b-mc.txwd.xyz:50055, server: b-mc.txwd.xyz, port: 50055, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
-  - {name: Youtue/ONE·资源核 2, server: 167.88.61.70, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_118+TG@peekfun, server: 38.75.136.21, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Youtue/ONE·资源核 3, server: 167.88.61.70, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_20, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3743, server: usd.scsevers.cf, port: 443, type: trojan, password: sharecentretest, sni: usd.scsevers.cf, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_129, server: gz-1.jiasugou.one, port: 15003, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: gz-1.jiasugou.one}, udp: true}
-  - {name: 法国-节点更新 https://bit.ly/36b6iJh, server: v4zx.v6speed.com, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_143, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: _US_美国 3, server: 167.88.61.70, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 4, server: 38.75.136.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Youtue/ONE·资源核 4, server: 167.88.61.70, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_38, server: v1hugang5.kuli888.xyz, port: 10028, type: trojan, password: 0ea4ffba-f5d3-324b-946b-8db5c50266cb, sni: v1hugang5.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: +HK_38004+@WangCai_1+3, server: 124.71.118.225, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 3, server: jp1.bcyituan.xyz, port: 443, type: trojan, password: bd03979c-a3d0-46e0-956f-f7b031ee8ad1, sni: jp1.bcyituan.xyz, skip-cert-verify: true, udp: true}
-  - {name: Youtue/ONE·资源核 5, server: 167.88.61.70, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 167.88.61.70:8119, server: 167.88.61.70, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: YouTube阿伟科技 6, server: 104.25.234.170, port: 443, type: vmess, uuid: 1293e022-6347-4d7e-8425-e65576b6ae0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: jp.567568.ml}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_323, server: jp3.bcyituan.xyz, port: 443, type: trojan, password: bd03979c-a3d0-46e0-956f-f7b031ee8ad1, sni: jp3.bcyituan.xyz, skip-cert-verify: true, udp: true}
-  - {name: Youtue/ONE·资源核 6, server: 167.88.61.70, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: github.com/freefq - 台湾省中华电信 7, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 61.222.202.140}, udp: true}
-  - {name: 167.88.61.70:8882, server: 167.88.61.70, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Youtue/ONE·资源核 7, server: 167.88.61.70, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: AU_149, server: 43.135.70.192, port: 24740, type: vmess, uuid: 3749de34-a1a9-44db-b72a-510712a52d11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.135.70.192]}}, udp: true}
-  - {name: 印度【YouTube由零开始】 3, server: gkdcm.gkdcn.top, port: 25882, type: vmess, uuid: f9b52c0d-5ac9-409c-8047-a524119b4271, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: +JP_38301+@WangCai_1+13, server: fliplc.getxlx.com, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 167.88.61.70:8008, server: 167.88.61.70, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: KR_364, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, sni: jgw2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US_109+TG@peekfun, server: 38.75.136.21, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: +HK_38006+@WangCai_1+19, server: huaweibgp.hntgxxjc.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 印度【YouTube由零开始】 4, server: gkdcu.gkdcn.top, port: 25882, type: vmess, uuid: c22b0107-a6c0-4010-8767-0b33c43efcaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_16, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: youtube阿伟科技, server: ssr.ssrfree1.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _US_美国 5, server: 38.75.136.116, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 科技网络 2, server: 167.88.61.204, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 6, server: 38.75.136.21, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 7, server: 169.197.143.157, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_119+TG@peekfun, server: 38.75.136.21, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 4, server: us-ca1.qwqjsq.top, port: 80, type: vmess, uuid: b0543a3b-d690-3ed9-9a81-f24f852e74f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 5, server: hmysanjose.tk, port: 22939, type: trojan, password: ncr8wxKXSS, sni: hmysanjose.tk, skip-cert-verify: true, udp: true}
-  - {name: 167.88.61.70:2376, server: 167.88.61.70, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: github.com/freefq - 澳大利亚  47, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Youtue/ONE·资源核 8, server: 167.88.61.70, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 直连-日本T-A 2_vmess_ws, server: 104.25.234.170, port: 443, type: vmess, uuid: f78db9ae-24c2-4a83-9d96-e8def79d0379, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: jp02.884899.cf}, udp: true}
-  - {name: 俄罗斯（TG@阿伟科技/油管）, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: _US_美国 8, server: 169.197.143.157, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 香港（TG@阿伟科技/油管） 14, server: ulose.win, port: 24787, type: vmess, uuid: 319fc6fc-a715-4763-f44e-eae525ebdc18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ulose.win}, udp: true}
-  - {name: 英国（TG@阿伟科技/油管）, server: v4zx.v6speed.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: _US_美国 9, server: 169.197.143.157, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: +HK_38008+@WangCai_1+3, server: 124.71.118.225, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Youtube/ONE·资源核, server: 104.17.67.190, port: 443, type: vmess, uuid: 1293e022-6347-4d7e-8425-e65576b6ae0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: jp.567568.ml}, udp: true}
-  - {name: _US_美国 10, server: 169.197.143.157, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国 11, server: 38.75.136.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 12, server: 38.75.136.21, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国 13, server: 38.75.136.21, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 6, server: in4ba0929902b470.404sx.com, port: 31003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: +TH_38605+@WangCai_1+14, server: flzziplc.yixuedianzishu.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: YouTube阿伟科技 7, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 4ee48ad8-178c-40a2-9c52-a14e90a06e49, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nmsl, ws-headers: {Host: 1.ezydfdd.com}, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 18, server: www.zhangss.tk, port: 10010, type: vmess, uuid: c906331d-892e-4a04-8f8b-be02e4918829, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.zhangss.tk}, udp: true}
-  - {name: _US_美国 14, server: 38.68.134.190, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 15, server: 38.68.134.190, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: USA CM.C/01 x0.3, server: in4ba0929902b470.404sx.com, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_81, server: top.njiang.tk, port: 443, type: vmess, uuid: b2d062be-1912-4523-96c9-4f0f101c931b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wivhvws, ws-headers: {Host: top.njiang.tk}, udp: true}
-  - {name: 中国【YouTube由零开始】, server: gz-1.jiasugou.one, port: 15003, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_205, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_113, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: USA IEPL.A/02 x1.0, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: Youtue/ONE·资源核 9, server: 38.75.136.21, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_136, server: v1tw01.kuli888.xyz, port: 52035, type: trojan, password: 0ea4ffba-f5d3-324b-946b-8db5c50266cb, sni: v1tw01.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国_节点更新 https://bit.ly/36b6iJh_68, server: node.774.gs, port: 8443, type: vmess, uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: node.774.gs}, udp: true}
-  - {name: _US_美国 16, server: 38.68.134.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_147+TG@peekfun, server: 38.75.136.21, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtue/ONE·资源核 10, server: 38.68.134.190, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Youtue/ONE·资源核 11, server: 38.68.134.190, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 节点更新 https://bit.ly/36b6iJh 2, server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
-  - {name: +HK_38001+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_111, server: los2-cn2.v2ce.com, port: 443, type: trojan, password: 1Qfea1eL3zCALPJm, sni: los2-cn2.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: 167.88.61.70:6679, server: 167.88.61.70, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_162 TG@peekfun, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 7, server: in4ba0929902b470.404sx.com, port: 31002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 印度（TG@阿伟科技/油管） 2, server: www.digitalocean.com, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 美国【YouTube由零开始】, server: gkdcm.gkdcn.top, port: 25885, type: vmess, uuid: 99f71944-40c6-4b7b-97d2-37651c37a120, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: _US_美国 17, server: 38.68.134.190, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 印度184-37 联通11.95 节点更新 https://bit.ly/36b6iJh, server: 104.27.207.5, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: US_107+TG@peekfun, server: 38.68.134.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 8, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/173418141123, ws-headers: {Host: www.17080100.xyz}, udp: true}
-  - {name: _US_美国 18, server: 38.68.134.190, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_143+TG@peekfun, server: 38.75.136.21, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国【YouTube由零开始】 2, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ♥️YouTube梦歌♥️_31, server: v4zx.v6speed.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Youtue/ONE·资源核 12, server: 38.68.134.190, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: +US_38504+@WangCai_1+20, server: sgiplc01.hntgxxjc.com, port: 38504, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: YouTube阿伟科技 8, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/173418141123, ws-headers: {Host: www.17080100.xyz}, udp: true}
-  - {name: 香港（TG@阿伟科技/油管） 5, server: ulose.win, port: 24787, type: vmess, uuid: 319fc6fc-a715-4763-f44e-eae525ebdc18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ulose.win}, udp: true}
-  - {name: Relay_🇯🇵JP-🇯🇵JP_1094, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: NL_1405, server: 213.183.51.172, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_340, server: v2-1.godlight.xyz, port: 12236, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /j75g1461x, ws-headers: {Host: v2-1.godlight.xyz}, udp: true}
-  - {name: Youtue/ONE·资源核 13, server: 38.68.134.190, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ZZ_4745, server: 134.195.196.97, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 9, server: aaa-666.txwd.xyz, port: 60003, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
-  - {name: +VN_38601+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 澳大利亚（TG@阿伟科技/油管）, server: 20.211.32.62, port: 6666, type: vmess, uuid: 95ea233c-5044-4771-bee6-53fe0ea38727, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.211.32.62}, udp: true}
-  - {name: +HK_38006+@WangCai_1+18, server: hinet-iplc.hntgxxjc.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_135, server: apn-b.connect-node.net, port: 1309, type: vmess, uuid: 28b9505d-fae2-3599-965d-18d97ce92273, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /web, ws-headers: {Host: apn-b.connect-node.net}, udp: true}
-  - {name: 美国【YouTube由零开始】 3, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_27, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: _US_美国 19, server: 167.88.63.108, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 卢森堡（TG@阿伟科技/油管）, server: b-mc.txwd.xyz, port: 50056, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
-  - {name: US_114+TG@peekfun, server: 167.88.63.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 20, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 10, server: www.zhangss.tk, port: 10010, type: vmess, uuid: c906331d-892e-4a04-8f8b-be02e4918829, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.zhangss.tk}, udp: true}
-  - {name: _US_美国 21, server: 167.88.63.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ZZ_4676, server: 134.195.196.76, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: NL_67+TG@peekfun, server: 213.183.51.172, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: +HK_38007+@WangCai_1+21, server: sgiplcv1.hntgxxjc.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 印度184-12@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.20.130.175, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: _US_美国 22, server: 167.88.63.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_131+TG@peekfun, server: 38.68.134.190, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_140+TG@peekfun, server: 167.88.63.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_289, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: ZZ_180+TG@peekfun, server: 134.195.196.97, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 印度【YouTube由零开始】 5, server: gkdcu.gkdcn.top, port: 25882, type: vmess, uuid: 99f71944-40c6-4b7b-97d2-37651c37a120, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: _US_美国 23, server: 167.88.63.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_108+TG@peekfun, server: 167.88.63.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_117, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 24, server: 167.88.63.108, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 11, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan33.free4444.xyz, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_194, server: v2-4.godlight.xyz, port: 50496, type: vmess, uuid: 07ea283e-bbe8-466f-a268-c5819763a9bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /g1641hvx, ws-headers: {Host: v2-4.godlight.xyz}, udp: true}
-  - {name: ZZ_4661, server: 134.195.196.97, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: NL_1391, server: 213.183.51.172, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: +HK_38006+@WangCai_1+9, server: aflzzul.yixuedianzishu.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: YouTube阿伟科技 9, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: US_111+TG@peekfun, server: 38.107.226.159, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 英国【YouTube由零开始】, server: gkdcu.gkdcn.top, port: 25884, type: vmess, uuid: 99f71944-40c6-4b7b-97d2-37651c37a120, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: 德国【YouTube由零开始】, server: gkdcu.gkdcn.top, port: 25883, type: vmess, uuid: f9b52c0d-5ac9-409c-8047-a524119b4271, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: _US_美国 25, server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _GB_英国, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 德国（TG@阿伟科技/油管）, server: v4zx.v6speed.com, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: ZZ_4477, server: 134.195.196.76, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 12, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: +HK_38006+@WangCai_1+13, server: fliplc.getxlx.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 德国【YouTube由零开始】 2, server: 193.108.118.182, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 印度184-27@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.16.181.15, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: _PL_波兰, server: 217.30.10.67, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_169, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: +JP_38305+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: ♥️YouTube梦歌♥️_27, server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 印度184-17@1Gbps节点更新 https://bit.ly/36b6iJh, server: 172.67.223.77, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 美国【YouTube由零开始】 4, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Youtue/ONE·资源核 10 2, server: v2-5.godlight.xyz, port: 39786, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /71h4b3s1f53, ws-headers: {Host: v2-5.godlight.xyz}, udp: true}
-  - {name: NL_1418, server: 213.183.59.229, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: 英国【YouTube由零开始】 2, server: gkdcm.gkdcn.top, port: 25884, type: vmess, uuid: c22b0107-a6c0-4010-8767-0b33c43efcaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: Ytb:鹏哥分享_英国_32, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 印度184-11@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.18.8.157, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: _US_美国 26, server: 167.88.63.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Youtue/ONE·资源核 14, server: 172.104.157.118, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: +HK_38009+@WangCai_1+12, server: flcn.yixuedianzishu.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: ♥️YouTube梦歌♥️_24, server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: NL_1423, server: 213.183.59.229, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: Youtue/ONE·资源核 15, server: 172.104.157.118, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Youtue/ONE·资源核 16, server: 167.88.63.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ♥️YouTube梦歌♥️_37, server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtue/ONE·资源核 17, server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ♥️YouTube梦歌♥️_33, server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 13, server: 20.211.32.62, port: 6666, type: vmess, uuid: 95ea233c-5044-4771-bee6-53fe0ea38727, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v}, udp: true}
-  - {name: Youtue/ONE·资源核 18, server: 172.104.157.118, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Ytb:鹏哥分享_30, server: v2ray.wefuckgfw.ga, port: 8443, type: vmess, uuid: 104ce500-b353-11ec-a378-52ac00ea1411, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /E94olUFf/, ws-headers: {Host: v2ray.wefuckgfw.ga}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_39, server: in4ba0929902b470.404sx.com, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: github.com/freefq - 美国  53, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国 2, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh, server: www.garmin.com, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_94, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: ♥️YouTube梦歌♥️_41, server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube阿伟科技 10, server: 152.70.49.174, port: 55988, type: vmess, uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtue/ONE·资源核 14 2, server: v2ray.wefuckgfw.ga, port: 8443, type: vmess, uuid: 135284c6-b353-11ec-a378-52ac00ea1411, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /E94olUFf/, ws-headers: {Host: v2ray.wefuckgfw.ga}, udp: true}
-  - {name: Youtube/ONE·资源核 2, server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国【YouTube由零开始】 3, server: gkdcm.gkdcn.top, port: 25883, type: vmess, uuid: c22b0107-a6c0-4010-8767-0b33c43efcaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: ZZ_179+TG@peekfun, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 英国【YouTube由零开始】 3, server: gkdcm.gkdcn.top, port: 25884, type: vmess, uuid: 99f71944-40c6-4b7b-97d2-37651c37a120, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: _US_美国 27, server: 167.88.63.108, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: b-mc.txwd.xyz:50051, server: b-mc.txwd.xyz, port: 50051, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
-  - {name: 荷兰节点更新 https://bit.ly/36b6iJh-clone, server: 104.16.147.69, port: 443, type: vmess, uuid: 248f4f6f-270c-47f7-bea8-ed9d89440054, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: yzkoyeb-7595333.koyeb.app}, udp: true}
-  - {name: 英国【YouTube由零开始】 4, server: gkdcu.gkdcn.top, port: 25884, type: vmess, uuid: f9b52c0d-5ac9-409c-8047-a524119b4271, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: _GB_英国 3, server: 172.99.190.92, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 美国【YouTube由零开始】 5, server: gkdcu.gkdcn.top, port: 25886, type: vmess, uuid: 99f71944-40c6-4b7b-97d2-37651c37a120, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 23, server: 20.211.32.62, port: 6666, type: vmess, uuid: 95ea233c-5044-4771-bee6-53fe0ea38727, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.211.32.62}, udp: true}
-  - {name: _GB_英国 4, server: 172.99.190.92, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国 5, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _GB_英国 6, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: +HK_38009+@WangCai_1, server: 120.232.82.202, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 14, server: uscera.moonfree.top, port: 443, type: vmess, uuid: 122f166c-537e-4e8f-9310-4e50652fa7e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uscera.moonfree.top}, udp: true}
-  - {name: 印度184-4 联通100M+4K -2 节点更新 https://bit.ly/36b6iJh, server: 104.17.36.178, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 英国【YouTube由零开始】 5, server: gkdcu.gkdcn.top, port: 25884, type: vmess, uuid: c22b0107-a6c0-4010-8767-0b33c43efcaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: 美国【YouTube由零开始】 6, server: us-ca1.qwqjsq.top, port: 80, type: vmess, uuid: b0543a3b-d690-3ed9-9a81-f24f852e74f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: us-ca1.qwqjsq.top}, udp: true}
-  - {name: _DE_德国, server: 172.105.244.165, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 澳大利亚（TG@阿伟科技/油管） 2, server: 20.211.32.62, port: 6666, type: vmess, uuid: 95ea233c-5044-4771-bee6-53fe0ea38727, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: +HK_38004+@WangCai_1+20, server: sgiplc01.hntgxxjc.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: _PL_波兰 2, server: 217.30.10.65, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: _PL_波兰 3, server: 217.30.10.65, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: _PL_波兰 4, server: 217.30.10.65, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: US_150+TG@peekfun, server: 167.88.63.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: YouTube阿伟科技 11, server: 3.ezydfdd.com, port: 443, type: vmess, uuid: 93cd6785-e57c-4ed9-ebbc-fbbf4528c3cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nmsl, ws-headers: {Host: 3.ezydfdd.com}, udp: true}
-  - {name: 美国【YouTube由零开始】 7, server: 20.211.32.62, port: 6666, type: vmess, uuid: 95ea233c-5044-4771-bee6-53fe0ea38727, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.211.32.62}, udp: true}
-  - {name: 德国【YouTube由零开始】 4, server: gkdcm.gkdcn.top, port: 25883, type: vmess, uuid: f9b52c0d-5ac9-409c-8047-a524119b4271, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.gkdcn.top}, udp: true}
-  - {name: "@SSRSUB-俄罗斯V04-付费推荐:dlj.tf/ssrsub", server: v4.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}, udp: true}
-  - {name: US_133+TG@peekfun, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 加拿大【YouTube由零开始】, server: 134.195.196.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: +HK_38010+@WangCai_1+20, server: sgiplc01.hntgxxjc.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 荷兰（TG@阿伟科技/油管）, server: 104.16.23.3, port: 443, type: vmess, uuid: 248f4f6f-270c-47f7-bea8-ed9d89440054, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: yzkoyeb-7595333.koyeb.app}, udp: true}
-  - {name: 加拿大【YouTube由零开始】 2, server: 134.195.196.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 加拿大【YouTube由零开始】 3, server: 134.195.196.184, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 印度184-18@1Gbps节点更新 https://bit.ly/36b6iJh, server: 172.67.209.58, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-32 联通28.64m 节点更新 https://bit.ly/36b6iJh, server: 104.27.200.69, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: _PL_波兰 5, server: 217.30.10.66, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: 104.17.177.116, server: 104.17.177.116, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-20@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.20.81.240, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 德国【YouTube由零开始】 5, server: 172.105.244.165, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_116, server: shop-three.defun.us, port: 443, type: trojan, password: UvhTLyCf27fjxqPQ, sni: shop-three.defun.us, skip-cert-verify: true, udp: true}
-  - {name: _PL_波兰 6, server: 217.30.10.65, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: _PL_波兰 7, server: 217.30.10.66, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: +HK_38010+@WangCai_1+12, server: flcn.yixuedianzishu.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_69, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: _PL_波兰 8, server: 217.30.10.67, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: HK_38009+@WangCai_1, server: flzz-us.yixuedianzishu.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: _GB_英国 7, server: 152.89.210.84, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: 英国【YouTube由零开始】 6, server: 172.99.190.153, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: +HK_38010+@WangCai_1+18, server: hinet-iplc.hntgxxjc.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +DE_38607+@WangCai_1, server: 120.232.82.202, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 印度184-23@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.16.149.48, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-24@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.21.76.229, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 英国【YouTube由零开始】 7, server: 172.99.190.153, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_277, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_300, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: _PL_波兰 9, server: 217.30.10.67, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: 荷兰（TG@阿伟科技/油管） 2, server: 37.218.247.88, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: YbOE6O1uwbUv, udp: true}
-  - {name: +HK_38008+@WangCai_1+14, server: flzziplc.yixuedianzishu.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 加拿大（TG@阿伟科技/油管）, server: www.zhangss.xyz, port: 10086, type: vmess, uuid: e6004ea7-8796-4692-a05c-2939b5172906, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.zhangss.xyz}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 64, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 122f166c-537e-4e8f-9310-4e50652fa7e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr1t.moonfree.top}, udp: true}
-  - {name: _NL_荷兰, server: 37.120.192.158, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 印度184-34 联通14.9 节点更新 https://bit.ly/36b6iJh, server: 104.25.140.153, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-39 联通11.11 节点更新 https://bit.ly/36b6iJh, server: 104.22.66.8, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: +HK_38001+@WangCai_1+3, server: 124.71.118.225, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38006+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_271, server: v3.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}, udp: true}
-  - {name: 科技网络 3, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: _NL_荷兰 2, server: 37.120.192.158, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 20, server: 104.24.208.82, port: 443, type: vmess, uuid: c504edd2-f15e-45a6-ad63-3a9840c19d1a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zgjvvws, ws-headers: {Host: www.wodaming.ga}, udp: true}
-  - {name: _NL_荷兰 3, server: 37.120.192.158, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 美国【YouTube由零开始】 8, server: 167.88.63.82, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: YouTube阿伟科技 12, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: AU_04 TG@peekfun, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: _NL_荷兰 4, server: 37.120.192.158, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _GB_英国 8, server: 152.89.210.84, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: 英国【YouTube由零开始】 8, server: 172.99.190.153, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 印度184-10@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.16.110.238, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 台湾（TG@阿伟科技/油管） 6, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 93bdaed5-13c5-3927-93d7-a6877c5ac8d2, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 331tw.fans8.xyz}, udp: true}
-  - {name: 印度184-38 联通11.55 节点更新 https://bit.ly/36b6iJh, server: 172.67.54.193, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 美国【YouTube由零开始】 9, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: +HK_38009+@WangCai_1+3, server: 124.71.118.225, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Youtube/ONE·资源核 3, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: +TW_38103+@WangCai_1+20, server: sgiplc01.hntgxxjc.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 印度184-28@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.16.148.48, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: +HK_38009+@WangCai_1+13, server: fliplc.getxlx.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 印度184-8@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.25.104.240, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 英国【YouTube由零开始】 9, server: 172.99.190.153, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _AU_澳大利亚, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  29, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: +JP_38303+@WangCai_1+3, server: 124.71.118.225, port: 38303, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 土耳其（TG@阿伟科技/油管）, server: b-mc.txwd.xyz, port: 50058, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
-  - {name: _PL_波兰 10, server: 217.30.10.67, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: +HK_38009+@WangCai_1+18, server: hinet-iplc.hntgxxjc.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 日本（TG@阿伟科技/油管, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: +HK_38002+@WangCai_1, server: 120.232.82.202, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_502, server: dajbxus.naikonode.top, port: 15103, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 3187:1zqtep70txk, obfs-param: fb5843187.microsoft.com, udp: true}
-  - {name: +HK_38005+@WangCai_1+18, server: hinet-iplc.hntgxxjc.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38008+@WangCai_1+4, server: aflcn.yixuedianzishu.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 印度184-15@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.22.4.180, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 172.104.157.118:5003, server: 172.104.157.118, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_79, server: v4zx.v6speed.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_28, server: v4zx.v6speed.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 香港杨枝甘露 03, server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq12xdq7a.com, port: 10003, type: ss, cipher: aes-256-gcm, password: 321787d5-f29b-492a-a0dc-1628e1d0edb6, udp: true}
-  - {name: 香港（TG@阿伟科技/油管） 6, server: v4zx.v6speed.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 香港（TG@阿伟科技/油管） 7, server: v4zx.v6speed.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 西美高速2, server: 2.ezydfdd.com, port: 443, type: vmess, uuid: 8f826e79-4ee0-436b-9b68-5aa7c1094a82, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 2.ezydfdd.com}, udp: true}
-  - {name: +HK_38009+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38102+@WangCai_1+20, server: sgiplc01.hntgxxjc.com, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TH_38605+@WangCai_1+3, server: 124.71.118.225, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 印度184-36 联通12.71 节点更新 https://bit.ly/36b6iJh, server: 172.67.62.214, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: +HK_38006+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Youtue/ONE·资源核 19, server: 172.104.157.118, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: +HK_38003+@WangCai_1+13, server: fliplc.getxlx.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_155, server: ceshi.speedcncnforward3.tk, port: 8443, type: trojan, password: b961e31c-27e7-4219-92c0-c06057220001, sni: ceshi.speedcncnforward3.tk, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_505, server: dajbxkr.naikonode.top, port: 15303, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 3187:1zqtep70txk, obfs-param: fb5843187.microsoft.com, udp: true}
-  - {name: 科技网络 4, server: 120.240.48.20, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 120.240.48.20}, udp: true}
-  - {name: +DE_38607+@WangCai_1+3, server: 124.71.118.225, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38003+@WangCai_1+9, server: aflzzul.yixuedianzishu.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +PH_38603+@WangCai_1+5, server: aflzz-hk.yixuedianzishu.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_493, server: dajbxus.naikonode.top, port: 15108, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 3187:1zqtep70txk, obfs-param: fb5843187.microsoft.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇨🇦CA_472, server: dajbxsg.naikonode.top, port: 15405, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 3187:1zqtep70txk, obfs-param: fb5843187.microsoft.com, udp: true}
-  - {name: Youtue/ONE·资源核 20, server: 172.104.157.118, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: +TW_38104+@WangCai_1+3, server: 124.71.118.225, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_526, server: dajbxjp.naikonode.top, port: 15208, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 3187:1zqtep70txk, obfs-param: fb5843187.microsoft.com, udp: true}
-  - {name: +HK_38004+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38009+@WangCai_1+4, server: aflcn.yixuedianzishu.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TH_38605+@WangCai_1+2, server: 120.240.168.126, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38007+@WangCai_1+5, server: aflzz-hk.yixuedianzishu.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: github.com/freefq - 美国3COM公司企业网 51, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Youtue/ONE·资源核 21, server: 38.114.114.19, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Youtue/ONE·资源核 22, server: 38.68.134.71, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: +HK_38010+@WangCai_1+19, server: huaweibgp.hntgxxjc.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 香港（TG@阿伟科技/油管） 20, server: 43.154.149.38, port: 12581, type: vmess, uuid: 5938b8c5-281a-4e31-993f-57ae74aa0f12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 印度184-16@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.22.44.50, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_10, server: ceshi.speedcncnforward3.tk, port: 8443, type: trojan, password: e816d28a-c617-4954-87f6-aac16c3189f5, sni: ceshi.speedcncnforward3.tk, skip-cert-verify: true, udp: true}
-  - {name: 印度184-9@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.16.160.114, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG, server: 104.16.16.255, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.18.135.208, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: Youtue/ONE·资源核 23, server: 103.62.49.141, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: +HK_38010+@WangCai_1+5, server: aflzz-hk.yixuedianzishu.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Youtue/ONE·资源核 46, server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欢迎订阅钱科技0429_🇯🇵_JP_日本_20, server: 140.238.48.194, port: 8888, type: vmess, uuid: 24f1dfad-1267-4297-8e88-0e9b8ef47e47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube由零开始】 10, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: +HK_38009+@WangCai_1+19, server: huaweibgp.hntgxxjc.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38001+@WangCai_1+2, server: 120.240.168.126, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 德国【YouTube由零开始】 6, server: 172.105.244.165, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: +HK_38007+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: GB_911, server: 185.167.117.171, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: +HK_38005+@WangCai_1, server: 120.232.82.202, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38103+@WangCai_1+3, server: 124.71.118.225, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38002+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38005+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: HK_38006+@WangCai_1, server: flzz-hk.yixuedianzishu.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +US_38501+@WangCai_1+9, server: aflzzul.yixuedianzishu.com, port: 38501, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: github.com/freefq - 美国  31, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 28, server: 38.75.136.21, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_7, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: +HK_38006+@WangCai_1+17, server: gzjpiplc.hntgxxjc.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 加拿大【YouTube由零开始】 4, server: 134.195.196.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: +SG_38204+@WangCai_1+21, server: sgiplcv1.hntgxxjc.com, port: 38204, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 印度184-21联通100M+4K   节点更新 https://bit.ly/36b6iJh, server: 104.18.27.64, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-19@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.25.175.69, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 德国【YouTube由零开始】 7, server: gkdcu.gkdcn.top, port: 25883, type: vmess, uuid: c22b0107-a6c0-4010-8767-0b33c43efcaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: _JP_日本, server: 85.208.108.106, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: NL_673, server: 85.208.108.106, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: +HK_38008+@WangCai_1+21, server: sgiplcv1.hntgxxjc.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 美国【YouTube由零开始】 11, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: +HK_38002+@WangCai_1+2, server: 120.240.168.126, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +US_38502+@WangCai_1+4, server: aflcn.yixuedianzishu.com, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 印度184-29@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.19.23.24, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: _JP_日本 2, server: 85.208.108.66, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _JP_日本 3, server: 85.208.108.106, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 南非（TG@阿伟科技/油管）, server: b-mc.txwd.xyz, port: 50057, type: ss, cipher: chacha20-ietf-poly1305, password: bNK5DK, udp: true}
-  - {name: _US_美国 29, server: 167.88.63.108, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: +HK_38007+@WangCai_1, server: 120.232.82.202, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 科技网络 5, server: 120.240.48.20, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: US_103+TG@peekfun, server: 38.114.114.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: +HK_38010+@WangCai_1+17, server: gzjpiplc.hntgxxjc.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3866, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, sni: cp-asus.ml, skip-cert-verify: true, udp: true}
-  - {name: 印度【YouTube由零开始】 6, server: gkdcu.gkdcn.top, port: 25882, type: vmess, uuid: f9b52c0d-5ac9-409c-8047-a524119b4271, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.gkdcn.top}, udp: true}
-  - {name: +JP_38304+@WangCai_1+21, server: sgiplcv1.hntgxxjc.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38003+@WangCai_1+19, server: huaweibgp.hntgxxjc.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +JP_38304+@WangCai_1+2, server: 120.240.168.126, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: US_97+TG@peekfun, server: 167.88.63.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: +US_38503+@WangCai_1+18, server: hinet-iplc.hntgxxjc.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38101+@WangCai_1+4, server: aflcn.yixuedianzishu.com, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: HK_38009+@WangCai_1 2, server: flzzul.yixuedianzishu.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 印度184-40 联通10.26 节点更新 https://bit.ly/36b6iJh, server: 104.27.197.63, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: _SG_新加坡, server: 139.162.52.177, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Youtue/ONE·资源核 24, server: 38.114.114.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: +HK_38007+@WangCai_1+2, server: 120.240.168.126, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 美国【YouTube由零开始】 12, server: 167.88.63.82, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: HK_38004+@WangCai_1, server: flzz-us.yixuedianzishu.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38006+@WangCai_1+14, server: flzziplc.yixuedianzishu.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38001+@WangCai_1+17, server: gzjpiplc.hntgxxjc.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38008+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38005+@WangCai_1+13, server: fliplc.getxlx.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_481, server: dajbxkr.naikonode.top, port: 15306, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 3187:1zqtep70txk, obfs-param: fb5843187.microsoft.com, udp: true}
-  - {name: Youtue/ONE·资源核 25, server: 38.114.114.19, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: +HK_38007+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38103+@WangCai_1+19, server: huaweibgp.hntgxxjc.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38002+@WangCai_1+17, server: gzjpiplc.hntgxxjc.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38002+@WangCai_1+20, server: sgiplc01.hntgxxjc.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 美国【YouTube由零开始】 13, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: +HK_38004+@WangCai_1+21, server: sgiplcv1.hntgxxjc.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_279, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: +PH_38603+@WangCai_1+6, server: aflzz-sg.yixuedianzishu.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: _PL_波兰 11, server: 217.30.10.66, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: +HK_38002+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Youtue/ONE·资源核 26, server: 38.114.114.19, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: +HK_38009+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38001+@WangCai_1+18, server: hinet-iplc.hntgxxjc.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38008+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38001+@WangCai_1+6, server: aflzz-sg.yixuedianzishu.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38002+@WangCai_1+4, server: aflcn.yixuedianzishu.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TH_38605+@WangCai_1+13, server: fliplc.getxlx.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +KR_38401+@WangCai_1+4, server: aflcn.yixuedianzishu.com, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38102+@WangCai_1+2, server: 120.240.168.126, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: +TW_38104+@WangCai_1+17, server: gzjpiplc.hntgxxjc.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_506, server: dajbxus.naikonode.top, port: 15104, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 3187:1zqtep70txk, obfs-param: fb5843187.microsoft.com, udp: true}
-  - {name: 印度184-13@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.21.239.147, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: +FR_38609+@WangCai_1+3, server: 124.71.118.225, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 欢迎订阅钱科技0429_🇺🇸_US_美国_33, server: v4.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}, udp: true}
-  - {name: 加拿大【YouTube由零开始】 5, server: 134.195.196.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: +HK_38005+@WangCai_1+12, server: flcn.yixuedianzishu.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +SG_38203+@WangCai_1+3, server: 124.71.118.225, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 印度184-26@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.16.182.15, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: US_112+TG@peekfun, server: 38.114.114.19, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 新加坡【YouTube由零开始】, server: v4zx.v6speed.com, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +US_38502+@WangCai_1+13, server: fliplc.getxlx.com, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +KR_38402+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 印度184-14@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.22.3.3, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 印度184-7@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.20.130.43, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: +HK_38009+@WangCai_1+14, server: flzziplc.yixuedianzishu.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Youtue/ONE·资源核 27, server: 38.114.114.19, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 英国【YouTube由零开始】 10, server: 172.99.190.153, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: +HK_38006+@WangCai_1+3, server: 124.71.118.225, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: TH_38605+@WangCai_1, server: flzz-us.yixuedianzishu.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38010+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: US_126+TG@peekfun, server: 38.114.114.19, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 30, server: 38.114.114.19, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_128+TG@peekfun, server: 38.114.114.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: +HK_38010+@WangCai_1+13, server: fliplc.getxlx.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38104+@WangCai_1+13, server: fliplc.getxlx.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: _US_美国 31, server: 38.114.114.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: HK_38003+@WangCai_1, server: flzz-us.yixuedianzishu.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +KR_38401+@WangCai_1, server: 120.232.82.202, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38101+@WangCai_1+13, server: fliplc.getxlx.com, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +PH_38603+@WangCai_1+2, server: 120.240.168.126, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 韩国（TG@阿伟科技/油管）, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: +HK_38002+@WangCai_1+21, server: sgiplcv1.hntgxxjc.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Youtue/ONE·资源核 28, server: 38.114.114.19, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: +HK_38008+@WangCai_1, server: 120.232.82.202, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38010+@WangCai_1+6, server: aflzz-sg.yixuedianzishu.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: SG, server: v2-2.godlight.xyz, port: 30526, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /54f634fs, ws-headers: {Host: v2-2.godlight.xyz}, udp: true}
-  - {name: 印度184-3@1Gbps节点更新 https://bit.ly/36b6iJh, server: icook.tw, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: +US_38503+@WangCai_1+2, server: 120.240.168.126, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38103+@WangCai_1+17, server: gzjpiplc.hntgxxjc.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38104+@WangCai_1+21, server: sgiplcv1.hntgxxjc.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +JP_38301+@WangCai_1+21, server: sgiplcv1.hntgxxjc.com, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38010+@WangCai_1+3, server: 124.71.118.225, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_522, server: dajbxjp.naikonode.top, port: 15203, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 3187:1zqtep70txk, obfs-param: fb5843187.microsoft.com, udp: true}
-  - {name: +TW_38105+@WangCai_1, server: 120.232.82.202, port: 38105, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_521, server: dajbxjp.naikonode.top, port: 15207, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 3187:1zqtep70txk, obfs-param: fb5843187.microsoft.com, udp: true}
-  - {name: 加拿大【YouTube由零开始】 6, server: 134.195.196.184, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: +SG_38204+@WangCai_1, server: 120.232.82.202, port: 38204, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 新加坡 【由零开始YouTube】 2, server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: sg3.31vpn.com}, udp: true}
-  - {name: 欢迎订阅钱科技0429_🇫🇷_FR_法国_3, server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120208301422, ws-headers: {Host: www.15738743.xyz}, udp: true}
-  - {name: +JP_38301+@WangCai_1+3, server: 124.71.118.225, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: (资源分享师)🇨🇳zg++21, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: +US_38503+@WangCai_1+21, server: sgiplcv1.hntgxxjc.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +KR_38402+@WangCai_1+17, server: gzjpiplc.hntgxxjc.com, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +US_38503+@WangCai_1+7, server: aflzz-tw.yixuedianzishu.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 韩国【YouTube由零开始】, server: 158.247.206.19, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: +HK_38003+@WangCai_1+21, server: sgiplcv1.hntgxxjc.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38003+@WangCai_1+17, server: gzjpiplc.hntgxxjc.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +US_38501+@WangCai_1+3, server: 124.71.118.225, port: 38501, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: _US_美国 32, server: 38.114.114.19, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: +SG_38204+@WangCai_1+18, server: hinet-iplc.hntgxxjc.com, port: 38204, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +SG_38204+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38204, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38002+@WangCai_1+14, server: flzziplc.yixuedianzishu.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +KR_38401+@WangCai_1+2, server: 120.240.168.126, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: +SG_38203+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Ytb:鹏哥分享_新加坡_70, server: sg-sr-114.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-114.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: 美国 【由零开始YouTube】 2, server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /happy, ws-headers: {Host: v2ray.788644.xyz}, udp: true}
-  - {name: 美国【YouTube由零开始】 14, server: 169.197.142.216, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: +JP_38305+@WangCai_1+21, server: sgiplcv1.hntgxxjc.com, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38010+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38105+@WangCai_1+2, server: 120.240.168.126, port: 38105, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 印度184-33 联通15.02m  节点更新 https://bit.ly/36b6iJh, server: 172.67.60.78, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: +HK_38004+@WangCai_1+4, server: aflcn.yixuedianzishu.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38003+@WangCai_1, server: 120.232.82.202, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 美国【YouTube由零开始】 15, server: 38.68.135.18, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: +US_38501+@WangCai_1+17, server: gzjpiplc.hntgxxjc.com, port: 38501, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38104+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TH_38605+@WangCai_1+21, server: sgiplcv1.hntgxxjc.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +JP_38305+@WangCai_1+13, server: fliplc.getxlx.com, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +DE_38607+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +KR_38402+@WangCai_1+21, server: sgiplcv1.hntgxxjc.com, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38007+@WangCai_1+4, server: aflcn.yixuedianzishu.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +KR_38401+@WangCai_1+17, server: gzjpiplc.hntgxxjc.com, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +JP_38303+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38303, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38003+@WangCai_1+20, server: sgiplc01.hntgxxjc.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38003+@WangCai_1+3, server: 124.71.118.225, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +PH_38603+@WangCai_1+13, server: fliplc.getxlx.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Youtube/ONE·资源核 4, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25256, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 新加坡（TG@阿伟科技/油管）, server: cn.speedabc.xyz, port: 42004, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
+  - {name: KR-高速节点购买：v1.mk/vip（浏览器打开）, server: v2-4.godlight.xyz, port: 50496, type: vmess, uuid: 07ea283e-bbe8-466f-a268-c5819763a9bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /g1641hvx, ws-headers: {Host: v2-4.godlight.xyz}, udp: true}
+  - {name: TG:YouTubeAYANG科技大师 2, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: KR-高速节点购买：v1.mk/vip（浏览器打开） 2, server: 158.247.205.87, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 香港杨枝甘露 03-D, server: 20.187.74.186, port: 12369, type: trojan, password: 321787d5-f29b-492a-a0dc-1628e1d0edb6, skip-cert-verify: true, udp: true}
+  - {name: 新加坡（TG@阿伟科技/油管） 2, server: x.gotout.work, port: 30041, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
+  - {name: 澳大利亚丨筋斗云丨Weoworks提供, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US_3348, server: 158.247.199.253, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 英国【YouTube由零开始】, server: 144.24.88.101, port: 16833, type: vmess, uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾（TG@阿伟科技/油管）, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: SG-高速节点购买：v1.mk/vip（浏览器打开）, server: sg-sr-114.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-114.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|BGP中转|解锁Netflix_8, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: a03140dd-d914-4aed-aa9e-97a4a5988a31, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: TW-高速节点购买：v1.mk/vip（浏览器打开）, server: 103.98.73.12, port: 5005, type: vmess, uuid: ecf9bfdf-5fc5-4040-eb9f-eaec282c478b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ythe54, ws-headers: {Host: 103.98.73.12}, udp: true}
+  - {name: US_3062, server: 158.247.205.87, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 台湾（TG@阿伟科技/油管） 2, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 93bdaed5-13c5-3927-93d7-a6877c5ac8d2, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 331tw.fans8.xyz}, udp: true}
+  - {name: 高速节点购买：v1.mk/vip（浏览器打开）, server: uscera.moonfree.top, port: 443, type: vmess, uuid: 54043c2f-1af7-4ca0-b971-579e5ee828f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uscera.moonfree.top}, udp: true}
+  - {name: 科技网络, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: hkaz1.xmrth-node.xyz}, udp: true}
+  - {name: 日本（TG@阿伟科技/油管） 2, server: x.gotout.work, port: 30031, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
+  - {name: 高速节点购买：v1.mk/vip（浏览器打开） 2, server: 104.16.42.170, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
+  - {name: 香港（TG@阿伟科技/油管） 2, server: az.gzfxd.xyz, port: 16650, type: vmess, uuid: 66d4afe5-5efc-465c-a6dc-83f44d6b6007, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: HK-高速节点购买：v1.mk/vip（浏览器打开）, server: api.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: api.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开）, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube@阿阳AYANG, server: v2-3.godlight.xyz, port: 39276, type: vmess, uuid: 6a52f259-4367-468c-a828-7b8283c2f059, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /f45361465j175, ws-headers: {Host: v2-3.godlight.xyz}, udp: true}
+  - {name: 新加坡（TG@阿伟科技/油管） 3, server: sg1.qingyun123.xyz, port: 10001, type: trojan, password: 4337dfb9-bc77-4c08-8672-1f12f4d6f7fb, sni: sg1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube@阿阳AYANG 2, server: ru1.lolvps.xyz, port: 40040, type: vmess, uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /6129CFHR, ws-headers: {Host: ru1.lolvps.xyz}, udp: true}
+  - {name: 台湾（TG@阿伟科技/油管） 3, server: iplc01.2333dns.com, port: 3071, type: vmess, uuid: 8cc8320f-f880-31c8-bb6a-1ecfc503a2ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡（TG@阿伟科技/油管） 4, server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: 荷兰（TG@阿伟科技/油管）, server: 152.70.49.174, port: 55988, type: vmess, uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韩国丨筋斗云丨Weoworks提供, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 台湾（TG@阿伟科技/油管） 4, server: x.gotout.work, port: 30021, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
+  - {name: 节点更新 https://bit.ly/36b6iJh, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: Ytb:鹏哥分享_印度_33, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: GB-高速节点购买：v1.mk/vip（浏览器打开）, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国（TG@阿伟科技/油管）, server: cm.xrayport.one, port: 33559, type: vmess, uuid: b79055de-c1f7-4e9b-8c04-54b4299b78c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: NL-高速节点购买：v1.mk/vip（浏览器打开）, server: 152.70.49.174, port: 55988, type: vmess, uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG:YouTubeAYANG科技大师 3, server: sgiplcv1.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: Ytb:鹏哥分享_韩国_9, server: 146.56.99.245, port: 25135, type: vmess, uuid: 5893f7e5-9695-45af-f65e-bd2958ba93fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|BGP中转|解锁Netflix_31, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: a03140dd-d914-4aed-aa9e-97a4a5988a31, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK-高速节点购买：v1.mk/vip（浏览器打开） 2, server: hk3.fdns.cloudlink123.com, port: 80, type: vmess, uuid: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk3.fdns.cloudlink123.com}, udp: true}
+  - {name: 日本（TG@阿伟科技/油管） 3, server: v2-1.godlight.xyz, port: 12236, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /j75g1461x, ws-headers: {Host: v2-1.godlight.xyz}, udp: true}
+  - {name: DE_653, server: 5.183.179.137, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: _DE_德国, server: 5.183.179.145, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: 香港（TG@阿伟科技/油管） 3, server: x.gotout.work, port: 30012, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
+  - {name: YouTube@阿阳AYANG 3, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 高速节点购买：v1.mk/vip（浏览器打开） 3, server: www.digitalocean.com, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
+  - {name: 台湾（TG@阿伟科技/油管） 5, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 61.222.202.140}, udp: true}
+  - {name: _DE_德国 2, server: 5.183.179.145, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: 梦歌|BGP中转|解锁Netflix_17, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: a03140dd-d914-4aed-aa9e-97a4a5988a31, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 2, server: gy.sharecentrepro.tk, port: 10001, type: vmess, uuid: 6731a7a4-cac0-4218-d3e7-a4fe8c933b5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xrenblog, ws-headers: {Host: sgp.xrenblog.com}, udp: true}
+  - {name: 日本2丨筋斗云丨Weoworks提供, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: Ytb:鹏哥分享_新加坡_105, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: SG-高速节点购买：v1.mk/vip（浏览器打开） 2, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, sni: cp-asus.ml, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|BGP中转|解锁Netflix_3, server: api-02.malibaba.xyz, port: 15564, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-02.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: Ytb:鹏哥分享_31, server: 104.17.67.190, port: 443, type: vmess, uuid: 1293e022-6347-4d7e-8425-e65576b6ae0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: jp.567568.ml}, udp: true}
+  - {name: 梦歌|BGP中转|解锁Netflix_5, server: api-02.malibaba.xyz, port: 15563, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-02.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇦CA-🇨🇦CA_425, server: 426hk.fans8.xyz, port: 443, type: vmess, uuid: 93bdaed5-13c5-3927-93d7-a6877c5ac8d2, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 426hk.fans8.xyz}, udp: true}
+  - {name: TG:YouTubeAYANG科技大师 4, server: 169.197.142.99, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_3082, server: 158.247.199.253, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: SG-高速节点购买：v1.mk/vip（浏览器打开） 3, server: sg3.31vpn.com, port: 443, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: sg3.31vpn.com}, udp: true}
+  - {name: 梦歌|BGP中转|解锁Netflix_44, server: api-gzct.malibaba.xyz, port: 18705, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-gzct.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|BGP中转|解锁Netflix_48, server: api-gzct.malibaba.xyz, port: 17099, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-gzct.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: _CH_瑞士, server: 185.126.116.117, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 2, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtue/ONE·资源核, server: 172.104.157.118, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CH_瑞士 2, server: 185.126.116.117, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 3, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 新加坡（TG@阿伟科技/油管） 5, server: hkaz3.xmrth-node.xyz, port: 12567, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: HK-高速节点购买：v1.mk/vip（浏览器打开） 3, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}, udp: true}
+  - {name: _DE_德国 3, server: 5.183.179.146, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: HK-高速节点购买：v1.mk/vip（浏览器打开） 4, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 印度丨筋斗云丨Weoworks提供, server: 104.16.148.48, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 4, server: ruvds.testx.eu.org, port: 443, type: vmess, uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/vmess-share/?ed=2048", ws-headers: {Host: ruvds.testx.eu.org}, udp: true}
+  - {name: AU-高速节点购买：v1.mk/vip（浏览器打开）, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|BGP中转|解锁Netflix_42, server: api-gzct.malibaba.xyz, port: 37071, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-gzct.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: DE_662, server: 5.183.179.145, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: Ytb:鹏哥分享_英国_17, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: IN-高速节点购买：v1.mk/vip（浏览器打开）, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 英国（TG@阿伟科技/油管）, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 2, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
+  - {name: 印度（TG@阿伟科技/油管）, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 香港（TG@阿伟科技/油管） 4, server: hk01.bosaidong.buzz, port: 80, type: vmess, uuid: 2adef817-ff89-4d0c-8782-694ba4e8d899, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: "@SSRSUB-V07-付费推荐:suo.yt/ssrsub", server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 120.240.48.19}, udp: true}
+  - {name: 韩国（TG@阿伟科技/油管）, server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 3, server: 120.240.48.19, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
+  - {name: 美国2丨筋斗云丨Weoworks提供, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Ytb:鹏哥分享_中国_75, server: 120.240.48.19, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 120.240.48.19}, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 3, server: e-gzcm.linkdns.xyz, port: 40242, type: vmess, uuid: 9ec9c44b-13a6-3b7d-b318-d44a6e66fd4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /test, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: 梦歌|BGP中转|解锁Netflix_45, server: e-gzcm.linkdns.xyz, port: 40247, type: vmess, uuid: 9ec9c44b-13a6-3b7d-b318-d44a6e66fd4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /test, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: _DE_德国 4, server: 5.183.179.145, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 4, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 5, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 【YouTube由零开始】, server: 104.16.23.3, port: 443, type: vmess, uuid: 248f4f6f-270c-47f7-bea8-ed9d89440054, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: yzkoyeb-7595333.koyeb.app}, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 6, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, sni: fhcamd1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 4, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CZ-高速节点购买：v1.mk/vip（浏览器打开）, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, sni: v2cross.com.01.v2ce.com, skip-cert-verify: true, udp: true}
+  - {name: 日本（TG@阿伟科技/油管） 4, server: e-gzcm.linkdns.xyz, port: 40245, type: vmess, uuid: 9ec9c44b-13a6-3b7d-b318-d44a6e66fd4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /test, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: 梦歌|BGP中转|解锁Netflix_47, server: e-gzcm.linkdns.xyz, port: 40248, type: vmess, uuid: 9ec9c44b-13a6-3b7d-b318-d44a6e66fd4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /test, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: CZ-高速节点购买：v1.mk/vip（浏览器打开） 2, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, sni: cz5.v2ce.com, skip-cert-verify: true, udp: true}
+  - {name: 香港（TG@阿伟科技/油管） 5, server: hknf1.qingyun123.xyz, port: 10050, type: trojan, password: 50e23a9c-d2b0-4e36-b2d9-85fe3646ca05, sni: hknf1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 5, server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
   - {name: "|20.89Mb", server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25220, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: +HK_38004+@WangCai_1+13, server: fliplc.getxlx.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +US_38501+@WangCai_1+13, server: fliplc.getxlx.com, port: 38501, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TH_38605+@WangCai_1+17, server: gzjpiplc.hntgxxjc.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: (资源分享师)🇨🇳zg++6, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: (资源分享师)🇨🇳zg++11, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: (资源分享师)🇨🇳zg++7, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_477(资源分享师), server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Youtube/ONE·资源核 5, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: (资源分享师)🇨🇳zg++3, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25294, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: (资源分享师)🇨🇳zg++2, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_463, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_447, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: +JP_38304+@WangCai_1+9, server: aflzzul.yixuedianzishu.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 38.114.114.19:6379, server: 38.114.114.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: (资源分享师)🇨🇳zg++15, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: +HK_38010+@WangCai_1+9, server: aflzzul.yixuedianzishu.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: YouTube阿伟科技 13, server: 85.209.159.107, port: 20403, type: vmess, uuid: b3b08b1c-c0a4-11ec-8151-00163c3fe0cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Asq7j5Mb/, ws-headers: {Host: 85.209.159.107}, udp: true}
-  - {name: +TW_38104+@WangCai_1+2, server: 120.240.168.126, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TH_38605+@WangCai_1+19, server: huaweibgp.hntgxxjc.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TH_38605+@WangCai_1+20, server: sgiplc01.hntgxxjc.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +KR_38402+@WangCai_1+13, server: fliplc.getxlx.com, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Relay_🇺🇦UA-🇺🇦UA_1769, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, sni: v2cross.com.03.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: +US_38503+@WangCai_1+3, server: 124.71.118.225, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: Youtube/ONE·资源核 6, server: ssrfree10.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: +TW_38101+@WangCai_1+2, server: 120.240.168.126, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +KR_38401+@WangCai_1+21, server: sgiplcv1.hntgxxjc.com, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +JP_38304+@WangCai_1, server: 120.232.82.202, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +KR_38401+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +KR_38401+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +AR_38611+@WangCai_1+22, server: v4zx.v6speed.com, port: 38611, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: US_172 TG@peekfun, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: +HK_38004+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +US_38503+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: US_38503+@WangCai_1, server: flzz-us.yixuedianzishu.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: KR_38401+@WangCai_1, server: flzz-us.yixuedianzishu.com, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38009+@WangCai_1+17, server: gzjpiplc.hntgxxjc.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38001+@WangCai_1, server: 120.232.82.202, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: (资源分享师)🇨🇳zg++16, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: +PH_38603+@WangCai_1+18, server: hinet-iplc.hntgxxjc.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: US_141+TG@peekfun, server: 167.88.63.71, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: +TW_38102+@WangCai_1+6, server: aflzz-sg.yixuedianzishu.com, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38101+@WangCai_1+3, server: 124.71.118.225, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +DE_38607+@WangCai_1+20, server: sgiplc01.hntgxxjc.com, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38005+@WangCai_1+21, server: sgiplcv1.hntgxxjc.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38102+@WangCai_1+3, server: 124.71.118.225, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 科技网络 6, server: 120.240.48.20, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: +KR_38402+@WangCai_1+19, server: huaweibgp.hntgxxjc.com, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38105+@WangCai_1+19, server: huaweibgp.hntgxxjc.com, port: 38105, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: _PL_波兰 12, server: 217.30.10.65, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: +JP_38304+@WangCai_1+17, server: gzjpiplc.hntgxxjc.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38103+@WangCai_1+13, server: fliplc.getxlx.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +US_38501+@WangCai_1, server: 120.232.82.202, port: 38501, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_302, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: GB_907, server: 185.167.117.171, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: +TW_38104+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +US_38504+@WangCai_1+21, server: sgiplcv1.hntgxxjc.com, port: 38504, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38103+@WangCai_1+18, server: hinet-iplc.hntgxxjc.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: TW_38103+@WangCai_1, server: flzz-hk.yixuedianzishu.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +FR_38609+@WangCai_1+2, server: 120.240.168.126, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +JP_38303+@WangCai_1+2, server: 120.240.168.126, port: 38303, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 印度184-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s, server: 104.16.167.138, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: +HK_38001+@WangCai_1+21, server: sgiplcv1.hntgxxjc.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +JP_38301+@WangCai_1, server: 120.232.82.202, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +JP_38301+@WangCai_1+6, server: aflzz-sg.yixuedianzishu.com, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +JP_38301+@WangCai_1+20, server: sgiplc01.hntgxxjc.com, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TH_38605+@WangCai_1, server: 120.232.82.202, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +KR_38402+@WangCai_1+20, server: sgiplc01.hntgxxjc.com, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38105+@WangCai_1+21, server: sgiplcv1.hntgxxjc.com, port: 38105, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 22, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
-  - {name: +US_38502+@WangCai_1, server: 120.232.82.202, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38103+@WangCai_1+12, server: flcn.yixuedianzishu.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +KR_38402+@WangCai_1, server: 120.232.82.202, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +US_38503+@WangCai_1+19, server: huaweibgp.hntgxxjc.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: github.com/freefq - 北美地区  12, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: +US_38501+@WangCai_1+19, server: huaweibgp.hntgxxjc.com, port: 38501, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +JP_38301+@WangCai_1+2, server: 120.240.168.126, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +JP_38304+@WangCai_1+6, server: aflzz-sg.yixuedianzishu.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +FR_38609+@WangCai_1+19, server: huaweibgp.hntgxxjc.com, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38010+@WangCai_1, server: 120.232.82.202, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38104+@WangCai_1+7, server: aflzz-tw.yixuedianzishu.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38103+@WangCai_1+6, server: aflzz-sg.yixuedianzishu.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: _GB_英国 9, server: 185.237.98.69, port: 3212, type: ss, cipher: aes-256-gcm, password: 13f91d7fd2461aa8ac178d360d94b2a8, udp: true}
-  - {name: +JP_38301+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38008+@WangCai_1+17, server: gzjpiplc.hntgxxjc.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38101+@WangCai_1+18, server: hinet-iplc.hntgxxjc.com, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +DE_38607+@WangCai_1+13, server: fliplc.getxlx.com, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38101+@WangCai_1+17, server: gzjpiplc.hntgxxjc.com, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +JP_38304+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +JP_38305+@WangCai_1, server: 120.232.82.202, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38104+@WangCai_1+19, server: huaweibgp.hntgxxjc.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38103+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +SG_38203+@WangCai_1+20, server: sgiplc01.hntgxxjc.com, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +US_38504+@WangCai_1+2, server: 120.240.168.126, port: 38504, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +FR_38609+@WangCai_1+13, server: fliplc.getxlx.com, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: JP_38304+@WangCai_1, server: flzz-hk.yixuedianzishu.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +JP_38305+@WangCai_1+20, server: sgiplc01.hntgxxjc.com, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 科技网络 7, server: 120.240.48.20, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 120.240.48.20}, udp: true}
-  - {name: +JP_38301+@WangCai_1+17, server: gzjpiplc.hntgxxjc.com, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +US_38503+@WangCai_1+13, server: fliplc.getxlx.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38103+@WangCai_1, server: 120.232.82.202, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_192, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 9fa26745-58a0-409b-b4eb-61ed6d9bddd3, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 15, server: zones.defun.us, port: 443, type: trojan, password: lpmMwDKeBbKKPq8K, sni: zones.defun.us, skip-cert-verify: true, udp: true}
-  - {name: +TW_38103+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +JP_38301+@WangCai_1+19, server: huaweibgp.hntgxxjc.com, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +KR_38402+@WangCai_1+3, server: 124.71.118.225, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 科技网络 8, server: 120.240.48.20, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 120.240.48.20}, udp: true}
-  - {name: +JP_38305+@WangCai_1+17, server: gzjpiplc.hntgxxjc.com, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +JP_38304+@WangCai_1+4, server: aflcn.yixuedianzishu.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +US_38502+@WangCai_1+22, server: v4zx.v6speed.com, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 印度184-35 联通14.07 节点更新 https://bit.ly/36b6iJh, server: 104.27.192.65, port: 443, type: vmess, uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: +HK_38004+@WangCai_1+12, server: flcn.yixuedianzishu.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: TW_38102+@WangCai_1, server: flzz-us.yixuedianzishu.com, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TH_38605+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 美国【YouTube由零开始】 16, server: 38.68.135.18, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: +TW_38102+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38101+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38003+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +FR_38609+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38102+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +SG_38204+@WangCai_1+20, server: sgiplc01.hntgxxjc.com, port: 38204, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +DE_38607+@WangCai_1+2, server: 120.240.168.126, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +US_38501+@WangCai_1+2, server: 120.240.168.126, port: 38501, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +US_38504+@WangCai_1+19, server: huaweibgp.hntgxxjc.com, port: 38504, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: github.com/freefq - 广东省广州市黄埔区珠江宽频 14, server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 120.240.48.19}, udp: true}
-  - {name: +SG_38204+@WangCai_1+14, server: flzziplc.yixuedianzishu.com, port: 38204, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: JP_38305+@WangCai_1, server: flzz-us.yixuedianzishu.com, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TH_38605+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +US_38504+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38504, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +DE_38607+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: github.com/freefq - 广东省深圳市腾讯云 16, server: 119.147.20.236, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
-  - {name: +JP_38304+@WangCai_1+13, server: fliplc.getxlx.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38103+@WangCai_1+2, server: 120.240.168.126, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +SG_38203+@WangCai_1+12, server: flcn.yixuedianzishu.com, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +TW_38104+@WangCai_1+5, server: aflzz-hk.yixuedianzishu.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: TW_38105+@WangCai_1, server: flzzul.yixuedianzishu.com, port: 38105, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +US_38502+@WangCai_1+19, server: huaweibgp.hntgxxjc.com, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +US_38502+@WangCai_1+2, server: 120.240.168.126, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +US_38503+@WangCai_1+17, server: gzjpiplc.hntgxxjc.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +US_38502+@WangCai_1+21, server: sgiplcv1.hntgxxjc.com, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +SG_38203+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +DE_38607+@WangCai_1+17, server: gzjpiplc.hntgxxjc.com, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +SG_38203+@WangCai_1, server: 120.232.82.202, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +HK_38005+@WangCai_1+4, server: aflcn.yixuedianzishu.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 乌克兰【YouTube由零开始】, server: 77.120.115.235, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: Fowwipho, udp: true}
-  - {name: +TW_38102+@WangCai_1+5, server: aflzz-hk.yixuedianzishu.com, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: +PH_38603+@WangCai_1+14, server: flzziplc.yixuedianzishu.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: HK-高速节点购买：v1.mk/vip（浏览器打开） 5, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 7, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 6, server: 120.240.48.20, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 5, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 高速节点购买：v1.mk/vip（浏览器打开） 4, server: 104.16.23.3, port: 443, type: vmess, uuid: 248f4f6f-270c-47f7-bea8-ed9d89440054, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: yzkoyeb-7595333.koyeb.app}, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 8, server: 169.197.142.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 科技网络 2, server: 120.240.48.20, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 9, server: 169.197.142.99, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: YouTube@阿阳AYANG 4, server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _AU_澳大利亚, server: 185.167.116.253, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 7, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: 俄罗斯（TG@阿伟科技/油管）, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: _CH_瑞士 3, server: 185.126.116.117, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: 新加坡 【由零开始YouTube】, server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: sg3.31vpn.com}, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 6, server: 1chuan.top, port: 443, type: vmess, uuid: fa8f90e0-2fae-4b05-df7a-ea325bc517d8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /evo, ws-headers: {Host: 1chuan.top}, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 8, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 9, server: 120.240.168.126, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 台湾（TG@阿伟科技/油管） 6, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: 新加坡（TG@阿伟科技/油管） 6, server: 120.233.10.230, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 10, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 10, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 11, server: 120.240.48.20, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 120.240.48.20}, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 11, server: 169.197.142.99, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 梦歌|BGP中转|解锁流媒体_57
-      - cucu-aa.txwd.xyz:50007
-      - 梦歌|BGP中转|解锁流媒体_106
-      - 梦歌|BGP中转|解锁流媒体_105
-      - 梦歌|BGP中转|解锁流媒体_41
-      - 梦歌|BGP中转|解锁流媒体_212
-      - 梦歌|BGP中转|解锁流媒体_73
-      - ♥️YouTube梦歌♥️_53
-      - 梦歌|BGP中转|解锁流媒体_68
-      - 香港【YouTube由零开始】
-      - 香港（TG@阿伟科技/油管）
-      - Ytb:鹏哥分享_美国_90
-      - 梦歌|BGP中转|解锁流媒体_55
-      - 梦歌|BGP中转|解锁流媒体_270
-      - 梦歌|BGP中转|解锁流媒体_77
-      - 梦歌|BGP中转|解锁流媒体_5
-      - cmcm-a.txwd.xyz:50222
-      - 梦歌|BGP中转|解锁流媒体_301
-      - 台湾（TG@阿伟科技/油管）
+      - 梦歌|BGP中转|解锁Netflix_6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
       - 日本（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_51
-      - 香港煎酿三宝 04
-      - 新加坡（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_19
-      - 梦歌|BGP中转|解锁流媒体_32
-      - 梦歌|BGP中转|解锁流媒体_127
-      - 新加坡（TG@阿伟科技/油管） 2
-      - 梦歌|BGP中转|解锁流媒体_34
-      - 梦歌|BGP中转|解锁流媒体_88
-      - 台湾（TG@阿伟科技/油管） 2
-      - 香港杨枝甘露 03-D
-      - 台湾-04_15
-      - 台湾-01_12
-      - 梦歌|BGP中转|解锁流媒体_24
-      - 日本（TG@阿伟科技/油管） 2
-      - 梦歌|BGP中转|解锁流媒体_125
-      - 梦歌|BGP中转|解锁流媒体_44
-      - 梦歌|BGP中转|解锁流媒体_65
-      - 梦歌|BGP中转|解锁流媒体_45
-      - ♥️YouTube梦歌♥️_56
-      - 梦歌|BGP中转|解锁流媒体_81
-      - 台湾（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_12
-      - Relay_🇺🇸US-🇺🇸US_3771
-      - +HK_38003+@WangCai_1+8
-      - 梦歌|BGP中转|解锁流媒体_4
-      - 新加坡 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_30
-      - 香港（TG@阿伟科技/油管） 2
-      - 台湾-02_13
-      - 梦歌|BGP中转|解锁流媒体_25
-      - 梦歌|BGP中转|解锁流媒体_8
-      - 印度（TG@阿伟科技/油管）
-      - YouTube阿伟科技 5
-      - Relay_🇨🇳CN-🇷🇴RO_478
-      - 日本（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_15
-      - +HK_38007+@WangCai_1+13
-      - 梦歌|BGP中转|解锁流媒体_50
-      - (资源分享师)🇨🇳zg++14
-      - 梦歌|BGP中转|解锁流媒体_53
-      - 梦歌|BGP中转|解锁流媒体_49
-      - YouTube阿伟科技 4
-      - +HK_38007+@WangCai_1+3
-      - +JP_38305+@WangCai_1+3
-      - 梦歌|BGP中转|解锁流媒体_2
-      - 美国 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_74
-      - 梦歌|BGP中转|解锁流媒体_174
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_157
-      - ♥️YouTube梦歌♥️_10
-      - 梦歌|BGP中转|解锁流媒体_256
-      - YouTube阿伟科技
+      - 梦歌|BGP中转|解锁Netflix_26
+      - TG:YouTubeAYANG科技大师
+      - 梦歌|BGP中转|解锁Netflix_46
+      - 梦歌|BGP中转|解锁Netflix_7
+      - 日本1丨筋斗云丨Weoworks提供
+      - 香港（TG@阿伟科技/油管）
       - 香港煎酿三宝 04-D
-      - 香港（TG@阿伟科技/油管） 3
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - PH_38603+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_33
-      - 梦歌|BGP中转|解锁流媒体_147
-      - 梦歌|BGP中转|解锁流媒体_86
-      - 梦歌|BGP中转|解锁流媒体_26
-      - 梦歌|BGP中转|解锁流媒体_150
-      - 美国（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_17
-      - 梦歌|BGP中转|解锁流媒体_35
-      - YouTube阿伟科技 2
-      - 梦歌|BGP中转|解锁流媒体_43
-      - ♥️YouTube梦歌♥️_120
-      - aaa-666.txwd.xyz:60017
-      - 梦歌|BGP中转|解锁流媒体_63
-      - YouTube阿伟科技 3
-      - ♥️YouTube梦歌♥️_165
-      - +PH_38603+@WangCai_1+3
-      - Relay_🇨🇳CN-🇺🇸US_480
-      - 梦歌|BGP中转|解锁流媒体_76
-      - +HK_38007+@WangCai_1+17
-      - Ytb:鹏哥分享_中国_67
-      - 梦歌|BGP中转|解锁流媒体_62
-      - 梦歌|BGP中转|解锁流媒体_92
-      - +JP_38304+@WangCai_1+19
-      - 香港咖喱鱼蛋 01-D
-      - 中国 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_42
-      - 印度【YouTube由零开始】
-      - aaa-666.txwd.xyz:60006
-      - 台湾（TG@阿伟科技/油管） 4
-      - 梦歌|BGP中转|解锁流媒体_182
-      - 美国（TG@阿伟科技/油管） 2
-      - 新加坡（TG@阿伟科技/油管） 4
-      - 梦歌|BGP中转|解锁流媒体_84
-      - +HK_38006+@WangCai_1+2
-      - 节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_58
-      - +SG_38201+@WangCai_1+3
-      - _HK_香港
-      - +US_38501+@WangCai_1+22
-      - (资源分享师)SSR+7
-      - +HK_38006+@WangCai_1+20
-      - 香港（TG@阿伟科技/油管） 4
-      - 台湾（TG@阿伟科技/油管） 5
-      - Youtue/ONE·资源核
-      - _US_美国
-      - USA IEPL.A/03 x1.0
-      - github.com/freefq - 美国CloudFlare节点 28
-      - 印度【YouTube由零开始】 2
-      - _US_美国 2
-      - 马恩岛（TG@阿伟科技/油管）
-      - Relay_🇨🇳CN-🇺🇸US_499
-      - 科技网络
-      - b-mc.txwd.xyz:50055
-      - Youtue/ONE·资源核 2
-      - US_118+TG@peekfun
-      - Youtue/ONE·资源核 3
-      - 梦歌|BGP中转|解锁流媒体_20
-      - Relay_🇺🇸US-🇺🇸US_3743
-      - 梦歌|BGP中转|解锁流媒体_129
-      - 法国-节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_143
-      - _US_美国 3
-      - _US_美国 4
-      - Youtue/ONE·资源核 4
-      - 梦歌|BGP中转|解锁流媒体_38
-      - +HK_38004+@WangCai_1+3
-      - 美国（TG@阿伟科技/油管） 3
-      - Youtue/ONE·资源核 5
-      - 167.88.61.70:8119
-      - YouTube阿伟科技 6
-      - 梦歌|BGP中转|解锁流媒体_323
-      - Youtue/ONE·资源核 6
-      - github.com/freefq - 台湾省中华电信 7
-      - 167.88.61.70:8882
-      - Youtue/ONE·资源核 7
-      - AU_149
-      - 印度【YouTube由零开始】 3
-      - +JP_38301+@WangCai_1+13
-      - 167.88.61.70:8008
-      - KR_364
-      - US_109+TG@peekfun
-      - +HK_38006+@WangCai_1+19
-      - 印度【YouTube由零开始】 4
-      - 梦歌|BGP中转|解锁流媒体_16
-      - youtube阿伟科技
-      - _US_美国 5
-      - 科技网络 2
-      - _US_美国 6
-      - _US_美国 7
-      - US_119+TG@peekfun
-      - 美国（TG@阿伟科技/油管） 4
-      - 美国（TG@阿伟科技/油管） 5
-      - 167.88.61.70:2376
-      - github.com/freefq - 澳大利亚  47
-      - Youtue/ONE·资源核 8
-      - 直连-日本T-A 2_vmess_ws
-      - 俄罗斯（TG@阿伟科技/油管）
-      - _US_美国 8
-      - 香港（TG@阿伟科技/油管） 14
-      - 英国（TG@阿伟科技/油管）
-      - _US_美国 9
-      - +HK_38008+@WangCai_1+3
-      - Youtube/ONE·资源核
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - 美国（TG@阿伟科技/油管） 6
-      - +TH_38605+@WangCai_1+14
-      - YouTube阿伟科技 7
-      - 美国（TG@阿伟科技/油管） 18
-      - _US_美国 14
-      - _US_美国 15
-      - USA CM.C/01 x0.3
-      - Relay_🇺🇸US-🇺🇸US_81
-      - 中国【YouTube由零开始】
-      - 梦歌|BGP中转|解锁流媒体_205
-      - Relay_🇺🇸US-🇺🇸US_113
-      - USA IEPL.A/02 x1.0
-      - Youtue/ONE·资源核 9
-      - 梦歌|BGP中转|解锁流媒体_136
-      - 美国_节点更新 https://bit.ly/36b6iJh_68
-      - _US_美国 16
-      - US_147+TG@peekfun
-      - Youtue/ONE·资源核 10
-      - Youtue/ONE·资源核 11
-      - 节点更新 https://bit.ly/36b6iJh 2
-      - +HK_38001+@WangCai_1+16
-      - Relay_🇺🇸US-🇺🇸US_111
-      - 167.88.61.70:6679
-      - US_162 TG@peekfun
-      - 美国（TG@阿伟科技/油管） 7
-      - 印度（TG@阿伟科技/油管） 2
-      - 美国【YouTube由零开始】
-      - _US_美国 17
-      - 印度184-37 联通11.95 节点更新 https://bit.ly/36b6iJh
-      - US_107+TG@peekfun
-      - 美国（TG@阿伟科技/油管） 8
-      - _US_美国 18
-      - US_143+TG@peekfun
-      - 美国【YouTube由零开始】 2
-      - ♥️YouTube梦歌♥️_31
-      - Youtue/ONE·资源核 12
-      - +US_38504+@WangCai_1+20
-      - YouTube阿伟科技 8
-      - 香港（TG@阿伟科技/油管） 5
-      - Relay_🇯🇵JP-🇯🇵JP_1094
-      - NL_1405
-      - 梦歌|BGP中转|解锁流媒体_340
-      - Youtue/ONE·资源核 13
-      - ZZ_4745
-      - 美国（TG@阿伟科技/油管） 9
-      - +VN_38601+@WangCai_1+16
-      - 澳大利亚（TG@阿伟科技/油管）
-      - +HK_38006+@WangCai_1+18
-      - 梦歌|BGP中转|解锁流媒体_135
-      - 美国【YouTube由零开始】 3
-      - 梦歌|BGP中转|解锁流媒体_27
-      - _US_美国 19
-      - 卢森堡（TG@阿伟科技/油管）
-      - US_114+TG@peekfun
-      - _US_美国 20
-      - 美国（TG@阿伟科技/油管） 10
-      - _US_美国 21
-      - ZZ_4676
-      - NL_67+TG@peekfun
-      - +HK_38007+@WangCai_1+21
-      - 印度184-12@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _US_美国 22
-      - US_131+TG@peekfun
-      - US_140+TG@peekfun
-      - 梦歌|BGP中转|解锁流媒体_289
-      - ZZ_180+TG@peekfun
-      - 印度【YouTube由零开始】 5
-      - _US_美国 23
-      - US_108+TG@peekfun
-      - Relay_🇺🇸US-🇺🇸US_117
-      - _US_美国 24
-      - 美国（TG@阿伟科技/油管） 11
-      - ♥️YouTube梦歌♥️_194
-      - ZZ_4661
-      - NL_1391
-      - +HK_38006+@WangCai_1+9
-      - YouTube阿伟科技 9
-      - US_111+TG@peekfun
+      - 新加坡（TG@阿伟科技/油管）
+      - KR-高速节点购买：v1.mk/vip（浏览器打开）
+      - TG:YouTubeAYANG科技大师 2
+      - KR-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港杨枝甘露 03-D
+      - 新加坡（TG@阿伟科技/油管） 2
+      - 澳大利亚丨筋斗云丨Weoworks提供
+      - US_3348
       - 英国【YouTube由零开始】
-      - 德国【YouTube由零开始】
-      - _US_美国 25
-      - _GB_英国
-      - 德国（TG@阿伟科技/油管）
-      - ZZ_4477
-      - 美国（TG@阿伟科技/油管） 12
-      - +HK_38006+@WangCai_1+13
-      - 德国【YouTube由零开始】 2
-      - 印度184-27@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _PL_波兰
-      - 梦歌|BGP中转|解锁流媒体_169
-      - +JP_38305+@WangCai_1+16
-      - ♥️YouTube梦歌♥️_27
-      - 印度184-17@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 美国【YouTube由零开始】 4
-      - Youtue/ONE·资源核 10 2
-      - NL_1418
-      - 英国【YouTube由零开始】 2
-      - Ytb:鹏哥分享_英国_32
-      - 印度184-11@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _US_美国 26
-      - Youtue/ONE·资源核 14
-      - +HK_38009+@WangCai_1+12
-      - ♥️YouTube梦歌♥️_24
-      - NL_1423
-      - Youtue/ONE·资源核 15
-      - Youtue/ONE·资源核 16
-      - ♥️YouTube梦歌♥️_37
-      - Youtue/ONE·资源核 17
-      - ♥️YouTube梦歌♥️_33
-      - 美国（TG@阿伟科技/油管） 13
-      - Youtue/ONE·资源核 18
-      - Ytb:鹏哥分享_30
-      - 梦歌|BGP中转|解锁流媒体_39
-      - github.com/freefq - 美国  53
-      - _GB_英国 2
-      - 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_94
-      - ♥️YouTube梦歌♥️_41
-      - YouTube阿伟科技 10
-      - Youtue/ONE·资源核 14 2
-      - Youtube/ONE·资源核 2
-      - 德国【YouTube由零开始】 3
-      - ZZ_179+TG@peekfun
-      - 英国【YouTube由零开始】 3
-      - _US_美国 27
-      - b-mc.txwd.xyz:50051
-      - 荷兰节点更新 https://bit.ly/36b6iJh-clone
-      - 英国【YouTube由零开始】 4
-      - _GB_英国 3
-      - 美国【YouTube由零开始】 5
-      - github.com/freefq - 美国Microsoft数据中心 23
-      - _GB_英国 4
-      - _GB_英国 5
-      - _GB_英国 6
-      - +HK_38009+@WangCai_1
-      - 美国（TG@阿伟科技/油管） 14
-      - 印度184-4 联通100M+4K -2 节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 5
-      - 美国【YouTube由零开始】 6
-      - _DE_德国
-      - 澳大利亚（TG@阿伟科技/油管） 2
-      - +HK_38004+@WangCai_1+20
-      - _PL_波兰 2
-      - _PL_波兰 3
-      - _PL_波兰 4
-      - US_150+TG@peekfun
-      - YouTube阿伟科技 11
-      - 美国【YouTube由零开始】 7
-      - 德国【YouTube由零开始】 4
-      - "@SSRSUB-俄罗斯V04-付费推荐:dlj.tf/ssrsub"
-      - US_133+TG@peekfun
-      - 加拿大【YouTube由零开始】
-      - +HK_38010+@WangCai_1+20
+      - 台湾（TG@阿伟科技/油管）
+      - SG-高速节点购买：v1.mk/vip（浏览器打开）
+      - 梦歌|BGP中转|解锁Netflix_8
+      - TW-高速节点购买：v1.mk/vip（浏览器打开）
+      - US_3062
+      - 台湾（TG@阿伟科技/油管） 2
+      - 高速节点购买：v1.mk/vip（浏览器打开）
+      - 科技网络
+      - 日本（TG@阿伟科技/油管） 2
+      - 高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港（TG@阿伟科技/油管） 2
+      - HK-高速节点购买：v1.mk/vip（浏览器打开）
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - YouTube@阿阳AYANG
+      - 新加坡（TG@阿伟科技/油管） 3
+      - YouTube@阿阳AYANG 2
+      - 台湾（TG@阿伟科技/油管） 3
+      - 新加坡（TG@阿伟科技/油管） 4
       - 荷兰（TG@阿伟科技/油管）
-      - 加拿大【YouTube由零开始】 2
-      - 加拿大【YouTube由零开始】 3
-      - 印度184-18@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-32 联通28.64m 节点更新 https://bit.ly/36b6iJh
-      - _PL_波兰 5
-      - 104.17.177.116
-      - 印度184-20@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 德国【YouTube由零开始】 5
-      - 梦歌|BGP中转|解锁流媒体_116
-      - _PL_波兰 6
-      - _PL_波兰 7
-      - +HK_38010+@WangCai_1+12
-      - 梦歌|BGP中转|解锁流媒体_69
-      - _PL_波兰 8
-      - HK_38009+@WangCai_1
-      - _GB_英国 7
-      - 英国【YouTube由零开始】 6
-      - +HK_38010+@WangCai_1+18
-      - +DE_38607+@WangCai_1
-      - 印度184-23@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-24@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 7
-      - 梦歌|BGP中转|解锁流媒体_277
-      - 梦歌|BGP中转|解锁流媒体_300
-      - _PL_波兰 9
-      - 荷兰（TG@阿伟科技/油管） 2
-      - +HK_38008+@WangCai_1+14
-      - 加拿大（TG@阿伟科技/油管）
-      - github.com/freefq - 美国CloudFlare节点 64
-      - _NL_荷兰
-      - 印度184-34 联通14.9 节点更新 https://bit.ly/36b6iJh
-      - 印度184-39 联通11.11 节点更新 https://bit.ly/36b6iJh
-      - +HK_38001+@WangCai_1+3
-      - +HK_38006+@WangCai_1+8
-      - 梦歌|BGP中转|解锁流媒体_271
-      - 科技网络 3
-      - _NL_荷兰 2
-      - github.com/freefq - 美国CloudFlare公司CDN节点 20
-      - _NL_荷兰 3
-      - 美国【YouTube由零开始】 8
-      - YouTube阿伟科技 12
-      - AU_04 TG@peekfun
-      - _NL_荷兰 4
-      - _GB_英国 8
-      - 英国【YouTube由零开始】 8
-      - 印度184-10@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 台湾（TG@阿伟科技/油管） 6
-      - 印度184-38 联通11.55 节点更新 https://bit.ly/36b6iJh
-      - 美国【YouTube由零开始】 9
-      - +HK_38009+@WangCai_1+3
-      - Youtube/ONE·资源核 3
-      - +TW_38103+@WangCai_1+20
-      - 印度184-28@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +HK_38009+@WangCai_1+13
-      - 印度184-8@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 9
-      - _AU_澳大利亚
-      - github.com/freefq - 美国  29
-      - +JP_38303+@WangCai_1+3
-      - 土耳其（TG@阿伟科技/油管）
-      - _PL_波兰 10
-      - +HK_38009+@WangCai_1+18
-      - 日本（TG@阿伟科技/油管
-      - +HK_38002+@WangCai_1
-      - Relay_🇨🇳CN-🇺🇸US_502
-      - +HK_38005+@WangCai_1+18
-      - +HK_38008+@WangCai_1+4
-      - 印度184-15@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 172.104.157.118:5003
-      - 梦歌|BGP中转|解锁流媒体_79
-      - 梦歌|BGP中转|解锁流媒体_28
-      - 香港杨枝甘露 03
-      - 香港（TG@阿伟科技/油管） 6
-      - 香港（TG@阿伟科技/油管） 7
-      - 西美高速2
-      - +HK_38009+@WangCai_1+16
-      - +TW_38102+@WangCai_1+20
-      - +TH_38605+@WangCai_1+3
-      - 印度184-36 联通12.71 节点更新 https://bit.ly/36b6iJh
-      - +HK_38006+@WangCai_1+16
-      - Youtue/ONE·资源核 19
-      - +HK_38003+@WangCai_1+13
-      - Relay_🇦🇺AU-🇦🇺AU_155
-      - Relay_🇨🇳CN-🇺🇸US_505
-      - 科技网络 4
-      - +DE_38607+@WangCai_1+3
-      - +HK_38003+@WangCai_1+9
-      - +PH_38603+@WangCai_1+5
-      - Relay_🇨🇳CN-🇺🇸US_493
-      - Relay_🇨🇳CN-🇨🇦CA_472
-      - Youtue/ONE·资源核 20
-      - +TW_38104+@WangCai_1+3
-      - Relay_🇨🇳CN-🇯🇵JP_526
-      - +HK_38004+@WangCai_1+16
-      - +HK_38009+@WangCai_1+4
-      - +TH_38605+@WangCai_1+2
-      - +HK_38007+@WangCai_1+5
-      - github.com/freefq - 美国3COM公司企业网 51
-      - Youtue/ONE·资源核 21
-      - Youtue/ONE·资源核 22
-      - +HK_38010+@WangCai_1+19
-      - 香港（TG@阿伟科技/油管） 20
-      - 印度184-16@1Gbps节点更新 https://bit.ly/36b6iJh
-      - Relay_🇦🇺AU-🇦🇺AU_10
-      - 印度184-9@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh
-      - Youtue/ONE·资源核 23
-      - +HK_38010+@WangCai_1+5
-      - Youtue/ONE·资源核 46
-      - 欢迎订阅钱科技0429_🇯🇵_JP_日本_20
-      - 美国【YouTube由零开始】 10
-      - +HK_38009+@WangCai_1+19
-      - +HK_38001+@WangCai_1+2
-      - 德国【YouTube由零开始】 6
-      - +HK_38007+@WangCai_1+8
-      - GB_911
-      - +HK_38005+@WangCai_1
-      - +TW_38103+@WangCai_1+3
-      - +HK_38002+@WangCai_1+8
-      - +HK_38005+@WangCai_1+16
-      - HK_38006+@WangCai_1
-      - +US_38501+@WangCai_1+9
-      - github.com/freefq - 美国  31
-      - _US_美国 28
-      - 梦歌|BGP中转|解锁流媒体_7
-      - +HK_38006+@WangCai_1+17
-      - 加拿大【YouTube由零开始】 4
-      - +SG_38204+@WangCai_1+21
-      - 印度184-21联通100M+4K   节点更新 https://bit.ly/36b6iJh
-      - 印度184-19@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 德国【YouTube由零开始】 7
-      - _JP_日本
-      - NL_673
-      - +HK_38008+@WangCai_1+21
-      - 美国【YouTube由零开始】 11
-      - +HK_38002+@WangCai_1+2
-      - +US_38502+@WangCai_1+4
-      - 印度184-29@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _JP_日本 2
-      - _JP_日本 3
-      - 南非（TG@阿伟科技/油管）
-      - _US_美国 29
-      - +HK_38007+@WangCai_1
-      - 科技网络 5
-      - US_103+TG@peekfun
-      - +HK_38010+@WangCai_1+17
-      - Relay_🇺🇸US-🇺🇸US_3866
-      - 印度【YouTube由零开始】 6
-      - +JP_38304+@WangCai_1+21
-      - +HK_38003+@WangCai_1+19
-      - +JP_38304+@WangCai_1+2
-      - US_97+TG@peekfun
-      - +US_38503+@WangCai_1+18
-      - +TW_38101+@WangCai_1+4
-      - HK_38009+@WangCai_1 2
-      - 印度184-40 联通10.26 节点更新 https://bit.ly/36b6iJh
-      - _SG_新加坡
-      - Youtue/ONE·资源核 24
-      - +HK_38007+@WangCai_1+2
-      - 美国【YouTube由零开始】 12
-      - HK_38004+@WangCai_1
-      - +HK_38006+@WangCai_1+14
-      - +HK_38001+@WangCai_1+17
-      - +HK_38008+@WangCai_1+16
-      - +HK_38005+@WangCai_1+13
-      - Relay_🇨🇳CN-🇯🇵JP_481
-      - Youtue/ONE·资源核 25
-      - +HK_38007+@WangCai_1+16
-      - +TW_38103+@WangCai_1+19
-      - +HK_38002+@WangCai_1+17
-      - +HK_38002+@WangCai_1+20
-      - 美国【YouTube由零开始】 13
-      - +HK_38004+@WangCai_1+21
-      - 梦歌|BGP中转|解锁流媒体_279
-      - +PH_38603+@WangCai_1+6
-      - _PL_波兰 11
-      - +HK_38002+@WangCai_1+16
-      - Youtue/ONE·资源核 26
-      - +HK_38009+@WangCai_1+8
-      - +HK_38001+@WangCai_1+18
-      - +HK_38008+@WangCai_1+8
-      - +HK_38001+@WangCai_1+6
-      - +HK_38002+@WangCai_1+4
-      - +TH_38605+@WangCai_1+13
-      - +KR_38401+@WangCai_1+4
-      - +TW_38102+@WangCai_1+2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - +TW_38104+@WangCai_1+17
-      - Relay_🇨🇳CN-🇺🇸US_506
-      - 印度184-13@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +FR_38609+@WangCai_1+3
-      - 欢迎订阅钱科技0429_🇺🇸_US_美国_33
-      - 加拿大【YouTube由零开始】 5
-      - +HK_38005+@WangCai_1+12
-      - +SG_38203+@WangCai_1+3
-      - 印度184-26@1Gbps节点更新 https://bit.ly/36b6iJh
-      - US_112+TG@peekfun
-      - 新加坡【YouTube由零开始】
-      - +US_38502+@WangCai_1+13
-      - +KR_38402+@WangCai_1+8
-      - 印度184-14@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-7@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +HK_38009+@WangCai_1+14
-      - Youtue/ONE·资源核 27
-      - 英国【YouTube由零开始】 10
-      - +HK_38006+@WangCai_1+3
-      - TH_38605+@WangCai_1
-      - +HK_38010+@WangCai_1+8
-      - US_126+TG@peekfun
-      - _US_美国 30
-      - US_128+TG@peekfun
-      - +HK_38010+@WangCai_1+13
-      - +TW_38104+@WangCai_1+13
-      - _US_美国 31
-      - HK_38003+@WangCai_1
-      - +KR_38401+@WangCai_1
-      - +TW_38101+@WangCai_1+13
-      - +PH_38603+@WangCai_1+2
+      - 韩国丨筋斗云丨Weoworks提供
+      - 台湾（TG@阿伟科技/油管） 4
+      - 节点更新 https://bit.ly/36b6iJh
+      - Ytb:鹏哥分享_印度_33
+      - GB-高速节点购买：v1.mk/vip（浏览器打开）
+      - 美国（TG@阿伟科技/油管）
+      - NL-高速节点购买：v1.mk/vip（浏览器打开）
+      - TG:YouTubeAYANG科技大师 3
+      - Ytb:鹏哥分享_韩国_9
+      - 梦歌|BGP中转|解锁Netflix_31
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 日本（TG@阿伟科技/油管） 3
+      - DE_653
+      - _DE_德国
+      - 香港（TG@阿伟科技/油管） 3
+      - YouTube@阿阳AYANG 3
+      - 高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 台湾（TG@阿伟科技/油管） 5
+      - _DE_德国 2
+      - 梦歌|BGP中转|解锁Netflix_17
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 日本2丨筋斗云丨Weoworks提供
+      - Ytb:鹏哥分享_新加坡_105
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 梦歌|BGP中转|解锁Netflix_3
+      - Ytb:鹏哥分享_31
+      - 梦歌|BGP中转|解锁Netflix_5
+      - Relay_🇨🇦CA-🇨🇦CA_425
+      - TG:YouTubeAYANG科技大师 4
+      - US_3082
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 梦歌|BGP中转|解锁Netflix_44
+      - 梦歌|BGP中转|解锁Netflix_48
+      - _CH_瑞士
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - Youtue/ONE·资源核
+      - _CH_瑞士 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 新加坡（TG@阿伟科技/油管） 5
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - _DE_德国 3
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - 印度丨筋斗云丨Weoworks提供
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - AU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 梦歌|BGP中转|解锁Netflix_42
+      - DE_662
+      - Ytb:鹏哥分享_英国_17
+      - IN-高速节点购买：v1.mk/vip（浏览器打开）
+      - 英国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管） 2
+      - 印度（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 4
+      - "@SSRSUB-V07-付费推荐:suo.yt/ssrsub"
       - 韩国（TG@阿伟科技/油管）
-      - +HK_38002+@WangCai_1+21
-      - Youtue/ONE·资源核 28
-      - +HK_38008+@WangCai_1
-      - +HK_38010+@WangCai_1+6
-      - SG
-      - 印度184-3@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +US_38503+@WangCai_1+2
-      - +TW_38103+@WangCai_1+17
-      - +TW_38104+@WangCai_1+21
-      - +JP_38301+@WangCai_1+21
-      - +HK_38010+@WangCai_1+3
-      - Relay_🇨🇳CN-🇯🇵JP_522
-      - +TW_38105+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_521
-      - 加拿大【YouTube由零开始】 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - +SG_38204+@WangCai_1
-      - 新加坡 【由零开始YouTube】 2
-      - 欢迎订阅钱科技0429_🇫🇷_FR_法国_3
-      - +JP_38301+@WangCai_1+3
-      - (资源分享师)🇨🇳zg++21
-      - +US_38503+@WangCai_1+21
-      - +KR_38402+@WangCai_1+17
-      - +US_38503+@WangCai_1+7
-      - 韩国【YouTube由零开始】
-      - +HK_38003+@WangCai_1+21
-      - +HK_38003+@WangCai_1+17
-      - +US_38501+@WangCai_1+3
-      - _US_美国 32
-      - +SG_38204+@WangCai_1+18
-      - +SG_38204+@WangCai_1+8
-      - +HK_38002+@WangCai_1+14
-      - +KR_38401+@WangCai_1+2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - +SG_38203+@WangCai_1+8
-      - Ytb:鹏哥分享_新加坡_70
-      - 美国 【由零开始YouTube】 2
-      - 美国【YouTube由零开始】 14
-      - +JP_38305+@WangCai_1+21
-      - +HK_38010+@WangCai_1+16
-      - +TW_38105+@WangCai_1+2
-      - 印度184-33 联通15.02m  节点更新 https://bit.ly/36b6iJh
-      - +HK_38004+@WangCai_1+4
-      - +HK_38003+@WangCai_1
-      - 美国【YouTube由零开始】 15
-      - +US_38501+@WangCai_1+17
-      - +TW_38104+@WangCai_1+16
-      - +TH_38605+@WangCai_1+21
-      - +JP_38305+@WangCai_1+13
-      - +DE_38607+@WangCai_1+8
-      - +KR_38402+@WangCai_1+21
-      - +HK_38007+@WangCai_1+4
-      - +KR_38401+@WangCai_1+17
-      - +JP_38303+@WangCai_1+8
-      - +HK_38003+@WangCai_1+20
-      - +HK_38003+@WangCai_1+3
-      - +PH_38603+@WangCai_1+13
-      - Youtube/ONE·资源核 4
-      - 14.29.124.168:25256
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 美国2丨筋斗云丨Weoworks提供
+      - Ytb:鹏哥分享_中国_75
+      - 美国（TG@阿伟科技/油管） 3
+      - 梦歌|BGP中转|解锁Netflix_45
+      - _DE_德国 4
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - 【YouTube由零开始】
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 美国（TG@阿伟科技/油管） 4
+      - CZ-高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本（TG@阿伟科技/油管） 4
+      - 梦歌|BGP中转|解锁Netflix_47
+      - CZ-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港（TG@阿伟科技/油管） 5
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
       - "|20.89Mb"
-      - 14.29.124.168:25220
-      - +HK_38004+@WangCai_1+13
-      - +US_38501+@WangCai_1+13
-      - +TH_38605+@WangCai_1+17
-      - (资源分享师)🇨🇳zg++6
-      - (资源分享师)🇨🇳zg++11
-      - (资源分享师)🇨🇳zg++7
-      - CN_477(资源分享师)
-      - Youtube/ONE·资源核 5
-      - (资源分享师)🇨🇳zg++3
-      - 14.29.124.168:25294
-      - (资源分享师)🇨🇳zg++2
-      - CN_463
-      - CN_447
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - +JP_38304+@WangCai_1+9
-      - 38.114.114.19:6379
-      - (资源分享师)🇨🇳zg++15
-      - +HK_38010+@WangCai_1+9
-      - YouTube阿伟科技 13
-      - +TW_38104+@WangCai_1+2
-      - +TH_38605+@WangCai_1+19
-      - +TH_38605+@WangCai_1+20
-      - +KR_38402+@WangCai_1+13
-      - Relay_🇺🇦UA-🇺🇦UA_1769
-      - +US_38503+@WangCai_1+3
-      - Youtube/ONE·资源核 6
-      - +TW_38101+@WangCai_1+2
-      - +KR_38401+@WangCai_1+21
-      - +JP_38304+@WangCai_1
-      - +KR_38401+@WangCai_1+16
-      - +KR_38401+@WangCai_1+8
-      - +AR_38611+@WangCai_1+22
-      - US_172 TG@peekfun
-      - +HK_38004+@WangCai_1+8
-      - +US_38503+@WangCai_1+8
-      - US_38503+@WangCai_1
-      - KR_38401+@WangCai_1
-      - +HK_38009+@WangCai_1+17
-      - +HK_38001+@WangCai_1
-      - (资源分享师)🇨🇳zg++16
-      - +PH_38603+@WangCai_1+18
-      - US_141+TG@peekfun
-      - +TW_38102+@WangCai_1+6
-      - +TW_38101+@WangCai_1+3
-      - +DE_38607+@WangCai_1+20
-      - +HK_38005+@WangCai_1+21
-      - +TW_38102+@WangCai_1+3
-      - 科技网络 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - +KR_38402+@WangCai_1+19
-      - +TW_38105+@WangCai_1+19
-      - _PL_波兰 12
-      - +JP_38304+@WangCai_1+17
-      - +TW_38103+@WangCai_1+13
-      - +US_38501+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_302
-      - GB_907
-      - +TW_38104+@WangCai_1+8
-      - +US_38504+@WangCai_1+21
-      - +TW_38103+@WangCai_1+18
-      - TW_38103+@WangCai_1
-      - +FR_38609+@WangCai_1+2
-      - +JP_38303+@WangCai_1+2
-      - 印度184-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - +HK_38001+@WangCai_1+21
-      - +JP_38301+@WangCai_1
-      - +JP_38301+@WangCai_1+6
-      - +JP_38301+@WangCai_1+20
-      - +TH_38605+@WangCai_1
-      - +KR_38402+@WangCai_1+20
-      - +TW_38105+@WangCai_1+21
-      - github.com/freefq - 美国CloudFlare节点 22
-      - +US_38502+@WangCai_1
-      - +TW_38103+@WangCai_1+12
-      - +KR_38402+@WangCai_1
-      - +US_38503+@WangCai_1+19
-      - github.com/freefq - 北美地区  12
-      - +US_38501+@WangCai_1+19
-      - +JP_38301+@WangCai_1+2
-      - +JP_38304+@WangCai_1+6
-      - +FR_38609+@WangCai_1+19
-      - +HK_38010+@WangCai_1
-      - +TW_38104+@WangCai_1+7
-      - +TW_38103+@WangCai_1+6
-      - _GB_英国 9
-      - +JP_38301+@WangCai_1+8
-      - +HK_38008+@WangCai_1+17
-      - +TW_38101+@WangCai_1+18
-      - +DE_38607+@WangCai_1+13
-      - +TW_38101+@WangCai_1+17
-      - +JP_38304+@WangCai_1+8
-      - +JP_38305+@WangCai_1
-      - +TW_38104+@WangCai_1+19
-      - +TW_38103+@WangCai_1+16
-      - +SG_38203+@WangCai_1+20
-      - +US_38504+@WangCai_1+2
-      - +FR_38609+@WangCai_1+13
-      - JP_38304+@WangCai_1
-      - +JP_38305+@WangCai_1+20
-      - 科技网络 7
-      - +JP_38301+@WangCai_1+17
-      - +US_38503+@WangCai_1+13
-      - +TW_38103+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_192
-      - 美国（TG@阿伟科技/油管） 15
-      - +TW_38103+@WangCai_1+8
-      - +JP_38301+@WangCai_1+19
-      - +KR_38402+@WangCai_1+3
-      - 科技网络 8
-      - +JP_38305+@WangCai_1+17
-      - +JP_38304+@WangCai_1+4
-      - +US_38502+@WangCai_1+22
-      - 印度184-35 联通14.07 节点更新 https://bit.ly/36b6iJh
-      - +HK_38004+@WangCai_1+12
-      - TW_38102+@WangCai_1
-      - +TH_38605+@WangCai_1+16
-      - 美国【YouTube由零开始】 16
-      - +TW_38102+@WangCai_1+16
-      - +TW_38101+@WangCai_1+16
-      - +HK_38003+@WangCai_1+16
-      - +FR_38609+@WangCai_1+16
-      - +TW_38102+@WangCai_1+8
-      - +SG_38204+@WangCai_1+20
-      - +DE_38607+@WangCai_1+2
-      - +US_38501+@WangCai_1+2
-      - +US_38504+@WangCai_1+19
-      - github.com/freefq - 广东省广州市黄埔区珠江宽频 14
-      - +SG_38204+@WangCai_1+14
-      - JP_38305+@WangCai_1
-      - +TH_38605+@WangCai_1+8
-      - +US_38504+@WangCai_1+16
-      - +DE_38607+@WangCai_1+16
-      - github.com/freefq - 广东省深圳市腾讯云 16
-      - +JP_38304+@WangCai_1+13
-      - +TW_38103+@WangCai_1+2
-      - +SG_38203+@WangCai_1+12
-      - +TW_38104+@WangCai_1+5
-      - TW_38105+@WangCai_1
-      - +US_38502+@WangCai_1+19
-      - +US_38502+@WangCai_1+2
-      - +US_38503+@WangCai_1+17
-      - +US_38502+@WangCai_1+21
-      - +SG_38203+@WangCai_1+16
-      - +DE_38607+@WangCai_1+17
-      - +SG_38203+@WangCai_1
-      - +HK_38005+@WangCai_1+4
-      - 乌克兰【YouTube由零开始】
-      - +TW_38102+@WangCai_1+5
-      - +PH_38603+@WangCai_1+14
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 美国（TG@阿伟科技/油管） 5
+      - 高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 科技网络 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - YouTube@阿阳AYANG 4
+      - _AU_澳大利亚
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - 俄罗斯（TG@阿伟科技/油管）
+      - _CH_瑞士 3
+      - 新加坡 【由零开始YouTube】
+      - 美国（TG@阿伟科技/油管） 6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 台湾（TG@阿伟科技/油管） 6
+      - 新加坡（TG@阿伟科技/油管） 6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 梦歌|BGP中转|解锁流媒体_57
-      - cucu-aa.txwd.xyz:50007
-      - 梦歌|BGP中转|解锁流媒体_106
-      - 梦歌|BGP中转|解锁流媒体_105
-      - 梦歌|BGP中转|解锁流媒体_41
-      - 梦歌|BGP中转|解锁流媒体_212
-      - 梦歌|BGP中转|解锁流媒体_73
-      - ♥️YouTube梦歌♥️_53
-      - 梦歌|BGP中转|解锁流媒体_68
-      - 香港【YouTube由零开始】
-      - 香港（TG@阿伟科技/油管）
-      - Ytb:鹏哥分享_美国_90
-      - 梦歌|BGP中转|解锁流媒体_55
-      - 梦歌|BGP中转|解锁流媒体_270
-      - 梦歌|BGP中转|解锁流媒体_77
-      - 梦歌|BGP中转|解锁流媒体_5
-      - cmcm-a.txwd.xyz:50222
-      - 梦歌|BGP中转|解锁流媒体_301
-      - 台湾（TG@阿伟科技/油管）
+      - 梦歌|BGP中转|解锁Netflix_6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
       - 日本（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_51
-      - 香港煎酿三宝 04
-      - 新加坡（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_19
-      - 梦歌|BGP中转|解锁流媒体_32
-      - 梦歌|BGP中转|解锁流媒体_127
-      - 新加坡（TG@阿伟科技/油管） 2
-      - 梦歌|BGP中转|解锁流媒体_34
-      - 梦歌|BGP中转|解锁流媒体_88
-      - 台湾（TG@阿伟科技/油管） 2
-      - 香港杨枝甘露 03-D
-      - 台湾-04_15
-      - 台湾-01_12
-      - 梦歌|BGP中转|解锁流媒体_24
-      - 日本（TG@阿伟科技/油管） 2
-      - 梦歌|BGP中转|解锁流媒体_125
-      - 梦歌|BGP中转|解锁流媒体_44
-      - 梦歌|BGP中转|解锁流媒体_65
-      - 梦歌|BGP中转|解锁流媒体_45
-      - ♥️YouTube梦歌♥️_56
-      - 梦歌|BGP中转|解锁流媒体_81
-      - 台湾（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_12
-      - Relay_🇺🇸US-🇺🇸US_3771
-      - +HK_38003+@WangCai_1+8
-      - 梦歌|BGP中转|解锁流媒体_4
-      - 新加坡 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_30
-      - 香港（TG@阿伟科技/油管） 2
-      - 台湾-02_13
-      - 梦歌|BGP中转|解锁流媒体_25
-      - 梦歌|BGP中转|解锁流媒体_8
-      - 印度（TG@阿伟科技/油管）
-      - YouTube阿伟科技 5
-      - Relay_🇨🇳CN-🇷🇴RO_478
-      - 日本（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_15
-      - +HK_38007+@WangCai_1+13
-      - 梦歌|BGP中转|解锁流媒体_50
-      - (资源分享师)🇨🇳zg++14
-      - 梦歌|BGP中转|解锁流媒体_53
-      - 梦歌|BGP中转|解锁流媒体_49
-      - YouTube阿伟科技 4
-      - +HK_38007+@WangCai_1+3
-      - +JP_38305+@WangCai_1+3
-      - 梦歌|BGP中转|解锁流媒体_2
-      - 美国 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_74
-      - 梦歌|BGP中转|解锁流媒体_174
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_157
-      - ♥️YouTube梦歌♥️_10
-      - 梦歌|BGP中转|解锁流媒体_256
-      - YouTube阿伟科技
+      - 梦歌|BGP中转|解锁Netflix_26
+      - TG:YouTubeAYANG科技大师
+      - 梦歌|BGP中转|解锁Netflix_46
+      - 梦歌|BGP中转|解锁Netflix_7
+      - 日本1丨筋斗云丨Weoworks提供
+      - 香港（TG@阿伟科技/油管）
       - 香港煎酿三宝 04-D
-      - 香港（TG@阿伟科技/油管） 3
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - PH_38603+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_33
-      - 梦歌|BGP中转|解锁流媒体_147
-      - 梦歌|BGP中转|解锁流媒体_86
-      - 梦歌|BGP中转|解锁流媒体_26
-      - 梦歌|BGP中转|解锁流媒体_150
-      - 美国（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_17
-      - 梦歌|BGP中转|解锁流媒体_35
-      - YouTube阿伟科技 2
-      - 梦歌|BGP中转|解锁流媒体_43
-      - ♥️YouTube梦歌♥️_120
-      - aaa-666.txwd.xyz:60017
-      - 梦歌|BGP中转|解锁流媒体_63
-      - YouTube阿伟科技 3
-      - ♥️YouTube梦歌♥️_165
-      - +PH_38603+@WangCai_1+3
-      - Relay_🇨🇳CN-🇺🇸US_480
-      - 梦歌|BGP中转|解锁流媒体_76
-      - +HK_38007+@WangCai_1+17
-      - Ytb:鹏哥分享_中国_67
-      - 梦歌|BGP中转|解锁流媒体_62
-      - 梦歌|BGP中转|解锁流媒体_92
-      - +JP_38304+@WangCai_1+19
-      - 香港咖喱鱼蛋 01-D
-      - 中国 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_42
-      - 印度【YouTube由零开始】
-      - aaa-666.txwd.xyz:60006
-      - 台湾（TG@阿伟科技/油管） 4
-      - 梦歌|BGP中转|解锁流媒体_182
-      - 美国（TG@阿伟科技/油管） 2
-      - 新加坡（TG@阿伟科技/油管） 4
-      - 梦歌|BGP中转|解锁流媒体_84
-      - +HK_38006+@WangCai_1+2
-      - 节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_58
-      - +SG_38201+@WangCai_1+3
-      - _HK_香港
-      - +US_38501+@WangCai_1+22
-      - (资源分享师)SSR+7
-      - +HK_38006+@WangCai_1+20
-      - 香港（TG@阿伟科技/油管） 4
-      - 台湾（TG@阿伟科技/油管） 5
-      - Youtue/ONE·资源核
-      - _US_美国
-      - USA IEPL.A/03 x1.0
-      - github.com/freefq - 美国CloudFlare节点 28
-      - 印度【YouTube由零开始】 2
-      - _US_美国 2
-      - 马恩岛（TG@阿伟科技/油管）
-      - Relay_🇨🇳CN-🇺🇸US_499
-      - 科技网络
-      - b-mc.txwd.xyz:50055
-      - Youtue/ONE·资源核 2
-      - US_118+TG@peekfun
-      - Youtue/ONE·资源核 3
-      - 梦歌|BGP中转|解锁流媒体_20
-      - Relay_🇺🇸US-🇺🇸US_3743
-      - 梦歌|BGP中转|解锁流媒体_129
-      - 法国-节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_143
-      - _US_美国 3
-      - _US_美国 4
-      - Youtue/ONE·资源核 4
-      - 梦歌|BGP中转|解锁流媒体_38
-      - +HK_38004+@WangCai_1+3
-      - 美国（TG@阿伟科技/油管） 3
-      - Youtue/ONE·资源核 5
-      - 167.88.61.70:8119
-      - YouTube阿伟科技 6
-      - 梦歌|BGP中转|解锁流媒体_323
-      - Youtue/ONE·资源核 6
-      - github.com/freefq - 台湾省中华电信 7
-      - 167.88.61.70:8882
-      - Youtue/ONE·资源核 7
-      - AU_149
-      - 印度【YouTube由零开始】 3
-      - +JP_38301+@WangCai_1+13
-      - 167.88.61.70:8008
-      - KR_364
-      - US_109+TG@peekfun
-      - +HK_38006+@WangCai_1+19
-      - 印度【YouTube由零开始】 4
-      - 梦歌|BGP中转|解锁流媒体_16
-      - youtube阿伟科技
-      - _US_美国 5
-      - 科技网络 2
-      - _US_美国 6
-      - _US_美国 7
-      - US_119+TG@peekfun
-      - 美国（TG@阿伟科技/油管） 4
-      - 美国（TG@阿伟科技/油管） 5
-      - 167.88.61.70:2376
-      - github.com/freefq - 澳大利亚  47
-      - Youtue/ONE·资源核 8
-      - 直连-日本T-A 2_vmess_ws
-      - 俄罗斯（TG@阿伟科技/油管）
-      - _US_美国 8
-      - 香港（TG@阿伟科技/油管） 14
-      - 英国（TG@阿伟科技/油管）
-      - _US_美国 9
-      - +HK_38008+@WangCai_1+3
-      - Youtube/ONE·资源核
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - 美国（TG@阿伟科技/油管） 6
-      - +TH_38605+@WangCai_1+14
-      - YouTube阿伟科技 7
-      - 美国（TG@阿伟科技/油管） 18
-      - _US_美国 14
-      - _US_美国 15
-      - USA CM.C/01 x0.3
-      - Relay_🇺🇸US-🇺🇸US_81
-      - 中国【YouTube由零开始】
-      - 梦歌|BGP中转|解锁流媒体_205
-      - Relay_🇺🇸US-🇺🇸US_113
-      - USA IEPL.A/02 x1.0
-      - Youtue/ONE·资源核 9
-      - 梦歌|BGP中转|解锁流媒体_136
-      - 美国_节点更新 https://bit.ly/36b6iJh_68
-      - _US_美国 16
-      - US_147+TG@peekfun
-      - Youtue/ONE·资源核 10
-      - Youtue/ONE·资源核 11
-      - 节点更新 https://bit.ly/36b6iJh 2
-      - +HK_38001+@WangCai_1+16
-      - Relay_🇺🇸US-🇺🇸US_111
-      - 167.88.61.70:6679
-      - US_162 TG@peekfun
-      - 美国（TG@阿伟科技/油管） 7
-      - 印度（TG@阿伟科技/油管） 2
-      - 美国【YouTube由零开始】
-      - _US_美国 17
-      - 印度184-37 联通11.95 节点更新 https://bit.ly/36b6iJh
-      - US_107+TG@peekfun
-      - 美国（TG@阿伟科技/油管） 8
-      - _US_美国 18
-      - US_143+TG@peekfun
-      - 美国【YouTube由零开始】 2
-      - ♥️YouTube梦歌♥️_31
-      - Youtue/ONE·资源核 12
-      - +US_38504+@WangCai_1+20
-      - YouTube阿伟科技 8
-      - 香港（TG@阿伟科技/油管） 5
-      - Relay_🇯🇵JP-🇯🇵JP_1094
-      - NL_1405
-      - 梦歌|BGP中转|解锁流媒体_340
-      - Youtue/ONE·资源核 13
-      - ZZ_4745
-      - 美国（TG@阿伟科技/油管） 9
-      - +VN_38601+@WangCai_1+16
-      - 澳大利亚（TG@阿伟科技/油管）
-      - +HK_38006+@WangCai_1+18
-      - 梦歌|BGP中转|解锁流媒体_135
-      - 美国【YouTube由零开始】 3
-      - 梦歌|BGP中转|解锁流媒体_27
-      - _US_美国 19
-      - 卢森堡（TG@阿伟科技/油管）
-      - US_114+TG@peekfun
-      - _US_美国 20
-      - 美国（TG@阿伟科技/油管） 10
-      - _US_美国 21
-      - ZZ_4676
-      - NL_67+TG@peekfun
-      - +HK_38007+@WangCai_1+21
-      - 印度184-12@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _US_美国 22
-      - US_131+TG@peekfun
-      - US_140+TG@peekfun
-      - 梦歌|BGP中转|解锁流媒体_289
-      - ZZ_180+TG@peekfun
-      - 印度【YouTube由零开始】 5
-      - _US_美国 23
-      - US_108+TG@peekfun
-      - Relay_🇺🇸US-🇺🇸US_117
-      - _US_美国 24
-      - 美国（TG@阿伟科技/油管） 11
-      - ♥️YouTube梦歌♥️_194
-      - ZZ_4661
-      - NL_1391
-      - +HK_38006+@WangCai_1+9
-      - YouTube阿伟科技 9
-      - US_111+TG@peekfun
+      - 新加坡（TG@阿伟科技/油管）
+      - KR-高速节点购买：v1.mk/vip（浏览器打开）
+      - TG:YouTubeAYANG科技大师 2
+      - KR-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港杨枝甘露 03-D
+      - 新加坡（TG@阿伟科技/油管） 2
+      - 澳大利亚丨筋斗云丨Weoworks提供
+      - US_3348
       - 英国【YouTube由零开始】
-      - 德国【YouTube由零开始】
-      - _US_美国 25
-      - _GB_英国
-      - 德国（TG@阿伟科技/油管）
-      - ZZ_4477
-      - 美国（TG@阿伟科技/油管） 12
-      - +HK_38006+@WangCai_1+13
-      - 德国【YouTube由零开始】 2
-      - 印度184-27@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _PL_波兰
-      - 梦歌|BGP中转|解锁流媒体_169
-      - +JP_38305+@WangCai_1+16
-      - ♥️YouTube梦歌♥️_27
-      - 印度184-17@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 美国【YouTube由零开始】 4
-      - Youtue/ONE·资源核 10 2
-      - NL_1418
-      - 英国【YouTube由零开始】 2
-      - Ytb:鹏哥分享_英国_32
-      - 印度184-11@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _US_美国 26
-      - Youtue/ONE·资源核 14
-      - +HK_38009+@WangCai_1+12
-      - ♥️YouTube梦歌♥️_24
-      - NL_1423
-      - Youtue/ONE·资源核 15
-      - Youtue/ONE·资源核 16
-      - ♥️YouTube梦歌♥️_37
-      - Youtue/ONE·资源核 17
-      - ♥️YouTube梦歌♥️_33
-      - 美国（TG@阿伟科技/油管） 13
-      - Youtue/ONE·资源核 18
-      - Ytb:鹏哥分享_30
-      - 梦歌|BGP中转|解锁流媒体_39
-      - github.com/freefq - 美国  53
-      - _GB_英国 2
-      - 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_94
-      - ♥️YouTube梦歌♥️_41
-      - YouTube阿伟科技 10
-      - Youtue/ONE·资源核 14 2
-      - Youtube/ONE·资源核 2
-      - 德国【YouTube由零开始】 3
-      - ZZ_179+TG@peekfun
-      - 英国【YouTube由零开始】 3
-      - _US_美国 27
-      - b-mc.txwd.xyz:50051
-      - 荷兰节点更新 https://bit.ly/36b6iJh-clone
-      - 英国【YouTube由零开始】 4
-      - _GB_英国 3
-      - 美国【YouTube由零开始】 5
-      - github.com/freefq - 美国Microsoft数据中心 23
-      - _GB_英国 4
-      - _GB_英国 5
-      - _GB_英国 6
-      - +HK_38009+@WangCai_1
-      - 美国（TG@阿伟科技/油管） 14
-      - 印度184-4 联通100M+4K -2 节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 5
-      - 美国【YouTube由零开始】 6
-      - _DE_德国
-      - 澳大利亚（TG@阿伟科技/油管） 2
-      - +HK_38004+@WangCai_1+20
-      - _PL_波兰 2
-      - _PL_波兰 3
-      - _PL_波兰 4
-      - US_150+TG@peekfun
-      - YouTube阿伟科技 11
-      - 美国【YouTube由零开始】 7
-      - 德国【YouTube由零开始】 4
-      - "@SSRSUB-俄罗斯V04-付费推荐:dlj.tf/ssrsub"
-      - US_133+TG@peekfun
-      - 加拿大【YouTube由零开始】
-      - +HK_38010+@WangCai_1+20
+      - 台湾（TG@阿伟科技/油管）
+      - SG-高速节点购买：v1.mk/vip（浏览器打开）
+      - 梦歌|BGP中转|解锁Netflix_8
+      - TW-高速节点购买：v1.mk/vip（浏览器打开）
+      - US_3062
+      - 台湾（TG@阿伟科技/油管） 2
+      - 高速节点购买：v1.mk/vip（浏览器打开）
+      - 科技网络
+      - 日本（TG@阿伟科技/油管） 2
+      - 高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港（TG@阿伟科技/油管） 2
+      - HK-高速节点购买：v1.mk/vip（浏览器打开）
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - YouTube@阿阳AYANG
+      - 新加坡（TG@阿伟科技/油管） 3
+      - YouTube@阿阳AYANG 2
+      - 台湾（TG@阿伟科技/油管） 3
+      - 新加坡（TG@阿伟科技/油管） 4
       - 荷兰（TG@阿伟科技/油管）
-      - 加拿大【YouTube由零开始】 2
-      - 加拿大【YouTube由零开始】 3
-      - 印度184-18@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-32 联通28.64m 节点更新 https://bit.ly/36b6iJh
-      - _PL_波兰 5
-      - 104.17.177.116
-      - 印度184-20@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 德国【YouTube由零开始】 5
-      - 梦歌|BGP中转|解锁流媒体_116
-      - _PL_波兰 6
-      - _PL_波兰 7
-      - +HK_38010+@WangCai_1+12
-      - 梦歌|BGP中转|解锁流媒体_69
-      - _PL_波兰 8
-      - HK_38009+@WangCai_1
-      - _GB_英国 7
-      - 英国【YouTube由零开始】 6
-      - +HK_38010+@WangCai_1+18
-      - +DE_38607+@WangCai_1
-      - 印度184-23@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-24@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 7
-      - 梦歌|BGP中转|解锁流媒体_277
-      - 梦歌|BGP中转|解锁流媒体_300
-      - _PL_波兰 9
-      - 荷兰（TG@阿伟科技/油管） 2
-      - +HK_38008+@WangCai_1+14
-      - 加拿大（TG@阿伟科技/油管）
-      - github.com/freefq - 美国CloudFlare节点 64
-      - _NL_荷兰
-      - 印度184-34 联通14.9 节点更新 https://bit.ly/36b6iJh
-      - 印度184-39 联通11.11 节点更新 https://bit.ly/36b6iJh
-      - +HK_38001+@WangCai_1+3
-      - +HK_38006+@WangCai_1+8
-      - 梦歌|BGP中转|解锁流媒体_271
-      - 科技网络 3
-      - _NL_荷兰 2
-      - github.com/freefq - 美国CloudFlare公司CDN节点 20
-      - _NL_荷兰 3
-      - 美国【YouTube由零开始】 8
-      - YouTube阿伟科技 12
-      - AU_04 TG@peekfun
-      - _NL_荷兰 4
-      - _GB_英国 8
-      - 英国【YouTube由零开始】 8
-      - 印度184-10@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 台湾（TG@阿伟科技/油管） 6
-      - 印度184-38 联通11.55 节点更新 https://bit.ly/36b6iJh
-      - 美国【YouTube由零开始】 9
-      - +HK_38009+@WangCai_1+3
-      - Youtube/ONE·资源核 3
-      - +TW_38103+@WangCai_1+20
-      - 印度184-28@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +HK_38009+@WangCai_1+13
-      - 印度184-8@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 9
-      - _AU_澳大利亚
-      - github.com/freefq - 美国  29
-      - +JP_38303+@WangCai_1+3
-      - 土耳其（TG@阿伟科技/油管）
-      - _PL_波兰 10
-      - +HK_38009+@WangCai_1+18
-      - 日本（TG@阿伟科技/油管
-      - +HK_38002+@WangCai_1
-      - Relay_🇨🇳CN-🇺🇸US_502
-      - +HK_38005+@WangCai_1+18
-      - +HK_38008+@WangCai_1+4
-      - 印度184-15@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 172.104.157.118:5003
-      - 梦歌|BGP中转|解锁流媒体_79
-      - 梦歌|BGP中转|解锁流媒体_28
-      - 香港杨枝甘露 03
-      - 香港（TG@阿伟科技/油管） 6
-      - 香港（TG@阿伟科技/油管） 7
-      - 西美高速2
-      - +HK_38009+@WangCai_1+16
-      - +TW_38102+@WangCai_1+20
-      - +TH_38605+@WangCai_1+3
-      - 印度184-36 联通12.71 节点更新 https://bit.ly/36b6iJh
-      - +HK_38006+@WangCai_1+16
-      - Youtue/ONE·资源核 19
-      - +HK_38003+@WangCai_1+13
-      - Relay_🇦🇺AU-🇦🇺AU_155
-      - Relay_🇨🇳CN-🇺🇸US_505
-      - 科技网络 4
-      - +DE_38607+@WangCai_1+3
-      - +HK_38003+@WangCai_1+9
-      - +PH_38603+@WangCai_1+5
-      - Relay_🇨🇳CN-🇺🇸US_493
-      - Relay_🇨🇳CN-🇨🇦CA_472
-      - Youtue/ONE·资源核 20
-      - +TW_38104+@WangCai_1+3
-      - Relay_🇨🇳CN-🇯🇵JP_526
-      - +HK_38004+@WangCai_1+16
-      - +HK_38009+@WangCai_1+4
-      - +TH_38605+@WangCai_1+2
-      - +HK_38007+@WangCai_1+5
-      - github.com/freefq - 美国3COM公司企业网 51
-      - Youtue/ONE·资源核 21
-      - Youtue/ONE·资源核 22
-      - +HK_38010+@WangCai_1+19
-      - 香港（TG@阿伟科技/油管） 20
-      - 印度184-16@1Gbps节点更新 https://bit.ly/36b6iJh
-      - Relay_🇦🇺AU-🇦🇺AU_10
-      - 印度184-9@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh
-      - Youtue/ONE·资源核 23
-      - +HK_38010+@WangCai_1+5
-      - Youtue/ONE·资源核 46
-      - 欢迎订阅钱科技0429_🇯🇵_JP_日本_20
-      - 美国【YouTube由零开始】 10
-      - +HK_38009+@WangCai_1+19
-      - +HK_38001+@WangCai_1+2
-      - 德国【YouTube由零开始】 6
-      - +HK_38007+@WangCai_1+8
-      - GB_911
-      - +HK_38005+@WangCai_1
-      - +TW_38103+@WangCai_1+3
-      - +HK_38002+@WangCai_1+8
-      - +HK_38005+@WangCai_1+16
-      - HK_38006+@WangCai_1
-      - +US_38501+@WangCai_1+9
-      - github.com/freefq - 美国  31
-      - _US_美国 28
-      - 梦歌|BGP中转|解锁流媒体_7
-      - +HK_38006+@WangCai_1+17
-      - 加拿大【YouTube由零开始】 4
-      - +SG_38204+@WangCai_1+21
-      - 印度184-21联通100M+4K   节点更新 https://bit.ly/36b6iJh
-      - 印度184-19@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 德国【YouTube由零开始】 7
-      - _JP_日本
-      - NL_673
-      - +HK_38008+@WangCai_1+21
-      - 美国【YouTube由零开始】 11
-      - +HK_38002+@WangCai_1+2
-      - +US_38502+@WangCai_1+4
-      - 印度184-29@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _JP_日本 2
-      - _JP_日本 3
-      - 南非（TG@阿伟科技/油管）
-      - _US_美国 29
-      - +HK_38007+@WangCai_1
-      - 科技网络 5
-      - US_103+TG@peekfun
-      - +HK_38010+@WangCai_1+17
-      - Relay_🇺🇸US-🇺🇸US_3866
-      - 印度【YouTube由零开始】 6
-      - +JP_38304+@WangCai_1+21
-      - +HK_38003+@WangCai_1+19
-      - +JP_38304+@WangCai_1+2
-      - US_97+TG@peekfun
-      - +US_38503+@WangCai_1+18
-      - +TW_38101+@WangCai_1+4
-      - HK_38009+@WangCai_1 2
-      - 印度184-40 联通10.26 节点更新 https://bit.ly/36b6iJh
-      - _SG_新加坡
-      - Youtue/ONE·资源核 24
-      - +HK_38007+@WangCai_1+2
-      - 美国【YouTube由零开始】 12
-      - HK_38004+@WangCai_1
-      - +HK_38006+@WangCai_1+14
-      - +HK_38001+@WangCai_1+17
-      - +HK_38008+@WangCai_1+16
-      - +HK_38005+@WangCai_1+13
-      - Relay_🇨🇳CN-🇯🇵JP_481
-      - Youtue/ONE·资源核 25
-      - +HK_38007+@WangCai_1+16
-      - +TW_38103+@WangCai_1+19
-      - +HK_38002+@WangCai_1+17
-      - +HK_38002+@WangCai_1+20
-      - 美国【YouTube由零开始】 13
-      - +HK_38004+@WangCai_1+21
-      - 梦歌|BGP中转|解锁流媒体_279
-      - +PH_38603+@WangCai_1+6
-      - _PL_波兰 11
-      - +HK_38002+@WangCai_1+16
-      - Youtue/ONE·资源核 26
-      - +HK_38009+@WangCai_1+8
-      - +HK_38001+@WangCai_1+18
-      - +HK_38008+@WangCai_1+8
-      - +HK_38001+@WangCai_1+6
-      - +HK_38002+@WangCai_1+4
-      - +TH_38605+@WangCai_1+13
-      - +KR_38401+@WangCai_1+4
-      - +TW_38102+@WangCai_1+2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - +TW_38104+@WangCai_1+17
-      - Relay_🇨🇳CN-🇺🇸US_506
-      - 印度184-13@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +FR_38609+@WangCai_1+3
-      - 欢迎订阅钱科技0429_🇺🇸_US_美国_33
-      - 加拿大【YouTube由零开始】 5
-      - +HK_38005+@WangCai_1+12
-      - +SG_38203+@WangCai_1+3
-      - 印度184-26@1Gbps节点更新 https://bit.ly/36b6iJh
-      - US_112+TG@peekfun
-      - 新加坡【YouTube由零开始】
-      - +US_38502+@WangCai_1+13
-      - +KR_38402+@WangCai_1+8
-      - 印度184-14@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-7@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +HK_38009+@WangCai_1+14
-      - Youtue/ONE·资源核 27
-      - 英国【YouTube由零开始】 10
-      - +HK_38006+@WangCai_1+3
-      - TH_38605+@WangCai_1
-      - +HK_38010+@WangCai_1+8
-      - US_126+TG@peekfun
-      - _US_美国 30
-      - US_128+TG@peekfun
-      - +HK_38010+@WangCai_1+13
-      - +TW_38104+@WangCai_1+13
-      - _US_美国 31
-      - HK_38003+@WangCai_1
-      - +KR_38401+@WangCai_1
-      - +TW_38101+@WangCai_1+13
-      - +PH_38603+@WangCai_1+2
+      - 韩国丨筋斗云丨Weoworks提供
+      - 台湾（TG@阿伟科技/油管） 4
+      - 节点更新 https://bit.ly/36b6iJh
+      - Ytb:鹏哥分享_印度_33
+      - GB-高速节点购买：v1.mk/vip（浏览器打开）
+      - 美国（TG@阿伟科技/油管）
+      - NL-高速节点购买：v1.mk/vip（浏览器打开）
+      - TG:YouTubeAYANG科技大师 3
+      - Ytb:鹏哥分享_韩国_9
+      - 梦歌|BGP中转|解锁Netflix_31
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 日本（TG@阿伟科技/油管） 3
+      - DE_653
+      - _DE_德国
+      - 香港（TG@阿伟科技/油管） 3
+      - YouTube@阿阳AYANG 3
+      - 高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 台湾（TG@阿伟科技/油管） 5
+      - _DE_德国 2
+      - 梦歌|BGP中转|解锁Netflix_17
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 日本2丨筋斗云丨Weoworks提供
+      - Ytb:鹏哥分享_新加坡_105
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 梦歌|BGP中转|解锁Netflix_3
+      - Ytb:鹏哥分享_31
+      - 梦歌|BGP中转|解锁Netflix_5
+      - Relay_🇨🇦CA-🇨🇦CA_425
+      - TG:YouTubeAYANG科技大师 4
+      - US_3082
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 梦歌|BGP中转|解锁Netflix_44
+      - 梦歌|BGP中转|解锁Netflix_48
+      - _CH_瑞士
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - Youtue/ONE·资源核
+      - _CH_瑞士 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 新加坡（TG@阿伟科技/油管） 5
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - _DE_德国 3
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - 印度丨筋斗云丨Weoworks提供
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - AU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 梦歌|BGP中转|解锁Netflix_42
+      - DE_662
+      - Ytb:鹏哥分享_英国_17
+      - IN-高速节点购买：v1.mk/vip（浏览器打开）
+      - 英国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管） 2
+      - 印度（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 4
+      - "@SSRSUB-V07-付费推荐:suo.yt/ssrsub"
       - 韩国（TG@阿伟科技/油管）
-      - +HK_38002+@WangCai_1+21
-      - Youtue/ONE·资源核 28
-      - +HK_38008+@WangCai_1
-      - +HK_38010+@WangCai_1+6
-      - SG
-      - 印度184-3@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +US_38503+@WangCai_1+2
-      - +TW_38103+@WangCai_1+17
-      - +TW_38104+@WangCai_1+21
-      - +JP_38301+@WangCai_1+21
-      - +HK_38010+@WangCai_1+3
-      - Relay_🇨🇳CN-🇯🇵JP_522
-      - +TW_38105+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_521
-      - 加拿大【YouTube由零开始】 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - +SG_38204+@WangCai_1
-      - 新加坡 【由零开始YouTube】 2
-      - 欢迎订阅钱科技0429_🇫🇷_FR_法国_3
-      - +JP_38301+@WangCai_1+3
-      - (资源分享师)🇨🇳zg++21
-      - +US_38503+@WangCai_1+21
-      - +KR_38402+@WangCai_1+17
-      - +US_38503+@WangCai_1+7
-      - 韩国【YouTube由零开始】
-      - +HK_38003+@WangCai_1+21
-      - +HK_38003+@WangCai_1+17
-      - +US_38501+@WangCai_1+3
-      - _US_美国 32
-      - +SG_38204+@WangCai_1+18
-      - +SG_38204+@WangCai_1+8
-      - +HK_38002+@WangCai_1+14
-      - +KR_38401+@WangCai_1+2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - +SG_38203+@WangCai_1+8
-      - Ytb:鹏哥分享_新加坡_70
-      - 美国 【由零开始YouTube】 2
-      - 美国【YouTube由零开始】 14
-      - +JP_38305+@WangCai_1+21
-      - +HK_38010+@WangCai_1+16
-      - +TW_38105+@WangCai_1+2
-      - 印度184-33 联通15.02m  节点更新 https://bit.ly/36b6iJh
-      - +HK_38004+@WangCai_1+4
-      - +HK_38003+@WangCai_1
-      - 美国【YouTube由零开始】 15
-      - +US_38501+@WangCai_1+17
-      - +TW_38104+@WangCai_1+16
-      - +TH_38605+@WangCai_1+21
-      - +JP_38305+@WangCai_1+13
-      - +DE_38607+@WangCai_1+8
-      - +KR_38402+@WangCai_1+21
-      - +HK_38007+@WangCai_1+4
-      - +KR_38401+@WangCai_1+17
-      - +JP_38303+@WangCai_1+8
-      - +HK_38003+@WangCai_1+20
-      - +HK_38003+@WangCai_1+3
-      - +PH_38603+@WangCai_1+13
-      - Youtube/ONE·资源核 4
-      - 14.29.124.168:25256
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 美国2丨筋斗云丨Weoworks提供
+      - Ytb:鹏哥分享_中国_75
+      - 美国（TG@阿伟科技/油管） 3
+      - 梦歌|BGP中转|解锁Netflix_45
+      - _DE_德国 4
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - 【YouTube由零开始】
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 美国（TG@阿伟科技/油管） 4
+      - CZ-高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本（TG@阿伟科技/油管） 4
+      - 梦歌|BGP中转|解锁Netflix_47
+      - CZ-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港（TG@阿伟科技/油管） 5
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
       - "|20.89Mb"
-      - 14.29.124.168:25220
-      - +HK_38004+@WangCai_1+13
-      - +US_38501+@WangCai_1+13
-      - +TH_38605+@WangCai_1+17
-      - (资源分享师)🇨🇳zg++6
-      - (资源分享师)🇨🇳zg++11
-      - (资源分享师)🇨🇳zg++7
-      - CN_477(资源分享师)
-      - Youtube/ONE·资源核 5
-      - (资源分享师)🇨🇳zg++3
-      - 14.29.124.168:25294
-      - (资源分享师)🇨🇳zg++2
-      - CN_463
-      - CN_447
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - +JP_38304+@WangCai_1+9
-      - 38.114.114.19:6379
-      - (资源分享师)🇨🇳zg++15
-      - +HK_38010+@WangCai_1+9
-      - YouTube阿伟科技 13
-      - +TW_38104+@WangCai_1+2
-      - +TH_38605+@WangCai_1+19
-      - +TH_38605+@WangCai_1+20
-      - +KR_38402+@WangCai_1+13
-      - Relay_🇺🇦UA-🇺🇦UA_1769
-      - +US_38503+@WangCai_1+3
-      - Youtube/ONE·资源核 6
-      - +TW_38101+@WangCai_1+2
-      - +KR_38401+@WangCai_1+21
-      - +JP_38304+@WangCai_1
-      - +KR_38401+@WangCai_1+16
-      - +KR_38401+@WangCai_1+8
-      - +AR_38611+@WangCai_1+22
-      - US_172 TG@peekfun
-      - +HK_38004+@WangCai_1+8
-      - +US_38503+@WangCai_1+8
-      - US_38503+@WangCai_1
-      - KR_38401+@WangCai_1
-      - +HK_38009+@WangCai_1+17
-      - +HK_38001+@WangCai_1
-      - (资源分享师)🇨🇳zg++16
-      - +PH_38603+@WangCai_1+18
-      - US_141+TG@peekfun
-      - +TW_38102+@WangCai_1+6
-      - +TW_38101+@WangCai_1+3
-      - +DE_38607+@WangCai_1+20
-      - +HK_38005+@WangCai_1+21
-      - +TW_38102+@WangCai_1+3
-      - 科技网络 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - +KR_38402+@WangCai_1+19
-      - +TW_38105+@WangCai_1+19
-      - _PL_波兰 12
-      - +JP_38304+@WangCai_1+17
-      - +TW_38103+@WangCai_1+13
-      - +US_38501+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_302
-      - GB_907
-      - +TW_38104+@WangCai_1+8
-      - +US_38504+@WangCai_1+21
-      - +TW_38103+@WangCai_1+18
-      - TW_38103+@WangCai_1
-      - +FR_38609+@WangCai_1+2
-      - +JP_38303+@WangCai_1+2
-      - 印度184-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - +HK_38001+@WangCai_1+21
-      - +JP_38301+@WangCai_1
-      - +JP_38301+@WangCai_1+6
-      - +JP_38301+@WangCai_1+20
-      - +TH_38605+@WangCai_1
-      - +KR_38402+@WangCai_1+20
-      - +TW_38105+@WangCai_1+21
-      - github.com/freefq - 美国CloudFlare节点 22
-      - +US_38502+@WangCai_1
-      - +TW_38103+@WangCai_1+12
-      - +KR_38402+@WangCai_1
-      - +US_38503+@WangCai_1+19
-      - github.com/freefq - 北美地区  12
-      - +US_38501+@WangCai_1+19
-      - +JP_38301+@WangCai_1+2
-      - +JP_38304+@WangCai_1+6
-      - +FR_38609+@WangCai_1+19
-      - +HK_38010+@WangCai_1
-      - +TW_38104+@WangCai_1+7
-      - +TW_38103+@WangCai_1+6
-      - _GB_英国 9
-      - +JP_38301+@WangCai_1+8
-      - +HK_38008+@WangCai_1+17
-      - +TW_38101+@WangCai_1+18
-      - +DE_38607+@WangCai_1+13
-      - +TW_38101+@WangCai_1+17
-      - +JP_38304+@WangCai_1+8
-      - +JP_38305+@WangCai_1
-      - +TW_38104+@WangCai_1+19
-      - +TW_38103+@WangCai_1+16
-      - +SG_38203+@WangCai_1+20
-      - +US_38504+@WangCai_1+2
-      - +FR_38609+@WangCai_1+13
-      - JP_38304+@WangCai_1
-      - +JP_38305+@WangCai_1+20
-      - 科技网络 7
-      - +JP_38301+@WangCai_1+17
-      - +US_38503+@WangCai_1+13
-      - +TW_38103+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_192
-      - 美国（TG@阿伟科技/油管） 15
-      - +TW_38103+@WangCai_1+8
-      - +JP_38301+@WangCai_1+19
-      - +KR_38402+@WangCai_1+3
-      - 科技网络 8
-      - +JP_38305+@WangCai_1+17
-      - +JP_38304+@WangCai_1+4
-      - +US_38502+@WangCai_1+22
-      - 印度184-35 联通14.07 节点更新 https://bit.ly/36b6iJh
-      - +HK_38004+@WangCai_1+12
-      - TW_38102+@WangCai_1
-      - +TH_38605+@WangCai_1+16
-      - 美国【YouTube由零开始】 16
-      - +TW_38102+@WangCai_1+16
-      - +TW_38101+@WangCai_1+16
-      - +HK_38003+@WangCai_1+16
-      - +FR_38609+@WangCai_1+16
-      - +TW_38102+@WangCai_1+8
-      - +SG_38204+@WangCai_1+20
-      - +DE_38607+@WangCai_1+2
-      - +US_38501+@WangCai_1+2
-      - +US_38504+@WangCai_1+19
-      - github.com/freefq - 广东省广州市黄埔区珠江宽频 14
-      - +SG_38204+@WangCai_1+14
-      - JP_38305+@WangCai_1
-      - +TH_38605+@WangCai_1+8
-      - +US_38504+@WangCai_1+16
-      - +DE_38607+@WangCai_1+16
-      - github.com/freefq - 广东省深圳市腾讯云 16
-      - +JP_38304+@WangCai_1+13
-      - +TW_38103+@WangCai_1+2
-      - +SG_38203+@WangCai_1+12
-      - +TW_38104+@WangCai_1+5
-      - TW_38105+@WangCai_1
-      - +US_38502+@WangCai_1+19
-      - +US_38502+@WangCai_1+2
-      - +US_38503+@WangCai_1+17
-      - +US_38502+@WangCai_1+21
-      - +SG_38203+@WangCai_1+16
-      - +DE_38607+@WangCai_1+17
-      - +SG_38203+@WangCai_1
-      - +HK_38005+@WangCai_1+4
-      - 乌克兰【YouTube由零开始】
-      - +TW_38102+@WangCai_1+5
-      - +PH_38603+@WangCai_1+14
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 美国（TG@阿伟科技/油管） 5
+      - 高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 科技网络 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - YouTube@阿阳AYANG 4
+      - _AU_澳大利亚
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - 俄罗斯（TG@阿伟科技/油管）
+      - _CH_瑞士 3
+      - 新加坡 【由零开始YouTube】
+      - 美国（TG@阿伟科技/油管） 6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 台湾（TG@阿伟科技/油管） 6
+      - 新加坡（TG@阿伟科技/油管） 6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 11
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 梦歌|BGP中转|解锁流媒体_57
-      - cucu-aa.txwd.xyz:50007
-      - 梦歌|BGP中转|解锁流媒体_106
-      - 梦歌|BGP中转|解锁流媒体_105
-      - 梦歌|BGP中转|解锁流媒体_41
-      - 梦歌|BGP中转|解锁流媒体_212
-      - 梦歌|BGP中转|解锁流媒体_73
-      - ♥️YouTube梦歌♥️_53
-      - 梦歌|BGP中转|解锁流媒体_68
-      - 香港【YouTube由零开始】
-      - 香港（TG@阿伟科技/油管）
-      - Ytb:鹏哥分享_美国_90
-      - 梦歌|BGP中转|解锁流媒体_55
-      - 梦歌|BGP中转|解锁流媒体_270
-      - 梦歌|BGP中转|解锁流媒体_77
-      - 梦歌|BGP中转|解锁流媒体_5
-      - cmcm-a.txwd.xyz:50222
-      - 梦歌|BGP中转|解锁流媒体_301
-      - 台湾（TG@阿伟科技/油管）
+      - 梦歌|BGP中转|解锁Netflix_6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
       - 日本（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_51
-      - 香港煎酿三宝 04
-      - 新加坡（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_19
-      - 梦歌|BGP中转|解锁流媒体_32
-      - 梦歌|BGP中转|解锁流媒体_127
-      - 新加坡（TG@阿伟科技/油管） 2
-      - 梦歌|BGP中转|解锁流媒体_34
-      - 梦歌|BGP中转|解锁流媒体_88
-      - 台湾（TG@阿伟科技/油管） 2
-      - 香港杨枝甘露 03-D
-      - 台湾-04_15
-      - 台湾-01_12
-      - 梦歌|BGP中转|解锁流媒体_24
-      - 日本（TG@阿伟科技/油管） 2
-      - 梦歌|BGP中转|解锁流媒体_125
-      - 梦歌|BGP中转|解锁流媒体_44
-      - 梦歌|BGP中转|解锁流媒体_65
-      - 梦歌|BGP中转|解锁流媒体_45
-      - ♥️YouTube梦歌♥️_56
-      - 梦歌|BGP中转|解锁流媒体_81
-      - 台湾（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_12
-      - Relay_🇺🇸US-🇺🇸US_3771
-      - +HK_38003+@WangCai_1+8
-      - 梦歌|BGP中转|解锁流媒体_4
-      - 新加坡 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_30
-      - 香港（TG@阿伟科技/油管） 2
-      - 台湾-02_13
-      - 梦歌|BGP中转|解锁流媒体_25
-      - 梦歌|BGP中转|解锁流媒体_8
-      - 印度（TG@阿伟科技/油管）
-      - YouTube阿伟科技 5
-      - Relay_🇨🇳CN-🇷🇴RO_478
-      - 日本（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_15
-      - +HK_38007+@WangCai_1+13
-      - 梦歌|BGP中转|解锁流媒体_50
-      - (资源分享师)🇨🇳zg++14
-      - 梦歌|BGP中转|解锁流媒体_53
-      - 梦歌|BGP中转|解锁流媒体_49
-      - YouTube阿伟科技 4
-      - +HK_38007+@WangCai_1+3
-      - +JP_38305+@WangCai_1+3
-      - 梦歌|BGP中转|解锁流媒体_2
-      - 美国 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_74
-      - 梦歌|BGP中转|解锁流媒体_174
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_157
-      - ♥️YouTube梦歌♥️_10
-      - 梦歌|BGP中转|解锁流媒体_256
-      - YouTube阿伟科技
+      - 梦歌|BGP中转|解锁Netflix_26
+      - TG:YouTubeAYANG科技大师
+      - 梦歌|BGP中转|解锁Netflix_46
+      - 梦歌|BGP中转|解锁Netflix_7
+      - 日本1丨筋斗云丨Weoworks提供
+      - 香港（TG@阿伟科技/油管）
       - 香港煎酿三宝 04-D
-      - 香港（TG@阿伟科技/油管） 3
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - PH_38603+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_33
-      - 梦歌|BGP中转|解锁流媒体_147
-      - 梦歌|BGP中转|解锁流媒体_86
-      - 梦歌|BGP中转|解锁流媒体_26
-      - 梦歌|BGP中转|解锁流媒体_150
-      - 美国（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_17
-      - 梦歌|BGP中转|解锁流媒体_35
-      - YouTube阿伟科技 2
-      - 梦歌|BGP中转|解锁流媒体_43
-      - ♥️YouTube梦歌♥️_120
-      - aaa-666.txwd.xyz:60017
-      - 梦歌|BGP中转|解锁流媒体_63
-      - YouTube阿伟科技 3
-      - ♥️YouTube梦歌♥️_165
-      - +PH_38603+@WangCai_1+3
-      - Relay_🇨🇳CN-🇺🇸US_480
-      - 梦歌|BGP中转|解锁流媒体_76
-      - +HK_38007+@WangCai_1+17
-      - Ytb:鹏哥分享_中国_67
-      - 梦歌|BGP中转|解锁流媒体_62
-      - 梦歌|BGP中转|解锁流媒体_92
-      - +JP_38304+@WangCai_1+19
-      - 香港咖喱鱼蛋 01-D
-      - 中国 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_42
-      - 印度【YouTube由零开始】
-      - aaa-666.txwd.xyz:60006
-      - 台湾（TG@阿伟科技/油管） 4
-      - 梦歌|BGP中转|解锁流媒体_182
-      - 美国（TG@阿伟科技/油管） 2
-      - 新加坡（TG@阿伟科技/油管） 4
-      - 梦歌|BGP中转|解锁流媒体_84
-      - +HK_38006+@WangCai_1+2
-      - 节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_58
-      - +SG_38201+@WangCai_1+3
-      - _HK_香港
-      - +US_38501+@WangCai_1+22
-      - (资源分享师)SSR+7
-      - +HK_38006+@WangCai_1+20
-      - 香港（TG@阿伟科技/油管） 4
-      - 台湾（TG@阿伟科技/油管） 5
-      - Youtue/ONE·资源核
-      - _US_美国
-      - USA IEPL.A/03 x1.0
-      - github.com/freefq - 美国CloudFlare节点 28
-      - 印度【YouTube由零开始】 2
-      - _US_美国 2
-      - 马恩岛（TG@阿伟科技/油管）
-      - Relay_🇨🇳CN-🇺🇸US_499
-      - 科技网络
-      - b-mc.txwd.xyz:50055
-      - Youtue/ONE·资源核 2
-      - US_118+TG@peekfun
-      - Youtue/ONE·资源核 3
-      - 梦歌|BGP中转|解锁流媒体_20
-      - Relay_🇺🇸US-🇺🇸US_3743
-      - 梦歌|BGP中转|解锁流媒体_129
-      - 法国-节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_143
-      - _US_美国 3
-      - _US_美国 4
-      - Youtue/ONE·资源核 4
-      - 梦歌|BGP中转|解锁流媒体_38
-      - +HK_38004+@WangCai_1+3
-      - 美国（TG@阿伟科技/油管） 3
-      - Youtue/ONE·资源核 5
-      - 167.88.61.70:8119
-      - YouTube阿伟科技 6
-      - 梦歌|BGP中转|解锁流媒体_323
-      - Youtue/ONE·资源核 6
-      - github.com/freefq - 台湾省中华电信 7
-      - 167.88.61.70:8882
-      - Youtue/ONE·资源核 7
-      - AU_149
-      - 印度【YouTube由零开始】 3
-      - +JP_38301+@WangCai_1+13
-      - 167.88.61.70:8008
-      - KR_364
-      - US_109+TG@peekfun
-      - +HK_38006+@WangCai_1+19
-      - 印度【YouTube由零开始】 4
-      - 梦歌|BGP中转|解锁流媒体_16
-      - youtube阿伟科技
-      - _US_美国 5
-      - 科技网络 2
-      - _US_美国 6
-      - _US_美国 7
-      - US_119+TG@peekfun
-      - 美国（TG@阿伟科技/油管） 4
-      - 美国（TG@阿伟科技/油管） 5
-      - 167.88.61.70:2376
-      - github.com/freefq - 澳大利亚  47
-      - Youtue/ONE·资源核 8
-      - 直连-日本T-A 2_vmess_ws
-      - 俄罗斯（TG@阿伟科技/油管）
-      - _US_美国 8
-      - 香港（TG@阿伟科技/油管） 14
-      - 英国（TG@阿伟科技/油管）
-      - _US_美国 9
-      - +HK_38008+@WangCai_1+3
-      - Youtube/ONE·资源核
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - 美国（TG@阿伟科技/油管） 6
-      - +TH_38605+@WangCai_1+14
-      - YouTube阿伟科技 7
-      - 美国（TG@阿伟科技/油管） 18
-      - _US_美国 14
-      - _US_美国 15
-      - USA CM.C/01 x0.3
-      - Relay_🇺🇸US-🇺🇸US_81
-      - 中国【YouTube由零开始】
-      - 梦歌|BGP中转|解锁流媒体_205
-      - Relay_🇺🇸US-🇺🇸US_113
-      - USA IEPL.A/02 x1.0
-      - Youtue/ONE·资源核 9
-      - 梦歌|BGP中转|解锁流媒体_136
-      - 美国_节点更新 https://bit.ly/36b6iJh_68
-      - _US_美国 16
-      - US_147+TG@peekfun
-      - Youtue/ONE·资源核 10
-      - Youtue/ONE·资源核 11
-      - 节点更新 https://bit.ly/36b6iJh 2
-      - +HK_38001+@WangCai_1+16
-      - Relay_🇺🇸US-🇺🇸US_111
-      - 167.88.61.70:6679
-      - US_162 TG@peekfun
-      - 美国（TG@阿伟科技/油管） 7
-      - 印度（TG@阿伟科技/油管） 2
-      - 美国【YouTube由零开始】
-      - _US_美国 17
-      - 印度184-37 联通11.95 节点更新 https://bit.ly/36b6iJh
-      - US_107+TG@peekfun
-      - 美国（TG@阿伟科技/油管） 8
-      - _US_美国 18
-      - US_143+TG@peekfun
-      - 美国【YouTube由零开始】 2
-      - ♥️YouTube梦歌♥️_31
-      - Youtue/ONE·资源核 12
-      - +US_38504+@WangCai_1+20
-      - YouTube阿伟科技 8
-      - 香港（TG@阿伟科技/油管） 5
-      - Relay_🇯🇵JP-🇯🇵JP_1094
-      - NL_1405
-      - 梦歌|BGP中转|解锁流媒体_340
-      - Youtue/ONE·资源核 13
-      - ZZ_4745
-      - 美国（TG@阿伟科技/油管） 9
-      - +VN_38601+@WangCai_1+16
-      - 澳大利亚（TG@阿伟科技/油管）
-      - +HK_38006+@WangCai_1+18
-      - 梦歌|BGP中转|解锁流媒体_135
-      - 美国【YouTube由零开始】 3
-      - 梦歌|BGP中转|解锁流媒体_27
-      - _US_美国 19
-      - 卢森堡（TG@阿伟科技/油管）
-      - US_114+TG@peekfun
-      - _US_美国 20
-      - 美国（TG@阿伟科技/油管） 10
-      - _US_美国 21
-      - ZZ_4676
-      - NL_67+TG@peekfun
-      - +HK_38007+@WangCai_1+21
-      - 印度184-12@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _US_美国 22
-      - US_131+TG@peekfun
-      - US_140+TG@peekfun
-      - 梦歌|BGP中转|解锁流媒体_289
-      - ZZ_180+TG@peekfun
-      - 印度【YouTube由零开始】 5
-      - _US_美国 23
-      - US_108+TG@peekfun
-      - Relay_🇺🇸US-🇺🇸US_117
-      - _US_美国 24
-      - 美国（TG@阿伟科技/油管） 11
-      - ♥️YouTube梦歌♥️_194
-      - ZZ_4661
-      - NL_1391
-      - +HK_38006+@WangCai_1+9
-      - YouTube阿伟科技 9
-      - US_111+TG@peekfun
+      - 新加坡（TG@阿伟科技/油管）
+      - KR-高速节点购买：v1.mk/vip（浏览器打开）
+      - TG:YouTubeAYANG科技大师 2
+      - KR-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港杨枝甘露 03-D
+      - 新加坡（TG@阿伟科技/油管） 2
+      - 澳大利亚丨筋斗云丨Weoworks提供
+      - US_3348
       - 英国【YouTube由零开始】
-      - 德国【YouTube由零开始】
-      - _US_美国 25
-      - _GB_英国
-      - 德国（TG@阿伟科技/油管）
-      - ZZ_4477
-      - 美国（TG@阿伟科技/油管） 12
-      - +HK_38006+@WangCai_1+13
-      - 德国【YouTube由零开始】 2
-      - 印度184-27@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _PL_波兰
-      - 梦歌|BGP中转|解锁流媒体_169
-      - +JP_38305+@WangCai_1+16
-      - ♥️YouTube梦歌♥️_27
-      - 印度184-17@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 美国【YouTube由零开始】 4
-      - Youtue/ONE·资源核 10 2
-      - NL_1418
-      - 英国【YouTube由零开始】 2
-      - Ytb:鹏哥分享_英国_32
-      - 印度184-11@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _US_美国 26
-      - Youtue/ONE·资源核 14
-      - +HK_38009+@WangCai_1+12
-      - ♥️YouTube梦歌♥️_24
-      - NL_1423
-      - Youtue/ONE·资源核 15
-      - Youtue/ONE·资源核 16
-      - ♥️YouTube梦歌♥️_37
-      - Youtue/ONE·资源核 17
-      - ♥️YouTube梦歌♥️_33
-      - 美国（TG@阿伟科技/油管） 13
-      - Youtue/ONE·资源核 18
-      - Ytb:鹏哥分享_30
-      - 梦歌|BGP中转|解锁流媒体_39
-      - github.com/freefq - 美国  53
-      - _GB_英国 2
-      - 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_94
-      - ♥️YouTube梦歌♥️_41
-      - YouTube阿伟科技 10
-      - Youtue/ONE·资源核 14 2
-      - Youtube/ONE·资源核 2
-      - 德国【YouTube由零开始】 3
-      - ZZ_179+TG@peekfun
-      - 英国【YouTube由零开始】 3
-      - _US_美国 27
-      - b-mc.txwd.xyz:50051
-      - 荷兰节点更新 https://bit.ly/36b6iJh-clone
-      - 英国【YouTube由零开始】 4
-      - _GB_英国 3
-      - 美国【YouTube由零开始】 5
-      - github.com/freefq - 美国Microsoft数据中心 23
-      - _GB_英国 4
-      - _GB_英国 5
-      - _GB_英国 6
-      - +HK_38009+@WangCai_1
-      - 美国（TG@阿伟科技/油管） 14
-      - 印度184-4 联通100M+4K -2 节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 5
-      - 美国【YouTube由零开始】 6
-      - _DE_德国
-      - 澳大利亚（TG@阿伟科技/油管） 2
-      - +HK_38004+@WangCai_1+20
-      - _PL_波兰 2
-      - _PL_波兰 3
-      - _PL_波兰 4
-      - US_150+TG@peekfun
-      - YouTube阿伟科技 11
-      - 美国【YouTube由零开始】 7
-      - 德国【YouTube由零开始】 4
-      - "@SSRSUB-俄罗斯V04-付费推荐:dlj.tf/ssrsub"
-      - US_133+TG@peekfun
-      - 加拿大【YouTube由零开始】
-      - +HK_38010+@WangCai_1+20
+      - 台湾（TG@阿伟科技/油管）
+      - SG-高速节点购买：v1.mk/vip（浏览器打开）
+      - 梦歌|BGP中转|解锁Netflix_8
+      - TW-高速节点购买：v1.mk/vip（浏览器打开）
+      - US_3062
+      - 台湾（TG@阿伟科技/油管） 2
+      - 高速节点购买：v1.mk/vip（浏览器打开）
+      - 科技网络
+      - 日本（TG@阿伟科技/油管） 2
+      - 高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港（TG@阿伟科技/油管） 2
+      - HK-高速节点购买：v1.mk/vip（浏览器打开）
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - YouTube@阿阳AYANG
+      - 新加坡（TG@阿伟科技/油管） 3
+      - YouTube@阿阳AYANG 2
+      - 台湾（TG@阿伟科技/油管） 3
+      - 新加坡（TG@阿伟科技/油管） 4
       - 荷兰（TG@阿伟科技/油管）
-      - 加拿大【YouTube由零开始】 2
-      - 加拿大【YouTube由零开始】 3
-      - 印度184-18@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-32 联通28.64m 节点更新 https://bit.ly/36b6iJh
-      - _PL_波兰 5
-      - 104.17.177.116
-      - 印度184-20@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 德国【YouTube由零开始】 5
-      - 梦歌|BGP中转|解锁流媒体_116
-      - _PL_波兰 6
-      - _PL_波兰 7
-      - +HK_38010+@WangCai_1+12
-      - 梦歌|BGP中转|解锁流媒体_69
-      - _PL_波兰 8
-      - HK_38009+@WangCai_1
-      - _GB_英国 7
-      - 英国【YouTube由零开始】 6
-      - +HK_38010+@WangCai_1+18
-      - +DE_38607+@WangCai_1
-      - 印度184-23@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-24@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 7
-      - 梦歌|BGP中转|解锁流媒体_277
-      - 梦歌|BGP中转|解锁流媒体_300
-      - _PL_波兰 9
-      - 荷兰（TG@阿伟科技/油管） 2
-      - +HK_38008+@WangCai_1+14
-      - 加拿大（TG@阿伟科技/油管）
-      - github.com/freefq - 美国CloudFlare节点 64
-      - _NL_荷兰
-      - 印度184-34 联通14.9 节点更新 https://bit.ly/36b6iJh
-      - 印度184-39 联通11.11 节点更新 https://bit.ly/36b6iJh
-      - +HK_38001+@WangCai_1+3
-      - +HK_38006+@WangCai_1+8
-      - 梦歌|BGP中转|解锁流媒体_271
-      - 科技网络 3
-      - _NL_荷兰 2
-      - github.com/freefq - 美国CloudFlare公司CDN节点 20
-      - _NL_荷兰 3
-      - 美国【YouTube由零开始】 8
-      - YouTube阿伟科技 12
-      - AU_04 TG@peekfun
-      - _NL_荷兰 4
-      - _GB_英国 8
-      - 英国【YouTube由零开始】 8
-      - 印度184-10@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 台湾（TG@阿伟科技/油管） 6
-      - 印度184-38 联通11.55 节点更新 https://bit.ly/36b6iJh
-      - 美国【YouTube由零开始】 9
-      - +HK_38009+@WangCai_1+3
-      - Youtube/ONE·资源核 3
-      - +TW_38103+@WangCai_1+20
-      - 印度184-28@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +HK_38009+@WangCai_1+13
-      - 印度184-8@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 9
-      - _AU_澳大利亚
-      - github.com/freefq - 美国  29
-      - +JP_38303+@WangCai_1+3
-      - 土耳其（TG@阿伟科技/油管）
-      - _PL_波兰 10
-      - +HK_38009+@WangCai_1+18
-      - 日本（TG@阿伟科技/油管
-      - +HK_38002+@WangCai_1
-      - Relay_🇨🇳CN-🇺🇸US_502
-      - +HK_38005+@WangCai_1+18
-      - +HK_38008+@WangCai_1+4
-      - 印度184-15@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 172.104.157.118:5003
-      - 梦歌|BGP中转|解锁流媒体_79
-      - 梦歌|BGP中转|解锁流媒体_28
-      - 香港杨枝甘露 03
-      - 香港（TG@阿伟科技/油管） 6
-      - 香港（TG@阿伟科技/油管） 7
-      - 西美高速2
-      - +HK_38009+@WangCai_1+16
-      - +TW_38102+@WangCai_1+20
-      - +TH_38605+@WangCai_1+3
-      - 印度184-36 联通12.71 节点更新 https://bit.ly/36b6iJh
-      - +HK_38006+@WangCai_1+16
-      - Youtue/ONE·资源核 19
-      - +HK_38003+@WangCai_1+13
-      - Relay_🇦🇺AU-🇦🇺AU_155
-      - Relay_🇨🇳CN-🇺🇸US_505
-      - 科技网络 4
-      - +DE_38607+@WangCai_1+3
-      - +HK_38003+@WangCai_1+9
-      - +PH_38603+@WangCai_1+5
-      - Relay_🇨🇳CN-🇺🇸US_493
-      - Relay_🇨🇳CN-🇨🇦CA_472
-      - Youtue/ONE·资源核 20
-      - +TW_38104+@WangCai_1+3
-      - Relay_🇨🇳CN-🇯🇵JP_526
-      - +HK_38004+@WangCai_1+16
-      - +HK_38009+@WangCai_1+4
-      - +TH_38605+@WangCai_1+2
-      - +HK_38007+@WangCai_1+5
-      - github.com/freefq - 美国3COM公司企业网 51
-      - Youtue/ONE·资源核 21
-      - Youtue/ONE·资源核 22
-      - +HK_38010+@WangCai_1+19
-      - 香港（TG@阿伟科技/油管） 20
-      - 印度184-16@1Gbps节点更新 https://bit.ly/36b6iJh
-      - Relay_🇦🇺AU-🇦🇺AU_10
-      - 印度184-9@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh
-      - Youtue/ONE·资源核 23
-      - +HK_38010+@WangCai_1+5
-      - Youtue/ONE·资源核 46
-      - 欢迎订阅钱科技0429_🇯🇵_JP_日本_20
-      - 美国【YouTube由零开始】 10
-      - +HK_38009+@WangCai_1+19
-      - +HK_38001+@WangCai_1+2
-      - 德国【YouTube由零开始】 6
-      - +HK_38007+@WangCai_1+8
-      - GB_911
-      - +HK_38005+@WangCai_1
-      - +TW_38103+@WangCai_1+3
-      - +HK_38002+@WangCai_1+8
-      - +HK_38005+@WangCai_1+16
-      - HK_38006+@WangCai_1
-      - +US_38501+@WangCai_1+9
-      - github.com/freefq - 美国  31
-      - _US_美国 28
-      - 梦歌|BGP中转|解锁流媒体_7
-      - +HK_38006+@WangCai_1+17
-      - 加拿大【YouTube由零开始】 4
-      - +SG_38204+@WangCai_1+21
-      - 印度184-21联通100M+4K   节点更新 https://bit.ly/36b6iJh
-      - 印度184-19@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 德国【YouTube由零开始】 7
-      - _JP_日本
-      - NL_673
-      - +HK_38008+@WangCai_1+21
-      - 美国【YouTube由零开始】 11
-      - +HK_38002+@WangCai_1+2
-      - +US_38502+@WangCai_1+4
-      - 印度184-29@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _JP_日本 2
-      - _JP_日本 3
-      - 南非（TG@阿伟科技/油管）
-      - _US_美国 29
-      - +HK_38007+@WangCai_1
-      - 科技网络 5
-      - US_103+TG@peekfun
-      - +HK_38010+@WangCai_1+17
-      - Relay_🇺🇸US-🇺🇸US_3866
-      - 印度【YouTube由零开始】 6
-      - +JP_38304+@WangCai_1+21
-      - +HK_38003+@WangCai_1+19
-      - +JP_38304+@WangCai_1+2
-      - US_97+TG@peekfun
-      - +US_38503+@WangCai_1+18
-      - +TW_38101+@WangCai_1+4
-      - HK_38009+@WangCai_1 2
-      - 印度184-40 联通10.26 节点更新 https://bit.ly/36b6iJh
-      - _SG_新加坡
-      - Youtue/ONE·资源核 24
-      - +HK_38007+@WangCai_1+2
-      - 美国【YouTube由零开始】 12
-      - HK_38004+@WangCai_1
-      - +HK_38006+@WangCai_1+14
-      - +HK_38001+@WangCai_1+17
-      - +HK_38008+@WangCai_1+16
-      - +HK_38005+@WangCai_1+13
-      - Relay_🇨🇳CN-🇯🇵JP_481
-      - Youtue/ONE·资源核 25
-      - +HK_38007+@WangCai_1+16
-      - +TW_38103+@WangCai_1+19
-      - +HK_38002+@WangCai_1+17
-      - +HK_38002+@WangCai_1+20
-      - 美国【YouTube由零开始】 13
-      - +HK_38004+@WangCai_1+21
-      - 梦歌|BGP中转|解锁流媒体_279
-      - +PH_38603+@WangCai_1+6
-      - _PL_波兰 11
-      - +HK_38002+@WangCai_1+16
-      - Youtue/ONE·资源核 26
-      - +HK_38009+@WangCai_1+8
-      - +HK_38001+@WangCai_1+18
-      - +HK_38008+@WangCai_1+8
-      - +HK_38001+@WangCai_1+6
-      - +HK_38002+@WangCai_1+4
-      - +TH_38605+@WangCai_1+13
-      - +KR_38401+@WangCai_1+4
-      - +TW_38102+@WangCai_1+2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - +TW_38104+@WangCai_1+17
-      - Relay_🇨🇳CN-🇺🇸US_506
-      - 印度184-13@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +FR_38609+@WangCai_1+3
-      - 欢迎订阅钱科技0429_🇺🇸_US_美国_33
-      - 加拿大【YouTube由零开始】 5
-      - +HK_38005+@WangCai_1+12
-      - +SG_38203+@WangCai_1+3
-      - 印度184-26@1Gbps节点更新 https://bit.ly/36b6iJh
-      - US_112+TG@peekfun
-      - 新加坡【YouTube由零开始】
-      - +US_38502+@WangCai_1+13
-      - +KR_38402+@WangCai_1+8
-      - 印度184-14@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-7@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +HK_38009+@WangCai_1+14
-      - Youtue/ONE·资源核 27
-      - 英国【YouTube由零开始】 10
-      - +HK_38006+@WangCai_1+3
-      - TH_38605+@WangCai_1
-      - +HK_38010+@WangCai_1+8
-      - US_126+TG@peekfun
-      - _US_美国 30
-      - US_128+TG@peekfun
-      - +HK_38010+@WangCai_1+13
-      - +TW_38104+@WangCai_1+13
-      - _US_美国 31
-      - HK_38003+@WangCai_1
-      - +KR_38401+@WangCai_1
-      - +TW_38101+@WangCai_1+13
-      - +PH_38603+@WangCai_1+2
+      - 韩国丨筋斗云丨Weoworks提供
+      - 台湾（TG@阿伟科技/油管） 4
+      - 节点更新 https://bit.ly/36b6iJh
+      - Ytb:鹏哥分享_印度_33
+      - GB-高速节点购买：v1.mk/vip（浏览器打开）
+      - 美国（TG@阿伟科技/油管）
+      - NL-高速节点购买：v1.mk/vip（浏览器打开）
+      - TG:YouTubeAYANG科技大师 3
+      - Ytb:鹏哥分享_韩国_9
+      - 梦歌|BGP中转|解锁Netflix_31
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 日本（TG@阿伟科技/油管） 3
+      - DE_653
+      - _DE_德国
+      - 香港（TG@阿伟科技/油管） 3
+      - YouTube@阿阳AYANG 3
+      - 高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 台湾（TG@阿伟科技/油管） 5
+      - _DE_德国 2
+      - 梦歌|BGP中转|解锁Netflix_17
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 日本2丨筋斗云丨Weoworks提供
+      - Ytb:鹏哥分享_新加坡_105
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 梦歌|BGP中转|解锁Netflix_3
+      - Ytb:鹏哥分享_31
+      - 梦歌|BGP中转|解锁Netflix_5
+      - Relay_🇨🇦CA-🇨🇦CA_425
+      - TG:YouTubeAYANG科技大师 4
+      - US_3082
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 梦歌|BGP中转|解锁Netflix_44
+      - 梦歌|BGP中转|解锁Netflix_48
+      - _CH_瑞士
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - Youtue/ONE·资源核
+      - _CH_瑞士 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 新加坡（TG@阿伟科技/油管） 5
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - _DE_德国 3
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - 印度丨筋斗云丨Weoworks提供
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - AU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 梦歌|BGP中转|解锁Netflix_42
+      - DE_662
+      - Ytb:鹏哥分享_英国_17
+      - IN-高速节点购买：v1.mk/vip（浏览器打开）
+      - 英国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管） 2
+      - 印度（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 4
+      - "@SSRSUB-V07-付费推荐:suo.yt/ssrsub"
       - 韩国（TG@阿伟科技/油管）
-      - +HK_38002+@WangCai_1+21
-      - Youtue/ONE·资源核 28
-      - +HK_38008+@WangCai_1
-      - +HK_38010+@WangCai_1+6
-      - SG
-      - 印度184-3@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +US_38503+@WangCai_1+2
-      - +TW_38103+@WangCai_1+17
-      - +TW_38104+@WangCai_1+21
-      - +JP_38301+@WangCai_1+21
-      - +HK_38010+@WangCai_1+3
-      - Relay_🇨🇳CN-🇯🇵JP_522
-      - +TW_38105+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_521
-      - 加拿大【YouTube由零开始】 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - +SG_38204+@WangCai_1
-      - 新加坡 【由零开始YouTube】 2
-      - 欢迎订阅钱科技0429_🇫🇷_FR_法国_3
-      - +JP_38301+@WangCai_1+3
-      - (资源分享师)🇨🇳zg++21
-      - +US_38503+@WangCai_1+21
-      - +KR_38402+@WangCai_1+17
-      - +US_38503+@WangCai_1+7
-      - 韩国【YouTube由零开始】
-      - +HK_38003+@WangCai_1+21
-      - +HK_38003+@WangCai_1+17
-      - +US_38501+@WangCai_1+3
-      - _US_美国 32
-      - +SG_38204+@WangCai_1+18
-      - +SG_38204+@WangCai_1+8
-      - +HK_38002+@WangCai_1+14
-      - +KR_38401+@WangCai_1+2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - +SG_38203+@WangCai_1+8
-      - Ytb:鹏哥分享_新加坡_70
-      - 美国 【由零开始YouTube】 2
-      - 美国【YouTube由零开始】 14
-      - +JP_38305+@WangCai_1+21
-      - +HK_38010+@WangCai_1+16
-      - +TW_38105+@WangCai_1+2
-      - 印度184-33 联通15.02m  节点更新 https://bit.ly/36b6iJh
-      - +HK_38004+@WangCai_1+4
-      - +HK_38003+@WangCai_1
-      - 美国【YouTube由零开始】 15
-      - +US_38501+@WangCai_1+17
-      - +TW_38104+@WangCai_1+16
-      - +TH_38605+@WangCai_1+21
-      - +JP_38305+@WangCai_1+13
-      - +DE_38607+@WangCai_1+8
-      - +KR_38402+@WangCai_1+21
-      - +HK_38007+@WangCai_1+4
-      - +KR_38401+@WangCai_1+17
-      - +JP_38303+@WangCai_1+8
-      - +HK_38003+@WangCai_1+20
-      - +HK_38003+@WangCai_1+3
-      - +PH_38603+@WangCai_1+13
-      - Youtube/ONE·资源核 4
-      - 14.29.124.168:25256
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 美国2丨筋斗云丨Weoworks提供
+      - Ytb:鹏哥分享_中国_75
+      - 美国（TG@阿伟科技/油管） 3
+      - 梦歌|BGP中转|解锁Netflix_45
+      - _DE_德国 4
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - 【YouTube由零开始】
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 美国（TG@阿伟科技/油管） 4
+      - CZ-高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本（TG@阿伟科技/油管） 4
+      - 梦歌|BGP中转|解锁Netflix_47
+      - CZ-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港（TG@阿伟科技/油管） 5
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
       - "|20.89Mb"
-      - 14.29.124.168:25220
-      - +HK_38004+@WangCai_1+13
-      - +US_38501+@WangCai_1+13
-      - +TH_38605+@WangCai_1+17
-      - (资源分享师)🇨🇳zg++6
-      - (资源分享师)🇨🇳zg++11
-      - (资源分享师)🇨🇳zg++7
-      - CN_477(资源分享师)
-      - Youtube/ONE·资源核 5
-      - (资源分享师)🇨🇳zg++3
-      - 14.29.124.168:25294
-      - (资源分享师)🇨🇳zg++2
-      - CN_463
-      - CN_447
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - +JP_38304+@WangCai_1+9
-      - 38.114.114.19:6379
-      - (资源分享师)🇨🇳zg++15
-      - +HK_38010+@WangCai_1+9
-      - YouTube阿伟科技 13
-      - +TW_38104+@WangCai_1+2
-      - +TH_38605+@WangCai_1+19
-      - +TH_38605+@WangCai_1+20
-      - +KR_38402+@WangCai_1+13
-      - Relay_🇺🇦UA-🇺🇦UA_1769
-      - +US_38503+@WangCai_1+3
-      - Youtube/ONE·资源核 6
-      - +TW_38101+@WangCai_1+2
-      - +KR_38401+@WangCai_1+21
-      - +JP_38304+@WangCai_1
-      - +KR_38401+@WangCai_1+16
-      - +KR_38401+@WangCai_1+8
-      - +AR_38611+@WangCai_1+22
-      - US_172 TG@peekfun
-      - +HK_38004+@WangCai_1+8
-      - +US_38503+@WangCai_1+8
-      - US_38503+@WangCai_1
-      - KR_38401+@WangCai_1
-      - +HK_38009+@WangCai_1+17
-      - +HK_38001+@WangCai_1
-      - (资源分享师)🇨🇳zg++16
-      - +PH_38603+@WangCai_1+18
-      - US_141+TG@peekfun
-      - +TW_38102+@WangCai_1+6
-      - +TW_38101+@WangCai_1+3
-      - +DE_38607+@WangCai_1+20
-      - +HK_38005+@WangCai_1+21
-      - +TW_38102+@WangCai_1+3
-      - 科技网络 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - +KR_38402+@WangCai_1+19
-      - +TW_38105+@WangCai_1+19
-      - _PL_波兰 12
-      - +JP_38304+@WangCai_1+17
-      - +TW_38103+@WangCai_1+13
-      - +US_38501+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_302
-      - GB_907
-      - +TW_38104+@WangCai_1+8
-      - +US_38504+@WangCai_1+21
-      - +TW_38103+@WangCai_1+18
-      - TW_38103+@WangCai_1
-      - +FR_38609+@WangCai_1+2
-      - +JP_38303+@WangCai_1+2
-      - 印度184-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - +HK_38001+@WangCai_1+21
-      - +JP_38301+@WangCai_1
-      - +JP_38301+@WangCai_1+6
-      - +JP_38301+@WangCai_1+20
-      - +TH_38605+@WangCai_1
-      - +KR_38402+@WangCai_1+20
-      - +TW_38105+@WangCai_1+21
-      - github.com/freefq - 美国CloudFlare节点 22
-      - +US_38502+@WangCai_1
-      - +TW_38103+@WangCai_1+12
-      - +KR_38402+@WangCai_1
-      - +US_38503+@WangCai_1+19
-      - github.com/freefq - 北美地区  12
-      - +US_38501+@WangCai_1+19
-      - +JP_38301+@WangCai_1+2
-      - +JP_38304+@WangCai_1+6
-      - +FR_38609+@WangCai_1+19
-      - +HK_38010+@WangCai_1
-      - +TW_38104+@WangCai_1+7
-      - +TW_38103+@WangCai_1+6
-      - _GB_英国 9
-      - +JP_38301+@WangCai_1+8
-      - +HK_38008+@WangCai_1+17
-      - +TW_38101+@WangCai_1+18
-      - +DE_38607+@WangCai_1+13
-      - +TW_38101+@WangCai_1+17
-      - +JP_38304+@WangCai_1+8
-      - +JP_38305+@WangCai_1
-      - +TW_38104+@WangCai_1+19
-      - +TW_38103+@WangCai_1+16
-      - +SG_38203+@WangCai_1+20
-      - +US_38504+@WangCai_1+2
-      - +FR_38609+@WangCai_1+13
-      - JP_38304+@WangCai_1
-      - +JP_38305+@WangCai_1+20
-      - 科技网络 7
-      - +JP_38301+@WangCai_1+17
-      - +US_38503+@WangCai_1+13
-      - +TW_38103+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_192
-      - 美国（TG@阿伟科技/油管） 15
-      - +TW_38103+@WangCai_1+8
-      - +JP_38301+@WangCai_1+19
-      - +KR_38402+@WangCai_1+3
-      - 科技网络 8
-      - +JP_38305+@WangCai_1+17
-      - +JP_38304+@WangCai_1+4
-      - +US_38502+@WangCai_1+22
-      - 印度184-35 联通14.07 节点更新 https://bit.ly/36b6iJh
-      - +HK_38004+@WangCai_1+12
-      - TW_38102+@WangCai_1
-      - +TH_38605+@WangCai_1+16
-      - 美国【YouTube由零开始】 16
-      - +TW_38102+@WangCai_1+16
-      - +TW_38101+@WangCai_1+16
-      - +HK_38003+@WangCai_1+16
-      - +FR_38609+@WangCai_1+16
-      - +TW_38102+@WangCai_1+8
-      - +SG_38204+@WangCai_1+20
-      - +DE_38607+@WangCai_1+2
-      - +US_38501+@WangCai_1+2
-      - +US_38504+@WangCai_1+19
-      - github.com/freefq - 广东省广州市黄埔区珠江宽频 14
-      - +SG_38204+@WangCai_1+14
-      - JP_38305+@WangCai_1
-      - +TH_38605+@WangCai_1+8
-      - +US_38504+@WangCai_1+16
-      - +DE_38607+@WangCai_1+16
-      - github.com/freefq - 广东省深圳市腾讯云 16
-      - +JP_38304+@WangCai_1+13
-      - +TW_38103+@WangCai_1+2
-      - +SG_38203+@WangCai_1+12
-      - +TW_38104+@WangCai_1+5
-      - TW_38105+@WangCai_1
-      - +US_38502+@WangCai_1+19
-      - +US_38502+@WangCai_1+2
-      - +US_38503+@WangCai_1+17
-      - +US_38502+@WangCai_1+21
-      - +SG_38203+@WangCai_1+16
-      - +DE_38607+@WangCai_1+17
-      - +SG_38203+@WangCai_1
-      - +HK_38005+@WangCai_1+4
-      - 乌克兰【YouTube由零开始】
-      - +TW_38102+@WangCai_1+5
-      - +PH_38603+@WangCai_1+14
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 美国（TG@阿伟科技/油管） 5
+      - 高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 科技网络 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - YouTube@阿阳AYANG 4
+      - _AU_澳大利亚
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - 俄罗斯（TG@阿伟科技/油管）
+      - _CH_瑞士 3
+      - 新加坡 【由零开始YouTube】
+      - 美国（TG@阿伟科技/油管） 6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 台湾（TG@阿伟科技/油管） 6
+      - 新加坡（TG@阿伟科技/油管） 6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 11
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -3116,3129 +576,576 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 梦歌|BGP中转|解锁流媒体_57
-      - cucu-aa.txwd.xyz:50007
-      - 梦歌|BGP中转|解锁流媒体_106
-      - 梦歌|BGP中转|解锁流媒体_105
-      - 梦歌|BGP中转|解锁流媒体_41
-      - 梦歌|BGP中转|解锁流媒体_212
-      - 梦歌|BGP中转|解锁流媒体_73
-      - ♥️YouTube梦歌♥️_53
-      - 梦歌|BGP中转|解锁流媒体_68
-      - 香港【YouTube由零开始】
-      - 香港（TG@阿伟科技/油管）
-      - Ytb:鹏哥分享_美国_90
-      - 梦歌|BGP中转|解锁流媒体_55
-      - 梦歌|BGP中转|解锁流媒体_270
-      - 梦歌|BGP中转|解锁流媒体_77
-      - 梦歌|BGP中转|解锁流媒体_5
-      - cmcm-a.txwd.xyz:50222
-      - 梦歌|BGP中转|解锁流媒体_301
-      - 台湾（TG@阿伟科技/油管）
+      - 梦歌|BGP中转|解锁Netflix_6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
       - 日本（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_51
-      - 香港煎酿三宝 04
-      - 新加坡（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_19
-      - 梦歌|BGP中转|解锁流媒体_32
-      - 梦歌|BGP中转|解锁流媒体_127
-      - 新加坡（TG@阿伟科技/油管） 2
-      - 梦歌|BGP中转|解锁流媒体_34
-      - 梦歌|BGP中转|解锁流媒体_88
-      - 台湾（TG@阿伟科技/油管） 2
-      - 香港杨枝甘露 03-D
-      - 台湾-04_15
-      - 台湾-01_12
-      - 梦歌|BGP中转|解锁流媒体_24
-      - 日本（TG@阿伟科技/油管） 2
-      - 梦歌|BGP中转|解锁流媒体_125
-      - 梦歌|BGP中转|解锁流媒体_44
-      - 梦歌|BGP中转|解锁流媒体_65
-      - 梦歌|BGP中转|解锁流媒体_45
-      - ♥️YouTube梦歌♥️_56
-      - 梦歌|BGP中转|解锁流媒体_81
-      - 台湾（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_12
-      - Relay_🇺🇸US-🇺🇸US_3771
-      - +HK_38003+@WangCai_1+8
-      - 梦歌|BGP中转|解锁流媒体_4
-      - 新加坡 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_30
-      - 香港（TG@阿伟科技/油管） 2
-      - 台湾-02_13
-      - 梦歌|BGP中转|解锁流媒体_25
-      - 梦歌|BGP中转|解锁流媒体_8
-      - 印度（TG@阿伟科技/油管）
-      - YouTube阿伟科技 5
-      - Relay_🇨🇳CN-🇷🇴RO_478
-      - 日本（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_15
-      - +HK_38007+@WangCai_1+13
-      - 梦歌|BGP中转|解锁流媒体_50
-      - (资源分享师)🇨🇳zg++14
-      - 梦歌|BGP中转|解锁流媒体_53
-      - 梦歌|BGP中转|解锁流媒体_49
-      - YouTube阿伟科技 4
-      - +HK_38007+@WangCai_1+3
-      - +JP_38305+@WangCai_1+3
-      - 梦歌|BGP中转|解锁流媒体_2
-      - 美国 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_74
-      - 梦歌|BGP中转|解锁流媒体_174
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_157
-      - ♥️YouTube梦歌♥️_10
-      - 梦歌|BGP中转|解锁流媒体_256
-      - YouTube阿伟科技
+      - 梦歌|BGP中转|解锁Netflix_26
+      - TG:YouTubeAYANG科技大师
+      - 梦歌|BGP中转|解锁Netflix_46
+      - 梦歌|BGP中转|解锁Netflix_7
+      - 日本1丨筋斗云丨Weoworks提供
+      - 香港（TG@阿伟科技/油管）
       - 香港煎酿三宝 04-D
-      - 香港（TG@阿伟科技/油管） 3
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - PH_38603+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_33
-      - 梦歌|BGP中转|解锁流媒体_147
-      - 梦歌|BGP中转|解锁流媒体_86
-      - 梦歌|BGP中转|解锁流媒体_26
-      - 梦歌|BGP中转|解锁流媒体_150
-      - 美国（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_17
-      - 梦歌|BGP中转|解锁流媒体_35
-      - YouTube阿伟科技 2
-      - 梦歌|BGP中转|解锁流媒体_43
-      - ♥️YouTube梦歌♥️_120
-      - aaa-666.txwd.xyz:60017
-      - 梦歌|BGP中转|解锁流媒体_63
-      - YouTube阿伟科技 3
-      - ♥️YouTube梦歌♥️_165
-      - +PH_38603+@WangCai_1+3
-      - Relay_🇨🇳CN-🇺🇸US_480
-      - 梦歌|BGP中转|解锁流媒体_76
-      - +HK_38007+@WangCai_1+17
-      - Ytb:鹏哥分享_中国_67
-      - 梦歌|BGP中转|解锁流媒体_62
-      - 梦歌|BGP中转|解锁流媒体_92
-      - +JP_38304+@WangCai_1+19
-      - 香港咖喱鱼蛋 01-D
-      - 中国 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_42
-      - 印度【YouTube由零开始】
-      - aaa-666.txwd.xyz:60006
-      - 台湾（TG@阿伟科技/油管） 4
-      - 梦歌|BGP中转|解锁流媒体_182
-      - 美国（TG@阿伟科技/油管） 2
-      - 新加坡（TG@阿伟科技/油管） 4
-      - 梦歌|BGP中转|解锁流媒体_84
-      - +HK_38006+@WangCai_1+2
-      - 节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_58
-      - +SG_38201+@WangCai_1+3
-      - _HK_香港
-      - +US_38501+@WangCai_1+22
-      - (资源分享师)SSR+7
-      - +HK_38006+@WangCai_1+20
-      - 香港（TG@阿伟科技/油管） 4
-      - 台湾（TG@阿伟科技/油管） 5
-      - Youtue/ONE·资源核
-      - _US_美国
-      - USA IEPL.A/03 x1.0
-      - github.com/freefq - 美国CloudFlare节点 28
-      - 印度【YouTube由零开始】 2
-      - _US_美国 2
-      - 马恩岛（TG@阿伟科技/油管）
-      - Relay_🇨🇳CN-🇺🇸US_499
-      - 科技网络
-      - b-mc.txwd.xyz:50055
-      - Youtue/ONE·资源核 2
-      - US_118+TG@peekfun
-      - Youtue/ONE·资源核 3
-      - 梦歌|BGP中转|解锁流媒体_20
-      - Relay_🇺🇸US-🇺🇸US_3743
-      - 梦歌|BGP中转|解锁流媒体_129
-      - 法国-节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_143
-      - _US_美国 3
-      - _US_美国 4
-      - Youtue/ONE·资源核 4
-      - 梦歌|BGP中转|解锁流媒体_38
-      - +HK_38004+@WangCai_1+3
-      - 美国（TG@阿伟科技/油管） 3
-      - Youtue/ONE·资源核 5
-      - 167.88.61.70:8119
-      - YouTube阿伟科技 6
-      - 梦歌|BGP中转|解锁流媒体_323
-      - Youtue/ONE·资源核 6
-      - github.com/freefq - 台湾省中华电信 7
-      - 167.88.61.70:8882
-      - Youtue/ONE·资源核 7
-      - AU_149
-      - 印度【YouTube由零开始】 3
-      - +JP_38301+@WangCai_1+13
-      - 167.88.61.70:8008
-      - KR_364
-      - US_109+TG@peekfun
-      - +HK_38006+@WangCai_1+19
-      - 印度【YouTube由零开始】 4
-      - 梦歌|BGP中转|解锁流媒体_16
-      - youtube阿伟科技
-      - _US_美国 5
-      - 科技网络 2
-      - _US_美国 6
-      - _US_美国 7
-      - US_119+TG@peekfun
-      - 美国（TG@阿伟科技/油管） 4
-      - 美国（TG@阿伟科技/油管） 5
-      - 167.88.61.70:2376
-      - github.com/freefq - 澳大利亚  47
-      - Youtue/ONE·资源核 8
-      - 直连-日本T-A 2_vmess_ws
-      - 俄罗斯（TG@阿伟科技/油管）
-      - _US_美国 8
-      - 香港（TG@阿伟科技/油管） 14
-      - 英国（TG@阿伟科技/油管）
-      - _US_美国 9
-      - +HK_38008+@WangCai_1+3
-      - Youtube/ONE·资源核
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - 美国（TG@阿伟科技/油管） 6
-      - +TH_38605+@WangCai_1+14
-      - YouTube阿伟科技 7
-      - 美国（TG@阿伟科技/油管） 18
-      - _US_美国 14
-      - _US_美国 15
-      - USA CM.C/01 x0.3
-      - Relay_🇺🇸US-🇺🇸US_81
-      - 中国【YouTube由零开始】
-      - 梦歌|BGP中转|解锁流媒体_205
-      - Relay_🇺🇸US-🇺🇸US_113
-      - USA IEPL.A/02 x1.0
-      - Youtue/ONE·资源核 9
-      - 梦歌|BGP中转|解锁流媒体_136
-      - 美国_节点更新 https://bit.ly/36b6iJh_68
-      - _US_美国 16
-      - US_147+TG@peekfun
-      - Youtue/ONE·资源核 10
-      - Youtue/ONE·资源核 11
-      - 节点更新 https://bit.ly/36b6iJh 2
-      - +HK_38001+@WangCai_1+16
-      - Relay_🇺🇸US-🇺🇸US_111
-      - 167.88.61.70:6679
-      - US_162 TG@peekfun
-      - 美国（TG@阿伟科技/油管） 7
-      - 印度（TG@阿伟科技/油管） 2
-      - 美国【YouTube由零开始】
-      - _US_美国 17
-      - 印度184-37 联通11.95 节点更新 https://bit.ly/36b6iJh
-      - US_107+TG@peekfun
-      - 美国（TG@阿伟科技/油管） 8
-      - _US_美国 18
-      - US_143+TG@peekfun
-      - 美国【YouTube由零开始】 2
-      - ♥️YouTube梦歌♥️_31
-      - Youtue/ONE·资源核 12
-      - +US_38504+@WangCai_1+20
-      - YouTube阿伟科技 8
-      - 香港（TG@阿伟科技/油管） 5
-      - Relay_🇯🇵JP-🇯🇵JP_1094
-      - NL_1405
-      - 梦歌|BGP中转|解锁流媒体_340
-      - Youtue/ONE·资源核 13
-      - ZZ_4745
-      - 美国（TG@阿伟科技/油管） 9
-      - +VN_38601+@WangCai_1+16
-      - 澳大利亚（TG@阿伟科技/油管）
-      - +HK_38006+@WangCai_1+18
-      - 梦歌|BGP中转|解锁流媒体_135
-      - 美国【YouTube由零开始】 3
-      - 梦歌|BGP中转|解锁流媒体_27
-      - _US_美国 19
-      - 卢森堡（TG@阿伟科技/油管）
-      - US_114+TG@peekfun
-      - _US_美国 20
-      - 美国（TG@阿伟科技/油管） 10
-      - _US_美国 21
-      - ZZ_4676
-      - NL_67+TG@peekfun
-      - +HK_38007+@WangCai_1+21
-      - 印度184-12@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _US_美国 22
-      - US_131+TG@peekfun
-      - US_140+TG@peekfun
-      - 梦歌|BGP中转|解锁流媒体_289
-      - ZZ_180+TG@peekfun
-      - 印度【YouTube由零开始】 5
-      - _US_美国 23
-      - US_108+TG@peekfun
-      - Relay_🇺🇸US-🇺🇸US_117
-      - _US_美国 24
-      - 美国（TG@阿伟科技/油管） 11
-      - ♥️YouTube梦歌♥️_194
-      - ZZ_4661
-      - NL_1391
-      - +HK_38006+@WangCai_1+9
-      - YouTube阿伟科技 9
-      - US_111+TG@peekfun
+      - 新加坡（TG@阿伟科技/油管）
+      - KR-高速节点购买：v1.mk/vip（浏览器打开）
+      - TG:YouTubeAYANG科技大师 2
+      - KR-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港杨枝甘露 03-D
+      - 新加坡（TG@阿伟科技/油管） 2
+      - 澳大利亚丨筋斗云丨Weoworks提供
+      - US_3348
       - 英国【YouTube由零开始】
-      - 德国【YouTube由零开始】
-      - _US_美国 25
-      - _GB_英国
-      - 德国（TG@阿伟科技/油管）
-      - ZZ_4477
-      - 美国（TG@阿伟科技/油管） 12
-      - +HK_38006+@WangCai_1+13
-      - 德国【YouTube由零开始】 2
-      - 印度184-27@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _PL_波兰
-      - 梦歌|BGP中转|解锁流媒体_169
-      - +JP_38305+@WangCai_1+16
-      - ♥️YouTube梦歌♥️_27
-      - 印度184-17@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 美国【YouTube由零开始】 4
-      - Youtue/ONE·资源核 10 2
-      - NL_1418
-      - 英国【YouTube由零开始】 2
-      - Ytb:鹏哥分享_英国_32
-      - 印度184-11@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _US_美国 26
-      - Youtue/ONE·资源核 14
-      - +HK_38009+@WangCai_1+12
-      - ♥️YouTube梦歌♥️_24
-      - NL_1423
-      - Youtue/ONE·资源核 15
-      - Youtue/ONE·资源核 16
-      - ♥️YouTube梦歌♥️_37
-      - Youtue/ONE·资源核 17
-      - ♥️YouTube梦歌♥️_33
-      - 美国（TG@阿伟科技/油管） 13
-      - Youtue/ONE·资源核 18
-      - Ytb:鹏哥分享_30
-      - 梦歌|BGP中转|解锁流媒体_39
-      - github.com/freefq - 美国  53
-      - _GB_英国 2
-      - 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_94
-      - ♥️YouTube梦歌♥️_41
-      - YouTube阿伟科技 10
-      - Youtue/ONE·资源核 14 2
-      - Youtube/ONE·资源核 2
-      - 德国【YouTube由零开始】 3
-      - ZZ_179+TG@peekfun
-      - 英国【YouTube由零开始】 3
-      - _US_美国 27
-      - b-mc.txwd.xyz:50051
-      - 荷兰节点更新 https://bit.ly/36b6iJh-clone
-      - 英国【YouTube由零开始】 4
-      - _GB_英国 3
-      - 美国【YouTube由零开始】 5
-      - github.com/freefq - 美国Microsoft数据中心 23
-      - _GB_英国 4
-      - _GB_英国 5
-      - _GB_英国 6
-      - +HK_38009+@WangCai_1
-      - 美国（TG@阿伟科技/油管） 14
-      - 印度184-4 联通100M+4K -2 节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 5
-      - 美国【YouTube由零开始】 6
-      - _DE_德国
-      - 澳大利亚（TG@阿伟科技/油管） 2
-      - +HK_38004+@WangCai_1+20
-      - _PL_波兰 2
-      - _PL_波兰 3
-      - _PL_波兰 4
-      - US_150+TG@peekfun
-      - YouTube阿伟科技 11
-      - 美国【YouTube由零开始】 7
-      - 德国【YouTube由零开始】 4
-      - "@SSRSUB-俄罗斯V04-付费推荐:dlj.tf/ssrsub"
-      - US_133+TG@peekfun
-      - 加拿大【YouTube由零开始】
-      - +HK_38010+@WangCai_1+20
+      - 台湾（TG@阿伟科技/油管）
+      - SG-高速节点购买：v1.mk/vip（浏览器打开）
+      - 梦歌|BGP中转|解锁Netflix_8
+      - TW-高速节点购买：v1.mk/vip（浏览器打开）
+      - US_3062
+      - 台湾（TG@阿伟科技/油管） 2
+      - 高速节点购买：v1.mk/vip（浏览器打开）
+      - 科技网络
+      - 日本（TG@阿伟科技/油管） 2
+      - 高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港（TG@阿伟科技/油管） 2
+      - HK-高速节点购买：v1.mk/vip（浏览器打开）
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - YouTube@阿阳AYANG
+      - 新加坡（TG@阿伟科技/油管） 3
+      - YouTube@阿阳AYANG 2
+      - 台湾（TG@阿伟科技/油管） 3
+      - 新加坡（TG@阿伟科技/油管） 4
       - 荷兰（TG@阿伟科技/油管）
-      - 加拿大【YouTube由零开始】 2
-      - 加拿大【YouTube由零开始】 3
-      - 印度184-18@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-32 联通28.64m 节点更新 https://bit.ly/36b6iJh
-      - _PL_波兰 5
-      - 104.17.177.116
-      - 印度184-20@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 德国【YouTube由零开始】 5
-      - 梦歌|BGP中转|解锁流媒体_116
-      - _PL_波兰 6
-      - _PL_波兰 7
-      - +HK_38010+@WangCai_1+12
-      - 梦歌|BGP中转|解锁流媒体_69
-      - _PL_波兰 8
-      - HK_38009+@WangCai_1
-      - _GB_英国 7
-      - 英国【YouTube由零开始】 6
-      - +HK_38010+@WangCai_1+18
-      - +DE_38607+@WangCai_1
-      - 印度184-23@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-24@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 7
-      - 梦歌|BGP中转|解锁流媒体_277
-      - 梦歌|BGP中转|解锁流媒体_300
-      - _PL_波兰 9
-      - 荷兰（TG@阿伟科技/油管） 2
-      - +HK_38008+@WangCai_1+14
-      - 加拿大（TG@阿伟科技/油管）
-      - github.com/freefq - 美国CloudFlare节点 64
-      - _NL_荷兰
-      - 印度184-34 联通14.9 节点更新 https://bit.ly/36b6iJh
-      - 印度184-39 联通11.11 节点更新 https://bit.ly/36b6iJh
-      - +HK_38001+@WangCai_1+3
-      - +HK_38006+@WangCai_1+8
-      - 梦歌|BGP中转|解锁流媒体_271
-      - 科技网络 3
-      - _NL_荷兰 2
-      - github.com/freefq - 美国CloudFlare公司CDN节点 20
-      - _NL_荷兰 3
-      - 美国【YouTube由零开始】 8
-      - YouTube阿伟科技 12
-      - AU_04 TG@peekfun
-      - _NL_荷兰 4
-      - _GB_英国 8
-      - 英国【YouTube由零开始】 8
-      - 印度184-10@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 台湾（TG@阿伟科技/油管） 6
-      - 印度184-38 联通11.55 节点更新 https://bit.ly/36b6iJh
-      - 美国【YouTube由零开始】 9
-      - +HK_38009+@WangCai_1+3
-      - Youtube/ONE·资源核 3
-      - +TW_38103+@WangCai_1+20
-      - 印度184-28@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +HK_38009+@WangCai_1+13
-      - 印度184-8@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 9
-      - _AU_澳大利亚
-      - github.com/freefq - 美国  29
-      - +JP_38303+@WangCai_1+3
-      - 土耳其（TG@阿伟科技/油管）
-      - _PL_波兰 10
-      - +HK_38009+@WangCai_1+18
-      - 日本（TG@阿伟科技/油管
-      - +HK_38002+@WangCai_1
-      - Relay_🇨🇳CN-🇺🇸US_502
-      - +HK_38005+@WangCai_1+18
-      - +HK_38008+@WangCai_1+4
-      - 印度184-15@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 172.104.157.118:5003
-      - 梦歌|BGP中转|解锁流媒体_79
-      - 梦歌|BGP中转|解锁流媒体_28
-      - 香港杨枝甘露 03
-      - 香港（TG@阿伟科技/油管） 6
-      - 香港（TG@阿伟科技/油管） 7
-      - 西美高速2
-      - +HK_38009+@WangCai_1+16
-      - +TW_38102+@WangCai_1+20
-      - +TH_38605+@WangCai_1+3
-      - 印度184-36 联通12.71 节点更新 https://bit.ly/36b6iJh
-      - +HK_38006+@WangCai_1+16
-      - Youtue/ONE·资源核 19
-      - +HK_38003+@WangCai_1+13
-      - Relay_🇦🇺AU-🇦🇺AU_155
-      - Relay_🇨🇳CN-🇺🇸US_505
-      - 科技网络 4
-      - +DE_38607+@WangCai_1+3
-      - +HK_38003+@WangCai_1+9
-      - +PH_38603+@WangCai_1+5
-      - Relay_🇨🇳CN-🇺🇸US_493
-      - Relay_🇨🇳CN-🇨🇦CA_472
-      - Youtue/ONE·资源核 20
-      - +TW_38104+@WangCai_1+3
-      - Relay_🇨🇳CN-🇯🇵JP_526
-      - +HK_38004+@WangCai_1+16
-      - +HK_38009+@WangCai_1+4
-      - +TH_38605+@WangCai_1+2
-      - +HK_38007+@WangCai_1+5
-      - github.com/freefq - 美国3COM公司企业网 51
-      - Youtue/ONE·资源核 21
-      - Youtue/ONE·资源核 22
-      - +HK_38010+@WangCai_1+19
-      - 香港（TG@阿伟科技/油管） 20
-      - 印度184-16@1Gbps节点更新 https://bit.ly/36b6iJh
-      - Relay_🇦🇺AU-🇦🇺AU_10
-      - 印度184-9@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh
-      - Youtue/ONE·资源核 23
-      - +HK_38010+@WangCai_1+5
-      - Youtue/ONE·资源核 46
-      - 欢迎订阅钱科技0429_🇯🇵_JP_日本_20
-      - 美国【YouTube由零开始】 10
-      - +HK_38009+@WangCai_1+19
-      - +HK_38001+@WangCai_1+2
-      - 德国【YouTube由零开始】 6
-      - +HK_38007+@WangCai_1+8
-      - GB_911
-      - +HK_38005+@WangCai_1
-      - +TW_38103+@WangCai_1+3
-      - +HK_38002+@WangCai_1+8
-      - +HK_38005+@WangCai_1+16
-      - HK_38006+@WangCai_1
-      - +US_38501+@WangCai_1+9
-      - github.com/freefq - 美国  31
-      - _US_美国 28
-      - 梦歌|BGP中转|解锁流媒体_7
-      - +HK_38006+@WangCai_1+17
-      - 加拿大【YouTube由零开始】 4
-      - +SG_38204+@WangCai_1+21
-      - 印度184-21联通100M+4K   节点更新 https://bit.ly/36b6iJh
-      - 印度184-19@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 德国【YouTube由零开始】 7
-      - _JP_日本
-      - NL_673
-      - +HK_38008+@WangCai_1+21
-      - 美国【YouTube由零开始】 11
-      - +HK_38002+@WangCai_1+2
-      - +US_38502+@WangCai_1+4
-      - 印度184-29@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _JP_日本 2
-      - _JP_日本 3
-      - 南非（TG@阿伟科技/油管）
-      - _US_美国 29
-      - +HK_38007+@WangCai_1
-      - 科技网络 5
-      - US_103+TG@peekfun
-      - +HK_38010+@WangCai_1+17
-      - Relay_🇺🇸US-🇺🇸US_3866
-      - 印度【YouTube由零开始】 6
-      - +JP_38304+@WangCai_1+21
-      - +HK_38003+@WangCai_1+19
-      - +JP_38304+@WangCai_1+2
-      - US_97+TG@peekfun
-      - +US_38503+@WangCai_1+18
-      - +TW_38101+@WangCai_1+4
-      - HK_38009+@WangCai_1 2
-      - 印度184-40 联通10.26 节点更新 https://bit.ly/36b6iJh
-      - _SG_新加坡
-      - Youtue/ONE·资源核 24
-      - +HK_38007+@WangCai_1+2
-      - 美国【YouTube由零开始】 12
-      - HK_38004+@WangCai_1
-      - +HK_38006+@WangCai_1+14
-      - +HK_38001+@WangCai_1+17
-      - +HK_38008+@WangCai_1+16
-      - +HK_38005+@WangCai_1+13
-      - Relay_🇨🇳CN-🇯🇵JP_481
-      - Youtue/ONE·资源核 25
-      - +HK_38007+@WangCai_1+16
-      - +TW_38103+@WangCai_1+19
-      - +HK_38002+@WangCai_1+17
-      - +HK_38002+@WangCai_1+20
-      - 美国【YouTube由零开始】 13
-      - +HK_38004+@WangCai_1+21
-      - 梦歌|BGP中转|解锁流媒体_279
-      - +PH_38603+@WangCai_1+6
-      - _PL_波兰 11
-      - +HK_38002+@WangCai_1+16
-      - Youtue/ONE·资源核 26
-      - +HK_38009+@WangCai_1+8
-      - +HK_38001+@WangCai_1+18
-      - +HK_38008+@WangCai_1+8
-      - +HK_38001+@WangCai_1+6
-      - +HK_38002+@WangCai_1+4
-      - +TH_38605+@WangCai_1+13
-      - +KR_38401+@WangCai_1+4
-      - +TW_38102+@WangCai_1+2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - +TW_38104+@WangCai_1+17
-      - Relay_🇨🇳CN-🇺🇸US_506
-      - 印度184-13@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +FR_38609+@WangCai_1+3
-      - 欢迎订阅钱科技0429_🇺🇸_US_美国_33
-      - 加拿大【YouTube由零开始】 5
-      - +HK_38005+@WangCai_1+12
-      - +SG_38203+@WangCai_1+3
-      - 印度184-26@1Gbps节点更新 https://bit.ly/36b6iJh
-      - US_112+TG@peekfun
-      - 新加坡【YouTube由零开始】
-      - +US_38502+@WangCai_1+13
-      - +KR_38402+@WangCai_1+8
-      - 印度184-14@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-7@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +HK_38009+@WangCai_1+14
-      - Youtue/ONE·资源核 27
-      - 英国【YouTube由零开始】 10
-      - +HK_38006+@WangCai_1+3
-      - TH_38605+@WangCai_1
-      - +HK_38010+@WangCai_1+8
-      - US_126+TG@peekfun
-      - _US_美国 30
-      - US_128+TG@peekfun
-      - +HK_38010+@WangCai_1+13
-      - +TW_38104+@WangCai_1+13
-      - _US_美国 31
-      - HK_38003+@WangCai_1
-      - +KR_38401+@WangCai_1
-      - +TW_38101+@WangCai_1+13
-      - +PH_38603+@WangCai_1+2
+      - 韩国丨筋斗云丨Weoworks提供
+      - 台湾（TG@阿伟科技/油管） 4
+      - 节点更新 https://bit.ly/36b6iJh
+      - Ytb:鹏哥分享_印度_33
+      - GB-高速节点购买：v1.mk/vip（浏览器打开）
+      - 美国（TG@阿伟科技/油管）
+      - NL-高速节点购买：v1.mk/vip（浏览器打开）
+      - TG:YouTubeAYANG科技大师 3
+      - Ytb:鹏哥分享_韩国_9
+      - 梦歌|BGP中转|解锁Netflix_31
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 日本（TG@阿伟科技/油管） 3
+      - DE_653
+      - _DE_德国
+      - 香港（TG@阿伟科技/油管） 3
+      - YouTube@阿阳AYANG 3
+      - 高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 台湾（TG@阿伟科技/油管） 5
+      - _DE_德国 2
+      - 梦歌|BGP中转|解锁Netflix_17
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 日本2丨筋斗云丨Weoworks提供
+      - Ytb:鹏哥分享_新加坡_105
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 梦歌|BGP中转|解锁Netflix_3
+      - Ytb:鹏哥分享_31
+      - 梦歌|BGP中转|解锁Netflix_5
+      - Relay_🇨🇦CA-🇨🇦CA_425
+      - TG:YouTubeAYANG科技大师 4
+      - US_3082
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 梦歌|BGP中转|解锁Netflix_44
+      - 梦歌|BGP中转|解锁Netflix_48
+      - _CH_瑞士
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - Youtue/ONE·资源核
+      - _CH_瑞士 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 新加坡（TG@阿伟科技/油管） 5
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - _DE_德国 3
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - 印度丨筋斗云丨Weoworks提供
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - AU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 梦歌|BGP中转|解锁Netflix_42
+      - DE_662
+      - Ytb:鹏哥分享_英国_17
+      - IN-高速节点购买：v1.mk/vip（浏览器打开）
+      - 英国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管） 2
+      - 印度（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 4
+      - "@SSRSUB-V07-付费推荐:suo.yt/ssrsub"
       - 韩国（TG@阿伟科技/油管）
-      - +HK_38002+@WangCai_1+21
-      - Youtue/ONE·资源核 28
-      - +HK_38008+@WangCai_1
-      - +HK_38010+@WangCai_1+6
-      - SG
-      - 印度184-3@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +US_38503+@WangCai_1+2
-      - +TW_38103+@WangCai_1+17
-      - +TW_38104+@WangCai_1+21
-      - +JP_38301+@WangCai_1+21
-      - +HK_38010+@WangCai_1+3
-      - Relay_🇨🇳CN-🇯🇵JP_522
-      - +TW_38105+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_521
-      - 加拿大【YouTube由零开始】 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - +SG_38204+@WangCai_1
-      - 新加坡 【由零开始YouTube】 2
-      - 欢迎订阅钱科技0429_🇫🇷_FR_法国_3
-      - +JP_38301+@WangCai_1+3
-      - (资源分享师)🇨🇳zg++21
-      - +US_38503+@WangCai_1+21
-      - +KR_38402+@WangCai_1+17
-      - +US_38503+@WangCai_1+7
-      - 韩国【YouTube由零开始】
-      - +HK_38003+@WangCai_1+21
-      - +HK_38003+@WangCai_1+17
-      - +US_38501+@WangCai_1+3
-      - _US_美国 32
-      - +SG_38204+@WangCai_1+18
-      - +SG_38204+@WangCai_1+8
-      - +HK_38002+@WangCai_1+14
-      - +KR_38401+@WangCai_1+2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - +SG_38203+@WangCai_1+8
-      - Ytb:鹏哥分享_新加坡_70
-      - 美国 【由零开始YouTube】 2
-      - 美国【YouTube由零开始】 14
-      - +JP_38305+@WangCai_1+21
-      - +HK_38010+@WangCai_1+16
-      - +TW_38105+@WangCai_1+2
-      - 印度184-33 联通15.02m  节点更新 https://bit.ly/36b6iJh
-      - +HK_38004+@WangCai_1+4
-      - +HK_38003+@WangCai_1
-      - 美国【YouTube由零开始】 15
-      - +US_38501+@WangCai_1+17
-      - +TW_38104+@WangCai_1+16
-      - +TH_38605+@WangCai_1+21
-      - +JP_38305+@WangCai_1+13
-      - +DE_38607+@WangCai_1+8
-      - +KR_38402+@WangCai_1+21
-      - +HK_38007+@WangCai_1+4
-      - +KR_38401+@WangCai_1+17
-      - +JP_38303+@WangCai_1+8
-      - +HK_38003+@WangCai_1+20
-      - +HK_38003+@WangCai_1+3
-      - +PH_38603+@WangCai_1+13
-      - Youtube/ONE·资源核 4
-      - 14.29.124.168:25256
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 美国2丨筋斗云丨Weoworks提供
+      - Ytb:鹏哥分享_中国_75
+      - 美国（TG@阿伟科技/油管） 3
+      - 梦歌|BGP中转|解锁Netflix_45
+      - _DE_德国 4
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - 【YouTube由零开始】
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 美国（TG@阿伟科技/油管） 4
+      - CZ-高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本（TG@阿伟科技/油管） 4
+      - 梦歌|BGP中转|解锁Netflix_47
+      - CZ-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港（TG@阿伟科技/油管） 5
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
       - "|20.89Mb"
-      - 14.29.124.168:25220
-      - +HK_38004+@WangCai_1+13
-      - +US_38501+@WangCai_1+13
-      - +TH_38605+@WangCai_1+17
-      - (资源分享师)🇨🇳zg++6
-      - (资源分享师)🇨🇳zg++11
-      - (资源分享师)🇨🇳zg++7
-      - CN_477(资源分享师)
-      - Youtube/ONE·资源核 5
-      - (资源分享师)🇨🇳zg++3
-      - 14.29.124.168:25294
-      - (资源分享师)🇨🇳zg++2
-      - CN_463
-      - CN_447
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - +JP_38304+@WangCai_1+9
-      - 38.114.114.19:6379
-      - (资源分享师)🇨🇳zg++15
-      - +HK_38010+@WangCai_1+9
-      - YouTube阿伟科技 13
-      - +TW_38104+@WangCai_1+2
-      - +TH_38605+@WangCai_1+19
-      - +TH_38605+@WangCai_1+20
-      - +KR_38402+@WangCai_1+13
-      - Relay_🇺🇦UA-🇺🇦UA_1769
-      - +US_38503+@WangCai_1+3
-      - Youtube/ONE·资源核 6
-      - +TW_38101+@WangCai_1+2
-      - +KR_38401+@WangCai_1+21
-      - +JP_38304+@WangCai_1
-      - +KR_38401+@WangCai_1+16
-      - +KR_38401+@WangCai_1+8
-      - +AR_38611+@WangCai_1+22
-      - US_172 TG@peekfun
-      - +HK_38004+@WangCai_1+8
-      - +US_38503+@WangCai_1+8
-      - US_38503+@WangCai_1
-      - KR_38401+@WangCai_1
-      - +HK_38009+@WangCai_1+17
-      - +HK_38001+@WangCai_1
-      - (资源分享师)🇨🇳zg++16
-      - +PH_38603+@WangCai_1+18
-      - US_141+TG@peekfun
-      - +TW_38102+@WangCai_1+6
-      - +TW_38101+@WangCai_1+3
-      - +DE_38607+@WangCai_1+20
-      - +HK_38005+@WangCai_1+21
-      - +TW_38102+@WangCai_1+3
-      - 科技网络 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - +KR_38402+@WangCai_1+19
-      - +TW_38105+@WangCai_1+19
-      - _PL_波兰 12
-      - +JP_38304+@WangCai_1+17
-      - +TW_38103+@WangCai_1+13
-      - +US_38501+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_302
-      - GB_907
-      - +TW_38104+@WangCai_1+8
-      - +US_38504+@WangCai_1+21
-      - +TW_38103+@WangCai_1+18
-      - TW_38103+@WangCai_1
-      - +FR_38609+@WangCai_1+2
-      - +JP_38303+@WangCai_1+2
-      - 印度184-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - +HK_38001+@WangCai_1+21
-      - +JP_38301+@WangCai_1
-      - +JP_38301+@WangCai_1+6
-      - +JP_38301+@WangCai_1+20
-      - +TH_38605+@WangCai_1
-      - +KR_38402+@WangCai_1+20
-      - +TW_38105+@WangCai_1+21
-      - github.com/freefq - 美国CloudFlare节点 22
-      - +US_38502+@WangCai_1
-      - +TW_38103+@WangCai_1+12
-      - +KR_38402+@WangCai_1
-      - +US_38503+@WangCai_1+19
-      - github.com/freefq - 北美地区  12
-      - +US_38501+@WangCai_1+19
-      - +JP_38301+@WangCai_1+2
-      - +JP_38304+@WangCai_1+6
-      - +FR_38609+@WangCai_1+19
-      - +HK_38010+@WangCai_1
-      - +TW_38104+@WangCai_1+7
-      - +TW_38103+@WangCai_1+6
-      - _GB_英国 9
-      - +JP_38301+@WangCai_1+8
-      - +HK_38008+@WangCai_1+17
-      - +TW_38101+@WangCai_1+18
-      - +DE_38607+@WangCai_1+13
-      - +TW_38101+@WangCai_1+17
-      - +JP_38304+@WangCai_1+8
-      - +JP_38305+@WangCai_1
-      - +TW_38104+@WangCai_1+19
-      - +TW_38103+@WangCai_1+16
-      - +SG_38203+@WangCai_1+20
-      - +US_38504+@WangCai_1+2
-      - +FR_38609+@WangCai_1+13
-      - JP_38304+@WangCai_1
-      - +JP_38305+@WangCai_1+20
-      - 科技网络 7
-      - +JP_38301+@WangCai_1+17
-      - +US_38503+@WangCai_1+13
-      - +TW_38103+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_192
-      - 美国（TG@阿伟科技/油管） 15
-      - +TW_38103+@WangCai_1+8
-      - +JP_38301+@WangCai_1+19
-      - +KR_38402+@WangCai_1+3
-      - 科技网络 8
-      - +JP_38305+@WangCai_1+17
-      - +JP_38304+@WangCai_1+4
-      - +US_38502+@WangCai_1+22
-      - 印度184-35 联通14.07 节点更新 https://bit.ly/36b6iJh
-      - +HK_38004+@WangCai_1+12
-      - TW_38102+@WangCai_1
-      - +TH_38605+@WangCai_1+16
-      - 美国【YouTube由零开始】 16
-      - +TW_38102+@WangCai_1+16
-      - +TW_38101+@WangCai_1+16
-      - +HK_38003+@WangCai_1+16
-      - +FR_38609+@WangCai_1+16
-      - +TW_38102+@WangCai_1+8
-      - +SG_38204+@WangCai_1+20
-      - +DE_38607+@WangCai_1+2
-      - +US_38501+@WangCai_1+2
-      - +US_38504+@WangCai_1+19
-      - github.com/freefq - 广东省广州市黄埔区珠江宽频 14
-      - +SG_38204+@WangCai_1+14
-      - JP_38305+@WangCai_1
-      - +TH_38605+@WangCai_1+8
-      - +US_38504+@WangCai_1+16
-      - +DE_38607+@WangCai_1+16
-      - github.com/freefq - 广东省深圳市腾讯云 16
-      - +JP_38304+@WangCai_1+13
-      - +TW_38103+@WangCai_1+2
-      - +SG_38203+@WangCai_1+12
-      - +TW_38104+@WangCai_1+5
-      - TW_38105+@WangCai_1
-      - +US_38502+@WangCai_1+19
-      - +US_38502+@WangCai_1+2
-      - +US_38503+@WangCai_1+17
-      - +US_38502+@WangCai_1+21
-      - +SG_38203+@WangCai_1+16
-      - +DE_38607+@WangCai_1+17
-      - +SG_38203+@WangCai_1
-      - +HK_38005+@WangCai_1+4
-      - 乌克兰【YouTube由零开始】
-      - +TW_38102+@WangCai_1+5
-      - +PH_38603+@WangCai_1+14
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 美国（TG@阿伟科技/油管） 5
+      - 高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 科技网络 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - YouTube@阿阳AYANG 4
+      - _AU_澳大利亚
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - 俄罗斯（TG@阿伟科技/油管）
+      - _CH_瑞士 3
+      - 新加坡 【由零开始YouTube】
+      - 美国（TG@阿伟科技/油管） 6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 台湾（TG@阿伟科技/油管） 6
+      - 新加坡（TG@阿伟科技/油管） 6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 11
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港【YouTube由零开始】
       - 香港（TG@阿伟科技/油管）
-      - 台湾（TG@阿伟科技/油管）
-      - 香港煎酿三宝 04
-      - 台湾（TG@阿伟科技/油管） 2
-      - 香港杨枝甘露 03-D
-      - 台湾-04_15
-      - 台湾-01_12
-      - 台湾（TG@阿伟科技/油管） 3
-      - 香港（TG@阿伟科技/油管） 2
-      - 台湾-02_13
       - 香港煎酿三宝 04-D
-      - 香港（TG@阿伟科技/油管） 3
-      - 香港咖喱鱼蛋 01-D
+      - 香港杨枝甘露 03-D
+      - 台湾（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管） 2
+      - 香港（TG@阿伟科技/油管） 2
+      - 台湾（TG@阿伟科技/油管） 3
       - 台湾（TG@阿伟科技/油管） 4
-      - _HK_香港
-      - 香港（TG@阿伟科技/油管） 4
+      - 香港（TG@阿伟科技/油管） 3
       - 台湾（TG@阿伟科技/油管） 5
-      - github.com/freefq - 台湾省中华电信 7
-      - 香港（TG@阿伟科技/油管） 14
+      - 香港（TG@阿伟科技/油管） 4
       - 香港（TG@阿伟科技/油管） 5
       - 台湾（TG@阿伟科技/油管） 6
-      - 香港杨枝甘露 03
-      - 香港（TG@阿伟科技/油管） 6
-      - 香港（TG@阿伟科技/油管） 7
-      - 香港（TG@阿伟科技/油管） 20
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 梦歌|BGP中转|解锁流媒体_57
-      - cucu-aa.txwd.xyz:50007
-      - 梦歌|BGP中转|解锁流媒体_106
-      - 梦歌|BGP中转|解锁流媒体_105
-      - 梦歌|BGP中转|解锁流媒体_41
-      - 梦歌|BGP中转|解锁流媒体_212
-      - 梦歌|BGP中转|解锁流媒体_73
-      - ♥️YouTube梦歌♥️_53
-      - 梦歌|BGP中转|解锁流媒体_68
-      - 香港【YouTube由零开始】
-      - 香港（TG@阿伟科技/油管）
-      - Ytb:鹏哥分享_美国_90
-      - 梦歌|BGP中转|解锁流媒体_55
-      - 梦歌|BGP中转|解锁流媒体_270
-      - 梦歌|BGP中转|解锁流媒体_77
-      - 梦歌|BGP中转|解锁流媒体_5
-      - cmcm-a.txwd.xyz:50222
-      - 梦歌|BGP中转|解锁流媒体_301
-      - 台湾（TG@阿伟科技/油管）
+      - 梦歌|BGP中转|解锁Netflix_6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
       - 日本（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_51
-      - 香港煎酿三宝 04
-      - 新加坡（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_19
-      - 梦歌|BGP中转|解锁流媒体_32
-      - 梦歌|BGP中转|解锁流媒体_127
-      - 新加坡（TG@阿伟科技/油管） 2
-      - 梦歌|BGP中转|解锁流媒体_34
-      - 梦歌|BGP中转|解锁流媒体_88
-      - 台湾（TG@阿伟科技/油管） 2
-      - 香港杨枝甘露 03-D
-      - 台湾-04_15
-      - 台湾-01_12
-      - 梦歌|BGP中转|解锁流媒体_24
-      - 日本（TG@阿伟科技/油管） 2
-      - 梦歌|BGP中转|解锁流媒体_125
-      - 梦歌|BGP中转|解锁流媒体_44
-      - 梦歌|BGP中转|解锁流媒体_65
-      - 梦歌|BGP中转|解锁流媒体_45
-      - ♥️YouTube梦歌♥️_56
-      - 梦歌|BGP中转|解锁流媒体_81
-      - 台湾（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_12
-      - Relay_🇺🇸US-🇺🇸US_3771
-      - +HK_38003+@WangCai_1+8
-      - 梦歌|BGP中转|解锁流媒体_4
-      - 新加坡 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_30
-      - 香港（TG@阿伟科技/油管） 2
-      - 台湾-02_13
-      - 梦歌|BGP中转|解锁流媒体_25
-      - 梦歌|BGP中转|解锁流媒体_8
-      - 印度（TG@阿伟科技/油管）
-      - YouTube阿伟科技 5
-      - Relay_🇨🇳CN-🇷🇴RO_478
-      - 日本（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_15
-      - +HK_38007+@WangCai_1+13
-      - 梦歌|BGP中转|解锁流媒体_50
-      - (资源分享师)🇨🇳zg++14
-      - 梦歌|BGP中转|解锁流媒体_53
-      - 梦歌|BGP中转|解锁流媒体_49
-      - YouTube阿伟科技 4
-      - +HK_38007+@WangCai_1+3
-      - +JP_38305+@WangCai_1+3
-      - 梦歌|BGP中转|解锁流媒体_2
-      - 美国 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_74
-      - 梦歌|BGP中转|解锁流媒体_174
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_157
-      - ♥️YouTube梦歌♥️_10
-      - 梦歌|BGP中转|解锁流媒体_256
-      - YouTube阿伟科技
+      - 梦歌|BGP中转|解锁Netflix_26
+      - TG:YouTubeAYANG科技大师
+      - 梦歌|BGP中转|解锁Netflix_46
+      - 梦歌|BGP中转|解锁Netflix_7
+      - 日本1丨筋斗云丨Weoworks提供
+      - 香港（TG@阿伟科技/油管）
       - 香港煎酿三宝 04-D
-      - 香港（TG@阿伟科技/油管） 3
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - PH_38603+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_33
-      - 梦歌|BGP中转|解锁流媒体_147
-      - 梦歌|BGP中转|解锁流媒体_86
-      - 梦歌|BGP中转|解锁流媒体_26
-      - 梦歌|BGP中转|解锁流媒体_150
-      - 美国（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_17
-      - 梦歌|BGP中转|解锁流媒体_35
-      - YouTube阿伟科技 2
-      - 梦歌|BGP中转|解锁流媒体_43
-      - ♥️YouTube梦歌♥️_120
-      - aaa-666.txwd.xyz:60017
-      - 梦歌|BGP中转|解锁流媒体_63
-      - YouTube阿伟科技 3
-      - ♥️YouTube梦歌♥️_165
-      - +PH_38603+@WangCai_1+3
-      - Relay_🇨🇳CN-🇺🇸US_480
-      - 梦歌|BGP中转|解锁流媒体_76
-      - +HK_38007+@WangCai_1+17
-      - Ytb:鹏哥分享_中国_67
-      - 梦歌|BGP中转|解锁流媒体_62
-      - 梦歌|BGP中转|解锁流媒体_92
-      - +JP_38304+@WangCai_1+19
-      - 香港咖喱鱼蛋 01-D
-      - 中国 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_42
-      - 印度【YouTube由零开始】
-      - aaa-666.txwd.xyz:60006
-      - 台湾（TG@阿伟科技/油管） 4
-      - 梦歌|BGP中转|解锁流媒体_182
-      - 美国（TG@阿伟科技/油管） 2
-      - 新加坡（TG@阿伟科技/油管） 4
-      - 梦歌|BGP中转|解锁流媒体_84
-      - +HK_38006+@WangCai_1+2
-      - 节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_58
-      - +SG_38201+@WangCai_1+3
-      - _HK_香港
-      - +US_38501+@WangCai_1+22
-      - (资源分享师)SSR+7
-      - +HK_38006+@WangCai_1+20
-      - 香港（TG@阿伟科技/油管） 4
-      - 台湾（TG@阿伟科技/油管） 5
-      - Youtue/ONE·资源核
-      - _US_美国
-      - USA IEPL.A/03 x1.0
-      - github.com/freefq - 美国CloudFlare节点 28
-      - 印度【YouTube由零开始】 2
-      - _US_美国 2
-      - 马恩岛（TG@阿伟科技/油管）
-      - Relay_🇨🇳CN-🇺🇸US_499
-      - 科技网络
-      - b-mc.txwd.xyz:50055
-      - Youtue/ONE·资源核 2
-      - US_118+TG@peekfun
-      - Youtue/ONE·资源核 3
-      - 梦歌|BGP中转|解锁流媒体_20
-      - Relay_🇺🇸US-🇺🇸US_3743
-      - 梦歌|BGP中转|解锁流媒体_129
-      - 法国-节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_143
-      - _US_美国 3
-      - _US_美国 4
-      - Youtue/ONE·资源核 4
-      - 梦歌|BGP中转|解锁流媒体_38
-      - +HK_38004+@WangCai_1+3
-      - 美国（TG@阿伟科技/油管） 3
-      - Youtue/ONE·资源核 5
-      - 167.88.61.70:8119
-      - YouTube阿伟科技 6
-      - 梦歌|BGP中转|解锁流媒体_323
-      - Youtue/ONE·资源核 6
-      - github.com/freefq - 台湾省中华电信 7
-      - 167.88.61.70:8882
-      - Youtue/ONE·资源核 7
-      - AU_149
-      - 印度【YouTube由零开始】 3
-      - +JP_38301+@WangCai_1+13
-      - 167.88.61.70:8008
-      - KR_364
-      - US_109+TG@peekfun
-      - +HK_38006+@WangCai_1+19
-      - 印度【YouTube由零开始】 4
-      - 梦歌|BGP中转|解锁流媒体_16
-      - youtube阿伟科技
-      - _US_美国 5
-      - 科技网络 2
-      - _US_美国 6
-      - _US_美国 7
-      - US_119+TG@peekfun
-      - 美国（TG@阿伟科技/油管） 4
-      - 美国（TG@阿伟科技/油管） 5
-      - 167.88.61.70:2376
-      - github.com/freefq - 澳大利亚  47
-      - Youtue/ONE·资源核 8
-      - 直连-日本T-A 2_vmess_ws
-      - 俄罗斯（TG@阿伟科技/油管）
-      - _US_美国 8
-      - 香港（TG@阿伟科技/油管） 14
-      - 英国（TG@阿伟科技/油管）
-      - _US_美国 9
-      - +HK_38008+@WangCai_1+3
-      - Youtube/ONE·资源核
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - 美国（TG@阿伟科技/油管） 6
-      - +TH_38605+@WangCai_1+14
-      - YouTube阿伟科技 7
-      - 美国（TG@阿伟科技/油管） 18
-      - _US_美国 14
-      - _US_美国 15
-      - USA CM.C/01 x0.3
-      - Relay_🇺🇸US-🇺🇸US_81
-      - 中国【YouTube由零开始】
-      - 梦歌|BGP中转|解锁流媒体_205
-      - Relay_🇺🇸US-🇺🇸US_113
-      - USA IEPL.A/02 x1.0
-      - Youtue/ONE·资源核 9
-      - 梦歌|BGP中转|解锁流媒体_136
-      - 美国_节点更新 https://bit.ly/36b6iJh_68
-      - _US_美国 16
-      - US_147+TG@peekfun
-      - Youtue/ONE·资源核 10
-      - Youtue/ONE·资源核 11
-      - 节点更新 https://bit.ly/36b6iJh 2
-      - +HK_38001+@WangCai_1+16
-      - Relay_🇺🇸US-🇺🇸US_111
-      - 167.88.61.70:6679
-      - US_162 TG@peekfun
-      - 美国（TG@阿伟科技/油管） 7
-      - 印度（TG@阿伟科技/油管） 2
-      - 美国【YouTube由零开始】
-      - _US_美国 17
-      - 印度184-37 联通11.95 节点更新 https://bit.ly/36b6iJh
-      - US_107+TG@peekfun
-      - 美国（TG@阿伟科技/油管） 8
-      - _US_美国 18
-      - US_143+TG@peekfun
-      - 美国【YouTube由零开始】 2
-      - ♥️YouTube梦歌♥️_31
-      - Youtue/ONE·资源核 12
-      - +US_38504+@WangCai_1+20
-      - YouTube阿伟科技 8
-      - 香港（TG@阿伟科技/油管） 5
-      - Relay_🇯🇵JP-🇯🇵JP_1094
-      - NL_1405
-      - 梦歌|BGP中转|解锁流媒体_340
-      - Youtue/ONE·资源核 13
-      - ZZ_4745
-      - 美国（TG@阿伟科技/油管） 9
-      - +VN_38601+@WangCai_1+16
-      - 澳大利亚（TG@阿伟科技/油管）
-      - +HK_38006+@WangCai_1+18
-      - 梦歌|BGP中转|解锁流媒体_135
-      - 美国【YouTube由零开始】 3
-      - 梦歌|BGP中转|解锁流媒体_27
-      - _US_美国 19
-      - 卢森堡（TG@阿伟科技/油管）
-      - US_114+TG@peekfun
-      - _US_美国 20
-      - 美国（TG@阿伟科技/油管） 10
-      - _US_美国 21
-      - ZZ_4676
-      - NL_67+TG@peekfun
-      - +HK_38007+@WangCai_1+21
-      - 印度184-12@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _US_美国 22
-      - US_131+TG@peekfun
-      - US_140+TG@peekfun
-      - 梦歌|BGP中转|解锁流媒体_289
-      - ZZ_180+TG@peekfun
-      - 印度【YouTube由零开始】 5
-      - _US_美国 23
-      - US_108+TG@peekfun
-      - Relay_🇺🇸US-🇺🇸US_117
-      - _US_美国 24
-      - 美国（TG@阿伟科技/油管） 11
-      - ♥️YouTube梦歌♥️_194
-      - ZZ_4661
-      - NL_1391
-      - +HK_38006+@WangCai_1+9
-      - YouTube阿伟科技 9
-      - US_111+TG@peekfun
+      - 新加坡（TG@阿伟科技/油管）
+      - KR-高速节点购买：v1.mk/vip（浏览器打开）
+      - TG:YouTubeAYANG科技大师 2
+      - KR-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港杨枝甘露 03-D
+      - 新加坡（TG@阿伟科技/油管） 2
+      - 澳大利亚丨筋斗云丨Weoworks提供
+      - US_3348
       - 英国【YouTube由零开始】
-      - 德国【YouTube由零开始】
-      - _US_美国 25
-      - _GB_英国
-      - 德国（TG@阿伟科技/油管）
-      - ZZ_4477
-      - 美国（TG@阿伟科技/油管） 12
-      - +HK_38006+@WangCai_1+13
-      - 德国【YouTube由零开始】 2
-      - 印度184-27@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _PL_波兰
-      - 梦歌|BGP中转|解锁流媒体_169
-      - +JP_38305+@WangCai_1+16
-      - ♥️YouTube梦歌♥️_27
-      - 印度184-17@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 美国【YouTube由零开始】 4
-      - Youtue/ONE·资源核 10 2
-      - NL_1418
-      - 英国【YouTube由零开始】 2
-      - Ytb:鹏哥分享_英国_32
-      - 印度184-11@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _US_美国 26
-      - Youtue/ONE·资源核 14
-      - +HK_38009+@WangCai_1+12
-      - ♥️YouTube梦歌♥️_24
-      - NL_1423
-      - Youtue/ONE·资源核 15
-      - Youtue/ONE·资源核 16
-      - ♥️YouTube梦歌♥️_37
-      - Youtue/ONE·资源核 17
-      - ♥️YouTube梦歌♥️_33
-      - 美国（TG@阿伟科技/油管） 13
-      - Youtue/ONE·资源核 18
-      - Ytb:鹏哥分享_30
-      - 梦歌|BGP中转|解锁流媒体_39
-      - github.com/freefq - 美国  53
-      - _GB_英国 2
-      - 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_94
-      - ♥️YouTube梦歌♥️_41
-      - YouTube阿伟科技 10
-      - Youtue/ONE·资源核 14 2
-      - Youtube/ONE·资源核 2
-      - 德国【YouTube由零开始】 3
-      - ZZ_179+TG@peekfun
-      - 英国【YouTube由零开始】 3
-      - _US_美国 27
-      - b-mc.txwd.xyz:50051
-      - 荷兰节点更新 https://bit.ly/36b6iJh-clone
-      - 英国【YouTube由零开始】 4
-      - _GB_英国 3
-      - 美国【YouTube由零开始】 5
-      - github.com/freefq - 美国Microsoft数据中心 23
-      - _GB_英国 4
-      - _GB_英国 5
-      - _GB_英国 6
-      - +HK_38009+@WangCai_1
-      - 美国（TG@阿伟科技/油管） 14
-      - 印度184-4 联通100M+4K -2 节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 5
-      - 美国【YouTube由零开始】 6
-      - _DE_德国
-      - 澳大利亚（TG@阿伟科技/油管） 2
-      - +HK_38004+@WangCai_1+20
-      - _PL_波兰 2
-      - _PL_波兰 3
-      - _PL_波兰 4
-      - US_150+TG@peekfun
-      - YouTube阿伟科技 11
-      - 美国【YouTube由零开始】 7
-      - 德国【YouTube由零开始】 4
-      - "@SSRSUB-俄罗斯V04-付费推荐:dlj.tf/ssrsub"
-      - US_133+TG@peekfun
-      - 加拿大【YouTube由零开始】
-      - +HK_38010+@WangCai_1+20
+      - 台湾（TG@阿伟科技/油管）
+      - SG-高速节点购买：v1.mk/vip（浏览器打开）
+      - 梦歌|BGP中转|解锁Netflix_8
+      - TW-高速节点购买：v1.mk/vip（浏览器打开）
+      - US_3062
+      - 台湾（TG@阿伟科技/油管） 2
+      - 高速节点购买：v1.mk/vip（浏览器打开）
+      - 科技网络
+      - 日本（TG@阿伟科技/油管） 2
+      - 高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港（TG@阿伟科技/油管） 2
+      - HK-高速节点购买：v1.mk/vip（浏览器打开）
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - YouTube@阿阳AYANG
+      - 新加坡（TG@阿伟科技/油管） 3
+      - YouTube@阿阳AYANG 2
+      - 台湾（TG@阿伟科技/油管） 3
+      - 新加坡（TG@阿伟科技/油管） 4
       - 荷兰（TG@阿伟科技/油管）
-      - 加拿大【YouTube由零开始】 2
-      - 加拿大【YouTube由零开始】 3
-      - 印度184-18@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-32 联通28.64m 节点更新 https://bit.ly/36b6iJh
-      - _PL_波兰 5
-      - 104.17.177.116
-      - 印度184-20@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 德国【YouTube由零开始】 5
-      - 梦歌|BGP中转|解锁流媒体_116
-      - _PL_波兰 6
-      - _PL_波兰 7
-      - +HK_38010+@WangCai_1+12
-      - 梦歌|BGP中转|解锁流媒体_69
-      - _PL_波兰 8
-      - HK_38009+@WangCai_1
-      - _GB_英国 7
-      - 英国【YouTube由零开始】 6
-      - +HK_38010+@WangCai_1+18
-      - +DE_38607+@WangCai_1
-      - 印度184-23@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-24@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 7
-      - 梦歌|BGP中转|解锁流媒体_277
-      - 梦歌|BGP中转|解锁流媒体_300
-      - _PL_波兰 9
-      - 荷兰（TG@阿伟科技/油管） 2
-      - +HK_38008+@WangCai_1+14
-      - 加拿大（TG@阿伟科技/油管）
-      - github.com/freefq - 美国CloudFlare节点 64
-      - _NL_荷兰
-      - 印度184-34 联通14.9 节点更新 https://bit.ly/36b6iJh
-      - 印度184-39 联通11.11 节点更新 https://bit.ly/36b6iJh
-      - +HK_38001+@WangCai_1+3
-      - +HK_38006+@WangCai_1+8
-      - 梦歌|BGP中转|解锁流媒体_271
-      - 科技网络 3
-      - _NL_荷兰 2
-      - github.com/freefq - 美国CloudFlare公司CDN节点 20
-      - _NL_荷兰 3
-      - 美国【YouTube由零开始】 8
-      - YouTube阿伟科技 12
-      - AU_04 TG@peekfun
-      - _NL_荷兰 4
-      - _GB_英国 8
-      - 英国【YouTube由零开始】 8
-      - 印度184-10@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 台湾（TG@阿伟科技/油管） 6
-      - 印度184-38 联通11.55 节点更新 https://bit.ly/36b6iJh
-      - 美国【YouTube由零开始】 9
-      - +HK_38009+@WangCai_1+3
-      - Youtube/ONE·资源核 3
-      - +TW_38103+@WangCai_1+20
-      - 印度184-28@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +HK_38009+@WangCai_1+13
-      - 印度184-8@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 9
-      - _AU_澳大利亚
-      - github.com/freefq - 美国  29
-      - +JP_38303+@WangCai_1+3
-      - 土耳其（TG@阿伟科技/油管）
-      - _PL_波兰 10
-      - +HK_38009+@WangCai_1+18
-      - 日本（TG@阿伟科技/油管
-      - +HK_38002+@WangCai_1
-      - Relay_🇨🇳CN-🇺🇸US_502
-      - +HK_38005+@WangCai_1+18
-      - +HK_38008+@WangCai_1+4
-      - 印度184-15@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 172.104.157.118:5003
-      - 梦歌|BGP中转|解锁流媒体_79
-      - 梦歌|BGP中转|解锁流媒体_28
-      - 香港杨枝甘露 03
-      - 香港（TG@阿伟科技/油管） 6
-      - 香港（TG@阿伟科技/油管） 7
-      - 西美高速2
-      - +HK_38009+@WangCai_1+16
-      - +TW_38102+@WangCai_1+20
-      - +TH_38605+@WangCai_1+3
-      - 印度184-36 联通12.71 节点更新 https://bit.ly/36b6iJh
-      - +HK_38006+@WangCai_1+16
-      - Youtue/ONE·资源核 19
-      - +HK_38003+@WangCai_1+13
-      - Relay_🇦🇺AU-🇦🇺AU_155
-      - Relay_🇨🇳CN-🇺🇸US_505
-      - 科技网络 4
-      - +DE_38607+@WangCai_1+3
-      - +HK_38003+@WangCai_1+9
-      - +PH_38603+@WangCai_1+5
-      - Relay_🇨🇳CN-🇺🇸US_493
-      - Relay_🇨🇳CN-🇨🇦CA_472
-      - Youtue/ONE·资源核 20
-      - +TW_38104+@WangCai_1+3
-      - Relay_🇨🇳CN-🇯🇵JP_526
-      - +HK_38004+@WangCai_1+16
-      - +HK_38009+@WangCai_1+4
-      - +TH_38605+@WangCai_1+2
-      - +HK_38007+@WangCai_1+5
-      - github.com/freefq - 美国3COM公司企业网 51
-      - Youtue/ONE·资源核 21
-      - Youtue/ONE·资源核 22
-      - +HK_38010+@WangCai_1+19
-      - 香港（TG@阿伟科技/油管） 20
-      - 印度184-16@1Gbps节点更新 https://bit.ly/36b6iJh
-      - Relay_🇦🇺AU-🇦🇺AU_10
-      - 印度184-9@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh
-      - Youtue/ONE·资源核 23
-      - +HK_38010+@WangCai_1+5
-      - Youtue/ONE·资源核 46
-      - 欢迎订阅钱科技0429_🇯🇵_JP_日本_20
-      - 美国【YouTube由零开始】 10
-      - +HK_38009+@WangCai_1+19
-      - +HK_38001+@WangCai_1+2
-      - 德国【YouTube由零开始】 6
-      - +HK_38007+@WangCai_1+8
-      - GB_911
-      - +HK_38005+@WangCai_1
-      - +TW_38103+@WangCai_1+3
-      - +HK_38002+@WangCai_1+8
-      - +HK_38005+@WangCai_1+16
-      - HK_38006+@WangCai_1
-      - +US_38501+@WangCai_1+9
-      - github.com/freefq - 美国  31
-      - _US_美国 28
-      - 梦歌|BGP中转|解锁流媒体_7
-      - +HK_38006+@WangCai_1+17
-      - 加拿大【YouTube由零开始】 4
-      - +SG_38204+@WangCai_1+21
-      - 印度184-21联通100M+4K   节点更新 https://bit.ly/36b6iJh
-      - 印度184-19@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 德国【YouTube由零开始】 7
-      - _JP_日本
-      - NL_673
-      - +HK_38008+@WangCai_1+21
-      - 美国【YouTube由零开始】 11
-      - +HK_38002+@WangCai_1+2
-      - +US_38502+@WangCai_1+4
-      - 印度184-29@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _JP_日本 2
-      - _JP_日本 3
-      - 南非（TG@阿伟科技/油管）
-      - _US_美国 29
-      - +HK_38007+@WangCai_1
-      - 科技网络 5
-      - US_103+TG@peekfun
-      - +HK_38010+@WangCai_1+17
-      - Relay_🇺🇸US-🇺🇸US_3866
-      - 印度【YouTube由零开始】 6
-      - +JP_38304+@WangCai_1+21
-      - +HK_38003+@WangCai_1+19
-      - +JP_38304+@WangCai_1+2
-      - US_97+TG@peekfun
-      - +US_38503+@WangCai_1+18
-      - +TW_38101+@WangCai_1+4
-      - HK_38009+@WangCai_1 2
-      - 印度184-40 联通10.26 节点更新 https://bit.ly/36b6iJh
-      - _SG_新加坡
-      - Youtue/ONE·资源核 24
-      - +HK_38007+@WangCai_1+2
-      - 美国【YouTube由零开始】 12
-      - HK_38004+@WangCai_1
-      - +HK_38006+@WangCai_1+14
-      - +HK_38001+@WangCai_1+17
-      - +HK_38008+@WangCai_1+16
-      - +HK_38005+@WangCai_1+13
-      - Relay_🇨🇳CN-🇯🇵JP_481
-      - Youtue/ONE·资源核 25
-      - +HK_38007+@WangCai_1+16
-      - +TW_38103+@WangCai_1+19
-      - +HK_38002+@WangCai_1+17
-      - +HK_38002+@WangCai_1+20
-      - 美国【YouTube由零开始】 13
-      - +HK_38004+@WangCai_1+21
-      - 梦歌|BGP中转|解锁流媒体_279
-      - +PH_38603+@WangCai_1+6
-      - _PL_波兰 11
-      - +HK_38002+@WangCai_1+16
-      - Youtue/ONE·资源核 26
-      - +HK_38009+@WangCai_1+8
-      - +HK_38001+@WangCai_1+18
-      - +HK_38008+@WangCai_1+8
-      - +HK_38001+@WangCai_1+6
-      - +HK_38002+@WangCai_1+4
-      - +TH_38605+@WangCai_1+13
-      - +KR_38401+@WangCai_1+4
-      - +TW_38102+@WangCai_1+2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - +TW_38104+@WangCai_1+17
-      - Relay_🇨🇳CN-🇺🇸US_506
-      - 印度184-13@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +FR_38609+@WangCai_1+3
-      - 欢迎订阅钱科技0429_🇺🇸_US_美国_33
-      - 加拿大【YouTube由零开始】 5
-      - +HK_38005+@WangCai_1+12
-      - +SG_38203+@WangCai_1+3
-      - 印度184-26@1Gbps节点更新 https://bit.ly/36b6iJh
-      - US_112+TG@peekfun
-      - 新加坡【YouTube由零开始】
-      - +US_38502+@WangCai_1+13
-      - +KR_38402+@WangCai_1+8
-      - 印度184-14@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-7@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +HK_38009+@WangCai_1+14
-      - Youtue/ONE·资源核 27
-      - 英国【YouTube由零开始】 10
-      - +HK_38006+@WangCai_1+3
-      - TH_38605+@WangCai_1
-      - +HK_38010+@WangCai_1+8
-      - US_126+TG@peekfun
-      - _US_美国 30
-      - US_128+TG@peekfun
-      - +HK_38010+@WangCai_1+13
-      - +TW_38104+@WangCai_1+13
-      - _US_美国 31
-      - HK_38003+@WangCai_1
-      - +KR_38401+@WangCai_1
-      - +TW_38101+@WangCai_1+13
-      - +PH_38603+@WangCai_1+2
+      - 韩国丨筋斗云丨Weoworks提供
+      - 台湾（TG@阿伟科技/油管） 4
+      - 节点更新 https://bit.ly/36b6iJh
+      - Ytb:鹏哥分享_印度_33
+      - GB-高速节点购买：v1.mk/vip（浏览器打开）
+      - 美国（TG@阿伟科技/油管）
+      - NL-高速节点购买：v1.mk/vip（浏览器打开）
+      - TG:YouTubeAYANG科技大师 3
+      - Ytb:鹏哥分享_韩国_9
+      - 梦歌|BGP中转|解锁Netflix_31
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 日本（TG@阿伟科技/油管） 3
+      - DE_653
+      - _DE_德国
+      - 香港（TG@阿伟科技/油管） 3
+      - YouTube@阿阳AYANG 3
+      - 高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 台湾（TG@阿伟科技/油管） 5
+      - _DE_德国 2
+      - 梦歌|BGP中转|解锁Netflix_17
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 日本2丨筋斗云丨Weoworks提供
+      - Ytb:鹏哥分享_新加坡_105
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 梦歌|BGP中转|解锁Netflix_3
+      - Ytb:鹏哥分享_31
+      - 梦歌|BGP中转|解锁Netflix_5
+      - Relay_🇨🇦CA-🇨🇦CA_425
+      - TG:YouTubeAYANG科技大师 4
+      - US_3082
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 梦歌|BGP中转|解锁Netflix_44
+      - 梦歌|BGP中转|解锁Netflix_48
+      - _CH_瑞士
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - Youtue/ONE·资源核
+      - _CH_瑞士 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 新加坡（TG@阿伟科技/油管） 5
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - _DE_德国 3
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - 印度丨筋斗云丨Weoworks提供
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - AU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 梦歌|BGP中转|解锁Netflix_42
+      - DE_662
+      - Ytb:鹏哥分享_英国_17
+      - IN-高速节点购买：v1.mk/vip（浏览器打开）
+      - 英国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管） 2
+      - 印度（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 4
+      - "@SSRSUB-V07-付费推荐:suo.yt/ssrsub"
       - 韩国（TG@阿伟科技/油管）
-      - +HK_38002+@WangCai_1+21
-      - Youtue/ONE·资源核 28
-      - +HK_38008+@WangCai_1
-      - +HK_38010+@WangCai_1+6
-      - SG
-      - 印度184-3@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +US_38503+@WangCai_1+2
-      - +TW_38103+@WangCai_1+17
-      - +TW_38104+@WangCai_1+21
-      - +JP_38301+@WangCai_1+21
-      - +HK_38010+@WangCai_1+3
-      - Relay_🇨🇳CN-🇯🇵JP_522
-      - +TW_38105+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_521
-      - 加拿大【YouTube由零开始】 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - +SG_38204+@WangCai_1
-      - 新加坡 【由零开始YouTube】 2
-      - 欢迎订阅钱科技0429_🇫🇷_FR_法国_3
-      - +JP_38301+@WangCai_1+3
-      - (资源分享师)🇨🇳zg++21
-      - +US_38503+@WangCai_1+21
-      - +KR_38402+@WangCai_1+17
-      - +US_38503+@WangCai_1+7
-      - 韩国【YouTube由零开始】
-      - +HK_38003+@WangCai_1+21
-      - +HK_38003+@WangCai_1+17
-      - +US_38501+@WangCai_1+3
-      - _US_美国 32
-      - +SG_38204+@WangCai_1+18
-      - +SG_38204+@WangCai_1+8
-      - +HK_38002+@WangCai_1+14
-      - +KR_38401+@WangCai_1+2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - +SG_38203+@WangCai_1+8
-      - Ytb:鹏哥分享_新加坡_70
-      - 美国 【由零开始YouTube】 2
-      - 美国【YouTube由零开始】 14
-      - +JP_38305+@WangCai_1+21
-      - +HK_38010+@WangCai_1+16
-      - +TW_38105+@WangCai_1+2
-      - 印度184-33 联通15.02m  节点更新 https://bit.ly/36b6iJh
-      - +HK_38004+@WangCai_1+4
-      - +HK_38003+@WangCai_1
-      - 美国【YouTube由零开始】 15
-      - +US_38501+@WangCai_1+17
-      - +TW_38104+@WangCai_1+16
-      - +TH_38605+@WangCai_1+21
-      - +JP_38305+@WangCai_1+13
-      - +DE_38607+@WangCai_1+8
-      - +KR_38402+@WangCai_1+21
-      - +HK_38007+@WangCai_1+4
-      - +KR_38401+@WangCai_1+17
-      - +JP_38303+@WangCai_1+8
-      - +HK_38003+@WangCai_1+20
-      - +HK_38003+@WangCai_1+3
-      - +PH_38603+@WangCai_1+13
-      - Youtube/ONE·资源核 4
-      - 14.29.124.168:25256
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 美国2丨筋斗云丨Weoworks提供
+      - Ytb:鹏哥分享_中国_75
+      - 美国（TG@阿伟科技/油管） 3
+      - 梦歌|BGP中转|解锁Netflix_45
+      - _DE_德国 4
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - 【YouTube由零开始】
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 美国（TG@阿伟科技/油管） 4
+      - CZ-高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本（TG@阿伟科技/油管） 4
+      - 梦歌|BGP中转|解锁Netflix_47
+      - CZ-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港（TG@阿伟科技/油管） 5
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
       - "|20.89Mb"
-      - 14.29.124.168:25220
-      - +HK_38004+@WangCai_1+13
-      - +US_38501+@WangCai_1+13
-      - +TH_38605+@WangCai_1+17
-      - (资源分享师)🇨🇳zg++6
-      - (资源分享师)🇨🇳zg++11
-      - (资源分享师)🇨🇳zg++7
-      - CN_477(资源分享师)
-      - Youtube/ONE·资源核 5
-      - (资源分享师)🇨🇳zg++3
-      - 14.29.124.168:25294
-      - (资源分享师)🇨🇳zg++2
-      - CN_463
-      - CN_447
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - +JP_38304+@WangCai_1+9
-      - 38.114.114.19:6379
-      - (资源分享师)🇨🇳zg++15
-      - +HK_38010+@WangCai_1+9
-      - YouTube阿伟科技 13
-      - +TW_38104+@WangCai_1+2
-      - +TH_38605+@WangCai_1+19
-      - +TH_38605+@WangCai_1+20
-      - +KR_38402+@WangCai_1+13
-      - Relay_🇺🇦UA-🇺🇦UA_1769
-      - +US_38503+@WangCai_1+3
-      - Youtube/ONE·资源核 6
-      - +TW_38101+@WangCai_1+2
-      - +KR_38401+@WangCai_1+21
-      - +JP_38304+@WangCai_1
-      - +KR_38401+@WangCai_1+16
-      - +KR_38401+@WangCai_1+8
-      - +AR_38611+@WangCai_1+22
-      - US_172 TG@peekfun
-      - +HK_38004+@WangCai_1+8
-      - +US_38503+@WangCai_1+8
-      - US_38503+@WangCai_1
-      - KR_38401+@WangCai_1
-      - +HK_38009+@WangCai_1+17
-      - +HK_38001+@WangCai_1
-      - (资源分享师)🇨🇳zg++16
-      - +PH_38603+@WangCai_1+18
-      - US_141+TG@peekfun
-      - +TW_38102+@WangCai_1+6
-      - +TW_38101+@WangCai_1+3
-      - +DE_38607+@WangCai_1+20
-      - +HK_38005+@WangCai_1+21
-      - +TW_38102+@WangCai_1+3
-      - 科技网络 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - +KR_38402+@WangCai_1+19
-      - +TW_38105+@WangCai_1+19
-      - _PL_波兰 12
-      - +JP_38304+@WangCai_1+17
-      - +TW_38103+@WangCai_1+13
-      - +US_38501+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_302
-      - GB_907
-      - +TW_38104+@WangCai_1+8
-      - +US_38504+@WangCai_1+21
-      - +TW_38103+@WangCai_1+18
-      - TW_38103+@WangCai_1
-      - +FR_38609+@WangCai_1+2
-      - +JP_38303+@WangCai_1+2
-      - 印度184-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - +HK_38001+@WangCai_1+21
-      - +JP_38301+@WangCai_1
-      - +JP_38301+@WangCai_1+6
-      - +JP_38301+@WangCai_1+20
-      - +TH_38605+@WangCai_1
-      - +KR_38402+@WangCai_1+20
-      - +TW_38105+@WangCai_1+21
-      - github.com/freefq - 美国CloudFlare节点 22
-      - +US_38502+@WangCai_1
-      - +TW_38103+@WangCai_1+12
-      - +KR_38402+@WangCai_1
-      - +US_38503+@WangCai_1+19
-      - github.com/freefq - 北美地区  12
-      - +US_38501+@WangCai_1+19
-      - +JP_38301+@WangCai_1+2
-      - +JP_38304+@WangCai_1+6
-      - +FR_38609+@WangCai_1+19
-      - +HK_38010+@WangCai_1
-      - +TW_38104+@WangCai_1+7
-      - +TW_38103+@WangCai_1+6
-      - _GB_英国 9
-      - +JP_38301+@WangCai_1+8
-      - +HK_38008+@WangCai_1+17
-      - +TW_38101+@WangCai_1+18
-      - +DE_38607+@WangCai_1+13
-      - +TW_38101+@WangCai_1+17
-      - +JP_38304+@WangCai_1+8
-      - +JP_38305+@WangCai_1
-      - +TW_38104+@WangCai_1+19
-      - +TW_38103+@WangCai_1+16
-      - +SG_38203+@WangCai_1+20
-      - +US_38504+@WangCai_1+2
-      - +FR_38609+@WangCai_1+13
-      - JP_38304+@WangCai_1
-      - +JP_38305+@WangCai_1+20
-      - 科技网络 7
-      - +JP_38301+@WangCai_1+17
-      - +US_38503+@WangCai_1+13
-      - +TW_38103+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_192
-      - 美国（TG@阿伟科技/油管） 15
-      - +TW_38103+@WangCai_1+8
-      - +JP_38301+@WangCai_1+19
-      - +KR_38402+@WangCai_1+3
-      - 科技网络 8
-      - +JP_38305+@WangCai_1+17
-      - +JP_38304+@WangCai_1+4
-      - +US_38502+@WangCai_1+22
-      - 印度184-35 联通14.07 节点更新 https://bit.ly/36b6iJh
-      - +HK_38004+@WangCai_1+12
-      - TW_38102+@WangCai_1
-      - +TH_38605+@WangCai_1+16
-      - 美国【YouTube由零开始】 16
-      - +TW_38102+@WangCai_1+16
-      - +TW_38101+@WangCai_1+16
-      - +HK_38003+@WangCai_1+16
-      - +FR_38609+@WangCai_1+16
-      - +TW_38102+@WangCai_1+8
-      - +SG_38204+@WangCai_1+20
-      - +DE_38607+@WangCai_1+2
-      - +US_38501+@WangCai_1+2
-      - +US_38504+@WangCai_1+19
-      - github.com/freefq - 广东省广州市黄埔区珠江宽频 14
-      - +SG_38204+@WangCai_1+14
-      - JP_38305+@WangCai_1
-      - +TH_38605+@WangCai_1+8
-      - +US_38504+@WangCai_1+16
-      - +DE_38607+@WangCai_1+16
-      - github.com/freefq - 广东省深圳市腾讯云 16
-      - +JP_38304+@WangCai_1+13
-      - +TW_38103+@WangCai_1+2
-      - +SG_38203+@WangCai_1+12
-      - +TW_38104+@WangCai_1+5
-      - TW_38105+@WangCai_1
-      - +US_38502+@WangCai_1+19
-      - +US_38502+@WangCai_1+2
-      - +US_38503+@WangCai_1+17
-      - +US_38502+@WangCai_1+21
-      - +SG_38203+@WangCai_1+16
-      - +DE_38607+@WangCai_1+17
-      - +SG_38203+@WangCai_1
-      - +HK_38005+@WangCai_1+4
-      - 乌克兰【YouTube由零开始】
-      - +TW_38102+@WangCai_1+5
-      - +PH_38603+@WangCai_1+14
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 美国（TG@阿伟科技/油管） 5
+      - 高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 科技网络 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - YouTube@阿阳AYANG 4
+      - _AU_澳大利亚
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - 俄罗斯（TG@阿伟科技/油管）
+      - _CH_瑞士 3
+      - 新加坡 【由零开始YouTube】
+      - 美国（TG@阿伟科技/油管） 6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 台湾（TG@阿伟科技/油管） 6
+      - 新加坡（TG@阿伟科技/油管） 6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 11
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 梦歌|BGP中转|解锁流媒体_57
-      - cucu-aa.txwd.xyz:50007
-      - 梦歌|BGP中转|解锁流媒体_106
-      - 梦歌|BGP中转|解锁流媒体_105
-      - 梦歌|BGP中转|解锁流媒体_41
-      - 梦歌|BGP中转|解锁流媒体_212
-      - 梦歌|BGP中转|解锁流媒体_73
-      - ♥️YouTube梦歌♥️_53
-      - 梦歌|BGP中转|解锁流媒体_68
-      - 香港【YouTube由零开始】
-      - 香港（TG@阿伟科技/油管）
-      - Ytb:鹏哥分享_美国_90
-      - 梦歌|BGP中转|解锁流媒体_55
-      - 梦歌|BGP中转|解锁流媒体_270
-      - 梦歌|BGP中转|解锁流媒体_77
-      - 梦歌|BGP中转|解锁流媒体_5
-      - cmcm-a.txwd.xyz:50222
-      - 梦歌|BGP中转|解锁流媒体_301
-      - 台湾（TG@阿伟科技/油管）
+      - 梦歌|BGP中转|解锁Netflix_6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
       - 日本（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_51
-      - 香港煎酿三宝 04
-      - 新加坡（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_19
-      - 梦歌|BGP中转|解锁流媒体_32
-      - 梦歌|BGP中转|解锁流媒体_127
-      - 新加坡（TG@阿伟科技/油管） 2
-      - 梦歌|BGP中转|解锁流媒体_34
-      - 梦歌|BGP中转|解锁流媒体_88
-      - 台湾（TG@阿伟科技/油管） 2
-      - 香港杨枝甘露 03-D
-      - 台湾-04_15
-      - 台湾-01_12
-      - 梦歌|BGP中转|解锁流媒体_24
-      - 日本（TG@阿伟科技/油管） 2
-      - 梦歌|BGP中转|解锁流媒体_125
-      - 梦歌|BGP中转|解锁流媒体_44
-      - 梦歌|BGP中转|解锁流媒体_65
-      - 梦歌|BGP中转|解锁流媒体_45
-      - ♥️YouTube梦歌♥️_56
-      - 梦歌|BGP中转|解锁流媒体_81
-      - 台湾（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_12
-      - Relay_🇺🇸US-🇺🇸US_3771
-      - +HK_38003+@WangCai_1+8
-      - 梦歌|BGP中转|解锁流媒体_4
-      - 新加坡 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_30
-      - 香港（TG@阿伟科技/油管） 2
-      - 台湾-02_13
-      - 梦歌|BGP中转|解锁流媒体_25
-      - 梦歌|BGP中转|解锁流媒体_8
-      - 印度（TG@阿伟科技/油管）
-      - YouTube阿伟科技 5
-      - Relay_🇨🇳CN-🇷🇴RO_478
-      - 日本（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_15
-      - +HK_38007+@WangCai_1+13
-      - 梦歌|BGP中转|解锁流媒体_50
-      - (资源分享师)🇨🇳zg++14
-      - 梦歌|BGP中转|解锁流媒体_53
-      - 梦歌|BGP中转|解锁流媒体_49
-      - YouTube阿伟科技 4
-      - +HK_38007+@WangCai_1+3
-      - +JP_38305+@WangCai_1+3
-      - 梦歌|BGP中转|解锁流媒体_2
-      - 美国 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_74
-      - 梦歌|BGP中转|解锁流媒体_174
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_157
-      - ♥️YouTube梦歌♥️_10
-      - 梦歌|BGP中转|解锁流媒体_256
-      - YouTube阿伟科技
+      - 梦歌|BGP中转|解锁Netflix_26
+      - TG:YouTubeAYANG科技大师
+      - 梦歌|BGP中转|解锁Netflix_46
+      - 梦歌|BGP中转|解锁Netflix_7
+      - 日本1丨筋斗云丨Weoworks提供
+      - 香港（TG@阿伟科技/油管）
       - 香港煎酿三宝 04-D
-      - 香港（TG@阿伟科技/油管） 3
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - PH_38603+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_33
-      - 梦歌|BGP中转|解锁流媒体_147
-      - 梦歌|BGP中转|解锁流媒体_86
-      - 梦歌|BGP中转|解锁流媒体_26
-      - 梦歌|BGP中转|解锁流媒体_150
-      - 美国（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_17
-      - 梦歌|BGP中转|解锁流媒体_35
-      - YouTube阿伟科技 2
-      - 梦歌|BGP中转|解锁流媒体_43
-      - ♥️YouTube梦歌♥️_120
-      - aaa-666.txwd.xyz:60017
-      - 梦歌|BGP中转|解锁流媒体_63
-      - YouTube阿伟科技 3
-      - ♥️YouTube梦歌♥️_165
-      - +PH_38603+@WangCai_1+3
-      - Relay_🇨🇳CN-🇺🇸US_480
-      - 梦歌|BGP中转|解锁流媒体_76
-      - +HK_38007+@WangCai_1+17
-      - Ytb:鹏哥分享_中国_67
-      - 梦歌|BGP中转|解锁流媒体_62
-      - 梦歌|BGP中转|解锁流媒体_92
-      - +JP_38304+@WangCai_1+19
-      - 香港咖喱鱼蛋 01-D
-      - 中国 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_42
-      - 印度【YouTube由零开始】
-      - aaa-666.txwd.xyz:60006
-      - 台湾（TG@阿伟科技/油管） 4
-      - 梦歌|BGP中转|解锁流媒体_182
-      - 美国（TG@阿伟科技/油管） 2
-      - 新加坡（TG@阿伟科技/油管） 4
-      - 梦歌|BGP中转|解锁流媒体_84
-      - +HK_38006+@WangCai_1+2
-      - 节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_58
-      - +SG_38201+@WangCai_1+3
-      - _HK_香港
-      - +US_38501+@WangCai_1+22
-      - (资源分享师)SSR+7
-      - +HK_38006+@WangCai_1+20
-      - 香港（TG@阿伟科技/油管） 4
-      - 台湾（TG@阿伟科技/油管） 5
-      - Youtue/ONE·资源核
-      - _US_美国
-      - USA IEPL.A/03 x1.0
-      - github.com/freefq - 美国CloudFlare节点 28
-      - 印度【YouTube由零开始】 2
-      - _US_美国 2
-      - 马恩岛（TG@阿伟科技/油管）
-      - Relay_🇨🇳CN-🇺🇸US_499
-      - 科技网络
-      - b-mc.txwd.xyz:50055
-      - Youtue/ONE·资源核 2
-      - US_118+TG@peekfun
-      - Youtue/ONE·资源核 3
-      - 梦歌|BGP中转|解锁流媒体_20
-      - Relay_🇺🇸US-🇺🇸US_3743
-      - 梦歌|BGP中转|解锁流媒体_129
-      - 法国-节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_143
-      - _US_美国 3
-      - _US_美国 4
-      - Youtue/ONE·资源核 4
-      - 梦歌|BGP中转|解锁流媒体_38
-      - +HK_38004+@WangCai_1+3
-      - 美国（TG@阿伟科技/油管） 3
-      - Youtue/ONE·资源核 5
-      - 167.88.61.70:8119
-      - YouTube阿伟科技 6
-      - 梦歌|BGP中转|解锁流媒体_323
-      - Youtue/ONE·资源核 6
-      - github.com/freefq - 台湾省中华电信 7
-      - 167.88.61.70:8882
-      - Youtue/ONE·资源核 7
-      - AU_149
-      - 印度【YouTube由零开始】 3
-      - +JP_38301+@WangCai_1+13
-      - 167.88.61.70:8008
-      - KR_364
-      - US_109+TG@peekfun
-      - +HK_38006+@WangCai_1+19
-      - 印度【YouTube由零开始】 4
-      - 梦歌|BGP中转|解锁流媒体_16
-      - youtube阿伟科技
-      - _US_美国 5
-      - 科技网络 2
-      - _US_美国 6
-      - _US_美国 7
-      - US_119+TG@peekfun
-      - 美国（TG@阿伟科技/油管） 4
-      - 美国（TG@阿伟科技/油管） 5
-      - 167.88.61.70:2376
-      - github.com/freefq - 澳大利亚  47
-      - Youtue/ONE·资源核 8
-      - 直连-日本T-A 2_vmess_ws
-      - 俄罗斯（TG@阿伟科技/油管）
-      - _US_美国 8
-      - 香港（TG@阿伟科技/油管） 14
-      - 英国（TG@阿伟科技/油管）
-      - _US_美国 9
-      - +HK_38008+@WangCai_1+3
-      - Youtube/ONE·资源核
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - 美国（TG@阿伟科技/油管） 6
-      - +TH_38605+@WangCai_1+14
-      - YouTube阿伟科技 7
-      - 美国（TG@阿伟科技/油管） 18
-      - _US_美国 14
-      - _US_美国 15
-      - USA CM.C/01 x0.3
-      - Relay_🇺🇸US-🇺🇸US_81
-      - 中国【YouTube由零开始】
-      - 梦歌|BGP中转|解锁流媒体_205
-      - Relay_🇺🇸US-🇺🇸US_113
-      - USA IEPL.A/02 x1.0
-      - Youtue/ONE·资源核 9
-      - 梦歌|BGP中转|解锁流媒体_136
-      - 美国_节点更新 https://bit.ly/36b6iJh_68
-      - _US_美国 16
-      - US_147+TG@peekfun
-      - Youtue/ONE·资源核 10
-      - Youtue/ONE·资源核 11
-      - 节点更新 https://bit.ly/36b6iJh 2
-      - +HK_38001+@WangCai_1+16
-      - Relay_🇺🇸US-🇺🇸US_111
-      - 167.88.61.70:6679
-      - US_162 TG@peekfun
-      - 美国（TG@阿伟科技/油管） 7
-      - 印度（TG@阿伟科技/油管） 2
-      - 美国【YouTube由零开始】
-      - _US_美国 17
-      - 印度184-37 联通11.95 节点更新 https://bit.ly/36b6iJh
-      - US_107+TG@peekfun
-      - 美国（TG@阿伟科技/油管） 8
-      - _US_美国 18
-      - US_143+TG@peekfun
-      - 美国【YouTube由零开始】 2
-      - ♥️YouTube梦歌♥️_31
-      - Youtue/ONE·资源核 12
-      - +US_38504+@WangCai_1+20
-      - YouTube阿伟科技 8
-      - 香港（TG@阿伟科技/油管） 5
-      - Relay_🇯🇵JP-🇯🇵JP_1094
-      - NL_1405
-      - 梦歌|BGP中转|解锁流媒体_340
-      - Youtue/ONE·资源核 13
-      - ZZ_4745
-      - 美国（TG@阿伟科技/油管） 9
-      - +VN_38601+@WangCai_1+16
-      - 澳大利亚（TG@阿伟科技/油管）
-      - +HK_38006+@WangCai_1+18
-      - 梦歌|BGP中转|解锁流媒体_135
-      - 美国【YouTube由零开始】 3
-      - 梦歌|BGP中转|解锁流媒体_27
-      - _US_美国 19
-      - 卢森堡（TG@阿伟科技/油管）
-      - US_114+TG@peekfun
-      - _US_美国 20
-      - 美国（TG@阿伟科技/油管） 10
-      - _US_美国 21
-      - ZZ_4676
-      - NL_67+TG@peekfun
-      - +HK_38007+@WangCai_1+21
-      - 印度184-12@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _US_美国 22
-      - US_131+TG@peekfun
-      - US_140+TG@peekfun
-      - 梦歌|BGP中转|解锁流媒体_289
-      - ZZ_180+TG@peekfun
-      - 印度【YouTube由零开始】 5
-      - _US_美国 23
-      - US_108+TG@peekfun
-      - Relay_🇺🇸US-🇺🇸US_117
-      - _US_美国 24
-      - 美国（TG@阿伟科技/油管） 11
-      - ♥️YouTube梦歌♥️_194
-      - ZZ_4661
-      - NL_1391
-      - +HK_38006+@WangCai_1+9
-      - YouTube阿伟科技 9
-      - US_111+TG@peekfun
+      - 新加坡（TG@阿伟科技/油管）
+      - KR-高速节点购买：v1.mk/vip（浏览器打开）
+      - TG:YouTubeAYANG科技大师 2
+      - KR-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港杨枝甘露 03-D
+      - 新加坡（TG@阿伟科技/油管） 2
+      - 澳大利亚丨筋斗云丨Weoworks提供
+      - US_3348
       - 英国【YouTube由零开始】
-      - 德国【YouTube由零开始】
-      - _US_美国 25
-      - _GB_英国
-      - 德国（TG@阿伟科技/油管）
-      - ZZ_4477
-      - 美国（TG@阿伟科技/油管） 12
-      - +HK_38006+@WangCai_1+13
-      - 德国【YouTube由零开始】 2
-      - 印度184-27@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _PL_波兰
-      - 梦歌|BGP中转|解锁流媒体_169
-      - +JP_38305+@WangCai_1+16
-      - ♥️YouTube梦歌♥️_27
-      - 印度184-17@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 美国【YouTube由零开始】 4
-      - Youtue/ONE·资源核 10 2
-      - NL_1418
-      - 英国【YouTube由零开始】 2
-      - Ytb:鹏哥分享_英国_32
-      - 印度184-11@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _US_美国 26
-      - Youtue/ONE·资源核 14
-      - +HK_38009+@WangCai_1+12
-      - ♥️YouTube梦歌♥️_24
-      - NL_1423
-      - Youtue/ONE·资源核 15
-      - Youtue/ONE·资源核 16
-      - ♥️YouTube梦歌♥️_37
-      - Youtue/ONE·资源核 17
-      - ♥️YouTube梦歌♥️_33
-      - 美国（TG@阿伟科技/油管） 13
-      - Youtue/ONE·资源核 18
-      - Ytb:鹏哥分享_30
-      - 梦歌|BGP中转|解锁流媒体_39
-      - github.com/freefq - 美国  53
-      - _GB_英国 2
-      - 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_94
-      - ♥️YouTube梦歌♥️_41
-      - YouTube阿伟科技 10
-      - Youtue/ONE·资源核 14 2
-      - Youtube/ONE·资源核 2
-      - 德国【YouTube由零开始】 3
-      - ZZ_179+TG@peekfun
-      - 英国【YouTube由零开始】 3
-      - _US_美国 27
-      - b-mc.txwd.xyz:50051
-      - 荷兰节点更新 https://bit.ly/36b6iJh-clone
-      - 英国【YouTube由零开始】 4
-      - _GB_英国 3
-      - 美国【YouTube由零开始】 5
-      - github.com/freefq - 美国Microsoft数据中心 23
-      - _GB_英国 4
-      - _GB_英国 5
-      - _GB_英国 6
-      - +HK_38009+@WangCai_1
-      - 美国（TG@阿伟科技/油管） 14
-      - 印度184-4 联通100M+4K -2 节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 5
-      - 美国【YouTube由零开始】 6
-      - _DE_德国
-      - 澳大利亚（TG@阿伟科技/油管） 2
-      - +HK_38004+@WangCai_1+20
-      - _PL_波兰 2
-      - _PL_波兰 3
-      - _PL_波兰 4
-      - US_150+TG@peekfun
-      - YouTube阿伟科技 11
-      - 美国【YouTube由零开始】 7
-      - 德国【YouTube由零开始】 4
-      - "@SSRSUB-俄罗斯V04-付费推荐:dlj.tf/ssrsub"
-      - US_133+TG@peekfun
-      - 加拿大【YouTube由零开始】
-      - +HK_38010+@WangCai_1+20
+      - 台湾（TG@阿伟科技/油管）
+      - SG-高速节点购买：v1.mk/vip（浏览器打开）
+      - 梦歌|BGP中转|解锁Netflix_8
+      - TW-高速节点购买：v1.mk/vip（浏览器打开）
+      - US_3062
+      - 台湾（TG@阿伟科技/油管） 2
+      - 高速节点购买：v1.mk/vip（浏览器打开）
+      - 科技网络
+      - 日本（TG@阿伟科技/油管） 2
+      - 高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港（TG@阿伟科技/油管） 2
+      - HK-高速节点购买：v1.mk/vip（浏览器打开）
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - YouTube@阿阳AYANG
+      - 新加坡（TG@阿伟科技/油管） 3
+      - YouTube@阿阳AYANG 2
+      - 台湾（TG@阿伟科技/油管） 3
+      - 新加坡（TG@阿伟科技/油管） 4
       - 荷兰（TG@阿伟科技/油管）
-      - 加拿大【YouTube由零开始】 2
-      - 加拿大【YouTube由零开始】 3
-      - 印度184-18@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-32 联通28.64m 节点更新 https://bit.ly/36b6iJh
-      - _PL_波兰 5
-      - 104.17.177.116
-      - 印度184-20@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 德国【YouTube由零开始】 5
-      - 梦歌|BGP中转|解锁流媒体_116
-      - _PL_波兰 6
-      - _PL_波兰 7
-      - +HK_38010+@WangCai_1+12
-      - 梦歌|BGP中转|解锁流媒体_69
-      - _PL_波兰 8
-      - HK_38009+@WangCai_1
-      - _GB_英国 7
-      - 英国【YouTube由零开始】 6
-      - +HK_38010+@WangCai_1+18
-      - +DE_38607+@WangCai_1
-      - 印度184-23@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-24@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 7
-      - 梦歌|BGP中转|解锁流媒体_277
-      - 梦歌|BGP中转|解锁流媒体_300
-      - _PL_波兰 9
-      - 荷兰（TG@阿伟科技/油管） 2
-      - +HK_38008+@WangCai_1+14
-      - 加拿大（TG@阿伟科技/油管）
-      - github.com/freefq - 美国CloudFlare节点 64
-      - _NL_荷兰
-      - 印度184-34 联通14.9 节点更新 https://bit.ly/36b6iJh
-      - 印度184-39 联通11.11 节点更新 https://bit.ly/36b6iJh
-      - +HK_38001+@WangCai_1+3
-      - +HK_38006+@WangCai_1+8
-      - 梦歌|BGP中转|解锁流媒体_271
-      - 科技网络 3
-      - _NL_荷兰 2
-      - github.com/freefq - 美国CloudFlare公司CDN节点 20
-      - _NL_荷兰 3
-      - 美国【YouTube由零开始】 8
-      - YouTube阿伟科技 12
-      - AU_04 TG@peekfun
-      - _NL_荷兰 4
-      - _GB_英国 8
-      - 英国【YouTube由零开始】 8
-      - 印度184-10@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 台湾（TG@阿伟科技/油管） 6
-      - 印度184-38 联通11.55 节点更新 https://bit.ly/36b6iJh
-      - 美国【YouTube由零开始】 9
-      - +HK_38009+@WangCai_1+3
-      - Youtube/ONE·资源核 3
-      - +TW_38103+@WangCai_1+20
-      - 印度184-28@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +HK_38009+@WangCai_1+13
-      - 印度184-8@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 9
-      - _AU_澳大利亚
-      - github.com/freefq - 美国  29
-      - +JP_38303+@WangCai_1+3
-      - 土耳其（TG@阿伟科技/油管）
-      - _PL_波兰 10
-      - +HK_38009+@WangCai_1+18
-      - 日本（TG@阿伟科技/油管
-      - +HK_38002+@WangCai_1
-      - Relay_🇨🇳CN-🇺🇸US_502
-      - +HK_38005+@WangCai_1+18
-      - +HK_38008+@WangCai_1+4
-      - 印度184-15@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 172.104.157.118:5003
-      - 梦歌|BGP中转|解锁流媒体_79
-      - 梦歌|BGP中转|解锁流媒体_28
-      - 香港杨枝甘露 03
-      - 香港（TG@阿伟科技/油管） 6
-      - 香港（TG@阿伟科技/油管） 7
-      - 西美高速2
-      - +HK_38009+@WangCai_1+16
-      - +TW_38102+@WangCai_1+20
-      - +TH_38605+@WangCai_1+3
-      - 印度184-36 联通12.71 节点更新 https://bit.ly/36b6iJh
-      - +HK_38006+@WangCai_1+16
-      - Youtue/ONE·资源核 19
-      - +HK_38003+@WangCai_1+13
-      - Relay_🇦🇺AU-🇦🇺AU_155
-      - Relay_🇨🇳CN-🇺🇸US_505
-      - 科技网络 4
-      - +DE_38607+@WangCai_1+3
-      - +HK_38003+@WangCai_1+9
-      - +PH_38603+@WangCai_1+5
-      - Relay_🇨🇳CN-🇺🇸US_493
-      - Relay_🇨🇳CN-🇨🇦CA_472
-      - Youtue/ONE·资源核 20
-      - +TW_38104+@WangCai_1+3
-      - Relay_🇨🇳CN-🇯🇵JP_526
-      - +HK_38004+@WangCai_1+16
-      - +HK_38009+@WangCai_1+4
-      - +TH_38605+@WangCai_1+2
-      - +HK_38007+@WangCai_1+5
-      - github.com/freefq - 美国3COM公司企业网 51
-      - Youtue/ONE·资源核 21
-      - Youtue/ONE·资源核 22
-      - +HK_38010+@WangCai_1+19
-      - 香港（TG@阿伟科技/油管） 20
-      - 印度184-16@1Gbps节点更新 https://bit.ly/36b6iJh
-      - Relay_🇦🇺AU-🇦🇺AU_10
-      - 印度184-9@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh
-      - Youtue/ONE·资源核 23
-      - +HK_38010+@WangCai_1+5
-      - Youtue/ONE·资源核 46
-      - 欢迎订阅钱科技0429_🇯🇵_JP_日本_20
-      - 美国【YouTube由零开始】 10
-      - +HK_38009+@WangCai_1+19
-      - +HK_38001+@WangCai_1+2
-      - 德国【YouTube由零开始】 6
-      - +HK_38007+@WangCai_1+8
-      - GB_911
-      - +HK_38005+@WangCai_1
-      - +TW_38103+@WangCai_1+3
-      - +HK_38002+@WangCai_1+8
-      - +HK_38005+@WangCai_1+16
-      - HK_38006+@WangCai_1
-      - +US_38501+@WangCai_1+9
-      - github.com/freefq - 美国  31
-      - _US_美国 28
-      - 梦歌|BGP中转|解锁流媒体_7
-      - +HK_38006+@WangCai_1+17
-      - 加拿大【YouTube由零开始】 4
-      - +SG_38204+@WangCai_1+21
-      - 印度184-21联通100M+4K   节点更新 https://bit.ly/36b6iJh
-      - 印度184-19@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 德国【YouTube由零开始】 7
-      - _JP_日本
-      - NL_673
-      - +HK_38008+@WangCai_1+21
-      - 美国【YouTube由零开始】 11
-      - +HK_38002+@WangCai_1+2
-      - +US_38502+@WangCai_1+4
-      - 印度184-29@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _JP_日本 2
-      - _JP_日本 3
-      - 南非（TG@阿伟科技/油管）
-      - _US_美国 29
-      - +HK_38007+@WangCai_1
-      - 科技网络 5
-      - US_103+TG@peekfun
-      - +HK_38010+@WangCai_1+17
-      - Relay_🇺🇸US-🇺🇸US_3866
-      - 印度【YouTube由零开始】 6
-      - +JP_38304+@WangCai_1+21
-      - +HK_38003+@WangCai_1+19
-      - +JP_38304+@WangCai_1+2
-      - US_97+TG@peekfun
-      - +US_38503+@WangCai_1+18
-      - +TW_38101+@WangCai_1+4
-      - HK_38009+@WangCai_1 2
-      - 印度184-40 联通10.26 节点更新 https://bit.ly/36b6iJh
-      - _SG_新加坡
-      - Youtue/ONE·资源核 24
-      - +HK_38007+@WangCai_1+2
-      - 美国【YouTube由零开始】 12
-      - HK_38004+@WangCai_1
-      - +HK_38006+@WangCai_1+14
-      - +HK_38001+@WangCai_1+17
-      - +HK_38008+@WangCai_1+16
-      - +HK_38005+@WangCai_1+13
-      - Relay_🇨🇳CN-🇯🇵JP_481
-      - Youtue/ONE·资源核 25
-      - +HK_38007+@WangCai_1+16
-      - +TW_38103+@WangCai_1+19
-      - +HK_38002+@WangCai_1+17
-      - +HK_38002+@WangCai_1+20
-      - 美国【YouTube由零开始】 13
-      - +HK_38004+@WangCai_1+21
-      - 梦歌|BGP中转|解锁流媒体_279
-      - +PH_38603+@WangCai_1+6
-      - _PL_波兰 11
-      - +HK_38002+@WangCai_1+16
-      - Youtue/ONE·资源核 26
-      - +HK_38009+@WangCai_1+8
-      - +HK_38001+@WangCai_1+18
-      - +HK_38008+@WangCai_1+8
-      - +HK_38001+@WangCai_1+6
-      - +HK_38002+@WangCai_1+4
-      - +TH_38605+@WangCai_1+13
-      - +KR_38401+@WangCai_1+4
-      - +TW_38102+@WangCai_1+2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - +TW_38104+@WangCai_1+17
-      - Relay_🇨🇳CN-🇺🇸US_506
-      - 印度184-13@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +FR_38609+@WangCai_1+3
-      - 欢迎订阅钱科技0429_🇺🇸_US_美国_33
-      - 加拿大【YouTube由零开始】 5
-      - +HK_38005+@WangCai_1+12
-      - +SG_38203+@WangCai_1+3
-      - 印度184-26@1Gbps节点更新 https://bit.ly/36b6iJh
-      - US_112+TG@peekfun
-      - 新加坡【YouTube由零开始】
-      - +US_38502+@WangCai_1+13
-      - +KR_38402+@WangCai_1+8
-      - 印度184-14@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-7@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +HK_38009+@WangCai_1+14
-      - Youtue/ONE·资源核 27
-      - 英国【YouTube由零开始】 10
-      - +HK_38006+@WangCai_1+3
-      - TH_38605+@WangCai_1
-      - +HK_38010+@WangCai_1+8
-      - US_126+TG@peekfun
-      - _US_美国 30
-      - US_128+TG@peekfun
-      - +HK_38010+@WangCai_1+13
-      - +TW_38104+@WangCai_1+13
-      - _US_美国 31
-      - HK_38003+@WangCai_1
-      - +KR_38401+@WangCai_1
-      - +TW_38101+@WangCai_1+13
-      - +PH_38603+@WangCai_1+2
+      - 韩国丨筋斗云丨Weoworks提供
+      - 台湾（TG@阿伟科技/油管） 4
+      - 节点更新 https://bit.ly/36b6iJh
+      - Ytb:鹏哥分享_印度_33
+      - GB-高速节点购买：v1.mk/vip（浏览器打开）
+      - 美国（TG@阿伟科技/油管）
+      - NL-高速节点购买：v1.mk/vip（浏览器打开）
+      - TG:YouTubeAYANG科技大师 3
+      - Ytb:鹏哥分享_韩国_9
+      - 梦歌|BGP中转|解锁Netflix_31
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 日本（TG@阿伟科技/油管） 3
+      - DE_653
+      - _DE_德国
+      - 香港（TG@阿伟科技/油管） 3
+      - YouTube@阿阳AYANG 3
+      - 高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 台湾（TG@阿伟科技/油管） 5
+      - _DE_德国 2
+      - 梦歌|BGP中转|解锁Netflix_17
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 日本2丨筋斗云丨Weoworks提供
+      - Ytb:鹏哥分享_新加坡_105
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 梦歌|BGP中转|解锁Netflix_3
+      - Ytb:鹏哥分享_31
+      - 梦歌|BGP中转|解锁Netflix_5
+      - Relay_🇨🇦CA-🇨🇦CA_425
+      - TG:YouTubeAYANG科技大师 4
+      - US_3082
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 梦歌|BGP中转|解锁Netflix_44
+      - 梦歌|BGP中转|解锁Netflix_48
+      - _CH_瑞士
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - Youtue/ONE·资源核
+      - _CH_瑞士 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 新加坡（TG@阿伟科技/油管） 5
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - _DE_德国 3
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - 印度丨筋斗云丨Weoworks提供
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - AU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 梦歌|BGP中转|解锁Netflix_42
+      - DE_662
+      - Ytb:鹏哥分享_英国_17
+      - IN-高速节点购买：v1.mk/vip（浏览器打开）
+      - 英国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管） 2
+      - 印度（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 4
+      - "@SSRSUB-V07-付费推荐:suo.yt/ssrsub"
       - 韩国（TG@阿伟科技/油管）
-      - +HK_38002+@WangCai_1+21
-      - Youtue/ONE·资源核 28
-      - +HK_38008+@WangCai_1
-      - +HK_38010+@WangCai_1+6
-      - SG
-      - 印度184-3@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +US_38503+@WangCai_1+2
-      - +TW_38103+@WangCai_1+17
-      - +TW_38104+@WangCai_1+21
-      - +JP_38301+@WangCai_1+21
-      - +HK_38010+@WangCai_1+3
-      - Relay_🇨🇳CN-🇯🇵JP_522
-      - +TW_38105+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_521
-      - 加拿大【YouTube由零开始】 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - +SG_38204+@WangCai_1
-      - 新加坡 【由零开始YouTube】 2
-      - 欢迎订阅钱科技0429_🇫🇷_FR_法国_3
-      - +JP_38301+@WangCai_1+3
-      - (资源分享师)🇨🇳zg++21
-      - +US_38503+@WangCai_1+21
-      - +KR_38402+@WangCai_1+17
-      - +US_38503+@WangCai_1+7
-      - 韩国【YouTube由零开始】
-      - +HK_38003+@WangCai_1+21
-      - +HK_38003+@WangCai_1+17
-      - +US_38501+@WangCai_1+3
-      - _US_美国 32
-      - +SG_38204+@WangCai_1+18
-      - +SG_38204+@WangCai_1+8
-      - +HK_38002+@WangCai_1+14
-      - +KR_38401+@WangCai_1+2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - +SG_38203+@WangCai_1+8
-      - Ytb:鹏哥分享_新加坡_70
-      - 美国 【由零开始YouTube】 2
-      - 美国【YouTube由零开始】 14
-      - +JP_38305+@WangCai_1+21
-      - +HK_38010+@WangCai_1+16
-      - +TW_38105+@WangCai_1+2
-      - 印度184-33 联通15.02m  节点更新 https://bit.ly/36b6iJh
-      - +HK_38004+@WangCai_1+4
-      - +HK_38003+@WangCai_1
-      - 美国【YouTube由零开始】 15
-      - +US_38501+@WangCai_1+17
-      - +TW_38104+@WangCai_1+16
-      - +TH_38605+@WangCai_1+21
-      - +JP_38305+@WangCai_1+13
-      - +DE_38607+@WangCai_1+8
-      - +KR_38402+@WangCai_1+21
-      - +HK_38007+@WangCai_1+4
-      - +KR_38401+@WangCai_1+17
-      - +JP_38303+@WangCai_1+8
-      - +HK_38003+@WangCai_1+20
-      - +HK_38003+@WangCai_1+3
-      - +PH_38603+@WangCai_1+13
-      - Youtube/ONE·资源核 4
-      - 14.29.124.168:25256
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 美国2丨筋斗云丨Weoworks提供
+      - Ytb:鹏哥分享_中国_75
+      - 美国（TG@阿伟科技/油管） 3
+      - 梦歌|BGP中转|解锁Netflix_45
+      - _DE_德国 4
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - 【YouTube由零开始】
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 美国（TG@阿伟科技/油管） 4
+      - CZ-高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本（TG@阿伟科技/油管） 4
+      - 梦歌|BGP中转|解锁Netflix_47
+      - CZ-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港（TG@阿伟科技/油管） 5
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
       - "|20.89Mb"
-      - 14.29.124.168:25220
-      - +HK_38004+@WangCai_1+13
-      - +US_38501+@WangCai_1+13
-      - +TH_38605+@WangCai_1+17
-      - (资源分享师)🇨🇳zg++6
-      - (资源分享师)🇨🇳zg++11
-      - (资源分享师)🇨🇳zg++7
-      - CN_477(资源分享师)
-      - Youtube/ONE·资源核 5
-      - (资源分享师)🇨🇳zg++3
-      - 14.29.124.168:25294
-      - (资源分享师)🇨🇳zg++2
-      - CN_463
-      - CN_447
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - +JP_38304+@WangCai_1+9
-      - 38.114.114.19:6379
-      - (资源分享师)🇨🇳zg++15
-      - +HK_38010+@WangCai_1+9
-      - YouTube阿伟科技 13
-      - +TW_38104+@WangCai_1+2
-      - +TH_38605+@WangCai_1+19
-      - +TH_38605+@WangCai_1+20
-      - +KR_38402+@WangCai_1+13
-      - Relay_🇺🇦UA-🇺🇦UA_1769
-      - +US_38503+@WangCai_1+3
-      - Youtube/ONE·资源核 6
-      - +TW_38101+@WangCai_1+2
-      - +KR_38401+@WangCai_1+21
-      - +JP_38304+@WangCai_1
-      - +KR_38401+@WangCai_1+16
-      - +KR_38401+@WangCai_1+8
-      - +AR_38611+@WangCai_1+22
-      - US_172 TG@peekfun
-      - +HK_38004+@WangCai_1+8
-      - +US_38503+@WangCai_1+8
-      - US_38503+@WangCai_1
-      - KR_38401+@WangCai_1
-      - +HK_38009+@WangCai_1+17
-      - +HK_38001+@WangCai_1
-      - (资源分享师)🇨🇳zg++16
-      - +PH_38603+@WangCai_1+18
-      - US_141+TG@peekfun
-      - +TW_38102+@WangCai_1+6
-      - +TW_38101+@WangCai_1+3
-      - +DE_38607+@WangCai_1+20
-      - +HK_38005+@WangCai_1+21
-      - +TW_38102+@WangCai_1+3
-      - 科技网络 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - +KR_38402+@WangCai_1+19
-      - +TW_38105+@WangCai_1+19
-      - _PL_波兰 12
-      - +JP_38304+@WangCai_1+17
-      - +TW_38103+@WangCai_1+13
-      - +US_38501+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_302
-      - GB_907
-      - +TW_38104+@WangCai_1+8
-      - +US_38504+@WangCai_1+21
-      - +TW_38103+@WangCai_1+18
-      - TW_38103+@WangCai_1
-      - +FR_38609+@WangCai_1+2
-      - +JP_38303+@WangCai_1+2
-      - 印度184-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - +HK_38001+@WangCai_1+21
-      - +JP_38301+@WangCai_1
-      - +JP_38301+@WangCai_1+6
-      - +JP_38301+@WangCai_1+20
-      - +TH_38605+@WangCai_1
-      - +KR_38402+@WangCai_1+20
-      - +TW_38105+@WangCai_1+21
-      - github.com/freefq - 美国CloudFlare节点 22
-      - +US_38502+@WangCai_1
-      - +TW_38103+@WangCai_1+12
-      - +KR_38402+@WangCai_1
-      - +US_38503+@WangCai_1+19
-      - github.com/freefq - 北美地区  12
-      - +US_38501+@WangCai_1+19
-      - +JP_38301+@WangCai_1+2
-      - +JP_38304+@WangCai_1+6
-      - +FR_38609+@WangCai_1+19
-      - +HK_38010+@WangCai_1
-      - +TW_38104+@WangCai_1+7
-      - +TW_38103+@WangCai_1+6
-      - _GB_英国 9
-      - +JP_38301+@WangCai_1+8
-      - +HK_38008+@WangCai_1+17
-      - +TW_38101+@WangCai_1+18
-      - +DE_38607+@WangCai_1+13
-      - +TW_38101+@WangCai_1+17
-      - +JP_38304+@WangCai_1+8
-      - +JP_38305+@WangCai_1
-      - +TW_38104+@WangCai_1+19
-      - +TW_38103+@WangCai_1+16
-      - +SG_38203+@WangCai_1+20
-      - +US_38504+@WangCai_1+2
-      - +FR_38609+@WangCai_1+13
-      - JP_38304+@WangCai_1
-      - +JP_38305+@WangCai_1+20
-      - 科技网络 7
-      - +JP_38301+@WangCai_1+17
-      - +US_38503+@WangCai_1+13
-      - +TW_38103+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_192
-      - 美国（TG@阿伟科技/油管） 15
-      - +TW_38103+@WangCai_1+8
-      - +JP_38301+@WangCai_1+19
-      - +KR_38402+@WangCai_1+3
-      - 科技网络 8
-      - +JP_38305+@WangCai_1+17
-      - +JP_38304+@WangCai_1+4
-      - +US_38502+@WangCai_1+22
-      - 印度184-35 联通14.07 节点更新 https://bit.ly/36b6iJh
-      - +HK_38004+@WangCai_1+12
-      - TW_38102+@WangCai_1
-      - +TH_38605+@WangCai_1+16
-      - 美国【YouTube由零开始】 16
-      - +TW_38102+@WangCai_1+16
-      - +TW_38101+@WangCai_1+16
-      - +HK_38003+@WangCai_1+16
-      - +FR_38609+@WangCai_1+16
-      - +TW_38102+@WangCai_1+8
-      - +SG_38204+@WangCai_1+20
-      - +DE_38607+@WangCai_1+2
-      - +US_38501+@WangCai_1+2
-      - +US_38504+@WangCai_1+19
-      - github.com/freefq - 广东省广州市黄埔区珠江宽频 14
-      - +SG_38204+@WangCai_1+14
-      - JP_38305+@WangCai_1
-      - +TH_38605+@WangCai_1+8
-      - +US_38504+@WangCai_1+16
-      - +DE_38607+@WangCai_1+16
-      - github.com/freefq - 广东省深圳市腾讯云 16
-      - +JP_38304+@WangCai_1+13
-      - +TW_38103+@WangCai_1+2
-      - +SG_38203+@WangCai_1+12
-      - +TW_38104+@WangCai_1+5
-      - TW_38105+@WangCai_1
-      - +US_38502+@WangCai_1+19
-      - +US_38502+@WangCai_1+2
-      - +US_38503+@WangCai_1+17
-      - +US_38502+@WangCai_1+21
-      - +SG_38203+@WangCai_1+16
-      - +DE_38607+@WangCai_1+17
-      - +SG_38203+@WangCai_1
-      - +HK_38005+@WangCai_1+4
-      - 乌克兰【YouTube由零开始】
-      - +TW_38102+@WangCai_1+5
-      - +PH_38603+@WangCai_1+14
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 美国（TG@阿伟科技/油管） 5
+      - 高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 科技网络 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - YouTube@阿阳AYANG 4
+      - _AU_澳大利亚
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - 俄罗斯（TG@阿伟科技/油管）
+      - _CH_瑞士 3
+      - 新加坡 【由零开始YouTube】
+      - 美国（TG@阿伟科技/油管） 6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 台湾（TG@阿伟科技/油管） 6
+      - 新加坡（TG@阿伟科技/油管） 6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 11
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 梦歌|BGP中转|解锁流媒体_57
-      - cucu-aa.txwd.xyz:50007
-      - 梦歌|BGP中转|解锁流媒体_106
-      - 梦歌|BGP中转|解锁流媒体_105
-      - 梦歌|BGP中转|解锁流媒体_41
-      - 梦歌|BGP中转|解锁流媒体_212
-      - 梦歌|BGP中转|解锁流媒体_73
-      - ♥️YouTube梦歌♥️_53
-      - 梦歌|BGP中转|解锁流媒体_68
-      - 香港【YouTube由零开始】
-      - 香港（TG@阿伟科技/油管）
-      - Ytb:鹏哥分享_美国_90
-      - 梦歌|BGP中转|解锁流媒体_55
-      - 梦歌|BGP中转|解锁流媒体_270
-      - 梦歌|BGP中转|解锁流媒体_77
-      - 梦歌|BGP中转|解锁流媒体_5
-      - cmcm-a.txwd.xyz:50222
-      - 梦歌|BGP中转|解锁流媒体_301
-      - 台湾（TG@阿伟科技/油管）
+      - 梦歌|BGP中转|解锁Netflix_6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
       - 日本（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_51
-      - 香港煎酿三宝 04
-      - 新加坡（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_19
-      - 梦歌|BGP中转|解锁流媒体_32
-      - 梦歌|BGP中转|解锁流媒体_127
-      - 新加坡（TG@阿伟科技/油管） 2
-      - 梦歌|BGP中转|解锁流媒体_34
-      - 梦歌|BGP中转|解锁流媒体_88
-      - 台湾（TG@阿伟科技/油管） 2
-      - 香港杨枝甘露 03-D
-      - 台湾-04_15
-      - 台湾-01_12
-      - 梦歌|BGP中转|解锁流媒体_24
-      - 日本（TG@阿伟科技/油管） 2
-      - 梦歌|BGP中转|解锁流媒体_125
-      - 梦歌|BGP中转|解锁流媒体_44
-      - 梦歌|BGP中转|解锁流媒体_65
-      - 梦歌|BGP中转|解锁流媒体_45
-      - ♥️YouTube梦歌♥️_56
-      - 梦歌|BGP中转|解锁流媒体_81
-      - 台湾（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_12
-      - Relay_🇺🇸US-🇺🇸US_3771
-      - +HK_38003+@WangCai_1+8
-      - 梦歌|BGP中转|解锁流媒体_4
-      - 新加坡 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_30
-      - 香港（TG@阿伟科技/油管） 2
-      - 台湾-02_13
-      - 梦歌|BGP中转|解锁流媒体_25
-      - 梦歌|BGP中转|解锁流媒体_8
-      - 印度（TG@阿伟科技/油管）
-      - YouTube阿伟科技 5
-      - Relay_🇨🇳CN-🇷🇴RO_478
-      - 日本（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_15
-      - +HK_38007+@WangCai_1+13
-      - 梦歌|BGP中转|解锁流媒体_50
-      - (资源分享师)🇨🇳zg++14
-      - 梦歌|BGP中转|解锁流媒体_53
-      - 梦歌|BGP中转|解锁流媒体_49
-      - YouTube阿伟科技 4
-      - +HK_38007+@WangCai_1+3
-      - +JP_38305+@WangCai_1+3
-      - 梦歌|BGP中转|解锁流媒体_2
-      - 美国 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_74
-      - 梦歌|BGP中转|解锁流媒体_174
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_157
-      - ♥️YouTube梦歌♥️_10
-      - 梦歌|BGP中转|解锁流媒体_256
-      - YouTube阿伟科技
+      - 梦歌|BGP中转|解锁Netflix_26
+      - TG:YouTubeAYANG科技大师
+      - 梦歌|BGP中转|解锁Netflix_46
+      - 梦歌|BGP中转|解锁Netflix_7
+      - 日本1丨筋斗云丨Weoworks提供
+      - 香港（TG@阿伟科技/油管）
       - 香港煎酿三宝 04-D
-      - 香港（TG@阿伟科技/油管） 3
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - PH_38603+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_33
-      - 梦歌|BGP中转|解锁流媒体_147
-      - 梦歌|BGP中转|解锁流媒体_86
-      - 梦歌|BGP中转|解锁流媒体_26
-      - 梦歌|BGP中转|解锁流媒体_150
-      - 美国（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_17
-      - 梦歌|BGP中转|解锁流媒体_35
-      - YouTube阿伟科技 2
-      - 梦歌|BGP中转|解锁流媒体_43
-      - ♥️YouTube梦歌♥️_120
-      - aaa-666.txwd.xyz:60017
-      - 梦歌|BGP中转|解锁流媒体_63
-      - YouTube阿伟科技 3
-      - ♥️YouTube梦歌♥️_165
-      - +PH_38603+@WangCai_1+3
-      - Relay_🇨🇳CN-🇺🇸US_480
-      - 梦歌|BGP中转|解锁流媒体_76
-      - +HK_38007+@WangCai_1+17
-      - Ytb:鹏哥分享_中国_67
-      - 梦歌|BGP中转|解锁流媒体_62
-      - 梦歌|BGP中转|解锁流媒体_92
-      - +JP_38304+@WangCai_1+19
-      - 香港咖喱鱼蛋 01-D
-      - 中国 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_42
-      - 印度【YouTube由零开始】
-      - aaa-666.txwd.xyz:60006
-      - 台湾（TG@阿伟科技/油管） 4
-      - 梦歌|BGP中转|解锁流媒体_182
-      - 美国（TG@阿伟科技/油管） 2
-      - 新加坡（TG@阿伟科技/油管） 4
-      - 梦歌|BGP中转|解锁流媒体_84
-      - +HK_38006+@WangCai_1+2
-      - 节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_58
-      - +SG_38201+@WangCai_1+3
-      - _HK_香港
-      - +US_38501+@WangCai_1+22
-      - (资源分享师)SSR+7
-      - +HK_38006+@WangCai_1+20
-      - 香港（TG@阿伟科技/油管） 4
-      - 台湾（TG@阿伟科技/油管） 5
-      - Youtue/ONE·资源核
-      - _US_美国
-      - USA IEPL.A/03 x1.0
-      - github.com/freefq - 美国CloudFlare节点 28
-      - 印度【YouTube由零开始】 2
-      - _US_美国 2
-      - 马恩岛（TG@阿伟科技/油管）
-      - Relay_🇨🇳CN-🇺🇸US_499
-      - 科技网络
-      - b-mc.txwd.xyz:50055
-      - Youtue/ONE·资源核 2
-      - US_118+TG@peekfun
-      - Youtue/ONE·资源核 3
-      - 梦歌|BGP中转|解锁流媒体_20
-      - Relay_🇺🇸US-🇺🇸US_3743
-      - 梦歌|BGP中转|解锁流媒体_129
-      - 法国-节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_143
-      - _US_美国 3
-      - _US_美国 4
-      - Youtue/ONE·资源核 4
-      - 梦歌|BGP中转|解锁流媒体_38
-      - +HK_38004+@WangCai_1+3
-      - 美国（TG@阿伟科技/油管） 3
-      - Youtue/ONE·资源核 5
-      - 167.88.61.70:8119
-      - YouTube阿伟科技 6
-      - 梦歌|BGP中转|解锁流媒体_323
-      - Youtue/ONE·资源核 6
-      - github.com/freefq - 台湾省中华电信 7
-      - 167.88.61.70:8882
-      - Youtue/ONE·资源核 7
-      - AU_149
-      - 印度【YouTube由零开始】 3
-      - +JP_38301+@WangCai_1+13
-      - 167.88.61.70:8008
-      - KR_364
-      - US_109+TG@peekfun
-      - +HK_38006+@WangCai_1+19
-      - 印度【YouTube由零开始】 4
-      - 梦歌|BGP中转|解锁流媒体_16
-      - youtube阿伟科技
-      - _US_美国 5
-      - 科技网络 2
-      - _US_美国 6
-      - _US_美国 7
-      - US_119+TG@peekfun
-      - 美国（TG@阿伟科技/油管） 4
-      - 美国（TG@阿伟科技/油管） 5
-      - 167.88.61.70:2376
-      - github.com/freefq - 澳大利亚  47
-      - Youtue/ONE·资源核 8
-      - 直连-日本T-A 2_vmess_ws
-      - 俄罗斯（TG@阿伟科技/油管）
-      - _US_美国 8
-      - 香港（TG@阿伟科技/油管） 14
-      - 英国（TG@阿伟科技/油管）
-      - _US_美国 9
-      - +HK_38008+@WangCai_1+3
-      - Youtube/ONE·资源核
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - 美国（TG@阿伟科技/油管） 6
-      - +TH_38605+@WangCai_1+14
-      - YouTube阿伟科技 7
-      - 美国（TG@阿伟科技/油管） 18
-      - _US_美国 14
-      - _US_美国 15
-      - USA CM.C/01 x0.3
-      - Relay_🇺🇸US-🇺🇸US_81
-      - 中国【YouTube由零开始】
-      - 梦歌|BGP中转|解锁流媒体_205
-      - Relay_🇺🇸US-🇺🇸US_113
-      - USA IEPL.A/02 x1.0
-      - Youtue/ONE·资源核 9
-      - 梦歌|BGP中转|解锁流媒体_136
-      - 美国_节点更新 https://bit.ly/36b6iJh_68
-      - _US_美国 16
-      - US_147+TG@peekfun
-      - Youtue/ONE·资源核 10
-      - Youtue/ONE·资源核 11
-      - 节点更新 https://bit.ly/36b6iJh 2
-      - +HK_38001+@WangCai_1+16
-      - Relay_🇺🇸US-🇺🇸US_111
-      - 167.88.61.70:6679
-      - US_162 TG@peekfun
-      - 美国（TG@阿伟科技/油管） 7
-      - 印度（TG@阿伟科技/油管） 2
-      - 美国【YouTube由零开始】
-      - _US_美国 17
-      - 印度184-37 联通11.95 节点更新 https://bit.ly/36b6iJh
-      - US_107+TG@peekfun
-      - 美国（TG@阿伟科技/油管） 8
-      - _US_美国 18
-      - US_143+TG@peekfun
-      - 美国【YouTube由零开始】 2
-      - ♥️YouTube梦歌♥️_31
-      - Youtue/ONE·资源核 12
-      - +US_38504+@WangCai_1+20
-      - YouTube阿伟科技 8
-      - 香港（TG@阿伟科技/油管） 5
-      - Relay_🇯🇵JP-🇯🇵JP_1094
-      - NL_1405
-      - 梦歌|BGP中转|解锁流媒体_340
-      - Youtue/ONE·资源核 13
-      - ZZ_4745
-      - 美国（TG@阿伟科技/油管） 9
-      - +VN_38601+@WangCai_1+16
-      - 澳大利亚（TG@阿伟科技/油管）
-      - +HK_38006+@WangCai_1+18
-      - 梦歌|BGP中转|解锁流媒体_135
-      - 美国【YouTube由零开始】 3
-      - 梦歌|BGP中转|解锁流媒体_27
-      - _US_美国 19
-      - 卢森堡（TG@阿伟科技/油管）
-      - US_114+TG@peekfun
-      - _US_美国 20
-      - 美国（TG@阿伟科技/油管） 10
-      - _US_美国 21
-      - ZZ_4676
-      - NL_67+TG@peekfun
-      - +HK_38007+@WangCai_1+21
-      - 印度184-12@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _US_美国 22
-      - US_131+TG@peekfun
-      - US_140+TG@peekfun
-      - 梦歌|BGP中转|解锁流媒体_289
-      - ZZ_180+TG@peekfun
-      - 印度【YouTube由零开始】 5
-      - _US_美国 23
-      - US_108+TG@peekfun
-      - Relay_🇺🇸US-🇺🇸US_117
-      - _US_美国 24
-      - 美国（TG@阿伟科技/油管） 11
-      - ♥️YouTube梦歌♥️_194
-      - ZZ_4661
-      - NL_1391
-      - +HK_38006+@WangCai_1+9
-      - YouTube阿伟科技 9
-      - US_111+TG@peekfun
+      - 新加坡（TG@阿伟科技/油管）
+      - KR-高速节点购买：v1.mk/vip（浏览器打开）
+      - TG:YouTubeAYANG科技大师 2
+      - KR-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港杨枝甘露 03-D
+      - 新加坡（TG@阿伟科技/油管） 2
+      - 澳大利亚丨筋斗云丨Weoworks提供
+      - US_3348
       - 英国【YouTube由零开始】
-      - 德国【YouTube由零开始】
-      - _US_美国 25
-      - _GB_英国
-      - 德国（TG@阿伟科技/油管）
-      - ZZ_4477
-      - 美国（TG@阿伟科技/油管） 12
-      - +HK_38006+@WangCai_1+13
-      - 德国【YouTube由零开始】 2
-      - 印度184-27@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _PL_波兰
-      - 梦歌|BGP中转|解锁流媒体_169
-      - +JP_38305+@WangCai_1+16
-      - ♥️YouTube梦歌♥️_27
-      - 印度184-17@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 美国【YouTube由零开始】 4
-      - Youtue/ONE·资源核 10 2
-      - NL_1418
-      - 英国【YouTube由零开始】 2
-      - Ytb:鹏哥分享_英国_32
-      - 印度184-11@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _US_美国 26
-      - Youtue/ONE·资源核 14
-      - +HK_38009+@WangCai_1+12
-      - ♥️YouTube梦歌♥️_24
-      - NL_1423
-      - Youtue/ONE·资源核 15
-      - Youtue/ONE·资源核 16
-      - ♥️YouTube梦歌♥️_37
-      - Youtue/ONE·资源核 17
-      - ♥️YouTube梦歌♥️_33
-      - 美国（TG@阿伟科技/油管） 13
-      - Youtue/ONE·资源核 18
-      - Ytb:鹏哥分享_30
-      - 梦歌|BGP中转|解锁流媒体_39
-      - github.com/freefq - 美国  53
-      - _GB_英国 2
-      - 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_94
-      - ♥️YouTube梦歌♥️_41
-      - YouTube阿伟科技 10
-      - Youtue/ONE·资源核 14 2
-      - Youtube/ONE·资源核 2
-      - 德国【YouTube由零开始】 3
-      - ZZ_179+TG@peekfun
-      - 英国【YouTube由零开始】 3
-      - _US_美国 27
-      - b-mc.txwd.xyz:50051
-      - 荷兰节点更新 https://bit.ly/36b6iJh-clone
-      - 英国【YouTube由零开始】 4
-      - _GB_英国 3
-      - 美国【YouTube由零开始】 5
-      - github.com/freefq - 美国Microsoft数据中心 23
-      - _GB_英国 4
-      - _GB_英国 5
-      - _GB_英国 6
-      - +HK_38009+@WangCai_1
-      - 美国（TG@阿伟科技/油管） 14
-      - 印度184-4 联通100M+4K -2 节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 5
-      - 美国【YouTube由零开始】 6
-      - _DE_德国
-      - 澳大利亚（TG@阿伟科技/油管） 2
-      - +HK_38004+@WangCai_1+20
-      - _PL_波兰 2
-      - _PL_波兰 3
-      - _PL_波兰 4
-      - US_150+TG@peekfun
-      - YouTube阿伟科技 11
-      - 美国【YouTube由零开始】 7
-      - 德国【YouTube由零开始】 4
-      - "@SSRSUB-俄罗斯V04-付费推荐:dlj.tf/ssrsub"
-      - US_133+TG@peekfun
-      - 加拿大【YouTube由零开始】
-      - +HK_38010+@WangCai_1+20
+      - 台湾（TG@阿伟科技/油管）
+      - SG-高速节点购买：v1.mk/vip（浏览器打开）
+      - 梦歌|BGP中转|解锁Netflix_8
+      - TW-高速节点购买：v1.mk/vip（浏览器打开）
+      - US_3062
+      - 台湾（TG@阿伟科技/油管） 2
+      - 高速节点购买：v1.mk/vip（浏览器打开）
+      - 科技网络
+      - 日本（TG@阿伟科技/油管） 2
+      - 高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港（TG@阿伟科技/油管） 2
+      - HK-高速节点购买：v1.mk/vip（浏览器打开）
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - YouTube@阿阳AYANG
+      - 新加坡（TG@阿伟科技/油管） 3
+      - YouTube@阿阳AYANG 2
+      - 台湾（TG@阿伟科技/油管） 3
+      - 新加坡（TG@阿伟科技/油管） 4
       - 荷兰（TG@阿伟科技/油管）
-      - 加拿大【YouTube由零开始】 2
-      - 加拿大【YouTube由零开始】 3
-      - 印度184-18@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-32 联通28.64m 节点更新 https://bit.ly/36b6iJh
-      - _PL_波兰 5
-      - 104.17.177.116
-      - 印度184-20@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 德国【YouTube由零开始】 5
-      - 梦歌|BGP中转|解锁流媒体_116
-      - _PL_波兰 6
-      - _PL_波兰 7
-      - +HK_38010+@WangCai_1+12
-      - 梦歌|BGP中转|解锁流媒体_69
-      - _PL_波兰 8
-      - HK_38009+@WangCai_1
-      - _GB_英国 7
-      - 英国【YouTube由零开始】 6
-      - +HK_38010+@WangCai_1+18
-      - +DE_38607+@WangCai_1
-      - 印度184-23@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-24@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 7
-      - 梦歌|BGP中转|解锁流媒体_277
-      - 梦歌|BGP中转|解锁流媒体_300
-      - _PL_波兰 9
-      - 荷兰（TG@阿伟科技/油管） 2
-      - +HK_38008+@WangCai_1+14
-      - 加拿大（TG@阿伟科技/油管）
-      - github.com/freefq - 美国CloudFlare节点 64
-      - _NL_荷兰
-      - 印度184-34 联通14.9 节点更新 https://bit.ly/36b6iJh
-      - 印度184-39 联通11.11 节点更新 https://bit.ly/36b6iJh
-      - +HK_38001+@WangCai_1+3
-      - +HK_38006+@WangCai_1+8
-      - 梦歌|BGP中转|解锁流媒体_271
-      - 科技网络 3
-      - _NL_荷兰 2
-      - github.com/freefq - 美国CloudFlare公司CDN节点 20
-      - _NL_荷兰 3
-      - 美国【YouTube由零开始】 8
-      - YouTube阿伟科技 12
-      - AU_04 TG@peekfun
-      - _NL_荷兰 4
-      - _GB_英国 8
-      - 英国【YouTube由零开始】 8
-      - 印度184-10@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 台湾（TG@阿伟科技/油管） 6
-      - 印度184-38 联通11.55 节点更新 https://bit.ly/36b6iJh
-      - 美国【YouTube由零开始】 9
-      - +HK_38009+@WangCai_1+3
-      - Youtube/ONE·资源核 3
-      - +TW_38103+@WangCai_1+20
-      - 印度184-28@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +HK_38009+@WangCai_1+13
-      - 印度184-8@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 9
-      - _AU_澳大利亚
-      - github.com/freefq - 美国  29
-      - +JP_38303+@WangCai_1+3
-      - 土耳其（TG@阿伟科技/油管）
-      - _PL_波兰 10
-      - +HK_38009+@WangCai_1+18
-      - 日本（TG@阿伟科技/油管
-      - +HK_38002+@WangCai_1
-      - Relay_🇨🇳CN-🇺🇸US_502
-      - +HK_38005+@WangCai_1+18
-      - +HK_38008+@WangCai_1+4
-      - 印度184-15@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 172.104.157.118:5003
-      - 梦歌|BGP中转|解锁流媒体_79
-      - 梦歌|BGP中转|解锁流媒体_28
-      - 香港杨枝甘露 03
-      - 香港（TG@阿伟科技/油管） 6
-      - 香港（TG@阿伟科技/油管） 7
-      - 西美高速2
-      - +HK_38009+@WangCai_1+16
-      - +TW_38102+@WangCai_1+20
-      - +TH_38605+@WangCai_1+3
-      - 印度184-36 联通12.71 节点更新 https://bit.ly/36b6iJh
-      - +HK_38006+@WangCai_1+16
-      - Youtue/ONE·资源核 19
-      - +HK_38003+@WangCai_1+13
-      - Relay_🇦🇺AU-🇦🇺AU_155
-      - Relay_🇨🇳CN-🇺🇸US_505
-      - 科技网络 4
-      - +DE_38607+@WangCai_1+3
-      - +HK_38003+@WangCai_1+9
-      - +PH_38603+@WangCai_1+5
-      - Relay_🇨🇳CN-🇺🇸US_493
-      - Relay_🇨🇳CN-🇨🇦CA_472
-      - Youtue/ONE·资源核 20
-      - +TW_38104+@WangCai_1+3
-      - Relay_🇨🇳CN-🇯🇵JP_526
-      - +HK_38004+@WangCai_1+16
-      - +HK_38009+@WangCai_1+4
-      - +TH_38605+@WangCai_1+2
-      - +HK_38007+@WangCai_1+5
-      - github.com/freefq - 美国3COM公司企业网 51
-      - Youtue/ONE·资源核 21
-      - Youtue/ONE·资源核 22
-      - +HK_38010+@WangCai_1+19
-      - 香港（TG@阿伟科技/油管） 20
-      - 印度184-16@1Gbps节点更新 https://bit.ly/36b6iJh
-      - Relay_🇦🇺AU-🇦🇺AU_10
-      - 印度184-9@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh
-      - Youtue/ONE·资源核 23
-      - +HK_38010+@WangCai_1+5
-      - Youtue/ONE·资源核 46
-      - 欢迎订阅钱科技0429_🇯🇵_JP_日本_20
-      - 美国【YouTube由零开始】 10
-      - +HK_38009+@WangCai_1+19
-      - +HK_38001+@WangCai_1+2
-      - 德国【YouTube由零开始】 6
-      - +HK_38007+@WangCai_1+8
-      - GB_911
-      - +HK_38005+@WangCai_1
-      - +TW_38103+@WangCai_1+3
-      - +HK_38002+@WangCai_1+8
-      - +HK_38005+@WangCai_1+16
-      - HK_38006+@WangCai_1
-      - +US_38501+@WangCai_1+9
-      - github.com/freefq - 美国  31
-      - _US_美国 28
-      - 梦歌|BGP中转|解锁流媒体_7
-      - +HK_38006+@WangCai_1+17
-      - 加拿大【YouTube由零开始】 4
-      - +SG_38204+@WangCai_1+21
-      - 印度184-21联通100M+4K   节点更新 https://bit.ly/36b6iJh
-      - 印度184-19@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 德国【YouTube由零开始】 7
-      - _JP_日本
-      - NL_673
-      - +HK_38008+@WangCai_1+21
-      - 美国【YouTube由零开始】 11
-      - +HK_38002+@WangCai_1+2
-      - +US_38502+@WangCai_1+4
-      - 印度184-29@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _JP_日本 2
-      - _JP_日本 3
-      - 南非（TG@阿伟科技/油管）
-      - _US_美国 29
-      - +HK_38007+@WangCai_1
-      - 科技网络 5
-      - US_103+TG@peekfun
-      - +HK_38010+@WangCai_1+17
-      - Relay_🇺🇸US-🇺🇸US_3866
-      - 印度【YouTube由零开始】 6
-      - +JP_38304+@WangCai_1+21
-      - +HK_38003+@WangCai_1+19
-      - +JP_38304+@WangCai_1+2
-      - US_97+TG@peekfun
-      - +US_38503+@WangCai_1+18
-      - +TW_38101+@WangCai_1+4
-      - HK_38009+@WangCai_1 2
-      - 印度184-40 联通10.26 节点更新 https://bit.ly/36b6iJh
-      - _SG_新加坡
-      - Youtue/ONE·资源核 24
-      - +HK_38007+@WangCai_1+2
-      - 美国【YouTube由零开始】 12
-      - HK_38004+@WangCai_1
-      - +HK_38006+@WangCai_1+14
-      - +HK_38001+@WangCai_1+17
-      - +HK_38008+@WangCai_1+16
-      - +HK_38005+@WangCai_1+13
-      - Relay_🇨🇳CN-🇯🇵JP_481
-      - Youtue/ONE·资源核 25
-      - +HK_38007+@WangCai_1+16
-      - +TW_38103+@WangCai_1+19
-      - +HK_38002+@WangCai_1+17
-      - +HK_38002+@WangCai_1+20
-      - 美国【YouTube由零开始】 13
-      - +HK_38004+@WangCai_1+21
-      - 梦歌|BGP中转|解锁流媒体_279
-      - +PH_38603+@WangCai_1+6
-      - _PL_波兰 11
-      - +HK_38002+@WangCai_1+16
-      - Youtue/ONE·资源核 26
-      - +HK_38009+@WangCai_1+8
-      - +HK_38001+@WangCai_1+18
-      - +HK_38008+@WangCai_1+8
-      - +HK_38001+@WangCai_1+6
-      - +HK_38002+@WangCai_1+4
-      - +TH_38605+@WangCai_1+13
-      - +KR_38401+@WangCai_1+4
-      - +TW_38102+@WangCai_1+2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - +TW_38104+@WangCai_1+17
-      - Relay_🇨🇳CN-🇺🇸US_506
-      - 印度184-13@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +FR_38609+@WangCai_1+3
-      - 欢迎订阅钱科技0429_🇺🇸_US_美国_33
-      - 加拿大【YouTube由零开始】 5
-      - +HK_38005+@WangCai_1+12
-      - +SG_38203+@WangCai_1+3
-      - 印度184-26@1Gbps节点更新 https://bit.ly/36b6iJh
-      - US_112+TG@peekfun
-      - 新加坡【YouTube由零开始】
-      - +US_38502+@WangCai_1+13
-      - +KR_38402+@WangCai_1+8
-      - 印度184-14@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-7@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +HK_38009+@WangCai_1+14
-      - Youtue/ONE·资源核 27
-      - 英国【YouTube由零开始】 10
-      - +HK_38006+@WangCai_1+3
-      - TH_38605+@WangCai_1
-      - +HK_38010+@WangCai_1+8
-      - US_126+TG@peekfun
-      - _US_美国 30
-      - US_128+TG@peekfun
-      - +HK_38010+@WangCai_1+13
-      - +TW_38104+@WangCai_1+13
-      - _US_美国 31
-      - HK_38003+@WangCai_1
-      - +KR_38401+@WangCai_1
-      - +TW_38101+@WangCai_1+13
-      - +PH_38603+@WangCai_1+2
+      - 韩国丨筋斗云丨Weoworks提供
+      - 台湾（TG@阿伟科技/油管） 4
+      - 节点更新 https://bit.ly/36b6iJh
+      - Ytb:鹏哥分享_印度_33
+      - GB-高速节点购买：v1.mk/vip（浏览器打开）
+      - 美国（TG@阿伟科技/油管）
+      - NL-高速节点购买：v1.mk/vip（浏览器打开）
+      - TG:YouTubeAYANG科技大师 3
+      - Ytb:鹏哥分享_韩国_9
+      - 梦歌|BGP中转|解锁Netflix_31
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 日本（TG@阿伟科技/油管） 3
+      - DE_653
+      - _DE_德国
+      - 香港（TG@阿伟科技/油管） 3
+      - YouTube@阿阳AYANG 3
+      - 高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 台湾（TG@阿伟科技/油管） 5
+      - _DE_德国 2
+      - 梦歌|BGP中转|解锁Netflix_17
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 日本2丨筋斗云丨Weoworks提供
+      - Ytb:鹏哥分享_新加坡_105
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 梦歌|BGP中转|解锁Netflix_3
+      - Ytb:鹏哥分享_31
+      - 梦歌|BGP中转|解锁Netflix_5
+      - Relay_🇨🇦CA-🇨🇦CA_425
+      - TG:YouTubeAYANG科技大师 4
+      - US_3082
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 梦歌|BGP中转|解锁Netflix_44
+      - 梦歌|BGP中转|解锁Netflix_48
+      - _CH_瑞士
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - Youtue/ONE·资源核
+      - _CH_瑞士 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 新加坡（TG@阿伟科技/油管） 5
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - _DE_德国 3
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - 印度丨筋斗云丨Weoworks提供
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - AU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 梦歌|BGP中转|解锁Netflix_42
+      - DE_662
+      - Ytb:鹏哥分享_英国_17
+      - IN-高速节点购买：v1.mk/vip（浏览器打开）
+      - 英国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管） 2
+      - 印度（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 4
+      - "@SSRSUB-V07-付费推荐:suo.yt/ssrsub"
       - 韩国（TG@阿伟科技/油管）
-      - +HK_38002+@WangCai_1+21
-      - Youtue/ONE·资源核 28
-      - +HK_38008+@WangCai_1
-      - +HK_38010+@WangCai_1+6
-      - SG
-      - 印度184-3@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +US_38503+@WangCai_1+2
-      - +TW_38103+@WangCai_1+17
-      - +TW_38104+@WangCai_1+21
-      - +JP_38301+@WangCai_1+21
-      - +HK_38010+@WangCai_1+3
-      - Relay_🇨🇳CN-🇯🇵JP_522
-      - +TW_38105+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_521
-      - 加拿大【YouTube由零开始】 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - +SG_38204+@WangCai_1
-      - 新加坡 【由零开始YouTube】 2
-      - 欢迎订阅钱科技0429_🇫🇷_FR_法国_3
-      - +JP_38301+@WangCai_1+3
-      - (资源分享师)🇨🇳zg++21
-      - +US_38503+@WangCai_1+21
-      - +KR_38402+@WangCai_1+17
-      - +US_38503+@WangCai_1+7
-      - 韩国【YouTube由零开始】
-      - +HK_38003+@WangCai_1+21
-      - +HK_38003+@WangCai_1+17
-      - +US_38501+@WangCai_1+3
-      - _US_美国 32
-      - +SG_38204+@WangCai_1+18
-      - +SG_38204+@WangCai_1+8
-      - +HK_38002+@WangCai_1+14
-      - +KR_38401+@WangCai_1+2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - +SG_38203+@WangCai_1+8
-      - Ytb:鹏哥分享_新加坡_70
-      - 美国 【由零开始YouTube】 2
-      - 美国【YouTube由零开始】 14
-      - +JP_38305+@WangCai_1+21
-      - +HK_38010+@WangCai_1+16
-      - +TW_38105+@WangCai_1+2
-      - 印度184-33 联通15.02m  节点更新 https://bit.ly/36b6iJh
-      - +HK_38004+@WangCai_1+4
-      - +HK_38003+@WangCai_1
-      - 美国【YouTube由零开始】 15
-      - +US_38501+@WangCai_1+17
-      - +TW_38104+@WangCai_1+16
-      - +TH_38605+@WangCai_1+21
-      - +JP_38305+@WangCai_1+13
-      - +DE_38607+@WangCai_1+8
-      - +KR_38402+@WangCai_1+21
-      - +HK_38007+@WangCai_1+4
-      - +KR_38401+@WangCai_1+17
-      - +JP_38303+@WangCai_1+8
-      - +HK_38003+@WangCai_1+20
-      - +HK_38003+@WangCai_1+3
-      - +PH_38603+@WangCai_1+13
-      - Youtube/ONE·资源核 4
-      - 14.29.124.168:25256
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 美国2丨筋斗云丨Weoworks提供
+      - Ytb:鹏哥分享_中国_75
+      - 美国（TG@阿伟科技/油管） 3
+      - 梦歌|BGP中转|解锁Netflix_45
+      - _DE_德国 4
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - 【YouTube由零开始】
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 美国（TG@阿伟科技/油管） 4
+      - CZ-高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本（TG@阿伟科技/油管） 4
+      - 梦歌|BGP中转|解锁Netflix_47
+      - CZ-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港（TG@阿伟科技/油管） 5
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
       - "|20.89Mb"
-      - 14.29.124.168:25220
-      - +HK_38004+@WangCai_1+13
-      - +US_38501+@WangCai_1+13
-      - +TH_38605+@WangCai_1+17
-      - (资源分享师)🇨🇳zg++6
-      - (资源分享师)🇨🇳zg++11
-      - (资源分享师)🇨🇳zg++7
-      - CN_477(资源分享师)
-      - Youtube/ONE·资源核 5
-      - (资源分享师)🇨🇳zg++3
-      - 14.29.124.168:25294
-      - (资源分享师)🇨🇳zg++2
-      - CN_463
-      - CN_447
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - +JP_38304+@WangCai_1+9
-      - 38.114.114.19:6379
-      - (资源分享师)🇨🇳zg++15
-      - +HK_38010+@WangCai_1+9
-      - YouTube阿伟科技 13
-      - +TW_38104+@WangCai_1+2
-      - +TH_38605+@WangCai_1+19
-      - +TH_38605+@WangCai_1+20
-      - +KR_38402+@WangCai_1+13
-      - Relay_🇺🇦UA-🇺🇦UA_1769
-      - +US_38503+@WangCai_1+3
-      - Youtube/ONE·资源核 6
-      - +TW_38101+@WangCai_1+2
-      - +KR_38401+@WangCai_1+21
-      - +JP_38304+@WangCai_1
-      - +KR_38401+@WangCai_1+16
-      - +KR_38401+@WangCai_1+8
-      - +AR_38611+@WangCai_1+22
-      - US_172 TG@peekfun
-      - +HK_38004+@WangCai_1+8
-      - +US_38503+@WangCai_1+8
-      - US_38503+@WangCai_1
-      - KR_38401+@WangCai_1
-      - +HK_38009+@WangCai_1+17
-      - +HK_38001+@WangCai_1
-      - (资源分享师)🇨🇳zg++16
-      - +PH_38603+@WangCai_1+18
-      - US_141+TG@peekfun
-      - +TW_38102+@WangCai_1+6
-      - +TW_38101+@WangCai_1+3
-      - +DE_38607+@WangCai_1+20
-      - +HK_38005+@WangCai_1+21
-      - +TW_38102+@WangCai_1+3
-      - 科技网络 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - +KR_38402+@WangCai_1+19
-      - +TW_38105+@WangCai_1+19
-      - _PL_波兰 12
-      - +JP_38304+@WangCai_1+17
-      - +TW_38103+@WangCai_1+13
-      - +US_38501+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_302
-      - GB_907
-      - +TW_38104+@WangCai_1+8
-      - +US_38504+@WangCai_1+21
-      - +TW_38103+@WangCai_1+18
-      - TW_38103+@WangCai_1
-      - +FR_38609+@WangCai_1+2
-      - +JP_38303+@WangCai_1+2
-      - 印度184-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - +HK_38001+@WangCai_1+21
-      - +JP_38301+@WangCai_1
-      - +JP_38301+@WangCai_1+6
-      - +JP_38301+@WangCai_1+20
-      - +TH_38605+@WangCai_1
-      - +KR_38402+@WangCai_1+20
-      - +TW_38105+@WangCai_1+21
-      - github.com/freefq - 美国CloudFlare节点 22
-      - +US_38502+@WangCai_1
-      - +TW_38103+@WangCai_1+12
-      - +KR_38402+@WangCai_1
-      - +US_38503+@WangCai_1+19
-      - github.com/freefq - 北美地区  12
-      - +US_38501+@WangCai_1+19
-      - +JP_38301+@WangCai_1+2
-      - +JP_38304+@WangCai_1+6
-      - +FR_38609+@WangCai_1+19
-      - +HK_38010+@WangCai_1
-      - +TW_38104+@WangCai_1+7
-      - +TW_38103+@WangCai_1+6
-      - _GB_英国 9
-      - +JP_38301+@WangCai_1+8
-      - +HK_38008+@WangCai_1+17
-      - +TW_38101+@WangCai_1+18
-      - +DE_38607+@WangCai_1+13
-      - +TW_38101+@WangCai_1+17
-      - +JP_38304+@WangCai_1+8
-      - +JP_38305+@WangCai_1
-      - +TW_38104+@WangCai_1+19
-      - +TW_38103+@WangCai_1+16
-      - +SG_38203+@WangCai_1+20
-      - +US_38504+@WangCai_1+2
-      - +FR_38609+@WangCai_1+13
-      - JP_38304+@WangCai_1
-      - +JP_38305+@WangCai_1+20
-      - 科技网络 7
-      - +JP_38301+@WangCai_1+17
-      - +US_38503+@WangCai_1+13
-      - +TW_38103+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_192
-      - 美国（TG@阿伟科技/油管） 15
-      - +TW_38103+@WangCai_1+8
-      - +JP_38301+@WangCai_1+19
-      - +KR_38402+@WangCai_1+3
-      - 科技网络 8
-      - +JP_38305+@WangCai_1+17
-      - +JP_38304+@WangCai_1+4
-      - +US_38502+@WangCai_1+22
-      - 印度184-35 联通14.07 节点更新 https://bit.ly/36b6iJh
-      - +HK_38004+@WangCai_1+12
-      - TW_38102+@WangCai_1
-      - +TH_38605+@WangCai_1+16
-      - 美国【YouTube由零开始】 16
-      - +TW_38102+@WangCai_1+16
-      - +TW_38101+@WangCai_1+16
-      - +HK_38003+@WangCai_1+16
-      - +FR_38609+@WangCai_1+16
-      - +TW_38102+@WangCai_1+8
-      - +SG_38204+@WangCai_1+20
-      - +DE_38607+@WangCai_1+2
-      - +US_38501+@WangCai_1+2
-      - +US_38504+@WangCai_1+19
-      - github.com/freefq - 广东省广州市黄埔区珠江宽频 14
-      - +SG_38204+@WangCai_1+14
-      - JP_38305+@WangCai_1
-      - +TH_38605+@WangCai_1+8
-      - +US_38504+@WangCai_1+16
-      - +DE_38607+@WangCai_1+16
-      - github.com/freefq - 广东省深圳市腾讯云 16
-      - +JP_38304+@WangCai_1+13
-      - +TW_38103+@WangCai_1+2
-      - +SG_38203+@WangCai_1+12
-      - +TW_38104+@WangCai_1+5
-      - TW_38105+@WangCai_1
-      - +US_38502+@WangCai_1+19
-      - +US_38502+@WangCai_1+2
-      - +US_38503+@WangCai_1+17
-      - +US_38502+@WangCai_1+21
-      - +SG_38203+@WangCai_1+16
-      - +DE_38607+@WangCai_1+17
-      - +SG_38203+@WangCai_1
-      - +HK_38005+@WangCai_1+4
-      - 乌克兰【YouTube由零开始】
-      - +TW_38102+@WangCai_1+5
-      - +PH_38603+@WangCai_1+14
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 美国（TG@阿伟科技/油管） 5
+      - 高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 科技网络 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - YouTube@阿阳AYANG 4
+      - _AU_澳大利亚
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - 俄罗斯（TG@阿伟科技/油管）
+      - _CH_瑞士 3
+      - 新加坡 【由零开始YouTube】
+      - 美国（TG@阿伟科技/油管） 6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 台湾（TG@阿伟科技/油管） 6
+      - 新加坡（TG@阿伟科技/油管） 6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 11
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -6254,775 +1161,140 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 梦歌|BGP中转|解锁流媒体_57
-      - cucu-aa.txwd.xyz:50007
-      - 梦歌|BGP中转|解锁流媒体_106
-      - 梦歌|BGP中转|解锁流媒体_105
-      - 梦歌|BGP中转|解锁流媒体_41
-      - 梦歌|BGP中转|解锁流媒体_212
-      - 梦歌|BGP中转|解锁流媒体_73
-      - ♥️YouTube梦歌♥️_53
-      - 梦歌|BGP中转|解锁流媒体_68
-      - 香港【YouTube由零开始】
-      - 香港（TG@阿伟科技/油管）
-      - Ytb:鹏哥分享_美国_90
-      - 梦歌|BGP中转|解锁流媒体_55
-      - 梦歌|BGP中转|解锁流媒体_270
-      - 梦歌|BGP中转|解锁流媒体_77
-      - 梦歌|BGP中转|解锁流媒体_5
-      - cmcm-a.txwd.xyz:50222
-      - 梦歌|BGP中转|解锁流媒体_301
-      - 台湾（TG@阿伟科技/油管）
+      - 梦歌|BGP中转|解锁Netflix_6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
       - 日本（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_51
-      - 香港煎酿三宝 04
-      - 新加坡（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_19
-      - 梦歌|BGP中转|解锁流媒体_32
-      - 梦歌|BGP中转|解锁流媒体_127
-      - 新加坡（TG@阿伟科技/油管） 2
-      - 梦歌|BGP中转|解锁流媒体_34
-      - 梦歌|BGP中转|解锁流媒体_88
-      - 台湾（TG@阿伟科技/油管） 2
-      - 香港杨枝甘露 03-D
-      - 台湾-04_15
-      - 台湾-01_12
-      - 梦歌|BGP中转|解锁流媒体_24
-      - 日本（TG@阿伟科技/油管） 2
-      - 梦歌|BGP中转|解锁流媒体_125
-      - 梦歌|BGP中转|解锁流媒体_44
-      - 梦歌|BGP中转|解锁流媒体_65
-      - 梦歌|BGP中转|解锁流媒体_45
-      - ♥️YouTube梦歌♥️_56
-      - 梦歌|BGP中转|解锁流媒体_81
-      - 台湾（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_12
-      - Relay_🇺🇸US-🇺🇸US_3771
-      - +HK_38003+@WangCai_1+8
-      - 梦歌|BGP中转|解锁流媒体_4
-      - 新加坡 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_30
-      - 香港（TG@阿伟科技/油管） 2
-      - 台湾-02_13
-      - 梦歌|BGP中转|解锁流媒体_25
-      - 梦歌|BGP中转|解锁流媒体_8
-      - 印度（TG@阿伟科技/油管）
-      - YouTube阿伟科技 5
-      - Relay_🇨🇳CN-🇷🇴RO_478
-      - 日本（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_15
-      - +HK_38007+@WangCai_1+13
-      - 梦歌|BGP中转|解锁流媒体_50
-      - (资源分享师)🇨🇳zg++14
-      - 梦歌|BGP中转|解锁流媒体_53
-      - 梦歌|BGP中转|解锁流媒体_49
-      - YouTube阿伟科技 4
-      - +HK_38007+@WangCai_1+3
-      - +JP_38305+@WangCai_1+3
-      - 梦歌|BGP中转|解锁流媒体_2
-      - 美国 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_74
-      - 梦歌|BGP中转|解锁流媒体_174
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁流媒体_157
-      - ♥️YouTube梦歌♥️_10
-      - 梦歌|BGP中转|解锁流媒体_256
-      - YouTube阿伟科技
+      - 梦歌|BGP中转|解锁Netflix_26
+      - TG:YouTubeAYANG科技大师
+      - 梦歌|BGP中转|解锁Netflix_46
+      - 梦歌|BGP中转|解锁Netflix_7
+      - 日本1丨筋斗云丨Weoworks提供
+      - 香港（TG@阿伟科技/油管）
       - 香港煎酿三宝 04-D
-      - 香港（TG@阿伟科技/油管） 3
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - PH_38603+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_33
-      - 梦歌|BGP中转|解锁流媒体_147
-      - 梦歌|BGP中转|解锁流媒体_86
-      - 梦歌|BGP中转|解锁流媒体_26
-      - 梦歌|BGP中转|解锁流媒体_150
-      - 美国（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_17
-      - 梦歌|BGP中转|解锁流媒体_35
-      - YouTube阿伟科技 2
-      - 梦歌|BGP中转|解锁流媒体_43
-      - ♥️YouTube梦歌♥️_120
-      - aaa-666.txwd.xyz:60017
-      - 梦歌|BGP中转|解锁流媒体_63
-      - YouTube阿伟科技 3
-      - ♥️YouTube梦歌♥️_165
-      - +PH_38603+@WangCai_1+3
-      - Relay_🇨🇳CN-🇺🇸US_480
-      - 梦歌|BGP中转|解锁流媒体_76
-      - +HK_38007+@WangCai_1+17
-      - Ytb:鹏哥分享_中国_67
-      - 梦歌|BGP中转|解锁流媒体_62
-      - 梦歌|BGP中转|解锁流媒体_92
-      - +JP_38304+@WangCai_1+19
-      - 香港咖喱鱼蛋 01-D
-      - 中国 【由零开始YouTube】
-      - 梦歌|BGP中转|解锁流媒体_42
-      - 印度【YouTube由零开始】
-      - aaa-666.txwd.xyz:60006
-      - 台湾（TG@阿伟科技/油管） 4
-      - 梦歌|BGP中转|解锁流媒体_182
-      - 美国（TG@阿伟科技/油管） 2
-      - 新加坡（TG@阿伟科技/油管） 4
-      - 梦歌|BGP中转|解锁流媒体_84
-      - +HK_38006+@WangCai_1+2
-      - 节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_58
-      - +SG_38201+@WangCai_1+3
-      - _HK_香港
-      - +US_38501+@WangCai_1+22
-      - (资源分享师)SSR+7
-      - +HK_38006+@WangCai_1+20
-      - 香港（TG@阿伟科技/油管） 4
-      - 台湾（TG@阿伟科技/油管） 5
-      - Youtue/ONE·资源核
-      - _US_美国
-      - USA IEPL.A/03 x1.0
-      - github.com/freefq - 美国CloudFlare节点 28
-      - 印度【YouTube由零开始】 2
-      - _US_美国 2
-      - 马恩岛（TG@阿伟科技/油管）
-      - Relay_🇨🇳CN-🇺🇸US_499
-      - 科技网络
-      - b-mc.txwd.xyz:50055
-      - Youtue/ONE·资源核 2
-      - US_118+TG@peekfun
-      - Youtue/ONE·资源核 3
-      - 梦歌|BGP中转|解锁流媒体_20
-      - Relay_🇺🇸US-🇺🇸US_3743
-      - 梦歌|BGP中转|解锁流媒体_129
-      - 法国-节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_143
-      - _US_美国 3
-      - _US_美国 4
-      - Youtue/ONE·资源核 4
-      - 梦歌|BGP中转|解锁流媒体_38
-      - +HK_38004+@WangCai_1+3
-      - 美国（TG@阿伟科技/油管） 3
-      - Youtue/ONE·资源核 5
-      - 167.88.61.70:8119
-      - YouTube阿伟科技 6
-      - 梦歌|BGP中转|解锁流媒体_323
-      - Youtue/ONE·资源核 6
-      - github.com/freefq - 台湾省中华电信 7
-      - 167.88.61.70:8882
-      - Youtue/ONE·资源核 7
-      - AU_149
-      - 印度【YouTube由零开始】 3
-      - +JP_38301+@WangCai_1+13
-      - 167.88.61.70:8008
-      - KR_364
-      - US_109+TG@peekfun
-      - +HK_38006+@WangCai_1+19
-      - 印度【YouTube由零开始】 4
-      - 梦歌|BGP中转|解锁流媒体_16
-      - youtube阿伟科技
-      - _US_美国 5
-      - 科技网络 2
-      - _US_美国 6
-      - _US_美国 7
-      - US_119+TG@peekfun
-      - 美国（TG@阿伟科技/油管） 4
-      - 美国（TG@阿伟科技/油管） 5
-      - 167.88.61.70:2376
-      - github.com/freefq - 澳大利亚  47
-      - Youtue/ONE·资源核 8
-      - 直连-日本T-A 2_vmess_ws
-      - 俄罗斯（TG@阿伟科技/油管）
-      - _US_美国 8
-      - 香港（TG@阿伟科技/油管） 14
-      - 英国（TG@阿伟科技/油管）
-      - _US_美国 9
-      - +HK_38008+@WangCai_1+3
-      - Youtube/ONE·资源核
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - 美国（TG@阿伟科技/油管） 6
-      - +TH_38605+@WangCai_1+14
-      - YouTube阿伟科技 7
-      - 美国（TG@阿伟科技/油管） 18
-      - _US_美国 14
-      - _US_美国 15
-      - USA CM.C/01 x0.3
-      - Relay_🇺🇸US-🇺🇸US_81
-      - 中国【YouTube由零开始】
-      - 梦歌|BGP中转|解锁流媒体_205
-      - Relay_🇺🇸US-🇺🇸US_113
-      - USA IEPL.A/02 x1.0
-      - Youtue/ONE·资源核 9
-      - 梦歌|BGP中转|解锁流媒体_136
-      - 美国_节点更新 https://bit.ly/36b6iJh_68
-      - _US_美国 16
-      - US_147+TG@peekfun
-      - Youtue/ONE·资源核 10
-      - Youtue/ONE·资源核 11
-      - 节点更新 https://bit.ly/36b6iJh 2
-      - +HK_38001+@WangCai_1+16
-      - Relay_🇺🇸US-🇺🇸US_111
-      - 167.88.61.70:6679
-      - US_162 TG@peekfun
-      - 美国（TG@阿伟科技/油管） 7
-      - 印度（TG@阿伟科技/油管） 2
-      - 美国【YouTube由零开始】
-      - _US_美国 17
-      - 印度184-37 联通11.95 节点更新 https://bit.ly/36b6iJh
-      - US_107+TG@peekfun
-      - 美国（TG@阿伟科技/油管） 8
-      - _US_美国 18
-      - US_143+TG@peekfun
-      - 美国【YouTube由零开始】 2
-      - ♥️YouTube梦歌♥️_31
-      - Youtue/ONE·资源核 12
-      - +US_38504+@WangCai_1+20
-      - YouTube阿伟科技 8
-      - 香港（TG@阿伟科技/油管） 5
-      - Relay_🇯🇵JP-🇯🇵JP_1094
-      - NL_1405
-      - 梦歌|BGP中转|解锁流媒体_340
-      - Youtue/ONE·资源核 13
-      - ZZ_4745
-      - 美国（TG@阿伟科技/油管） 9
-      - +VN_38601+@WangCai_1+16
-      - 澳大利亚（TG@阿伟科技/油管）
-      - +HK_38006+@WangCai_1+18
-      - 梦歌|BGP中转|解锁流媒体_135
-      - 美国【YouTube由零开始】 3
-      - 梦歌|BGP中转|解锁流媒体_27
-      - _US_美国 19
-      - 卢森堡（TG@阿伟科技/油管）
-      - US_114+TG@peekfun
-      - _US_美国 20
-      - 美国（TG@阿伟科技/油管） 10
-      - _US_美国 21
-      - ZZ_4676
-      - NL_67+TG@peekfun
-      - +HK_38007+@WangCai_1+21
-      - 印度184-12@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _US_美国 22
-      - US_131+TG@peekfun
-      - US_140+TG@peekfun
-      - 梦歌|BGP中转|解锁流媒体_289
-      - ZZ_180+TG@peekfun
-      - 印度【YouTube由零开始】 5
-      - _US_美国 23
-      - US_108+TG@peekfun
-      - Relay_🇺🇸US-🇺🇸US_117
-      - _US_美国 24
-      - 美国（TG@阿伟科技/油管） 11
-      - ♥️YouTube梦歌♥️_194
-      - ZZ_4661
-      - NL_1391
-      - +HK_38006+@WangCai_1+9
-      - YouTube阿伟科技 9
-      - US_111+TG@peekfun
+      - 新加坡（TG@阿伟科技/油管）
+      - KR-高速节点购买：v1.mk/vip（浏览器打开）
+      - TG:YouTubeAYANG科技大师 2
+      - KR-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港杨枝甘露 03-D
+      - 新加坡（TG@阿伟科技/油管） 2
+      - 澳大利亚丨筋斗云丨Weoworks提供
+      - US_3348
       - 英国【YouTube由零开始】
-      - 德国【YouTube由零开始】
-      - _US_美国 25
-      - _GB_英国
-      - 德国（TG@阿伟科技/油管）
-      - ZZ_4477
-      - 美国（TG@阿伟科技/油管） 12
-      - +HK_38006+@WangCai_1+13
-      - 德国【YouTube由零开始】 2
-      - 印度184-27@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _PL_波兰
-      - 梦歌|BGP中转|解锁流媒体_169
-      - +JP_38305+@WangCai_1+16
-      - ♥️YouTube梦歌♥️_27
-      - 印度184-17@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 美国【YouTube由零开始】 4
-      - Youtue/ONE·资源核 10 2
-      - NL_1418
-      - 英国【YouTube由零开始】 2
-      - Ytb:鹏哥分享_英国_32
-      - 印度184-11@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _US_美国 26
-      - Youtue/ONE·资源核 14
-      - +HK_38009+@WangCai_1+12
-      - ♥️YouTube梦歌♥️_24
-      - NL_1423
-      - Youtue/ONE·资源核 15
-      - Youtue/ONE·资源核 16
-      - ♥️YouTube梦歌♥️_37
-      - Youtue/ONE·资源核 17
-      - ♥️YouTube梦歌♥️_33
-      - 美国（TG@阿伟科技/油管） 13
-      - Youtue/ONE·资源核 18
-      - Ytb:鹏哥分享_30
-      - 梦歌|BGP中转|解锁流媒体_39
-      - github.com/freefq - 美国  53
-      - _GB_英国 2
-      - 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_94
-      - ♥️YouTube梦歌♥️_41
-      - YouTube阿伟科技 10
-      - Youtue/ONE·资源核 14 2
-      - Youtube/ONE·资源核 2
-      - 德国【YouTube由零开始】 3
-      - ZZ_179+TG@peekfun
-      - 英国【YouTube由零开始】 3
-      - _US_美国 27
-      - b-mc.txwd.xyz:50051
-      - 荷兰节点更新 https://bit.ly/36b6iJh-clone
-      - 英国【YouTube由零开始】 4
-      - _GB_英国 3
-      - 美国【YouTube由零开始】 5
-      - github.com/freefq - 美国Microsoft数据中心 23
-      - _GB_英国 4
-      - _GB_英国 5
-      - _GB_英国 6
-      - +HK_38009+@WangCai_1
-      - 美国（TG@阿伟科技/油管） 14
-      - 印度184-4 联通100M+4K -2 节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 5
-      - 美国【YouTube由零开始】 6
-      - _DE_德国
-      - 澳大利亚（TG@阿伟科技/油管） 2
-      - +HK_38004+@WangCai_1+20
-      - _PL_波兰 2
-      - _PL_波兰 3
-      - _PL_波兰 4
-      - US_150+TG@peekfun
-      - YouTube阿伟科技 11
-      - 美国【YouTube由零开始】 7
-      - 德国【YouTube由零开始】 4
-      - "@SSRSUB-俄罗斯V04-付费推荐:dlj.tf/ssrsub"
-      - US_133+TG@peekfun
-      - 加拿大【YouTube由零开始】
-      - +HK_38010+@WangCai_1+20
+      - 台湾（TG@阿伟科技/油管）
+      - SG-高速节点购买：v1.mk/vip（浏览器打开）
+      - 梦歌|BGP中转|解锁Netflix_8
+      - TW-高速节点购买：v1.mk/vip（浏览器打开）
+      - US_3062
+      - 台湾（TG@阿伟科技/油管） 2
+      - 高速节点购买：v1.mk/vip（浏览器打开）
+      - 科技网络
+      - 日本（TG@阿伟科技/油管） 2
+      - 高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港（TG@阿伟科技/油管） 2
+      - HK-高速节点购买：v1.mk/vip（浏览器打开）
+      - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - YouTube@阿阳AYANG
+      - 新加坡（TG@阿伟科技/油管） 3
+      - YouTube@阿阳AYANG 2
+      - 台湾（TG@阿伟科技/油管） 3
+      - 新加坡（TG@阿伟科技/油管） 4
       - 荷兰（TG@阿伟科技/油管）
-      - 加拿大【YouTube由零开始】 2
-      - 加拿大【YouTube由零开始】 3
-      - 印度184-18@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-32 联通28.64m 节点更新 https://bit.ly/36b6iJh
-      - _PL_波兰 5
-      - 104.17.177.116
-      - 印度184-20@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 德国【YouTube由零开始】 5
-      - 梦歌|BGP中转|解锁流媒体_116
-      - _PL_波兰 6
-      - _PL_波兰 7
-      - +HK_38010+@WangCai_1+12
-      - 梦歌|BGP中转|解锁流媒体_69
-      - _PL_波兰 8
-      - HK_38009+@WangCai_1
-      - _GB_英国 7
-      - 英国【YouTube由零开始】 6
-      - +HK_38010+@WangCai_1+18
-      - +DE_38607+@WangCai_1
-      - 印度184-23@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-24@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 7
-      - 梦歌|BGP中转|解锁流媒体_277
-      - 梦歌|BGP中转|解锁流媒体_300
-      - _PL_波兰 9
-      - 荷兰（TG@阿伟科技/油管） 2
-      - +HK_38008+@WangCai_1+14
-      - 加拿大（TG@阿伟科技/油管）
-      - github.com/freefq - 美国CloudFlare节点 64
-      - _NL_荷兰
-      - 印度184-34 联通14.9 节点更新 https://bit.ly/36b6iJh
-      - 印度184-39 联通11.11 节点更新 https://bit.ly/36b6iJh
-      - +HK_38001+@WangCai_1+3
-      - +HK_38006+@WangCai_1+8
-      - 梦歌|BGP中转|解锁流媒体_271
-      - 科技网络 3
-      - _NL_荷兰 2
-      - github.com/freefq - 美国CloudFlare公司CDN节点 20
-      - _NL_荷兰 3
-      - 美国【YouTube由零开始】 8
-      - YouTube阿伟科技 12
-      - AU_04 TG@peekfun
-      - _NL_荷兰 4
-      - _GB_英国 8
-      - 英国【YouTube由零开始】 8
-      - 印度184-10@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 台湾（TG@阿伟科技/油管） 6
-      - 印度184-38 联通11.55 节点更新 https://bit.ly/36b6iJh
-      - 美国【YouTube由零开始】 9
-      - +HK_38009+@WangCai_1+3
-      - Youtube/ONE·资源核 3
-      - +TW_38103+@WangCai_1+20
-      - 印度184-28@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +HK_38009+@WangCai_1+13
-      - 印度184-8@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】 9
-      - _AU_澳大利亚
-      - github.com/freefq - 美国  29
-      - +JP_38303+@WangCai_1+3
-      - 土耳其（TG@阿伟科技/油管）
-      - _PL_波兰 10
-      - +HK_38009+@WangCai_1+18
-      - 日本（TG@阿伟科技/油管
-      - +HK_38002+@WangCai_1
-      - Relay_🇨🇳CN-🇺🇸US_502
-      - +HK_38005+@WangCai_1+18
-      - +HK_38008+@WangCai_1+4
-      - 印度184-15@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 172.104.157.118:5003
-      - 梦歌|BGP中转|解锁流媒体_79
-      - 梦歌|BGP中转|解锁流媒体_28
-      - 香港杨枝甘露 03
-      - 香港（TG@阿伟科技/油管） 6
-      - 香港（TG@阿伟科技/油管） 7
-      - 西美高速2
-      - +HK_38009+@WangCai_1+16
-      - +TW_38102+@WangCai_1+20
-      - +TH_38605+@WangCai_1+3
-      - 印度184-36 联通12.71 节点更新 https://bit.ly/36b6iJh
-      - +HK_38006+@WangCai_1+16
-      - Youtue/ONE·资源核 19
-      - +HK_38003+@WangCai_1+13
-      - Relay_🇦🇺AU-🇦🇺AU_155
-      - Relay_🇨🇳CN-🇺🇸US_505
-      - 科技网络 4
-      - +DE_38607+@WangCai_1+3
-      - +HK_38003+@WangCai_1+9
-      - +PH_38603+@WangCai_1+5
-      - Relay_🇨🇳CN-🇺🇸US_493
-      - Relay_🇨🇳CN-🇨🇦CA_472
-      - Youtue/ONE·资源核 20
-      - +TW_38104+@WangCai_1+3
-      - Relay_🇨🇳CN-🇯🇵JP_526
-      - +HK_38004+@WangCai_1+16
-      - +HK_38009+@WangCai_1+4
-      - +TH_38605+@WangCai_1+2
-      - +HK_38007+@WangCai_1+5
-      - github.com/freefq - 美国3COM公司企业网 51
-      - Youtue/ONE·资源核 21
-      - Youtue/ONE·资源核 22
-      - +HK_38010+@WangCai_1+19
-      - 香港（TG@阿伟科技/油管） 20
-      - 印度184-16@1Gbps节点更新 https://bit.ly/36b6iJh
-      - Relay_🇦🇺AU-🇦🇺AU_10
-      - 印度184-9@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-30满足2000 Mbps带 宽 需 求峰值 速 度  307200 kB/s  数 据中心HKG
-      - 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh
-      - Youtue/ONE·资源核 23
-      - +HK_38010+@WangCai_1+5
-      - Youtue/ONE·资源核 46
-      - 欢迎订阅钱科技0429_🇯🇵_JP_日本_20
-      - 美国【YouTube由零开始】 10
-      - +HK_38009+@WangCai_1+19
-      - +HK_38001+@WangCai_1+2
-      - 德国【YouTube由零开始】 6
-      - +HK_38007+@WangCai_1+8
-      - GB_911
-      - +HK_38005+@WangCai_1
-      - +TW_38103+@WangCai_1+3
-      - +HK_38002+@WangCai_1+8
-      - +HK_38005+@WangCai_1+16
-      - HK_38006+@WangCai_1
-      - +US_38501+@WangCai_1+9
-      - github.com/freefq - 美国  31
-      - _US_美国 28
-      - 梦歌|BGP中转|解锁流媒体_7
-      - +HK_38006+@WangCai_1+17
-      - 加拿大【YouTube由零开始】 4
-      - +SG_38204+@WangCai_1+21
-      - 印度184-21联通100M+4K   节点更新 https://bit.ly/36b6iJh
-      - 印度184-19@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 德国【YouTube由零开始】 7
-      - _JP_日本
-      - NL_673
-      - +HK_38008+@WangCai_1+21
-      - 美国【YouTube由零开始】 11
-      - +HK_38002+@WangCai_1+2
-      - +US_38502+@WangCai_1+4
-      - 印度184-29@1Gbps节点更新 https://bit.ly/36b6iJh
-      - _JP_日本 2
-      - _JP_日本 3
-      - 南非（TG@阿伟科技/油管）
-      - _US_美国 29
-      - +HK_38007+@WangCai_1
-      - 科技网络 5
-      - US_103+TG@peekfun
-      - +HK_38010+@WangCai_1+17
-      - Relay_🇺🇸US-🇺🇸US_3866
-      - 印度【YouTube由零开始】 6
-      - +JP_38304+@WangCai_1+21
-      - +HK_38003+@WangCai_1+19
-      - +JP_38304+@WangCai_1+2
-      - US_97+TG@peekfun
-      - +US_38503+@WangCai_1+18
-      - +TW_38101+@WangCai_1+4
-      - HK_38009+@WangCai_1 2
-      - 印度184-40 联通10.26 节点更新 https://bit.ly/36b6iJh
-      - _SG_新加坡
-      - Youtue/ONE·资源核 24
-      - +HK_38007+@WangCai_1+2
-      - 美国【YouTube由零开始】 12
-      - HK_38004+@WangCai_1
-      - +HK_38006+@WangCai_1+14
-      - +HK_38001+@WangCai_1+17
-      - +HK_38008+@WangCai_1+16
-      - +HK_38005+@WangCai_1+13
-      - Relay_🇨🇳CN-🇯🇵JP_481
-      - Youtue/ONE·资源核 25
-      - +HK_38007+@WangCai_1+16
-      - +TW_38103+@WangCai_1+19
-      - +HK_38002+@WangCai_1+17
-      - +HK_38002+@WangCai_1+20
-      - 美国【YouTube由零开始】 13
-      - +HK_38004+@WangCai_1+21
-      - 梦歌|BGP中转|解锁流媒体_279
-      - +PH_38603+@WangCai_1+6
-      - _PL_波兰 11
-      - +HK_38002+@WangCai_1+16
-      - Youtue/ONE·资源核 26
-      - +HK_38009+@WangCai_1+8
-      - +HK_38001+@WangCai_1+18
-      - +HK_38008+@WangCai_1+8
-      - +HK_38001+@WangCai_1+6
-      - +HK_38002+@WangCai_1+4
-      - +TH_38605+@WangCai_1+13
-      - +KR_38401+@WangCai_1+4
-      - +TW_38102+@WangCai_1+2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - +TW_38104+@WangCai_1+17
-      - Relay_🇨🇳CN-🇺🇸US_506
-      - 印度184-13@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +FR_38609+@WangCai_1+3
-      - 欢迎订阅钱科技0429_🇺🇸_US_美国_33
-      - 加拿大【YouTube由零开始】 5
-      - +HK_38005+@WangCai_1+12
-      - +SG_38203+@WangCai_1+3
-      - 印度184-26@1Gbps节点更新 https://bit.ly/36b6iJh
-      - US_112+TG@peekfun
-      - 新加坡【YouTube由零开始】
-      - +US_38502+@WangCai_1+13
-      - +KR_38402+@WangCai_1+8
-      - 印度184-14@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 印度184-7@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +HK_38009+@WangCai_1+14
-      - Youtue/ONE·资源核 27
-      - 英国【YouTube由零开始】 10
-      - +HK_38006+@WangCai_1+3
-      - TH_38605+@WangCai_1
-      - +HK_38010+@WangCai_1+8
-      - US_126+TG@peekfun
-      - _US_美国 30
-      - US_128+TG@peekfun
-      - +HK_38010+@WangCai_1+13
-      - +TW_38104+@WangCai_1+13
-      - _US_美国 31
-      - HK_38003+@WangCai_1
-      - +KR_38401+@WangCai_1
-      - +TW_38101+@WangCai_1+13
-      - +PH_38603+@WangCai_1+2
+      - 韩国丨筋斗云丨Weoworks提供
+      - 台湾（TG@阿伟科技/油管） 4
+      - 节点更新 https://bit.ly/36b6iJh
+      - Ytb:鹏哥分享_印度_33
+      - GB-高速节点购买：v1.mk/vip（浏览器打开）
+      - 美国（TG@阿伟科技/油管）
+      - NL-高速节点购买：v1.mk/vip（浏览器打开）
+      - TG:YouTubeAYANG科技大师 3
+      - Ytb:鹏哥分享_韩国_9
+      - 梦歌|BGP中转|解锁Netflix_31
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 日本（TG@阿伟科技/油管） 3
+      - DE_653
+      - _DE_德国
+      - 香港（TG@阿伟科技/油管） 3
+      - YouTube@阿阳AYANG 3
+      - 高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 台湾（TG@阿伟科技/油管） 5
+      - _DE_德国 2
+      - 梦歌|BGP中转|解锁Netflix_17
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 日本2丨筋斗云丨Weoworks提供
+      - Ytb:鹏哥分享_新加坡_105
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 梦歌|BGP中转|解锁Netflix_3
+      - Ytb:鹏哥分享_31
+      - 梦歌|BGP中转|解锁Netflix_5
+      - Relay_🇨🇦CA-🇨🇦CA_425
+      - TG:YouTubeAYANG科技大师 4
+      - US_3082
+      - SG-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 梦歌|BGP中转|解锁Netflix_44
+      - 梦歌|BGP中转|解锁Netflix_48
+      - _CH_瑞士
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - Youtue/ONE·资源核
+      - _CH_瑞士 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 新加坡（TG@阿伟科技/油管） 5
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - _DE_德国 3
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - 印度丨筋斗云丨Weoworks提供
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - AU-高速节点购买：v1.mk/vip（浏览器打开）
+      - 梦歌|BGP中转|解锁Netflix_42
+      - DE_662
+      - Ytb:鹏哥分享_英国_17
+      - IN-高速节点购买：v1.mk/vip（浏览器打开）
+      - 英国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管） 2
+      - 印度（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 4
+      - "@SSRSUB-V07-付费推荐:suo.yt/ssrsub"
       - 韩国（TG@阿伟科技/油管）
-      - +HK_38002+@WangCai_1+21
-      - Youtue/ONE·资源核 28
-      - +HK_38008+@WangCai_1
-      - +HK_38010+@WangCai_1+6
-      - SG
-      - 印度184-3@1Gbps节点更新 https://bit.ly/36b6iJh
-      - +US_38503+@WangCai_1+2
-      - +TW_38103+@WangCai_1+17
-      - +TW_38104+@WangCai_1+21
-      - +JP_38301+@WangCai_1+21
-      - +HK_38010+@WangCai_1+3
-      - Relay_🇨🇳CN-🇯🇵JP_522
-      - +TW_38105+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_521
-      - 加拿大【YouTube由零开始】 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - +SG_38204+@WangCai_1
-      - 新加坡 【由零开始YouTube】 2
-      - 欢迎订阅钱科技0429_🇫🇷_FR_法国_3
-      - +JP_38301+@WangCai_1+3
-      - (资源分享师)🇨🇳zg++21
-      - +US_38503+@WangCai_1+21
-      - +KR_38402+@WangCai_1+17
-      - +US_38503+@WangCai_1+7
-      - 韩国【YouTube由零开始】
-      - +HK_38003+@WangCai_1+21
-      - +HK_38003+@WangCai_1+17
-      - +US_38501+@WangCai_1+3
-      - _US_美国 32
-      - +SG_38204+@WangCai_1+18
-      - +SG_38204+@WangCai_1+8
-      - +HK_38002+@WangCai_1+14
-      - +KR_38401+@WangCai_1+2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - +SG_38203+@WangCai_1+8
-      - Ytb:鹏哥分享_新加坡_70
-      - 美国 【由零开始YouTube】 2
-      - 美国【YouTube由零开始】 14
-      - +JP_38305+@WangCai_1+21
-      - +HK_38010+@WangCai_1+16
-      - +TW_38105+@WangCai_1+2
-      - 印度184-33 联通15.02m  节点更新 https://bit.ly/36b6iJh
-      - +HK_38004+@WangCai_1+4
-      - +HK_38003+@WangCai_1
-      - 美国【YouTube由零开始】 15
-      - +US_38501+@WangCai_1+17
-      - +TW_38104+@WangCai_1+16
-      - +TH_38605+@WangCai_1+21
-      - +JP_38305+@WangCai_1+13
-      - +DE_38607+@WangCai_1+8
-      - +KR_38402+@WangCai_1+21
-      - +HK_38007+@WangCai_1+4
-      - +KR_38401+@WangCai_1+17
-      - +JP_38303+@WangCai_1+8
-      - +HK_38003+@WangCai_1+20
-      - +HK_38003+@WangCai_1+3
-      - +PH_38603+@WangCai_1+13
-      - Youtube/ONE·资源核 4
-      - 14.29.124.168:25256
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 美国2丨筋斗云丨Weoworks提供
+      - Ytb:鹏哥分享_中国_75
+      - 美国（TG@阿伟科技/油管） 3
+      - 梦歌|BGP中转|解锁Netflix_45
+      - _DE_德国 4
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - 【YouTube由零开始】
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 美国（TG@阿伟科技/油管） 4
+      - CZ-高速节点购买：v1.mk/vip（浏览器打开）
+      - 日本（TG@阿伟科技/油管） 4
+      - 梦歌|BGP中转|解锁Netflix_47
+      - CZ-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港（TG@阿伟科技/油管） 5
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
       - "|20.89Mb"
-      - 14.29.124.168:25220
-      - +HK_38004+@WangCai_1+13
-      - +US_38501+@WangCai_1+13
-      - +TH_38605+@WangCai_1+17
-      - (资源分享师)🇨🇳zg++6
-      - (资源分享师)🇨🇳zg++11
-      - (资源分享师)🇨🇳zg++7
-      - CN_477(资源分享师)
-      - Youtube/ONE·资源核 5
-      - (资源分享师)🇨🇳zg++3
-      - 14.29.124.168:25294
-      - (资源分享师)🇨🇳zg++2
-      - CN_463
-      - CN_447
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - +JP_38304+@WangCai_1+9
-      - 38.114.114.19:6379
-      - (资源分享师)🇨🇳zg++15
-      - +HK_38010+@WangCai_1+9
-      - YouTube阿伟科技 13
-      - +TW_38104+@WangCai_1+2
-      - +TH_38605+@WangCai_1+19
-      - +TH_38605+@WangCai_1+20
-      - +KR_38402+@WangCai_1+13
-      - Relay_🇺🇦UA-🇺🇦UA_1769
-      - +US_38503+@WangCai_1+3
-      - Youtube/ONE·资源核 6
-      - +TW_38101+@WangCai_1+2
-      - +KR_38401+@WangCai_1+21
-      - +JP_38304+@WangCai_1
-      - +KR_38401+@WangCai_1+16
-      - +KR_38401+@WangCai_1+8
-      - +AR_38611+@WangCai_1+22
-      - US_172 TG@peekfun
-      - +HK_38004+@WangCai_1+8
-      - +US_38503+@WangCai_1+8
-      - US_38503+@WangCai_1
-      - KR_38401+@WangCai_1
-      - +HK_38009+@WangCai_1+17
-      - +HK_38001+@WangCai_1
-      - (资源分享师)🇨🇳zg++16
-      - +PH_38603+@WangCai_1+18
-      - US_141+TG@peekfun
-      - +TW_38102+@WangCai_1+6
-      - +TW_38101+@WangCai_1+3
-      - +DE_38607+@WangCai_1+20
-      - +HK_38005+@WangCai_1+21
-      - +TW_38102+@WangCai_1+3
-      - 科技网络 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - +KR_38402+@WangCai_1+19
-      - +TW_38105+@WangCai_1+19
-      - _PL_波兰 12
-      - +JP_38304+@WangCai_1+17
-      - +TW_38103+@WangCai_1+13
-      - +US_38501+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_302
-      - GB_907
-      - +TW_38104+@WangCai_1+8
-      - +US_38504+@WangCai_1+21
-      - +TW_38103+@WangCai_1+18
-      - TW_38103+@WangCai_1
-      - +FR_38609+@WangCai_1+2
-      - +JP_38303+@WangCai_1+2
-      - 印度184-31 满 足  2000 Mbps带 宽 需求峰值 速 度  269312 kB/s
-      - +HK_38001+@WangCai_1+21
-      - +JP_38301+@WangCai_1
-      - +JP_38301+@WangCai_1+6
-      - +JP_38301+@WangCai_1+20
-      - +TH_38605+@WangCai_1
-      - +KR_38402+@WangCai_1+20
-      - +TW_38105+@WangCai_1+21
-      - github.com/freefq - 美国CloudFlare节点 22
-      - +US_38502+@WangCai_1
-      - +TW_38103+@WangCai_1+12
-      - +KR_38402+@WangCai_1
-      - +US_38503+@WangCai_1+19
-      - github.com/freefq - 北美地区  12
-      - +US_38501+@WangCai_1+19
-      - +JP_38301+@WangCai_1+2
-      - +JP_38304+@WangCai_1+6
-      - +FR_38609+@WangCai_1+19
-      - +HK_38010+@WangCai_1
-      - +TW_38104+@WangCai_1+7
-      - +TW_38103+@WangCai_1+6
-      - _GB_英国 9
-      - +JP_38301+@WangCai_1+8
-      - +HK_38008+@WangCai_1+17
-      - +TW_38101+@WangCai_1+18
-      - +DE_38607+@WangCai_1+13
-      - +TW_38101+@WangCai_1+17
-      - +JP_38304+@WangCai_1+8
-      - +JP_38305+@WangCai_1
-      - +TW_38104+@WangCai_1+19
-      - +TW_38103+@WangCai_1+16
-      - +SG_38203+@WangCai_1+20
-      - +US_38504+@WangCai_1+2
-      - +FR_38609+@WangCai_1+13
-      - JP_38304+@WangCai_1
-      - +JP_38305+@WangCai_1+20
-      - 科技网络 7
-      - +JP_38301+@WangCai_1+17
-      - +US_38503+@WangCai_1+13
-      - +TW_38103+@WangCai_1
-      - 梦歌|BGP中转|解锁流媒体_192
-      - 美国（TG@阿伟科技/油管） 15
-      - +TW_38103+@WangCai_1+8
-      - +JP_38301+@WangCai_1+19
-      - +KR_38402+@WangCai_1+3
-      - 科技网络 8
-      - +JP_38305+@WangCai_1+17
-      - +JP_38304+@WangCai_1+4
-      - +US_38502+@WangCai_1+22
-      - 印度184-35 联通14.07 节点更新 https://bit.ly/36b6iJh
-      - +HK_38004+@WangCai_1+12
-      - TW_38102+@WangCai_1
-      - +TH_38605+@WangCai_1+16
-      - 美国【YouTube由零开始】 16
-      - +TW_38102+@WangCai_1+16
-      - +TW_38101+@WangCai_1+16
-      - +HK_38003+@WangCai_1+16
-      - +FR_38609+@WangCai_1+16
-      - +TW_38102+@WangCai_1+8
-      - +SG_38204+@WangCai_1+20
-      - +DE_38607+@WangCai_1+2
-      - +US_38501+@WangCai_1+2
-      - +US_38504+@WangCai_1+19
-      - github.com/freefq - 广东省广州市黄埔区珠江宽频 14
-      - +SG_38204+@WangCai_1+14
-      - JP_38305+@WangCai_1
-      - +TH_38605+@WangCai_1+8
-      - +US_38504+@WangCai_1+16
-      - +DE_38607+@WangCai_1+16
-      - github.com/freefq - 广东省深圳市腾讯云 16
-      - +JP_38304+@WangCai_1+13
-      - +TW_38103+@WangCai_1+2
-      - +SG_38203+@WangCai_1+12
-      - +TW_38104+@WangCai_1+5
-      - TW_38105+@WangCai_1
-      - +US_38502+@WangCai_1+19
-      - +US_38502+@WangCai_1+2
-      - +US_38503+@WangCai_1+17
-      - +US_38502+@WangCai_1+21
-      - +SG_38203+@WangCai_1+16
-      - +DE_38607+@WangCai_1+17
-      - +SG_38203+@WangCai_1
-      - +HK_38005+@WangCai_1+4
-      - 乌克兰【YouTube由零开始】
-      - +TW_38102+@WangCai_1+5
-      - +PH_38603+@WangCai_1+14
+      - HK-高速节点购买：v1.mk/vip（浏览器打开） 5
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
+      - 美国（TG@阿伟科技/油管） 5
+      - 高速节点购买：v1.mk/vip（浏览器打开） 4
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - 科技网络 2
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - YouTube@阿阳AYANG 4
+      - _AU_澳大利亚
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
+      - 俄罗斯（TG@阿伟科技/油管）
+      - _CH_瑞士 3
+      - 新加坡 【由零开始YouTube】
+      - 美国（TG@阿伟科技/油管） 6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
+      - 台湾（TG@阿伟科技/油管） 6
+      - 新加坡（TG@阿伟科技/油管） 6
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 10
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 11
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
