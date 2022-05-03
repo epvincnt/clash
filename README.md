@@ -10,6 +10,63 @@ dns:
   nameserver:
     - 223.5.5.5
 proxies:
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.20, server: 183.240.9.28, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿🍄港103.157.250.19, server: 183.240.9.28, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.21, server: 183.240.9.28, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.22, server: 183.240.9.28, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.23, server: 183.240.9.28, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.26, server: 183.240.9.28, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.27, server: 183.240.9.28, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.20 2, server: 183.240.9.29, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿🍄港103.157.250.19 2, server: 183.240.9.29, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.21 2, server: 183.240.9.29, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.22 2, server: 183.240.9.29, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.23 2, server: 183.240.9.29, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.26 2, server: 183.240.9.29, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.27 2, server: 183.240.9.29, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.20 3, server: 183.240.9.30, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿🍄港103.157.250.19 3, server: 183.240.9.30, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.21 3, server: 183.240.9.30, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.22 3, server: 183.240.9.30, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.23 3, server: 183.240.9.30, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.26 3, server: 183.240.9.30, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.27 3, server: 183.240.9.30, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.20 4, server: 183.240.9.31, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿🍄港103.157.250.19 4, server: 183.240.9.31, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.21 4, server: 183.240.9.31, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.22 4, server: 183.240.9.31, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.23 4, server: 183.240.9.31, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.26 4, server: 183.240.9.31, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.250.27 4, server: 183.240.9.31, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 粉丝投稿🍄新103.157.251.20, server: 120.232.251.206, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿🍄港103.157.251.19, server: 120.232.251.206, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 粉丝投稿, server: 120.232.251.206, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 粉丝投稿 2, server: 120.232.251.206, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 粉丝投稿 3, server: 120.232.251.206, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 粉丝投稿 4, server: 120.232.251.206, port: 29985, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 粉丝投稿 5, server: 120.232.251.206, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 粉丝投稿 6, server: 120.232.251.206, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 粉丝投稿 7, server: 120.232.251.206, port: 29994, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 粉丝投稿 8, server: 120.232.251.206, port: 29996, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 粉丝投稿 9, server: 120.232.251.206, port: 29998, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿 1--无限流量, server: 183.240.9.28, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿 2--无限流量, server: 183.240.9.28, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿 3--无限流量, server: 183.240.9.28, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿 4--无限流量, server: 183.240.9.28, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿 5--无限流量, server: 183.240.9.28, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿 6--无限流量, server: 183.240.9.28, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 粉丝投稿 7--无限流量, server: 183.240.9.28, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 无限流量 1--无限流量, server: 120.232.251.206, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 无限流量 2--无限流量, server: 120.232.251.206, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 无限流量 3--无限流量, server: 120.232.251.206, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 无限流量 4--无限流量, server: 120.232.251.206, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 无限流量 5--无限流量, server: 120.232.251.206, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 无限流量 6--无限流量, server: 120.232.251.206, port: 29985, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 无限流量 7--无限流量, server: 120.232.251.206, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 无限流量 8--无限流量, server: 120.232.251.206, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 无限流量 9--无限流量, server: 120.232.251.206, port: 29994, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 无限流量 10--无限流量, server: 120.232.251.206, port: 29996, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 无限流量 11--无限流量, server: 120.232.251.206, port: 29998, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
   - name: "🇹🇼 节点更新 https://bit.ly/36b6iJh "
     type: http
     server: h3816tw.droplet.today
@@ -392,448 +449,199 @@ proxies:
     type: http
     username: localhost
     password: localhost
-  - {name: 美国【YouTube由零开始】 2, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, sni: jgwdj2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: SG-高速节点购买：v1.mk/vip（浏览器打开）, server: sg3.31vpn.com, port: 443, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: sg3.31vpn.com}, udp: true}
-  - {name: 香港-VIP, server: gni.cloudoo.xyz, port: 4004, type: vmess, uuid: 69b1ff66-913e-4a35-acbf-95da80c1c200, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /upload, ws-headers: {Host: gni.cloudoo.xyz}, udp: true}
-  - {name: YouTube梦歌|Netflix_6, server: cu.mj-cn.cyou, port: 16617, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: YouTube梦歌|Netflix_21, server: azhk5.mayiyun.vip, port: 10015, type: ss, cipher: aes-256-gcm, password: 7a0e7d79-47e0-4a81-9fbe-086dc0159533, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_20, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: YouTube梦歌|Netflix_20, server: x-cu.gotout.work, port: 31511, type: vmess, uuid: 69b55fcc-0218-3242-8c38-80107a37768e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_19, server: x-cm.gotout.work, port: 31521, type: vmess, uuid: 69b55fcc-0218-3242-8c38-80107a37768e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_57, server: cu.mj-cn.cyou, port: 23309, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: YouTube梦歌|Netflix_14, server: cu.mj-cn.cyou, port: 16625, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_28, server: cu.mj-cn.cyou, port: 16633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_54, server: cm.mj-cn.cyou, port: 26623, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: YouTube梦歌|Netflix_29, server: x-cm.gotout.work, port: 31622, type: vmess, uuid: 69b55fcc-0218-3242-8c38-80107a37768e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_24, server: cu.mj-cn.cyou, port: 16617, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: YouTube梦歌|Netflix_18, server: cu.mj-cn.cyou, port: 16626, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_45, server: ct.mj-cn.cyou, port: 23383, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: 104.18.240.15+峰值速度+201728+kB/s, server: 104.18.240.15, port: 443, type: trojan, password: 3e47f46c-4349-4747-a7d8-40cd12446d92, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_30, server: ct.mj-cn.cyou, port: 16633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: KR-高速节点购买：v1.mk/vip（浏览器打开）, server: v2-4.godlight.xyz, port: 50496, type: vmess, uuid: 07ea283e-bbe8-466f-a268-c5819763a9bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /g1641hvx, ws-headers: {Host: v2-4.godlight.xyz}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_53, server: cu.mj-cn.cyou, port: 26623, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_56, server: ct.mj-cn.cyou, port: 16628, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_87, server: cm.mj-cn.cyou, port: 26633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_63, server: hkaz3.xmrth-node.xyz, port: 12567, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: hkaz3.xmrth-node.xyz}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_23, server: cu.mj-cn.cyou, port: 26633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: _GB_英国, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_25, server: cm.mj-cn.cyou, port: 16616, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: _US_美国, server: 167.88.63.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: YouTube梦歌|Netflix_12, server: cu.mj-cn.cyou, port: 26623, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: _PL_波兰, server: 217.30.10.65, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: _US_美国 2, server: 167.88.63.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 梦歌|BGP中转|解锁Netflix_82, server: cm.mj-cn.cyou, port: 23309, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_43, server: cu.mj-cn.cyou, port: 23383, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: _DE_德国, server: 5.183.179.145, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: _US_美国 3, server: 167.88.61.70, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国 4, server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "California, Tj - B Group", server: tj-node-5-b.gfwairport.net, port: 50001, type: trojan, password: c6e475e3-31ef-430c-8983-a5fa1854a15f, sni: tj-node-5-b.gfwairport.net, skip-cert-verify: true, udp: true}
-  - {name: _PL_波兰 2, server: 217.30.10.66, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_106, server: gtm.mj-cn.cyou, port: 16616, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gtm.mj-cn.cyou}, udp: true}
-  - {name: _CZ_捷克, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, sni: v2cross.com.05.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 5, server: 167.88.61.70, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _BG_保加利亚, server: 213.183.63.219, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: "Incheon, SS - B Group", server: ss-node-2-b.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: c6e475e3-31ef-430c-8983-a5fa1854a15f, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_69, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 4ee48ad8-178c-40a2-9c52-a14e90a06e49, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nmsl, ws-headers: {Host: 1.ezydfdd.com}, udp: true}
-  - {name: _PL_波兰 3, server: 217.30.10.66, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: 梦歌|BGP中转|解锁Netflix_39, server: cu.mj-cn.cyou, port: 16632, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 梦歌|BGP中转|解锁Netflix_45, server: ct.mj-cn.cyou, port: 16616, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: _AU_澳大利亚, server: 185.167.116.253, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: _IN_印度, server: 192.46.209.146, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _PL_波兰 4, server: 217.30.10.67, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
-  - {name: _BG_保加利亚 2, server: 213.183.63.219, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_35, server: cu.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 梦歌|BGP中转|解锁Netflix_75, server: ct.mj-cn.cyou, port: 26633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: 梦歌|BGP中转|解锁Netflix_92, server: 20.24.205.175, port: 28443, type: trojan, password: fca82897-b178-4824-9c75-abe60c103dda, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_29, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: _SG_新加坡, server: 43.135.70.192, port: 24740, type: vmess, uuid: 3749de34-a1a9-44db-b72a-510712a52d11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.135.70.192]}}, udp: true}
-  - {name: _GB_英国 2, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 梦歌|BGP中转|解锁Netflix_59, server: cu.mj-cn.cyou, port: 16628, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: "California, SS - B Group", server: ss-node-5-b.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: c6e475e3-31ef-430c-8983-a5fa1854a15f, udp: true}
-  - {name: _PL_波兰 5, server: 217.30.10.67, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: 梦歌|BGP中转|解锁Netflix_23, server: cu.mj-cn.cyou, port: 16625, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_64, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: _GB_英国 3, server: 172.99.190.92, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "Hongkong, V2 - B Group", server: V2-NODE-4-B.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: c6e475e3-31ef-430c-8983-a5fa1854a15f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: V2-NODE-4-B.GFWAIRPORT.NET}, udp: true}
-  - {name: YouTube梦歌|Netflix_5, server: yyyy.wwwbhjy.com, port: 2443, type: vmess, uuid: dee32eb7-e190-4c6f-dd27-aa9c82cd5490, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /8a76fb13/, ws-headers: {Host: yyyy.wwwbhjy.com}, udp: true}
+  - {name: RELAY-Openit.ml, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
   - {name: Singapore (SG)323, server: us232.support-putin-kill-all-ukrainians.98848.xyz, port: 443, type: trojan, password: 99b166ff-25ab-4bda-9493-618d491c2a9a, sni: us232.support-putin-kill-all-ukrainians.98848.xyz, skip-cert-verify: true, udp: true}
   - {name: Singapore (SG)323 2, server: us232.support-putin-kill-all-ukrainians.98848.xyz, port: 443, type: vmess, uuid: bfa5bf7a-cc3f-4cb3-b447-957ca1b6349f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians, ws-headers: {Host: us232.support-putin-kill-all-ukrainians.98848.xyz}, udp: true}
-  - {name: _US_美国 6, server: 167.88.63.108, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_55, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: "Incheon, Tj - B Group", server: tj-node-2-b.gfwairport.net, port: 50001, type: trojan, password: c6e475e3-31ef-430c-8983-a5fa1854a15f, sni: tj-node-2-b.gfwairport.net, skip-cert-verify: true, udp: true}
-  - {name: "Incheon, V2 - B Group", server: V2-NODE-2-B.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: c6e475e3-31ef-430c-8983-a5fa1854a15f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: V2-NODE-2-B.GFWAIRPORT.NET}, udp: true}
-  - {name: 5.183.179.166:9018, server: 5.183.179.166, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: 梦歌|BGP中转|解锁Netflix_46, server: ct.mj-cn.cyou, port: 16631, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_51, server: ct.mj-cn.cyou, port: 23309, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: _CA_加拿大, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _HK_香港, server: 43.129.227.60, port: 27727, type: vmess, uuid: d00f5ea9-4658-4f0a-a6c3-e29ef711cf3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.129.227.60]}}, udp: true}
-  - {name: YouTube梦歌|Netflix_9, server: cu.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: _US_美国 7, server: 167.88.63.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 104.17.177.116, server: 104.17.177.116, port: 443, type: vmess, uuid: 9b040780-001e-40cb-bcd0-81c5dd3b02fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: TW-高速节点购买：v1.mk/vip（浏览器打开）, server: 103.98.73.12, port: 5005, type: vmess, uuid: ecf9bfdf-5fc5-4040-eb9f-eaec282c478b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ythe54, ws-headers: {Host: 103.98.73.12}, udp: true}
-  - {name: 韩国【YouTube由零开始】, server: v2-5.godlight.xyz, port: 39786, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /71h4b3s1f53, ws-headers: {Host: v2-5.godlight.xyz}, udp: true}
-  - {name: V1 | US B2, server: x-cm.gotout.work, port: 31622, type: vmess, uuid: 69b55fcc-0218-3242-8c38-80107a37768e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾（TG@阿伟科技/油管）, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: efaeb7b2-bd81-37d7-b3af-5c633570f423, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 331tw.fans8.xyz}, udp: true}
   - {name: 梦歌|BGP中转|解锁流媒体_40, server: gtm.mj-cn.cyou, port: 16617, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gtm.mj-cn.cyou}, udp: true}
-  - {name: 梦歌|BGP中转|解锁Netflix_18, server: ct.mj-cn.cyou, port: 16617, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_33, server: gtm.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gtm.mj-cn.cyou}, udp: true}
-  - {name: YouTube梦歌|Netflix_27, server: x-cu.gotout.work, port: 31511, type: vmess, uuid: 69b55fcc-0218-3242-8c38-80107a37768e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG:YouTubeAYANG科技大师, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|BGP中转|解锁Netflix_100, server: 139.162.124.250, port: 28443, type: trojan, password: fca82897-b178-4824-9c75-abe60c103dda, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _KR_韩国, server: 158.247.205.87, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CN_407 | 9.12Mb, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
   - {name: Singapore (SG)323 3, server: us232.Support-Putin-Kill-all-Ukrainians.98848.xyz, port: 443, type: vmess, uuid: bfa5bf7a-cc3f-4cb3-b447-957ca1b6349f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians, ws-headers: {Host: us232.Support-Putin-Kill-all-Ukrainians.98848.xyz}, udp: true}
-  - {name: 梦歌|BGP中转|解锁Netflix_13, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本（TG@阿伟科技/油管）, server: v2-1.godlight.xyz, port: 12236, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /j75g1461x, ws-headers: {Host: v2-1.godlight.xyz}, udp: true}
-  - {name: 梦歌|BGP中转|解锁Netflix_88, server: hkaz3.xmrth-node.xyz, port: 12568, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: hkaz3.xmrth-node.xyz}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_17, server: cm.mj-cn.cyou, port: 23383, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: _GB_英国 4, server: 172.99.190.92, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_44, server: cu.mj-cn.cyou, port: 16626, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 日本（TG@阿伟科技/油管） 2, server: cu.mj-cn.cyou, port: 16617, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: 104.25.234.170+峰值速度+245760+kB/s, server: 104.25.234.170, port: 443, type: trojan, password: 3e47f46c-4349-4747-a7d8-40cd12446d92, skip-cert-verify: true, udp: true}
-  - {name: YouTube@阿阳AYANG, server: 169.197.142.99, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 德国节点更新 https://bit.ly/36b6iJh, server: de-01.fireplay.io, port: 443, type: trojan, password: lo3TmsNaLWUXpuoE, sni: de-01.fireplay.io, skip-cert-verify: true, udp: true}
-  - {name: 新加坡11111111111111111, server: awssg.yeem.cc, port: 21210, type: trojan, password: 59c465d4-e3ad-4a30-9067-887786a2ca2d, sni: awssg.yeem.cc, skip-cert-verify: true, udp: true}
-  - {name: YouTube@阿阳AYANG 2, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: IN-高速节点购买：v1.mk/vip（浏览器打开）, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: HK+104.18.26.128+峰值速度+242688+kB/s, server: 104.18.26.128, port: 443, type: trojan, password: 3e47f46c-4349-4747-a7d8-40cd12446d92, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 日本东京Oracle云计算数据中心 31, server: 140.238.48.194, port: 8888, type: vmess, uuid: 24f1dfad-1267-4297-8e88-0e9b8ef47e47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡（TG@阿伟科技/油管）, server: x.gotout.work, port: 30041, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_34, server: cm.mj-cn.cyou, port: 23383, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: YouTube@阿阳AYANG 3, server: 169.197.142.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: "Tokyo, V2 - B Group", server: V2-NODE-1-B.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: c6e475e3-31ef-430c-8983-a5fa1854a15f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: V2-NODE-1-B.GFWAIRPORT.NET}, udp: true}
-  - {name: 美国（TG@阿伟科技/油管）, server: 152.70.49.174, port: 55988, type: vmess, uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube@阿阳AYANG 4, server: 152.70.49.174, port: 55988, type: vmess, uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_406 | 7.24Mb, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: AU-高速节点购买：v1.mk/vip（浏览器打开）, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: "微软香港: 莞港AZ-898", server: china.ct.a.898868.xyz, port: 12491, type: trojan, password: DNyuqj9ZPeBujPZx, sni: china.ct.a.898868.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 2, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_21, server: ct.mj-cn.cyou, port: 16628, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: US_3082, server: 158.247.199.253, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "California, V2 - B Group", server: V2-NODE-5-B.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: c6e475e3-31ef-430c-8983-a5fa1854a15f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: V2-NODE-5-B.GFWAIRPORT.NET}, udp: true}
-  - {name: US_3062, server: 158.247.205.87, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 梦歌|BGP中转|解锁Netflix_27, server: cu.mj-cn.cyou, port: 26622, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开）, server: ruvds.testx.eu.org, port: 443, type: vmess, uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/vmess-share/?ed=2048", ws-headers: {Host: ruvds.testx.eu.org}, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 3, server: 1chuan.top, port: 443, type: vmess, uuid: fa8f90e0-2fae-4b05-df7a-ea325bc517d8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /evo, ws-headers: {Host: 1chuan.top}, udp: true}
-  - {name: 梦歌|BGP中转|解锁Netflix_16, server: cu.mj-cn.cyou, port: 16616, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 俄罗斯（TG@阿伟科技/油管）, server: cu.mj-cn.cyou, port: 16625, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: V1 | JP B1, server: x-cm.gotout.work, port: 31321, type: vmess, uuid: 69b55fcc-0218-3242-8c38-80107a37768e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V1 | KR A1, server: x-cu.gotout.work, port: 31511, type: vmess, uuid: 69b55fcc-0218-3242-8c38-80107a37768e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG/YouTube+AYANG*科技大师, server: 169.197.142.99, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: YouTube@阿阳AYANG 5, server: 172.105.244.165, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: V1 | CH1, server: x-cu.gotout.work, port: 31914, type: vmess, uuid: 69b55fcc-0218-3242-8c38-80107a37768e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube@阿阳AYANG 6, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国3COM公司企业网 33, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: NL-高速节点购买：v1.mk/vip（浏览器打开）, server: 152.70.49.174, port: 55988, type: vmess, uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 4, server: 47.52.57.57, port: 443, type: vmess, uuid: 98d6a5ef-6cd8-870b-8aad-da7bd362c56c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: square-smoke-6f8a.toiclokeoqc92.workers.dev}, udp: true}
-  - {name: github.com/freefq - 日本  4, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, sni: jgw2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: V1 | DE, server: x-cu.gotout.work, port: 31916, type: vmess, uuid: 69b55fcc-0218-3242-8c38-80107a37768e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 104.16.103.254+峰值速度+202752+kB/s, server: 104.16.103.254, port: 443, type: trojan, password: 3e47f46c-4349-4747-a7d8-40cd12446d92, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V10-付费推荐:suo.yt/ssrsub", server: sanfranciscolafayette.club, port: 443, type: vmess, uuid: cc0b4469-c0e5-4efb-8f69-a6df64db24ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /neuromancer, ws-headers: {Host: sanfranciscolafayette.club}, udp: true}
-  - {name: 104.16.106.41+峰值速度+235520+kB/s, server: 104.16.106.41, port: 443, type: trojan, password: 3e47f46c-4349-4747-a7d8-40cd12446d92, skip-cert-verify: true, udp: true}
-  - {name: 104.22.6.165+峰值速度+222208+kB/s, server: 104.22.6.165, port: 443, type: trojan, password: 3e47f46c-4349-4747-a7d8-40cd12446d92, skip-cert-verify: true, udp: true}
-  - {name: 172.64.88.221+峰值速度+203776+kB/s, server: 172.64.88.221, port: 443, type: trojan, password: 3e47f46c-4349-4747-a7d8-40cd12446d92, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  5, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 104.20.46.105+峰值速度+211968+kB/s, server: 104.20.46.105, port: 443, type: trojan, password: 3e47f46c-4349-4747-a7d8-40cd12446d92, skip-cert-verify: true, udp: true}
-  - {name: 日本2丨筋斗云丨Weoworks提供, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 西美高速2, server: 2.ezydfdd.com, port: 443, type: vmess, uuid: 8f826e79-4ee0-436b-9b68-5aa7c1094a82, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 2.ezydfdd.com}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_74, server: ct.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: 104.18.214.145+峰值速度+239616+kB/s, server: 104.18.214.145, port: 443, type: trojan, password: 3e47f46c-4349-4747-a7d8-40cd12446d92, skip-cert-verify: true, udp: true}
-  - {name: 172.67.199.253+峰值速度+236544+kB/s, server: 172.67.199.253, port: 443, type: trojan, password: 3e47f46c-4349-4747-a7d8-40cd12446d92, skip-cert-verify: true, udp: true}
-  - {name: TG/YouTube+AYANG*科技大师 2, server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 香港（TG@阿伟科技/油管）, server: ct.mj-cn.cyou, port: 26622, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: YouTube@阿阳AYANG 7, server: 198.57.27.225, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 5, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Ytb:鹏哥分享_英国_17, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: YouTube@阿阳AYANG 8, server: 198.57.27.225, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: YouTube@阿阳AYANG 9, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: V1 | NL1, server: x-cu.gotout.work, port: 31913, type: vmess, uuid: 69b55fcc-0218-3242-8c38-80107a37768e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V1 | GB B1, server: x-cm.gotout.work, port: 31925, type: vmess, uuid: 69b55fcc-0218-3242-8c38-80107a37768e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(ios小火箭软件|ioskaka.com), server: o7cx6bd6t4yjiqsm.xiongsonglin.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: o7cx6bd6t4yjiqsm.xiongsonglin.com, skip-cert-verify: true, udp: true}
-  - {name: YouTube@阿阳AYANG 10, server: 120.240.48.20, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 高速节点购买：v1.mk/vip（浏览器打开）, server: 104.16.23.3, port: 443, type: vmess, uuid: 248f4f6f-270c-47f7-bea8-ed9d89440054, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: yzkoyeb-7595333.koyeb.app}, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 6, server: hk5.fdns.cloudlink123.com, port: 80, type: vmess, uuid: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk5.fdns.cloudlink123.com}, udp: true}
-  - {name: YouTube梦歌|Netflix_1, server: ct.mj-cn.cyou, port: 26622, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 7, server: hk5.fdns.cloudlink123.com, port: 80, type: vmess, uuid: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: V1 | US A1, server: x-cu.gotout.work, port: 31611, type: vmess, uuid: 69b55fcc-0218-3242-8c38-80107a37768e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡（TG@阿伟科技/油管） 2, server: cu.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: github.com/freefq - 美国  53, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_8, server: cm.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: US_3348, server: 158.247.199.253, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 高速节点购买：v1.mk/vip（浏览器打开） 2, server: 104.16.42.170, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 2, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: Ytb:鹏哥分享_中国_3, server: cu.mj-cn.cyou, port: 23383, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 香港（TG@阿伟科技/油管） 2, server: x.gotout.work, port: 30012, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
-  - {name: Ytb:鹏哥分享_中国_22, server: cu.mj-cn.cyou, port: 26633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_15, server: ct.mj-cn.cyou, port: 23309, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 3, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 节点更新 https://bit.ly/36b6iJh, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_2, server: x-cm.gotout.work, port: 31622, type: vmess, uuid: 69b55fcc-0218-3242-8c38-80107a37768e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(ios小火箭软件|ioskaka.com), server: 140.238.48.194, port: 8888, type: vmess, uuid: 24f1dfad-1267-4297-8e88-0e9b8ef47e47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _DE_德国 2, server: 5.183.179.145, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: 美国【YouTube由零开始】 27, server: us-trojan.bonds.id, port: 443, type: trojan, password: 38239dd0-902b-11eb-afc1-1239d0255272, sni: us-trojan.bonds.id, skip-cert-verify: true, udp: true}
-  - {name: YouTube@阿阳AYANG 11, server: 198.57.27.225, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: KR-Openit.ml, server: 158.247.205.87, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 新加坡（TG@阿伟科技/油管） 3, server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: 104.25.254.252+峰值速度+225280+kB/s, server: 104.25.254.252, port: 443, type: trojan, password: 3e47f46c-4349-4747-a7d8-40cd12446d92, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: YouTube@阿阳AYANG 12, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}, udp: true}
-  - {name: 香港（TG@阿伟科技/油管） 3, server: hkaz3.xmrth-node.xyz, port: 12568, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: 梦歌|BGP中转|解锁Netflix_78, server: cm.mj-cn.cyou, port: 26622, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: 美国_节点更新 https://bit.ly/36b6iJh_61, server: 8.ezydfdd.com, port: 443, type: vmess, uuid: dc0887b9-4c05-428c-adce-4235d1636341, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 8.ezydfdd.com}, udp: true}
-  - {name: 印度（TG@阿伟科技/油管）, server: cu.mj-cn.cyou, port: 16626, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: github.com/freefq - 美国  8, server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_38, server: x.gotout.work, port: 30051, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
-  - {name: YouTube@阿阳AYANG 13, server: 158.247.205.87, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: YouTube@阿阳AYANG 14, server: hkaz3.xmrth-node.xyz, port: 12567, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 172.67.167.14+峰值速度+214016+kB/s, server: 172.67.167.14, port: 443, type: trojan, password: 3e47f46c-4349-4747-a7d8-40cd12446d92, skip-cert-verify: true, udp: true}
-  - {name: YouTube@阿阳AYANG 15, server: us1.lolvps.xyz, port: 60060, type: vmess, uuid: 95886c76-9207-48bd-9e64-d1422e75ad89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AY920UMR, ws-headers: {Host: us1.lolvps.xyz}, udp: true}
-  - {name: sg2.884899.cf111111111111111111111, server: 104.16.167.138, port: 443, type: trojan, password: 3e47f46c-4349-4747-a7d8-40cd12446d92, skip-cert-verify: true, udp: true}
-  - {name: 158.247.199.253:2376, server: 158.247.199.253, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 荷兰（TG@阿伟科技/油管）, server: 152.70.49.174, port: 55988, type: vmess, uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh, server: www.garmin.com, port: 443, type: vmess, uuid: 9b040780-001e-40cb-bcd0-81c5dd3b02fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_104, server: vfly5.xyz, port: 443, type: vmess, uuid: 825136bb-fc0a-4f43-8307-dc2e36f27e2d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /myblog, ws-headers: {Host: vfly5.xyz}, udp: true}
-  - {name: 台湾节点更新 https://bit.ly/36b6iJh, server: tw.cloudoo.xyz, port: 443, type: vmess, uuid: 69b1ff66-913e-4a35-acbf-95da80c1c200, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /upload, ws-headers: {Host: tw.cloudoo.xyz}, udp: true}
-  - {name: 香港（TG@阿伟科技/油管） 4, server: hk5.fdns.cloudlink123.com, port: 80, type: vmess, uuid: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: V1 | TR1, server: x-cu.gotout.work, port: 31911, type: vmess, uuid: 69b55fcc-0218-3242-8c38-80107a37768e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: KR-Openit.ml 2, server: 158.247.205.87, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 梦歌|BGP中转|解锁Netflix_10, server: ct.mj-cn.cyou, port: 26622, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: Ytb:鹏哥分享_美国_57, server: 169.197.142.99, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国节点更新 https://bit.ly/36b6iJh, server: vfly5.xyz, port: 443, type: vmess, uuid: 825136bb-fc0a-4f43-8307-dc2e36f27e2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /myblog, ws-headers: {Host: vfly5.xyz}, udp: true}
-  - {name: 马来西亚（TG@阿伟科技/油管）, server: cu.mj-cn.cyou, port: 26623, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: V1 | FR, server: x-cu.gotout.work, port: 31917, type: vmess, uuid: 69b55fcc-0218-3242-8c38-80107a37768e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 104.17.177.116+峰值速度+202752+kB, server: 104.17.177.116, port: 443, type: trojan, password: 3e47f46c-4349-4747-a7d8-40cd12446d92, skip-cert-verify: true, udp: true}
-  - {name: SG, server: v2-2.godlight.xyz, port: 30526, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /54f634fs, ws-headers: {Host: v2-2.godlight.xyz}, udp: true}
-  - {name: 新加坡（TG@阿伟科技/油管） 4, server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: "%7B%22host%22:%22aweikeji-YouTube-TG%22%7D"}, udp: true}
-  - {name: YouTube@阿阳AYANG 16, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: V2 Native | HK BGP, server: x-cc.gotout.work, port: 32131, type: vmess, uuid: 69b55fcc-0218-3242-8c38-80107a37768e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: x-cc.gotout.work}, udp: true}
-  - {name: 158.247.199.253:443, server: 158.247.199.253, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: HK-高速节点购买：v1.mk/vip（浏览器打开）, server: hk3.fdns.cloudlink123.com, port: 80, type: vmess, uuid: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk3.fdns.cloudlink123.com}, udp: true}
-  - {name: 152.89.210.84:9064, server: 152.89.210.84, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: 美国【YouTube由零开始】 22, server: 85.209.159.107, port: 20403, type: vmess, uuid: b3b08b1c-c0a4-11ec-8151-00163c3fe0cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Asq7j5Mb/, ws-headers: {Host: 85.209.159.107}, udp: true}
-  - {name: _DE_德国 3, server: 5.183.179.145, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: DE_653, server: 5.183.179.137, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: _DE_德国 4, server: 5.183.179.145, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: YouTube@阿阳AYANG 71, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _AU_澳大利亚 2, server: 185.167.116.253, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: 美国2丨筋斗云丨Weoworks提供, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本（TG@阿伟科技/油管） 3, server: x.gotout.work, port: 30031, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
-  - {name: Ytb:鹏哥分享_中国_12, server: cm.mj-cn.cyou, port: 26633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: YouTube@阿阳AYANG 17, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 173.82.186.25:60001, server: 173.82.186.25, port: 60001, type: ssr, cipher: dummy, password: enterpassword, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: GB-高速节点购买：v1.mk/vip（浏览器打开）, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Youtue/ONE·资源核, server: 172.104.157.118, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 152.89.210.105:9073, server: 152.89.210.105, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: _CH_瑞士, server: 185.126.116.117, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: _CH_瑞士 2, server: 185.126.116.117, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: IN-高速节点购买：v1.mk/vip（浏览器打开） 2, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: _CH_瑞士 3, server: 185.126.116.117, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: 152.89.210.105:9032, server: 152.89.210.105, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: Ytb:鹏哥分享_中国_13, server: cu.mj-cn.cyou, port: 26623, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 8, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 91_3, server: 107.167.5.43, port: 443, type: vmess, uuid: aaacab30-a9fa-4249-9780-93ed4d223ed6, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/173418141123, ws-headers: {Host: 107.167.5.43}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_23, server: cm.mj-cn.cyou, port: 16616, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: 213.183.51.171:9010, server: 213.183.51.171, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: YouTube@阿阳AYANG 18, server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 198.57.27.225:8888, server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_中国_16, server: cu.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: HK_759 | 8.96Mb, server: hkaz3.xmrth-node.xyz, port: 12568, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 台湾（TG@阿伟科技/油管）, server: tw.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯（TG@阿伟科技/油管） 4, server: cu.mj-cn.cyou, port: 16625, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 213.183.51.171:9006, server: 213.183.51.171, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: Ytb:鹏哥分享_中国_14, server: ct.mj-cn.cyou, port: 23383, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_11, server: cm.mj-cn.cyou, port: 26623, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_27, server: ct.mj-cn.cyou, port: 16633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: Ytb:鹏哥分享_中国_20, server: cu.mj-cn.cyou, port: 23309, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 213.183.51.172:9045, server: 213.183.51.172, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 4, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, sni: fhcamd1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Ytb:鹏哥分享_韩国_9, server: 146.56.99.245, port: 25135, type: vmess, uuid: 5893f7e5-9695-45af-f65e-bd2958ba93fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 213.183.51.171:9015, server: 213.183.51.171, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: V2 IPLC Game | US1, server: x.gotout.work, port: 30061, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
-  - {name: 152.89.210.84:9032, server: 152.89.210.84, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: "微软香港: 广港IEPL-META", server: 120.233.10.82, port: 30189, type: trojan, password: DNyuqj9ZPeBujPZx, skip-cert-verify: true, udp: true}
-  - {name: 香港-VIP2, server: jdhk4.cloudoo.xyz, port: 443, type: vmess, uuid: 69b1ff66-913e-4a35-acbf-95da80c1c200, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /upload, ws-headers: {Host: jdhk4.cloudoo.xyz}, udp: true}
-  - {name: 158.247.205.87:5500, server: 158.247.205.87, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 香港-顶级节点更新 https://bit.ly/36b6iJh, server: jdhk2.cloudoo.xyz, port: 443, type: vmess, uuid: 69b1ff66-913e-4a35-acbf-95da80c1c200, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /upload, ws-headers: {Host: jdhk2.cloudoo.xyz}, udp: true}
-  - {name: 印度184-1电信@1Gbps 节点更新 https://bit.ly/36b6iJh, server: www.digitalocean.com, port: 443, type: vmess, uuid: 9b040780-001e-40cb-bcd0-81c5dd3b02fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: V1 | US B1, server: x-cm.gotout.work, port: 31621, type: vmess, uuid: 69b55fcc-0218-3242-8c38-80107a37768e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 14.29.124.168:25259, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 40, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: us02.gogogoo.cyou}, udp: true}
-  - {name: 152.89.210.84:9097, server: 152.89.210.84, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: 加拿大【YouTube由零开始】 3, server: ca-trojan.bonds.id, port: 443, type: trojan, password: TZLajhUSac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
-  - {name: V2 | US BGP, server: x-cn2.gotout.work, port: 32631, type: vmess, uuid: 69b55fcc-0218-3242-8c38-80107a37768e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港, server: jdhk3.cloudoo.xyz, port: 443, type: vmess, uuid: 69b1ff66-913e-4a35-acbf-95da80c1c200, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /upload, ws-headers: {Host: jdhk3.cloudoo.xyz}, udp: true}
-  - {name: Alien, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本-VIP, server: jdjp1.cloudoo.xyz, port: 443, type: vmess, uuid: 69b1ff66-913e-4a35-acbf-95da80c1c200, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /upload, ws-headers: {Host: jdjp1.cloudoo.xyz}, udp: true}
-  - {name: "Hongkong, SS - B Group", server: ss-node-4-b.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: c6e475e3-31ef-430c-8983-a5fa1854a15f, udp: true}
-  - {name: "Singapore, Tj - B Group", server: tj-node-3-b.gfwairport.net, port: 50001, type: trojan, password: c6e475e3-31ef-430c-8983-a5fa1854a15f, sni: tj-node-3-b.gfwairport.net, skip-cert-verify: true, udp: true}
-  - {name: 新加坡-奈飞迪斯尼, server: gni.cloudoo.xyz, port: 4001, type: vmess, uuid: 69b1ff66-913e-4a35-acbf-95da80c1c200, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /upload, ws-headers: {Host: gni.cloudoo.xyz}, udp: true}
-  - {name: Youtube/ONE·资源核 24, server: 107.167.24.213, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/173418141123, ws-headers: {Host: 107.167.24.213}, udp: true}
-  - {name: 美国-1, server: gni.cloudoo.xyz, port: 4009, type: vmess, uuid: 69b1ff66-913e-4a35-acbf-95da80c1c200, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /upload, ws-headers: {Host: gni.cloudoo.xyz}, udp: true}
-  - {name: 213.183.51.172:9057, server: 213.183.51.172, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: V1 | SG B1, server: x-cm.gotout.work, port: 31421, type: vmess, uuid: 69b55fcc-0218-3242-8c38-80107a37768e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 152.89.210.84:9020, server: 152.89.210.84, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: _RO_罗马尼亚->🇯🇵_JP_日本_39, server: jp.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: jp.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 香港HGC, server: 210.0.159.90, port: 38888, type: trojan, password: a0dac702-8ab0-40e7-a8a1-1dd7d8fb65e0, skip-cert-verify: true, udp: true}
-  - {name: Ytb:鹏哥分享_新加坡_105, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: 152.89.210.84:9073, server: 152.89.210.84, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: 印度184-2@1Gbps节点更新 https://bit.ly/36b6iJh, server: in.884899.cf, port: 443, type: vmess, uuid: 9b040780-001e-40cb-bcd0-81c5dd3b02fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 英国【YouTube由零开始】, server: 144.24.88.101, port: 16833, type: vmess, uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 5.183.179.166:9005, server: 5.183.179.166, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: 185.167.116.253:9020, server: 185.167.116.253, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: CN_45TGatpeekfun_120, server: 113.240.72.211, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 113.240.72.211}, udp: true}
-  - {name: 152.89.210.84:9033, server: 152.89.210.84, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: 185.167.116.253:9037, server: 185.167.116.253, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: 152.89.210.84:9027, server: 152.89.210.84, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_53, server: streaming-1-route.teacher2050.com, port: 31222, type: vmess, uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 158.247.205.87:6697, server: 158.247.205.87, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 香港HGC1_5×_13, server: 210.0.159.90, port: 38443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: 152.89.210.84:9037, server: 152.89.210.84, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: 185.167.116.253:9027, server: 185.167.116.253, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: 213.169.137.221:989, server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 213.183.51.172:9037, server: 213.183.51.172, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: 158.247.205.87:2375, server: 158.247.205.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 213.183.51.171:9088, server: 213.183.51.171, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: 韩国-VIP 节点更新 https://bit.ly/36b6iJh, server: gni.cloudoo.xyz, port: 4003, type: vmess, uuid: 69b1ff66-913e-4a35-acbf-95da80c1c200, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /upload, ws-headers: {Host: gni.cloudoo.xyz}, udp: true}
-  - {name: 152.89.210.84:9059, server: 152.89.210.84, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: 香港AZ-1号_29, server: 20.205.98.64, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: 152.89.210.84:9056, server: 152.89.210.84, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: 14.29.124.168:25271, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.18.135.208, port: 443, type: vmess, uuid: 9b040780-001e-40cb-bcd0-81c5dd3b02fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 5.183.179.166:9056, server: 5.183.179.166, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: 5.183.179.166:9020, server: 5.183.179.166, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: 152.89.210.105:9094, server: 152.89.210.105, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: "微软首尔: 上海联通-碳云", server: shcu.forgebukkit.com, port: 19931, type: trojan, password: AGDWRkQHMP53S6kE, sni: shcu.forgebukkit.com, skip-cert-verify: true, udp: true}
-  - {name: "新加坡: 广港BGP-猫猫", server: relay.gzbgppro.entrance1-fp.icu, port: 45002, type: trojan, password: rXpa83kacgcC7Kme, sni: relay.gzbgppro.entrance1-fp.icu, skip-cert-verify: true, udp: true}
-  - {name: 印度184-21联通100M+4K   节点更新 https://bit.ly/36b6iJh, server: 104.18.27.64, port: 443, type: vmess, uuid: 9b040780-001e-40cb-bcd0-81c5dd3b02fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
-  - {name: 14.29.124.168:25267, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 213.183.51.171:9005, server: 213.183.51.171, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: 158.247.205.87:7002, server: 158.247.205.87, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 5.183.179.167:9025, server: 5.183.179.167, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: 158.247.205.87:5004, server: 158.247.205.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 213.183.51.172:9025, server: 213.183.51.172, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: 158.247.205.87:3389, server: 158.247.205.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 220_4, server: 107.167.22.13, port: 443, type: vmess, uuid: 28dd6c26-05a5-4bba-8a5d-052b70ac13b2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/173418141123, ws-headers: {Host: 107.167.22.13}, udp: true}
-  - {name: 5.183.179.166:9094, server: 5.183.179.166, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 185.167.116.253:9046, server: 185.167.116.253, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: 213.183.51.172:9060, server: 213.183.51.172, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: 14.29.124.168:25279, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 213.183.51.172:9010, server: 213.183.51.172, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: 213.183.51.172:9064, server: 213.183.51.172, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: 美国-2 节点更新 https://bit.ly/36b6iJh, server: gni.cloudoo.xyz, port: 4008, type: vmess, uuid: 69b1ff66-913e-4a35-acbf-95da80c1c200, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /upload, ws-headers: {Host: gni.cloudoo.xyz}, udp: true}
-  - {name: 14.29.124.168:25247, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 152.89.210.84:9094, server: 152.89.210.84, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 直连-日本T2-A, server: 104.17.67.190, port: 443, type: vmess, uuid: dde8ba18-2986-40a5-837f-13593edc676e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: jp.567568.ml}, udp: true}
-  - {name: 158.247.205.87:443, server: 158.247.205.87, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 5.183.179.166:9015, server: 5.183.179.166, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: 213.183.51.171:9043, server: 213.183.51.171, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: 213.183.53.177:9050, server: 213.183.53.177, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: 14.29.124.168:25266, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25294, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 213.183.51.172:9011, server: 213.183.51.172, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: 日本-1, server: gni.cloudoo.xyz, port: 4005, type: vmess, uuid: 69b1ff66-913e-4a35-acbf-95da80c1c200, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /upload, ws-headers: {Host: gni.cloudoo.xyz}, udp: true}
-  - {name: 台湾Hinet_33, server: hinet.xxcv.cc, port: 38443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, sni: hinet.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: 158.247.205.87:8009, server: 158.247.205.87, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 直连-日本T-A2  ws, server: 104.25.234.170, port: 443, type: vmess, uuid: dde8ba18-2986-40a5-837f-13593edc676e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: jp.567568.ml}, udp: true}
-  - {name: 152.89.210.105:9046, server: 152.89.210.105, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: "Singapore, SS - B Group", server: ss-node-3-b.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: c6e475e3-31ef-430c-8983-a5fa1854a15f, udp: true}
-  - {name: 直连-日本T-A 2_vmess_ws, server: 104.25.234.170, port: 443, type: vmess, uuid: 2ef91648-089f-4c81-b34d-06f072ec51dd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: jp02.884899.cf}, udp: true}
-  - {name: 104.18.214.26+峰值速度+174080+kB/, server: 104.18.214.26, port: 443, type: trojan, password: 3e47f46c-4349-4747-a7d8-40cd12446d92, skip-cert-verify: true, udp: true}
-  - {name: 【YouTube由零开始】 3, server: 104.19.3.16, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
+  - {name: KR-高速节点购买：v1.mk/vip（浏览器打开）, server: v2-4.godlight.xyz, port: 50496, type: vmess, uuid: 07ea283e-bbe8-466f-a268-c5819763a9bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /g1641hvx, ws-headers: {Host: v2-4.godlight.xyz}, udp: true}
+  - {name: 梦歌|BGP中转|解锁流媒体_29, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: 美国, server: sg-sr-114.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-114.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: 韩国（Meteor）+4, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: YouTube梦歌|Netflix_6, server: cu.mj-cn.cyou, port: 16617, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: CN_407 | 9.12Mb, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: 日本（TG@阿伟科技/油管）, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: 新加坡 【由零开始YouTube】, server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: sg3.31vpn.com}, udp: true}
-  - {name: 香港AZ-2号, server: 20.239.157.77, port: 28443, type: trojan, password: 5fec5154-2d25-4422-85a2-be888283a736, skip-cert-verify: true, udp: true}
-  - {name: 213.183.51.172:9093, server: 213.183.51.172, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: CA-高速节点购买：v1.mk/vip（浏览器打开）, server: 198.57.27.225, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 185.167.116.253:9097, server: 185.167.116.253, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: 新加坡（TG@阿伟科技/油管） 5, server: 120.233.10.230, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: Ytb:鹏哥分享_印度_33, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 213.183.51.171:9003, server: 213.183.51.171, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 5, server: 169.197.142.99, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CA-高速节点购买：v1.mk/vip（浏览器打开） 2, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 香港（TG@阿伟科技/油管） 5, server: hk5.fdns.cloudlink123.com, port: 80, type: vmess, uuid: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk5.fdns.cloudlink123.com}, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 6, server: 38.68.135.19, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 198.57.27.225:8882, server: 198.57.27.225, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 169.197.142.99:5000, server: 169.197.142.99, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开）, server: 120.233.10.230, port: 50200, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: Ytb:鹏哥分享_中国_5, server: ct.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: 台湾（TG@阿伟科技/油管） 2, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: _DE_德国 5, server: 5.183.179.146, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: Youtube/ONE·资源核 59, server: hkaz3.xmrth-node.xyz, port: 12568, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: hkaz3.xmrth-node.xyz}, udp: true}
-  - {name: CA-高速节点购买：v1.mk/vip（浏览器打开） 3, server: 198.57.27.225, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 198.57.27.225:5004, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 198.57.27.225:5000, server: 198.57.27.225, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 213.183.53.177:9032, server: 213.183.53.177, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
   - {name: Ytb:鹏哥分享_中国_26, server: gtm.mj-cn.cyou, port: 16616, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gtm.mj-cn.cyou}, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 2, server: 120.233.10.230, port: 50100, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: YouTube梦歌|Netflix_21, server: azhk5.mayiyun.vip, port: 10015, type: ss, cipher: aes-256-gcm, password: 7a0e7d79-47e0-4a81-9fbe-086dc0159533, udp: true}
+  - {name: "Tokyo, V2 - B Group", server: V2-NODE-1-B.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: c6e475e3-31ef-430c-8983-a5fa1854a15f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: V2-NODE-1-B.GFWAIRPORT.NET}, udp: true}
+  - {name: 梦歌|BGP中转|解锁Netflix_18, server: ct.mj-cn.cyou, port: 16617, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: _CN_中国->🇲🇾_MY_马来西亚, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡【YouTube由零开始】 4, server: sg3.31vpn.com, port: 443, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: sg3.31vpn.com}, udp: true}
+  - {name: 日本（TG@阿伟科技/油管） 2, server: cu.mj-cn.cyou, port: 16617, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: 台湾, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: 新加坡（TG@阿伟科技/油管）, server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: _AU_澳大利亚, server: 185.167.116.253, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: Ytb:鹏哥分享_中国_27, server: ct.mj-cn.cyou, port: 16633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开）, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 直连-日本T-A 2_vmess_ws, server: 104.25.234.170, port: 443, type: vmess, uuid: 2ef91648-089f-4c81-b34d-06f072ec51dd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: jp02.884899.cf}, udp: true}
+  - {name: YouTube梦歌|Netflix_43, server: www.hawtaigroup.com, port: 2086, type: vmess, uuid: 205bcebc-5ace-460e-bf69-af2e53ccca39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@Banyun12138, ws-headers: {Host: lasiweijiazi.jisuxiang.one}, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开）, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: 185.167.116.253:9037, server: 185.167.116.253, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: 185.167.116.253:9027, server: 185.167.116.253, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: 158.247.219.68:3389, server: 158.247.219.68, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 梦歌|BGP中转|解锁流媒体_87, server: cm.mj-cn.cyou, port: 26633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
+  - {name: _DE_德国, server: 172.105.244.165, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国【YouTube由零开始】, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|BGP中转|解锁流媒体_25, server: cm.mj-cn.cyou, port: 16616, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
+  - {name: Ytb:鹏哥分享_中国_16, server: cu.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 158.247.203.168:5500, server: 158.247.203.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 2, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: 香港（TG@阿伟科技/油管）, server: ct.mj-cn.cyou, port: 26622, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: YouTube梦歌|Netflix_8, server: cm.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
+  - {name: 美国（TG@阿伟科技/油管）, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|BGP中转|解锁Netflix_75, server: ct.mj-cn.cyou, port: 26633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: 加拿大（TG@阿伟科技/油管）, server: 47.52.59.79, port: 443, type: vmess, uuid: 70fec762-51ee-4a95-ae09-ff32804fecc9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nana, ws-headers: {Host: ca1.qingchengjisu.ltd}, udp: true}
+  - {name: 法国（TG@阿伟科技/油管）, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 0a4de18d-aba9-4392-9fd8-9f52bdaf1db0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr1t.moonfree.top}, udp: true}
+  - {name: 美国(ios小火箭软件|ioskaka.com), server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Ytb:鹏哥分享_中国_25, server: gtm.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gtm.mj-cn.cyou}, udp: true}
-  - {name: 213.183.51.172:9001, server: 213.183.51.172, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 3, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 7, server: 169.197.142.99, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 8, server: 169.197.142.99, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA-高速节点购买：v1.mk/vip（浏览器打开） 4, server: 198.57.27.225, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_中国_1, server: cu.mj-cn.cyou, port: 16633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: TG:YouTubeAYANG科技大师 2, server: 169.197.142.99, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 9, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 10, server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/3102637493qqcom/626cf7d8bd49b/, ws-headers: {Host: us3.31vpn.com}, udp: true}
-  - {name: 台湾（TG@阿伟科技/油管） 3, server: x.gotout.work, port: 30021, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 4, server: 120.240.48.19, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
-  - {name: 213.183.51.171:9050, server: 213.183.51.171, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: 俄罗斯（TG@阿伟科技/油管） 2, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan33.free4444.xyz, skip-cert-verify: true, udp: true}
-  - {name: SG-高速节点购买：v1.mk/vip（浏览器打开） 2, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, sni: cp-asus.ml, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_5, server: yyyy.wwwbhjy.com, port: 2443, type: vmess, uuid: dee32eb7-e190-4c6f-dd27-aa9c82cd5490, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /8a76fb13/, ws-headers: {Host: yyyy.wwwbhjy.com}, udp: true}
+  - {name: 梦歌|BGP中转|解锁流媒体_33, server: gtm.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gtm.mj-cn.cyou}, udp: true}
+  - {name: YouTube梦歌|Netflix_1, server: ct.mj-cn.cyou, port: 26622, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: _JP_日本, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 梦歌|BGP中转|解锁流媒体_53, server: cu.mj-cn.cyou, port: 26623, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 梦歌|BGP中转|解锁流媒体_24, server: cu.mj-cn.cyou, port: 16617, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 2, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 梦歌|BGP中转|解锁流媒体_35, server: cu.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 梦歌|BGP中转|解锁流媒体_43, server: cu.mj-cn.cyou, port: 23383, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 英国（TG@阿伟科技/油管）, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: Ytb:鹏哥分享_韩国_9, server: 146.56.99.245, port: 25135, type: vmess, uuid: 5893f7e5-9695-45af-f65e-bd2958ba93fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Ytb:鹏哥分享_中国_14, server: ct.mj-cn.cyou, port: 23383, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: 185.167.116.253:9020, server: 185.167.116.253, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: 新加坡（TG@阿伟科技/油管） 2, server: cu.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: 梦歌|BGP中转|解锁流媒体_74, server: ct.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: 美国 2, server: 169.197.142.99, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 172.99.190.92:8888, server: 172.99.190.92, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh, server: www.garmin.com, port: 443, type: vmess, uuid: 9b040780-001e-40cb-bcd0-81c5dd3b02fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
+  - {name: 加拿大, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 加拿大 2, server: 198.57.27.225, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 加拿大 3, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: TG/YouTube+AYANG*科技大师, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: YouTube梦歌|Netflix_30, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国 3, server: 169.197.142.99, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 印度【YouTube由零开始】 5, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 2, server: 120.233.10.230, port: 50100, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: 美国 4, server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 172.99.190.92:7306, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: RELAY-Openit.ml 2, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 117.28.242.156}, udp: true}
+  - {name: 加拿大 4, server: 198.57.27.225, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 27, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 【YouTube由零开始】 3, server: 104.19.3.16, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
+  - {name: YouTube梦歌|Netflix_25, server: 20.222.101.175, port: 80, type: vmess, uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 3, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 梦歌|BGP中转|解锁Netflix_16, server: cu.mj-cn.cyou, port: 16616, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 梦歌|BGP中转|解锁Netflix_45, server: ct.mj-cn.cyou, port: 16616, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: 141.164.35.41:6697, server: 141.164.35.41, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 4, server: 38.68.135.19, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: YouTube梦歌|Netflix_15, server: 47.241.222.60, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /free, ws-headers: {Host: jp.sayuri.cf}, udp: true}
+  - {name: 加拿大 5, server: 198.57.27.225, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CN_406 | 7.24Mb, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 5, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 5, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: TG:YouTubeAYANG科技大师, server: 169.197.142.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 6, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
+  - {name: 185.167.116.253:9097, server: 185.167.116.253, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: YouTube梦歌|Netflix_29, server: 430hkhk.fans8.xyz, port: 443, type: vmess, uuid: efaeb7b2-bd81-37d7-b3af-5c633570f423, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 430hkhk.fans8.xyz}, udp: true}
+  - {name: 152.89.210.105:9073, server: 152.89.210.105, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: _HK_香港, server: 43.132.158.232, port: 44350, type: vmess, uuid: 164b5fc8-5689-48ec-9f50-9f1b04f8c885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.132.158.232]}}, udp: true}
+  - {name: 美国【YouTube由零开始】 2, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 梦歌|BGP中转|解锁流媒体_45, server: ct.mj-cn.cyou, port: 23383, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: _DE_德国 2, server: 5.183.179.145, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: YouTube梦歌|Netflix_18, server: cu.mj-cn.cyou, port: 16626, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: 新加坡（TG@阿伟科技/油管） 3, server: sg1.qingyun123.xyz, port: 10001, type: trojan, password: aa3e00ef-fc08-44c6-8452-a3b41cbf4b2c, sni: sg1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 梦歌|BGP中转|解锁Netflix_10, server: ct.mj-cn.cyou, port: 26622, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: Ytb:鹏哥分享_中国_13, server: cu.mj-cn.cyou, port: 26623, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 145.239.1.100:5003, server: 145.239.1.100, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 印度【YouTube由零开始】 4, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube由零开始】 3, server: 167.88.61.70, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _HK_香港 2, server: 43.129.227.60, port: 27727, type: vmess, uuid: d00f5ea9-4658-4f0a-a6c3-e29ef711cf3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.129.227.60]}}, udp: true}
   - {name: Ytb:鹏哥分享_中国_8, server: cm.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 11, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 12, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 13, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 38.68.135.19:5601, server: 38.68.135.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 节点更新 https://bit.ly/36b6iJh, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 3, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: 152.89.210.105:9046, server: 152.89.210.105, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: 145.239.1.100:7001, server: 145.239.1.100, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 152.89.210.105:9037, server: 152.89.210.105, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: 美国 6, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 152.89.210.105:9046 2, server: 152.89.210.105, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: 法国【YouTube由零开始】, server: 145.239.1.100, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CN_中国, server: 43.154.77.196, port: 38539, type: vmess, uuid: a379bd7f-9d0d-4fb5-90c2-9b302782c4d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.77.196]}}, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 7, server: 47.52.57.57, port: 443, type: vmess, uuid: 98d6a5ef-6cd8-870b-8aad-da7bd362c56c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: square-smoke-6f8a.toiclokeoqc92.workers.dev}, udp: true}
+  - {name: 美国 7, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _GB_英国 2, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 8, server: 38.68.135.19, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 145.239.1.100:2376, server: 145.239.1.100, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国 8, server: 38.68.135.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: YouTube梦歌|Netflix_12, server: cu.mj-cn.cyou, port: 26623, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: 104.17.177.116, server: 104.17.177.116, port: 443, type: vmess, uuid: 9b040780-001e-40cb-bcd0-81c5dd3b02fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
+  - {name: Ytb:鹏哥分享_中国_21, server: ct.mj-cn.cyou, port: 16628, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: 直连-日本T2-A, server: 104.17.67.190, port: 443, type: vmess, uuid: dde8ba18-2986-40a5-837f-13593edc676e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: jp.567568.ml}, udp: true}
+  - {name: _US_美国 2, server: 169.197.142.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: UA-高速节点购买：v1.mk/vip（浏览器打开）, server: 176.103.61.162, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: IjBemsAg, udp: true}
-  - {name: 213.183.53.200:9032, server: 213.183.53.200, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 5, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 185.167.116.253:9064, server: 185.167.116.253, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 14, server: 169.197.142.99, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: FR-Openit.ml, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 15, server: 169.197.142.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 16, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: YouTube梦歌|Netflix_29 2, server: 47.52.57.57, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /free, ws-headers: {Host: jp.sayuri.cf}, udp: true}
+  - {name: 梦歌|BGP中转|解锁流媒体_51, server: ct.mj-cn.cyou, port: 23309, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: Ytb:鹏哥分享_中国_15, server: ct.mj-cn.cyou, port: 23309, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: Ytb:鹏哥分享_中国_23, server: cm.mj-cn.cyou, port: 16616, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
+  - {name: 145.239.1.100:8882, server: 145.239.1.100, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh, server: 104.18.135.208, port: 443, type: vmess, uuid: 9b040780-001e-40cb-bcd0-81c5dd3b02fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 9, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "Hongkong, V2 - B Group", server: V2-NODE-4-B.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: c6e475e3-31ef-430c-8983-a5fa1854a15f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: V2-NODE-4-B.GFWAIRPORT.NET}, udp: true}
+  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 4, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 91_3, server: 107.167.5.43, port: 443, type: vmess, uuid: aaacab30-a9fa-4249-9780-93ed4d223ed6, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/173418141123, ws-headers: {Host: 107.167.5.43}, udp: true}
+  - {name: _DE_德国 3, server: 5.183.179.145, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: _GB_英国 3, server: 152.89.210.105, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 10, server: 45.76.71.233, port: 46983, type: vmess, uuid: 69099258-1476-46dd-a51b-84e915e941be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /1tGK82lU/, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: _GB_英国 4, server: 152.89.210.105, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: 梦歌|BGP中转|解锁Netflix_59, server: cu.mj-cn.cyou, port: 16628, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 梦歌|BGP中转|解锁流媒体_106, server: gtm.mj-cn.cyou, port: 16616, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gtm.mj-cn.cyou}, udp: true}
+  - {name: US美国 2, server: 169.197.142.99, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 91_3 2, server: 107.167.5.43, port: 443, type: vmess, uuid: aaacab30-a9fa-4249-9780-93ed4d223ed6, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/173418141123, ws-headers: {Host: 107.167.5.43}, udp: true}
+  - {name: _CA_加拿大 2, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国 9, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: ahdaeph8.com}, udp: true}
+  - {name: 梦歌|BGP中转|解锁Netflix_13, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 印度（TG@阿伟科技/油管）, server: cu.mj-cn.cyou, port: 16626, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: YouTube梦歌|Netflix_57, server: 169.197.142.99, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: YouTube梦歌|Netflix_1 2, server: 20.210.240.228, port: 80, type: vmess, uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dm.toutiao.com}, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 11, server: 169.197.142.99, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 3, server: 198.57.27.225, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 梦歌|BGP中转|解锁流媒体_56, server: ct.mj-cn.cyou, port: 16628, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: _SG_新加坡, server: 43.135.70.192, port: 24740, type: vmess, uuid: 3749de34-a1a9-44db-b72a-510712a52d11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.135.70.192]}}, udp: true}
+  - {name: 220_4, server: 107.167.22.13, port: 443, type: vmess, uuid: 28dd6c26-05a5-4bba-8a5d-052b70ac13b2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/173418141123, ws-headers: {Host: 107.167.22.13}, udp: true}
+  - {name: 213.183.51.172:9001, server: 213.183.51.172, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
   - {name: Ytb:鹏哥分享_中国_18, server: cu.mj-cn.cyou, port: 16626, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 17, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 213.183.51.172:9050, server: 213.183.51.172, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 6, server: 120.233.10.230, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 18, server: 169.197.142.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 19, server: 169.197.142.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: DE-高速节点购买：v1.mk/vip（浏览器打开）, server: 172.105.244.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 20, server: 169.197.142.99, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 7, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 21, server: 169.197.142.99, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 22, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3684, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 8, server: 120.233.10.230, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 23, server: 169.197.142.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 24, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: HK-高速节点购买：v1.mk/vip（浏览器打开） 2, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}, udp: true}
-  - {name: HK-高速节点购买：v1.mk/vip（浏览器打开） 3, server: api.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: api.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V07-付费推荐:suo.yt/ssrsub", server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 120.240.48.19}, udp: true}
-  - {name: 日本(ios小火箭软件|ioskaka.com) 2, server: 172.105.244.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CA-高速节点购买：v1.mk/vip（浏览器打开） 5, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 9, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 俄罗斯（TG@阿伟科技/油管） 3, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 198.57.27.225:7001, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "|20.89Mb", server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 213.183.51.172:9038, server: 213.183.51.172, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 25, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Ytb:鹏哥分享_中国_75, server: 120.240.48.19, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 120.240.48.19}, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 10, server: 120.233.10.230, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 美国(ios小火箭软件|ioskaka.com) 2, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 198.57.27.225:8118, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 26, server: 169.197.142.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: KR-高速节点购买：v1.mk/vip（浏览器打开） 2, server: www.sszhegeba.ml, port: 443, type: vmess, uuid: b4627c3c-3ea0-42d7-8f58-e4e417ed0d36, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/056dbf9?ed=2048", ws-headers: {Host: www.sszhegeba.ml}, udp: true}
-  - {name: _US_美国 8, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip（浏览器打开） 11, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 152.89.210.105:9093, server: 152.89.210.105, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 27, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 28, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: HK-高速节点购买：v1.mk/vip（浏览器打开） 4, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}, udp: true}
-  - {name: CZ-高速节点购买：v1.mk/vip（浏览器打开）, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, sni: cz5.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 29, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 梦歌|BGP中转|解锁Netflix_46, server: ct.mj-cn.cyou, port: 16631, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: _US_美国 3, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 俄罗斯（TG@阿伟科技/油管）, server: cu.mj-cn.cyou, port: 16625, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: 213.183.51.172:9010, server: 213.183.51.172, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: 梦歌|BGP中转|解锁流媒体_44, server: cu.mj-cn.cyou, port: 16626, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: YouTube梦歌|Netflix_44, server: 47.242.199.100, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /free, ws-headers: {Host: jp.sayuri.cf}, udp: true}
+  - {name: IR-高速节点购买：v1.mk/vip（浏览器打开）, server: asr-farda.ir, port: 49110, type: vmess, uuid: 47bce6b8-c260-11ec-b514-000c297a3bfd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /pdOa1847/, ws-headers: {Host: asr-farda.ir}, udp: true}
+  - {name: 澳大利亚（TG@阿伟科技/油管）, server: 20.211.32.62, port: 6666, type: vmess, uuid: 95ea233c-5044-4771-bee6-53fe0ea38727, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: YouTube梦歌|Netflix_49, server: 47.241.187.250, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /free, ws-headers: {Host: jp.sayuri.cf}, udp: true}
+  - {name: 印度184-1电信@1Gbps 节点更新 https://bit.ly/36b6iJh, server: www.digitalocean.com, port: 443, type: vmess, uuid: 9b040780-001e-40cb-bcd0-81c5dd3b02fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: in.884899.cf}, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 3, server: 169.197.142.99, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: github.com/freefq - 广东省广州市黄埔区珠江宽频 25, server: 120.240.48.20, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 香港（TG@阿伟科技/油管） 2, server: 47.56.143.21, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /free, ws-headers: {Host: jp.sayuri.cf}, udp: true}
+  - {name: 日本（TG@阿伟科技/油管） 3, server: 152.70.80.107, port: 53950, type: vmess, uuid: e1553fe3-73a6-431e-b507-c21659de2c76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG/YouTube+AYANG*科技大师 2, server: 169.197.142.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: YouTube梦歌|Netflix_23, server: 43.154.55.155, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /free, ws-headers: {Host: jp.sayuri.cf}, udp: true}
+  - {name: _CH_瑞士, server: 185.126.116.117, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: _US_美国 4, server: 169.197.142.99, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 欧洲, server: de-01.fireplay.io, port: 443, type: trojan, password: lo3TmsNaLWUXpuoE, sni: de-01.fireplay.io, skip-cert-verify: true, udp: true}
+  - {name: 马来西亚（TG@阿伟科技/油管）, server: cu.mj-cn.cyou, port: 26623, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: 香港（TG@阿伟科技/油管） 3, server: 47.243.22.153, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /free, ws-headers: {Host: jp.sayuri.cf}, udp: true}
+  - {name: 日本（TG@阿伟科技/油管） 4, server: 150.109.147.14, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /free, ws-headers: {Host: jp.sayuri.cf}, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 12, server: 104.16.42.170, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
+  - {name: YouTube梦歌|Netflix_22, server: azhk.f2s.bp2022.top, port: 443, type: trojan, password: d8c36e7c-8fd5-4671-9603-d689784547db, sni: azhk.f2s.bp2022.top, skip-cert-verify: true, udp: true}
+  - {name: YouTube@阿阳AYANG, server: 198.57.27.225, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 梦歌|BGP中转|解锁流媒体_57, server: cu.mj-cn.cyou, port: 23309, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: github.com/freefq - 北美地区  42, server: 169.197.142.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "@SSRSUB-V10-付费推荐:suo.yt/ssrsub", server: sanfranciscolafayette.club, port: 443, type: vmess, uuid: cc0b4469-c0e5-4efb-8f69-a6df64db24ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /neuromancer, ws-headers: {Host: sanfranciscolafayette.club}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -851,6 +659,63 @@ proxy-groups:
     url: https://www.google.com/gen_204
     interval: 300
     proxies:
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 2
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 3
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 4
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 4
+      - 🇸🇬 粉丝投稿🍄新103.157.251.20
+      - 🇭🇰 粉丝投稿🍄港103.157.251.19
+      - 粉丝投稿
+      - 粉丝投稿 2
+      - 粉丝投稿 3
+      - 粉丝投稿 4
+      - 粉丝投稿 5
+      - 粉丝投稿 6
+      - 粉丝投稿 7
+      - 粉丝投稿 8
+      - 粉丝投稿 9
+      - 🇭🇰 粉丝投稿 1--无限流量
+      - 🇭🇰 粉丝投稿 2--无限流量
+      - 🇭🇰 粉丝投稿 3--无限流量
+      - 🇭🇰 粉丝投稿 4--无限流量
+      - 🇭🇰 粉丝投稿 5--无限流量
+      - 🇭🇰 粉丝投稿 6--无限流量
+      - 🇭🇰 粉丝投稿 7--无限流量
+      - 🇭🇰 无限流量 1--无限流量
+      - 🇭🇰 无限流量 2--无限流量
+      - 🇭🇰 无限流量 3--无限流量
+      - 🇭🇰 无限流量 4--无限流量
+      - 🇭🇰 无限流量 5--无限流量
+      - 🇭🇰 无限流量 6--无限流量
+      - 🇭🇰 无限流量 7--无限流量
+      - 🇭🇰 无限流量 8--无限流量
+      - 🇭🇰 无限流量 9--无限流量
+      - 🇭🇰 无限流量 10--无限流量
+      - 🇭🇰 无限流量 11--无限流量
       - 🇺🇸 HTTPS｜美国01
       - 🇺🇸 HTTPS｜美国02
       - 🇩🇪 HTTPS｜德国01
@@ -894,452 +759,260 @@ proxy-groups:
       - 🇸🇬 HTTPS｜新加坡25
       - 🇸🇬 HTTPS｜新加坡26
       - 🇸🇬 HTTPS｜新加坡27
-      - 美国【YouTube由零开始】 2
-      - SG-高速节点购买：v1.mk/vip（浏览器打开）
-      - 香港-VIP
-      - YouTube梦歌|Netflix_6
-      - YouTube梦歌|Netflix_21
-      - 梦歌|BGP中转|解锁流媒体_20
-      - YouTube梦歌|Netflix_20
-      - YouTube梦歌|Netflix_19
-      - 梦歌|BGP中转|解锁流媒体_57
-      - YouTube梦歌|Netflix_14
-      - 梦歌|BGP中转|解锁流媒体_28
-      - 梦歌|BGP中转|解锁流媒体_54
-      - YouTube梦歌|Netflix_29
-      - 梦歌|BGP中转|解锁流媒体_24
-      - YouTube梦歌|Netflix_18
-      - 梦歌|BGP中转|解锁流媒体_45
-      - 104.18.240.15+峰值速度+201728+kB/s
-      - 梦歌|BGP中转|解锁流媒体_30
-      - KR-高速节点购买：v1.mk/vip（浏览器打开）
-      - 梦歌|BGP中转|解锁流媒体_53
-      - 梦歌|BGP中转|解锁流媒体_56
-      - 梦歌|BGP中转|解锁流媒体_87
-      - 梦歌|BGP中转|解锁流媒体_63
-      - 梦歌|BGP中转|解锁流媒体_23
-      - _GB_英国
-      - 梦歌|BGP中转|解锁流媒体_25
-      - _US_美国
-      - YouTube梦歌|Netflix_12
-      - _PL_波兰
-      - _US_美国 2
-      - 梦歌|BGP中转|解锁Netflix_82
-      - 梦歌|BGP中转|解锁流媒体_43
-      - _DE_德国
-      - _US_美国 3
-      - _US_美国 4
-      - California, Tj - B Group
-      - _PL_波兰 2
-      - 梦歌|BGP中转|解锁流媒体_106
-      - _CZ_捷克
-      - _US_美国 5
-      - _BG_保加利亚
-      - Incheon, SS - B Group
-      - 梦歌|BGP中转|解锁流媒体_69
-      - _PL_波兰 3
-      - 梦歌|BGP中转|解锁Netflix_39
-      - 梦歌|BGP中转|解锁Netflix_45
-      - _AU_澳大利亚
-      - _IN_印度
-      - _PL_波兰 4
-      - _BG_保加利亚 2
-      - 梦歌|BGP中转|解锁流媒体_35
-      - 梦歌|BGP中转|解锁Netflix_75
-      - 梦歌|BGP中转|解锁Netflix_92
-      - 梦歌|BGP中转|解锁流媒体_29
-      - _SG_新加坡
-      - _GB_英国 2
-      - 梦歌|BGP中转|解锁Netflix_59
-      - California, SS - B Group
-      - _PL_波兰 5
-      - 梦歌|BGP中转|解锁Netflix_23
-      - 梦歌|BGP中转|解锁流媒体_64
-      - _GB_英国 3
-      - Hongkong, V2 - B Group
-      - YouTube梦歌|Netflix_5
+      - RELAY-Openit.ml
       - Singapore (SG)323
       - Singapore (SG)323 2
-      - _US_美国 6
-      - 梦歌|BGP中转|解锁流媒体_55
-      - Incheon, Tj - B Group
-      - Incheon, V2 - B Group
-      - 5.183.179.166:9018
-      - 梦歌|BGP中转|解锁Netflix_46
-      - 梦歌|BGP中转|解锁流媒体_51
-      - _CA_加拿大
-      - _HK_香港
-      - YouTube梦歌|Netflix_9
-      - _US_美国 7
-      - 104.17.177.116
-      - TW-高速节点购买：v1.mk/vip（浏览器打开）
-      - 韩国【YouTube由零开始】
-      - V1 | US B2
+      - 台湾（TG@阿伟科技/油管）
       - 梦歌|BGP中转|解锁流媒体_40
-      - 梦歌|BGP中转|解锁Netflix_18
-      - 梦歌|BGP中转|解锁流媒体_33
-      - YouTube梦歌|Netflix_27
-      - TG:YouTubeAYANG科技大师
-      - 梦歌|BGP中转|解锁Netflix_100
-      - _JP_日本
-      - _KR_韩国
-      - CN_407 | 9.12Mb
       - Singapore (SG)323 3
-      - 梦歌|BGP中转|解锁Netflix_13
+      - KR-高速节点购买：v1.mk/vip（浏览器打开）
+      - 梦歌|BGP中转|解锁流媒体_29
+      - 美国
+      - 韩国（Meteor）+4
+      - YouTube梦歌|Netflix_6
+      - CN_407 | 9.12Mb
       - 日本（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁Netflix_88
-      - Ytb:鹏哥分享_中国_17
-      - _GB_英国 4
-      - 梦歌|BGP中转|解锁流媒体_44
-      - 日本（TG@阿伟科技/油管） 2
-      - 104.25.234.170+峰值速度+245760+kB/s
-      - YouTube@阿阳AYANG
-      - 德国节点更新 https://bit.ly/36b6iJh
-      - 新加坡11111111111111111
-      - YouTube@阿阳AYANG 2
-      - IN-高速节点购买：v1.mk/vip（浏览器打开）
-      - HK+104.18.26.128+峰值速度+242688+kB/s
-      - github.com/freefq - 日本东京Oracle云计算数据中心 31
-      - 新加坡（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_34
-      - YouTube@阿阳AYANG 3
+      - 新加坡 【由零开始YouTube】
+      - Ytb:鹏哥分享_中国_26
+      - YouTube梦歌|Netflix_21
       - Tokyo, V2 - B Group
-      - 美国（TG@阿伟科技/油管）
-      - YouTube@阿阳AYANG 4
-      - CN_406 | 7.24Mb
-      - AU-高速节点购买：v1.mk/vip（浏览器打开）
-      - "微软香港: 莞港AZ-898"
-      - 美国（TG@阿伟科技/油管） 2
-      - Ytb:鹏哥分享_中国_21
-      - US_3082
-      - California, V2 - B Group
-      - US_3062
-      - 梦歌|BGP中转|解锁Netflix_27
+      - 梦歌|BGP中转|解锁Netflix_18
+      - _CN_中国->🇲🇾_MY_马来西亚
+      - 新加坡【YouTube由零开始】 4
+      - 日本（TG@阿伟科技/油管） 2
+      - 台湾
+      - 新加坡（TG@阿伟科技/油管）
+      - _AU_澳大利亚
+      - Ytb:鹏哥分享_中国_27
       - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - 直连-日本T-A 2_vmess_ws
+      - YouTube梦歌|Netflix_43
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - 185.167.116.253:9037
+      - 185.167.116.253:9027
+      - 158.247.219.68:3389
+      - 梦歌|BGP中转|解锁流媒体_87
+      - _DE_德国
+      - 美国【YouTube由零开始】
+      - 梦歌|BGP中转|解锁流媒体_25
+      - Ytb:鹏哥分享_中国_16
+      - 158.247.203.168:5500
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港（TG@阿伟科技/油管）
+      - YouTube梦歌|Netflix_8
+      - 美国（TG@阿伟科技/油管）
+      - 梦歌|BGP中转|解锁Netflix_75
+      - 加拿大（TG@阿伟科技/油管）
+      - 法国（TG@阿伟科技/油管）
+      - 美国(ios小火箭软件|ioskaka.com)
+      - Ytb:鹏哥分享_中国_25
+      - YouTube梦歌|Netflix_5
+      - 梦歌|BGP中转|解锁流媒体_33
+      - YouTube梦歌|Netflix_1
+      - _JP_日本
+      - 梦歌|BGP中转|解锁流媒体_53
+      - 梦歌|BGP中转|解锁流媒体_24
+      - 美国（TG@阿伟科技/油管） 2
+      - 梦歌|BGP中转|解锁流媒体_35
+      - 梦歌|BGP中转|解锁流媒体_43
+      - 英国（TG@阿伟科技/油管）
+      - Ytb:鹏哥分享_韩国_9
+      - Ytb:鹏哥分享_中国_14
+      - 185.167.116.253:9020
+      - 新加坡（TG@阿伟科技/油管） 2
+      - 梦歌|BGP中转|解锁流媒体_74
+      - 美国 2
+      - 172.99.190.92:8888
+      - 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh
+      - 加拿大
+      - 加拿大 2
+      - 加拿大 3
+      - TG/YouTube+AYANG*科技大师
+      - YouTube梦歌|Netflix_30
+      - 美国 3
+      - 印度【YouTube由零开始】 5
+      - _GB_英国
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 美国 4
+      - 172.99.190.92:7306
+      - RELAY-Openit.ml 2
+      - 加拿大 4
+      - github.com/freefq - 美国华盛顿Cogent通信公司 27
+      - 【YouTube由零开始】 3
+      - YouTube梦歌|Netflix_25
       - 美国（TG@阿伟科技/油管） 3
       - 梦歌|BGP中转|解锁Netflix_16
-      - 俄罗斯（TG@阿伟科技/油管）
-      - V1 | JP B1
-      - V1 | KR A1
-      - TG/YouTube+AYANG*科技大师
-      - YouTube@阿阳AYANG 5
-      - V1 | CH1
-      - YouTube@阿阳AYANG 6
-      - github.com/freefq - 美国3COM公司企业网 33
-      - NL-高速节点购买：v1.mk/vip（浏览器打开）
+      - 梦歌|BGP中转|解锁Netflix_45
+      - 141.164.35.41:6697
       - 美国（TG@阿伟科技/油管） 4
-      - github.com/freefq - 日本  4
-      - V1 | DE
-      - 104.16.103.254+峰值速度+202752+kB/s
-      - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
-      - 104.16.106.41+峰值速度+235520+kB/s
-      - 104.22.6.165+峰值速度+222208+kB/s
-      - 172.64.88.221+峰值速度+203776+kB/s
-      - github.com/freefq - 美国  5
-      - 104.20.46.105+峰值速度+211968+kB/s
-      - 日本2丨筋斗云丨Weoworks提供
-      - 西美高速2
-      - 梦歌|BGP中转|解锁流媒体_74
-      - 104.18.214.145+峰值速度+239616+kB/s
-      - 172.67.199.253+峰值速度+236544+kB/s
-      - TG/YouTube+AYANG*科技大师 2
-      - 香港（TG@阿伟科技/油管）
-      - YouTube@阿阳AYANG 7
+      - YouTube梦歌|Netflix_15
+      - 加拿大 5
+      - CN_406 | 7.24Mb
       - 美国（TG@阿伟科技/油管） 5
-      - Ytb:鹏哥分享_英国_17
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - YouTube@阿阳AYANG 8
-      - YouTube@阿阳AYANG 9
-      - V1 | NL1
-      - V1 | GB B1
-      - 美国(ios小火箭软件|ioskaka.com)
-      - YouTube@阿阳AYANG 10
-      - 高速节点购买：v1.mk/vip（浏览器打开）
+      - 美国 5
+      - TG:YouTubeAYANG科技大师
       - 美国（TG@阿伟科技/油管） 6
-      - YouTube梦歌|Netflix_1
-      - 美国（TG@阿伟科技/油管） 7
-      - V1 | US A1
-      - 新加坡（TG@阿伟科技/油管） 2
-      - github.com/freefq - 美国  53
-      - YouTube梦歌|Netflix_8
-      - US_3348
-      - 高速节点购买：v1.mk/vip（浏览器打开） 2
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - Ytb:鹏哥分享_中国_3
-      - 香港（TG@阿伟科技/油管） 2
-      - Ytb:鹏哥分享_中国_22
-      - Ytb:鹏哥分享_中国_15
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - 节点更新 https://bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_2
-      - 日本(ios小火箭软件|ioskaka.com)
-      - _DE_德国 2
-      - 美国【YouTube由零开始】 27
-      - YouTube@阿阳AYANG 11
-      - KR-Openit.ml
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 104.25.254.252+峰值速度+225280+kB/s
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - YouTube@阿阳AYANG 12
-      - 香港（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁Netflix_78
-      - 美国_节点更新 https://bit.ly/36b6iJh_61
-      - 印度（TG@阿伟科技/油管）
-      - github.com/freefq - 美国  8
-      - YouTube梦歌|Netflix_38
-      - YouTube@阿阳AYANG 13
-      - YouTube@阿阳AYANG 14
-      - 172.67.167.14+峰值速度+214016+kB/s
-      - YouTube@阿阳AYANG 15
-      - sg2.884899.cf111111111111111111111
-      - 158.247.199.253:2376
-      - 荷兰（TG@阿伟科技/油管）
-      - 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_104
-      - 台湾节点更新 https://bit.ly/36b6iJh
-      - 香港（TG@阿伟科技/油管） 4
-      - V1 | TR1
-      - KR-Openit.ml 2
-      - 梦歌|BGP中转|解锁Netflix_10
-      - Ytb:鹏哥分享_美国_57
-      - 美国节点更新 https://bit.ly/36b6iJh
-      - 马来西亚（TG@阿伟科技/油管）
-      - V1 | FR
-      - 104.17.177.116+峰值速度+202752+kB
-      - SG
-      - 新加坡（TG@阿伟科技/油管） 4
-      - YouTube@阿阳AYANG 16
-      - V2 Native | HK BGP
-      - 158.247.199.253:443
-      - HK-高速节点购买：v1.mk/vip（浏览器打开）
-      - 152.89.210.84:9064
-      - 美国【YouTube由零开始】 22
-      - _DE_德国 3
-      - DE_653
-      - _DE_德国 4
-      - YouTube@阿阳AYANG 71
-      - _AU_澳大利亚 2
-      - 美国2丨筋斗云丨Weoworks提供
-      - 日本（TG@阿伟科技/油管） 3
-      - Ytb:鹏哥分享_中国_12
-      - YouTube@阿阳AYANG 17
-      - 173.82.186.25:60001
-      - GB-高速节点购买：v1.mk/vip（浏览器打开）
-      - Youtue/ONE·资源核
-      - 152.89.210.105:9073
-      - _CH_瑞士
-      - _CH_瑞士 2
-      - IN-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - _CH_瑞士 3
-      - 152.89.210.105:9032
-      - Ytb:鹏哥分享_中国_13
-      - 美国（TG@阿伟科技/油管） 8
-      - 91_3
-      - Ytb:鹏哥分享_中国_23
-      - 213.183.51.171:9010
-      - YouTube@阿阳AYANG 18
-      - 198.57.27.225:8888
-      - Ytb:鹏哥分享_中国_16
-      - HK_759 | 8.96Mb
-      - 台湾（TG@阿伟科技/油管）
-      - 俄罗斯（TG@阿伟科技/油管） 4
-      - 213.183.51.171:9006
-      - Ytb:鹏哥分享_中国_14
-      - Ytb:鹏哥分享_中国_11
-      - Ytb:鹏哥分享_中国_27
-      - Ytb:鹏哥分享_中国_20
-      - 213.183.51.172:9045
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - Ytb:鹏哥分享_韩国_9
-      - 213.183.51.171:9015
-      - V2 IPLC Game | US1
-      - 152.89.210.84:9032
-      - "微软香港: 广港IEPL-META"
-      - 香港-VIP2
-      - 158.247.205.87:5500
-      - 香港-顶级节点更新 https://bit.ly/36b6iJh
-      - 印度184-1电信@1Gbps 节点更新 https://bit.ly/36b6iJh
-      - V1 | US B1
-      - 14.29.124.168:25259
-      - github.com/freefq - 美国CloudFlare节点 40
-      - 152.89.210.84:9097
-      - 加拿大【YouTube由零开始】 3
-      - V2 | US BGP
-      - 香港
-      - Alien
-      - 日本-VIP
-      - Hongkong, SS - B Group
-      - Singapore, Tj - B Group
-      - 新加坡-奈飞迪斯尼
-      - Youtube/ONE·资源核 24
-      - 美国-1
-      - 213.183.51.172:9057
-      - V1 | SG B1
-      - 152.89.210.84:9020
-      - _RO_罗马尼亚->🇯🇵_JP_日本_39
-      - 香港HGC
-      - Ytb:鹏哥分享_新加坡_105
-      - 152.89.210.84:9073
-      - 印度184-2@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】
-      - 5.183.179.166:9005
-      - 185.167.116.253:9020
-      - CN_45TGatpeekfun_120
-      - 152.89.210.84:9033
-      - 185.167.116.253:9037
-      - 152.89.210.84:9027
-      - Relay_🇺🇸US-🇺🇸US_53
-      - 158.247.205.87:6697
-      - 香港HGC1_5×_13
-      - 152.89.210.84:9037
-      - 185.167.116.253:9027
-      - 213.169.137.221:989
-      - 213.183.51.172:9037
-      - 158.247.205.87:2375
-      - 213.183.51.171:9088
-      - 韩国-VIP 节点更新 https://bit.ly/36b6iJh
-      - 152.89.210.84:9059
-      - 香港AZ-1号_29
-      - 152.89.210.84:9056
-      - 14.29.124.168:25271
-      - 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 5.183.179.166:9056
-      - 5.183.179.166:9020
-      - 152.89.210.105:9094
-      - "微软首尔: 上海联通-碳云"
-      - "新加坡: 广港BGP-猫猫"
-      - 印度184-21联通100M+4K   节点更新 https://bit.ly/36b6iJh
-      - 14.29.124.168:25267
-      - 213.183.51.171:9005
-      - 158.247.205.87:7002
-      - 5.183.179.167:9025
-      - 158.247.205.87:5004
-      - 213.183.51.172:9025
-      - 158.247.205.87:3389
-      - 220_4
-      - 5.183.179.166:9094
-      - 185.167.116.253:9046
-      - 213.183.51.172:9060
-      - 14.29.124.168:25279
-      - 213.183.51.172:9010
-      - 213.183.51.172:9064
-      - 美国-2 节点更新 https://bit.ly/36b6iJh
-      - 14.29.124.168:25247
-      - 152.89.210.84:9094
-      - 直连-日本T2-A
-      - 158.247.205.87:443
-      - 5.183.179.166:9015
-      - 213.183.51.171:9043
-      - 213.183.53.177:9050
-      - 14.29.124.168:25266
-      - 14.29.124.168:25294
-      - 213.183.51.172:9011
-      - 日本-1
-      - 台湾Hinet_33
-      - 158.247.205.87:8009
-      - 直连-日本T-A2  ws
-      - 152.89.210.105:9046
-      - Singapore, SS - B Group
-      - 直连-日本T-A 2_vmess_ws
-      - 104.18.214.26+峰值速度+174080+kB/
-      - 【YouTube由零开始】 3
-      - 新加坡 【由零开始YouTube】
-      - 香港AZ-2号
-      - 213.183.51.172:9093
-      - CA-高速节点购买：v1.mk/vip（浏览器打开）
       - 185.167.116.253:9097
-      - 新加坡（TG@阿伟科技/油管） 5
-      - Ytb:鹏哥分享_印度_33
-      - 213.183.51.171:9003
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 5
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - 香港（TG@阿伟科技/油管） 5
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 6
-      - 198.57.27.225:8882
-      - 169.197.142.99:5000
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - Ytb:鹏哥分享_中国_5
-      - 台湾（TG@阿伟科技/油管） 2
-      - _DE_德国 5
-      - Youtube/ONE·资源核 59
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - 198.57.27.225:5004
-      - 198.57.27.225:5000
-      - 213.183.53.177:9032
-      - Ytb:鹏哥分享_中国_26
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - Ytb:鹏哥分享_中国_25
-      - 213.183.51.172:9001
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 7
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 8
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - Ytb:鹏哥分享_中国_1
-      - TG:YouTubeAYANG科技大师 2
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 9
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 10
-      - 台湾（TG@阿伟科技/油管） 3
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - 213.183.51.171:9050
-      - 俄罗斯（TG@阿伟科技/油管） 2
-      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - YouTube梦歌|Netflix_29
+      - 152.89.210.105:9073
+      - _HK_香港
+      - 美国【YouTube由零开始】 2
+      - 梦歌|BGP中转|解锁流媒体_45
+      - _DE_德国 2
+      - YouTube梦歌|Netflix_18
+      - 新加坡（TG@阿伟科技/油管） 3
+      - _US_美国
+      - 梦歌|BGP中转|解锁Netflix_10
+      - Ytb:鹏哥分享_中国_13
+      - 145.239.1.100:5003
+      - 印度【YouTube由零开始】 4
+      - 美国【YouTube由零开始】 3
+      - _CA_加拿大
+      - _HK_香港 2
       - Ytb:鹏哥分享_中国_8
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 11
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 12
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 13
-      - 38.68.135.19:5601
+      - 节点更新 https://bit.ly/36b6iJh
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 152.89.210.105:9046
+      - 145.239.1.100:7001
+      - 152.89.210.105:9037
+      - 美国 6
+      - 152.89.210.105:9046 2
+      - 法国【YouTube由零开始】
+      - _CN_中国
+      - 美国（TG@阿伟科技/油管） 7
+      - 美国 7
+      - _GB_英国 2
+      - 美国（TG@阿伟科技/油管） 8
+      - 145.239.1.100:2376
+      - 美国 8
+      - YouTube梦歌|Netflix_12
+      - 104.17.177.116
+      - Ytb:鹏哥分享_中国_21
+      - 直连-日本T2-A
+      - _US_美国 2
       - UA-高速节点购买：v1.mk/vip（浏览器打开）
-      - 213.183.53.200:9032
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
-      - 185.167.116.253:9064
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 14
-      - FR-Openit.ml
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 15
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 16
+      - YouTube梦歌|Netflix_29 2
+      - 梦歌|BGP中转|解锁流媒体_51
+      - Ytb:鹏哥分享_中国_15
+      - Ytb:鹏哥分享_中国_23
+      - 145.239.1.100:8882
+      - 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh
+      - 美国（TG@阿伟科技/油管） 9
+      - US美国
+      - Hongkong, V2 - B Group
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - _CN_中国->🇭🇰_HK_香港
+      - 91_3
+      - _DE_德国 3
+      - _GB_英国 3
+      - 美国（TG@阿伟科技/油管） 10
+      - _GB_英国 4
+      - 梦歌|BGP中转|解锁Netflix_59
+      - 梦歌|BGP中转|解锁流媒体_106
+      - US美国 2
+      - 91_3 2
+      - _CA_加拿大 2
+      - 美国 9
+      - 梦歌|BGP中转|解锁Netflix_13
+      - 印度（TG@阿伟科技/油管）
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_1 2
+      - 美国（TG@阿伟科技/油管） 11
+      - _CA_加拿大 3
+      - 梦歌|BGP中转|解锁流媒体_56
+      - _SG_新加坡
+      - 220_4
+      - 213.183.51.172:9001
       - Ytb:鹏哥分享_中国_18
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 17
-      - 213.183.51.172:9050
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 18
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 19
-      - DE-高速节点购买：v1.mk/vip（浏览器打开）
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 20
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 21
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 22
-      - Relay_🇺🇸US-🇺🇸US_3684
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 23
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 24
-      - HK-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - HK-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - "@SSRSUB-V07-付费推荐:suo.yt/ssrsub"
-      - 日本(ios小火箭软件|ioskaka.com) 2
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 5
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
-      - 俄罗斯（TG@阿伟科技/油管） 3
-      - 198.57.27.225:7001
-      - "|20.89Mb"
-      - 213.183.51.172:9038
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 25
-      - Ytb:鹏哥分享_中国_75
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
-      - 美国(ios小火箭软件|ioskaka.com) 2
-      - 198.57.27.225:8118
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 26
-      - KR-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - _US_美国 8
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
-      - 152.89.210.105:9093
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 27
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 28
-      - HK-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - CZ-高速节点购买：v1.mk/vip（浏览器打开）
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 29
+      - 梦歌|BGP中转|解锁Netflix_46
+      - _US_美国 3
+      - 俄罗斯（TG@阿伟科技/油管）
+      - 213.183.51.172:9010
+      - 梦歌|BGP中转|解锁流媒体_44
+      - YouTube梦歌|Netflix_44
+      - IR-高速节点购买：v1.mk/vip（浏览器打开）
+      - 澳大利亚（TG@阿伟科技/油管）
+      - YouTube梦歌|Netflix_49
+      - 印度184-1电信@1Gbps 节点更新 https://bit.ly/36b6iJh
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - github.com/freefq - 广东省广州市黄埔区珠江宽频 25
+      - 香港（TG@阿伟科技/油管） 2
+      - 日本（TG@阿伟科技/油管） 3
+      - TG/YouTube+AYANG*科技大师 2
+      - YouTube梦歌|Netflix_23
+      - _CH_瑞士
+      - _US_美国 4
+      - 欧洲
+      - 马来西亚（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 3
+      - 日本（TG@阿伟科技/油管） 4
+      - 美国（TG@阿伟科技/油管） 12
+      - YouTube梦歌|Netflix_22
+      - YouTube@阿阳AYANG
+      - 梦歌|BGP中转|解锁流媒体_57
+      - github.com/freefq - 北美地区  42
+      - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
   - name: 🖐 手动选择
     type: select
     proxies:
       - ♻️ 自动选择
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 2
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 2
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 3
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 3
+      - 🇸🇬 粉丝投稿🍄新103.157.250.20 4
+      - 🇭🇰 粉丝投稿🍄港103.157.250.19 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.21 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.22 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.23 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.26 4
+      - 🇸🇬 粉丝投稿🍄新103.157.250.27 4
+      - 🇸🇬 粉丝投稿🍄新103.157.251.20
+      - 🇭🇰 粉丝投稿🍄港103.157.251.19
+      - 粉丝投稿
+      - 粉丝投稿 2
+      - 粉丝投稿 3
+      - 粉丝投稿 4
+      - 粉丝投稿 5
+      - 粉丝投稿 6
+      - 粉丝投稿 7
+      - 粉丝投稿 8
+      - 粉丝投稿 9
+      - 🇭🇰 粉丝投稿 1--无限流量
+      - 🇭🇰 粉丝投稿 2--无限流量
+      - 🇭🇰 粉丝投稿 3--无限流量
+      - 🇭🇰 粉丝投稿 4--无限流量
+      - 🇭🇰 粉丝投稿 5--无限流量
+      - 🇭🇰 粉丝投稿 6--无限流量
+      - 🇭🇰 粉丝投稿 7--无限流量
+      - 🇭🇰 无限流量 1--无限流量
+      - 🇭🇰 无限流量 2--无限流量
+      - 🇭🇰 无限流量 3--无限流量
+      - 🇭🇰 无限流量 4--无限流量
+      - 🇭🇰 无限流量 5--无限流量
+      - 🇭🇰 无限流量 6--无限流量
+      - 🇭🇰 无限流量 7--无限流量
+      - 🇭🇰 无限流量 8--无限流量
+      - 🇭🇰 无限流量 9--无限流量
+      - 🇭🇰 无限流量 10--无限流量
+      - 🇭🇰 无限流量 11--无限流量
       - 🇺🇸 HTTPS｜美国01
       - 🇺🇸 HTTPS｜美国02
       - 🇩🇪 HTTPS｜德国01
@@ -1383,448 +1056,199 @@ proxy-groups:
       - 🇸🇬 HTTPS｜新加坡25
       - 🇸🇬 HTTPS｜新加坡26
       - 🇸🇬 HTTPS｜新加坡27
-      - 美国【YouTube由零开始】 2
-      - SG-高速节点购买：v1.mk/vip（浏览器打开）
-      - 香港-VIP
-      - YouTube梦歌|Netflix_6
-      - YouTube梦歌|Netflix_21
-      - 梦歌|BGP中转|解锁流媒体_20
-      - YouTube梦歌|Netflix_20
-      - YouTube梦歌|Netflix_19
-      - 梦歌|BGP中转|解锁流媒体_57
-      - YouTube梦歌|Netflix_14
-      - 梦歌|BGP中转|解锁流媒体_28
-      - 梦歌|BGP中转|解锁流媒体_54
-      - YouTube梦歌|Netflix_29
-      - 梦歌|BGP中转|解锁流媒体_24
-      - YouTube梦歌|Netflix_18
-      - 梦歌|BGP中转|解锁流媒体_45
-      - 104.18.240.15+峰值速度+201728+kB/s
-      - 梦歌|BGP中转|解锁流媒体_30
-      - KR-高速节点购买：v1.mk/vip（浏览器打开）
-      - 梦歌|BGP中转|解锁流媒体_53
-      - 梦歌|BGP中转|解锁流媒体_56
-      - 梦歌|BGP中转|解锁流媒体_87
-      - 梦歌|BGP中转|解锁流媒体_63
-      - 梦歌|BGP中转|解锁流媒体_23
-      - _GB_英国
-      - 梦歌|BGP中转|解锁流媒体_25
-      - _US_美国
-      - YouTube梦歌|Netflix_12
-      - _PL_波兰
-      - _US_美国 2
-      - 梦歌|BGP中转|解锁Netflix_82
-      - 梦歌|BGP中转|解锁流媒体_43
-      - _DE_德国
-      - _US_美国 3
-      - _US_美国 4
-      - California, Tj - B Group
-      - _PL_波兰 2
-      - 梦歌|BGP中转|解锁流媒体_106
-      - _CZ_捷克
-      - _US_美国 5
-      - _BG_保加利亚
-      - Incheon, SS - B Group
-      - 梦歌|BGP中转|解锁流媒体_69
-      - _PL_波兰 3
-      - 梦歌|BGP中转|解锁Netflix_39
-      - 梦歌|BGP中转|解锁Netflix_45
-      - _AU_澳大利亚
-      - _IN_印度
-      - _PL_波兰 4
-      - _BG_保加利亚 2
-      - 梦歌|BGP中转|解锁流媒体_35
-      - 梦歌|BGP中转|解锁Netflix_75
-      - 梦歌|BGP中转|解锁Netflix_92
-      - 梦歌|BGP中转|解锁流媒体_29
-      - _SG_新加坡
-      - _GB_英国 2
-      - 梦歌|BGP中转|解锁Netflix_59
-      - California, SS - B Group
-      - _PL_波兰 5
-      - 梦歌|BGP中转|解锁Netflix_23
-      - 梦歌|BGP中转|解锁流媒体_64
-      - _GB_英国 3
-      - Hongkong, V2 - B Group
-      - YouTube梦歌|Netflix_5
+      - RELAY-Openit.ml
       - Singapore (SG)323
       - Singapore (SG)323 2
-      - _US_美国 6
-      - 梦歌|BGP中转|解锁流媒体_55
-      - Incheon, Tj - B Group
-      - Incheon, V2 - B Group
-      - 5.183.179.166:9018
-      - 梦歌|BGP中转|解锁Netflix_46
-      - 梦歌|BGP中转|解锁流媒体_51
-      - _CA_加拿大
-      - _HK_香港
-      - YouTube梦歌|Netflix_9
-      - _US_美国 7
-      - 104.17.177.116
-      - TW-高速节点购买：v1.mk/vip（浏览器打开）
-      - 韩国【YouTube由零开始】
-      - V1 | US B2
+      - 台湾（TG@阿伟科技/油管）
       - 梦歌|BGP中转|解锁流媒体_40
-      - 梦歌|BGP中转|解锁Netflix_18
-      - 梦歌|BGP中转|解锁流媒体_33
-      - YouTube梦歌|Netflix_27
-      - TG:YouTubeAYANG科技大师
-      - 梦歌|BGP中转|解锁Netflix_100
-      - _JP_日本
-      - _KR_韩国
-      - CN_407 | 9.12Mb
       - Singapore (SG)323 3
-      - 梦歌|BGP中转|解锁Netflix_13
+      - KR-高速节点购买：v1.mk/vip（浏览器打开）
+      - 梦歌|BGP中转|解锁流媒体_29
+      - 美国
+      - 韩国（Meteor）+4
+      - YouTube梦歌|Netflix_6
+      - CN_407 | 9.12Mb
       - 日本（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁Netflix_88
-      - Ytb:鹏哥分享_中国_17
-      - _GB_英国 4
-      - 梦歌|BGP中转|解锁流媒体_44
-      - 日本（TG@阿伟科技/油管） 2
-      - 104.25.234.170+峰值速度+245760+kB/s
-      - YouTube@阿阳AYANG
-      - 德国节点更新 https://bit.ly/36b6iJh
-      - 新加坡11111111111111111
-      - YouTube@阿阳AYANG 2
-      - IN-高速节点购买：v1.mk/vip（浏览器打开）
-      - HK+104.18.26.128+峰值速度+242688+kB/s
-      - github.com/freefq - 日本东京Oracle云计算数据中心 31
-      - 新加坡（TG@阿伟科技/油管）
-      - 梦歌|BGP中转|解锁流媒体_34
-      - YouTube@阿阳AYANG 3
+      - 新加坡 【由零开始YouTube】
+      - Ytb:鹏哥分享_中国_26
+      - YouTube梦歌|Netflix_21
       - Tokyo, V2 - B Group
-      - 美国（TG@阿伟科技/油管）
-      - YouTube@阿阳AYANG 4
-      - CN_406 | 7.24Mb
-      - AU-高速节点购买：v1.mk/vip（浏览器打开）
-      - "微软香港: 莞港AZ-898"
-      - 美国（TG@阿伟科技/油管） 2
-      - Ytb:鹏哥分享_中国_21
-      - US_3082
-      - California, V2 - B Group
-      - US_3062
-      - 梦歌|BGP中转|解锁Netflix_27
+      - 梦歌|BGP中转|解锁Netflix_18
+      - _CN_中国->🇲🇾_MY_马来西亚
+      - 新加坡【YouTube由零开始】 4
+      - 日本（TG@阿伟科技/油管） 2
+      - 台湾
+      - 新加坡（TG@阿伟科技/油管）
+      - _AU_澳大利亚
+      - Ytb:鹏哥分享_中国_27
       - US-高速节点购买：v1.mk/vip（浏览器打开）
+      - 直连-日本T-A 2_vmess_ws
+      - YouTube梦歌|Netflix_43
+      - CN-高速节点购买：v1.mk/vip（浏览器打开）
+      - 185.167.116.253:9037
+      - 185.167.116.253:9027
+      - 158.247.219.68:3389
+      - 梦歌|BGP中转|解锁流媒体_87
+      - _DE_德国
+      - 美国【YouTube由零开始】
+      - 梦歌|BGP中转|解锁流媒体_25
+      - Ytb:鹏哥分享_中国_16
+      - 158.247.203.168:5500
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 香港（TG@阿伟科技/油管）
+      - YouTube梦歌|Netflix_8
+      - 美国（TG@阿伟科技/油管）
+      - 梦歌|BGP中转|解锁Netflix_75
+      - 加拿大（TG@阿伟科技/油管）
+      - 法国（TG@阿伟科技/油管）
+      - 美国(ios小火箭软件|ioskaka.com)
+      - Ytb:鹏哥分享_中国_25
+      - YouTube梦歌|Netflix_5
+      - 梦歌|BGP中转|解锁流媒体_33
+      - YouTube梦歌|Netflix_1
+      - _JP_日本
+      - 梦歌|BGP中转|解锁流媒体_53
+      - 梦歌|BGP中转|解锁流媒体_24
+      - 美国（TG@阿伟科技/油管） 2
+      - 梦歌|BGP中转|解锁流媒体_35
+      - 梦歌|BGP中转|解锁流媒体_43
+      - 英国（TG@阿伟科技/油管）
+      - Ytb:鹏哥分享_韩国_9
+      - Ytb:鹏哥分享_中国_14
+      - 185.167.116.253:9020
+      - 新加坡（TG@阿伟科技/油管） 2
+      - 梦歌|BGP中转|解锁流媒体_74
+      - 美国 2
+      - 172.99.190.92:8888
+      - 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh
+      - 加拿大
+      - 加拿大 2
+      - 加拿大 3
+      - TG/YouTube+AYANG*科技大师
+      - YouTube梦歌|Netflix_30
+      - 美国 3
+      - 印度【YouTube由零开始】 5
+      - _GB_英国
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - 美国 4
+      - 172.99.190.92:7306
+      - RELAY-Openit.ml 2
+      - 加拿大 4
+      - github.com/freefq - 美国华盛顿Cogent通信公司 27
+      - 【YouTube由零开始】 3
+      - YouTube梦歌|Netflix_25
       - 美国（TG@阿伟科技/油管） 3
       - 梦歌|BGP中转|解锁Netflix_16
-      - 俄罗斯（TG@阿伟科技/油管）
-      - V1 | JP B1
-      - V1 | KR A1
-      - TG/YouTube+AYANG*科技大师
-      - YouTube@阿阳AYANG 5
-      - V1 | CH1
-      - YouTube@阿阳AYANG 6
-      - github.com/freefq - 美国3COM公司企业网 33
-      - NL-高速节点购买：v1.mk/vip（浏览器打开）
+      - 梦歌|BGP中转|解锁Netflix_45
+      - 141.164.35.41:6697
       - 美国（TG@阿伟科技/油管） 4
-      - github.com/freefq - 日本  4
-      - V1 | DE
-      - 104.16.103.254+峰值速度+202752+kB/s
-      - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
-      - 104.16.106.41+峰值速度+235520+kB/s
-      - 104.22.6.165+峰值速度+222208+kB/s
-      - 172.64.88.221+峰值速度+203776+kB/s
-      - github.com/freefq - 美国  5
-      - 104.20.46.105+峰值速度+211968+kB/s
-      - 日本2丨筋斗云丨Weoworks提供
-      - 西美高速2
-      - 梦歌|BGP中转|解锁流媒体_74
-      - 104.18.214.145+峰值速度+239616+kB/s
-      - 172.67.199.253+峰值速度+236544+kB/s
-      - TG/YouTube+AYANG*科技大师 2
-      - 香港（TG@阿伟科技/油管）
-      - YouTube@阿阳AYANG 7
+      - YouTube梦歌|Netflix_15
+      - 加拿大 5
+      - CN_406 | 7.24Mb
       - 美国（TG@阿伟科技/油管） 5
-      - Ytb:鹏哥分享_英国_17
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - YouTube@阿阳AYANG 8
-      - YouTube@阿阳AYANG 9
-      - V1 | NL1
-      - V1 | GB B1
-      - 美国(ios小火箭软件|ioskaka.com)
-      - YouTube@阿阳AYANG 10
-      - 高速节点购买：v1.mk/vip（浏览器打开）
+      - 美国 5
+      - TG:YouTubeAYANG科技大师
       - 美国（TG@阿伟科技/油管） 6
-      - YouTube梦歌|Netflix_1
-      - 美国（TG@阿伟科技/油管） 7
-      - V1 | US A1
-      - 新加坡（TG@阿伟科技/油管） 2
-      - github.com/freefq - 美国  53
-      - YouTube梦歌|Netflix_8
-      - US_3348
-      - 高速节点购买：v1.mk/vip（浏览器打开） 2
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - Ytb:鹏哥分享_中国_3
-      - 香港（TG@阿伟科技/油管） 2
-      - Ytb:鹏哥分享_中国_22
-      - Ytb:鹏哥分享_中国_15
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - 节点更新 https://bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_2
-      - 日本(ios小火箭软件|ioskaka.com)
-      - _DE_德国 2
-      - 美国【YouTube由零开始】 27
-      - YouTube@阿阳AYANG 11
-      - KR-Openit.ml
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 104.25.254.252+峰值速度+225280+kB/s
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - YouTube@阿阳AYANG 12
-      - 香港（TG@阿伟科技/油管） 3
-      - 梦歌|BGP中转|解锁Netflix_78
-      - 美国_节点更新 https://bit.ly/36b6iJh_61
-      - 印度（TG@阿伟科技/油管）
-      - github.com/freefq - 美国  8
-      - YouTube梦歌|Netflix_38
-      - YouTube@阿阳AYANG 13
-      - YouTube@阿阳AYANG 14
-      - 172.67.167.14+峰值速度+214016+kB/s
-      - YouTube@阿阳AYANG 15
-      - sg2.884899.cf111111111111111111111
-      - 158.247.199.253:2376
-      - 荷兰（TG@阿伟科技/油管）
-      - 印度184-5@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 梦歌|BGP中转|解锁流媒体_104
-      - 台湾节点更新 https://bit.ly/36b6iJh
-      - 香港（TG@阿伟科技/油管） 4
-      - V1 | TR1
-      - KR-Openit.ml 2
-      - 梦歌|BGP中转|解锁Netflix_10
-      - Ytb:鹏哥分享_美国_57
-      - 美国节点更新 https://bit.ly/36b6iJh
-      - 马来西亚（TG@阿伟科技/油管）
-      - V1 | FR
-      - 104.17.177.116+峰值速度+202752+kB
-      - SG
-      - 新加坡（TG@阿伟科技/油管） 4
-      - YouTube@阿阳AYANG 16
-      - V2 Native | HK BGP
-      - 158.247.199.253:443
-      - HK-高速节点购买：v1.mk/vip（浏览器打开）
-      - 152.89.210.84:9064
-      - 美国【YouTube由零开始】 22
-      - _DE_德国 3
-      - DE_653
-      - _DE_德国 4
-      - YouTube@阿阳AYANG 71
-      - _AU_澳大利亚 2
-      - 美国2丨筋斗云丨Weoworks提供
-      - 日本（TG@阿伟科技/油管） 3
-      - Ytb:鹏哥分享_中国_12
-      - YouTube@阿阳AYANG 17
-      - 173.82.186.25:60001
-      - GB-高速节点购买：v1.mk/vip（浏览器打开）
-      - Youtue/ONE·资源核
-      - 152.89.210.105:9073
-      - _CH_瑞士
-      - _CH_瑞士 2
-      - IN-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - _CH_瑞士 3
-      - 152.89.210.105:9032
-      - Ytb:鹏哥分享_中国_13
-      - 美国（TG@阿伟科技/油管） 8
-      - 91_3
-      - Ytb:鹏哥分享_中国_23
-      - 213.183.51.171:9010
-      - YouTube@阿阳AYANG 18
-      - 198.57.27.225:8888
-      - Ytb:鹏哥分享_中国_16
-      - HK_759 | 8.96Mb
-      - 台湾（TG@阿伟科技/油管）
-      - 俄罗斯（TG@阿伟科技/油管） 4
-      - 213.183.51.171:9006
-      - Ytb:鹏哥分享_中国_14
-      - Ytb:鹏哥分享_中国_11
-      - Ytb:鹏哥分享_中国_27
-      - Ytb:鹏哥分享_中国_20
-      - 213.183.51.172:9045
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - Ytb:鹏哥分享_韩国_9
-      - 213.183.51.171:9015
-      - V2 IPLC Game | US1
-      - 152.89.210.84:9032
-      - "微软香港: 广港IEPL-META"
-      - 香港-VIP2
-      - 158.247.205.87:5500
-      - 香港-顶级节点更新 https://bit.ly/36b6iJh
-      - 印度184-1电信@1Gbps 节点更新 https://bit.ly/36b6iJh
-      - V1 | US B1
-      - 14.29.124.168:25259
-      - github.com/freefq - 美国CloudFlare节点 40
-      - 152.89.210.84:9097
-      - 加拿大【YouTube由零开始】 3
-      - V2 | US BGP
-      - 香港
-      - Alien
-      - 日本-VIP
-      - Hongkong, SS - B Group
-      - Singapore, Tj - B Group
-      - 新加坡-奈飞迪斯尼
-      - Youtube/ONE·资源核 24
-      - 美国-1
-      - 213.183.51.172:9057
-      - V1 | SG B1
-      - 152.89.210.84:9020
-      - _RO_罗马尼亚->🇯🇵_JP_日本_39
-      - 香港HGC
-      - Ytb:鹏哥分享_新加坡_105
-      - 152.89.210.84:9073
-      - 印度184-2@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 英国【YouTube由零开始】
-      - 5.183.179.166:9005
-      - 185.167.116.253:9020
-      - CN_45TGatpeekfun_120
-      - 152.89.210.84:9033
-      - 185.167.116.253:9037
-      - 152.89.210.84:9027
-      - Relay_🇺🇸US-🇺🇸US_53
-      - 158.247.205.87:6697
-      - 香港HGC1_5×_13
-      - 152.89.210.84:9037
-      - 185.167.116.253:9027
-      - 213.169.137.221:989
-      - 213.183.51.172:9037
-      - 158.247.205.87:2375
-      - 213.183.51.171:9088
-      - 韩国-VIP 节点更新 https://bit.ly/36b6iJh
-      - 152.89.210.84:9059
-      - 香港AZ-1号_29
-      - 152.89.210.84:9056
-      - 14.29.124.168:25271
-      - 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh
-      - 5.183.179.166:9056
-      - 5.183.179.166:9020
-      - 152.89.210.105:9094
-      - "微软首尔: 上海联通-碳云"
-      - "新加坡: 广港BGP-猫猫"
-      - 印度184-21联通100M+4K   节点更新 https://bit.ly/36b6iJh
-      - 14.29.124.168:25267
-      - 213.183.51.171:9005
-      - 158.247.205.87:7002
-      - 5.183.179.167:9025
-      - 158.247.205.87:5004
-      - 213.183.51.172:9025
-      - 158.247.205.87:3389
-      - 220_4
-      - 5.183.179.166:9094
-      - 185.167.116.253:9046
-      - 213.183.51.172:9060
-      - 14.29.124.168:25279
-      - 213.183.51.172:9010
-      - 213.183.51.172:9064
-      - 美国-2 节点更新 https://bit.ly/36b6iJh
-      - 14.29.124.168:25247
-      - 152.89.210.84:9094
-      - 直连-日本T2-A
-      - 158.247.205.87:443
-      - 5.183.179.166:9015
-      - 213.183.51.171:9043
-      - 213.183.53.177:9050
-      - 14.29.124.168:25266
-      - 14.29.124.168:25294
-      - 213.183.51.172:9011
-      - 日本-1
-      - 台湾Hinet_33
-      - 158.247.205.87:8009
-      - 直连-日本T-A2  ws
-      - 152.89.210.105:9046
-      - Singapore, SS - B Group
-      - 直连-日本T-A 2_vmess_ws
-      - 104.18.214.26+峰值速度+174080+kB/
-      - 【YouTube由零开始】 3
-      - 新加坡 【由零开始YouTube】
-      - 香港AZ-2号
-      - 213.183.51.172:9093
-      - CA-高速节点购买：v1.mk/vip（浏览器打开）
       - 185.167.116.253:9097
-      - 新加坡（TG@阿伟科技/油管） 5
-      - Ytb:鹏哥分享_印度_33
-      - 213.183.51.171:9003
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 5
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - 香港（TG@阿伟科技/油管） 5
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 6
-      - 198.57.27.225:8882
-      - 169.197.142.99:5000
-      - CN-高速节点购买：v1.mk/vip（浏览器打开）
-      - Ytb:鹏哥分享_中国_5
-      - 台湾（TG@阿伟科技/油管） 2
-      - _DE_德国 5
-      - Youtube/ONE·资源核 59
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - 198.57.27.225:5004
-      - 198.57.27.225:5000
-      - 213.183.53.177:9032
-      - Ytb:鹏哥分享_中国_26
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - Ytb:鹏哥分享_中国_25
-      - 213.183.51.172:9001
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 7
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 8
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - Ytb:鹏哥分享_中国_1
-      - TG:YouTubeAYANG科技大师 2
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 9
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 10
-      - 台湾（TG@阿伟科技/油管） 3
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - 213.183.51.171:9050
-      - 俄罗斯（TG@阿伟科技/油管） 2
-      - SG-高速节点购买：v1.mk/vip（浏览器打开） 2
+      - YouTube梦歌|Netflix_29
+      - 152.89.210.105:9073
+      - _HK_香港
+      - 美国【YouTube由零开始】 2
+      - 梦歌|BGP中转|解锁流媒体_45
+      - _DE_德国 2
+      - YouTube梦歌|Netflix_18
+      - 新加坡（TG@阿伟科技/油管） 3
+      - _US_美国
+      - 梦歌|BGP中转|解锁Netflix_10
+      - Ytb:鹏哥分享_中国_13
+      - 145.239.1.100:5003
+      - 印度【YouTube由零开始】 4
+      - 美国【YouTube由零开始】 3
+      - _CA_加拿大
+      - _HK_香港 2
       - Ytb:鹏哥分享_中国_8
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 11
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 12
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 13
-      - 38.68.135.19:5601
+      - 节点更新 https://bit.ly/36b6iJh
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - 152.89.210.105:9046
+      - 145.239.1.100:7001
+      - 152.89.210.105:9037
+      - 美国 6
+      - 152.89.210.105:9046 2
+      - 法国【YouTube由零开始】
+      - _CN_中国
+      - 美国（TG@阿伟科技/油管） 7
+      - 美国 7
+      - _GB_英国 2
+      - 美国（TG@阿伟科技/油管） 8
+      - 145.239.1.100:2376
+      - 美国 8
+      - YouTube梦歌|Netflix_12
+      - 104.17.177.116
+      - Ytb:鹏哥分享_中国_21
+      - 直连-日本T2-A
+      - _US_美国 2
       - UA-高速节点购买：v1.mk/vip（浏览器打开）
-      - 213.183.53.200:9032
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 5
-      - 185.167.116.253:9064
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 14
-      - FR-Openit.ml
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 15
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 16
+      - YouTube梦歌|Netflix_29 2
+      - 梦歌|BGP中转|解锁流媒体_51
+      - Ytb:鹏哥分享_中国_15
+      - Ytb:鹏哥分享_中国_23
+      - 145.239.1.100:8882
+      - 印度184-6@1Gbps节点更新 https://bit.ly/36b6iJh
+      - 美国（TG@阿伟科技/油管） 9
+      - US美国
+      - Hongkong, V2 - B Group
+      - CN-高速节点购买：v1.mk/vip（浏览器打开） 4
+      - _CN_中国->🇭🇰_HK_香港
+      - 91_3
+      - _DE_德国 3
+      - _GB_英国 3
+      - 美国（TG@阿伟科技/油管） 10
+      - _GB_英国 4
+      - 梦歌|BGP中转|解锁Netflix_59
+      - 梦歌|BGP中转|解锁流媒体_106
+      - US美国 2
+      - 91_3 2
+      - _CA_加拿大 2
+      - 美国 9
+      - 梦歌|BGP中转|解锁Netflix_13
+      - 印度（TG@阿伟科技/油管）
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_1 2
+      - 美国（TG@阿伟科技/油管） 11
+      - _CA_加拿大 3
+      - 梦歌|BGP中转|解锁流媒体_56
+      - _SG_新加坡
+      - 220_4
+      - 213.183.51.172:9001
       - Ytb:鹏哥分享_中国_18
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 17
-      - 213.183.51.172:9050
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 6
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 18
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 19
-      - DE-高速节点购买：v1.mk/vip（浏览器打开）
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 20
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 7
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 21
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 22
-      - Relay_🇺🇸US-🇺🇸US_3684
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 8
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 23
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 24
-      - HK-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - HK-高速节点购买：v1.mk/vip（浏览器打开） 3
-      - "@SSRSUB-V07-付费推荐:suo.yt/ssrsub"
-      - 日本(ios小火箭软件|ioskaka.com) 2
-      - CA-高速节点购买：v1.mk/vip（浏览器打开） 5
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 9
-      - 俄罗斯（TG@阿伟科技/油管） 3
-      - 198.57.27.225:7001
-      - "|20.89Mb"
-      - 213.183.51.172:9038
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 25
-      - Ytb:鹏哥分享_中国_75
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 10
-      - 美国(ios小火箭软件|ioskaka.com) 2
-      - 198.57.27.225:8118
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 26
-      - KR-高速节点购买：v1.mk/vip（浏览器打开） 2
-      - _US_美国 8
-      - CN-高速节点购买：v1.mk/vip（浏览器打开） 11
-      - 152.89.210.105:9093
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 27
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 28
-      - HK-高速节点购买：v1.mk/vip（浏览器打开） 4
-      - CZ-高速节点购买：v1.mk/vip（浏览器打开）
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 29
+      - 梦歌|BGP中转|解锁Netflix_46
+      - _US_美国 3
+      - 俄罗斯（TG@阿伟科技/油管）
+      - 213.183.51.172:9010
+      - 梦歌|BGP中转|解锁流媒体_44
+      - YouTube梦歌|Netflix_44
+      - IR-高速节点购买：v1.mk/vip（浏览器打开）
+      - 澳大利亚（TG@阿伟科技/油管）
+      - YouTube梦歌|Netflix_49
+      - 印度184-1电信@1Gbps 节点更新 https://bit.ly/36b6iJh
+      - US-高速节点购买：v1.mk/vip（浏览器打开） 3
+      - github.com/freefq - 广东省广州市黄埔区珠江宽频 25
+      - 香港（TG@阿伟科技/油管） 2
+      - 日本（TG@阿伟科技/油管） 3
+      - TG/YouTube+AYANG*科技大师 2
+      - YouTube梦歌|Netflix_23
+      - _CH_瑞士
+      - _US_美国 4
+      - 欧洲
+      - 马来西亚（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 3
+      - 日本（TG@阿伟科技/油管） 4
+      - 美国（TG@阿伟科技/油管） 12
+      - YouTube梦歌|Netflix_22
+      - YouTube@阿阳AYANG
+      - 梦歌|BGP中转|解锁流媒体_57
+      - github.com/freefq - 北美地区  42
+      - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
   - name: 🇺🇸 美区
     type: load-balance
     url: https://www.google.com/gen_204
