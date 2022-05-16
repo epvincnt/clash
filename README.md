@@ -5,187 +5,295 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 新加坡（TG@阿伟科技/油管）, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: 40825843-2e84-4433-a4c0-829948eb620b, udp: true}
-  - {name: "@SSRSUB-V08-付费推荐:suo.yt/ssrsub", server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: ahdaeph8.com}, udp: true}
-  - {name: YouTube梦歌|Netflix_28, server: hkbn.okvpn.xyz, port: 12000, type: trojan, password: 04cb4602-7b83-42a9-abf9-a364caed013b, sni: hkbn.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_7, server: 206.119.125.39, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: 香港煎酿三宝 04, server: 1d53eaf6-19a3-4079-9fbc-1356b5ba8e87.1a5aab85-fb9a-4e9f-918a-bcb44418b00e.xn--9kq12xdq7a.com, port: 10004, type: ss, cipher: aes-256-gcm, password: fb9832ac-7cd0-4fa8-a20c-8b0da08ce168, udp: true}
-  - {name: RELAY-Openit.ml, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 117.28.242.156}, udp: true}
-  - {name: YouTube梦歌|Netflix_74, server: 183.240.124.200, port: 44820, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: 台湾（TG@阿伟科技/油管）, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: dc09c9a0-1697-3f39-8ba9-65f2985e00ec, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 330tw.fans8.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_52, server: bb1.158801.xyz, port: 22542, type: trojan, password: 60180597-d25b-4373-a7b9-3e36249b4192, sni: bb1.158801.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_27, server: hk-iv.sserver.top, port: 80, type: vmess, uuid: 8d0ceab5-1008-300f-996f-0751e11038f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: hk-iv.sserver.top}, udp: true}
+  - {name: YouTube梦歌|Netflix_50, server: hk-v.sserver.top, port: 80, type: vmess, uuid: 8d0ceab5-1008-300f-996f-0751e11038f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: hk-v.sserver.top}, udp: true}
+  - {name: YouTube梦歌|Netflix_84, server: ty2-3.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, sni: ty2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_44, server: w7.v2mmy.xyz, port: 44813, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: 香港 04, server: bb1.158801.xyz, port: 22544, type: trojan, password: 60180597-d25b-4373-a7b9-3e36249b4192, sni: bb1.158801.xyz, skip-cert-verify: true, udp: true}
   - {name: 梦歌|BGP中转|解锁流媒体_29, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: 台湾（TG@阿伟科技/油管）, server: 183.240.124.200, port: 44811, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: 香港+07, server: bb2.158801.xyz, port: 22543, type: trojan, password: 60180597-d25b-4373-a7b9-3e36249b4192, sni: bb2.158801.xyz, skip-cert-verify: true, udp: true}
   - {name: CN_406 | 7.24Mb, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: YouTube@阿阳AYANG+48, server: 183.240.124.200, port: 25600, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: 台湾（TG@阿伟科技/油管） 2, server: cn-southern-cm-03.xenoconnect.com, port: 40005, type: vmess, uuid: 60942ef2-6f53-4692-a85f-f06bc45961cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cn-southern-cm-03.xenoconnect.com}, udp: true}
-  - {name: 节点更新 bit.ly/36b6iJh, server: bai-piao-wang-zhe-iplc2.98848.xyz, port: 443, type: trojan, password: b23ecb07-1cd3-4490-b4eb-4d32cd0b9249, sni: bai-piao-wang-zhe-iplc2.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: bai-piao-wang-zhe-iplc2.98848.xyz_vmess_ws, server: bai-piao-wang-zhe-iplc2.98848.xyz, port: 443, type: vmess, uuid: b23ecb07-1cd3-4490-b4eb-4d32cd0b9249, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /YouTube-bai-piao-wang-zhe_vws, ws-headers: {Host: bai-piao-wang-zhe-iplc2.98848.xyz}, udp: true}
-  - {name: 美国（TG@阿伟科技/油管）, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: 40825843-2e84-4433-a4c0-829948eb620b, udp: true}
-  - {name: 日本 A 80 免流, server: 194.156.231.35, port: 80, type: vmess, uuid: 60180597-d25b-4373-a7b9-3e36249b4192, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: v.qq.com}, udp: true}
-  - {name: 香港丝袜奶茶 02, server: 1d53eaf6-19a3-4079-9fbc-1356b5ba8e87.1a5aab85-fb9a-4e9f-918a-bcb44418b00e.xn--9kq12xdq7a.com, port: 10002, type: ss, cipher: aes-256-gcm, password: fb9832ac-7cd0-4fa8-a20c-8b0da08ce168, udp: true}
-  - {name: 新加坡（TG@阿伟科技/油管） 2, server: 183.240.124.200, port: 44817, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: YouTube梦歌|Netflix_18, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 04cb4602-7b83-42a9-abf9-a364caed013b, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 英国（TG@阿伟科技/油管）, server: 183.240.124.200, port: 44825, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: 日本（TG@阿伟科技/油管）, server: free-jp-sd.vmess.top, port: 39191, type: trojan, password: 8067a01e-b77d-4b35-aee6-1b7082b60f27, sni: free-jp-sd.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 节点更新 bit.ly/36b6iJh 2, server: f8ae1437-05f3-40f1-9c09-c9a4149848b5.0afc1309-6c6f-4620-8105-7f8f2befe3ce.xn--9kq12xdq7a.com, port: 10003, type: ss, cipher: aes-256-gcm, password: fb9832ac-7cd0-4fa8-a20c-8b0da08ce168, udp: true}
-  - {name: 台湾（TG@阿伟科技/油管） 3, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: 40825843-2e84-4433-a4c0-829948eb620b, udp: true}
+  - {name: YouTube梦歌|Netflix_29, server: hk-vi.sserver.top, port: 80, type: vmess, uuid: 8d0ceab5-1008-300f-996f-0751e11038f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: hk-vi.sserver.top}, udp: true}
+  - {name: YouTube梦歌|Netflix_13, server: ddns1.pdjc.cc, port: 42000, type: ss, cipher: chacha20-ietf-poly1305, password: 151dada5-c12e-4eb3-940e-d93f365f8a4a, udp: true}
+  - {name: YouTube梦歌|Netflix_51, server: hk-i.sserver.top, port: 80, type: vmess, uuid: 8d0ceab5-1008-300f-996f-0751e11038f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: hk-i.sserver.top}, udp: true}
+  - {name: +香港杨枝甘露+03, server: f8ae1437-05f3-40f1-9c09-c9a4149848b5.0afc1309-6c6f-4620-8105-7f8f2befe3ce.xn--9kq12xdq7a.com, port: 10003, type: ss, cipher: aes-256-gcm, password: 45d12ded-d8a9-41c5-ba08-1f7f9320b071, udp: true}
+  - {name: YouTube梦歌|Netflix_22, server: s2.mine.com.cn, port: 3333, type: vmess, uuid: 3ba07dae-a511-4ef6-b3ec-cd174a863866, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 德国节点更新 bit.ly/36b6iJh, server: s1.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 加拿大*vu*Mpls线路四节点更新 bit.ly/36b6iJh, server: mplsjs1.ggbbba.xyz, port: 45780, type: ss, cipher: aes-256-gcm, password: gDQ8kr1HdHEK5DGU, udp: true}
+  - {name: YouTube梦歌|Netflix_23, server: w3.v2mmy.xyz, port: 44816, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: 节点更新+bit.ly/36b6iJh, server: bb2.158801.xyz, port: 22541, type: trojan, password: 60180597-d25b-4373-a7b9-3e36249b4192, sni: bb2.158801.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_73, server: ddns1.pdjc.cc, port: 42000, type: ss, cipher: chacha20-ietf-poly1305, password: 09133b7b-2cbe-4e50-8215-1f644287d965, udp: true}
+  - {name: 英国节点更新 bit.ly/36b6iJh-clone, server: bai-piao-wang-zhe-iplc8.98848.xyz, port: 443, type: vmess, uuid: 8ac13614-d93e-4aab-a546-6a00e8360fb1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /YouTube-bai-piao-wang-zhe_vws, ws-headers: {Host: bai-piao-wang-zhe-iplc8.98848.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_37, server: hk-ii.sserver.top, port: 80, type: vmess, uuid: 8d0ceab5-1008-300f-996f-0751e11038f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: hk-ii.sserver.top}, udp: true}
+  - {name: us节点更新 bit.ly/36b6iJh-clone, server: bai-piao-wang-zhe-iplc.98848.xyz, port: 54287, type: vmess, uuid: 77ef11ee-f995-4eb5-ad5e-43aabfcfb665, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /bit.ly/36b6iJh, ws-headers: {Host: bai-piao-wang-zhe-iplc.98848.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_18, server: bai-piao-wang-zhe-iplc.98848.xyz, port: 443, type: trojan, password: a97edd5e-f9c9-4320-a8aa-753dd99d74d4, sni: bai-piao-wang-zhe-iplc.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_17, server: 43.129.221.110, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /free, ws-headers: {Host: jp.sayuri.cf}, udp: true}
+  - {name: YouTube梦歌|Netflix_56, server: bai-piao-wang-zhe-iplc.98848.xyz, port: 49874, type: vmess, uuid: 5e7ab410-0406-47fc-9fdd-cb1633958020, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /bit.ly/36b6iJh, ws-headers: {Host: bai-piao-wang-zhe-iplc.98848.xyz}, udp: true}
+  - {name: 节点更新 bit.ly/36b6iJh, server: 20.196.217.207, port: 80, type: vmess, uuid: d58da70f-3b89-4e96-a263-def6e451e075, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 6, server: lsj03.wangxd.life, port: 3052, type: trojan, password: ae71ffdc-3206-3b4d-3f4e-e3b63684a556, sni: lsj03.wangxd.life, skip-cert-verify: true, udp: true}
+  - {name: 节点更新 bit.ly/36b6iJh 2, server: 20.210.236.182, port: 80, type: vmess, uuid: d58da70f-3b89-4e96-a263-def6e451e075, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
+  - {name: YouTube梦歌|Netflix_90, server: uszz22.bieqiangwo.xyz, port: 39395, type: vmess, uuid: 6d896dd9-21ff-3844-a72a-332507486049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: bai-piao-wang-zhe-iplc8.98848.xyz, server: bai-piao-wang-zhe-iplc8.98848.xyz, port: 43642, type: vmess, uuid: 9b44f24d-388e-4b04-9901-10d571feda6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /YouTube-bai-piao-wang-zhe, ws-headers: {Host: bai-piao-wang-zhe-iplc8.98848.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_36, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_11, server: w7.v2mmy.xyz, port: 44827, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: 英国节点更新 bit.ly/36b6iJh-clone 2, server: bai-piao-wang-zhe-iplc8.98848.xyz, port: 443, type: trojan, password: 8ac13614-d93e-4aab-a546-6a00e8360fb1, sni: bai-piao-wang-zhe-iplc8.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_97, server: uszz22.bieqiangwo.xyz, port: 875, type: vmess, uuid: 6d896dd9-21ff-3844-a72a-332507486049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: bai-piao-wang-zhe-iplc.98848.xyz_vmess_ws-clone, server: bai-piao-wang-zhe-iplc.98848.xyz, port: 443, type: vmess, uuid: a97edd5e-f9c9-4320-a8aa-753dd99d74d4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /YouTube-bai-piao-wang-zhe_vws, ws-headers: {Host: bai-piao-wang-zhe-iplc.98848.xyz}, udp: true}
+  - {name: _商店：8du.shop, server: s4.mine.com.cn, port: 3333, type: vmess, uuid: 5eea1f96-6e33-4409-b8b4-a8d3596ec991, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_16, server: cdn2.myuuusss.com, port: 28077, type: ss, cipher: aes-128-gcm, password: cf998f5b-85d9-4798-871d-e0e7916fff04, udp: true}
+  - {name: 澳大利亚节点更新 bit.ly/36b6iJh-clone, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_64, server: 119.28.74.161, port: 1223, type: vmess, uuid: 6d896dd9-21ff-3844-a72a-332507486049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_22 2, server: w2.v2mmy.xyz, port: 44819, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: YouTube梦歌|Netflix_53, server: w3.v2mmy.xyz, port: 44817, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: bai-piao-wang-zhe-iplc.98848.xyz_trojan_gRPC-clone, server: bai-piao-wang-zhe-iplc.98848.xyz, port: 443, type: trojan, password: a97edd5e-f9c9-4320-a8aa-753dd99d74d4, sni: bai-piao-wang-zhe-iplc.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_42, server: w2.v2mmy.xyz, port: 44826, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: bai-piao-wang-zhe.98848.xyz_vmess_ws-clone, server: bai-piao-wang-zhe.98848.xyz, port: 443, type: vmess, uuid: f4a6a397-0007-4e45-800c-16d8a7a587ed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /YouTube-bai-piao-wang-zhe_vws, ws-headers: {Host: bai-piao-wang-zhe.98848.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_47, server: w2.v2mmy.xyz, port: 44814, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: YouTube梦歌|Netflix_39, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_80, server: uszz22.bieqiangwo.xyz, port: 33227, type: vmess, uuid: 6d896dd9-21ff-3844-a72a-332507486049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_4, server: s4.mine.com.cn, port: 3333, type: vmess, uuid: 3ba07dae-a511-4ef6-b3ec-cd174a863866, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq+-+美国加利福尼亚州洛杉矶MULTACOM数据中心+12, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: lsj02.wangxd.life, skip-cert-verify: true, udp: true}
+  - {name: 英国节点更新 bit.ly/36b6iJh-clone 3, server: bai-piao-wang-zhe-iplc8.98848.xyz, port: 443, type: trojan, password: 8ac13614-d93e-4aab-a546-6a00e8360fb1, sni: bai-piao-wang-zhe-iplc8.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: 节点更新 bit.ly/36b6iJh 3, server: 216.240.140.252, port: 80, type: vmess, uuid: d58da70f-3b89-4e96-a263-def6e451e075, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
+  - {name: 节点更新 bit.ly/36b6iJh -clone, server: bai-piao-wang-zhe.98848.xyz, port: 443, type: trojan, password: f4a6a397-0007-4e45-800c-16d8a7a587ed, sni: bai-piao-wang-zhe.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: us节点更新 bit.ly/36b6iJh-clone 2, server: bai-piao-wang-zhe-iplc.98848.xyz, port: 45991, type: vmess, uuid: c9a2072d-e8ce-4d27-f119-5ce9679bcd33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /bit.ly/36b6iJh, ws-headers: {Host: bai-piao-wang-zhe-iplc.98848.xyz}, udp: true}
+  - {name: 节点更新 bit.ly/36b6iJh 4, server: bai-piao-wang-zhe-iplc8.98848.xyz, port: 19652, type: vmess, uuid: d88e33f0-4c5c-4a76-8c06-c7dbc2f08feb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /YouTube-bai-piao-wang-zhe, ws-headers: {Host: bai-piao-wang-zhe-iplc8.98848.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_65, server: 119.28.67.178, port: 223, type: vmess, uuid: 6d896dd9-21ff-3844-a72a-332507486049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_18 2, server: w2.v2mmy.xyz, port: 44825, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
   - {name: Youtube@One·资源核, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: 美国节点更新 bit.ly/36b6iJh, server: m.25az.top, port: 12033, type: vmess, uuid: a3b5dc2d-aef1-4e16-e9d7-cf96b6b6f93b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本（TG@阿伟科技/油管） 2, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: 40825843-2e84-4433-a4c0-829948eb620b, udp: true}
-  - {name: CN_44+TG@peekfun, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_57+TG@peekfun, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 香港咖喱鱼蛋 01, server: f8ae1437-05f3-40f1-9c09-c9a4149848b5.0afc1309-6c6f-4620-8105-7f8f2befe3ce.xn--9kq12xdq7a.com, port: 10001, type: ss, cipher: aes-256-gcm, password: fb9832ac-7cd0-4fa8-a20c-8b0da08ce168, udp: true}
-  - {name: 匈牙利（TG@阿伟科技/油管）, server: 183.240.124.200, port: 44818, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: CN_301, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_300, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _节点更新 https://bit.ly/36b6iJh, server: 43.154.5.144, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /free, ws-headers: {Host: jp.sayuri.cf}, udp: true}
-  - {name: 俄罗斯（TG@阿伟科技/油管）, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: 40825843-2e84-4433-a4c0-829948eb620b, udp: true}
-  - {name: CN_295, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_306, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_352, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 2, server: 45.76.173.250, port: 65340, type: vmess, uuid: b620d78a-d3a7-496f-af32-565185473eb8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /5Ci3h6YB/, ws-headers: {Host: 45.76.173.250}, udp: true}
-  - {name: CN_35+TG@peekfun, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 美国节点更新 bit.ly/36b6iJh 2, server: m.25az.top, port: 12033, type: vmess, uuid: a3b5dc2d-aef1-4e16-e9d7-cf96b6b6f93b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 英国节点更新 bit.ly/36b6iJh, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub", server: v5.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v5.ssrsub.com}, udp: true}
+  - {name: YouTube梦歌|Netflix_30, server: w3.v2mmy.xyz, port: 44818, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: 法国（TG@阿伟科技/油管）, server: 95.142.161.130, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bXAlJahEn1fO, udp: true}
+  - {name: "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub", server: v2.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v2.ssrsub.com}, udp: true}
+  - {name: US-高速节点推荐：v1.mk/vip, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: ahdaeph8.com}, udp: true}
+  - {name: 印度（欢迎订阅Youtube元亨利贞）, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_77, server: mplsjs1.ggbbba.xyz, port: 30122, type: ss, cipher: aes-256-gcm, password: gDQ8kr1HdHEK5DGU, udp: true}
+  - {name: YouTube梦歌|Netflix_59, server: 185.218.5.197, port: 224, type: vmess, uuid: 6d896dd9-21ff-3844-a72a-332507486049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 节点更新 bit.ly/36b6iJh 5, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub", server: v1.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v1.ssrsub.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡（TG@阿伟科技/油管）
-      - "@SSRSUB-V08-付费推荐:suo.yt/ssrsub"
-      - YouTube梦歌|Netflix_28
-      - YouTube梦歌|Netflix_7
-      - 香港煎酿三宝 04
-      - RELAY-Openit.ml
-      - YouTube梦歌|Netflix_74
-      - 梦歌|BGP中转|解锁流媒体_29
       - 台湾（TG@阿伟科技/油管）
+      - YouTube梦歌|Netflix_52
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_44
+      - 香港 04
+      - 梦歌|BGP中转|解锁流媒体_29
+      - 香港+07
       - CN_406 | 7.24Mb
-      - YouTube@阿阳AYANG+48
-      - 台湾（TG@阿伟科技/油管） 2
-      - 节点更新 bit.ly/36b6iJh
-      - bai-piao-wang-zhe-iplc2.98848.xyz_vmess_ws
-      - 美国（TG@阿伟科技/油管）
-      - 日本 A 80 免流
-      - 香港丝袜奶茶 02
-      - 新加坡（TG@阿伟科技/油管） 2
+      - YouTube梦歌|Netflix_29
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_51
+      - +香港杨枝甘露+03
+      - YouTube梦歌|Netflix_22
+      - 德国节点更新 bit.ly/36b6iJh
+      - 加拿大*vu*Mpls线路四节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_23
+      - 节点更新+bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_73
+      - 英国节点更新 bit.ly/36b6iJh-clone
+      - YouTube梦歌|Netflix_37
+      - us节点更新 bit.ly/36b6iJh-clone
       - YouTube梦歌|Netflix_18
-      - 英国（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管）
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_56
+      - 节点更新 bit.ly/36b6iJh
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 6
       - 节点更新 bit.ly/36b6iJh 2
-      - 台湾（TG@阿伟科技/油管） 3
+      - YouTube梦歌|Netflix_90
+      - bai-piao-wang-zhe-iplc8.98848.xyz
+      - YouTube梦歌|Netflix_36
+      - YouTube梦歌|Netflix_11
+      - 英国节点更新 bit.ly/36b6iJh-clone 2
+      - YouTube梦歌|Netflix_97
+      - bai-piao-wang-zhe-iplc.98848.xyz_vmess_ws-clone
+      - _商店：8du.shop
+      - YouTube梦歌|Netflix_16
+      - 澳大利亚节点更新 bit.ly/36b6iJh-clone
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_22 2
+      - YouTube梦歌|Netflix_53
+      - bai-piao-wang-zhe-iplc.98848.xyz_trojan_gRPC-clone
+      - YouTube梦歌|Netflix_42
+      - bai-piao-wang-zhe.98848.xyz_vmess_ws-clone
+      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_39
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_4
+      - github.com/freefq+-+美国加利福尼亚州洛杉矶MULTACOM数据中心+12
+      - 英国节点更新 bit.ly/36b6iJh-clone 3
+      - 节点更新 bit.ly/36b6iJh 3
+      - 节点更新 bit.ly/36b6iJh -clone
+      - us节点更新 bit.ly/36b6iJh-clone 2
+      - 节点更新 bit.ly/36b6iJh 4
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_18 2
       - Youtube@One·资源核
-      - 美国节点更新 bit.ly/36b6iJh
-      - 日本（TG@阿伟科技/油管） 2
-      - CN_44+TG@peekfun
-      - CN_57+TG@peekfun
-      - 香港咖喱鱼蛋 01
-      - 匈牙利（TG@阿伟科技/油管）
-      - CN_301
-      - CN_300
-      - _节点更新 https://bit.ly/36b6iJh
-      - 俄罗斯（TG@阿伟科技/油管）
-      - CN_295
-      - CN_306
-      - CN_352
-      - 美国（TG@阿伟科技/油管） 2
-      - CN_35+TG@peekfun
-      - 美国节点更新 bit.ly/36b6iJh 2
-      - 英国节点更新 bit.ly/36b6iJh
+      - "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub"
+      - YouTube梦歌|Netflix_30
+      - 法国（TG@阿伟科技/油管）
+      - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub"
+      - US-高速节点推荐：v1.mk/vip
+      - 印度（欢迎订阅Youtube元亨利贞）
+      - YouTube梦歌|Netflix_77
+      - YouTube梦歌|Netflix_59
+      - 节点更新 bit.ly/36b6iJh 5
+      - "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 新加坡（TG@阿伟科技/油管）
-      - "@SSRSUB-V08-付费推荐:suo.yt/ssrsub"
-      - YouTube梦歌|Netflix_28
-      - YouTube梦歌|Netflix_7
-      - 香港煎酿三宝 04
-      - RELAY-Openit.ml
-      - YouTube梦歌|Netflix_74
-      - 梦歌|BGP中转|解锁流媒体_29
       - 台湾（TG@阿伟科技/油管）
+      - YouTube梦歌|Netflix_52
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_44
+      - 香港 04
+      - 梦歌|BGP中转|解锁流媒体_29
+      - 香港+07
       - CN_406 | 7.24Mb
-      - YouTube@阿阳AYANG+48
-      - 台湾（TG@阿伟科技/油管） 2
-      - 节点更新 bit.ly/36b6iJh
-      - bai-piao-wang-zhe-iplc2.98848.xyz_vmess_ws
-      - 美国（TG@阿伟科技/油管）
-      - 日本 A 80 免流
-      - 香港丝袜奶茶 02
-      - 新加坡（TG@阿伟科技/油管） 2
+      - YouTube梦歌|Netflix_29
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_51
+      - +香港杨枝甘露+03
+      - YouTube梦歌|Netflix_22
+      - 德国节点更新 bit.ly/36b6iJh
+      - 加拿大*vu*Mpls线路四节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_23
+      - 节点更新+bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_73
+      - 英国节点更新 bit.ly/36b6iJh-clone
+      - YouTube梦歌|Netflix_37
+      - us节点更新 bit.ly/36b6iJh-clone
       - YouTube梦歌|Netflix_18
-      - 英国（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管）
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_56
+      - 节点更新 bit.ly/36b6iJh
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 6
       - 节点更新 bit.ly/36b6iJh 2
-      - 台湾（TG@阿伟科技/油管） 3
+      - YouTube梦歌|Netflix_90
+      - bai-piao-wang-zhe-iplc8.98848.xyz
+      - YouTube梦歌|Netflix_36
+      - YouTube梦歌|Netflix_11
+      - 英国节点更新 bit.ly/36b6iJh-clone 2
+      - YouTube梦歌|Netflix_97
+      - bai-piao-wang-zhe-iplc.98848.xyz_vmess_ws-clone
+      - _商店：8du.shop
+      - YouTube梦歌|Netflix_16
+      - 澳大利亚节点更新 bit.ly/36b6iJh-clone
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_22 2
+      - YouTube梦歌|Netflix_53
+      - bai-piao-wang-zhe-iplc.98848.xyz_trojan_gRPC-clone
+      - YouTube梦歌|Netflix_42
+      - bai-piao-wang-zhe.98848.xyz_vmess_ws-clone
+      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_39
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_4
+      - github.com/freefq+-+美国加利福尼亚州洛杉矶MULTACOM数据中心+12
+      - 英国节点更新 bit.ly/36b6iJh-clone 3
+      - 节点更新 bit.ly/36b6iJh 3
+      - 节点更新 bit.ly/36b6iJh -clone
+      - us节点更新 bit.ly/36b6iJh-clone 2
+      - 节点更新 bit.ly/36b6iJh 4
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_18 2
       - Youtube@One·资源核
-      - 美国节点更新 bit.ly/36b6iJh
-      - 日本（TG@阿伟科技/油管） 2
-      - CN_44+TG@peekfun
-      - CN_57+TG@peekfun
-      - 香港咖喱鱼蛋 01
-      - 匈牙利（TG@阿伟科技/油管）
-      - CN_301
-      - CN_300
-      - _节点更新 https://bit.ly/36b6iJh
-      - 俄罗斯（TG@阿伟科技/油管）
-      - CN_295
-      - CN_306
-      - CN_352
-      - 美国（TG@阿伟科技/油管） 2
-      - CN_35+TG@peekfun
-      - 美国节点更新 bit.ly/36b6iJh 2
-      - 英国节点更新 bit.ly/36b6iJh
+      - "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub"
+      - YouTube梦歌|Netflix_30
+      - 法国（TG@阿伟科技/油管）
+      - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub"
+      - US-高速节点推荐：v1.mk/vip
+      - 印度（欢迎订阅Youtube元亨利贞）
+      - YouTube梦歌|Netflix_77
+      - YouTube梦歌|Netflix_59
+      - 节点更新 bit.ly/36b6iJh 5
+      - "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡（TG@阿伟科技/油管）
-      - "@SSRSUB-V08-付费推荐:suo.yt/ssrsub"
-      - YouTube梦歌|Netflix_28
-      - YouTube梦歌|Netflix_7
-      - 香港煎酿三宝 04
-      - RELAY-Openit.ml
-      - YouTube梦歌|Netflix_74
-      - 梦歌|BGP中转|解锁流媒体_29
       - 台湾（TG@阿伟科技/油管）
+      - YouTube梦歌|Netflix_52
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_44
+      - 香港 04
+      - 梦歌|BGP中转|解锁流媒体_29
+      - 香港+07
       - CN_406 | 7.24Mb
-      - YouTube@阿阳AYANG+48
-      - 台湾（TG@阿伟科技/油管） 2
-      - 节点更新 bit.ly/36b6iJh
-      - bai-piao-wang-zhe-iplc2.98848.xyz_vmess_ws
-      - 美国（TG@阿伟科技/油管）
-      - 日本 A 80 免流
-      - 香港丝袜奶茶 02
-      - 新加坡（TG@阿伟科技/油管） 2
+      - YouTube梦歌|Netflix_29
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_51
+      - +香港杨枝甘露+03
+      - YouTube梦歌|Netflix_22
+      - 德国节点更新 bit.ly/36b6iJh
+      - 加拿大*vu*Mpls线路四节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_23
+      - 节点更新+bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_73
+      - 英国节点更新 bit.ly/36b6iJh-clone
+      - YouTube梦歌|Netflix_37
+      - us节点更新 bit.ly/36b6iJh-clone
       - YouTube梦歌|Netflix_18
-      - 英国（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管）
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_56
+      - 节点更新 bit.ly/36b6iJh
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 6
       - 节点更新 bit.ly/36b6iJh 2
-      - 台湾（TG@阿伟科技/油管） 3
+      - YouTube梦歌|Netflix_90
+      - bai-piao-wang-zhe-iplc8.98848.xyz
+      - YouTube梦歌|Netflix_36
+      - YouTube梦歌|Netflix_11
+      - 英国节点更新 bit.ly/36b6iJh-clone 2
+      - YouTube梦歌|Netflix_97
+      - bai-piao-wang-zhe-iplc.98848.xyz_vmess_ws-clone
+      - _商店：8du.shop
+      - YouTube梦歌|Netflix_16
+      - 澳大利亚节点更新 bit.ly/36b6iJh-clone
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_22 2
+      - YouTube梦歌|Netflix_53
+      - bai-piao-wang-zhe-iplc.98848.xyz_trojan_gRPC-clone
+      - YouTube梦歌|Netflix_42
+      - bai-piao-wang-zhe.98848.xyz_vmess_ws-clone
+      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_39
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_4
+      - github.com/freefq+-+美国加利福尼亚州洛杉矶MULTACOM数据中心+12
+      - 英国节点更新 bit.ly/36b6iJh-clone 3
+      - 节点更新 bit.ly/36b6iJh 3
+      - 节点更新 bit.ly/36b6iJh -clone
+      - us节点更新 bit.ly/36b6iJh-clone 2
+      - 节点更新 bit.ly/36b6iJh 4
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_18 2
       - Youtube@One·资源核
-      - 美国节点更新 bit.ly/36b6iJh
-      - 日本（TG@阿伟科技/油管） 2
-      - CN_44+TG@peekfun
-      - CN_57+TG@peekfun
-      - 香港咖喱鱼蛋 01
-      - 匈牙利（TG@阿伟科技/油管）
-      - CN_301
-      - CN_300
-      - _节点更新 https://bit.ly/36b6iJh
-      - 俄罗斯（TG@阿伟科技/油管）
-      - CN_295
-      - CN_306
-      - CN_352
-      - 美国（TG@阿伟科技/油管） 2
-      - CN_35+TG@peekfun
-      - 美国节点更新 bit.ly/36b6iJh 2
-      - 英国节点更新 bit.ly/36b6iJh
+      - "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub"
+      - YouTube梦歌|Netflix_30
+      - 法国（TG@阿伟科技/油管）
+      - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub"
+      - US-高速节点推荐：v1.mk/vip
+      - 印度（欢迎订阅Youtube元亨利贞）
+      - YouTube梦歌|Netflix_77
+      - YouTube梦歌|Netflix_59
+      - 节点更新 bit.ly/36b6iJh 5
+      - "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -204,197 +312,303 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡（TG@阿伟科技/油管）
-      - "@SSRSUB-V08-付费推荐:suo.yt/ssrsub"
-      - YouTube梦歌|Netflix_28
-      - YouTube梦歌|Netflix_7
-      - 香港煎酿三宝 04
-      - RELAY-Openit.ml
-      - YouTube梦歌|Netflix_74
-      - 梦歌|BGP中转|解锁流媒体_29
       - 台湾（TG@阿伟科技/油管）
+      - YouTube梦歌|Netflix_52
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_44
+      - 香港 04
+      - 梦歌|BGP中转|解锁流媒体_29
+      - 香港+07
       - CN_406 | 7.24Mb
-      - YouTube@阿阳AYANG+48
-      - 台湾（TG@阿伟科技/油管） 2
-      - 节点更新 bit.ly/36b6iJh
-      - bai-piao-wang-zhe-iplc2.98848.xyz_vmess_ws
-      - 美国（TG@阿伟科技/油管）
-      - 日本 A 80 免流
-      - 香港丝袜奶茶 02
-      - 新加坡（TG@阿伟科技/油管） 2
+      - YouTube梦歌|Netflix_29
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_51
+      - +香港杨枝甘露+03
+      - YouTube梦歌|Netflix_22
+      - 德国节点更新 bit.ly/36b6iJh
+      - 加拿大*vu*Mpls线路四节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_23
+      - 节点更新+bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_73
+      - 英国节点更新 bit.ly/36b6iJh-clone
+      - YouTube梦歌|Netflix_37
+      - us节点更新 bit.ly/36b6iJh-clone
       - YouTube梦歌|Netflix_18
-      - 英国（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管）
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_56
+      - 节点更新 bit.ly/36b6iJh
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 6
       - 节点更新 bit.ly/36b6iJh 2
-      - 台湾（TG@阿伟科技/油管） 3
+      - YouTube梦歌|Netflix_90
+      - bai-piao-wang-zhe-iplc8.98848.xyz
+      - YouTube梦歌|Netflix_36
+      - YouTube梦歌|Netflix_11
+      - 英国节点更新 bit.ly/36b6iJh-clone 2
+      - YouTube梦歌|Netflix_97
+      - bai-piao-wang-zhe-iplc.98848.xyz_vmess_ws-clone
+      - _商店：8du.shop
+      - YouTube梦歌|Netflix_16
+      - 澳大利亚节点更新 bit.ly/36b6iJh-clone
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_22 2
+      - YouTube梦歌|Netflix_53
+      - bai-piao-wang-zhe-iplc.98848.xyz_trojan_gRPC-clone
+      - YouTube梦歌|Netflix_42
+      - bai-piao-wang-zhe.98848.xyz_vmess_ws-clone
+      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_39
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_4
+      - github.com/freefq+-+美国加利福尼亚州洛杉矶MULTACOM数据中心+12
+      - 英国节点更新 bit.ly/36b6iJh-clone 3
+      - 节点更新 bit.ly/36b6iJh 3
+      - 节点更新 bit.ly/36b6iJh -clone
+      - us节点更新 bit.ly/36b6iJh-clone 2
+      - 节点更新 bit.ly/36b6iJh 4
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_18 2
       - Youtube@One·资源核
-      - 美国节点更新 bit.ly/36b6iJh
-      - 日本（TG@阿伟科技/油管） 2
-      - CN_44+TG@peekfun
-      - CN_57+TG@peekfun
-      - 香港咖喱鱼蛋 01
-      - 匈牙利（TG@阿伟科技/油管）
-      - CN_301
-      - CN_300
-      - _节点更新 https://bit.ly/36b6iJh
-      - 俄罗斯（TG@阿伟科技/油管）
-      - CN_295
-      - CN_306
-      - CN_352
-      - 美国（TG@阿伟科技/油管） 2
-      - CN_35+TG@peekfun
-      - 美国节点更新 bit.ly/36b6iJh 2
-      - 英国节点更新 bit.ly/36b6iJh
+      - "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub"
+      - YouTube梦歌|Netflix_30
+      - 法国（TG@阿伟科技/油管）
+      - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub"
+      - US-高速节点推荐：v1.mk/vip
+      - 印度（欢迎订阅Youtube元亨利贞）
+      - YouTube梦歌|Netflix_77
+      - YouTube梦歌|Netflix_59
+      - 节点更新 bit.ly/36b6iJh 5
+      - "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港煎酿三宝 04
       - 台湾（TG@阿伟科技/油管）
-      - 台湾（TG@阿伟科技/油管） 2
-      - 香港丝袜奶茶 02
-      - 台湾（TG@阿伟科技/油管） 3
-      - 香港咖喱鱼蛋 01
+      - 香港 04
+      - 香港+07
+      - +香港杨枝甘露+03
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 新加坡（TG@阿伟科技/油管）
-      - "@SSRSUB-V08-付费推荐:suo.yt/ssrsub"
-      - YouTube梦歌|Netflix_28
-      - YouTube梦歌|Netflix_7
-      - 香港煎酿三宝 04
-      - RELAY-Openit.ml
-      - YouTube梦歌|Netflix_74
-      - 梦歌|BGP中转|解锁流媒体_29
       - 台湾（TG@阿伟科技/油管）
+      - YouTube梦歌|Netflix_52
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_44
+      - 香港 04
+      - 梦歌|BGP中转|解锁流媒体_29
+      - 香港+07
       - CN_406 | 7.24Mb
-      - YouTube@阿阳AYANG+48
-      - 台湾（TG@阿伟科技/油管） 2
-      - 节点更新 bit.ly/36b6iJh
-      - bai-piao-wang-zhe-iplc2.98848.xyz_vmess_ws
-      - 美国（TG@阿伟科技/油管）
-      - 日本 A 80 免流
-      - 香港丝袜奶茶 02
-      - 新加坡（TG@阿伟科技/油管） 2
+      - YouTube梦歌|Netflix_29
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_51
+      - +香港杨枝甘露+03
+      - YouTube梦歌|Netflix_22
+      - 德国节点更新 bit.ly/36b6iJh
+      - 加拿大*vu*Mpls线路四节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_23
+      - 节点更新+bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_73
+      - 英国节点更新 bit.ly/36b6iJh-clone
+      - YouTube梦歌|Netflix_37
+      - us节点更新 bit.ly/36b6iJh-clone
       - YouTube梦歌|Netflix_18
-      - 英国（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管）
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_56
+      - 节点更新 bit.ly/36b6iJh
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 6
       - 节点更新 bit.ly/36b6iJh 2
-      - 台湾（TG@阿伟科技/油管） 3
+      - YouTube梦歌|Netflix_90
+      - bai-piao-wang-zhe-iplc8.98848.xyz
+      - YouTube梦歌|Netflix_36
+      - YouTube梦歌|Netflix_11
+      - 英国节点更新 bit.ly/36b6iJh-clone 2
+      - YouTube梦歌|Netflix_97
+      - bai-piao-wang-zhe-iplc.98848.xyz_vmess_ws-clone
+      - _商店：8du.shop
+      - YouTube梦歌|Netflix_16
+      - 澳大利亚节点更新 bit.ly/36b6iJh-clone
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_22 2
+      - YouTube梦歌|Netflix_53
+      - bai-piao-wang-zhe-iplc.98848.xyz_trojan_gRPC-clone
+      - YouTube梦歌|Netflix_42
+      - bai-piao-wang-zhe.98848.xyz_vmess_ws-clone
+      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_39
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_4
+      - github.com/freefq+-+美国加利福尼亚州洛杉矶MULTACOM数据中心+12
+      - 英国节点更新 bit.ly/36b6iJh-clone 3
+      - 节点更新 bit.ly/36b6iJh 3
+      - 节点更新 bit.ly/36b6iJh -clone
+      - us节点更新 bit.ly/36b6iJh-clone 2
+      - 节点更新 bit.ly/36b6iJh 4
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_18 2
       - Youtube@One·资源核
-      - 美国节点更新 bit.ly/36b6iJh
-      - 日本（TG@阿伟科技/油管） 2
-      - CN_44+TG@peekfun
-      - CN_57+TG@peekfun
-      - 香港咖喱鱼蛋 01
-      - 匈牙利（TG@阿伟科技/油管）
-      - CN_301
-      - CN_300
-      - _节点更新 https://bit.ly/36b6iJh
-      - 俄罗斯（TG@阿伟科技/油管）
-      - CN_295
-      - CN_306
-      - CN_352
-      - 美国（TG@阿伟科技/油管） 2
-      - CN_35+TG@peekfun
-      - 美国节点更新 bit.ly/36b6iJh 2
-      - 英国节点更新 bit.ly/36b6iJh
+      - "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub"
+      - YouTube梦歌|Netflix_30
+      - 法国（TG@阿伟科技/油管）
+      - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub"
+      - US-高速节点推荐：v1.mk/vip
+      - 印度（欢迎订阅Youtube元亨利贞）
+      - YouTube梦歌|Netflix_77
+      - YouTube梦歌|Netflix_59
+      - 节点更新 bit.ly/36b6iJh 5
+      - "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 新加坡（TG@阿伟科技/油管）
-      - "@SSRSUB-V08-付费推荐:suo.yt/ssrsub"
-      - YouTube梦歌|Netflix_28
-      - YouTube梦歌|Netflix_7
-      - 香港煎酿三宝 04
-      - RELAY-Openit.ml
-      - YouTube梦歌|Netflix_74
-      - 梦歌|BGP中转|解锁流媒体_29
       - 台湾（TG@阿伟科技/油管）
+      - YouTube梦歌|Netflix_52
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_44
+      - 香港 04
+      - 梦歌|BGP中转|解锁流媒体_29
+      - 香港+07
       - CN_406 | 7.24Mb
-      - YouTube@阿阳AYANG+48
-      - 台湾（TG@阿伟科技/油管） 2
-      - 节点更新 bit.ly/36b6iJh
-      - bai-piao-wang-zhe-iplc2.98848.xyz_vmess_ws
-      - 美国（TG@阿伟科技/油管）
-      - 日本 A 80 免流
-      - 香港丝袜奶茶 02
-      - 新加坡（TG@阿伟科技/油管） 2
+      - YouTube梦歌|Netflix_29
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_51
+      - +香港杨枝甘露+03
+      - YouTube梦歌|Netflix_22
+      - 德国节点更新 bit.ly/36b6iJh
+      - 加拿大*vu*Mpls线路四节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_23
+      - 节点更新+bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_73
+      - 英国节点更新 bit.ly/36b6iJh-clone
+      - YouTube梦歌|Netflix_37
+      - us节点更新 bit.ly/36b6iJh-clone
       - YouTube梦歌|Netflix_18
-      - 英国（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管）
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_56
+      - 节点更新 bit.ly/36b6iJh
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 6
       - 节点更新 bit.ly/36b6iJh 2
-      - 台湾（TG@阿伟科技/油管） 3
+      - YouTube梦歌|Netflix_90
+      - bai-piao-wang-zhe-iplc8.98848.xyz
+      - YouTube梦歌|Netflix_36
+      - YouTube梦歌|Netflix_11
+      - 英国节点更新 bit.ly/36b6iJh-clone 2
+      - YouTube梦歌|Netflix_97
+      - bai-piao-wang-zhe-iplc.98848.xyz_vmess_ws-clone
+      - _商店：8du.shop
+      - YouTube梦歌|Netflix_16
+      - 澳大利亚节点更新 bit.ly/36b6iJh-clone
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_22 2
+      - YouTube梦歌|Netflix_53
+      - bai-piao-wang-zhe-iplc.98848.xyz_trojan_gRPC-clone
+      - YouTube梦歌|Netflix_42
+      - bai-piao-wang-zhe.98848.xyz_vmess_ws-clone
+      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_39
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_4
+      - github.com/freefq+-+美国加利福尼亚州洛杉矶MULTACOM数据中心+12
+      - 英国节点更新 bit.ly/36b6iJh-clone 3
+      - 节点更新 bit.ly/36b6iJh 3
+      - 节点更新 bit.ly/36b6iJh -clone
+      - us节点更新 bit.ly/36b6iJh-clone 2
+      - 节点更新 bit.ly/36b6iJh 4
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_18 2
       - Youtube@One·资源核
-      - 美国节点更新 bit.ly/36b6iJh
-      - 日本（TG@阿伟科技/油管） 2
-      - CN_44+TG@peekfun
-      - CN_57+TG@peekfun
-      - 香港咖喱鱼蛋 01
-      - 匈牙利（TG@阿伟科技/油管）
-      - CN_301
-      - CN_300
-      - _节点更新 https://bit.ly/36b6iJh
-      - 俄罗斯（TG@阿伟科技/油管）
-      - CN_295
-      - CN_306
-      - CN_352
-      - 美国（TG@阿伟科技/油管） 2
-      - CN_35+TG@peekfun
-      - 美国节点更新 bit.ly/36b6iJh 2
-      - 英国节点更新 bit.ly/36b6iJh
+      - "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub"
+      - YouTube梦歌|Netflix_30
+      - 法国（TG@阿伟科技/油管）
+      - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub"
+      - US-高速节点推荐：v1.mk/vip
+      - 印度（欢迎订阅Youtube元亨利贞）
+      - YouTube梦歌|Netflix_77
+      - YouTube梦歌|Netflix_59
+      - 节点更新 bit.ly/36b6iJh 5
+      - "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡（TG@阿伟科技/油管）
-      - "@SSRSUB-V08-付费推荐:suo.yt/ssrsub"
-      - YouTube梦歌|Netflix_28
-      - YouTube梦歌|Netflix_7
-      - 香港煎酿三宝 04
-      - RELAY-Openit.ml
-      - YouTube梦歌|Netflix_74
-      - 梦歌|BGP中转|解锁流媒体_29
       - 台湾（TG@阿伟科技/油管）
+      - YouTube梦歌|Netflix_52
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_44
+      - 香港 04
+      - 梦歌|BGP中转|解锁流媒体_29
+      - 香港+07
       - CN_406 | 7.24Mb
-      - YouTube@阿阳AYANG+48
-      - 台湾（TG@阿伟科技/油管） 2
-      - 节点更新 bit.ly/36b6iJh
-      - bai-piao-wang-zhe-iplc2.98848.xyz_vmess_ws
-      - 美国（TG@阿伟科技/油管）
-      - 日本 A 80 免流
-      - 香港丝袜奶茶 02
-      - 新加坡（TG@阿伟科技/油管） 2
+      - YouTube梦歌|Netflix_29
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_51
+      - +香港杨枝甘露+03
+      - YouTube梦歌|Netflix_22
+      - 德国节点更新 bit.ly/36b6iJh
+      - 加拿大*vu*Mpls线路四节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_23
+      - 节点更新+bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_73
+      - 英国节点更新 bit.ly/36b6iJh-clone
+      - YouTube梦歌|Netflix_37
+      - us节点更新 bit.ly/36b6iJh-clone
       - YouTube梦歌|Netflix_18
-      - 英国（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管）
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_56
+      - 节点更新 bit.ly/36b6iJh
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 6
       - 节点更新 bit.ly/36b6iJh 2
-      - 台湾（TG@阿伟科技/油管） 3
+      - YouTube梦歌|Netflix_90
+      - bai-piao-wang-zhe-iplc8.98848.xyz
+      - YouTube梦歌|Netflix_36
+      - YouTube梦歌|Netflix_11
+      - 英国节点更新 bit.ly/36b6iJh-clone 2
+      - YouTube梦歌|Netflix_97
+      - bai-piao-wang-zhe-iplc.98848.xyz_vmess_ws-clone
+      - _商店：8du.shop
+      - YouTube梦歌|Netflix_16
+      - 澳大利亚节点更新 bit.ly/36b6iJh-clone
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_22 2
+      - YouTube梦歌|Netflix_53
+      - bai-piao-wang-zhe-iplc.98848.xyz_trojan_gRPC-clone
+      - YouTube梦歌|Netflix_42
+      - bai-piao-wang-zhe.98848.xyz_vmess_ws-clone
+      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_39
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_4
+      - github.com/freefq+-+美国加利福尼亚州洛杉矶MULTACOM数据中心+12
+      - 英国节点更新 bit.ly/36b6iJh-clone 3
+      - 节点更新 bit.ly/36b6iJh 3
+      - 节点更新 bit.ly/36b6iJh -clone
+      - us节点更新 bit.ly/36b6iJh-clone 2
+      - 节点更新 bit.ly/36b6iJh 4
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_18 2
       - Youtube@One·资源核
-      - 美国节点更新 bit.ly/36b6iJh
-      - 日本（TG@阿伟科技/油管） 2
-      - CN_44+TG@peekfun
-      - CN_57+TG@peekfun
-      - 香港咖喱鱼蛋 01
-      - 匈牙利（TG@阿伟科技/油管）
-      - CN_301
-      - CN_300
-      - _节点更新 https://bit.ly/36b6iJh
-      - 俄罗斯（TG@阿伟科技/油管）
-      - CN_295
-      - CN_306
-      - CN_352
-      - 美国（TG@阿伟科技/油管） 2
-      - CN_35+TG@peekfun
-      - 美国节点更新 bit.ly/36b6iJh 2
-      - 英国节点更新 bit.ly/36b6iJh
+      - "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub"
+      - YouTube梦歌|Netflix_30
+      - 法国（TG@阿伟科技/油管）
+      - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub"
+      - US-高速节点推荐：v1.mk/vip
+      - 印度（欢迎订阅Youtube元亨利贞）
+      - YouTube梦歌|Netflix_77
+      - YouTube梦歌|Netflix_59
+      - 节点更新 bit.ly/36b6iJh 5
+      - "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -410,47 +624,74 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡（TG@阿伟科技/油管）
-      - "@SSRSUB-V08-付费推荐:suo.yt/ssrsub"
-      - YouTube梦歌|Netflix_28
-      - YouTube梦歌|Netflix_7
-      - 香港煎酿三宝 04
-      - RELAY-Openit.ml
-      - YouTube梦歌|Netflix_74
-      - 梦歌|BGP中转|解锁流媒体_29
       - 台湾（TG@阿伟科技/油管）
+      - YouTube梦歌|Netflix_52
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_44
+      - 香港 04
+      - 梦歌|BGP中转|解锁流媒体_29
+      - 香港+07
       - CN_406 | 7.24Mb
-      - YouTube@阿阳AYANG+48
-      - 台湾（TG@阿伟科技/油管） 2
-      - 节点更新 bit.ly/36b6iJh
-      - bai-piao-wang-zhe-iplc2.98848.xyz_vmess_ws
-      - 美国（TG@阿伟科技/油管）
-      - 日本 A 80 免流
-      - 香港丝袜奶茶 02
-      - 新加坡（TG@阿伟科技/油管） 2
+      - YouTube梦歌|Netflix_29
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_51
+      - +香港杨枝甘露+03
+      - YouTube梦歌|Netflix_22
+      - 德国节点更新 bit.ly/36b6iJh
+      - 加拿大*vu*Mpls线路四节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_23
+      - 节点更新+bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_73
+      - 英国节点更新 bit.ly/36b6iJh-clone
+      - YouTube梦歌|Netflix_37
+      - us节点更新 bit.ly/36b6iJh-clone
       - YouTube梦歌|Netflix_18
-      - 英国（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管）
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_56
+      - 节点更新 bit.ly/36b6iJh
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 6
       - 节点更新 bit.ly/36b6iJh 2
-      - 台湾（TG@阿伟科技/油管） 3
+      - YouTube梦歌|Netflix_90
+      - bai-piao-wang-zhe-iplc8.98848.xyz
+      - YouTube梦歌|Netflix_36
+      - YouTube梦歌|Netflix_11
+      - 英国节点更新 bit.ly/36b6iJh-clone 2
+      - YouTube梦歌|Netflix_97
+      - bai-piao-wang-zhe-iplc.98848.xyz_vmess_ws-clone
+      - _商店：8du.shop
+      - YouTube梦歌|Netflix_16
+      - 澳大利亚节点更新 bit.ly/36b6iJh-clone
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_22 2
+      - YouTube梦歌|Netflix_53
+      - bai-piao-wang-zhe-iplc.98848.xyz_trojan_gRPC-clone
+      - YouTube梦歌|Netflix_42
+      - bai-piao-wang-zhe.98848.xyz_vmess_ws-clone
+      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_39
+      - YouTube梦歌|Netflix_80
+      - YouTube梦歌|Netflix_4
+      - github.com/freefq+-+美国加利福尼亚州洛杉矶MULTACOM数据中心+12
+      - 英国节点更新 bit.ly/36b6iJh-clone 3
+      - 节点更新 bit.ly/36b6iJh 3
+      - 节点更新 bit.ly/36b6iJh -clone
+      - us节点更新 bit.ly/36b6iJh-clone 2
+      - 节点更新 bit.ly/36b6iJh 4
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_18 2
       - Youtube@One·资源核
-      - 美国节点更新 bit.ly/36b6iJh
-      - 日本（TG@阿伟科技/油管） 2
-      - CN_44+TG@peekfun
-      - CN_57+TG@peekfun
-      - 香港咖喱鱼蛋 01
-      - 匈牙利（TG@阿伟科技/油管）
-      - CN_301
-      - CN_300
-      - _节点更新 https://bit.ly/36b6iJh
-      - 俄罗斯（TG@阿伟科技/油管）
-      - CN_295
-      - CN_306
-      - CN_352
-      - 美国（TG@阿伟科技/油管） 2
-      - CN_35+TG@peekfun
-      - 美国节点更新 bit.ly/36b6iJh 2
-      - 英国节点更新 bit.ly/36b6iJh
+      - "@SSRSUB-俄罗斯V05-付费推荐:dlj.tf/ssrsub"
+      - YouTube梦歌|Netflix_30
+      - 法国（TG@阿伟科技/油管）
+      - "@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub"
+      - US-高速节点推荐：v1.mk/vip
+      - 印度（欢迎订阅Youtube元亨利贞）
+      - YouTube梦歌|Netflix_77
+      - YouTube梦歌|Netflix_59
+      - 节点更新 bit.ly/36b6iJh 5
+      - "@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
