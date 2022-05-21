@@ -5,163 +5,143 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: YouTube今日分享|Netflix_86, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: e5cf7069-e269-4926-bdb0-fbb39cde6a3a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube今日分享|Netflix_98, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: e5cf7069-e269-4926-bdb0-fbb39cde6a3a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾(ios小火箭软件|ioskaka.com), server: basic-tw2.starscloud.in, port: 20006, type: trojan, password: 485ab718-e91d-36ac-8b85-b2a9e9abecbd, sni: basic-tw2.starscloud.in, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(ios小火箭软件|ioskaka.com), server: basic-sg1.starscloud.in, port: 20008, type: trojan, password: 485ab718-e91d-36ac-8b85-b2a9e9abecbd, sni: basic-sg1.starscloud.in, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub", server: jp2.trojan.tel, port: 48443, type: vmess, uuid: f736834f-1fc8-4738-9884-9afe0eb0d818, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: jp2.trojan.tel}, udp: true}
-  - {name: 80 | 冰钉 | 日本 | 01, server: 20.210.236.182, port: 80, type: vmess, uuid: ba2756f0-caa7-4b67-93c8-846319edd640, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
-  - {name: github.com/freefq - 美国Amazon EC2服务器 31, server: v2-5.godlight.xyz, port: 26944, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /71h4b3s1f53, ws-headers: {Host: v2-5.godlight.xyz}, udp: true}
-  - {name: 新加坡(ios小火箭软件|ioskaka.com) 2, server: v2-2.godlight.xyz, port: 26944, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /54f634fs, ws-headers: {Host: v2-2.godlight.xyz}, udp: true}
+  - {name: Youtube@One·资源核, server: aws.gkddd.buzz, port: 32566, type: vmess, uuid: a6f34df0-6e9e-4522-80ff-a41517803f17, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sometimesnaive, ws-headers: {Host: aws.gkddd.buzz}, udp: true}
+  - {name: 新加坡(youtube阿伟科技), server: xjp-01.aikala.shop, port: 80, type: vmess, uuid: 6c74b584-685c-496d-81bc-7a5ff15e528f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: 新加坡(youtube阿伟科技) 2, server: v2-3.godlight.xyz, port: 27000, type: vmess, uuid: 6a52f259-4367-468c-a828-7b8283c2f059, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /f45361465j175, ws-headers: {Host: v2-3.godlight.xyz}, udp: true}
+  - {name: 韩国(youtube阿伟科技), server: v2-5.godlight.xyz, port: 27000, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /71h4b3s1f53, ws-headers: {Host: v2-5.godlight.xyz}, udp: true}
   - {name: 香港7-三网优化-强加密, server: 426hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 426hk.fans8.xyz}, udp: true}
-  - {name: RU-高速节点购买：v1.mk/vip, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 331tw.fans8.xyz}, udp: true}
-  - {name: 香港-三网优化-强加密, server: 511hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 511hk.fans8.xyz}, udp: true}
-  - {name: 日本(youtube阿伟科技), server: v2.godlight.xyz, port: 26944, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dajdklw231f, ws-headers: {Host: v2.godlight.xyz}, udp: true}
-  - {name: "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub 2", server: jp2.trojan.tel, port: 48443, type: vmess, uuid: f736834f-1fc8-4738-9884-9afe0eb0d818, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: jp2.trojan.tel}, udp: true}
+  - {name: "日本👇[喜欢的话]", server: 194.156.231.35, port: 80, type: vmess, uuid: 2d0cedbf-5ed6-4187-a416-2b01b80b43ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: v.qq.com}, udp: true}
+  - {name: 韩国*vu*Mpls线路六, server: mplsjs1.ggbbba.xyz, port: 45782, type: ss, cipher: aes-256-gcm, password: gDQ8kr1HdHEK5DGU, udp: true}
   - {name: 台湾2-三网优化-强加密, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 330tw.fans8.xyz}, udp: true}
-  - {name: Youtube@One·资源核, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: AU-高速节点购买：v1.mk/vip, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: HK-高速节点购买：v1.mk/vip, server: xiaocai.fly.dev, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: xiaocai.fly.dev}, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip, server: 45.32.94.249, port: 29589, type: vmess, uuid: 63db045c-d921-4683-a063-d3cb3a16a1b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /a3dHxNiS/, ws-headers: {Host: 45.32.94.249}, udp: true}
-  - {name: 美国(ios小火箭软件|ioskaka.com), server: 172.67.140.112, port: 443, type: vmess, uuid: 4ac06183-feca-48f8-9f7d-3355bd950e2a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: yzjd01-ublubeu.koyeb.app}, udp: true}
+  - {name: 美国(youtube阿伟科技), server: ocrb2.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ocrb2.moonfree.top}, udp: true}
   - {name: Youtube@One·资源核 2, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: 韩国*vu*Mpls线路四, server: mplsjs1.ggbbba.xyz, port: 40011, type: ss, cipher: aes-256-gcm, password: gDQ8kr1HdHEK5DGU, udp: true}
+  - {name: 加拿大*vu*Mpls线路二, server: mplsjs1.ggbbba.xyz, port: 45780, type: ss, cipher: aes-256-gcm, password: gDQ8kr1HdHEK5DGU, udp: true}
   - {name: Youtube@One·资源核 3, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: Youtube@One·资源核 4, server: 182.160.12.239, port: 45524, type: vmess, uuid: a265dcb2-04a3-48c0-a703-fad0e008d474, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  34, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip 2, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国(youtube阿伟科技), server: basic-us2.starscloud.in, port: 20007, type: trojan, password: 099619cf-34cb-3e90-bacd-48c281b114aa, sni: basic-us2.starscloud.in, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_51, server: 422wkl.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 422wkl.fans8.xyz}, udp: true}
-  - {name: DigitalOcean 1|0.7x, server: 159.65.157.70, port: 61548, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip 3, server: a34.v2.gay, port: 443, type: vmess, uuid: 4ac06183-feca-48f8-9f7d-3355bd950e2a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: yzjd01-ublubeu.koyeb.app}, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip 4, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 日本  1, server: gy.gothy.cyou, port: 14401, type: vmess, uuid: 220fc318-ff76-4a26-9ab8-cf8c0e294995, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy.gothy.cyou}, udp: true}
-  - {name: 韩国【youtube-由零开始】, server: v2-4.godlight.xyz, port: 26944, type: vmess, uuid: 07ea283e-bbe8-466f-a268-c5819763a9bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /g1641hvx, ws-headers: {Host: v2-4.godlight.xyz}, udp: true}
-  - {name: github.com/freefq - 广东省移动 23, server: iepl-zebra.19900101.xyz, port: 777, type: vmess, uuid: 1cfaa36d-9912-3433-b9bc-fd5b5085613d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN-高速节点购买：v1.mk/vip, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国（欢迎订阅Youtube元亨利贞）, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: ahdaeph8.com}, udp: true}
-  - {name: github.com/freefq - 加拿大  13, server: ca1.trojan.tel, port: 443, type: trojan, password: f736834f-1fc8-4738-9884-9afe0eb0d818, sni: ca1.trojan.tel, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 新加坡Amazon数据中心 13, server: sgp02.sharecentre.xyz, port: 58309, type: vmess, uuid: 4e245edd-629d-4cb3-afca-321dea87aad5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sgp02.sharecentre.xyz}, udp: true}
+  - {name: 美国(youtube阿伟科技) 2, server: sunhaoduo.tk, port: 443, type: trojan, password: b61d3b3c, sni: sunhaoduo.tk, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(youtube阿伟科技) 3, server: v2-2.godlight.xyz, port: 27000, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /54f634fs, ws-headers: {Host: v2-2.godlight.xyz}, udp: true}
+  - {name: 荷兰*vu*Mpls线路二, server: mplsjs1.ggbbba.xyz, port: 30122, type: ss, cipher: aes-256-gcm, password: gDQ8kr1HdHEK5DGU, udp: true}
+  - {name: 英国(youtube阿伟科技), server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 3, server: 216.240.140.252, port: 80, type: vmess, uuid: 6c74b584-685c-496d-81bc-7a5ff15e528f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
+  - {name: 美国(youtube阿伟科技) 4, server: 216.240.140.252, port: 80, type: vmess, uuid: 6c74b584-685c-496d-81bc-7a5ff15e528f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 216.240.140.252}, udp: true}
+  - {name: Youtube@One·资源核 4, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr1t.moonfree.top}, udp: true}
+  - {name: 美国(youtube阿伟科技) 5, server: 216.240.140.252, port: 80, type: vmess, uuid: 6c74b584-685c-496d-81bc-7a5ff15e528f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 6, server: xr-5.herokuapp.com, port: 443, type: vmess, uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess, ws-headers: {Host: xr-5.herokuapp.com}, udp: true}
+  - {name: 日本(youtube阿伟科技), server: v2-1.godlight.xyz, port: 27000, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /j75g1461x, ws-headers: {Host: v2-1.godlight.xyz}, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip 2, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
+  - {name: 美国(youtube阿伟科技) 7, server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
+  - {name: Youtube@One·资源核 5, server: 175.178.163.153, port: 443, type: vmess, uuid: 4a2faefb-e947-48c2-a9a3-403659433f36, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: Youtube@One·资源核 6, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip 3, server: ruvds.testx.eu.org, port: 443, type: vmess, uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/vmess-share/?ed=2048", ws-headers: {Host: ruvds.testx.eu.org}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube今日分享|Netflix_86
-      - YouTube今日分享|Netflix_98
-      - 台湾(ios小火箭软件|ioskaka.com)
-      - 新加坡(ios小火箭软件|ioskaka.com)
-      - "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub"
-      - 80 | 冰钉 | 日本 | 01
-      - github.com/freefq - 美国Amazon EC2服务器 31
-      - 新加坡(ios小火箭软件|ioskaka.com) 2
-      - 香港7-三网优化-强加密
-      - RU-高速节点购买：v1.mk/vip
-      - 香港-三网优化-强加密
-      - 日本(youtube阿伟科技)
-      - "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub 2"
-      - 台湾2-三网优化-强加密
       - Youtube@One·资源核
-      - AU-高速节点购买：v1.mk/vip
-      - HK-高速节点购买：v1.mk/vip
-      - US-高速节点购买：v1.mk/vip
-      - 美国(ios小火箭软件|ioskaka.com)
-      - Youtube@One·资源核 2
-      - Youtube@One·资源核 3
-      - Youtube@One·资源核 4
-      - github.com/freefq - 美国  34
-      - US-高速节点购买：v1.mk/vip 2
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - 韩国(youtube阿伟科技)
+      - 香港7-三网优化-强加密
+      - 日本👇[喜欢的话]
+      - 韩国*vu*Mpls线路六
+      - 台湾2-三网优化-强加密
       - 美国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_51
-      - DigitalOcean 1|0.7x
+      - Youtube@One·资源核 2
+      - 韩国*vu*Mpls线路四
+      - 加拿大*vu*Mpls线路二
+      - Youtube@One·资源核 3
+      - github.com/freefq - 新加坡Amazon数据中心 13
+      - 美国(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 荷兰*vu*Mpls线路二
+      - 英国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - Youtube@One·资源核 4
+      - 美国(youtube阿伟科技) 5
+      - US-高速节点购买：v1.mk/vip
+      - 美国(youtube阿伟科技) 6
+      - 日本(youtube阿伟科技)
+      - US-高速节点购买：v1.mk/vip 2
+      - 美国(youtube阿伟科技) 7
+      - Youtube@One·资源核 5
+      - Youtube@One·资源核 6
       - US-高速节点购买：v1.mk/vip 3
-      - US-高速节点购买：v1.mk/vip 4
-      - github.com/freefq - 日本  1
-      - 韩国【youtube-由零开始】
-      - github.com/freefq - 广东省移动 23
-      - CN-高速节点购买：v1.mk/vip
-      - 美国（欢迎订阅Youtube元亨利贞）
-      - github.com/freefq - 加拿大  13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - YouTube今日分享|Netflix_86
-      - YouTube今日分享|Netflix_98
-      - 台湾(ios小火箭软件|ioskaka.com)
-      - 新加坡(ios小火箭软件|ioskaka.com)
-      - "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub"
-      - 80 | 冰钉 | 日本 | 01
-      - github.com/freefq - 美国Amazon EC2服务器 31
-      - 新加坡(ios小火箭软件|ioskaka.com) 2
-      - 香港7-三网优化-强加密
-      - RU-高速节点购买：v1.mk/vip
-      - 香港-三网优化-强加密
-      - 日本(youtube阿伟科技)
-      - "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub 2"
-      - 台湾2-三网优化-强加密
       - Youtube@One·资源核
-      - AU-高速节点购买：v1.mk/vip
-      - HK-高速节点购买：v1.mk/vip
-      - US-高速节点购买：v1.mk/vip
-      - 美国(ios小火箭软件|ioskaka.com)
-      - Youtube@One·资源核 2
-      - Youtube@One·资源核 3
-      - Youtube@One·资源核 4
-      - github.com/freefq - 美国  34
-      - US-高速节点购买：v1.mk/vip 2
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - 韩国(youtube阿伟科技)
+      - 香港7-三网优化-强加密
+      - 日本👇[喜欢的话]
+      - 韩国*vu*Mpls线路六
+      - 台湾2-三网优化-强加密
       - 美国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_51
-      - DigitalOcean 1|0.7x
+      - Youtube@One·资源核 2
+      - 韩国*vu*Mpls线路四
+      - 加拿大*vu*Mpls线路二
+      - Youtube@One·资源核 3
+      - github.com/freefq - 新加坡Amazon数据中心 13
+      - 美国(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 荷兰*vu*Mpls线路二
+      - 英国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - Youtube@One·资源核 4
+      - 美国(youtube阿伟科技) 5
+      - US-高速节点购买：v1.mk/vip
+      - 美国(youtube阿伟科技) 6
+      - 日本(youtube阿伟科技)
+      - US-高速节点购买：v1.mk/vip 2
+      - 美国(youtube阿伟科技) 7
+      - Youtube@One·资源核 5
+      - Youtube@One·资源核 6
       - US-高速节点购买：v1.mk/vip 3
-      - US-高速节点购买：v1.mk/vip 4
-      - github.com/freefq - 日本  1
-      - 韩国【youtube-由零开始】
-      - github.com/freefq - 广东省移动 23
-      - CN-高速节点购买：v1.mk/vip
-      - 美国（欢迎订阅Youtube元亨利贞）
-      - github.com/freefq - 加拿大  13
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube今日分享|Netflix_86
-      - YouTube今日分享|Netflix_98
-      - 台湾(ios小火箭软件|ioskaka.com)
-      - 新加坡(ios小火箭软件|ioskaka.com)
-      - "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub"
-      - 80 | 冰钉 | 日本 | 01
-      - github.com/freefq - 美国Amazon EC2服务器 31
-      - 新加坡(ios小火箭软件|ioskaka.com) 2
-      - 香港7-三网优化-强加密
-      - RU-高速节点购买：v1.mk/vip
-      - 香港-三网优化-强加密
-      - 日本(youtube阿伟科技)
-      - "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub 2"
-      - 台湾2-三网优化-强加密
       - Youtube@One·资源核
-      - AU-高速节点购买：v1.mk/vip
-      - HK-高速节点购买：v1.mk/vip
-      - US-高速节点购买：v1.mk/vip
-      - 美国(ios小火箭软件|ioskaka.com)
-      - Youtube@One·资源核 2
-      - Youtube@One·资源核 3
-      - Youtube@One·资源核 4
-      - github.com/freefq - 美国  34
-      - US-高速节点购买：v1.mk/vip 2
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - 韩国(youtube阿伟科技)
+      - 香港7-三网优化-强加密
+      - 日本👇[喜欢的话]
+      - 韩国*vu*Mpls线路六
+      - 台湾2-三网优化-强加密
       - 美国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_51
-      - DigitalOcean 1|0.7x
+      - Youtube@One·资源核 2
+      - 韩国*vu*Mpls线路四
+      - 加拿大*vu*Mpls线路二
+      - Youtube@One·资源核 3
+      - github.com/freefq - 新加坡Amazon数据中心 13
+      - 美国(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 荷兰*vu*Mpls线路二
+      - 英国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - Youtube@One·资源核 4
+      - 美国(youtube阿伟科技) 5
+      - US-高速节点购买：v1.mk/vip
+      - 美国(youtube阿伟科技) 6
+      - 日本(youtube阿伟科技)
+      - US-高速节点购买：v1.mk/vip 2
+      - 美国(youtube阿伟科技) 7
+      - Youtube@One·资源核 5
+      - Youtube@One·资源核 6
       - US-高速节点购买：v1.mk/vip 3
-      - US-高速节点购买：v1.mk/vip 4
-      - github.com/freefq - 日本  1
-      - 韩国【youtube-由零开始】
-      - github.com/freefq - 广东省移动 23
-      - CN-高速节点购买：v1.mk/vip
-      - 美国（欢迎订阅Youtube元亨利贞）
-      - github.com/freefq - 加拿大  13
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -180,48 +160,41 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube今日分享|Netflix_86
-      - YouTube今日分享|Netflix_98
-      - 台湾(ios小火箭软件|ioskaka.com)
-      - 新加坡(ios小火箭软件|ioskaka.com)
-      - "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub"
-      - 80 | 冰钉 | 日本 | 01
-      - github.com/freefq - 美国Amazon EC2服务器 31
-      - 新加坡(ios小火箭软件|ioskaka.com) 2
-      - 香港7-三网优化-强加密
-      - RU-高速节点购买：v1.mk/vip
-      - 香港-三网优化-强加密
-      - 日本(youtube阿伟科技)
-      - "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub 2"
-      - 台湾2-三网优化-强加密
       - Youtube@One·资源核
-      - AU-高速节点购买：v1.mk/vip
-      - HK-高速节点购买：v1.mk/vip
-      - US-高速节点购买：v1.mk/vip
-      - 美国(ios小火箭软件|ioskaka.com)
-      - Youtube@One·资源核 2
-      - Youtube@One·资源核 3
-      - Youtube@One·资源核 4
-      - github.com/freefq - 美国  34
-      - US-高速节点购买：v1.mk/vip 2
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - 韩国(youtube阿伟科技)
+      - 香港7-三网优化-强加密
+      - 日本👇[喜欢的话]
+      - 韩国*vu*Mpls线路六
+      - 台湾2-三网优化-强加密
       - 美国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_51
-      - DigitalOcean 1|0.7x
+      - Youtube@One·资源核 2
+      - 韩国*vu*Mpls线路四
+      - 加拿大*vu*Mpls线路二
+      - Youtube@One·资源核 3
+      - github.com/freefq - 新加坡Amazon数据中心 13
+      - 美国(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 荷兰*vu*Mpls线路二
+      - 英国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - Youtube@One·资源核 4
+      - 美国(youtube阿伟科技) 5
+      - US-高速节点购买：v1.mk/vip
+      - 美国(youtube阿伟科技) 6
+      - 日本(youtube阿伟科技)
+      - US-高速节点购买：v1.mk/vip 2
+      - 美国(youtube阿伟科技) 7
+      - Youtube@One·资源核 5
+      - Youtube@One·资源核 6
       - US-高速节点购买：v1.mk/vip 3
-      - US-高速节点购买：v1.mk/vip 4
-      - github.com/freefq - 日本  1
-      - 韩国【youtube-由零开始】
-      - github.com/freefq - 广东省移动 23
-      - CN-高速节点购买：v1.mk/vip
-      - 美国（欢迎订阅Youtube元亨利贞）
-      - github.com/freefq - 加拿大  13
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾(ios小火箭软件|ioskaka.com)
       - 香港7-三网优化-强加密
-      - 香港-三网优化-强加密
       - 台湾2-三网优化-强加密
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -229,122 +202,107 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - YouTube今日分享|Netflix_86
-      - YouTube今日分享|Netflix_98
-      - 台湾(ios小火箭软件|ioskaka.com)
-      - 新加坡(ios小火箭软件|ioskaka.com)
-      - "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub"
-      - 80 | 冰钉 | 日本 | 01
-      - github.com/freefq - 美国Amazon EC2服务器 31
-      - 新加坡(ios小火箭软件|ioskaka.com) 2
-      - 香港7-三网优化-强加密
-      - RU-高速节点购买：v1.mk/vip
-      - 香港-三网优化-强加密
-      - 日本(youtube阿伟科技)
-      - "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub 2"
-      - 台湾2-三网优化-强加密
       - Youtube@One·资源核
-      - AU-高速节点购买：v1.mk/vip
-      - HK-高速节点购买：v1.mk/vip
-      - US-高速节点购买：v1.mk/vip
-      - 美国(ios小火箭软件|ioskaka.com)
-      - Youtube@One·资源核 2
-      - Youtube@One·资源核 3
-      - Youtube@One·资源核 4
-      - github.com/freefq - 美国  34
-      - US-高速节点购买：v1.mk/vip 2
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - 韩国(youtube阿伟科技)
+      - 香港7-三网优化-强加密
+      - 日本👇[喜欢的话]
+      - 韩国*vu*Mpls线路六
+      - 台湾2-三网优化-强加密
       - 美国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_51
-      - DigitalOcean 1|0.7x
+      - Youtube@One·资源核 2
+      - 韩国*vu*Mpls线路四
+      - 加拿大*vu*Mpls线路二
+      - Youtube@One·资源核 3
+      - github.com/freefq - 新加坡Amazon数据中心 13
+      - 美国(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 荷兰*vu*Mpls线路二
+      - 英国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - Youtube@One·资源核 4
+      - 美国(youtube阿伟科技) 5
+      - US-高速节点购买：v1.mk/vip
+      - 美国(youtube阿伟科技) 6
+      - 日本(youtube阿伟科技)
+      - US-高速节点购买：v1.mk/vip 2
+      - 美国(youtube阿伟科技) 7
+      - Youtube@One·资源核 5
+      - Youtube@One·资源核 6
       - US-高速节点购买：v1.mk/vip 3
-      - US-高速节点购买：v1.mk/vip 4
-      - github.com/freefq - 日本  1
-      - 韩国【youtube-由零开始】
-      - github.com/freefq - 广东省移动 23
-      - CN-高速节点购买：v1.mk/vip
-      - 美国（欢迎订阅Youtube元亨利贞）
-      - github.com/freefq - 加拿大  13
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - YouTube今日分享|Netflix_86
-      - YouTube今日分享|Netflix_98
-      - 台湾(ios小火箭软件|ioskaka.com)
-      - 新加坡(ios小火箭软件|ioskaka.com)
-      - "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub"
-      - 80 | 冰钉 | 日本 | 01
-      - github.com/freefq - 美国Amazon EC2服务器 31
-      - 新加坡(ios小火箭软件|ioskaka.com) 2
-      - 香港7-三网优化-强加密
-      - RU-高速节点购买：v1.mk/vip
-      - 香港-三网优化-强加密
-      - 日本(youtube阿伟科技)
-      - "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub 2"
-      - 台湾2-三网优化-强加密
       - Youtube@One·资源核
-      - AU-高速节点购买：v1.mk/vip
-      - HK-高速节点购买：v1.mk/vip
-      - US-高速节点购买：v1.mk/vip
-      - 美国(ios小火箭软件|ioskaka.com)
-      - Youtube@One·资源核 2
-      - Youtube@One·资源核 3
-      - Youtube@One·资源核 4
-      - github.com/freefq - 美国  34
-      - US-高速节点购买：v1.mk/vip 2
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - 韩国(youtube阿伟科技)
+      - 香港7-三网优化-强加密
+      - 日本👇[喜欢的话]
+      - 韩国*vu*Mpls线路六
+      - 台湾2-三网优化-强加密
       - 美国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_51
-      - DigitalOcean 1|0.7x
+      - Youtube@One·资源核 2
+      - 韩国*vu*Mpls线路四
+      - 加拿大*vu*Mpls线路二
+      - Youtube@One·资源核 3
+      - github.com/freefq - 新加坡Amazon数据中心 13
+      - 美国(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 荷兰*vu*Mpls线路二
+      - 英国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - Youtube@One·资源核 4
+      - 美国(youtube阿伟科技) 5
+      - US-高速节点购买：v1.mk/vip
+      - 美国(youtube阿伟科技) 6
+      - 日本(youtube阿伟科技)
+      - US-高速节点购买：v1.mk/vip 2
+      - 美国(youtube阿伟科技) 7
+      - Youtube@One·资源核 5
+      - Youtube@One·资源核 6
       - US-高速节点购买：v1.mk/vip 3
-      - US-高速节点购买：v1.mk/vip 4
-      - github.com/freefq - 日本  1
-      - 韩国【youtube-由零开始】
-      - github.com/freefq - 广东省移动 23
-      - CN-高速节点购买：v1.mk/vip
-      - 美国（欢迎订阅Youtube元亨利贞）
-      - github.com/freefq - 加拿大  13
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YouTube今日分享|Netflix_86
-      - YouTube今日分享|Netflix_98
-      - 台湾(ios小火箭软件|ioskaka.com)
-      - 新加坡(ios小火箭软件|ioskaka.com)
-      - "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub"
-      - 80 | 冰钉 | 日本 | 01
-      - github.com/freefq - 美国Amazon EC2服务器 31
-      - 新加坡(ios小火箭软件|ioskaka.com) 2
-      - 香港7-三网优化-强加密
-      - RU-高速节点购买：v1.mk/vip
-      - 香港-三网优化-强加密
-      - 日本(youtube阿伟科技)
-      - "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub 2"
-      - 台湾2-三网优化-强加密
       - Youtube@One·资源核
-      - AU-高速节点购买：v1.mk/vip
-      - HK-高速节点购买：v1.mk/vip
-      - US-高速节点购买：v1.mk/vip
-      - 美国(ios小火箭软件|ioskaka.com)
-      - Youtube@One·资源核 2
-      - Youtube@One·资源核 3
-      - Youtube@One·资源核 4
-      - github.com/freefq - 美国  34
-      - US-高速节点购买：v1.mk/vip 2
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - 韩国(youtube阿伟科技)
+      - 香港7-三网优化-强加密
+      - 日本👇[喜欢的话]
+      - 韩国*vu*Mpls线路六
+      - 台湾2-三网优化-强加密
       - 美国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_51
-      - DigitalOcean 1|0.7x
+      - Youtube@One·资源核 2
+      - 韩国*vu*Mpls线路四
+      - 加拿大*vu*Mpls线路二
+      - Youtube@One·资源核 3
+      - github.com/freefq - 新加坡Amazon数据中心 13
+      - 美国(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 荷兰*vu*Mpls线路二
+      - 英国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - Youtube@One·资源核 4
+      - 美国(youtube阿伟科技) 5
+      - US-高速节点购买：v1.mk/vip
+      - 美国(youtube阿伟科技) 6
+      - 日本(youtube阿伟科技)
+      - US-高速节点购买：v1.mk/vip 2
+      - 美国(youtube阿伟科技) 7
+      - Youtube@One·资源核 5
+      - Youtube@One·资源核 6
       - US-高速节点购买：v1.mk/vip 3
-      - US-高速节点购买：v1.mk/vip 4
-      - github.com/freefq - 日本  1
-      - 韩国【youtube-由零开始】
-      - github.com/freefq - 广东省移动 23
-      - CN-高速节点购买：v1.mk/vip
-      - 美国（欢迎订阅Youtube元亨利贞）
-      - github.com/freefq - 加拿大  13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -360,41 +318,36 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YouTube今日分享|Netflix_86
-      - YouTube今日分享|Netflix_98
-      - 台湾(ios小火箭软件|ioskaka.com)
-      - 新加坡(ios小火箭软件|ioskaka.com)
-      - "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub"
-      - 80 | 冰钉 | 日本 | 01
-      - github.com/freefq - 美国Amazon EC2服务器 31
-      - 新加坡(ios小火箭软件|ioskaka.com) 2
-      - 香港7-三网优化-强加密
-      - RU-高速节点购买：v1.mk/vip
-      - 香港-三网优化-强加密
-      - 日本(youtube阿伟科技)
-      - "@SSRSUB-TLS日本V05-付费推荐:dlj.tf/ssrsub 2"
-      - 台湾2-三网优化-强加密
       - Youtube@One·资源核
-      - AU-高速节点购买：v1.mk/vip
-      - HK-高速节点购买：v1.mk/vip
-      - US-高速节点购买：v1.mk/vip
-      - 美国(ios小火箭软件|ioskaka.com)
-      - Youtube@One·资源核 2
-      - Youtube@One·资源核 3
-      - Youtube@One·资源核 4
-      - github.com/freefq - 美国  34
-      - US-高速节点购买：v1.mk/vip 2
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - 韩国(youtube阿伟科技)
+      - 香港7-三网优化-强加密
+      - 日本👇[喜欢的话]
+      - 韩国*vu*Mpls线路六
+      - 台湾2-三网优化-强加密
       - 美国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_51
-      - DigitalOcean 1|0.7x
+      - Youtube@One·资源核 2
+      - 韩国*vu*Mpls线路四
+      - 加拿大*vu*Mpls线路二
+      - Youtube@One·资源核 3
+      - github.com/freefq - 新加坡Amazon数据中心 13
+      - 美国(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 荷兰*vu*Mpls线路二
+      - 英国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - Youtube@One·资源核 4
+      - 美国(youtube阿伟科技) 5
+      - US-高速节点购买：v1.mk/vip
+      - 美国(youtube阿伟科技) 6
+      - 日本(youtube阿伟科技)
+      - US-高速节点购买：v1.mk/vip 2
+      - 美国(youtube阿伟科技) 7
+      - Youtube@One·资源核 5
+      - Youtube@One·资源核 6
       - US-高速节点购买：v1.mk/vip 3
-      - US-高速节点购买：v1.mk/vip 4
-      - github.com/freefq - 日本  1
-      - 韩国【youtube-由零开始】
-      - github.com/freefq - 广东省移动 23
-      - CN-高速节点购买：v1.mk/vip
-      - 美国（欢迎订阅Youtube元亨利贞）
-      - github.com/freefq - 加拿大  13
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
