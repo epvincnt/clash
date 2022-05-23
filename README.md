@@ -6,10 +6,13 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 香港-三网优化-强加密, server: 511hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 511hk.fans8.xyz}, udp: true}
+  - {name: 中国-6.04MB/s(Youtube:不良林), server: 116.129.254.47, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
   - {name: 日本(youtube阿伟科技), server: v2-1.godlight.xyz, port: 27000, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /j75g1461x, ws-headers: {Host: v2-1.godlight.xyz}, udp: true}
   - {name: US-高速节点购买：v1.mk/vip, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: lsj02.wangxd.life, skip-cert-verify: true, udp: true}
   - {name: "[免流]新加坡0", server: sgggg.158801.xyz, port: 80, type: vmess, uuid: 2d0cedbf-5ed6-4187-a416-2b01b80b43ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: v.qq.com}, udp: true}
+  - {name: 中国-7.84MB/s(Youtube:不良林), server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
   - {name: GB-高速节点购买：v1.mk/vip, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国-453.8KB/s(Youtube:不良林), server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: lsj02.wangxd.life, skip-cert-verify: true, udp: true}
   - {name: _油管频道：全网最强白嫖, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: _油管频道：全网最强白嫖 2, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: _油管频道：全网最强白嫖 3, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
@@ -26,10 +29,13 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 香港-三网优化-强加密
+      - 中国-6.04MB/s(Youtube:不良林)
       - 日本(youtube阿伟科技)
       - US-高速节点购买：v1.mk/vip
       - "[免流]新加坡0"
+      - 中国-7.84MB/s(Youtube:不良林)
       - GB-高速节点购买：v1.mk/vip
+      - 美国-453.8KB/s(Youtube:不良林)
       - _油管频道：全网最强白嫖
       - _油管频道：全网最强白嫖 2
       - _油管频道：全网最强白嫖 3
@@ -45,10 +51,13 @@ proxy-groups:
     interval: 300
     proxies:
       - 香港-三网优化-强加密
+      - 中国-6.04MB/s(Youtube:不良林)
       - 日本(youtube阿伟科技)
       - US-高速节点购买：v1.mk/vip
       - "[免流]新加坡0"
+      - 中国-7.84MB/s(Youtube:不良林)
       - GB-高速节点购买：v1.mk/vip
+      - 美国-453.8KB/s(Youtube:不良林)
       - _油管频道：全网最强白嫖
       - _油管频道：全网最强白嫖 2
       - _油管频道：全网最强白嫖 3
@@ -65,10 +74,13 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 香港-三网优化-强加密
+      - 中国-6.04MB/s(Youtube:不良林)
       - 日本(youtube阿伟科技)
       - US-高速节点购买：v1.mk/vip
       - "[免流]新加坡0"
+      - 中国-7.84MB/s(Youtube:不良林)
       - GB-高速节点购买：v1.mk/vip
+      - 美国-453.8KB/s(Youtube:不良林)
       - _油管频道：全网最强白嫖
       - _油管频道：全网最强白嫖 2
       - _油管频道：全网最强白嫖 3
@@ -97,10 +109,13 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 香港-三网优化-强加密
+      - 中国-6.04MB/s(Youtube:不良林)
       - 日本(youtube阿伟科技)
       - US-高速节点购买：v1.mk/vip
       - "[免流]新加坡0"
+      - 中国-7.84MB/s(Youtube:不良林)
       - GB-高速节点购买：v1.mk/vip
+      - 美国-453.8KB/s(Youtube:不良林)
       - _油管频道：全网最强白嫖
       - _油管频道：全网最强白嫖 2
       - _油管频道：全网最强白嫖 3
@@ -124,10 +139,13 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 香港-三网优化-强加密
+      - 中国-6.04MB/s(Youtube:不良林)
       - 日本(youtube阿伟科技)
       - US-高速节点购买：v1.mk/vip
       - "[免流]新加坡0"
+      - 中国-7.84MB/s(Youtube:不良林)
       - GB-高速节点购买：v1.mk/vip
+      - 美国-453.8KB/s(Youtube:不良林)
       - _油管频道：全网最强白嫖
       - _油管频道：全网最强白嫖 2
       - _油管频道：全网最强白嫖 3
@@ -143,10 +161,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - 香港-三网优化-强加密
+      - 中国-6.04MB/s(Youtube:不良林)
       - 日本(youtube阿伟科技)
       - US-高速节点购买：v1.mk/vip
       - "[免流]新加坡0"
+      - 中国-7.84MB/s(Youtube:不良林)
       - GB-高速节点购买：v1.mk/vip
+      - 美国-453.8KB/s(Youtube:不良林)
       - _油管频道：全网最强白嫖
       - _油管频道：全网最强白嫖 2
       - _油管频道：全网最强白嫖 3
@@ -163,10 +184,13 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 香港-三网优化-强加密
+      - 中国-6.04MB/s(Youtube:不良林)
       - 日本(youtube阿伟科技)
       - US-高速节点购买：v1.mk/vip
       - "[免流]新加坡0"
+      - 中国-7.84MB/s(Youtube:不良林)
       - GB-高速节点购买：v1.mk/vip
+      - 美国-453.8KB/s(Youtube:不良林)
       - _油管频道：全网最强白嫖
       - _油管频道：全网最强白嫖 2
       - _油管频道：全网最强白嫖 3
@@ -192,10 +216,13 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 香港-三网优化-强加密
+      - 中国-6.04MB/s(Youtube:不良林)
       - 日本(youtube阿伟科技)
       - US-高速节点购买：v1.mk/vip
       - "[免流]新加坡0"
+      - 中国-7.84MB/s(Youtube:不良林)
       - GB-高速节点购买：v1.mk/vip
+      - 美国-453.8KB/s(Youtube:不良林)
       - _油管频道：全网最强白嫖
       - _油管频道：全网最强白嫖 2
       - _油管频道：全网最强白嫖 3
