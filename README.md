@@ -5,259 +5,123 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: FB TIKTOK YOUTUBE, server: 103.74.105.118, port: 80, type: vmess, uuid: 23734aa1-5de0-465f-9662-4f0239b31d9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: m.akamaized.net}, udp: true}
-  - {name: 台湾1-三网优化-强加密, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 331tw.fans8.xyz}, udp: true}
-  - {name: 香港-三网优化-强加密, server: 511hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 511hk.fans8.xyz}, udp: true}
-  - {name: 日本1-三网优化-强加密, server: 51jp1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 51jp1.fans8.xyz}, udp: true}
-  - {name: US-高速节点推荐：v1.mk/vip, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 日本 05, server: twsxxnjp.158801.xyz, port: 30915, type: trojan, password: 6cdf39ba-1fff-4437-af26-f94b48b919e4, sni: twsxxnjp.158801.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_60, server: byjq1.haojiahuo.gq, port: 30042, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
-  - {name: 日本 04, server: twsxxnjp.158801.xyz, port: 30914, type: trojan, password: 6cdf39ba-1fff-4437-af26-f94b48b919e4, sni: twsxxnjp.158801.xyz, skip-cert-verify: true, udp: true}
-  - {name: RU-高速节点推荐：v1.mk/vip, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: a94f6a0c-4fb3-3509-a141-c82570b6d14a, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 331tw.fans8.xyz}, udp: true}
-  - {name: 日本 02, server: twsxxnjp.158801.xyz, port: 30912, type: trojan, password: 6cdf39ba-1fff-4437-af26-f94b48b919e4, sni: twsxxnjp.158801.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_54, server: gddx2.haojiahuo.cf, port: 30025, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
-  - {name: 香港02, server: twsxxnhk.158801.xyz, port: 30912, type: trojan, password: 6cdf39ba-1fff-4437-af26-f94b48b919e4, sni: twsxxnhk.158801.xyz, skip-cert-verify: true, udp: true}
-  - {name: HN 1, server: 159.223.93.179, port: 80, type: vmess, uuid: 23734aa1-5de0-465f-9662-4f0239b31d9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: m.akamaized.net}, udp: true}
-  - {name: YouTube梦歌|Netflix_125, server: fjyd2.haojiahuo.cf, port: 60136, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
-  - {name: 日本(youtube阿伟科技), server: 20.222.232.183, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: Youtube@One·资源核, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: AU-高速节点推荐：v1.mk/vip, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_93, server: yez.haojiahuo.gq, port: 30029, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
-  - {name: "日本👇[建议每3天更新一次订阅]", server: 194.156.231.35, port: 80, type: vmess, uuid: 6cdf39ba-1fff-4437-af26-f94b48b919e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: v.qq.com}, udp: true}
-  - {name: YouTube梦歌|Netflix_13, server: 51us.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 51us.fans8.xyz}, udp: true}
-  - {name: "[免流]日本 A[移动联通用户用日本]", server: twsxxnjp.158801.xyz, port: 80, type: vmess, uuid: 6cdf39ba-1fff-4437-af26-f94b48b919e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: v.qq.com}, udp: true}
-  - {name: 日本 03, server: twsxxnjp.158801.xyz, port: 30913, type: trojan, password: 6cdf39ba-1fff-4437-af26-f94b48b919e4, sni: twsxxnjp.158801.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_139, server: zxsg.jietiyun.xyz, port: 11101, type: trojan, password: c9db0aad-e6a9-4a7e-9285-b88302c35346, sni: zxsg.jietiyun.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_36, server: yyyy.wwwbhjy.com, port: 2443, type: vmess, uuid: dee32eb7-e190-4c6f-dd27-aa9c82cd5490, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /8a76fb13/, ws-headers: {Host: yyyy.wwwbhjy.com}, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip, server: hz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: c4122b7a-a8a8-4647-ac4d-bd6339b76930, udp: true}
+  - {name: 韩国(youtube阿伟科技), server: 20.214.142.218, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: Youtube@One·资源核, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: CN_231, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 新加坡(youtube阿伟科技), server: 138.2.76.156, port: 46452, type: vmess, uuid: aeb5106c-3494-489b-9386-e67e5f575cb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(youtube阿伟科技) 2, server: 138.2.76.156, port: 46452, type: vmess, uuid: aeb5106c-3494-489b-9386-e67e5f575cb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_58, server: cscu.01.211129.xyz, port: 16991, type: trojan, password: c9db0aad-e6a9-4a7e-9285-b88302c35346, sni: cscu.01.211129.xyz, skip-cert-verify: true, udp: true}
   - {name: Youtube@One·资源核 2, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: YouTube梦歌|Netflix_104, server: zj.haojiahuo.club, port: 60046, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
-  - {name: YouTube梦歌|Netflix_105, server: zj.haojiahuo.club, port: 30077, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: 节点狂魔投稿|Netflix_60, server: lll.wodaming.cf, port: 443, type: vmess, uuid: 48fd10df-1206-4faf-905e-3f178c7d7585, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: mm.wodaming.cf}, udp: true}
+  - {name: _油管频道：全网最强白嫖, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip 2, server: gz.bgp.rx.naiun.pw, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: c4122b7a-a8a8-4647-ac4d-bd6339b76930, udp: true}
+  - {name: 节点狂魔投稿|Netflix_59, server: lll.wodaming.cf, port: 443, type: vmess, uuid: 48fd10df-1206-4faf-905e-3f178c7d7585, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: qq.wodaming.cf}, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip 3, server: gz.bgp.rx.naiun.pw, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: c4122b7a-a8a8-4647-ac4d-bd6339b76930, udp: true}
+  - {name: US-高速节点推荐：v1.mk/vip, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: _油管频道：全网最强白嫖 2, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip 4, server: gz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: c4122b7a-a8a8-4647-ac4d-bd6339b76930, udp: true}
+  - {name: CN_212, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: US-高速节点推荐：v1.mk/vip 2, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_155, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_70, server: chunchuan-01.aikala.shop, port: 80, type: vmess, uuid: 8f4be3c7-a570-4252-85ee-2c4521cb3ce9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
-  - {name: United States (US)40 Gbps节点更新 bit.ly/36b6iJh, server: bai-piao-wang-zhe-iplc4.98848.xyz, port: 26995, type: vmess, uuid: 39c8ee80-37eb-4af2-a5aa-fdf294162fcd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@/YouTube-bai-piao-wang-zhe, ws-headers: {Host: bai-piao-wang-zhe-iplc4.98848.xyz}, udp: true}
-  - {name: YouTube梦歌|Netflix_43, server: zj.haojiahuo.club, port: 30043, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
-  - {name: 日本 01, server: twsxxnjp.158801.xyz, port: 30911, type: trojan, password: 6cdf39ba-1fff-4437-af26-f94b48b919e4, sni: twsxxnjp.158801.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国(youtube阿伟科技), server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国(youtube阿伟科技) 2, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Youtube@One·资源核 3, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: YouTube梦歌|Netflix_48, server: chunchuan-01.aikala.shop, port: 80, type: vmess, uuid: b1fe4a58-4034-4b5c-8b7a-6828bb2bb98f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
-  - {name: YouTube梦歌|Netflix_82, server: chunchuan-02.aikala.shop, port: 80, type: vmess, uuid: 8f4be3c7-a570-4252-85ee-2c4521cb3ce9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
-  - {name: 乌克兰-三网优化-强加密, server: 422wkl.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 422wkl.fans8.xyz}, udp: true}
-  - {name: YouTube梦歌|Netflix_26, server: chunchuan-02.aikala.shop, port: 80, type: vmess, uuid: b1fe4a58-4034-4b5c-8b7a-6828bb2bb98f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
-  - {name: "@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub", server: v3.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v3.ssrsub.com}, udp: true}
-  - {name: 美国(ios小火箭软件|ioskaka.com), server: charge.starspace.link, port: 443, type: trojan, password: 8UnS7eSMi8OFKfje, sni: charge.starspace.link, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_200, server: sg3.v2yyds.cc, port: 32110, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, sni: sg3.v2yyds.cc, skip-cert-verify: true, udp: true}
-  - {name: SG-高速节点推荐：v1.mk/vip, server: sg1.v2yyds.cc, port: 32110, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, sni: sg1.v2yyds.cc, skip-cert-verify: true, udp: true}
-  - {name: 美国（欢迎订阅Youtube元亨利贞）, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: ahdaeph8.com}, udp: true}
-  - {name: SG-高速节点推荐：v1.mk/vip 2, server: v2ray3.bonds.id, port: 443, type: vmess, uuid: 014291fb-3808-4ae8-9303-e1f40d58bb4f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /howdy, ws-headers: {Host: v2ray3.bonds.id}, udp: true}
-  - {name: YouTube梦歌|Netflix_115, server: byjq1.haojiahuo.gq, port: 30069, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
-  - {name: YouTube梦歌|Netflix_190, server: sg2.v2yyds.cc, port: 32110, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, sni: sg2.v2yyds.cc, skip-cert-verify: true, udp: true}
-  - {name: 美国(ios小火箭软件|ioskaka.com) 2, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: ahdaeph8.com}, udp: true}
-  - {name: YouTube梦歌|Netflix_64, server: mplsjs1.ggbbba.xyz, port: 56714, type: ss, cipher: aes-256-gcm, password: gDQ8kr1HdHEK5DGU, udp: true}
-  - {name: YouTube梦歌|Netflix_136, server: gy.zfnode.xyz, port: 22201, type: ss, cipher: chacha20-ietf-poly1305, password: 02e60e67-96e7-44b7-9f0f-4ea0d7009514, udp: true}
-  - {name: （欢迎订阅Youtube元亨利贞）, server: v4.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v4.ssrsub.com}, udp: true}
-  - {name: 免费-法国, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr1t.moonfree.top}, udp: true}
-  - {name: 德国-节点更新 bit.ly/36b6iJh, server: 45.82.78.151, port: 80, type: vmess, uuid: 61dab065-7fc7-4d57-a952-58b41250d766, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 45.82.78.151}, udp: true}
-  - {name: US-高速节点推荐：v1.mk/vip 3, server: v5.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v5.ssrsub.com}, udp: true}
-  - {name: YouTube梦歌|Netflix_117, server: d06.hotland.site, port: 443, type: vmess, uuid: 114db87c-2245-4842-b6d1-bbd7ec1b96b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: d06.hotland.site}, udp: true}
-  - {name: aweikeji-YouTube-TG, server: 20.205.107.169, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: 日本(ios小火箭软件|ioskaka.com), server: jp1.v2yyds.cc, port: 32111, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, sni: jp1.v2yyds.cc, skip-cert-verify: true, udp: true}
-  - {name: 美国(youtube阿伟科技) 3, server: 23.19.26.204, port: 55212, type: vmess, uuid: bb8a118d-dd20-4146-a989-2e24f1576b15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /r76ofJah/, ws-headers: {Host: 23.19.26.204}, udp: true}
-  - {name: 法国(youtube阿伟科技), server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr1t.moonfree.top}, udp: true}
-  - {name: US, server: 45.11.3.187, port: 23456, type: ss, cipher: aes-256-gcm, password: !<str> 05230715, udp: true}
+  - {name: 香港-三网优化-强加密, server: 511hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 511hk.fans8.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_226, server: lll.wodaming.cf, port: 443, type: vmess, uuid: 48fd10df-1206-4faf-905e-3f178c7d7585, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: cc.wodaming.cf}, udp: true}
+  - {name: 节点狂魔投稿|Netflix_22, server: lll.wodaming.cf, port: 443, type: vmess, uuid: 48fd10df-1206-4faf-905e-3f178c7d7585, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: hax.wodaming.cf}, udp: true}
+  - {name: 日本(youtube阿伟科技), server: cdn2.myuuusss.com, port: 20011, type: ss, cipher: aes-128-gcm, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
+  - {name: 韩国(youtube阿伟科技) 2, server: 20.214.186.145, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - FB TIKTOK YOUTUBE
-      - 台湾1-三网优化-强加密
-      - 香港-三网优化-强加密
-      - 日本1-三网优化-强加密
-      - US-高速节点推荐：v1.mk/vip
-      - 日本 05
-      - YouTube梦歌|Netflix_60
-      - 日本 04
-      - RU-高速节点推荐：v1.mk/vip
-      - 日本 02
-      - YouTube梦歌|Netflix_54
-      - 香港02
-      - HN 1
-      - YouTube梦歌|Netflix_125
-      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_139
+      - YouTube梦歌|Netflix_36
+      - CN-高速节点推荐：v1.mk/vip
+      - 韩国(youtube阿伟科技)
       - Youtube@One·资源核
-      - AU-高速节点推荐：v1.mk/vip
-      - YouTube梦歌|Netflix_93
-      - 日本👇[建议每3天更新一次订阅]
-      - YouTube梦歌|Netflix_13
-      - "[免流]日本 A[移动联通用户用日本]"
-      - 日本 03
+      - CN_231
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_58
       - Youtube@One·资源核 2
-      - YouTube梦歌|Netflix_104
-      - YouTube梦歌|Netflix_105
+      - 节点狂魔投稿|Netflix_60
+      - _油管频道：全网最强白嫖
+      - CN-高速节点推荐：v1.mk/vip 2
+      - 节点狂魔投稿|Netflix_59
+      - CN-高速节点推荐：v1.mk/vip 3
+      - US-高速节点推荐：v1.mk/vip
+      - _油管频道：全网最强白嫖 2
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN_212
       - US-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_70
-      - United States (US)40 Gbps节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_43
-      - 日本 01
-      - 美国(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - Youtube@One·资源核 3
-      - YouTube梦歌|Netflix_48
-      - YouTube梦歌|Netflix_82
-      - 乌克兰-三网优化-强加密
-      - YouTube梦歌|Netflix_26
-      - "@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub"
-      - 美国(ios小火箭软件|ioskaka.com)
-      - YouTube梦歌|Netflix_200
-      - SG-高速节点推荐：v1.mk/vip
-      - 美国（欢迎订阅Youtube元亨利贞）
-      - SG-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_115
-      - YouTube梦歌|Netflix_190
-      - 美国(ios小火箭软件|ioskaka.com) 2
-      - YouTube梦歌|Netflix_64
-      - YouTube梦歌|Netflix_136
-      - （欢迎订阅Youtube元亨利贞）
-      - 免费-法国
-      - 德国-节点更新 bit.ly/36b6iJh
-      - US-高速节点推荐：v1.mk/vip 3
-      - YouTube梦歌|Netflix_117
-      - aweikeji-YouTube-TG
-      - 日本(ios小火箭软件|ioskaka.com)
-      - 美国(youtube阿伟科技) 3
-      - 法国(youtube阿伟科技)
-      - US
+      - 香港-三网优化-强加密
+      - YouTube梦歌|Netflix_226
+      - 节点狂魔投稿|Netflix_22
+      - 日本(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - FB TIKTOK YOUTUBE
-      - 台湾1-三网优化-强加密
-      - 香港-三网优化-强加密
-      - 日本1-三网优化-强加密
-      - US-高速节点推荐：v1.mk/vip
-      - 日本 05
-      - YouTube梦歌|Netflix_60
-      - 日本 04
-      - RU-高速节点推荐：v1.mk/vip
-      - 日本 02
-      - YouTube梦歌|Netflix_54
-      - 香港02
-      - HN 1
-      - YouTube梦歌|Netflix_125
-      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_139
+      - YouTube梦歌|Netflix_36
+      - CN-高速节点推荐：v1.mk/vip
+      - 韩国(youtube阿伟科技)
       - Youtube@One·资源核
-      - AU-高速节点推荐：v1.mk/vip
-      - YouTube梦歌|Netflix_93
-      - 日本👇[建议每3天更新一次订阅]
-      - YouTube梦歌|Netflix_13
-      - "[免流]日本 A[移动联通用户用日本]"
-      - 日本 03
+      - CN_231
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_58
       - Youtube@One·资源核 2
-      - YouTube梦歌|Netflix_104
-      - YouTube梦歌|Netflix_105
+      - 节点狂魔投稿|Netflix_60
+      - _油管频道：全网最强白嫖
+      - CN-高速节点推荐：v1.mk/vip 2
+      - 节点狂魔投稿|Netflix_59
+      - CN-高速节点推荐：v1.mk/vip 3
+      - US-高速节点推荐：v1.mk/vip
+      - _油管频道：全网最强白嫖 2
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN_212
       - US-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_70
-      - United States (US)40 Gbps节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_43
-      - 日本 01
-      - 美国(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - Youtube@One·资源核 3
-      - YouTube梦歌|Netflix_48
-      - YouTube梦歌|Netflix_82
-      - 乌克兰-三网优化-强加密
-      - YouTube梦歌|Netflix_26
-      - "@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub"
-      - 美国(ios小火箭软件|ioskaka.com)
-      - YouTube梦歌|Netflix_200
-      - SG-高速节点推荐：v1.mk/vip
-      - 美国（欢迎订阅Youtube元亨利贞）
-      - SG-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_115
-      - YouTube梦歌|Netflix_190
-      - 美国(ios小火箭软件|ioskaka.com) 2
-      - YouTube梦歌|Netflix_64
-      - YouTube梦歌|Netflix_136
-      - （欢迎订阅Youtube元亨利贞）
-      - 免费-法国
-      - 德国-节点更新 bit.ly/36b6iJh
-      - US-高速节点推荐：v1.mk/vip 3
-      - YouTube梦歌|Netflix_117
-      - aweikeji-YouTube-TG
-      - 日本(ios小火箭软件|ioskaka.com)
-      - 美国(youtube阿伟科技) 3
-      - 法国(youtube阿伟科技)
-      - US
+      - 香港-三网优化-强加密
+      - YouTube梦歌|Netflix_226
+      - 节点狂魔投稿|Netflix_22
+      - 日本(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - FB TIKTOK YOUTUBE
-      - 台湾1-三网优化-强加密
-      - 香港-三网优化-强加密
-      - 日本1-三网优化-强加密
-      - US-高速节点推荐：v1.mk/vip
-      - 日本 05
-      - YouTube梦歌|Netflix_60
-      - 日本 04
-      - RU-高速节点推荐：v1.mk/vip
-      - 日本 02
-      - YouTube梦歌|Netflix_54
-      - 香港02
-      - HN 1
-      - YouTube梦歌|Netflix_125
-      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_139
+      - YouTube梦歌|Netflix_36
+      - CN-高速节点推荐：v1.mk/vip
+      - 韩国(youtube阿伟科技)
       - Youtube@One·资源核
-      - AU-高速节点推荐：v1.mk/vip
-      - YouTube梦歌|Netflix_93
-      - 日本👇[建议每3天更新一次订阅]
-      - YouTube梦歌|Netflix_13
-      - "[免流]日本 A[移动联通用户用日本]"
-      - 日本 03
+      - CN_231
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_58
       - Youtube@One·资源核 2
-      - YouTube梦歌|Netflix_104
-      - YouTube梦歌|Netflix_105
+      - 节点狂魔投稿|Netflix_60
+      - _油管频道：全网最强白嫖
+      - CN-高速节点推荐：v1.mk/vip 2
+      - 节点狂魔投稿|Netflix_59
+      - CN-高速节点推荐：v1.mk/vip 3
+      - US-高速节点推荐：v1.mk/vip
+      - _油管频道：全网最强白嫖 2
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN_212
       - US-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_70
-      - United States (US)40 Gbps节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_43
-      - 日本 01
-      - 美国(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - Youtube@One·资源核 3
-      - YouTube梦歌|Netflix_48
-      - YouTube梦歌|Netflix_82
-      - 乌克兰-三网优化-强加密
-      - YouTube梦歌|Netflix_26
-      - "@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub"
-      - 美国(ios小火箭软件|ioskaka.com)
-      - YouTube梦歌|Netflix_200
-      - SG-高速节点推荐：v1.mk/vip
-      - 美国（欢迎订阅Youtube元亨利贞）
-      - SG-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_115
-      - YouTube梦歌|Netflix_190
-      - 美国(ios小火箭软件|ioskaka.com) 2
-      - YouTube梦歌|Netflix_64
-      - YouTube梦歌|Netflix_136
-      - （欢迎订阅Youtube元亨利贞）
-      - 免费-法国
-      - 德国-节点更新 bit.ly/36b6iJh
-      - US-高速节点推荐：v1.mk/vip 3
-      - YouTube梦歌|Netflix_117
-      - aweikeji-YouTube-TG
-      - 日本(ios小火箭软件|ioskaka.com)
-      - 美国(youtube阿伟科技) 3
-      - 法国(youtube阿伟科技)
-      - US
+      - 香港-三网优化-强加密
+      - YouTube梦歌|Netflix_226
+      - 节点狂魔投稿|Netflix_22
+      - 日本(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -276,266 +140,128 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - FB TIKTOK YOUTUBE
-      - 台湾1-三网优化-强加密
-      - 香港-三网优化-强加密
-      - 日本1-三网优化-强加密
-      - US-高速节点推荐：v1.mk/vip
-      - 日本 05
-      - YouTube梦歌|Netflix_60
-      - 日本 04
-      - RU-高速节点推荐：v1.mk/vip
-      - 日本 02
-      - YouTube梦歌|Netflix_54
-      - 香港02
-      - HN 1
-      - YouTube梦歌|Netflix_125
-      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_139
+      - YouTube梦歌|Netflix_36
+      - CN-高速节点推荐：v1.mk/vip
+      - 韩国(youtube阿伟科技)
       - Youtube@One·资源核
-      - AU-高速节点推荐：v1.mk/vip
-      - YouTube梦歌|Netflix_93
-      - 日本👇[建议每3天更新一次订阅]
-      - YouTube梦歌|Netflix_13
-      - "[免流]日本 A[移动联通用户用日本]"
-      - 日本 03
+      - CN_231
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_58
       - Youtube@One·资源核 2
-      - YouTube梦歌|Netflix_104
-      - YouTube梦歌|Netflix_105
+      - 节点狂魔投稿|Netflix_60
+      - _油管频道：全网最强白嫖
+      - CN-高速节点推荐：v1.mk/vip 2
+      - 节点狂魔投稿|Netflix_59
+      - CN-高速节点推荐：v1.mk/vip 3
+      - US-高速节点推荐：v1.mk/vip
+      - _油管频道：全网最强白嫖 2
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN_212
       - US-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_70
-      - United States (US)40 Gbps节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_43
-      - 日本 01
-      - 美国(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - Youtube@One·资源核 3
-      - YouTube梦歌|Netflix_48
-      - YouTube梦歌|Netflix_82
-      - 乌克兰-三网优化-强加密
-      - YouTube梦歌|Netflix_26
-      - "@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub"
-      - 美国(ios小火箭软件|ioskaka.com)
-      - YouTube梦歌|Netflix_200
-      - SG-高速节点推荐：v1.mk/vip
-      - 美国（欢迎订阅Youtube元亨利贞）
-      - SG-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_115
-      - YouTube梦歌|Netflix_190
-      - 美国(ios小火箭软件|ioskaka.com) 2
-      - YouTube梦歌|Netflix_64
-      - YouTube梦歌|Netflix_136
-      - （欢迎订阅Youtube元亨利贞）
-      - 免费-法国
-      - 德国-节点更新 bit.ly/36b6iJh
-      - US-高速节点推荐：v1.mk/vip 3
-      - YouTube梦歌|Netflix_117
-      - aweikeji-YouTube-TG
-      - 日本(ios小火箭软件|ioskaka.com)
-      - 美国(youtube阿伟科技) 3
-      - 法国(youtube阿伟科技)
-      - US
+      - 香港-三网优化-强加密
+      - YouTube梦歌|Netflix_226
+      - 节点狂魔投稿|Netflix_22
+      - 日本(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾1-三网优化-强加密
       - 香港-三网优化-强加密
-      - 香港02
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - FB TIKTOK YOUTUBE
-      - 台湾1-三网优化-强加密
-      - 香港-三网优化-强加密
-      - 日本1-三网优化-强加密
-      - US-高速节点推荐：v1.mk/vip
-      - 日本 05
-      - YouTube梦歌|Netflix_60
-      - 日本 04
-      - RU-高速节点推荐：v1.mk/vip
-      - 日本 02
-      - YouTube梦歌|Netflix_54
-      - 香港02
-      - HN 1
-      - YouTube梦歌|Netflix_125
-      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_139
+      - YouTube梦歌|Netflix_36
+      - CN-高速节点推荐：v1.mk/vip
+      - 韩国(youtube阿伟科技)
       - Youtube@One·资源核
-      - AU-高速节点推荐：v1.mk/vip
-      - YouTube梦歌|Netflix_93
-      - 日本👇[建议每3天更新一次订阅]
-      - YouTube梦歌|Netflix_13
-      - "[免流]日本 A[移动联通用户用日本]"
-      - 日本 03
+      - CN_231
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_58
       - Youtube@One·资源核 2
-      - YouTube梦歌|Netflix_104
-      - YouTube梦歌|Netflix_105
+      - 节点狂魔投稿|Netflix_60
+      - _油管频道：全网最强白嫖
+      - CN-高速节点推荐：v1.mk/vip 2
+      - 节点狂魔投稿|Netflix_59
+      - CN-高速节点推荐：v1.mk/vip 3
+      - US-高速节点推荐：v1.mk/vip
+      - _油管频道：全网最强白嫖 2
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN_212
       - US-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_70
-      - United States (US)40 Gbps节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_43
-      - 日本 01
-      - 美国(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - Youtube@One·资源核 3
-      - YouTube梦歌|Netflix_48
-      - YouTube梦歌|Netflix_82
-      - 乌克兰-三网优化-强加密
-      - YouTube梦歌|Netflix_26
-      - "@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub"
-      - 美国(ios小火箭软件|ioskaka.com)
-      - YouTube梦歌|Netflix_200
-      - SG-高速节点推荐：v1.mk/vip
-      - 美国（欢迎订阅Youtube元亨利贞）
-      - SG-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_115
-      - YouTube梦歌|Netflix_190
-      - 美国(ios小火箭软件|ioskaka.com) 2
-      - YouTube梦歌|Netflix_64
-      - YouTube梦歌|Netflix_136
-      - （欢迎订阅Youtube元亨利贞）
-      - 免费-法国
-      - 德国-节点更新 bit.ly/36b6iJh
-      - US-高速节点推荐：v1.mk/vip 3
-      - YouTube梦歌|Netflix_117
-      - aweikeji-YouTube-TG
-      - 日本(ios小火箭软件|ioskaka.com)
-      - 美国(youtube阿伟科技) 3
-      - 法国(youtube阿伟科技)
-      - US
+      - 香港-三网优化-强加密
+      - YouTube梦歌|Netflix_226
+      - 节点狂魔投稿|Netflix_22
+      - 日本(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - FB TIKTOK YOUTUBE
-      - 台湾1-三网优化-强加密
-      - 香港-三网优化-强加密
-      - 日本1-三网优化-强加密
-      - US-高速节点推荐：v1.mk/vip
-      - 日本 05
-      - YouTube梦歌|Netflix_60
-      - 日本 04
-      - RU-高速节点推荐：v1.mk/vip
-      - 日本 02
-      - YouTube梦歌|Netflix_54
-      - 香港02
-      - HN 1
-      - YouTube梦歌|Netflix_125
-      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_139
+      - YouTube梦歌|Netflix_36
+      - CN-高速节点推荐：v1.mk/vip
+      - 韩国(youtube阿伟科技)
       - Youtube@One·资源核
-      - AU-高速节点推荐：v1.mk/vip
-      - YouTube梦歌|Netflix_93
-      - 日本👇[建议每3天更新一次订阅]
-      - YouTube梦歌|Netflix_13
-      - "[免流]日本 A[移动联通用户用日本]"
-      - 日本 03
+      - CN_231
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_58
       - Youtube@One·资源核 2
-      - YouTube梦歌|Netflix_104
-      - YouTube梦歌|Netflix_105
+      - 节点狂魔投稿|Netflix_60
+      - _油管频道：全网最强白嫖
+      - CN-高速节点推荐：v1.mk/vip 2
+      - 节点狂魔投稿|Netflix_59
+      - CN-高速节点推荐：v1.mk/vip 3
+      - US-高速节点推荐：v1.mk/vip
+      - _油管频道：全网最强白嫖 2
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN_212
       - US-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_70
-      - United States (US)40 Gbps节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_43
-      - 日本 01
-      - 美国(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - Youtube@One·资源核 3
-      - YouTube梦歌|Netflix_48
-      - YouTube梦歌|Netflix_82
-      - 乌克兰-三网优化-强加密
-      - YouTube梦歌|Netflix_26
-      - "@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub"
-      - 美国(ios小火箭软件|ioskaka.com)
-      - YouTube梦歌|Netflix_200
-      - SG-高速节点推荐：v1.mk/vip
-      - 美国（欢迎订阅Youtube元亨利贞）
-      - SG-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_115
-      - YouTube梦歌|Netflix_190
-      - 美国(ios小火箭软件|ioskaka.com) 2
-      - YouTube梦歌|Netflix_64
-      - YouTube梦歌|Netflix_136
-      - （欢迎订阅Youtube元亨利贞）
-      - 免费-法国
-      - 德国-节点更新 bit.ly/36b6iJh
-      - US-高速节点推荐：v1.mk/vip 3
-      - YouTube梦歌|Netflix_117
-      - aweikeji-YouTube-TG
-      - 日本(ios小火箭软件|ioskaka.com)
-      - 美国(youtube阿伟科技) 3
-      - 法国(youtube阿伟科技)
-      - US
+      - 香港-三网优化-强加密
+      - YouTube梦歌|Netflix_226
+      - 节点狂魔投稿|Netflix_22
+      - 日本(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - FB TIKTOK YOUTUBE
-      - 台湾1-三网优化-强加密
-      - 香港-三网优化-强加密
-      - 日本1-三网优化-强加密
-      - US-高速节点推荐：v1.mk/vip
-      - 日本 05
-      - YouTube梦歌|Netflix_60
-      - 日本 04
-      - RU-高速节点推荐：v1.mk/vip
-      - 日本 02
-      - YouTube梦歌|Netflix_54
-      - 香港02
-      - HN 1
-      - YouTube梦歌|Netflix_125
-      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_139
+      - YouTube梦歌|Netflix_36
+      - CN-高速节点推荐：v1.mk/vip
+      - 韩国(youtube阿伟科技)
       - Youtube@One·资源核
-      - AU-高速节点推荐：v1.mk/vip
-      - YouTube梦歌|Netflix_93
-      - 日本👇[建议每3天更新一次订阅]
-      - YouTube梦歌|Netflix_13
-      - "[免流]日本 A[移动联通用户用日本]"
-      - 日本 03
+      - CN_231
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_58
       - Youtube@One·资源核 2
-      - YouTube梦歌|Netflix_104
-      - YouTube梦歌|Netflix_105
+      - 节点狂魔投稿|Netflix_60
+      - _油管频道：全网最强白嫖
+      - CN-高速节点推荐：v1.mk/vip 2
+      - 节点狂魔投稿|Netflix_59
+      - CN-高速节点推荐：v1.mk/vip 3
+      - US-高速节点推荐：v1.mk/vip
+      - _油管频道：全网最强白嫖 2
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN_212
       - US-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_70
-      - United States (US)40 Gbps节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_43
-      - 日本 01
-      - 美国(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - Youtube@One·资源核 3
-      - YouTube梦歌|Netflix_48
-      - YouTube梦歌|Netflix_82
-      - 乌克兰-三网优化-强加密
-      - YouTube梦歌|Netflix_26
-      - "@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub"
-      - 美国(ios小火箭软件|ioskaka.com)
-      - YouTube梦歌|Netflix_200
-      - SG-高速节点推荐：v1.mk/vip
-      - 美国（欢迎订阅Youtube元亨利贞）
-      - SG-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_115
-      - YouTube梦歌|Netflix_190
-      - 美国(ios小火箭软件|ioskaka.com) 2
-      - YouTube梦歌|Netflix_64
-      - YouTube梦歌|Netflix_136
-      - （欢迎订阅Youtube元亨利贞）
-      - 免费-法国
-      - 德国-节点更新 bit.ly/36b6iJh
-      - US-高速节点推荐：v1.mk/vip 3
-      - YouTube梦歌|Netflix_117
-      - aweikeji-YouTube-TG
-      - 日本(ios小火箭软件|ioskaka.com)
-      - 美国(youtube阿伟科技) 3
-      - 法国(youtube阿伟科技)
-      - US
+      - 香港-三网优化-强加密
+      - YouTube梦歌|Netflix_226
+      - 节点狂魔投稿|Netflix_22
+      - 日本(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -551,65 +277,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - FB TIKTOK YOUTUBE
-      - 台湾1-三网优化-强加密
-      - 香港-三网优化-强加密
-      - 日本1-三网优化-强加密
-      - US-高速节点推荐：v1.mk/vip
-      - 日本 05
-      - YouTube梦歌|Netflix_60
-      - 日本 04
-      - RU-高速节点推荐：v1.mk/vip
-      - 日本 02
-      - YouTube梦歌|Netflix_54
-      - 香港02
-      - HN 1
-      - YouTube梦歌|Netflix_125
-      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_139
+      - YouTube梦歌|Netflix_36
+      - CN-高速节点推荐：v1.mk/vip
+      - 韩国(youtube阿伟科技)
       - Youtube@One·资源核
-      - AU-高速节点推荐：v1.mk/vip
-      - YouTube梦歌|Netflix_93
-      - 日本👇[建议每3天更新一次订阅]
-      - YouTube梦歌|Netflix_13
-      - "[免流]日本 A[移动联通用户用日本]"
-      - 日本 03
+      - CN_231
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_58
       - Youtube@One·资源核 2
-      - YouTube梦歌|Netflix_104
-      - YouTube梦歌|Netflix_105
+      - 节点狂魔投稿|Netflix_60
+      - _油管频道：全网最强白嫖
+      - CN-高速节点推荐：v1.mk/vip 2
+      - 节点狂魔投稿|Netflix_59
+      - CN-高速节点推荐：v1.mk/vip 3
+      - US-高速节点推荐：v1.mk/vip
+      - _油管频道：全网最强白嫖 2
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN_212
       - US-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_70
-      - United States (US)40 Gbps节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_43
-      - 日本 01
-      - 美国(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - Youtube@One·资源核 3
-      - YouTube梦歌|Netflix_48
-      - YouTube梦歌|Netflix_82
-      - 乌克兰-三网优化-强加密
-      - YouTube梦歌|Netflix_26
-      - "@SSRSUB-俄罗斯V03-付费推荐:dlj.tf/ssrsub"
-      - 美国(ios小火箭软件|ioskaka.com)
-      - YouTube梦歌|Netflix_200
-      - SG-高速节点推荐：v1.mk/vip
-      - 美国（欢迎订阅Youtube元亨利贞）
-      - SG-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_115
-      - YouTube梦歌|Netflix_190
-      - 美国(ios小火箭软件|ioskaka.com) 2
-      - YouTube梦歌|Netflix_64
-      - YouTube梦歌|Netflix_136
-      - （欢迎订阅Youtube元亨利贞）
-      - 免费-法国
-      - 德国-节点更新 bit.ly/36b6iJh
-      - US-高速节点推荐：v1.mk/vip 3
-      - YouTube梦歌|Netflix_117
-      - aweikeji-YouTube-TG
-      - 日本(ios小火箭软件|ioskaka.com)
-      - 美国(youtube阿伟科技) 3
-      - 法国(youtube阿伟科技)
-      - US
+      - 香港-三网优化-强加密
+      - YouTube梦歌|Netflix_226
+      - 节点狂魔投稿|Netflix_22
+      - 日本(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
