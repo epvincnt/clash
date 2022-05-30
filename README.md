@@ -5,235 +5,215 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 新加坡(youtube阿伟科技), server: lv3hhjjssts.163yun.top, port: 12335, type: trojan, password: 6865d2d5-851d-3158-b835-df676f2a1b01, sni: lv3hhjjssts.163yun.top, skip-cert-verify: true, udp: true}
-  - {name: 香港6-三网优化-强加密, server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 527hk1.fans8.xyz}, udp: true}
-  - {name: "[免流]香港 A", server: twsxxnhk.158801.xyz, port: 80, type: vmess, uuid: 4b5a0665-8936-49ba-9bb7-d1084e35fb79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: v.qq.com}, udp: true}
-  - {name: 新加坡01, server: xjpf1.xn--mesv7f5toqlp.club, port: 11112, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: xjpf1.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 香港 节点更新 bit.ly/36b6iJh, server: 1d53eaf6-19a3-4079-9fbc-1356b5ba8e87.1a5aab85-fb9a-4e9f-918a-bcb44418b00e.xn--9kq12xdq7a.com, port: 10002, type: ss, cipher: aes-256-gcm, password: 75c21921-619c-4f86-acd0-fe4c2ae6a737, udp: true}
-  - {name: 孙悟空大战苍井空_95, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 孙悟空大战苍井空_100, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
   - {name: YouTube梦歌|Netflix_19, server: gddx2.haojiahuo.cf, port: 30025, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
-  - {name: 香港(youtube阿伟科技), server: 20.205.102.56, port: 20207, type: vmess, uuid: 5a26cc45-3e1a-4d33-8d1a-e19a5e6058b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: general/hk/T0VJeVF6WXpORVkxTkRRME1EY3dRekEzT0VNeE9EQTJOVVk1TXprMk5qUkJRMFpDT0RRMVFqb3hPVGd3TkRZNU9UYzVNelUzTXpnME56QTBPakUyTlRNNE9UQXlOVGt3TURBNk1UWTFNemd3TXpnNE5EVTJNVHBzVEhac1BVdzJMSEJzWVhROVNFSXNaRWxrUFRFd0xVdENNakF3TUMwd1pERXpPVEl4T1RKak5EWmtPVGRsTVdNNVltRXlZekZpTVRGak9XVXlaQT09, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: 孙悟空大战苍井空_96, server: au2-2.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-2.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 香港, server: f8ae1437-05f3-40f1-9c09-c9a4149848b5.0afc1309-6c6f-4620-8105-7f8f2befe3ce.xn--9kq12xdq7a.com, port: 10001, type: ss, cipher: aes-256-gcm, password: 75c21921-619c-4f86-acd0-fe4c2ae6a737, udp: true}
+  - {name: 欧洲, server: ocrb1.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ocrb1.moonfree.top}, udp: true}
+  - {name: US-高速节点推荐：v1.mk/vip, server: au2-2.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-2.nigirocloud.com, skip-cert-verify: true, udp: true}
   - {name: 孙悟空大战苍井空_110, server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-1.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 香港03, server: twsxxnhk.158801.xyz, port: 30913, type: trojan, password: 4b5a0665-8936-49ba-9bb7-d1084e35fb79, sni: twsxxnhk.158801.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 2, server: f8ae1437-05f3-40f1-9c09-c9a4149848b5.0afc1309-6c6f-4620-8105-7f8f2befe3ce.xn--9kq12xdq7a.com, port: 10003, type: ss, cipher: aes-256-gcm, password: 75c21921-619c-4f86-acd0-fe4c2ae6a737, udp: true}
-  - {name: 台湾(youtube阿伟科技), server: 0319tw05.fans8.xyz, port: 443, type: trojan, password: cd3d48cb-6641-4183-aff1-f8f6789fecce, sni: 0319tw05.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港5-三网优化-强加密, server: 527hk3.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 527hk3.fans8.xyz}, udp: true}
-  - {name: 香港(youtube阿伟科技) 2, server: 20.205.102.56, port: 20207, type: vmess, uuid: 5a26cc45-3e1a-4d33-8d1a-e19a5e6058b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: general/hk/T0VJeVF6WXpORVkxTkRRME1EY3dRekEzT0VNeE9EQTJOVVk1TXprMk5qUkJRMFpDT0RRMVFqb3hPVGd3TkRZNU9UYzVNelUzTXpnME56QTBPakUyTlRNNE9UQXlOVGt3TURBNk1UWTFNemd3TXpnNE5EVTJNVHBzVEhac1BVdzJMSEJzWVhROVNFSXNaRWxrUFRFd0xVdENNakF3TUMwd1pERXpPVEl4T1RKak5EWmtPVGRsTVdNNVltRXlZekZpTVRGak9XVXlaQT09, ws-headers: {Host: 20.205.102.56}, udp: true}
-  - {name: YouTube梦歌|Netflix_95, server: fjyd2.haojiahuo.cf, port: 60136, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
-  - {name: YouTube梦歌|Netflix_23, server: xzlta.mikikvm.com, port: 40026, type: trojan, password: a100b242-2faa-4702-914a-ca0e0f8a90e0, sni: xzlta.mikikvm.com, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_113, server: sxdx2.haojiahuo.cf, port: 30047, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
-  - {name: 新加坡（欢迎订阅Youtube元亨利贞）, server: 129.226.213.241, port: 24824, type: vmess, uuid: 8c1e17cf-c378-403f-862c-62897510116c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 新加坡腾讯云 14, server: 129.226.217.139, port: 35846, type: vmess, uuid: 5d468799-dff3-4ecd-8323-c3ee23094069, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_99, server: d1.haojiahuo.cf, port: 60047, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
-  - {name: 新加坡【youtube-由零开始】, server: 129.226.216.4, port: 35562, type: vmess, uuid: 48409bbd-a9ee-4d9e-f725-4c81cc0d5009, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_26, server: xzlta.mikikvm.com, port: 40555, type: trojan, password: 45b5d43e-825f-42a8-99da-ae9134f8d6c9, sni: xzlta.mikikvm.com, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_24, server: xzlta.mikikvm.com, port: 40555, type: trojan, password: a100b242-2faa-4702-914a-ca0e0f8a90e0, sni: xzlta.mikikvm.com, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(youtube阿伟科技) 2, server: 117.120.7.92, port: 20207, type: vmess, uuid: af39a32f-270c-4a9d-bb5f-e77e3c653d65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /general/sg/UWpWR05qZENRek0wTWpKQ1FVVTJSRGxDUVVFMU16WXhOa0l3TWpFNE9EQkdOamxDUXpORU1qb3hPVGd3TkRZNU9UYzVNelUzTXpnME56QTBPakUyTlRNNE9UQXlOVGt3TURBNk1UWTFNemd3TkRNeE56azVOenBzVEhac1BVdzJMSEJzWVhROVNFSXNaRWxrUFRFd0xVdENNakF3TUMwd1pERXpPVEl4T1RKak5EWmtPVGRsTVdNNVltRXlZekZpTVRGak9XVXlaQT09, ws-headers: {Host: 117.120.7.92}, udp: true}
-  - {name: github.com/freefq - 新加坡腾讯云 43, server: 129.226.94.152, port: 56382, type: vmess, uuid: b14dc53a-1505-4909-8f23-2f9391e30d56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_63, server: zj.haojiahuo.club, port: 60046, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
-  - {name: YouTube梦歌|Netflix_27, server: xzlta.mikikvm.com, port: 40555, type: trojan, password: 6b6842a1-1ea4-407f-bbea-7707b2a78861, sni: xzlta.mikikvm.com, skip-cert-verify: true, udp: true}
-  - {name: 新加坡（欢迎订阅Youtube元亨利贞） 2, server: 129.226.215.114, port: 39927, type: vmess, uuid: 0783b758-2388-4389-f9c0-d84fceab1ad6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡（欢迎订阅Youtube元亨利贞） 3, server: 129.226.213.241, port: 24824, type: vmess, uuid: 8c1e17cf-c378-403f-862c-62897510116c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港-三网优化-强加密, server: 511hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 511hk.fans8.xyz}, udp: true}
-  - {name: 香港(youtube阿伟科技) 3, server: cdn2.myuuusss.com, port: 32118, type: vmess, uuid: b195963c-2631-442d-ab3a-6e78df25d904, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn2.myuuusss.com}, udp: true}
-  - {name: github.com/freefq - 新加坡腾讯云 3, server: 129.226.217.6, port: 58599, type: vmess, uuid: db312c19-1116-4656-d5d2-8b3adc21f117, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_25, server: xzlta.mikikvm.com, port: 40555, type: trojan, password: 1598c0bb-8ef7-40d1-a6ab-1b8de58c2afb, sni: xzlta.mikikvm.com, skip-cert-verify: true, udp: true}
-  - {name: 新加坡（欢迎订阅Youtube元亨利贞） 4, server: 129.226.215.114, port: 39927, type: vmess, uuid: 0783b758-2388-4389-f9c0-d84fceab1ad6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(youtube阿伟科技) 3, server: tx49sg.fans8.xyz, port: 443, type: trojan, password: cd3d48cb-6641-4183-aff1-f8f6789fecce, sni: tx49sg.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡（欢迎订阅Youtube元亨利贞） 5, server: 129.226.93.161, port: 40236, type: vmess, uuid: 931416fe-98f2-4098-c8e7-3634e27ce6f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(youtube阿伟科技) 4, server: cdn2.myuuusss.com, port: 32118, type: vmess, uuid: b195963c-2631-442d-ab3a-6e78df25d904, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: 俄罗斯联邦【YouTube-由零开始】, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 331tw.fans8.xyz}, udp: true}
-  - {name: US-高速节点推荐：v1.mk/vip, server: u4.anmu.one, port: 16199, type: vmess, uuid: 07ec59da-18ad-4224-8ad9-c5a66b1447a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 新加坡腾讯云 19, server: 129.226.217.153, port: 15184, type: vmess, uuid: bb02fa5b-1d15-46f4-fa47-053c6db61e39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡, server: 129.226.95.108, port: 58681, type: vmess, uuid: 758c6c64-e7bc-4bbf-dd58-cbd21c09c75a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US-高速节点推荐：v1.mk/vip 2, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr1t.moonfree.top}, udp: true}
+  - {name: github.com/freefq - 瑞典  18, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: US-高速节点推荐：v1.mk/vip 2, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_116, server: cmzhuyun002.baiyun.pw, port: 5024, type: ss, cipher: aes-256-gcm, password: 9605aebd-c107-4f0b-ba22-121b975f6f56, udp: true}
+  - {name: YouTube梦歌|Netflix_64, server: hk.zzk8.me, port: 51009, type: trojan, password: 9a88a570-39f7-4db3-8277-0e4097587895, sni: hk.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_99, server: cmzhuyun002.baiyun.pw, port: 5025, type: ss, cipher: aes-256-gcm, password: 9605aebd-c107-4f0b-ba22-121b975f6f56, udp: true}
+  - {name: YouTube梦歌|Netflix_91, server: hk.zzk8.me, port: 51008, type: trojan, password: 3d4452a6-4d29-4f62-8a35-1290ca2fdcdc, sni: hk.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_97, server: hk.zzk8.me, port: 51007, type: trojan, password: 3d4452a6-4d29-4f62-8a35-1290ca2fdcdc, sni: hk.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_101, server: hk.zzk8.me, port: 51007, type: trojan, password: 9a88a570-39f7-4db3-8277-0e4097587895, sni: hk.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: 日本(youtube阿伟科技), server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_104, server: hk.zzk8.me, port: 51009, type: trojan, password: 3d4452a6-4d29-4f62-8a35-1290ca2fdcdc, sni: hk.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_197, server: www.nubility.ml, port: 443, type: trojan, password: 9a2c5cc6ef, sni: www.nubility.ml, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_94, server: cmzhuyun002.baiyun.pw, port: 5022, type: ss, cipher: aes-256-gcm, password: 9605aebd-c107-4f0b-ba22-121b975f6f56, udp: true}
+  - {name: YouTube梦歌|Netflix_28, server: zj.haojiahuo.club, port: 30074, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: YouTube梦歌|Netflix_95, server: cmzhuyun002.baiyun.pw, port: 5023, type: ss, cipher: aes-256-gcm, password: 9605aebd-c107-4f0b-ba22-121b975f6f56, udp: true}
   - {name: YouTube梦歌|Netflix_107, server: zj.haojiahuo.club, port: 30075, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
-  - {name: 香港(youtube阿伟科技) 5, server: 183.232.239.72, port: 31112, type: ss, cipher: aes-128-gcm, password: a22f0bcf-ab80-4d3f-904f-032ac012326a, udp: true}
-  - {name: FR-高速节点购买：v1.mk/vip, server: rackedgeuk510.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rackedgeuk510.moonfree.top}, udp: true}
+  - {name: YouTube梦歌|Netflix_212, server: 72.44.69.73, port: 50656, type: vmess, uuid: 2c269778-0884-11ec-af77-00163c97cde8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /poOXfmk8/, ws-headers: {Host: 72.44.69.73}, udp: true}
+  - {name: YouTube梦歌|Netflix_89, server: cmzhuyun002.baiyun.pw, port: 5019, type: ss, cipher: aes-256-gcm, password: 9605aebd-c107-4f0b-ba22-121b975f6f56, udp: true}
+  - {name: YouTube梦歌|Netflix_90, server: hk.zzk8.me, port: 51005, type: trojan, password: 3d4452a6-4d29-4f62-8a35-1290ca2fdcdc, sni: hk.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_109, server: hk.zzk8.me, port: 51007, type: trojan, password: d728e37a-1793-4e31-990a-74f4d208145f, sni: hk.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_9, server: hk.zzk8.me, port: 51005, type: trojan, password: d728e37a-1793-4e31-990a-74f4d208145f, sni: hk.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_32, server: cc.tianxiedaiweige.tk, port: 443, type: trojan, password: 662dde24-c50c-4011-82b0-5c306afc56f2, sni: cc.tianxiedaiweige.tk, skip-cert-verify: true, udp: true}
+  - {name: 香港6-三网优化-强加密, server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 527hk1.fans8.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_120, server: liumin.cf, port: 443, type: vmess, uuid: 5a6e82d9-7c95-17a0-a503-bca5806bd6f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ddrkvideovws, ws-headers: {Host: liumin.cf}, udp: true}
+  - {name: YouTube梦歌|Netflix_95 2, server: fjyd2.haojiahuo.cf, port: 60136, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: 美国(youtube阿伟科技), server: 3.80.60.45, port: 80, type: vmess, uuid: 7e62f95f-8768-4012-b8f7-365b4b65efb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(v2rayshare.com免费节点日更)_14, server: 129.226.217.15, port: 52495, type: vmess, uuid: 1b3c1867-8bd0-4d74-821f-19d329e1375c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: YouTube梦歌|Netflix_8, server: zj.haojiahuo.club, port: 30058, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
-  - {name: 新加坡(youtube阿伟科技) 4, server: 117.120.7.92, port: 20207, type: vmess, uuid: af39a32f-270c-4a9d-bb5f-e77e3c653d65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /general/sg/UWpWR05qZENRek0wTWpKQ1FVVTJSRGxDUVVFMU16WXhOa0l3TWpFNE9EQkdOamxDUXpORU1qb3hPVGd3TkRZNU9UYzVNelUzTXpnME56QTBPakUyTlRNNE9UQXlOVGt3TURBNk1UWTFNemd3TkRNeE56azVOenBzVEhac1BVdzJMSEJzWVhROVNFSXNaRWxrUFRFd0xVdENNakF3TUMwd1pERXpPVEl4T1RKak5EWmtPVGRsTVdNNVltRXlZekZpTVRGak9XVXlaQT09, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: 英国(youtube阿伟科技), server: 45.150.165.97, port: 20083, type: vmess, uuid: 4a28c121-7b5b-41bc-8a66-12f3fa8ce422, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡【YouTube-由零开始】, server: 129.226.217.71, port: 24000, type: vmess, uuid: 8155e01b-1b54-410d-9550-555390a90d9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡（欢迎订阅Youtube元亨利贞） 6, server: 129.226.217.71, port: 24000, type: vmess, uuid: 8155e01b-1b54-410d-9550-555390a90d9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_207, server: 64.64.231.238, port: 11863, type: vmess, uuid: f31c3d6c-b84d-4e8f-858a-6e5af8c02438, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_44, server: uska.zzk8.me, port: 40321, type: trojan, password: d728e37a-1793-4e31-990a-74f4d208145f, sni: uska.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_86, server: hk.zzk8.me, port: 51005, type: trojan, password: 9a88a570-39f7-4db3-8277-0e4097587895, sni: hk.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 2, server: u2.anmu.one, port: 16161, type: vmess, uuid: 919ac815-1776-47fe-8b54-508ef4f39421, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 3, server: 3.80.60.45, port: 80, type: vmess, uuid: 7e62f95f-8768-4012-b8f7-365b4b65efb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲 2, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr1t.moonfree.top}, udp: true}
+  - {name: 新加坡(youtube阿伟科技), server: tx49sg.fans8.xyz, port: 443, type: trojan, password: 4b8f1bc5-9b36-4df8-9e4f-5864b330632f, sni: tx49sg.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 4, server: u2.anmu.one, port: 16499, type: vmess, uuid: 32b306e1-d5b1-4913-d8d3-56ac23637de7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_211, server: 198.57.27.61, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: YouTube梦歌|Netflix_199, server: b5d28a9.sd.gladns.com, port: 8474, type: ss, cipher: chacha20-ietf-poly1305, password: a501c82c72d790b8, udp: true}
+  - {name: 中国-6.34MB/s(Youtube:不良林), server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: 中国-6.39MB/s(Youtube:不良林), server: 116.129.254.47, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
+  - {name: 中国-7.29MB/s(Youtube:不良林), server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: 日本-419.7KB/s(Youtube:不良林), server: 139.162.124.250, port: 28443, type: trojan, password: fca82897-b178-4824-9c75-abe60c103dda, skip-cert-verify: true, udp: true}
+  - {name: 中国-4.88MB/s(Youtube:不良林), server: 116.129.253.130, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
+  - {name: 185.126.116.125:9043, server: 185.126.116.125, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: 香港-1.06MB/s(Youtube:不良林), server: 511hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 511hk.fans8.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡(youtube阿伟科技)
-      - 香港6-三网优化-强加密
-      - "[免流]香港 A"
-      - 新加坡01
-      - 香港 节点更新 bit.ly/36b6iJh
-      - 孙悟空大战苍井空_95
-      - 孙悟空大战苍井空_100
       - YouTube梦歌|Netflix_19
-      - 香港(youtube阿伟科技)
-      - 孙悟空大战苍井空_96
-      - 香港
-      - 孙悟空大战苍井空_110
-      - 香港03
-      - 香港 2
-      - 台湾(youtube阿伟科技)
-      - 香港5-三网优化-强加密
-      - 香港(youtube阿伟科技) 2
-      - YouTube梦歌|Netflix_95
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_113
-      - 新加坡（欢迎订阅Youtube元亨利贞）
-      - github.com/freefq - 新加坡腾讯云 14
-      - YouTube梦歌|Netflix_99
-      - 新加坡【youtube-由零开始】
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_24
-      - 新加坡(youtube阿伟科技) 2
-      - github.com/freefq - 新加坡腾讯云 43
-      - YouTube梦歌|Netflix_63
-      - YouTube梦歌|Netflix_27
-      - 新加坡（欢迎订阅Youtube元亨利贞） 2
-      - 新加坡（欢迎订阅Youtube元亨利贞） 3
-      - 香港-三网优化-强加密
-      - 香港(youtube阿伟科技) 3
-      - github.com/freefq - 新加坡腾讯云 3
-      - YouTube梦歌|Netflix_25
-      - 新加坡（欢迎订阅Youtube元亨利贞） 4
-      - 新加坡(youtube阿伟科技) 3
-      - 新加坡（欢迎订阅Youtube元亨利贞） 5
-      - 香港(youtube阿伟科技) 4
-      - 俄罗斯联邦【YouTube-由零开始】
+      - 欧洲
       - US-高速节点推荐：v1.mk/vip
-      - github.com/freefq - 新加坡腾讯云 19
-      - 新加坡
+      - 孙悟空大战苍井空_110
+      - github.com/freefq - 瑞典  18
       - US-高速节点推荐：v1.mk/vip 2
+      - YouTube梦歌|Netflix_116
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_99
+      - YouTube梦歌|Netflix_91
+      - YouTube梦歌|Netflix_97
+      - YouTube梦歌|Netflix_101
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_94
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_95
       - YouTube梦歌|Netflix_107
-      - 香港(youtube阿伟科技) 5
-      - FR-高速节点购买：v1.mk/vip
+      - YouTube梦歌|Netflix_212
+      - YouTube梦歌|Netflix_89
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_109
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_32
+      - 香港6-三网优化-强加密
+      - YouTube梦歌|Netflix_120
+      - YouTube梦歌|Netflix_95 2
+      - 美国(youtube阿伟科技)
+      - 新加坡(v2rayshare.com免费节点日更)_14
       - YouTube梦歌|Netflix_8
-      - 新加坡(youtube阿伟科技) 4
-      - 英国(youtube阿伟科技)
-      - 新加坡【YouTube-由零开始】
-      - 新加坡（欢迎订阅Youtube元亨利贞） 6
+      - YouTube梦歌|Netflix_207
+      - YouTube梦歌|Netflix_44
+      - YouTube梦歌|Netflix_86
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 欧洲 2
+      - 新加坡(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 4
+      - YouTube梦歌|Netflix_211
+      - YouTube梦歌|Netflix_199
+      - 中国-6.34MB/s(Youtube:不良林)
+      - 中国-6.39MB/s(Youtube:不良林)
+      - 中国-7.29MB/s(Youtube:不良林)
+      - 日本-419.7KB/s(Youtube:不良林)
+      - 中国-4.88MB/s(Youtube:不良林)
+      - 185.126.116.125:9043
+      - 香港-1.06MB/s(Youtube:不良林)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 新加坡(youtube阿伟科技)
-      - 香港6-三网优化-强加密
-      - "[免流]香港 A"
-      - 新加坡01
-      - 香港 节点更新 bit.ly/36b6iJh
-      - 孙悟空大战苍井空_95
-      - 孙悟空大战苍井空_100
       - YouTube梦歌|Netflix_19
-      - 香港(youtube阿伟科技)
-      - 孙悟空大战苍井空_96
-      - 香港
-      - 孙悟空大战苍井空_110
-      - 香港03
-      - 香港 2
-      - 台湾(youtube阿伟科技)
-      - 香港5-三网优化-强加密
-      - 香港(youtube阿伟科技) 2
-      - YouTube梦歌|Netflix_95
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_113
-      - 新加坡（欢迎订阅Youtube元亨利贞）
-      - github.com/freefq - 新加坡腾讯云 14
-      - YouTube梦歌|Netflix_99
-      - 新加坡【youtube-由零开始】
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_24
-      - 新加坡(youtube阿伟科技) 2
-      - github.com/freefq - 新加坡腾讯云 43
-      - YouTube梦歌|Netflix_63
-      - YouTube梦歌|Netflix_27
-      - 新加坡（欢迎订阅Youtube元亨利贞） 2
-      - 新加坡（欢迎订阅Youtube元亨利贞） 3
-      - 香港-三网优化-强加密
-      - 香港(youtube阿伟科技) 3
-      - github.com/freefq - 新加坡腾讯云 3
-      - YouTube梦歌|Netflix_25
-      - 新加坡（欢迎订阅Youtube元亨利贞） 4
-      - 新加坡(youtube阿伟科技) 3
-      - 新加坡（欢迎订阅Youtube元亨利贞） 5
-      - 香港(youtube阿伟科技) 4
-      - 俄罗斯联邦【YouTube-由零开始】
+      - 欧洲
       - US-高速节点推荐：v1.mk/vip
-      - github.com/freefq - 新加坡腾讯云 19
-      - 新加坡
+      - 孙悟空大战苍井空_110
+      - github.com/freefq - 瑞典  18
       - US-高速节点推荐：v1.mk/vip 2
+      - YouTube梦歌|Netflix_116
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_99
+      - YouTube梦歌|Netflix_91
+      - YouTube梦歌|Netflix_97
+      - YouTube梦歌|Netflix_101
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_94
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_95
       - YouTube梦歌|Netflix_107
-      - 香港(youtube阿伟科技) 5
-      - FR-高速节点购买：v1.mk/vip
+      - YouTube梦歌|Netflix_212
+      - YouTube梦歌|Netflix_89
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_109
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_32
+      - 香港6-三网优化-强加密
+      - YouTube梦歌|Netflix_120
+      - YouTube梦歌|Netflix_95 2
+      - 美国(youtube阿伟科技)
+      - 新加坡(v2rayshare.com免费节点日更)_14
       - YouTube梦歌|Netflix_8
-      - 新加坡(youtube阿伟科技) 4
-      - 英国(youtube阿伟科技)
-      - 新加坡【YouTube-由零开始】
-      - 新加坡（欢迎订阅Youtube元亨利贞） 6
+      - YouTube梦歌|Netflix_207
+      - YouTube梦歌|Netflix_44
+      - YouTube梦歌|Netflix_86
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 欧洲 2
+      - 新加坡(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 4
+      - YouTube梦歌|Netflix_211
+      - YouTube梦歌|Netflix_199
+      - 中国-6.34MB/s(Youtube:不良林)
+      - 中国-6.39MB/s(Youtube:不良林)
+      - 中国-7.29MB/s(Youtube:不良林)
+      - 日本-419.7KB/s(Youtube:不良林)
+      - 中国-4.88MB/s(Youtube:不良林)
+      - 185.126.116.125:9043
+      - 香港-1.06MB/s(Youtube:不良林)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡(youtube阿伟科技)
-      - 香港6-三网优化-强加密
-      - "[免流]香港 A"
-      - 新加坡01
-      - 香港 节点更新 bit.ly/36b6iJh
-      - 孙悟空大战苍井空_95
-      - 孙悟空大战苍井空_100
       - YouTube梦歌|Netflix_19
-      - 香港(youtube阿伟科技)
-      - 孙悟空大战苍井空_96
-      - 香港
-      - 孙悟空大战苍井空_110
-      - 香港03
-      - 香港 2
-      - 台湾(youtube阿伟科技)
-      - 香港5-三网优化-强加密
-      - 香港(youtube阿伟科技) 2
-      - YouTube梦歌|Netflix_95
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_113
-      - 新加坡（欢迎订阅Youtube元亨利贞）
-      - github.com/freefq - 新加坡腾讯云 14
-      - YouTube梦歌|Netflix_99
-      - 新加坡【youtube-由零开始】
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_24
-      - 新加坡(youtube阿伟科技) 2
-      - github.com/freefq - 新加坡腾讯云 43
-      - YouTube梦歌|Netflix_63
-      - YouTube梦歌|Netflix_27
-      - 新加坡（欢迎订阅Youtube元亨利贞） 2
-      - 新加坡（欢迎订阅Youtube元亨利贞） 3
-      - 香港-三网优化-强加密
-      - 香港(youtube阿伟科技) 3
-      - github.com/freefq - 新加坡腾讯云 3
-      - YouTube梦歌|Netflix_25
-      - 新加坡（欢迎订阅Youtube元亨利贞） 4
-      - 新加坡(youtube阿伟科技) 3
-      - 新加坡（欢迎订阅Youtube元亨利贞） 5
-      - 香港(youtube阿伟科技) 4
-      - 俄罗斯联邦【YouTube-由零开始】
+      - 欧洲
       - US-高速节点推荐：v1.mk/vip
-      - github.com/freefq - 新加坡腾讯云 19
-      - 新加坡
+      - 孙悟空大战苍井空_110
+      - github.com/freefq - 瑞典  18
       - US-高速节点推荐：v1.mk/vip 2
+      - YouTube梦歌|Netflix_116
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_99
+      - YouTube梦歌|Netflix_91
+      - YouTube梦歌|Netflix_97
+      - YouTube梦歌|Netflix_101
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_94
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_95
       - YouTube梦歌|Netflix_107
-      - 香港(youtube阿伟科技) 5
-      - FR-高速节点购买：v1.mk/vip
+      - YouTube梦歌|Netflix_212
+      - YouTube梦歌|Netflix_89
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_109
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_32
+      - 香港6-三网优化-强加密
+      - YouTube梦歌|Netflix_120
+      - YouTube梦歌|Netflix_95 2
+      - 美国(youtube阿伟科技)
+      - 新加坡(v2rayshare.com免费节点日更)_14
       - YouTube梦歌|Netflix_8
-      - 新加坡(youtube阿伟科技) 4
-      - 英国(youtube阿伟科技)
-      - 新加坡【YouTube-由零开始】
-      - 新加坡（欢迎订阅Youtube元亨利贞） 6
+      - YouTube梦歌|Netflix_207
+      - YouTube梦歌|Netflix_44
+      - YouTube梦歌|Netflix_86
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 欧洲 2
+      - 新加坡(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 4
+      - YouTube梦歌|Netflix_211
+      - YouTube梦歌|Netflix_199
+      - 中国-6.34MB/s(Youtube:不良林)
+      - 中国-6.39MB/s(Youtube:不良林)
+      - 中国-7.29MB/s(Youtube:不良林)
+      - 日本-419.7KB/s(Youtube:不良林)
+      - 中国-4.88MB/s(Youtube:不良林)
+      - 185.126.116.125:9043
+      - 香港-1.06MB/s(Youtube:不良林)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -252,253 +232,220 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡(youtube阿伟科技)
-      - 香港6-三网优化-强加密
-      - "[免流]香港 A"
-      - 新加坡01
-      - 香港 节点更新 bit.ly/36b6iJh
-      - 孙悟空大战苍井空_95
-      - 孙悟空大战苍井空_100
       - YouTube梦歌|Netflix_19
-      - 香港(youtube阿伟科技)
-      - 孙悟空大战苍井空_96
-      - 香港
-      - 孙悟空大战苍井空_110
-      - 香港03
-      - 香港 2
-      - 台湾(youtube阿伟科技)
-      - 香港5-三网优化-强加密
-      - 香港(youtube阿伟科技) 2
-      - YouTube梦歌|Netflix_95
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_113
-      - 新加坡（欢迎订阅Youtube元亨利贞）
-      - github.com/freefq - 新加坡腾讯云 14
-      - YouTube梦歌|Netflix_99
-      - 新加坡【youtube-由零开始】
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_24
-      - 新加坡(youtube阿伟科技) 2
-      - github.com/freefq - 新加坡腾讯云 43
-      - YouTube梦歌|Netflix_63
-      - YouTube梦歌|Netflix_27
-      - 新加坡（欢迎订阅Youtube元亨利贞） 2
-      - 新加坡（欢迎订阅Youtube元亨利贞） 3
-      - 香港-三网优化-强加密
-      - 香港(youtube阿伟科技) 3
-      - github.com/freefq - 新加坡腾讯云 3
-      - YouTube梦歌|Netflix_25
-      - 新加坡（欢迎订阅Youtube元亨利贞） 4
-      - 新加坡(youtube阿伟科技) 3
-      - 新加坡（欢迎订阅Youtube元亨利贞） 5
-      - 香港(youtube阿伟科技) 4
-      - 俄罗斯联邦【YouTube-由零开始】
+      - 欧洲
       - US-高速节点推荐：v1.mk/vip
-      - github.com/freefq - 新加坡腾讯云 19
-      - 新加坡
+      - 孙悟空大战苍井空_110
+      - github.com/freefq - 瑞典  18
       - US-高速节点推荐：v1.mk/vip 2
+      - YouTube梦歌|Netflix_116
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_99
+      - YouTube梦歌|Netflix_91
+      - YouTube梦歌|Netflix_97
+      - YouTube梦歌|Netflix_101
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_94
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_95
       - YouTube梦歌|Netflix_107
-      - 香港(youtube阿伟科技) 5
-      - FR-高速节点购买：v1.mk/vip
+      - YouTube梦歌|Netflix_212
+      - YouTube梦歌|Netflix_89
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_109
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_32
+      - 香港6-三网优化-强加密
+      - YouTube梦歌|Netflix_120
+      - YouTube梦歌|Netflix_95 2
+      - 美国(youtube阿伟科技)
+      - 新加坡(v2rayshare.com免费节点日更)_14
       - YouTube梦歌|Netflix_8
-      - 新加坡(youtube阿伟科技) 4
-      - 英国(youtube阿伟科技)
-      - 新加坡【YouTube-由零开始】
-      - 新加坡（欢迎订阅Youtube元亨利贞） 6
+      - YouTube梦歌|Netflix_207
+      - YouTube梦歌|Netflix_44
+      - YouTube梦歌|Netflix_86
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 欧洲 2
+      - 新加坡(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 4
+      - YouTube梦歌|Netflix_211
+      - YouTube梦歌|Netflix_199
+      - 中国-6.34MB/s(Youtube:不良林)
+      - 中国-6.39MB/s(Youtube:不良林)
+      - 中国-7.29MB/s(Youtube:不良林)
+      - 日本-419.7KB/s(Youtube:不良林)
+      - 中国-4.88MB/s(Youtube:不良林)
+      - 185.126.116.125:9043
+      - 香港-1.06MB/s(Youtube:不良林)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 香港6-三网优化-强加密
-      - "[免流]香港 A"
-      - 香港 节点更新 bit.ly/36b6iJh
-      - 香港(youtube阿伟科技)
-      - 香港
-      - 香港03
-      - 香港 2
-      - 台湾(youtube阿伟科技)
-      - 香港5-三网优化-强加密
-      - 香港(youtube阿伟科技) 2
-      - 香港-三网优化-强加密
-      - 香港(youtube阿伟科技) 3
-      - 香港(youtube阿伟科技) 4
-      - 香港(youtube阿伟科技) 5
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 新加坡(youtube阿伟科技)
-      - 香港6-三网优化-强加密
-      - "[免流]香港 A"
-      - 新加坡01
-      - 香港 节点更新 bit.ly/36b6iJh
-      - 孙悟空大战苍井空_95
-      - 孙悟空大战苍井空_100
       - YouTube梦歌|Netflix_19
-      - 香港(youtube阿伟科技)
-      - 孙悟空大战苍井空_96
-      - 香港
-      - 孙悟空大战苍井空_110
-      - 香港03
-      - 香港 2
-      - 台湾(youtube阿伟科技)
-      - 香港5-三网优化-强加密
-      - 香港(youtube阿伟科技) 2
-      - YouTube梦歌|Netflix_95
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_113
-      - 新加坡（欢迎订阅Youtube元亨利贞）
-      - github.com/freefq - 新加坡腾讯云 14
-      - YouTube梦歌|Netflix_99
-      - 新加坡【youtube-由零开始】
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_24
-      - 新加坡(youtube阿伟科技) 2
-      - github.com/freefq - 新加坡腾讯云 43
-      - YouTube梦歌|Netflix_63
-      - YouTube梦歌|Netflix_27
-      - 新加坡（欢迎订阅Youtube元亨利贞） 2
-      - 新加坡（欢迎订阅Youtube元亨利贞） 3
-      - 香港-三网优化-强加密
-      - 香港(youtube阿伟科技) 3
-      - github.com/freefq - 新加坡腾讯云 3
-      - YouTube梦歌|Netflix_25
-      - 新加坡（欢迎订阅Youtube元亨利贞） 4
-      - 新加坡(youtube阿伟科技) 3
-      - 新加坡（欢迎订阅Youtube元亨利贞） 5
-      - 香港(youtube阿伟科技) 4
-      - 俄罗斯联邦【YouTube-由零开始】
+      - 欧洲
       - US-高速节点推荐：v1.mk/vip
-      - github.com/freefq - 新加坡腾讯云 19
-      - 新加坡
+      - 孙悟空大战苍井空_110
+      - github.com/freefq - 瑞典  18
       - US-高速节点推荐：v1.mk/vip 2
+      - YouTube梦歌|Netflix_116
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_99
+      - YouTube梦歌|Netflix_91
+      - YouTube梦歌|Netflix_97
+      - YouTube梦歌|Netflix_101
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_94
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_95
       - YouTube梦歌|Netflix_107
-      - 香港(youtube阿伟科技) 5
-      - FR-高速节点购买：v1.mk/vip
+      - YouTube梦歌|Netflix_212
+      - YouTube梦歌|Netflix_89
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_109
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_32
+      - 香港6-三网优化-强加密
+      - YouTube梦歌|Netflix_120
+      - YouTube梦歌|Netflix_95 2
+      - 美国(youtube阿伟科技)
+      - 新加坡(v2rayshare.com免费节点日更)_14
       - YouTube梦歌|Netflix_8
-      - 新加坡(youtube阿伟科技) 4
-      - 英国(youtube阿伟科技)
-      - 新加坡【YouTube-由零开始】
-      - 新加坡（欢迎订阅Youtube元亨利贞） 6
+      - YouTube梦歌|Netflix_207
+      - YouTube梦歌|Netflix_44
+      - YouTube梦歌|Netflix_86
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 欧洲 2
+      - 新加坡(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 4
+      - YouTube梦歌|Netflix_211
+      - YouTube梦歌|Netflix_199
+      - 中国-6.34MB/s(Youtube:不良林)
+      - 中国-6.39MB/s(Youtube:不良林)
+      - 中国-7.29MB/s(Youtube:不良林)
+      - 日本-419.7KB/s(Youtube:不良林)
+      - 中国-4.88MB/s(Youtube:不良林)
+      - 185.126.116.125:9043
+      - 香港-1.06MB/s(Youtube:不良林)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 新加坡(youtube阿伟科技)
-      - 香港6-三网优化-强加密
-      - "[免流]香港 A"
-      - 新加坡01
-      - 香港 节点更新 bit.ly/36b6iJh
-      - 孙悟空大战苍井空_95
-      - 孙悟空大战苍井空_100
       - YouTube梦歌|Netflix_19
-      - 香港(youtube阿伟科技)
-      - 孙悟空大战苍井空_96
-      - 香港
-      - 孙悟空大战苍井空_110
-      - 香港03
-      - 香港 2
-      - 台湾(youtube阿伟科技)
-      - 香港5-三网优化-强加密
-      - 香港(youtube阿伟科技) 2
-      - YouTube梦歌|Netflix_95
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_113
-      - 新加坡（欢迎订阅Youtube元亨利贞）
-      - github.com/freefq - 新加坡腾讯云 14
-      - YouTube梦歌|Netflix_99
-      - 新加坡【youtube-由零开始】
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_24
-      - 新加坡(youtube阿伟科技) 2
-      - github.com/freefq - 新加坡腾讯云 43
-      - YouTube梦歌|Netflix_63
-      - YouTube梦歌|Netflix_27
-      - 新加坡（欢迎订阅Youtube元亨利贞） 2
-      - 新加坡（欢迎订阅Youtube元亨利贞） 3
-      - 香港-三网优化-强加密
-      - 香港(youtube阿伟科技) 3
-      - github.com/freefq - 新加坡腾讯云 3
-      - YouTube梦歌|Netflix_25
-      - 新加坡（欢迎订阅Youtube元亨利贞） 4
-      - 新加坡(youtube阿伟科技) 3
-      - 新加坡（欢迎订阅Youtube元亨利贞） 5
-      - 香港(youtube阿伟科技) 4
-      - 俄罗斯联邦【YouTube-由零开始】
+      - 欧洲
       - US-高速节点推荐：v1.mk/vip
-      - github.com/freefq - 新加坡腾讯云 19
-      - 新加坡
+      - 孙悟空大战苍井空_110
+      - github.com/freefq - 瑞典  18
       - US-高速节点推荐：v1.mk/vip 2
+      - YouTube梦歌|Netflix_116
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_99
+      - YouTube梦歌|Netflix_91
+      - YouTube梦歌|Netflix_97
+      - YouTube梦歌|Netflix_101
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_94
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_95
       - YouTube梦歌|Netflix_107
-      - 香港(youtube阿伟科技) 5
-      - FR-高速节点购买：v1.mk/vip
+      - YouTube梦歌|Netflix_212
+      - YouTube梦歌|Netflix_89
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_109
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_32
+      - 香港6-三网优化-强加密
+      - YouTube梦歌|Netflix_120
+      - YouTube梦歌|Netflix_95 2
+      - 美国(youtube阿伟科技)
+      - 新加坡(v2rayshare.com免费节点日更)_14
       - YouTube梦歌|Netflix_8
-      - 新加坡(youtube阿伟科技) 4
-      - 英国(youtube阿伟科技)
-      - 新加坡【YouTube-由零开始】
-      - 新加坡（欢迎订阅Youtube元亨利贞） 6
+      - YouTube梦歌|Netflix_207
+      - YouTube梦歌|Netflix_44
+      - YouTube梦歌|Netflix_86
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 欧洲 2
+      - 新加坡(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 4
+      - YouTube梦歌|Netflix_211
+      - YouTube梦歌|Netflix_199
+      - 中国-6.34MB/s(Youtube:不良林)
+      - 中国-6.39MB/s(Youtube:不良林)
+      - 中国-7.29MB/s(Youtube:不良林)
+      - 日本-419.7KB/s(Youtube:不良林)
+      - 中国-4.88MB/s(Youtube:不良林)
+      - 185.126.116.125:9043
+      - 香港-1.06MB/s(Youtube:不良林)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡(youtube阿伟科技)
-      - 香港6-三网优化-强加密
-      - "[免流]香港 A"
-      - 新加坡01
-      - 香港 节点更新 bit.ly/36b6iJh
-      - 孙悟空大战苍井空_95
-      - 孙悟空大战苍井空_100
       - YouTube梦歌|Netflix_19
-      - 香港(youtube阿伟科技)
-      - 孙悟空大战苍井空_96
-      - 香港
-      - 孙悟空大战苍井空_110
-      - 香港03
-      - 香港 2
-      - 台湾(youtube阿伟科技)
-      - 香港5-三网优化-强加密
-      - 香港(youtube阿伟科技) 2
-      - YouTube梦歌|Netflix_95
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_113
-      - 新加坡（欢迎订阅Youtube元亨利贞）
-      - github.com/freefq - 新加坡腾讯云 14
-      - YouTube梦歌|Netflix_99
-      - 新加坡【youtube-由零开始】
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_24
-      - 新加坡(youtube阿伟科技) 2
-      - github.com/freefq - 新加坡腾讯云 43
-      - YouTube梦歌|Netflix_63
-      - YouTube梦歌|Netflix_27
-      - 新加坡（欢迎订阅Youtube元亨利贞） 2
-      - 新加坡（欢迎订阅Youtube元亨利贞） 3
-      - 香港-三网优化-强加密
-      - 香港(youtube阿伟科技) 3
-      - github.com/freefq - 新加坡腾讯云 3
-      - YouTube梦歌|Netflix_25
-      - 新加坡（欢迎订阅Youtube元亨利贞） 4
-      - 新加坡(youtube阿伟科技) 3
-      - 新加坡（欢迎订阅Youtube元亨利贞） 5
-      - 香港(youtube阿伟科技) 4
-      - 俄罗斯联邦【YouTube-由零开始】
+      - 欧洲
       - US-高速节点推荐：v1.mk/vip
-      - github.com/freefq - 新加坡腾讯云 19
-      - 新加坡
+      - 孙悟空大战苍井空_110
+      - github.com/freefq - 瑞典  18
       - US-高速节点推荐：v1.mk/vip 2
+      - YouTube梦歌|Netflix_116
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_99
+      - YouTube梦歌|Netflix_91
+      - YouTube梦歌|Netflix_97
+      - YouTube梦歌|Netflix_101
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_94
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_95
       - YouTube梦歌|Netflix_107
-      - 香港(youtube阿伟科技) 5
-      - FR-高速节点购买：v1.mk/vip
+      - YouTube梦歌|Netflix_212
+      - YouTube梦歌|Netflix_89
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_109
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_32
+      - 香港6-三网优化-强加密
+      - YouTube梦歌|Netflix_120
+      - YouTube梦歌|Netflix_95 2
+      - 美国(youtube阿伟科技)
+      - 新加坡(v2rayshare.com免费节点日更)_14
       - YouTube梦歌|Netflix_8
-      - 新加坡(youtube阿伟科技) 4
-      - 英国(youtube阿伟科技)
-      - 新加坡【YouTube-由零开始】
-      - 新加坡（欢迎订阅Youtube元亨利贞） 6
+      - YouTube梦歌|Netflix_207
+      - YouTube梦歌|Netflix_44
+      - YouTube梦歌|Netflix_86
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 欧洲 2
+      - 新加坡(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 4
+      - YouTube梦歌|Netflix_211
+      - YouTube梦歌|Netflix_199
+      - 中国-6.34MB/s(Youtube:不良林)
+      - 中国-6.39MB/s(Youtube:不良林)
+      - 中国-7.29MB/s(Youtube:不良林)
+      - 日本-419.7KB/s(Youtube:不良林)
+      - 中国-4.88MB/s(Youtube:不良林)
+      - 185.126.116.125:9043
+      - 香港-1.06MB/s(Youtube:不良林)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -514,59 +461,54 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡(youtube阿伟科技)
-      - 香港6-三网优化-强加密
-      - "[免流]香港 A"
-      - 新加坡01
-      - 香港 节点更新 bit.ly/36b6iJh
-      - 孙悟空大战苍井空_95
-      - 孙悟空大战苍井空_100
       - YouTube梦歌|Netflix_19
-      - 香港(youtube阿伟科技)
-      - 孙悟空大战苍井空_96
-      - 香港
-      - 孙悟空大战苍井空_110
-      - 香港03
-      - 香港 2
-      - 台湾(youtube阿伟科技)
-      - 香港5-三网优化-强加密
-      - 香港(youtube阿伟科技) 2
-      - YouTube梦歌|Netflix_95
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_113
-      - 新加坡（欢迎订阅Youtube元亨利贞）
-      - github.com/freefq - 新加坡腾讯云 14
-      - YouTube梦歌|Netflix_99
-      - 新加坡【youtube-由零开始】
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_24
-      - 新加坡(youtube阿伟科技) 2
-      - github.com/freefq - 新加坡腾讯云 43
-      - YouTube梦歌|Netflix_63
-      - YouTube梦歌|Netflix_27
-      - 新加坡（欢迎订阅Youtube元亨利贞） 2
-      - 新加坡（欢迎订阅Youtube元亨利贞） 3
-      - 香港-三网优化-强加密
-      - 香港(youtube阿伟科技) 3
-      - github.com/freefq - 新加坡腾讯云 3
-      - YouTube梦歌|Netflix_25
-      - 新加坡（欢迎订阅Youtube元亨利贞） 4
-      - 新加坡(youtube阿伟科技) 3
-      - 新加坡（欢迎订阅Youtube元亨利贞） 5
-      - 香港(youtube阿伟科技) 4
-      - 俄罗斯联邦【YouTube-由零开始】
+      - 欧洲
       - US-高速节点推荐：v1.mk/vip
-      - github.com/freefq - 新加坡腾讯云 19
-      - 新加坡
+      - 孙悟空大战苍井空_110
+      - github.com/freefq - 瑞典  18
       - US-高速节点推荐：v1.mk/vip 2
+      - YouTube梦歌|Netflix_116
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_99
+      - YouTube梦歌|Netflix_91
+      - YouTube梦歌|Netflix_97
+      - YouTube梦歌|Netflix_101
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_94
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_95
       - YouTube梦歌|Netflix_107
-      - 香港(youtube阿伟科技) 5
-      - FR-高速节点购买：v1.mk/vip
+      - YouTube梦歌|Netflix_212
+      - YouTube梦歌|Netflix_89
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_109
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_32
+      - 香港6-三网优化-强加密
+      - YouTube梦歌|Netflix_120
+      - YouTube梦歌|Netflix_95 2
+      - 美国(youtube阿伟科技)
+      - 新加坡(v2rayshare.com免费节点日更)_14
       - YouTube梦歌|Netflix_8
-      - 新加坡(youtube阿伟科技) 4
-      - 英国(youtube阿伟科技)
-      - 新加坡【YouTube-由零开始】
-      - 新加坡（欢迎订阅Youtube元亨利贞） 6
+      - YouTube梦歌|Netflix_207
+      - YouTube梦歌|Netflix_44
+      - YouTube梦歌|Netflix_86
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 欧洲 2
+      - 新加坡(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 4
+      - YouTube梦歌|Netflix_211
+      - YouTube梦歌|Netflix_199
+      - 中国-6.34MB/s(Youtube:不良林)
+      - 中国-6.39MB/s(Youtube:不良林)
+      - 中国-7.29MB/s(Youtube:不良林)
+      - 日本-419.7KB/s(Youtube:不良林)
+      - 中国-4.88MB/s(Youtube:不良林)
+      - 185.126.116.125:9043
+      - 香港-1.06MB/s(Youtube:不良林)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
