@@ -5,107 +5,79 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN_39+TG@peekfun, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 中国-1.06MB/s(Youtube:不良林), server: 103.56.62.145, port: 3385, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
-  - {name: United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh, server: bai-piao-wang-zhe-iplc6.98848.xyz, port: 37507, type: vmess, uuid: b4221015-bb1d-452c-971d-d00cfc33a471, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /youtubt@白嫖王者, ws-headers: {Host: bai-piao-wang-zhe-iplc6.98848.xyz}, udp: true}
-  - {name: YouTube梦歌|Netflix_20, server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-1.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2, server: bai-piao-wang-zhe-iplc6.98848.xyz, port: 31961, type: vmess, uuid: 94311e71-9125-4bd1-faa2-515a8667c486, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /youtubt@白嫖王者, ws-headers: {Host: bai-piao-wang-zhe-iplc6.98848.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_47, server: jp.xxnmsl.com, port: 80, type: vmess, uuid: bb923557-6eca-4fca-8cb4-76991c784b8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: YouTube梦歌|Netflix_90, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
   - {name: YouTube梦歌|Netflix_131, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: CN_212, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 美国-1.80MB/s(Youtube:不良林), server: 134.195.101.32, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_49, server: azhk.102498.eu.org, port: 23941, type: vmess, uuid: 7d7e6cf9-eac6-3d67-bc8e-a270034ac212, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloworld, ws-headers: {Host: ist-tur.jinxnet.xyz}, udp: true}
-  - {name: United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 3, server: bai-piao-wang-zhe-iplc6.98848.xyz, port: 59959, type: vmess, uuid: f7d26b5e-8d78-4154-85b6-d69ea8dea0ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /youtubt@白嫖王者, ws-headers: {Host: bai-piao-wang-zhe-iplc6.98848.xyz}, udp: true}
-  - {name: 中国-4.20MB/s(Youtube:不良林), server: 120.233.186.71, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: 中国-5.25MB/s(Youtube:不良林), server: 116.129.253.134, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
-  - {name: 美国-1016.3KB/s(Youtube:不良林), server: 134.195.101.32, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
-  - {name: 中国-1.10MB/s(Youtube:不良林), server: 117.50.106.86, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: _油管频道：全网最强白嫖, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: YouTube梦歌|Netflix_36, server: v2-1.godlight.xyz, port: 250, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /j75g1461x, ws-headers: {Host: v2-1.godlight.xyz}, udp: true}
-  - {name: YouTube梦歌|Netflix_90 2, server: kr04.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: kr04.wangxd.life, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_113, server: b5d28a9.sd.gladns.com, port: 8474, type: ss, cipher: chacha20-ietf-poly1305, password: a501c82c72d790b8, udp: true}
-  - {name: United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 4, server: bai-piao-wang-zhe-iplc6.98848.xyz, port: 12824, type: vmess, uuid: ce49b03a-ec36-4afd-d6f1-f678ad37cbb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: IN-高速节点推荐：v1.mk/vip, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh, server: bai-piao-wang-zhe-iplc6.98848.xyz, port: 12824, type: vmess, uuid: ce49b03a-ec36-4afd-d6f1-f678ad37cbb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2, server: bai-piao-wang-zhe-iplc6.98848.xyz, port: 12824, type: vmess, uuid: ce49b03a-ec36-4afd-d6f1-f678ad37cbb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_222, server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
+  - {name: 欧洲📔好用的机场：https://kuaiyin.info/, server: v2ray.wefuckgfw.ga, port: 2096, type: vmess, uuid: 556b20c1-272e-44ec-881b-94f410ac75de, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /H8VswtUJ/, ws-headers: {Host: v2ray.wefuckgfw.ga}, udp: true}
+  - {name: bai-piao-wang-zhe10.98848.xyz, server: bai-piao-wang-zhe10.98848.xyz, port: 48240, type: trojan, password: c8bae3de-16ed-4247-8a99-f38ef79a4b51, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: trojan2 States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh, server: bai-piao-wang-zhe10.98848.xyz, port: 22168, type: trojan, password: mDmaAWoWXB, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: trojan xtls States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh, server: bai-piao-wang-zhe10.98848.xyz, port: 50858, type: trojan, password: f0de3134-aef4-45b5-a135-3a82321bbac6, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_15, server: hinet.okvpn.xyz, port: 12000, type: trojan, password: e1e878cd-bd57-4929-9c41-d23c4acdd7b4, sni: hinet.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 中国-1.52MB/s(Youtube:不良林), server: 113.31.109.30, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国-2.25MB/s(Youtube:不良林), server: 120.233.186.71, port: 3384, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国-1.88MB/s(Youtube:不良林), server: 120.233.186.71, port: 3384, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_39+TG@peekfun
-      - 中国-1.06MB/s(Youtube:不良林)
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_20
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_47
       - YouTube梦歌|Netflix_90
       - YouTube梦歌|Netflix_131
-      - CN_212
-      - 美国-1.80MB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_49
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 3
-      - 中国-4.20MB/s(Youtube:不良林)
-      - 中国-5.25MB/s(Youtube:不良林)
-      - 美国-1016.3KB/s(Youtube:不良林)
-      - 中国-1.10MB/s(Youtube:不良林)
-      - _油管频道：全网最强白嫖
-      - YouTube梦歌|Netflix_36
-      - YouTube梦歌|Netflix_90 2
-      - YouTube梦歌|Netflix_113
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 4
-      - IN-高速节点推荐：v1.mk/vip
+      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
+      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_222
+      - 欧洲📔好用的机场：https://kuaiyin.info/
+      - bai-piao-wang-zhe10.98848.xyz
+      - trojan2 States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - trojan xtls States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_15
+      - 中国-1.52MB/s(Youtube:不良林)
+      - 中国-2.25MB/s(Youtube:不良林)
+      - 中国-1.88MB/s(Youtube:不良林)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN_39+TG@peekfun
-      - 中国-1.06MB/s(Youtube:不良林)
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_20
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_47
       - YouTube梦歌|Netflix_90
       - YouTube梦歌|Netflix_131
-      - CN_212
-      - 美国-1.80MB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_49
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 3
-      - 中国-4.20MB/s(Youtube:不良林)
-      - 中国-5.25MB/s(Youtube:不良林)
-      - 美国-1016.3KB/s(Youtube:不良林)
-      - 中国-1.10MB/s(Youtube:不良林)
-      - _油管频道：全网最强白嫖
-      - YouTube梦歌|Netflix_36
-      - YouTube梦歌|Netflix_90 2
-      - YouTube梦歌|Netflix_113
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 4
-      - IN-高速节点推荐：v1.mk/vip
+      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
+      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_222
+      - 欧洲📔好用的机场：https://kuaiyin.info/
+      - bai-piao-wang-zhe10.98848.xyz
+      - trojan2 States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - trojan xtls States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_15
+      - 中国-1.52MB/s(Youtube:不良林)
+      - 中国-2.25MB/s(Youtube:不良林)
+      - 中国-1.88MB/s(Youtube:不良林)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_39+TG@peekfun
-      - 中国-1.06MB/s(Youtube:不良林)
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_20
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_47
       - YouTube梦歌|Netflix_90
       - YouTube梦歌|Netflix_131
-      - CN_212
-      - 美国-1.80MB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_49
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 3
-      - 中国-4.20MB/s(Youtube:不良林)
-      - 中国-5.25MB/s(Youtube:不良林)
-      - 美国-1016.3KB/s(Youtube:不良林)
-      - 中国-1.10MB/s(Youtube:不良林)
-      - _油管频道：全网最强白嫖
-      - YouTube梦歌|Netflix_36
-      - YouTube梦歌|Netflix_90 2
-      - YouTube梦歌|Netflix_113
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 4
-      - IN-高速节点推荐：v1.mk/vip
+      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
+      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_222
+      - 欧洲📔好用的机场：https://kuaiyin.info/
+      - bai-piao-wang-zhe10.98848.xyz
+      - trojan2 States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - trojan xtls States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_15
+      - 中国-1.52MB/s(Youtube:不良林)
+      - 中国-2.25MB/s(Youtube:不良林)
+      - 中国-1.88MB/s(Youtube:不良林)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -124,27 +96,20 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_39+TG@peekfun
-      - 中国-1.06MB/s(Youtube:不良林)
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_20
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_47
       - YouTube梦歌|Netflix_90
       - YouTube梦歌|Netflix_131
-      - CN_212
-      - 美国-1.80MB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_49
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 3
-      - 中国-4.20MB/s(Youtube:不良林)
-      - 中国-5.25MB/s(Youtube:不良林)
-      - 美国-1016.3KB/s(Youtube:不良林)
-      - 中国-1.10MB/s(Youtube:不良林)
-      - _油管频道：全网最强白嫖
-      - YouTube梦歌|Netflix_36
-      - YouTube梦歌|Netflix_90 2
-      - YouTube梦歌|Netflix_113
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 4
-      - IN-高速节点推荐：v1.mk/vip
+      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
+      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_222
+      - 欧洲📔好用的机场：https://kuaiyin.info/
+      - bai-piao-wang-zhe10.98848.xyz
+      - trojan2 States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - trojan xtls States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_15
+      - 中国-1.52MB/s(Youtube:不良林)
+      - 中国-2.25MB/s(Youtube:不良林)
+      - 中国-1.88MB/s(Youtube:不良林)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -155,80 +120,59 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_39+TG@peekfun
-      - 中国-1.06MB/s(Youtube:不良林)
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_20
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_47
       - YouTube梦歌|Netflix_90
       - YouTube梦歌|Netflix_131
-      - CN_212
-      - 美国-1.80MB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_49
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 3
-      - 中国-4.20MB/s(Youtube:不良林)
-      - 中国-5.25MB/s(Youtube:不良林)
-      - 美国-1016.3KB/s(Youtube:不良林)
-      - 中国-1.10MB/s(Youtube:不良林)
-      - _油管频道：全网最强白嫖
-      - YouTube梦歌|Netflix_36
-      - YouTube梦歌|Netflix_90 2
-      - YouTube梦歌|Netflix_113
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 4
-      - IN-高速节点推荐：v1.mk/vip
+      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
+      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_222
+      - 欧洲📔好用的机场：https://kuaiyin.info/
+      - bai-piao-wang-zhe10.98848.xyz
+      - trojan2 States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - trojan xtls States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_15
+      - 中国-1.52MB/s(Youtube:不良林)
+      - 中国-2.25MB/s(Youtube:不良林)
+      - 中国-1.88MB/s(Youtube:不良林)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN_39+TG@peekfun
-      - 中国-1.06MB/s(Youtube:不良林)
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_20
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_47
       - YouTube梦歌|Netflix_90
       - YouTube梦歌|Netflix_131
-      - CN_212
-      - 美国-1.80MB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_49
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 3
-      - 中国-4.20MB/s(Youtube:不良林)
-      - 中国-5.25MB/s(Youtube:不良林)
-      - 美国-1016.3KB/s(Youtube:不良林)
-      - 中国-1.10MB/s(Youtube:不良林)
-      - _油管频道：全网最强白嫖
-      - YouTube梦歌|Netflix_36
-      - YouTube梦歌|Netflix_90 2
-      - YouTube梦歌|Netflix_113
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 4
-      - IN-高速节点推荐：v1.mk/vip
+      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
+      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_222
+      - 欧洲📔好用的机场：https://kuaiyin.info/
+      - bai-piao-wang-zhe10.98848.xyz
+      - trojan2 States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - trojan xtls States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_15
+      - 中国-1.52MB/s(Youtube:不良林)
+      - 中国-2.25MB/s(Youtube:不良林)
+      - 中国-1.88MB/s(Youtube:不良林)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_39+TG@peekfun
-      - 中国-1.06MB/s(Youtube:不良林)
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_20
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_47
       - YouTube梦歌|Netflix_90
       - YouTube梦歌|Netflix_131
-      - CN_212
-      - 美国-1.80MB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_49
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 3
-      - 中国-4.20MB/s(Youtube:不良林)
-      - 中国-5.25MB/s(Youtube:不良林)
-      - 美国-1016.3KB/s(Youtube:不良林)
-      - 中国-1.10MB/s(Youtube:不良林)
-      - _油管频道：全网最强白嫖
-      - YouTube梦歌|Netflix_36
-      - YouTube梦歌|Netflix_90 2
-      - YouTube梦歌|Netflix_113
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 4
-      - IN-高速节点推荐：v1.mk/vip
+      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
+      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_222
+      - 欧洲📔好用的机场：https://kuaiyin.info/
+      - bai-piao-wang-zhe10.98848.xyz
+      - trojan2 States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - trojan xtls States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_15
+      - 中国-1.52MB/s(Youtube:不良林)
+      - 中国-2.25MB/s(Youtube:不良林)
+      - 中国-1.88MB/s(Youtube:不良林)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -244,27 +188,20 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_39+TG@peekfun
-      - 中国-1.06MB/s(Youtube:不良林)
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_20
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_47
       - YouTube梦歌|Netflix_90
       - YouTube梦歌|Netflix_131
-      - CN_212
-      - 美国-1.80MB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_49
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 3
-      - 中国-4.20MB/s(Youtube:不良林)
-      - 中国-5.25MB/s(Youtube:不良林)
-      - 美国-1016.3KB/s(Youtube:不良林)
-      - 中国-1.10MB/s(Youtube:不良林)
-      - _油管频道：全网最强白嫖
-      - YouTube梦歌|Netflix_36
-      - YouTube梦歌|Netflix_90 2
-      - YouTube梦歌|Netflix_113
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 4
-      - IN-高速节点推荐：v1.mk/vip
+      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
+      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_222
+      - 欧洲📔好用的机场：https://kuaiyin.info/
+      - bai-piao-wang-zhe10.98848.xyz
+      - trojan2 States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - trojan xtls States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_15
+      - 中国-1.52MB/s(Youtube:不良林)
+      - 中国-2.25MB/s(Youtube:不良林)
+      - 中国-1.88MB/s(Youtube:不良林)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
