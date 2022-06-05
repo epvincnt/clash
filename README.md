@@ -5,79 +5,211 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: YouTube梦歌|Netflix_47, server: jp.xxnmsl.com, port: 80, type: vmess, uuid: bb923557-6eca-4fca-8cb4-76991c784b8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_90, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: YouTube梦歌|Netflix_131, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh, server: bai-piao-wang-zhe-iplc6.98848.xyz, port: 12824, type: vmess, uuid: ce49b03a-ec36-4afd-d6f1-f678ad37cbb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2, server: bai-piao-wang-zhe-iplc6.98848.xyz, port: 12824, type: vmess, uuid: ce49b03a-ec36-4afd-d6f1-f678ad37cbb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_222, server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
-  - {name: 欧洲📔好用的机场：https://kuaiyin.info/, server: v2ray.wefuckgfw.ga, port: 2096, type: vmess, uuid: 556b20c1-272e-44ec-881b-94f410ac75de, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /H8VswtUJ/, ws-headers: {Host: v2ray.wefuckgfw.ga}, udp: true}
+  - {name: YouTube梦歌|Netflix_143, server: az.az-bgp.chuangshi999.xyz, port: 31250, type: trojan, password: d5f3d3e1-c913-49cd-bf90-bf4e2ab9d0eb, sni: az.az-bgp.chuangshi999.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港(youtube阿伟科技), server: cn-iii.somserver.top, port: 80, type: vmess, uuid: fde42ff2-98f5-3977-8cda-4f4675f64868, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/ws?ed=2048", ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: 中国-5.68MB/s(Youtube:不良林), server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: 中国-6.94MB/s(Youtube:不良林), server: 116.129.254.47, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix, server: vus4.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus4.0bad.com}, udp: true}
+  - {name: 中国-7.73MB/s(Youtube:不良林), server: 116.129.254.29, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国-6.14MB/s(Youtube:不良林), server: 116.129.254.47, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国-9.19MB/s(Youtube:不良林), server: 116.129.254.29, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 香港(youtube阿伟科技) 2, server: cn-i.somserver.top, port: 80, type: vmess, uuid: fde42ff2-98f5-3977-8cda-4f4675f64868, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/ws?ed=2048", ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: 中国-7.44MB/s(Youtube:不良林), server: 116.129.254.29, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国-6.83MB/s(Youtube:不良林), server: 116.129.253.130, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_2, server: hk-route2-azure-hk7.dukou.info, port: 8307, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: hk-route2-azure-hk7.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix 2, server: gg02.nfeng6.pp.ua, port: 63087, type: vmess, uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
+  - {name: 日本(youtube阿伟科技), server: 212.50.247.44, port: 443, type: vmess, uuid: 41282d6a-5887-40b6-802f-2a02d074f4b6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /1D6WqJ, ws-headers: {Host: 212.50.247.44}, udp: true}
+  - {name: YouTube梦歌|Netflix_111, server: shanghai-router1-892412-jp4.dukou.info, port: 6304, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: shanghai-router1-892412-jp4.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: 中国-3.00MB/s(Youtube:不良林), server: shcm.pdjc.cc, port: 42000, type: trojan, password: 8d0db1d1-62a2-4d8b-b272-e4f364e064c6, sni: shcm.pdjc.cc, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix 3, server: gg03.nfeng6.pp.ua, port: 63087, type: vmess, uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
+  - {name: YouTube梦歌|Netflix_57, server: l2-us-e.cmy-dns.com, port: 443, type: trojan, password: 3ad41c7b-b772-3f96-9986-66d1a2b79820cmynw, sni: l2-us-e.cmy-dns.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_134, server: sg-cn-relay-6-689145.dukou.info, port: 9306, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: sg-cn-relay-6-689145.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: 中国-7.08MB/s(Youtube:不良林), server: 116.129.254.47, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 上海市徐汇区联通漕河泾数据中心 5, server: mc.xiaohouzi.club, port: 28325, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: mc.xiaohouzi.club}, udp: true}
+  - {name: 香港(youtube阿伟科技) 3, server: cn-ii.somserver.top, port: 80, type: vmess, uuid: fde42ff2-98f5-3977-8cda-4f4675f64868, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/ws?ed=2048", ws-headers: {Host: cn-ii.somserver.top}, udp: true}
+  - {name: YouTube梦歌|Netflix_152, server: hk10-gray.dukou.info, port: 8310, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: hk10-gray.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_150, server: cs.bgp.liuliangzhuanfa.xyz, port: 33514, type: trojan, password: d5f3d3e1-c913-49cd-bf90-bf4e2ab9d0eb, sni: cs.bgp.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技), server: ifffffffuuuuuuus.qiqicdn2.cf, port: 443, type: vmess, uuid: 5a36cce4-0527-4d36-bf4a-6c215ef9c524, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5a36cce4-0527-4d36-bf4a-6c215ef9c524-vmess, ws-headers: {Host: ifffffffuuuuuuus.qiqicdn2.cf}, udp: true}
+  - {name: YouTube梦歌|Netflix_90, server: us-cn-hk-relay-4-bd5e54.dukou.info, port: 7304, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: us-cn-hk-relay-4-bd5e54.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 2, server: 1chuan.top, port: 443, type: vmess, uuid: fa8f90e0-2fae-4b05-df7a-ea325bc517d8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /evo, ws-headers: {Host: 1chuan.top}, udp: true}
+  - {name: YouTube梦歌|Netflix 4, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vjp3.0bad.com}, udp: true}
+  - {name: 法国-1.69MB/s(Youtube:不良林), server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120208301422, ws-headers: {Host: 54.37.192.112}, udp: true}
   - {name: bai-piao-wang-zhe10.98848.xyz, server: bai-piao-wang-zhe10.98848.xyz, port: 48240, type: trojan, password: c8bae3de-16ed-4247-8a99-f38ef79a4b51, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: trojan2 States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh, server: bai-piao-wang-zhe10.98848.xyz, port: 22168, type: trojan, password: mDmaAWoWXB, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 23, server: oz.moonfree.top, port: 443, type: vmess, uuid: 9fbb6122-46e7-413b-b29d-749eef446c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
+  - {name: 美国(youtube阿伟科技) 3, server: xjp.ziqiyun.xyz, port: 443, type: trojan, password: 7b561e94-42f3-4f92-979c-4cf97c328025, sni: xjp.ziqiyun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港-2.64MB/s(Youtube:不良林), server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 527hk1.fans8.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_140, server: sg-cn-hk-relay-5-51f087.dukou.info, port: 9305, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: sg-cn-hk-relay-5-51f087.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_155, server: shanghai-router1-892412-jp2.dukou.info, port: 6302, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: shanghai-router1-892412-jp2.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix 5, server: vjp1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vjp1.0bad.com}, udp: true}
+  - {name: 美国(youtube阿伟科技) 4, server: 198.200.51.219, port: 26969, type: trojan, password: 8d0db1d1-62a2-4d8b-b272-e4f364e064c6, skip-cert-verify: true, udp: true}
   - {name: trojan xtls States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh, server: bai-piao-wang-zhe10.98848.xyz, port: 50858, type: trojan, password: f0de3134-aef4-45b5-a135-3a82321bbac6, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_15, server: hinet.okvpn.xyz, port: 12000, type: trojan, password: e1e878cd-bd57-4929-9c41-d23c4acdd7b4, sni: hinet.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 中国-1.52MB/s(Youtube:不良林), server: 113.31.109.30, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
-  - {name: 中国-2.25MB/s(Youtube:不良林), server: 120.233.186.71, port: 3384, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
-  - {name: 中国-1.88MB/s(Youtube:不良林), server: 120.233.186.71, port: 3384, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_148, server: ru02-cu-2240.dukou.info, port: 2302, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: ru02-cu-2240.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix 6, server: vus5.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus5.0bad.com}, udp: true}
+  - {name: YouTube梦歌|Netflix_19, server: gg01.nfeng6.pp.ua, port: 63069, type: vmess, uuid: c4630fde-3be4-32a5-87bb-01a0dfe5f9a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gg01.nfeng6.pp.ua}, udp: true}
+  - {name: 欧洲📔晚高峰8K流媒体机场：https://kuaiyin.info/, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
+  - {name: YouTube梦歌|Netflix_23, server: twb.bdpyyds.top, port: 15001, type: trojan, password: eec221e9-eba3-3b67-83d5-78fd7370500d, sni: twb.bdpyyds.top, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 5, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
+  - {name: YouTube梦歌|Netflix 7, server: gg01.nfeng6.pp.ua, port: 63078, type: vmess, uuid: c4630fde-3be4-32a5-87bb-01a0dfe5f9a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
+  - {name: "@SSRSUB-V10-付费推荐:suo.yt/ssrsub", server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 20, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_143
+      - 香港(youtube阿伟科技)
+      - 中国-5.68MB/s(Youtube:不良林)
+      - 中国-6.94MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix
+      - 中国-7.73MB/s(Youtube:不良林)
+      - 中国-6.14MB/s(Youtube:不良林)
+      - 中国-9.19MB/s(Youtube:不良林)
+      - 香港(youtube阿伟科技) 2
+      - 中国-7.44MB/s(Youtube:不良林)
+      - 中国-6.83MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_2
+      - YouTube梦歌|Netflix 2
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_111
+      - 中国-3.00MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix 3
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_134
+      - 中国-7.08MB/s(Youtube:不良林)
+      - github.com/freefq - 上海市徐汇区联通漕河泾数据中心 5
+      - 香港(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_152
+      - YouTube梦歌|Netflix_150
+      - 美国(youtube阿伟科技)
       - YouTube梦歌|Netflix_90
-      - YouTube梦歌|Netflix_131
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
-      - YouTube梦歌|Netflix_222
-      - 欧洲📔好用的机场：https://kuaiyin.info/
+      - 美国(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix 4
+      - 法国-1.69MB/s(Youtube:不良林)
       - bai-piao-wang-zhe10.98848.xyz
-      - trojan2 States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - github.com/freefq - 美国CloudFlare节点 23
+      - 美国(youtube阿伟科技) 3
+      - 香港-2.64MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_155
+      - YouTube梦歌|Netflix 5
+      - 美国(youtube阿伟科技) 4
       - trojan xtls States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_15
-      - 中国-1.52MB/s(Youtube:不良林)
-      - 中国-2.25MB/s(Youtube:不良林)
-      - 中国-1.88MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix 6
+      - YouTube梦歌|Netflix_19
+      - 欧洲📔晚高峰8K流媒体机场：https://kuaiyin.info/
+      - YouTube梦歌|Netflix_23
+      - 美国(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix 7
+      - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
+      - github.com/freefq - 美国CloudFlare公司CDN节点 20
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_143
+      - 香港(youtube阿伟科技)
+      - 中国-5.68MB/s(Youtube:不良林)
+      - 中国-6.94MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix
+      - 中国-7.73MB/s(Youtube:不良林)
+      - 中国-6.14MB/s(Youtube:不良林)
+      - 中国-9.19MB/s(Youtube:不良林)
+      - 香港(youtube阿伟科技) 2
+      - 中国-7.44MB/s(Youtube:不良林)
+      - 中国-6.83MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_2
+      - YouTube梦歌|Netflix 2
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_111
+      - 中国-3.00MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix 3
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_134
+      - 中国-7.08MB/s(Youtube:不良林)
+      - github.com/freefq - 上海市徐汇区联通漕河泾数据中心 5
+      - 香港(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_152
+      - YouTube梦歌|Netflix_150
+      - 美国(youtube阿伟科技)
       - YouTube梦歌|Netflix_90
-      - YouTube梦歌|Netflix_131
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
-      - YouTube梦歌|Netflix_222
-      - 欧洲📔好用的机场：https://kuaiyin.info/
+      - 美国(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix 4
+      - 法国-1.69MB/s(Youtube:不良林)
       - bai-piao-wang-zhe10.98848.xyz
-      - trojan2 States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - github.com/freefq - 美国CloudFlare节点 23
+      - 美国(youtube阿伟科技) 3
+      - 香港-2.64MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_155
+      - YouTube梦歌|Netflix 5
+      - 美国(youtube阿伟科技) 4
       - trojan xtls States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_15
-      - 中国-1.52MB/s(Youtube:不良林)
-      - 中国-2.25MB/s(Youtube:不良林)
-      - 中国-1.88MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix 6
+      - YouTube梦歌|Netflix_19
+      - 欧洲📔晚高峰8K流媒体机场：https://kuaiyin.info/
+      - YouTube梦歌|Netflix_23
+      - 美国(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix 7
+      - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
+      - github.com/freefq - 美国CloudFlare公司CDN节点 20
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_143
+      - 香港(youtube阿伟科技)
+      - 中国-5.68MB/s(Youtube:不良林)
+      - 中国-6.94MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix
+      - 中国-7.73MB/s(Youtube:不良林)
+      - 中国-6.14MB/s(Youtube:不良林)
+      - 中国-9.19MB/s(Youtube:不良林)
+      - 香港(youtube阿伟科技) 2
+      - 中国-7.44MB/s(Youtube:不良林)
+      - 中国-6.83MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_2
+      - YouTube梦歌|Netflix 2
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_111
+      - 中国-3.00MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix 3
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_134
+      - 中国-7.08MB/s(Youtube:不良林)
+      - github.com/freefq - 上海市徐汇区联通漕河泾数据中心 5
+      - 香港(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_152
+      - YouTube梦歌|Netflix_150
+      - 美国(youtube阿伟科技)
       - YouTube梦歌|Netflix_90
-      - YouTube梦歌|Netflix_131
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
-      - YouTube梦歌|Netflix_222
-      - 欧洲📔好用的机场：https://kuaiyin.info/
+      - 美国(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix 4
+      - 法国-1.69MB/s(Youtube:不良林)
       - bai-piao-wang-zhe10.98848.xyz
-      - trojan2 States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - github.com/freefq - 美国CloudFlare节点 23
+      - 美国(youtube阿伟科技) 3
+      - 香港-2.64MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_155
+      - YouTube梦歌|Netflix 5
+      - 美国(youtube阿伟科技) 4
       - trojan xtls States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_15
-      - 中国-1.52MB/s(Youtube:不良林)
-      - 中国-2.25MB/s(Youtube:不良林)
-      - 中国-1.88MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix 6
+      - YouTube梦歌|Netflix_19
+      - 欧洲📔晚高峰8K流媒体机场：https://kuaiyin.info/
+      - YouTube梦歌|Netflix_23
+      - 美国(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix 7
+      - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
+      - github.com/freefq - 美国CloudFlare公司CDN节点 20
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -96,83 +228,219 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_143
+      - 香港(youtube阿伟科技)
+      - 中国-5.68MB/s(Youtube:不良林)
+      - 中国-6.94MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix
+      - 中国-7.73MB/s(Youtube:不良林)
+      - 中国-6.14MB/s(Youtube:不良林)
+      - 中国-9.19MB/s(Youtube:不良林)
+      - 香港(youtube阿伟科技) 2
+      - 中国-7.44MB/s(Youtube:不良林)
+      - 中国-6.83MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_2
+      - YouTube梦歌|Netflix 2
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_111
+      - 中国-3.00MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix 3
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_134
+      - 中国-7.08MB/s(Youtube:不良林)
+      - github.com/freefq - 上海市徐汇区联通漕河泾数据中心 5
+      - 香港(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_152
+      - YouTube梦歌|Netflix_150
+      - 美国(youtube阿伟科技)
       - YouTube梦歌|Netflix_90
-      - YouTube梦歌|Netflix_131
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
-      - YouTube梦歌|Netflix_222
-      - 欧洲📔好用的机场：https://kuaiyin.info/
+      - 美国(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix 4
+      - 法国-1.69MB/s(Youtube:不良林)
       - bai-piao-wang-zhe10.98848.xyz
-      - trojan2 States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - github.com/freefq - 美国CloudFlare节点 23
+      - 美国(youtube阿伟科技) 3
+      - 香港-2.64MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_155
+      - YouTube梦歌|Netflix 5
+      - 美国(youtube阿伟科技) 4
       - trojan xtls States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_15
-      - 中国-1.52MB/s(Youtube:不良林)
-      - 中国-2.25MB/s(Youtube:不良林)
-      - 中国-1.88MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix 6
+      - YouTube梦歌|Netflix_19
+      - 欧洲📔晚高峰8K流媒体机场：https://kuaiyin.info/
+      - YouTube梦歌|Netflix_23
+      - 美国(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix 7
+      - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
+      - github.com/freefq - 美国CloudFlare公司CDN节点 20
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港(youtube阿伟科技)
+      - 香港(youtube阿伟科技) 2
+      - 香港(youtube阿伟科技) 3
+      - 香港-2.64MB/s(Youtube:不良林)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_143
+      - 香港(youtube阿伟科技)
+      - 中国-5.68MB/s(Youtube:不良林)
+      - 中国-6.94MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix
+      - 中国-7.73MB/s(Youtube:不良林)
+      - 中国-6.14MB/s(Youtube:不良林)
+      - 中国-9.19MB/s(Youtube:不良林)
+      - 香港(youtube阿伟科技) 2
+      - 中国-7.44MB/s(Youtube:不良林)
+      - 中国-6.83MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_2
+      - YouTube梦歌|Netflix 2
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_111
+      - 中国-3.00MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix 3
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_134
+      - 中国-7.08MB/s(Youtube:不良林)
+      - github.com/freefq - 上海市徐汇区联通漕河泾数据中心 5
+      - 香港(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_152
+      - YouTube梦歌|Netflix_150
+      - 美国(youtube阿伟科技)
       - YouTube梦歌|Netflix_90
-      - YouTube梦歌|Netflix_131
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
-      - YouTube梦歌|Netflix_222
-      - 欧洲📔好用的机场：https://kuaiyin.info/
+      - 美国(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix 4
+      - 法国-1.69MB/s(Youtube:不良林)
       - bai-piao-wang-zhe10.98848.xyz
-      - trojan2 States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - github.com/freefq - 美国CloudFlare节点 23
+      - 美国(youtube阿伟科技) 3
+      - 香港-2.64MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_155
+      - YouTube梦歌|Netflix 5
+      - 美国(youtube阿伟科技) 4
       - trojan xtls States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_15
-      - 中国-1.52MB/s(Youtube:不良林)
-      - 中国-2.25MB/s(Youtube:不良林)
-      - 中国-1.88MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix 6
+      - YouTube梦歌|Netflix_19
+      - 欧洲📔晚高峰8K流媒体机场：https://kuaiyin.info/
+      - YouTube梦歌|Netflix_23
+      - 美国(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix 7
+      - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
+      - github.com/freefq - 美国CloudFlare公司CDN节点 20
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_143
+      - 香港(youtube阿伟科技)
+      - 中国-5.68MB/s(Youtube:不良林)
+      - 中国-6.94MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix
+      - 中国-7.73MB/s(Youtube:不良林)
+      - 中国-6.14MB/s(Youtube:不良林)
+      - 中国-9.19MB/s(Youtube:不良林)
+      - 香港(youtube阿伟科技) 2
+      - 中国-7.44MB/s(Youtube:不良林)
+      - 中国-6.83MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_2
+      - YouTube梦歌|Netflix 2
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_111
+      - 中国-3.00MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix 3
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_134
+      - 中国-7.08MB/s(Youtube:不良林)
+      - github.com/freefq - 上海市徐汇区联通漕河泾数据中心 5
+      - 香港(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_152
+      - YouTube梦歌|Netflix_150
+      - 美国(youtube阿伟科技)
       - YouTube梦歌|Netflix_90
-      - YouTube梦歌|Netflix_131
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
-      - YouTube梦歌|Netflix_222
-      - 欧洲📔好用的机场：https://kuaiyin.info/
+      - 美国(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix 4
+      - 法国-1.69MB/s(Youtube:不良林)
       - bai-piao-wang-zhe10.98848.xyz
-      - trojan2 States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - github.com/freefq - 美国CloudFlare节点 23
+      - 美国(youtube阿伟科技) 3
+      - 香港-2.64MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_155
+      - YouTube梦歌|Netflix 5
+      - 美国(youtube阿伟科技) 4
       - trojan xtls States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_15
-      - 中国-1.52MB/s(Youtube:不良林)
-      - 中国-2.25MB/s(Youtube:不良林)
-      - 中国-1.88MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix 6
+      - YouTube梦歌|Netflix_19
+      - 欧洲📔晚高峰8K流媒体机场：https://kuaiyin.info/
+      - YouTube梦歌|Netflix_23
+      - 美国(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix 7
+      - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
+      - github.com/freefq - 美国CloudFlare公司CDN节点 20
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_143
+      - 香港(youtube阿伟科技)
+      - 中国-5.68MB/s(Youtube:不良林)
+      - 中国-6.94MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix
+      - 中国-7.73MB/s(Youtube:不良林)
+      - 中国-6.14MB/s(Youtube:不良林)
+      - 中国-9.19MB/s(Youtube:不良林)
+      - 香港(youtube阿伟科技) 2
+      - 中国-7.44MB/s(Youtube:不良林)
+      - 中国-6.83MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_2
+      - YouTube梦歌|Netflix 2
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_111
+      - 中国-3.00MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix 3
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_134
+      - 中国-7.08MB/s(Youtube:不良林)
+      - github.com/freefq - 上海市徐汇区联通漕河泾数据中心 5
+      - 香港(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_152
+      - YouTube梦歌|Netflix_150
+      - 美国(youtube阿伟科技)
       - YouTube梦歌|Netflix_90
-      - YouTube梦歌|Netflix_131
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
-      - YouTube梦歌|Netflix_222
-      - 欧洲📔好用的机场：https://kuaiyin.info/
+      - 美国(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix 4
+      - 法国-1.69MB/s(Youtube:不良林)
       - bai-piao-wang-zhe10.98848.xyz
-      - trojan2 States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - github.com/freefq - 美国CloudFlare节点 23
+      - 美国(youtube阿伟科技) 3
+      - 香港-2.64MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_155
+      - YouTube梦歌|Netflix 5
+      - 美国(youtube阿伟科技) 4
       - trojan xtls States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_15
-      - 中国-1.52MB/s(Youtube:不良林)
-      - 中国-2.25MB/s(Youtube:不良林)
-      - 中国-1.88MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix 6
+      - YouTube梦歌|Netflix_19
+      - 欧洲📔晚高峰8K流媒体机场：https://kuaiyin.info/
+      - YouTube梦歌|Netflix_23
+      - 美国(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix 7
+      - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
+      - github.com/freefq - 美国CloudFlare公司CDN节点 20
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -188,20 +456,53 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_143
+      - 香港(youtube阿伟科技)
+      - 中国-5.68MB/s(Youtube:不良林)
+      - 中国-6.94MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix
+      - 中国-7.73MB/s(Youtube:不良林)
+      - 中国-6.14MB/s(Youtube:不良林)
+      - 中国-9.19MB/s(Youtube:不良林)
+      - 香港(youtube阿伟科技) 2
+      - 中国-7.44MB/s(Youtube:不良林)
+      - 中国-6.83MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_2
+      - YouTube梦歌|Netflix 2
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_111
+      - 中国-3.00MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix 3
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_134
+      - 中国-7.08MB/s(Youtube:不良林)
+      - github.com/freefq - 上海市徐汇区联通漕河泾数据中心 5
+      - 香港(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_152
+      - YouTube梦歌|Netflix_150
+      - 美国(youtube阿伟科技)
       - YouTube梦歌|Netflix_90
-      - YouTube梦歌|Netflix_131
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh 2
-      - YouTube梦歌|Netflix_222
-      - 欧洲📔好用的机场：https://kuaiyin.info/
+      - 美国(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix 4
+      - 法国-1.69MB/s(Youtube:不良林)
       - bai-piao-wang-zhe10.98848.xyz
-      - trojan2 States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
+      - github.com/freefq - 美国CloudFlare节点 23
+      - 美国(youtube阿伟科技) 3
+      - 香港-2.64MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_155
+      - YouTube梦歌|Netflix 5
+      - 美国(youtube阿伟科技) 4
       - trojan xtls States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_15
-      - 中国-1.52MB/s(Youtube:不良林)
-      - 中国-2.25MB/s(Youtube:不良林)
-      - 中国-1.88MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix 6
+      - YouTube梦歌|Netflix_19
+      - 欧洲📔晚高峰8K流媒体机场：https://kuaiyin.info/
+      - YouTube梦歌|Netflix_23
+      - 美国(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix 7
+      - "@SSRSUB-V10-付费推荐:suo.yt/ssrsub"
+      - github.com/freefq - 美国CloudFlare公司CDN节点 20
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
