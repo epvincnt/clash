@@ -5,191 +5,207 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 美国-9.35MB/s(Youtube:不良林), server: 20.210.229.72, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 美国-7.83MB/s(Youtube:不良林), server: 20.210.229.72, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
   - {name: YouTube梦歌|Netflix_155, server: shanghai-router1-892412-jp2.dukou.info, port: 6302, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: shanghai-router1-892412-jp2.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_17, server: cn2.node.zeroteam.top, port: 25101, type: ss, cipher: chacha20-ietf-poly1305, password: 929b1c1e-268b-4993-a83c-56782598a223, udp: true}
-  - {name: YouTube梦歌|Netflix_21, server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-1.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_2, server: hk-route2-azure-hk7.dukou.info, port: 8307, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: hk-route2-azure-hk7.dukou.info, skip-cert-verify: true, udp: true}
   - {name: YouTube梦歌|Netflix_16, server: cn2.node.zeroteam.top, port: 29686, type: ss, cipher: chacha20-ietf-poly1305, password: 929b1c1e-268b-4993-a83c-56782598a223, udp: true}
+  - {name: 美国-3.77MB/s(Youtube:不良林), server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-1.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_152, server: hk10-gray.dukou.info, port: 8310, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: hk10-gray.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_140, server: sg-cn-hk-relay-5-51f087.dukou.info, port: 9305, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: sg-cn-hk-relay-5-51f087.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_143, server: az.az-bgp.chuangshi999.xyz, port: 31250, type: trojan, password: d5f3d3e1-c913-49cd-bf90-bf4e2ab9d0eb, sni: az.az-bgp.chuangshi999.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_134, server: sg-cn-relay-6-689145.dukou.info, port: 9306, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: sg-cn-relay-6-689145.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_54, server: cn1.node.zeroteam.top, port: 17542, type: ss, cipher: chacha20-ietf-poly1305, password: 929b1c1e-268b-4993-a83c-56782598a223, udp: true}
+  - {name: 美国-4.01MB/s(Youtube:不良林), server: 212.81.47.18, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: 美国-2.71MB/s(Youtube:不良林), server: 212.81.47.12, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_18, server: cn2.node.zeroteam.top, port: 40094, type: ss, cipher: chacha20-ietf-poly1305, password: 929b1c1e-268b-4993-a83c-56782598a223, udp: true}
+  - {name: YouTube梦歌|Netflix_1, server: cm-gz.okvpn.xyz, port: 20009, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_22, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: 美国-4.53MB/s(Youtube:不良林), server: 212.81.47.16, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_72, server: mc.vpshax.ml, port: 443, type: trojan, password: 48ac743a-2d49-4191-b804-0c7fa7e01146, sni: mc.vpshax.ml, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_5, server: cu-cs.okvpn.xyz, port: 20009, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 节点更新 bit.ly/36b6iJh, server: mc.vpshax.ml, port: 443, type: vmess, uuid: 48ac743a-2d49-4191-b804-0c7fa7e01146, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ejpevws, ws-headers: {Host: mc.vpshax.ml}, udp: true}
+  - {name: YouTube梦歌|Netflix_90, server: us-cn-hk-relay-4-bd5e54.dukou.info, port: 7304, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: us-cn-hk-relay-4-bd5e54.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_35, server: cn2.node.zeroteam.top, port: 21723, type: ss, cipher: chacha20-ietf-poly1305, password: 929b1c1e-268b-4993-a83c-56782598a223, udp: true}
   - {name: YouTube梦歌|Netflix_111, server: shanghai-router1-892412-jp4.dukou.info, port: 6304, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: shanghai-router1-892412-jp4.dukou.info, skip-cert-verify: true, udp: true}
   - {name: YouTube梦歌|Netflix_19, server: cn2.node.zeroteam.top, port: 29532, type: ss, cipher: chacha20-ietf-poly1305, password: 929b1c1e-268b-4993-a83c-56782598a223, udp: true}
-  - {name: YouTube梦歌|Netflix_25, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_54, server: cn1.node.zeroteam.top, port: 17542, type: ss, cipher: chacha20-ietf-poly1305, password: 929b1c1e-268b-4993-a83c-56782598a223, udp: true}
-  - {name: YouTube梦歌|Netflix_18, server: cn2.node.zeroteam.top, port: 40094, type: ss, cipher: chacha20-ietf-poly1305, password: 929b1c1e-268b-4993-a83c-56782598a223, udp: true}
-  - {name: 美国-2.62MB/s(Youtube:不良林), server: 212.81.47.17, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_152, server: hk10-gray.dukou.info, port: 8310, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: hk10-gray.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_2, server: hk-route2-azure-hk7.dukou.info, port: 8307, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: hk-route2-azure-hk7.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_134, server: sg-cn-relay-6-689145.dukou.info, port: 9306, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: sg-cn-relay-6-689145.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_90, server: us-cn-hk-relay-4-bd5e54.dukou.info, port: 7304, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: us-cn-hk-relay-4-bd5e54.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: 美国(youtube阿伟科技), server: shcm.pdjc.cc, port: 42000, type: trojan, password: 9337f0d6-c004-4e14-8d50-c944558ed322, sni: shcm.pdjc.cc, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_35, server: cn2.node.zeroteam.top, port: 21723, type: ss, cipher: chacha20-ietf-poly1305, password: 929b1c1e-268b-4993-a83c-56782598a223, udp: true}
-  - {name: YouTube梦歌|Netflix_72, server: mc.vpshax.ml, port: 443, type: trojan, password: 48ac743a-2d49-4191-b804-0c7fa7e01146, sni: mc.vpshax.ml, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_140, server: sg-cn-hk-relay-5-51f087.dukou.info, port: 9305, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: sg-cn-hk-relay-5-51f087.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_5, server: cu-cs.okvpn.xyz, port: 20009, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_150, server: cs.bgp.liuliangzhuanfa.xyz, port: 33514, type: trojan, password: d5f3d3e1-c913-49cd-bf90-bf4e2ab9d0eb, sni: cs.bgp.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_22, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 节点更新 bit.ly/36b6iJh, server: mc.vpshax.ml, port: 443, type: vmess, uuid: 48ac743a-2d49-4191-b804-0c7fa7e01146, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ejpevws, ws-headers: {Host: mc.vpshax.ml}, udp: true}
-  - {name: YouTube梦歌|Netflix_1, server: cm-gz.okvpn.xyz, port: 20009, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国-4.01MB/s(Youtube:不良林), server: 212.81.47.18, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: 美国(youtube阿伟科技) 2, server: us.vless.fun, port: 443, type: trojan, password: password, sni: us.vless.fun, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix, server: vus4.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus4.0bad.com}, udp: true}
-  - {name: YouTube梦歌|Netflix_143, server: az.az-bgp.chuangshi999.xyz, port: 31250, type: trojan, password: d5f3d3e1-c913-49cd-bf90-bf4e2ab9d0eb, sni: az.az-bgp.chuangshi999.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix 2, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vjp3.0bad.com}, udp: true}
-  - {name: YouTube梦歌|Netflix_62, server: gy.moonfree.top, port: 17252, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy.moonfree.top}, udp: true}
-  - {name: 美国(youtube阿伟科技) 3, server: 107.148.23.159, port: 26969, type: trojan, password: 9337f0d6-c004-4e14-8d50-c944558ed322, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯(youtube阿伟科技), server: ru.nuker.biz, port: 443, type: vmess, uuid: 9dba4fe2-fdea-4c6d-9234-80060cc3ed20, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ru.nuker.biz}, udp: true}
-  - {name: 13, server: us1.31vpn.com, port: 443, type: vmess, uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/darlene7575yrtuty/629d89da8a586/, ws-headers: {Host: us1.31vpn.com}, udp: true}
-  - {name: YouTube梦歌|Netflix_12, server: cm-gz.okvpn.xyz, port: 20006, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13 2, server: us1.31vpn.com, port: 80, type: vmess, uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/darlene7575yrtuty/629d89da8a586/, ws-headers: {Host: us1.31vpn.com}, udp: true}
-  - {name: YouTube梦歌|Netflix_9, server: cu-cs.okvpn.xyz, port: 20006, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国(youtube阿伟科技) 4, server: v20.emovpn.xyz, port: 1256, type: vmess, uuid: 61e28514-1462-43b8-97ac-186dc70151f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: 英国-2.21MB/s(Youtube:不良林), server: 152.89.210.105, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: 美国(youtube阿伟科技) 5, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
-  - {name: 美国(youtube阿伟科技) 6, server: sfo1.nuker.biz, port: 443, type: vmess, uuid: 9dba4fe2-fdea-4c6d-9234-80060cc3ed20, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sfo1.nuker.biz}, udp: true}
   - {name: YouTube梦歌|Netflix_4, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国(v2rayshare.com免费节点日更)_3, server: bai-piao-wang-zhe10.98848.xyz, port: 22168, type: trojan, password: mDmaAWoWXB, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国-2.62MB/s(Youtube:不良林), server: 212.81.47.17, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: 13, server: us1.31vpn.com, port: 80, type: vmess, uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/darlene7575yrtuty/629d89da8a586/, ws-headers: {Host: us1.31vpn.com}, udp: true}
+  - {name: 美国(youtube阿伟科技), server: shcm.pdjc.cc, port: 42000, type: trojan, password: 9337f0d6-c004-4e14-8d50-c944558ed322, sni: shcm.pdjc.cc, skip-cert-verify: true, udp: true}
+  - {name: 美国-3.37MB/s(Youtube:不良林), server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_17, server: cn2.node.zeroteam.top, port: 25101, type: ss, cipher: chacha20-ietf-poly1305, password: 929b1c1e-268b-4993-a83c-56782598a223, udp: true}
+  - {name: YouTube梦歌|Netflix_150, server: cs.bgp.liuliangzhuanfa.xyz, port: 33514, type: trojan, password: d5f3d3e1-c913-49cd-bf90-bf4e2ab9d0eb, sni: cs.bgp.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13 2, server: us1.31vpn.com, port: 443, type: vmess, uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/darlene7575yrtuty/629d89da8a586/, ws-headers: {Host: us1.31vpn.com}, udp: true}
   - {name: bai-piao-wang-zhe10.98848.xyz, server: bai-piao-wang-zhe10.98848.xyz, port: 48240, type: trojan, password: c8bae3de-16ed-4247-8a99-f38ef79a4b51, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本-11.10MB/s(Youtube:不良林), server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 2, server: us.vless.fun, port: 443, type: trojan, password: password, sni: us.vless.fun, skip-cert-verify: true, udp: true}
+  - {name: 巴西-2.42MB/s(Youtube:不良林), server: fr.n.optage.moe, port: 44612, type: trojan, password: 673c8e50-d1c4-4e1f-ae6f-3c694e769006, sni: fr.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: 印度-2.99MB/s(Youtube:不良林), server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vjp3.0bad.com}, udp: true}
+  - {name: YouTube梦歌|Netflix_12, server: cm-gz.okvpn.xyz, port: 20006, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国(v2rayshare.com免费节点日更)_3, server: bai-piao-wang-zhe10.98848.xyz, port: 22168, type: trojan, password: mDmaAWoWXB, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_9, server: cu-cs.okvpn.xyz, port: 20006, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix 2, server: vus4.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus4.0bad.com}, udp: true}
+  - {name: 美国(youtube阿伟科技) 3, server: 107.148.23.159, port: 26969, type: trojan, password: 9337f0d6-c004-4e14-8d50-c944558ed322, skip-cert-verify: true, udp: true}
+  - {name: 美国-2.35MB/s(Youtube:不良林), server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 台湾-305.8KB/s(Youtube:不良林), server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 330tw.fans8.xyz}, udp: true}
+  - {name: 美国(youtube阿伟科技) 4, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国-9.35MB/s(Youtube:不良林)
+      - 美国-7.83MB/s(Youtube:不良林)
       - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_21
+      - YouTube梦歌|Netflix_2
       - YouTube梦歌|Netflix_16
+      - 美国-3.77MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_152
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_143
+      - YouTube梦歌|Netflix_134
+      - YouTube梦歌|Netflix_54
+      - 美国-4.01MB/s(Youtube:不良林)
+      - 美国-2.71MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|Netflix_1
+      - YouTube梦歌|Netflix_22
+      - 美国-4.53MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_72
+      - YouTube梦歌|Netflix_5
+      - 节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_35
       - YouTube梦歌|Netflix_111
       - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_54
-      - YouTube梦歌|Netflix_18
-      - 美国-2.62MB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_152
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_134
-      - YouTube梦歌|Netflix_90
-      - 美国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_35
-      - YouTube梦歌|Netflix_72
-      - YouTube梦歌|Netflix_140
-      - YouTube梦歌|Netflix_5
-      - YouTube梦歌|Netflix_150
-      - YouTube梦歌|Netflix_22
-      - 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_1
-      - 美国-4.01MB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技) 2
-      - YouTube梦歌|Netflix
-      - YouTube梦歌|Netflix_143
-      - YouTube梦歌|Netflix 2
-      - YouTube梦歌|Netflix_62
-      - 美国(youtube阿伟科技) 3
-      - 俄罗斯(youtube阿伟科技)
-      - 13
-      - YouTube梦歌|Netflix_12
-      - 13 2
-      - YouTube梦歌|Netflix_9
-      - 美国(youtube阿伟科技) 4
-      - 英国-2.21MB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技) 5
-      - 美国(youtube阿伟科技) 6
       - YouTube梦歌|Netflix_4
-      - 美国(v2rayshare.com免费节点日更)_3
+      - 美国-2.62MB/s(Youtube:不良林)
+      - 13
+      - 美国(youtube阿伟科技)
+      - 美国-3.37MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_150
+      - 13 2
       - bai-piao-wang-zhe10.98848.xyz
+      - 日本-11.10MB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技) 2
+      - 巴西-2.42MB/s(Youtube:不良林)
+      - 印度-2.99MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix
+      - YouTube梦歌|Netflix_12
+      - 美国(v2rayshare.com免费节点日更)_3
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix 2
+      - 美国(youtube阿伟科技) 3
+      - 美国-2.35MB/s(Youtube:不良林)
+      - 台湾-305.8KB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技) 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 美国-9.35MB/s(Youtube:不良林)
+      - 美国-7.83MB/s(Youtube:不良林)
       - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_21
+      - YouTube梦歌|Netflix_2
       - YouTube梦歌|Netflix_16
+      - 美国-3.77MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_152
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_143
+      - YouTube梦歌|Netflix_134
+      - YouTube梦歌|Netflix_54
+      - 美国-4.01MB/s(Youtube:不良林)
+      - 美国-2.71MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|Netflix_1
+      - YouTube梦歌|Netflix_22
+      - 美国-4.53MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_72
+      - YouTube梦歌|Netflix_5
+      - 节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_35
       - YouTube梦歌|Netflix_111
       - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_54
-      - YouTube梦歌|Netflix_18
-      - 美国-2.62MB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_152
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_134
-      - YouTube梦歌|Netflix_90
-      - 美国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_35
-      - YouTube梦歌|Netflix_72
-      - YouTube梦歌|Netflix_140
-      - YouTube梦歌|Netflix_5
-      - YouTube梦歌|Netflix_150
-      - YouTube梦歌|Netflix_22
-      - 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_1
-      - 美国-4.01MB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技) 2
-      - YouTube梦歌|Netflix
-      - YouTube梦歌|Netflix_143
-      - YouTube梦歌|Netflix 2
-      - YouTube梦歌|Netflix_62
-      - 美国(youtube阿伟科技) 3
-      - 俄罗斯(youtube阿伟科技)
-      - 13
-      - YouTube梦歌|Netflix_12
-      - 13 2
-      - YouTube梦歌|Netflix_9
-      - 美国(youtube阿伟科技) 4
-      - 英国-2.21MB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技) 5
-      - 美国(youtube阿伟科技) 6
       - YouTube梦歌|Netflix_4
-      - 美国(v2rayshare.com免费节点日更)_3
+      - 美国-2.62MB/s(Youtube:不良林)
+      - 13
+      - 美国(youtube阿伟科技)
+      - 美国-3.37MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_150
+      - 13 2
       - bai-piao-wang-zhe10.98848.xyz
+      - 日本-11.10MB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技) 2
+      - 巴西-2.42MB/s(Youtube:不良林)
+      - 印度-2.99MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix
+      - YouTube梦歌|Netflix_12
+      - 美国(v2rayshare.com免费节点日更)_3
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix 2
+      - 美国(youtube阿伟科技) 3
+      - 美国-2.35MB/s(Youtube:不良林)
+      - 台湾-305.8KB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技) 4
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国-9.35MB/s(Youtube:不良林)
+      - 美国-7.83MB/s(Youtube:不良林)
       - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_21
+      - YouTube梦歌|Netflix_2
       - YouTube梦歌|Netflix_16
+      - 美国-3.77MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_152
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_143
+      - YouTube梦歌|Netflix_134
+      - YouTube梦歌|Netflix_54
+      - 美国-4.01MB/s(Youtube:不良林)
+      - 美国-2.71MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|Netflix_1
+      - YouTube梦歌|Netflix_22
+      - 美国-4.53MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_72
+      - YouTube梦歌|Netflix_5
+      - 节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_35
       - YouTube梦歌|Netflix_111
       - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_54
-      - YouTube梦歌|Netflix_18
-      - 美国-2.62MB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_152
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_134
-      - YouTube梦歌|Netflix_90
-      - 美国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_35
-      - YouTube梦歌|Netflix_72
-      - YouTube梦歌|Netflix_140
-      - YouTube梦歌|Netflix_5
-      - YouTube梦歌|Netflix_150
-      - YouTube梦歌|Netflix_22
-      - 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_1
-      - 美国-4.01MB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技) 2
-      - YouTube梦歌|Netflix
-      - YouTube梦歌|Netflix_143
-      - YouTube梦歌|Netflix 2
-      - YouTube梦歌|Netflix_62
-      - 美国(youtube阿伟科技) 3
-      - 俄罗斯(youtube阿伟科技)
-      - 13
-      - YouTube梦歌|Netflix_12
-      - 13 2
-      - YouTube梦歌|Netflix_9
-      - 美国(youtube阿伟科技) 4
-      - 英国-2.21MB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技) 5
-      - 美国(youtube阿伟科技) 6
       - YouTube梦歌|Netflix_4
-      - 美国(v2rayshare.com免费节点日更)_3
+      - 美国-2.62MB/s(Youtube:不良林)
+      - 13
+      - 美国(youtube阿伟科技)
+      - 美国-3.37MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_150
+      - 13 2
       - bai-piao-wang-zhe10.98848.xyz
+      - 日本-11.10MB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技) 2
+      - 巴西-2.42MB/s(Youtube:不良林)
+      - 印度-2.99MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix
+      - YouTube梦歌|Netflix_12
+      - 美国(v2rayshare.com免费节点日更)_3
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix 2
+      - 美国(youtube阿伟科技) 3
+      - 美国-2.35MB/s(Youtube:不良林)
+      - 台湾-305.8KB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技) 4
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -208,195 +224,212 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国-9.35MB/s(Youtube:不良林)
+      - 美国-7.83MB/s(Youtube:不良林)
       - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_21
+      - YouTube梦歌|Netflix_2
       - YouTube梦歌|Netflix_16
+      - 美国-3.77MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_152
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_143
+      - YouTube梦歌|Netflix_134
+      - YouTube梦歌|Netflix_54
+      - 美国-4.01MB/s(Youtube:不良林)
+      - 美国-2.71MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|Netflix_1
+      - YouTube梦歌|Netflix_22
+      - 美国-4.53MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_72
+      - YouTube梦歌|Netflix_5
+      - 节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_35
       - YouTube梦歌|Netflix_111
       - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_54
-      - YouTube梦歌|Netflix_18
-      - 美国-2.62MB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_152
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_134
-      - YouTube梦歌|Netflix_90
-      - 美国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_35
-      - YouTube梦歌|Netflix_72
-      - YouTube梦歌|Netflix_140
-      - YouTube梦歌|Netflix_5
-      - YouTube梦歌|Netflix_150
-      - YouTube梦歌|Netflix_22
-      - 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_1
-      - 美国-4.01MB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技) 2
-      - YouTube梦歌|Netflix
-      - YouTube梦歌|Netflix_143
-      - YouTube梦歌|Netflix 2
-      - YouTube梦歌|Netflix_62
-      - 美国(youtube阿伟科技) 3
-      - 俄罗斯(youtube阿伟科技)
-      - 13
-      - YouTube梦歌|Netflix_12
-      - 13 2
-      - YouTube梦歌|Netflix_9
-      - 美国(youtube阿伟科技) 4
-      - 英国-2.21MB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技) 5
-      - 美国(youtube阿伟科技) 6
       - YouTube梦歌|Netflix_4
-      - 美国(v2rayshare.com免费节点日更)_3
+      - 美国-2.62MB/s(Youtube:不良林)
+      - 13
+      - 美国(youtube阿伟科技)
+      - 美国-3.37MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_150
+      - 13 2
       - bai-piao-wang-zhe10.98848.xyz
+      - 日本-11.10MB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技) 2
+      - 巴西-2.42MB/s(Youtube:不良林)
+      - 印度-2.99MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix
+      - YouTube梦歌|Netflix_12
+      - 美国(v2rayshare.com免费节点日更)_3
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix 2
+      - 美国(youtube阿伟科技) 3
+      - 美国-2.35MB/s(Youtube:不良林)
+      - 台湾-305.8KB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技) 4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 台湾-305.8KB/s(Youtube:不良林)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 美国-9.35MB/s(Youtube:不良林)
+      - 美国-7.83MB/s(Youtube:不良林)
       - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_21
+      - YouTube梦歌|Netflix_2
       - YouTube梦歌|Netflix_16
+      - 美国-3.77MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_152
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_143
+      - YouTube梦歌|Netflix_134
+      - YouTube梦歌|Netflix_54
+      - 美国-4.01MB/s(Youtube:不良林)
+      - 美国-2.71MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|Netflix_1
+      - YouTube梦歌|Netflix_22
+      - 美国-4.53MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_72
+      - YouTube梦歌|Netflix_5
+      - 节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_35
       - YouTube梦歌|Netflix_111
       - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_54
-      - YouTube梦歌|Netflix_18
-      - 美国-2.62MB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_152
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_134
-      - YouTube梦歌|Netflix_90
-      - 美国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_35
-      - YouTube梦歌|Netflix_72
-      - YouTube梦歌|Netflix_140
-      - YouTube梦歌|Netflix_5
-      - YouTube梦歌|Netflix_150
-      - YouTube梦歌|Netflix_22
-      - 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_1
-      - 美国-4.01MB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技) 2
-      - YouTube梦歌|Netflix
-      - YouTube梦歌|Netflix_143
-      - YouTube梦歌|Netflix 2
-      - YouTube梦歌|Netflix_62
-      - 美国(youtube阿伟科技) 3
-      - 俄罗斯(youtube阿伟科技)
-      - 13
-      - YouTube梦歌|Netflix_12
-      - 13 2
-      - YouTube梦歌|Netflix_9
-      - 美国(youtube阿伟科技) 4
-      - 英国-2.21MB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技) 5
-      - 美国(youtube阿伟科技) 6
       - YouTube梦歌|Netflix_4
-      - 美国(v2rayshare.com免费节点日更)_3
+      - 美国-2.62MB/s(Youtube:不良林)
+      - 13
+      - 美国(youtube阿伟科技)
+      - 美国-3.37MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_150
+      - 13 2
       - bai-piao-wang-zhe10.98848.xyz
+      - 日本-11.10MB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技) 2
+      - 巴西-2.42MB/s(Youtube:不良林)
+      - 印度-2.99MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix
+      - YouTube梦歌|Netflix_12
+      - 美国(v2rayshare.com免费节点日更)_3
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix 2
+      - 美国(youtube阿伟科技) 3
+      - 美国-2.35MB/s(Youtube:不良林)
+      - 台湾-305.8KB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技) 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 美国-9.35MB/s(Youtube:不良林)
+      - 美国-7.83MB/s(Youtube:不良林)
       - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_21
+      - YouTube梦歌|Netflix_2
       - YouTube梦歌|Netflix_16
+      - 美国-3.77MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_152
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_143
+      - YouTube梦歌|Netflix_134
+      - YouTube梦歌|Netflix_54
+      - 美国-4.01MB/s(Youtube:不良林)
+      - 美国-2.71MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|Netflix_1
+      - YouTube梦歌|Netflix_22
+      - 美国-4.53MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_72
+      - YouTube梦歌|Netflix_5
+      - 节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_35
       - YouTube梦歌|Netflix_111
       - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_54
-      - YouTube梦歌|Netflix_18
-      - 美国-2.62MB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_152
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_134
-      - YouTube梦歌|Netflix_90
-      - 美国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_35
-      - YouTube梦歌|Netflix_72
-      - YouTube梦歌|Netflix_140
-      - YouTube梦歌|Netflix_5
-      - YouTube梦歌|Netflix_150
-      - YouTube梦歌|Netflix_22
-      - 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_1
-      - 美国-4.01MB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技) 2
-      - YouTube梦歌|Netflix
-      - YouTube梦歌|Netflix_143
-      - YouTube梦歌|Netflix 2
-      - YouTube梦歌|Netflix_62
-      - 美国(youtube阿伟科技) 3
-      - 俄罗斯(youtube阿伟科技)
-      - 13
-      - YouTube梦歌|Netflix_12
-      - 13 2
-      - YouTube梦歌|Netflix_9
-      - 美国(youtube阿伟科技) 4
-      - 英国-2.21MB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技) 5
-      - 美国(youtube阿伟科技) 6
       - YouTube梦歌|Netflix_4
-      - 美国(v2rayshare.com免费节点日更)_3
+      - 美国-2.62MB/s(Youtube:不良林)
+      - 13
+      - 美国(youtube阿伟科技)
+      - 美国-3.37MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_150
+      - 13 2
       - bai-piao-wang-zhe10.98848.xyz
+      - 日本-11.10MB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技) 2
+      - 巴西-2.42MB/s(Youtube:不良林)
+      - 印度-2.99MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix
+      - YouTube梦歌|Netflix_12
+      - 美国(v2rayshare.com免费节点日更)_3
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix 2
+      - 美国(youtube阿伟科技) 3
+      - 美国-2.35MB/s(Youtube:不良林)
+      - 台湾-305.8KB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技) 4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 美国-9.35MB/s(Youtube:不良林)
+      - 美国-7.83MB/s(Youtube:不良林)
       - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_21
+      - YouTube梦歌|Netflix_2
       - YouTube梦歌|Netflix_16
+      - 美国-3.77MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_152
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_143
+      - YouTube梦歌|Netflix_134
+      - YouTube梦歌|Netflix_54
+      - 美国-4.01MB/s(Youtube:不良林)
+      - 美国-2.71MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|Netflix_1
+      - YouTube梦歌|Netflix_22
+      - 美国-4.53MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_72
+      - YouTube梦歌|Netflix_5
+      - 节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_35
       - YouTube梦歌|Netflix_111
       - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_54
-      - YouTube梦歌|Netflix_18
-      - 美国-2.62MB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_152
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_134
-      - YouTube梦歌|Netflix_90
-      - 美国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_35
-      - YouTube梦歌|Netflix_72
-      - YouTube梦歌|Netflix_140
-      - YouTube梦歌|Netflix_5
-      - YouTube梦歌|Netflix_150
-      - YouTube梦歌|Netflix_22
-      - 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_1
-      - 美国-4.01MB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技) 2
-      - YouTube梦歌|Netflix
-      - YouTube梦歌|Netflix_143
-      - YouTube梦歌|Netflix 2
-      - YouTube梦歌|Netflix_62
-      - 美国(youtube阿伟科技) 3
-      - 俄罗斯(youtube阿伟科技)
-      - 13
-      - YouTube梦歌|Netflix_12
-      - 13 2
-      - YouTube梦歌|Netflix_9
-      - 美国(youtube阿伟科技) 4
-      - 英国-2.21MB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技) 5
-      - 美国(youtube阿伟科技) 6
       - YouTube梦歌|Netflix_4
-      - 美国(v2rayshare.com免费节点日更)_3
+      - 美国-2.62MB/s(Youtube:不良林)
+      - 13
+      - 美国(youtube阿伟科技)
+      - 美国-3.37MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_150
+      - 13 2
       - bai-piao-wang-zhe10.98848.xyz
+      - 日本-11.10MB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技) 2
+      - 巴西-2.42MB/s(Youtube:不良林)
+      - 印度-2.99MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix
+      - YouTube梦歌|Netflix_12
+      - 美国(v2rayshare.com免费节点日更)_3
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix 2
+      - 美国(youtube阿伟科技) 3
+      - 美国-2.35MB/s(Youtube:不良林)
+      - 台湾-305.8KB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技) 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -412,48 +445,52 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 美国-9.35MB/s(Youtube:不良林)
+      - 美国-7.83MB/s(Youtube:不良林)
       - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_21
+      - YouTube梦歌|Netflix_2
       - YouTube梦歌|Netflix_16
+      - 美国-3.77MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_152
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_143
+      - YouTube梦歌|Netflix_134
+      - YouTube梦歌|Netflix_54
+      - 美国-4.01MB/s(Youtube:不良林)
+      - 美国-2.71MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|Netflix_1
+      - YouTube梦歌|Netflix_22
+      - 美国-4.53MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_72
+      - YouTube梦歌|Netflix_5
+      - 节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_35
       - YouTube梦歌|Netflix_111
       - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_54
-      - YouTube梦歌|Netflix_18
-      - 美国-2.62MB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_152
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_134
-      - YouTube梦歌|Netflix_90
-      - 美国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_35
-      - YouTube梦歌|Netflix_72
-      - YouTube梦歌|Netflix_140
-      - YouTube梦歌|Netflix_5
-      - YouTube梦歌|Netflix_150
-      - YouTube梦歌|Netflix_22
-      - 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_1
-      - 美国-4.01MB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技) 2
-      - YouTube梦歌|Netflix
-      - YouTube梦歌|Netflix_143
-      - YouTube梦歌|Netflix 2
-      - YouTube梦歌|Netflix_62
-      - 美国(youtube阿伟科技) 3
-      - 俄罗斯(youtube阿伟科技)
-      - 13
-      - YouTube梦歌|Netflix_12
-      - 13 2
-      - YouTube梦歌|Netflix_9
-      - 美国(youtube阿伟科技) 4
-      - 英国-2.21MB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技) 5
-      - 美国(youtube阿伟科技) 6
       - YouTube梦歌|Netflix_4
-      - 美国(v2rayshare.com免费节点日更)_3
+      - 美国-2.62MB/s(Youtube:不良林)
+      - 13
+      - 美国(youtube阿伟科技)
+      - 美国-3.37MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_150
+      - 13 2
       - bai-piao-wang-zhe10.98848.xyz
+      - 日本-11.10MB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技) 2
+      - 巴西-2.42MB/s(Youtube:不良林)
+      - 印度-2.99MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix
+      - YouTube梦歌|Netflix_12
+      - 美国(v2rayshare.com免费节点日更)_3
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix 2
+      - 美国(youtube阿伟科技) 3
+      - 美国-2.35MB/s(Youtube:不良林)
+      - 台湾-305.8KB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技) 4
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
