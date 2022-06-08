@@ -5,567 +5,795 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港杨枝甘露 03-D, server: 104.208.84.160, port: 12369, type: trojan, password: cf09c43b-b622-46ea-8b5e-dcd7bafc8676, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管：全网最强白嫖 2, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 日本(youtube阿伟科技), server: 20.210.234.200, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: 香港丝袜奶茶 02-D, server: 20.247.1.197, port: 12339, type: trojan, password: cf09c43b-b622-46ea-8b5e-dcd7bafc8676, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_111, server: shanghai-router1-892412-jp4.dukou.info, port: 6304, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: shanghai-router1-892412-jp4.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 3, server: awshk06.xiaohouzi.club, port: 10050, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.ibm.com}, udp: true}
-  - {name: _油管：全网最强白嫖 4, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_47, server: sh.moonfree.top, port: 11263, type: vmess, uuid: 98672ce2-03ff-4309-94b6-65a6c04d8f25, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: YouTube梦歌|Netflix, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vjp3.0bad.com}, udp: true}
-  - {name: YouTube梦歌|Netflix_22, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 5, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: YouTube梦歌|Netflix_140, server: sg-cn-hk-relay-5-51f087.dukou.info, port: 9305, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: sg-cn-hk-relay-5-51f087.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: +美国-3.37MB/s(Youtube:不良林), server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: United States (US) 节点更新 bit.ly/36b6iJh, server: bai-piao-wang-zhe-iplc12.98848.xyz, port: 19222, type: trojan, password: 2b815eb6-3982-4f09-9181-3c02c479d4d1, sni: bai-piao-wang-zhe-iplc12.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_134, server: sg-cn-relay-6-689145.dukou.info, port: 9306, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: sg-cn-relay-6-689145.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh-clone, server: bai-piao-wang-zhe10.98848.xyz, port: 48240, type: trojan, password: c8bae3de-16ed-4247-8a99-f38ef79a4b51, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_58, server: c66s5.jamjams.net, port: 13531, type: vmess, uuid: d3b6e3f6-1a5e-4a46-8858-6f9ac2f0e90c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_152, server: hk10-gray.dukou.info, port: 8310, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: hk10-gray.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_1, server: cm-gz.okvpn.xyz, port: 20009, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本(youtube阿伟科技) 2, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 香港(youtube阿伟科技), server: mc.xiaohouzi.club, port: 27811, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: 韩国(youtube阿伟科技), server: mc.xiaohouzi.club, port: 28323, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: YouTube梦歌|Netflix_90, server: us-cn-hk-relay-4-bd5e54.dukou.info, port: 7304, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: us-cn-hk-relay-4-bd5e54.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_5, server: cu-cs.okvpn.xyz, port: 20009, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 6, server: 47.243.87.171, port: 443, type: vmess, uuid: 4af38112-0854-48d8-9387-5ece4078a599, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /szGxn, ws-headers: {Host: 47.243.87.171}, udp: true}
-  - {name: _油管：全网最强白嫖 7, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 日本(youtube阿伟科技) 3, server: awshk06.xiaohouzi.club, port: 10050, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: 韩国(youtube阿伟科技) 2, server: mc.xiaohouzi.club, port: 28324, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: _油管：全网最强白嫖 8, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: trojan2 (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh, server: bai-piao-wang-zhe10.98848.xyz, port: 22168, type: trojan, password: mDmaAWoWXB, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 9, server: au03.xiaohouzi.club, port: 10050, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.ibm.com}, udp: true}
-  - {name: _油管：全网最强白嫖 10, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 日本(youtube阿伟科技) 4, server: kirakirasevennine.com, port: 443, type: vmess, uuid: 67068812-0f6c-437e-ab13-f480f23bf004, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9f21/, ws-headers: {Host: kirakirasevennine.com}, udp: true}
-  - {name: _油管：全网最强白嫖 11, server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: YouTube梦歌|Netflix 2, server: vus4.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus4.0bad.com}, udp: true}
-  - {name: "香港 [免流] 节点更新 bit.ly/36b6iJh", server: bai-piao-wang-zhe-hk.vincent-jackson2022.tk, port: 80, type: vmess, uuid: af09fc7d-934a-43f7-a281-58d2044b8899, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: v.qq.com}, udp: true}
-  - {name: JP-高速节点推荐：v1.mk/vip, server: awshk06.xiaohouzi.club, port: 10050, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: awshk06.xiaohouzi.club}, udp: true}
-  - {name: _油管：全网最强白嫖 12, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 日本(youtube阿伟科技) 5, server: sakula.necirly.ml, port: 443, type: trojan, password: f1f68ae758, sni: sakula.necirly.ml, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 13, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 美国(youtube阿伟科技), server: shcm.pdjc.cc, port: 42000, type: trojan, password: bdcf22c5-22da-468e-921b-82fcb112db2d, sni: shcm.pdjc.cc, skip-cert-verify: true, udp: true}
-  - {name: us135  节点更新 bit.ly/36b6iJh, server: bai-piao-wang-zhe-iplc12.98848.xyz, port: 41130, type: trojan, password: YOZcQziR8Q, sni: bai-piao-wang-zhe-iplc12.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 14, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 瑞士(youtube阿伟科技), server: v2ray.wefuckgfw.ga, port: 2096, type: vmess, uuid: 556b20c1-272e-44ec-881b-94f410ac75de, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /H8VswtUJ/, ws-headers: {Host: v2ray.wefuckgfw.ga}, udp: true}
-  - {name: 澳大利亚(youtube阿伟科技), server: au03.xiaohouzi.club, port: 10050, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: CN-高速节点推荐：v1.mk/vip, server: sh.xiaohouzi.club, port: 25240, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.ibm.com}, udp: true}
-  - {name: _油管：全网最强白嫖 15, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 香港(youtube阿伟科技) 2, server: mc.xiaohouzi.club, port: 27821, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: AU-高速节点推荐：v1.mk/vip, server: au03.xiaohouzi.club, port: 10050, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: au03.xiaohouzi.club}, udp: true}
-  - {name: YouTube梦歌|Netflix_2, server: hk-route2-azure-hk7.dukou.info, port: 8307, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: hk-route2-azure-hk7.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_124, server: ma-zf.jiashumao.net, port: 22983, type: trojan, password: 7f65d1fa-01d4-3dab-b1c4-6083f8e94218, sni: ma-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_69, server: szdx-anhb.jiashumao.net, port: 22481, type: trojan, password: 5bc65f4c-f30c-32e5-9003-afc386e2eebc, sni: szdx-anhb.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_130, server: sxdx-nf.jiashumao.net, port: 35401, type: trojan, password: b20c330b-0dbf-35a0-9f95-1f1929809841, sni: sxdx-nf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_192, server: bnbq-zf.jiashumao.net, port: 26381, type: trojan, password: 6e67e759-d095-3966-a595-ff3aec31167b, sni: bnbq-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: 美国(youtube阿伟科技) 2, server: oz.moonfree.top, port: 443, type: vmess, uuid: 9fbb6122-46e7-413b-b29d-749eef446c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
-  - {name: 美国节点更新 bit.ly/36b6iJh, server: us.vless.fun, port: 443, type: trojan, password: password, sni: us.vless.fun, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_52, server: szdx-anhb.jiashumao.net, port: 22481, type: trojan, password: 7f65d1fa-01d4-3dab-b1c4-6083f8e94218, sni: szdx-anhb.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_56, server: szdx-anhb.jiashumao.net, port: 22481, type: trojan, password: 17bca687-1a18-331e-8e48-6e10ba62a2f2, sni: szdx-anhb.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: CN-高速节点推荐：v1.mk/vip 2, server: mc.xiaohouzi.club, port: 28321, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.ibm.com}, udp: true}
-  - {name: YouTube梦歌|Netflix_89, server: sxdx-nf.jiashumao.net, port: 35401, type: trojan, password: c4c34f9e-acd7-3723-83cc-b26de35b333d, sni: sxdx-nf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_180, server: sxdx-nf.jiashumao.net, port: 35401, type: trojan, password: 870587c9-b8ae-3f5e-bf3a-64ec486cbc4a, sni: sxdx-nf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_293, server: mlxy-zf.jiashumao.net, port: 27171, type: trojan, password: 7f65d1fa-01d4-3dab-b1c4-6083f8e94218, sni: mlxy-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_157, server: sg-zf.jiashumao.net, port: 29465, type: trojan, password: f3148c30-04c7-37b1-8d2a-71fb2c12d70d, sni: sg-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_74, server: jpb-zf.jiashumao.net, port: 20479, type: trojan, password: 96f1a352-ea8e-3658-b74c-b26bcaf19eb5, sni: jpb-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_155, server: jpa-zf.jiashumao.net, port: 29881, type: trojan, password: b20c330b-0dbf-35a0-9f95-1f1929809841, sni: jpa-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_178, server: mlxy-zf.jiashumao.net, port: 27171, type: trojan, password: 5bc65f4c-f30c-32e5-9003-afc386e2eebc, sni: mlxy-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_63, server: ma-zf.jiashumao.net, port: 22983, type: trojan, password: 438e25e3-f224-3f3d-b828-b77219a2e64a, sni: ma-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_111 2, server: jpb-zf.jiashumao.net, port: 20479, type: trojan, password: b20c330b-0dbf-35a0-9f95-1f1929809841, sni: jpb-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_212, server: ma-zf.jiashumao.net, port: 22983, type: trojan, password: 37c61dd6-5e81-3897-9d48-e2e8954a6e43, sni: ma-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_76, server: jpb-zf.jiashumao.net, port: 20479, type: trojan, password: 37c61dd6-5e81-3897-9d48-e2e8954a6e43, sni: jpb-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_152 2, server: bnbq-zf.jiashumao.net, port: 26381, type: trojan, password: 5bc65f4c-f30c-32e5-9003-afc386e2eebc, sni: bnbq-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: 美国(youtube阿伟科技) 3, server: v2ray.wefuckgfw.ga, port: 2096, type: vmess, uuid: c0bc4a6f74f949f3b7227ebb6aca17d7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /H8VswtUJ/, ws-headers: {Host: v2ray.wefuckgfw.ga}, udp: true}
-  - {name: 台湾节点更新 bit.ly/36b6iJh, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 330tw.fans8.xyz}, udp: true}
-  - {name: YouTube梦歌|Netflix_75, server: jpb-zf.jiashumao.net, port: 20479, type: trojan, password: c4c34f9e-acd7-3723-83cc-b26de35b333d, sni: jpb-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_145, server: tw-hinet.jiashumao.net, port: 20888, type: trojan, password: 96f1a352-ea8e-3658-b74c-b26bcaf19eb5, sni: tw-hinet.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 16, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: YouTube梦歌|Netflix_103, server: jpa-zf.jiashumao.net, port: 29881, type: trojan, password: 17bca687-1a18-331e-8e48-6e10ba62a2f2, sni: jpa-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_201, server: tw-hinet.jiashumao.net, port: 20888, type: trojan, password: e5ea1494-df70-39f6-b38e-0ff9c4db7dc5, sni: tw-hinet.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_102, server: jpb-zf.jiashumao.net, port: 20479, type: trojan, password: 897c4c3e-9e3a-3289-bd38-e10b5a9617f2, sni: jpb-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_149, server: bnbq-zf.jiashumao.net, port: 26381, type: trojan, password: e5ea1494-df70-39f6-b38e-0ff9c4db7dc5, sni: bnbq-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_86, server: tw-hinet.jiashumao.net, port: 20888, type: trojan, password: 897c4c3e-9e3a-3289-bd38-e10b5a9617f2, sni: tw-hinet.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: trojan xtls  (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh, server: bai-piao-wang-zhe10.98848.xyz, port: 50858, type: trojan, password: f0de3134-aef4-45b5-a135-3a82321bbac6, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_48, server: bnbq-zf.jiashumao.net, port: 26381, type: trojan, password: 96f1a352-ea8e-3658-b74c-b26bcaf19eb5, sni: bnbq-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_81, server: szdx-anhb.jiashumao.net, port: 22481, type: trojan, password: 5e280e3c-4deb-3138-9a84-927f84930002, sni: szdx-anhb.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_150, server: bnbq-zf.jiashumao.net, port: 26381, type: trojan, password: 870587c9-b8ae-3f5e-bf3a-64ec486cbc4a, sni: bnbq-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_101, server: jpa-zf.jiashumao.net, port: 29881, type: trojan, password: 897c4c3e-9e3a-3289-bd38-e10b5a9617f2, sni: jpa-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_127, server: sxdx-nf.jiashumao.net, port: 35401, type: trojan, password: 0ce0eceb-8aee-3891-ba30-925541864630, sni: sxdx-nf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_153, server: szdx-anhb.jiashumao.net, port: 22481, type: trojan, password: 897c4c3e-9e3a-3289-bd38-e10b5a9617f2, sni: szdx-anhb.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_72, server: ma-zf.jiashumao.net, port: 22983, type: trojan, password: 17bca687-1a18-331e-8e48-6e10ba62a2f2, sni: ma-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_91, server: jpb-zf.jiashumao.net, port: 20479, type: trojan, password: 0784840d-d5a1-3180-97b5-6100bafdfc04, sni: jpb-zf.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_18, server: 120.241.236.152, port: 53101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: YouTube梦歌|Netflix_60, server: 120.241.236.152, port: 51102, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: RU-高速节点推荐：v1.mk/vip, server: 165.154.243.157, port: 48003, type: trojan, password: 8e4f0531-7a90-4429-b048-67a19c010c40, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_156, server: gy.anoob.cc, port: 29442, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anlocl.gq}, udp: true}
+  - {name: YouTube梦歌|Netflix_7, server: gzyd2.xxcv.cc, port: 20150, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_10, server: gy.feethree.top, port: 33950, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: gy.feethree.top}, udp: true}
+  - {name: YouTube梦歌|Netflix_167, server: gy.feethree.top, port: 36746, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gy.feethree.top}, udp: true}
+  - {name: YouTube梦歌|Netflix_21, server: gkdcu.gkdnode.top, port: 21808, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_2, server: hn.dxmax2.com, port: 41203, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: YouTube梦歌|Netflix_95, server: 120.241.236.150, port: 53102, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: YouTube梦歌|Netflix_59, server: gy3.anoob.icu, port: 20789, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: gy3.anoob.icu}, udp: true}
+  - {name: YouTube梦歌|Netflix_34, server: gkdcm.gkdnode.top, port: 21807, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_90, server: www.anlocl.gq, port: 30521, type: trojan, password: 5218d9b5-e17c-3577-95f3-5cd510620c24, sni: www.anlocl.gq, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_8, server: hn.dxmax2.com, port: 17207, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: YouTube梦歌|Netflix_155, server: 47.91.144.17, port: 443, type: vmess, uuid: 71b785a5-2809-4d4c-ba85-4879f96e5c06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hkhgc?ed=2048", ws-headers: {Host: hkhgc.meizhiyuanya.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_87, server: gy3.anoob.icu, port: 34274, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gy3.anoob.icu}, udp: true}
+  - {name: YouTube梦歌|Netflix_256, server: gkdcu.gkdnode.top, port: 21807, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: 台湾(youtube阿伟科技), server: tw01.beibei456.xyz, port: 33351, type: ss, cipher: chacha20-ietf-poly1305, password: 68a401ed-9403-4d69-a564-aeba67204b35, udp: true}
+  - {name: YouTube梦歌|Netflix_25, server: gkdcm.gkdnode.top, port: 21808, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: 香港(youtube阿伟科技), server: hg.tgdaili.xyz, port: 32000, type: ss, cipher: chacha20-ietf-poly1305, password: 68a401ed-9403-4d69-a564-aeba67204b35, udp: true}
+  - {name: YouTube梦歌|Netflix_35, server: hn.dxmax2.com, port: 40009, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: 中国-5.89MB/s(Youtube:不良林), server: sha-cu-001.omo-m0m.com, port: 5603, type: trojan, password: 9d6a601d-8593-39b5-8861-86ac78c0c5ad, sni: sha-cu-001.omo-m0m.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_246, server: 120.241.236.150, port: 53101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: YouTube梦歌|Netflix_5, server: hn.dxmax2.com, port: 12581, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: YouTube梦歌|Netflix_58, server: gy.feethree.top, port: 65215, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: gy.feethree.top}, udp: true}
+  - {name: YouTube梦歌|Netflix_20, server: 120.241.236.152, port: 53102, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: YouTube梦歌|Netflix_56, server: lt.feethree.top, port: 53611, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: lt.feethree.top}, udp: true}
+  - {name: YouTube梦歌|Netflix_281, server: 20.247.112.174, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_124, server: www.anlocl.gq, port: 20521, type: trojan, password: 5218d9b5-e17c-3577-95f3-5cd510620c24, sni: www.anlocl.gq, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_42, server: gkdcm.gkdnode.top, port: 21806, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_106, server: zj.haojiahuo.ml, port: 30042, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: YouTube梦歌|Netflix_148, server: lt.feethree.top, port: 10223, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: lt.feethree.top}, udp: true}
+  - {name: YouTube梦歌|Netflix_74, server: gkdcm1.gkdnode.top, port: 21806, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_86, server: hn.dxmax2.com, port: 17208, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: YouTube梦歌|Netflix_26, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 8e4f0531-7a90-4429-b048-67a19c010c40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /scloudhinet02, ws-headers: {Host: cs.daxun.cyou}, udp: true}
+  - {name: 美国-3.87MB/s(Youtube:不良林), server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(youtube阿伟科技), server: sg02.caiyuanzi.life, port: 63222, type: ss, cipher: chacha20-ietf-poly1305, password: 68a401ed-9403-4d69-a564-aeba67204b35, udp: true}
+  - {name: YouTube梦歌|Netflix_115, server: 47.241.233.124, port: 443, type: vmess, uuid: 71b785a5-2809-4d4c-ba85-4879f96e5c06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hkhgc?ed=2048", ws-headers: {Host: hkhgc.meizhiyuanya.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_15, server: gzyd1.xxcv.cc, port: 20150, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_260, server: zj.haojiahuo.ml, port: 30043, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: YouTube梦歌|Netflix_99, server: hn.dxmax2.com, port: 17200, type: ss, cipher: aes-256-gcm, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: YouTube梦歌|Netflix_62, server: gy3.anoob.icu, port: 36847, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: gy3.anoob.icu}, udp: true}
+  - {name: YouTube梦歌|Netflix_29, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 8e4f0531-7a90-4429-b048-67a19c010c40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /JPZZ02, ws-headers: {Host: cs.daxun.cyou}, udp: true}
+  - {name: YouTube梦歌|Netflix_123, server: hn.dxmax2.com, port: 17206, type: ss, cipher: aes-256-gcm, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: YouTube梦歌|Netflix_15 2, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 8e4f0531-7a90-4429-b048-67a19c010c40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /linodejp01, ws-headers: {Host: cs.daxun.cyou}, udp: true}
+  - {name: YouTube梦歌|Netflix_76, server: gy.feethree.top, port: 42529, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anlocl.ga}, udp: true}
+  - {name: YouTube梦歌|Netflix_108, server: gkdcm.gkdnode.top, port: 21823, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_208, server: lt.feethree.top, port: 46347, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: lt.feethree.top}, udp: true}
+  - {name: YouTube梦歌|Netflix_17, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 8e4f0531-7a90-4429-b048-67a19c010c40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jgwhg01, ws-headers: {Host: cs.daxun.cyou}, udp: true}
+  - {name: YouTube梦歌|Netflix_58 2, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 8e4f0531-7a90-4429-b048-67a19c010c40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mlxy01, ws-headers: {Host: cs.daxun.cyou}, udp: true}
+  - {name: YouTube梦歌|Netflix_64, server: gkdcu.gkdnode.top, port: 21823, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_32, server: gzyd1.xxcv.cc, port: 20040, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_3, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 8e4f0531-7a90-4429-b048-67a19c010c40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: linodejp03, ws-headers: {Host: cs.daxun.cyou}, udp: true}
+  - {name: YouTube梦歌|Netflix_103, server: gkdcu.gkdnode.top, port: 21809, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_14, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 8e4f0531-7a90-4429-b048-67a19c010c40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /schinet02, ws-headers: {Host: cs.daxun.cyou}, udp: true}
+  - {name: YouTube梦歌|Netflix_23, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 8e4f0531-7a90-4429-b048-67a19c010c40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jp01, ws-headers: {Host: cs.daxun.cyou}, udp: true}
+  - {name: YouTube梦歌|Netflix_98, server: 120.241.236.152, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: YouTube梦歌|Netflix_53, server: gy.feethree.top, port: 33530, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: gy.feethree.top}, udp: true}
+  - {name: YouTube梦歌|Netflix_44, server: hnyd.xxcv.cc, port: 20130, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_85, server: hn.dxmax2.com, port: 41205, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: YouTube梦歌|Netflix_27, server: hn.dxmax2.com, port: 33402, type: ss, cipher: aes-256-gcm, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: YouTube梦歌|Netflix_193, server: hnyd.xxcv.cc, port: 36660, type: vmess, uuid: 71b785a5-2809-4d4c-ba85-4879f96e5c06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hkhgc?ed=2048", ws-headers: {Host: huayun.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_102, server: hn.dxmax2.com, port: 40010, type: ss, cipher: aes-256-gcm, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: YouTube梦歌|Netflix_65, server: hn.dxmax2.com, port: 36001, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: YouTube梦歌|Netflix_36, server: hnyd.xxcv.cc, port: 20010, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_142, server: gzbgp.gkdnode.top, port: 21816, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_51, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 8e4f0531-7a90-4429-b048-67a19c010c40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yd01, ws-headers: {Host: cs.daxun.cyou}, udp: true}
   - {name: YouTube梦歌|Netflix_155 2, server: shanghai-router1-892412-jp2.dukou.info, port: 6302, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: shanghai-router1-892412-jp2.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_125, server: sg-zf.jiashumao.net, port: 29465, type: trojan, password: 96f1a352-ea8e-3658-b74c-b26bcaf19eb5, sni: sg-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_159, server: mlxy-zf.jiashumao.net, port: 27171, type: trojan, password: 897c4c3e-9e3a-3289-bd38-e10b5a9617f2, sni: mlxy-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: 节点更新 bit.ly/36b6iJh, server: oz.moonfree.top, port: 443, type: vmess, uuid: 9fbb6122-46e7-413b-b29d-749eef446c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
-  - {name: YouTube梦歌|Netflix_70, server: ma-zf.jiashumao.net, port: 22983, type: trojan, password: 5bc65f4c-f30c-32e5-9003-afc386e2eebc, sni: ma-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: 香港(youtube阿伟科技) 3, server: sh.xiaohouzi.club, port: 24912, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: YouTube梦歌|Netflix_140 2, server: mlxy-zf.jiashumao.net, port: 27171, type: trojan, password: b20c330b-0dbf-35a0-9f95-1f1929809841, sni: mlxy-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: 香港(youtube阿伟科技) 4, server: sh.xiaohouzi.club, port: 25241, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: 香港(youtube阿伟科技) 5, server: sh.xiaohouzi.club, port: 25235, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: _油管：全网最强白嫖 17, server: mc.xiaohouzi.club, port: 28323, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.ibm.com}, udp: true}
-  - {name: YouTube梦歌|Netflix_146, server: jpa-zf.jiashumao.net, port: 29881, type: trojan, password: c4c34f9e-acd7-3723-83cc-b26de35b333d, sni: jpa-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_50, server: bnbq-zf.jiashumao.net, port: 26381, type: trojan, password: 0784840d-d5a1-3180-97b5-6100bafdfc04, sni: bnbq-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_97, server: ma-zf.jiashumao.net, port: 22983, type: trojan, password: 01ffcba3-58ff-3455-bac9-fb4423d2ac68, sni: ma-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_129, server: sg-zf.jiashumao.net, port: 29465, type: trojan, password: e5ea1494-df70-39f6-b38e-0ff9c4db7dc5, sni: sg-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_9, server: cu-cs.okvpn.xyz, port: 20006, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 18, server: mc.xiaohouzi.club, port: 28324, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.ibm.com}, udp: true}
-  - {name: YouTube梦歌|Netflix_68, server: szdx-anhb.jiashumao.net, port: 22481, type: trojan, password: 01ffcba3-58ff-3455-bac9-fb4423d2ac68, sni: szdx-anhb.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: 韩国(youtube阿伟科技) 3, server: mc.xiaohouzi.club, port: 28322, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: 香港(youtube阿伟科技) 6, server: sh.xiaohouzi.club, port: 25240, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: 新加坡(youtube阿伟科技), server: pp.yaoyaocat.com, port: 443, type: vmess, uuid: 81042fc2-f347-40e7-93f1-5a54235ff207, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xnljvws, ws-headers: {Host: pp.yaoyaocat.com}, udp: true}
-  - {name: _油管：全网最强白嫖 19, server: 223.166.129.29, port: 63028, type: vmess, uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 223.166.129.29}, udp: true}
-  - {name: 中国（欢迎订阅Youtube元亨利贞）, server: mc.xiaohouzi.club, port: 28325, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: mc.xiaohouzi.club}, udp: true}
-  - {name: CN-高速节点推荐：v1.mk/vip 3, server: mc.xiaohouzi.club, port: 27816, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: mc.xiaohouzi.club}, udp: true}
-  - {name: CN-高速节点推荐：v1.mk/vip 4, server: sh.xiaohouzi.club, port: 25236, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: sh.xiaohouzi.club}, udp: true}
-  - {name: YouTube梦歌|Netflix_132, server: ma-zf.jiashumao.net, port: 22983, type: trojan, password: 0ce0eceb-8aee-3891-ba30-925541864630, sni: ma-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: 美国(youtube阿伟科技) 4, server: c21s2.jamjams.net, port: 31282, type: ss, cipher: aes-256-gcm, password: E6ANmLye3X, udp: true}
-  - {name: 韩国(youtube阿伟科技) 4, server: chunchuan-01.aikala.shop, port: 80, type: vmess, uuid: a53722eb-5a49-4ffc-a1a3-20d1ad6b66d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: YouTube梦歌|Netflix_77, server: sg-zf.jiashumao.net, port: 29465, type: trojan, password: 37c61dd6-5e81-3897-9d48-e2e8954a6e43, sni: sg-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: CN-高速节点推荐：v1.mk/vip 5, server: mc.xiaohouzi.club, port: 28324, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: mc.xiaohouzi.club}, udp: true}
-  - {name: _油管：全网最强白嫖 20, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管：全网最强白嫖 21, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: YouTube梦歌|Netflix_176, server: sg-zf.jiashumao.net, port: 29465, type: trojan, password: 0784840d-d5a1-3180-97b5-6100bafdfc04, sni: sg-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: 日本(youtube阿伟科技) 6, server: 43.154.235.119, port: 10064, type: vmess, uuid: 8b115f89-27cc-4ea9-85af-dda2de597928, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(youtube阿伟科技) 7, server: 150.230.99.46, port: 22222, type: vmess, uuid: e6c55d36-022c-4ebc-b9c2-e1220a7184f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 22, server: sh.xiaohouzi.club, port: 24873, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.ibm.com}, udp: true}
-  - {name: 美国(youtube阿伟科技) 5, server: 23.19.26.218, port: 6082, type: vmess, uuid: 9674b201-ac76-4322-a9a3-2afd7f746513, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /paQd6Rug/, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: YouTube梦歌|Netflix_87, server: szdx-anhb.jiashumao.net, port: 22481, type: trojan, password: bd5958d7-e039-3c97-8a27-85e3abe8acaf, sni: szdx-anhb.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: 香港6-三网优化-强加密, server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 527hk1.fans8.xyz}, udp: true}
-  - {name: YouTube梦歌|Netflix_174, server: sxdx-nf.jiashumao.net, port: 35401, type: trojan, password: 5e280e3c-4deb-3138-9a84-927f84930002, sni: sxdx-nf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: 香港(youtube阿伟科技) 7, server: sh.xiaohouzi.club, port: 25236, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: _油管：全网最强白嫖 23, server: gg01.nfeng6.pp.ua, port: 63028, type: vmess, uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gg01.nfeng6.pp.ua}, udp: true}
-  - {name: 美国(youtube阿伟科技) 6, server: 107.148.23.159, port: 26969, type: trojan, password: bdcf22c5-22da-468e-921b-82fcb112db2d, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 24, server: mc.xiaohouzi.club, port: 27820, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.ibm.com}, udp: true}
-  - {name: 日本(youtube阿伟科技) 8, server: 150.230.99.46, port: 22222, type: vmess, uuid: e6c55d36-022c-4ebc-b9c2-e1220a7184f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国节点更新 bit.ly/36b6iJh, server: chunchuan-02.aikala.shop, port: 80, type: vmess, uuid: a53722eb-5a49-4ffc-a1a3-20d1ad6b66d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: YouTube梦歌|Netflix_278, server: 103.173.255.234, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 8e4f0531-7a90-4429-b048-67a19c010c40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /JPZZ01, ws-headers: {Host: cs.daxun.cyou}, udp: true}
+  - {name: YouTube梦歌|Netflix_71, server: 120.241.236.152, port: 51103, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: YouTube梦歌|Netflix_116, server: gkdcm.gkdnode.top, port: 21809, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_93, server: 120.241.236.150, port: 55102, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: YouTube梦歌|Netflix_6, server: gy.anoob.cc, port: 43909, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gy.anoob.cc}, udp: true}
+  - {name: 香港(youtube阿伟科技) 2, server: tw02.beibei456.xyz, port: 33352, type: ss, cipher: chacha20-ietf-poly1305, password: 68a401ed-9403-4d69-a564-aeba67204b35, udp: true}
+  - {name: YouTube梦歌|Netflix_10 2, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 8e4f0531-7a90-4429-b048-67a19c010c40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /JPZZ03, ws-headers: {Host: cs.daxun.cyou}, udp: true}
+  - {name: YouTube梦歌|Netflix_169, server: hnyd.xxcv.cc, port: 36660, type: vmess, uuid: 71b785a5-2809-4d4c-ba85-4879f96e5c06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hinet?ed=2048", ws-headers: {Host: huayun.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_111, server: shanghai-router1-892412-jp4.dukou.info, port: 6304, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: shanghai-router1-892412-jp4.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_197, server: gkdcu.gkdnode.top, port: 21820, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_154, server: 120.241.236.150, port: 55101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: YouTube梦歌|Netflix_34 2, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 8e4f0531-7a90-4429-b048-67a19c010c40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /JPZZ01, ws-headers: {Host: cs.daxun.cyou}, udp: true}
+  - {name: YouTube梦歌|Netflix_100, server: 120.241.236.152, port: 55102, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: YouTube梦歌|Netflix_175, server: zj.haojiahuo.ml, port: 30046, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: YouTube梦歌|Netflix_57, server: gkdcm.gkdnode.top, port: 21811, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_157, server: 120.241.236.152, port: 55101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: YouTube梦歌|Netflix_158, server: gy.anoob.cc, port: 53419, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anloac.gq}, udp: true}
+  - {name: YouTube梦歌|Netflix_226, server: gzbgp.gkdnode.top, port: 21820, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_11, server: gzyd1.xxcv.cc, port: 20090, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: 美国-3.37MB/s(Youtube:不良林), server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_177, server: Intranet.dedicated.line.monaiyun.top, port: 53106, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_190, server: zj.haojiahuo.ml, port: 60136, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: 日本(youtube阿伟科技), server: 13.73.30.139, port: 80, type: vmess, uuid: 2fb6f675-63a6-43f9-bc7b-e563164a0e3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: YouTube梦歌|Netflix_11 2, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 8e4f0531-7a90-4429-b048-67a19c010c40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /lindoerb01, ws-headers: {Host: cs.daxun.cyou}, udp: true}
+  - {name: 美国-2.90MB/s(Youtube:不良林), server: 212.81.47.17, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_28, server: 120.241.236.150, port: 51102, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: YouTube梦歌|Netflix_184, server: gzbgp.gkdnode.top, port: 21814, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_222, server: 23.225.77.226, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_210, server: gzbgp.gkdnode.top, port: 21815, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_37, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 8e4f0531-7a90-4429-b048-67a19c010c40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: linodejp02, ws-headers: {Host: cs.daxun.cyou}, udp: true}
+  - {name: YouTube梦歌|Netflix_166, server: gkdcu.gkdnode.top, port: 21813, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_188, server: gkdcm.gkdnode.top, port: 21815, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_59 2, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 8e4f0531-7a90-4429-b048-67a19c010c40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /usa04, ws-headers: {Host: cs.daxun.cyou}, udp: true}
+  - {name: YouTube梦歌|Netflix_33, server: lt.feethree.top, port: 25105, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anloan.gq}, udp: true}
+  - {name: YouTube梦歌|Netflix_209, server: hn.dxmax2.com, port: 17216, type: ss, cipher: aes-256-gcm, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: YouTube梦歌|Netflix_79, server: gzbgp.gkdnode.top, port: 21817, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_302, server: lt.feethree.top, port: 38358, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anlocm.ga}, udp: true}
+  - {name: YouTube梦歌|Netflix_192, server: zj.haojiahuo.ml, port: 60046, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: YouTube梦歌|Netflix_61, server: gy.anoob.cc, port: 40409, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anlocm.gq}, udp: true}
+  - {name: YouTube梦歌|Netflix_233, server: gkdcu.gkdnode.top, port: 21819, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_146, server: krcc4.feethree.top, port: 9038, type: trojan, password: 5218d9b5-e17c-3577-95f3-5cd510620c24, sni: krcc4.feethree.top, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_263, server: gzyd2.xxcv.cc, port: 20080, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: 美国-3.77MB/s(Youtube:不良林), server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-1.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_213, server: gkdcm.gkdnode.top, port: 21819, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_13, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 8e4f0531-7a90-4429-b048-67a19c010c40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /scloudhinet01, ws-headers: {Host: cs.daxun.cyou}, udp: true}
+  - {name: YouTube梦歌|Netflix_50, server: hn.dxmax2.com, port: 17202, type: ss, cipher: aes-128-gcm, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: YouTube梦歌|Netflix_255, server: cn2.anoob.cc, port: 42661, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anlocl.ga}, udp: true}
+  - {name: YouTube梦歌|Netflix_2 2, server: hk-route2-azure-hk7.dukou.info, port: 8307, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: hk-route2-azure-hk7.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_248, server: gzbgp.gkdnode.top, port: 21819, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_204, server: gkdcm.gkdnode.top, port: 21821, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_144, server: Intranet.dedicated.line.monaiyun.top, port: 53105, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_238, server: hn.dxmax2.com, port: 17218, type: ss, cipher: aes-128-gcm, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: YouTube梦歌|Netflix_129, server: Intranet.dedicated.line.monaiyun.top, port: 53101, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_149, server: Intranet.dedicated.line.monaiyun.top, port: 53103, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_243, server: jpcu.dfnode.top, port: 19304, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: 土耳其(youtube阿伟科技), server: m.mjmjmjmj.cyou, port: 16630, type: vmess, uuid: 9c725209-8403-486f-b51e-93f815bd117d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: YouTube梦歌|Netflix_240, server: 120.241.236.150, port: 54101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: 美国-3.54MB/s(Youtube:不良林), server: 173.82.226.27, port: 23662, type: vmess, uuid: efa2ab76-539d-4b6a-9572-24ba709fb81b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 173.82.226.27}, udp: true}
+  - {name: YouTube梦歌|Netflix_223, server: gkdcm.gkdnode.top, port: 21822, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: _油管：全网最强白嫖, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: US-高速节点推荐：v1.mk/vip, server: 45.88.148.234, port: 38443, type: trojan, password: 8e4f0531-7a90-4429-b048-67a19c010c40, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_252, server: hn.dxmax2.com, port: 17219, type: ss, cipher: aes-128-gcm, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: YouTube梦歌|Netflix_87 2, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 8e4f0531-7a90-4429-b048-67a19c010c40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /japanese03, ws-headers: {Host: cs.daxun.cyou}, udp: true}
+  - {name: YouTube梦歌|Netflix_145, server: gkdcm.gkdnode.top, port: 21820, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: 美国-2.71MB/s(Youtube:不良林), server: 212.81.47.12, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_186, server: hnyd.xxcv.cc, port: 20070, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_198, server: Intranet.dedicated.line.monaiyun.top, port: 53108, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_131, server: zj.haojiahuo.ml, port: 30044, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: 香港(youtube阿伟科技) 3, server: pass2.jiasuyuan.shop, port: 63221, type: ss, cipher: chacha20-ietf-poly1305, password: 68a401ed-9403-4d69-a564-aeba67204b35, udp: true}
+  - {name: YouTube梦歌|Netflix_24, server: 120.241.236.150, port: 51103, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: YouTube梦歌|Netflix_217, server: 23.99.119.36, port: 443, type: vmess, uuid: 71b785a5-2809-4d4c-ba85-4879f96e5c06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hkhgc?ed=2048", ws-headers: {Host: hkhgc.meizhiyuanya.xyz}, udp: true}
+  - {name: 新加坡(youtube阿伟科技) 2, server: sg01.caiyuanzi.life, port: 63212, type: ss, cipher: chacha20-ietf-poly1305, password: 68a401ed-9403-4d69-a564-aeba67204b35, udp: true}
+  - {name: YouTube梦歌|Netflix_17 2, server: gzyd1.xxcv.cc, port: 20010, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: 日本-11.10MB/s(Youtube:不良林), server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_26 2, server: gy.anoob.cc, port: 47402, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anlon.tk}, udp: true}
+  - {name: YouTube梦歌|Netflix_22, server: gkdcm.gkdnode.top, port: 21813, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_105, server: gy.anoob.cc, port: 26505, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gy.anoob.cc}, udp: true}
+  - {name: YouTube梦歌|Netflix_241, server: ie2f0fe2b041529d.404sx.com, port: 54101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: YouTube梦歌|Netflix_269, server: zj.haojiahuo.ml, port: 30069, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: YouTube梦歌|Netflix_216, server: 120.241.236.152, port: 54101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: YouTube梦歌|Netflix_227, server: gzyd1.xxcv.cc, port: 20070, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_250, server: jp.dfnode.top, port: 19301, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: YouTube梦歌|Netflix_262, server: Intranet.dedicated.line.monaiyun.top, port: 53107, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 印度-2.99MB/s(Youtube:不良林), server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_182, server: hn.dxmax2.com, port: 17212, type: trojan, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, sni: hn.dxmax2.com, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 2, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: YouTube梦歌|Netflix_143, server: hn.dxmax2.com, port: 36000, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: YouTube梦歌|Netflix_239, server: gzyd2.xxcv.cc, port: 20140, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技), server: 107.148.23.159, port: 26969, type: trojan, password: b1530b66-7055-4281-90a0-70b6727bf568, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_301, server: jp.useanlo.cf, port: 6523, type: trojan, password: 5218d9b5-e17c-3577-95f3-5cd510620c24, sni: jp.useanlo.cf, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_212, server: gy.anoob.cc, port: 23600, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anloac.cf}, udp: true}
+  - {name: YouTube梦歌|Netflix_282, server: 103.173.255.21, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_289, server: 155.248.162.12, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: 韩国-934.9KB/s(Youtube:不良林), server: kr04.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: kr04.wangxd.life, skip-cert-verify: true, udp: true}
+  - {name: 法国-1.69MB/s(Youtube:不良林), server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120208301422, ws-headers: {Host: 54.37.192.112}, udp: true}
+  - {name: YouTube梦歌|Netflix_273, server: 103.173.255.228, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_54, server: gy.anoob.cc, port: 15250, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anlocl.gq}, udp: true}
+  - {name: YouTube梦歌|Netflix_272, server: 103.173.155.72, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_234, server: cs.dfnode.top, port: 19301, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: YouTube梦歌|Netflix_90 2, server: us-cn-hk-relay-4-bd5e54.dukou.info, port: 7304, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: us-cn-hk-relay-4-bd5e54.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_229, server: jpcu.dfnode.top, port: 19306, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: YouTube梦歌|Netflix_265, server: gzyd2.xxcv.cc, port: 20070, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: 加拿大(youtube阿伟科技), server: m.mjmjmjmj.cyou, port: 16641, type: vmess, uuid: 9c725209-8403-486f-b51e-93f815bd117d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: 瑞士(v2rayshare.com免费节点日更), server: v2ray.wefuckgfw.ga, port: 2096, type: vmess, uuid: 556b20c1-272e-44ec-881b-94f410ac75de, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /H8VswtUJ/, ws-headers: {Host: v2ray.wefuckgfw.ga}, udp: true}
+  - {name: YouTube梦歌|Netflix_140, server: sg-cn-hk-relay-5-51f087.dukou.info, port: 9305, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: sg-cn-hk-relay-5-51f087.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_288, server: jp.useanlo.cf, port: 10203, type: trojan, password: 5218d9b5-e17c-3577-95f3-5cd510620c24, sni: jp.useanlo.cf, skip-cert-verify: true, udp: true}
+  - {name: 香港(youtube阿伟科技) 4, server: pass1.jiasuyuan.shop, port: 63211, type: ss, cipher: chacha20-ietf-poly1305, password: 68a401ed-9403-4d69-a564-aeba67204b35, udp: true}
+  - {name: YouTube梦歌|Netflix_55, server: hn.dxmax2.com, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: YouTube梦歌|Netflix_14 2, server: hn.dxmax2.com, port: 33400, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: YouTube梦歌|Netflix_251, server: 18.163.249.175, port: 443, type: vmess, uuid: 71b785a5-2809-4d4c-ba85-4879f96e5c06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hinet?ed=2048", ws-headers: {Host: hinet.meizhiyuanya.xyz}, udp: true}
+  - {name: 香港(youtube阿伟科技) 5, server: pass5.jiasuyuan.shop, port: 33342, type: ss, cipher: chacha20-ietf-poly1305, password: 68a401ed-9403-4d69-a564-aeba67204b35, udp: true}
+  - {name: YouTube梦歌|Netflix_207, server: gkdcu.gkdnode.top, port: 21812, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_9, server: gkdcm.gkdnode.top, port: 21812, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_152, server: hk10-gray.dukou.info, port: 8310, type: trojan, password: 18ef1ba6-7c50-36c3-8210-63d328139e17, sni: hk10-gray.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 3, server: gg01.nfeng6.pp.ua, port: 63028, type: vmess, uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gg01.nfeng6.pp.ua}, udp: true}
+  - {name: YouTube梦歌|Netflix_245, server: jpcu.dfnode.top, port: 19308, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: YouTube梦歌|Netflix_271, server: otcu.dfnode.top, port: 19303, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: 香港-2.64MB/s(Youtube:不良林), server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 527hk1.fans8.xyz}, udp: true}
+  - {name: _油管：全网最强白嫖 4, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: YouTube梦歌|Netflix_236, server: sgpcm.dfnode.top, port: 15732, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: YouTube梦歌|Netflix_92, server: gkdcm1.gkdnode.top, port: 21801, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: YouTube梦歌|Netflix_137, server: gkdcm.gkdnode.top, port: 21816, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: 中国-671.0KB/s(Youtube:不良林), server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖 5, server: 223.166.129.29, port: 63028, type: vmess, uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 223.166.129.29}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港杨枝甘露 03-D
-      - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - 日本(youtube阿伟科技)
-      - 香港丝袜奶茶 02-D
-      - YouTube梦歌|Netflix_111
-      - _油管：全网最强白嫖 3
-      - _油管：全网最强白嫖 4
-      - YouTube梦歌|Netflix_47
-      - YouTube梦歌|Netflix
-      - YouTube梦歌|Netflix_22
-      - _油管：全网最强白嫖 5
-      - YouTube梦歌|Netflix_140
-      - +美国-3.37MB/s(Youtube:不良林)
-      - United States (US) 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_134
-      - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh-clone
-      - YouTube梦歌|Netflix_58
-      - YouTube梦歌|Netflix_152
-      - YouTube梦歌|Netflix_1
-      - 日本(youtube阿伟科技) 2
-      - 香港(youtube阿伟科技)
-      - 韩国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_90
-      - YouTube梦歌|Netflix_5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - 日本(youtube阿伟科技) 3
-      - 韩国(youtube阿伟科技) 2
-      - _油管：全网最强白嫖 8
-      - trojan2 (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - 日本(youtube阿伟科技) 4
-      - _油管：全网最强白嫖 11
-      - YouTube梦歌|Netflix 2
-      - 香港 [免流] 节点更新 bit.ly/36b6iJh
-      - JP-高速节点推荐：v1.mk/vip
-      - _油管：全网最强白嫖 12
-      - 日本(youtube阿伟科技) 5
-      - _油管：全网最强白嫖 13
-      - 美国(youtube阿伟科技)
-      - us135  节点更新 bit.ly/36b6iJh
-      - _油管：全网最强白嫖 14
-      - 瑞士(youtube阿伟科技)
-      - 澳大利亚(youtube阿伟科技)
-      - CN-高速节点推荐：v1.mk/vip
-      - _油管：全网最强白嫖 15
-      - 香港(youtube阿伟科技) 2
-      - AU-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|Netflix_60
+      - RU-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_156
+      - YouTube梦歌|Netflix_7
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_167
+      - YouTube梦歌|Netflix_21
       - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_124
-      - YouTube梦歌|Netflix_69
-      - YouTube梦歌|Netflix_130
-      - YouTube梦歌|Netflix_192
-      - 美国(youtube阿伟科技) 2
-      - 美国节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_52
-      - YouTube梦歌|Netflix_56
-      - CN-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_89
-      - YouTube梦歌|Netflix_180
-      - YouTube梦歌|Netflix_293
-      - YouTube梦歌|Netflix_157
-      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_95
+      - YouTube梦歌|Netflix_59
+      - YouTube梦歌|Netflix_34
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_8
       - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_178
-      - YouTube梦歌|Netflix_63
-      - YouTube梦歌|Netflix_111 2
-      - YouTube梦歌|Netflix_212
-      - YouTube梦歌|Netflix_76
-      - YouTube梦歌|Netflix_152 2
-      - 美国(youtube阿伟科技) 3
-      - 台湾节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_75
-      - YouTube梦歌|Netflix_145
-      - _油管：全网最强白嫖 16
-      - YouTube梦歌|Netflix_103
-      - YouTube梦歌|Netflix_201
-      - YouTube梦歌|Netflix_102
-      - YouTube梦歌|Netflix_149
-      - YouTube梦歌|Netflix_86
-      - trojan xtls  (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_48
-      - YouTube梦歌|Netflix_81
-      - YouTube梦歌|Netflix_150
-      - YouTube梦歌|Netflix_101
-      - YouTube梦歌|Netflix_127
-      - YouTube梦歌|Netflix_153
-      - YouTube梦歌|Netflix_72
-      - YouTube梦歌|Netflix_91
-      - YouTube梦歌|Netflix_155 2
-      - YouTube梦歌|Netflix_125
-      - YouTube梦歌|Netflix_159
-      - 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_70
-      - 香港(youtube阿伟科技) 3
-      - YouTube梦歌|Netflix_140 2
-      - 香港(youtube阿伟科技) 4
-      - 香港(youtube阿伟科技) 5
-      - _油管：全网最强白嫖 17
-      - YouTube梦歌|Netflix_146
-      - YouTube梦歌|Netflix_50
-      - YouTube梦歌|Netflix_97
-      - YouTube梦歌|Netflix_129
-      - YouTube梦歌|Netflix_9
-      - _油管：全网最强白嫖 18
-      - YouTube梦歌|Netflix_68
-      - 韩国(youtube阿伟科技) 3
-      - 香港(youtube阿伟科技) 6
-      - 新加坡(youtube阿伟科技)
-      - _油管：全网最强白嫖 19
-      - 中国（欢迎订阅Youtube元亨利贞）
-      - CN-高速节点推荐：v1.mk/vip 3
-      - CN-高速节点推荐：v1.mk/vip 4
-      - YouTube梦歌|Netflix_132
-      - 美国(youtube阿伟科技) 4
-      - 韩国(youtube阿伟科技) 4
-      - YouTube梦歌|Netflix_77
-      - CN-高速节点推荐：v1.mk/vip 5
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - YouTube梦歌|Netflix_176
-      - 日本(youtube阿伟科技) 6
-      - 日本(youtube阿伟科技) 7
-      - _油管：全网最强白嫖 22
-      - 美国(youtube阿伟科技) 5
       - YouTube梦歌|Netflix_87
-      - 香港6-三网优化-强加密
-      - YouTube梦歌|Netflix_174
-      - 香港(youtube阿伟科技) 7
-      - _油管：全网最强白嫖 23
-      - 美国(youtube阿伟科技) 6
-      - _油管：全网最强白嫖 24
-      - 日本(youtube阿伟科技) 8
-      - 韩国节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_256
+      - 台湾(youtube阿伟科技)
+      - YouTube梦歌|Netflix_25
+      - 香港(youtube阿伟科技)
+      - YouTube梦歌|Netflix_35
+      - 中国-5.89MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_246
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_58
+      - YouTube梦歌|Netflix_20
+      - YouTube梦歌|Netflix_56
+      - YouTube梦歌|Netflix_281
+      - YouTube梦歌|Netflix_124
+      - YouTube梦歌|Netflix_42
+      - YouTube梦歌|Netflix_106
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_86
+      - YouTube梦歌|Netflix_26
+      - 美国-3.87MB/s(Youtube:不良林)
+      - 新加坡(youtube阿伟科技)
+      - YouTube梦歌|Netflix_115
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_260
+      - YouTube梦歌|Netflix_99
+      - YouTube梦歌|Netflix_62
+      - YouTube梦歌|Netflix_29
+      - YouTube梦歌|Netflix_123
+      - YouTube梦歌|Netflix_15 2
+      - YouTube梦歌|Netflix_76
+      - YouTube梦歌|Netflix_108
+      - YouTube梦歌|Netflix_208
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_58 2
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_32
+      - YouTube梦歌|Netflix_3
+      - YouTube梦歌|Netflix_103
+      - YouTube梦歌|Netflix_14
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_98
+      - YouTube梦歌|Netflix_53
+      - YouTube梦歌|Netflix_44
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_193
+      - YouTube梦歌|Netflix_102
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_36
+      - YouTube梦歌|Netflix_142
+      - YouTube梦歌|Netflix_51
+      - YouTube梦歌|Netflix_155 2
+      - YouTube梦歌|Netflix_278
+      - CN-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_71
+      - YouTube梦歌|Netflix_116
+      - YouTube梦歌|Netflix_93
+      - YouTube梦歌|Netflix_6
+      - 香港(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_10 2
+      - YouTube梦歌|Netflix_169
+      - YouTube梦歌|Netflix_111
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_154
+      - YouTube梦歌|Netflix_34 2
+      - YouTube梦歌|Netflix_100
+      - YouTube梦歌|Netflix_175
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_158
+      - YouTube梦歌|Netflix_226
+      - YouTube梦歌|Netflix_11
+      - 美国-3.37MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_177
+      - YouTube梦歌|Netflix_190
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_11 2
+      - 美国-2.90MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_184
+      - YouTube梦歌|Netflix_222
+      - YouTube梦歌|Netflix_210
+      - YouTube梦歌|Netflix_37
+      - YouTube梦歌|Netflix_166
+      - YouTube梦歌|Netflix_188
+      - YouTube梦歌|Netflix_59 2
+      - YouTube梦歌|Netflix_33
+      - YouTube梦歌|Netflix_209
+      - YouTube梦歌|Netflix_79
+      - YouTube梦歌|Netflix_302
+      - YouTube梦歌|Netflix_192
+      - YouTube梦歌|Netflix_61
+      - YouTube梦歌|Netflix_233
+      - YouTube梦歌|Netflix_146
+      - YouTube梦歌|Netflix_263
+      - 美国-3.77MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_213
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_255
+      - YouTube梦歌|Netflix_2 2
+      - YouTube梦歌|Netflix_248
+      - YouTube梦歌|Netflix_204
+      - YouTube梦歌|Netflix_144
+      - YouTube梦歌|Netflix_238
+      - YouTube梦歌|Netflix_129
+      - YouTube梦歌|Netflix_149
+      - YouTube梦歌|Netflix_243
+      - 土耳其(youtube阿伟科技)
+      - YouTube梦歌|Netflix_240
+      - 美国-3.54MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_223
+      - _油管：全网最强白嫖
+      - US-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_252
+      - YouTube梦歌|Netflix_87 2
+      - YouTube梦歌|Netflix_145
+      - 美国-2.71MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_186
+      - YouTube梦歌|Netflix_198
+      - YouTube梦歌|Netflix_131
+      - 香港(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_24
+      - YouTube梦歌|Netflix_217
+      - 新加坡(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_17 2
+      - 日本-11.10MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_26 2
+      - YouTube梦歌|Netflix_22
+      - YouTube梦歌|Netflix_105
+      - YouTube梦歌|Netflix_241
+      - YouTube梦歌|Netflix_269
+      - YouTube梦歌|Netflix_216
+      - YouTube梦歌|Netflix_227
+      - YouTube梦歌|Netflix_250
+      - YouTube梦歌|Netflix_262
+      - 印度-2.99MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_182
+      - _油管：全网最强白嫖 2
+      - YouTube梦歌|Netflix_143
+      - YouTube梦歌|Netflix_239
+      - 美国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_301
+      - YouTube梦歌|Netflix_212
+      - YouTube梦歌|Netflix_282
+      - YouTube梦歌|Netflix_289
+      - 韩国-934.9KB/s(Youtube:不良林)
+      - 法国-1.69MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_273
+      - YouTube梦歌|Netflix_54
+      - YouTube梦歌|Netflix_272
+      - YouTube梦歌|Netflix_234
+      - YouTube梦歌|Netflix_90 2
+      - YouTube梦歌|Netflix_229
+      - YouTube梦歌|Netflix_265
+      - 加拿大(youtube阿伟科技)
+      - 瑞士(v2rayshare.com免费节点日更)
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_288
+      - 香港(youtube阿伟科技) 4
+      - YouTube梦歌|Netflix_55
+      - YouTube梦歌|Netflix_14 2
+      - YouTube梦歌|Netflix_251
+      - 香港(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix_207
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_152
+      - _油管：全网最强白嫖 3
+      - YouTube梦歌|Netflix_245
+      - YouTube梦歌|Netflix_271
+      - 香港-2.64MB/s(Youtube:不良林)
+      - _油管：全网最强白嫖 4
+      - YouTube梦歌|Netflix_236
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_137
+      - 中国-671.0KB/s(Youtube:不良林)
+      - _油管：全网最强白嫖 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港杨枝甘露 03-D
-      - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - 日本(youtube阿伟科技)
-      - 香港丝袜奶茶 02-D
-      - YouTube梦歌|Netflix_111
-      - _油管：全网最强白嫖 3
-      - _油管：全网最强白嫖 4
-      - YouTube梦歌|Netflix_47
-      - YouTube梦歌|Netflix
-      - YouTube梦歌|Netflix_22
-      - _油管：全网最强白嫖 5
-      - YouTube梦歌|Netflix_140
-      - +美国-3.37MB/s(Youtube:不良林)
-      - United States (US) 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_134
-      - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh-clone
-      - YouTube梦歌|Netflix_58
-      - YouTube梦歌|Netflix_152
-      - YouTube梦歌|Netflix_1
-      - 日本(youtube阿伟科技) 2
-      - 香港(youtube阿伟科技)
-      - 韩国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_90
-      - YouTube梦歌|Netflix_5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - 日本(youtube阿伟科技) 3
-      - 韩国(youtube阿伟科技) 2
-      - _油管：全网最强白嫖 8
-      - trojan2 (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - 日本(youtube阿伟科技) 4
-      - _油管：全网最强白嫖 11
-      - YouTube梦歌|Netflix 2
-      - 香港 [免流] 节点更新 bit.ly/36b6iJh
-      - JP-高速节点推荐：v1.mk/vip
-      - _油管：全网最强白嫖 12
-      - 日本(youtube阿伟科技) 5
-      - _油管：全网最强白嫖 13
-      - 美国(youtube阿伟科技)
-      - us135  节点更新 bit.ly/36b6iJh
-      - _油管：全网最强白嫖 14
-      - 瑞士(youtube阿伟科技)
-      - 澳大利亚(youtube阿伟科技)
-      - CN-高速节点推荐：v1.mk/vip
-      - _油管：全网最强白嫖 15
-      - 香港(youtube阿伟科技) 2
-      - AU-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|Netflix_60
+      - RU-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_156
+      - YouTube梦歌|Netflix_7
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_167
+      - YouTube梦歌|Netflix_21
       - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_124
-      - YouTube梦歌|Netflix_69
-      - YouTube梦歌|Netflix_130
-      - YouTube梦歌|Netflix_192
-      - 美国(youtube阿伟科技) 2
-      - 美国节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_52
-      - YouTube梦歌|Netflix_56
-      - CN-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_89
-      - YouTube梦歌|Netflix_180
-      - YouTube梦歌|Netflix_293
-      - YouTube梦歌|Netflix_157
-      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_95
+      - YouTube梦歌|Netflix_59
+      - YouTube梦歌|Netflix_34
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_8
       - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_178
-      - YouTube梦歌|Netflix_63
-      - YouTube梦歌|Netflix_111 2
-      - YouTube梦歌|Netflix_212
-      - YouTube梦歌|Netflix_76
-      - YouTube梦歌|Netflix_152 2
-      - 美国(youtube阿伟科技) 3
-      - 台湾节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_75
-      - YouTube梦歌|Netflix_145
-      - _油管：全网最强白嫖 16
-      - YouTube梦歌|Netflix_103
-      - YouTube梦歌|Netflix_201
-      - YouTube梦歌|Netflix_102
-      - YouTube梦歌|Netflix_149
-      - YouTube梦歌|Netflix_86
-      - trojan xtls  (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_48
-      - YouTube梦歌|Netflix_81
-      - YouTube梦歌|Netflix_150
-      - YouTube梦歌|Netflix_101
-      - YouTube梦歌|Netflix_127
-      - YouTube梦歌|Netflix_153
-      - YouTube梦歌|Netflix_72
-      - YouTube梦歌|Netflix_91
-      - YouTube梦歌|Netflix_155 2
-      - YouTube梦歌|Netflix_125
-      - YouTube梦歌|Netflix_159
-      - 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_70
-      - 香港(youtube阿伟科技) 3
-      - YouTube梦歌|Netflix_140 2
-      - 香港(youtube阿伟科技) 4
-      - 香港(youtube阿伟科技) 5
-      - _油管：全网最强白嫖 17
-      - YouTube梦歌|Netflix_146
-      - YouTube梦歌|Netflix_50
-      - YouTube梦歌|Netflix_97
-      - YouTube梦歌|Netflix_129
-      - YouTube梦歌|Netflix_9
-      - _油管：全网最强白嫖 18
-      - YouTube梦歌|Netflix_68
-      - 韩国(youtube阿伟科技) 3
-      - 香港(youtube阿伟科技) 6
-      - 新加坡(youtube阿伟科技)
-      - _油管：全网最强白嫖 19
-      - 中国（欢迎订阅Youtube元亨利贞）
-      - CN-高速节点推荐：v1.mk/vip 3
-      - CN-高速节点推荐：v1.mk/vip 4
-      - YouTube梦歌|Netflix_132
-      - 美国(youtube阿伟科技) 4
-      - 韩国(youtube阿伟科技) 4
-      - YouTube梦歌|Netflix_77
-      - CN-高速节点推荐：v1.mk/vip 5
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - YouTube梦歌|Netflix_176
-      - 日本(youtube阿伟科技) 6
-      - 日本(youtube阿伟科技) 7
-      - _油管：全网最强白嫖 22
-      - 美国(youtube阿伟科技) 5
       - YouTube梦歌|Netflix_87
-      - 香港6-三网优化-强加密
-      - YouTube梦歌|Netflix_174
-      - 香港(youtube阿伟科技) 7
-      - _油管：全网最强白嫖 23
-      - 美国(youtube阿伟科技) 6
-      - _油管：全网最强白嫖 24
-      - 日本(youtube阿伟科技) 8
-      - 韩国节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_256
+      - 台湾(youtube阿伟科技)
+      - YouTube梦歌|Netflix_25
+      - 香港(youtube阿伟科技)
+      - YouTube梦歌|Netflix_35
+      - 中国-5.89MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_246
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_58
+      - YouTube梦歌|Netflix_20
+      - YouTube梦歌|Netflix_56
+      - YouTube梦歌|Netflix_281
+      - YouTube梦歌|Netflix_124
+      - YouTube梦歌|Netflix_42
+      - YouTube梦歌|Netflix_106
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_86
+      - YouTube梦歌|Netflix_26
+      - 美国-3.87MB/s(Youtube:不良林)
+      - 新加坡(youtube阿伟科技)
+      - YouTube梦歌|Netflix_115
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_260
+      - YouTube梦歌|Netflix_99
+      - YouTube梦歌|Netflix_62
+      - YouTube梦歌|Netflix_29
+      - YouTube梦歌|Netflix_123
+      - YouTube梦歌|Netflix_15 2
+      - YouTube梦歌|Netflix_76
+      - YouTube梦歌|Netflix_108
+      - YouTube梦歌|Netflix_208
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_58 2
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_32
+      - YouTube梦歌|Netflix_3
+      - YouTube梦歌|Netflix_103
+      - YouTube梦歌|Netflix_14
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_98
+      - YouTube梦歌|Netflix_53
+      - YouTube梦歌|Netflix_44
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_193
+      - YouTube梦歌|Netflix_102
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_36
+      - YouTube梦歌|Netflix_142
+      - YouTube梦歌|Netflix_51
+      - YouTube梦歌|Netflix_155 2
+      - YouTube梦歌|Netflix_278
+      - CN-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_71
+      - YouTube梦歌|Netflix_116
+      - YouTube梦歌|Netflix_93
+      - YouTube梦歌|Netflix_6
+      - 香港(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_10 2
+      - YouTube梦歌|Netflix_169
+      - YouTube梦歌|Netflix_111
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_154
+      - YouTube梦歌|Netflix_34 2
+      - YouTube梦歌|Netflix_100
+      - YouTube梦歌|Netflix_175
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_158
+      - YouTube梦歌|Netflix_226
+      - YouTube梦歌|Netflix_11
+      - 美国-3.37MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_177
+      - YouTube梦歌|Netflix_190
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_11 2
+      - 美国-2.90MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_184
+      - YouTube梦歌|Netflix_222
+      - YouTube梦歌|Netflix_210
+      - YouTube梦歌|Netflix_37
+      - YouTube梦歌|Netflix_166
+      - YouTube梦歌|Netflix_188
+      - YouTube梦歌|Netflix_59 2
+      - YouTube梦歌|Netflix_33
+      - YouTube梦歌|Netflix_209
+      - YouTube梦歌|Netflix_79
+      - YouTube梦歌|Netflix_302
+      - YouTube梦歌|Netflix_192
+      - YouTube梦歌|Netflix_61
+      - YouTube梦歌|Netflix_233
+      - YouTube梦歌|Netflix_146
+      - YouTube梦歌|Netflix_263
+      - 美国-3.77MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_213
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_255
+      - YouTube梦歌|Netflix_2 2
+      - YouTube梦歌|Netflix_248
+      - YouTube梦歌|Netflix_204
+      - YouTube梦歌|Netflix_144
+      - YouTube梦歌|Netflix_238
+      - YouTube梦歌|Netflix_129
+      - YouTube梦歌|Netflix_149
+      - YouTube梦歌|Netflix_243
+      - 土耳其(youtube阿伟科技)
+      - YouTube梦歌|Netflix_240
+      - 美国-3.54MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_223
+      - _油管：全网最强白嫖
+      - US-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_252
+      - YouTube梦歌|Netflix_87 2
+      - YouTube梦歌|Netflix_145
+      - 美国-2.71MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_186
+      - YouTube梦歌|Netflix_198
+      - YouTube梦歌|Netflix_131
+      - 香港(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_24
+      - YouTube梦歌|Netflix_217
+      - 新加坡(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_17 2
+      - 日本-11.10MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_26 2
+      - YouTube梦歌|Netflix_22
+      - YouTube梦歌|Netflix_105
+      - YouTube梦歌|Netflix_241
+      - YouTube梦歌|Netflix_269
+      - YouTube梦歌|Netflix_216
+      - YouTube梦歌|Netflix_227
+      - YouTube梦歌|Netflix_250
+      - YouTube梦歌|Netflix_262
+      - 印度-2.99MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_182
+      - _油管：全网最强白嫖 2
+      - YouTube梦歌|Netflix_143
+      - YouTube梦歌|Netflix_239
+      - 美国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_301
+      - YouTube梦歌|Netflix_212
+      - YouTube梦歌|Netflix_282
+      - YouTube梦歌|Netflix_289
+      - 韩国-934.9KB/s(Youtube:不良林)
+      - 法国-1.69MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_273
+      - YouTube梦歌|Netflix_54
+      - YouTube梦歌|Netflix_272
+      - YouTube梦歌|Netflix_234
+      - YouTube梦歌|Netflix_90 2
+      - YouTube梦歌|Netflix_229
+      - YouTube梦歌|Netflix_265
+      - 加拿大(youtube阿伟科技)
+      - 瑞士(v2rayshare.com免费节点日更)
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_288
+      - 香港(youtube阿伟科技) 4
+      - YouTube梦歌|Netflix_55
+      - YouTube梦歌|Netflix_14 2
+      - YouTube梦歌|Netflix_251
+      - 香港(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix_207
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_152
+      - _油管：全网最强白嫖 3
+      - YouTube梦歌|Netflix_245
+      - YouTube梦歌|Netflix_271
+      - 香港-2.64MB/s(Youtube:不良林)
+      - _油管：全网最强白嫖 4
+      - YouTube梦歌|Netflix_236
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_137
+      - 中国-671.0KB/s(Youtube:不良林)
+      - _油管：全网最强白嫖 5
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港杨枝甘露 03-D
-      - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - 日本(youtube阿伟科技)
-      - 香港丝袜奶茶 02-D
-      - YouTube梦歌|Netflix_111
-      - _油管：全网最强白嫖 3
-      - _油管：全网最强白嫖 4
-      - YouTube梦歌|Netflix_47
-      - YouTube梦歌|Netflix
-      - YouTube梦歌|Netflix_22
-      - _油管：全网最强白嫖 5
-      - YouTube梦歌|Netflix_140
-      - +美国-3.37MB/s(Youtube:不良林)
-      - United States (US) 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_134
-      - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh-clone
-      - YouTube梦歌|Netflix_58
-      - YouTube梦歌|Netflix_152
-      - YouTube梦歌|Netflix_1
-      - 日本(youtube阿伟科技) 2
-      - 香港(youtube阿伟科技)
-      - 韩国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_90
-      - YouTube梦歌|Netflix_5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - 日本(youtube阿伟科技) 3
-      - 韩国(youtube阿伟科技) 2
-      - _油管：全网最强白嫖 8
-      - trojan2 (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - 日本(youtube阿伟科技) 4
-      - _油管：全网最强白嫖 11
-      - YouTube梦歌|Netflix 2
-      - 香港 [免流] 节点更新 bit.ly/36b6iJh
-      - JP-高速节点推荐：v1.mk/vip
-      - _油管：全网最强白嫖 12
-      - 日本(youtube阿伟科技) 5
-      - _油管：全网最强白嫖 13
-      - 美国(youtube阿伟科技)
-      - us135  节点更新 bit.ly/36b6iJh
-      - _油管：全网最强白嫖 14
-      - 瑞士(youtube阿伟科技)
-      - 澳大利亚(youtube阿伟科技)
-      - CN-高速节点推荐：v1.mk/vip
-      - _油管：全网最强白嫖 15
-      - 香港(youtube阿伟科技) 2
-      - AU-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|Netflix_60
+      - RU-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_156
+      - YouTube梦歌|Netflix_7
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_167
+      - YouTube梦歌|Netflix_21
       - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_124
-      - YouTube梦歌|Netflix_69
-      - YouTube梦歌|Netflix_130
-      - YouTube梦歌|Netflix_192
-      - 美国(youtube阿伟科技) 2
-      - 美国节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_52
-      - YouTube梦歌|Netflix_56
-      - CN-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_89
-      - YouTube梦歌|Netflix_180
-      - YouTube梦歌|Netflix_293
-      - YouTube梦歌|Netflix_157
-      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_95
+      - YouTube梦歌|Netflix_59
+      - YouTube梦歌|Netflix_34
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_8
       - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_178
-      - YouTube梦歌|Netflix_63
-      - YouTube梦歌|Netflix_111 2
-      - YouTube梦歌|Netflix_212
-      - YouTube梦歌|Netflix_76
-      - YouTube梦歌|Netflix_152 2
-      - 美国(youtube阿伟科技) 3
-      - 台湾节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_75
-      - YouTube梦歌|Netflix_145
-      - _油管：全网最强白嫖 16
-      - YouTube梦歌|Netflix_103
-      - YouTube梦歌|Netflix_201
-      - YouTube梦歌|Netflix_102
-      - YouTube梦歌|Netflix_149
-      - YouTube梦歌|Netflix_86
-      - trojan xtls  (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_48
-      - YouTube梦歌|Netflix_81
-      - YouTube梦歌|Netflix_150
-      - YouTube梦歌|Netflix_101
-      - YouTube梦歌|Netflix_127
-      - YouTube梦歌|Netflix_153
-      - YouTube梦歌|Netflix_72
-      - YouTube梦歌|Netflix_91
-      - YouTube梦歌|Netflix_155 2
-      - YouTube梦歌|Netflix_125
-      - YouTube梦歌|Netflix_159
-      - 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_70
-      - 香港(youtube阿伟科技) 3
-      - YouTube梦歌|Netflix_140 2
-      - 香港(youtube阿伟科技) 4
-      - 香港(youtube阿伟科技) 5
-      - _油管：全网最强白嫖 17
-      - YouTube梦歌|Netflix_146
-      - YouTube梦歌|Netflix_50
-      - YouTube梦歌|Netflix_97
-      - YouTube梦歌|Netflix_129
-      - YouTube梦歌|Netflix_9
-      - _油管：全网最强白嫖 18
-      - YouTube梦歌|Netflix_68
-      - 韩国(youtube阿伟科技) 3
-      - 香港(youtube阿伟科技) 6
-      - 新加坡(youtube阿伟科技)
-      - _油管：全网最强白嫖 19
-      - 中国（欢迎订阅Youtube元亨利贞）
-      - CN-高速节点推荐：v1.mk/vip 3
-      - CN-高速节点推荐：v1.mk/vip 4
-      - YouTube梦歌|Netflix_132
-      - 美国(youtube阿伟科技) 4
-      - 韩国(youtube阿伟科技) 4
-      - YouTube梦歌|Netflix_77
-      - CN-高速节点推荐：v1.mk/vip 5
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - YouTube梦歌|Netflix_176
-      - 日本(youtube阿伟科技) 6
-      - 日本(youtube阿伟科技) 7
-      - _油管：全网最强白嫖 22
-      - 美国(youtube阿伟科技) 5
       - YouTube梦歌|Netflix_87
-      - 香港6-三网优化-强加密
-      - YouTube梦歌|Netflix_174
-      - 香港(youtube阿伟科技) 7
-      - _油管：全网最强白嫖 23
-      - 美国(youtube阿伟科技) 6
-      - _油管：全网最强白嫖 24
-      - 日本(youtube阿伟科技) 8
-      - 韩国节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_256
+      - 台湾(youtube阿伟科技)
+      - YouTube梦歌|Netflix_25
+      - 香港(youtube阿伟科技)
+      - YouTube梦歌|Netflix_35
+      - 中国-5.89MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_246
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_58
+      - YouTube梦歌|Netflix_20
+      - YouTube梦歌|Netflix_56
+      - YouTube梦歌|Netflix_281
+      - YouTube梦歌|Netflix_124
+      - YouTube梦歌|Netflix_42
+      - YouTube梦歌|Netflix_106
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_86
+      - YouTube梦歌|Netflix_26
+      - 美国-3.87MB/s(Youtube:不良林)
+      - 新加坡(youtube阿伟科技)
+      - YouTube梦歌|Netflix_115
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_260
+      - YouTube梦歌|Netflix_99
+      - YouTube梦歌|Netflix_62
+      - YouTube梦歌|Netflix_29
+      - YouTube梦歌|Netflix_123
+      - YouTube梦歌|Netflix_15 2
+      - YouTube梦歌|Netflix_76
+      - YouTube梦歌|Netflix_108
+      - YouTube梦歌|Netflix_208
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_58 2
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_32
+      - YouTube梦歌|Netflix_3
+      - YouTube梦歌|Netflix_103
+      - YouTube梦歌|Netflix_14
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_98
+      - YouTube梦歌|Netflix_53
+      - YouTube梦歌|Netflix_44
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_193
+      - YouTube梦歌|Netflix_102
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_36
+      - YouTube梦歌|Netflix_142
+      - YouTube梦歌|Netflix_51
+      - YouTube梦歌|Netflix_155 2
+      - YouTube梦歌|Netflix_278
+      - CN-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_71
+      - YouTube梦歌|Netflix_116
+      - YouTube梦歌|Netflix_93
+      - YouTube梦歌|Netflix_6
+      - 香港(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_10 2
+      - YouTube梦歌|Netflix_169
+      - YouTube梦歌|Netflix_111
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_154
+      - YouTube梦歌|Netflix_34 2
+      - YouTube梦歌|Netflix_100
+      - YouTube梦歌|Netflix_175
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_158
+      - YouTube梦歌|Netflix_226
+      - YouTube梦歌|Netflix_11
+      - 美国-3.37MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_177
+      - YouTube梦歌|Netflix_190
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_11 2
+      - 美国-2.90MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_184
+      - YouTube梦歌|Netflix_222
+      - YouTube梦歌|Netflix_210
+      - YouTube梦歌|Netflix_37
+      - YouTube梦歌|Netflix_166
+      - YouTube梦歌|Netflix_188
+      - YouTube梦歌|Netflix_59 2
+      - YouTube梦歌|Netflix_33
+      - YouTube梦歌|Netflix_209
+      - YouTube梦歌|Netflix_79
+      - YouTube梦歌|Netflix_302
+      - YouTube梦歌|Netflix_192
+      - YouTube梦歌|Netflix_61
+      - YouTube梦歌|Netflix_233
+      - YouTube梦歌|Netflix_146
+      - YouTube梦歌|Netflix_263
+      - 美国-3.77MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_213
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_255
+      - YouTube梦歌|Netflix_2 2
+      - YouTube梦歌|Netflix_248
+      - YouTube梦歌|Netflix_204
+      - YouTube梦歌|Netflix_144
+      - YouTube梦歌|Netflix_238
+      - YouTube梦歌|Netflix_129
+      - YouTube梦歌|Netflix_149
+      - YouTube梦歌|Netflix_243
+      - 土耳其(youtube阿伟科技)
+      - YouTube梦歌|Netflix_240
+      - 美国-3.54MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_223
+      - _油管：全网最强白嫖
+      - US-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_252
+      - YouTube梦歌|Netflix_87 2
+      - YouTube梦歌|Netflix_145
+      - 美国-2.71MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_186
+      - YouTube梦歌|Netflix_198
+      - YouTube梦歌|Netflix_131
+      - 香港(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_24
+      - YouTube梦歌|Netflix_217
+      - 新加坡(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_17 2
+      - 日本-11.10MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_26 2
+      - YouTube梦歌|Netflix_22
+      - YouTube梦歌|Netflix_105
+      - YouTube梦歌|Netflix_241
+      - YouTube梦歌|Netflix_269
+      - YouTube梦歌|Netflix_216
+      - YouTube梦歌|Netflix_227
+      - YouTube梦歌|Netflix_250
+      - YouTube梦歌|Netflix_262
+      - 印度-2.99MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_182
+      - _油管：全网最强白嫖 2
+      - YouTube梦歌|Netflix_143
+      - YouTube梦歌|Netflix_239
+      - 美国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_301
+      - YouTube梦歌|Netflix_212
+      - YouTube梦歌|Netflix_282
+      - YouTube梦歌|Netflix_289
+      - 韩国-934.9KB/s(Youtube:不良林)
+      - 法国-1.69MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_273
+      - YouTube梦歌|Netflix_54
+      - YouTube梦歌|Netflix_272
+      - YouTube梦歌|Netflix_234
+      - YouTube梦歌|Netflix_90 2
+      - YouTube梦歌|Netflix_229
+      - YouTube梦歌|Netflix_265
+      - 加拿大(youtube阿伟科技)
+      - 瑞士(v2rayshare.com免费节点日更)
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_288
+      - 香港(youtube阿伟科技) 4
+      - YouTube梦歌|Netflix_55
+      - YouTube梦歌|Netflix_14 2
+      - YouTube梦歌|Netflix_251
+      - 香港(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix_207
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_152
+      - _油管：全网最强白嫖 3
+      - YouTube梦歌|Netflix_245
+      - YouTube梦歌|Netflix_271
+      - 香港-2.64MB/s(Youtube:不良林)
+      - _油管：全网最强白嫖 4
+      - YouTube梦歌|Netflix_236
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_137
+      - 中国-671.0KB/s(Youtube:不良林)
+      - _油管：全网最强白嫖 5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -584,583 +812,806 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港杨枝甘露 03-D
-      - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - 日本(youtube阿伟科技)
-      - 香港丝袜奶茶 02-D
-      - YouTube梦歌|Netflix_111
-      - _油管：全网最强白嫖 3
-      - _油管：全网最强白嫖 4
-      - YouTube梦歌|Netflix_47
-      - YouTube梦歌|Netflix
-      - YouTube梦歌|Netflix_22
-      - _油管：全网最强白嫖 5
-      - YouTube梦歌|Netflix_140
-      - +美国-3.37MB/s(Youtube:不良林)
-      - United States (US) 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_134
-      - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh-clone
-      - YouTube梦歌|Netflix_58
-      - YouTube梦歌|Netflix_152
-      - YouTube梦歌|Netflix_1
-      - 日本(youtube阿伟科技) 2
-      - 香港(youtube阿伟科技)
-      - 韩国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_90
-      - YouTube梦歌|Netflix_5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - 日本(youtube阿伟科技) 3
-      - 韩国(youtube阿伟科技) 2
-      - _油管：全网最强白嫖 8
-      - trojan2 (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - 日本(youtube阿伟科技) 4
-      - _油管：全网最强白嫖 11
-      - YouTube梦歌|Netflix 2
-      - 香港 [免流] 节点更新 bit.ly/36b6iJh
-      - JP-高速节点推荐：v1.mk/vip
-      - _油管：全网最强白嫖 12
-      - 日本(youtube阿伟科技) 5
-      - _油管：全网最强白嫖 13
-      - 美国(youtube阿伟科技)
-      - us135  节点更新 bit.ly/36b6iJh
-      - _油管：全网最强白嫖 14
-      - 瑞士(youtube阿伟科技)
-      - 澳大利亚(youtube阿伟科技)
-      - CN-高速节点推荐：v1.mk/vip
-      - _油管：全网最强白嫖 15
-      - 香港(youtube阿伟科技) 2
-      - AU-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|Netflix_60
+      - RU-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_156
+      - YouTube梦歌|Netflix_7
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_167
+      - YouTube梦歌|Netflix_21
       - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_124
-      - YouTube梦歌|Netflix_69
-      - YouTube梦歌|Netflix_130
-      - YouTube梦歌|Netflix_192
-      - 美国(youtube阿伟科技) 2
-      - 美国节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_52
-      - YouTube梦歌|Netflix_56
-      - CN-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_89
-      - YouTube梦歌|Netflix_180
-      - YouTube梦歌|Netflix_293
-      - YouTube梦歌|Netflix_157
-      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_95
+      - YouTube梦歌|Netflix_59
+      - YouTube梦歌|Netflix_34
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_8
       - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_178
-      - YouTube梦歌|Netflix_63
-      - YouTube梦歌|Netflix_111 2
-      - YouTube梦歌|Netflix_212
-      - YouTube梦歌|Netflix_76
-      - YouTube梦歌|Netflix_152 2
-      - 美国(youtube阿伟科技) 3
-      - 台湾节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_75
-      - YouTube梦歌|Netflix_145
-      - _油管：全网最强白嫖 16
-      - YouTube梦歌|Netflix_103
-      - YouTube梦歌|Netflix_201
-      - YouTube梦歌|Netflix_102
-      - YouTube梦歌|Netflix_149
-      - YouTube梦歌|Netflix_86
-      - trojan xtls  (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_48
-      - YouTube梦歌|Netflix_81
-      - YouTube梦歌|Netflix_150
-      - YouTube梦歌|Netflix_101
-      - YouTube梦歌|Netflix_127
-      - YouTube梦歌|Netflix_153
-      - YouTube梦歌|Netflix_72
-      - YouTube梦歌|Netflix_91
-      - YouTube梦歌|Netflix_155 2
-      - YouTube梦歌|Netflix_125
-      - YouTube梦歌|Netflix_159
-      - 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_70
-      - 香港(youtube阿伟科技) 3
-      - YouTube梦歌|Netflix_140 2
-      - 香港(youtube阿伟科技) 4
-      - 香港(youtube阿伟科技) 5
-      - _油管：全网最强白嫖 17
-      - YouTube梦歌|Netflix_146
-      - YouTube梦歌|Netflix_50
-      - YouTube梦歌|Netflix_97
-      - YouTube梦歌|Netflix_129
-      - YouTube梦歌|Netflix_9
-      - _油管：全网最强白嫖 18
-      - YouTube梦歌|Netflix_68
-      - 韩国(youtube阿伟科技) 3
-      - 香港(youtube阿伟科技) 6
-      - 新加坡(youtube阿伟科技)
-      - _油管：全网最强白嫖 19
-      - 中国（欢迎订阅Youtube元亨利贞）
-      - CN-高速节点推荐：v1.mk/vip 3
-      - CN-高速节点推荐：v1.mk/vip 4
-      - YouTube梦歌|Netflix_132
-      - 美国(youtube阿伟科技) 4
-      - 韩国(youtube阿伟科技) 4
-      - YouTube梦歌|Netflix_77
-      - CN-高速节点推荐：v1.mk/vip 5
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - YouTube梦歌|Netflix_176
-      - 日本(youtube阿伟科技) 6
-      - 日本(youtube阿伟科技) 7
-      - _油管：全网最强白嫖 22
-      - 美国(youtube阿伟科技) 5
       - YouTube梦歌|Netflix_87
-      - 香港6-三网优化-强加密
-      - YouTube梦歌|Netflix_174
-      - 香港(youtube阿伟科技) 7
-      - _油管：全网最强白嫖 23
-      - 美国(youtube阿伟科技) 6
-      - _油管：全网最强白嫖 24
-      - 日本(youtube阿伟科技) 8
-      - 韩国节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_256
+      - 台湾(youtube阿伟科技)
+      - YouTube梦歌|Netflix_25
+      - 香港(youtube阿伟科技)
+      - YouTube梦歌|Netflix_35
+      - 中国-5.89MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_246
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_58
+      - YouTube梦歌|Netflix_20
+      - YouTube梦歌|Netflix_56
+      - YouTube梦歌|Netflix_281
+      - YouTube梦歌|Netflix_124
+      - YouTube梦歌|Netflix_42
+      - YouTube梦歌|Netflix_106
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_86
+      - YouTube梦歌|Netflix_26
+      - 美国-3.87MB/s(Youtube:不良林)
+      - 新加坡(youtube阿伟科技)
+      - YouTube梦歌|Netflix_115
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_260
+      - YouTube梦歌|Netflix_99
+      - YouTube梦歌|Netflix_62
+      - YouTube梦歌|Netflix_29
+      - YouTube梦歌|Netflix_123
+      - YouTube梦歌|Netflix_15 2
+      - YouTube梦歌|Netflix_76
+      - YouTube梦歌|Netflix_108
+      - YouTube梦歌|Netflix_208
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_58 2
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_32
+      - YouTube梦歌|Netflix_3
+      - YouTube梦歌|Netflix_103
+      - YouTube梦歌|Netflix_14
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_98
+      - YouTube梦歌|Netflix_53
+      - YouTube梦歌|Netflix_44
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_193
+      - YouTube梦歌|Netflix_102
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_36
+      - YouTube梦歌|Netflix_142
+      - YouTube梦歌|Netflix_51
+      - YouTube梦歌|Netflix_155 2
+      - YouTube梦歌|Netflix_278
+      - CN-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_71
+      - YouTube梦歌|Netflix_116
+      - YouTube梦歌|Netflix_93
+      - YouTube梦歌|Netflix_6
+      - 香港(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_10 2
+      - YouTube梦歌|Netflix_169
+      - YouTube梦歌|Netflix_111
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_154
+      - YouTube梦歌|Netflix_34 2
+      - YouTube梦歌|Netflix_100
+      - YouTube梦歌|Netflix_175
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_158
+      - YouTube梦歌|Netflix_226
+      - YouTube梦歌|Netflix_11
+      - 美国-3.37MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_177
+      - YouTube梦歌|Netflix_190
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_11 2
+      - 美国-2.90MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_184
+      - YouTube梦歌|Netflix_222
+      - YouTube梦歌|Netflix_210
+      - YouTube梦歌|Netflix_37
+      - YouTube梦歌|Netflix_166
+      - YouTube梦歌|Netflix_188
+      - YouTube梦歌|Netflix_59 2
+      - YouTube梦歌|Netflix_33
+      - YouTube梦歌|Netflix_209
+      - YouTube梦歌|Netflix_79
+      - YouTube梦歌|Netflix_302
+      - YouTube梦歌|Netflix_192
+      - YouTube梦歌|Netflix_61
+      - YouTube梦歌|Netflix_233
+      - YouTube梦歌|Netflix_146
+      - YouTube梦歌|Netflix_263
+      - 美国-3.77MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_213
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_255
+      - YouTube梦歌|Netflix_2 2
+      - YouTube梦歌|Netflix_248
+      - YouTube梦歌|Netflix_204
+      - YouTube梦歌|Netflix_144
+      - YouTube梦歌|Netflix_238
+      - YouTube梦歌|Netflix_129
+      - YouTube梦歌|Netflix_149
+      - YouTube梦歌|Netflix_243
+      - 土耳其(youtube阿伟科技)
+      - YouTube梦歌|Netflix_240
+      - 美国-3.54MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_223
+      - _油管：全网最强白嫖
+      - US-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_252
+      - YouTube梦歌|Netflix_87 2
+      - YouTube梦歌|Netflix_145
+      - 美国-2.71MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_186
+      - YouTube梦歌|Netflix_198
+      - YouTube梦歌|Netflix_131
+      - 香港(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_24
+      - YouTube梦歌|Netflix_217
+      - 新加坡(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_17 2
+      - 日本-11.10MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_26 2
+      - YouTube梦歌|Netflix_22
+      - YouTube梦歌|Netflix_105
+      - YouTube梦歌|Netflix_241
+      - YouTube梦歌|Netflix_269
+      - YouTube梦歌|Netflix_216
+      - YouTube梦歌|Netflix_227
+      - YouTube梦歌|Netflix_250
+      - YouTube梦歌|Netflix_262
+      - 印度-2.99MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_182
+      - _油管：全网最强白嫖 2
+      - YouTube梦歌|Netflix_143
+      - YouTube梦歌|Netflix_239
+      - 美国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_301
+      - YouTube梦歌|Netflix_212
+      - YouTube梦歌|Netflix_282
+      - YouTube梦歌|Netflix_289
+      - 韩国-934.9KB/s(Youtube:不良林)
+      - 法国-1.69MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_273
+      - YouTube梦歌|Netflix_54
+      - YouTube梦歌|Netflix_272
+      - YouTube梦歌|Netflix_234
+      - YouTube梦歌|Netflix_90 2
+      - YouTube梦歌|Netflix_229
+      - YouTube梦歌|Netflix_265
+      - 加拿大(youtube阿伟科技)
+      - 瑞士(v2rayshare.com免费节点日更)
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_288
+      - 香港(youtube阿伟科技) 4
+      - YouTube梦歌|Netflix_55
+      - YouTube梦歌|Netflix_14 2
+      - YouTube梦歌|Netflix_251
+      - 香港(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix_207
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_152
+      - _油管：全网最强白嫖 3
+      - YouTube梦歌|Netflix_245
+      - YouTube梦歌|Netflix_271
+      - 香港-2.64MB/s(Youtube:不良林)
+      - _油管：全网最强白嫖 4
+      - YouTube梦歌|Netflix_236
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_137
+      - 中国-671.0KB/s(Youtube:不良林)
+      - _油管：全网最强白嫖 5
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港杨枝甘露 03-D
-      - 香港丝袜奶茶 02-D
+      - 台湾(youtube阿伟科技)
       - 香港(youtube阿伟科技)
-      - 香港 [免流] 节点更新 bit.ly/36b6iJh
       - 香港(youtube阿伟科技) 2
-      - 台湾节点更新 bit.ly/36b6iJh
       - 香港(youtube阿伟科技) 3
       - 香港(youtube阿伟科技) 4
       - 香港(youtube阿伟科技) 5
-      - 香港(youtube阿伟科技) 6
-      - 香港6-三网优化-强加密
-      - 香港(youtube阿伟科技) 7
+      - 香港-2.64MB/s(Youtube:不良林)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港杨枝甘露 03-D
-      - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - 日本(youtube阿伟科技)
-      - 香港丝袜奶茶 02-D
-      - YouTube梦歌|Netflix_111
-      - _油管：全网最强白嫖 3
-      - _油管：全网最强白嫖 4
-      - YouTube梦歌|Netflix_47
-      - YouTube梦歌|Netflix
-      - YouTube梦歌|Netflix_22
-      - _油管：全网最强白嫖 5
-      - YouTube梦歌|Netflix_140
-      - +美国-3.37MB/s(Youtube:不良林)
-      - United States (US) 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_134
-      - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh-clone
-      - YouTube梦歌|Netflix_58
-      - YouTube梦歌|Netflix_152
-      - YouTube梦歌|Netflix_1
-      - 日本(youtube阿伟科技) 2
-      - 香港(youtube阿伟科技)
-      - 韩国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_90
-      - YouTube梦歌|Netflix_5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - 日本(youtube阿伟科技) 3
-      - 韩国(youtube阿伟科技) 2
-      - _油管：全网最强白嫖 8
-      - trojan2 (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - 日本(youtube阿伟科技) 4
-      - _油管：全网最强白嫖 11
-      - YouTube梦歌|Netflix 2
-      - 香港 [免流] 节点更新 bit.ly/36b6iJh
-      - JP-高速节点推荐：v1.mk/vip
-      - _油管：全网最强白嫖 12
-      - 日本(youtube阿伟科技) 5
-      - _油管：全网最强白嫖 13
-      - 美国(youtube阿伟科技)
-      - us135  节点更新 bit.ly/36b6iJh
-      - _油管：全网最强白嫖 14
-      - 瑞士(youtube阿伟科技)
-      - 澳大利亚(youtube阿伟科技)
-      - CN-高速节点推荐：v1.mk/vip
-      - _油管：全网最强白嫖 15
-      - 香港(youtube阿伟科技) 2
-      - AU-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|Netflix_60
+      - RU-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_156
+      - YouTube梦歌|Netflix_7
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_167
+      - YouTube梦歌|Netflix_21
       - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_124
-      - YouTube梦歌|Netflix_69
-      - YouTube梦歌|Netflix_130
-      - YouTube梦歌|Netflix_192
-      - 美国(youtube阿伟科技) 2
-      - 美国节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_52
-      - YouTube梦歌|Netflix_56
-      - CN-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_89
-      - YouTube梦歌|Netflix_180
-      - YouTube梦歌|Netflix_293
-      - YouTube梦歌|Netflix_157
-      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_95
+      - YouTube梦歌|Netflix_59
+      - YouTube梦歌|Netflix_34
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_8
       - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_178
-      - YouTube梦歌|Netflix_63
-      - YouTube梦歌|Netflix_111 2
-      - YouTube梦歌|Netflix_212
-      - YouTube梦歌|Netflix_76
-      - YouTube梦歌|Netflix_152 2
-      - 美国(youtube阿伟科技) 3
-      - 台湾节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_75
-      - YouTube梦歌|Netflix_145
-      - _油管：全网最强白嫖 16
-      - YouTube梦歌|Netflix_103
-      - YouTube梦歌|Netflix_201
-      - YouTube梦歌|Netflix_102
-      - YouTube梦歌|Netflix_149
-      - YouTube梦歌|Netflix_86
-      - trojan xtls  (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_48
-      - YouTube梦歌|Netflix_81
-      - YouTube梦歌|Netflix_150
-      - YouTube梦歌|Netflix_101
-      - YouTube梦歌|Netflix_127
-      - YouTube梦歌|Netflix_153
-      - YouTube梦歌|Netflix_72
-      - YouTube梦歌|Netflix_91
-      - YouTube梦歌|Netflix_155 2
-      - YouTube梦歌|Netflix_125
-      - YouTube梦歌|Netflix_159
-      - 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_70
-      - 香港(youtube阿伟科技) 3
-      - YouTube梦歌|Netflix_140 2
-      - 香港(youtube阿伟科技) 4
-      - 香港(youtube阿伟科技) 5
-      - _油管：全网最强白嫖 17
-      - YouTube梦歌|Netflix_146
-      - YouTube梦歌|Netflix_50
-      - YouTube梦歌|Netflix_97
-      - YouTube梦歌|Netflix_129
-      - YouTube梦歌|Netflix_9
-      - _油管：全网最强白嫖 18
-      - YouTube梦歌|Netflix_68
-      - 韩国(youtube阿伟科技) 3
-      - 香港(youtube阿伟科技) 6
-      - 新加坡(youtube阿伟科技)
-      - _油管：全网最强白嫖 19
-      - 中国（欢迎订阅Youtube元亨利贞）
-      - CN-高速节点推荐：v1.mk/vip 3
-      - CN-高速节点推荐：v1.mk/vip 4
-      - YouTube梦歌|Netflix_132
-      - 美国(youtube阿伟科技) 4
-      - 韩国(youtube阿伟科技) 4
-      - YouTube梦歌|Netflix_77
-      - CN-高速节点推荐：v1.mk/vip 5
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - YouTube梦歌|Netflix_176
-      - 日本(youtube阿伟科技) 6
-      - 日本(youtube阿伟科技) 7
-      - _油管：全网最强白嫖 22
-      - 美国(youtube阿伟科技) 5
       - YouTube梦歌|Netflix_87
-      - 香港6-三网优化-强加密
-      - YouTube梦歌|Netflix_174
-      - 香港(youtube阿伟科技) 7
-      - _油管：全网最强白嫖 23
-      - 美国(youtube阿伟科技) 6
-      - _油管：全网最强白嫖 24
-      - 日本(youtube阿伟科技) 8
-      - 韩国节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_256
+      - 台湾(youtube阿伟科技)
+      - YouTube梦歌|Netflix_25
+      - 香港(youtube阿伟科技)
+      - YouTube梦歌|Netflix_35
+      - 中国-5.89MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_246
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_58
+      - YouTube梦歌|Netflix_20
+      - YouTube梦歌|Netflix_56
+      - YouTube梦歌|Netflix_281
+      - YouTube梦歌|Netflix_124
+      - YouTube梦歌|Netflix_42
+      - YouTube梦歌|Netflix_106
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_86
+      - YouTube梦歌|Netflix_26
+      - 美国-3.87MB/s(Youtube:不良林)
+      - 新加坡(youtube阿伟科技)
+      - YouTube梦歌|Netflix_115
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_260
+      - YouTube梦歌|Netflix_99
+      - YouTube梦歌|Netflix_62
+      - YouTube梦歌|Netflix_29
+      - YouTube梦歌|Netflix_123
+      - YouTube梦歌|Netflix_15 2
+      - YouTube梦歌|Netflix_76
+      - YouTube梦歌|Netflix_108
+      - YouTube梦歌|Netflix_208
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_58 2
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_32
+      - YouTube梦歌|Netflix_3
+      - YouTube梦歌|Netflix_103
+      - YouTube梦歌|Netflix_14
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_98
+      - YouTube梦歌|Netflix_53
+      - YouTube梦歌|Netflix_44
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_193
+      - YouTube梦歌|Netflix_102
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_36
+      - YouTube梦歌|Netflix_142
+      - YouTube梦歌|Netflix_51
+      - YouTube梦歌|Netflix_155 2
+      - YouTube梦歌|Netflix_278
+      - CN-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_71
+      - YouTube梦歌|Netflix_116
+      - YouTube梦歌|Netflix_93
+      - YouTube梦歌|Netflix_6
+      - 香港(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_10 2
+      - YouTube梦歌|Netflix_169
+      - YouTube梦歌|Netflix_111
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_154
+      - YouTube梦歌|Netflix_34 2
+      - YouTube梦歌|Netflix_100
+      - YouTube梦歌|Netflix_175
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_158
+      - YouTube梦歌|Netflix_226
+      - YouTube梦歌|Netflix_11
+      - 美国-3.37MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_177
+      - YouTube梦歌|Netflix_190
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_11 2
+      - 美国-2.90MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_184
+      - YouTube梦歌|Netflix_222
+      - YouTube梦歌|Netflix_210
+      - YouTube梦歌|Netflix_37
+      - YouTube梦歌|Netflix_166
+      - YouTube梦歌|Netflix_188
+      - YouTube梦歌|Netflix_59 2
+      - YouTube梦歌|Netflix_33
+      - YouTube梦歌|Netflix_209
+      - YouTube梦歌|Netflix_79
+      - YouTube梦歌|Netflix_302
+      - YouTube梦歌|Netflix_192
+      - YouTube梦歌|Netflix_61
+      - YouTube梦歌|Netflix_233
+      - YouTube梦歌|Netflix_146
+      - YouTube梦歌|Netflix_263
+      - 美国-3.77MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_213
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_255
+      - YouTube梦歌|Netflix_2 2
+      - YouTube梦歌|Netflix_248
+      - YouTube梦歌|Netflix_204
+      - YouTube梦歌|Netflix_144
+      - YouTube梦歌|Netflix_238
+      - YouTube梦歌|Netflix_129
+      - YouTube梦歌|Netflix_149
+      - YouTube梦歌|Netflix_243
+      - 土耳其(youtube阿伟科技)
+      - YouTube梦歌|Netflix_240
+      - 美国-3.54MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_223
+      - _油管：全网最强白嫖
+      - US-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_252
+      - YouTube梦歌|Netflix_87 2
+      - YouTube梦歌|Netflix_145
+      - 美国-2.71MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_186
+      - YouTube梦歌|Netflix_198
+      - YouTube梦歌|Netflix_131
+      - 香港(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_24
+      - YouTube梦歌|Netflix_217
+      - 新加坡(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_17 2
+      - 日本-11.10MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_26 2
+      - YouTube梦歌|Netflix_22
+      - YouTube梦歌|Netflix_105
+      - YouTube梦歌|Netflix_241
+      - YouTube梦歌|Netflix_269
+      - YouTube梦歌|Netflix_216
+      - YouTube梦歌|Netflix_227
+      - YouTube梦歌|Netflix_250
+      - YouTube梦歌|Netflix_262
+      - 印度-2.99MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_182
+      - _油管：全网最强白嫖 2
+      - YouTube梦歌|Netflix_143
+      - YouTube梦歌|Netflix_239
+      - 美国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_301
+      - YouTube梦歌|Netflix_212
+      - YouTube梦歌|Netflix_282
+      - YouTube梦歌|Netflix_289
+      - 韩国-934.9KB/s(Youtube:不良林)
+      - 法国-1.69MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_273
+      - YouTube梦歌|Netflix_54
+      - YouTube梦歌|Netflix_272
+      - YouTube梦歌|Netflix_234
+      - YouTube梦歌|Netflix_90 2
+      - YouTube梦歌|Netflix_229
+      - YouTube梦歌|Netflix_265
+      - 加拿大(youtube阿伟科技)
+      - 瑞士(v2rayshare.com免费节点日更)
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_288
+      - 香港(youtube阿伟科技) 4
+      - YouTube梦歌|Netflix_55
+      - YouTube梦歌|Netflix_14 2
+      - YouTube梦歌|Netflix_251
+      - 香港(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix_207
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_152
+      - _油管：全网最强白嫖 3
+      - YouTube梦歌|Netflix_245
+      - YouTube梦歌|Netflix_271
+      - 香港-2.64MB/s(Youtube:不良林)
+      - _油管：全网最强白嫖 4
+      - YouTube梦歌|Netflix_236
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_137
+      - 中国-671.0KB/s(Youtube:不良林)
+      - _油管：全网最强白嫖 5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港杨枝甘露 03-D
-      - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - 日本(youtube阿伟科技)
-      - 香港丝袜奶茶 02-D
-      - YouTube梦歌|Netflix_111
-      - _油管：全网最强白嫖 3
-      - _油管：全网最强白嫖 4
-      - YouTube梦歌|Netflix_47
-      - YouTube梦歌|Netflix
-      - YouTube梦歌|Netflix_22
-      - _油管：全网最强白嫖 5
-      - YouTube梦歌|Netflix_140
-      - +美国-3.37MB/s(Youtube:不良林)
-      - United States (US) 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_134
-      - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh-clone
-      - YouTube梦歌|Netflix_58
-      - YouTube梦歌|Netflix_152
-      - YouTube梦歌|Netflix_1
-      - 日本(youtube阿伟科技) 2
-      - 香港(youtube阿伟科技)
-      - 韩国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_90
-      - YouTube梦歌|Netflix_5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - 日本(youtube阿伟科技) 3
-      - 韩国(youtube阿伟科技) 2
-      - _油管：全网最强白嫖 8
-      - trojan2 (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - 日本(youtube阿伟科技) 4
-      - _油管：全网最强白嫖 11
-      - YouTube梦歌|Netflix 2
-      - 香港 [免流] 节点更新 bit.ly/36b6iJh
-      - JP-高速节点推荐：v1.mk/vip
-      - _油管：全网最强白嫖 12
-      - 日本(youtube阿伟科技) 5
-      - _油管：全网最强白嫖 13
-      - 美国(youtube阿伟科技)
-      - us135  节点更新 bit.ly/36b6iJh
-      - _油管：全网最强白嫖 14
-      - 瑞士(youtube阿伟科技)
-      - 澳大利亚(youtube阿伟科技)
-      - CN-高速节点推荐：v1.mk/vip
-      - _油管：全网最强白嫖 15
-      - 香港(youtube阿伟科技) 2
-      - AU-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|Netflix_60
+      - RU-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_156
+      - YouTube梦歌|Netflix_7
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_167
+      - YouTube梦歌|Netflix_21
       - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_124
-      - YouTube梦歌|Netflix_69
-      - YouTube梦歌|Netflix_130
-      - YouTube梦歌|Netflix_192
-      - 美国(youtube阿伟科技) 2
-      - 美国节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_52
-      - YouTube梦歌|Netflix_56
-      - CN-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_89
-      - YouTube梦歌|Netflix_180
-      - YouTube梦歌|Netflix_293
-      - YouTube梦歌|Netflix_157
-      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_95
+      - YouTube梦歌|Netflix_59
+      - YouTube梦歌|Netflix_34
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_8
       - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_178
-      - YouTube梦歌|Netflix_63
-      - YouTube梦歌|Netflix_111 2
-      - YouTube梦歌|Netflix_212
-      - YouTube梦歌|Netflix_76
-      - YouTube梦歌|Netflix_152 2
-      - 美国(youtube阿伟科技) 3
-      - 台湾节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_75
-      - YouTube梦歌|Netflix_145
-      - _油管：全网最强白嫖 16
-      - YouTube梦歌|Netflix_103
-      - YouTube梦歌|Netflix_201
-      - YouTube梦歌|Netflix_102
-      - YouTube梦歌|Netflix_149
-      - YouTube梦歌|Netflix_86
-      - trojan xtls  (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_48
-      - YouTube梦歌|Netflix_81
-      - YouTube梦歌|Netflix_150
-      - YouTube梦歌|Netflix_101
-      - YouTube梦歌|Netflix_127
-      - YouTube梦歌|Netflix_153
-      - YouTube梦歌|Netflix_72
-      - YouTube梦歌|Netflix_91
-      - YouTube梦歌|Netflix_155 2
-      - YouTube梦歌|Netflix_125
-      - YouTube梦歌|Netflix_159
-      - 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_70
-      - 香港(youtube阿伟科技) 3
-      - YouTube梦歌|Netflix_140 2
-      - 香港(youtube阿伟科技) 4
-      - 香港(youtube阿伟科技) 5
-      - _油管：全网最强白嫖 17
-      - YouTube梦歌|Netflix_146
-      - YouTube梦歌|Netflix_50
-      - YouTube梦歌|Netflix_97
-      - YouTube梦歌|Netflix_129
-      - YouTube梦歌|Netflix_9
-      - _油管：全网最强白嫖 18
-      - YouTube梦歌|Netflix_68
-      - 韩国(youtube阿伟科技) 3
-      - 香港(youtube阿伟科技) 6
-      - 新加坡(youtube阿伟科技)
-      - _油管：全网最强白嫖 19
-      - 中国（欢迎订阅Youtube元亨利贞）
-      - CN-高速节点推荐：v1.mk/vip 3
-      - CN-高速节点推荐：v1.mk/vip 4
-      - YouTube梦歌|Netflix_132
-      - 美国(youtube阿伟科技) 4
-      - 韩国(youtube阿伟科技) 4
-      - YouTube梦歌|Netflix_77
-      - CN-高速节点推荐：v1.mk/vip 5
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - YouTube梦歌|Netflix_176
-      - 日本(youtube阿伟科技) 6
-      - 日本(youtube阿伟科技) 7
-      - _油管：全网最强白嫖 22
-      - 美国(youtube阿伟科技) 5
       - YouTube梦歌|Netflix_87
-      - 香港6-三网优化-强加密
-      - YouTube梦歌|Netflix_174
-      - 香港(youtube阿伟科技) 7
-      - _油管：全网最强白嫖 23
-      - 美国(youtube阿伟科技) 6
-      - _油管：全网最强白嫖 24
-      - 日本(youtube阿伟科技) 8
-      - 韩国节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_256
+      - 台湾(youtube阿伟科技)
+      - YouTube梦歌|Netflix_25
+      - 香港(youtube阿伟科技)
+      - YouTube梦歌|Netflix_35
+      - 中国-5.89MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_246
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_58
+      - YouTube梦歌|Netflix_20
+      - YouTube梦歌|Netflix_56
+      - YouTube梦歌|Netflix_281
+      - YouTube梦歌|Netflix_124
+      - YouTube梦歌|Netflix_42
+      - YouTube梦歌|Netflix_106
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_86
+      - YouTube梦歌|Netflix_26
+      - 美国-3.87MB/s(Youtube:不良林)
+      - 新加坡(youtube阿伟科技)
+      - YouTube梦歌|Netflix_115
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_260
+      - YouTube梦歌|Netflix_99
+      - YouTube梦歌|Netflix_62
+      - YouTube梦歌|Netflix_29
+      - YouTube梦歌|Netflix_123
+      - YouTube梦歌|Netflix_15 2
+      - YouTube梦歌|Netflix_76
+      - YouTube梦歌|Netflix_108
+      - YouTube梦歌|Netflix_208
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_58 2
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_32
+      - YouTube梦歌|Netflix_3
+      - YouTube梦歌|Netflix_103
+      - YouTube梦歌|Netflix_14
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_98
+      - YouTube梦歌|Netflix_53
+      - YouTube梦歌|Netflix_44
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_193
+      - YouTube梦歌|Netflix_102
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_36
+      - YouTube梦歌|Netflix_142
+      - YouTube梦歌|Netflix_51
+      - YouTube梦歌|Netflix_155 2
+      - YouTube梦歌|Netflix_278
+      - CN-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_71
+      - YouTube梦歌|Netflix_116
+      - YouTube梦歌|Netflix_93
+      - YouTube梦歌|Netflix_6
+      - 香港(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_10 2
+      - YouTube梦歌|Netflix_169
+      - YouTube梦歌|Netflix_111
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_154
+      - YouTube梦歌|Netflix_34 2
+      - YouTube梦歌|Netflix_100
+      - YouTube梦歌|Netflix_175
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_158
+      - YouTube梦歌|Netflix_226
+      - YouTube梦歌|Netflix_11
+      - 美国-3.37MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_177
+      - YouTube梦歌|Netflix_190
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_11 2
+      - 美国-2.90MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_184
+      - YouTube梦歌|Netflix_222
+      - YouTube梦歌|Netflix_210
+      - YouTube梦歌|Netflix_37
+      - YouTube梦歌|Netflix_166
+      - YouTube梦歌|Netflix_188
+      - YouTube梦歌|Netflix_59 2
+      - YouTube梦歌|Netflix_33
+      - YouTube梦歌|Netflix_209
+      - YouTube梦歌|Netflix_79
+      - YouTube梦歌|Netflix_302
+      - YouTube梦歌|Netflix_192
+      - YouTube梦歌|Netflix_61
+      - YouTube梦歌|Netflix_233
+      - YouTube梦歌|Netflix_146
+      - YouTube梦歌|Netflix_263
+      - 美国-3.77MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_213
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_255
+      - YouTube梦歌|Netflix_2 2
+      - YouTube梦歌|Netflix_248
+      - YouTube梦歌|Netflix_204
+      - YouTube梦歌|Netflix_144
+      - YouTube梦歌|Netflix_238
+      - YouTube梦歌|Netflix_129
+      - YouTube梦歌|Netflix_149
+      - YouTube梦歌|Netflix_243
+      - 土耳其(youtube阿伟科技)
+      - YouTube梦歌|Netflix_240
+      - 美国-3.54MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_223
+      - _油管：全网最强白嫖
+      - US-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_252
+      - YouTube梦歌|Netflix_87 2
+      - YouTube梦歌|Netflix_145
+      - 美国-2.71MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_186
+      - YouTube梦歌|Netflix_198
+      - YouTube梦歌|Netflix_131
+      - 香港(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_24
+      - YouTube梦歌|Netflix_217
+      - 新加坡(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_17 2
+      - 日本-11.10MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_26 2
+      - YouTube梦歌|Netflix_22
+      - YouTube梦歌|Netflix_105
+      - YouTube梦歌|Netflix_241
+      - YouTube梦歌|Netflix_269
+      - YouTube梦歌|Netflix_216
+      - YouTube梦歌|Netflix_227
+      - YouTube梦歌|Netflix_250
+      - YouTube梦歌|Netflix_262
+      - 印度-2.99MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_182
+      - _油管：全网最强白嫖 2
+      - YouTube梦歌|Netflix_143
+      - YouTube梦歌|Netflix_239
+      - 美国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_301
+      - YouTube梦歌|Netflix_212
+      - YouTube梦歌|Netflix_282
+      - YouTube梦歌|Netflix_289
+      - 韩国-934.9KB/s(Youtube:不良林)
+      - 法国-1.69MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_273
+      - YouTube梦歌|Netflix_54
+      - YouTube梦歌|Netflix_272
+      - YouTube梦歌|Netflix_234
+      - YouTube梦歌|Netflix_90 2
+      - YouTube梦歌|Netflix_229
+      - YouTube梦歌|Netflix_265
+      - 加拿大(youtube阿伟科技)
+      - 瑞士(v2rayshare.com免费节点日更)
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_288
+      - 香港(youtube阿伟科技) 4
+      - YouTube梦歌|Netflix_55
+      - YouTube梦歌|Netflix_14 2
+      - YouTube梦歌|Netflix_251
+      - 香港(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix_207
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_152
+      - _油管：全网最强白嫖 3
+      - YouTube梦歌|Netflix_245
+      - YouTube梦歌|Netflix_271
+      - 香港-2.64MB/s(Youtube:不良林)
+      - _油管：全网最强白嫖 4
+      - YouTube梦歌|Netflix_236
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_137
+      - 中国-671.0KB/s(Youtube:不良林)
+      - _油管：全网最强白嫖 5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港杨枝甘露 03-D
-      - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - 日本(youtube阿伟科技)
-      - 香港丝袜奶茶 02-D
-      - YouTube梦歌|Netflix_111
-      - _油管：全网最强白嫖 3
-      - _油管：全网最强白嫖 4
-      - YouTube梦歌|Netflix_47
-      - YouTube梦歌|Netflix
-      - YouTube梦歌|Netflix_22
-      - _油管：全网最强白嫖 5
-      - YouTube梦歌|Netflix_140
-      - +美国-3.37MB/s(Youtube:不良林)
-      - United States (US) 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_134
-      - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh-clone
-      - YouTube梦歌|Netflix_58
-      - YouTube梦歌|Netflix_152
-      - YouTube梦歌|Netflix_1
-      - 日本(youtube阿伟科技) 2
-      - 香港(youtube阿伟科技)
-      - 韩国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_90
-      - YouTube梦歌|Netflix_5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - 日本(youtube阿伟科技) 3
-      - 韩国(youtube阿伟科技) 2
-      - _油管：全网最强白嫖 8
-      - trojan2 (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - 日本(youtube阿伟科技) 4
-      - _油管：全网最强白嫖 11
-      - YouTube梦歌|Netflix 2
-      - 香港 [免流] 节点更新 bit.ly/36b6iJh
-      - JP-高速节点推荐：v1.mk/vip
-      - _油管：全网最强白嫖 12
-      - 日本(youtube阿伟科技) 5
-      - _油管：全网最强白嫖 13
-      - 美国(youtube阿伟科技)
-      - us135  节点更新 bit.ly/36b6iJh
-      - _油管：全网最强白嫖 14
-      - 瑞士(youtube阿伟科技)
-      - 澳大利亚(youtube阿伟科技)
-      - CN-高速节点推荐：v1.mk/vip
-      - _油管：全网最强白嫖 15
-      - 香港(youtube阿伟科技) 2
-      - AU-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|Netflix_60
+      - RU-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_156
+      - YouTube梦歌|Netflix_7
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_167
+      - YouTube梦歌|Netflix_21
       - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_124
-      - YouTube梦歌|Netflix_69
-      - YouTube梦歌|Netflix_130
-      - YouTube梦歌|Netflix_192
-      - 美国(youtube阿伟科技) 2
-      - 美国节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_52
-      - YouTube梦歌|Netflix_56
-      - CN-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_89
-      - YouTube梦歌|Netflix_180
-      - YouTube梦歌|Netflix_293
-      - YouTube梦歌|Netflix_157
-      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_95
+      - YouTube梦歌|Netflix_59
+      - YouTube梦歌|Netflix_34
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_8
       - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_178
-      - YouTube梦歌|Netflix_63
-      - YouTube梦歌|Netflix_111 2
-      - YouTube梦歌|Netflix_212
-      - YouTube梦歌|Netflix_76
-      - YouTube梦歌|Netflix_152 2
-      - 美国(youtube阿伟科技) 3
-      - 台湾节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_75
-      - YouTube梦歌|Netflix_145
-      - _油管：全网最强白嫖 16
-      - YouTube梦歌|Netflix_103
-      - YouTube梦歌|Netflix_201
-      - YouTube梦歌|Netflix_102
-      - YouTube梦歌|Netflix_149
-      - YouTube梦歌|Netflix_86
-      - trojan xtls  (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_48
-      - YouTube梦歌|Netflix_81
-      - YouTube梦歌|Netflix_150
-      - YouTube梦歌|Netflix_101
-      - YouTube梦歌|Netflix_127
-      - YouTube梦歌|Netflix_153
-      - YouTube梦歌|Netflix_72
-      - YouTube梦歌|Netflix_91
-      - YouTube梦歌|Netflix_155 2
-      - YouTube梦歌|Netflix_125
-      - YouTube梦歌|Netflix_159
-      - 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_70
-      - 香港(youtube阿伟科技) 3
-      - YouTube梦歌|Netflix_140 2
-      - 香港(youtube阿伟科技) 4
-      - 香港(youtube阿伟科技) 5
-      - _油管：全网最强白嫖 17
-      - YouTube梦歌|Netflix_146
-      - YouTube梦歌|Netflix_50
-      - YouTube梦歌|Netflix_97
-      - YouTube梦歌|Netflix_129
-      - YouTube梦歌|Netflix_9
-      - _油管：全网最强白嫖 18
-      - YouTube梦歌|Netflix_68
-      - 韩国(youtube阿伟科技) 3
-      - 香港(youtube阿伟科技) 6
-      - 新加坡(youtube阿伟科技)
-      - _油管：全网最强白嫖 19
-      - 中国（欢迎订阅Youtube元亨利贞）
-      - CN-高速节点推荐：v1.mk/vip 3
-      - CN-高速节点推荐：v1.mk/vip 4
-      - YouTube梦歌|Netflix_132
-      - 美国(youtube阿伟科技) 4
-      - 韩国(youtube阿伟科技) 4
-      - YouTube梦歌|Netflix_77
-      - CN-高速节点推荐：v1.mk/vip 5
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - YouTube梦歌|Netflix_176
-      - 日本(youtube阿伟科技) 6
-      - 日本(youtube阿伟科技) 7
-      - _油管：全网最强白嫖 22
-      - 美国(youtube阿伟科技) 5
       - YouTube梦歌|Netflix_87
-      - 香港6-三网优化-强加密
-      - YouTube梦歌|Netflix_174
-      - 香港(youtube阿伟科技) 7
-      - _油管：全网最强白嫖 23
-      - 美国(youtube阿伟科技) 6
-      - _油管：全网最强白嫖 24
-      - 日本(youtube阿伟科技) 8
-      - 韩国节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_256
+      - 台湾(youtube阿伟科技)
+      - YouTube梦歌|Netflix_25
+      - 香港(youtube阿伟科技)
+      - YouTube梦歌|Netflix_35
+      - 中国-5.89MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_246
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_58
+      - YouTube梦歌|Netflix_20
+      - YouTube梦歌|Netflix_56
+      - YouTube梦歌|Netflix_281
+      - YouTube梦歌|Netflix_124
+      - YouTube梦歌|Netflix_42
+      - YouTube梦歌|Netflix_106
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_86
+      - YouTube梦歌|Netflix_26
+      - 美国-3.87MB/s(Youtube:不良林)
+      - 新加坡(youtube阿伟科技)
+      - YouTube梦歌|Netflix_115
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_260
+      - YouTube梦歌|Netflix_99
+      - YouTube梦歌|Netflix_62
+      - YouTube梦歌|Netflix_29
+      - YouTube梦歌|Netflix_123
+      - YouTube梦歌|Netflix_15 2
+      - YouTube梦歌|Netflix_76
+      - YouTube梦歌|Netflix_108
+      - YouTube梦歌|Netflix_208
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_58 2
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_32
+      - YouTube梦歌|Netflix_3
+      - YouTube梦歌|Netflix_103
+      - YouTube梦歌|Netflix_14
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_98
+      - YouTube梦歌|Netflix_53
+      - YouTube梦歌|Netflix_44
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_193
+      - YouTube梦歌|Netflix_102
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_36
+      - YouTube梦歌|Netflix_142
+      - YouTube梦歌|Netflix_51
+      - YouTube梦歌|Netflix_155 2
+      - YouTube梦歌|Netflix_278
+      - CN-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_71
+      - YouTube梦歌|Netflix_116
+      - YouTube梦歌|Netflix_93
+      - YouTube梦歌|Netflix_6
+      - 香港(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_10 2
+      - YouTube梦歌|Netflix_169
+      - YouTube梦歌|Netflix_111
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_154
+      - YouTube梦歌|Netflix_34 2
+      - YouTube梦歌|Netflix_100
+      - YouTube梦歌|Netflix_175
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_158
+      - YouTube梦歌|Netflix_226
+      - YouTube梦歌|Netflix_11
+      - 美国-3.37MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_177
+      - YouTube梦歌|Netflix_190
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_11 2
+      - 美国-2.90MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_184
+      - YouTube梦歌|Netflix_222
+      - YouTube梦歌|Netflix_210
+      - YouTube梦歌|Netflix_37
+      - YouTube梦歌|Netflix_166
+      - YouTube梦歌|Netflix_188
+      - YouTube梦歌|Netflix_59 2
+      - YouTube梦歌|Netflix_33
+      - YouTube梦歌|Netflix_209
+      - YouTube梦歌|Netflix_79
+      - YouTube梦歌|Netflix_302
+      - YouTube梦歌|Netflix_192
+      - YouTube梦歌|Netflix_61
+      - YouTube梦歌|Netflix_233
+      - YouTube梦歌|Netflix_146
+      - YouTube梦歌|Netflix_263
+      - 美国-3.77MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_213
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_255
+      - YouTube梦歌|Netflix_2 2
+      - YouTube梦歌|Netflix_248
+      - YouTube梦歌|Netflix_204
+      - YouTube梦歌|Netflix_144
+      - YouTube梦歌|Netflix_238
+      - YouTube梦歌|Netflix_129
+      - YouTube梦歌|Netflix_149
+      - YouTube梦歌|Netflix_243
+      - 土耳其(youtube阿伟科技)
+      - YouTube梦歌|Netflix_240
+      - 美国-3.54MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_223
+      - _油管：全网最强白嫖
+      - US-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_252
+      - YouTube梦歌|Netflix_87 2
+      - YouTube梦歌|Netflix_145
+      - 美国-2.71MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_186
+      - YouTube梦歌|Netflix_198
+      - YouTube梦歌|Netflix_131
+      - 香港(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_24
+      - YouTube梦歌|Netflix_217
+      - 新加坡(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_17 2
+      - 日本-11.10MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_26 2
+      - YouTube梦歌|Netflix_22
+      - YouTube梦歌|Netflix_105
+      - YouTube梦歌|Netflix_241
+      - YouTube梦歌|Netflix_269
+      - YouTube梦歌|Netflix_216
+      - YouTube梦歌|Netflix_227
+      - YouTube梦歌|Netflix_250
+      - YouTube梦歌|Netflix_262
+      - 印度-2.99MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_182
+      - _油管：全网最强白嫖 2
+      - YouTube梦歌|Netflix_143
+      - YouTube梦歌|Netflix_239
+      - 美国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_301
+      - YouTube梦歌|Netflix_212
+      - YouTube梦歌|Netflix_282
+      - YouTube梦歌|Netflix_289
+      - 韩国-934.9KB/s(Youtube:不良林)
+      - 法国-1.69MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_273
+      - YouTube梦歌|Netflix_54
+      - YouTube梦歌|Netflix_272
+      - YouTube梦歌|Netflix_234
+      - YouTube梦歌|Netflix_90 2
+      - YouTube梦歌|Netflix_229
+      - YouTube梦歌|Netflix_265
+      - 加拿大(youtube阿伟科技)
+      - 瑞士(v2rayshare.com免费节点日更)
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_288
+      - 香港(youtube阿伟科技) 4
+      - YouTube梦歌|Netflix_55
+      - YouTube梦歌|Netflix_14 2
+      - YouTube梦歌|Netflix_251
+      - 香港(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix_207
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_152
+      - _油管：全网最强白嫖 3
+      - YouTube梦歌|Netflix_245
+      - YouTube梦歌|Netflix_271
+      - 香港-2.64MB/s(Youtube:不良林)
+      - _油管：全网最强白嫖 4
+      - YouTube梦歌|Netflix_236
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_137
+      - 中国-671.0KB/s(Youtube:不良林)
+      - _油管：全网最强白嫖 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1176,142 +1627,199 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港杨枝甘露 03-D
-      - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - 日本(youtube阿伟科技)
-      - 香港丝袜奶茶 02-D
-      - YouTube梦歌|Netflix_111
-      - _油管：全网最强白嫖 3
-      - _油管：全网最强白嫖 4
-      - YouTube梦歌|Netflix_47
-      - YouTube梦歌|Netflix
-      - YouTube梦歌|Netflix_22
-      - _油管：全网最强白嫖 5
-      - YouTube梦歌|Netflix_140
-      - +美国-3.37MB/s(Youtube:不良林)
-      - United States (US) 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_134
-      - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh-clone
-      - YouTube梦歌|Netflix_58
-      - YouTube梦歌|Netflix_152
-      - YouTube梦歌|Netflix_1
-      - 日本(youtube阿伟科技) 2
-      - 香港(youtube阿伟科技)
-      - 韩国(youtube阿伟科技)
-      - YouTube梦歌|Netflix_90
-      - YouTube梦歌|Netflix_5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - 日本(youtube阿伟科技) 3
-      - 韩国(youtube阿伟科技) 2
-      - _油管：全网最强白嫖 8
-      - trojan2 (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - 日本(youtube阿伟科技) 4
-      - _油管：全网最强白嫖 11
-      - YouTube梦歌|Netflix 2
-      - 香港 [免流] 节点更新 bit.ly/36b6iJh
-      - JP-高速节点推荐：v1.mk/vip
-      - _油管：全网最强白嫖 12
-      - 日本(youtube阿伟科技) 5
-      - _油管：全网最强白嫖 13
-      - 美国(youtube阿伟科技)
-      - us135  节点更新 bit.ly/36b6iJh
-      - _油管：全网最强白嫖 14
-      - 瑞士(youtube阿伟科技)
-      - 澳大利亚(youtube阿伟科技)
-      - CN-高速节点推荐：v1.mk/vip
-      - _油管：全网最强白嫖 15
-      - 香港(youtube阿伟科技) 2
-      - AU-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|Netflix_60
+      - RU-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_156
+      - YouTube梦歌|Netflix_7
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_167
+      - YouTube梦歌|Netflix_21
       - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_124
-      - YouTube梦歌|Netflix_69
-      - YouTube梦歌|Netflix_130
-      - YouTube梦歌|Netflix_192
-      - 美国(youtube阿伟科技) 2
-      - 美国节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_52
-      - YouTube梦歌|Netflix_56
-      - CN-高速节点推荐：v1.mk/vip 2
-      - YouTube梦歌|Netflix_89
-      - YouTube梦歌|Netflix_180
-      - YouTube梦歌|Netflix_293
-      - YouTube梦歌|Netflix_157
-      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_95
+      - YouTube梦歌|Netflix_59
+      - YouTube梦歌|Netflix_34
+      - YouTube梦歌|Netflix_90
+      - YouTube梦歌|Netflix_8
       - YouTube梦歌|Netflix_155
-      - YouTube梦歌|Netflix_178
-      - YouTube梦歌|Netflix_63
-      - YouTube梦歌|Netflix_111 2
-      - YouTube梦歌|Netflix_212
-      - YouTube梦歌|Netflix_76
-      - YouTube梦歌|Netflix_152 2
-      - 美国(youtube阿伟科技) 3
-      - 台湾节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_75
-      - YouTube梦歌|Netflix_145
-      - _油管：全网最强白嫖 16
-      - YouTube梦歌|Netflix_103
-      - YouTube梦歌|Netflix_201
-      - YouTube梦歌|Netflix_102
-      - YouTube梦歌|Netflix_149
-      - YouTube梦歌|Netflix_86
-      - trojan xtls  (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_48
-      - YouTube梦歌|Netflix_81
-      - YouTube梦歌|Netflix_150
-      - YouTube梦歌|Netflix_101
-      - YouTube梦歌|Netflix_127
-      - YouTube梦歌|Netflix_153
-      - YouTube梦歌|Netflix_72
-      - YouTube梦歌|Netflix_91
-      - YouTube梦歌|Netflix_155 2
-      - YouTube梦歌|Netflix_125
-      - YouTube梦歌|Netflix_159
-      - 节点更新 bit.ly/36b6iJh
-      - YouTube梦歌|Netflix_70
-      - 香港(youtube阿伟科技) 3
-      - YouTube梦歌|Netflix_140 2
-      - 香港(youtube阿伟科技) 4
-      - 香港(youtube阿伟科技) 5
-      - _油管：全网最强白嫖 17
-      - YouTube梦歌|Netflix_146
-      - YouTube梦歌|Netflix_50
-      - YouTube梦歌|Netflix_97
-      - YouTube梦歌|Netflix_129
-      - YouTube梦歌|Netflix_9
-      - _油管：全网最强白嫖 18
-      - YouTube梦歌|Netflix_68
-      - 韩国(youtube阿伟科技) 3
-      - 香港(youtube阿伟科技) 6
-      - 新加坡(youtube阿伟科技)
-      - _油管：全网最强白嫖 19
-      - 中国（欢迎订阅Youtube元亨利贞）
-      - CN-高速节点推荐：v1.mk/vip 3
-      - CN-高速节点推荐：v1.mk/vip 4
-      - YouTube梦歌|Netflix_132
-      - 美国(youtube阿伟科技) 4
-      - 韩国(youtube阿伟科技) 4
-      - YouTube梦歌|Netflix_77
-      - CN-高速节点推荐：v1.mk/vip 5
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - YouTube梦歌|Netflix_176
-      - 日本(youtube阿伟科技) 6
-      - 日本(youtube阿伟科技) 7
-      - _油管：全网最强白嫖 22
-      - 美国(youtube阿伟科技) 5
       - YouTube梦歌|Netflix_87
-      - 香港6-三网优化-强加密
-      - YouTube梦歌|Netflix_174
-      - 香港(youtube阿伟科技) 7
-      - _油管：全网最强白嫖 23
-      - 美国(youtube阿伟科技) 6
-      - _油管：全网最强白嫖 24
-      - 日本(youtube阿伟科技) 8
-      - 韩国节点更新 bit.ly/36b6iJh
+      - YouTube梦歌|Netflix_256
+      - 台湾(youtube阿伟科技)
+      - YouTube梦歌|Netflix_25
+      - 香港(youtube阿伟科技)
+      - YouTube梦歌|Netflix_35
+      - 中国-5.89MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_246
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_58
+      - YouTube梦歌|Netflix_20
+      - YouTube梦歌|Netflix_56
+      - YouTube梦歌|Netflix_281
+      - YouTube梦歌|Netflix_124
+      - YouTube梦歌|Netflix_42
+      - YouTube梦歌|Netflix_106
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_86
+      - YouTube梦歌|Netflix_26
+      - 美国-3.87MB/s(Youtube:不良林)
+      - 新加坡(youtube阿伟科技)
+      - YouTube梦歌|Netflix_115
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_260
+      - YouTube梦歌|Netflix_99
+      - YouTube梦歌|Netflix_62
+      - YouTube梦歌|Netflix_29
+      - YouTube梦歌|Netflix_123
+      - YouTube梦歌|Netflix_15 2
+      - YouTube梦歌|Netflix_76
+      - YouTube梦歌|Netflix_108
+      - YouTube梦歌|Netflix_208
+      - YouTube梦歌|Netflix_17
+      - YouTube梦歌|Netflix_58 2
+      - YouTube梦歌|Netflix_64
+      - YouTube梦歌|Netflix_32
+      - YouTube梦歌|Netflix_3
+      - YouTube梦歌|Netflix_103
+      - YouTube梦歌|Netflix_14
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_98
+      - YouTube梦歌|Netflix_53
+      - YouTube梦歌|Netflix_44
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_193
+      - YouTube梦歌|Netflix_102
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_36
+      - YouTube梦歌|Netflix_142
+      - YouTube梦歌|Netflix_51
+      - YouTube梦歌|Netflix_155 2
+      - YouTube梦歌|Netflix_278
+      - CN-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_71
+      - YouTube梦歌|Netflix_116
+      - YouTube梦歌|Netflix_93
+      - YouTube梦歌|Netflix_6
+      - 香港(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_10 2
+      - YouTube梦歌|Netflix_169
+      - YouTube梦歌|Netflix_111
+      - YouTube梦歌|Netflix_197
+      - YouTube梦歌|Netflix_154
+      - YouTube梦歌|Netflix_34 2
+      - YouTube梦歌|Netflix_100
+      - YouTube梦歌|Netflix_175
+      - YouTube梦歌|Netflix_57
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_158
+      - YouTube梦歌|Netflix_226
+      - YouTube梦歌|Netflix_11
+      - 美国-3.37MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_177
+      - YouTube梦歌|Netflix_190
+      - 日本(youtube阿伟科技)
+      - YouTube梦歌|Netflix_11 2
+      - 美国-2.90MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_28
+      - YouTube梦歌|Netflix_184
+      - YouTube梦歌|Netflix_222
+      - YouTube梦歌|Netflix_210
+      - YouTube梦歌|Netflix_37
+      - YouTube梦歌|Netflix_166
+      - YouTube梦歌|Netflix_188
+      - YouTube梦歌|Netflix_59 2
+      - YouTube梦歌|Netflix_33
+      - YouTube梦歌|Netflix_209
+      - YouTube梦歌|Netflix_79
+      - YouTube梦歌|Netflix_302
+      - YouTube梦歌|Netflix_192
+      - YouTube梦歌|Netflix_61
+      - YouTube梦歌|Netflix_233
+      - YouTube梦歌|Netflix_146
+      - YouTube梦歌|Netflix_263
+      - 美国-3.77MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_213
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_255
+      - YouTube梦歌|Netflix_2 2
+      - YouTube梦歌|Netflix_248
+      - YouTube梦歌|Netflix_204
+      - YouTube梦歌|Netflix_144
+      - YouTube梦歌|Netflix_238
+      - YouTube梦歌|Netflix_129
+      - YouTube梦歌|Netflix_149
+      - YouTube梦歌|Netflix_243
+      - 土耳其(youtube阿伟科技)
+      - YouTube梦歌|Netflix_240
+      - 美国-3.54MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_223
+      - _油管：全网最强白嫖
+      - US-高速节点推荐：v1.mk/vip
+      - YouTube梦歌|Netflix_252
+      - YouTube梦歌|Netflix_87 2
+      - YouTube梦歌|Netflix_145
+      - 美国-2.71MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_186
+      - YouTube梦歌|Netflix_198
+      - YouTube梦歌|Netflix_131
+      - 香港(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_24
+      - YouTube梦歌|Netflix_217
+      - 新加坡(youtube阿伟科技) 2
+      - YouTube梦歌|Netflix_17 2
+      - 日本-11.10MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_26 2
+      - YouTube梦歌|Netflix_22
+      - YouTube梦歌|Netflix_105
+      - YouTube梦歌|Netflix_241
+      - YouTube梦歌|Netflix_269
+      - YouTube梦歌|Netflix_216
+      - YouTube梦歌|Netflix_227
+      - YouTube梦歌|Netflix_250
+      - YouTube梦歌|Netflix_262
+      - 印度-2.99MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_182
+      - _油管：全网最强白嫖 2
+      - YouTube梦歌|Netflix_143
+      - YouTube梦歌|Netflix_239
+      - 美国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_301
+      - YouTube梦歌|Netflix_212
+      - YouTube梦歌|Netflix_282
+      - YouTube梦歌|Netflix_289
+      - 韩国-934.9KB/s(Youtube:不良林)
+      - 法国-1.69MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_273
+      - YouTube梦歌|Netflix_54
+      - YouTube梦歌|Netflix_272
+      - YouTube梦歌|Netflix_234
+      - YouTube梦歌|Netflix_90 2
+      - YouTube梦歌|Netflix_229
+      - YouTube梦歌|Netflix_265
+      - 加拿大(youtube阿伟科技)
+      - 瑞士(v2rayshare.com免费节点日更)
+      - YouTube梦歌|Netflix_140
+      - YouTube梦歌|Netflix_288
+      - 香港(youtube阿伟科技) 4
+      - YouTube梦歌|Netflix_55
+      - YouTube梦歌|Netflix_14 2
+      - YouTube梦歌|Netflix_251
+      - 香港(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix_207
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_152
+      - _油管：全网最强白嫖 3
+      - YouTube梦歌|Netflix_245
+      - YouTube梦歌|Netflix_271
+      - 香港-2.64MB/s(Youtube:不良林)
+      - _油管：全网最强白嫖 4
+      - YouTube梦歌|Netflix_236
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_137
+      - 中国-671.0KB/s(Youtube:不良林)
+      - _油管：全网最强白嫖 5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
