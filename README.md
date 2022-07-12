@@ -5,295 +5,391 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: -clone, server: bai-piao-wang-zhe12.98848.xyz, port: 43091, type: trojan, password: 0e39f273-912d-48cc-9548-ccc185487828, sni: bai-piao-wang-zhe12.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_30, server: v206.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v206.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_20, server: v212.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v212.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_23, server: v218.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v218.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_27, server: v219.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v219.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_1, server: v203.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v203.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_34, server: v207.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v207.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_19, server: v210.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v210.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_35, server: v201.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v201.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_2, server: v222.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v222.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_33, server: v211.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v211.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_16, server: v223.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v223.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_9, server: v224.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v224.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_14, server: v204.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v204.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_4, server: v205.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v205.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_29, server: v213.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v213.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_28, server: v208.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v208.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_6, server: v225.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v225.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_17, server: v227.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v227.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_8, server: v230.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v230.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_3, server: v215.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v215.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_13, server: v214.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v214.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_11, server: v221.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v221.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_18, server: v226.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v226.swty.buzz}, udp: true}
-  - {name: 新西兰(youtube阿伟科技), server: ftp.cn.debian.cdnet.in, port: 8070, type: ss, cipher: aes-128-gcm, password: a9a2a0a5-7340-45f2-9cad-4351a42316e1, udp: true}
-  - {name: YouTube梦歌|Netflix_31, server: v209.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v209.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_15, server: v216.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v216.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_7, server: v229.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v229.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_12, server: v228.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v228.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_24, server: v232.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v232.swty.buzz}, udp: true}
-  - {name: "[LV2·原生] 美国145 | 中转", server: bai-piao-wang-zhe.us.567568.ml, port: 19568, type: trojan, password: AglrNchEnS, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_21, server: v235.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v235.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_25, server: v234.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v234.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_26, server: v231.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v231.swty.buzz}, udp: true}
-  - {name: 塞尔维亚-173.4KB/s(Youtube:不良林), server: 194.71.126.31, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 美国(youtube阿伟科技), server: v04.ssrsub.com, port: 153, type: vmess, uuid: 61c4c45e-d5c8-47ed-ae28-cee95f09b3b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: 欧洲📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体, server: vpnu.loungers.cc, port: 56830, type: vmess, uuid: d2e92a19-f50c-426e-cd15-03ece7f4f3b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws/x-ui, ws-headers: {Host: vpnu.loungers.cc}, udp: true}
-  - {name: YouTube梦歌|Netflix_22, server: v233.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v233.swty.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_32, server: v220.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v220.swty.buzz}, udp: true}
-  - {name: "[LV2·原生] 美国145 | 中转 2", server: youtube.bai-piao-wang-zhe.567568.ml, port: 19594, type: trojan, password: YOUTUBE.bai-piao-wang-zhe.567568.ml, sni: youtube.bai-piao-wang-zhe.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: "[LV2·原生] 美国145 | 中转 3", server: youtube.bai-piao-wang-zhe.567568.ml, port: 12337, type: trojan, password: df8ebf95-bd60-4f7e-a505-fe8db5ba3342, sni: youtube.bai-piao-wang-zhe.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: "[LV2·原生] 美国145 | 中转 4", server: youtube.bai-piao-wang-zhe.567568.ml, port: 19568, type: trojan, password: AglrNchEnS, sni: youtube.bai-piao-wang-zhe.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: "[LV2·原生] 美国145 | 中转 5", server: bai-piao-wang-zhe.us.567568.ml, port: 12337, type: trojan, password: df8ebf95-bd60-4f7e-a505-fe8db5ba3342, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国-3.05MB/s(Youtube:不良林), server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: NONE, server: bai-piao-wang-zhe12.98848.xyz, port: 443, type: trojan, password: 7986ac7f-1611-4910-8e55-671f041bc5d5, sni: bai-piao-wang-zhe12.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: FR-高速节点推荐：tt.vg/vip（浏览器打开）, server: 51.38.118.42, port: 819, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: 新加坡(youtube阿伟科技), server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: YouTube梦歌|Netflix_5, server: v202.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v202.swty.buzz}, udp: true}
-  - {name: 日本(youtube阿伟科技), server: ftp.cn.debian.cdnet.in, port: 8030, type: ss, cipher: aes-128-gcm, password: a9a2a0a5-7340-45f2-9cad-4351a42316e1, udp: true}
-  - {name: 台湾(youtube阿伟科技), server: ftp.cn.debian.cdnet.in, port: 8020, type: ss, cipher: aes-128-gcm, password: a9a2a0a5-7340-45f2-9cad-4351a42316e1, udp: true}
-  - {name: 美国(youtube阿伟科技) 2, server: api.qiscus.com, port: 443, type: vmess, uuid: 47e37af6-06b0-f5d8-0e1d-b601474c1351, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /726f5dd4/, ws-headers: {Host: sgazure-d.solusihost.my.id}, udp: true}
-  - {name: 波兰-1.37MB/s(Youtube:不良林), server: 217.30.10.63, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: 韩国(youtube阿伟科技), server: ftp.cn.debian.cdnet.in, port: 8040, type: ss, cipher: aes-128-gcm, password: a9a2a0a5-7340-45f2-9cad-4351a42316e1, udp: true}
-  - {name: 波兰-1.23MB/s(Youtube:不良林), server: 217.30.10.63, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: 德国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/, server: 51.38.118.42, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: 德国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/ 2, server: 51.38.118.42, port: 816, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: 新加坡-403.4KB/s(Youtube:不良林), server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_121, server: 51.38.118.42, port: 813, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: 波兰-1.32MB/s(Youtube:不良林), server: 217.30.10.63, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: 2022-7-1 更新, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxusa.fovi.tk}, udp: true}
-  - {name: 新加坡(youtube阿伟科技) 2, server: trojan2.udpgw.com, port: 443, type: trojan, password: 973ef350-f6a5-11ec-9274-1239d0255272, sni: trojan2.udpgw.com, skip-cert-verify: true, udp: true}
-  - {name: 法国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/, server: 51.38.118.42, port: 817, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: "美国 [直连C] 1x 5Gbp/s", server: bai-piao-wang-zhe10.98848.xyz, port: 48240, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: "us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh", server: bai-piao-wang-zhe.us.567568.ml, port: 19594, type: trojan, password: YOUTUBE.bai-piao-wang-zhe.567568.ml, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国-2.11MB/s(Youtube:不良林), server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: NONE, server: bai-piao-wang-zhe.us.567568.ml, port: 50231, type: trojan, password: 7323b7f1-dcb5-499d-b6ae-f51a638ba826, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(youtube阿伟科技), server: sg.v2yyds.cc, port: 35213, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: sg.v2yyds.cc, skip-cert-verify: true, udp: true}
+  - {name: NONE 2, server: bai-piao-wang-zhe.us.567568.ml, port: 34312, type: trojan, password: 7323b7f1-dcb5-499d-b6ae-f51a638ba826, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(youtube阿伟科技) 2, server: sg1.xz88.ml, port: 12464, type: vmess, uuid: 09a62e54-0f74-4002-8d45-5fe63e4bf2a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: NONE 3, server: bai-piao-wang-zhe.us.567568.ml, port: 13653, type: trojan, password: 7323b7f1-dcb5-499d-b6ae-f51a638ba826, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: 日本(youtube阿伟科技), server: 172.64.157.139, port: 443, type: vmess, uuid: 7a010436-7b4a-4e65-ade4-844ba074ad58, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /azjp.pengui.xyz, ws-headers: {Host: azjp.pengui.xyz}, udp: true}
+  - {name: "[LV2·原生] 狮城05 | 中转", server: youtube.bai-piao-wang-zhe.567568.ml, port: 19568, type: trojan, password: AglrNchEnS, sni: youtube.bai-piao-wang-zhe.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: SG, server: bai-piao-wang-zhe.us.567568.ml, port: 19568, type: trojan, password: AglrNchEnS, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: NONE 4, server: bai-piao-wang-zhe12.98848.xyz, port: 19594, type: trojan, password: YOUTUBE.bai-piao-wang-zhe.567568.ml, sni: bai-piao-wang-zhe12.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_57, server: jp.v2yyds.cc, port: 35211, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: jp.v2yyds.cc, skip-cert-verify: true, udp: true}
+  - {name: NONE 5, server: youtube.bai-piao-wang-zhe.567568.ml, port: 58443, type: trojan, password: 7323b7f1-dcb5-499d-b6ae-f51a638ba826, sni: youtube.bai-piao-wang-zhe.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚-1.78MB/s(Youtube:不良林), server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_47, server: jp.v2yyds.cc, port: 35213, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: jp.v2yyds.cc, skip-cert-verify: true, udp: true}
+  - {name: bai-piao-wang-zhe.us.567568.ml, server: bai-piao-wang-zhe.us.567568.ml, port: 14236, type: trojan, password: 7323b7f1-dcb5-499d-b6ae-f51a638ba826, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_13, server: gzyd1.52147.top, port: 20110, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 日本(youtube阿伟科技) 2, server: 172.64.157.139, port: 443, type: vmess, uuid: 065804dc-ed8a-4dd7-8e6e-3a57c88f9aa7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /azjp.pengui.xyz, ws-headers: {Host: azjp.pengui.xyz}, udp: true}
+  - {name: 美国-3.14MB/s(Youtube:不良林), server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_39, server: ftp.cn.debian.cdnet.in, port: 8040, type: ss, cipher: aes-128-gcm, password: 18269676-71ae-476d-b6d3-26ca391424b9, udp: true}
+  - {name: 中国-3.35MB/s(Youtube:不良林), server: 106.75.233.91, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_26, server: sg.v2yyds.cc, port: 35212, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: sg.v2yyds.cc, skip-cert-verify: true, udp: true}
+  - {name: 美国-1.84MB/s(Youtube:不良林), server: 134.195.101.32, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_58, server: 164.70.68.67, port: 28443, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_36, server: 103.173.255.21, port: 28000, type: trojan, password: 2778263c-486d-4af8-9ba4-25fc536b5bac, skip-cert-verify: true, udp: true}
+  - {name: (已存活1天)中国-4.01MB/s(Youtube:不良林), server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: in-us-1.onebox6.org}, udp: true}
+  - {name: YouTube梦歌|Netflix_27, server: m.mjmjmjmj.cyou, port: 16616, type: vmess, uuid: 4634e865-bbec-47e6-b027-a3fd882cf36a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: m.mjmjmjmj.cyou}, udp: true}
+  - {name: "美国 [直连C] 1x 5Gbp/s", server: bai-piao-wang-zhe10.98848.xyz, port: 20762, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: "us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2", server: usa23.884899.cf, port: 443, type: vmess, uuid: 3df66137-a428-429c-a858-8b150721b354, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /youtbue@bai-piao-wang-zhe_vws, ws-headers: {Host: usa23.884899.cf}, udp: true}
+  - {name: YouTube梦歌|Netflix_32, server: ftp.cn.debian.cdnet.in, port: 8010, type: ss, cipher: aes-128-gcm, password: 18269676-71ae-476d-b6d3-26ca391424b9, udp: true}
+  - {name: "us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3", server: usa23.884899.cf, port: 443, type: trojan, password: 3df66137-a428-429c-a858-8b150721b354, sni: usa23.884899.cf, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(youtube阿伟科技) 3, server: sg-04.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: sg-04.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_32 2, server: hnyd.52147.top, port: 30080, type: trojan, password: 2778263c-486d-4af8-9ba4-25fc536b5bac, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 英国-2.08MB/s(Youtube:不良林), server: vpnu.loungers.cc, port: 56830, type: vmess, uuid: d2e92a19-f50c-426e-cd15-03ece7f4f3b1, alterId: 32, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws/x-ui, ws-headers: {Host: vpnu.loungers.cc}, udp: true}
+  - {name: YouTube梦歌|Netflix_7, server: ftp.cn.debian.cdnet.in, port: 8070, type: ss, cipher: aes-128-gcm, password: 18269676-71ae-476d-b6d3-26ca391424b9, udp: true}
+  - {name: 中国-224.2KB/s(Youtube:不良林), server: pp1.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: 中国-478.1KB/s(Youtube:不良林), server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
+  - {name: "us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4", server: bai-piao-wang-zhe-iplc.884899.cf, port: 443, type: trojan, password: 3df66137-a428-429c-a858-8b150721b354, sni: bai-piao-wang-zhe-iplc.884899.cf, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(youtube阿伟科技) 4, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: CN-高速节点推荐：tt.vg/vip（浏览器打开） 4, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国-2.70MB/s(Youtube:不良林), server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡-1.74MB/s(Youtube:不良林), server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 中国-3.18MB/s(Youtube:不良林), server: 103.56.60.235, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
   - {name: 美国-228.0KB/s(Youtube:不良林), server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: "美国 [直连C] 1x 5Gbp/s 2", server: bai-piao-wang-zhe10.98848.xyz, port: 43184, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国-2.44MB/s(Youtube:不良林), server: 38.75.136.102, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 俄罗斯(youtube阿伟科技), server: ftp.cn.debian.cdnet.in, port: 8060, type: ss, cipher: aes-128-gcm, password: a9a2a0a5-7340-45f2-9cad-4351a42316e1, udp: true}
-  - {name: 美国-1.91MB/s(Youtube:不良林), server: 138.68.248.130, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: YouTube梦歌|Netflix_42, server: u.mjmjmjmj.cyou, port: 16634, type: vmess, uuid: 4634e865-bbec-47e6-b027-a3fd882cf36a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: u.mjmjmjmj.cyou}, udp: true}
+  - {name: 中国-1.32MB/s(Youtube:不良林), server: cm.spacez.cloud, port: 30002, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
+  - {name: "[LV2·原生] 狮城05 | 中转 2", server: youtube.bai-piao-wang-zhe.567568.ml, port: 19594, type: trojan, password: YOUTUBE.bai-piao-wang-zhe.567568.ml, sni: youtube.bai-piao-wang-zhe.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: 捷克-1.80MB/s(Youtube:不良林), server: 195.133.53.192, port: 14369, type: vmess, uuid: 2331affa-1194-45ae-9457-3746120c4751, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 195.133.53.192}, udp: true}
+  - {name: 美国(youtube阿伟科技), server: cc4.qweasdzxc.gq, port: 45747, type: ss, cipher: chacha20-ietf-poly1305, password: 6ThhE43itV3, udp: true}
+  - {name: YouTube梦歌|Netflix_8, server: jp.v2yyds.cc, port: 35212, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: jp.v2yyds.cc, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_30, server: 120.233.25.136, port: 54902, type: ss, cipher: chacha20-ietf-poly1305, password: F77EbseT9YJkL, udp: true}
+  - {name: NONE 6, server: bai-piao-wang-zhe.us.567568.ml, port: 34096, type: trojan, password: 7323b7f1-dcb5-499d-b6ae-f51a638ba826, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 2, server: 142.4.104.226, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/290016213035, ws-headers: {Host: www.69961573.xyz}, udp: true}
+  - {name: 俄罗斯联邦-3.89MB/s(Youtube:不良林), server: v001.v2dns.bar, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /a11-dCeBnloadPy, ws-headers: {Host: v001.v2dns.bar}, udp: true}
+  - {name: YouTube梦歌|Netflix_56, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: YouTube梦歌|Netflix_25, server: ru1.lolvps.xyz, port: 50157, type: vmess, uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /6129CFHR, ws-headers: {Host: ru1.lolvps.xyz}, udp: true}
+  - {name: 韩国(youtube阿伟科技), server: 152.67.223.187, port: 13774, type: vmess, uuid: 5da35e16-0af7-47cc-ed73-269824ccb1a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_26 2, server: 120.233.7.225, port: 100, type: trojan, password: 7dp3vF, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_1, server: ftp.cn.debian.cdnet.in, port: 8030, type: ss, cipher: aes-128-gcm, password: 18269676-71ae-476d-b6d3-26ca391424b9, udp: true}
+  - {name: 新加坡(youtube阿伟科技) 5, server: sg1.xz88.ml, port: 12464, type: vmess, uuid: 09a62e54-0f74-4002-8d45-5fe63e4bf2a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_66, server: pp1.zhengzhongfeizhu.xyz, port: 32003, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_115, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
+  - {name: 韩国(youtube阿伟科技) 2, server: chess.magicefire.com, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 亚洲📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: bai-piao-wang-zhe12.98848.xyz, server: bai-piao-wang-zhe12.98848.xyz, port: 19568, type: trojan, password: AglrNchEnS, sni: bai-piao-wang-zhe12.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_20, server: ru2.lolvps.xyz, port: 50158, type: vmess, uuid: 882fe300-feb5-4e7b-b272-829e791755ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /J56OYLY9, ws-headers: {Host: ru2.lolvps.xyz}, udp: true}
+  - {name: 台湾-541.7KB/s(Youtube:不良林), server: lc-hk01-direct01.lc-hk01.lc-node.com, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lc-hk01-direct01.lc-hk01.lc-node.com}, udp: true}
+  - {name: YouTube梦歌|Netflix_85, server: best02.downloadmovie.cn, port: 65081, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: best02.downloadmovie.cn}, udp: true}
+  - {name: YouTube梦歌|Netflix_162, server: best04.downloadmovie.cn, port: 65087, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: best04.downloadmovie.cn}, udp: true}
+  - {name: 美国(欢迎订阅Youtube元亨利贞), server: usfree2.jiantian.xyz, port: 32462, type: trojan, password: cb5e2135-4d64-4454-be98-5bae4f2618d1, sni: usfree2.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 备用节点，此链接不定时更新, server: best03.downloadmovie.cn, port: 65078, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: best03.downloadmovie.cn}, udp: true}
+  - {name: YouTube梦歌|Netflix_17, server: gzyd1.52147.top, port: 30130, type: trojan, password: 2778263c-486d-4af8-9ba4-25fc536b5bac, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 韩国(欢迎订阅Youtube元亨利贞), server: 152.67.223.187, port: 13774, type: vmess, uuid: 5da35e16-0af7-47cc-ed73-269824ccb1a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾-1019.7KB/s(Youtube:不良林), server: lc-hk03-direct01.lc-hk03.lc-node.com, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lc-hk03-direct01.lc-hk03.lc-node.com}, udp: true}
+  - {name: 埃及(youtube阿伟科技), server: best04.downloadmovie.cn, port: 65090, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 美国(欢迎订阅Youtube元亨利贞) 2, server: 152.69.193.245, port: 80, type: vmess, uuid: 6697776b-d009-413b-8708-822ee2e02515, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.69.193.245}, udp: true}
+  - {name: 备用节点，此链接不定时更新 2, server: 120.233.150.146, port: 65024, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.150.146}, udp: true}
+  - {name: 奥地利📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体, server: best04.downloadmovie.cn, port: 65089, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 中国-2.28MB/s(Youtube:不良林), server: 103.56.60.235, port: 3381, type: trojan, password: 711aabc21e45ae31, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_50, server: 120.233.29.189, port: 65001, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.29.189}, udp: true}
+  - {name: 中国-3.43MB/s(Youtube:不良林), server: 103.56.62.145, port: 3381, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_61, server: 36.134.156.5, port: 65086, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 36.134.156.5}, udp: true}
+  - {name: 泰国(youtube阿伟科技), server: best03.downloadmovie.cn, port: 65081, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: YouTube梦歌|Netflix_2, server: gzyd2.52147.top, port: 20120, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 英国-2.08MB/s(Youtube:不良林) 2, server: vpnu.loungers.cc, port: 56830, type: vmess, uuid: d2e92a19-f50c-426e-cd15-03ece7f4f3b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws/x-ui, ws-headers: {Host: vpnu.loungers.cc}, udp: true}
+  - {name: 韩国(youtube阿伟科技) 3, server: chess.magicefire.com, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_68, server: best04.downloadmovie.cn, port: 65086, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: YouTube梦歌|Netflix_48, server: best04.downloadmovie.cn, port: 65095, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: best04.downloadmovie.cn}, udp: true}
+  - {name: 美国(youtube阿伟科技) 3, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxusa.fovi.tk}, udp: true}
+  - {name: 土耳其(youtube阿伟科技), server: best03.downloadmovie.cn, port: 65073, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 韩国-2.63MB/s(Youtube:不良林), server: 146.56.110.129, port: 53702, type: vmess, uuid: d0ee8ec0-ef63-41aa-9087-11edf7a978b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国-219.2KB/s(Youtube:不良林), server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - -clone
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_20
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_27
-      - YouTube梦歌|Netflix_1
-      - YouTube梦歌|Netflix_34
-      - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_35
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_33
-      - YouTube梦歌|Netflix_16
-      - YouTube梦歌|Netflix_9
-      - YouTube梦歌|Netflix_14
-      - YouTube梦歌|Netflix_4
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_28
-      - YouTube梦歌|Netflix_6
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_8
-      - YouTube梦歌|Netflix_3
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_11
-      - YouTube梦歌|Netflix_18
-      - 新西兰(youtube阿伟科技)
-      - YouTube梦歌|Netflix_31
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_7
-      - YouTube梦歌|Netflix_12
-      - YouTube梦歌|Netflix_24
-      - "[LV2·原生] 美国145 | 中转"
-      - YouTube梦歌|Netflix_21
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_26
-      - 塞尔维亚-173.4KB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技)
-      - 欧洲📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
-      - YouTube梦歌|Netflix_22
-      - YouTube梦歌|Netflix_32
-      - "[LV2·原生] 美国145 | 中转 2"
-      - "[LV2·原生] 美国145 | 中转 3"
-      - "[LV2·原生] 美国145 | 中转 4"
-      - "[LV2·原生] 美国145 | 中转 5"
-      - 美国-3.05MB/s(Youtube:不良林)
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - 美国-2.11MB/s(Youtube:不良林)
       - NONE
-      - FR-高速节点推荐：tt.vg/vip（浏览器打开）
       - 新加坡(youtube阿伟科技)
-      - YouTube梦歌|Netflix_5
-      - 日本(youtube阿伟科技)
-      - 台湾(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - 波兰-1.37MB/s(Youtube:不良林)
-      - 韩国(youtube阿伟科技)
-      - 波兰-1.23MB/s(Youtube:不良林)
-      - 德国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/
-      - 德国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/ 2
-      - 新加坡-403.4KB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_121
-      - 波兰-1.32MB/s(Youtube:不良林)
-      - 2022-7-1 更新
+      - NONE 2
       - 新加坡(youtube阿伟科技) 2
-      - 法国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/
+      - NONE 3
+      - 日本(youtube阿伟科技)
+      - "[LV2·原生] 狮城05 | 中转"
+      - SG
+      - NONE 4
+      - YouTube梦歌|Netflix_57
+      - NONE 5
+      - 澳大利亚-1.78MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_47
+      - bai-piao-wang-zhe.us.567568.ml
+      - YouTube梦歌|Netflix_13
+      - 日本(youtube阿伟科技) 2
+      - 美国-3.14MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_39
+      - 中国-3.35MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_26
+      - 美国-1.84MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_58
+      - YouTube梦歌|Netflix_36
+      - (已存活1天)中国-4.01MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_27
       - 美国 [直连C] 1x 5Gbp/s
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_32
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - 新加坡(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_32 2
+      - 英国-2.08MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_7
+      - 中国-224.2KB/s(Youtube:不良林)
+      - 中国-478.1KB/s(Youtube:不良林)
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
+      - 新加坡(youtube阿伟科技) 4
+      - CN-高速节点推荐：tt.vg/vip（浏览器打开） 4
+      - 中国-2.70MB/s(Youtube:不良林)
+      - 新加坡-1.74MB/s(Youtube:不良林)
+      - 中国-3.18MB/s(Youtube:不良林)
       - 美国-228.0KB/s(Youtube:不良林)
-      - 美国 [直连C] 1x 5Gbp/s 2
-      - 美国-2.44MB/s(Youtube:不良林)
-      - 俄罗斯(youtube阿伟科技)
-      - 美国-1.91MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_42
+      - 中国-1.32MB/s(Youtube:不良林)
+      - "[LV2·原生] 狮城05 | 中转 2"
+      - 捷克-1.80MB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_30
+      - NONE 6
+      - 美国(youtube阿伟科技) 2
+      - 俄罗斯联邦-3.89MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_56
+      - YouTube梦歌|Netflix_25
+      - 韩国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_26 2
+      - YouTube梦歌|Netflix_1
+      - 新加坡(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix_66
+      - YouTube梦歌|Netflix_115
+      - 韩国(youtube阿伟科技) 2
+      - 亚洲📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - bai-piao-wang-zhe12.98848.xyz
+      - YouTube梦歌|Netflix_20
+      - 台湾-541.7KB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_162
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - 备用节点，此链接不定时更新
+      - YouTube梦歌|Netflix_17
+      - 韩国(欢迎订阅Youtube元亨利贞)
+      - 台湾-1019.7KB/s(Youtube:不良林)
+      - 埃及(youtube阿伟科技)
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - 备用节点，此链接不定时更新 2
+      - 奥地利📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - 中国-2.28MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_50
+      - 中国-3.43MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_61
+      - 泰国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_2
+      - 英国-2.08MB/s(Youtube:不良林) 2
+      - 韩国(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_68
+      - YouTube梦歌|Netflix_48
+      - 美国(youtube阿伟科技) 3
+      - 土耳其(youtube阿伟科技)
+      - 韩国-2.63MB/s(Youtube:不良林)
+      - 中国-219.2KB/s(Youtube:不良林)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - -clone
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_20
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_27
-      - YouTube梦歌|Netflix_1
-      - YouTube梦歌|Netflix_34
-      - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_35
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_33
-      - YouTube梦歌|Netflix_16
-      - YouTube梦歌|Netflix_9
-      - YouTube梦歌|Netflix_14
-      - YouTube梦歌|Netflix_4
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_28
-      - YouTube梦歌|Netflix_6
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_8
-      - YouTube梦歌|Netflix_3
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_11
-      - YouTube梦歌|Netflix_18
-      - 新西兰(youtube阿伟科技)
-      - YouTube梦歌|Netflix_31
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_7
-      - YouTube梦歌|Netflix_12
-      - YouTube梦歌|Netflix_24
-      - "[LV2·原生] 美国145 | 中转"
-      - YouTube梦歌|Netflix_21
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_26
-      - 塞尔维亚-173.4KB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技)
-      - 欧洲📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
-      - YouTube梦歌|Netflix_22
-      - YouTube梦歌|Netflix_32
-      - "[LV2·原生] 美国145 | 中转 2"
-      - "[LV2·原生] 美国145 | 中转 3"
-      - "[LV2·原生] 美国145 | 中转 4"
-      - "[LV2·原生] 美国145 | 中转 5"
-      - 美国-3.05MB/s(Youtube:不良林)
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - 美国-2.11MB/s(Youtube:不良林)
       - NONE
-      - FR-高速节点推荐：tt.vg/vip（浏览器打开）
       - 新加坡(youtube阿伟科技)
-      - YouTube梦歌|Netflix_5
-      - 日本(youtube阿伟科技)
-      - 台湾(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - 波兰-1.37MB/s(Youtube:不良林)
-      - 韩国(youtube阿伟科技)
-      - 波兰-1.23MB/s(Youtube:不良林)
-      - 德国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/
-      - 德国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/ 2
-      - 新加坡-403.4KB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_121
-      - 波兰-1.32MB/s(Youtube:不良林)
-      - 2022-7-1 更新
+      - NONE 2
       - 新加坡(youtube阿伟科技) 2
-      - 法国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/
+      - NONE 3
+      - 日本(youtube阿伟科技)
+      - "[LV2·原生] 狮城05 | 中转"
+      - SG
+      - NONE 4
+      - YouTube梦歌|Netflix_57
+      - NONE 5
+      - 澳大利亚-1.78MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_47
+      - bai-piao-wang-zhe.us.567568.ml
+      - YouTube梦歌|Netflix_13
+      - 日本(youtube阿伟科技) 2
+      - 美国-3.14MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_39
+      - 中国-3.35MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_26
+      - 美国-1.84MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_58
+      - YouTube梦歌|Netflix_36
+      - (已存活1天)中国-4.01MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_27
       - 美国 [直连C] 1x 5Gbp/s
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_32
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - 新加坡(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_32 2
+      - 英国-2.08MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_7
+      - 中国-224.2KB/s(Youtube:不良林)
+      - 中国-478.1KB/s(Youtube:不良林)
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
+      - 新加坡(youtube阿伟科技) 4
+      - CN-高速节点推荐：tt.vg/vip（浏览器打开） 4
+      - 中国-2.70MB/s(Youtube:不良林)
+      - 新加坡-1.74MB/s(Youtube:不良林)
+      - 中国-3.18MB/s(Youtube:不良林)
       - 美国-228.0KB/s(Youtube:不良林)
-      - 美国 [直连C] 1x 5Gbp/s 2
-      - 美国-2.44MB/s(Youtube:不良林)
-      - 俄罗斯(youtube阿伟科技)
-      - 美国-1.91MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_42
+      - 中国-1.32MB/s(Youtube:不良林)
+      - "[LV2·原生] 狮城05 | 中转 2"
+      - 捷克-1.80MB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_30
+      - NONE 6
+      - 美国(youtube阿伟科技) 2
+      - 俄罗斯联邦-3.89MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_56
+      - YouTube梦歌|Netflix_25
+      - 韩国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_26 2
+      - YouTube梦歌|Netflix_1
+      - 新加坡(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix_66
+      - YouTube梦歌|Netflix_115
+      - 韩国(youtube阿伟科技) 2
+      - 亚洲📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - bai-piao-wang-zhe12.98848.xyz
+      - YouTube梦歌|Netflix_20
+      - 台湾-541.7KB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_162
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - 备用节点，此链接不定时更新
+      - YouTube梦歌|Netflix_17
+      - 韩国(欢迎订阅Youtube元亨利贞)
+      - 台湾-1019.7KB/s(Youtube:不良林)
+      - 埃及(youtube阿伟科技)
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - 备用节点，此链接不定时更新 2
+      - 奥地利📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - 中国-2.28MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_50
+      - 中国-3.43MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_61
+      - 泰国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_2
+      - 英国-2.08MB/s(Youtube:不良林) 2
+      - 韩国(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_68
+      - YouTube梦歌|Netflix_48
+      - 美国(youtube阿伟科技) 3
+      - 土耳其(youtube阿伟科技)
+      - 韩国-2.63MB/s(Youtube:不良林)
+      - 中国-219.2KB/s(Youtube:不良林)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - -clone
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_20
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_27
-      - YouTube梦歌|Netflix_1
-      - YouTube梦歌|Netflix_34
-      - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_35
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_33
-      - YouTube梦歌|Netflix_16
-      - YouTube梦歌|Netflix_9
-      - YouTube梦歌|Netflix_14
-      - YouTube梦歌|Netflix_4
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_28
-      - YouTube梦歌|Netflix_6
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_8
-      - YouTube梦歌|Netflix_3
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_11
-      - YouTube梦歌|Netflix_18
-      - 新西兰(youtube阿伟科技)
-      - YouTube梦歌|Netflix_31
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_7
-      - YouTube梦歌|Netflix_12
-      - YouTube梦歌|Netflix_24
-      - "[LV2·原生] 美国145 | 中转"
-      - YouTube梦歌|Netflix_21
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_26
-      - 塞尔维亚-173.4KB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技)
-      - 欧洲📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
-      - YouTube梦歌|Netflix_22
-      - YouTube梦歌|Netflix_32
-      - "[LV2·原生] 美国145 | 中转 2"
-      - "[LV2·原生] 美国145 | 中转 3"
-      - "[LV2·原生] 美国145 | 中转 4"
-      - "[LV2·原生] 美国145 | 中转 5"
-      - 美国-3.05MB/s(Youtube:不良林)
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - 美国-2.11MB/s(Youtube:不良林)
       - NONE
-      - FR-高速节点推荐：tt.vg/vip（浏览器打开）
       - 新加坡(youtube阿伟科技)
-      - YouTube梦歌|Netflix_5
-      - 日本(youtube阿伟科技)
-      - 台湾(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - 波兰-1.37MB/s(Youtube:不良林)
-      - 韩国(youtube阿伟科技)
-      - 波兰-1.23MB/s(Youtube:不良林)
-      - 德国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/
-      - 德国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/ 2
-      - 新加坡-403.4KB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_121
-      - 波兰-1.32MB/s(Youtube:不良林)
-      - 2022-7-1 更新
+      - NONE 2
       - 新加坡(youtube阿伟科技) 2
-      - 法国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/
+      - NONE 3
+      - 日本(youtube阿伟科技)
+      - "[LV2·原生] 狮城05 | 中转"
+      - SG
+      - NONE 4
+      - YouTube梦歌|Netflix_57
+      - NONE 5
+      - 澳大利亚-1.78MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_47
+      - bai-piao-wang-zhe.us.567568.ml
+      - YouTube梦歌|Netflix_13
+      - 日本(youtube阿伟科技) 2
+      - 美国-3.14MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_39
+      - 中国-3.35MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_26
+      - 美国-1.84MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_58
+      - YouTube梦歌|Netflix_36
+      - (已存活1天)中国-4.01MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_27
       - 美国 [直连C] 1x 5Gbp/s
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_32
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - 新加坡(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_32 2
+      - 英国-2.08MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_7
+      - 中国-224.2KB/s(Youtube:不良林)
+      - 中国-478.1KB/s(Youtube:不良林)
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
+      - 新加坡(youtube阿伟科技) 4
+      - CN-高速节点推荐：tt.vg/vip（浏览器打开） 4
+      - 中国-2.70MB/s(Youtube:不良林)
+      - 新加坡-1.74MB/s(Youtube:不良林)
+      - 中国-3.18MB/s(Youtube:不良林)
       - 美国-228.0KB/s(Youtube:不良林)
-      - 美国 [直连C] 1x 5Gbp/s 2
-      - 美国-2.44MB/s(Youtube:不良林)
-      - 俄罗斯(youtube阿伟科技)
-      - 美国-1.91MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_42
+      - 中国-1.32MB/s(Youtube:不良林)
+      - "[LV2·原生] 狮城05 | 中转 2"
+      - 捷克-1.80MB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_30
+      - NONE 6
+      - 美国(youtube阿伟科技) 2
+      - 俄罗斯联邦-3.89MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_56
+      - YouTube梦歌|Netflix_25
+      - 韩国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_26 2
+      - YouTube梦歌|Netflix_1
+      - 新加坡(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix_66
+      - YouTube梦歌|Netflix_115
+      - 韩国(youtube阿伟科技) 2
+      - 亚洲📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - bai-piao-wang-zhe12.98848.xyz
+      - YouTube梦歌|Netflix_20
+      - 台湾-541.7KB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_162
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - 备用节点，此链接不定时更新
+      - YouTube梦歌|Netflix_17
+      - 韩国(欢迎订阅Youtube元亨利贞)
+      - 台湾-1019.7KB/s(Youtube:不良林)
+      - 埃及(youtube阿伟科技)
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - 备用节点，此链接不定时更新 2
+      - 奥地利📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - 中国-2.28MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_50
+      - 中国-3.43MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_61
+      - 泰国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_2
+      - 英国-2.08MB/s(Youtube:不良林) 2
+      - 韩国(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_68
+      - YouTube梦歌|Netflix_48
+      - 美国(youtube阿伟科技) 3
+      - 土耳其(youtube阿伟科技)
+      - 韩国-2.63MB/s(Youtube:不良林)
+      - 中国-219.2KB/s(Youtube:不良林)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -312,300 +408,397 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - -clone
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_20
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_27
-      - YouTube梦歌|Netflix_1
-      - YouTube梦歌|Netflix_34
-      - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_35
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_33
-      - YouTube梦歌|Netflix_16
-      - YouTube梦歌|Netflix_9
-      - YouTube梦歌|Netflix_14
-      - YouTube梦歌|Netflix_4
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_28
-      - YouTube梦歌|Netflix_6
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_8
-      - YouTube梦歌|Netflix_3
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_11
-      - YouTube梦歌|Netflix_18
-      - 新西兰(youtube阿伟科技)
-      - YouTube梦歌|Netflix_31
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_7
-      - YouTube梦歌|Netflix_12
-      - YouTube梦歌|Netflix_24
-      - "[LV2·原生] 美国145 | 中转"
-      - YouTube梦歌|Netflix_21
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_26
-      - 塞尔维亚-173.4KB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技)
-      - 欧洲📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
-      - YouTube梦歌|Netflix_22
-      - YouTube梦歌|Netflix_32
-      - "[LV2·原生] 美国145 | 中转 2"
-      - "[LV2·原生] 美国145 | 中转 3"
-      - "[LV2·原生] 美国145 | 中转 4"
-      - "[LV2·原生] 美国145 | 中转 5"
-      - 美国-3.05MB/s(Youtube:不良林)
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - 美国-2.11MB/s(Youtube:不良林)
       - NONE
-      - FR-高速节点推荐：tt.vg/vip（浏览器打开）
       - 新加坡(youtube阿伟科技)
-      - YouTube梦歌|Netflix_5
-      - 日本(youtube阿伟科技)
-      - 台湾(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - 波兰-1.37MB/s(Youtube:不良林)
-      - 韩国(youtube阿伟科技)
-      - 波兰-1.23MB/s(Youtube:不良林)
-      - 德国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/
-      - 德国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/ 2
-      - 新加坡-403.4KB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_121
-      - 波兰-1.32MB/s(Youtube:不良林)
-      - 2022-7-1 更新
+      - NONE 2
       - 新加坡(youtube阿伟科技) 2
-      - 法国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/
+      - NONE 3
+      - 日本(youtube阿伟科技)
+      - "[LV2·原生] 狮城05 | 中转"
+      - SG
+      - NONE 4
+      - YouTube梦歌|Netflix_57
+      - NONE 5
+      - 澳大利亚-1.78MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_47
+      - bai-piao-wang-zhe.us.567568.ml
+      - YouTube梦歌|Netflix_13
+      - 日本(youtube阿伟科技) 2
+      - 美国-3.14MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_39
+      - 中国-3.35MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_26
+      - 美国-1.84MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_58
+      - YouTube梦歌|Netflix_36
+      - (已存活1天)中国-4.01MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_27
       - 美国 [直连C] 1x 5Gbp/s
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_32
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - 新加坡(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_32 2
+      - 英国-2.08MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_7
+      - 中国-224.2KB/s(Youtube:不良林)
+      - 中国-478.1KB/s(Youtube:不良林)
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
+      - 新加坡(youtube阿伟科技) 4
+      - CN-高速节点推荐：tt.vg/vip（浏览器打开） 4
+      - 中国-2.70MB/s(Youtube:不良林)
+      - 新加坡-1.74MB/s(Youtube:不良林)
+      - 中国-3.18MB/s(Youtube:不良林)
       - 美国-228.0KB/s(Youtube:不良林)
-      - 美国 [直连C] 1x 5Gbp/s 2
-      - 美国-2.44MB/s(Youtube:不良林)
-      - 俄罗斯(youtube阿伟科技)
-      - 美国-1.91MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_42
+      - 中国-1.32MB/s(Youtube:不良林)
+      - "[LV2·原生] 狮城05 | 中转 2"
+      - 捷克-1.80MB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_30
+      - NONE 6
+      - 美国(youtube阿伟科技) 2
+      - 俄罗斯联邦-3.89MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_56
+      - YouTube梦歌|Netflix_25
+      - 韩国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_26 2
+      - YouTube梦歌|Netflix_1
+      - 新加坡(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix_66
+      - YouTube梦歌|Netflix_115
+      - 韩国(youtube阿伟科技) 2
+      - 亚洲📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - bai-piao-wang-zhe12.98848.xyz
+      - YouTube梦歌|Netflix_20
+      - 台湾-541.7KB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_162
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - 备用节点，此链接不定时更新
+      - YouTube梦歌|Netflix_17
+      - 韩国(欢迎订阅Youtube元亨利贞)
+      - 台湾-1019.7KB/s(Youtube:不良林)
+      - 埃及(youtube阿伟科技)
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - 备用节点，此链接不定时更新 2
+      - 奥地利📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - 中国-2.28MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_50
+      - 中国-3.43MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_61
+      - 泰国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_2
+      - 英国-2.08MB/s(Youtube:不良林) 2
+      - 韩国(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_68
+      - YouTube梦歌|Netflix_48
+      - 美国(youtube阿伟科技) 3
+      - 土耳其(youtube阿伟科技)
+      - 韩国-2.63MB/s(Youtube:不良林)
+      - 中国-219.2KB/s(Youtube:不良林)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾(youtube阿伟科技)
+      - 台湾-541.7KB/s(Youtube:不良林)
+      - 台湾-1019.7KB/s(Youtube:不良林)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - -clone
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_20
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_27
-      - YouTube梦歌|Netflix_1
-      - YouTube梦歌|Netflix_34
-      - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_35
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_33
-      - YouTube梦歌|Netflix_16
-      - YouTube梦歌|Netflix_9
-      - YouTube梦歌|Netflix_14
-      - YouTube梦歌|Netflix_4
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_28
-      - YouTube梦歌|Netflix_6
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_8
-      - YouTube梦歌|Netflix_3
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_11
-      - YouTube梦歌|Netflix_18
-      - 新西兰(youtube阿伟科技)
-      - YouTube梦歌|Netflix_31
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_7
-      - YouTube梦歌|Netflix_12
-      - YouTube梦歌|Netflix_24
-      - "[LV2·原生] 美国145 | 中转"
-      - YouTube梦歌|Netflix_21
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_26
-      - 塞尔维亚-173.4KB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技)
-      - 欧洲📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
-      - YouTube梦歌|Netflix_22
-      - YouTube梦歌|Netflix_32
-      - "[LV2·原生] 美国145 | 中转 2"
-      - "[LV2·原生] 美国145 | 中转 3"
-      - "[LV2·原生] 美国145 | 中转 4"
-      - "[LV2·原生] 美国145 | 中转 5"
-      - 美国-3.05MB/s(Youtube:不良林)
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - 美国-2.11MB/s(Youtube:不良林)
       - NONE
-      - FR-高速节点推荐：tt.vg/vip（浏览器打开）
       - 新加坡(youtube阿伟科技)
-      - YouTube梦歌|Netflix_5
-      - 日本(youtube阿伟科技)
-      - 台湾(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - 波兰-1.37MB/s(Youtube:不良林)
-      - 韩国(youtube阿伟科技)
-      - 波兰-1.23MB/s(Youtube:不良林)
-      - 德国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/
-      - 德国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/ 2
-      - 新加坡-403.4KB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_121
-      - 波兰-1.32MB/s(Youtube:不良林)
-      - 2022-7-1 更新
+      - NONE 2
       - 新加坡(youtube阿伟科技) 2
-      - 法国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/
+      - NONE 3
+      - 日本(youtube阿伟科技)
+      - "[LV2·原生] 狮城05 | 中转"
+      - SG
+      - NONE 4
+      - YouTube梦歌|Netflix_57
+      - NONE 5
+      - 澳大利亚-1.78MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_47
+      - bai-piao-wang-zhe.us.567568.ml
+      - YouTube梦歌|Netflix_13
+      - 日本(youtube阿伟科技) 2
+      - 美国-3.14MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_39
+      - 中国-3.35MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_26
+      - 美国-1.84MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_58
+      - YouTube梦歌|Netflix_36
+      - (已存活1天)中国-4.01MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_27
       - 美国 [直连C] 1x 5Gbp/s
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_32
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - 新加坡(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_32 2
+      - 英国-2.08MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_7
+      - 中国-224.2KB/s(Youtube:不良林)
+      - 中国-478.1KB/s(Youtube:不良林)
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
+      - 新加坡(youtube阿伟科技) 4
+      - CN-高速节点推荐：tt.vg/vip（浏览器打开） 4
+      - 中国-2.70MB/s(Youtube:不良林)
+      - 新加坡-1.74MB/s(Youtube:不良林)
+      - 中国-3.18MB/s(Youtube:不良林)
       - 美国-228.0KB/s(Youtube:不良林)
-      - 美国 [直连C] 1x 5Gbp/s 2
-      - 美国-2.44MB/s(Youtube:不良林)
-      - 俄罗斯(youtube阿伟科技)
-      - 美国-1.91MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_42
+      - 中国-1.32MB/s(Youtube:不良林)
+      - "[LV2·原生] 狮城05 | 中转 2"
+      - 捷克-1.80MB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_30
+      - NONE 6
+      - 美国(youtube阿伟科技) 2
+      - 俄罗斯联邦-3.89MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_56
+      - YouTube梦歌|Netflix_25
+      - 韩国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_26 2
+      - YouTube梦歌|Netflix_1
+      - 新加坡(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix_66
+      - YouTube梦歌|Netflix_115
+      - 韩国(youtube阿伟科技) 2
+      - 亚洲📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - bai-piao-wang-zhe12.98848.xyz
+      - YouTube梦歌|Netflix_20
+      - 台湾-541.7KB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_162
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - 备用节点，此链接不定时更新
+      - YouTube梦歌|Netflix_17
+      - 韩国(欢迎订阅Youtube元亨利贞)
+      - 台湾-1019.7KB/s(Youtube:不良林)
+      - 埃及(youtube阿伟科技)
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - 备用节点，此链接不定时更新 2
+      - 奥地利📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - 中国-2.28MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_50
+      - 中国-3.43MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_61
+      - 泰国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_2
+      - 英国-2.08MB/s(Youtube:不良林) 2
+      - 韩国(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_68
+      - YouTube梦歌|Netflix_48
+      - 美国(youtube阿伟科技) 3
+      - 土耳其(youtube阿伟科技)
+      - 韩国-2.63MB/s(Youtube:不良林)
+      - 中国-219.2KB/s(Youtube:不良林)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - -clone
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_20
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_27
-      - YouTube梦歌|Netflix_1
-      - YouTube梦歌|Netflix_34
-      - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_35
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_33
-      - YouTube梦歌|Netflix_16
-      - YouTube梦歌|Netflix_9
-      - YouTube梦歌|Netflix_14
-      - YouTube梦歌|Netflix_4
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_28
-      - YouTube梦歌|Netflix_6
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_8
-      - YouTube梦歌|Netflix_3
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_11
-      - YouTube梦歌|Netflix_18
-      - 新西兰(youtube阿伟科技)
-      - YouTube梦歌|Netflix_31
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_7
-      - YouTube梦歌|Netflix_12
-      - YouTube梦歌|Netflix_24
-      - "[LV2·原生] 美国145 | 中转"
-      - YouTube梦歌|Netflix_21
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_26
-      - 塞尔维亚-173.4KB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技)
-      - 欧洲📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
-      - YouTube梦歌|Netflix_22
-      - YouTube梦歌|Netflix_32
-      - "[LV2·原生] 美国145 | 中转 2"
-      - "[LV2·原生] 美国145 | 中转 3"
-      - "[LV2·原生] 美国145 | 中转 4"
-      - "[LV2·原生] 美国145 | 中转 5"
-      - 美国-3.05MB/s(Youtube:不良林)
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - 美国-2.11MB/s(Youtube:不良林)
       - NONE
-      - FR-高速节点推荐：tt.vg/vip（浏览器打开）
       - 新加坡(youtube阿伟科技)
-      - YouTube梦歌|Netflix_5
-      - 日本(youtube阿伟科技)
-      - 台湾(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - 波兰-1.37MB/s(Youtube:不良林)
-      - 韩国(youtube阿伟科技)
-      - 波兰-1.23MB/s(Youtube:不良林)
-      - 德国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/
-      - 德国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/ 2
-      - 新加坡-403.4KB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_121
-      - 波兰-1.32MB/s(Youtube:不良林)
-      - 2022-7-1 更新
+      - NONE 2
       - 新加坡(youtube阿伟科技) 2
-      - 法国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/
+      - NONE 3
+      - 日本(youtube阿伟科技)
+      - "[LV2·原生] 狮城05 | 中转"
+      - SG
+      - NONE 4
+      - YouTube梦歌|Netflix_57
+      - NONE 5
+      - 澳大利亚-1.78MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_47
+      - bai-piao-wang-zhe.us.567568.ml
+      - YouTube梦歌|Netflix_13
+      - 日本(youtube阿伟科技) 2
+      - 美国-3.14MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_39
+      - 中国-3.35MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_26
+      - 美国-1.84MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_58
+      - YouTube梦歌|Netflix_36
+      - (已存活1天)中国-4.01MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_27
       - 美国 [直连C] 1x 5Gbp/s
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_32
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - 新加坡(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_32 2
+      - 英国-2.08MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_7
+      - 中国-224.2KB/s(Youtube:不良林)
+      - 中国-478.1KB/s(Youtube:不良林)
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
+      - 新加坡(youtube阿伟科技) 4
+      - CN-高速节点推荐：tt.vg/vip（浏览器打开） 4
+      - 中国-2.70MB/s(Youtube:不良林)
+      - 新加坡-1.74MB/s(Youtube:不良林)
+      - 中国-3.18MB/s(Youtube:不良林)
       - 美国-228.0KB/s(Youtube:不良林)
-      - 美国 [直连C] 1x 5Gbp/s 2
-      - 美国-2.44MB/s(Youtube:不良林)
-      - 俄罗斯(youtube阿伟科技)
-      - 美国-1.91MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_42
+      - 中国-1.32MB/s(Youtube:不良林)
+      - "[LV2·原生] 狮城05 | 中转 2"
+      - 捷克-1.80MB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_30
+      - NONE 6
+      - 美国(youtube阿伟科技) 2
+      - 俄罗斯联邦-3.89MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_56
+      - YouTube梦歌|Netflix_25
+      - 韩国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_26 2
+      - YouTube梦歌|Netflix_1
+      - 新加坡(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix_66
+      - YouTube梦歌|Netflix_115
+      - 韩国(youtube阿伟科技) 2
+      - 亚洲📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - bai-piao-wang-zhe12.98848.xyz
+      - YouTube梦歌|Netflix_20
+      - 台湾-541.7KB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_162
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - 备用节点，此链接不定时更新
+      - YouTube梦歌|Netflix_17
+      - 韩国(欢迎订阅Youtube元亨利贞)
+      - 台湾-1019.7KB/s(Youtube:不良林)
+      - 埃及(youtube阿伟科技)
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - 备用节点，此链接不定时更新 2
+      - 奥地利📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - 中国-2.28MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_50
+      - 中国-3.43MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_61
+      - 泰国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_2
+      - 英国-2.08MB/s(Youtube:不良林) 2
+      - 韩国(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_68
+      - YouTube梦歌|Netflix_48
+      - 美国(youtube阿伟科技) 3
+      - 土耳其(youtube阿伟科技)
+      - 韩国-2.63MB/s(Youtube:不良林)
+      - 中国-219.2KB/s(Youtube:不良林)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - -clone
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_20
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_27
-      - YouTube梦歌|Netflix_1
-      - YouTube梦歌|Netflix_34
-      - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_35
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_33
-      - YouTube梦歌|Netflix_16
-      - YouTube梦歌|Netflix_9
-      - YouTube梦歌|Netflix_14
-      - YouTube梦歌|Netflix_4
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_28
-      - YouTube梦歌|Netflix_6
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_8
-      - YouTube梦歌|Netflix_3
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_11
-      - YouTube梦歌|Netflix_18
-      - 新西兰(youtube阿伟科技)
-      - YouTube梦歌|Netflix_31
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_7
-      - YouTube梦歌|Netflix_12
-      - YouTube梦歌|Netflix_24
-      - "[LV2·原生] 美国145 | 中转"
-      - YouTube梦歌|Netflix_21
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_26
-      - 塞尔维亚-173.4KB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技)
-      - 欧洲📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
-      - YouTube梦歌|Netflix_22
-      - YouTube梦歌|Netflix_32
-      - "[LV2·原生] 美国145 | 中转 2"
-      - "[LV2·原生] 美国145 | 中转 3"
-      - "[LV2·原生] 美国145 | 中转 4"
-      - "[LV2·原生] 美国145 | 中转 5"
-      - 美国-3.05MB/s(Youtube:不良林)
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - 美国-2.11MB/s(Youtube:不良林)
       - NONE
-      - FR-高速节点推荐：tt.vg/vip（浏览器打开）
       - 新加坡(youtube阿伟科技)
-      - YouTube梦歌|Netflix_5
-      - 日本(youtube阿伟科技)
-      - 台湾(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - 波兰-1.37MB/s(Youtube:不良林)
-      - 韩国(youtube阿伟科技)
-      - 波兰-1.23MB/s(Youtube:不良林)
-      - 德国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/
-      - 德国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/ 2
-      - 新加坡-403.4KB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_121
-      - 波兰-1.32MB/s(Youtube:不良林)
-      - 2022-7-1 更新
+      - NONE 2
       - 新加坡(youtube阿伟科技) 2
-      - 法国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/
+      - NONE 3
+      - 日本(youtube阿伟科技)
+      - "[LV2·原生] 狮城05 | 中转"
+      - SG
+      - NONE 4
+      - YouTube梦歌|Netflix_57
+      - NONE 5
+      - 澳大利亚-1.78MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_47
+      - bai-piao-wang-zhe.us.567568.ml
+      - YouTube梦歌|Netflix_13
+      - 日本(youtube阿伟科技) 2
+      - 美国-3.14MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_39
+      - 中国-3.35MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_26
+      - 美国-1.84MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_58
+      - YouTube梦歌|Netflix_36
+      - (已存活1天)中国-4.01MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_27
       - 美国 [直连C] 1x 5Gbp/s
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_32
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - 新加坡(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_32 2
+      - 英国-2.08MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_7
+      - 中国-224.2KB/s(Youtube:不良林)
+      - 中国-478.1KB/s(Youtube:不良林)
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
+      - 新加坡(youtube阿伟科技) 4
+      - CN-高速节点推荐：tt.vg/vip（浏览器打开） 4
+      - 中国-2.70MB/s(Youtube:不良林)
+      - 新加坡-1.74MB/s(Youtube:不良林)
+      - 中国-3.18MB/s(Youtube:不良林)
       - 美国-228.0KB/s(Youtube:不良林)
-      - 美国 [直连C] 1x 5Gbp/s 2
-      - 美国-2.44MB/s(Youtube:不良林)
-      - 俄罗斯(youtube阿伟科技)
-      - 美国-1.91MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_42
+      - 中国-1.32MB/s(Youtube:不良林)
+      - "[LV2·原生] 狮城05 | 中转 2"
+      - 捷克-1.80MB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_30
+      - NONE 6
+      - 美国(youtube阿伟科技) 2
+      - 俄罗斯联邦-3.89MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_56
+      - YouTube梦歌|Netflix_25
+      - 韩国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_26 2
+      - YouTube梦歌|Netflix_1
+      - 新加坡(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix_66
+      - YouTube梦歌|Netflix_115
+      - 韩国(youtube阿伟科技) 2
+      - 亚洲📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - bai-piao-wang-zhe12.98848.xyz
+      - YouTube梦歌|Netflix_20
+      - 台湾-541.7KB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_162
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - 备用节点，此链接不定时更新
+      - YouTube梦歌|Netflix_17
+      - 韩国(欢迎订阅Youtube元亨利贞)
+      - 台湾-1019.7KB/s(Youtube:不良林)
+      - 埃及(youtube阿伟科技)
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - 备用节点，此链接不定时更新 2
+      - 奥地利📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - 中国-2.28MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_50
+      - 中国-3.43MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_61
+      - 泰国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_2
+      - 英国-2.08MB/s(Youtube:不良林) 2
+      - 韩国(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_68
+      - YouTube梦歌|Netflix_48
+      - 美国(youtube阿伟科技) 3
+      - 土耳其(youtube阿伟科技)
+      - 韩国-2.63MB/s(Youtube:不良林)
+      - 中国-219.2KB/s(Youtube:不良林)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -621,74 +814,98 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - -clone
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_20
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_27
-      - YouTube梦歌|Netflix_1
-      - YouTube梦歌|Netflix_34
-      - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_35
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_33
-      - YouTube梦歌|Netflix_16
-      - YouTube梦歌|Netflix_9
-      - YouTube梦歌|Netflix_14
-      - YouTube梦歌|Netflix_4
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_28
-      - YouTube梦歌|Netflix_6
-      - YouTube梦歌|Netflix_17
-      - YouTube梦歌|Netflix_8
-      - YouTube梦歌|Netflix_3
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_11
-      - YouTube梦歌|Netflix_18
-      - 新西兰(youtube阿伟科技)
-      - YouTube梦歌|Netflix_31
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_7
-      - YouTube梦歌|Netflix_12
-      - YouTube梦歌|Netflix_24
-      - "[LV2·原生] 美国145 | 中转"
-      - YouTube梦歌|Netflix_21
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_26
-      - 塞尔维亚-173.4KB/s(Youtube:不良林)
-      - 美国(youtube阿伟科技)
-      - 欧洲📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
-      - YouTube梦歌|Netflix_22
-      - YouTube梦歌|Netflix_32
-      - "[LV2·原生] 美国145 | 中转 2"
-      - "[LV2·原生] 美国145 | 中转 3"
-      - "[LV2·原生] 美国145 | 中转 4"
-      - "[LV2·原生] 美国145 | 中转 5"
-      - 美国-3.05MB/s(Youtube:不良林)
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - 美国-2.11MB/s(Youtube:不良林)
       - NONE
-      - FR-高速节点推荐：tt.vg/vip（浏览器打开）
       - 新加坡(youtube阿伟科技)
-      - YouTube梦歌|Netflix_5
-      - 日本(youtube阿伟科技)
-      - 台湾(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - 波兰-1.37MB/s(Youtube:不良林)
-      - 韩国(youtube阿伟科技)
-      - 波兰-1.23MB/s(Youtube:不良林)
-      - 德国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/
-      - 德国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/ 2
-      - 新加坡-403.4KB/s(Youtube:不良林)
-      - YouTube梦歌|Netflix_121
-      - 波兰-1.32MB/s(Youtube:不良林)
-      - 2022-7-1 更新
+      - NONE 2
       - 新加坡(youtube阿伟科技) 2
-      - 法国📔工具大师自用，晚高峰8K流媒体机场：https://kuaiyin.info/
+      - NONE 3
+      - 日本(youtube阿伟科技)
+      - "[LV2·原生] 狮城05 | 中转"
+      - SG
+      - NONE 4
+      - YouTube梦歌|Netflix_57
+      - NONE 5
+      - 澳大利亚-1.78MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_47
+      - bai-piao-wang-zhe.us.567568.ml
+      - YouTube梦歌|Netflix_13
+      - 日本(youtube阿伟科技) 2
+      - 美国-3.14MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_39
+      - 中国-3.35MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_26
+      - 美国-1.84MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_58
+      - YouTube梦歌|Netflix_36
+      - (已存活1天)中国-4.01MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_27
       - 美国 [直连C] 1x 5Gbp/s
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - YouTube梦歌|Netflix_32
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - 新加坡(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_32 2
+      - 英国-2.08MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_7
+      - 中国-224.2KB/s(Youtube:不良林)
+      - 中国-478.1KB/s(Youtube:不良林)
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
+      - 新加坡(youtube阿伟科技) 4
+      - CN-高速节点推荐：tt.vg/vip（浏览器打开） 4
+      - 中国-2.70MB/s(Youtube:不良林)
+      - 新加坡-1.74MB/s(Youtube:不良林)
+      - 中国-3.18MB/s(Youtube:不良林)
       - 美国-228.0KB/s(Youtube:不良林)
-      - 美国 [直连C] 1x 5Gbp/s 2
-      - 美国-2.44MB/s(Youtube:不良林)
-      - 俄罗斯(youtube阿伟科技)
-      - 美国-1.91MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_42
+      - 中国-1.32MB/s(Youtube:不良林)
+      - "[LV2·原生] 狮城05 | 中转 2"
+      - 捷克-1.80MB/s(Youtube:不良林)
+      - 美国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_30
+      - NONE 6
+      - 美国(youtube阿伟科技) 2
+      - 俄罗斯联邦-3.89MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_56
+      - YouTube梦歌|Netflix_25
+      - 韩国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_26 2
+      - YouTube梦歌|Netflix_1
+      - 新加坡(youtube阿伟科技) 5
+      - YouTube梦歌|Netflix_66
+      - YouTube梦歌|Netflix_115
+      - 韩国(youtube阿伟科技) 2
+      - 亚洲📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - bai-piao-wang-zhe12.98848.xyz
+      - YouTube梦歌|Netflix_20
+      - 台湾-541.7KB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_85
+      - YouTube梦歌|Netflix_162
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - 备用节点，此链接不定时更新
+      - YouTube梦歌|Netflix_17
+      - 韩国(欢迎订阅Youtube元亨利贞)
+      - 台湾-1019.7KB/s(Youtube:不良林)
+      - 埃及(youtube阿伟科技)
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - 备用节点，此链接不定时更新 2
+      - 奥地利📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - 中国-2.28MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_50
+      - 中国-3.43MB/s(Youtube:不良林)
+      - YouTube梦歌|Netflix_61
+      - 泰国(youtube阿伟科技)
+      - YouTube梦歌|Netflix_2
+      - 英国-2.08MB/s(Youtube:不良林) 2
+      - 韩国(youtube阿伟科技) 3
+      - YouTube梦歌|Netflix_68
+      - YouTube梦歌|Netflix_48
+      - 美国(youtube阿伟科技) 3
+      - 土耳其(youtube阿伟科技)
+      - 韩国-2.63MB/s(Youtube:不良林)
+      - 中国-219.2KB/s(Youtube:不良林)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
