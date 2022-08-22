@@ -1,0 +1,536 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: YouTube梦歌|華人社區_01, server: h192837.strongpipe.live, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_02, server: h192837.strongpipe.live, port: 11244, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_03, server: h192837.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_04, server: h192837.strongpipe.live, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_05, server: h192837.strongpipe.live, port: 11344, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_06, server: h192837.strongpipe.live, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_07, server: h192837.strongpipe.live, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_08, server: h192837.strongpipe.live, port: 11444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_09, server: h192837.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_10, server: h192837.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_11, server: h192837.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_12, server: h192837.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_13, server: h192837.strongpipe.live, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_14, server: h192837.strongpipe.live, port: 11744, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_15, server: h192837.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_16, server: h3816tw.strongpipe.live, port: 20443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_17, server: h3816tw.strongpipe.live, port: 20444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_18, server: h3816tw.strongpipe.live, port: 20445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_19, server: h3816tw.strongpipe.live, port: 20446, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_20, server: h3816tw.strongpipe.live, port: 20447, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_21, server: h3816tw.strongpipe.live, port: 20448, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_22, server: h3816tw.strongpipe.live, port: 20449, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_23, server: h517439.strongpipe.live, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_24, server: h517439.strongpipe.live, port: 11244, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_25, server: h517439.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_26, server: h517439.strongpipe.live, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_27, server: h517439.strongpipe.live, port: 11344, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_28, server: h517439.strongpipe.live, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_29, server: h517439.strongpipe.live, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_30, server: h517439.strongpipe.live, port: 11444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_31, server: h517439.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_32, server: h517439.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_33, server: h517439.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_34, server: h517439.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_35, server: h517439.strongpipe.live, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_36, server: h517439.strongpipe.live, port: 11744, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_37, server: h517439.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_38, server: h63956.strongpipe.live, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_39, server: h63956.strongpipe.live, port: 11244, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_40, server: h63956.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_41, server: h63956.strongpipe.live, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_42, server: h63956.strongpipe.live, port: 11344, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_43, server: h63956.strongpipe.live, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_44, server: h63956.strongpipe.live, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_45, server: h63956.strongpipe.live, port: 11444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_46, server: h63956.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_47, server: h63956.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_48, server: h63956.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_49, server: h63956.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_50, server: h63956.strongpipe.live, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_51, server: h63956.strongpipe.live, port: 11744, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_52, server: h63956.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_53, server: h738106.strongpipe.live, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_54, server: h738106.strongpipe.live, port: 11244, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_55, server: h738106.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_56, server: h738106.strongpipe.live, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_57, server: h738106.strongpipe.live, port: 11344, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_58, server: h738106.strongpipe.live, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_59, server: h738106.strongpipe.live, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_60, server: h738106.strongpipe.live, port: 11444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_61, server: h738106.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_62, server: h738106.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_63, server: h738106.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_64, server: h738106.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_65, server: h738106.strongpipe.live, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_66, server: h738106.strongpipe.live, port: 11744, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_67, server: h738106.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_68, server: h890361.strongpipe.live, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_69, server: h890361.strongpipe.live, port: 11244, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_70, server: h890361.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_71, server: h890361.strongpipe.live, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_72, server: h890361.strongpipe.live, port: 11344, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_73, server: h890361.strongpipe.live, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_74, server: h890361.strongpipe.live, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_75, server: h890361.strongpipe.live, port: 11444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_76, server: h890361.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_77, server: h890361.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_78, server: h890361.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_79, server: h890361.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_80, server: h890361.strongpipe.live, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_81, server: h890361.strongpipe.live, port: 11744, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_82, server: h890361.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_83, server: h961359.strongpipe.live, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_84, server: h961359.strongpipe.live, port: 11244, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_85, server: h961359.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_86, server: h961359.strongpipe.live, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_87, server: h961359.strongpipe.live, port: 11344, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_88, server: h961359.strongpipe.live, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_89, server: h961359.strongpipe.live, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_90, server: h961359.strongpipe.live, port: 11444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_91, server: h961359.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_92, server: h961359.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_93, server: h961359.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_94, server: h961359.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_95, server: h961359.strongpipe.live, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_96, server: h961359.strongpipe.live, port: 11744, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_97, server: h961359.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_98, server: h961684.strongpipe.live, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_99, server: h961684.strongpipe.live, port: 11244, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_100, server: h961684.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_101, server: h961684.strongpipe.live, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_102, server: h961684.strongpipe.live, port: 11344, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_103, server: h961684.strongpipe.live, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_104, server: h961684.strongpipe.live, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_105, server: h961684.strongpipe.live, port: 11444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_106, server: h961684.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_107, server: h961684.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_108, server: h961684.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_109, server: h961684.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_110, server: h961684.strongpipe.live, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_111, server: h961684.strongpipe.live, port: 11744, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|華人社區_112, server: h961684.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+      - 💡 自动选择
+      - YouTube梦歌|華人社區_01
+      - YouTube梦歌|華人社區_02
+      - YouTube梦歌|華人社區_03
+      - YouTube梦歌|華人社區_04
+      - YouTube梦歌|華人社區_05
+      - YouTube梦歌|華人社區_06
+      - YouTube梦歌|華人社區_07
+      - YouTube梦歌|華人社區_08
+      - YouTube梦歌|華人社區_09
+      - YouTube梦歌|華人社區_10
+      - YouTube梦歌|華人社區_11
+      - YouTube梦歌|華人社區_12
+      - YouTube梦歌|華人社區_13
+      - YouTube梦歌|華人社區_14
+      - YouTube梦歌|華人社區_15
+      - YouTube梦歌|華人社區_16
+      - YouTube梦歌|華人社區_17
+      - YouTube梦歌|華人社區_18
+      - YouTube梦歌|華人社區_19
+      - YouTube梦歌|華人社區_20
+      - YouTube梦歌|華人社區_21
+      - YouTube梦歌|華人社區_22
+      - YouTube梦歌|華人社區_23
+      - YouTube梦歌|華人社區_24
+      - YouTube梦歌|華人社區_25
+      - YouTube梦歌|華人社區_26
+      - YouTube梦歌|華人社區_27
+      - YouTube梦歌|華人社區_28
+      - YouTube梦歌|華人社區_29
+      - YouTube梦歌|華人社區_30
+      - YouTube梦歌|華人社區_31
+      - YouTube梦歌|華人社區_32
+      - YouTube梦歌|華人社區_33
+      - YouTube梦歌|華人社區_34
+      - YouTube梦歌|華人社區_35
+      - YouTube梦歌|華人社區_36
+      - YouTube梦歌|華人社區_37
+      - YouTube梦歌|華人社區_38
+      - YouTube梦歌|華人社區_39
+      - YouTube梦歌|華人社區_40
+      - YouTube梦歌|華人社區_41
+      - YouTube梦歌|華人社區_42
+      - YouTube梦歌|華人社區_43
+      - YouTube梦歌|華人社區_44
+      - YouTube梦歌|華人社區_45
+      - YouTube梦歌|華人社區_46
+      - YouTube梦歌|華人社區_47
+      - YouTube梦歌|華人社區_48
+      - YouTube梦歌|華人社區_49
+      - YouTube梦歌|華人社區_50
+      - YouTube梦歌|華人社區_51
+      - YouTube梦歌|華人社區_52
+      - YouTube梦歌|華人社區_53
+      - YouTube梦歌|華人社區_54
+      - YouTube梦歌|華人社區_55
+      - YouTube梦歌|華人社區_56
+      - YouTube梦歌|華人社區_57
+      - YouTube梦歌|華人社區_58
+      - YouTube梦歌|華人社區_59
+      - YouTube梦歌|華人社區_60
+      - YouTube梦歌|華人社區_61
+      - YouTube梦歌|華人社區_62
+      - YouTube梦歌|華人社區_63
+      - YouTube梦歌|華人社區_64
+      - YouTube梦歌|華人社區_65
+      - YouTube梦歌|華人社區_66
+      - YouTube梦歌|華人社區_67
+      - YouTube梦歌|華人社區_68
+      - YouTube梦歌|華人社區_69
+      - YouTube梦歌|華人社區_70
+      - YouTube梦歌|華人社區_71
+      - YouTube梦歌|華人社區_72
+      - YouTube梦歌|華人社區_73
+      - YouTube梦歌|華人社區_74
+      - YouTube梦歌|華人社區_75
+      - YouTube梦歌|華人社區_76
+      - YouTube梦歌|華人社區_77
+      - YouTube梦歌|華人社區_78
+      - YouTube梦歌|華人社區_79
+      - YouTube梦歌|華人社區_80
+      - YouTube梦歌|華人社區_81
+      - YouTube梦歌|華人社區_82
+      - YouTube梦歌|華人社區_83
+      - YouTube梦歌|華人社區_84
+      - YouTube梦歌|華人社區_85
+      - YouTube梦歌|華人社區_86
+      - YouTube梦歌|華人社區_87
+      - YouTube梦歌|華人社區_88
+      - YouTube梦歌|華人社區_89
+      - YouTube梦歌|華人社區_90
+      - YouTube梦歌|華人社區_91
+      - YouTube梦歌|華人社區_92
+      - YouTube梦歌|華人社區_93
+      - YouTube梦歌|華人社區_94
+      - YouTube梦歌|華人社區_95
+      - YouTube梦歌|華人社區_96
+      - YouTube梦歌|華人社區_97
+      - YouTube梦歌|華人社區_98
+      - YouTube梦歌|華人社區_99
+      - YouTube梦歌|華人社區_100
+      - YouTube梦歌|華人社區_101
+      - YouTube梦歌|華人社區_102
+      - YouTube梦歌|華人社區_103
+      - YouTube梦歌|華人社區_104
+      - YouTube梦歌|華人社區_105
+      - YouTube梦歌|華人社區_106
+      - YouTube梦歌|華人社區_107
+      - YouTube梦歌|華人社區_108
+      - YouTube梦歌|華人社區_109
+      - YouTube梦歌|華人社區_110
+      - YouTube梦歌|華人社區_111
+      - YouTube梦歌|華人社區_112
+  - name: 💡 自动选择
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - YouTube梦歌|華人社區_01
+      - YouTube梦歌|華人社區_02
+      - YouTube梦歌|華人社區_03
+      - YouTube梦歌|華人社區_04
+      - YouTube梦歌|華人社區_05
+      - YouTube梦歌|華人社區_06
+      - YouTube梦歌|華人社區_07
+      - YouTube梦歌|華人社區_08
+      - YouTube梦歌|華人社區_09
+      - YouTube梦歌|華人社區_10
+      - YouTube梦歌|華人社區_11
+      - YouTube梦歌|華人社區_12
+      - YouTube梦歌|華人社區_13
+      - YouTube梦歌|華人社區_14
+      - YouTube梦歌|華人社區_15
+      - YouTube梦歌|華人社區_16
+      - YouTube梦歌|華人社區_17
+      - YouTube梦歌|華人社區_18
+      - YouTube梦歌|華人社區_19
+      - YouTube梦歌|華人社區_20
+      - YouTube梦歌|華人社區_21
+      - YouTube梦歌|華人社區_22
+      - YouTube梦歌|華人社區_23
+      - YouTube梦歌|華人社區_24
+      - YouTube梦歌|華人社區_25
+      - YouTube梦歌|華人社區_26
+      - YouTube梦歌|華人社區_27
+      - YouTube梦歌|華人社區_28
+      - YouTube梦歌|華人社區_29
+      - YouTube梦歌|華人社區_30
+      - YouTube梦歌|華人社區_31
+      - YouTube梦歌|華人社區_32
+      - YouTube梦歌|華人社區_33
+      - YouTube梦歌|華人社區_34
+      - YouTube梦歌|華人社區_35
+      - YouTube梦歌|華人社區_36
+      - YouTube梦歌|華人社區_37
+      - YouTube梦歌|華人社區_38
+      - YouTube梦歌|華人社區_39
+      - YouTube梦歌|華人社區_40
+      - YouTube梦歌|華人社區_41
+      - YouTube梦歌|華人社區_42
+      - YouTube梦歌|華人社區_43
+      - YouTube梦歌|華人社區_44
+      - YouTube梦歌|華人社區_45
+      - YouTube梦歌|華人社區_46
+      - YouTube梦歌|華人社區_47
+      - YouTube梦歌|華人社區_48
+      - YouTube梦歌|華人社區_49
+      - YouTube梦歌|華人社區_50
+      - YouTube梦歌|華人社區_51
+      - YouTube梦歌|華人社區_52
+      - YouTube梦歌|華人社區_53
+      - YouTube梦歌|華人社區_54
+      - YouTube梦歌|華人社區_55
+      - YouTube梦歌|華人社區_56
+      - YouTube梦歌|華人社區_57
+      - YouTube梦歌|華人社區_58
+      - YouTube梦歌|華人社區_59
+      - YouTube梦歌|華人社區_60
+      - YouTube梦歌|華人社區_61
+      - YouTube梦歌|華人社區_62
+      - YouTube梦歌|華人社區_63
+      - YouTube梦歌|華人社區_64
+      - YouTube梦歌|華人社區_65
+      - YouTube梦歌|華人社區_66
+      - YouTube梦歌|華人社區_67
+      - YouTube梦歌|華人社區_68
+      - YouTube梦歌|華人社區_69
+      - YouTube梦歌|華人社區_70
+      - YouTube梦歌|華人社區_71
+      - YouTube梦歌|華人社區_72
+      - YouTube梦歌|華人社區_73
+      - YouTube梦歌|華人社區_74
+      - YouTube梦歌|華人社區_75
+      - YouTube梦歌|華人社區_76
+      - YouTube梦歌|華人社區_77
+      - YouTube梦歌|華人社區_78
+      - YouTube梦歌|華人社區_79
+      - YouTube梦歌|華人社區_80
+      - YouTube梦歌|華人社區_81
+      - YouTube梦歌|華人社區_82
+      - YouTube梦歌|華人社區_83
+      - YouTube梦歌|華人社區_84
+      - YouTube梦歌|華人社區_85
+      - YouTube梦歌|華人社區_86
+      - YouTube梦歌|華人社區_87
+      - YouTube梦歌|華人社區_88
+      - YouTube梦歌|華人社區_89
+      - YouTube梦歌|華人社區_90
+      - YouTube梦歌|華人社區_91
+      - YouTube梦歌|華人社區_92
+      - YouTube梦歌|華人社區_93
+      - YouTube梦歌|華人社區_94
+      - YouTube梦歌|華人社區_95
+      - YouTube梦歌|華人社區_96
+      - YouTube梦歌|華人社區_97
+      - YouTube梦歌|華人社區_98
+      - YouTube梦歌|華人社區_99
+      - YouTube梦歌|華人社區_100
+      - YouTube梦歌|華人社區_101
+      - YouTube梦歌|華人社區_102
+      - YouTube梦歌|華人社區_103
+      - YouTube梦歌|華人社區_104
+      - YouTube梦歌|華人社區_105
+      - YouTube梦歌|華人社區_106
+      - YouTube梦歌|華人社區_107
+      - YouTube梦歌|華人社區_108
+      - YouTube梦歌|華人社區_109
+      - YouTube梦歌|華人社區_110
+      - YouTube梦歌|華人社區_111
+      - YouTube梦歌|華人社區_112
+
+rules:
+
+    - DOMAIN-SUFFIX,google.com,Proxy
+    - DOMAIN-KEYWORD,google,Proxy
+    - DOMAIN,google.com,Proxy
+    - DOMAIN-SUFFIX,ad.com,REJECT
+    - GEOIP,CN,DIRECT
+    - MATCH,Proxy
+
+
+    # 国内网站
+    - DOMAIN-SUFFIX,cn,DIRECT
+    - DOMAIN-KEYWORD,-cn,DIRECT
+    - DOMAIN-SUFFIX,126.com,DIRECT
+    - DOMAIN-SUFFIX,126.net,DIRECT
+    - DOMAIN-SUFFIX,127.net,DIRECT
+    - DOMAIN-SUFFIX,163.com,DIRECT
+    - DOMAIN-SUFFIX,360buyimg.com,DIRECT
+    - DOMAIN-SUFFIX,36kr.com,DIRECT
+    - DOMAIN-SUFFIX,acfun.tv,DIRECT
+    - DOMAIN-SUFFIX,air-matters.com,DIRECT
+    - DOMAIN-SUFFIX,aixifan.com,DIRECT
+    - DOMAIN-KEYWORD,alicdn,DIRECT
+    - DOMAIN-KEYWORD,alipay,DIRECT
+    - DOMAIN-KEYWORD,taobao,DIRECT
+    - DOMAIN-SUFFIX,amap.com,DIRECT
+    - DOMAIN-SUFFIX,autonavi.com,DIRECT
+    - DOMAIN-KEYWORD,baidu,DIRECT
+    - DOMAIN-SUFFIX,bdimg.com,DIRECT
+    - DOMAIN-SUFFIX,bdstatic.com,DIRECT
+    - DOMAIN-SUFFIX,bilibili.com,DIRECT
+    - DOMAIN-SUFFIX,bilivideo.com,DIRECT
+    - DOMAIN-SUFFIX,caiyunapp.com,DIRECT
+    - DOMAIN-SUFFIX,clouddn.com,DIRECT
+    - DOMAIN-SUFFIX,cnbeta.com,DIRECT
+    - DOMAIN-SUFFIX,cnbetacdn.com,DIRECT
+    - DOMAIN-SUFFIX,cootekservice.com,DIRECT
+    - DOMAIN-SUFFIX,csdn.net,DIRECT
+    - DOMAIN-SUFFIX,ctrip.com,DIRECT
+    - DOMAIN-SUFFIX,dgtle.com,DIRECT
+    - DOMAIN-SUFFIX,dianping.com,DIRECT
+    - DOMAIN-SUFFIX,douban.com,DIRECT
+    - DOMAIN-SUFFIX,doubanio.com,DIRECT
+    - DOMAIN-SUFFIX,duokan.com,DIRECT
+    - DOMAIN-SUFFIX,easou.com,DIRECT
+    - DOMAIN-SUFFIX,ele.me,DIRECT
+    - DOMAIN-SUFFIX,feng.com,DIRECT
+    - DOMAIN-SUFFIX,fir.im,DIRECT
+    - DOMAIN-SUFFIX,frdic.com,DIRECT
+    - DOMAIN-SUFFIX,g-cores.com,DIRECT
+    - DOMAIN-SUFFIX,godic.net,DIRECT
+    - DOMAIN-SUFFIX,gtimg.com,DIRECT
+    - DOMAIN,cdn.hockeyapp.net,DIRECT
+    - DOMAIN-SUFFIX,hongxiu.com,DIRECT
+    - DOMAIN-SUFFIX,hxcdn.net,DIRECT
+    - DOMAIN-SUFFIX,iciba.com,DIRECT
+    - DOMAIN-SUFFIX,ifeng.com,DIRECT
+    - DOMAIN-SUFFIX,ifengimg.com,DIRECT
+    - DOMAIN-SUFFIX,ipip.net,DIRECT
+    - DOMAIN-SUFFIX,iqiyi.com,DIRECT
+    - DOMAIN-SUFFIX,jd.com,DIRECT
+    - DOMAIN-SUFFIX,jianshu.com,DIRECT
+    - DOMAIN-SUFFIX,knewone.com,DIRECT
+    - DOMAIN-SUFFIX,le.com,DIRECT
+    - DOMAIN-SUFFIX,lecloud.com,DIRECT
+    - DOMAIN-SUFFIX,lemicp.com,DIRECT
+    - DOMAIN-SUFFIX,licdn.com,DIRECT
+    - DOMAIN-SUFFIX,linkedin.com,DIRECT
+    - DOMAIN-SUFFIX,luoo.net,DIRECT
+    - DOMAIN-SUFFIX,meituan.com,DIRECT
+    - DOMAIN-SUFFIX,meituan.net,DIRECT
+    - DOMAIN-SUFFIX,mi.com,DIRECT
+    - DOMAIN-SUFFIX,miaopai.com,DIRECT
+    - DOMAIN-SUFFIX,microsoft.com,DIRECT
+    - DOMAIN-SUFFIX,microsoftonline.com,DIRECT
+    - DOMAIN-SUFFIX,miui.com,DIRECT
+    - DOMAIN-SUFFIX,miwifi.com,DIRECT
+    - DOMAIN-SUFFIX,mob.com,DIRECT
+    - DOMAIN-SUFFIX,netease.com,DIRECT
+    - DOMAIN-SUFFIX,office.com,DIRECT
+    - DOMAIN-SUFFIX,office365.com,DIRECT
+    - DOMAIN-KEYWORD,officecdn,DIRECT
+    - DOMAIN-SUFFIX,oschina.net,DIRECT
+    - DOMAIN-SUFFIX,ppsimg.com,DIRECT
+    - DOMAIN-SUFFIX,pstatp.com,DIRECT
+    - DOMAIN-SUFFIX,qcloud.com,DIRECT
+    - DOMAIN-SUFFIX,qdaily.com,DIRECT
+    - DOMAIN-SUFFIX,qdmm.com,DIRECT
+    - DOMAIN-SUFFIX,qhimg.com,DIRECT
+    - DOMAIN-SUFFIX,qhres.com,DIRECT
+    - DOMAIN-SUFFIX,qidian.com,DIRECT
+    - DOMAIN-SUFFIX,qihucdn.com,DIRECT
+    - DOMAIN-SUFFIX,qiniu.com,DIRECT
+    - DOMAIN-SUFFIX,qiniucdn.com,DIRECT
+    - DOMAIN-SUFFIX,qiyipic.com,DIRECT
+    - DOMAIN-SUFFIX,qq.com,DIRECT
+    - DOMAIN-SUFFIX,qqurl.com,DIRECT
+    - DOMAIN-SUFFIX,rarbg.to,DIRECT
+    - DOMAIN-SUFFIX,ruguoapp.com,DIRECT
+    - DOMAIN-SUFFIX,segmentfault.com,DIRECT
+    - DOMAIN-SUFFIX,sinaapp.com,DIRECT
+    - DOMAIN-SUFFIX,smzdm.com,DIRECT
+    - DOMAIN-SUFFIX,snapdrop.net,DIRECT
+    - DOMAIN-SUFFIX,sogou.com,DIRECT
+    - DOMAIN-SUFFIX,sogoucdn.com,DIRECT
+    - DOMAIN-SUFFIX,sohu.com,DIRECT
+    - DOMAIN-SUFFIX,soku.com,DIRECT
+    - DOMAIN-SUFFIX,speedtest.net,DIRECT
+    - DOMAIN-SUFFIX,sspai.com,DIRECT
+    - DOMAIN-SUFFIX,suning.com,DIRECT
+    - DOMAIN-SUFFIX,taobao.com,DIRECT
+    - DOMAIN-SUFFIX,tencent.com,DIRECT
+    - DOMAIN-SUFFIX,tenpay.com,DIRECT
+    - DOMAIN-SUFFIX,tianyancha.com,DIRECT
+    - DOMAIN-SUFFIX,tmall.com,DIRECT
+    - DOMAIN-SUFFIX,tudou.com,DIRECT
+    - DOMAIN-SUFFIX,umetrip.com,DIRECT
+    - DOMAIN-SUFFIX,upaiyun.com,DIRECT
+    - DOMAIN-SUFFIX,upyun.com,DIRECT
+    - DOMAIN-SUFFIX,veryzhun.com,DIRECT
+    - DOMAIN-SUFFIX,weather.com,DIRECT
+    - DOMAIN-SUFFIX,weibo.com,DIRECT
+    - DOMAIN-SUFFIX,xiami.com,DIRECT
+    - DOMAIN-SUFFIX,xiami.net,DIRECT
+    - DOMAIN-SUFFIX,xiaomicp.com,DIRECT
+    - DOMAIN-SUFFIX,ximalaya.com,DIRECT
+    - DOMAIN-SUFFIX,xmcdn.com,DIRECT
+    - DOMAIN-SUFFIX,xunlei.com,DIRECT
+    - DOMAIN-SUFFIX,yhd.com,DIRECT
+    - DOMAIN-SUFFIX,yihaodianimg.com,DIRECT
+    - DOMAIN-SUFFIX,yinxiang.com,DIRECT
+    - DOMAIN-SUFFIX,ykimg.com,DIRECT
+    - DOMAIN-SUFFIX,youdao.com,DIRECT
+    - DOMAIN-SUFFIX,youku.com,DIRECT
+    - DOMAIN-SUFFIX,zealer.com,DIRECT
+    - DOMAIN-SUFFIX,zhihu.com,DIRECT
+    - DOMAIN-SUFFIX,zhimg.com,DIRECT
+    - DOMAIN-SUFFIX,zimuzu.tv,DIRECT
+    - DOMAIN-SUFFIX,zoho.com,DIRECT
+
+
+    # 常见广告域名屏蔽
+    - DOMAIN-KEYWORD,admarvel,REJECT
+    - DOMAIN-KEYWORD,admaster,REJECT
+    - DOMAIN-KEYWORD,adsage,REJECT
+    - DOMAIN-KEYWORD,adsmogo,REJECT
+    - DOMAIN-KEYWORD,adsrvmedia,REJECT
+    - DOMAIN-KEYWORD,adwords,REJECT
+    - DOMAIN-KEYWORD,adservice,REJECT
+    - DOMAIN-SUFFIX,appsflyer.com,REJECT
+    - DOMAIN-KEYWORD,domob,REJECT
+    - DOMAIN-SUFFIX,doubleclick.net,REJECT
+    - DOMAIN-KEYWORD,duomeng,REJECT
+    - DOMAIN-KEYWORD,dwtrack,REJECT
+    - DOMAIN-KEYWORD,guanggao,REJECT
+    - DOMAIN-KEYWORD,lianmeng,REJECT
+    - DOMAIN-SUFFIX,mmstat.com,REJECT
+    - DOMAIN-KEYWORD,mopub,REJECT
+    - DOMAIN-KEYWORD,omgmta,REJECT
+    - DOMAIN-KEYWORD,openx,REJECT
+    - DOMAIN-KEYWORD,partnerad,REJECT
+    - DOMAIN-KEYWORD,pingfore,REJECT
+    - DOMAIN-KEYWORD,supersonicads,REJECT
+    - DOMAIN-KEYWORD,uedas,REJECT
+    - DOMAIN-KEYWORD,umeng,REJECT
+    - DOMAIN-KEYWORD,usage,REJECT
+    - DOMAIN-SUFFIX,vungle.com,REJECT
+    - DOMAIN-KEYWORD,wlmonitor,REJECT
+    - DOMAIN-KEYWORD,zjtoolbar,REJECT
+
+
+    # LAN
+    - DOMAIN,injections.adguard.org,DIRECT
+    - DOMAIN,local.adguard.org,DIRECT
+    - DOMAIN-SUFFIX,local,DIRECT
+    - IP-CIDR,127.0.0.0/8,DIRECT
+    - IP-CIDR,172.16.0.0/12,DIRECT
+    - IP-CIDR,192.168.0.0/16,DIRECT
+    - IP-CIDR,10.0.0.0/8,DIRECT
+    - IP-CIDR,17.0.0.0/8,DIRECT
+    - IP-CIDR,100.64.0.0/10,DIRECT
