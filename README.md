@@ -5,131 +5,223 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 台湾油管-阿伟科技15, server: dx15.jicojs.com, port: 443, type: ss, cipher: aes-256-gcm, password: 46c027d028b4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: dx15.jicojs.com, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 新加坡(youtube阿伟科技), server: ttt3.swiftfalcon.app, port: 8443, type: trojan, password: coldwar2, sni: ttt3.swiftfalcon.app, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_15, server: s3.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_29, server: s2.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_43, server: 43.132.194.79, port: 31580, type: ssr, cipher: aes-256-cfb, password: zxOmdD, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22082:tgXIaG, obfs-param: TUdZMlpqTXlNakE0TWk1dGFXTnliM052Wm5RdVkyOXQ, udp: true}
-  - {name: YouTube梦歌|Netflix_35, server: gzyd.120.817777.xyz, port: 20528, type: ssr, cipher: aes-256-cfb, password: zxOmdD, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22082:tgXIaG, obfs-param: TUdZMlpqTXlNakE0TWk1dGFXTnliM052Wm5RdVkyOXQ, udp: true}
-  - {name: US【付费推荐：tt.vg/vip】, server: 198.211.4.6, port: 63911, type: ss, cipher: chacha20-ietf-poly1305, password: p2FLHVFIp54b, udp: true}
-  - {name: YouTube梦歌|Netflix_66, server: amdkr.ptuu.ml, port: 443, type: vmess, uuid: e2cdc305-dda7-465e-b675-ba0468d2a8b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /987, ws-headers: {Host: amdkr.ptuu.ml}, udp: true}
-  - {name: CN【付费推荐：tt.vg/vip】, server: jp-nrt-04-v2.jd.cjhh.mom, port: 888, type: vmess, uuid: b46e5bfe-739c-4026-91fd-686209ce6d85, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: jp-nrt-04-v2.jd.cjhh.mom}, udp: true}
-  - {name: 【付费推荐：tt.vg/vip】, server: fn600mlines008.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fc568c325d09, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: YouTube梦歌|Netflix_77, server: jp-nrt-04-v2.jd.cjhh.mom, port: 888, type: vmess, uuid: b46e5bfe-739c-4026-91fd-686209ce6d85, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: YouTube梦歌|Netflix_70, server: ojje-laowang.apps.ir-thr-at1.arvan.run, port: 443, type: vmess, uuid: 2112b632-fb6c-4781-bb42-d4d310aa532f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /laowang, ws-headers: {Host: ojje-laowang.apps.ir-thr-at1.arvan.run}, udp: true}
-  - {name: 澳大利亚(欢迎订阅Youtube元亨利贞), server: 129.154.57.134, port: 26282, type: vmess, uuid: cabbdf5d-3cca-4605-ba1c-c89a7d5b4c07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TW【付费推荐：tt.vg/vip】, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness017.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: YouTube梦歌|Netflix_96, server: 8.209.220.34, port: 80, type: vmess, uuid: 74758f06-f4b9-4ef1-a86c-f0a0cc82109f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aries, ws-headers: {Host: lux.justu.ml}, udp: true}
-  - {name: 油管-阿伟科技7, server: 103.177.32.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8247a4cf6ed4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twd1000tw001.fengchiline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.85, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国(欢迎订阅Youtube元亨利贞), server: 38.75.136.34, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 台湾油管-阿伟科技12, server: 103.177.32.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8247a4cf6ed4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twd1000tw001.fengchiline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: "%25257B%252522Host%252522:%252522aweikeji-YouTube%252522%25257D"}, udp: true}
-  - {name: YouTube梦歌|Netflix_27, server: s1.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(youtube阿伟科技), server: 38.75.136.34, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CN【付费推荐：tt.vg/vip】 2, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
-  - {name: 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: in-sg-1.onebox6.org}, udp: true}
-  - {name: _US_美国, server: 38.75.136.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: github.com/freefq - 日本阿里云 37, server: 47.91.25.176, port: 36788, type: vmess, uuid: e56a6bdd-4f2f-41ee-cb47-1e0f006a4b78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 47.91.25.176}, udp: true}
-  - {name: YouTube梦歌|Netflix_51, server: 113.142.205.92, port: 443, type: vmess, uuid: 2c7da08b-b0a0-4544-a4d9-fd75515cc373, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ukqzvws, ws-headers: {Host: eu.ratx.tech}, udp: true}
+  - {name: 中国【付费推荐：https://v1.mk/vip】583, server: z00031.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
+  - {name: YouTube：ATOM科技_546, server: buyvm.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: buyvm.sharecentre.online}, udp: true}
+  - {name: _CN_中国, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V19-付费推荐:suo.yt/ssrsub", server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk-2.sharecentre.online}, udp: true}
+  - {name: YouTube：ATOM科技_142, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: buyvm.sharecentre.online}, udp: true}
+  - {name: _BZ_伯利兹->🇺🇸_US_美国, server: 203.30.191.192, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: "@SSRSUB-V12-付费推荐:suo.yt/ssrsub", server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-gcore.sharecentre.online}, udp: true}
+  - {name: github.com/freefq - 加拿大多伦多Oracle云计算数据中心 12, server: 132.145.99.228, port: 13724, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws-path, ws-headers: {Host: 132.145.99.228}, udp: true}
+  - {name: YouTube：ATOM科技_36, server: 132.145.99.228, port: 13724, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws-path, ws-headers: {Host: YTB-awkj}, udp: true}
+  - {name: YouTube：ATOM科技_402, server: 39.103.165.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港, server: z80001.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 香港【付费推荐：https://v1.mk/vip】288, server: 8.210.131.2, port: 31357, type: vmess, uuid: 618c0914-e31e-4b82-8289-2e7a47e48dfd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.210.131.2]}}, udp: true}
+  - {name: _BZ_伯利兹->🇺🇸_US_美国 2, server: 203.30.188.188, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: 美国【付费推荐：https://v1.mk/vip】554, server: 103.21.244.122, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /8cda48b3, ws-headers: {Host: IN-92-99.shoptunnel.live}, udp: true}
+  - {name: _US_美国, server: 141.193.213.20, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: _BZ_伯利兹, server: 203.30.191.191, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: _US_美国 2, server: de.woiden.yuji2022.gq, port: 80, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /XQ2WCa29jfDMGBcbnQ, ws-headers: {Host: de.woiden.yuji2022.gq}, udp: true}
+  - {name: _US_美国->🇮🇳_IN_印度, server: 103.21.244.226, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /8cda48b3, ws-headers: {Host: IN-92-99.shoptunnel.live}, udp: true}
+  - {name: YouTube：ATOM科技_713, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxpol2.fovi.tk}, udp: true}
+  - {name: 加拿大【付费推荐：https://v1.mk/vip】337, server: 23.227.38.38, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: YouTube：ATOM科技_44, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube：ATOM科技_88, server: 111.23.252.214, port: 55602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube：ATOM科技_325, server: 172.67.199.34, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lu.sharecentre.online}, udp: true}
+  - {name: _HK_香港, server: 47.243.29.234, port: 27537, type: vmess, uuid: 98b193f3-8056-4f48-bc4a-f1e893486548, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.243.29.234]}}, udp: true}
+  - {name: YouTube：ATOM科技_697, server: 173.245.49.5, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /8cda48b3, ws-headers: {Host: IN-92-99.shoptunnel.live}, udp: true}
+  - {name: 印度【付费推荐：https://v1.mk/vip】23, server: vin1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vin1.0bad.com}, udp: true}
+  - {name: _HK_香港 2, server: 47.243.230.222, port: 35668, type: vmess, uuid: ab4df3ef-e77f-4f2a-bfb8-63604412f73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.243.230.222]}}, udp: true}
+  - {name: _IN_印度, server: 68.183.83.94, port: 59477, type: vmess, uuid: b8f6a71c-6925-4e84-fb93-6e54f8d98b25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 68.183.83.94}, udp: true}
+  - {name: _US_美国->🇸🇬_SG_新加坡, server: free-zf-us1.tencent.cfd, port: 50328, type: vmess, uuid: d1860587-aa33-4b76-85cd-c191edecb338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: free-zf-us1.tencent.cfd}, udp: true}
+  - {name: 澳大利亚【付费推荐：https://v1.mk/vip】26, server: vau1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vau1.0bad.com}, udp: true}
+  - {name: github.com/freefq - 法国北部－加来海峡大区鲁贝OVH数据中心 13, server: r5.safyno.tk, port: 32935, type: trojan, password: OwXaiuJi7H, sni: r5.safyno.tk, skip-cert-verify: true, udp: true}
+  - {name: YouTube：ATOM科技_39, server: 132.145.99.228, port: 13724, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws-path, ws-headers: {Host: 132.145.99.228}, udp: true}
+  - {name: YouTube：ATOM科技_658, server: 103.21.244.107, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /8cda48b3, ws-headers: {Host: IN-92-99.shoptunnel.live}, udp: true}
+  - {name: YouTube：ATOM科技_674, server: 103.21.244.180, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /8cda48b3, ws-headers: {Host: IN-92-99.shoptunnel.live}, udp: true}
+  - {name: _US_美国 3, server: 172.67.185.133, port: 443, type: vmess, uuid: 44ceb389-4cea-4ea1-eef9-11ce6f3effe6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us1.wanwusheng.me}, udp: true}
+  - {name: YouTube：ATOM科技_442, server: 36.134.147.133, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube：ATOM科技_458, server: 36.139.162.59, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube：ATOM科技_517, server: 36.134.16.171, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube：ATOM科技_435, server: 36.134.16.190, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube：ATOM科技_666, server: 36.134.16.96, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube：ATOM科技_733, server: 36.133.166.148, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube：ATOM科技_656, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lu.sharecentre.online}, udp: true}
+  - {name: YouTube：ATOM科技_547, server: hnm.xiaohouzi.club, port: 17104, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国【付费推荐：https://v1.mk/vip】153, server: hnm.xiaohouzi.club, port: 47555, type: trojan, password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: YouTube：ATOM科技_727, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: kh.sharecentre.online}, udp: true}
+  - {name: YouTube：ATOM科技_322, server: hnm.xiaohouzi.club, port: 17108, type: trojan, password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 2, server: 220.167.140.109, port: 46794, type: vmess, uuid: e8bab75e-c7e1-43e0-b031-4e3565b1afaf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 220.167.140.109}, udp: true}
+  - {name: _CA_加拿大, server: 23.227.38.100, port: 443, type: vmess, uuid: 7b1b2fa3-e361-48cc-b73d-2c9636c76f4b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /UMW36262, ws-headers: {Host: v2ray1.zhujicn2.org}, udp: true}
+  - {name: YouTube：ATOM科技_342, server: gz01.xiaohouzi.club, port: 20091, type: trojan, password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5, sni: gz01.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国【付费推荐：https://v1.mk/vip】6, server: z0005.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 台湾油管-阿伟科技15
-      - 新加坡(youtube阿伟科技)
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_43
-      - YouTube梦歌|Netflix_35
-      - US【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_66
-      - CN【付费推荐：tt.vg/vip】
-      - 【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_77
-      - YouTube梦歌|Netflix_70
-      - 澳大利亚(欢迎订阅Youtube元亨利贞)
-      - TW【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_96
-      - 油管-阿伟科技7
-      - _CA_加拿大
-      - 美国(欢迎订阅Youtube元亨利贞)
-      - 台湾油管-阿伟科技12
-      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - YouTube梦歌|Netflix_27
-      - 美国(youtube阿伟科技)
-      - CN【付费推荐：tt.vg/vip】 2
-      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
+      - 中国【付费推荐：https://v1.mk/vip】583
+      - YouTube：ATOM科技_546
+      - _CN_中国
+      - "@SSRSUB-V19-付费推荐:suo.yt/ssrsub"
+      - YouTube：ATOM科技_142
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - github.com/freefq - 加拿大多伦多Oracle云计算数据中心 12
+      - YouTube：ATOM科技_36
+      - YouTube：ATOM科技_402
+      - _CN_中国->🇭🇰_HK_香港
+      - 香港【付费推荐：https://v1.mk/vip】288
+      - _BZ_伯利兹->🇺🇸_US_美国 2
+      - 美国【付费推荐：https://v1.mk/vip】554
       - _US_美国
-      - github.com/freefq - 日本阿里云 37
-      - YouTube梦歌|Netflix_51
+      - _BZ_伯利兹
+      - _US_美国 2
+      - _US_美国->🇮🇳_IN_印度
+      - YouTube：ATOM科技_713
+      - 加拿大【付费推荐：https://v1.mk/vip】337
+      - YouTube：ATOM科技_44
+      - YouTube：ATOM科技_88
+      - YouTube：ATOM科技_325
+      - _HK_香港
+      - YouTube：ATOM科技_697
+      - 印度【付费推荐：https://v1.mk/vip】23
+      - _HK_香港 2
+      - _IN_印度
+      - _US_美国->🇸🇬_SG_新加坡
+      - 澳大利亚【付费推荐：https://v1.mk/vip】26
+      - github.com/freefq - 法国北部－加来海峡大区鲁贝OVH数据中心 13
+      - YouTube：ATOM科技_39
+      - YouTube：ATOM科技_658
+      - YouTube：ATOM科技_674
+      - _US_美国 3
+      - YouTube：ATOM科技_442
+      - YouTube：ATOM科技_458
+      - YouTube：ATOM科技_517
+      - YouTube：ATOM科技_435
+      - YouTube：ATOM科技_666
+      - YouTube：ATOM科技_733
+      - YouTube：ATOM科技_656
+      - YouTube：ATOM科技_547
+      - 中国【付费推荐：https://v1.mk/vip】153
+      - YouTube：ATOM科技_727
+      - YouTube：ATOM科技_322
+      - _CN_中国 2
+      - _CA_加拿大
+      - YouTube：ATOM科技_342
+      - 中国【付费推荐：https://v1.mk/vip】6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 台湾油管-阿伟科技15
-      - 新加坡(youtube阿伟科技)
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_43
-      - YouTube梦歌|Netflix_35
-      - US【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_66
-      - CN【付费推荐：tt.vg/vip】
-      - 【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_77
-      - YouTube梦歌|Netflix_70
-      - 澳大利亚(欢迎订阅Youtube元亨利贞)
-      - TW【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_96
-      - 油管-阿伟科技7
-      - _CA_加拿大
-      - 美国(欢迎订阅Youtube元亨利贞)
-      - 台湾油管-阿伟科技12
-      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - YouTube梦歌|Netflix_27
-      - 美国(youtube阿伟科技)
-      - CN【付费推荐：tt.vg/vip】 2
-      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
+      - 中国【付费推荐：https://v1.mk/vip】583
+      - YouTube：ATOM科技_546
+      - _CN_中国
+      - "@SSRSUB-V19-付费推荐:suo.yt/ssrsub"
+      - YouTube：ATOM科技_142
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - github.com/freefq - 加拿大多伦多Oracle云计算数据中心 12
+      - YouTube：ATOM科技_36
+      - YouTube：ATOM科技_402
+      - _CN_中国->🇭🇰_HK_香港
+      - 香港【付费推荐：https://v1.mk/vip】288
+      - _BZ_伯利兹->🇺🇸_US_美国 2
+      - 美国【付费推荐：https://v1.mk/vip】554
       - _US_美国
-      - github.com/freefq - 日本阿里云 37
-      - YouTube梦歌|Netflix_51
+      - _BZ_伯利兹
+      - _US_美国 2
+      - _US_美国->🇮🇳_IN_印度
+      - YouTube：ATOM科技_713
+      - 加拿大【付费推荐：https://v1.mk/vip】337
+      - YouTube：ATOM科技_44
+      - YouTube：ATOM科技_88
+      - YouTube：ATOM科技_325
+      - _HK_香港
+      - YouTube：ATOM科技_697
+      - 印度【付费推荐：https://v1.mk/vip】23
+      - _HK_香港 2
+      - _IN_印度
+      - _US_美国->🇸🇬_SG_新加坡
+      - 澳大利亚【付费推荐：https://v1.mk/vip】26
+      - github.com/freefq - 法国北部－加来海峡大区鲁贝OVH数据中心 13
+      - YouTube：ATOM科技_39
+      - YouTube：ATOM科技_658
+      - YouTube：ATOM科技_674
+      - _US_美国 3
+      - YouTube：ATOM科技_442
+      - YouTube：ATOM科技_458
+      - YouTube：ATOM科技_517
+      - YouTube：ATOM科技_435
+      - YouTube：ATOM科技_666
+      - YouTube：ATOM科技_733
+      - YouTube：ATOM科技_656
+      - YouTube：ATOM科技_547
+      - 中国【付费推荐：https://v1.mk/vip】153
+      - YouTube：ATOM科技_727
+      - YouTube：ATOM科技_322
+      - _CN_中国 2
+      - _CA_加拿大
+      - YouTube：ATOM科技_342
+      - 中国【付费推荐：https://v1.mk/vip】6
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 台湾油管-阿伟科技15
-      - 新加坡(youtube阿伟科技)
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_43
-      - YouTube梦歌|Netflix_35
-      - US【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_66
-      - CN【付费推荐：tt.vg/vip】
-      - 【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_77
-      - YouTube梦歌|Netflix_70
-      - 澳大利亚(欢迎订阅Youtube元亨利贞)
-      - TW【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_96
-      - 油管-阿伟科技7
-      - _CA_加拿大
-      - 美国(欢迎订阅Youtube元亨利贞)
-      - 台湾油管-阿伟科技12
-      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - YouTube梦歌|Netflix_27
-      - 美国(youtube阿伟科技)
-      - CN【付费推荐：tt.vg/vip】 2
-      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
+      - 中国【付费推荐：https://v1.mk/vip】583
+      - YouTube：ATOM科技_546
+      - _CN_中国
+      - "@SSRSUB-V19-付费推荐:suo.yt/ssrsub"
+      - YouTube：ATOM科技_142
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - github.com/freefq - 加拿大多伦多Oracle云计算数据中心 12
+      - YouTube：ATOM科技_36
+      - YouTube：ATOM科技_402
+      - _CN_中国->🇭🇰_HK_香港
+      - 香港【付费推荐：https://v1.mk/vip】288
+      - _BZ_伯利兹->🇺🇸_US_美国 2
+      - 美国【付费推荐：https://v1.mk/vip】554
       - _US_美国
-      - github.com/freefq - 日本阿里云 37
-      - YouTube梦歌|Netflix_51
+      - _BZ_伯利兹
+      - _US_美国 2
+      - _US_美国->🇮🇳_IN_印度
+      - YouTube：ATOM科技_713
+      - 加拿大【付费推荐：https://v1.mk/vip】337
+      - YouTube：ATOM科技_44
+      - YouTube：ATOM科技_88
+      - YouTube：ATOM科技_325
+      - _HK_香港
+      - YouTube：ATOM科技_697
+      - 印度【付费推荐：https://v1.mk/vip】23
+      - _HK_香港 2
+      - _IN_印度
+      - _US_美国->🇸🇬_SG_新加坡
+      - 澳大利亚【付费推荐：https://v1.mk/vip】26
+      - github.com/freefq - 法国北部－加来海峡大区鲁贝OVH数据中心 13
+      - YouTube：ATOM科技_39
+      - YouTube：ATOM科技_658
+      - YouTube：ATOM科技_674
+      - _US_美国 3
+      - YouTube：ATOM科技_442
+      - YouTube：ATOM科技_458
+      - YouTube：ATOM科技_517
+      - YouTube：ATOM科技_435
+      - YouTube：ATOM科技_666
+      - YouTube：ATOM科技_733
+      - YouTube：ATOM科技_656
+      - YouTube：ATOM科技_547
+      - 中国【付费推荐：https://v1.mk/vip】153
+      - YouTube：ATOM科技_727
+      - YouTube：ATOM科技_322
+      - _CN_中国 2
+      - _CA_加拿大
+      - YouTube：ATOM科技_342
+      - 中国【付费推荐：https://v1.mk/vip】6
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -148,137 +240,231 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 台湾油管-阿伟科技15
-      - 新加坡(youtube阿伟科技)
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_43
-      - YouTube梦歌|Netflix_35
-      - US【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_66
-      - CN【付费推荐：tt.vg/vip】
-      - 【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_77
-      - YouTube梦歌|Netflix_70
-      - 澳大利亚(欢迎订阅Youtube元亨利贞)
-      - TW【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_96
-      - 油管-阿伟科技7
-      - _CA_加拿大
-      - 美国(欢迎订阅Youtube元亨利贞)
-      - 台湾油管-阿伟科技12
-      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - YouTube梦歌|Netflix_27
-      - 美国(youtube阿伟科技)
-      - CN【付费推荐：tt.vg/vip】 2
-      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
+      - 中国【付费推荐：https://v1.mk/vip】583
+      - YouTube：ATOM科技_546
+      - _CN_中国
+      - "@SSRSUB-V19-付费推荐:suo.yt/ssrsub"
+      - YouTube：ATOM科技_142
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - github.com/freefq - 加拿大多伦多Oracle云计算数据中心 12
+      - YouTube：ATOM科技_36
+      - YouTube：ATOM科技_402
+      - _CN_中国->🇭🇰_HK_香港
+      - 香港【付费推荐：https://v1.mk/vip】288
+      - _BZ_伯利兹->🇺🇸_US_美国 2
+      - 美国【付费推荐：https://v1.mk/vip】554
       - _US_美国
-      - github.com/freefq - 日本阿里云 37
-      - YouTube梦歌|Netflix_51
+      - _BZ_伯利兹
+      - _US_美国 2
+      - _US_美国->🇮🇳_IN_印度
+      - YouTube：ATOM科技_713
+      - 加拿大【付费推荐：https://v1.mk/vip】337
+      - YouTube：ATOM科技_44
+      - YouTube：ATOM科技_88
+      - YouTube：ATOM科技_325
+      - _HK_香港
+      - YouTube：ATOM科技_697
+      - 印度【付费推荐：https://v1.mk/vip】23
+      - _HK_香港 2
+      - _IN_印度
+      - _US_美国->🇸🇬_SG_新加坡
+      - 澳大利亚【付费推荐：https://v1.mk/vip】26
+      - github.com/freefq - 法国北部－加来海峡大区鲁贝OVH数据中心 13
+      - YouTube：ATOM科技_39
+      - YouTube：ATOM科技_658
+      - YouTube：ATOM科技_674
+      - _US_美国 3
+      - YouTube：ATOM科技_442
+      - YouTube：ATOM科技_458
+      - YouTube：ATOM科技_517
+      - YouTube：ATOM科技_435
+      - YouTube：ATOM科技_666
+      - YouTube：ATOM科技_733
+      - YouTube：ATOM科技_656
+      - YouTube：ATOM科技_547
+      - 中国【付费推荐：https://v1.mk/vip】153
+      - YouTube：ATOM科技_727
+      - YouTube：ATOM科技_322
+      - _CN_中国 2
+      - _CA_加拿大
+      - YouTube：ATOM科技_342
+      - 中国【付费推荐：https://v1.mk/vip】6
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾油管-阿伟科技15
-      - 台湾油管-阿伟科技12
+      - _CN_中国->🇭🇰_HK_香港
+      - 香港【付费推荐：https://v1.mk/vip】288
+      - _HK_香港
+      - _HK_香港 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 台湾油管-阿伟科技15
-      - 新加坡(youtube阿伟科技)
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_43
-      - YouTube梦歌|Netflix_35
-      - US【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_66
-      - CN【付费推荐：tt.vg/vip】
-      - 【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_77
-      - YouTube梦歌|Netflix_70
-      - 澳大利亚(欢迎订阅Youtube元亨利贞)
-      - TW【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_96
-      - 油管-阿伟科技7
-      - _CA_加拿大
-      - 美国(欢迎订阅Youtube元亨利贞)
-      - 台湾油管-阿伟科技12
-      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - YouTube梦歌|Netflix_27
-      - 美国(youtube阿伟科技)
-      - CN【付费推荐：tt.vg/vip】 2
-      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
+      - 中国【付费推荐：https://v1.mk/vip】583
+      - YouTube：ATOM科技_546
+      - _CN_中国
+      - "@SSRSUB-V19-付费推荐:suo.yt/ssrsub"
+      - YouTube：ATOM科技_142
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - github.com/freefq - 加拿大多伦多Oracle云计算数据中心 12
+      - YouTube：ATOM科技_36
+      - YouTube：ATOM科技_402
+      - _CN_中国->🇭🇰_HK_香港
+      - 香港【付费推荐：https://v1.mk/vip】288
+      - _BZ_伯利兹->🇺🇸_US_美国 2
+      - 美国【付费推荐：https://v1.mk/vip】554
       - _US_美国
-      - github.com/freefq - 日本阿里云 37
-      - YouTube梦歌|Netflix_51
+      - _BZ_伯利兹
+      - _US_美国 2
+      - _US_美国->🇮🇳_IN_印度
+      - YouTube：ATOM科技_713
+      - 加拿大【付费推荐：https://v1.mk/vip】337
+      - YouTube：ATOM科技_44
+      - YouTube：ATOM科技_88
+      - YouTube：ATOM科技_325
+      - _HK_香港
+      - YouTube：ATOM科技_697
+      - 印度【付费推荐：https://v1.mk/vip】23
+      - _HK_香港 2
+      - _IN_印度
+      - _US_美国->🇸🇬_SG_新加坡
+      - 澳大利亚【付费推荐：https://v1.mk/vip】26
+      - github.com/freefq - 法国北部－加来海峡大区鲁贝OVH数据中心 13
+      - YouTube：ATOM科技_39
+      - YouTube：ATOM科技_658
+      - YouTube：ATOM科技_674
+      - _US_美国 3
+      - YouTube：ATOM科技_442
+      - YouTube：ATOM科技_458
+      - YouTube：ATOM科技_517
+      - YouTube：ATOM科技_435
+      - YouTube：ATOM科技_666
+      - YouTube：ATOM科技_733
+      - YouTube：ATOM科技_656
+      - YouTube：ATOM科技_547
+      - 中国【付费推荐：https://v1.mk/vip】153
+      - YouTube：ATOM科技_727
+      - YouTube：ATOM科技_322
+      - _CN_中国 2
+      - _CA_加拿大
+      - YouTube：ATOM科技_342
+      - 中国【付费推荐：https://v1.mk/vip】6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 台湾油管-阿伟科技15
-      - 新加坡(youtube阿伟科技)
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_43
-      - YouTube梦歌|Netflix_35
-      - US【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_66
-      - CN【付费推荐：tt.vg/vip】
-      - 【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_77
-      - YouTube梦歌|Netflix_70
-      - 澳大利亚(欢迎订阅Youtube元亨利贞)
-      - TW【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_96
-      - 油管-阿伟科技7
-      - _CA_加拿大
-      - 美国(欢迎订阅Youtube元亨利贞)
-      - 台湾油管-阿伟科技12
-      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - YouTube梦歌|Netflix_27
-      - 美国(youtube阿伟科技)
-      - CN【付费推荐：tt.vg/vip】 2
-      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
+      - 中国【付费推荐：https://v1.mk/vip】583
+      - YouTube：ATOM科技_546
+      - _CN_中国
+      - "@SSRSUB-V19-付费推荐:suo.yt/ssrsub"
+      - YouTube：ATOM科技_142
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - github.com/freefq - 加拿大多伦多Oracle云计算数据中心 12
+      - YouTube：ATOM科技_36
+      - YouTube：ATOM科技_402
+      - _CN_中国->🇭🇰_HK_香港
+      - 香港【付费推荐：https://v1.mk/vip】288
+      - _BZ_伯利兹->🇺🇸_US_美国 2
+      - 美国【付费推荐：https://v1.mk/vip】554
       - _US_美国
-      - github.com/freefq - 日本阿里云 37
-      - YouTube梦歌|Netflix_51
+      - _BZ_伯利兹
+      - _US_美国 2
+      - _US_美国->🇮🇳_IN_印度
+      - YouTube：ATOM科技_713
+      - 加拿大【付费推荐：https://v1.mk/vip】337
+      - YouTube：ATOM科技_44
+      - YouTube：ATOM科技_88
+      - YouTube：ATOM科技_325
+      - _HK_香港
+      - YouTube：ATOM科技_697
+      - 印度【付费推荐：https://v1.mk/vip】23
+      - _HK_香港 2
+      - _IN_印度
+      - _US_美国->🇸🇬_SG_新加坡
+      - 澳大利亚【付费推荐：https://v1.mk/vip】26
+      - github.com/freefq - 法国北部－加来海峡大区鲁贝OVH数据中心 13
+      - YouTube：ATOM科技_39
+      - YouTube：ATOM科技_658
+      - YouTube：ATOM科技_674
+      - _US_美国 3
+      - YouTube：ATOM科技_442
+      - YouTube：ATOM科技_458
+      - YouTube：ATOM科技_517
+      - YouTube：ATOM科技_435
+      - YouTube：ATOM科技_666
+      - YouTube：ATOM科技_733
+      - YouTube：ATOM科技_656
+      - YouTube：ATOM科技_547
+      - 中国【付费推荐：https://v1.mk/vip】153
+      - YouTube：ATOM科技_727
+      - YouTube：ATOM科技_322
+      - _CN_中国 2
+      - _CA_加拿大
+      - YouTube：ATOM科技_342
+      - 中国【付费推荐：https://v1.mk/vip】6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 台湾油管-阿伟科技15
-      - 新加坡(youtube阿伟科技)
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_43
-      - YouTube梦歌|Netflix_35
-      - US【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_66
-      - CN【付费推荐：tt.vg/vip】
-      - 【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_77
-      - YouTube梦歌|Netflix_70
-      - 澳大利亚(欢迎订阅Youtube元亨利贞)
-      - TW【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_96
-      - 油管-阿伟科技7
-      - _CA_加拿大
-      - 美国(欢迎订阅Youtube元亨利贞)
-      - 台湾油管-阿伟科技12
-      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - YouTube梦歌|Netflix_27
-      - 美国(youtube阿伟科技)
-      - CN【付费推荐：tt.vg/vip】 2
-      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
+      - 中国【付费推荐：https://v1.mk/vip】583
+      - YouTube：ATOM科技_546
+      - _CN_中国
+      - "@SSRSUB-V19-付费推荐:suo.yt/ssrsub"
+      - YouTube：ATOM科技_142
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - github.com/freefq - 加拿大多伦多Oracle云计算数据中心 12
+      - YouTube：ATOM科技_36
+      - YouTube：ATOM科技_402
+      - _CN_中国->🇭🇰_HK_香港
+      - 香港【付费推荐：https://v1.mk/vip】288
+      - _BZ_伯利兹->🇺🇸_US_美国 2
+      - 美国【付费推荐：https://v1.mk/vip】554
       - _US_美国
-      - github.com/freefq - 日本阿里云 37
-      - YouTube梦歌|Netflix_51
+      - _BZ_伯利兹
+      - _US_美国 2
+      - _US_美国->🇮🇳_IN_印度
+      - YouTube：ATOM科技_713
+      - 加拿大【付费推荐：https://v1.mk/vip】337
+      - YouTube：ATOM科技_44
+      - YouTube：ATOM科技_88
+      - YouTube：ATOM科技_325
+      - _HK_香港
+      - YouTube：ATOM科技_697
+      - 印度【付费推荐：https://v1.mk/vip】23
+      - _HK_香港 2
+      - _IN_印度
+      - _US_美国->🇸🇬_SG_新加坡
+      - 澳大利亚【付费推荐：https://v1.mk/vip】26
+      - github.com/freefq - 法国北部－加来海峡大区鲁贝OVH数据中心 13
+      - YouTube：ATOM科技_39
+      - YouTube：ATOM科技_658
+      - YouTube：ATOM科技_674
+      - _US_美国 3
+      - YouTube：ATOM科技_442
+      - YouTube：ATOM科技_458
+      - YouTube：ATOM科技_517
+      - YouTube：ATOM科技_435
+      - YouTube：ATOM科技_666
+      - YouTube：ATOM科技_733
+      - YouTube：ATOM科技_656
+      - YouTube：ATOM科技_547
+      - 中国【付费推荐：https://v1.mk/vip】153
+      - YouTube：ATOM科技_727
+      - YouTube：ATOM科技_322
+      - _CN_中国 2
+      - _CA_加拿大
+      - YouTube：ATOM科技_342
+      - 中国【付费推荐：https://v1.mk/vip】6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -294,33 +480,56 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 台湾油管-阿伟科技15
-      - 新加坡(youtube阿伟科技)
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_29
-      - YouTube梦歌|Netflix_43
-      - YouTube梦歌|Netflix_35
-      - US【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_66
-      - CN【付费推荐：tt.vg/vip】
-      - 【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_77
-      - YouTube梦歌|Netflix_70
-      - 澳大利亚(欢迎订阅Youtube元亨利贞)
-      - TW【付费推荐：tt.vg/vip】
-      - YouTube梦歌|Netflix_96
-      - 油管-阿伟科技7
-      - _CA_加拿大
-      - 美国(欢迎订阅Youtube元亨利贞)
-      - 台湾油管-阿伟科技12
-      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - YouTube梦歌|Netflix_27
-      - 美国(youtube阿伟科技)
-      - CN【付费推荐：tt.vg/vip】 2
-      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
+      - 中国【付费推荐：https://v1.mk/vip】583
+      - YouTube：ATOM科技_546
+      - _CN_中国
+      - "@SSRSUB-V19-付费推荐:suo.yt/ssrsub"
+      - YouTube：ATOM科技_142
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - "@SSRSUB-V12-付费推荐:suo.yt/ssrsub"
+      - github.com/freefq - 加拿大多伦多Oracle云计算数据中心 12
+      - YouTube：ATOM科技_36
+      - YouTube：ATOM科技_402
+      - _CN_中国->🇭🇰_HK_香港
+      - 香港【付费推荐：https://v1.mk/vip】288
+      - _BZ_伯利兹->🇺🇸_US_美国 2
+      - 美国【付费推荐：https://v1.mk/vip】554
       - _US_美国
-      - github.com/freefq - 日本阿里云 37
-      - YouTube梦歌|Netflix_51
+      - _BZ_伯利兹
+      - _US_美国 2
+      - _US_美国->🇮🇳_IN_印度
+      - YouTube：ATOM科技_713
+      - 加拿大【付费推荐：https://v1.mk/vip】337
+      - YouTube：ATOM科技_44
+      - YouTube：ATOM科技_88
+      - YouTube：ATOM科技_325
+      - _HK_香港
+      - YouTube：ATOM科技_697
+      - 印度【付费推荐：https://v1.mk/vip】23
+      - _HK_香港 2
+      - _IN_印度
+      - _US_美国->🇸🇬_SG_新加坡
+      - 澳大利亚【付费推荐：https://v1.mk/vip】26
+      - github.com/freefq - 法国北部－加来海峡大区鲁贝OVH数据中心 13
+      - YouTube：ATOM科技_39
+      - YouTube：ATOM科技_658
+      - YouTube：ATOM科技_674
+      - _US_美国 3
+      - YouTube：ATOM科技_442
+      - YouTube：ATOM科技_458
+      - YouTube：ATOM科技_517
+      - YouTube：ATOM科技_435
+      - YouTube：ATOM科技_666
+      - YouTube：ATOM科技_733
+      - YouTube：ATOM科技_656
+      - YouTube：ATOM科技_547
+      - 中国【付费推荐：https://v1.mk/vip】153
+      - YouTube：ATOM科技_727
+      - YouTube：ATOM科技_322
+      - _CN_中国 2
+      - _CA_加拿大
+      - YouTube：ATOM科技_342
+      - 中国【付费推荐：https://v1.mk/vip】6
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
